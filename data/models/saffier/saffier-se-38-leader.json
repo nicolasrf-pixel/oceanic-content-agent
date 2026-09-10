@@ -1,0 +1,62 @@
+{
+  "model_id": "saffier-se-38-leader",
+  "brand_id": "saffier",
+  "family": "Saffier SE 38",
+  "model_name": "Saffier SE 38 Leader",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-38-leader/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 12.5,
+    "manga_m": 3.8,
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": 80,
+    "notas_specs": "Modelo más nuevo de la línea Elegance (lanzamiento 2026), posicionado como gama media-alta ('mid-range model with big ambitions')."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-se-38-leader/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada; specs vía snippet de yacht.de (revista náutica) y boat24."
+    },
+    {
+      "url": "https://www.yacht.de/en/yachts/cruising-yachts/saffier-se-38-leader-the-new-mid-range-model-with-big-ambitions/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Reportaje de revista náutica especializada (YACHT) con ficha técnica y contexto de lanzamiento 2026."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Lanzamiento reciente (2026); se marca NEW."
+}

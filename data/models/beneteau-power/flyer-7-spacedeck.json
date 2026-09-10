@@ -1,0 +1,42 @@
+{
+  "model_id": "flyer-7-spacedeck",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 7 SPACEdeck",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.bjmarine.net/new-boat-showrooms/beneteau/beneteau-power/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ver nota equivalente en flyer-7-sundeck. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Misma advertencia de certeza que flyer-7-sundeck."
+}

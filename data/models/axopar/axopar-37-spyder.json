@@ -1,0 +1,101 @@
+{
+  "model_id": "axopar-37-spyder",
+  "family": "Axopar 37",
+  "model_name": "Axopar 37 Spyder",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-37/",
+  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.51,
+    "manga_m": 3.35,
+    "calado_m": 0.84,
+    "desplazamiento_kg": 3390,
+    "motorizacion": "Fuera de borda, 2 x 300 a 2 x 400 hp",
+    "potencia_max": "2 x 400 hp",
+    "velocidad_max_nudos": 50,
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 722,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [
+    {
+      "variant_name": "2 x 300 hp",
+      "description": "Motorización fuera de borda gemela de entrada del rango de potencia reportado.",
+      "confidence_level": "LOW",
+      "notes": "Rango de potencia (2x300 a 2x400 hp) reportado por agregador de terceros, no confirmado en ficha oficial leída directamente."
+    },
+    {
+      "variant_name": "2 x 400 hp",
+      "description": "Motorización fuera de borda gemela tope de rango reportado.",
+      "confidence_level": "LOW",
+      "notes": "Mismo origen que la variante anterior."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/product-configurator/axopar-37-spyder?step=2",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Configurador oficial del fabricante para el 37 Spyder, indexado vía snippet."
+    },
+    {
+      "url": "https://www.yachtbuyer.com/en-us/axopar/new/axopar-37-spyder",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado de dealer usado como apoyo secundario de nombre comercial."
+    },
+    {
+      "url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente agregada de terceros que resume el rango 37 (Spyder/Sun-Top/XC) con specs de Spyder: LOA 37'9\" (~11.51 m), beam 11' (~3.35 m), calado 2'9\" (~0.84 m), peso excl. motor 3390 kg, combustible 722 l, velocidad 40-50 nudos, motorización 2x300-2x400 hp. Nota: las 3 configuraciones del 37 comparten casco pero difieren en peso/equipamiento según la misma fuente."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
+    },
+    {
+      "url": "https://oceanic.cl/2025/12/01/puerto-1/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Boletín menciona entrega de un 'Axopar 37' en Viña del Mar, sin especificar configuración (Spyder/Sun-Top/XC)."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Oceanic.cl confirma representación activa de 'Axopar 37' como línea (página de marca + mención de entrega en Viña del Mar), pero ninguna fuente de Oceanic distingue cuál(es) de las 3 configuraciones (Spyder / Sun-Top / XC Cross Cabin) vende específicamente. confidence_level MEDIUM refleja evidencia consistente de que el 37 en general es vendido por Oceanic; la atribución a esta configuración puntual (Spyder) queda abierta — ver discrepancy/nota equivalente en axopar-37-sun-top y axopar-37-xc-cross-cabin.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

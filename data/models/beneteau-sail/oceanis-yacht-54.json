@@ -1,0 +1,48 @@
+{
+  "model_id": "oceanis-yacht-54",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis Yacht",
+  "model_name": "Beneteau Oceanis Yacht 54",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-54",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-54",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Título indexado: 'BENETEAU Oceanis Yacht 54 | Excellence In Cruising'; diseño de Roberto Biscontini y Lorenzo Argento."
+    },
+    {
+      "url": "https://www.yachtworld.com/yacht/2026-beneteau-oceanis-yacht-54-7448014/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listado de unidad año modelo 2026 activa en YachtWorld."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Familia 'Oceanis Yacht' (54/60/62) se trata como familia distinta de 'Oceanis' por usar ruta propia en beneteau.com ('oceanis-yacht/'), aunque ambas comparten marca. No se encontró mención de este modelo en oceanic.cl en esta pasada; oceanic_url se deja null en vez de asumir la página general."
+}

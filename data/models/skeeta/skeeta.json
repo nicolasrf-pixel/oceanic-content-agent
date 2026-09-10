@@ -1,0 +1,165 @@
+{
+  "model_id": "skeeta",
+  "brand_id": "skeeta",
+  "family": "Skeeta",
+  "model_name": "Skeeta",
+  "category": "one_design",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://skeetawatersports.com/skeeta/",
+  "oceanic_url": "https://oceanic.cl/usados/skeeta/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 3.66,
+    "manga_m_sin_alas": 1.26,
+    "manga_m_con_alas": 2.3,
+    "peso_kg_casco": 38,
+    "tripulacion_max": 1,
+    "rango_peso_tripulante_kg": "60-100 kg",
+    "superficie_vela_m2_opciones": [
+      7.2,
+      8.5,
+      9.5
+    ],
+    "calado_m_navegacion": 0.2,
+    "calado_m_botado": 1.0,
+    "velocidad_despegue_nudos": 7.5,
+    "viento_minimo_despegue_nudos": "4 (o 6.5 con vela de 9.5 m2)",
+    "velocidad_maxima_nudos": "25+",
+    "notas_specs": "Specs primarias tomadas de snippet indexado de skeetawatersports.com/skeeta/ (fabricante). Existen fuentes secundarias con cifras distintas para eslora y peso (ver discrepancies)."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/usados/skeeta/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Única URL de oceanic.cl encontrada para Skeeta está bajo la sección de USADOS/brokerage, no una página de marca 'nueva' dedicada — mismo hallazgo ya documentado en master-inventory.json. La decisión humana registrada ahí (human_decisions) confirma que Skeeta sigue vigente como representada activa pese a esto."
+    },
+    {
+      "url": "https://skeetawatersports.com/skeeta/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del fabricante (Skeeta Watersports) con ficha técnica: eslora 3.66m, manga 1.26m/2.3m con alas, peso casco 38kg, velas 7.2/8.5/9.5 m2, calados 0.2m/1.0m, rango de peso tripulante 60-100kg, velocidad de despegue 7.5 nudos con viento mínimo 4 nudos (6.5 con vela de 9.5), velocidad máxima 25+ nudos."
+    },
+    {
+      "url": "https://www.cobrainter.com/news/news-press-release/cobra-international-announces-manufacturing-partnership-with-skeeta-foiling-craft",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de Cobra International (fabricante subcontratado, Tailandia) anunciando la alianza de manufactura para el Skeeta; confirma diseño de Jim y David French (Australia) y tecnología de foil 'Glide Free' de Dr Ian Ward."
+    },
+    {
+      "url": "https://www.yachtingworld.com/yachts-and-gear/the-10-best-foiling-dinghies-fun-ways-to-get-flying-for-all-abilities-152424",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Artículo de revista Yachting World cita specs distintas (eslora 4.70m, manga 1.83m, peso 130kg, vela 14.5m2 upwind) — ver discrepancies."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/skeeta/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Base de datos de terceros, cifras consistentes con el artículo de Yachting World (posible misma fuente original), distintas a las del fabricante."
+    },
+    {
+      "url": "https://mackayboats.com/index.cfm/boats/skeeta/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Distribuidor/constructor licenciado (Nueva Zelanda) confirma velas de 8.5 y 9.5 m2 y rango de peso de tripulante 60-100kg, consistente con la fuente primaria."
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "eslora_m",
+      "values": [
+        {
+          "value": 3.66,
+          "source": {
+            "url": "https://skeetawatersports.com/skeeta/",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Fabricante."
+          }
+        },
+        {
+          "value": 4.7,
+          "source": {
+            "url": "https://www.yachtingworld.com/yachts-and-gear/the-10-best-foiling-dinghies-fun-ways-to-get-flying-for-all-abilities-152424",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Revista náutica; misma cifra reproducida en sailboatdata.com."
+          }
+        }
+      ],
+      "notes": "Se prioriza la cifra del fabricante (Nivel 1, 3.66m) como señal más fuerte, pero se conserva la cifra alternativa (4.70m) sin descartarla, siguiendo CLAUDE.md sección 14. Posible explicación no confirmada: 4.70m podría incluir bauprés/plancha de proa o ser un error de la fuente secundaria; requiere verificación adicional."
+    },
+    {
+      "field": "peso_kg_casco",
+      "values": [
+        {
+          "value": 38,
+          "source": {
+            "url": "https://skeetawatersports.com/skeeta/",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Fabricante, peso de casco (hull weight)."
+          }
+        },
+        {
+          "value": 32,
+          "source": {
+            "url": "https://www.cobrainter.com/assets/downloads/Cobra-CS-Skeeta-Oct19-v2.pdf",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Caso de estudio de Cobra International (2019), posiblemente una cifra de una etapa temprana/prototipo del desarrollo."
+          }
+        },
+        {
+          "value": 130,
+          "source": {
+            "url": "https://sailboatdata.com/sailboat/skeeta/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Listado como 'weight (displacement)', probablemente peso total navegando con foils/alas/equipo, no solo el casco — métrica distinta, no necesariamente contradictoria."
+          }
+        }
+      ],
+      "notes": "Tres cifras distintas que probablemente miden cosas distintas (peso de casco desnudo vs peso all-up con foils y alas) o corresponden a distintas etapas de desarrollo del producto (2019 vs actual). No se resuelve arbitrariamente; se documentan las tres."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Se investigó también 'Nikki', un dinghy foiling más pequeño (2.9-3m aprox, velas 5.5/6.5 m2) del mismo fabricante (Skeeta Watersports / Skeeta Foiling Craft), orientado a niños/juveniles livianos. NO se creó un archivo de modelo separado para Nikki porque no se encontró evidencia de que Oceanic Chile lo represente (la única URL de oceanic.cl hallada es específicamente 'usados/skeeta/', sin mención de Nikki) y el brand_id asignado a esta tarea es 'skeeta', no un brand_id distinto para Nikki. Se recomienda una pasada de investigación dedicada si se decide evaluar a Nikki como variante o modelo adicional. Las 3 opciones de superficie vélica (7.2/8.5/9.5 m2) se registran como parte de las specifications del modelo (no como 'variants' formales del schema) porque son opciones de vela intercambiables dentro del mismo barco/plataforma, no versiones con nombre propio del fabricante — análogo al criterio aplicado a Switch, pero aquí el fabricante no les da nombres individuales (a diferencia de Switch, que si documenta 'rig' como opción clara de reconfiguración); se puede reclasificar como 'variants' si aparece evidencia de que el fabricante las trata como configuraciones nombradas."
+}

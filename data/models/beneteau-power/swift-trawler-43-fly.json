@@ -1,0 +1,51 @@
+{
+  "model_id": "swift-trawler-43-fly",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Swift Trawler",
+  "model_name": "Beneteau Swift Trawler 43 Fly",
+  "category": "motor",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 13.13,
+    "manga_m": 4.24,
+    "calado_m": 0.97,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 8,
+    "camarotes": 4,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del fabricante. Modelo anunciado para debut en Cannes Yachting Festival, septiembre 2026 (posterior a la fecha de esta investigación). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.barcheamotore.com/beneteau-swift-trawler-43-fly-all-the-cruising-you-could-want-in-13-meters/?lang=en",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio náutico especializado; confirma eslora/manga/calado/capacidad de pasajeros y cabinas. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo NUEVO, reemplaza generacionalmente al 'Swift Trawler 41 Fly' según comparativas de terceros (yachtbuyer.com 'Swift Trawler 41 Fly vs Swift Trawler 43 Fly'). No se encontró evidencia de que Oceanic Chile ya lo liste; confidence_level LOW hasta confirmar representación local."
+}

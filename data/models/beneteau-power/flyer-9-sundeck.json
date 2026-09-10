@@ -1,0 +1,51 @@
+{
+  "model_id": "flyer-9-sundeck",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 9 SUNdeck",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/flyer/flyer-9-sundeck",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 9.09,
+    "manga_m": 2.97,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/flyer/flyer-9-sundeck",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial vigente del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://rcryachts.com/beneteau-flyer-9-sundeck/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Dealer autorizado (no Oceanic); usado para completar eslora/manga (convertidas desde 29'10'' x 9'9''). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Motorización fuera de borda gemela hasta 500 hp según agregadores de terceros (no confirmado en fuente Nivel 1, se deja motorizacion/potencia_max como UNKNOWN por prudencia)."
+}

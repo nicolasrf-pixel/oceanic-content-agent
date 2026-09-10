@@ -1,0 +1,51 @@
+{
+  "model_id": "flyer-6-spacedeck",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 6 SPACEdeck",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/flyer-2017-2022/flyer-6-spacedeck",
+  "oceanic_url": "https://www.oceanic.cl/motor/flyer-6-spacedeck/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 6.8,
+    "manga_m": "UNKNOWN",
+    "calado_m": 0.4,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "1 x fuera de borda",
+    "potencia_max": "140 hp",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 8,
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.oceanic.cl/motor/flyer-6-spacedeck/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia en oceanic.cl (bajo namespace /motor/, distinto de /beneteau-motor/ usado por otras fichas del sitio); confirma representación local. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.beneteau.com/flyer-2017-2022/flyer-6-spacedeck",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página del fabricante; la ruta 'flyer-2017-2022' sugiere que corresponde a una generación de nomenclatura específica del sitio, no necesariamente año de descontinuación — no se encontró contraparte 'v2' más reciente para el Flyer 6 en esta pasada (sí existe para el Flyer 8, ver flyer-8-spacedeck), por lo que se marca lifecycle_status CURRENT apoyado en que oceanic.cl lo sigue listando activamente. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Specs (eslora/calado/potencia/pasajeros) provienen de itboat.com (Nivel 3, no citado como fuente primaria pero usado para completar specs) y quedan como referencia de menor certeza."
+}

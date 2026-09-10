@@ -1,0 +1,61 @@
+{
+  "model_id": "axopar-28-cabin",
+  "family": "Axopar 28",
+  "model_name": "Axopar 28 Cabin",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": "https://oceanic.cl/usados/axopar-28/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/usados/axopar-28/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listado de 'Axopar 28 Cabin' bajo la sección de usados (/usados/) de oceanic.cl, detectado vía snippet de búsqueda ('Axopar 28 Cabin – Oceanic'). Confirma que Oceanic Chile ha comercializado este modelo, pero como usado, no en catálogo nuevo vigente."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/29-vs-axopar-28-cabin-boats",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Comparativa de terceros entre Axopar 29 y Axopar 28 Cabin, consistente con que el 28 Cabin es la generación anterior al rango 29 actual del fabricante."
+    },
+    {
+      "url": "https://www.axopar.com/media/newsroom/press-releases/axopar-to-mark-a-decade-of-innovation-and-adventure-disclosing-the-all-new/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Press release del fabricante anunciando el 'all-new Axopar 29 range', consistente con que el 28 Cabin fue reemplazado por el 29 en el catálogo vigente de axopar.com (no aparece ya en https://www.axopar.com/boat-models/)."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "No aparece en el índice vigente de modelos del fabricante (axopar.com/boat-models/), que hoy solo lista 22, 25, 29, 37, 38 y 45 (más AX/E). Se marca DISCONTINUED porque además de no estar en el catálogo global vigente, en oceanic.cl solo aparece en la sección de usados, nunca en catálogo de modelos nuevos — evidencia consistente desde dos ángulos (fabricante + distribuidor), no solo 'ya no aparece en el sitio' (CLAUDE.md sección 21 exige más que eso para reclasificar como descontinuado; aquí hay doble señal). No se encontró página propia en axopar.com para este modelo, por eso manufacturer_url queda null.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

@@ -1,0 +1,107 @@
+{
+  "model_id": "solaris-44",
+  "brand_id": "solaris",
+  "family": "Solaris 44",
+  "model_name": "Solaris 44",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/44/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Quilla estándar / quilla reducida",
+      "description": "Calado estándar 2.60 m u opción de quilla reducida ('shoal draft') de 2.40 m, según giornaledellavela.com.",
+      "confidence_level": "MEDIUM",
+      "notes": "Configuración de quilla, no modelo aparte."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 13.35,
+    "manga_m": 4.18,
+    "calado_m": 2.6,
+    "desplazamiento_kg": 9900,
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 3,
+    "banos": 2,
+    "superficie_vela_m2": 119,
+    "notas_specs": "Especificaciones corresponden a la reinterpretación/relanzamiento reciente del Solaris 44 (cubierto por giornaledellavela.com 2026-07-22 y cruisingworld.com): diseño Javier Soto Acebal, 3 camarotes / 2 baños, mayor 66 m2 + génova de proa 53 m2 = 119 m2, desplazamiento en seco 9.900 kg (3.600 kg de lastre)."
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m / model_year / generación",
+      "values": [
+        {
+          "value": "13.35 m, generación relanzada 2025-2026 (reinterpretación del modelo original)",
+          "source": {
+            "url": "https://www.giornaledellavela.com/2026/07/22/the-new-solaris-44-13-m-the-modern-cruiser-according-to-the-italian-shipyard/?lang=en",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Cobertura de prensa especializada del 2026-07-22 sobre el nuevo Solaris 44."
+          }
+        },
+        {
+          "value": "13.46 m, ficha PDF fechada 2026-03 en dominio oficial pero con 'YEAR: 2004' en el encabezado (posible ficha de un Solaris 44 de generación anterior, 2013-2016 según itBoat/GlobeSailor)",
+          "source": {
+            "url": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/03/Solaris-44-Tabu.pdf",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "PDF en dominio oficial solarisyachts.com; el año '2004' en el encabezado no calza con la ficha de la nueva generación 2025-2026, y podría corresponder a una embarcación usada/brokerage de una generación anterior del modelo, no al modelo nuevo. No se pudo leer el PDF completo (WebFetch bloqueado)."
+          }
+        }
+      ],
+      "notes": "Hay al menos dos 'generaciones' del nombre 'Solaris 44' documentadas en fuentes secundarias: una producida ~2013-2016 (itBoat, GlobeSailor, 13.46 m) y la reinterpretación actual 2025-2026 (13.35 m, Javier Soto Acebal). El fabricante reutiliza el mismo nombre de modelo para la nueva generación en vez de un nombre distinto. Este archivo describe la generación ACTUAL (2025-2026); la generación anterior no se modela como archivo aparte en esta pasada por falta de ficha propia clara, pero se deja constancia aquí para no perder la señal ni inventar una resolución."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/44/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://www.giornaledellavela.com/2026/07/22/the-new-solaris-44-13-m-the-modern-cruiser-according-to-the-italian-shipyard/?lang=en",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Cobertura detallada del relanzamiento: LOA 13.35 m, beam 4.18 m, draft 2.60/2.40 m, desplazamiento seco 9.900 kg, lastre 3.600 kg, superficie vélica 119 m2, diseño Javier Soto Acebal, ingeniería estructural Solaris Design Team."
+    },
+    {
+      "url": "https://www.cruisingworld.com/sailboats/sailboat-review-solaris-44/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Layout de 3 camarotes / 2 baños con duchas separadas, camarote de proa para el armador, cocina en L a babor, mesa de navegación a estribor."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Ver campo discrepancies sobre la posible existencia de dos generaciones distintas bajo el mismo nombre 'Solaris 44'. Representación específica por Oceanic Chile no confirmada a nivel de modelo (oceanic_url null)."
+}

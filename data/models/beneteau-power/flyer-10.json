@@ -1,0 +1,51 @@
+{
+  "model_id": "flyer-10",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 10",
+  "category": "motor",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://boatingmag.com/story/boats/2021-beneteau-flyer-9-spacedeck/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Mencionado solo de forma indirecta como referencia de diseño ('Smart Walk around borrowed from the Flyer 10') dentro de una reseña del Flyer 9, no como ficha propia verificada en esta pasada. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.bjmarine.net/new-boat-showrooms/beneteau/beneteau-power/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado de dealer que incluye 'Flyer 10' y 'Flyer 10 Sport Top' dentro de la gama. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Existencia razonablemente probable (mencionado en dos fuentes independientes de Nivel 3) pero sin página propia de fabricante localizada ni specs verificadas en esta pasada — lifecycle_status se deja UNCONFIRMED a nivel de clasificación/vigencia hasta confirmar directamente en beneteau.com."
+}

@@ -1,0 +1,48 @@
+{
+  "model_id": "oceanis-55-1",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis",
+  "model_name": "Beneteau Oceanis 55.1",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.boattrader.com/boats/make-beneteau/model-oceanis-55.1/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Snippet resume: unidades más antiguas y más nuevas listadas son ambas de 2021 — no hay evidencia de modelos año 2026 nuevos, a diferencia de 46.1/51.1. Indicio de posible fin de producción, no confirmación."
+    },
+    {
+      "url": "https://www.bandofboats.com/en/all-brands/beneteau/oceanis",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado general de la línea Oceanis en un broker, incluye 55.1 sin distinguir estado de producción."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Posible modelo descontinuado/reemplazado (sucedido en el segmento >50 pies por Oceanis Yacht 54/60 y por Oceanis 52), pero la única evidencia disponible es ausencia de listados nuevos recientes en mercados de reventa — insuficiente para reclasificar a DISCONTINUED según CLAUDE.md sección 21 (requiere aprobación humana cuando la única evidencia es 'ya no aparece'). Se deja como UNCONFIRMED y se marca para revisión humana explícita."
+}

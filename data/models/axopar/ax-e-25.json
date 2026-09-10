@@ -1,0 +1,61 @@
+{
+  "model_id": "ax-e-25",
+  "family": "AX/E",
+  "model_name": "AX/E 25",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-25/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Eléctrica — Evoy Outboard Storm, 300+ hp equivalente (225 kW continuos / 450 kW pico)",
+    "potencia_max": "450 kW pico",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "N/A (propulsión eléctrica, batería 126 kWh)",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/axe/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de la sub-marca eléctrica AX/E del fabricante, indexada vía snippet."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-25/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto del AX/E 25."
+    },
+    {
+      "url": "https://robbreport.com/motors/marine/axopar-electric-adventure-boats-1235856236/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Origen de cifras de batería (126 kWh, recarga 10-80% en 45 min) y autonomía (~60 mn a baja velocidad). Reconocido con 'Gussies Award 2023' para 'Electric Boat in Production' según otro snippet de búsqueda."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Velocidad máxima reportada como 'over 50 knots' en fuente de terceros — cifra imprecisa (umbral, no valor exacto), por eso se deja como UNCONFIRMED en vez de un número específico en velocidad_max_nudos. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

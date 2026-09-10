@@ -1,0 +1,51 @@
+{
+  "model_id": "gran-turismo-40",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Gran Turismo",
+  "model_name": "Beneteau Gran Turismo 40",
+  "category": "motor",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x Mercury Verado 400hp fuera de borda o 2 x Yanmar 320hp intraborda (opciones)",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del fabricante, nueva generación (Coupe). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.beneteau.com/en-us/news/new-generation-premium-express-cruisers-gran-turismo-35-and-gran-turismo-40-coupe",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Nota de prensa oficial, Cannes Yachting Festival septiembre 2025. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Existe también un 'Gran Turismo 40' de generación anterior en beneteau.com/gran-turismo-heritage/gran-turismo-40 (heritage/discontinuado). No se confunde con este modelo nuevo. Eslora/manga no confirmadas de forma fiable en esta pasada (mismo riesgo de contaminación que gran-turismo-35)."
+}

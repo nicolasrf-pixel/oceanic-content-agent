@@ -1,0 +1,51 @@
+{
+  "model_id": "gran-turismo-32",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Gran Turismo",
+  "model_name": "Beneteau Gran Turismo 32",
+  "category": "motor",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/former-beneteau-motorboats/gran-turismo-2018-2024",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": 35,
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 4,
+    "camarotes": 2,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/former-beneteau-motorboats/gran-turismo-2018-2024",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "El propio fabricante lo aloja bajo 'former-beneteau-motorboats' (2018-2024), confirmación de descontinuación desde fuente Nivel 1 — no se trata de una inferencia por ausencia en el sitio (CLAUDE.md sección 21). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.beneteau.com/heritage-powerboats/gran-turismo-heritage",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página 'Gran Turismo heritage | Old range' del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Descontinuado y reemplazado generacionalmente por 'Gran Turismo 35' (nueva generación 2025-2026) según cronología del fabricante. Esta reclasificación se apoya en fuente Nivel 1 explícita ('former-beneteau-motorboats'), no solo en ausencia del sitio actual, por lo que no requeriría la aprobación humana reservada para reclasificaciones basadas únicamente en 'ya no aparece en el sitio' (CLAUDE.md sección 21) — aun así se recomienda confirmación humana antes de tratarlo como definitivo."
+}

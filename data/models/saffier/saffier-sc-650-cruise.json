@@ -1,0 +1,77 @@
+{
+  "model_id": "saffier-sc-650-cruise",
+  "brand_id": "saffier",
+  "family": "Saffier SC 6.50",
+  "model_name": "Saffier SC 6.50 Cruise",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-sc-6-50-cruise/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 6.5,
+    "manga_m": 2.05,
+    "peso_kg": 900,
+    "tripulacion_max": 6,
+    "superficie_vela_m2": 22,
+    "calado_m": 0.95,
+    "notas_specs": "Manga 6.73 ft ~ 2.05 m convertido; eslora nominal 6.50 m (21.33 ft ~ 6.50 m). Datos vía snippets de terceros (itboat, yacht.de, nauticexpo, carbonyachts.com.au), no fetch directo del fabricante."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-sc-6-50-cruise/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada; specs tomadas de snippets de revendedores/prensa que citan la ficha oficial, no de lectura directa de la página."
+    },
+    {
+      "url": "https://carbonyachts.com.au/saffier-yachts/saffier-sc-6-50-cruise/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Distribuidor autorizado (Australia) reproduce ficha técnica: eslora 21.33ft, manga 6.73ft, peso 900kg, 22m2 de vela, ratio de lastre 50%, motor diésel Yanmar u opción eléctrica Torqeedo."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Rediseño 2016 de la línea clásica, con bañera cerrada a diferencia del modelo anterior. No se encontró evidencia directa (fetch) de que Oceanic Chile lo tenga listado por nombre; representación de marca sí está confirmada (nivel 2).",
+  "variants": [
+    {
+      "variant_name": "Motorización diésel (Yanmar)",
+      "confidence_level": "MEDIUM",
+      "description": "Opción de motor diésel Yanmar.",
+      "notes": "Mencionada como opción estándar en fichas de distribuidor; no es un modelo distinto."
+    },
+    {
+      "variant_name": "Motorización eléctrica (Torqeedo)",
+      "confidence_level": "MEDIUM",
+      "description": "Opción de motor eléctrico Torqeedo.",
+      "notes": "Alternativa de motorización, misma plataforma/casco."
+    }
+  ]
+}

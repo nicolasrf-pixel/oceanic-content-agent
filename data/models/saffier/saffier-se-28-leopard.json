@@ -1,0 +1,63 @@
+{
+  "model_id": "saffier-se-28-leopard",
+  "brand_id": "saffier",
+  "family": "Saffier SE 28",
+  "model_name": "Saffier SE 28 Leopard",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.4,
+    "manga_m": 2.7,
+    "peso_kg": 2200,
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": 40,
+    "calado_m": 1.75,
+    "notas_specs": "Desplazamiento 2.2 toneladas con 750kg de lastre. 1 camarote con 4 literas. Vela mayor + génova = 40m2."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada; specs vía snippets de terceros (no-frills-sailing.com, yachtall, carbonyachts.com.au)."
+    },
+    {
+      "url": "https://saffieryachts.com/saffier-yachts-unveils-new-model-the-saffier-se-28-leopard/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado del fabricante anunciando el modelo, con premiere mundial en boot Düsseldorf 2026; casco de nueva forma con proa invertida."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo de reciente lanzamiento (premiere boot Düsseldorf enero 2026); ya aparece en listados de venta 2026-2027, por lo que se marca NEW en lugar de ANNOUNCED."
+}

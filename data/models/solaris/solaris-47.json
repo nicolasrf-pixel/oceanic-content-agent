@@ -1,0 +1,100 @@
+{
+  "model_id": "solaris-47",
+  "brand_id": "solaris",
+  "family": "Solaris 47",
+  "model_name": "Solaris 47",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/47/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "variants": [],
+  "specifications": {
+    "eslora_m": 14.35,
+    "manga_m": 4.36,
+    "calado_m": 2.8,
+    "desplazamiento_kg": "UNCONFIRMED",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 3,
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Desplazamiento reportado como 12.6 toneladas a media carga por itBoat (Nivel 3, snippet) -> UNCONFIRMED sin cifra en kg de fuente Nivel 1."
+  },
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "Fuera de producción, producido 2016-2022 (discontinuado)",
+          "source": {
+            "url": "https://itboat.com/models/7103-solaris-47",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "itBoat indica explícitamente producción 2016-2022 y 'out of production'."
+          }
+        },
+        {
+          "value": "Página de modelo aparentemente activa/indexada en el sitio oficial (título 'Solaris Yachts | 47')",
+          "source": {
+            "url": "https://www.solarisyachts.com/en/yachts/47/",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "URL bajo la ruta /en/yachts/ (gama vigente) en solarisyachts.com, indexada por buscador; no se pudo leer el contenido completo por bloqueo de red (WebFetch), por lo que no se puede confirmar si la página sigue vigente/activa o es residual."
+          }
+        }
+      ],
+      "notes": "Contradicción directa entre fuente Nivel 3 (discontinuado 2016-2022) y una URL bajo la ruta de gama vigente del sitio oficial. Siguiendo CLAUDE.md sección 14, se conservan ambos valores y NO se resuelve arbitrariamente; lifecycle_status se deja como UNCONFIRMED. Requiere lectura directa de solarisyachts.com/en/yachts/47/ (bloqueada en este entorno) para resolver."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/47/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "URL oficial indexada bajo /en/yachts/; contenido no leído completo."
+    },
+    {
+      "url": "https://itboat.com/models/7103-solaris-47",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 14.35 m, beam 4.36 m, draft 2.80 m, desplazamiento 12.6 t (media carga), 3 camarotes, producción 2016-2022, diseño Javier Soto Acebal, interiores Lucio Micheletti."
+    },
+    {
+      "url": "https://www.oceanic.cl/wp-content/uploads/2017/11/SOLARIS_47_EN_SS_0817.pdf",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "PDF de ficha técnica del Solaris 47 alojado en el propio dominio oceanic.cl (2017), evidencia de que Oceanic representó/publicó este modelo en el pasado. No confirma vigencia actual (2026) de la representación ni del modelo."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Existe un PDF de ficha técnica del Solaris 47 alojado en oceanic.cl desde 2017, lo que sugiere que Oceanic sí representó este modelo en el pasado; no se pudo confirmar si sigue vigente en el catálogo actual de Oceanic Chile en 2026. lifecycle_status UNCONFIRMED por contradicción documentada en discrepancies."
+}

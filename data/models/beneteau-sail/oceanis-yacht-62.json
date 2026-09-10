@@ -1,0 +1,48 @@
+{
+  "model_id": "oceanis-yacht-62",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis Yacht",
+  "model_name": "Beneteau Oceanis Yacht 62",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht-heritage/oceanis-yacht-62",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/oceanis-yacht-heritage/oceanis-yacht-62",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "La URL indexada en beneteau.com usa explícitamente la ruta 'oceanis-yacht-heritage' (herencia/archivo), a diferencia de 54 y 60 que usan 'oceanis-yacht/' (catálogo vigente). Señal de que el fabricante podría estar tratando este modelo como legado, no como catálogo activo."
+    },
+    {
+      "url": "https://www.boattrader.com/boats/make-beneteau/model-oceanis-yacht-62/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Aún aparecen listados activos (incl. año modelo 2026) en mercados de reventa/dealers, lo que no es concluyente sobre si hay producción nueva vigente o son inventario remanente."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "CLAUDE.md sección 21 exige aprobación humana para reclasificar como DISCONTINUED cuando la única evidencia es ausencia en el sitio; aquí la señal es justamente ese tipo (ruta 'heritage' en el propio sitio del fabricante) sin fetch directo que lo confirme. Se deja explícitamente como UNCONFIRMED y se marca para revisión humana, no se asume descontinuado."
+}

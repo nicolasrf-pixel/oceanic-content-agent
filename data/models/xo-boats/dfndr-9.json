@@ -1,0 +1,50 @@
+{
+  "model_id": "dfndr-9",
+  "brand_id": "xo-boats",
+  "family": "DFNDR",
+  "model_name": "XO DFNDR 9",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://xoboats.com/xo-fleet/dfndr-9/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.8,
+    "manga_m": 2.6,
+    "calado_m": 0.9,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2x Mercury 225 V6 (fueraborda) reportado como configuración de referencia",
+    "potencia_max_hp": "UNCONFIRMED",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "notas_especificaciones": "Descrito por el fabricante y prensa náutica como modelo premiado ('award winning'). Se reporta eslora también como 28'10\"/8.75m (redondeo consistente con 8.8m, no se trata como discrepancia real). Velocidad máxima reportada '+45 nudos' con motorización 2x225 Mercury V6, sin confirmación directa del fabricante."
+  },
+  "sources": [
+    {
+      "url": "https://xoboats.com/xo-fleet/dfndr-9/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha del fabricante identificada vía snippet de búsqueda ('DFNDR 9 - XO Boats', 'The award winning DFNDR 9 is a true pathfinder...'). No se pudo hacer fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://itboat.com/shipyards/1265-xo",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "itBoat lista XO DFNDR 9: LOA 8.8m, Beam 2.6m, Draft 0.9m, precio a consultar."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "confidence_level MEDIUM: evidencia consistente entre fabricante (snippet) y base de terceros, pero sin fetch directo ni confirmación de representación específica por Oceanic Chile (no se encontró mención puntual de DFNDR 9 en fuentes de Oceanic, solo de la marca XO en general y de DFNDR 8/EXPLR 44 específicamente). oceanic_url queda null — no se identificó ficha específica de este modelo en oceanic.cl."
+}

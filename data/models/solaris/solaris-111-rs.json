@@ -1,0 +1,69 @@
+{
+  "model_id": "solaris-111-rs",
+  "brand_id": "solaris",
+  "family": "Solaris 111",
+  "model_name": "Solaris 111 RS",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2020",
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/111/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [],
+  "specifications": {
+    "eslora_m": 33.77,
+    "manga_m": 7.9,
+    "calado_m": 3.9,
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Descrito como el más grande de la gama semi-custom de Solaris; casco y cubierta construidos íntegramente en fibra de carbono en la instalación de composites avanzados de Solaris. Primera unidad botada en el verano de 2020."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/111/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada (título 'Solaris Yachts | 111'); contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-111/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "LOA aproximado 33 m ('33-meter yacht') mencionado en snippet agregado; beam 7.9 m, draft 3.9 m según agregación de itboat/berthon."
+    },
+    {
+      "url": "https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/solaris-111-sy/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Primera unidad del Solaris 111 RS botada en verano de 2020; construida en instalación de composites avanzados con casco y cubierta en full carbono; el más grande de la gama semi-custom de Solaris."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Representación específica por Oceanic Chile no confirmada a nivel de modelo; dado el segmento (33 m, semi-custom de gran eslora) es razonable dudar de que Oceanic Chile lo represente activamente para el mercado local, pero no se encontró evidencia ni a favor ni en contra -> se deja constancia aquí, no se infiere."
+}

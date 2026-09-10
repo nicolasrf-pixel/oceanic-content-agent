@@ -1,0 +1,79 @@
+{
+  "model_id": "axopar-22-t-top",
+  "family": "Axopar 22",
+  "model_name": "Axopar 22 T-Top",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/range/axopar-22-t-top/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": "UNCONFIRMED",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNCONFIRMED",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNCONFIRMED",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNCONFIRMED",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/range/axopar-22-t-top/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto específica del modelo (título indexado vía snippet)."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/22-t-top-2022",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de agregador combinó specs de 'Axopar 22 Spyder T-Top': LOA 23'7\" (~7.19 m), beam 7'4\" (~2.24 m), peso excl. motor 1250 kg, calado a hélices 0.8 m, combustible 230 l, capacidad C:7 pasajeros. Ambiguo si aplica igual a ambas configuraciones, de ahí UNCONFIRMED."
+    },
+    {
+      "url": "https://www.eyachts.com.au/wp-content/uploads/2025/01/Axopar-22-T-Top-spec.pdf",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de dealer regional (Australia) para el 22 T-Top detectada por snippet; no se leyó el PDF completo."
+    },
+    {
+      "url": "https://oceanic.cl/2025/12/01/puerto-1/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Mención genérica de 'Axopar 22' entregado en Lago Riñihue, sin distinguir configuración."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Mismo caso que axopar-22-spyder: mención de Oceanic es genérica y aislada, no distingue variante. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

@@ -1,0 +1,119 @@
+{
+  "model_id": "dfndr-8",
+  "brand_id": "xo-boats",
+  "family": "DFNDR",
+  "model_name": "XO DFNDR 8",
+  "variants": [
+    {
+      "variant_name": "DFNDR 8 / DFNDR A8 Limited Edition",
+      "description": "Edición limitada (20 unidades reportadas) con interior turquesa, equipamiento Simrad 16\" y motor Mercury 300 V8; precio reportado 99.900 EUR + IVA.",
+      "confidence_level": "LOW",
+      "notes": "Fuentes secundarias (powerboatandrib.com) usan el nombre 'XO DFNDR A8' tanto para el lanzamiento original en Cannes 2023 ('primer casco XO 100% aluminio') como para esta edición limitada. No está confirmado si 'DFNDR A8' es (a) el nombre de trabajo/alternativo de la serie que se comercializa como 'DFNDR 8', o (b) una serie/modelo distinto que coexiste. Se anida aquí como variante por precaución (evitar promover a modelo independiente sin evidencia del fabricante), pero la clasificación queda UNCONFIRMED. Requiere verificación directa en xoboats.com (bloqueado en este entorno)."
+    }
+  ],
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://xoboats.com/xo-fleet/dfndr-8/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 7.8,
+    "manga_m": 2.3,
+    "calado_m": 0.9,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNCONFIRMED",
+    "potencia_max_hp": "UNCONFIRMED",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNCONFIRMED",
+    "precio_referencia_eur": "UNCONFIRMED",
+    "material_casco": "Aluminio (grado náutico/militar según posicionamiento de marca)",
+    "notas_especificaciones": "Fuentes secundarias (fueraborda) reportan configuraciones de motor variables: 1x Mercury 300 V8 o 2x225 hp según versión/edición; velocidad reportada '+50 nudos' (barcheamotore.com, cruisingodyssey.com) y capacidad reportada de 8 pasajeros (agregador boats.com) sin confirmación directa del fabricante. Lanzado en Boot Düsseldorf 2023."
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m",
+      "values": [
+        {
+          "value": 7.8,
+          "source": {
+            "url": "https://itboat.com/shipyards/1265-xo",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "itBoat lista XO DFNDR 8: LOA 7.8m, Beam 2.3m, Draft 0.9m, desde 60.700 EUR."
+          }
+        },
+        {
+          "value": 8.03,
+          "source": {
+            "url": "https://xoboats.com/xo-fleet/dfndr-8/",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Snippet agregado (búsqueda web) reporta 26'4\" / 8.03m, beam 8'4\" / 2.37m, sin atribución exacta al párrafo de origen dentro de la página; no se pudo confirmar con fetch directo (bloqueado). Posible confusión con la serie 'DFNDR A8' (ver variants) o con una versión/año distinto del modelo."
+          }
+        }
+      ],
+      "notes": "Discrepancia de ~23cm en eslora entre itBoat (7.8m) y el valor agregado atribuido a xoboats.com (8.03m). Se conservan ambos valores; no se elige uno arbitrariamente (CLAUDE.md sección 14). manga_m tiene la misma discrepancia (2.3m vs 2.37m)."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://xoboats.com/xo-fleet/dfndr-8/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de ficha del fabricante identificada vía snippet de búsqueda; confirma que DFNDR 8 está en la gama vigente de xoboats.com. No se pudo hacer fetch directo (WebFetch bloqueado por política de red del entorno, EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://itboat.com/shipyards/1265-xo",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Base de datos de terceros con specs de DFNDR 8: LOA 7.8m, Beam 2.3m, Draft 0.9m, desde 60.700 EUR."
+    },
+    {
+      "url": "https://oceanic.cl/usados/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Snippet de búsqueda indica una unidad 'XO DFNDR 8' año 2024 en la sección de usados de Oceanic Chile. Es evidencia de presencia del modelo en el mercado vía Oceanic, pero como unidad usada — no confirma que DFNDR 8 sea representado como modelo nuevo vigente en el portfolio activo de Oceanic. No se confirmó una ficha específica del modelo dentro de https://oceanic.cl/xo-boats/."
+    },
+    {
+      "url": "https://powerboatandrib.com/boating-news/xo-boats-celebrate-dfndr-a8-with-limited-edition-model/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Cobertura de prensa náutica sobre la edición limitada 'DFNDR A8'; base para la variante y para la nota de ambigüedad de nomenclatura DFNDR 8 / DFNDR A8."
+    },
+    {
+      "url": "https://cruisingodyssey.com/2022/06/28/xo-boats-unveils-rugged-new-dfndr-8/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Cobertura de lanzamiento del DFNDR 8; menciona velocidad '+50 nudos' con motorización doble."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "confidence_level MEDIUM: múltiples fuentes de terceros coinciden en la existencia y posicionamiento del modelo, y hay evidencia (usados de Oceanic) de presencia en el mercado chileno vía Oceanic, pero (a) no hay fetch directo a xoboats.com ni a oceanic.cl/xo-boats/ (bloqueo de red), (b) no se confirmó una ficha de producto específica de DFNDR 8 dentro de la página de marca de Oceanic (solo listado en usados), y (c) existe discrepancia de dimensiones y ambigüedad de nomenclatura con 'DFNDR A8'. No se debe promover a HIGH sin fetch directo o documento oficial. La página de marca https://oceanic.cl/xo-boats/ SÍ existe (encontrada en esta pasada, a diferencia de la verificación de marca previa) — ver log de verificación."
+}

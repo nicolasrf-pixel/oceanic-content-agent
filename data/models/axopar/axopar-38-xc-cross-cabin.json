@@ -1,0 +1,101 @@
+{
+  "model_id": "axopar-38-xc-cross-cabin",
+  "family": "Axopar 38",
+  "model_name": "Axopar 38 XC Cross Cabin",
+  "lifecycle_status": "NEW",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/axopar-38-xc-cross-cabin/",
+  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.86,
+    "manga_m": 3.53,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": 5300,
+    "motorizacion": "Fuera de borda, 2 x Mercury Verado V8 300 hp o 2 x Mercury Verado V10 350 hp",
+    "potencia_max": "2 x 350 hp (V10)",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [
+    {
+      "variant_name": "2 x Mercury Verado V8 300 hp",
+      "description": "Motorización base reportada; velocidad punta reportada ~42 nudos.",
+      "confidence_level": "LOW",
+      "notes": "Cifra de velocidad en nudos aproximada por fuente de terceros (ecys.com), no confirmada en ficha oficial leída directamente."
+    },
+    {
+      "variant_name": "2 x Mercury Verado V10 350 hp",
+      "description": "Motorización superior reportada; velocidad punta reportada ~46 nudos.",
+      "confidence_level": "LOW",
+      "notes": "Mismo origen que la variante anterior."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-38/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de familia Axopar 38 del fabricante, indexada vía snippet."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-38/axopar-38-xc-cross-cabin/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto oficial del 38 XC Cross Cabin."
+    },
+    {
+      "url": "https://www.axopar.com/media/newsroom/press-releases/introducing-the-all-new-axopar-38-built-on-an-icon-redefined/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de prensa oficial de lanzamiento del rango 38, debut en BOOT Düsseldorf 2026."
+    },
+    {
+      "url": "https://ecys.com/discovery/axopar-38-xc-cross-cabin/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de dealer, origen de: LOA 38'11\" (~11.86 m), beam 11'7\" (~3.53 m), peso excl. motor 5300 kg, opciones de motor V8 300 hp / V10 350 hp, velocidades punta reportadas 42/46 nudos respectivamente."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Contenido de oceanic.cl describe explícitamente el debut del 38 y el 'Cross Cabin' como 'Motoryacht of the year' en Singapur (mayo 2026), en el contexto de la línea 38 — confirmación directa y específica de este modelo por parte de Oceanic, más fuerte que las menciones genéricas de otras familias."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Primer modelo del nuevo rango Axopar 38, debutó en BOOT Düsseldorf enero 2026. Oceanic.cl lo menciona explícitamente por nombre de configuración ('Cross Cabin'), a diferencia de las menciones genéricas de otras familias — por eso confidence_level MEDIUM con mayor respaldo relativo. Aun así no alcanza HIGH por falta de fetch directo.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

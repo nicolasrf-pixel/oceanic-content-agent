@@ -1,0 +1,89 @@
+{
+  "model_id": "saffier-sl-46",
+  "brand_id": "saffier",
+  "family": "Saffier SL 46",
+  "model_name": "Saffier SL 46",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-sl-46/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_total_m": 14.9,
+    "eslora_casco_m": 13.75,
+    "manga_m": 4.45,
+    "peso_kg": 10900,
+    "lastre_kg": 3200,
+    "calado_m_crucero": 2.2,
+    "calado_m_regata": 2.6,
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Nuevo buque insignia de Saffier (astillero más grande). Disponible en dos versiones de bañera/configuración: MED y NORTH (ver variantes)."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-sl-46/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada, titulada 'Saffier SL 46 MED | NORTH', confirmando dos versiones."
+    },
+    {
+      "url": "https://carbonyachts.com.au/wp-content/uploads/2024/01/Saffier-46-Specs.pdf",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "PDF de especificaciones estándar de distribuidor autorizado (Carbon Yachts, Australia): eslora con bauprés 14.90m, casco 13.75m, manga 4.45m, calado 2.20/2.60m, desplazamiento 10900kg, lastre 3200kg."
+    },
+    {
+      "url": "https://sailuniverse.com/2025/04/16/discovering-the-saffier-sl-46-the-new-flagship-will-be-available-in-two-versions/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Medio náutico confirma explícitamente que el SL 46 estará disponible 'en dos versiones' (MED y NORTH)."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "model_id genérico 'saffier-sl-46' porque ambas versiones (MED/NORTH) comparten familia y casco; se tratan como variantes, no como modelos separados, salvo evidencia futura de fichas técnicas y nombres comerciales completamente independientes.",
+  "variants": [
+    {
+      "variant_name": "SL 46 MED",
+      "confidence_level": "MEDIUM",
+      "description": "Configuración de bañera 'lounge' mediterránea XXL, bancos movibles y popa abierta.",
+      "notes": "Nombrada explícitamente por el fabricante como versión propia (título de página 'SL 46 MED | NORTH')."
+    },
+    {
+      "variant_name": "SL 46 NORTH",
+      "confidence_level": "LOW",
+      "description": "Versión orientada a navegación en aguas del norte de Europa (configuración de bañera distinta a MED).",
+      "notes": "Mencionada junto a MED en título de página del fabricante y en cobertura de prensa náutica ('disponible en dos versiones'), pero no se encontró ficha técnica separada para NORTH en esta pasada de búsqueda."
+    }
+  ]
+}

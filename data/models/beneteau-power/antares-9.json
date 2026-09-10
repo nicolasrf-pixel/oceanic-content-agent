@@ -1,0 +1,122 @@
+{
+  "model_id": "antares-9",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Antares",
+  "model_name": "Beneteau Antares 9",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-9",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": 2.99,
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "1 x fuera de borda",
+    "potencia_max": "500 hp",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNCONFIRMED",
+    "capacidad_agua_l": "UNCONFIRMED",
+    "pasajeros": "UNCONFIRMED",
+    "camarotes": 2,
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m",
+      "values": [
+        {
+          "value": 9.12,
+          "source": {
+            "url": "https://itboat.com/en/model/7746-beneteau-antares-9-SeNn6/for-sale",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "9.12 m coherente con la familia (mayor que Antares 8, menor que Antares 11). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        },
+        {
+          "value": 8.23,
+          "source": {
+            "url": "https://ilodka.com/en/models/beneteau-antares-9/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "8.23 m es idéntico al valor de eslora reportado para el Antares 8 en otra búsqueda — alto riesgo de contaminación/cruce de datos entre modelos en el resumen de búsqueda, no se descarta pero tampoco se confirma. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        }
+      ],
+      "notes": "Dos cifras de eslora incompatibles para el mismo modelo. La cifra de 8.23 m coincide sospechosamente con la del Antares 8, lo que sugiere posible confusión de modelos en la síntesis de búsqueda. Se conservan ambas per CLAUDE.md sección 14; specifications.eslora_m se deja UNCONFIRMED en el registro principal en vez de elegir una sin evidencia adicional."
+    },
+    {
+      "field": "capacidad_combustible_l / capacidad_agua_l / pasajeros",
+      "values": [
+        {
+          "value": "600 L combustible / 160 L agua / no reportado pasajeros",
+          "source": {
+            "url": "https://itboat.com/en/model/7746-beneteau-antares-9-SeNn6/for-sale",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        },
+        {
+          "value": "~598 L combustible (158 gal) / ~76 L agua (20 gal) / 10 pasajeros",
+          "source": {
+            "url": "https://ilodka.com/en/models/beneteau-antares-9/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        }
+      ],
+      "notes": "Cifras de combustible aproximadamente coincidentes entre ambas fuentes (convertidas a litros); agua y pasajeros no verificables de forma cruzada. Se deja specifications en UNCONFIRMED por prudencia dado el riesgo de contaminación detectado en eslora_m para el mismo modelo."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/antares-outboard/antares-9",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial vigente del fabricante ('The Ultimate Weekender'). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://itboat.com/en/model/7746-beneteau-antares-9-SeNn6/for-sale",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente A: reporta eslora total 9.12 m, manga 2.99 m, calado 0.6-0.9 m, combustible 600 L, agua 160 L, 2 camarotes. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://ilodka.com/en/models/beneteau-antares-9/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente B: reporta eslora 8.23 m (coincide con la cifra de Antares 8, ver discrepancies), 10 pasajeros, 158 gal combustible, 20 gal agua, 500hp, autonomía 130 mn. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo con evidencia de existencia y vigencia sólida (página propia del fabricante), pero con conflicto de datos entre dos fuentes secundarias para eslora y otras cifras — ver discrepancies. Se prioriza no inventar/resolver arbitrariamente sobre completitud (CLAUDE.md sección 1, orden de prioridad)."
+}

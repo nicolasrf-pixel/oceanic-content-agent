@@ -1,0 +1,85 @@
+{
+  "model_id": "saffier-sc-8m-open",
+  "brand_id": "saffier",
+  "family": "Saffier SC 8m",
+  "model_name": "Saffier SC 8m Open",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/saffier-se-26-renamed-saffier-sc-8m-open/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.0,
+    "manga_m": "UNKNOWN",
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Más de 160 unidades vendidas bajo su nombre anterior/actual combinado (SE 26 / SC 8m Open)."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/saffier-se-26-renamed-saffier-sc-8m-open/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Artículo del propio fabricante confirma que el modelo 'Saffier SE 26' fue renombrado a 'Saffier SC 8m Open', ahora parte de la línea Classic."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Variante 'open/bañera abierta' de la familia SC 8m, day-sailer sin cabina cerrada equivalente, distinta de SC 8m Cabin.",
+  "discrepancies": [
+    {
+      "field": "model_name",
+      "values": [
+        {
+          "value": "Saffier SE 26",
+          "source": {
+            "url": "https://www.boats.com/sailing-boats/2014-saffier-se-26-sc-8m-open-9521736/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Listado de 2014 usa el nombre original SE 26."
+          }
+        },
+        {
+          "value": "Saffier SC 8m Open",
+          "source": {
+            "url": "https://saffieryachts.com/saffier-se-26-renamed-saffier-sc-8m-open/",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Nombre actual tras el cambio de marca/nomenclatura confirmado por el fabricante."
+          }
+        }
+      ],
+      "notes": "No es una contradicción de datos técnicos sino un cambio de nomenclatura histórico del propio fabricante (SE 26 -> SC 8m Open). Se documenta para trazabilidad, ambos nombres refieren al mismo modelo base."
+    }
+  ]
+}

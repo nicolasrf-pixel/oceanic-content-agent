@@ -1,0 +1,60 @@
+{
+  "model_id": "gran-turismo-50",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Gran Turismo",
+  "model_name": "Beneteau Gran Turismo 50",
+  "category": "motor",
+  "lifecycle_status": "NEW",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-50",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 15.95,
+    "manga_m": 4.48,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x Volvo Penta IPS650",
+    "potencia_max": "2 x 480 hp",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-50",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del fabricante para el nuevo buque insignia de la línea. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.salonenautico.com/en/2026/09/09/beneteau-unveils-its-new-flagship-the-gran-turismo-50/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Cobertura de prensa del Salone Nautico di Genova, 9 de septiembre de 2026 (un día antes de esta investigación); confirma que es el nuevo buque insignia ('new flagship') de la gama. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.mby.com/motor-boat-news-boat-reviews-pictures-and-videos/new-beneteau-gran-turismo-50-a-modern-take-on-a-traditional-sportscruiser-138697",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Reseña de medio náutico, corrobora eslora/manga/motorización. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Presentación pública muy reciente (8-9 de septiembre de 2026, un día antes de esta investigación) en Salone Nautico di Genova — mayor consistencia entre fuentes que gran-turismo-35/40, de ahí confidence_level MEDIUM en vez de LOW. Sin confirmación de representación en Chile / oceanic.cl en esta pasada."
+}

@@ -1,0 +1,79 @@
+{
+  "model_id": "axopar-45-cross-top",
+  "family": "Axopar 45",
+  "model_name": "Axopar 45 Cross Top",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 13.91,
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": 7300,
+    "motorizacion": "Fuera de borda, 3 x 300 hp Mercury (configuración de referencia)",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-45/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de familia Axopar 45 del fabricante, indexada vía snippet."
+    },
+    {
+      "url": "https://www.axopar.com/pressroom/the-new-axopar-45-range",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de prensa del fabricante sobre el rango 45 vigente, confirma que el rango actual son 3 modelos (XC Cross Cabin, Sun Top, Cross Top), sin Spyder/T-Top."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto específica, indexada vía snippet."
+    },
+    {
+      "url": "https://itboat.com/shipyards/1380-axopar",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de agregador de origen de la discrepancia 'Spyder/T-Top' en el 45 — ver notas del modelo."
+    },
+    {
+      "url": "https://www.eyachts.com.au/wp-content/uploads/2025/01/Axopar-45-Cross-Top-spec-MY-2025.pdf",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de dealer regional (Australia), model year 2025: LOA 13.91 m (45'8\"), consumo crucero 4.1 l/nm con 3x300 hp Mercury a 25 nudos, peso excl. motor 7300 kg."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Descrito por el fabricante como híbrido entre Sun Top y Cross Cabin. Eslora y peso con relativa confirmación (ficha de dealer MY2025, Nivel 3); el resto de specs quedan UNKNOWN. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí. Discrepancia detectada y documentada (no se creó un archivo de modelo propio para ella, por ser evidencia demasiado débil para tratarla como modelo confirmado): una fuente de agregador (itboat.com, Nivel 3, snippet único) listó 'Axopar 45 Spyder' y 'Axopar 45 T-Top' como parte del rango 45, mientras que fuentes directas del fabricante (axopar.com/pressroom, axopar.com/boat-models/axopar-45/) describen el rango 45 vigente como compuesto únicamente por XC Cross Cabin, Sun Top y Cross Top — sin Spyder ni T-Top. Es posible que 'Spyder'/'T-Top' hayan existido en generaciones anteriores del 45 (esas nomenclaturas sí existen vigentes en el 22 y existieron en el 37), o que el agregador haya mezclado información de otras esloras. No se resuelve aquí (CLAUDE.md sección 14): se registra para investigación dirigida en Fase 2, sin promoverla a modelo propio ni descartarla en silencio.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

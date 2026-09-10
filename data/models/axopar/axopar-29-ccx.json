@@ -1,0 +1,70 @@
+{
+  "model_id": "axopar-29-ccx",
+  "family": "Axopar 29",
+  "model_name": "Axopar 29 CCX",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-ccx/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 9.32,
+    "manga_m": 3.0,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Fuera de borda, hasta 2 x 250 hp (Mercury)",
+    "potencia_max": "2 x 250 hp",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "22-36 nudos (rango reportado)",
+    "capacidad_combustible_l": 598,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/pressroom/axopar-enters-the-center-console-market-and-introduces-fishing-version-of-the-axopar-29-ccx-at",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de prensa del fabricante: primer modelo de Axopar en el segmento 'center console', versión 'fishing' presentada en Fort Lauderdale International Boat Show."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/29-ccx-2024",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de agregador (BoatTEST) origen de: LOA 30'7\" (~9.32 m), beam 9'10\" (~3.00 m), estanque de combustible 158 gal (~598 l), velocidad crucero reportada 22-36 nudos, motorización hasta 2x250 hp Mercury. Velocidad máxima mencionada como 'well over 50 mph' (unidad no náutica, por eso UNCONFIRMED en vez de un número en nudos)."
+    },
+    {
+      "url": "https://www.rightboat.com/blog/axopar-29-ccx-review",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Reseña de tercero, usada como apoyo secundario sobre características de pesca (baitwell, livewell, etc.), fuera del alcance de specs núcleo del esquema."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "El fabricante lo describe explícitamente como su 'first venture into the center console market' — por lo tanto es un modelo propio dentro de la familia Axopar 29, no una variante de otro modelo 29. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

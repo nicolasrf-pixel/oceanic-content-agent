@@ -1,0 +1,62 @@
+{
+  "model_id": "saffier-sc-8m-cabin",
+  "brand_id": "saffier",
+  "family": "Saffier SC 8m",
+  "model_name": "Saffier SC 8m Cabin",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.0,
+    "manga_m": "UNCONFIRMED",
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": 4,
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Interior con litera doble a proa, dos literas individuales a popa, galley con cocina y lavaplatos; capacidad hasta 4 personas para pernoctar. Motor Yanmar diésel u opción eléctrica Torqeedo (igual que SC 6.50)."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada por buscador; contenido resumido vía snippets, no lectura completa."
+    },
+    {
+      "url": "https://www.yachtworld.com/boats-for-sale/make-saffier/model-sc-8m-cabin/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listados 2023-2026 confirman que el modelo sigue en producción/venta activa (ej. anuncio '2026 Saffier SC 8M Cabin Daysailer for sale')."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Variante 'con cabina/interior' de la familia SC 8m, distinta de SC 8m Open (ver saffier-sc-8m-open.json), tratada como modelo propio porque el fabricante las nombra y cataloga por separado (Cabin vs Open)."
+}

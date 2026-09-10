@@ -1,0 +1,66 @@
+{
+  "model_id": "saffier-se-33-life",
+  "brand_id": "saffier",
+  "family": "Saffier SE 33",
+  "model_name": "Saffier SE 33 Life",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-33-life/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 9.85,
+    "eslora_con_bauprés_m": 11.0,
+    "manga_m": 2.85,
+    "peso_kg": 3000,
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": 55.0,
+    "calado_m_quilla_estandar": 1.7,
+    "calado_m_quilla_baja": 1.45,
+    "calado_m_quilla_regata_opcional": 2.1,
+    "notas_specs": "Ficha oficial PDF de distribuidor (marinesc.com) reproduce specs del fabricante: eslora 9.85m (11m con bauprés), manga 2.85m, desplazamiento 3000kg, 3 opciones de quilla. Superficie vélica calculada desde mayor 355.21 sqft + foque 236.81 sqft (~33 + 22 m2 aprox); valor exacto en m2 no confirmado directamente, ver notas_specs."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-se-33-life/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada."
+    },
+    {
+      "url": "https://marinesc.com/wp-content/uploads/2025/04/SPECIFICATIONS_SAFFIER_SE_33_LIFE_ENG.pdf",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "PDF de especificaciones estándar distribuido por Marine Servicenter (distribuidor autorizado en EE.UU.), consistente con ficha del fabricante: eslora, manga, calados y desplazamiento."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Conversión de superficie vélica de sqft a m2 hecha por este agente a partir de valores en pies cuadrados citados por la fuente (355.21 + 236.81 sqft); se deja como 'notas_specs' explícitas para trazabilidad del cálculo, no como dato directamente leído en m2."
+}

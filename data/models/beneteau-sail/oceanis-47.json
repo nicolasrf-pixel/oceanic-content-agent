@@ -1,0 +1,48 @@
+{
+  "model_id": "oceanis-47",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis",
+  "model_name": "Beneteau Oceanis 47",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.cruisingworld.com/sailboats/beneteau-oceanis-47-52/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "'Beneteau Launches Eighth-Gen Oceanis 47 and 52 Cruising Yachts' — debut en el Cannes Boat Show de septiembre de 2025, producción esperada tras el debut, entregas previstas fines de 2025 / inicios de 2026."
+    },
+    {
+      "url": "https://www.beneteau.com/en-us/sailboats/oceanis",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial de rango Oceanis (fabricante). No es página de modelo específico; usada como respaldo de que la familia Oceanis está vigente."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Primer modelo de la 8ª generación Oceanis (junto al 52), reemplaza la nomenclatura '.1'. No se encontró página de modelo dedicada en beneteau.com en esta pasada (solo cobertura de prensa especializada, fuente Nivel 3). No se encontró mención específica en oceanic.cl; se marca oceanic_url null explícitamente en vez de asumir representación."
+}

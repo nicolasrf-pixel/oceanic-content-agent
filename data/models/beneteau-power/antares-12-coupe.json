@@ -1,0 +1,51 @@
+{
+  "model_id": "antares-12-coupe",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Antares",
+  "model_name": "Beneteau Antares 12 Coupe",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-12-coupe",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 12.98,
+    "manga_m": 3.78,
+    "calado_m": 1.1,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 6,
+    "camarotes": 3,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12-coupe",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial vigente del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://boatingmag.com/boats/2026-beneteau-antares-12-coupe-boat-test/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Boat test de medio especializado fechado 2026; corrobora eslora/manga/calado (convertidas desde 42'7'' x 12'5'') y capacidad de 6 huéspedes / 3 cabinas. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Sin representación local (oceanic.cl) confirmada en esta pasada; se incluye por evidencia de fabricante de que integra la gama Antares Outboard vigente."
+}

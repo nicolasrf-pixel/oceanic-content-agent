@@ -1,0 +1,48 @@
+{
+  "model_id": "first-24-se",
+  "brand_id": "beneteau-sail",
+  "family": "First SE",
+  "model_name": "Beneteau First 24 SE",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/first-se/first-24-se",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": "UNCONFIRMED",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/first-se/first-24-se",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia dentro de 'First SE'."
+    },
+    {
+      "url": "https://murrayyachtsales.com/yacht-details/?id=82041",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Ficha de dealer: '24ft 2026 Beneteau First 24 SE', LOA 23'11\" (~7.29 m), manga 8'2\" (~2.49 m), trasladable por carretera con sistema de arriado de mástil."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "No se confirmó si el First 24 SE reemplaza formalmente al First 24 clásico o coexiste como producto separado; se mantienen ambos como modelos distintos por tener nombre y ficha propios, sin asumir relación de reemplazo."
+}

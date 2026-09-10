@@ -1,0 +1,56 @@
+{
+  "model_id": "lagoon-eighty-3",
+  "brand_id": "lagoon",
+  "family": "Lagoon Eighty 3",
+  "model_name": "Lagoon Eighty 3",
+  "variants": [
+    {
+      "variant_name": "hasta 6 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    }
+  ],
+  "category": "power_catamaran",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 24.4,
+    "manga_m": 11.0,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "camarotes": "hasta 6",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "motorizacion_estandar": "2 x John Deere N13-580 (580 HP)"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.lagoon-catamaran.de/en/lagoon-models/lagoon-eighty-3.html",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de distribuidor alemán oficial de Lagoon describiendo el Eighty 3 como el nuevo flagship de la línea motor ('300 m2 Luxury Motor Catamaran'). Nivel 1 porque es contenido del fabricante replicado por su red oficial de distribución (CLAUDE.md sección 4, Nivel 1 incluye 'documentación técnica oficial')."
+    },
+    {
+      "url": "https://tmgyachts.com/lagoon-eighty-3/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Distribuidor/revendedor de terceros (Australia) con especificaciones consistentes."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Parte de la línea de catamaranes A MOTOR de Lagoon ('Power catamarans', catamarans-lagoon.com/ranges/power-catamarans). No se encontró evidencia de que este modelo específico tenga página propia en oceanic.cl ni de que Oceanic lo represente -- a diferencia del Lagoon Seventy 8, que SÍ está confirmado en oceanic.cl (ver lagoon-seventy-8.json). Se documenta como catálogo global del fabricante únicamente. oceanic_url null. No se afirma que Oceanic no lo represente, solo que no se pudo confirmar en esta pasada (CLAUDE.md secciones 6 y 22). Mencionado en resultados de búsqueda como parte de la alineación exhibida en Cannes Yachting Festival 2026 ('NEW EIGHTY 3'), por eso lifecycle_status='NEW' en vez de 'CURRENT' (modelo recién incorporado al catálogo, no un lanzamiento aún no confirmado como el Lagoon 47, que se deja como 'ANNOUNCED')."
+}

@@ -1,0 +1,67 @@
+{
+  "model_id": "solaris-64-rs",
+  "brand_id": "solaris",
+  "family": "Solaris 64",
+  "model_name": "Solaris 64 RS",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/64/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Camarote adicional (4 en total)",
+      "description": "Opcionalmente se puede agregar un cuarto camarote con baño reduciendo el área de la cocina, sobre la configuración estándar de 3 camarotes 'Master' en-suite.",
+      "confidence_level": "MEDIUM",
+      "notes": "Opción de layout, no modelo aparte."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 19.4,
+    "manga_m": 5.4,
+    "calado_m": 3.3,
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": 800,
+    "capacidad_agua_l": 900,
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 3,
+    "banos": 3,
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Salón elevado ('raised saloon') con ventanas de 360 grados y sala de máquinas central con dos camarotes de popa aislados de ruido, según cobertura de prensa (Nivel 3)."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/64/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://itboat.com/models/10119-solaris-64-rs",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 19.4 m, beam 5.4 m, draft 3.3 m, 3 camarotes 'Master' en-suite (opcional 4to), combustible 800 l, agua 900 l."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Nombre de modelo 'Solaris 64 RS' usado consistentemente en fuentes secundarias y en cobertura de Cannes Yachting Festival 2026 (junto a 50, 55 y 60); la página oficial indexada usa solo '64' en el slug/título. Representación específica por Oceanic Chile no confirmada a nivel de modelo."
+}

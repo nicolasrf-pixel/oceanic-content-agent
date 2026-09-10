@@ -1,0 +1,84 @@
+{
+  "model_id": "vx-one",
+  "brand_id": "vx-one",
+  "family": "VX One",
+  "model_name": "VX One",
+  "category": "one_design",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2012 (diseño original)",
+  "manufacturer_url": "https://vxsailing.com/",
+  "oceanic_url": "https://www.oceanic.cl/vela/vxone/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 5.79,
+    "manga_m": 2.19,
+    "calado_m_quilla_abajo": 1.32,
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": 3,
+    "tripulacion_min": 2,
+    "rango_peso_tripulacion_kg": "172-204 kg (380-450 lbs), convertido desde libras citadas por la fuente",
+    "superficie_vela_m2_mayor_foque": 19.97,
+    "superficie_vela_m2_gennaker": 26.0,
+    "notas_specs": "Peso (displacement) del casco no confirmado en esta pasada de búsqueda; se deja UNKNOWN en vez de estimarlo."
+  },
+  "sources": [
+    {
+      "url": "https://www.oceanic.cl/vela/vxone/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca/modelo dedicada en oceanic.cl; describe al VX One como 'nuevo y emocionante barco One Design para tripulaciones de dos o tres personas', consistente con brand_description ya presente en master-inventory.json."
+    },
+    {
+      "url": "https://oceanic.cl/vx-one/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "URL alternativa encontrada en esta pasada ('oceanic.cl/vx-one/', sin '/vela/'); no se confirmó si es la misma página, una redirección, o una página distinta/antigua. Se documenta para que un fetch directo futuro aclare cuál es la URL canónica vigente."
+    },
+    {
+      "url": "https://oceanic.cl/usados/vx-one/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Sección de usados de Oceanic también incluye VX One, ya registrado en master-inventory.json."
+    },
+    {
+      "url": "https://www.vxone.com/specs",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial de especificaciones de la clase VX One (constructor/asociación de clase): eslora 19'/5.79m, manga 7.17'/2.19m, calado 4.33'/1.32m, vela mayor+foque 215 sqft/19.97m2, gennaker 280 sqft/26m2."
+    },
+    {
+      "url": "https://www.ussailing.org/one-design-profile/vx-one/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Perfil de clase one-design de US Sailing, consistente con specs del fabricante."
+    },
+    {
+      "url": "https://vxsailing.com/vx-one-class-rules/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Reglas de clase del VX One: clase estrictamente 'one-design' (Closed Class Rules); casco, quilla, timón y aparejo solo pueden ser suministrados por 'Licensed Manufacturers' (Ovington Boats UK, Mackay Boats NZ, y el fabricante original en EE.UU.); modificaciones posteriores muy restringidas salvo velas, que pueden ser de cualquier velero siempre que cumplan la regla de clase."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Confirmado como MODELO ÚNICO: la clase VX One es 'closed class' (one-design estricta) construida exclusivamente por fabricantes licenciados (Ovington Boats, Mackay Boats), sin ediciones/versiones de fábrica distintas más allá de las velas (que sí pueden variar de fabricante de velas, dentro de la regla de clase) y accesorios/parche de personalización permitidos. No se encontró un 'Mark 2' ni evidencia de sub-modelos. peso_kg queda UNKNOWN: no se halló cifra de peso del casco/desplazamiento en esta pasada; requiere fetch directo de vxone.com/specs o vxsailing.com para completarlo."
+}

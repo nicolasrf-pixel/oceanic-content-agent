@@ -1,0 +1,48 @@
+{
+  "model_id": "first-53",
+  "brand_id": "beneteau-sail",
+  "family": "First",
+  "model_name": "Beneteau First 53",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "15.98 (UNCONFIRMED, fuente Nivel 3)",
+    "manga_m": "5.0 (UNCONFIRMED, fuente Nivel 3)",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "3 (UNCONFIRMED, fuente Nivel 3)",
+    "banos": "2 (UNCONFIRMED, fuente Nivel 3)",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.yachtworld.com/yacht/2026-beneteau-first-53-7275655/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listado año modelo 2026: eslora total 15.98 m (56.27 ft), manga máxima 5 m, motor diésel Yanmar 4JH80 (80 HP) o 4JH110 (110 HP) según configuración, 3 camarotes, 2 baños."
+    },
+    {
+      "url": "https://www.yachtworld.com/yacht/2026-beneteau-first-53-7657218/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Segundo listado año modelo 2026 del mismo modelo, en otra unidad/configuración."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "No se encontró página de modelo dedicada en beneteau.com en esta pasada (solo listados de mercado, fuente Nivel 3); manufacturer_url se deja null. Datos de especificación provienen de fuente Nivel 3 vía snippet (no fetch directo), por lo que verification_state de esas fuentes es UNCONFIRMED aunque los números sean específicos — no se elevan a CONFIRMED sin lectura directa de una fuente Nivel 1 o 2."
+}

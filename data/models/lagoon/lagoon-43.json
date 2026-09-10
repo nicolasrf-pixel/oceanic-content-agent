@@ -1,0 +1,70 @@
+{
+  "model_id": "lagoon-43",
+  "brand_id": "lagoon",
+  "family": "Lagoon 43",
+  "model_name": "Lagoon 43",
+  "variants": [
+    {
+      "variant_name": "3 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "3 cabanas + Pullman",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "4 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "4 cabanas + Pullman",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon-43/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 13.85,
+    "manga_m": 7.69,
+    "calado_m": 1.31,
+    "desplazamiento_kg": 13900,
+    "capacidad_combustible_l": 570,
+    "capacidad_agua_l": 630,
+    "camarotes": "3 o 4 (con opción Pullman)",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/lagoonvela/lagoon-43/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto dedicada 'Lagoon 43 - Oceanic'; descrita como catamarán adaptable para parejas, familias o amigos. También listado en master-inventory.json de la marca como ejemplo de modelo representado."
+    },
+    {
+      "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Dimensiones/tanques consistentes entre itboat.com y multihulls-world.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Confirmado en oceanic.cl/lagoonvela/lagoon-43/. Ya mencionado explícitamente en data/brands/master-inventory.json (entrada 'lagoon') como uno de los modelos listados en la página de marca."
+}

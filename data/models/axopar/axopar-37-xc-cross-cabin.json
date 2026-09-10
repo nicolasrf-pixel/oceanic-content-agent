@@ -1,0 +1,79 @@
+{
+  "model_id": "axopar-37-xc-cross-cabin",
+  "family": "Axopar 37",
+  "model_name": "Axopar 37 XC Cross Cabin",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.51,
+    "manga_m": 3.35,
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNCONFIRMED",
+    "motorizacion": "Fuera de borda, 2 x 300 a 2 x 400 hp",
+    "potencia_max": "2 x 400 hp",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNCONFIRMED",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "1 (cabina de proa) — UNCONFIRMED",
+    "banos": "UNCONFIRMED"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto del fabricante para el 37 XC Cross Cabin, indexada vía snippet."
+    },
+    {
+      "url": "https://powerandmotoryacht.com/boats/new-boat-review-of-the-axopar-37-xc-cross-cabin/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Reseña de revista de terceros; menciona cabina de proa pero no se confirmó número exacto de camarotes/baños con certeza suficiente."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/37-xc-revolution-2020",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de agregador, modelo denominado también '37 XC Revolution' en versiones anteriores; posible indicio de nomenclatura previa del mismo modelo, no confirmado como nombre oficial vigente."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Es el modelo más mencionado/reconocido del 37 (icónico, +3000 unidades vendidas según el fabricante), lo que lo hace el candidato más probable a ser el que Oceanic efectivamente exhibe — pero esto es una inferencia, no una confirmación directa de Oceanic, y se documenta como tal en vez de asumirla como hecho. Un agregador mencionó el nombre histórico '37 XC Revolution'; se deja registrado como posible nomenclatura previa, sin promoverlo a discrepancia formal por ser una única fuente Nivel 3 débil.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

@@ -1,0 +1,107 @@
+{
+  "model_id": "lagoon-47",
+  "brand_id": "lagoon",
+  "family": "Lagoon 47",
+  "model_name": "Lagoon 47",
+  "variants": [
+    {
+      "variant_name": "Layout propietario (3 cabanas)",
+      "confidence_level": "LOW",
+      "notes": "Mencionado por múltiples medios de terceros (katamarans.com, wardyachtsales.com) como una de tres configuraciones anunciadas."
+    },
+    {
+      "variant_name": "Layout charter (5 cabanas)",
+      "confidence_level": "LOW",
+      "notes": "Mencionado por múltiples medios de terceros como una de tres configuraciones anunciadas."
+    },
+    {
+      "variant_name": "Smart Room",
+      "confidence_level": "LOW",
+      "notes": "Configuración mencionada por medios de terceros (harelyachts.com, caribeyachtgroup.com); no confirmado si Lagoon la trata como variante o como opción de layout dentro de una variante."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.catamarans-lagoon.com/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "eslora_casco_m": "UNCONFIRMED",
+    "manga_m": "UNCONFIRMED",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": 860,
+    "capacidad_agua_l": 700,
+    "camarotes": "3 o 5",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "motorizacion_estandar": "2 x 57 HP (Yanmar, según fuentes de terceros)"
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m / manga_m",
+      "values": [
+        {
+          "value": "eslora total 49'1\" (~14.96 m) sobre casco de 45'10\" (~13.97 m), manga 26'1\" (~7.95 m)",
+          "source": {
+            "url": "https://www.wardyachtsales.com/post/lagoon-47-catamaran-2026-everything-you-need-to-know-about-the-hottest-new-cruising-boat",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Medio de terceros, conversión de pies a metros no confirmada por la propia agente; cifra en pies reportada tal cual."
+          }
+        },
+        {
+          "value": "14.5 m según review giornaledellavela.com",
+          "source": {
+            "url": "https://www.giornaledellavela.com/2026/03/19/lagoon-47-14-5-m-the-new-cat-poised-between-tradition-and-innovation/?lang=en",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Medio de terceros italiano; título del artículo indica '14.5 m' para la eslora, cifra distinta a la reportada por wardyachtsales.com."
+          }
+        }
+      ],
+      "notes": "Dos fuentes de terceros (nivel 3) dan cifras de eslora que no coinciden exactamente (49'1\"/14.96m vs 14.5m); no se pudo verificar contra la ficha técnica oficial del fabricante (sin fetch directo posible). Se marcan las especificaciones dimensionales como UNCONFIRMED en el modelo en vez de elegir arbitrariamente una cifra (CLAUDE.md sección 14)."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://yachtstyle.co/lagoon-47-to-debut-cannes-2026/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Confirma debut del Lagoon 47 en el Cannes Yachting Festival 2026, como sucesor del Lagoon 46 (que vendió aprox. 700 unidades desde 2019)."
+    },
+    {
+      "url": "https://www.katamarans.com/lagoon-47/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Review de tercero explicando cambios de layout respecto al 46 (puerta de proa al cockpit delantero de 12 m2, etc)."
+    },
+    {
+      "url": "https://www.wardyachtsales.com/post/lagoon-47-catamaran-2026-everything-you-need-to-know-about-the-hottest-new-cruising-boat",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Detalle de capacidades de combustible/agua y motorización estándar."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo ANUNCIADO por el fabricante, con debut programado en Cannes Yachting Festival, septiembre 2026 (posterior o simultáneo a la fecha de esta verificación, 2026-09-10 -- no se pudo confirmar si el debut ya ocurrió al momento de esta pasada). Reportado de forma consistente por múltiples medios de terceros como sucesor directo del Lagoon 46. NO se encontró página en oceanic.cl para este modelo (razonable, dado que recién debuta). No se reclasifica el Lagoon 46 como DISCONTINUED en esta pasada -- ver nota en lagoon-46.json -- porque eso requeriría evidencia más fuerte que 'existe un sucesor anunciado' (CLAUDE.md sección 21: reclasificar por ausencia en el sitio requiere aprobación humana)."
+}

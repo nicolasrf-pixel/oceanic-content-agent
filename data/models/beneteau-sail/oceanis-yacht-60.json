@@ -1,0 +1,48 @@
+{
+  "model_id": "oceanis-yacht-60",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis Yacht",
+  "model_name": "Beneteau Oceanis Yacht 60",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Título indexado: 'BENETEAU Oceanis Yacht 60 | Elegance Redefined'; casco de 18 metros, descrito como 'hermana' del 54."
+    },
+    {
+      "url": "https://www.boattrader.com/boats/make-beneteau/model-oceanis-60/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listados de mercado confirman disponibilidad de unidades."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo más nuevo del trío Oceanis Yacht (54/60/62), presentado como evolución reciente. No se encontró mención en oceanic.cl en esta pasada."
+}

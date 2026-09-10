@@ -1,0 +1,71 @@
+{
+  "model_id": "lagoon-sixty-7",
+  "brand_id": "lagoon",
+  "family": "Lagoon Sixty 7",
+  "model_name": "Lagoon Sixty 7",
+  "variants": [
+    {
+      "variant_name": "Galley en el casco, 4-5 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "Cocina central, 5-6 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    }
+  ],
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/sixty-7",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 20.5,
+    "manga_m": 10.0,
+    "calado_m": 1.5,
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": 5500,
+    "capacidad_agua_l": 1000,
+    "camarotes": "4, 5 o 6",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "motorizacion_estandar": "2 x 440 HP"
+  },
+  "discrepancies": [
+    {
+      "field": "capacidad_combustible_l",
+      "values": [
+        {
+          "value": "4 x 1375 L = 5500 L total (interpretación de la propia agente a partir del snippet '4 x 1375 L')",
+          "source": {
+            "url": "https://www.wiyachts.com/blog/lagoon-sixty-7-luxury-power-catamaran-motoryacht/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Snippet reportó '4 x 1375 L' sin aclarar si son 4 tanques separados o una conversión de unidades ambigua; la cifra total (5500 L) es una multiplicación hecha por la propia agente, no un valor leído directamente como total."
+          }
+        }
+      ],
+      "notes": "La cifra de combustible es de baja confianza: el snippet original no fue claro sobre si '4 x 1375 L' describe 4 tanques reales o es un artefacto de conversión/formato. Se deja el valor calculado pero marcado UNCONFIRMED a nivel de fuente; se recomienda verificar con fetch directo antes de usar este dato en contenido editorial."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.catamarans-lagoon.com/boats/sixty-7",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Dimensiones consistentes con lagoon-catamaran.de y catamaranguru.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Parte de la línea de catamaranes A MOTOR de Lagoon ('Power catamarans', catamarans-lagoon.com/ranges/power-catamarans). No se encontró evidencia de que este modelo específico tenga página propia en oceanic.cl ni de que Oceanic lo represente -- a diferencia del Lagoon Seventy 8, que SÍ está confirmado en oceanic.cl (ver lagoon-seventy-8.json). Se documenta como catálogo global del fabricante únicamente. oceanic_url null. No se afirma que Oceanic no lo represente, solo que no se pudo confirmar en esta pasada (CLAUDE.md secciones 6 y 22)."
+}

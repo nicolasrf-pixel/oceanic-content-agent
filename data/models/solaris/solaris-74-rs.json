@@ -1,0 +1,69 @@
+{
+  "model_id": "solaris-74-rs",
+  "brand_id": "solaris",
+  "family": "Solaris 74",
+  "model_name": "Solaris 74 RS",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": "2025",
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/74-rs/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [],
+  "specifications": {
+    "eslora_m": 22.0,
+    "manga_m": 6.1,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 5,
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Motor 1x Volvo 175 HP reportado por fuente Nivel 3 (dato de motorización, no de vela; se deja fuera de los campos de specifications estándar del esquema por no ser un campo pedido explícitamente, pero se registra aquí como contexto)."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/74-rs/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://www.theglobesailor.com/solaris-74-rs-specifications-sm6630.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 22 m, beam 6.1 m, motor 1x Volvo 175 HP, 5 camarotes."
+    },
+    {
+      "url": "https://luxury-marine.com/en/solaris-yachts-74-rs/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Presentado como el modelo más nuevo de la colección 'flush-deck' de cruceros de performance de Solaris; exhibido en Cannes Yachting Festival del 9 al 14 de septiembre de 2025. Diseño naval Javier Soto Acebal, proa con 'chine' que aumenta volumen interior y flotabilidad, timones exteriores para mejor visibilidad de proa."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Modelo lanzado/presentado en Cannes Yachting Festival septiembre 2025; se marca lifecycle_status NEW en vez de CURRENT por ser una incorporación reciente a la gama sin evidencia adicional de un ciclo de producción ya establecido para 2026. Representación por Oceanic Chile NO confirmada (no se encontró mención en oceanic.cl)."
+}

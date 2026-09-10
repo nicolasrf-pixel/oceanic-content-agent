@@ -1,0 +1,57 @@
+{
+  "model_id": "oceanis-52",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis",
+  "model_name": "Beneteau Oceanis 52",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": "https://oceanic.cl/puerto-agosto-2026/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNCONFIRMED",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/puerto-agosto-2026/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Boletín 'Puerto' agosto 2026 de Oceanic; snippet menciona Oceanis 52 explícitamente ('CE Categoría A, hasta 5 camarotes, doble timón')."
+    },
+    {
+      "url": "https://www.cruisingworld.com/sailboats/beneteau-oceanis-47-52/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Confirma el 52 como parte de la 8ª generación Oceanis, diseño naval de Roberto Biscontini, interior/cubierta de Nauta Design."
+    },
+    {
+      "url": "https://naosyachts.com/news/new-beneteau-lagoon-model-spotlight-2026",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Cobertura de dealer/broker sobre modelos nuevos Beneteau/Lagoon 2026 que incluye al Oceanis 52."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo con confirmación explícita y relativamente reciente (agosto 2026) en boletín propio de Oceanic Chile: 'CE Categoría A, hasta cinco camarotes, doble timón'. Es, junto a Oceanis 30.1 y First 24/First 30, uno de los pocos modelos con evidencia directa de representación por el distribuidor chileno en esta pasada."
+}

@@ -1,0 +1,70 @@
+{
+  "model_id": "axopar-25-cross-bow",
+  "family": "Axopar 25",
+  "model_name": "Axopar 25 Cross Bow",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-25/axopar-25-cross-bow/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 8.0,
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": 1700,
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNCONFIRMED",
+    "banos": "UNCONFIRMED"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-25/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de familia Axopar 25 (fabricante), vista vía snippet. Confirma eslora 8.00 m (excl. motor) y descripción del modelo como cabina cuddy con lavamanos y baño de serie."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-25/axopar-25-cross-bow/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto específica del modelo, vista vía snippet de búsqueda."
+    },
+    {
+      "url": "https://www.eyachts.com.au/boats/axopar-25/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Dealer regional (Australia), usado solo como apoyo secundario."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Familia Axopar 25 = dos modelos: Cross Bow (proa abierta) y Cross Top (con techo). Cabina cuddy con litera, lavamanos y WC de serie en ambos según el fabricante. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

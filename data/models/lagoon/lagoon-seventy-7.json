@@ -1,0 +1,97 @@
+{
+  "model_id": "lagoon-seventy-7",
+  "brand_id": "lagoon",
+  "family": "Lagoon Seventy 7",
+  "model_name": "Lagoon Seventy 7",
+  "variants": [
+    {
+      "variant_name": "4 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "5 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "6 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    }
+  ],
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/seventy-7",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 23.84,
+    "manga_m": 11.0,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "camarotes": "4 a 6",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "8 a 12 (según fuentes de terceros)",
+    "motorizacion_estandar": "2 x Volvo D4-175 (175 HP)"
+  },
+  "discrepancies": [
+    {
+      "field": "model_name",
+      "values": [
+        {
+          "value": "Lagoon Seventy 7",
+          "source": {
+            "url": "https://www.catamarans-lagoon.com/boats/seventy-7",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Nombre vigente en la página de modelo del fabricante."
+          }
+        },
+        {
+          "value": "Lagoon 77",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Lagoon_77",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Wikipedia usa 'Lagoon 77' como nombre del artículo para el mismo modelo (mismas dimensiones: 78.22 ft / 23.84 m LOA)."
+          }
+        }
+      ],
+      "notes": "'Lagoon 77' y 'Lagoon Seventy 7' parecen referirse al mismo modelo (misma eslora ~23.84 m), posiblemente nomenclatura antigua vs. vigente del fabricante. No se fusionan en un solo registro con dos nombres porque no se confirmó con fetch directo que sean exactamente el mismo model year/generación; se deja documentado como discrepancia de nomenclatura, model_name usado es el vigente en catamarans-lagoon.com."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.catamarans-lagoon.com/boats/seventy-7",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lagoon_77",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Artículo de Wikipedia bajo el nombre alternativo 'Lagoon 77', mismas dimensiones generales."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Parte de la línea de catamaranes A MOTOR de Lagoon ('Power catamarans', catamarans-lagoon.com/ranges/power-catamarans). No se encontró evidencia de que este modelo específico tenga página propia en oceanic.cl ni de que Oceanic lo represente -- a diferencia del Lagoon Seventy 8, que SÍ está confirmado en oceanic.cl (ver lagoon-seventy-8.json). Se documenta como catálogo global del fabricante únicamente. oceanic_url null. No se afirma que Oceanic no lo represente, solo que no se pudo confirmar en esta pasada (CLAUDE.md secciones 6 y 22). Ver también discrepancia de nomenclatura 'Lagoon 77' vs 'Lagoon Seventy 7'."
+}

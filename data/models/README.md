@@ -1,13 +1,21 @@
 # data/models/
 
-Intencionalmente vacío.
+Fase 2 en curso, aprobada por el usuario/propietario del proyecto el
+2026-09-10 (ver `data/changelog/brands-changelog.md` y
+`research/verification-log/`).
 
-El inventario de modelos (Fase 2) no se inicia hasta que el Master
-Represented Brands Inventory (`data/brands/master-inventory.json`) sea
-revisado y aprobado, y hasta resolver las discrepancias abiertas en
-`data/changelog/brands-changelog.md` (especialmente Skeeta, XO Boats y
-Switch). Ver `CLAUDE.md` secciones 3, 19 y 21.
+Estructura: `data/models/<brand_id>/<model_id>.json`, un archivo por
+modelo, validado contra `data/schema/model.schema.json`. Las variantes
+(motorización, layout, aparejo, etc.) van anidadas dentro del campo
+`variants` de su modelo, no como archivos propios, salvo que el
+fabricante las trate explícitamente como producto independiente
+(CLAUDE.md sección 7/16).
 
-Cuando se apruebe el inicio de la Fase 2, los modelos se organizarán como
-`data/models/<brand_id>/<model_id>.json`, validados contra
-`data/schema/model.schema.json`.
+Todos los registros de esta pasada tienen `status_pipeline: "MAPPED"`
+(no `"VALIDATED"`): promoverlos a `VALIDATED` a escala requiere
+aprobación humana explícita (CLAUDE.md sección 21), que todavía no se ha
+pedido para el inventario de modelos.
+
+Ver el log por marca correspondiente en
+`research/verification-log/2026-09-10-models-<brand_id>.md` para el
+detalle de queries, hallazgos y discrepancias de cada marca.
