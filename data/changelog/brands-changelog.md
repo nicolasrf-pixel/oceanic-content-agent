@@ -37,6 +37,29 @@ detectada, fuente, fecha y acción recomendada.
 
 ---
 
+## 2026-09-10 — Skeeta: discrepancia resuelta por decisión humana
+
+- **Marca:** Skeeta
+- **Situación:** La entrada anterior de este changelog (más abajo, "Skeeta:
+  estado ambiguo") marcaba `portfolio_status: UNCONFIRMED` y
+  `confidence_level: LOW` porque la única URL de `oceanic.cl` encontrada
+  vía búsqueda apuntaba a la sección de usados/brokerage.
+- **Fuente de la resolución:** decisión explícita del usuario/propietario
+  del proyecto, 2026-09-10: "Skeeta sigue vigente como línea nueva y debe
+  mantenerse dentro del portfolio activo de representadas. No debe
+  clasificarse como solo-usados."
+- **Fecha:** 2026-09-10
+- **Acción aplicada:** `master-inventory.json` actualizado —
+  `portfolio_status: ACTIVE`, `discrepancy_flag: false`, con la decisión
+  registrada en el campo `human_decisions` del propio registro de marca
+  (trazable, no un cambio silencioso). `confidence_level` se mantiene
+  `MEDIUM`: la decisión resuelve el estado de representación, pero no
+  sustituye la verificación por fuente primaria/oficial vía fetch directo,
+  que sigue pendiente (ver limitación de red, sección siguiente y
+  CLAUDE.md sección 22).
+
+---
+
 ## 2026-09-10 — XO Boats y Switch: sin página de marca dedicada confirmada
 
 - **Marca:** XO Boats, Switch (Switch One Design)

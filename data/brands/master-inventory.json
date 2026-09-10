@@ -344,10 +344,10 @@
       "country_of_origin": "Australia (diseño) / fabricación en Tailandia (Cobra International)",
       "vessel_types": "Dinghy foiling monotripulante ('flying scow')",
       "brand_description": "Dinghy foiling de vela, diseño de Jim y David French (Australia), fabricado por Cobra International (Tailandia); despega desde 6.5 nudos, más de 25 nudos de velocidad.",
-      "portfolio_status": "UNCONFIRMED",
-      "confidence_level": "LOW",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
       "in_initial_universe": true,
-      "discrepancy_flag": true,
+      "discrepancy_flag": false,
       "sources": [
         {
           "url": "https://oceanic.cl/usados/skeeta/",
@@ -356,13 +356,22 @@
           "retrieved_at": "2026-09-10",
           "retrieval_method": "web_search_snippet",
           "verification_state": "UNCONFIRMED",
-          "notes": "Única URL de oceanic.cl encontrada para Skeeta está bajo la sección de USADOS/brokerage, a diferencia de Saffier, Solaris, VX One, etc. que tienen página de marca activa dedicada. No se encontró una página de marca 'nueva' para Skeeta en esta pasada."
+          "notes": "Única URL de oceanic.cl encontrada para Skeeta vía búsqueda está bajo la sección de USADOS/brokerage, a diferencia de Saffier, Solaris, VX One, etc. que tienen página de marca activa dedicada. No se encontró una página de marca 'nueva' para Skeeta en esta pasada de búsqueda."
+        }
+      ],
+      "human_decisions": [
+        {
+          "date": "2026-09-10",
+          "decided_by": "usuario/propietario del proyecto",
+          "decision": "Skeeta sigue vigente como línea nueva activa dentro del portfolio de representadas; no debe clasificarse como solo-usados.",
+          "field_affected": "portfolio_status",
+          "supersedes_discrepancy": true
         }
       ],
       "verified_at": "2026-09-10",
       "last_updated": "2026-09-10",
-      "status_pipeline": "MAPPED",
-      "notes": "Ver entrada correspondiente en data/changelog/brands-changelog.md. No se elimina del universo por regla de CLAUDE.md sección 5/20; requiere verificación humana o fetch directo antes de continuar a Fase 2 para esta marca."
+      "status_pipeline": "VALIDATED",
+      "notes": "Discrepancia original (única URL encontrada por búsqueda era de usados) resuelta por decisión humana explícita el 2026-09-10 — ver data/changelog/brands-changelog.md. confidence_level se mantiene MEDIUM (no HIGH): la decisión humana resuelve el estado de representación, pero no sustituye la verificación pendiente por fetch directo de fuente oficial."
     },
     {
       "brand_id": "switch",

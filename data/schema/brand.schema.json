@@ -90,6 +90,22 @@
       "minItems": 1,
       "items": { "$ref": "./source.schema.json" }
     },
+    "human_decisions": {
+      "type": "array",
+      "description": "Decisiones humanas explícitas que fijan o corrigen un campo de este registro (ej. resolver una discrepancia) sin ser, en sí mismas, una fuente primaria/autorizada nueva. No sustituye la verificación por fetch directo pendiente; documenta autoridad y trazabilidad de la decisión (CLAUDE.md sección 21).",
+      "items": {
+        "type": "object",
+        "required": ["date", "decision", "field_affected"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "decided_by": { "type": "string", "description": "Quién tomó la decisión, ej. 'usuario/propietario del proyecto'." },
+          "decision": { "type": "string" },
+          "field_affected": { "type": "string" },
+          "supersedes_discrepancy": { "type": "boolean" }
+        }
+      }
+    },
     "verified_at": {
       "type": "string",
       "format": "date",
