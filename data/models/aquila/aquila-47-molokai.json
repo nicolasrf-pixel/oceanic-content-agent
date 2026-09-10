@@ -1,0 +1,52 @@
+{
+  "model_id": "aquila-47-molokai",
+  "brand_id": "aquila",
+  "family": "Aquila Molokai (Offshore)",
+  "model_name": "Aquila 47 Molokai",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2024",
+  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 15.04,
+    "manga_m": 4.45,
+    "calado_m": 1.12,
+    "desplazamiento_kg": 10350,
+    "motorizacion": "2 x Mercury 600 HP (fueraborda, estándar); opcional 4 x Mercury Verado 400 V10, o 4 x Mercury 450R (racing)",
+    "potencia_max": "2000 HP (configuración cuádruple máxima)",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 3967,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": 1,
+    "banos": 1
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/47-molokai-2024",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: LOA 49'4\" (15.04 m), manga 14'7\" (4.45 m), calado 3'8\" (1.12 m), desplazamiento seco 22,818 lbs (10,350 kg), combustible 1,048 gal (3,967 L), cabina única con litera queen y baño con ducha. Consistente con saltwatersportsman.com y multihulls-world.com. Introducido en 2024 (2024 Boat Test) como extensión de la serie Offshore."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo insignia de la línea Molokai/Offshore (pesca de altura); no se encontró evidencia de representación por Oceanic Chile en esta pasada."
+}

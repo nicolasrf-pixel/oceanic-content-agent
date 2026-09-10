@@ -1,0 +1,52 @@
+{
+  "model_id": "aquila-35-sport",
+  "brand_id": "aquila",
+  "family": "Aquila Sport",
+  "model_name": "Aquila 35 Sport",
+  "category": "power_catamaran",
+  "lifecycle_status": "NEW",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.aquilaboats.com/news/aquila-catamarans-launching-two-new-models-at-cannes-yachting-festival-2026",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 10.81,
+    "manga_m": 4.5,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x Mercury Verado V8 300 HP (estándar), opcional 2 x Mercury Verado V10 400 HP",
+    "potencia_max": "2 x 400 HP",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": 1,
+    "banos": 1
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/news/aquila-catamarans-launching-two-new-models-at-cannes-yachting-festival-2026",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Nota de prensa oficial del fabricante sobre el estreno mundial del Aquila 35 Sport en el Cannes Yachting Festival, programado 8-13 septiembre 2026 (es decir, en curso o recién concluido a la fecha de esta verificación, 2026-09-10). Acceso directo bloqueado (EGRESS_BLOCKED); dato vía snippet de búsqueda."
+    },
+    {
+      "url": "https://www.boote-magazin.de/en/boats/catamarans/aquila-35-sport-new-high-performance-catamaran-with-800-ps/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: 10.81 m de eslora, manga 14'9\" (~4.5m), cabina doble con litera queen, motorización 2x300 HP estándar / 2x400 HP opcional. Consistente con barcheamotore.com y powerboatandrib.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo recién anunciado, con estreno mundial en Cannes Yachting Festival 2026 (8-13 septiembre), es decir prácticamente coincidente con la fecha de esta verificación (2026-09-10). No se encontró evidencia de que Oceanic lo liste todavía en oceanic.cl -- razonable dado lo reciente del lanzamiento. Se marca lifecycle_status='NEW' (no 'ANNOUNCED') porque el debut ya está ocurriendo/ocurrió según la fuente del fabricante, no es una promesa a futuro. Especificaciones muy incompletas (calado, desplazamiento, capacidades, pasajeros: UNKNOWN) porque las fuentes de terceros disponibles aún no publican ficha técnica completa para un modelo tan nuevo."
+}

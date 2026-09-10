@@ -1,0 +1,61 @@
+{
+  "model_id": "aquila-50-yacht",
+  "brand_id": "aquila",
+  "family": "Aquila Yacht",
+  "model_name": "Aquila 50 Yacht",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": "2024",
+  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/50",
+  "oceanic_url": "https://oceanic.cl/aquila-boats/50-yacht/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 16.0,
+    "manga_m": 7.77,
+    "calado_m": 1.27,
+    "desplazamiento_kg": 32281,
+    "motorizacion": "2 x Volvo Penta D6 380 HP (estándar); opcional 2 x Volvo Penta D6 480 HP o 2 x Yanmar 550 HP",
+    "potencia_max": "2 x 550 HP",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 1961,
+    "capacidad_agua_l": 803,
+    "pasajeros": "UNKNOWN",
+    "camarotes": "3 (estándar, con opción de layout de 4 camarotes)",
+    "banos": 3
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/aquila-boats/50-yacht/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto dedicada en oceanic.cl (título 'aquila 50 yacht - Oceanic'), ya identificada en data/brands/master-inventory.json como fuente de la marca. Describe layout 3 camarotes/3 baños con suite principal de manga completa, estética 'Explorer', flybridge con parasol retráctil opcional."
+    },
+    {
+      "url": "https://www.aquilaboats.com/models/yachts/50",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/50-yacht-power-catamaran-2025",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: LOA 52'6\", manga 25'6\", calado 4'2\", desplazamiento 71,167 lb (32,281 kg), combustible 518 gal, agua 212 gal, motores estándar 2x380 HP D6. Consistente con yachtbuyer.com, powerandmotoryacht.com y yachtworld.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo con mayor nivel de evidencia de representación por Oceanic dentro de este levantamiento (URL de producto dedicada y confirmada, ya presente en master-inventory.json). Sucesor directo del Aquila 48 (ver aquila-48-yacht.json), posicionado entre el 46 Yacht y el 54 Yacht en el catálogo del fabricante."
+}

@@ -1,0 +1,52 @@
+{
+  "model_id": "aquila-36-molokai",
+  "brand_id": "aquila",
+  "family": "Aquila Molokai (Offshore)",
+  "model_name": "Aquila 36 Molokai",
+  "category": "power_catamaran",
+  "lifecycle_status": "NEW",
+  "model_year": "2025",
+  "manufacturer_url": "https://www.aquilaboats.com/models/offshore",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 11.1,
+    "manga_m": 3.59,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x Mercury V8 300 HP (estándar), con opción a V10 400/425 HP y hasta 500R Mercury Racing",
+    "potencia_max": "2 x 500R (Mercury Racing)",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/offshore",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de la línea Offshore/Molokai del fabricante vía snippet de búsqueda. Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/36-molokai-2025",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones (eslora 36'5\"/11.1m, manga 11'9\"/3.59m, motorización) y fecha de lanzamiento reciente (BoatTEST lo cataloga '2025-'). Consistente con yachtingmagazine.com y multihulls-world.com, que lo describen como modelo 'nuevo' orientado a pesca de altura ('big game fishing')."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "No confundir con el Aquila 36 Sport (línea day-boat/crucero, ver aquila-36-sport.json): comparten el número '36' pero son modelos distintos dentro de líneas distintas (Molokai/Offshore vs. Sport), con fichas y propósitos diferentes. lifecycle_status='NEW' porque múltiples fuentes lo describen como lanzamiento reciente (2025), pero no se pudo confirmar la fecha exacta de introducción ni si ya está plenamente en catálogo vigente vs. recién debutado."
+}

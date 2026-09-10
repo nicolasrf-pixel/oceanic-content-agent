@@ -1,0 +1,52 @@
+{
+  "model_id": "aquila-28-molokai",
+  "brand_id": "aquila",
+  "family": "Aquila Molokai (Offshore)",
+  "model_name": "Aquila 28 Molokai",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 9.38,
+    "manga_m": 2.96,
+    "calado_m": 0.76,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x 150 o 200 HP (fueraborda)",
+    "potencia_max": "2 x 200 HP",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/28-molokai-power-catamaran-2022",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: LOA 30'9\" (9.38 m), manga 9'8.5\" (2.96 m), calado máx. 2'6\" (0.76 m), motorización 2x150 o 2x200 HP. Consistente con multihulls-world.com y boatingmag.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Línea 'Molokai' (Offshore/pesca deportiva) del fabricante, distinta de las líneas Sport, Coupe, Yacht y Luxury. Existe también en versión 'Molokai Cuddy' con cabina cerrada frontal, tratada como modelo independiente (aquila-28-molokai-cuddy.json) porque el fabricante le da página y ficha propias. No se encontró evidencia de que Oceanic (oceanic.cl) represente este modelo específicamente; solo se confirmó de forma genérica que Oceanic distribuye la marca Aquila. confidence_level LOW por falta de evidencia de representación local y por no haber podido hacer fetch directo del fabricante."
+}

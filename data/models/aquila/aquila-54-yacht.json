@@ -1,0 +1,52 @@
+{
+  "model_id": "aquila-54-yacht",
+  "brand_id": "aquila",
+  "family": "Aquila Yacht",
+  "model_name": "Aquila 54 Yacht",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/54",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 16.51,
+    "manga_m": 7.67,
+    "calado_m": 1.35,
+    "desplazamiento_kg": "22,525 (vacío) a 24,120 (peso de prueba estimado, 45% combustible y 5 personas)",
+    "motorizacion": "2 x Volvo Penta D6 380 HP (estándar); opciones incluyen 2 x Volvo Penta D6 480 HP o 2 x Cummins QSB6.7 550 HP",
+    "potencia_max": "2 x 550 HP",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 2896,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "3, 4 o 5 (según layout, incluye opción de camarote de tripulación y layout 'galley-down')",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/yachts/54",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/54-yacht-power-catamaran-2021",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: LOA 54'2\" (16.51 m), manga 25'2\" (7.67 m), calado 4'5\" (1.35 m), peso vacío 49,659 lb (22,525 kg), combustible 765 gal (2,896 L), layouts 3/4/5 camarotes. Consistente con yachtingmagazine.com y powerandmotoryacht.com."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-10",
+  "status_pipeline": "MAPPED",
+  "notes": "Ganador de 'Multihull of the Year 2021' según fuentes de tercero (no verificado con fuente primaria). No se encontró evidencia específica de representación por Oceanic Chile en esta pasada -- solo se confirmó de forma genérica que Oceanic distribuye la marca Aquila, sin una mención o página dedicada al 54 Yacht en los snippets disponibles de oceanic.cl. confidence_level LOW por esa ausencia de evidencia local, no por duda sobre la vigencia del modelo a nivel de fabricante (esa sí está bien respaldada por múltiples fuentes de terceros consistentes entre sí)."
+}
