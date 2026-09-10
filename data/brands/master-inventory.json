@@ -1,0 +1,398 @@
+{
+  "$schema": "../schema/brand.schema.json",
+  "inventory_meta": {
+    "name": "Master Represented Brands Inventory",
+    "generated_at": "2026-09-10",
+    "generated_by": "oceanic-content-agent / Fase 1",
+    "scope_note": "La entidad 'Oceanic' se identifica en esta fase con Oceanic Chile (oceanic.cl), fuente autorizada consistente con las páginas de distribuidor oficial de Beneteau ('OCEANIC CHILE S.A.'). Existen entidades regionales relacionadas (Oceanic Perú, Oceanic Rapa Nui) detectadas en la investigación que no se han tratado como la fuente primaria de este inventario; ver research/verification-log.",
+    "access_limitation": "WebFetch/curl directo a oceanicsite.netlify.app y oceanic.cl estuvo bloqueado por la política de red del entorno de ejecución. Toda verificación de esta pasada se basó en snippets de búsqueda web (retrieval_method: web_search_snippet), no en lectura directa de la navegación del sitio. Por eso ningún registro alcanza confidence_level HIGH todavía. Ver CLAUDE.md sección 22.",
+    "initial_universe_ref": "./initial-universe.md",
+    "changelog_ref": "../changelog/brands-changelog.md"
+  },
+  "excluded": [
+    {
+      "name": "Oceanic Power",
+      "reason": "Marca propia de Oceanic (línea de embarcaciones semirrígidas/RIB), no una representada externa. Exclusión deliberada, documentada en CLAUDE.md sección 2.4.",
+      "evidence_url": "https://oceanic.cl/oceanic-power-boats/",
+      "retrieval_method": "web_search_snippet",
+      "verified_at": "2026-09-10"
+    }
+  ],
+  "brands": [
+    {
+      "brand_id": "axopar",
+      "official_name": "Axopar Boats",
+      "commercial_name": "Axopar",
+      "category": "motor",
+      "oceanic_url": "https://oceanic.cl/axopar-boats/",
+      "manufacturer_url": "https://www.axopar.com/",
+      "country_of_origin": "Finlandia",
+      "vessel_types": "Lanchas deportivas de alto rendimiento a motor, de botes abiertos a cabinas cerradas",
+      "brand_description": "Marca finlandesa fundada en 2014, conocida como 'The Adventure Company'; reinventó el mercado de dayboats a motor fuera de borda.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/axopar-boats/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada en oceanic.cl detectada vía snippet de búsqueda. No se hizo fetch directo de la página completa."
+        },
+        {
+          "url": "https://oceanic.cl/puerto-julio-2026/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Newsletter menciona a Axopar completando su rango 38, consistente con representación activa vigente."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": "Coincide con el universo inicial. Requiere fetch directo para subir a confidence_level HIGH."
+    },
+    {
+      "brand_id": "beneteau-sail",
+      "official_name": "Beneteau",
+      "commercial_name": "Beneteau Sail (Beneteau Vela)",
+      "category": "sail",
+      "oceanic_url": "https://oceanic.cl/beneteau-vela/",
+      "manufacturer_url": "https://www.beneteau.com/",
+      "country_of_origin": "Francia",
+      "vessel_types": "Veleros, desde embarcaciones ágiles hasta yates de lujo (línea Oceanis, etc.)",
+      "brand_description": "Marca francesa reconocida por calidad, confiabilidad y diseño elegante. Oceanic Chile es distribuidor de Beneteau desde 1994 y aparece como dealer oficial en beneteau.com.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/beneteau-vela/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada detectada vía snippet."
+        },
+        {
+          "url": "https://www.beneteau.com/en-us/dealers/oceanic-chile-sa",
+          "level": 1,
+          "level_label": "PRIMARY",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página oficial de Beneteau lista a 'Oceanic Chile S.A.' como dealer, confirmación desde el lado del fabricante."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": "Oceanic separa Beneteau en dos secciones (vela / motor); se modelan como dos brand_id distintos por regla de nomenclatura (CLAUDE.md sección 7)."
+    },
+    {
+      "brand_id": "beneteau-power",
+      "official_name": "Beneteau",
+      "commercial_name": "Beneteau Power (Beneteau Motor)",
+      "category": "motor",
+      "oceanic_url": "https://oceanic.cl/beneteau-motor/",
+      "manufacturer_url": "https://www.beneteau.com/",
+      "country_of_origin": "Francia",
+      "vessel_types": "Lanchas a motor: gamas Antares, Gran Turismo, Swift Trawler",
+      "brand_description": "Línea a motor de Beneteau: Antares (cruceros familiares), Gran Turismo (alto rendimiento y diseño), Swift Trawler (largas travesías).",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/beneteau-motor/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada; incluye modelo Swift Trawler 37 Fly."
+        },
+        {
+          "url": "https://www.beneteau.com/en-us/dealers/oceanic-chile-sa",
+          "level": 1,
+          "level_label": "PRIMARY",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Mismo dealer oficial que Beneteau Sail (es la misma marca matriz)."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": ""
+    },
+    {
+      "brand_id": "lagoon",
+      "official_name": "Lagoon",
+      "commercial_name": "Lagoon",
+      "category": "sail_catamaran",
+      "oceanic_url": "https://oceanic.cl/lagoon-vela/",
+      "manufacturer_url": "https://www.cata-lagoon.com/",
+      "country_of_origin": "Francia",
+      "vessel_types": "Catamaranes de vela de crucero (modelos 38, 43, etc.)",
+      "brand_description": "Mayor constructor de multicascos del mundo (grupo Beneteau); más de 5.800 catamaranes producidos desde 1984.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/lagoon-vela/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada, con modelos Lagoon 43 y Lagoon 38 listados."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": "Solo se detectó la línea de vela ('lagoon-vela'). No se confirmó ni descartó una línea motor de Lagoon en el portfolio de Oceanic; queda UNCONFIRMED para la Fase 2."
+    },
+    {
+      "brand_id": "solaris",
+      "official_name": "Solaris Yachts",
+      "commercial_name": "Solaris",
+      "category": "sail",
+      "oceanic_url": "https://oceanic.cl/solaris-yachts/",
+      "manufacturer_url": "https://www.solarisyachts.com/",
+      "country_of_origin": "Italia",
+      "vessel_types": "Veleros de alta gama, construcción a medida",
+      "brand_description": "Marca italiana de veleros de alta gama, referencia en diseño elegante y aerodinámico, con personalización por cliente.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/solaris-yachts/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada; incluye Solaris 72."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": ""
+    },
+    {
+      "brand_id": "aquila",
+      "official_name": "Aquila Power Catamarans",
+      "commercial_name": "Aquila",
+      "category": "power_catamaran",
+      "oceanic_url": "https://oceanic.cl/aquila-boats/",
+      "manufacturer_url": "https://www.aquilaboats.com/",
+      "country_of_origin": "China / Estados Unidos",
+      "vessel_types": "Catamaranes a motor",
+      "brand_description": "Catamaranes a motor de doble casco para estabilidad y velocidad; modelos como Aquila 32 Sport y Aquila 46 Yacht (con sistema opcional Aquila Hydro Glide).",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/aquila-boats/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada; incluye modelo Aquila 50 Yacht."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": ""
+    },
+    {
+      "brand_id": "xo-boats",
+      "official_name": "XO Boats",
+      "commercial_name": "XO Boats",
+      "category": "motor",
+      "oceanic_url": null,
+      "manufacturer_url": "https://xoboats.com/",
+      "country_of_origin": "Finlandia",
+      "vessel_types": "Lanchas de aluminio de nivel militar, gamas DFNDR, DSCVR, EXPLR",
+      "brand_description": "Marca finlandesa fundada en 2009, especializada en cascos de aluminio de grado militar para uso recreativo, comercial y profesional.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/puerto-julio-2026/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Newsletter de Oceanic: 'el XO EXPLR 44 se confirma en el mercado americano', indica representación activa vigente."
+        },
+        {
+          "url": "https://oceanic.cl/puerto-junio-2026/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Mención recurrente junto a Axopar y Beneteau como marcas activas del portfolio."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "MAPPED",
+      "notes": "No se encontró una página de marca dedicada tipo '/xo-boats/' en oceanic.cl en esta pasada de búsqueda (solo menciones en newsletters 'Puerto'). oceanic_url queda UNKNOWN hasta fetch directo. No se recomienda tratar esto como discontinuación: la evidencia de representación activa es consistente en el tiempo."
+    },
+    {
+      "brand_id": "saffier",
+      "official_name": "Saffier Yachts",
+      "commercial_name": "Saffier",
+      "category": "sail",
+      "oceanic_url": "https://oceanic.cl/saffier-yachts/",
+      "manufacturer_url": "https://www.saffieryachts.com/",
+      "country_of_origin": "Países Bajos",
+      "vessel_types": "Daysailers",
+      "brand_description": "Marca neerlandesa que redefine el concepto de daysailer: embarcaciones diseñadas para navegar en solitario sin sacrificar confort ni rendimiento.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/saffier-yachts/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada; texto indica explícitamente 'Oceanic Chile es el representante oficial de Saffier Yachts en Chile'."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": ""
+    },
+    {
+      "brand_id": "vx-one",
+      "official_name": "VX One",
+      "commercial_name": "VX One",
+      "category": "one_design",
+      "oceanic_url": "https://www.oceanic.cl/vela/vxone/",
+      "manufacturer_url": "https://vxsailing.com/",
+      "country_of_origin": "Estados Unidos",
+      "vessel_types": "Velero one-design deportivo, 5.79 m de eslora",
+      "brand_description": "Velero one-design pensado para navegación deportiva accesible, de novatos a experimentados; eslora 5,79 m, manga 2,19 m, tripulación 2-3 personas.",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://www.oceanic.cl/vela/vxone/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Página de marca dedicada con especificaciones básicas."
+        },
+        {
+          "url": "https://oceanic.cl/usados/vx-one/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Existe también sección de usados para VX One, además de la página de marca activa."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "VALIDATED",
+      "notes": ""
+    },
+    {
+      "brand_id": "skeeta",
+      "official_name": "Skeeta",
+      "commercial_name": "Skeeta",
+      "category": "dinghy",
+      "oceanic_url": "https://oceanic.cl/usados/skeeta/",
+      "manufacturer_url": "https://skeetawatersports.com/",
+      "country_of_origin": "Australia (diseño) / fabricación en Tailandia (Cobra International)",
+      "vessel_types": "Dinghy foiling monotripulante ('flying scow')",
+      "brand_description": "Dinghy foiling de vela, diseño de Jim y David French (Australia), fabricado por Cobra International (Tailandia); despega desde 6.5 nudos, más de 25 nudos de velocidad.",
+      "portfolio_status": "UNCONFIRMED",
+      "confidence_level": "LOW",
+      "in_initial_universe": true,
+      "discrepancy_flag": true,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/usados/skeeta/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "UNCONFIRMED",
+          "notes": "Única URL de oceanic.cl encontrada para Skeeta está bajo la sección de USADOS/brokerage, a diferencia de Saffier, Solaris, VX One, etc. que tienen página de marca activa dedicada. No se encontró una página de marca 'nueva' para Skeeta en esta pasada."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "MAPPED",
+      "notes": "Ver entrada correspondiente en data/changelog/brands-changelog.md. No se elimina del universo por regla de CLAUDE.md sección 5/20; requiere verificación humana o fetch directo antes de continuar a Fase 2 para esta marca."
+    },
+    {
+      "brand_id": "switch",
+      "official_name": "Switch One Design",
+      "commercial_name": "Switch",
+      "category": "one_design",
+      "oceanic_url": null,
+      "manufacturer_url": "https://www.switchonedesign.com/",
+      "country_of_origin": "Italia",
+      "vessel_types": "Foiler one-design de carbono, 3.9 m",
+      "brand_description": "Velero foiler one-design de fibra de carbono, 3,9 m, 25 kg de plataforma, tres aparejos intercambiables, despega desde 6 nudos, más de 30 nudos en popa.",
+      "portfolio_status": "NEW",
+      "confidence_level": "MEDIUM",
+      "in_initial_universe": true,
+      "discrepancy_flag": false,
+      "sources": [
+        {
+          "url": "https://oceanic.cl/puerto-junio-2026/",
+          "level": 2,
+          "level_label": "AUTHORIZED",
+          "retrieved_at": "2026-09-10",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Newsletter de Oceanic describe a Switch One Design como 'nueva representación' que 'llega al portfolio' / 'ingresa a la flota Oceanic'."
+        }
+      ],
+      "verified_at": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "status_pipeline": "MAPPED",
+      "notes": "Confirma como incorporación reciente, consistente con el universo inicial que ya la incluía. No se encontró página de marca dedicada tipo '/switch/' en oceanic.cl en esta pasada; oceanic_url queda UNKNOWN hasta fetch directo."
+    }
+  ]
+}

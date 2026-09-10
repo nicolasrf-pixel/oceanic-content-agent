@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oceanic-content-agent/schema/source.schema.json",
+  "title": "Source",
+  "description": "Unidad reutilizable de trazabilidad: de dónde salió un dato. Se embebe dentro de brand.schema.json y model.schema.json, nunca se usa sola como registro de catálogo.",
+  "type": "object",
+  "required": ["url", "level", "retrieved_at", "verification_state"],
+  "additionalProperties": false,
+  "properties": {
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL exacta consultada."
+    },
+    "level": {
+      "type": "integer",
+      "enum": [1, 2, 3],
+      "description": "1 = fuente primaria (fabricante). 2 = fuente autorizada (distribuidor/representante oficial, ej. Oceanic). 3 = fuente secundaria (medios, bases de datos de terceros)."
+    },
+    "level_label": {
+      "type": "string",
+      "enum": ["PRIMARY", "AUTHORIZED", "SECONDARY"]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de consulta (YYYY-MM-DD)."
+    },
+    "retrieval_method": {
+      "type": "string",
+      "enum": ["direct_fetch", "web_search_snippet", "manual_human_input", "document_upload"],
+      "description": "Cómo se obtuvo el dato. web_search_snippet implica menor certeza que direct_fetch: no hubo lectura completa de la página."
+    },
+    "verification_state": {
+      "type": "string",
+      "enum": ["CONFIRMED", "UNCONFIRMED"],
+      "description": "CONFIRMED = el contenido de la fuente respalda directamente el dato. UNCONFIRMED = indicio, no confirmación completa."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Contexto adicional: qué exactamente decía la fuente, limitaciones de acceso, etc."
+    }
+  }
+}
