@@ -1,0 +1,2046 @@
+{
+  "catalog_meta": {
+    "name": "Repositorio de barcos publicados por las representadas en sus sitios oficiales",
+    "generated_at": "2026-09-11",
+    "generated_by": "oceanic-content-agent",
+    "description": "Repositorio organizado Marca -> Categoria -> Familia -> Modelo, construido a partir del inventario ya verificado en data/models/ (no es una nueva investigacion; ver data/models/<brand_id>/<model_id>.json para el detalle y la trazabilidad completa de cada modelo). Cada modelo referencia manufacturer_url (la pagina del sitio oficial del fabricante que lo respalda) cuando existe. El campo oceanic_evidence indica si ademas hay evidencia de que Oceanic Chile lo representa especificamente (oceanic_url propio o una fuente Nivel 2); su ausencia NO significa que el barco no exista, solo que no hay prueba de que Oceanic lo venda localmente -- ver AUDITORIA en la conversacion del 2026-09-10/11.",
+    "excluded": "Oceanic Power (marca propia, no representada) -- ver CLAUDE.md 2.4.",
+    "source_of_truth": "manufacturer_url de cada modelo (sitio oficial del fabricante).",
+    "total_models": 141
+  },
+  "brands": [
+    {
+      "brand_id": "axopar",
+      "official_name": "Axopar Boats",
+      "commercial_name": "Axopar",
+      "manufacturer_url": "https://www.axopar.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 21,
+      "categories": [
+        {
+          "category": "motor",
+          "category_label": "Motor",
+          "families": [
+            {
+              "family": "AX/E",
+              "models": [
+                {
+                  "model_id": "ax-e-22",
+                  "model_name": "AX/E 22",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "AX/E 22 Spyder"
+                  ]
+                },
+                {
+                  "model_id": "ax-e-25",
+                  "model_name": "AX/E 25",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-25/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 22",
+              "models": [
+                {
+                  "model_id": "axopar-22-spyder",
+                  "model_name": "Axopar 22 Spyder",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-22-spyder/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-22-t-top",
+                  "model_name": "Axopar 22 T-Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-22-t-top/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 25",
+              "models": [
+                {
+                  "model_id": "axopar-25-cross-bow",
+                  "model_name": "Axopar 25 Cross Bow",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-25/axopar-25-cross-bow/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-25-cross-top",
+                  "model_name": "Axopar 25 Cross Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-25/axopar-25-cross-top/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 28",
+              "models": [
+                {
+                  "model_id": "axopar-28-cabin",
+                  "model_name": "Axopar 28 Cabin",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": "https://oceanic.cl/usados/axopar-28/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 29",
+              "models": [
+                {
+                  "model_id": "axopar-29-ccx",
+                  "model_name": "Axopar 29 CCX",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-ccx/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-29-spyder",
+                  "model_name": "Axopar 29 Spyder",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-29-sun-top",
+                  "model_name": "Axopar 29 Sun Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-sun-top/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-29-xc-cross-cabin",
+                  "model_name": "Axopar 29 XC Cross Cabin",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 37",
+              "models": [
+                {
+                  "model_id": "axopar-37-spyder",
+                  "model_name": "Axopar 37 Spyder",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-37/",
+                  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "2 x 300 hp",
+                    "2 x 400 hp"
+                  ]
+                },
+                {
+                  "model_id": "axopar-37-sun-top",
+                  "model_name": "Axopar 37 Sun-Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-37-sun-top/",
+                  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-37-xc-cross-cabin",
+                  "model_name": "Axopar 37 XC Cross Cabin",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+                  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Axopar 38",
+              "models": [
+                {
+                  "model_id": "axopar-38-ccx",
+                  "model_name": "Axopar 38 CCX",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-38-cross-top",
+                  "model_name": "Axopar 38 Cross Top",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-38-sun-top",
+                  "model_name": "Axopar 38 Sun Top",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+                  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-38-xc-cross-cabin",
+                  "model_name": "Axopar 38 XC Cross Cabin",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/axopar-38-xc-cross-cabin/",
+                  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "2 x Mercury Verado V8 300 hp",
+                    "2 x Mercury Verado V10 350 hp"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Axopar 45",
+              "models": [
+                {
+                  "model_id": "axopar-45-cross-top",
+                  "model_name": "Axopar 45 Cross Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-45-sun-top",
+                  "model_name": "Axopar 45 Sun Top",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-45-sun-top/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "axopar-45-xc-cross-cabin",
+                  "model_name": "Axopar 45 XC Cross Cabin",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.axopar.com/range/axopar-45-xc-cross-cabin/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "beneteau-sail",
+      "official_name": "Beneteau",
+      "commercial_name": "Beneteau Sail (Beneteau Vela)",
+      "manufacturer_url": "https://www.beneteau.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 22,
+      "categories": [
+        {
+          "category": "sail",
+          "category_label": "Vela",
+          "families": [
+            {
+              "family": "Figaro Beneteau",
+              "models": [
+                {
+                  "model_id": "figaro-beneteau-3",
+                  "model_name": "Figaro Beneteau 3",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/figaro/figaro-beneteau-3",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "First",
+              "models": [
+                {
+                  "model_id": "first-24",
+                  "model_name": "Beneteau First 24",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/first/first-24",
+                  "oceanic_url": "https://oceanic.cl/beneteau-vela/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-27",
+                  "model_name": "Beneteau First 27",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/first/first-27",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-30",
+                  "model_name": "Beneteau First 30",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/first/first-30",
+                  "oceanic_url": "https://oceanic.cl/beneteau-vela/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-36",
+                  "model_name": "Beneteau First 36",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/first/first-36",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-44",
+                  "model_name": "Beneteau First 44",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/first/first-44",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-53",
+                  "model_name": "Beneteau First 53",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-60",
+                  "model_name": "Beneteau First 60",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/first/first-60",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "First SE",
+              "models": [
+                {
+                  "model_id": "first-24-se",
+                  "model_name": "Beneteau First 24 SE",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/first-se/first-24-se",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "first-36-se",
+                  "model_name": "Beneteau First 36 SE",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/first-se/first-36-se",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Oceanis",
+              "models": [
+                {
+                  "model_id": "oceanis-30-1",
+                  "model_name": "Beneteau Oceanis 30.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-34-1",
+                  "model_name": "Beneteau Oceanis 34.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-37-1",
+                  "model_name": "Beneteau Oceanis 37.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis/oceanis-371",
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-40-1",
+                  "model_name": "Beneteau Oceanis 40.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis/oceanis-401",
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-46-1",
+                  "model_name": "Beneteau Oceanis 46.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis/oceanis-461",
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-47",
+                  "model_name": "Beneteau Oceanis 47",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-51-1",
+                  "model_name": "Beneteau Oceanis 51.1",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis/oceanis-511",
+                  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-52",
+                  "model_name": "Beneteau Oceanis 52",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": null,
+                  "oceanic_url": "https://oceanic.cl/puerto-agosto-2026/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-55-1",
+                  "model_name": "Beneteau Oceanis 55.1",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Oceanis Yacht",
+              "models": [
+                {
+                  "model_id": "oceanis-yacht-54",
+                  "model_name": "Beneteau Oceanis Yacht 54",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-54",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-yacht-60",
+                  "model_name": "Beneteau Oceanis Yacht 60",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "oceanis-yacht-62",
+                  "model_name": "Beneteau Oceanis Yacht 62",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/oceanis-yacht-heritage/oceanis-yacht-62",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "beneteau-power",
+      "official_name": "Beneteau",
+      "commercial_name": "Beneteau Power (Beneteau Motor)",
+      "manufacturer_url": "https://www.beneteau.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 32,
+      "categories": [
+        {
+          "category": "motor",
+          "category_label": "Motor",
+          "families": [
+            {
+              "family": "Beneteau Antares",
+              "models": [
+                {
+                  "model_id": "antares-11-coupe",
+                  "model_name": "Beneteau Antares 11 Coupe",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+                  "oceanic_url": "https://oceanic.cl/beneteau-motor/antares-11/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-11-fly",
+                  "model_name": "Beneteau Antares 11 Fly",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-11-fly",
+                  "oceanic_url": "https://oceanic.cl/beneteau-motor/antares-11/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-12-coupe",
+                  "model_name": "Beneteau Antares 12 Coupe",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-12-coupe",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-12-fly",
+                  "model_name": "Beneteau Antares 12 Fly",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/antares-outboard/antares-12",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-7",
+                  "model_name": "Beneteau Antares 7",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/antares-outboard",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-7-fishing",
+                  "model_name": "Beneteau Antares 7 Fishing",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/antares-outboard",
+                  "oceanic_url": "https://oceanic.cl/beneteau-motor/antares-7-fishing/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-8",
+                  "model_name": "Beneteau Antares 8",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/antares-outboard/antares-8",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-8-fishing",
+                  "model_name": "Beneteau Antares 8 Fishing",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/antares-outboard",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "antares-9",
+                  "model_name": "Beneteau Antares 9",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-9",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Beneteau Flyer",
+              "models": [
+                {
+                  "model_id": "flyer-10",
+                  "model_name": "Beneteau Flyer 10",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-10-sport-top",
+                  "model_name": "Beneteau Flyer 10 Sport Top",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-6-spacedeck",
+                  "model_name": "Beneteau Flyer 6 SPACEdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/flyer-2017-2022/flyer-6-spacedeck",
+                  "oceanic_url": "https://www.oceanic.cl/motor/flyer-6-spacedeck/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-7-spacedeck",
+                  "model_name": "Beneteau Flyer 7 SPACEdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-7-sundeck",
+                  "model_name": "Beneteau Flyer 7 SUNdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-8-8-spacedeck",
+                  "model_name": "Beneteau Flyer 8.8 SPACEdeck",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/flyer-2004-2016/flyer-88-spacedeck",
+                  "oceanic_url": "https://www.oceanic.cl/motor/flyer-8-8-spacedeck/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-8-spacedeck",
+                  "model_name": "Beneteau Flyer 8 SPACEdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/flyer/flyer-8-spacedeck-v2",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-8-sundeck",
+                  "model_name": "Beneteau Flyer 8 SUNdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-9-spacedeck",
+                  "model_name": "Beneteau Flyer 9 SPACEdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/flyer/flyer-9-spacedeck",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "flyer-9-sundeck",
+                  "model_name": "Beneteau Flyer 9 SUNdeck",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/flyer/flyer-9-sundeck",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Beneteau Gran Turismo",
+              "models": [
+                {
+                  "model_id": "gran-turismo-32",
+                  "model_name": "Beneteau Gran Turismo 32",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/former-beneteau-motorboats/gran-turismo-2018-2024",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "gran-turismo-35",
+                  "model_name": "Beneteau Gran Turismo 35",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/gran-turismo-new/gran-turismo-35",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "gran-turismo-36",
+                  "model_name": "Beneteau Gran Turismo 36",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://beneteau.com/gran-turismo/gran-turismo-36",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "gran-turismo-40",
+                  "model_name": "Beneteau Gran Turismo 40",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "gran-turismo-41",
+                  "model_name": "Beneteau Gran Turismo 41",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://beneteau.com/gran-turismo/gran-turismo-41",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "gran-turismo-50",
+                  "model_name": "Beneteau Gran Turismo 50",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-50",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Beneteau Grand Trawler",
+              "models": [
+                {
+                  "model_id": "grand-trawler-63",
+                  "model_name": "Beneteau Grand Trawler 63",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/grand-trawler/grand-trawler-63",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Beneteau Swift Trawler",
+              "models": [
+                {
+                  "model_id": "swift-trawler-37-fly",
+                  "model_name": "Beneteau Swift Trawler 37 Fly",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/trawler/swift-trawler-37-fly",
+                  "oceanic_url": "https://oceanic.cl/beneteau-motor/swift-trawler-37-fly/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "swift-trawler-37-sedan",
+                  "model_name": "Beneteau Swift Trawler 37 Sedan",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/motor-yachts/swift-trawler",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "swift-trawler-43-fly",
+                  "model_name": "Beneteau Swift Trawler 43 Fly",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "swift-trawler-43-sedan",
+                  "model_name": "Beneteau Swift Trawler 43 Sedan",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "swift-trawler-48",
+                  "model_name": "Beneteau Swift Trawler 48",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/swift-trawler/swift-trawler-48",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "Motorización estándar 2x Cummins QSB 6.7L 380hp",
+                    "Motorización opcional 2x Cummins QSB 6.7L 425hp"
+                  ]
+                },
+                {
+                  "model_id": "swift-trawler-54",
+                  "model_name": "Beneteau Swift Trawler 54",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.beneteau.com/en-us/trawler/swift-trawler-54",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "lagoon",
+      "official_name": "Lagoon",
+      "commercial_name": "Lagoon",
+      "manufacturer_url": "https://www.cata-lagoon.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 16,
+      "categories": [
+        {
+          "category": "power_catamaran",
+          "category_label": "Catamarán a Motor",
+          "families": [
+            {
+              "family": "Lagoon Eighty 2",
+              "models": [
+                {
+                  "model_id": "lagoon-eighty-2",
+                  "model_name": "Lagoon Eighty 2",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "4 cabanas",
+                    "5 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon Eighty 3",
+              "models": [
+                {
+                  "model_id": "lagoon-eighty-3",
+                  "model_name": "Lagoon Eighty 3",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "hasta 6 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon Seventy 7",
+              "models": [
+                {
+                  "model_id": "lagoon-seventy-7",
+                  "model_name": "Lagoon Seventy 7",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/seventy-7",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "4 cabanas",
+                    "5 cabanas",
+                    "6 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon Seventy 8",
+              "models": [
+                {
+                  "model_id": "lagoon-seventy-8",
+                  "model_name": "Lagoon Seventy 8",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/seventy-8",
+                  "oceanic_url": "https://www.oceanic.cl/motor/seventy-8/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "4 cabanas",
+                    "5 cabanas",
+                    "6 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon Sixty 5",
+              "models": [
+                {
+                  "model_id": "lagoon-sixty-5",
+                  "model_name": "Lagoon Sixty 5",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/sixty-5",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "4 cabanas",
+                    "5 cabanas (Salon)",
+                    "6 cabanas (Salon)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon Sixty 7",
+              "models": [
+                {
+                  "model_id": "lagoon-sixty-7",
+                  "model_name": "Lagoon Sixty 7",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/sixty-7",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "Galley en el casco, 4-5 cabanas",
+                    "Cocina central, 5-6 cabanas"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": "sail_catamaran",
+          "category_label": "Catamarán a Vela",
+          "families": [
+            {
+              "family": "Lagoon 38",
+              "models": [
+                {
+                  "model_id": "lagoon-38",
+                  "model_name": "Lagoon 38",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+                  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon38/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "3 cabanas",
+                    "4 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 39",
+              "models": [
+                {
+                  "model_id": "lagoon-39",
+                  "model_name": "Lagoon 39",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 40",
+              "models": [
+                {
+                  "model_id": "lagoon-40",
+                  "model_name": "Lagoon 40",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-40",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "3 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 42",
+              "models": [
+                {
+                  "model_id": "lagoon-42",
+                  "model_name": "Lagoon 42",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-42",
+                  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon42/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "3 cabanas",
+                    "4 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 43",
+              "models": [
+                {
+                  "model_id": "lagoon-43",
+                  "model_name": "Lagoon 43",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+                  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon-43/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "3 cabanas",
+                    "3 cabanas + Pullman",
+                    "4 cabanas",
+                    "4 cabanas + Pullman"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 46",
+              "models": [
+                {
+                  "model_id": "lagoon-46",
+                  "model_name": "Lagoon 46 Iconic",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-46-iconic",
+                  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon46-iconic/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "3 cabanas",
+                    "4 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 47",
+              "models": [
+                {
+                  "model_id": "lagoon-47",
+                  "model_name": "Lagoon 47",
+                  "lifecycle_status": "ANNOUNCED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "Layout propietario (3 cabanas)",
+                    "Layout charter (5 cabanas)",
+                    "Smart Room"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 51",
+              "models": [
+                {
+                  "model_id": "lagoon-51",
+                  "model_name": "Lagoon 51 Iconic",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-51-iconic",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "4 cabanas",
+                    "6 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 55",
+              "models": [
+                {
+                  "model_id": "lagoon-55",
+                  "model_name": "Lagoon 55",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-55",
+                  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon55/",
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "4 cabanas",
+                    "5 cabanas",
+                    "6 cabanas"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Lagoon 60",
+              "models": [
+                {
+                  "model_id": "lagoon-60",
+                  "model_name": "Lagoon 60",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-60",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "4 cabanas / galley down",
+                    "5 cabanas / galley down o galley up",
+                    "5 cabanas + camarote de tripulación"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "solaris",
+      "official_name": "Solaris Yachts",
+      "commercial_name": "Solaris",
+      "manufacturer_url": "https://www.solarisyachts.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 13,
+      "categories": [
+        {
+          "category": "sail",
+          "category_label": "Vela",
+          "families": [
+            {
+              "family": "Solaris 111",
+              "models": [
+                {
+                  "model_id": "solaris-111-rs",
+                  "model_name": "Solaris 111 RS",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/111/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Solaris 37",
+              "models": [
+                {
+                  "model_id": "solaris-37",
+                  "model_name": "Solaris 37",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "Quilla poco profunda (shoal draft)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 40",
+              "models": [
+                {
+                  "model_id": "solaris-40",
+                  "model_name": "Solaris 40",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/40/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Solaris 40 ST"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 42",
+              "models": [
+                {
+                  "model_id": "solaris-42",
+                  "model_name": "Solaris 42 (Solaris One 42)",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": null,
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "Quilla poco profunda (shoal draft)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 44",
+              "models": [
+                {
+                  "model_id": "solaris-44",
+                  "model_name": "Solaris 44",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/44/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Quilla estándar / quilla reducida"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 47",
+              "models": [
+                {
+                  "model_id": "solaris-47",
+                  "model_name": "Solaris 47",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/47/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Solaris 50",
+              "models": [
+                {
+                  "model_id": "solaris-50",
+                  "model_name": "Solaris 50",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/50/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Solaris 55",
+              "models": [
+                {
+                  "model_id": "solaris-55",
+                  "model_name": "Solaris 55",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/55/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Pañol de velas convertible en camarote de tripulación"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 60",
+              "models": [
+                {
+                  "model_id": "solaris-60",
+                  "model_name": "Solaris 60",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/60/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Layout de 3 o 4 camarotes",
+                    "Quilla fija (2.8 m / 3.2 m) o quilla levadiza (2.40-4.00 m)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 64",
+              "models": [
+                {
+                  "model_id": "solaris-64-rs",
+                  "model_name": "Solaris 64 RS",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/64/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Camarote adicional (4 en total)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Solaris 72",
+              "models": [
+                {
+                  "model_id": "solaris-72-classic",
+                  "model_name": "Solaris 72 Classic",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/brokerage/solaris-72-classic/",
+                  "oceanic_url": "https://www.oceanic.cl/vela/solaris-72/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Solaris 74",
+              "models": [
+                {
+                  "model_id": "solaris-74-rs",
+                  "model_name": "Solaris 74 RS",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/74-rs/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Solaris 80",
+              "models": [
+                {
+                  "model_id": "solaris-80-rs",
+                  "model_name": "Solaris 80 RS",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/80/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Interior semi-custom"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "aquila",
+      "official_name": "Aquila Power Catamarans",
+      "commercial_name": "Aquila",
+      "manufacturer_url": "https://www.aquilaboats.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 17,
+      "categories": [
+        {
+          "category": "power_catamaran",
+          "category_label": "Catamarán a Motor",
+          "families": [
+            {
+              "family": "Aquila Coupe",
+              "models": [
+                {
+                  "model_id": "aquila-42-coupe",
+                  "model_name": "Aquila 42 Coupe",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/coupes/42",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-46-coupe",
+                  "model_name": "Aquila 46 Coupe",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/coupes/46",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Aquila Luxury",
+              "models": [
+                {
+                  "model_id": "aquila-70-luxury",
+                  "model_name": "Aquila 70 Luxury",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/luxury/70",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Aquila Molokai (Offshore)",
+              "models": [
+                {
+                  "model_id": "aquila-28-molokai",
+                  "model_name": "Aquila 28 Molokai",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-28-molokai-cuddy",
+                  "model_name": "Aquila 28 Molokai Cuddy",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-36-molokai",
+                  "model_name": "Aquila 36 Molokai",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/offshore",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-47-molokai",
+                  "model_name": "Aquila 47 Molokai",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Aquila Sport",
+              "models": [
+                {
+                  "model_id": "aquila-32-sport",
+                  "model_name": "Aquila 32 Sport",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-35-sport",
+                  "model_name": "Aquila 35 Sport",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/news/aquila-catamarans-launching-two-new-models-at-cannes-yachting-festival-2026",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-36-sport",
+                  "model_name": "Aquila 36 Sport",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-45-sport",
+                  "model_name": "Aquila 45 Sport",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Aquila Yacht",
+              "models": [
+                {
+                  "model_id": "aquila-42-yacht",
+                  "model_name": "Aquila 42 Yacht",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/42",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-44-yacht",
+                  "model_name": "Aquila 44 Yacht",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-46-yacht",
+                  "model_name": "Aquila 46 Yacht",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/46",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Aquila Hydro Glide (sistema de foil semi-sumergido, opcional)"
+                  ]
+                },
+                {
+                  "model_id": "aquila-48-yacht",
+                  "model_name": "Aquila 48",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-50-yacht",
+                  "model_name": "Aquila 50 Yacht",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/50",
+                  "oceanic_url": "https://oceanic.cl/aquila-boats/50-yacht/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "aquila-54-yacht",
+                  "model_name": "Aquila 54 Yacht",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://www.aquilaboats.com/models/yachts/54",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "xo-boats",
+      "official_name": "XO Boats",
+      "commercial_name": "XO Boats",
+      "manufacturer_url": "https://xoboats.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 6,
+      "categories": [
+        {
+          "category": "motor",
+          "category_label": "Motor",
+          "families": [
+            {
+              "family": "DFNDR",
+              "models": [
+                {
+                  "model_id": "dfndr-8",
+                  "model_name": "XO DFNDR 8",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/xo-fleet/dfndr-8/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "DFNDR 8 / DFNDR A8 Limited Edition"
+                  ]
+                },
+                {
+                  "model_id": "dfndr-9",
+                  "model_name": "XO DFNDR 9",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/xo-fleet/dfndr-9/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "DSCVR",
+              "models": [
+                {
+                  "model_id": "dscvr-9",
+                  "model_name": "XO DSCVR 9",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/fleet/dscvr/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "DSCVR 9 Open",
+                    "DSCVR 9 T-Top"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "EXPLR",
+              "models": [
+                {
+                  "model_id": "explr-10",
+                  "model_name": "XO EXPLR 10",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/fleet/explr/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": [
+                    "EXPLR 10 Sport",
+                    "EXPLR 10 Sport IB",
+                    "EXPLR 10 Sport+",
+                    "EXPLR 10 Sport+ IB"
+                  ]
+                },
+                {
+                  "model_id": "explr-44",
+                  "model_name": "XO EXPLR 44",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/xo-fleet/explr-44/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "explr-9",
+                  "model_name": "XO EXPLR 9",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://xoboats.com/xo-fleet/explr-9/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": false,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "saffier",
+      "official_name": "Saffier Yachts",
+      "commercial_name": "Saffier",
+      "manufacturer_url": "https://www.saffieryachts.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 11,
+      "categories": [
+        {
+          "category": "sail",
+          "category_label": "Vela",
+          "families": [
+            {
+              "family": "Saffier SC 10m",
+              "models": [
+                {
+                  "model_id": "saffier-sc-10m-cabin",
+                  "model_name": "Saffier SC 10m Cabin",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/previous-models/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SC 6.50",
+              "models": [
+                {
+                  "model_id": "saffier-sc-650-cruise",
+                  "model_name": "Saffier SC 6.50 Cruise",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-sc-6-50-cruise/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Motorización diésel (Yanmar)",
+                    "Motorización eléctrica (Torqeedo)"
+                  ]
+                }
+              ]
+            },
+            {
+              "family": "Saffier SC 8m",
+              "models": [
+                {
+                  "model_id": "saffier-sc-8m-cabin",
+                  "model_name": "Saffier SC 8m Cabin",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                },
+                {
+                  "model_id": "saffier-sc-8m-open",
+                  "model_name": "Saffier SC 8m Open",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/saffier-se-26-renamed-saffier-sc-8m-open/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 24",
+              "models": [
+                {
+                  "model_id": "saffier-se-24-lite",
+                  "model_name": "Saffier SE 24 Lite",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 27",
+              "models": [
+                {
+                  "model_id": "saffier-se-27-leisure",
+                  "model_name": "Saffier SE 27 Leisure",
+                  "lifecycle_status": "UNCONFIRMED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://saffieryachts.com/previous-models/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 28",
+              "models": [
+                {
+                  "model_id": "saffier-se-28-leopard",
+                  "model_name": "Saffier SE 28 Leopard",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 33",
+              "models": [
+                {
+                  "model_id": "saffier-se-33-life",
+                  "model_name": "Saffier SE 33 Life",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-33-life/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 37",
+              "models": [
+                {
+                  "model_id": "saffier-se-37-lounge",
+                  "model_name": "Saffier SE 37 Lounge",
+                  "lifecycle_status": "DISCONTINUED",
+                  "confidence_level": "LOW",
+                  "manufacturer_url": "https://saffieryachts.com/pre-owned/saffier-se-37-lounge-2/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SE 38",
+              "models": [
+                {
+                  "model_id": "saffier-se-38-leader",
+                  "model_name": "Saffier SE 38 Leader",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-38-leader/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            },
+            {
+              "family": "Saffier SL 46",
+              "models": [
+                {
+                  "model_id": "saffier-sl-46",
+                  "model_name": "Saffier SL 46",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://saffieryachts.com/models/saffier-sl-46/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "SL 46 MED",
+                    "SL 46 NORTH"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "vx-one",
+      "official_name": "VX One",
+      "commercial_name": "VX One",
+      "manufacturer_url": "https://vxsailing.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 1,
+      "categories": [
+        {
+          "category": "one_design",
+          "category_label": "One Design",
+          "families": [
+            {
+              "family": "VX One",
+              "models": [
+                {
+                  "model_id": "vx-one",
+                  "model_name": "VX One",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://vxsailing.com/",
+                  "oceanic_url": "https://www.oceanic.cl/vela/vxone/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "skeeta",
+      "official_name": "Skeeta",
+      "commercial_name": "Skeeta",
+      "manufacturer_url": "https://skeetawatersports.com/",
+      "portfolio_status": "ACTIVE",
+      "total_models": 1,
+      "categories": [
+        {
+          "category": "one_design",
+          "category_label": "One Design",
+          "families": [
+            {
+              "family": "Skeeta",
+              "models": [
+                {
+                  "model_id": "skeeta",
+                  "model_name": "Skeeta",
+                  "lifecycle_status": "CURRENT",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://skeetawatersports.com/skeeta/",
+                  "oceanic_url": "https://oceanic.cl/usados/skeeta/",
+                  "oceanic_evidence": true,
+                  "variants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand_id": "switch",
+      "official_name": "Switch One Design",
+      "commercial_name": "Switch",
+      "manufacturer_url": "https://www.switchonedesign.com/",
+      "portfolio_status": "NEW",
+      "total_models": 1,
+      "categories": [
+        {
+          "category": "one_design",
+          "category_label": "One Design",
+          "families": [
+            {
+              "family": "Switch One Design",
+              "models": [
+                {
+                  "model_id": "switch-one-design",
+                  "model_name": "Switch One Design",
+                  "lifecycle_status": "NEW",
+                  "confidence_level": "MEDIUM",
+                  "manufacturer_url": "https://www.switchonedesign.com/",
+                  "oceanic_url": null,
+                  "oceanic_evidence": true,
+                  "variants": [
+                    "Rig 6.5 m²",
+                    "Rig 7.5 m²",
+                    "Rig 8.5 m²"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
