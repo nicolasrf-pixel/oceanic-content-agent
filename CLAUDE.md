@@ -49,10 +49,17 @@ siempre los datos correctos.
   todavía).
 
 ### 2.2 Fuera de alcance (por ahora)
-- Construcción del frontend / páginas HTML de producto.
+- Construcción del frontend / páginas HTML de producto **público**.
 - Descarga masiva de imágenes u otros assets.
 - Conexión o escritura en Google Drive.
 - Automatización de publicación web.
+
+**Excepción explícita:** `dashboard/` es una herramienta interna de
+revisión (lee `data/catalog/*.json` en vivo, sin build, sin framework),
+pedida y aprobada explícitamente para poder auditar el catálogo sin leer
+JSON directamente. No es el sitio público de Oceanic ni un adelanto de
+él — no usa la convención de URLs de la sección 8, no consume el schema
+de producto de Fase 3. Ver `dashboard/README.md`.
 
 Estas fases se activan solo cuando el inventario y los datos de la fase
 anterior estén validados y aprobados.

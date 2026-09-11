@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oceanic Content Engine — Master Catalog</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-header__inner">
+    <div class="app-header__brand">
+      <span class="app-header__eyebrow">Oceanic Content Engine</span>
+      <h1 class="app-header__title">Master Catalog</h1>
+    </div>
+    <div class="app-header__meta" id="header-meta">Cargando datos…</div>
+  </div>
+</header>
+
+<div class="kpi-bar" id="kpi-bar" aria-label="Indicadores del catálogo">
+  <!-- KPI tiles injected by app.js -->
+</div>
+
+<main class="app-main">
+
+  <section class="toolbar" aria-label="Filtros y búsqueda">
+    <div class="toolbar__search">
+      <label for="search-input" class="sr-only">Buscar modelo</label>
+      <input id="search-input" type="search" placeholder="Buscar por modelo, familia o marca…" autocomplete="off">
+    </div>
+
+    <div class="toolbar__filters">
+      <div class="filter">
+        <label for="filter-brand">Marca</label>
+        <select id="filter-brand"><option value="">Todas</option></select>
+      </div>
+      <div class="filter">
+        <label for="filter-category">Categoría</label>
+        <select id="filter-category"><option value="">Todas</option></select>
+      </div>
+      <div class="filter">
+        <label for="filter-family">Familia</label>
+        <select id="filter-family"><option value="">Todas</option></select>
+      </div>
+      <div class="filter">
+        <label for="filter-status">Estado</label>
+        <select id="filter-status">
+          <option value="">Todos</option>
+          <option value="CURRENT">Vigente</option>
+          <option value="NEW">Nuevo</option>
+          <option value="ANNOUNCED">Anunciado</option>
+          <option value="DISCONTINUED">Descontinuado</option>
+          <option value="UNCONFIRMED">Sin confirmar</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="filter-oceanic">Representación Oceanic</label>
+        <select id="filter-oceanic">
+          <option value="">Todas</option>
+          <option value="yes">Confirmada</option>
+          <option value="no">Sin evidencia</option>
+        </select>
+      </div>
+      <div class="filter filter--toggle">
+        <label class="toggle">
+          <input type="checkbox" id="filter-review">
+          <span>Solo requiere revisión</span>
+        </label>
+      </div>
+      <button type="button" id="clear-filters" class="btn btn--ghost">Limpiar filtros</button>
+    </div>
+  </section>
+
+  <div class="result-count" id="result-count" role="status"></div>
+
+  <section class="brands-view" id="brands-view" aria-label="Marcas representadas">
+    <!-- brand cards injected by app.js -->
+  </section>
+
+  <section class="models-view" id="models-view" hidden aria-label="Modelos">
+    <div class="models-view__header">
+      <button type="button" id="back-to-brands" class="btn btn--ghost">← Todas las marcas</button>
+      <h2 id="models-view-title"></h2>
+    </div>
+    <div class="model-grid" id="model-grid"></div>
+  </section>
+
+</main>
+
+<!-- Detail panel -->
+<div class="overlay" id="detail-overlay" hidden></div>
+<aside class="detail-panel" id="detail-panel" hidden aria-label="Detalle del modelo" role="dialog" aria-modal="true">
+  <button type="button" class="detail-panel__close" id="detail-close" aria-label="Cerrar">✕</button>
+  <div class="detail-panel__content" id="detail-content"></div>
+</aside>
+
+<footer class="app-footer">
+  <p>
+    Herramienta interna de revisión — no forma parte del sitio público de Oceanic.
+    Datos leídos en vivo desde <code>data/catalog/master-catalog.json</code> y
+    <code>data/catalog/oceanic-catalog.json</code>. Ver <code>CLAUDE.md</code> para la
+    metodología completa.
+  </p>
+</footer>
+
+<template id="tpl-error">
+  <div class="error-state">
+    <p class="error-state__title">No se pudieron cargar los datos del catálogo.</p>
+    <p class="error-state__detail"></p>
+    <p class="error-state__hint">Este dashboard debe servirse por HTTP (no abrir el archivo
+      directamente). Ver <code>dashboard/README.md</code> para el comando exacto.</p>
+  </div>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
