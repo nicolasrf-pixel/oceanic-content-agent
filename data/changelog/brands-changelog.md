@@ -37,6 +37,59 @@ detectada, fuente, fecha y acción recomendada.
 
 ---
 
+## 2026-09-14 — Excess Catamarans: agregada por instrucción directa del usuario
+
+- **Marca:** Excess Catamarans (brand_id: `excess-catamarans`)
+- **Situación:** No estaba en el universo inicial (CLAUDE.md sección 2.3) ni fue
+  descubierta por investigación propia. El usuario/propietario del proyecto
+  pidió explícitamente agregarla: "agrega Excess Catamarans".
+- **Verificación hecha:** se confirmó que la marca existe y es real —
+  fabricante de catamaranes de vela del grupo Beneteau (hermana de Lagoon,
+  lanzada en 2019), sitio oficial `excess-catamarans.com`, gama vigente
+  Excess 11/12/13/14/15. **No se encontró evidencia de que Oceanic Chile la
+  represente** — ni página en `oceanic.cl`, ni aparece en el listado propio
+  de distribuidores de excess-catamarans.com/our-dealers para Chile.
+- **Fuente:** búsqueda web (excess-catamarans.com y prensa especializada:
+  Yachting World, Cruising World, sailboatdata.com, Marc Lombard). Nivel 1
+  para specs del fabricante, sin fetch directo (CLAUDE.md sección 22).
+- **Fecha:** 2026-09-14
+- **Acción aplicada:** se agregó el registro de marca con
+  `portfolio_status: ACTIVE` (conforme a la instrucción explícita del
+  usuario, que constituye la aprobación humana requerida por CLAUDE.md
+  sección 21 para agregar una representada) pero `confidence_level: LOW` y
+  `discrepancy_flag: true`, dejando visible que la representación local por
+  Oceanic sigue sin confirmar. Se crearon 5 modelos en
+  `data/models/excess-catamarans/`. **Se recomienda** verificación directa
+  con Oceanic sobre si efectivamente representan esta marca en Chile antes
+  de tratar el catálogo de Excess con el mismo nivel de confianza que las
+  marcas con evidencia local (Axopar, Beneteau, Lagoon, etc.).
+
+---
+
+## 2026-09-14 — Skeeta: eliminada del catálogo activo por instrucción directa
+
+- **Marca:** Skeeta
+- **Situación:** El usuario/propietario del proyecto pidió explícitamente
+  eliminar Skeeta: "elimina Skeeta". No hay una fuente nueva que motive el
+  cambio — es una decisión de negocio/editorial, no un hallazgo de
+  investigación.
+- **Fuente:** instrucción directa del usuario, 2026-09-14.
+- **Fecha:** 2026-09-14
+- **Acción aplicada:** `master-inventory.json` actualizado —
+  `portfolio_status: DISCONTINUED` (antes `ACTIVE`), con la decisión
+  registrada en `human_decisions` del propio registro de marca. **No se
+  borró nada**: el registro de marca y su modelo
+  (`data/models/skeeta/skeeta.json`) se conservan íntegros por
+  trazabilidad (mismo principio que CLAUDE.md sección 15 para modelos
+  descontinuados, aplicado aquí también a nivel de marca). Lo que cambia es
+  que `scripts/build_catalog.py` ahora excluye del catálogo activo
+  (`data/catalog/master-catalog.json`, `oceanic-catalog.json`, y por tanto
+  el dashboard) cualquier marca cuyo `portfolio_status` no sea `ACTIVE` o
+  `NEW` — Skeeta deja de aparecer ahí, pero sigue siendo consultable en
+  `master-inventory.json` y en el historial de git.
+
+---
+
 ## 2026-09-10 — Skeeta: discrepancia resuelta por decisión humana
 
 - **Marca:** Skeeta

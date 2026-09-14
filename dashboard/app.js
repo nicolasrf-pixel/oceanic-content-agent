@@ -225,12 +225,12 @@
   // ---- filter option population (dynamic, never hardcoded) -------------
 
   function populateFilterOptions() {
-    var brands = uniqueSorted(state.allModels.map(function (m) { return m.brand_id + " " + m.brand_name; }))
-      .map(function (s) { var p = s.split(" "); return { id: p[0], name: p[1] }; });
+    var brands = uniqueSorted(state.allModels.map(function (m) { return m.brand_id + " " + m.brand_name; }))
+      .map(function (s) { var p = s.split(" "); return { id: p[0], name: p[1] }; });
     fillSelect(els.filterBrand, brands.map(function (b) { return [b.id, b.name]; }), "Todas");
 
-    var categories = uniqueSorted(state.allModels.map(function (m) { return m.category + " " + m.category_label; }))
-      .map(function (s) { var p = s.split(" "); return { id: p[0], name: p[1] }; });
+    var categories = uniqueSorted(state.allModels.map(function (m) { return m.category + " " + m.category_label; }))
+      .map(function (s) { var p = s.split(" "); return { id: p[0], name: p[1] }; });
     fillSelect(els.filterCategory, categories.map(function (c) { return [c.id, c.name]; }), "Todas");
 
     populateFamilyOptions();
@@ -432,13 +432,19 @@
       var variants = (m.variants && m.variants.length)
         ? '<p class="model-card__variants">' + m.variants.length + ' variante(s): ' + escapeHtml(m.variants.map(function (v) { return v.variant_name; }).join(", ")) + '</p>'
         : "";
+      var media = m.media || { images: [], videos: [] };
+      var nImg = media.images ? media.images.length : 0;
+      var nVid = media.videos ? media.videos.length : 0;
+      var mediaBadge = (nImg || nVid)
+        ? '<span class="badge badge--media">' + (nImg ? '<span class="badge__glyph">🖼</span>' + nImg : '') + (nImg && nVid ? ' · ' : '') + (nVid ? '<span class="badge__glyph">🎬</span>' + nVid : '') + '</span>'
+        : '';
 
       return (
         '<article class="model-card" data-model="' + escapeAttr(m.brand_id + "::" + m.model_id) + '">' +
           '<p class="model-card__breadcrumb">' + escapeHtml(m.brand_name) + ' · ' + escapeHtml(m.category_label) + ' · ' + escapeHtml(m.family) + '</p>' +
           '<p class="model-card__name">' + escapeHtml(m.model_name) + '</p>' +
           variants +
-          '<div class="model-card__row">' + statusBadge + oceanicBadge + reviewBadge + '</div>' +
+          '<div class="model-card__row">' + statusBadge + oceanicBadge + reviewBadge + mediaBadge + '</div>' +
           '<div class="model-card__row">' + link + '</div>' +
         '</article>'
       );
@@ -458,6 +464,53 @@
   function statusBadgeHtml(status) {
     var meta = STATUS_META[status] || { label: status, glyph: "•", cls: "unconfirmed" };
     return '<span class="badge badge--' + meta.cls + '"><span class="badge__glyph">' + meta.glyph + '</span>' + escapeHtml(meta.label) + '</span>';
+  }
+
+  var MEDIA_TYPE_LABELS = {
+    gallery_page: "Galería del fabricante",
+    press_kit: "Kit de prensa",
+    single_photo_page: "Nota con fotos"
+  };
+  var MEDIA_PLATFORM_LABELS = {
+    youtube: "YouTube",
+    vimeo: "Vimeo",
+    manufacturer_page: "Página del fabricante",
+    other: "Otro"
+  };
+
+  // media (embebido en cada modelo por scripts/build_catalog.py, leído
+  // directamente de data/models/<brand>/<model>.json -> campo "media").
+  // Son siempre enlaces a la página que aloja el contenido, nunca archivos
+  // descargados/hotlinkeados (CLAUDE.md sección 2.1 "assets").
+  function buildMediaHtml(media) {
+    media = media || { media_status: "NOT_RESEARCHED", images: [], videos: [] };
+    var notResearchedNote = '<p style="color:var(--muted);font-size:0.85rem;">Sin investigar aún — este modelo es de una pasada anterior a la incorporación de galería/video al esquema (2026-09-14).</p>';
+
+    var imagesHtml;
+    if (!media.images || !media.images.length) {
+      imagesHtml = media.media_status === "RESEARCHED"
+        ? '<p style="color:var(--muted);font-size:0.85rem;">Investigado: no se encontraron imágenes con fuente suficiente.</p>'
+        : notResearchedNote;
+    } else {
+      imagesHtml = '<ul class="source-list">' + media.images.map(function (img) {
+        return '<li><a href="' + escapeAttr(img.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(img.url) + '</a>' +
+          '<div class="source-meta">' + escapeHtml(MEDIA_TYPE_LABELS[img.type] || img.type) + ' · Nivel ' + img.level + ' · ' + escapeHtml(img.verification_state) + '</div></li>';
+      }).join("") + '</ul>';
+    }
+
+    var videosHtml;
+    if (!media.videos || !media.videos.length) {
+      videosHtml = media.media_status === "RESEARCHED"
+        ? '<p style="color:var(--muted);font-size:0.85rem;">Investigado: no se encontraron videos con fuente suficiente.</p>'
+        : notResearchedNote;
+    } else {
+      videosHtml = '<ul class="source-list">' + media.videos.map(function (v) {
+        return '<li><a href="' + escapeAttr(v.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(v.title || v.url) + '</a>' +
+          '<div class="source-meta">' + escapeHtml(MEDIA_PLATFORM_LABELS[v.platform] || v.platform) + ' · Nivel ' + v.level + ' · ' + escapeHtml(v.verification_state) + '</div></li>';
+      }).join("") + '</ul>';
+    }
+
+    return { images: imagesHtml, videos: videosHtml };
   }
 
   // ---- detail panel -----------------------------------------------------
@@ -497,6 +550,8 @@
           return '<li><strong>' + escapeHtml(v.variant_name || "") + '</strong>' + (v.description ? " — " + escapeHtml(v.description) : "") + '</li>';
         }).join("") + '</ul>'
       : '<p style="color:var(--muted);font-size:0.85rem;">Sin variantes registradas.</p>';
+
+    var mediaHtml = buildMediaHtml(m.media);
 
     els.detailContent.innerHTML =
       '<div class="detail-section">' +
@@ -552,6 +607,14 @@
 
       '<div class="detail-section">' +
         '<h3>Variantes</h3>' + variantsHtml +
+      '</div>' +
+
+      '<div class="detail-section">' +
+        '<h3>Galería e imágenes</h3>' + mediaHtml.images +
+      '</div>' +
+
+      '<div class="detail-section">' +
+        '<h3>Video</h3>' + mediaHtml.videos +
       '</div>' +
 
       '<div class="detail-section">' +

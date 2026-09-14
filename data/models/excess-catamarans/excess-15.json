@@ -1,0 +1,93 @@
+{
+  "model_id": "excess-15",
+  "brand_id": "excess-catamarans",
+  "family": "Excess 15",
+  "model_name": "Excess 15",
+  "variants": [
+    {
+      "variant_name": "3 a 6 camarotes",
+      "description": "Rango de configuraciones de camarotes reportado por el propio fabricante para este modelo.",
+      "confidence_level": "MEDIUM",
+      "notes": "Reportado en el título de la página oficial del modelo."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.excess-catamarans.com/our-catamarans/excess-15",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "superficie_vela_m2": 125,
+    "altura_mastil_m": "más de 25",
+    "camarotes": "3 a 6",
+    "banos": "UNKNOWN",
+    "notas_specs": "Modelo más grande de la gama; construido sobre moldes adaptados del Lagoon 50, aproximadamente una tonelada más liviano gracias a mobiliario interior optimizado y sin flybridge. Estaciones de timón dobles a popa de cada casco. Eslora/manga/calado/desplazamiento no confirmados con cifra numérica en esta pasada."
+  },
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "Página de modelo activa en excess-catamarans.com/our-catamarans/excess-15",
+          "source": { "url": "https://www.excess-catamarans.com/our-catamarans/excess-15", "level": 1, "level_label": "PRIMARY", "retrieved_at": "2026-09-14", "retrieval_method": "web_search_snippet", "verification_state": "UNCONFIRMED", "notes": "Página sigue indexada con lenguaje en presente." }
+        },
+        {
+          "value": "Un resumen de búsqueda sobre 'la gama actual 2026' menciona solo Excess 11, 13 y 14 como modelos vigentes, sin incluir el 15 ni el 12",
+          "source": { "url": "https://www.excess-catamarans.com/our-catamarans", "level": 1, "level_label": "PRIMARY", "retrieved_at": "2026-09-14", "retrieval_method": "web_search_snippet", "verification_state": "UNCONFIRMED", "notes": "Mismo patrón de ambigüedad que el Excess 12 (ver excess-12.json): ambos son modelos de 'primera generación' construidos sobre moldes de Lagoon, a diferencia de los más nuevos 11/13/14." }
+        }
+      ],
+      "notes": "No se resuelve arbitrariamente (CLAUDE.md sección 14). Se deja UNCONFIRMED hasta poder confirmar por fetch directo si el 15 sigue vigente en el catálogo actual del fabricante."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-15",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/excess-15/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de terceros localizada, contenido no leído en profundidad en esta pasada."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.excess-catamarans.com/our-catamarans/excess-15",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo, incluye galería de fotos del fabricante."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@EXCESSCatamarans",
+        "platform": "youtube",
+        "title": "Canal oficial EXCESS Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Sin video específico del 15 confirmado en esta pasada; se referencia el canal de marca."
+      }
+    ]
+  },
+  "verified_at": "2026-09-14",
+  "last_updated": "2026-09-14",
+  "status_pipeline": "MAPPED",
+  "notes": "Marca agregada por instrucción directa del usuario 2026-09-14; no hay evidencia de que Oceanic Chile represente esta marca — oceanic_url queda null. Primer modelo grande de la marca; construido sobre moldes adaptados del Lagoon 50 (misma generación que el Excess 12)."
+}

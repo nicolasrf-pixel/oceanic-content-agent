@@ -10,10 +10,16 @@ es una herramienta de gestión de contenido, no una página de producto).
 
 - Es una página estática (HTML + CSS + JS vanilla, sin build, sin
   dependencias, sin framework) que lee en vivo:
-  - `data/catalog/master-catalog.json` — los 141 modelos publicados por
-    las 11 representadas en sus sitios oficiales.
+  - `data/catalog/master-catalog.json` — los modelos publicados por las
+    representadas activas (`portfolio_status` ACTIVE/NEW) en sus sitios
+    oficiales.
   - `data/catalog/oceanic-catalog.json` — el subconjunto de esos modelos
     con evidencia de representación específica por Oceanic Chile.
+  - Una marca con `portfolio_status` DISCONTINUED/UNCONFIRMED (ej. Skeeta,
+    ver `data/changelog/brands-changelog.md`) se conserva íntegra en
+    `data/brands/master-inventory.json` pero desaparece de estos dos
+    catálogos y por tanto del dashboard — no está borrada, solo fuera del
+    catálogo activo.
 - No duplica datos: todo lo que se ve (KPIs, tarjetas, filtros, detalle)
   se calcula en el navegador a partir de esos dos archivos. Si se
   regeneran, el dashboard refleja el cambio en el siguiente refresh —
@@ -72,8 +78,13 @@ Para detener el servidor: `Ctrl+C` en la terminal donde corre.
 - **Detalle** (click en cualquier tarjeta de modelo): identificación,
   representación y su fuente, fuente oficial del fabricante, validación
   (confianza, fechas, issues detectados automáticamente), discrepancias
-  conservadas entre fuentes, variantes, lista completa de fuentes, y las
-  notas de investigación originales.
+  conservadas entre fuentes, variantes, **galería de imágenes y video**
+  (enlaces a la página/galería/video oficial — nunca archivos descargados
+  ni hotlinkeados, ver `media` en `data/schema/model.schema.json`), lista
+  completa de fuentes, y las notas de investigación originales.
+  Un modelo de una pasada anterior a la incorporación de este campo
+  (2026-09-14) muestra "Sin investigar aún" en vez de una lista vacía —
+  para distinguir "no tiene" de "no se buscó todavía".
 
 ## Qué significa "Requires Review"
 

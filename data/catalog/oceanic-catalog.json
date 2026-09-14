@@ -1,12 +1,12 @@
 {
   "catalog_meta": {
     "name": "Modelos con evidencia de representación específica por Oceanic Chile",
-    "generated_at": "2026-09-11",
+    "generated_at": "2026-09-14",
     "generated_by": "oceanic-content-agent",
     "description": "Subconjunto de master-catalog.json: solo modelos donde oceanic_evidence es true (existe oceanic_url propio y/o una fuente de sources[] con level=2). Es un derivado programatico de data/models/, no una investigacion nueva ni una lista editada a mano.",
     "derived_from": "data/catalog/master-catalog.json",
-    "total_brands": 11,
-    "total_models": 65
+    "total_brands": 10,
+    "total_models": 64
   },
   "brands": [
     {
@@ -97,6 +97,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "low_confidence"
@@ -184,6 +189,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "low_confidence"
@@ -259,6 +269,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -369,6 +384,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/axopar/axopar-37-spyder.json"
@@ -453,6 +473,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -539,6 +564,11 @@
                     "camarotes": "1 (cabina de proa) — UNCONFIRMED",
                     "banos": "UNCONFIRMED"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/axopar/axopar-37-xc-cross-cabin.json"
@@ -612,6 +642,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -716,6 +751,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -833,6 +873,11 @@
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -900,6 +945,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -980,6 +1030,11 @@
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/beneteau-sail/oceanis-30-1.json"
@@ -1046,6 +1101,11 @@
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/beneteau-sail/oceanis-34-1.json"
@@ -1103,6 +1163,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1169,6 +1234,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1265,6 +1335,11 @@
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -1333,6 +1408,11 @@
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/beneteau-sail/oceanis-51-1.json"
@@ -1398,6 +1478,11 @@
                     "camarotes": "UNCONFIRMED",
                     "banos": "UNKNOWN",
                     "superficie_velica_m2": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1489,6 +1574,11 @@
                     "camarotes": 3,
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/beneteau-power/antares-11-coupe.json"
@@ -1558,6 +1648,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/beneteau-power/antares-11-fly.json"
@@ -1618,6 +1713,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1684,6 +1784,11 @@
                     "pasajeros": 8,
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1777,6 +1882,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy",
@@ -1854,6 +1964,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": 2,
                     "banos": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -1959,6 +2074,11 @@
                     "velocidad_maxima_nudos": 19,
                     "motorizacion_estandar": "2 x 510 HP (opcional 2 x 580 HP)"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/lagoon/lagoon-seventy-8.json"
@@ -2038,6 +2158,11 @@
                     "camarotes": "3 o 4",
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -2139,6 +2264,11 @@
                     "camarotes": "UNKNOWN",
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": true,
                   "review_reasons": [
@@ -2248,6 +2378,11 @@
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -2333,6 +2468,11 @@
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/lagoon/lagoon-43.json"
@@ -2406,6 +2546,11 @@
                     "camarotes": "3 o 4",
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -2517,6 +2662,11 @@
                     "banos": "UNKNOWN",
                     "pasajeros_max": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -2615,6 +2765,11 @@
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Descrito como el más grande de la gama semi-custom de Solaris; casco y cubierta construidos íntegramente en fibra de carbono en la instalación de composites avanzados de Solaris. Primera unidad botada en el verano de 2020."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/solaris/solaris-111-rs.json"
@@ -2700,6 +2855,11 @@
                     "banos": 2,
                     "superficie_vela_m2": "UNCONFIRMED",
                     "notas_specs": "Desplazamiento reportado como '10 toneladas (media carga)' por itBoat/sailboatdata (fuente Nivel 3, snippet), sin cifra exacta en kg confirmada por fuente Nivel 1 en esta pasada -> UNCONFIRMED. Superficie vélica: mayor 57 m2 + genoa 43 m2 = 100 m2 aprox segun fuente Nivel 3 (snippet), no confirmado contra ficha oficial -> UNCONFIRMED."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -2818,6 +2978,11 @@
                     "superficie_vela_m2": 119,
                     "notas_specs": "Especificaciones corresponden a la reinterpretación/relanzamiento reciente del Solaris 44 (cubierto por giornaledellavela.com 2026-07-22 y cruisingworld.com): diseño Javier Soto Acebal, 3 camarotes / 2 baños, mayor 66 m2 + génova de proa 53 m2 = 119 m2, desplazamiento en seco 9.900 kg (3.600 kg de lastre)."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -2930,6 +3095,11 @@
                     "banos": "UNKNOWN",
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Desplazamiento reportado como 12.6 toneladas a media carga por itBoat (Nivel 3, snippet) -> UNCONFIRMED sin cifra en kg de fuente Nivel 1."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": true,
                   "review_reasons": [
@@ -3054,6 +3224,11 @@
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "LWL 14.68 m según sailboatdata (Nivel 3). Calado: ficha 'Smash' (2023) no entrega cifra clara en los snippets recuperados; ficha anterior (2021) reporta 2.80 m estándar con opciones 2.60/2.35 m -> se deja UNCONFIRMED para la versión 2023 hasta confirmar con la ficha exacta."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -3141,6 +3316,11 @@
                     "banos": 3,
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "3 camarotes, todos en-suite (cada uno con baño propio) según itBoat -> banos=3 (mínimo, sin contar el eventual camarote de tripulación opcional en el pañol de velas)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -3233,6 +3413,11 @@
                     "superficie_vela_m2": 201,
                     "notas_specs": "Calado: dos opciones reportadas (2.8 m / 3.2 m) más quilla levadiza 2.40-4.00 m; se deja 'UNCONFIRMED' en el campo único calado_m porque hay múltiples configuraciones sin un valor 'estándar' claro en las fuentes recuperadas. Camarotes: 3 o 4 según configuración, por eso 'UNCONFIRMED' en el campo único. Desplazamiento: 25.8 toneladas media carga (~24.000-25.800 kg) según fuentes Nivel 3, sin cifra oficial exacta confirmada -> UNCONFIRMED. Superficie vélica: mayor 100 m2 + génova 101 m2 = 201 m2 según fuente Nivel 3."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/solaris/solaris-60.json"
@@ -3310,6 +3495,11 @@
                     "banos": 3,
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Salón elevado ('raised saloon') con ventanas de 360 grados y sala de máquinas central con dos camarotes de popa aislados de ruido, según cobertura de prensa (Nivel 3)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -3430,6 +3620,11 @@
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Calado variable 2.6-4.0 m por quilla levadiza tipo T según fuente Nivel 3 (yachtrevue.at) -> UNCONFIRMED como valor único."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy",
@@ -3513,6 +3708,11 @@
                     "banos": "UNKNOWN",
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Motor 1x Volvo 175 HP reportado por fuente Nivel 3 (dato de motorización, no de vela; se deja fuera de los campos de specifications estándar del esquema por no ser un campo pedido explícitamente, pero se registra aquí como contexto)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -3599,6 +3799,11 @@
                     "banos": "UNKNOWN",
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Descrito como yate para circunnavegación ('true world girdling yacht') dentro del segmento semi-custom bluewater de 70-80 pies."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -3690,6 +3895,11 @@
                     "camarotes": 2,
                     "banos": 2
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/aquila/aquila-42-coupe.json"
@@ -3758,6 +3968,11 @@
                     "pasajeros": "12 (categoría B, offshore) / 22 (categoría C, costera) / 32 (categoría D, aguas interiores) -- certificación CE",
                     "camarotes": 2,
                     "banos": 2
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -3842,6 +4057,11 @@
                     "camarotes": 5,
                     "banos": 5
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/aquila/aquila-70-luxury.json"
@@ -3916,6 +4136,11 @@
                     "camarotes": 1,
                     "banos": 1
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/aquila/aquila-32-sport.json"
@@ -3984,6 +4209,11 @@
                     "pasajeros": "hasta 4 (pernocte, según fuente de tercero)",
                     "camarotes": 2,
                     "banos": 2
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -4058,6 +4288,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "2 (más camarote de servicio con litera individual), con layouts opcionales de 3 o 4 camarotes",
                     "banos": "2 (layout base) o 3 (según layout opcional)"
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -4134,6 +4369,11 @@
                     "camarotes": "UNKNOWN (suite principal de manga completa confirmada; número total de camarotes no confirmado)",
                     "banos": "UNKNOWN"
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/aquila/aquila-46-yacht.json"
@@ -4202,6 +4442,11 @@
                     "pasajeros": "UNKNOWN",
                     "camarotes": "3 (estándar, con opción de layout de 4 camarotes)",
                     "banos": 3
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -4347,6 +4592,11 @@
                     "material_casco": "Aluminio (grado náutico/militar según posicionamiento de marca)",
                     "notas_especificaciones": "Fuentes secundarias (fueraborda) reportan configuraciones de motor variables: 1x Mercury 300 V8 o 2x225 hp según versión/edición; velocidad reportada '+50 nudos' (barcheamotore.com, cruisingodyssey.com) y capacidad reportada de 8 pasajeros (agregador boats.com) sin confirmación directa del fabricante. Lanzado en Boot Düsseldorf 2023."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -4484,6 +4734,11 @@
                     "precio_referencia_eur": "UNCONFIRMED",
                     "notas_especificaciones": "Descrito por el fabricante y prensa náutica como el primer 'aluminum adventure yacht' de XO, buque insignia de la marca (~1.000.000 EUR según prensa, no confirmado). Motorización reportada de forma inconsistente entre fuentes: 3x450 hp, o 2x600 hp, o 3x400hp Mercury V10 (5.7L) según el artículo — se registra como discrepancia. Velocidad máxima reportada '+50 nudos'; velocidad de crucero reportada '32-40 nudos' en una sola fuente."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -4601,6 +4856,11 @@
                     "calado_m": 1.13,
                     "notas_specs": "1 camarote con 2 literas. Producción en número limitado."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -4690,6 +4950,11 @@
                     "calado_m": 0.95,
                     "notas_specs": "Manga 6.73 ft ~ 2.05 m convertido; eslora nominal 6.50 m (21.33 ft ~ 6.50 m). Datos vía snippets de terceros (itboat, yacht.de, nauticexpo, carbonyachts.com.au), no fetch directo del fabricante."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/saffier/saffier-sc-650-cruise.json"
@@ -4764,6 +5029,11 @@
                     "tripulacion_max": 4,
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Interior con litera doble a proa, dos literas individuales a popa, galley con cocina y lavaplatos; capacidad hasta 4 personas para pernoctar. Motor Yanmar diésel u opción eléctrica Torqeedo (igual que SC 6.50)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -4858,6 +5128,11 @@
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Más de 160 unidades vendidas bajo su nombre anterior/actual combinado (SE 26 / SC 8m Open)."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy"
@@ -4935,6 +5210,11 @@
                     "superficie_vela_m2": 31,
                     "calado_m": 1.3,
                     "notas_specs": "Eslora 8.00m (26'3\"), manga 2.40m (7'11\"), calado 1.30m con 3 opciones de quilla entre 1.00 y 1.44m. Vela estándar mayor 20m2 + foque autovirante 11m2 = 31m2; opciones adicionales: genoa 110% 12.5m2, Code 0 41m2, gennaker 48m2. Premiada 'European Yacht of the Year 2024'."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -5042,6 +5322,11 @@
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "No se encontraron specs numéricas confiables en esta pasada de búsqueda más allá de descripciones genéricas ('combina velocidad, alto rendimiento y una estética llamativa')."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": true,
                   "review_reasons": [
                     "unresolved_discrepancy",
@@ -5122,6 +5407,11 @@
                     "calado_m": 1.75,
                     "notas_specs": "Desplazamiento 2.2 toneladas con 750kg de lastre. 1 camarote con 4 literas. Vela mayor + génova = 40m2."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/saffier/saffier-se-28-leopard.json"
@@ -5201,6 +5491,11 @@
                     "calado_m_quilla_regata_opcional": 2.1,
                     "notas_specs": "Ficha oficial PDF de distribuidor (marinesc.com) reproduce specs del fabricante: eslora 9.85m (11m con bauprés), manga 2.85m, desplazamiento 3000kg, 3 opciones de quilla. Superficie vélica calculada desde mayor 355.21 sqft + foque 236.81 sqft (~33 + 22 m2 aprox); valor exacto en m2 no confirmado directamente, ver notas_specs."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/saffier/saffier-se-33-life.json"
@@ -5275,6 +5570,11 @@
                     "tripulacion_max": "UNKNOWN",
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Descrito genéricamente como 'Premium comfort with impressive sailing capabilities'; no se hallaron cifras numéricas confiables en esta pasada."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": true,
                   "review_reasons": [
@@ -5352,6 +5652,11 @@
                     "tripulacion_max": "UNKNOWN",
                     "superficie_vela_m2": 80,
                     "notas_specs": "Modelo más nuevo de la línea Elegance (lanzamiento 2026), posicionado como gama media-alta ('mid-range model with big ambitions')."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -5450,6 +5755,11 @@
                     "tripulacion_max": "UNKNOWN",
                     "superficie_vela_m2": "UNKNOWN",
                     "notas_specs": "Nuevo buque insignia de Saffier (astillero más grande). Disponible en dos versiones de bañera/configuración: MED y NORTH (ver variantes)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": false,
                   "review_reasons": [],
@@ -5562,202 +5872,14 @@
                     "superficie_vela_m2_gennaker": 26.0,
                     "notas_specs": "Peso (displacement) del casco no confirmado en esta pasada de búsqueda; se deja UNKNOWN en vez de estimarlo."
                   },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
+                  },
                   "requires_review": false,
                   "review_reasons": [],
                   "source_file": "data/models/vx-one/vx-one.json"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "brand_id": "skeeta",
-      "official_name": "Skeeta",
-      "commercial_name": "Skeeta",
-      "manufacturer_url": "https://skeetawatersports.com/",
-      "portfolio_status": "ACTIVE",
-      "total_models": 1,
-      "categories": [
-        {
-          "category": "one_design",
-          "category_label": "One Design",
-          "families": [
-            {
-              "family": "Skeeta",
-              "models": [
-                {
-                  "model_id": "skeeta",
-                  "model_name": "Skeeta",
-                  "family": "Skeeta",
-                  "category": "one_design",
-                  "category_label": "One Design",
-                  "brand_id": "skeeta",
-                  "brand_name": "Skeeta",
-                  "lifecycle_status": "CURRENT",
-                  "status_bucket": "current",
-                  "confidence_level": "MEDIUM",
-                  "variants": [],
-                  "manufacturer_url": "https://skeetawatersports.com/skeeta/",
-                  "oceanic_url": "https://oceanic.cl/usados/skeeta/",
-                  "oceanic_evidence": true,
-                  "oceanic_source": {
-                    "url": "https://oceanic.cl/usados/skeeta/",
-                    "verification_state": "UNCONFIRMED"
-                  },
-                  "sources": [
-                    {
-                      "url": "https://oceanic.cl/usados/skeeta/",
-                      "level": 2,
-                      "level_label": "AUTHORIZED",
-                      "verification_state": "UNCONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Única URL de oceanic.cl encontrada para Skeeta está bajo la sección de USADOS/brokerage, no una página de marca 'nueva' dedicada — mismo hallazgo ya documentado en master-inventory.json. La decisión humana registrada ahí (human_decisions) confirma que Skeeta sigue vigente como representada activa pese a esto."
-                    },
-                    {
-                      "url": "https://skeetawatersports.com/skeeta/",
-                      "level": 1,
-                      "level_label": "PRIMARY",
-                      "verification_state": "CONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Página oficial del fabricante (Skeeta Watersports) con ficha técnica: eslora 3.66m, manga 1.26m/2.3m con alas, peso casco 38kg, velas 7.2/8.5/9.5 m2, calados 0.2m/1.0m, rango de peso tripulante 60-100kg, velocidad de despegue 7.5 nudos con viento mínimo 4 nudos (6.5 con vela de 9.5), velocidad máxima 25+ nudos."
-                    },
-                    {
-                      "url": "https://www.cobrainter.com/news/news-press-release/cobra-international-announces-manufacturing-partnership-with-skeeta-foiling-craft",
-                      "level": 3,
-                      "level_label": "SECONDARY",
-                      "verification_state": "CONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Comunicado de Cobra International (fabricante subcontratado, Tailandia) anunciando la alianza de manufactura para el Skeeta; confirma diseño de Jim y David French (Australia) y tecnología de foil 'Glide Free' de Dr Ian Ward."
-                    },
-                    {
-                      "url": "https://www.yachtingworld.com/yachts-and-gear/the-10-best-foiling-dinghies-fun-ways-to-get-flying-for-all-abilities-152424",
-                      "level": 3,
-                      "level_label": "SECONDARY",
-                      "verification_state": "UNCONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Artículo de revista Yachting World cita specs distintas (eslora 4.70m, manga 1.83m, peso 130kg, vela 14.5m2 upwind) — ver discrepancies."
-                    },
-                    {
-                      "url": "https://sailboatdata.com/sailboat/skeeta/",
-                      "level": 3,
-                      "level_label": "SECONDARY",
-                      "verification_state": "UNCONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Base de datos de terceros, cifras consistentes con el artículo de Yachting World (posible misma fuente original), distintas a las del fabricante."
-                    },
-                    {
-                      "url": "https://mackayboats.com/index.cfm/boats/skeeta/",
-                      "level": 3,
-                      "level_label": "SECONDARY",
-                      "verification_state": "CONFIRMED",
-                      "retrieved_at": "2026-09-10",
-                      "notes": "Distribuidor/constructor licenciado (Nueva Zelanda) confirma velas de 8.5 y 9.5 m2 y rango de peso de tripulante 60-100kg, consistente con la fuente primaria."
-                    }
-                  ],
-                  "discrepancies": [
-                    {
-                      "field": "eslora_m",
-                      "values": [
-                        {
-                          "value": 3.66,
-                          "source": {
-                            "url": "https://skeetawatersports.com/skeeta/",
-                            "level": 1,
-                            "level_label": "PRIMARY",
-                            "retrieved_at": "2026-09-10",
-                            "retrieval_method": "web_search_snippet",
-                            "verification_state": "CONFIRMED",
-                            "notes": "Fabricante."
-                          }
-                        },
-                        {
-                          "value": 4.7,
-                          "source": {
-                            "url": "https://www.yachtingworld.com/yachts-and-gear/the-10-best-foiling-dinghies-fun-ways-to-get-flying-for-all-abilities-152424",
-                            "level": 3,
-                            "level_label": "SECONDARY",
-                            "retrieved_at": "2026-09-10",
-                            "retrieval_method": "web_search_snippet",
-                            "verification_state": "UNCONFIRMED",
-                            "notes": "Revista náutica; misma cifra reproducida en sailboatdata.com."
-                          }
-                        }
-                      ],
-                      "notes": "Se prioriza la cifra del fabricante (Nivel 1, 3.66m) como señal más fuerte, pero se conserva la cifra alternativa (4.70m) sin descartarla, siguiendo CLAUDE.md sección 14. Posible explicación no confirmada: 4.70m podría incluir bauprés/plancha de proa o ser un error de la fuente secundaria; requiere verificación adicional."
-                    },
-                    {
-                      "field": "peso_kg_casco",
-                      "values": [
-                        {
-                          "value": 38,
-                          "source": {
-                            "url": "https://skeetawatersports.com/skeeta/",
-                            "level": 1,
-                            "level_label": "PRIMARY",
-                            "retrieved_at": "2026-09-10",
-                            "retrieval_method": "web_search_snippet",
-                            "verification_state": "CONFIRMED",
-                            "notes": "Fabricante, peso de casco (hull weight)."
-                          }
-                        },
-                        {
-                          "value": 32,
-                          "source": {
-                            "url": "https://www.cobrainter.com/assets/downloads/Cobra-CS-Skeeta-Oct19-v2.pdf",
-                            "level": 3,
-                            "level_label": "SECONDARY",
-                            "retrieved_at": "2026-09-10",
-                            "retrieval_method": "web_search_snippet",
-                            "verification_state": "UNCONFIRMED",
-                            "notes": "Caso de estudio de Cobra International (2019), posiblemente una cifra de una etapa temprana/prototipo del desarrollo."
-                          }
-                        },
-                        {
-                          "value": 130,
-                          "source": {
-                            "url": "https://sailboatdata.com/sailboat/skeeta/",
-                            "level": 3,
-                            "level_label": "SECONDARY",
-                            "retrieved_at": "2026-09-10",
-                            "retrieval_method": "web_search_snippet",
-                            "verification_state": "UNCONFIRMED",
-                            "notes": "Listado como 'weight (displacement)', probablemente peso total navegando con foils/alas/equipo, no solo el casco — métrica distinta, no necesariamente contradictoria."
-                          }
-                        }
-                      ],
-                      "notes": "Tres cifras distintas que probablemente miden cosas distintas (peso de casco desnudo vs peso all-up con foils y alas) o corresponden a distintas etapas de desarrollo del producto (2019 vs actual). No se resuelve arbitrariamente; se documentan las tres."
-                    }
-                  ],
-                  "notes": "Se investigó también 'Nikki', un dinghy foiling más pequeño (2.9-3m aprox, velas 5.5/6.5 m2) del mismo fabricante (Skeeta Watersports / Skeeta Foiling Craft), orientado a niños/juveniles livianos. NO se creó un archivo de modelo separado para Nikki porque no se encontró evidencia de que Oceanic Chile lo represente (la única URL de oceanic.cl hallada es específicamente 'usados/skeeta/', sin mención de Nikki) y el brand_id asignado a esta tarea es 'skeeta', no un brand_id distinto para Nikki. Se recomienda una pasada de investigación dedicada si se decide evaluar a Nikki como variante o modelo adicional. Las 3 opciones de superficie vélica (7.2/8.5/9.5 m2) se registran como parte de las specifications del modelo (no como 'variants' formales del schema) porque son opciones de vela intercambiables dentro del mismo barco/plataforma, no versiones con nombre propio del fabricante — análogo al criterio aplicado a Switch, pero aquí el fabricante no les da nombres individuales (a diferencia de Switch, que si documenta 'rig' como opción clara de reconfiguración); se puede reclasificar como 'variants' si aparece evidencia de que el fabricante las trata como configuraciones nombradas.",
-                  "verified_at": "2026-09-10",
-                  "last_updated": "2026-09-10",
-                  "status_pipeline": "MAPPED",
-                  "specifications": {
-                    "eslora_m": 3.66,
-                    "manga_m_sin_alas": 1.26,
-                    "manga_m_con_alas": 2.3,
-                    "peso_kg_casco": 38,
-                    "tripulacion_max": 1,
-                    "rango_peso_tripulante_kg": "60-100 kg",
-                    "superficie_vela_m2_opciones": [
-                      7.2,
-                      8.5,
-                      9.5
-                    ],
-                    "calado_m_navegacion": 0.2,
-                    "calado_m_botado": 1.0,
-                    "velocidad_despegue_nudos": 7.5,
-                    "viento_minimo_despegue_nudos": "4 (o 6.5 con vela de 9.5 m2)",
-                    "velocidad_maxima_nudos": "25+",
-                    "notas_specs": "Specs primarias tomadas de snippet indexado de skeetawatersports.com/skeeta/ (fabricante). Existen fuentes secundarias con cifras distintas para eslora y peso (ver discrepancies)."
-                  },
-                  "requires_review": true,
-                  "review_reasons": [
-                    "unresolved_discrepancy"
-                  ],
-                  "source_file": "data/models/skeeta/skeeta.json"
                 }
               ]
             }
@@ -5953,6 +6075,11 @@
                     "velocidad_maxima_nudos": "30+ (popa)",
                     "controles_numero": 4,
                     "notas_specs": "Casco de fibra de carbono con núcleo PVC, foils en prepreg carbon, bowsprit, mástil de carbono en 3 piezas (CST). Peso de plataforma: ver discrepancy (25kg fabricante vs 29kg fuente de prensa)."
+                  },
+                  "media": {
+                    "media_status": "NOT_RESEARCHED",
+                    "images": [],
+                    "videos": []
                   },
                   "requires_review": true,
                   "review_reasons": [

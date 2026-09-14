@@ -118,6 +118,55 @@
       "minItems": 1,
       "items": { "$ref": "./source.schema.json" }
     },
+    "media": {
+      "type": "object",
+      "description": "Metodología de identificación de assets visuales (CLAUDE.md sección 2.1 'assets') — referencias/enlaces solamente, NUNCA descarga ni hotlink de archivos binarios. Cada imagen o video es un enlace a la página/recurso oficial que lo aloja, con su propia trazabilidad de fuente. Opcional a nivel de schema para no romper modelos de Fase 2 ya creados sin este campo; su ausencia se interpreta como media_status='NOT_RESEARCHED'.",
+      "additionalProperties": false,
+      "properties": {
+        "media_status": {
+          "type": "string",
+          "enum": ["NOT_RESEARCHED", "RESEARCHED"],
+          "description": "RESEARCHED = se buscó explícitamente galería/video para este modelo (aunque el resultado sean 0 items). NOT_RESEARCHED = todavía no se ha hecho esa pasada; no implica que no exista material."
+        },
+        "images": {
+          "type": "array",
+          "description": "Enlaces a páginas/galerías oficiales con fotografías del modelo (no archivos de imagen descargados ni hotlinkeados).",
+          "items": {
+            "type": "object",
+            "required": ["url", "type", "level", "verification_state"],
+            "additionalProperties": false,
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "type": {
+                "type": "string",
+                "enum": ["gallery_page", "press_kit", "single_photo_page"],
+                "description": "gallery_page = página del fabricante/distribuidor con galería del modelo. press_kit = kit de prensa/media. single_photo_page = artículo/nota con fotos del modelo."
+              },
+              "level": { "type": "integer", "enum": [1, 2, 3] },
+              "verification_state": { "type": "string", "enum": ["CONFIRMED", "UNCONFIRMED"] },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "videos": {
+          "type": "array",
+          "description": "Enlaces a video oficial o de prensa especializada del modelo (o de su canal de marca cuando no hay video específico del modelo).",
+          "items": {
+            "type": "object",
+            "required": ["url", "platform", "level", "verification_state"],
+            "additionalProperties": false,
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "platform": { "type": "string", "enum": ["youtube", "vimeo", "manufacturer_page", "other"] },
+              "title": { "type": "string" },
+              "level": { "type": "integer", "enum": [1, 2, 3] },
+              "verification_state": { "type": "string", "enum": ["CONFIRMED", "UNCONFIRMED"] },
+              "notes": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
     "verified_at": { "type": "string", "format": "date" },
     "last_updated": { "type": "string", "format": "date" },
     "status_pipeline": {

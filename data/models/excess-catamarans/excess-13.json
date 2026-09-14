@@ -1,0 +1,106 @@
+{
+  "model_id": "excess-13",
+  "brand_id": "excess-catamarans",
+  "family": "Excess 13",
+  "model_name": "Excess 13",
+  "variants": [
+    {
+      "variant_name": "4 camarotes (layout espejado)",
+      "description": "Versión de 4 camarotes con distribución en espejo en ambos cascos.",
+      "confidence_level": "MEDIUM",
+      "notes": "Reportado por Yachting World y Cruising World."
+    },
+    {
+      "variant_name": "3 camarotes (versión propietario)",
+      "description": "Versión de 3 camarotes con casco de propietario.",
+      "confidence_level": "MEDIUM",
+      "notes": "Reportado por Yachting World y Cruising World."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 12.99,
+    "manga_m": 7.25,
+    "calado_m": 1.48,
+    "desplazamiento_kg": 10800,
+    "superficie_vela_m2": 115,
+    "motorizacion": "2x Yanmar 40 HP (saildrive)",
+    "capacidad_combustible_l": 400,
+    "capacidad_agua_l": 300,
+    "camarotes": "3 o 4 según versión",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "disenador": "Marc Lombard Design Group, en colaboración con Jean-Marc Piaton",
+    "notas_specs": "Desplazamiento reportado como 'ligero' (light displacement); capacidad de combustible calculada desde 2x200 L reportados."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del modelo."
+    },
+    {
+      "url": "https://www.yachtingworld.com/reviews/boat-tests/excess-13-review-a-great-ride-and-much-more",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Reseña de prensa especializada con especificaciones detalladas (eslora, manga, calado, desplazamiento, motorización, capacidades)."
+    },
+    {
+      "url": "https://www.cruisingworld.com/sailboats/excess-13-catamaran-review/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Segunda reseña independiente, consistente con la de Yachting World."
+    },
+    {
+      "url": "https://marclombard.com/en/excess-13/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página del estudio de diseño naval Marc Lombard, confirma su autoría del diseño."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo, incluye galería de fotos del fabricante."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@EXCESSCatamarans",
+        "platform": "youtube",
+        "title": "Canal oficial EXCESS Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Sin video específico del 13 confirmado en esta pasada; se referencia el canal de marca."
+      }
+    ]
+  },
+  "verified_at": "2026-09-14",
+  "last_updated": "2026-09-14",
+  "status_pipeline": "MAPPED",
+  "notes": "Marca agregada por instrucción directa del usuario 2026-09-14; no hay evidencia de que Oceanic Chile represente esta marca — oceanic_url queda null. Quinto modelo lanzado por Excess y primero diseñado por Marc Lombard Design Group (en vez de VPLP, autor de los modelos anteriores); estrenado en el International Multihull Show, primavera de 2025."
+}

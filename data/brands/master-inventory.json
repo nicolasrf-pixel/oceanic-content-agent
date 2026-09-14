@@ -344,7 +344,7 @@
       "country_of_origin": "Australia (diseño) / fabricación en Tailandia (Cobra International)",
       "vessel_types": "Dinghy foiling monotripulante ('flying scow')",
       "brand_description": "Dinghy foiling de vela, diseño de Jim y David French (Australia), fabricado por Cobra International (Tailandia); despega desde 6.5 nudos, más de 25 nudos de velocidad.",
-      "portfolio_status": "ACTIVE",
+      "portfolio_status": "DISCONTINUED",
       "confidence_level": "MEDIUM",
       "in_initial_universe": true,
       "discrepancy_flag": false,
@@ -366,12 +366,19 @@
           "decision": "Skeeta sigue vigente como línea nueva activa dentro del portfolio de representadas; no debe clasificarse como solo-usados.",
           "field_affected": "portfolio_status",
           "supersedes_discrepancy": true
+        },
+        {
+          "date": "2026-09-14",
+          "decided_by": "usuario/propietario del proyecto",
+          "decision": "Eliminar Skeeta del catálogo activo de representadas ('elimina Skeeta'). Instrucción directa, sin fuente nueva que la respalde — se registra como decisión humana, no como hallazgo de investigación.",
+          "field_affected": "portfolio_status",
+          "supersedes_discrepancy": false
         }
       ],
       "verified_at": "2026-09-10",
-      "last_updated": "2026-09-10",
+      "last_updated": "2026-09-14",
       "status_pipeline": "VALIDATED",
-      "notes": "Discrepancia original (única URL encontrada por búsqueda era de usados) resuelta por decisión humana explícita el 2026-09-10 — ver data/changelog/brands-changelog.md. confidence_level se mantiene MEDIUM (no HIGH): la decisión humana resuelve el estado de representación, pero no sustituye la verificación pendiente por fetch directo de fuente oficial."
+      "notes": "2026-09-14: portfolio_status pasó de ACTIVE a DISCONTINUED por instrucción directa del usuario ('elimina Skeeta'), no por nueva evidencia de fuente. Este registro y su modelo (data/models/skeeta/skeeta.json) se CONSERVAN íntegros por trazabilidad (CLAUDE.md sección 15, aplicado también a marcas) — no se borran. data/catalog/master-catalog.json y oceanic-catalog.json (y por tanto el dashboard) excluyen automáticamente las marcas con portfolio_status distinto de ACTIVE/NEW; ver scripts/build_catalog.py. Historial previo (discrepancia 'solo usados' → decisión humana ACTIVE del 2026-09-10) se conserva sin editar arriba."
     },
     {
       "brand_id": "switch",
@@ -402,6 +409,45 @@
       "last_updated": "2026-09-10",
       "status_pipeline": "MAPPED",
       "notes": "Confirma como incorporación reciente, consistente con el universo inicial que ya la incluía. No se encontró página de marca dedicada tipo '/switch/' en oceanic.cl en esta pasada; oceanic_url queda UNKNOWN hasta fetch directo."
+    },
+    {
+      "brand_id": "excess-catamarans",
+      "official_name": "Excess Catamarans",
+      "commercial_name": "Excess",
+      "category": "sail_catamaran",
+      "oceanic_url": null,
+      "manufacturer_url": "https://www.excess-catamarans.com/",
+      "country_of_origin": "Francia (grupo Beneteau, construidos en Burdeos)",
+      "vessel_types": "Catamaranes de vela deportivos/de crucero",
+      "brand_description": "Marca de catamaranes de vela del grupo Beneteau, lanzada en 2019 para cubrir el espacio entre catamaranes de crucero de lujo y catamaranes de regata de alto rendimiento ('sportier' que Lagoon, mismo grupo). Diseño VPLP (11, 12, 14, 15) y, desde el Excess 13 (2025), Marc Lombard Design Group. Estaciones de timón dobles a popa ('Pulse Line' como opción de aparejo de mayor rendimiento).",
+      "portfolio_status": "ACTIVE",
+      "confidence_level": "LOW",
+      "in_initial_universe": false,
+      "discrepancy_flag": true,
+      "sources": [
+        {
+          "url": "https://www.excess-catamarans.com/",
+          "level": 1,
+          "level_label": "PRIMARY",
+          "retrieved_at": "2026-09-14",
+          "retrieval_method": "web_search_snippet",
+          "verification_state": "CONFIRMED",
+          "notes": "Sitio oficial del fabricante confirma la existencia y gama de la marca. No hay fetch directo (bloqueo de red, CLAUDE.md sección 22)."
+        }
+      ],
+      "human_decisions": [
+        {
+          "date": "2026-09-14",
+          "decided_by": "usuario/propietario del proyecto",
+          "decision": "Agregar Excess Catamarans como representada de Oceanic ('agrega Excess Catamarans'). Instrucción directa del usuario, no un hallazgo de investigación.",
+          "field_affected": "brand added / portfolio_status",
+          "supersedes_discrepancy": false
+        }
+      ],
+      "verified_at": "2026-09-14",
+      "last_updated": "2026-09-14",
+      "status_pipeline": "MAPPED",
+      "notes": "IMPORTANTE — no se encontró NINGUNA evidencia (ni en oceanic.cl vía búsqueda, ni en el listado de distribuidores de excess-catamarans.com/our-dealers) de que Oceanic Chile represente efectivamente esta marca; se agrega por instrucción directa del usuario, no por verificación (mismo patrón que Skeeta cuando se fijó ACTIVE por decisión humana — CLAUDE.md sección 21 exige aprobación humana para agregar/quitar marcas, y esta instrucción ES esa aprobación). portfolio_status se deja ACTIVE conforme a la instrucción explícita ('agrégala'), pero confidence_level se mantiene LOW y discrepancy_flag=true para que quede visible que la representación local por Oceanic sigue sin confirmar. No es la misma marca que 'Excess' de otros rubros; es Excess Catamarans, sub-marca del grupo Beneteau hermana de Lagoon. Ver data/changelog/brands-changelog.md."
     }
   ]
 }
