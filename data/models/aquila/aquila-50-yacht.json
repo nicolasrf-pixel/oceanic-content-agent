@@ -54,8 +54,38 @@
       "notes": "Fuente de especificaciones: LOA 52'6\", manga 25'6\", calado 4'2\", desplazamiento 71,167 lb (32,281 kg), combustible 518 gal, agua 212 gal, motores estándar 2x380 HP D6. Consistente con yachtbuyer.com, powerandmotoryacht.com y yachtworld.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/yachts/50",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=uwu1wdCJVWc",
+        "platform": "youtube",
+        "title": "Aquila 50 Yacht Power Catamaran | Full In-Depth Walkthrough",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda web; no pudo confirmarse como canal oficial de la marca en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo con mayor nivel de evidencia de representación por Oceanic dentro de este levantamiento (URL de producto dedicada y confirmada, ya presente en master-inventory.json). Sucesor directo del Aquila 48 (ver aquila-48-yacht.json), posicionado entre el 46 Yacht y el 54 Yacht en el catálogo del fabricante."
 }

@@ -45,8 +45,30 @@
       "notes": "Fuente de especificaciones: LOA 30'9\" (9.38 m), manga 9'8.5\" (2.96 m), calado máx. 2'6\" (0.76 m), motorización 2x150 o 2x200 HP. Consistente con multihulls-world.com y boatingmag.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Línea 'Molokai' (Offshore/pesca deportiva) del fabricante, distinta de las líneas Sport, Coupe, Yacht y Luxury. Existe también en versión 'Molokai Cuddy' con cabina cerrada frontal, tratada como modelo independiente (aquila-28-molokai-cuddy.json) porque el fabricante le da página y ficha propias. No se encontró evidencia de que Oceanic (oceanic.cl) represente este modelo específicamente; solo se confirmó de forma genérica que Oceanic distribuye la marca Aquila. confidence_level LOW por falta de evidencia de representación local y por no haber podido hacer fetch directo del fabricante."
 }

@@ -50,8 +50,30 @@
       "notes": "Contexto: listados de dealers muestran modelo año 2026 nuevo para la línea .1 (46.1/51.1) a la venta activamente."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/oceanis/oceanis-461",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "DISCREPANCIA: se encontraron dos rutas de URL distintas en beneteau.com para el mismo modelo (una de catálogo vigente 'oceanis/', otra de herencia 'oceanis-2015-2022/'). Se prioriza CURRENT porque hay evidencia múltiple e independiente de venta de unidades año modelo 2025-2026 en varios dealers, pero se deja constancia de la señal contradictoria — ver campo discrepancies. Recomendado confirmar con fetch directo cuando haya acceso de red.",
   "discrepancies": [

@@ -41,8 +41,38 @@
       "notes": "Listados de mercado confirman disponibilidad de unidades."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=eqXPy6wMjak",
+        "platform": "youtube",
+        "title": "Meet BENETEAU Sail's New Flagship: The Oceanis Yacht 60",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda web; título sugiere contenido oficial o de prensa especializada pero el canal no pudo confirmarse como oficial de la marca en esta pasada (sin fetch directo). Elegido como modelo insignia de la línea Oceanis Yacht según instrucción de investigación de media."
+      },
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Adicional al video específico ya listado arriba."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo más nuevo del trío Oceanis Yacht (54/60/62), presentado como evolución reciente. No se encontró mención en oceanic.cl en esta pasada."
 }

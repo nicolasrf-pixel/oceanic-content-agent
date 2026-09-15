@@ -39,8 +39,30 @@
       "notes": "Página de modelo del fabricante vía snippet de búsqueda (sin fetch directo). Especificaciones consistentes entre itboat.com, sailboatdata.com y catamaranguru.com. Según fuentes de terceros (rightboat.com, sailmagazine.com, katamarans.com), el Lagoon 40 reemplazó al Lagoon 39/400 en el catálogo del fabricante."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/lagoon-40",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/lagoon-40)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "No se encontró evidencia (en esta pasada de web_search) de que este modelo tenga página propia en oceanic.cl ni de que Oceanic lo represente activamente. Se documenta como parte del catálogo global vigente del fabricante Lagoon únicamente. oceanic_url queda null. No se afirma que Oceanic NO lo represente -- solo que no se pudo confirmar -- consistente con CLAUDE.md sección 6 (no inventar) y sección 22 (limitación de acceso a red: solo búsqueda indexada, sin fetch directo del menú completo de oceanic.cl)."
 }

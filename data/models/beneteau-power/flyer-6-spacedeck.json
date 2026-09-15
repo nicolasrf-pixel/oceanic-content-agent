@@ -44,8 +44,30 @@
       "notes": "Página del fabricante; la ruta 'flyer-2017-2022' sugiere que corresponde a una generación de nomenclatura específica del sitio, no necesariamente año de descontinuación — no se encontró contraparte 'v2' más reciente para el Flyer 6 en esta pasada (sí existe para el Flyer 8, ver flyer-8-spacedeck), por lo que se marca lifecycle_status CURRENT apoyado en que oceanic.cl lo sigue listando activamente. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/flyer-2017-2022/flyer-6-spacedeck",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Specs (eslora/calado/potencia/pasajeros) provienen de itboat.com (Nivel 3, no citado como fuente primaria pero usado para completar specs) y quedan como referencia de menor certeza."
 }

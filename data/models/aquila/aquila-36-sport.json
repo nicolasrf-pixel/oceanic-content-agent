@@ -54,8 +54,38 @@
       "notes": "Fuente de especificaciones: LOA 36' (10.96 m), manga 14'7\" (4.45 m), calado 2'0\" (0.61 m), combustible 356 gal, 2 camarotes/2 baños, sistema Hydro Glide opcional. Consistente con multihulls-world.com e itboat.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=xPwNTNHy9L4",
+        "platform": "youtube",
+        "title": "Aquila 36 Sport Power Catamaran (2021) - Test Video",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video de prueba específico del modelo encontrado vía búsqueda web; medio no confirmado como canal oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "No confundir con el Aquila 36 Molokai (línea Offshore/pesca, distinta ficha y propósito, ver aquila-36-molokai.json). Sistema Aquila Hydro Glide (foiling) disponible como opción, igual que en Aquila 42/46 Coupe y 46 Yacht -- se trata como característica opcional del modelo, no como variante/modelo separado, salvo que el fabricante lo trate explícitamente como línea propia."
 }

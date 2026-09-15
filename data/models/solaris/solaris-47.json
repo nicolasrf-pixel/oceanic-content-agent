@@ -93,8 +93,30 @@
       "notes": "PDF de ficha técnica del Solaris 47 alojado en el propio dominio oceanic.cl (2017), evidencia de que Oceanic representó/publicó este modelo en el pasado. No confirma vigencia actual (2026) de la representación ni del modelo."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/yachts/47/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (URL oficial indexada bajo /en/yachts/, contenido no leído completo)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: modelo de gama media (44/47/50); el video específico de esta pasada se asignó al Solaris 44 (CLAUDE.md investigación 2026-09-15), no a este. Videos de terceros del 47 existen (ej. 'The Boat Show') pero no se agregaron en esta pasada. No confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Existe un PDF de ficha técnica del Solaris 47 alojado en oceanic.cl desde 2017, lo que sugiere que Oceanic sí representó este modelo en el pasado; no se pudo confirmar si sigue vigente en el catálogo actual de Oceanic Chile en 2026. lifecycle_status UNCONFIRMED por contradicción documentada en discrepancies."
 }

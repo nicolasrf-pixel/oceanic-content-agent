@@ -77,8 +77,38 @@
       "notes": "Reglas de clase del VX One: clase estrictamente 'one-design' (Closed Class Rules); casco, quilla, timón y aparejo solo pueden ser suministrados por 'Licensed Manufacturers' (Ovington Boats UK, Mackay Boats NZ, y el fabricante original en EE.UU.); modificaciones posteriores muy restringidas salvo velas, que pueden ser de cualquier velero siempre que cumplan la regla de clase."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://vxsailing.com/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url no tiene una entrada exacta coincidente en 'sources' (las fuentes registradas apuntan a subpáginas específicas: /vx-one-class-rules/ y vxone.com/specs, ambas CONFIRMED). Se asigna nivel 1/UNCONFIRMED por defecto para la home del sitio del constructor/asociación de la clase, sin fetch directo (EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=90fpKAboJgc",
+        "platform": "youtube",
+        "title": "Carbon keelboat 2025 VX one by OVINGTON",
+        "level": 2,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Ovington Boats es uno de los 'Licensed Manufacturers' de la clase VX One según la fuente 'vxsailing.com/vx-one-class-rules/' ya registrada (CONFIRMED) — se trata como fuente Nivel 2 (fabricante licenciado/autorizado por la clase, no el diseñador original). No se confirmó con fetch directo que el canal sea el oficial de Ovington (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uEIYubg4l2U",
+        "platform": "youtube",
+        "title": "VXOne - The new pocket rocket",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reportaje de prensa náutica especializada (Yachting World, con Matthew Sheahan) sobre la clase VX One; fuente secundaria."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Confirmado como MODELO ÚNICO: la clase VX One es 'closed class' (one-design estricta) construida exclusivamente por fabricantes licenciados (Ovington Boats, Mackay Boats), sin ediciones/versiones de fábrica distintas más allá de las velas (que sí pueden variar de fabricante de velas, dentro de la regla de clase) y accesorios/parche de personalización permitidos. No se encontró un 'Mark 2' ni evidencia de sub-modelos. peso_kg queda UNKNOWN: no se halló cifra de peso del casco/desplazamiento en esta pasada; requiere fetch directo de vxone.com/specs o vxsailing.com para completarlo."
 }

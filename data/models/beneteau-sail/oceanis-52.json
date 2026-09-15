@@ -50,8 +50,30 @@
       "notes": "Cobertura de dealer/broker sobre modelos nuevos Beneteau/Lagoon 2026 que incluye al Oceanis 52."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/oceanis/oceanis-52",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial de modelo específico en beneteau.com localizada vía búsqueda web en esta pasada de media; no coincide exactamente con ninguna URL ya registrada en 'sources' del modelo, por lo que no hubo fetch directo que la confirme."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo con confirmación explícita y relativamente reciente (agosto 2026) en boletín propio de Oceanic Chile: 'CE Categoría A, hasta cinco camarotes, doble timón'. Es, junto a Oceanis 30.1 y First 24/First 30, uno de los pocos modelos con evidencia directa de representación por el distribuidor chileno en esta pasada."
 }

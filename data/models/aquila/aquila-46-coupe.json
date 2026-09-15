@@ -54,8 +54,38 @@
       "notes": "Ficha técnica oficial del fabricante (hospedada por un distribuidor europeo) localizada vía snippet de búsqueda, no leída directamente. Fuente de especificaciones detalladas: eslora 14.44 m, manga 5.46 m, calado (según configuración de motor) 1.08-1.23 m, peso seco aprox. 14,500 kg (2 x V12-600hp), combustible 2,334 L, agua 440 L, sentina 160 L, 2 camarotes/2 baños con ducha separada, certificación CE B/C/D. Consistente con boattest.com y southernboating.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/coupes/46",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=oxR8Ukc0o5k",
+        "platform": "youtube",
+        "title": "Aquila 46 Coupe \"Performance & Test\" - BoatTEST",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo de BoatTEST, medio especializado en pruebas náuticas (no canal oficial de la marca). Encontrado vía búsqueda web."
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Línea 'Coupe' introducida en 2025 junto con el 42 Coupe. Incluye sistema opcional Aquila Hydro Glide (foiling de fibra de carbono), tratado como característica opcional del modelo, no como variante separada. Rango de pasajeros según categoría de certificación CE (B/C/D) documentado tal cual lo reporta la fuente, sin elegir un único número."
 }

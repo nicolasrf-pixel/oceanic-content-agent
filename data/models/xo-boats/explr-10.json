@@ -155,8 +155,30 @@
       "notes": "Review comparativa de las 4 configuraciones EXPLR 10 (S / S IB / S+ / S+ IB), explica el significado de los sufijos '+' e 'IB'."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/fleet/explr/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de serie del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de EXPLR 10 (ni de sus variantes) en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelado como un único modelo 'EXPLR 10' con 4 variantes (Sport / Sport IB / Sport+ / Sport+ IB), ya que los sufijos representan combinaciones de layout (camarote de proa) y motorización (inboard/outboard) sobre una misma plataforma de casco (CLAUDE.md sección 7 y 16), no productos con nombre y posicionamiento propios independientes. Existe duda razonable dado que el fabricante publica una ficha web separada por cada configuración; se documenta el criterio en vez de decidir arbitrariamente. Discrepancias de eslora entre fuentes de terceros para Sport+ y Sport+ IB quedan registradas sin resolver. No se encontró mención específica de EXPLR 10 (ni de sus variantes) en fuentes de Oceanic Chile; oceanic_url null."
 }

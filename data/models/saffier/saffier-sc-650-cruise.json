@@ -56,8 +56,30 @@
       "notes": "Distribuidor autorizado (Australia) reproduce ficha técnica: eslora 21.33ft, manga 6.73ft, peso 900kg, 22m2 de vela, ratio de lastre 50%, motor diésel Yanmar u opción eléctrica Torqeedo."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-sc-6-50-cruise/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts); contiene walkthroughs oficiales de varios modelos. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de SC 6.50 Cruise en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Rediseño 2016 de la línea clásica, con bañera cerrada a diferencia del modelo anterior. No se encontró evidencia directa (fetch) de que Oceanic Chile lo tenga listado por nombre; representación de marca sí está confirmada (nivel 2).",
   "variants": [

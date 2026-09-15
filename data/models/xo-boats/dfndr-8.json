@@ -112,8 +112,30 @@
       "notes": "Cobertura de lanzamiento del DFNDR 8; menciona velocidad '+50 nudos' con motorización doble."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/xo-fleet/dfndr-8/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (ficha del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se encontró video específico de DFNDR 8 en esta pasada (fuera del alcance mínimo pedido, que solo cubría DFNDR 9 y EXPLR 44); se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "confidence_level MEDIUM: múltiples fuentes de terceros coinciden en la existencia y posicionamiento del modelo, y hay evidencia (usados de Oceanic) de presencia en el mercado chileno vía Oceanic, pero (a) no hay fetch directo a xoboats.com ni a oceanic.cl/xo-boats/ (bloqueo de red), (b) no se confirmó una ficha de producto específica de DFNDR 8 dentro de la página de marca de Oceanic (solo listado en usados), y (c) existe discrepancia de dimensiones y ambigüedad de nomenclatura con 'DFNDR A8'. No se debe promover a HIGH sin fetch directo o documento oficial. La página de marca https://oceanic.cl/xo-boats/ SÍ existe (encontrada en esta pasada, a diferencia de la verificación de marca previa) — ver log de verificación."
 }

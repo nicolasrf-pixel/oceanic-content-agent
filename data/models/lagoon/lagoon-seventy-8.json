@@ -69,8 +69,38 @@
       "notes": "Página de modelo del fabricante vía snippet de búsqueda. Especificaciones consistentes entre itboat.com, yachtbuyer.com y lagoon-catamaran.de (distribuidor alemán)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/seventy-8",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/seventy-8)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=GfoNv4kXgzE",
+        "platform": "youtube",
+        "title": "Lagoon SEVENTY 8 - Unparalleled Luxury (Official Video)",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video encontrado vía web_search_snippet (sin fetch directo, CLAUDE.md sección 22); el título sugiere contenido oficial/promocional de Lagoon, pero el canal que lo aloja no pudo confirmarse de forma independiente en esta pasada. Modelo priorizado explícitamente: único de la línea motor con evidencia de representación por Oceanic (ver sources y notes de este mismo archivo)."
+      },
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "HALLAZGO CLAVE para la pregunta de la línea 'Lagoon Power': el fabricante Lagoon SÍ tiene una línea de catamaranes a motor (denominada 'Power catamarans' en catamarans-lagoon.com/ranges/power-catamarans, con los modelos Sixty 5, Sixty 7, Seventy 7, Seventy 8, Eighty 2 y Eighty 3 -- ver archivos lagoon-sixty-5.json, lagoon-sixty-7.json, lagoon-seventy-7.json, lagoon-eighty-2.json, lagoon-eighty-3.json). De esos, el Seventy 8 es el ÚNICO confirmado en oceanic.cl (indexado tanto en /motor/seventy-8/ como en /lagoonvela/lagoon-seventy-8/). No se encontró evidencia de que Oceanic represente los demás modelos de la línea motor (Sixty 5, Sixty 7, Seventy 7, Eighty 2, Eighty 3): quedan documentados como catálogo global del fabricante únicamente, con oceanic_url null y confidence_level LOW. category='power_catamaran' se usa aquí porque hay evidencia directa (nivel 2, autorizada) de que Oceanic lista este modelo específico; no se generalizó esa categoría al resto de la línea sin evidencia. Se recomienda decisión humana sobre si crear/activar una entrada de marca separada o sub-categoría 'Lagoon Power' en master-inventory.json, dado que CLAUDE.md sección 21 exige aprobación humana para cambios de arquitectura de datos ya aprobada; aquí NO se modifica master-inventory.json, solo se deja esta recomendación."
 }

@@ -55,8 +55,38 @@
       "notes": "Listados 2023-2026 confirman que el modelo sigue en producción/venta activa (ej. anuncio '2026 Saffier SC 8M Cabin Daysailer for sale')."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLQ36Yf4iqw73HlFGwsE3IUMaTbZQWT5un",
+        "platform": "youtube",
+        "title": "Saffier SC 8m Cabin by Saffieryachts (playlist)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Playlist específica del modelo cuyo título atribuye el contenido a 'Saffieryachts'; no se confirmó con fetch directo que la playlist esté alojada en el canal oficial (EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Variante 'con cabina/interior' de la familia SC 8m, distinta de SC 8m Open (ver saffier-sc-8m-open.json), tratada como modelo propio porque el fabricante las nombra y cataloga por separado (Cabin vs Open)."
 }

@@ -70,8 +70,38 @@
       "notes": "Mención genérica de 'Axopar 22' entregado en Lago Riñihue, sin distinguir configuración."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-22-t-top/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=YYtZUGG_e30",
+        "platform": "youtube",
+        "title": "Axopar 22 T-Top (2022) - Test Video by BoatTEST.com",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video de prueba específico del modelo, producido por BoatTEST.com."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Mismo caso que axopar-22-spyder: mención de Oceanic es genérica y aislada, no distingue variante. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
   "brand_id": "axopar",

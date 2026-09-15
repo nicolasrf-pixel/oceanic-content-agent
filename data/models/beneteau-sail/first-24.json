@@ -50,8 +50,30 @@
       "notes": "También se indexó una página de rango 'First (2016 - 2026)' bajo ruta 'former-beneteau-sailboats' (modelos retirados/heredados), que agrupa la generación 7 del First (24/27/36/44) de ese período. No queda claro por snippet si el First 24 individual ya fue movido completamente a esa categoría o si coexisten ambas rutas."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/first/first-24",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Confirmado como entregado activamente por Oceanic Chile (fuente Nivel 2, evidencia fuerte de representación real). Se documenta una señal contradictoria del lado del fabricante global (posible archivo de la generación 7 del First bajo 'former-beneteau-sailboats/first-2016-2026'), ver discrepancies. Dado que la evidencia de Oceanic Chile es más fuerte y más directamente relevante para este proyecto, se mantiene CURRENT, pero la discrepancia se documenta explícitamente en vez de ignorarse.",
   "discrepancies": [

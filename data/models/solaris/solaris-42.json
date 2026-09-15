@@ -82,8 +82,22 @@
       "notes": "Descrito como 'Solaris One 42', diseño Javier Soto Acebal, lanzado ~2011, presente activamente en la Solaris Cup (regata anual en Porto Rotondo, Cerdeña); superficie vélica mayor+jib 83 m2. Construcción por infusión al vacío, sándwich E-glass/PVC."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. lifecycle_status UNCONFIRMED (no DISCONTINUED) porque, a diferencia del Solaris 37, no se encontró ninguna fuente que declare explícitamente el fin de su producción/venta; sigue mencionado como activo en el circuito de regatas (Solaris Cup) hasta donde alcanzó esta investigación, pero tampoco aparece en la gama vigente /en/yachts/ del sitio oficial detectada en esta pasada. No se encontró mención en oceanic.cl. LOA/beam UNKNOWN explícito: no se encontraron en los snippets recuperados y NO se inventan."
 }

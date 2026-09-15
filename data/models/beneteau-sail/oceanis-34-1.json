@@ -50,8 +50,30 @@
       "notes": "Snippet resume el rango vigente: 'Oceanis 30.1, 34.1, 37.1, 40.1, and Oceanis 47' como los 8 modelos actuales entre 30 y 60 pies."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/oceanis/oceanis-341",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial de modelo específico en beneteau.com localizada vía búsqueda web en esta pasada de media; no coincide exactamente con ninguna URL ya registrada en 'sources' del modelo, por lo que no hubo fetch directo que la confirme."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "No se confirmó mención específica de este modelo en oceanic.cl (solo la página general de Oceanis); se listó como parte del rango vigente global del fabricante. oceanic_url apunta a la página general de la línea, no a una ficha de modelo propia — no se encontró evidencia de que Oceanic Chile lo represente específicamente, se documenta esta limitación explícitamente."
 }

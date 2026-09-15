@@ -92,8 +92,46 @@
       "notes": "Contenido de oceanic.cl describe explícitamente el debut del 38 y el 'Cross Cabin' como 'Motoryacht of the year' en Singapur (mayo 2026), en el contexto de la línea 38 — confirmación directa y específica de este modelo por parte de Oceanic, más fuerte que las menciones genéricas de otras familias."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-38/axopar-38-xc-cross-cabin/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=qhc1hJb_3wQ",
+        "platform": "youtube",
+        "title": "Axopar 38 Sun Top & XC Cross Cabin | Full Walkthrough",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video que cubre conjuntamente el 38 Sun Top y el 38 XC Cross Cabin, encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=76mDNJMUIL4",
+        "platform": "youtube",
+        "title": "Axopar 38 Walkthrough Tour & Review | The Next Icon in Adventure Boating",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Walkthrough del rango 38 (modelo base XC Cross Cabin), encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Primer modelo del nuevo rango Axopar 38, debutó en BOOT Düsseldorf enero 2026. Oceanic.cl lo menciona explícitamente por nombre de configuración ('Cross Cabin'), a diferencia de las menciones genéricas de otras familias — por eso confidence_level MEDIUM con mayor respaldo relativo. Aun así no alcanza HIGH por falta de fetch directo.",
   "brand_id": "axopar",

@@ -54,8 +54,30 @@
       "notes": "Fuente de especificaciones: eslora 32 ft, manga 12'10\", calado mín. 2'1\", peso seco 10,540 lbs, combustible 126 gal, agua 45 gal, 1 camarote/1 baño, velocidad máx. 44.8 mph con 2x300 HP Mercury. Consistente con multihulls-world.com y hawaiiyachtsales.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo de entrada de la línea 'Sport' (día/deportivo), sin flybridge. Especificaciones convertidas desde unidades imperiales (ft, lbs, gal, mph) reportadas por fuentes de terceros; no se encontró ficha técnica del fabricante con fetch directo para verificar cifras exactas. La mención en oceanic.cl (vía /motor/aquila/) es evidencia de que Oceanic representa este modelo, pero no se confirmó una URL de producto dedicada como la que sí existe para el Aquila 50 Yacht (oceanic.cl/aquila-boats/50-yacht/)."
 }

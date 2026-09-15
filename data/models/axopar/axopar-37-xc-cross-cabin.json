@@ -70,8 +70,38 @@
       "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=oVxkNLccKYI",
+        "platform": "youtube",
+        "title": "Axopar 37 XC Cross Cabin | Walkthrough Tour",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda; canal no identificado como oficial de la marca. Prensa especializada (Aquaholic/Nick Burnham) también ha producido reseñas del modelo, sin URL directa de YouTube confirmada en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Es el modelo más mencionado/reconocido del 37 (icónico, +3000 unidades vendidas según el fabricante), lo que lo hace el candidato más probable a ser el que Oceanic efectivamente exhibe — pero esto es una inferencia, no una confirmación directa de Oceanic, y se documenta como tal en vez de asumirla como hecho. Un agregador mencionó el nombre histórico '37 XC Revolution'; se deja registrado como posible nomenclatura previa, sin promoverlo a discrepancia formal por ser una única fuente Nivel 3 débil.",
   "brand_id": "axopar",

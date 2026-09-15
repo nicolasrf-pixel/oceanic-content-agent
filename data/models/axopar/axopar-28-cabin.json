@@ -52,8 +52,38 @@
       "notes": "Press release del fabricante anunciando el 'all-new Axopar 29 range', consistente con que el 28 Cabin fue reemplazado por el 29 en el catálogo vigente de axopar.com (no aparece ya en https://www.axopar.com/boat-models/)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://oceanic.cl/usados/axopar-28/",
+        "type": "single_photo_page",
+        "level": 2,
+        "verification_state": "CONFIRMED",
+        "notes": "manufacturer_url es null (modelo sin página vigente en axopar.com, superado por la familia Axopar 29). Página de Oceanic (distribuidor/dealer) con ficha y fotos de una unidad de este modelo; reutilizada de 'sources' de este mismo registro (coincidencia exacta de URL)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=TDaFnODyKcY",
+        "platform": "youtube",
+        "title": "Axopar 28 Cabin (2019-) Test Video - By BoatTEST.com",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video de prueba específico del modelo, producido por BoatTEST.com."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "No aparece en el índice vigente de modelos del fabricante (axopar.com/boat-models/), que hoy solo lista 22, 25, 29, 37, 38 y 45 (más AX/E). Se marca DISCONTINUED porque además de no estar en el catálogo global vigente, en oceanic.cl solo aparece en la sección de usados, nunca en catálogo de modelos nuevos — evidencia consistente desde dos ángulos (fabricante + distribuidor), no solo 'ya no aparece en el sitio' (CLAUDE.md sección 21 exige más que eso para reclasificar como descontinuado; aquí hay doble señal). No se encontró página propia en axopar.com para este modelo, por eso manufacturer_url queda null.",
   "brand_id": "axopar",

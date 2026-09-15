@@ -82,8 +82,30 @@
       "notes": "Entrada de Wikipedia sobre el modelo (nivel 3, no verificada en detalle en esta pasada)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.lagoon-catamaran.de/en/lagoon-models/lagoon-39-catamaran.html",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url es null en este registro y no se encontró página vigente del modelo en catamarans-lagoon.com (consistente con lifecycle_status='DISCONTINUED'). Se usa como alternativa la página del distribuidor oficial alemán (mismo dominio ya usado como fuente nivel 1 en lagoon-eighty-3.json), encontrada vía web_search_snippet."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo histórico/descontinuado según consenso de fuentes de terceros. Se crea este registro principalmente para documentar la discrepancia de la página de oceanic.cl con URL antigua que menciona 'Lagoon 39' (ver campo discrepancies), y para dejar trazabilidad histórica (CLAUDE.md sección 15) en caso de que haya unidades usadas o en brokerage. Confidence_level LOW: evidencia débil y contradictoria, requiere revisión humana / fetch directo antes de avanzar."
 }

@@ -68,8 +68,38 @@
       "notes": "Medio de terceros, origen de cifras de batería (63 kWh Kreisel), autonomía (60 mn a 5 nudos / ~17 mn a 25 nudos) y velocidad máxima (36 nudos)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=e5J5zlgKVR8",
+        "platform": "youtube",
+        "title": "AX/E Electric Boats | Looking Into The Future of Electric Boating",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video sobre la línea AX/E en general (cubre AX/E 22 y 25 conjuntamente); no se encontró video específico solo del AX/E 22 en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Sub-rango 100% eléctrico de Axopar (motor Evoy, no combustión). Se mantiene category='motor' por ser el único valor del enum del esquema aplicable a embarcaciones a motor (no hay valor específico para 'eléctrico' en el esquema actual); se deja constancia aquí para no confundir con una discrepancia de categorización. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
   "brand_id": "axopar",

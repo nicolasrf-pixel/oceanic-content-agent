@@ -102,8 +102,37 @@
       "notes": "Quilla levadiza tipo T, calado 2.6-4.0 m, pala de aleación de aluminio tipo foil; descrito como complemento de la nueva línea de 72 pies y refuerzo del liderazgo de Solaris en el segmento semi-custom bluewater de 70-80 pies."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/brokerage/solaris-72-classic/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (URL oficial bajo /en/brokerage/, contenido completo no leído por bloqueo de red)."
+      },
+      {
+        "url": "https://www.oceanic.cl/vela/solaris-72/",
+        "type": "gallery_page",
+        "level": 2,
+        "verification_state": "CONFIRMED",
+        "notes": "Página de producto propia del distribuidor Oceanic Chile (oceanic_url); reusa level/verification_state de la fuente coincidente en 'sources'. Único modelo Solaris de esta pasada con ficha propia confirmada en oceanic.cl."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Este es el ÚNICO modelo de esta pasada con evidencia de página de producto PROPIA y activa en oceanic.cl (oceanic_url confirmado), lo que lo hace la mejor evidencia de representación efectiva por Oceanic Chile entre todos los modelos investigados -- pero la posible discontinuación a nivel de fabricante (ruta /brokerage/) obliga a dejar lifecycle_status como UNCONFIRMED. Requiere aprobación humana / lectura directa antes de promover a VALIDATED (CLAUDE.md sección 21)."
 }

@@ -35,8 +35,30 @@
       "notes": "Página del fabricante encontrada bajo la ruta 'gran-turismo/' (generación anterior), sin etiqueta explícita de 'former'/'heritage' como sí se encontró para el 32 y el 36 en esta pasada. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://beneteau.com/gran-turismo/gran-turismo-41",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "A diferencia de Gran Turismo 32 y 36, NO se encontró evidencia Nivel 1 explícita de descontinuación para el 41 (ni tampoco de que siga vigente). Por CLAUDE.md sección 21, reclasificar como DISCONTINUED exigiría evidencia más fuerte que 'no aparece junto a la nueva gama 35/40/50' — se deja lifecycle_status UNCONFIRMED en vez de asumir. Requiere verificación directa del sitio del fabricante cuando haya acceso de red."
 }

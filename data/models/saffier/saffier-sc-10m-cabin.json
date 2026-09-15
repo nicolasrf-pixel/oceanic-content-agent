@@ -47,8 +47,30 @@
       "notes": "Página del fabricante 'Previous models' donde se lista como modelo anterior/descontinuado."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/previous-models/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página del fabricante 'Previous models', donde se lista este modelo descontinuado)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de este modelo descontinuado (SC 10m Cabin) en esta pasada; se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo fuera de producción; se conserva en histórico (CLAUDE.md sección 15), no se elimina. No se encontró evidencia de que Oceanic Chile lo represente activamente (coherente con su estado DISCONTINUED).",
   "discrepancies": [

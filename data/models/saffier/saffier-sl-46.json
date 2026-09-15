@@ -68,8 +68,38 @@
       "notes": "Medio náutico confirma explícitamente que el SL 46 estará disponible 'en dos versiones' (MED y NORTH)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-sl-46/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=-xARH-IQX5A",
+        "platform": "youtube",
+        "title": "NEW Saffier SL46 MED | Official walkthrough video | Saffier Yachts",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del buque insignia; el propio título del video se autodenomina 'Official walkthrough video | Saffier Yachts', fuerte indicio de contenido oficial del fabricante, aunque no se confirmó con fetch directo el canal que lo aloja (EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "model_id genérico 'saffier-sl-46' porque ambas versiones (MED/NORTH) comparten familia y casco; se tratan como variantes, no como modelos separados, salvo evidencia futura de fichas técnicas y nombres comerciales completamente independientes.",
   "variants": [

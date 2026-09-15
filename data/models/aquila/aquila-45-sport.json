@@ -54,8 +54,30 @@
       "notes": "Fuente de especificaciones: eslora 46'6\", manga 15'2\", calado 2' (motores arriba), 2x600 HP Mercury Verado V12, velocidad top >50 mph, crucero 38-40 mph, combustible 400 gal, agua 50 gal, desplazamiento 21,970 lbs, 1 camarote/1 baño. Consistente con multihulls-world.com y powerboat.news."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Lanzado en el Miami International Boat Show de febrero 2026 como parte de una 'reimagined performance series'; no se encontró evidencia de listado en oceanic.cl a la fecha de esta verificación (2026-09-10). Velocidades convertidas desde mph de fuente de tercero (aproximadas, no ficha técnica oficial confirmada por fetch directo)."
 }

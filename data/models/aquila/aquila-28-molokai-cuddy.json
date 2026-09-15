@@ -45,8 +45,30 @@
       "notes": "Menciona motorización disponible (Mercury 150XL FourStroke 150HP o Mercury FourStroke V6 225HP) y describe el 'cuddy' como cabina delantera cerrada que ofrece protección adicional respecto a la versión abierta del 28 Molokai. No se encontraron cifras de eslora/manga específicas y propias del Cuddy distintas de las del 28 Molokai base en los snippets disponibles."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Se trata como modelo independiente (no variante del 28 Molokai) porque el fabricante le asigna una URL y ficha de producto propias (CLAUDE.md sección 7 y 16). La mayoría de las especificaciones de dimensiones no se pudieron confirmar como distintas o iguales a las del Aquila 28 Molokai base -- se marcan UNCONFIRMED en vez de asumir que son idénticas. No se encontró evidencia de representación por Oceanic Chile."
 }

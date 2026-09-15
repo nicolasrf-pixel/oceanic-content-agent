@@ -61,8 +61,38 @@
       "notes": "Fuente de agregador de origen de la discrepancia 'Spyder/T-Top' en el 45 — ver notas del modelo."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-45-sun-top/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.yachtbuyer.com/en-us/reviews/axopar-45-sun-top-2024",
+        "platform": "other",
+        "title": "Axopar 45 Sun-Top Review & Test Drive Video",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de reseña/test drive de YachtBuyer específica del modelo; contiene video embebido."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "El fabricante describe este modelo como similar en dimensiones/peso al Cross Top, con sofá de popa de serie (opcional U-sofá o cabina de popa). Sin cifras numéricas confirmadas en esta pasada. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí. Discrepancia detectada y documentada (no se creó un archivo de modelo propio para ella, por ser evidencia demasiado débil para tratarla como modelo confirmado): una fuente de agregador (itboat.com, Nivel 3, snippet único) listó 'Axopar 45 Spyder' y 'Axopar 45 T-Top' como parte del rango 45, mientras que fuentes directas del fabricante (axopar.com/pressroom, axopar.com/boat-models/axopar-45/) describen el rango 45 vigente como compuesto únicamente por XC Cross Cabin, Sun Top y Cross Top — sin Spyder ni T-Top. Es posible que 'Spyder'/'T-Top' hayan existido en generaciones anteriores del 45 (esas nomenclaturas sí existen vigentes en el 22 y existieron en el 37), o que el agregador haya mezclado información de otras esloras. No se resuelve aquí (CLAUDE.md sección 14): se registra para investigación dirigida en Fase 2, sin promoverla a modelo propio ni descartarla en silencio.",
   "brand_id": "axopar",

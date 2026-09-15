@@ -100,8 +100,37 @@
       "notes": "Detalle de capacidades de combustible/agua y motorización estándar."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Sin fuente coincidente exacta en 'sources'; se usa level=1/UNCONFIRMED por defecto (dominio del fabricante). manufacturer_url registrado en este archivo es la portada genérica del sitio, no una página de modelo."
+      },
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página específica del modelo encontrada vía web_search_snippet en esta pasada de media (no estaba registrada como manufacturer_url ni en 'sources' del archivo original; no se modifica manufacturer_url per instrucción de la tarea, se agrega aquí como entrada adicional)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo ANUNCIADO por el fabricante, con debut programado en Cannes Yachting Festival, septiembre 2026 (posterior o simultáneo a la fecha de esta verificación, 2026-09-10 -- no se pudo confirmar si el debut ya ocurrió al momento de esta pasada). Reportado de forma consistente por múltiples medios de terceros como sucesor directo del Lagoon 46. NO se encontró página en oceanic.cl para este modelo (razonable, dado que recién debuta). No se reclasifica el Lagoon 46 como DISCONTINUED en esta pasada -- ver nota en lagoon-46.json -- porque eso requeriría evidencia más fuerte que 'existe un sucesor anunciado' (CLAUDE.md sección 21: reclasificar por ausencia en el sitio requiere aprobación humana)."
 }

@@ -59,8 +59,38 @@
       "notes": "PDF de especificaciones estándar distribuido por Marine Servicenter (distribuidor autorizado en EE.UU.), consistente con ficha del fabricante: eslora, manga, calados y desplazamiento."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-se-33-life/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6ZLbA8jyRis",
+        "platform": "youtube",
+        "title": "Chapter 4: The new Saffier Se 33 Life is alive",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo; forma parte de una serie de 'capítulos' de lanzamiento consistente con contenido oficial del fabricante. No se confirmó con certeza la titularidad del canal que lo aloja (sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Conversión de superficie vélica de sqft a m2 hecha por este agente a partir de valores en pies cuadrados citados por la fuente (355.21 + 236.81 sqft); se deja como 'notas_specs' explícitas para trazabilidad del cálculo, no como dato directamente leído en m2."
 }

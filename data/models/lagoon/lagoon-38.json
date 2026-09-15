@@ -56,8 +56,38 @@
       "notes": "Página de modelo del fabricante encontrada vía snippet de búsqueda (no fetch directo, bloqueado por política de red -- CLAUDE.md sección 22). Dimensiones/desplazamiento/tanques según snippets agregados (itboat.com, multihulls-world.com, sailoe.com) consistentes entre sí."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/lagoon-38)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=5uO3dGmIuVM",
+        "platform": "youtube",
+        "title": "Lagoon 38, the family catamaran",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video encontrado vía web_search_snippet (sin fetch directo, CLAUDE.md sección 22); el título sugiere contenido oficial/promocional de Lagoon, pero el canal que lo aloja no pudo confirmarse de forma independiente en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Confirmado en oceanic.cl/lagoonvela/lagoon38/. Especificaciones obtenidas solo vía web_search_snippet (sin fetch directo, ver CLAUDE.md sección 22); múltiples fuentes de terceros coinciden en las mismas cifras, lo que sube confidence_level a MEDIUM, pero no a HIGH."
 }

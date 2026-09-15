@@ -41,8 +41,30 @@
       "notes": "Segundo listado año modelo 2026 del mismo modelo, en otra unidad/configuración."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/first/first-53",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial de modelo específico en beneteau.com localizada vía búsqueda web en esta pasada de media; no coincide exactamente con ninguna URL ya registrada en 'sources' del modelo, por lo que no hubo fetch directo que la confirme."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "No se encontró página de modelo dedicada en beneteau.com en esta pasada (solo listados de mercado, fuente Nivel 3); manufacturer_url se deja null. Datos de especificación provienen de fuente Nivel 3 vía snippet (no fetch directo), por lo que verification_state de esas fuentes es UNCONFIRMED aunque los números sean específicos — no se elevan a CONFIRMED sin lectura directa de una fuente Nivel 1 o 2."
 }

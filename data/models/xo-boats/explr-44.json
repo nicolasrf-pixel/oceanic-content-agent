@@ -117,8 +117,38 @@
       "notes": "Newsletter 'Puerto' de Oceanic Chile (julio 2026): 'el XO EXPLR 44 se confirma en el mercado americano', y lo menciona como finalista de MBY Awards 2025 y candidato a BoB Awards — misma fuente ya registrada a nivel de marca en master-inventory.json. Es la evidencia de mayor nivel (AUTHORIZED) encontrada para este modelo específico, pero es una mención editorial de newsletter, no una ficha de producto dedicada dentro de oceanic.cl."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/xo-fleet/explr-44/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (ficha del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=x8voq9oezWA",
+        "platform": "youtube",
+        "title": "XO EXPLR 44 - A New Chapter in the History of XO Boats",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo (buque insignia de la marca); título consistente con comunicación de lanzamiento del propio fabricante, coherente con el comunicado oficial ya registrado en 'sources' (xoboats.com/news/...). No se confirmó con certeza la titularidad del canal que lo aloja (sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "lifecycle_status NEW: lanzamiento reciente (2025) y mención explícita de Oceanic en julio 2026 como 'confirmado en el mercado americano', lo que sugiere un modelo recién consolidado más que un CURRENT establecido de largo plazo; se documenta el criterio. Es, junto con DFNDR 8, el único modelo de XO Boats con evidencia directa de Oceanic Chile (nivel 2/AUTHORIZED) — pero esa mención es editorial (newsletter, mercado americano), no una ficha de producto en oceanic.cl que confirme representación/venta en Chile específicamente. confidence_level se mantiene en MEDIUM (no HIGH) por esa razón y por la falta de fetch directo. Existe discrepancia no resuelta de motorización entre tres fuentes secundarias."
 }

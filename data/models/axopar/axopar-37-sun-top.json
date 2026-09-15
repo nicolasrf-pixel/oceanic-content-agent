@@ -70,8 +70,38 @@
       "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-37-sun-top/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dMbl4TMyMHk",
+        "platform": "youtube",
+        "title": "Axopar 37 Revolution Sun Top Performance Review | 53kts + 5 yr old drives",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Mismo caso que axopar-37-spyder respecto a la ambigüedad de qué configuración exacta vende Oceanic. Eslora y manga se asumen iguales a las del Spyder por compartir casco (según fuente de terceros), pero peso, calado y combustible SÍ varían entre configuraciones del 37 según esa misma fuente, así que se dejaron como UNCONFIRMED en vez de copiar el valor del Spyder.",
   "brand_id": "axopar",

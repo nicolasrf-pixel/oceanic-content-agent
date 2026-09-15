@@ -45,8 +45,30 @@
       "notes": "Fuente de especificaciones: 10.81 m de eslora, manga 14'9\" (~4.5m), cabina doble con litera queen, motorización 2x300 HP estándar / 2x400 HP opcional. Consistente con barcheamotore.com y powerboatandrib.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/news/aquila-catamarans-launching-two-new-models-at-cannes-yachting-festival-2026",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources'). La manufacturer_url es una página de noticia/anuncio (lanzamiento en Cannes Yachting Festival 2026), no una página de producto/galería dedicada; se referencia igualmente como mejor fuente disponible."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo recién anunciado, con estreno mundial en Cannes Yachting Festival 2026 (8-13 septiembre), es decir prácticamente coincidente con la fecha de esta verificación (2026-09-10). No se encontró evidencia de que Oceanic lo liste todavía en oceanic.cl -- razonable dado lo reciente del lanzamiento. Se marca lifecycle_status='NEW' (no 'ANNOUNCED') porque el debut ya está ocurriendo/ocurrió según la fuente del fabricante, no es una promesa a futuro. Especificaciones muy incompletas (calado, desplazamiento, capacidades, pasajeros: UNKNOWN) porque las fuentes de terceros disponibles aún no publican ficha técnica completa para un modelo tan nuevo."
 }

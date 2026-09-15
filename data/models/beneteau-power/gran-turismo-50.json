@@ -53,8 +53,38 @@
       "notes": "Reseña de medio náutico, corrobora eslora/manga/motorización. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-50",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=tNMHvvvhWw4",
+        "platform": "youtube",
+        "title": "GRAN TURISMO 50 - Beneteau - Guided Tour (in English)",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía WebSearch (guided tour); el canal/uploader no pudo confirmarse como oficial de Beneteau en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Presentación pública muy reciente (8-9 de septiembre de 2026, un día antes de esta investigación) en Salone Nautico di Genova — mayor consistencia entre fuentes que gran-turismo-35/40, de ahí confidence_level MEDIUM en vez de LOW. Sin confirmación de representación en Chile / oceanic.cl en esta pasada."
 }

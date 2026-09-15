@@ -56,8 +56,38 @@
       "notes": "Comunicado del fabricante anunciando el modelo, con premiere mundial en boot Düsseldorf 2026; casco de nueva forma con proa invertida."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=q4s6z9Y6XWo",
+        "platform": "youtube",
+        "title": "Saffier SE28 Leopard full walkthrough video | The most versatile daysailer on the market",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo, formato 'full walkthrough' consistente con contenido oficial del fabricante; no se confirmó con certeza la titularidad del canal que lo aloja (sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo de reciente lanzamiento (premiere boot Düsseldorf enero 2026); ya aparece en listados de venta 2026-2027, por lo que se marca NEW en lugar de ANNOUNCED."
 }

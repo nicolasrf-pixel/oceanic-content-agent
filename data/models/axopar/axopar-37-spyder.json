@@ -92,8 +92,30 @@
       "notes": "Boletín menciona entrega de un 'Axopar 37' en Viña del Mar, sin especificar configuración (Spyder/Sun-Top/XC)."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-37/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url del modelo; no hay coincidencia exacta en 'sources' de este registro (sin fetch directo, EGRESS_BLOCKED). Se asume que incluye galería de fotos, práctica estándar en páginas de producto de fabricantes náuticos, pero no se confirmó por fetch directo en esta pasada."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Oceanic.cl confirma representación activa de 'Axopar 37' como línea (página de marca + mención de entrega en Viña del Mar), pero ninguna fuente de Oceanic distingue cuál(es) de las 3 configuraciones (Spyder / Sun-Top / XC Cross Cabin) vende específicamente. confidence_level MEDIUM refleja evidencia consistente de que el 37 en general es vendido por Oceanic; la atribución a esta configuración puntual (Spyder) queda abierta — ver discrepancy/nota equivalente en axopar-37-sun-top y axopar-37-xc-cross-cabin.",
   "brand_id": "axopar",

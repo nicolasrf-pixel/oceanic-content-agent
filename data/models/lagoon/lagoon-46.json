@@ -54,8 +54,38 @@
       "notes": "Página de modelo del fabricante vía snippet de búsqueda. Dimensiones consistentes con ficha técnica PDF (yachting2000.at) y sailboatdata.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/lagoon-46-iconic",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/lagoon-46-iconic)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=c6-qFxKVzeg",
+        "platform": "youtube",
+        "title": "Lagoon 46, the catamaran that everyone likes",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video encontrado vía web_search_snippet (sin fetch directo, CLAUDE.md sección 22); el título sugiere contenido oficial/promocional de Lagoon, pero el canal que lo aloja no pudo confirmarse de forma independiente en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Confirmado en oceanic.cl/lagoonvela/lagoon46-iconic/, con el nombre completo 'Lagoon 46 Iconic' (el fabricante usa el mismo sufijo 'Iconic'). IMPORTANTE: múltiples fuentes de terceros (2026-03 en adelante) indican que el fabricante anunció el Lagoon 47 como sucesor directo del 46, con debut en el Cannes Yachting Festival de septiembre 2026 (ver lagoon-47.json). El 46 sigue CURRENT en esta pasada porque su página en oceanic.cl seguía activa e indexada al 2026-09-10, pero se recomienda revisar su estado (posible transición a DISCONTINUED) en la próxima verificación, una vez el 47 esté efectivamente disponible/listado."
 }

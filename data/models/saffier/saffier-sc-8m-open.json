@@ -46,8 +46,30 @@
       "notes": "Artículo del propio fabricante confirma que el modelo 'Saffier SE 26' fue renombrado a 'Saffier SC 8m Open', ahora parte de la línea Classic."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/saffier-se-26-renamed-saffier-sc-8m-open/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (artículo del propio fabricante confirmando el cambio de nombre SE 26 -> SC 8m Open)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de SC 8m Open en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Variante 'open/bañera abierta' de la familia SC 8m, day-sailer sin cabina cerrada equivalente, distinta de SC 8m Cabin.",
   "discrepancies": [

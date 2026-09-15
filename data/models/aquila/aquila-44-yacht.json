@@ -76,8 +76,30 @@
       "notes": "Artículo titulado '¿El Aquila 46 Yacht, el reemplazo del icónico 44?', que enmarca al 46 Yacht como sucesor directo del 44."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/yachts",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página del fabricante sin entrada específica coincidente en 'sources' para esta URL exacta; se usa level=1/UNCONFIRMED por defecto según metodología. URL genérica de línea de producto, compartida entre varios modelos de esta marca, no una ficha específica de este modelo. La manufacturer_url es la página genérica de la línea Yachts (aquilaboats.com/models/yachts), compartida con aquila-48-yacht; no hay entrada específica en 'sources' para esta URL, por lo que se usa level=1/UNCONFIRMED por defecto."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo histórico de gran éxito comercial (más de 200 unidades vendidas según fuentes de tercero), producido aprox. 2014-2025. Se marca DISCONTINUED con confidence_level LOW porque la evidencia proviene solo de fuentes secundarias (nivel 3) sin fetch directo al fabricante, y existe una contradicción documentada (ver 'discrepancies') con un listado de concesionario que sugiere disponibilidad para año-modelo 2026. Un artículo más antiguo (yachtstyle.co, contemporáneo al lanzamiento del 42 Yacht en 2023) citaba 'sin planes de discontinuar' el 44 -- consistente cronológicamente con que la discontinuación ocurrió después, coincidiendo con el lanzamiento del 46 Yacht en 2025. No se encontró evidencia de que Oceanic lo haya representado ni de que lo haya dejado de representar."
 }

@@ -62,8 +62,38 @@
       "notes": "Fuente de especificaciones de dimensiones, motorización y sistema Hydro Glide. Consistente con yachtingmagazine.com y powerandmotoryacht.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/yachts/46",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dnGMCDt1jcg",
+        "platform": "youtube",
+        "title": "Aquila 46 Power Catamaran Review — The Smarter, Bigger 47-Foot Yacht | BoatTEST",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo de BoatTEST, medio especializado en pruebas náuticas (no canal oficial de la marca). Encontrado vía búsqueda web."
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Ya mencionado en data/brands/master-inventory.json (brand_description) como uno de los modelos representativos de la marca. Reemplaza al Aquila 44 Yacht según múltiples fuentes de terceros (ver aquila-44-yacht.json, discrepancies). No confundir con el Aquila 46 Coupe (línea Coupe distinta, ver aquila-46-coupe.json), que comparte el número '46' pero tiene layout, manga y propósito diferentes (flybridge crucero vs. weekender techo bajo)."
 }

@@ -55,8 +55,30 @@
       "notes": "Listado de venta fechado '2026' para un Saffier SE 27 Leisure, lo que sugiere que unidades siguen disponibles/en inventario en 2026 a pesar de indicios de discontinuación."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/previous-models/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (no se confirmó en el snippet si SE 27 Leisure aparece nombrado explícitamente en esa página)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de este modelo (lifecycle_status UNCONFIRMED) en esta pasada; se deja solo el fallback de canal."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Modelo con evidencia contradictoria/débil sobre su estado de ciclo de vida. Requiere fetch directo de saffieryachts.com/previous-models/ y/o saffieryachts.com/models/ para confirmar. confidence_level LOW.",
   "discrepancies": [

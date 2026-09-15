@@ -54,8 +54,30 @@
       "notes": "Fuente de especificaciones: eslora 42'10\", manga 15'11\", calado plena carga 2'11\", combustible 410 gal, desplazamiento ligero 18,740 lbs, 2 camarotes con baño en suite, sistema Aquila Hydro Glide de fibra de carbono. Consistente con yachtingmagazine.com y yachtbuyer.com."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/coupes/42",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "Línea 'Coupe' (weekender, sin flybridge, techo rígido bajo), introducida por el fabricante en 2025 junto con el 46 Coupe. Distinto del Aquila 42 Yacht (ver aquila-42-yacht.json), que comparte el número '42' pero pertenece a la línea Yacht (con flybridge) y tiene dimensiones y layout propios -- no se confunden pese al nombre similar. Velocidades convertidas desde mph de fuente de tercero."
 }

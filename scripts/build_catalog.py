@@ -180,7 +180,7 @@ master_brands, master_total = build_tree(filter_fn=None)
 master_catalog = {
     "catalog_meta": {
         "name": "Repositorio de barcos publicados por las representadas en sus sitios oficiales",
-        "generated_at": "2026-09-14",
+        "generated_at": "2026-09-15",
         "generated_by": "oceanic-content-agent",
         "description": (
             "Repositorio organizado Marca -> Categoria -> Familia -> Modelo, construido a "
@@ -207,7 +207,7 @@ oceanic_brands, oceanic_total = build_tree(filter_fn=lambda n: n["oceanic_eviden
 oceanic_catalog = {
     "catalog_meta": {
         "name": "Modelos con evidencia de representación específica por Oceanic Chile",
-        "generated_at": "2026-09-14",
+        "generated_at": "2026-09-15",
         "generated_by": "oceanic-content-agent",
         "description": (
             "Subconjunto de master-catalog.json: solo modelos donde oceanic_evidence es "

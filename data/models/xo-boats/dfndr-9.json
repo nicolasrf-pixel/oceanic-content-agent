@@ -43,8 +43,38 @@
       "notes": "itBoat lista XO DFNDR 9: LOA 8.8m, Beam 2.6m, Draft 0.9m, precio a consultar."
     }
   ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/xo-fleet/dfndr-9/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (ficha del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4B0XRk2f3Vo",
+        "platform": "youtube",
+        "title": "XO DFNDR 9 - World Premiere",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo, título y formato ('World Premiere') consistentes con contenido de lanzamiento del propio fabricante; no se pudo confirmar con certeza que el canal que lo aloja sea el canal oficial de XO Boats (sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ]
+  },
   "verified_at": "2026-09-10",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "status_pipeline": "MAPPED",
   "notes": "confidence_level MEDIUM: evidencia consistente entre fabricante (snippet) y base de terceros, pero sin fetch directo ni confirmación de representación específica por Oceanic Chile (no se encontró mención puntual de DFNDR 9 en fuentes de Oceanic, solo de la marca XO en general y de DFNDR 8/EXPLR 44 específicamente). oceanic_url queda null — no se identificó ficha específica de este modelo en oceanic.cl."
 }
