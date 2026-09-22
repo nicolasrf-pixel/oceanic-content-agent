@@ -1,0 +1,31 @@
+{
+  "download_status": "NOT_DOWNLOADED",
+  "download_blocker": "Descarga de PDF requiere acceso HTTP directo a manuals.axopar.com. Bloqueado por la misma política de red que bloqueó axopar.com (ver 07_FUENTES/sources.json → access_test).",
+  "documents": [
+    {
+      "url": "https://manuals.axopar.com/content/p8len/1.15.1.0/en/index.html",
+      "title": "Axopar 37 XC Cross Cabin - Model Year 2025 (versión HTML interactiva)",
+      "format": "html_app",
+      "language": "en",
+      "model_year": "2025",
+      "status": "FOUND_NOT_DOWNLOADED",
+      "note": "Versión más reciente encontrada. Formato de app HTML, no PDF simple — descarga requeriría renderizado, no solo un GET."
+    },
+    {
+      "url": "https://manuals.axopar.com/content/p8len/1.12.1.0/en/Axopar%2037%20XC%20Cross%20Cabin%20-%20Model%20Year%202020-2023%20-%20Owner's%20Manual.pdf",
+      "title": "Axopar 37 XC Cross Cabin - Model Year 2020-2023 - Owner's Manual",
+      "format": "pdf",
+      "language": "en",
+      "model_year": "2020-2023",
+      "status": "FOUND_NOT_DOWNLOADED"
+    },
+    {
+      "url": "https://manuals.axopar.com/content/p8les-es/1.3.1.1/es-es/Axopar%2037%20XC%20Cross%20Cabin%20-%20Modelo%202020-2022%20-%20Manual%20del%20propietario.pdf",
+      "title": "Axopar 37 XC Cross Cabin - Modelo 2020-2022 - Manual del propietario",
+      "format": "pdf",
+      "language": "es",
+      "model_year": "2020-2022",
+      "status": "FOUND_NOT_DOWNLOADED"
+    }
+  ]
+}

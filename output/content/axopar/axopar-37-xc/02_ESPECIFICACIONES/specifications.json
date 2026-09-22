@@ -1,0 +1,250 @@
+{
+  "model_id_catalog": "axopar-37-xc-cross-cabin",
+  "model_name": "Axopar 37 XC Cross Cabin",
+  "generated_at": "2026-09-22",
+  "methodology_note": "Cada campo tiene su(s) fuente(s) con nivel de confianza. 'confidence_tier: axopar_scoped_search' = snippet devuelto por una búsqueda restringida a site:axopar.com (mayor confianza posible en este piloto). 'confidence_tier: mixed_source_search' = snippet de una búsqueda no restringida, donde el dominio oficial aparecía en la lista de enlaces pero la atribución exacta del texto a esa página no se pudo verificar (puede estar mezclado con contenido de terceros). Ningún campo alcanza 'HIGH' de confidence_level porque no hubo lectura directa de página (WebFetch bloqueado). Los campos ya existentes en el catálogo (data/models/axopar/axopar-37-xc-cross-cabin.json) se preservan y se comparan, nunca se sobreescriben.",
+  "specifications": [
+    {
+      "field": "eslora_total_loa",
+      "label": "Eslora total (excl. motor) / LOA excl. engine",
+      "value_original": "37ft 9in",
+      "value_normalized": "11.50 m",
+      "unit_normalized": "m",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-004", "url": "https://www.axopar.com/pricelist/AXO9003774"}],
+      "existing_catalog_value": {"field": "eslora_m", "value": 11.51, "source_note": "data/models/axopar/axopar-37-xc-cross-cabin.json, investigación 2026-09-10"},
+      "conflict": true,
+      "conflict_id": "CONFLICT-001"
+    },
+    {
+      "field": "manga_beam",
+      "label": "Manga / Beam",
+      "value_original": "11ft (3.35 m)",
+      "value_normalized": "3.35 m",
+      "unit_normalized": "m",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-001-or-004", "url": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/ / https://www.axopar.com/pricelist/AXO9003774"}],
+      "existing_catalog_value": {"field": "manga_m", "value": 3.35, "source_note": "data/models/axopar/axopar-37-xc-cross-cabin.json"},
+      "conflict": false,
+      "note": "Coincide exactamente con el valor ya registrado en el catálogo — confirma, no contradice."
+    },
+    {
+      "field": "calado_props",
+      "label": "Calado a hélices / Draft to props",
+      "value_original": "2ft 9in",
+      "value_normalized": "0.85 m",
+      "unit_normalized": "m",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com \"37 XC Cross Cabin\" LOA beam draft weight fuel capacity max speed, 2026-09-22"}],
+      "existing_catalog_value": {"field": "calado_m", "value": "UNCONFIRMED", "source_note": "sin dato previo"},
+      "conflict": false,
+      "note": "Campo nuevo — el catálogo existente lo tenía como UNCONFIRMED, esta pasada aporta un valor candidato (no se promueve a CONFIRMED, sigue siendo snippet)."
+    },
+    {
+      "field": "peso_excl_motor",
+      "label": "Peso (excl. motor) / Weight excl. engine",
+      "value_original": "8,311 lbs",
+      "value_normalized": "3,770 kg",
+      "unit_normalized": "kg",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [
+        {"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"},
+        {"id": "src-004", "url": "https://www.axopar.com/pricelist/AXO9003774"}
+      ],
+      "existing_catalog_value": {"field": "desplazamiento_kg", "value": "UNCONFIRMED", "source_note": "sin dato previo"},
+      "conflict": false,
+      "note": "Campo nuevo, corroborado por dos búsquedas independientes con resultado idéntico."
+    },
+    {
+      "field": "capacidad_combustible",
+      "label": "Capacidad de combustible / Fuel capacity",
+      "value_original": "193 gal",
+      "value_normalized": "730 L",
+      "unit_normalized": "L",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"}],
+      "existing_catalog_value": {"field": "capacidad_combustible_l", "value": "UNCONFIRMED", "source_note": "sin dato previo"},
+      "conflict": false,
+      "note": "Campo nuevo."
+    },
+    {
+      "field": "capacidad_agua_dulce",
+      "label": "Capacidad agua dulce / Freshwater tank",
+      "value_original": "100 l",
+      "value_normalized": "100 L",
+      "unit_normalized": "L",
+      "confidence_tier": "mixed_source_search",
+      "sources": [{"id": "n/a", "url": "búsqueda mixta 'specifications table', 2026-09-22 — dominio oficial presente en la lista de enlaces pero atribución exacta no verificada"}],
+      "existing_catalog_value": {"field": "capacidad_agua_l", "value": "UNKNOWN", "source_note": "sin dato previo"},
+      "conflict": false,
+      "confidence_flag": "LOW — atribución de dominio no verificada, tratar como candidato a confirmar, no como dato oficial confiable."
+    },
+    {
+      "field": "velocidad_max_rango",
+      "label": "Rango de velocidad máxima / Max speed range",
+      "value_original": "38 - 48 knots",
+      "value_normalized": "38 - 48 nudos",
+      "unit_normalized": "nudos",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"}],
+      "existing_catalog_value": {"field": "velocidad_max_nudos", "value": "UNCONFIRMED", "source_note": "sin dato previo"},
+      "conflict": false,
+      "note": "Campo nuevo. Ver CONFLICT-002 por una cifra de 56 nudos encontrada en otra búsqueda con motorización distinta (Mercury V10 400)."
+    },
+    {
+      "field": "motorizacion_gasolina_fueraborda",
+      "label": "Motorización fuera de borda (gasolina) / Outboard engine range",
+      "value_original": "2 x 300 – 2 x 400 hp",
+      "value_normalized": "2 x 300 a 2 x 400 hp",
+      "unit_normalized": "hp",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com \"37 XC\" horsepower engine options, 2026-09-22"}],
+      "existing_catalog_value": {"field": "motorizacion", "value": "Fuera de borda, 2 x 300 a 2 x 400 hp", "source_note": "data/models/axopar/axopar-37-xc-cross-cabin.json"},
+      "conflict": false,
+      "note": "Coincide exactamente con el valor ya registrado en el catálogo. Ver CONFLICT-003 por una cifra distinta (2x225-2x350hp) encontrada en otra búsqueda menos confiable."
+    },
+    {
+      "field": "motorizacion_diesel_opcional",
+      "label": "Motorización diésel opcional / Optional diesel engine",
+      "value_original": "Cox CXO 300hp diesel outboard",
+      "value_normalized": "2 x Cox CXO 300 hp (diésel, fuera de borda)",
+      "unit_normalized": "hp",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [
+        {"id": "src-013", "url": "https://www.axopar.com/media/newsroom/news/axopar-37-xc-cross-cabin-japans-boat-of-the-year-2021-040422/"},
+        {"id": "src-014", "url": "https://www.axopar.com/news-and-events/news/axopar-37-xc-cross-cabin-with-cox-cxo-300hp-diesel-engines"}
+      ],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado en el catálogo existente", "source_note": "campo nuevo"},
+      "conflict": false,
+      "note": "Campo completamente nuevo respecto al catálogo existente — confirmado por 2 notas de prensa oficiales independientes (misma noticia, 2 URLs)."
+    },
+    {
+      "field": "clasificacion_navegacion",
+      "label": "Categoría de diseño / Classification",
+      "value_original": "B – Offshore, C – Coastal",
+      "value_normalized": "B (Offshore) / C (Coastal)",
+      "unit_normalized": "categoría CE",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"}],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado", "source_note": "campo nuevo"},
+      "conflict": false
+    },
+    {
+      "field": "pasajeros_capacidad",
+      "label": "Capacidad de pasajeros / Passenger capacity",
+      "value_original": "B:10 / C:12",
+      "value_normalized": "10 (categoría B, offshore) / 12 (categoría C, coastal)",
+      "unit_normalized": "personas",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"}],
+      "existing_catalog_value": {"field": "pasajeros", "value": "UNKNOWN", "source_note": "sin dato previo"},
+      "conflict": false
+    },
+    {
+      "field": "camarotes_literas",
+      "label": "Camarotes / literas / Berths",
+      "value_original": "2 persons standard, (+2) with optional aft cabin",
+      "value_normalized": "2 personas de serie (cabina de proa); +2 con Aft Cabin opcional",
+      "unit_normalized": "personas",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com, 2026-09-22"}],
+      "existing_catalog_value": {"field": "camarotes", "value": "1 (cabina de proa) — UNCONFIRMED", "source_note": "data/models/axopar/axopar-37-xc-cross-cabin.json"},
+      "conflict": false,
+      "note": "Refina el dato existente (coincide en que la cabina de proa es de serie) y aporta el detalle de la ampliación opcional a +2 con Aft Cabin."
+    },
+    {
+      "field": "banos",
+      "label": "Baños / Heads",
+      "value_original": "electric freshwater head with holding tank; choice of extended forward cabin (head hidden) or separate head compartment",
+      "value_normalized": "1 baño eléctrico de agua dulce con tanque de retención; layout configurable (integrado en cabina de proa u compartimento separado)",
+      "unit_normalized": "n/a",
+      "confidence_tier": "mixed_source_search",
+      "sources": [{"id": "n/a", "url": "búsqueda mixta 'cockpit cabin interior storage layout', 2026-09-22 — atribución de dominio no verificada"}],
+      "existing_catalog_value": {"field": "banos", "value": "UNCONFIRMED", "source_note": "data/models/axopar/axopar-37-xc-cross-cabin.json"},
+      "conflict": false,
+      "confidence_flag": "LOW — atribución de dominio no verificada, tratar como candidato a confirmar."
+    },
+    {
+      "field": "construccion_casco",
+      "label": "Construcción del casco / Hull construction",
+      "value_original": "Twin stepped 20 degree V \"Sharp entry hull/bow\"",
+      "value_normalized": "Casco planeador, doble escalón (stepped hull), V de 20°, proa de entrada afilada",
+      "unit_normalized": "n/a",
+      "confidence_tier": "axopar_scoped_search",
+      "sources": [{"id": "src-varios", "url": "búsqueda site:axopar.com \"37 XC\" horsepower engine options passengers berths classification, 2026-09-22"}],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado", "source_note": "campo nuevo"},
+      "conflict": false
+    },
+    {
+      "field": "construccion_material",
+      "label": "Material de construcción / Construction material",
+      "value_original": "GRP, hand laminated, Vinylester resin (osmosis prevention)",
+      "value_normalized": "PRFV (fibra de vidrio reforzada), laminado a mano, primera capa en resina Vinylester (prevención de ósmosis)",
+      "unit_normalized": "n/a",
+      "confidence_tier": "mixed_source_search",
+      "sources": [{"id": "n/a", "url": "búsqueda mixta 'hull construction design technology', 2026-09-22 — atribución de dominio no verificada"}],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado", "source_note": "campo nuevo"},
+      "conflict": false,
+      "confidence_flag": "LOW — atribución de dominio no verificada."
+    },
+    {
+      "field": "consumo_crucero",
+      "label": "Consumo en crucero / Fuel consumption at cruise",
+      "value_original": "2.3 l/nm (2x 300hp Mercury, 28 knots)",
+      "value_normalized": "2.3 L/nm a 28 nudos (2x300hp Mercury)",
+      "unit_normalized": "L/nm",
+      "confidence_tier": "mixed_source_search",
+      "sources": [{"id": "n/a", "url": "búsqueda mixta 'specifications axopar.com', 2026-09-22 — atribución de dominio no verificada"}],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado", "source_note": "campo nuevo"},
+      "conflict": false,
+      "confidence_flag": "LOW — atribución de dominio no verificada."
+    },
+    {
+      "field": "autonomia_crucero",
+      "label": "Autonomía de crucero / Cruise range",
+      "value_original": "250 nm (2x 300hp Mercury V8, 30 knots)",
+      "value_normalized": "250 millas náuticas a 30 nudos (2x300hp Mercury V8)",
+      "unit_normalized": "millas náuticas",
+      "confidence_tier": "mixed_source_search",
+      "sources": [{"id": "n/a", "url": "búsqueda mixta 'specifications table', 2026-09-22 — atribución de dominio no verificada"}],
+      "existing_catalog_value": {"field": "n/a", "value": "No estaba registrado", "source_note": "campo nuevo"},
+      "conflict": false,
+      "confidence_flag": "LOW — atribución de dominio no verificada."
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "CONFLICT-001",
+      "field": "Eslora total (LOA excl. motor)",
+      "values": [
+        {"value": "11.51 m", "source": "data/models/axopar/axopar-37-xc-cross-cabin.json", "retrieved_at": "2026-09-10", "priority_note": "Registro previo del catálogo, también obtenido vía web_search_snippet en Fase 2."},
+        {"value": "11.50 m (normalizado de 37ft 9in)", "source": "https://www.axopar.com/pricelist/AXO9003774", "retrieved_at": "2026-09-22", "priority_note": "Este piloto, atribuido a página oficial de precio/specs vía snippet."}
+      ],
+      "explanation": "Diferencia de 1 cm — probablemente una diferencia de redondeo entre una conversión pies→metros hecha por dos indexaciones distintas del mismo dato oficial (37'9\" = 11.5062 m exactos), no necesariamente dos valores oficiales distintos. No se resuelve automáticamente: se conservan ambos y se deja constancia del origen de cada uno.",
+      "possible_historical_state": "No aplica — ambos valores son de la misma variante y no hay indicio de cambio de año modelo.",
+      "resolved": false
+    },
+    {
+      "conflict_id": "CONFLICT-002",
+      "field": "Velocidad máxima",
+      "values": [
+        {"value": "38 - 48 nudos", "source": "búsqueda site:axopar.com (rango general, motorización estándar hasta 2x400hp)", "retrieved_at": "2026-09-22", "priority_note": "Atribución de dominio más confiable (búsqueda restringida a axopar.com)."},
+        {"value": "hasta 56 nudos", "source": "búsqueda mixta sobre opciones de motor — mencionada junto a 'Mercury Verado V10 400, crucero 35 nudos / máxima 56 nudos'", "retrieved_at": "2026-09-22", "priority_note": "Atribución de dominio no verificada; podría corresponder a la motorización tope V10 400hp, que no está claramente incluida en el rango '2x300-2x400hp' ya confirmado."}
+      ],
+      "explanation": "Es posible que ambas cifras sean compatibles (38-48 nudos para el rango de motorización más común, 56 nudos como techo con la motorización más potente disponible) en vez de ser una contradicción real — pero como no se pudo confirmar esto leyendo la página oficial, se documentan como dos datos separados en vez de fusionarlos o asumir la explicación.",
+      "possible_historical_state": "No aplica.",
+      "resolved": false
+    },
+    {
+      "conflict_id": "CONFLICT-003",
+      "field": "Rango de potencia de motorización (fuera de borda gasolina)",
+      "values": [
+        {"value": "2 x 300 – 2 x 400 hp", "source": "búsqueda site:axopar.com Y coincide con data/models/axopar/axopar-37-xc-cross-cabin.json (Fase 2, 2026-09-10)", "retrieved_at": "2026-09-22", "priority_note": "Doblemente corroborado: catálogo existente + búsqueda restringida a dominio oficial en este piloto."},
+        {"value": "2 x 225 – 2 x 350 hp", "source": "búsqueda mixta 'specifications axopar.com' (dominios de terceros dominaban los resultados)", "retrieved_at": "2026-09-22", "priority_note": "Atribución de dominio no verificada, posible contaminación de fuente de terceros."}
+      ],
+      "explanation": "Se prioriza como señal (no como borrado) el valor corroborado dos veces por fuente de mayor nivel de confianza (2x300-2x400hp), pero el valor alternativo no se descarta — podría corresponder a un año modelo o mercado distinto.",
+      "possible_historical_state": "Posible — el rango de potencia mínima ofertada pudo cambiar entre años modelo; no confirmado.",
+      "resolved": false
+    }
+  ]
+}

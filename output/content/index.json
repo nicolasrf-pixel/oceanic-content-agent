@@ -1,0 +1,17 @@
+{
+  "description": "Índice ligero de paquetes de contenido generados por el Content Collector. Vive fuera de data/catalog/ (que no se modifica) para que el dashboard pueda, en el futuro, mostrar un indicador de 'Content Package disponible' sin tocar master-catalog.json/oceanic-catalog.json. Ver docs/content-collector-architecture.md para el plan de integración completo (no implementado todavía).",
+  "schema_version": "0.1-pilot",
+  "packages": [
+    {
+      "brand_id": "axopar",
+      "model_id_catalog": "axopar-37-xc-cross-cabin",
+      "package_path": "output/content/axopar/axopar-37-xc/",
+      "generated_at": "2026-09-22",
+      "content_status": "YELLOW",
+      "content_completeness_pct": 64,
+      "conflicts_count": 3,
+      "images_downloaded": 0,
+      "documents_downloaded": 0
+    }
+  ]
+}
