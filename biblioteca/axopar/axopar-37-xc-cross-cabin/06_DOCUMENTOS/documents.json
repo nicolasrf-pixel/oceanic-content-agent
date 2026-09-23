@@ -1,0 +1,59 @@
+{
+  "model": "Axopar 37 XC Cross Cabin",
+  "documents": [
+    {
+      "id": "owner-manual-my2025-2027",
+      "title": "Axopar 37 XC Cross Cabin - Model Year 2025-2027 - Owner's Manual",
+      "category": "MANUALS",
+      "scope": "THIS_MODEL",
+      "model_year": "2025-2027",
+      "source_id": "S2",
+      "download_url": "https://manuals.axopar.com/content/p8len/1.24.1.0/en/Axopar%2037%20XC%20Cross%20Cabin%20-%20Model%20Year%202025-2027%20-%20Owner's%20Manual.pdf",
+      "source_page": "https://manuals.axopar.com/content/p8len/1.24.1.0/en/index.html",
+      "file": null,
+      "download_status": "LINK_ONLY (verificado descargable el 2026-09-23; 10,1 MB)",
+      "notes": "Versión 1.24.1.0. Existe una versión anterior solo MY2025 (p8len/1.15.1.0), reemplazada por esta.",
+      "sha256": "31acda185ef6f155a09434c563192c987f1dd3a6ca65946348fcb6595afd9041",
+      "size_bytes": 10112150,
+      "keep_file": false
+    },
+    {
+      "id": "transport-cradle-dimensions",
+      "title": "Dimensions & Technical Drawings (transport y cradle dimensions, todas las gamas)",
+      "category": "TECHNICAL",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S4",
+      "download_url": null,
+      "source_page": "https://axoparfi.sharepoint.com/:f:/s/BrandAndMarketingEXT/ElhLZBR1rNVPnEtn6b5CEzQBdtGFb2Ceo9qgfJiVPqf3-A?e=9C1xnq",
+      "file": null,
+      "download_status": "PENDING (carpeta SharePoint oficial: hay que abrirla e identificar el archivo del 37 XC y su model year)",
+      "notes": ""
+    },
+    {
+      "id": "configurator",
+      "title": "Configurador oficial Axopar (37 XC Cross Cabin)",
+      "category": "OTHER",
+      "scope": "THIS_MODEL",
+      "model_year": "2027",
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.axopar.com/configurator/",
+      "configurator_id": "XqkU6XppF2BlcyiFZ9R5j",
+      "file": null,
+      "download_status": "N/A (herramienta web)",
+      "notes": "Referencia para opciones y precios por mercado."
+    }
+  ],
+  "not_found": [
+    {
+      "category": "BROCHURES",
+      "detail": "No hay brochure del 37 XC en axopar.com. Los PDF encontrados están en sitios de distribuidores o de terceros (ver sources.json › excluded_sources) y no se usan."
+    },
+    {
+      "category": "PRICE_LIST",
+      "detail": "La web no publica precio (campos de precio en 0)."
+    }
+  ],
+  "policy": "Los documentos se guardan como enlace oficial (no aportan datos). Marcar keep_file: true solo si hay que conservar una copia."
+}

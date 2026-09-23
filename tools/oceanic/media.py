@@ -1,0 +1,226 @@
+"""Image inventory, downloads and document downloads.
+
+images.json is the curated inventory for a model: one record per official
+image with its category, whether it belongs to this exact model, and hero
+candidacy. `download_images` fetches each original only to fingerprint it
+(sha256, real size) and derive a WebP web copy, which is what the library
+stores. Duplicates are detected on the original's hash. Records that are
+excluded (other model) are never downloaded. Documents are kept as links.
+"""
+
+from __future__ import annotations
+
+import hashlib
+import http.cookiejar
+import json
+import re
+import urllib.request
+from datetime import date
+from pathlib import Path
+
+IMAGE_CATEGORIES = ("HERO", "EXTERIOR", "INTERIOR", "COCKPIT", "CABIN", "HELM",
+                    "DETAIL", "UNDERWAY", "OTHER")
+DOC_CATEGORIES = ("BROCHURES", "TECHNICAL", "MANUALS", "OTHER")
+USER_AGENT = "Mozilla/5.0 (oceanic-content-agent; +https://oceanic.cl)"
+
+
+def _slug(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:80] or "file"
+
+
+def _fetch(url: str, timeout: int = 120) -> bytes:
+    # Some servers (manuals.axopar.com) redirect through a cookie check, so keep cookies across redirects.
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with opener.open(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def _image_info(data: bytes) -> tuple[str | None, int | None, int | None]:
+    try:
+        from PIL import Image
+        import io
+        with Image.open(io.BytesIO(data)) as im:
+            return (im.format or "").lower(), im.width, im.height
+    except Exception:
+        return None, None, None
+
+
+def init_inventory(extract: dict) -> list[dict]:
+    """Seed records from a source extract; category and scope start unclassified."""
+    records = []
+    for img in extract["images"]:
+        if img.get("role") == "video_cover":
+            continue
+        records.append({
+            "id": _slug(img["title"] or img["src"].rsplit("/", 1)[-1]),
+            "title": img["title"],
+            "category": "UNCLASSIFIED",
+            "scope": "REQUIRES_REVIEW",
+            "scope_evidence": "",
+            "hero_candidate": False,
+            "hero_reason": None,
+            "source_url": img["original_download_url"] or img["src"],
+            "cdn_url": img["src"],
+            "source_page": extract["source_url"],
+            "source_context": img["context"],
+            "declared_width": img["width"],
+            "declared_height": img["height"],
+            "declared_format": img["ext"],
+            "dam_tags": img["tags"],
+            "file": None,
+            "width": None,
+            "height": None,
+            "format": None,
+            "sha256": None,
+            "collected_at": extract["accessed_at"],
+            "downloaded_at": None,
+            "download_status": "PENDING",
+        })
+    return records
+
+
+WEB_MAX_EDGE = {"hero": 2560, "default": 1920}
+WEB_QUALITY = 82
+
+
+def _web_copy(data: bytes, max_edge: int) -> tuple[bytes, int, int]:
+    """Web derivative in WebP: long edge capped at max_edge, alpha kept for renders."""
+    import io
+    from PIL import Image
+    with Image.open(io.BytesIO(data)) as im:
+        im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
+        im.thumbnail((max_edge, max_edge), Image.LANCZOS)
+        out = io.BytesIO()
+        im.save(out, "WEBP", quality=WEB_QUALITY, method=6)
+        return out.getvalue(), im.width, im.height
+
+
+def download_images(model_dir: Path) -> dict:
+    """Store a WebP web copy per image; the original is referenced (URL, sha256, size), not stored.
+
+    Originals stay in the manufacturer's DAM and can be fetched again from `original.url`.
+    """
+    inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+    inv = json.loads(inv_path.read_text())
+    by_hash = {r["original"]["sha256"]: r["id"] for r in inv["images"]
+               if (r.get("original") or {}).get("sha256") and r["file"]}
+    stats = {"stored": 0, "duplicates": 0, "failed": 0, "skipped": 0, "from_cdn": 0}
+    for rec in inv["images"]:
+        done = rec["file"] and rec["file"].endswith(".webp") and (rec.get("original") or {}).get("sha256")
+        if rec["scope"] != "THIS_MODEL" or rec["download_status"].startswith("DUPLICATE_OF") or done:
+            stats["skipped"] += 1
+            continue
+        data, used, err = None, None, None
+        legacy = model_dir / rec["file"] if rec["file"] else None
+        if legacy and legacy.exists() and rec.get("width") == rec["declared_width"]:
+            data, used = legacy.read_bytes(), rec.get("downloaded_from") or rec["source_url"]
+        else:
+            for url in (rec["source_url"], rec["cdn_url"]):
+                try:
+                    data, used = _fetch(url), url
+                    break
+                except Exception as exc:  # network policy, 404, timeout
+                    err = f"{type(exc).__name__}: {exc}"
+        if data is None:
+            rec["download_status"] = f"FAILED ({err})"
+            stats["failed"] += 1
+            continue
+        fmt, w, h = _image_info(data)
+        digest = hashlib.sha256(data).hexdigest()
+        full = bool(w and rec["declared_width"] and w >= rec["declared_width"])
+        rec["original"] = {"url": rec["source_url"], "fetched_from": used, "sha256": digest,
+                           "width": w, "height": h, "format": fmt, "bytes": len(data),
+                           "full_resolution": full}
+        if digest in by_hash:
+            rec.update(file=None, download_status=f"DUPLICATE_OF {by_hash[digest]}")
+            stats["duplicates"] += 1
+            continue
+        category = rec["category"] if rec["category"] in IMAGE_CATEGORIES else "OTHER"
+        edge = WEB_MAX_EDGE["hero" if rec["hero_candidate"] else "default"]
+        web, ww, wh = _web_copy(data, edge)
+        dest = model_dir / "05_MULTIMEDIA" / "IMAGENES" / category / f"{rec['id']}.webp"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(web)
+        if legacy and legacy.exists() and legacy != dest:
+            legacy.unlink()
+        by_hash[digest] = rec["id"]
+        stats["from_cdn"] += not full
+        rec.update(file=str(dest.relative_to(model_dir)), sha256=hashlib.sha256(web).hexdigest(),
+                   format="webp", width=ww, height=wh, bytes=len(web),
+                   downloaded_at=date.today().isoformat(), downloaded_from=used,
+                   download_status="WEB_COPY" if full else "WEB_COPY (original no disponible; desde CDN)")
+        stats["stored"] += 1
+    inv_path.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n")
+    return stats
+
+
+def download_documents(model_dir: Path) -> dict:
+    path = model_dir / "06_DOCUMENTOS" / "documents.json"
+    docs = json.loads(path.read_text())
+    stats = {"downloaded": 0, "failed": 0, "skipped": 0}
+    for doc in docs["documents"]:
+        # Documents are referenced by URL; only those marked keep_file are stored in the library.
+        if (doc.get("file") or not doc.get("download_url") or doc.get("scope") != "THIS_MODEL"
+                or not doc.get("keep_file")):
+            stats["skipped"] += 1
+            continue
+        try:
+            data = _fetch(doc["download_url"], timeout=300)
+        except Exception as exc:
+            doc["download_status"] = f"FAILED ({type(exc).__name__}: {exc})"
+            stats["failed"] += 1
+            continue
+        category = doc["category"] if doc["category"] in DOC_CATEGORIES else "OTHER"
+        ext = doc["download_url"].rsplit(".", 1)[-1].split("?")[0].lower()[:5] or "bin"
+        dest = model_dir / "06_DOCUMENTOS" / category / f"{doc['id']}.{ext}"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(data)
+        doc.update(file=str(dest.relative_to(model_dir)), sha256=hashlib.sha256(data).hexdigest(),
+                   size_bytes=len(data), downloaded_at=date.today().isoformat(),
+                   download_status="DOWNLOADED")
+        stats["downloaded"] += 1
+    path.write_text(json.dumps(docs, ensure_ascii=False, indent=2) + "\n")
+    return stats
+
+
+def render_inventory(model_dir: Path) -> None:
+    """05_MULTIMEDIA/multimedia.md: human-readable view of images.json and videos.json."""
+    base = model_dir / "05_MULTIMEDIA"
+    inv = json.loads((base / "IMAGENES" / "images.json").read_text())
+    vids_path = base / "VIDEOS" / "videos.json"
+    vids = json.loads(vids_path.read_text())["videos"] if vids_path.exists() else []
+    imgs = inv["images"]
+    lines = [f"# Multimedia · {inv['model']}", "",
+             "> Generado desde `images.json` y `videos.json` (`python -m oceanic render`). No editar a mano.", "",
+             f"- Uso: {inv.get('usage_terms', '')}",
+             f"- Clasificación: {inv.get('classification_note', '')}",
+             f"- Descarga: {inv.get('download_note', '')}", ""]
+    heroes = sorted((r for r in imgs if r["hero_candidate"]), key=lambda r: r.get("hero_rank") or 99)
+    lines += ["## HERO_CANDIDATE", "", "| Rank | id | Motivo | URL |", "| --- | --- | --- | --- |"]
+    lines += [f"| {r.get('hero_rank')} | `{r['id']}` | {r['hero_reason']} | [original]({r['cdn_url']}) |"
+              for r in heroes]
+    lines.append("")
+    for scope, title in (("THIS_MODEL", "Imágenes del modelo"),
+                         ("REQUIRES_REVIEW", "REQUIRES REVIEW: modelo no confirmado"),
+                         ("OTHER_MODEL", "Excluidas: otro modelo"),
+                         ("NOT_MODEL_SPECIFIC", "Excluidas: no son del barco")):
+        group = [r for r in imgs if r["scope"] == scope]
+        if not group:
+            continue
+        lines += [f"## {title} ({len(group)})", "",
+                  "| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |",
+                  "| --- | --- | --- | --- | --- | --- | --- |"]
+        for r in sorted(group, key=lambda r: (IMAGE_CATEGORIES + ("UNCLASSIFIED",)).index(r["category"])):
+            lines.append(
+                f"| [`{r['id']}`]({r['cdn_url']}) | {r['category']} | {r.get('category_confidence', '')} | "
+                f"{r.get('model_year_tag') or ''} | {r['declared_width']}x{r['declared_height']} "
+                f"{r['declared_format']} | {r['download_status']} | {r['scope_evidence']} |")
+        lines.append("")
+    if vids:
+        lines += [f"## Videos ({len(vids)})", "", "| Título | Alcance | Resolución | Fecha DAM | Nota |",
+                  "| --- | --- | --- | --- | --- |"]
+        lines += [f"| [{v['title']}]({v['url']}) | {v['scope']} | {v.get('resolution') or ''} | "
+                  f"{v.get('date') or ''} | {v.get('notes') or ''} |" for v in vids]
+        lines.append("")
+    (base / "multimedia.md").write_text("\n".join(lines))

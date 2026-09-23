@@ -1,0 +1,98 @@
+{
+  "CONTENT_STATUS": "YELLOW",
+  "completeness_pct": 92,
+  "critical_missing": [],
+  "unresolved_conflicts": [],
+  "items": {
+    "tabla_tecnica": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "tabla base 8/8 verificada"
+    },
+    "especificaciones": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "17 campos con fuente"
+    },
+    "caracteristicas": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "presente"
+    },
+    "equipamiento": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "standard.md, optional.md"
+    },
+    "hero": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "168 palabras fuente · candidato Oceanic presente"
+    },
+    "introduccion": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "300 palabras fuente · candidato Oceanic presente"
+    },
+    "diseno": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "523 palabras fuente · candidato Oceanic presente"
+    },
+    "ingenieria": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "330 palabras fuente · candidato Oceanic presente"
+    },
+    "experiencia": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "453 palabras fuente · candidato Oceanic presente"
+    },
+    "performance": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "237 palabras fuente · candidato Oceanic presente"
+    },
+    "hero_image": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "5 candidatas"
+    },
+    "exterior": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "10 en inventario (mín. 3) · descargadas 50/51"
+    },
+    "interior": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "8 en inventario (mín. 2) · descargadas 50/51"
+    },
+    "detail": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "6 en inventario (mín. 2) · descargadas 50/51"
+    },
+    "video": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "12 videos del modelo"
+    },
+    "brochure": {
+      "group": "DOCUMENTOS",
+      "status": "MISSING",
+      "detail": "no encontrado en fuentes oficiales"
+    },
+    "technical": {
+      "group": "DOCUMENTOS",
+      "status": "PARTIAL",
+      "detail": "1 identificado(s) · requiere revisión"
+    },
+    "manual": {
+      "group": "DOCUMENTOS",
+      "status": "OK",
+      "detail": "1 documento(s) con enlace oficial"
+    }
+  }
+}

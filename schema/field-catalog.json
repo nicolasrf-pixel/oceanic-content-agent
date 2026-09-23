@@ -1,0 +1,597 @@
+{
+  "_doc": "Catálogo de campos Oceanic para la tabla de características. 'types' indica a qué tipo de embarcación aplica (universal aplica a todos). 'critical' marca los campos sin los cuales la tabla técnica no se considera completa (ver readiness). 'unit' es la unidad normalizada. 'source_aliases' son nombres habituales del fabricante, solo como ayuda para el mapeo: nunca justifican usar un dato de otro modelo o variante.",
+  "data_source_types": [
+    "official_product_page",
+    "official_range_page"
+  ],
+  "_data_source_doc": "Solo estas fuentes (web oficial del fabricante) pueden alimentar specifications.json. Manuales, PDFs y otros documentos se registran en 06_DOCUMENTOS pero no aportan datos.",
+  "status_values": [
+    "VERIFIED",
+    "CONFLICT",
+    "NOT_FOUND",
+    "REQUIRES_REVIEW"
+  ],
+  "boat_types": [
+    "motor",
+    "vela",
+    "catamaran_vela",
+    "catamaran_motor"
+  ],
+  "fields": [
+    {
+      "key": "eslora_total",
+      "label": "Eslora Total",
+      "types": [
+        "universal"
+      ],
+      "unit": "m",
+      "critical": true,
+      "source_aliases": [
+        "Overall Length",
+        "LOA",
+        "Length overall",
+        "LMAX",
+        "Longueur hors tout"
+      ]
+    },
+    {
+      "key": "eslora_casco",
+      "label": "Eslora Casco",
+      "types": [
+        "universal"
+      ],
+      "unit": "m",
+      "critical": false,
+      "source_aliases": [
+        "Hull length",
+        "LH",
+        "Longueur de coque"
+      ]
+    },
+    {
+      "key": "manga_casco",
+      "label": "Manga Casco",
+      "types": [
+        "universal"
+      ],
+      "unit": "m",
+      "critical": true,
+      "source_aliases": [
+        "Beam",
+        "Hull beam",
+        "BH",
+        "Largeur de coque"
+      ]
+    },
+    {
+      "key": "calado",
+      "label": "Calado",
+      "types": [
+        "universal"
+      ],
+      "unit": "m",
+      "critical": true,
+      "source_aliases": [
+        "Draft",
+        "Draught",
+        "Tirant d'eau"
+      ]
+    },
+    {
+      "key": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "types": [
+        "universal"
+      ],
+      "unit": "m",
+      "critical": false,
+      "source_aliases": [
+        "Air draft",
+        "Height above waterline",
+        "Height measured from waterline"
+      ]
+    },
+    {
+      "key": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "types": [
+        "universal"
+      ],
+      "unit": "kg",
+      "critical": true,
+      "source_aliases": [
+        "Displacement",
+        "Light displacement",
+        "Lightship",
+        "Déplacement lège",
+        "Weight (excl. Engine)",
+        "Dry weight",
+        "Light weight"
+      ],
+      "note": "Peso del barco vacío. En fueraborda la web suele publicarlo como 'Weight (excl. Engine)': es el mismo dato (cruce)."
+    },
+    {
+      "key": "peso_sin_motor",
+      "label": "Peso sin motor",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": "kg",
+      "critical": false,
+      "source_aliases": [
+        "Weight (excl. Engine)",
+        "Dry weight excl. engines",
+        "Hull weight (excluding engine)"
+      ]
+    },
+    {
+      "key": "camarotes",
+      "label": "Camarotes",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Cabins",
+        "Cabines",
+        "Front cabin / Aft cabin (layout)"
+      ]
+    },
+    {
+      "key": "literas",
+      "label": "Literas",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Berths",
+        "Couchages",
+        "Sleeping capacity"
+      ]
+    },
+    {
+      "key": "banos",
+      "label": "Baños",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Heads",
+        "Bathrooms",
+        "Toilets"
+      ]
+    },
+    {
+      "key": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "types": [
+        "universal"
+      ],
+      "unit": "personas",
+      "critical": false,
+      "source_aliases": [
+        "Passengers",
+        "Maximum number of persons",
+        "Persons"
+      ]
+    },
+    {
+      "key": "certificacion",
+      "label": "Certificación",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": true,
+      "source_aliases": [
+        "CE category",
+        "Category",
+        "Design category",
+        "Catégorie CE"
+      ],
+      "note": "Formato Oceanic: categoría + personas (p. ej. B10 / C12), cruzando 'Category' y 'Passengers'."
+    },
+    {
+      "key": "construccion",
+      "label": "Construcción",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Construction",
+        "Hull material"
+      ]
+    },
+    {
+      "key": "diseno_casco",
+      "label": "Diseño de casco",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Hull design",
+        "Hull type"
+      ]
+    },
+    {
+      "key": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "types": [
+        "universal"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Naval architect",
+        "Design",
+        "Architecte"
+      ]
+    },
+    {
+      "key": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "types": [
+        "universal"
+      ],
+      "unit": "l",
+      "critical": true,
+      "source_aliases": [
+        "Fuel capacity",
+        "Fuel tank",
+        "Réservoir carburant"
+      ]
+    },
+    {
+      "key": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "types": [
+        "universal"
+      ],
+      "unit": "l",
+      "critical": true,
+      "source_aliases": [
+        "Water capacity",
+        "Fresh water tank",
+        "Freshwater tank",
+        "Réservoir eau"
+      ]
+    },
+    {
+      "key": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "types": [
+        "universal"
+      ],
+      "unit": "l",
+      "critical": false,
+      "source_aliases": [
+        "Septic tank",
+        "Holding tank",
+        "Black water"
+      ]
+    },
+    {
+      "key": "motorizacion",
+      "label": "Motorización",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": null,
+      "critical": true,
+      "source_aliases": [
+        "Outboard engines",
+        "Engines",
+        "Engine options",
+        "Motorisation"
+      ]
+    },
+    {
+      "key": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": "hp",
+      "critical": true,
+      "source_aliases": [
+        "Max power",
+        "Maximum recommended engine power",
+        "Puissance max",
+        "Outboard engines (upper end of range)",
+        "Engine options"
+      ]
+    },
+    {
+      "key": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": "nudos",
+      "critical": false,
+      "source_aliases": [
+        "Max speed",
+        "Top speed",
+        "Max speed range",
+        "Vitesse max"
+      ]
+    },
+    {
+      "key": "velocidad_crucero",
+      "label": "Velocidad crucero",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": "nudos",
+      "critical": false,
+      "source_aliases": [
+        "Cruising speed",
+        "Cruise speed",
+        "Vitesse de croisière"
+      ]
+    },
+    {
+      "key": "consumo_crucero",
+      "label": "Consumo crucero",
+      "types": [
+        "motor",
+        "catamaran_motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Fuel consumption, cruise",
+        "Consumption"
+      ]
+    },
+    {
+      "key": "autonomia",
+      "label": "Autonomía",
+      "types": [
+        "motor",
+        "catamaran_motor",
+        "catamaran_vela"
+      ],
+      "unit": "mn",
+      "critical": false,
+      "source_aliases": [
+        "Range",
+        "Cruising range",
+        "Autonomie"
+      ]
+    },
+    {
+      "key": "superficie_velica",
+      "label": "Superficie vélica",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": "m²",
+      "critical": true,
+      "source_aliases": [
+        "Sail area",
+        "Total sail area",
+        "Surface de voilure"
+      ]
+    },
+    {
+      "key": "tipo_aparejo",
+      "label": "Tipo de aparejo",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Rig",
+        "Rig type",
+        "Gréement"
+      ]
+    },
+    {
+      "key": "altura_mastil",
+      "label": "Altura de mástil",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": "m",
+      "critical": false,
+      "source_aliases": [
+        "Mast height",
+        "Air draft",
+        "Tirant d'air"
+      ]
+    },
+    {
+      "key": "mayor",
+      "label": "Mayor",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": "m²",
+      "critical": false,
+      "source_aliases": [
+        "Mainsail",
+        "Grand-voile"
+      ]
+    },
+    {
+      "key": "genova",
+      "label": "Génova",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": "m²",
+      "critical": false,
+      "source_aliases": [
+        "Genoa",
+        "Jib",
+        "Génois",
+        "Foc"
+      ]
+    },
+    {
+      "key": "lastre",
+      "label": "Lastre",
+      "types": [
+        "vela"
+      ],
+      "unit": "kg",
+      "critical": false,
+      "source_aliases": [
+        "Ballast",
+        "Lest"
+      ]
+    },
+    {
+      "key": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": null,
+      "critical": true,
+      "source_aliases": [
+        "Engine",
+        "Auxiliary engine",
+        "Moteur"
+      ]
+    },
+    {
+      "key": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "types": [
+        "vela",
+        "catamaran_vela"
+      ],
+      "unit": "hp",
+      "critical": false,
+      "source_aliases": [
+        "Engine power",
+        "Puissance moteur"
+      ]
+    },
+    {
+      "key": "configuracion_cabinas",
+      "label": "Configuración de cabinas",
+      "types": [
+        "catamaran_vela",
+        "catamaran_motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Cabin layout",
+        "Cabins version"
+      ]
+    },
+    {
+      "key": "configuracion_banos",
+      "label": "Configuración de baños",
+      "types": [
+        "catamaran_vela",
+        "catamaran_motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Heads layout"
+      ]
+    },
+    {
+      "key": "generador",
+      "label": "Generador",
+      "types": [
+        "catamaran_vela",
+        "catamaran_motor",
+        "motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Generator",
+        "Genset"
+      ]
+    },
+    {
+      "key": "flybridge",
+      "label": "Flybridge",
+      "types": [
+        "catamaran_vela",
+        "catamaran_motor",
+        "motor"
+      ],
+      "unit": null,
+      "critical": false,
+      "source_aliases": [
+        "Flybridge"
+      ]
+    }
+  ],
+  "base_table": {
+    "_doc": "Filas de la tabla base de la página Oceanic, en este orden. Siempre se llenan: el dato está en la web oficial del producto, aunque no siempre literal (cruzar secciones y nombres).",
+    "motor": [
+      "eslora_total",
+      "manga_casco",
+      "desplazamiento",
+      "camarotes",
+      "capacidad_combustible",
+      "capacidad_agua_dulce",
+      "certificacion",
+      "potencia_motor_maxima"
+    ],
+    "catamaran_motor": [
+      "eslora_total",
+      "manga_casco",
+      "desplazamiento",
+      "camarotes",
+      "capacidad_combustible",
+      "capacidad_agua_dulce",
+      "certificacion",
+      "potencia_motor_maxima"
+    ],
+    "vela": [
+      "eslora_total",
+      "manga_casco",
+      "desplazamiento",
+      "camarotes",
+      "capacidad_combustible",
+      "capacidad_agua_dulce",
+      "certificacion",
+      "superficie_velica",
+      "potencia_motor_auxiliar"
+    ],
+    "catamaran_vela": [
+      "eslora_total",
+      "manga_casco",
+      "desplazamiento",
+      "camarotes",
+      "capacidad_combustible",
+      "capacidad_agua_dulce",
+      "certificacion",
+      "superficie_velica",
+      "potencia_motor_auxiliar"
+    ]
+  }
+}

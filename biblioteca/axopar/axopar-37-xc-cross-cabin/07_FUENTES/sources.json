@@ -1,0 +1,105 @@
+{
+  "model": "Axopar 37 XC Cross Cabin",
+  "policy": "Datos (especificaciones y afirmaciones factuales): solo la web oficial del fabricante. Manuales y PDF oficiales se registran como documentos y no alimentan datos. Distribuidores, portales y reseñas van en excluded_sources.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · ficha 37 XC",
+      "title": "Axopar 37 XC Cross Cabin – Adventure on Your Own Terms",
+      "type": "official_product_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+      "accessed_at": "2026-09-23",
+      "retrieved_via": "Firecrawl rawHtml + tools/oceanic/adapters/axopar.py (datos Next.js embebidos, incluye pestañas ocultas)",
+      "model_year_scope": "2027 (campo modelYear de los datos de la página)",
+      "extract": "07_FUENTES/extract/S1-axopar-37-xc-cross-cabin.page.json",
+      "notes": "Precios publicados en 0 (startingPriceEur/Usd): la web no publica precio."
+    },
+    {
+      "id": "S2",
+      "short": "Owner's Manual MY2025-2027",
+      "title": "Axopar 37 XC Cross Cabin - Model Year 2025-2027 - Owner's Manual (v1.24.1.0)",
+      "type": "official_owner_manual",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://manuals.axopar.com/content/p8len/1.24.1.0/en/Axopar%2037%20XC%20Cross%20Cabin%20-%20Model%20Year%202025-2027%20-%20Owner's%20Manual.pdf",
+      "accessed_at": "2026-09-23",
+      "retrieved_via": "Firecrawl (parser PDF, páginas 1-30); identificado como documento",
+      "model_year_scope": "2025-2027",
+      "notes": "Solo documento (06_DOCUMENTOS). Por decisión de Oceanic no alimenta datos: la web oficial es la única fuente de datos."
+    },
+    {
+      "id": "S3",
+      "short": "Web oficial · gama 37",
+      "title": "Axopar 37 – The World's Most Popular Adventure Boat",
+      "type": "official_range_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/axopar-37/",
+      "accessed_at": "2026-09-23",
+      "retrieved_via": "Firecrawl markdown",
+      "model_year_scope": "gama 37 (XC Cross Cabin, Sun Top, Spyder)",
+      "notes": "Contenido de gama: sirve de contexto de posicionamiento, no de datos técnicos del XC."
+    },
+    {
+      "id": "S4",
+      "short": "Web oficial · manuales",
+      "title": "Axopar Owner Manuals",
+      "type": "official_documents_index",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/axopar-community/owner-manuals/",
+      "accessed_at": "2026-09-23",
+      "retrieved_via": "Firecrawl markdown + portal https://manuals.axopar.com/",
+      "model_year_scope": "todas las gamas",
+      "notes": "Portal de documentos. Solo se usa para localizar manuales."
+    },
+    {
+      "id": "S5",
+      "short": "Web oficial · media library",
+      "title": "Media Library",
+      "type": "official_media_terms",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/media/media-library/",
+      "accessed_at": "2026-09-23",
+      "retrieved_via": "Firecrawl markdown",
+      "model_year_scope": "n/a",
+      "notes": "Condiciones de uso de imágenes y videos: uso libre editorial y para distribuidores autorizados en comunicación comercial; crédito Axopar; no alterar logos. DAM completo en https://axopar.frontify.com/media?q=axopar"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://oceanicsite.netlify.app/marcas/axopar/axopar-37-xc/",
+      "reason": "Página Oceanic de referencia: solo se usa su estructura, nunca su contenido ni sus datos."
+    },
+    {
+      "url": "https://axoparmenorca.com/37-xc-cross-cabin",
+      "reason": "Distribuidor (datos con otro rango de motores: 2 x 225 – 2 x 350 hp)."
+    },
+    {
+      "url": "https://ecys.com/discovery/axopar-37-xc-cross-cabin/",
+      "reason": "Distribuidor."
+    },
+    {
+      "url": "https://www.yachtbuyer.com/en-us/axopar/new/axopar-37-xc-cross-cabin-2",
+      "reason": "Portal de terceros."
+    },
+    {
+      "url": "https://itboat.com/en/model/11394-axopar-37-xc-cross-cabin-zLEML/for-sale",
+      "reason": "Portal de terceros."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/37-xc-revolution-2020",
+      "reason": "Reseña de terceros; además corresponde a MY2020 ('37 XC Revolution')."
+    },
+    {
+      "url": "https://jeffbrownyachts.com/assets/pdf/axopar37-brochure.pdf",
+      "reason": "Brochure alojado por un distribuidor; model year no verificado."
+    },
+    {
+      "url": "https://www.bootepolch.de/media/axopar/downloads/Axopar-2021.pdf",
+      "reason": "Catálogo 2021 alojado por un distribuidor: otro model year."
+    },
+    {
+      "url": "https://pdf.nauticexpo.com/pdf/axopar-boats-oy/axopar-37-range/63622-122751.html",
+      "reason": "Repositorio de terceros; model year no verificado."
+    }
+  ]
+}
