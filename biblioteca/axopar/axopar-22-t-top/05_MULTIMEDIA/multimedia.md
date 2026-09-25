@@ -18,43 +18,43 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`axopar-22-tt-my2022-dji-0747-mobile`](https://media.ffycdn.net/eu/axopar/uAaQpW3YXR5RD5JUeFpG.jpg) | EXTERIOR | media |  | 2160x2160 jpg | PENDING | Título del modelo: 'Axopar-22-TT_MY2022_DJI_0747_Mobile'. |
-| [`axopar-22-tt-my2022-662a0051`](https://media.ffycdn.net/eu/axopar/tKLuJjVw1a2o2KCkhN1b.jpg) | EXTERIOR | alta | MY2022 | 8149x5435 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
-| [`axopar-22-tt-my2022-0v9a2782`](https://media.ffycdn.net/eu/axopar/tddP1nNixe7BZaDCTSzL.jpg) | EXTERIOR | alta | MY2022 | 5464x8192 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
-| [`axopar-22-t-top-mediterrana-1`](https://media.ffycdn.net/eu/axopar/M8jCRKb9Y4rqmLGZ9Ntq.jpg) | EXTERIOR | alta | MY2024 | 8110x5151 jpg | PENDING | Tag DAM del modelo (22+25mediterranacyf23, ax22, ax22tt, axopar, france, my24). |
-| [`axopar-22-t-top-3`](https://media.ffycdn.net/eu/axopar/oqrXGfgmHZMebA71rYpJ.jpg) | EXTERIOR | alta | MY2022 | 4000x3000 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, france, my22, out). |
-| [`axopar-22-tt-my2022-dji-0747`](https://media.ffycdn.net/eu/axopar/Pw3vPdvfSywxodVjJJg3.jpg) | EXTERIOR | alta | MY2022 | 5464x3640 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
-| [`axopar-22-tt-my2022-0v9a2541`](https://media.ffycdn.net/eu/axopar/wc5sv2Acp53V1p81tcHj.jpg) | INTERIOR | alta | MY2022 | 7924x5285 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
-| [`axopar-22-tt-my2022-0v9a2673`](https://media.ffycdn.net/eu/axopar/Y7rre6Z8DxBw563aUguj.jpg) | INTERIOR | alta | MY2022 | 7789x5195 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
-| [`axopar-22-tt-my2022-0v9a2515`](https://media.ffycdn.net/eu/axopar/p8safFEt1Gkut2ctSLWk.jpg) | INTERIOR | alta | MY2022 | 8025x5353 jpg | PENDING | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
-| [`axopar-22-t-top-brabus-line-platinum-grey`](https://media.ffycdn.net/eu/axopar/VsD2Kptqgnjfs5VwsBp6.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-22-T-Top_BRABUS_Line_Platinum_Grey'. |
-| [`axopar-22-t-top-glacier-blue`](https://media.ffycdn.net/eu/axopar/U454PKUmSvEZeEoBqnHD.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_Glacier_Blue'. |
-| [`axopar-22-t-top-pearl-white`](https://media.ffycdn.net/eu/axopar/jEqm8WxuayfarnQid2JB.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_Pearl_White'. |
-| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`ax22tt-trailerability-axedit`](https://media.ffycdn.net/eu/axopar/gtXDHb1RCENFN5TraRCT.png) | OTHER | media |  | 1919x1080 png | PENDING | Título del modelo: 'AX22TT_Trailerability_Axedit'. |
-| [`ax22-ttop-petrol-aft-sofa`](https://media.ffycdn.net/eu/axopar/y2FRpXCPhqxErrJtMcaD.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_TTOP_Petrol_Aft_Sofa'. |
-| [`ax22-ttop-squash-u-sofa`](https://media.ffycdn.net/eu/axopar/ve4gbgRTu4j2ks9Kr9ag.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_TTOP_Squash_U-Sofa'. |
-| [`ax22-ttop-sphere-multi-storage`](https://media.ffycdn.net/eu/axopar/wvsXtvZjez2fbhHSypHa.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_TTOP_Sphere_Multi-storage'. |
-| [`ax22-ttop-hunter-multi-storage`](https://media.ffycdn.net/eu/axopar/X1bhFUqzBTz3HmkgaiaR.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_TTOP_Hunter_Multi-storage'. |
-| [`ax22-ttop-taupe-multi-stoage`](https://media.ffycdn.net/eu/axopar/6RHhRW634FPTQmFSTuTa.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_TTOP_Taupe_Multi-Stoage'. |
-| [`axopar-22-aft-sofa-petrol`](https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table`](https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-u-sofa-sunbed-sphere`](https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter`](https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-multi-storage-drivers-sofa-mediterrana`](https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-t-top-brabus-line-1`](https://media.ffycdn.net/eu/axopar/1zPvyb6RWe13GfdJhnGb.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_BRABUS_Line_1'. |
-| [`axopar-22-t-top-brabus-line-miami-blue`](https://media.ffycdn.net/eu/axopar/jUX5VVgThpY7g27FP1DE.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-22-T-Top-BRABUS-Line-Miami-Blue'. |
-| [`axopar-22-t-top-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/du8tRNH8hfdMVE25BDNS.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_BRABUS_Performance_Line_1'. |
-| [`axopar-22-t-top-the-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/ozujgpEMeKV1h3m9MQp8.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_The_Mediterrana_Edition_1'. |
-| [`axopar-22-t-top-jobe-edition-1`](https://media.ffycdn.net/eu/axopar/Te1hxutuPpn7AAVUToK1.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_T-Top_Jobe_Edition_1'. |
+| [`axopar-22-tt-my2022-dji-0747-mobile`](https://media.ffycdn.net/eu/axopar/uAaQpW3YXR5RD5JUeFpG.jpg) | EXTERIOR | media |  | 2160x2160 jpg | WEB_COPY | Título del modelo: 'Axopar-22-TT_MY2022_DJI_0747_Mobile'. |
+| [`axopar-22-tt-my2022-662a0051`](https://media.ffycdn.net/eu/axopar/tKLuJjVw1a2o2KCkhN1b.jpg) | EXTERIOR | alta | MY2022 | 8149x5435 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
+| [`axopar-22-tt-my2022-0v9a2782`](https://media.ffycdn.net/eu/axopar/tddP1nNixe7BZaDCTSzL.jpg) | EXTERIOR | alta | MY2022 | 5464x8192 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
+| [`axopar-22-t-top-mediterrana-1`](https://media.ffycdn.net/eu/axopar/M8jCRKb9Y4rqmLGZ9Ntq.jpg) | EXTERIOR | alta | MY2024 | 8110x5151 jpg | WEB_COPY | Tag DAM del modelo (22+25mediterranacyf23, ax22, ax22tt, axopar, france, my24). |
+| [`axopar-22-t-top-3`](https://media.ffycdn.net/eu/axopar/oqrXGfgmHZMebA71rYpJ.jpg) | EXTERIOR | alta | MY2022 | 4000x3000 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, france, my22, out). |
+| [`axopar-22-tt-my2022-dji-0747`](https://media.ffycdn.net/eu/axopar/Pw3vPdvfSywxodVjJJg3.jpg) | EXTERIOR | alta | MY2022 | 5464x3640 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, my22, out). |
+| [`axopar-22-tt-my2022-0v9a2541`](https://media.ffycdn.net/eu/axopar/wc5sv2Acp53V1p81tcHj.jpg) | INTERIOR | alta | MY2022 | 7924x5285 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
+| [`axopar-22-tt-my2022-0v9a2673`](https://media.ffycdn.net/eu/axopar/Y7rre6Z8DxBw563aUguj.jpg) | INTERIOR | alta | MY2022 | 7789x5195 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
+| [`axopar-22-tt-my2022-0v9a2515`](https://media.ffycdn.net/eu/axopar/p8safFEt1Gkut2ctSLWk.jpg) | INTERIOR | alta | MY2022 | 8025x5353 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22tt, axopar, canada, ins, my22). |
+| [`axopar-22-t-top-brabus-line-platinum-grey`](https://media.ffycdn.net/eu/axopar/VsD2Kptqgnjfs5VwsBp6.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-22-T-Top_BRABUS_Line_Platinum_Grey'. |
+| [`axopar-22-t-top-glacier-blue`](https://media.ffycdn.net/eu/axopar/U454PKUmSvEZeEoBqnHD.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_Glacier_Blue'. |
+| [`axopar-22-t-top-pearl-white`](https://media.ffycdn.net/eu/axopar/jEqm8WxuayfarnQid2JB.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_Pearl_White'. |
+| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`ax22tt-trailerability-axedit`](https://media.ffycdn.net/eu/axopar/gtXDHb1RCENFN5TraRCT.png) | OTHER | media |  | 1919x1080 png | WEB_COPY | Título del modelo: 'AX22TT_Trailerability_Axedit'. |
+| [`ax22-ttop-petrol-aft-sofa`](https://media.ffycdn.net/eu/axopar/y2FRpXCPhqxErrJtMcaD.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_TTOP_Petrol_Aft_Sofa'. |
+| [`ax22-ttop-squash-u-sofa`](https://media.ffycdn.net/eu/axopar/ve4gbgRTu4j2ks9Kr9ag.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_TTOP_Squash_U-Sofa'. |
+| [`ax22-ttop-sphere-multi-storage`](https://media.ffycdn.net/eu/axopar/wvsXtvZjez2fbhHSypHa.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_TTOP_Sphere_Multi-storage'. |
+| [`ax22-ttop-hunter-multi-storage`](https://media.ffycdn.net/eu/axopar/X1bhFUqzBTz3HmkgaiaR.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_TTOP_Hunter_Multi-storage'. |
+| [`ax22-ttop-taupe-multi-stoage`](https://media.ffycdn.net/eu/axopar/6RHhRW634FPTQmFSTuTa.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_TTOP_Taupe_Multi-Stoage'. |
+| [`axopar-22-aft-sofa-petrol`](https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table`](https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-u-sofa-sunbed-sphere`](https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter`](https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-multi-storage-drivers-sofa-mediterrana`](https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-t-top-brabus-line-1`](https://media.ffycdn.net/eu/axopar/1zPvyb6RWe13GfdJhnGb.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_BRABUS_Line_1'. |
+| [`axopar-22-t-top-brabus-line-miami-blue`](https://media.ffycdn.net/eu/axopar/jUX5VVgThpY7g27FP1DE.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-22-T-Top-BRABUS-Line-Miami-Blue'. |
+| [`axopar-22-t-top-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/du8tRNH8hfdMVE25BDNS.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_BRABUS_Performance_Line_1'. |
+| [`axopar-22-t-top-the-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/ozujgpEMeKV1h3m9MQp8.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_The_Mediterrana_Edition_1'. |
+| [`axopar-22-t-top-jobe-edition-1`](https://media.ffycdn.net/eu/axopar/Te1hxutuPpn7AAVUToK1.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_T-Top_Jobe_Edition_1'. |
 
 ## REQUIRES REVIEW: modelo no confirmado (29)
 

@@ -18,52 +18,52 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`axopar-25-cross-bow-c4a4209`](https://media.ffycdn.net/eu/axopar/wXCAZB9N7TBSHmpx72Vz.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, my22, out, spain). |
-| [`axopar-25-cross-bow-c4a2010`](https://media.ffycdn.net/eu/axopar/wzKcJPRMtbmvQmcuE5QU.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, my22, out, spain). |
-| [`axopar-25-cross-bow-dji-0249`](https://media.ffycdn.net/eu/axopar/1ZhYCkB3Qc2XJAVQfiUZ.jpg) | EXTERIOR | alta | MY2022 | 5464x3640 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
-| [`axopar-25-cross-bow-0x0a4999`](https://media.ffycdn.net/eu/axopar/jTRYD5XHoc9tpCySq6KH.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
-| [`axopar-25-cross-bow-c4a8113`](https://media.ffycdn.net/eu/axopar/9ZmGPKHT5kNGAV3cG5eg.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, lifestyle, my22, out). |
-| [`axopar-25-cross-bow-c4a0129-2`](https://media.ffycdn.net/eu/axopar/WW9JccntUsLrD8udF8x6.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, ins, my22, spain). |
-| [`axopar-25-cross-bow-c4a0325`](https://media.ffycdn.net/eu/axopar/4DpbrkmMRGz6mBJ462PR.jpg) | INTERIOR | media | MY2022 | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A0325'. |
-| [`axopar-25-cross-bow-c4a2812`](https://media.ffycdn.net/eu/axopar/F1VYZSKrEi78R8FCtsYX.jpg) | CABIN | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A2812'. |
-| [`axopar-25-cross-bow-c4a0129`](https://media.ffycdn.net/eu/axopar/KY3M8QZyTD5Ta4PoHGEB.jpg) | HELM | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A0129'. |
-| [`axopar-25-cross-bow-brabus-line-platinum-grey-2`](https://media.ffycdn.net/eu/axopar/TdaMvTxxZ2DaQMDDg8QE.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_BRABUS_Line_Platinum_Grey_2'. |
-| [`axopar-25-cross-bow-glacier-blue`](https://media.ffycdn.net/eu/axopar/tePpPLgd6CKjGYX2JDRf.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_Glacier_Blue'. |
-| [`axopar-25-cross-bow-pearl-white`](https://media.ffycdn.net/eu/axopar/hq2zxttxmFbaWnsqgtEV.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_Pearl_White'. |
-| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`axopar-25-cross-bow-c4a1948`](https://media.ffycdn.net/eu/axopar/XoDotPTmFu6hm1piMt8R.jpg) | UNDERWAY | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A1948'. |
-| [`axopar-25-cross-bow-c4a1862-mobile`](https://media.ffycdn.net/eu/axopar/DGEcwv9LE24Me7D5Toy2.jpg) | UNDERWAY | media |  | 2160x2160 jpg | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_C4A1862_Mobile'. |
-| [`axopar-25-cross-bow-c4a9334`](https://media.ffycdn.net/eu/axopar/qPrAfL95kevTY4U2knjS.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A9334'. |
-| [`axopar-25-cross-bow-c4a9334-m`](https://media.ffycdn.net/eu/axopar/j5eLo2e3CrqxhCKmMU1D.jpg) | OTHER | media |  | 1080x1350 jpg | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_C4A9334_M'. |
-| [`axopar-25-cross-bow-c4a2268`](https://media.ffycdn.net/eu/axopar/Saej63bDAncrfuDi2jGE.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A2268'. |
-| [`axopar-25-cross-bow-c4a1386`](https://media.ffycdn.net/eu/axopar/7ww1fVPWYJvQ5q7zHTqa.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A1386'. |
-| [`axopar-25-cross-bow-c4a1386-mobile`](https://media.ffycdn.net/eu/axopar/Z31AbvfxSLzvhS4tyoxo.jpg) | OTHER | media |  | 2160x2160 jpg | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_C4A1386_Mobile'. |
-| [`axopar-25-cross-bow-c4a0308`](https://media.ffycdn.net/eu/axopar/8y4G4wJMYJTohYfeaShh.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A0308'. |
-| [`axopar-25-cross-bow-c4a1958`](https://media.ffycdn.net/eu/axopar/timw9HtBusCmgvEtikqN.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A1958'. |
-| [`axopar-25-cross-bow-c4a3474`](https://media.ffycdn.net/eu/axopar/W4EjhmejbKxjDYAzhBgU.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 25 Cross Bow_C4A3474'. |
-| [`axopar-25-cross-bow-brabus-line-1`](https://media.ffycdn.net/eu/axopar/VtWzF8vyziSayJUWZMZe.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_25_Cross_Bow_BRABUS_Line_1'. |
-| [`axopar-25-cross-bow-brabus-line-miami-blue-2`](https://media.ffycdn.net/eu/axopar/nZTZcDRNn5Rwi2GD4cna.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_BRABUS_Line_Miami_Blue_2'. |
-| [`axopar-25-cross-bow-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/VMyjZ6csLWdzYrX1UNwG.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_25_Cross_Bow_BRABUS_Performance_Line_1'. |
-| [`axopar-25-cross-bow-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/9rxFbVfbG9PBG3fn9PXV.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_25_Cross_Bow_Mediterrana_Edition_1'. |
-| [`ax25-cross-bow-petrol-camera-siderear`](https://media.ffycdn.net/eu/axopar/6RojbRDQpWYgHGdbZFg6.png) | OTHER | media |  | 1968x2328 png | PENDING | Título del modelo: 'Ax25_Cross-Bow_Petrol__Camera_SideRear'. |
-| [`ax25-cross-bow-squash-camera-siderear`](https://media.ffycdn.net/eu/axopar/rNwBpK3bcQ4RHQhm7HdS.png) | OTHER | media |  | 1968x2328 png | PENDING | Título del modelo: 'Ax25_Cross-Bow_Squash__Camera_SideRear'. |
-| [`ax25-cross-bow-sphere-camera-siderear`](https://media.ffycdn.net/eu/axopar/scDxwvP24YdxcP6b1q8m.png) | OTHER | media |  | 1968x2328 png | PENDING | Título del modelo: 'Ax25_Cross-Bow_Sphere__Camera_SideRear'. |
-| [`ax25-cross-bow-hunter-camera-siderear`](https://media.ffycdn.net/eu/axopar/Df7wUpwb3fQTMiu4hJz9.png) | OTHER | media |  | 1968x2328 png | PENDING | Título del modelo: 'Ax25_Cross-Bow_Hunter__Camera_SideRear'. |
-| [`ax25-cross-bow-taupe-camera-siderear`](https://media.ffycdn.net/eu/axopar/RTHiRuZKHPC5LBrgMMa4.png) | OTHER | media |  | 1968x2328 png | PENDING | Título del modelo: 'Ax25_Cross-Bow_Taupe__Camera_SideRear'. |
-| [`axopar-25-range-aft-sofa-chalk`](https://media.ffycdn.net/eu/axopar/ouCA4C8nrnpuPapxL59i.png) | OTHER | media |  | 3049x4000 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-25-range-u-sofa-corn`](https://media.ffycdn.net/eu/axopar/i8evgw7nfHGb3SbMUGVk.png) | OTHER | media |  | 3049x4000 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-25-u-sofa-sunbed-linetex-dust`](https://media.ffycdn.net/eu/axopar/WMCUNVkaL4VfWzea4ouk.png) | OTHER | media |  | 3049x4000 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-25-multi-storage-petrol`](https://media.ffycdn.net/eu/axopar/NrosoAG8MFj3VVgiFuPR.png) | OTHER | media |  | 3049x4000 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-25-multi-storage-mediterrana-drivers-sofa`](https://media.ffycdn.net/eu/axopar/VNhDx8v1SJt2yTCJS14P.png) | OTHER | media |  | 3049x4000 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-25-cross-bow-0x0a5148`](https://media.ffycdn.net/eu/axopar/12QSNuesWtH1QURJkcSb.png) | OTHER | media |  | 2048x1536 png | PENDING | Título del modelo: 'Axopar-25-Cross-Bow_0X0A5148'. |
+| [`axopar-25-cross-bow-c4a4209`](https://media.ffycdn.net/eu/axopar/wXCAZB9N7TBSHmpx72Vz.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, my22, out, spain). |
+| [`axopar-25-cross-bow-c4a2010`](https://media.ffycdn.net/eu/axopar/wzKcJPRMtbmvQmcuE5QU.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, my22, out, spain). |
+| [`axopar-25-cross-bow-dji-0249`](https://media.ffycdn.net/eu/axopar/1ZhYCkB3Qc2XJAVQfiUZ.jpg) | EXTERIOR | alta | MY2022 | 5464x3640 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
+| [`axopar-25-cross-bow-0x0a4999`](https://media.ffycdn.net/eu/axopar/jTRYD5XHoc9tpCySq6KH.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
+| [`axopar-25-cross-bow-c4a8113`](https://media.ffycdn.net/eu/axopar/9ZmGPKHT5kNGAV3cG5eg.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, lifestyle, my22, out). |
+| [`axopar-25-cross-bow-c4a0129-2`](https://media.ffycdn.net/eu/axopar/WW9JccntUsLrD8udF8x6.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | DUPLICATE_OF axopar-25-cross-bow-c4a0129 | Tag DAM del modelo (ax25, ax25cb, axopar, ins, my22, spain). |
+| [`axopar-25-cross-bow-c4a0325`](https://media.ffycdn.net/eu/axopar/4DpbrkmMRGz6mBJ462PR.jpg) | INTERIOR | media | MY2022 | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A0325'. |
+| [`axopar-25-cross-bow-c4a2812`](https://media.ffycdn.net/eu/axopar/F1VYZSKrEi78R8FCtsYX.jpg) | CABIN | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A2812'. |
+| [`axopar-25-cross-bow-c4a0129`](https://media.ffycdn.net/eu/axopar/KY3M8QZyTD5Ta4PoHGEB.jpg) | HELM | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A0129'. |
+| [`axopar-25-cross-bow-brabus-line-platinum-grey-2`](https://media.ffycdn.net/eu/axopar/TdaMvTxxZ2DaQMDDg8QE.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_BRABUS_Line_Platinum_Grey_2'. |
+| [`axopar-25-cross-bow-glacier-blue`](https://media.ffycdn.net/eu/axopar/tePpPLgd6CKjGYX2JDRf.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_Glacier_Blue'. |
+| [`axopar-25-cross-bow-pearl-white`](https://media.ffycdn.net/eu/axopar/hq2zxttxmFbaWnsqgtEV.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_Pearl_White'. |
+| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`axopar-25-cross-bow-c4a1948`](https://media.ffycdn.net/eu/axopar/XoDotPTmFu6hm1piMt8R.jpg) | UNDERWAY | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A1948'. |
+| [`axopar-25-cross-bow-c4a1862-mobile`](https://media.ffycdn.net/eu/axopar/DGEcwv9LE24Me7D5Toy2.jpg) | UNDERWAY | media |  | 2160x2160 jpg | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_C4A1862_Mobile'. |
+| [`axopar-25-cross-bow-c4a9334`](https://media.ffycdn.net/eu/axopar/qPrAfL95kevTY4U2knjS.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A9334'. |
+| [`axopar-25-cross-bow-c4a9334-m`](https://media.ffycdn.net/eu/axopar/j5eLo2e3CrqxhCKmMU1D.jpg) | OTHER | media |  | 1080x1350 jpg | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_C4A9334_M'. |
+| [`axopar-25-cross-bow-c4a2268`](https://media.ffycdn.net/eu/axopar/Saej63bDAncrfuDi2jGE.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A2268'. |
+| [`axopar-25-cross-bow-c4a1386`](https://media.ffycdn.net/eu/axopar/7ww1fVPWYJvQ5q7zHTqa.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A1386'. |
+| [`axopar-25-cross-bow-c4a1386-mobile`](https://media.ffycdn.net/eu/axopar/Z31AbvfxSLzvhS4tyoxo.jpg) | OTHER | media |  | 2160x2160 jpg | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_C4A1386_Mobile'. |
+| [`axopar-25-cross-bow-c4a0308`](https://media.ffycdn.net/eu/axopar/8y4G4wJMYJTohYfeaShh.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A0308'. |
+| [`axopar-25-cross-bow-c4a1958`](https://media.ffycdn.net/eu/axopar/timw9HtBusCmgvEtikqN.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A1958'. |
+| [`axopar-25-cross-bow-c4a3474`](https://media.ffycdn.net/eu/axopar/W4EjhmejbKxjDYAzhBgU.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A3474'. |
+| [`axopar-25-cross-bow-brabus-line-1`](https://media.ffycdn.net/eu/axopar/VtWzF8vyziSayJUWZMZe.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_25_Cross_Bow_BRABUS_Line_1'. |
+| [`axopar-25-cross-bow-brabus-line-miami-blue-2`](https://media.ffycdn.net/eu/axopar/nZTZcDRNn5Rwi2GD4cna.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_BRABUS_Line_Miami_Blue_2'. |
+| [`axopar-25-cross-bow-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/VMyjZ6csLWdzYrX1UNwG.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_25_Cross_Bow_BRABUS_Performance_Line_1'. |
+| [`axopar-25-cross-bow-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/9rxFbVfbG9PBG3fn9PXV.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_25_Cross_Bow_Mediterrana_Edition_1'. |
+| [`ax25-cross-bow-petrol-camera-siderear`](https://media.ffycdn.net/eu/axopar/6RojbRDQpWYgHGdbZFg6.png) | OTHER | media |  | 1968x2328 png | WEB_COPY | Título del modelo: 'Ax25_Cross-Bow_Petrol__Camera_SideRear'. |
+| [`ax25-cross-bow-squash-camera-siderear`](https://media.ffycdn.net/eu/axopar/rNwBpK3bcQ4RHQhm7HdS.png) | OTHER | media |  | 1968x2328 png | WEB_COPY | Título del modelo: 'Ax25_Cross-Bow_Squash__Camera_SideRear'. |
+| [`ax25-cross-bow-sphere-camera-siderear`](https://media.ffycdn.net/eu/axopar/scDxwvP24YdxcP6b1q8m.png) | OTHER | media |  | 1968x2328 png | WEB_COPY | Título del modelo: 'Ax25_Cross-Bow_Sphere__Camera_SideRear'. |
+| [`ax25-cross-bow-hunter-camera-siderear`](https://media.ffycdn.net/eu/axopar/Df7wUpwb3fQTMiu4hJz9.png) | OTHER | media |  | 1968x2328 png | WEB_COPY | Título del modelo: 'Ax25_Cross-Bow_Hunter__Camera_SideRear'. |
+| [`ax25-cross-bow-taupe-camera-siderear`](https://media.ffycdn.net/eu/axopar/RTHiRuZKHPC5LBrgMMa4.png) | OTHER | media |  | 1968x2328 png | WEB_COPY | Título del modelo: 'Ax25_Cross-Bow_Taupe__Camera_SideRear'. |
+| [`axopar-25-range-aft-sofa-chalk`](https://media.ffycdn.net/eu/axopar/ouCA4C8nrnpuPapxL59i.png) | OTHER | media |  | 3049x4000 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-25-range-u-sofa-corn`](https://media.ffycdn.net/eu/axopar/i8evgw7nfHGb3SbMUGVk.png) | OTHER | media |  | 3049x4000 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-25-u-sofa-sunbed-linetex-dust`](https://media.ffycdn.net/eu/axopar/WMCUNVkaL4VfWzea4ouk.png) | OTHER | media |  | 3049x4000 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-25-multi-storage-petrol`](https://media.ffycdn.net/eu/axopar/NrosoAG8MFj3VVgiFuPR.png) | OTHER | media |  | 3049x4000 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-25-multi-storage-mediterrana-drivers-sofa`](https://media.ffycdn.net/eu/axopar/VNhDx8v1SJt2yTCJS14P.png) | OTHER | media |  | 3049x4000 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-25-cross-bow-0x0a5148`](https://media.ffycdn.net/eu/axopar/12QSNuesWtH1QURJkcSb.png) | OTHER | media |  | 2048x1536 png | WEB_COPY | Título del modelo: 'Axopar-25-Cross-Bow_0X0A5148'. |
 
 ## REQUIRES REVIEW: modelo no confirmado (4)
 

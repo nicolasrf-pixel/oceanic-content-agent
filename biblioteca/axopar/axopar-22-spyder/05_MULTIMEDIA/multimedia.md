@@ -18,45 +18,45 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`axopar-22-spyder-my2021-ax26-5-21-547`](https://media.ffycdn.net/eu/axopar/oEU213L6s9GofjYoYwi4.jpg) | EXTERIOR | alta | MY2021 | 5184x3456 jpg | PENDING | Tag DAM del modelo (ax22, ax22s, axopar, my21, out, uk). |
-| [`22spyder-k0a7100`](https://media.ffycdn.net/eu/axopar/BKYxfkQvhrnkYi18h8oc.jpg) | EXTERIOR | alta | MY2021 | 8192x5464 jpg | PENDING | Tag DAM del modelo (2023, 22 spyder, adventure, after schoold escapades, ax22, ax22s). |
-| [`axopar-22-spyder-back-to-basics-9238`](https://media.ffycdn.net/eu/axopar/eJAx55CJj4jqqaZZLqjd.jpg) | EXTERIOR | alta | MY2021 | 5472x3648 jpg | PENDING | Tag DAM del modelo (adventure, ax22, ax22s, axopar, axopar22, finland). |
-| [`22-spyder-q6a0319`](https://media.ffycdn.net/eu/axopar/NHfc28RxdQoW6n4yQZfK.jpg) | EXTERIOR | alta | MY2020 | 7352x4904 jpg | PENDING | Tag DAM del modelo (adventure, ax22, ax22s, axopar, my20, out). |
-| [`axopar-22-spyder-my2021-ax26-5-21-558`](https://media.ffycdn.net/eu/axopar/4ggSeySXjmRnuB8xWucL.jpg) | INTERIOR | alta | MY2021 | 5184x3456 jpg | PENDING | Tag DAM del modelo (ax22, ax22s, axopar, ins, my21, uk). |
-| [`axopar-22-spyder-4`](https://media.ffycdn.net/eu/axopar/KvWghSuzqwgMuFjrQD3y.jpg) | INTERIOR | alta | MY2021 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax22, ax22s, axopar, ins, my21, sweden). |
-| [`22spyder-q9a7133`](https://media.ffycdn.net/eu/axopar/87PZxSS1tAFKytVLv72i.jpg) | INTERIOR | alta | MY2021 | 5464x8192 jpg | PENDING | Tag DAM del modelo (2023, 22 spyder, adventure, after schoold escapades, ax22, ax22s). |
-| [`axopar-22-spyder-17-1`](https://media.ffycdn.net/eu/axopar/a6sKSKSto7y8vHHdJKXm.jpg) | INTERIOR | alta | MY2021 | 7930x5289 jpg | PENDING | Tag DAM del modelo (ax22, ax22s, axopar, ins, lifestyle, my21). |
-| [`axopar-22-spyder-miami-blue-side-view`](https://media.ffycdn.net/eu/axopar/HqDEhD5saUENEMf5kubW.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'axopar-22-Spyder-Miami-Blue-Side-View'. |
-| [`axopar-22-spyder-platinum-grey-side-view`](https://media.ffycdn.net/eu/axopar/M9KDBtCi6kog1QujstwV.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar-22-Spyder-Platinum-Grey-Side-View'. |
-| [`axopar-22-spyder-glacier-blue`](https://media.ffycdn.net/eu/axopar/UX3kcmDnvTAbwyqPp8Zy.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_Glacier_Blue'. |
-| [`axopar-22-spyder-pearl-white`](https://media.ffycdn.net/eu/axopar/7QSMn83xYciw61ZJcNox.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_Pearl_White'. |
-| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`axopar-22-spyder-gallery-21-648`](https://media.ffycdn.net/eu/axopar/7TjniZpCTxVsgPbn7m53.jpg) | OTHER | media |  | 5184x3456 jpg | PENDING | Título del modelo: 'Axopar-22-Spyder-gallery_21-648'. |
-| [`ax22-spyder-petrol-aft-sofa`](https://media.ffycdn.net/eu/axopar/43AtmoFXYd7oQPpwZVTv.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_Spyder_Petrol_Aft_Sofa'. |
-| [`ax22-spyder-squash-u-sofa-table`](https://media.ffycdn.net/eu/axopar/G4ZWKVT1xEG4NQp2KqqH.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_Spyder_Squash_U-Sofa_Table'. |
-| [`ax22-spyder-sphere-u-sofa-sunbed`](https://media.ffycdn.net/eu/axopar/ztRtjqYGwPxookwwE37L.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_Spyder_Sphere_U-Sofa_Sunbed'. |
-| [`ax22-spyder-hunter-multi-storage`](https://media.ffycdn.net/eu/axopar/EydX8cA6war9vycndZKM.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_Spyder_Hunter_Multi-storage'. |
-| [`ax22-spyder-taupe-multi-storage-mediterrana`](https://media.ffycdn.net/eu/axopar/QdPsb8e1Vr2L6XDfkAfP.png) | OTHER | media |  | 984x1250 png | PENDING | Título del modelo: 'Ax22_Spyder_Taupe_Multi-storage_Mediterrana'. |
-| [`axopar-22-spyder-gallery-q6a0740`](https://media.ffycdn.net/eu/axopar/6jJuhSdWWgh9y1CVg8gH.jpg) | OTHER | media |  | 6000x4002 jpg | PENDING | Título del modelo: 'Axopar-22-Spyder-gallery_Q6A0740'. |
-| [`axopar-22-spyder-brabus-line-1`](https://media.ffycdn.net/eu/axopar/r1PKXLp3bi348xNvvTio.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_BRABUS_Line_1'. |
-| [`axopar-22-spyder-miami-blue-side-view-1`](https://media.ffycdn.net/eu/axopar/352qF5U9qUBFTxbFLH98.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'axopar-22-Spyder-Miami-Blue-Side-View_1'. |
-| [`axopar-22-spyder-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/xgMt3cRfhfHSe953d8uG.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_BRABUS_Performance_Line_1'. |
-| [`axopar-22-spyder-the-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/wM1sHRX68Wv7eamyrRFP.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_The_Mediterrana_Edition_1'. |
-| [`axopar-22-spyder-axopar-x-jobe-edition-1`](https://media.ffycdn.net/eu/axopar/1SrFWp8ZKD3goKBXA2jm.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_Axopar_X_Jobe_Edition_1'. |
-| [`axopar-22-spyder-axopar-x-jobe-edition`](https://media.ffycdn.net/eu/axopar/JfBHAJSi1MK2VhtSCbxG.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_22_Spyder_Axopar_X_Jobe_Edition'. |
-| [`axopar-22-aft-sofa-petrol`](https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table`](https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-u-sofa-sunbed-sphere`](https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter`](https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
-| [`axopar-22-multi-storage-drivers-sofa-mediterrana`](https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png) | OTHER | media |  | 2928x3840 png | PENDING | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-spyder-my2021-ax26-5-21-547`](https://media.ffycdn.net/eu/axopar/oEU213L6s9GofjYoYwi4.jpg) | EXTERIOR | alta | MY2021 | 5184x3456 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22s, axopar, my21, out, uk). |
+| [`22spyder-k0a7100`](https://media.ffycdn.net/eu/axopar/BKYxfkQvhrnkYi18h8oc.jpg) | EXTERIOR | alta | MY2021 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (2023, 22 spyder, adventure, after schoold escapades, ax22, ax22s). |
+| [`axopar-22-spyder-back-to-basics-9238`](https://media.ffycdn.net/eu/axopar/eJAx55CJj4jqqaZZLqjd.jpg) | EXTERIOR | alta | MY2021 | 5472x3648 jpg | WEB_COPY | Tag DAM del modelo (adventure, ax22, ax22s, axopar, axopar22, finland). |
+| [`22-spyder-q6a0319`](https://media.ffycdn.net/eu/axopar/NHfc28RxdQoW6n4yQZfK.jpg) | EXTERIOR | alta | MY2020 | 7352x4904 jpg | WEB_COPY | Tag DAM del modelo (adventure, ax22, ax22s, axopar, my20, out). |
+| [`axopar-22-spyder-my2021-ax26-5-21-558`](https://media.ffycdn.net/eu/axopar/4ggSeySXjmRnuB8xWucL.jpg) | INTERIOR | alta | MY2021 | 5184x3456 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22s, axopar, ins, my21, uk). |
+| [`axopar-22-spyder-4`](https://media.ffycdn.net/eu/axopar/KvWghSuzqwgMuFjrQD3y.jpg) | INTERIOR | alta | MY2021 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22s, axopar, ins, my21, sweden). |
+| [`22spyder-q9a7133`](https://media.ffycdn.net/eu/axopar/87PZxSS1tAFKytVLv72i.jpg) | INTERIOR | alta | MY2021 | 5464x8192 jpg | WEB_COPY | Tag DAM del modelo (2023, 22 spyder, adventure, after schoold escapades, ax22, ax22s). |
+| [`axopar-22-spyder-17-1`](https://media.ffycdn.net/eu/axopar/a6sKSKSto7y8vHHdJKXm.jpg) | INTERIOR | alta | MY2021 | 7930x5289 jpg | WEB_COPY | Tag DAM del modelo (ax22, ax22s, axopar, ins, lifestyle, my21). |
+| [`axopar-22-spyder-miami-blue-side-view`](https://media.ffycdn.net/eu/axopar/HqDEhD5saUENEMf5kubW.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'axopar-22-Spyder-Miami-Blue-Side-View'. |
+| [`axopar-22-spyder-platinum-grey-side-view`](https://media.ffycdn.net/eu/axopar/M9KDBtCi6kog1QujstwV.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar-22-Spyder-Platinum-Grey-Side-View'. |
+| [`axopar-22-spyder-glacier-blue`](https://media.ffycdn.net/eu/axopar/UX3kcmDnvTAbwyqPp8Zy.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_Glacier_Blue'. |
+| [`axopar-22-spyder-pearl-white`](https://media.ffycdn.net/eu/axopar/7QSMn83xYciw61ZJcNox.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_Pearl_White'. |
+| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`axopar-22-spyder-gallery-21-648`](https://media.ffycdn.net/eu/axopar/7TjniZpCTxVsgPbn7m53.jpg) | OTHER | media |  | 5184x3456 jpg | WEB_COPY | Título del modelo: 'Axopar-22-Spyder-gallery_21-648'. |
+| [`ax22-spyder-petrol-aft-sofa`](https://media.ffycdn.net/eu/axopar/43AtmoFXYd7oQPpwZVTv.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_Spyder_Petrol_Aft_Sofa'. |
+| [`ax22-spyder-squash-u-sofa-table`](https://media.ffycdn.net/eu/axopar/G4ZWKVT1xEG4NQp2KqqH.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_Spyder_Squash_U-Sofa_Table'. |
+| [`ax22-spyder-sphere-u-sofa-sunbed`](https://media.ffycdn.net/eu/axopar/ztRtjqYGwPxookwwE37L.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_Spyder_Sphere_U-Sofa_Sunbed'. |
+| [`ax22-spyder-hunter-multi-storage`](https://media.ffycdn.net/eu/axopar/EydX8cA6war9vycndZKM.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_Spyder_Hunter_Multi-storage'. |
+| [`ax22-spyder-taupe-multi-storage-mediterrana`](https://media.ffycdn.net/eu/axopar/QdPsb8e1Vr2L6XDfkAfP.png) | OTHER | media |  | 984x1250 png | WEB_COPY | Título del modelo: 'Ax22_Spyder_Taupe_Multi-storage_Mediterrana'. |
+| [`axopar-22-spyder-gallery-q6a0740`](https://media.ffycdn.net/eu/axopar/6jJuhSdWWgh9y1CVg8gH.jpg) | OTHER | media |  | 6000x4002 jpg | WEB_COPY | Título del modelo: 'Axopar-22-Spyder-gallery_Q6A0740'. |
+| [`axopar-22-spyder-brabus-line-1`](https://media.ffycdn.net/eu/axopar/r1PKXLp3bi348xNvvTio.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_BRABUS_Line_1'. |
+| [`axopar-22-spyder-miami-blue-side-view-1`](https://media.ffycdn.net/eu/axopar/352qF5U9qUBFTxbFLH98.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'axopar-22-Spyder-Miami-Blue-Side-View_1'. |
+| [`axopar-22-spyder-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/xgMt3cRfhfHSe953d8uG.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_BRABUS_Performance_Line_1'. |
+| [`axopar-22-spyder-the-mediterrana-edition-1`](https://media.ffycdn.net/eu/axopar/wM1sHRX68Wv7eamyrRFP.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_The_Mediterrana_Edition_1'. |
+| [`axopar-22-spyder-axopar-x-jobe-edition-1`](https://media.ffycdn.net/eu/axopar/1SrFWp8ZKD3goKBXA2jm.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_Axopar_X_Jobe_Edition_1'. |
+| [`axopar-22-spyder-axopar-x-jobe-edition`](https://media.ffycdn.net/eu/axopar/JfBHAJSi1MK2VhtSCbxG.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_22_Spyder_Axopar_X_Jobe_Edition'. |
+| [`axopar-22-aft-sofa-petrol`](https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table`](https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-u-sofa-sunbed-sphere`](https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter`](https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
+| [`axopar-22-multi-storage-drivers-sofa-mediterrana`](https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png) | OTHER | media |  | 2928x3840 png | WEB_COPY | Render/muestra publicada en la sección 'Configurations & Layouts' del modelo. |
 
 ## REQUIRES REVIEW: modelo no confirmado (24)
 

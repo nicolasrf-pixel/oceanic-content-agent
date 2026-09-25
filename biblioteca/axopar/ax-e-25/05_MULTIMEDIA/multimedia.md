@@ -18,31 +18,31 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`ax-e-25-cross-top-e29a2549`](https://media.ffycdn.net/eu/axopar/Q4eKVLCLBV4ypfPRBJrW.jpg) | EXTERIOR | alta | MY2025 | 5428x3619 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-099a7725`](https://media.ffycdn.net/eu/axopar/ZQz5yiWUjHCLCLCBjuo8.jpg) | EXTERIOR | alta | MY2025 | 7740x5163 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-099a8121`](https://media.ffycdn.net/eu/axopar/ddRtMBGjNG52gVxJcE7P.jpg) | EXTERIOR | alta | MY2025 | 8087x5394 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-dji-20251008174843-0029-d`](https://media.ffycdn.net/eu/axopar/U83r85bjTpZgQHi3mRoZ.jpg) | EXTERIOR | alta | MY2025 | 7042x4695 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-099a4336`](https://media.ffycdn.net/eu/axopar/VRwiFJeSzwCYxfmXLoR9.jpg) | EXTERIOR | alta | MY2025 | 8080x5389 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
-| [`ax-e-25-cross-top-e29a9907`](https://media.ffycdn.net/eu/axopar/emaGB8JBm2mS4RKgv6az.jpg) | EXTERIOR | alta | MY2025 | 5141x3427 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
-| [`ax-e-25-cross-top-099a4362`](https://media.ffycdn.net/eu/axopar/gRBTDCkGdpgwbcHNCKKV.jpg) | EXTERIOR | alta | MY2025 | 5384x8072 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
-| [`ax-e-25-cross-top-099a7815`](https://media.ffycdn.net/eu/axopar/AdJNzjq5tisHfsNwur45.jpg) | EXTERIOR | alta | MY2025 | 8192x5464 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-099a4359`](https://media.ffycdn.net/eu/axopar/gLi2NjxR6FD4vpBYYoWK.jpg) | EXTERIOR | alta | MY2025 | 8072x5384 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
-| [`ax-e-25-cross-top-099a7754`](https://media.ffycdn.net/eu/axopar/ULwYcFSCuDcySkPbe2SL.jpg) | EXTERIOR | alta | MY2025 | 7853x5238 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
-| [`ax-e-25-cross-top-e29a2806`](https://media.ffycdn.net/eu/axopar/ZGcZjgxoQzEcRh8AN1kE.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-0x0a7329`](https://media.ffycdn.net/eu/axopar/cdc419ahLLjDQgzR7wzN.jpg) | INTERIOR | alta | MY2025 | 7714x5145 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-0x0a1985`](https://media.ffycdn.net/eu/axopar/9mRB31catpcpSKEX15Rx.jpg) | INTERIOR | alta | MY2025 | 7718x5148 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
-| [`ax-e-25-cross-top-099a5016`](https://media.ffycdn.net/eu/axopar/1BrU66ZY9EdCDmkJgyou.jpg) | INTERIOR | alta | MY2025 | 8139x5429 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
-| [`ax-e-25-cross-top-0x0a2037`](https://media.ffycdn.net/eu/axopar/qQw6Ban25SfZGPkmEkEk.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
-| [`ax-e-25-cross-top-e29a2820`](https://media.ffycdn.net/eu/axopar/ECLtq4ESE5eDoFDtVkAw.jpg) | INTERIOR | alta | MY2025 | 4986x3324 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-099a8107`](https://media.ffycdn.net/eu/axopar/LTVjnM5d5iLhzFSyJnfd.jpg) | INTERIOR | alta | MY2025 | 7865x5246 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-e29a2806-2`](https://media.ffycdn.net/eu/axopar/mhNeNaV6sc19HJGcLEWP.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-099a8072`](https://media.ffycdn.net/eu/axopar/ZqBH6VQUXuPq3cXSao1z.jpg) | INTERIOR | alta | MY2025 | 6955x4639 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-e29a2952`](https://media.ffycdn.net/eu/axopar/6CPEEMhASGL9AGhGcNSk.jpg) | INTERIOR | alta | MY2025 | 5472x3648 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-0x0a2056-enhanced-nr-edit`](https://media.ffycdn.net/eu/axopar/HGJfD1hmxo2VCsd6HkWN.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
-| [`ax-e-25-cross-top-099a5003`](https://media.ffycdn.net/eu/axopar/a8WSR6FK6icvRQ2y3h8j.jpg) | INTERIOR | alta | MY2025 | 8004x5339 jpg | PENDING | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
-| [`ax-e-25-cross-top-e29a2549-m`](https://media.ffycdn.net/eu/axopar/ZBYKTtR232pocCapXH9m.jpg) | OTHER | media |  | 1080x1350 jpg | PENDING | Título del modelo: 'AX-E-25-Cross-Top_E29A2549_M'. |
-| [`ax-e-25-cross-top-e29a2960-axedit`](https://media.ffycdn.net/eu/axopar/mfSYgEbvWEz6EJvefaQZ.jpg) | OTHER | media |  | 5293x3529 jpg | PENDING | Título del modelo: 'AX-E-25-Cross-Top_E29A2960_Axedit'. |
-| [`ax-e-25-cross-top-099a4467-enhanced-nr-axedit`](https://media.ffycdn.net/eu/axopar/dRYNXKn8z3K5jgX7VB47.jpg) | OTHER | media |  | 3576x5362 jpg | PENDING | Título del modelo: 'AX-E-25-Cross-Top_099A4467-Enhanced-NR_Axedit'. |
+| [`ax-e-25-cross-top-e29a2549`](https://media.ffycdn.net/eu/axopar/Q4eKVLCLBV4ypfPRBJrW.jpg) | EXTERIOR | alta | MY2025 | 5428x3619 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-099a7725`](https://media.ffycdn.net/eu/axopar/ZQz5yiWUjHCLCLCBjuo8.jpg) | EXTERIOR | alta | MY2025 | 7740x5163 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-099a8121`](https://media.ffycdn.net/eu/axopar/ddRtMBGjNG52gVxJcE7P.jpg) | EXTERIOR | alta | MY2025 | 8087x5394 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-dji-20251008174843-0029-d`](https://media.ffycdn.net/eu/axopar/U83r85bjTpZgQHi3mRoZ.jpg) | EXTERIOR | alta | MY2025 | 7042x4695 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-099a4336`](https://media.ffycdn.net/eu/axopar/VRwiFJeSzwCYxfmXLoR9.jpg) | EXTERIOR | alta | MY2025 | 8080x5389 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
+| [`ax-e-25-cross-top-e29a9907`](https://media.ffycdn.net/eu/axopar/emaGB8JBm2mS4RKgv6az.jpg) | EXTERIOR | alta | MY2025 | 5141x3427 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
+| [`ax-e-25-cross-top-099a4362`](https://media.ffycdn.net/eu/axopar/gRBTDCkGdpgwbcHNCKKV.jpg) | EXTERIOR | alta | MY2025 | 5384x8072 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
+| [`ax-e-25-cross-top-099a7815`](https://media.ffycdn.net/eu/axopar/AdJNzjq5tisHfsNwur45.jpg) | EXTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-099a4359`](https://media.ffycdn.net/eu/axopar/gLi2NjxR6FD4vpBYYoWK.jpg) | EXTERIOR | alta | MY2025 | 8072x5384 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, my25). |
+| [`ax-e-25-cross-top-099a7754`](https://media.ffycdn.net/eu/axopar/ULwYcFSCuDcySkPbe2SL.jpg) | EXTERIOR | alta | MY2025 | 7853x5238 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, my25, out). |
+| [`ax-e-25-cross-top-e29a2806`](https://media.ffycdn.net/eu/axopar/ZGcZjgxoQzEcRh8AN1kE.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-0x0a7329`](https://media.ffycdn.net/eu/axopar/cdc419ahLLjDQgzR7wzN.jpg) | INTERIOR | alta | MY2025 | 7714x5145 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-0x0a1985`](https://media.ffycdn.net/eu/axopar/9mRB31catpcpSKEX15Rx.jpg) | INTERIOR | alta | MY2025 | 7718x5148 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
+| [`ax-e-25-cross-top-099a5016`](https://media.ffycdn.net/eu/axopar/1BrU66ZY9EdCDmkJgyou.jpg) | INTERIOR | alta | MY2025 | 8139x5429 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
+| [`ax-e-25-cross-top-0x0a2037`](https://media.ffycdn.net/eu/axopar/qQw6Ban25SfZGPkmEkEk.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
+| [`ax-e-25-cross-top-e29a2820`](https://media.ffycdn.net/eu/axopar/ECLtq4ESE5eDoFDtVkAw.jpg) | INTERIOR | alta | MY2025 | 4986x3324 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-099a8107`](https://media.ffycdn.net/eu/axopar/LTVjnM5d5iLhzFSyJnfd.jpg) | INTERIOR | alta | MY2025 | 7865x5246 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-e29a2806-2`](https://media.ffycdn.net/eu/axopar/mhNeNaV6sc19HJGcLEWP.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | DUPLICATE_OF ax-e-25-cross-top-e29a2806 | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-099a8072`](https://media.ffycdn.net/eu/axopar/ZqBH6VQUXuPq3cXSao1z.jpg) | INTERIOR | alta | MY2025 | 6955x4639 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-e29a2952`](https://media.ffycdn.net/eu/axopar/6CPEEMhASGL9AGhGcNSk.jpg) | INTERIOR | alta | MY2025 | 5472x3648 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-0x0a2056-enhanced-nr-edit`](https://media.ffycdn.net/eu/axopar/HGJfD1hmxo2VCsd6HkWN.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
+| [`ax-e-25-cross-top-099a5003`](https://media.ffycdn.net/eu/axopar/a8WSR6FK6icvRQ2y3h8j.jpg) | INTERIOR | alta | MY2025 | 8004x5339 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
+| [`ax-e-25-cross-top-e29a2549-m`](https://media.ffycdn.net/eu/axopar/ZBYKTtR232pocCapXH9m.jpg) | OTHER | media |  | 1080x1350 jpg | WEB_COPY | Título del modelo: 'AX-E-25-Cross-Top_E29A2549_M'. |
+| [`ax-e-25-cross-top-e29a2960-axedit`](https://media.ffycdn.net/eu/axopar/mfSYgEbvWEz6EJvefaQZ.jpg) | OTHER | media |  | 5293x3529 jpg | WEB_COPY | Título del modelo: 'AX-E-25-Cross-Top_E29A2960_Axedit'. |
+| [`ax-e-25-cross-top-099a4467-enhanced-nr-axedit`](https://media.ffycdn.net/eu/axopar/dRYNXKn8z3K5jgX7VB47.jpg) | OTHER | media |  | 3576x5362 jpg | WEB_COPY | Título del modelo: 'AX-E-25-Cross-Top_099A4467-Enhanced-NR_Axedit'. |
 
 ## REQUIRES REVIEW: modelo no confirmado (1)
 

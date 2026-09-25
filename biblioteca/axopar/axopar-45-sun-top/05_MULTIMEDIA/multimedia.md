@@ -18,34 +18,34 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`axopar-45-sun-top-6802`](https://media.ffycdn.net/eu/axopar/QntPbkhsbBSqSG5aNXud.jpg) | EXTERIOR | alta | MY2024 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
-| [`axopar-45-sun-top-my24-dji-0298`](https://media.ffycdn.net/eu/axopar/oXBWxMz7SR8wD3Ao942K.jpeg) | EXTERIOR | alta | MY2024 | 5188x3885 jpeg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, italy, my24, out). |
-| [`axopar-45-sun-top-22`](https://media.ffycdn.net/eu/axopar/v91dArqZJrLfbFQjxmB3.jpg) | EXTERIOR | alta | MY2024 | 7352x4904 jpg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
-| [`axopar-45-sun-top-6741`](https://media.ffycdn.net/eu/axopar/pwwJ5uWycfNETXc8pzAV.jpg) | EXTERIOR | alta | MY2024 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
-| [`axopar-45-sun-top-my24-dscf5647`](https://media.ffycdn.net/eu/axopar/tn7zrcdjhvWySRSU1kky.jpg) | INTERIOR | alta | MY2024 | 7399x5549 jpg | PENDING | Tag DAM del modelo (45stlaunchcyf23, 45stxtlaunchcyf23, ax45, ax45st, axopar, ins). |
-| [`axopar-45-st-q9a1101`](https://media.ffycdn.net/eu/axopar/w8y3KeAxiuifCCCaRr7R.jpeg) | INTERIOR | alta | MY2024 | 8192x5464 jpeg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, france, ins, lifestyle). |
-| [`axopar-45-st-q9a2127`](https://media.ffycdn.net/eu/axopar/MM7JGXy5Ls8TSwmhNxrW.jpeg) | INTERIOR | alta | MY2024 | 8192x5464 jpeg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, france, ins, my24). |
-| [`axopar-45-sun-top-platinum-grey`](https://media.ffycdn.net/eu/axopar/H8t3dgJtsdQnWcdzmmg4.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_Sun_Top_Platinum_Grey'. |
-| [`axopar-45-sun-top-glacier-blue`](https://media.ffycdn.net/eu/axopar/W5SJb3LXUUtZTiQvEVu9.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_Sun_Top_Glacier_Blue'. |
-| [`axopar-45-sun-top-pearl-white`](https://media.ffycdn.net/eu/axopar/7AhKn6weHZswvpBQFAgd.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_Sun_Top_Pearl_White'. |
-| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`axopar-45-sun-top-my24-dscf5575`](https://media.ffycdn.net/eu/axopar/zudQFpBMnRHk3MoBrDzt.jpg) | OTHER | alta | MY2024 | 6132x8176 jpg | PENDING | Tag DAM del modelo (ax45, ax45st, axopar, inside, italy, my24). |
-| [`axopar-45-st-k0a0144`](https://media.ffycdn.net/eu/axopar/3v5Gn2yzNGXD3FhapatY.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar_45_ST_K0A0144'. |
-| [`axopar-45-sun-top-miami-blue`](https://media.ffycdn.net/eu/axopar/gRkYW7QdoA5mfSfr2nYe.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_Sun_Top_Miami_Blue'. |
-| [`ax45stxt-open-aft`](https://media.ffycdn.net/eu/axopar/ZzrMcBuJYJZhiVxYbnW1.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
-| [`ax45stxt-u-sofa`](https://media.ffycdn.net/eu/axopar/WXuzHtj8DNY8gf2fssou.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
-| [`ax45stxt-aft-cabin`](https://media.ffycdn.net/eu/axopar/nX3rSv6HwoMbbnGRVLpB.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
-| [`axopar-45-st-k0a9638`](https://media.ffycdn.net/eu/axopar/2SAaV56cSuMSS44fJH1v.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar_45_ST_K0A9638'. |
-| [`axopar-45-st-q9a0912`](https://media.ffycdn.net/eu/axopar/ayjxLUxRDKAJCfxT4aLk.jpg) | OTHER | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar_45_ST_Q9A0912'. |
-| [`axopar-45-st-xt-manual`](https://media.ffycdn.net/eu/axopar/E7EEGN4GrDP6eLMDBvRr.png) | OTHER | media |  | 2000x1500 png | PENDING | Título del modelo: 'Axopar_45_ST&XT_Manual'. |
+| [`axopar-45-sun-top-6802`](https://media.ffycdn.net/eu/axopar/QntPbkhsbBSqSG5aNXud.jpg) | EXTERIOR | alta | MY2024 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
+| [`axopar-45-sun-top-my24-dji-0298`](https://media.ffycdn.net/eu/axopar/oXBWxMz7SR8wD3Ao942K.jpeg) | EXTERIOR | alta | MY2024 | 5188x3885 jpeg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, italy, my24, out). |
+| [`axopar-45-sun-top-22`](https://media.ffycdn.net/eu/axopar/v91dArqZJrLfbFQjxmB3.jpg) | EXTERIOR | alta | MY2024 | 7352x4904 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
+| [`axopar-45-sun-top-6741`](https://media.ffycdn.net/eu/axopar/pwwJ5uWycfNETXc8pzAV.jpg) | EXTERIOR | alta | MY2024 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, axopar45, axopar45st, cannes). |
+| [`axopar-45-sun-top-my24-dscf5647`](https://media.ffycdn.net/eu/axopar/tn7zrcdjhvWySRSU1kky.jpg) | INTERIOR | alta | MY2024 | 7399x5549 jpg | WEB_COPY | Tag DAM del modelo (45stlaunchcyf23, 45stxtlaunchcyf23, ax45, ax45st, axopar, ins). |
+| [`axopar-45-st-q9a1101`](https://media.ffycdn.net/eu/axopar/w8y3KeAxiuifCCCaRr7R.jpeg) | INTERIOR | alta | MY2024 | 8192x5464 jpeg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, france, ins, lifestyle). |
+| [`axopar-45-st-q9a2127`](https://media.ffycdn.net/eu/axopar/MM7JGXy5Ls8TSwmhNxrW.jpeg) | INTERIOR | alta | MY2024 | 8192x5464 jpeg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, france, ins, my24). |
+| [`axopar-45-sun-top-platinum-grey`](https://media.ffycdn.net/eu/axopar/H8t3dgJtsdQnWcdzmmg4.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_Sun_Top_Platinum_Grey'. |
+| [`axopar-45-sun-top-glacier-blue`](https://media.ffycdn.net/eu/axopar/W5SJb3LXUUtZTiQvEVu9.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_Sun_Top_Glacier_Blue'. |
+| [`axopar-45-sun-top-pearl-white`](https://media.ffycdn.net/eu/axopar/7AhKn6weHZswvpBQFAgd.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_Sun_Top_Pearl_White'. |
+| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`axopar-45-sun-top-my24-dscf5575`](https://media.ffycdn.net/eu/axopar/zudQFpBMnRHk3MoBrDzt.jpg) | OTHER | alta | MY2024 | 6132x8176 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45st, axopar, inside, italy, my24). |
+| [`axopar-45-st-k0a0144`](https://media.ffycdn.net/eu/axopar/3v5Gn2yzNGXD3FhapatY.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar_45_ST_K0A0144'. |
+| [`axopar-45-sun-top-miami-blue`](https://media.ffycdn.net/eu/axopar/gRkYW7QdoA5mfSfr2nYe.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_Sun_Top_Miami_Blue'. |
+| [`ax45stxt-open-aft`](https://media.ffycdn.net/eu/axopar/ZzrMcBuJYJZhiVxYbnW1.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
+| [`ax45stxt-u-sofa`](https://media.ffycdn.net/eu/axopar/WXuzHtj8DNY8gf2fssou.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
+| [`ax45stxt-aft-cabin`](https://media.ffycdn.net/eu/axopar/nX3rSv6HwoMbbnGRVLpB.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives For Aft Deck' del modelo. |
+| [`axopar-45-st-k0a9638`](https://media.ffycdn.net/eu/axopar/2SAaV56cSuMSS44fJH1v.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar_45_ST_K0A9638'. |
+| [`axopar-45-st-q9a0912`](https://media.ffycdn.net/eu/axopar/ayjxLUxRDKAJCfxT4aLk.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar_45_ST_Q9A0912'. |
+| [`axopar-45-st-xt-manual`](https://media.ffycdn.net/eu/axopar/E7EEGN4GrDP6eLMDBvRr.png) | OTHER | media |  | 2000x1500 png | WEB_COPY | Título del modelo: 'Axopar_45_ST&XT_Manual'. |
 
 ## REQUIRES REVIEW: modelo no confirmado (9)
 

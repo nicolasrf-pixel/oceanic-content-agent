@@ -18,49 +18,49 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`axopar-45-xc-cross-cabin-099a2090`](https://media.ffycdn.net/eu/axopar/UwmBsVitUp6fwKNBcD2r.jpg) | EXTERIOR | alta | MY2026 | 8024x5352 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
-| [`axopar-45-xc-cross-cabin-099a3588`](https://media.ffycdn.net/eu/axopar/AYEpmNzvWdxfkpe8wZNN.jpg) | EXTERIOR | alta | MY2026 | 8128x5421 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
-| [`axopar-45-xc-cross-cabindsc05467`](https://media.ffycdn.net/eu/axopar/WxQv2khDynSFF4X9Fny8.jpg) | EXTERIOR | alta | MY2026 | 7008x4672 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
-| [`axopar-45-xc-cross-cabin-9499`](https://media.ffycdn.net/eu/axopar/ZTVrdsmCsC6VQLZzWqtP.jpg) | EXTERIOR | alta | MY2025 | 5568x3712 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, indonesia, jakarta, mediterrana). |
-| [`axopar-45-xc-cross-cabin-099a3735`](https://media.ffycdn.net/eu/axopar/M65uJvUw3RD8CpYJVtS1.jpg) | EXTERIOR | alta | MY2026 | 8048x5368 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
-| [`axopar-45-xc-cross-cabin-099a3963`](https://media.ffycdn.net/eu/axopar/ECGVErsMrp2BF7ZrhNVf.jpg) | INTERIOR | alta | MY2026 | 6820x4549 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my26). |
-| [`axopar-45-xc-cross-cabin-099a3936`](https://media.ffycdn.net/eu/axopar/stJv1amiFb4xbEPQpJmz.jpg) | INTERIOR | alta | MY2026 | 7534x5025 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my26). |
-| [`axopar-45-travel-edition-5`](https://media.ffycdn.net/eu/axopar/vFVBLoPvyXY5YLm1wz7K.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
-| [`axopar-45-xc-c4a5920`](https://media.ffycdn.net/eu/axopar/oszb2LaykrNx6uTwDgRY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, mallorca, my22). |
-| [`axopar-45-travel-edition-0934`](https://media.ffycdn.net/eu/axopar/ezRgqknujYZyMZzHtGD5.jpg) | INTERIOR | alta | MY2025 | 5392x3595 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
-| [`axopar-45-travel-edition-0929`](https://media.ffycdn.net/eu/axopar/9WvvTPQ55Rzj87aieBFM.jpg) | INTERIOR | alta | MY2025 | 5244x3496 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
-| [`axopar-45-xc-mediterrana-c4a6144`](https://media.ffycdn.net/eu/axopar/EMBnQRo3kZDqYQ5p5a27.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
-| [`axopar-45-xc-cross-cabin-dji-20250608142034-0034-d`](https://media.ffycdn.net/eu/axopar/aa41ccJU6WyV2W9hqjAp.jpg) | INTERIOR | alta | MY2026 | 4994x3740 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, finland, finnboat25, ins). |
-| [`axopar-45-xc-cross-cabin-dji-20250608142155-0036-d`](https://media.ffycdn.net/eu/axopar/izutnyV3UGJELSqApHGw.jpg) | INTERIOR | alta | MY2026 | 5234x3920 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, finland, finnboat25, ins). |
-| [`axopar-45-xc-mediterrana-c4a6128`](https://media.ffycdn.net/eu/axopar/XKxXRmpNYay9n4BidgR2.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
-| [`axopar-45-q6a4422`](https://media.ffycdn.net/eu/axopar/5sh8gvQdYJJogKroAN3Y.jpg) | INTERIOR | alta | MY2022 | 7806x5207 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, lifestyle, mallorca). |
-| [`axopar-45-xc-c4a9764`](https://media.ffycdn.net/eu/axopar/L2sDeqwH74yg5UDYkoCV.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, ins, mallorca, my22). |
-| [`axopar-45-xc-mediterrana-c4a6054-2`](https://media.ffycdn.net/eu/axopar/dKtSLUea44rUZq5qfeAP.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
-| [`axopar-45-xc-mediterrana-c4a5937`](https://media.ffycdn.net/eu/axopar/6dGYEfEErizZQy34HhPY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
-| [`axopar-45-xc-c4a9293`](https://media.ffycdn.net/eu/axopar/m2aTwajrGQv3AapCbciS.jpg) | COCKPIT | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 45 XC_C4A9293'. |
-| [`axopar-45-xc-mediterrana-c4a6054`](https://media.ffycdn.net/eu/axopar/zZwnUNs2rnm1N4HeXaEr.jpg) | COCKPIT | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 45 XC Mediterrana_C4A6054'. |
-| [`45-hl-0005-axopar-45-xc-c4a8686`](https://media.ffycdn.net/eu/axopar/4KqY1f5DQqYnHBnF3tMN.jpg) | CABIN | media |  | 1200x800 jpg | PENDING | Título del modelo: '45_HL_0005_Axopar-45-XC_C4A8686'. |
-| [`axopar-45-xc-cross-cabin-manual`](https://media.ffycdn.net/eu/axopar/F2VSnZwzTed13RX1R9Ma.png) | CABIN | media |  | 2000x1500 png | PENDING | Título del modelo: 'Axopar_45_XC_Cross_Cabin_manual'. |
-| [`axopar-45-xc-c4a9416`](https://media.ffycdn.net/eu/axopar/Lpdbu5m47CateHLyzvi8.jpg) | HELM | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 45 XC_C4A9416'. |
-| [`axopar-45-xc-cross-cabin-platinum-grey`](https://media.ffycdn.net/eu/axopar/K3MRjWJLaCgLo2diHSjR.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Platinum_Grey'. |
-| [`axopar-45-xc-cross-cabin-glacier-blue`](https://media.ffycdn.net/eu/axopar/XZfZx4jSnEejhTw7JjhK.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Glacier_Blue'. |
-| [`axopar-45-xc-cross-cabin-pearl-white`](https://media.ffycdn.net/eu/axopar/T2T5sGp9u7Khp7ekfkxu.png) | DETAIL | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Pearl_White'. |
-| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
-| [`45-hl-0009-axopar-45-xc-c4a8974`](https://media.ffycdn.net/eu/axopar/pPi6uQ49p3HJeBje43fk.jpg) | OTHER | media |  | 1200x800 jpg | PENDING | Título del modelo: '45_HL_0009_Axopar-45-XC_C4A8974'. |
-| [`45-hl-0012-axopar-45-xc-c4a2768b`](https://media.ffycdn.net/eu/axopar/WBXP5NoqEHWZjRLkL8ew.jpg) | OTHER | media |  | 1200x800 jpg | PENDING | Título del modelo: '45_HL_0012_Axopar-45-XC_C4A2768b'. |
-| [`axopar-45-xc-cross-cabin-miami-blue`](https://media.ffycdn.net/eu/axopar/dBeKrh6LhXHKKNQskNgZ.png) | OTHER | media |  | 2160x2160 png | PENDING | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Miami_Blue'. |
-| [`wbg-0003-45xc-open-aft`](https://media.ffycdn.net/eu/axopar/mF252qrYqhNAjgmv5qw3.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
-| [`wbg-0002-45xc-aft-sofa`](https://media.ffycdn.net/eu/axopar/QQh6xdC561H8tuLMJ9SK.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
-| [`wbg-0001-45xc-u-sofa`](https://media.ffycdn.net/eu/axopar/jrHN7FoxMjEsMSfxQLvn.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
-| [`wbg-0000-45xc-aft-cabin`](https://media.ffycdn.net/eu/axopar/c2zafvSWtskYn9qcZmLq.png) | OTHER | media |  | 1476x1875 png | PENDING | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
+| [`axopar-45-xc-cross-cabin-099a2090`](https://media.ffycdn.net/eu/axopar/UwmBsVitUp6fwKNBcD2r.jpg) | EXTERIOR | alta | MY2026 | 8024x5352 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
+| [`axopar-45-xc-cross-cabin-099a3588`](https://media.ffycdn.net/eu/axopar/AYEpmNzvWdxfkpe8wZNN.jpg) | EXTERIOR | alta | MY2026 | 8128x5421 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
+| [`axopar-45-xc-cross-cabindsc05467`](https://media.ffycdn.net/eu/axopar/WxQv2khDynSFF4X9Fny8.jpg) | EXTERIOR | alta | MY2026 | 7008x4672 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
+| [`axopar-45-xc-cross-cabin-9499`](https://media.ffycdn.net/eu/axopar/ZTVrdsmCsC6VQLZzWqtP.jpg) | EXTERIOR | alta | MY2025 | 5568x3712 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, indonesia, jakarta, mediterrana). |
+| [`axopar-45-xc-cross-cabin-099a3735`](https://media.ffycdn.net/eu/axopar/M65uJvUw3RD8CpYJVtS1.jpg) | EXTERIOR | alta | MY2026 | 8048x5368 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). |
+| [`axopar-45-xc-cross-cabin-099a3963`](https://media.ffycdn.net/eu/axopar/ECGVErsMrp2BF7ZrhNVf.jpg) | INTERIOR | alta | MY2026 | 6820x4549 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my26). |
+| [`axopar-45-xc-cross-cabin-099a3936`](https://media.ffycdn.net/eu/axopar/stJv1amiFb4xbEPQpJmz.jpg) | INTERIOR | alta | MY2026 | 7534x5025 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my26). |
+| [`axopar-45-travel-edition-5`](https://media.ffycdn.net/eu/axopar/vFVBLoPvyXY5YLm1wz7K.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
+| [`axopar-45-xc-c4a5920`](https://media.ffycdn.net/eu/axopar/oszb2LaykrNx6uTwDgRY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, mallorca, my22). |
+| [`axopar-45-travel-edition-0934`](https://media.ffycdn.net/eu/axopar/ezRgqknujYZyMZzHtGD5.jpg) | INTERIOR | alta | MY2025 | 5392x3595 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
+| [`axopar-45-travel-edition-0929`](https://media.ffycdn.net/eu/axopar/9WvvTPQ55Rzj87aieBFM.jpg) | INTERIOR | alta | MY2025 | 5244x3496 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, my25). |
+| [`axopar-45-xc-mediterrana-c4a6144`](https://media.ffycdn.net/eu/axopar/EMBnQRo3kZDqYQ5p5a27.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
+| [`axopar-45-xc-cross-cabin-dji-20250608142034-0034-d`](https://media.ffycdn.net/eu/axopar/aa41ccJU6WyV2W9hqjAp.jpg) | INTERIOR | alta | MY2026 | 4994x3740 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, finland, finnboat25, ins). |
+| [`axopar-45-xc-cross-cabin-dji-20250608142155-0036-d`](https://media.ffycdn.net/eu/axopar/izutnyV3UGJELSqApHGw.jpg) | INTERIOR | alta | MY2026 | 5234x3920 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, finland, finnboat25, ins). |
+| [`axopar-45-xc-mediterrana-c4a6128`](https://media.ffycdn.net/eu/axopar/XKxXRmpNYay9n4BidgR2.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
+| [`axopar-45-q6a4422`](https://media.ffycdn.net/eu/axopar/5sh8gvQdYJJogKroAN3Y.jpg) | INTERIOR | alta | MY2022 | 7806x5207 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, lifestyle, mallorca). |
+| [`axopar-45-xc-c4a9764`](https://media.ffycdn.net/eu/axopar/L2sDeqwH74yg5UDYkoCV.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, mallorca, my22). |
+| [`axopar-45-xc-mediterrana-c4a6054-2`](https://media.ffycdn.net/eu/axopar/dKtSLUea44rUZq5qfeAP.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | DUPLICATE_OF axopar-45-xc-mediterrana-c4a6054 | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
+| [`axopar-45-xc-mediterrana-c4a5937`](https://media.ffycdn.net/eu/axopar/6dGYEfEErizZQy34HhPY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
+| [`axopar-45-xc-c4a9293`](https://media.ffycdn.net/eu/axopar/m2aTwajrGQv3AapCbciS.jpg) | COCKPIT | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC_C4A9293'. |
+| [`axopar-45-xc-mediterrana-c4a6054`](https://media.ffycdn.net/eu/axopar/zZwnUNs2rnm1N4HeXaEr.jpg) | COCKPIT | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC Mediterrana_C4A6054'. |
+| [`45-hl-0005-axopar-45-xc-c4a8686`](https://media.ffycdn.net/eu/axopar/4KqY1f5DQqYnHBnF3tMN.jpg) | CABIN | media |  | 1200x800 jpg | WEB_COPY | Título del modelo: '45_HL_0005_Axopar-45-XC_C4A8686'. |
+| [`axopar-45-xc-cross-cabin-manual`](https://media.ffycdn.net/eu/axopar/F2VSnZwzTed13RX1R9Ma.png) | CABIN | media |  | 2000x1500 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_manual'. |
+| [`axopar-45-xc-c4a9416`](https://media.ffycdn.net/eu/axopar/Lpdbu5m47CateHLyzvi8.jpg) | HELM | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC_C4A9416'. |
+| [`axopar-45-xc-cross-cabin-platinum-grey`](https://media.ffycdn.net/eu/axopar/K3MRjWJLaCgLo2diHSjR.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Platinum_Grey'. |
+| [`axopar-45-xc-cross-cabin-glacier-blue`](https://media.ffycdn.net/eu/axopar/XZfZx4jSnEejhTw7JjhK.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Glacier_Blue'. |
+| [`axopar-45-xc-cross-cabin-pearl-white`](https://media.ffycdn.net/eu/axopar/T2T5sGp9u7Khp7ekfkxu.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Pearl_White'. |
+| [`silvertex-petrol`](https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-squash`](https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`silvertex-hunter`](https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg) | DETAIL | media |  | 6000x4000 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-sphere`](https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-dust`](https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`linetex-chalk`](https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg) | DETAIL | media |  | 8192x5464 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`taupe`](https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`antracite`](https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg) | DETAIL | media |  | 1233x1233 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
+| [`45-hl-0009-axopar-45-xc-c4a8974`](https://media.ffycdn.net/eu/axopar/pPi6uQ49p3HJeBje43fk.jpg) | OTHER | media |  | 1200x800 jpg | WEB_COPY | Título del modelo: '45_HL_0009_Axopar-45-XC_C4A8974'. |
+| [`45-hl-0012-axopar-45-xc-c4a2768b`](https://media.ffycdn.net/eu/axopar/WBXP5NoqEHWZjRLkL8ew.jpg) | OTHER | media |  | 1200x800 jpg | WEB_COPY | Título del modelo: '45_HL_0012_Axopar-45-XC_C4A2768b'. |
+| [`axopar-45-xc-cross-cabin-miami-blue`](https://media.ffycdn.net/eu/axopar/dBeKrh6LhXHKKNQskNgZ.png) | OTHER | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_Miami_Blue'. |
+| [`wbg-0003-45xc-open-aft`](https://media.ffycdn.net/eu/axopar/mF252qrYqhNAjgmv5qw3.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
+| [`wbg-0002-45xc-aft-sofa`](https://media.ffycdn.net/eu/axopar/QQh6xdC561H8tuLMJ9SK.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
+| [`wbg-0001-45xc-u-sofa`](https://media.ffycdn.net/eu/axopar/jrHN7FoxMjEsMSfxQLvn.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
+| [`wbg-0000-45xc-aft-cabin`](https://media.ffycdn.net/eu/axopar/c2zafvSWtskYn9qcZmLq.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
 
 ## REQUIRES REVIEW: modelo no confirmado (13)
 

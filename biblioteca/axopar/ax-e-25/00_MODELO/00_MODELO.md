@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 67% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 75% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -37,10 +37,10 @@
 | EDITORIAL | ingenieria | OK | 537 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | OK | 360 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 304 palabras fuente · candidato Oceanic presente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 10 en inventario (mín. 3) · descargadas 0/25 |
-| MULTIMEDIA | interior | PARTIAL | 12 en inventario (mín. 2) · descargadas 0/25 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/25 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 24/25 |
+| MULTIMEDIA | interior | OK | 12 en inventario (mín. 2) · descargadas 24/25 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 24/25 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |
