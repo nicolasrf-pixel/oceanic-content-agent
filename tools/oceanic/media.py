@@ -96,18 +96,19 @@ def _web_copy(data: bytes, max_edge: int) -> tuple[bytes, int, int]:
         return out.getvalue(), im.width, im.height
 
 
-def download_images(model_dir: Path) -> dict:
+def download_images(model_dir: Path, source: str = "original") -> dict:
     """Store a WebP web copy per image; the original is referenced (URL, sha256, size), not stored.
 
     Originals stay in the manufacturer's DAM and can be fetched again from `original.url`.
     """
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     inv = json.loads(inv_path.read_text())
-    by_hash = {r["original"]["sha256"]: r["id"] for r in inv["images"]
-               if (r.get("original") or {}).get("sha256") and r["file"]}
+    by_hash = {(r["original"].get("sha256") or r["original"].get("source_copy_sha256")): r["id"]
+               for r in inv["images"] if r.get("original") and r["file"]}
     stats = {"stored": 0, "duplicates": 0, "failed": 0, "skipped": 0, "from_cdn": 0}
     for rec in inv["images"]:
-        done = rec["file"] and rec["file"].endswith(".webp") and (rec.get("original") or {}).get("sha256")
+        done = rec["file"] and rec["file"].endswith(".webp") and rec.get("original") \
+            and (model_dir / rec["file"]).exists()
         if rec["scope"] != "THIS_MODEL" or rec["download_status"].startswith("DUPLICATE_OF") or done:
             stats["skipped"] += 1
             continue
@@ -115,6 +116,13 @@ def download_images(model_dir: Path) -> dict:
         legacy = model_dir / rec["file"] if rec["file"] else None
         if legacy and legacy.exists() and rec.get("width") == rec["declared_width"]:
             data, used = legacy.read_bytes(), rec.get("downloaded_from") or rec["source_url"]
+        elif source == "cdn":
+            # Fast path: the CDN serves a resized copy, enough for a 2560 px web copy.
+            try:
+                url = rec["cdn_url"] + "?width=2560&quality=90"
+                data, used = _fetch(url), url
+            except Exception as exc:
+                err = f"{type(exc).__name__}: {exc}"
         else:
             for url in (rec["source_url"], rec["cdn_url"]):
                 try:
@@ -129,9 +137,17 @@ def download_images(model_dir: Path) -> dict:
         fmt, w, h = _image_info(data)
         digest = hashlib.sha256(data).hexdigest()
         full = bool(w and rec["declared_width"] and w >= rec["declared_width"])
-        rec["original"] = {"url": rec["source_url"], "fetched_from": used, "sha256": digest,
-                           "width": w, "height": h, "format": fmt, "bytes": len(data),
-                           "full_resolution": full}
+        if source == "cdn":
+            # Original not fetched: keep its reference and declared size from the DAM.
+            rec["original"] = {"url": rec["source_url"], "fetched_from": None, "sha256": None,
+                               "width": rec["declared_width"], "height": rec["declared_height"],
+                               "format": rec["declared_format"], "bytes": None, "full_resolution": None,
+                               "source_copy_sha256": digest}
+            full = True
+        else:
+            rec["original"] = {"url": rec["source_url"], "fetched_from": used, "sha256": digest,
+                               "width": w, "height": h, "format": fmt, "bytes": len(data),
+                               "full_resolution": full}
         if digest in by_hash:
             rec.update(file=None, download_status=f"DUPLICATE_OF {by_hash[digest]}")
             stats["duplicates"] += 1

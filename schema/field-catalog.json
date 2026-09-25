@@ -12,10 +12,11 @@
     "REQUIRES_REVIEW"
   ],
   "boat_types": [
-    "motor",
-    "vela",
+    "catamaran_motor",
     "catamaran_vela",
-    "catamaran_motor"
+    "motor",
+    "motor_electrico",
+    "vela"
   ],
   "fields": [
     {
@@ -115,7 +116,8 @@
       "label": "Peso sin motor",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": "kg",
       "critical": false,
@@ -215,7 +217,8 @@
       "label": "Diseño de casco",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": null,
       "critical": false,
@@ -286,7 +289,8 @@
       "label": "Motorización",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": null,
       "critical": true,
@@ -302,7 +306,8 @@
       "label": "Potencia motor máx",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": "hp",
       "critical": true,
@@ -319,7 +324,8 @@
       "label": "Velocidad máxima",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": "nudos",
       "critical": false,
@@ -335,7 +341,8 @@
       "label": "Velocidad crucero",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": "nudos",
       "critical": false,
@@ -350,7 +357,8 @@
       "label": "Consumo crucero",
       "types": [
         "motor",
-        "catamaran_motor"
+        "catamaran_motor",
+        "motor_electrico"
       ],
       "unit": null,
       "critical": false,
@@ -365,7 +373,8 @@
       "types": [
         "motor",
         "catamaran_motor",
-        "catamaran_vela"
+        "catamaran_vela",
+        "motor_electrico"
       ],
       "unit": "mn",
       "critical": false,
@@ -525,7 +534,8 @@
       "types": [
         "catamaran_vela",
         "catamaran_motor",
-        "motor"
+        "motor",
+        "motor_electrico"
       ],
       "unit": null,
       "critical": false,
@@ -540,12 +550,26 @@
       "types": [
         "catamaran_vela",
         "catamaran_motor",
-        "motor"
+        "motor",
+        "motor_electrico"
       ],
       "unit": null,
       "critical": false,
       "source_aliases": [
         "Flybridge"
+      ]
+    },
+    {
+      "key": "capacidad_bateria",
+      "label": "Capacidad batería",
+      "types": [
+        "motor_electrico"
+      ],
+      "unit": "kWh",
+      "critical": true,
+      "source_aliases": [
+        "Battery capacity",
+        "kWh"
       ]
     }
   ],
@@ -592,6 +616,16 @@
       "certificacion",
       "superficie_velica",
       "potencia_motor_auxiliar"
+    ],
+    "motor_electrico": [
+      "eslora_total",
+      "manga_casco",
+      "desplazamiento",
+      "camarotes",
+      "capacidad_bateria",
+      "capacidad_agua_dulce",
+      "certificacion",
+      "potencia_motor_maxima"
     ]
   }
 }

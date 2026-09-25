@@ -79,6 +79,34 @@ class WebCopy(unittest.TestCase):
         self.assertEqual(files, [])
 
 
+class AxoparBuilder(unittest.TestCase):
+    BRAND = PILOT.parent
+
+    def spec(self, slug):
+        return {f["oceanic_field"]: f for f in json.loads(
+            (self.BRAND / slug / "02_ESPECIFICACIONES" / "specifications.json").read_text())["fields"]}
+
+    def test_mislabeled_fuel_capacity_is_not_published_as_capacity(self):
+        f = self.spec("axopar-38-xc-cross-cabin")
+        self.assertEqual(f["capacidad_combustible"]["display_value"], "830 l")
+        self.assertIn("error de etiquetado", f["capacidad_combustible"]["notes"])
+
+    def test_tech_spec_prevails_over_engine_options(self):
+        f = self.spec("axopar-38-xc-cross-cabin")
+        self.assertEqual(f["potencia_motor_maxima"]["display_value"], "2 x 350 hp")
+        self.assertIn("425", f["potencia_motor_maxima"]["notes"])
+
+    def test_electric_uses_battery_and_declared_power(self):
+        f = self.spec("ax-e-25")
+        self.assertEqual(f["capacidad_bateria"]["display_value"], "2 x 63 kWh")
+        self.assertEqual(f["eslora_total"]["status"], "NOT_FOUND")
+
+    def test_builder_does_not_touch_curated_package(self):
+        from oceanic.builders import axopar
+        with self.assertRaises(SystemExit):
+            axopar.build("axopar-37-xc-cross-cabin", {}, Path("/nonexistent"))
+
+
 class Dash(unittest.TestCase):
     def test_not_found_dash_is_shown_in_table(self):
         spec = {"model": {"model": "m", "model_year": "1", "variant": "v", "configuration": "c",

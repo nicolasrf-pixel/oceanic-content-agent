@@ -1,0 +1,98 @@
+{
+  "CONTENT_STATUS": "YELLOW",
+  "completeness_pct": 69,
+  "critical_missing": [],
+  "unresolved_conflicts": [],
+  "items": {
+    "tabla_tecnica": {
+      "group": "DATOS",
+      "status": "PARTIAL",
+      "detail": "tabla base 7/8 verificada · faltan: capacidad_agua_dulce"
+    },
+    "especificaciones": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "15 campos con fuente"
+    },
+    "caracteristicas": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "presente"
+    },
+    "equipamiento": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "standard.md, optional.md"
+    },
+    "hero": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "92 palabras fuente · candidato Oceanic presente"
+    },
+    "introduccion": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "171 palabras fuente · candidato Oceanic presente"
+    },
+    "diseno": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "314 palabras fuente · candidato Oceanic presente"
+    },
+    "ingenieria": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "106 palabras fuente · candidato Oceanic presente"
+    },
+    "experiencia": {
+      "group": "EDITORIAL",
+      "status": "OK",
+      "detail": "651 palabras fuente · candidato Oceanic presente"
+    },
+    "performance": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "10 palabras fuente"
+    },
+    "hero_image": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "3 candidatas · sin descargar"
+    },
+    "exterior": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "5 en inventario (mín. 3) · descargadas 0/43"
+    },
+    "interior": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "18 en inventario (mín. 2) · descargadas 0/43"
+    },
+    "detail": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "12 en inventario (mín. 2) · descargadas 0/43"
+    },
+    "video": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "5 videos del modelo"
+    },
+    "brochure": {
+      "group": "DOCUMENTOS",
+      "status": "MISSING",
+      "detail": "no encontrado en fuentes oficiales"
+    },
+    "technical": {
+      "group": "DOCUMENTOS",
+      "status": "MISSING",
+      "detail": "no encontrado en fuentes oficiales"
+    },
+    "manual": {
+      "group": "DOCUMENTOS",
+      "status": "PARTIAL",
+      "detail": "1 identificado(s) · requiere revisión"
+    }
+  }
+}

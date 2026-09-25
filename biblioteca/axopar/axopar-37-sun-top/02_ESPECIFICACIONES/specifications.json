@@ -1,0 +1,415 @@
+{
+  "model": {
+    "brand": "Axopar",
+    "range": "Axopar 37",
+    "model": "Axopar 37 Sun Top",
+    "variant": "Sun Top",
+    "model_year": "2027",
+    "configuration": "Base (según web oficial)",
+    "engine_option": "Ver motorización",
+    "boat_type": "motor"
+  },
+  "compiled_at": "2026-09-25",
+  "rules": "Generado por tools/oceanic/builders/axopar.py desde la web oficial del producto (S1).",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "11,50 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Overall Length (excl. Engine)",
+          "source_value": "11,50 m (37ft 9in)",
+          "source_unit": "m",
+          "normalized_value": 11.5,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": "",
+      "display_note": "sin motor"
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "3,35 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Beam",
+          "source_value": "3,35 m (11ft)",
+          "source_unit": "m",
+          "normalized_value": 3.35,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "3.590 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Weight (excl. Engine)",
+          "source_value": "3590 kg (7915 lbs)",
+          "source_unit": "kg",
+          "normalized_value": 3590.0,
+          "normalized_unit": "kg",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "La web publica el peso del barco sin motores: es el peso en rosca."
+        }
+      ],
+      "notes": "",
+      "display_note": "sin motor"
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "1 (+1 opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Front Cabin (Standard Features)",
+          "source_value": "Lockable access hatch to front cabin with grab rail in leather",
+          "source_unit": null,
+          "normalized_value": {
+            "standard": 1,
+            "optional": 1
+          },
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Standard Features",
+          "cross_reference": "Cabina de proa de serie."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Optional Equipment",
+          "source_value": "Aft Cabin Package - S/ST",
+          "source_unit": null,
+          "normalized_value": {
+            "standard": 1,
+            "optional": 1
+          },
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Optional Equipment",
+          "cross_reference": "Cabina de popa opcional."
+        }
+      ],
+      "notes": "Cruce de equipamiento estándar y opcional."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "722 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Fuel capacity",
+          "source_value": "722 l (191 gal)",
+          "source_unit": "l",
+          "normalized_value": 722.0,
+          "normalized_unit": "l",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "100 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Freshwater tank 100l",
+          "source_value": "Freshwater tank 100l",
+          "source_unit": "l",
+          "normalized_value": 100,
+          "normalized_unit": "l",
+          "model_year": "2027",
+          "location": "Equipment · Standard Features · General'",
+          "cross_reference": "No está en la ficha técnica; se toma del equipamiento de la misma web."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B10 / C12",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Category + Passengers",
+          "source_value": "B – Offshore, C - Coastal · B:10 / C:12",
+          "source_unit": "personas",
+          "normalized_value": {
+            "B": 10,
+            "C": 12
+          },
+          "normalized_unit": "personas",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "Cruce de 'Category' y 'Passengers' en formato Oceanic (categoría + personas)."
+        }
+      ],
+      "notes": "",
+      "display_note": "CE · personas"
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 400 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 300 – 2 x 400 hp",
+          "source_unit": "hp",
+          "normalized_value": "2 x 400",
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "Extremo superior de la motorización publicada."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Engine (Optional Equipment)",
+          "source_value": "Twin Mercury Verado V10 400hp, White",
+          "source_unit": "hp",
+          "normalized_value": "2 x 400",
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Equipment · Optional Equipment · Engine",
+          "cross_reference": "Motorización más potente ofrecida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda, 2 x 300 – 2 x 400 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 300 – 2 x 400 hp",
+          "source_unit": "hp",
+          "normalized_value": "2 x 300 – 2 x 400 hp",
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "0,85 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Draft to props",
+          "source_value": "0,85 m (2ft 9in)",
+          "source_unit": "m",
+          "normalized_value": 0.85,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": "",
+      "display_note": "a hélices"
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "2 persons (with optional aft cabin 2+2)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Berths",
+          "source_value": "2 persons (with optional aft cabin 2+2)",
+          "source_unit": null,
+          "normalized_value": "2 persons (with optional aft cabin 2+2)",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Standard Features",
+          "source_value": "Built-in electric flush toilet under L-sofa with septic tank 70l and deck/hull outlets",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Standard Features",
+          "cross_reference": "WC de serie en el equipamiento estándar."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "GRP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Construction",
+          "source_value": "GRP",
+          "source_unit": null,
+          "normalized_value": "GRP",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "diseno_casco",
+      "label": "Diseño de casco",
+      "status": "VERIFIED",
+      "display_value": "Doble step, V de 22°, proa “Sharp entry”",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Hull design",
+          "source_value": "Twin stepped 22 degree V “Sharp entry hull”",
+          "source_unit": null,
+          "normalized_value": "Twin stepped 22 degree V “Sharp entry hull”",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "VERIFIED",
+      "display_value": "38 – 48 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Max speed range",
+          "source_value": "38 - 48 knots",
+          "source_unit": "nudos",
+          "normalized_value": "38 - 48 knots",
+          "normalized_unit": "nudos",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "consumo_crucero",
+      "label": "Consumo crucero",
+      "status": "VERIFIED",
+      "display_value": "2,3 l/mn (2x 300hp Mercury, 28 knots)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 37 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Fuel consumption, cruise",
+          "source_value": "2,3 l/nm (2x 300hp Mercury, 28 knots)",
+          "source_unit": "l/nm",
+          "normalized_value": "2,3 l/nm (2x 300hp Mercury, 28 knots)",
+          "normalized_unit": "l/mn",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

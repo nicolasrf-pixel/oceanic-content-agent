@@ -1,0 +1,1742 @@
+{
+ "brand": "Axopar",
+ "source_url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+ "accessed_at": "2026-09-25",
+ "extractor": "tools/oceanic/adapters/axopar.py",
+ "page_title": "Axopar 45 Sun Top",
+ "configurator_id": "7a7ZdBAup06eA45Wp3KZht",
+ "model_year": "2027",
+ "product_group": {
+  "@type": "ProductGroup",
+  "name": "Axopar 45",
+  "url": "https://www.axopar.com/boat-models/axopar-45/"
+ },
+ "country_of_origin": {
+  "@type": "Country",
+  "name": "Finland"
+ },
+ "prices": {
+  "startingPriceEur": 0,
+  "startingPriceUsd": 0,
+  "withEngineEur": 0,
+  "withEngineUsd": 0
+ },
+ "hero": {
+  "title": "Axopar 45 Sun Top",
+  "heading": "Axopar 45 Sun Top",
+  "subheading": "Redefine Your Adventures at Sea",
+  "intro": "The new Axopar 45 Sun Top (ST), designed to be versatile, seamlessly fuses the joys of open-air boating adventures and sheltered comfort for an unforgettable experience on the water. Enjoy the exhilarating sensation behind the wheel, then unwind in one of the spacious social areas onboard.\n\nThe Axopar 45 Sun Top is our interpretation of a perfect day spent out at sea in terms of functionality, drivability, comfort, and safety. It is one of the most comprehensive and versatile boats on the market and a true go-anywhere boat with confident design and performance, ideal for extended explorations and island hopping."
+ },
+ "sections": [
+  {
+   "block_type": "TabsBlock",
+   "title": "The Perfect Balance of Sun and Shade",
+   "intro": "The new Axopar 45 Sun Top is all about sociability and blending the joy of open-air boating adventures with the comfort of sheltered spaces for an unforgettable experience on the water.",
+   "items": [
+    {
+     "name": "Balcony Doors",
+     "title": "Balcony Doors",
+     "text": "Driven by a usability and safety perspective, we chose to locate an innovative new solution, our raised balcony doors, amidships, where all the social activity is centered on the boat, extending usable seating space without sacrificing safety or comfort onboard.",
+     "list": null
+    },
+    {
+     "name": "For Sociable Moments",
+     "title": "For Sociable Moments",
+     "text": "Seven comfortable sports seats that rotate and length-adjustable create a large, sociable seating area together with the extendable dining table. A perfect place to entertain guests and to enjoy a dinner.",
+     "list": null
+    },
+    {
+     "name": "Gullwing Doors",
+     "title": "Gullwing Doors",
+     "text": "The modern-day icons are standard on the 45-range. Forget cramped front cabins with little light; transform your already airy front cabin by opening the gullwing doors and letting the elements in.",
+     "list": null
+    },
+    {
+     "name": "Dual Electric Sunroofs",
+     "title": "Dual Electric Sunroofs",
+     "text": "Bring the outdoors indoors by opening up the dual electric sunroofs, which let plenty of light and breeze inside, whenever you feel like it, of course. ",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "TabsBlock",
+   "title": "Best Drivers Experience",
+   "intro": "Axopar 45 is one of the most economical 45-footers on the market. Powered by triple Mercury V8 300 Verado engines, the Axopar 45 can cruise at speeds between 19 and 35 knots while remaining in the most cost-effective range. The advanced infusion lamination method used to manufacture hull and stringer systems results in a lighter and more fuel-efficient boat.",
+   "items": [
+    {
+     "name": "Drivers Experience",
+     "title": "Drivers Experience",
+     "text": "The bow thruster, trim tabs, and audio system have never been closer. The intelligent steering module gives you control over all of these from the steering wheel.",
+     "list": null
+    },
+    {
+     "name": "Navigation Upgrade Package",
+     "title": "Navigation Upgrade Package",
+     "text": "The adventure just got bigger, so why not opt for the bigger, 16\" Simrad NSS MFD's, with Axopar user interface integrated, a fully customized, innovative and driver focused user interface with integrated vessel startup check, eco/sport driving modes with active driving assistant features as well as entertainment and media control with all controlled and monitored via the intuitive single-touch glass display.",
+     "list": null
+    },
+    {
+     "name": "Significant fuel-consumption gains",
+     "title": "Significant fuel-consumption gains",
+     "text": "A new, sharp entry twin-stepped hull, more efficient than ever, resulting in an ultra-low cruising consumption of 2.4l/nm at 30 knots with 3 x Mercury V8 FourStroke 300hp. Considerable improvements of up to 30% better fuel economy across the 20 to 40 knot speed range.",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "TabsBlock",
+   "title": "Family & Friends Comfort",
+   "intro": "Designed for unforgettable moments with family and friends, the Axopar 45 Sun Top offers everything you need for shared comfort and enjoyment.",
+   "items": [
+    {
+     "name": "U-Sofa",
+     "title": "U-Sofa on Aft Deck",
+     "text": "The stylish U-sofa layout on the aft deck boasts comfortable seats and headrests for sitting back and relaxing. Compartments under the U-sofa’s longitudinal benches and transversal bench provide ample dry storage space with easy access. This option also includes an infill cushion that can transform the U-Sofa into a luxurious full-size sun bed.",
+     "list": null
+    },
+    {
+     "name": "Wet Bar",
+     "title": "Wet Bar",
+     "text": "To make the most of the 45 pilothouse's layout, we decided to create a Wet Bar with a center sofa and a leaning post, turning it into a new, innovative, and functional centerpiece of the pilothouse.",
+     "list": null
+    },
+    {
+     "name": "Aft Cabin",
+     "title": "Extend your adventures with the Aft Cabin",
+     "text": "If you want to go further and stay out longer, while bringing more guests, opt for the optional Aft Cabin, which comfortably accommodates two people and has plenty of storage/space for an additional head compartment. ",
+     "list": null
+    },
+    {
+     "name": "Travel Edition",
+     "title": "Travel Edition Alternative",
+     "text": "Adventurers looking for another level of comfort and storage space during their weekend or long-distance travels will like this new Travel Edition.\n\nThe Travel Edition includes:\n• A modified bed: the foldable sofa is replaced with a permanent bed, two-drawer storage, and two smaller storage underneath.\n• The port-side sofa is replaced with a storage cabinet.",
+     "list": null
+    },
+    {
+     "name": "Wardrobe in Front Cabin",
+     "title": "Wardrobe in Front Cabin",
+     "text": "Hang your clothes and neatly store away your belongings in the wardrobe located in the front cabin, just like at home. ",
+     "list": null
+    },
+    {
+     "name": "Enclosed Head & Shower",
+     "title": "Enclosed Head & Shower Compartment will Full Standing Height",
+     "text": "A redesigned layout creates a bathroom that's 60% larger, with a separate shower area for enhanced comfort and practicality. Increased headroom, thanks to the new GRP design, further elevates the onboard experience, while generous storage solutions keep personal belongings neatly out of sight.",
+     "list": null
+    },
+    {
+     "name": "Wet Bar in Fender Box",
+     "title": "Integrated Wet Bar in fenderbox",
+     "text": "Axopar, fuelled by a passion for innovation, has introduced technical features to enhance the aft deck’s usability. The optional integrated starboard fender box’s grill run by shore power or an optional power bank will make any meal onboard an instant hit, and the 40L fridge ensures cold drinks and snacks are within arm’s reach. A sink with a faucet and storage compartment underneath adds further convenience to life on deck.",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "BannerBlock",
+   "title": "Welcome to the Hull of Fame",
+   "intro": "Every Axopar begins where the boating experience truly begins: below the waterline. Many boaters have learned to accept certain compromises as normal. Our hull-first approach gets the fundamentals right from the start. Since the first Axopar 28 was launched in 2014, this philosophy has shaped our multi-award-winning range, helped create the adventure boating category, and contributed to more than 7,600 Axopar boats being sold worldwide.\n\nDiscover the Hull of Fame and the engineering behind the distinctive Axopar driving experience.",
+   "items": []
+  },
+  {
+   "block_type": "ImageGalleryBlock",
+   "title": "Image Gallery",
+   "intro": null,
+   "items": []
+  },
+  {
+   "block_type": "ModalLiftBlock",
+   "title": "Upgrade Options",
+   "intro": "Elevate your Axopar 45 with the stylish BRABUS Line for a refined, premium look and feel — or choose the BRABUS Performance Line for extra power and exhilarating speed. For those who value ultimate comfort, the Mediterrana Edition and Marine Decking create a luxurious onboard experience, perfect for lounging and entertaining.",
+   "items": [
+    {
+     "title": "BRABUS Line",
+     "text": null,
+     "modal_text": [
+      "BRABUS Line",
+      "The BRABUS Line Option consists of:\n\nSteering wheel set BRABUS (ISM) with Audio and trim tab controls\n\nHandrailing on gullwing doors and console hatch in BRABUS black leather\n\nCleats, black with BRABUS logo\n\nMap pockets, BRABUS Line\n\nMast, black\n\nMast base, black\n\nCarbon monoxide sensors, black\n\n3D Logo on hull, titanium black\n\nSmoke detector, black\n\nHandrails around deck, black"
+     ]
+    },
+    {
+     "title": "BRABUS Line Color Edition",
+     "text": null,
+     "modal_text": [
+      "The BRABUS Line Color Edition",
+      "For style-conscious customers looking to make their Axopar 45 truly stand out, the Brabus Line Color Edition introduces four striking hull colors: the vibrant, playful Miami Blue; the more subtle, sophisticated Platinum Grey. The fresh, contemporary Glacier Blue; and the timeless, elegant Pearl White."
+     ]
+    },
+    {
+     "title": "BRABUS Performance Line",
+     "text": null,
+     "modal_text": [
+      "BRABUS Performance Line",
+      "Axopar 45 Cross Top Brabus Performance Line",
+      "This premium option delivers a dynamic combination of enhanced aesthetics and boosted performance, powered by triple Mercury Verado V10-350 engines, for the ultimate boating experience. Designed to meet the demands of those who seek a superior boating experience, the BRABUS Performance Line fuses cutting-edge design with powerful performance."
+     ]
+    },
+    {
+     "title": "The Mediterrana Edition",
+     "text": null,
+     "modal_text": [
+      "The Mediterrana Edition",
+      "Axopar 45 Cross Top",
+      "Axopar 45 Sun-Top",
+      "Axopar 45 XC Cross Cabin",
+      "Designed for those who enjoy lounging, socializing, or cruising in the sun, the Mediterrana Edition enhances onboard comfort and sophistication without compromising functionality. Luxurious features include thicker, plush, more refined cushions in a sophisticated beige tone. The upholstery’s structured texture and patterns not only exude style but also keep lounging areas cool and comfortable, even on the sunniest days."
+     ]
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "Alternatives For Aft Deck",
+   "intro": "The modular nature of Axopars and our multi-platform approach enable you to customize your boat with an aft layout that suits your everyday needs. As standard, the Axopar 45 Sun Top comes with an Aft Sofa on the aft deck. The aft deck can also be equipped with an optional U-Sofa or an Aft Cabin.",
+   "items": [
+    {
+     "title": "Open Aft",
+     "text": "with standard Silvertex Petrol Upholstery"
+    },
+    {
+     "title": "U-Sofa",
+     "text": "with optional Silvertex Squash Upholstery"
+    },
+    {
+     "title": "Aft Cabin",
+     "text": "with optional Silvertex Hunter Upholstery"
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "Upholstery Colors",
+   "intro": null,
+   "items": [
+    {
+     "title": "Silvertex Petrol",
+     "text": "Standard"
+    },
+    {
+     "title": "Silvertex Squash",
+     "text": null
+    },
+    {
+     "title": "Silvertex Hunter",
+     "text": null
+    },
+    {
+     "title": "Linetex Sphere",
+     "text": null
+    },
+    {
+     "title": "Linetex Dust",
+     "text": null
+    },
+    {
+     "title": "Linetex Chalk",
+     "text": null
+    },
+    {
+     "title": "Seine Pe Taupe",
+     "text": null
+    },
+    {
+     "title": "Seine Pe Natural",
+     "text": null
+    },
+    {
+     "title": "Seine Pe Antracite",
+     "text": null
+    }
+   ]
+  },
+  {
+   "block_type": "VideoGalleryBlock",
+   "title": "Videos Featuring Axopar 45 Sun Top",
+   "intro": null,
+   "items": [
+    {
+     "video_title": " Family Dreams - Adventure Stories | Axopar 45 Sun-Top",
+     "caption": " Family Dreams - Adventure Stories | Axopar 45 Sun-Top"
+    },
+    {
+     "video_title": " ALL NEW Axopar 45 Cross Top and Sun Top: Face-Off Walkthrough",
+     "caption": "ALL NEW Axopar 45 Cross Top and Sun Top: Face-Off Walkthrough"
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "More To Explore",
+   "intro": null,
+   "items": [
+    {
+     "title": "Try Before You Buy",
+     "text": "If you’re ready for the renowned Axopar ride, book a sea trial with your nearest dealer"
+    },
+    {
+     "title": "Set Course for What’s Next",
+     "text": "Catch the latest Axopar moments, model news, and upcoming adventures by signing up for our newsletter."
+    },
+    {
+     "title": "Talk to your dealer about your next Axopar",
+     "text": "After seeing this page, we reckon you might want to speak to a dealer about one, so locate your nearest one with our dealer locator."
+    },
+    {
+     "title": "Read Our Brochure",
+     "text": "If you just can't get enough of Axopar by looking at this page, our brochure is here at your disposal."
+    },
+    {
+     "title": "Read the Axopar 45 Owner's Manual",
+     "text": "Whether you are curious about proper roof maintenance or want to double‑check the technical stuff, you will find it all in the owner’s manual."
+    }
+   ]
+  }
+ ],
+ "technical_specifications": [
+  {
+   "name": "Category",
+   "value": "B – Offshore, C - Coastal"
+  },
+  {
+   "name": "Hull design",
+   "value": "Twin stepped 22 degree V “Sharp entry hull”"
+  },
+  {
+   "name": "Outboard engines",
+   "value": "2 x 425 hp / 3 x 300 hp / 3 x 350 hp"
+  },
+  {
+   "name": "Max speed range",
+   "value": "50 kts"
+  },
+  {
+   "name": "Construction",
+   "value": "GRP"
+  },
+  {
+   "name": "Passengers",
+   "value": "B:12 / C:16"
+  },
+  {
+   "name": "Draft to props",
+   "value": "1,2 m (3ft 11in)"
+  },
+  {
+   "name": "Fuel capacity",
+   "value": "1390 l (368 gal)"
+  },
+  {
+   "name": "Beam",
+   "value": "4,11 m (13ft 6in)"
+  },
+  {
+   "name": "Berths",
+   "value": "2 persons (with optional aft cabin 2+2)"
+  },
+  {
+   "name": "Overall Length (excl. Engine)",
+   "value": "13,91 m (45ft 8in)"
+  },
+  {
+   "name": "Fuel consumption, cruise",
+   "value": "4,1 l/nm (3 x 300 hp Mercury, 25 knots)"
+  },
+  {
+   "name": "Weight (excl. Engine)",
+   "value": "7300 kg / 16 093 lbs"
+  }
+ ],
+ "standard_equipment": [
+  {
+   "name": "Wheelhouse / Cockpit",
+   "description": "- Dual electrically operated canvas roofs with harbor covers.\r\n- Upholstery in Silvertex Petrol with Seine piping.\r\n- Foldable light mast in white painted aluminum with anchor light.\r\n- Pilot and 2x co-pilots seats with flip-up bolsters and swivel base with two large drawers and remote battery switches in seat base.\r\n- Wide aft sofa with storage units.\r\n- Wetbar with sink and faucet and a 65l drawer refrigerator.\r\n- Upholstered, aft-facing sofa around wetbar.\r\n- Wide, foldable hi-lo table between aft bench and wetbar.\r\n- Recessed led roof lights and hidden speakers.\r\n- Integrated windscreen wipers with separate reservoir. - Grabrails along both sides of the roof.\r\n- Clean helm layout with control switch panel in glass with illuminated push switches.\r\n- Twin 12” Simrad glass bridge display.\r\n- Intelligent steering module (ISM) steering wheel in leather with integrated controls for audio, trim tabs and bow thruster.\r\n- Integrated windscreen wipers with separate reservoir.\r\n- Lockable access hatch to front cabin with grab rail in leather.\r\n- Fire and CO2 alarms."
+  },
+  {
+   "name": "Hull and Deck",
+   "description": "- Hand laminated hull in GRP with vinylester resin for the first coat for osmosis prevention.\r\n- Vacuum infused stringers and 45” Twin-stepped hull with sharp entry bow, bow thruster, and integrated engine brackets for 3 x Mercury V8 300hp outboard engines.\r\n- Trim tabs and underwater lights on transom.\r\n- Axopar 3D signature chrome logo and openable balcony doors on both sides of hull.\r\n- Hand laminated self draining walk around deck with anti-skid finishing and deck lights.\r\n- All hardware, pulpits, side rails, high handled bathing ladder, telescopic bathing ladder, locks, hinges, filler caps, 8 x cleats and cockpit grab rail in 316 stainless steel.\r\n- Hooking points for safety harness and 2 large fender storages on the open aft deck and battery / electrical compartment underneath.\r\n- Shower on aft deck.\r\n- LED navigation lights in bow.\r\n- Anchor hatch with dual shore power inlets connected to battery charger.\r\n- Sofa on fore deck in Silvertex Petrol with Seine piping upholstery and harbor cover.\r\n- Complete boat in Axopar white gelcoat."
+  },
+  {
+   "name": "General",
+   "description": "- Freshwater system.\r\n- Fire and CO2 alarms."
+  },
+  {
+   "name": "Front Cabin",
+   "description": "- Elegant Wish upholstered matrasses and cushions, interior panels in light oak, table tops in wenge colored wood.\r\n- Queen sized bed which when flipped up transforms the separated sofas into a U-sofa.\r\n- Upholstered roof and wall panels in modern felt material.\r\n- 2 x roof mounted speakers.\r\n- Gullwing doors.\r\n- Sink and faucet, wardrobe, recessed led roof lights, reading lights and ambient lighting in roof and on floor.\r\n- Fire and CO2 alarms.\r\n- Carpet on Floor and Stairs.\r\n\r\n- Separate toilet compartment with toilet, mirror, cabinet, shower and sink.\r\n- Freshwater system is included."
+  }
+ ],
+ "optional_equipment": [
+  {
+   "name": "Fuel System",
+   "description": " - Fuel System, 45, EU, Triple Engine V8\r\n - Fuel System, 45, EPA, Triple Engine V8\r\n - Fuel System, 45, EU, Twin Engine V10\r\n - Fuel System, 45, EPA, Twin Engine V10\r\n - Fuel System, 45, 1300, EU, Triple V10\r\n - Fuel System, 45, 1300, EPA, Triple V10"
+  },
+  {
+   "name": "BRABUS Line",
+   "description": " - Brabus Line Trim Package - ST\r\n - Brabus Line Color Edition Platinum Grey\r\n - Brabus Line Color Edition Miami Blue"
+  },
+  {
+   "name": "Module Selection Stern",
+   "description": " - Aft Deck, Bench - ST/XT\r\n - Aft Deck, Cabin - ST/XT\r\n - Aft Deck, U-sofa - ST/XT\r\n - Cushion for aft bench, Mediterrana Taupe\r\n - Cushion for aft bench, Mediterrana Anthracite\r\n - Cushion for aft bench, Petrol\r\n - Sundeck cushions for aft cabin, Petrol - ST/XT\r\n - Sundeck Cushions for Aft Cabin, Mediterrana - ST/XT\r\n - Sundeck cushions for aft cabin, Mediterrana Anthracite- ST/XT\r\n - Sundeck cushions for aft cabin, Mediterrana Natural- ST/XT\r\n - Cushions for U-sofa, Petrol - ST/XT\r\n - Cushions for U-sofa, Mediterrana - ST/XT\r\n - Cushions for U-sofa, Mediterrana Anthracite- ST/XT\r\n - Cushions for U-sofa, Mediterrana Natural- ST/XT"
+  },
+  {
+   "name": "Power Management and Systems",
+   "description": " - Axopar 45 EU Version\r\n - Axopar 45 US Version\r\n - Li-Ion 920Ah Battery Bank - Twin V10,  Triple V8\r\n - Li-Ion 920Ah Battery Bank - Triple V10\r\n - Solar Panel - ST/XT\r\n - Water Heater, 230V\r\n - Water Heater, 110V\r\n - Raw Water System"
+  },
+  {
+   "name": "Exterior Options",
+   "description": " - Antifouling, grey\r\n - Antifouling, white\r\n - Rub Rail, Black\r\n - Sunshade, Front Deck\r\n - Sunshade, Aft Deck\r\n - Roof Racks, white - ST/XT\r\n - Roof Racks, Brabus Line, black - ST/XT\r\n - Grab Rail with Fish rod Holders, polished - ST/XT\r\n - Grab Rail with Fish rod Holders, Brabus Line, black - ST/XT\r\n - Waterski Frame, Triple Engine, polished\r\n - Waterski Frame, Triple, Brabus Line, black\r\n - Waterski Frame, Twin Engine\r\n - Waterski Frame, Twin Engine, Brabus Line, black\r\n - Engine Frame Triple Engine, polished, US\r\n - Engine Frame Triple Engine, black, US\r\n - Engine Frame Twin Engine, polished, US\r\n - Engine Frame Twin Engine, black, US\r\n - Aft Deck, Gates\r\n - Aft Deck, Gates, without Wet Bar in Fender Box"
+  },
+  {
+   "name": "Cushion Set",
+   "description": " - Seats and Upholstery, Petrol - ST/XT\r\n - Comfort package, Petrol\r\n - Cushion for aft bench, Petrol\r\n - Sundeck cushions for aft cabin, Petrol - ST/XT\r\n - Cushions for U-sofa, Petrol - ST/XT\r\n - Comfort package, Hunter\r\n - Comfort package, Squash\r\n - Comfort Package, Sphere\r\n - Comfort package, Dust\r\n - Comfort package, Chalk\r\n - The Mediterrana Edition Taupe - ST/XT\r\n - The Mediterrana Edition Natural - ST/XT\r\n - The Mediterrana Edition Anthracite - ST/XT\r\n - Sundeck Cushions for Aft Cabin, Mediterrana - ST/XT\r\n - Cushions for U-sofa, Mediterrana - ST/XT\r\n - Cushion for aft bench, Mediterrana Taupe"
+  },
+  {
+   "name": "Layout Interior",
+   "description": " - Travel Package, Front Cabin\r\n - Toilet, Aft Cabin\r\n - Helm Sofa Mediterrana Taupe\r\n - Helm Sofa Mediterrana Anthracite\r\n - Helm Sofa Mediterrana Natural"
+  },
+  {
+   "name": "Onboard Comfort",
+   "description": " - Stabilizer, Gyroscope, Quick MC2 X10 DC\r\n - Additional 65l fridge on wet bar - ST/XT\r\n - Fridge, Additional Drawer Port Fridge\r\n - Fridge, Additional Starboard Drawer Fridge\r\n - Electric Grill on Wet bar 110V - ST/XT\r\n - Electric Grill on Wet bar 230V - ST/XT\r\n - Induction Cooktop on Wet bar, 110V - ST/XT\r\n - Induction Cooktop on Wet bar, 230V - ST/XT\r\n - Wet Bar in Fenderbox\r\n - Barbecue Grill on Fender box Wet bar, 230V\r\n - Barbecue Grill on Fender box Wet bar, 110V\r\n - Heating, Front Cabin, Webasto\r\n - Heating, Aft Cabin, Webasto\r\n - Air Condition, Front Cabin, Velair, 230V\r\n - Air Condition, Outlet Aft Cabin\r\n - Air Condition, Outlet Toilet Aft Cabin"
+  },
+  {
+   "name": "Operation",
+   "description": " - Axopar Connectivity\r\n - Windlass, Bow, folding\r\n - Windlass, Bow, fixed\r\n - Axopar Safety Bag\r\n - Mooring Package\r\n - Explorer Lights\r\n - LED Searchlight, with Remote Control"
+  },
+  {
+   "name": "Entertainment",
+   "description": " - Basic Sound System, JL Audio - ST/XT\r\n - Basic Sound System with Aft Cabin - ST/XT\r\n - Premium Sound System, JL Audio - ST/XT\r\n - Premium Sound System with Aft Cabin - ST/XT\r\n - Sound System, Remote Control, Front Cabin"
+  },
+  {
+   "name": "Navigation Options",
+   "description": " - Chartplotter SimradNSX 12\", Twin\r\n - Chartplotter SimradNSO4 16\" Twin with Connectivity\r\n - Radar Simrad HALO20+\r\n - Echo Sounder, Active Imaging 3-in-1\r\n - Echo Sounder, Thru Hull\r\n - VHF Simrad RS100B\r\n - Reverse / Aft Deck Camera\r\n - Night Vision Camera, Front, white\r\n - Night Vision Camera, Front, black\r\n - Mercury First Mate - Dual Engine\r\n - Mercury First Mate - Triple Engine\r\n - Starlink mini AX45\r\n - Chartplotter SimradNSS4 16\" Twin with Connectivity\r\n - Chartplotter SimradNSX 9\" at Helm"
+  },
+  {
+   "name": "Logistics",
+   "description": " - Preparation for Overseas Shipping - Axopar 45\r\n - Dealer Factory Pickup with Foam Cradle"
+  },
+  {
+   "name": "Pre-Rigging",
+   "description": " - Pre rig, Triple, Mercury Verado V10, JPO Performance Line\r\n - Pre rig, Triple, Mercury Verado V8, DTS\r\n - Pre rig, Triple, Mercury Verado V8, JPO\r\n - Pre rig, Dual, Mercury Verado V10, DTS\r\n - Pre rig, Dual, Mercury Verado V10, JPO\r\n - Pre rig, Triple, Mercury Verado V10, DTS Perfomance Line"
+  },
+  {
+   "name": "Pre-Rigging",
+   "description": " - Pre rig, Triple, Mercury Verado V10, JPO Performance Line\r\n - Pre rig, Triple, Mercury Verado V8, DTS\r\n - Pre rig, Triple, Mercury Verado V8, JPO\r\n - Pre rig, Dual, Mercury Verado V10, DTS\r\n - Pre rig, Dual, Mercury Verado V10, JPO\r\n - Pre rig, Triple, Mercury Verado V10, DTS Perfomance Line"
+  }
+ ],
+ "range": [
+  "Axopar 45 Sun Top",
+  "Axopar 45 Cross Top",
+  "Axopar 45 XC Cross Cabin"
+ ],
+ "images": [
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTc5NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-45-Sun-Top-6802",
+   "file_name": "Axopar-45-Sun-Top-6802.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-01-05T12:29:52.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/QntPbkhsbBSqSG5aNXud.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE3OTYsInRpbWVzdGFtcCI6MTc2NzYxNjIyNiwidmVyc2lvbiI6MTc2NzYxNjE5Mn0:axopar:3t33jCbY7RFCYhTjTJ5Rsb7IdqydvLJgGRimOfEgaq0/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "axopar45",
+    "axopar45st",
+    "cannes",
+    "france",
+    "my24",
+    "out"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "MediaBannerBlock",
+    "block_title": null
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTUxOSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_XT_Cross_Top_BRABUS_Line-6170",
+   "file_name": "Axopar_45_XT_Cross_Top_BRABUS_Line-6170.jpg",
+   "ext": "jpg",
+   "width": 7907,
+   "height": 5274,
+   "created": "2025-12-16T07:35:53.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/wFVtbcL1tLtepjC87RHF.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MTksInRpbWVzdGFtcCI6MTc2NTg3MDYyNywidmVyc2lvbiI6MTc2NTg3MDU1M30:axopar:qMLWR8KxMbk5TOBXVZnV62_UfV1PgcmC_7WIaBuAQVo/download",
+   "tags": [
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "cannes",
+    "france",
+    "my24",
+    "out"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Balcony Doors",
+    "item_title": "Balcony Doors"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTUyMSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 45 Sun-Top_MY24_DSCF5575",
+   "file_name": "Axopar 45 Sun-Top_MY24_DSCF5575.jpg",
+   "ext": "jpg",
+   "width": 6132,
+   "height": 8176,
+   "created": "2025-12-16T07:47:21.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/zudQFpBMnRHk3MoBrDzt.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjEsInRpbWVzdGFtcCI6MTc2NTg3MTI5OCwidmVyc2lvbiI6MTc2NTg3MTI0MX0:axopar:-13hTri1m5mJSqf4TVcV1Cw7Ixk2Hzq4YI0l3scrxig/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "inside",
+    "italy",
+    "my24"
+   ],
+   "copyright_notice": "Axopar Boats 2023 ©",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "For Sociable Moments",
+    "item_title": "For Sociable Moments"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTc0LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Sun-Top_MY24_DSCF5647",
+   "file_name": "Axopar 45 Sun-Top_MY24_DSCF5647.jpg",
+   "ext": "jpg",
+   "width": 7399,
+   "height": 5549,
+   "created": "2025-10-16T11:44:44.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/tn7zrcdjhvWySRSU1kky.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE3NCwidGltZXN0YW1wIjoxNzY1ODcwODg2LCJ2ZXJzaW9uIjoxNzYwNjE1MDg0fQ:axopar:OnODxVgLwUTmaXkYzN6uR9TMuL9D4kBOHyZlrsYqR0s/download",
+   "tags": [
+    "45stlaunchcyf23",
+    "45stxtlaunchcyf23",
+    "ax45",
+    "ax45st",
+    "axopar",
+    "ins",
+    "italy",
+    "my24"
+   ],
+   "copyright_notice": "Axopar Boats 2023 ©",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Gullwing Doors",
+    "item_title": "Gullwing Doors"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3MSwidHlwZSI6ImFzc2V0In0=",
+   "title": "45_HL_0009_Axopar-45-XC_C4A8974",
+   "file_name": "45_HL_0009_Axopar-45-XC_C4A8974.jpg",
+   "ext": "jpg",
+   "width": 1200,
+   "height": 800,
+   "created": "2025-11-28T08:20:50.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/pPi6uQ49p3HJeBje43fk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzEsInRpbWVzdGFtcCI6MTc2NDMxODI1MywidmVyc2lvbiI6MTc2NDMxODA1MH0:axopar:kQVb-Q_rqx-XbD-P0nV3Fh_p-RuJQDTN4rRYXwk5ud0/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Dual Electric Sunroofs",
+    "item_title": "Dual Electric Sunroofs"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNTEyLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 XC Cross Cabin_099A3963",
+   "file_name": "Axopar 45 XC Cross Cabin_099A3963.jpg",
+   "ext": "jpg",
+   "width": 6820,
+   "height": 4549,
+   "created": "2025-10-16T11:51:41.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ECGVErsMrp2BF7ZrhNVf.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzUxMiwidGltZXN0YW1wIjoxNzY0MzE4NjUxLCJ2ZXJzaW9uIjoxNzYwNjE1NTAxfQ:axopar:ELMaobGq5SSj9K4LWuVUDaPbbscBRDANklPFuInRIUE/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "france",
+    "ins",
+    "my26"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Drivers Experience",
+    "item_title": "Drivers Experience"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNTU1LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 XC Cross Cabin_099A3936",
+   "file_name": "Axopar 45 XC Cross Cabin_099A3936.jpg",
+   "ext": "jpg",
+   "width": 7534,
+   "height": 5025,
+   "created": "2025-10-16T11:52:25.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/stJv1amiFb4xbEPQpJmz.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzU1NSwidGltZXN0YW1wIjoxNzY1MTk5Mzk1LCJ2ZXJzaW9uIjoxNzYwNjE1NTQ1fQ:axopar:zwFH6PoML3w3PfTHu9po-dZM6aldGwAKIdvaTqPeR9Y/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "france",
+    "ins",
+    "my26"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Navigation Upgrade Package",
+    "item_title": "Navigation Upgrade Package"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTU5LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Sun-Top_MY24_DJI_0298",
+   "file_name": "Axopar 45 Sun-Top_MY24_DJI_0298.jpeg",
+   "ext": "jpeg",
+   "width": 5188,
+   "height": 3885,
+   "created": "2025-10-16T11:44:31.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/oXBWxMz7SR8wD3Ao942K.jpeg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE1OSwidGltZXN0YW1wIjoxNzY1ODcxODE1LCJ2ZXJzaW9uIjoxNzYwNjE1MDcxfQ:axopar:Z5adVLQF-FpakyYuJOtgvoiZqbdoJU9y2Y0EEoikyuE/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "italy",
+    "my24",
+    "out"
+   ],
+   "copyright_notice": "Axopar Boats 2023 ©",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Significant fuel-consumption gains",
+    "item_title": "Significant fuel-consumption gains"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTI4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Cross Top (17)",
+   "file_name": "Axopar 45 Cross Top (17).jpg",
+   "ext": "jpg",
+   "width": 7628,
+   "height": 5088,
+   "created": "2025-10-16T11:43:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/tgTJJM1bxMJZn6zi6ZpJ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyOCwidGltZXN0YW1wIjoxNzY1ODcyMDU2LCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:9xOD42FQlo8NOSag8XnqCtMqULVV8VxNDznEhC6EsJY/download",
+   "tags": [
+    "45stxtlaunchcyf23",
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "france",
+    "ins",
+    "my24"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "U-Sofa on Aft Deck",
+    "item_title": "U-Sofa on Aft Deck"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMjIyLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_45_ST_Q9A1101",
+   "file_name": "Axopar_45_ST_Q9A1101.jpeg",
+   "ext": "jpeg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:45:45.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/w8y3KeAxiuifCCCaRr7R.jpeg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzIyMiwidGltZXN0YW1wIjoxNzY1ODY5NjY4LCJ2ZXJzaW9uIjoxNzYwNjE1MTQ1fQ:axopar:-kPpwxtq4FYacD53Ao3b6BizV64hNLA_kkCXN6l6BL0/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "france",
+    "ins",
+    "lifestyle",
+    "my24"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Wet Bar",
+    "item_title": "Wet Bar"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNjI4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_45_Travel_Edition-0934",
+   "file_name": "Axopar_45_Travel_Edition-0934.jpg",
+   "ext": "jpg",
+   "width": 5392,
+   "height": 3595,
+   "created": "2025-10-16T11:53:28.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ezRgqknujYZyMZzHtGD5.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzYyOCwidGltZXN0YW1wIjoxNzY1MTk4NjI3LCJ2ZXJzaW9uIjoxNzYwNjE1NjA4fQ:axopar:_Bv_B3K0eFo3-rZoZX-RLEGAD7I5CBy5LbzWCeFrtws/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Extend your adventures with the Aft Cabin",
+    "item_title": "Extend your adventures with the Aft Cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNjE3LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_45_Travel_Edition-0929",
+   "file_name": "Axopar_45_Travel_Edition-0929.jpg",
+   "ext": "jpg",
+   "width": 5244,
+   "height": 3496,
+   "created": "2025-10-16T11:53:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/9WvvTPQ55Rzj87aieBFM.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzYxNywidGltZXN0YW1wIjoxNzY1MTk4NzY2LCJ2ZXJzaW9uIjoxNzYwNjE1NTk4fQ:axopar:f9GS8-pbEoqx9vMpopLBZYy2AdysqIvZ6u-q0208qZo/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Travel Edition Alternative",
+    "item_title": "Travel Edition Alternative"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3MiwidHlwZSI6ImFzc2V0In0=",
+   "title": "45_HL_0005_Axopar-45-XC_C4A8686",
+   "file_name": "45_HL_0005_Axopar-45-XC_C4A8686.jpg",
+   "ext": "jpg",
+   "width": 1200,
+   "height": 800,
+   "created": "2025-11-28T08:45:12.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/4KqY1f5DQqYnHBnF3tMN.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzIsInRpbWVzdGFtcCI6MTc2NDMxOTY0MiwidmVyc2lvbiI6MTc2NDMxOTUxMn0:axopar:YsbmFTGzS4j1TJSCeN1RkXVdxqun5bn7xKnjOvaDjd4/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Wardrobe in Front Cabin",
+    "item_title": "Wardrobe in Front Cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxODM3NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45-DSC02368",
+   "file_name": "Axopar_45-DSC02368.jpg",
+   "ext": "jpg",
+   "width": 6776,
+   "height": 4517,
+   "created": "2026-09-23T04:34:14.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/BCnPVuuYYFNzZirLnqKH.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzYsInRpbWVzdGFtcCI6MTc5MDEzODE2MSwidmVyc2lvbiI6MTc5MDEzODA1NH0:axopar:fpwAqhfG_-gL3qN8NEbKki1AwqNa0F6Tx7vlSsK_oiM/download",
+   "tags": [
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "cannes",
+    "france",
+    "ins",
+    "my27"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Enclosed Head & Shower Compartment will Full Standing Height",
+    "item_title": "Enclosed Head & Shower Compartment will Full Standing Height"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNDQzLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 XC Mediterrana_C4A6144",
+   "file_name": "Axopar 45 XC Mediterrana_C4A6144.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:50:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/EMBnQRo3kZDqYQ5p5a27.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzQ0MywidGltZXN0YW1wIjoxNzY1MTk3ODI1LCJ2ZXJzaW9uIjoxNzYwNjE1NDE5fQ:axopar:5glkvt3LSnhTTkQOcN-VELGBS7nyU3a_li2Kc797FNU/download",
+   "tags": [
+    "45xcusofalaunchcyf22",
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "france",
+    "ins",
+    "my22"
+   ],
+   "copyright_notice": "© 2022 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Integrated Wet Bar in fenderbox",
+    "item_title": "Integrated Wet Bar in fenderbox"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTUzNCwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX45_XT_Efoil_Q9A9077",
+   "file_name": "AX45_XT_Efoil_Q9A9077.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-12-17T11:20:17.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/b7Mu38NMz9i1V7QA9jRY.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MzQsInRpbWVzdGFtcCI6MTc2NzYxNzI5NywidmVyc2lvbiI6MTc2NTk3MDQxN30:axopar:nMHst__nMgq6QryVxr3n-bCJxh8Wbdg365CkkFPXqnc/download",
+   "tags": [],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "MediaBannerBlock",
+    "block_title": null
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzUwNCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-45-Sun-Top--22",
+   "file_name": "Axopar-45-Sun-Top--22.jpg",
+   "ext": "jpg",
+   "width": 7352,
+   "height": 4904,
+   "created": "2026-08-14T04:37:35.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/v91dArqZJrLfbFQjxmB3.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MDQsInRpbWVzdGFtcCI6MTc4NjcwNzAyMSwidmVyc2lvbiI6MTc4NjY4MjI1NX0:axopar:9LYUXJ1ICpAlaU246RTB07AxDt15bg-Y8NOwVq58cVQ/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "axopar45",
+    "axopar45st",
+    "cannes",
+    "france",
+    "my24",
+    "out"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxODM3NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45-DSC02392",
+   "file_name": "Axopar_45-DSC02392.jpg",
+   "ext": "jpg",
+   "width": 6977,
+   "height": 4651,
+   "created": "2026-09-23T04:24:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/RG1rmEMtvj5RMciZUh8o.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzQsInRpbWVzdGFtcCI6MTc5MDEzNzc0MiwidmVyc2lvbiI6MTc5MDEzNzQ1OH0:axopar:C2mVc37SRVrou-xEPTmqj8RmzFcbAOpX-m8TTgW6DhI/download",
+   "tags": [
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "cannes",
+    "france",
+    "ins",
+    "my27"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzUwOCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_ST_K0A0144",
+   "file_name": "Axopar_45_ST_K0A0144.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-08-14T10:49:24.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/3v5Gn2yzNGXD3FhapatY.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MDgsInRpbWVzdGFtcCI6MTc4NjcwNzcwMiwidmVyc2lvbiI6MTc4NjcwNDU2NH0:axopar:-3JC8_FdlHyc0UuE8ugEsYYYSgswsT2qK_PQsnRZK2Y/download",
+   "tags": [
+    "axopar",
+    "axopar 45 sun top",
+    "cannes 2023",
+    "day 02"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzUwOSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_STDJI_0473_Axedit",
+   "file_name": "Axopar_45_STDJI_0473_Axedit.png",
+   "ext": "png",
+   "width": 5464,
+   "height": 8192,
+   "created": "2026-08-14T11:23:59.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/kz7cwMff5FQM4rtK5eg2.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MDksInRpbWVzdGFtcCI6MTc4NjcwNzEzMCwidmVyc2lvbiI6MTc4NjcwNjYzOX0:axopar:CZ-7yEBlCaSDtAl1shNCL2-PFNx8sJsHATOHIgdUUsQ/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxODM3NSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45-DSC02381",
+   "file_name": "Axopar_45-DSC02381.jpg",
+   "ext": "jpg",
+   "width": 4672,
+   "height": 7008,
+   "created": "2026-09-23T04:24:21.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/JewNhVx65XpADtoxVpHz.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzUsInRpbWVzdGFtcCI6MTc5MDEzNzgzNywidmVyc2lvbiI6MTc5MDEzNzQ2MX0:axopar:fN-gxQCJhXQNQY5iYZfA85X8sQ_94Sn4kKqczVH7xE4/download",
+   "tags": [
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "cannes",
+    "france",
+    "ins",
+    "my27"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzUwNywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_STDJI_0444",
+   "file_name": "Axopar_45_STDJI_0444.jpg",
+   "ext": "jpg",
+   "width": 5272,
+   "height": 3948,
+   "created": "2026-08-14T05:27:04.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/BQ6fdddJB6N7tcRP46BV.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MDcsInRpbWVzdGFtcCI6MTc4NjcwNzI5MiwidmVyc2lvbiI6MTc4NjY4NTIyNH0:axopar:zjU7f8PH34dKLKnbb-5JFVM1W4w36XM0nc78hrHuX3Q/download",
+   "tags": [
+    "axopar",
+    "axopar 45 sun top",
+    "cannes 2023",
+    "day 02"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzUwNSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-45-Sun-Top-6741",
+   "file_name": "Axopar-45-Sun-Top-6741.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-08-14T04:45:54.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/pwwJ5uWycfNETXc8pzAV.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MDUsInRpbWVzdGFtcCI6MTc4NjcwNzYzOSwidmVyc2lvbiI6MTc4NjY4Mjc1NH0:axopar:4ip124LjQZwfRa7CKrWSJ73lJgn__1uPiGGSz1fvfyc/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "axopar45",
+    "axopar45st",
+    "cannes",
+    "france",
+    "my24",
+    "out"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Image Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3NSwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX45BL_SW_1",
+   "file_name": "AX45BL_SW_1.webp",
+   "ext": "webp",
+   "width": 960,
+   "height": 803,
+   "created": "2025-11-28T10:54:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/jCpRbQV2yZhToGUxnQY9.webp",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzUsInRpbWVzdGFtcCI6MTc2NDkzNTM1NiwidmVyc2lvbiI6MTc2NDMyNzI1OH0:axopar:L1rYvTR4vL7DvcVd9Nmd3Uw7s1vzXtWBubnNL2ldOEw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3MywidHlwZSI6ImFzc2V0In0=",
+   "title": "45BL_0002_Axopar_45-4435",
+   "file_name": "45BL_0002_Axopar_45-4435.webp",
+   "ext": "webp",
+   "width": 960,
+   "height": 803,
+   "created": "2025-11-28T10:54:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/s249qLcg9Xqx78RPXUfL.webp",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzMsInRpbWVzdGFtcCI6MTc2NDMyNzMxOSwidmVyc2lvbiI6MTc2NDMyNzI1OH0:axopar:MvxGBdO70GjnegyAPfwJNUtMAyk8EZrqO_hKR0aN8qU/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRABUS Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "45BL_0001_BRABUS_Line-5770",
+   "file_name": "45BL_0001_BRABUS_Line-5770.webp",
+   "ext": "webp",
+   "width": 960,
+   "height": 803,
+   "created": "2025-11-28T10:54:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/7UqZEHvqiVkH37ukgWuL.webp",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzQsInRpbWVzdGFtcCI6MTc2NDMyNzMxOSwidmVyc2lvbiI6MTc2NDMyNzI1OH0:axopar:E1QAaTgVmnEm8uizS7oaO1mQSGtBFAq5ucm0NGZ5-Rw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRABUS Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDg3NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "28-gallery-4",
+   "file_name": "28-gallery-4.jpg",
+   "ext": "jpg",
+   "width": 960,
+   "height": 402,
+   "created": "2025-11-28T10:54:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/tfEoJZkTV1Au2UotPKuW.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4NzYsInRpbWVzdGFtcCI6MTc2NDMyNzMxOSwidmVyc2lvbiI6MTc2NDMyNzI1OH0:axopar:7Hei8fZjF4otHDTXYWBL5zDkvJsti3dyHGeNn8OfCCw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRABUS Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDQ1NywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_Sun_Top_Miami_Blue",
+   "file_name": "Axopar_45_Sun_Top_Miami_Blue.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-16T07:48:20.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/gRkYW7QdoA5mfSfr2nYe.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTcsInRpbWVzdGFtcCI6MTc3MzY1MTAxNywidmVyc2lvbiI6MTc3MzY0NzMwMH0:axopar:ZnJ9VlgUOD1AjgCEG1enqLsRVViEUcGj-pRGgfDjmxU/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDQ1NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_Sun_Top_Platinum_Grey",
+   "file_name": "Axopar_45_Sun_Top_Platinum_Grey.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-16T07:48:20.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/H8t3dgJtsdQnWcdzmmg4.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTYsInRpbWVzdGFtcCI6MTc4NjUyMDY5OSwidmVyc2lvbiI6MTc3MzY0NzMwMH0:axopar:GM_kkXUuGNFVSDQLvn5pLGrQzYyjZUpy2ShmJVhZ3bI/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The BRABUS Line Color Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzQ3NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_Sun_Top_Glacier_Blue",
+   "file_name": "Axopar_45_Sun_Top_Glacier_Blue.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-08-12T07:21:57.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/W5SJb3LXUUtZTiQvEVu9.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzQsInRpbWVzdGFtcCI6MTc4NjUyMDY5OSwidmVyc2lvbiI6MTc4NjUxOTMxN30:axopar:eEbs3lnqFwRGh5CyPLQcCZS8nA6y-JdP3bTs_JfK8FY/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The BRABUS Line Color Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzQ3NSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_Sun_Top_Pearl_White",
+   "file_name": "Axopar_45_Sun_Top_Pearl_White.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-08-12T07:21:57.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/7AhKn6weHZswvpBQFAgd.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzUsInRpbWVzdGFtcCI6MTc4NjUyMDY5OSwidmVyc2lvbiI6MTc4NjUxOTMxN30:axopar:09u5DU4Y6Py6macIB-JsYn2FTi4MGLWpmPYKcj6syMk/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The BRABUS Line Color Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTA2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Cross Top BRABUS Performance Line_099A2832",
+   "file_name": "Axopar 45 Cross Top BRABUS Performance Line_099A2832.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:42:48.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/tpy3Xr6wYdLX2vsXvrAJ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwNiwidGltZXN0YW1wIjoxNzY1MjAwMzA5LCJ2ZXJzaW9uIjoxNzYwNjE0OTY4fQ:axopar:uwAaFH_nvEnQ-HWe-M3vxK_QpafmjXVGwZ9Up3WWmHM/download",
+   "tags": [
+    "ax45",
+    "ax45perfline",
+    "ax45xt",
+    "axopar",
+    "germany",
+    "my25",
+    "out"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTA4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Cross Top BRABUS Performance Line_099A2774",
+   "file_name": "Axopar 45 Cross Top BRABUS Performance Line_099A2774.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:42:52.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/hD38gFM6fhxgux9sfR45.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download",
+   "tags": [
+    "ax45",
+    "ax45perfline",
+    "ax45xt",
+    "axopar",
+    "germany",
+    "my25",
+    "out"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRABUS Performance Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMjIxLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_45_ST_Q9A2127",
+   "file_name": "Axopar_45_ST_Q9A2127.jpeg",
+   "ext": "jpeg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:45:45.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/MM7JGXy5Ls8TSwmhNxrW.jpeg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzIyMSwidGltZXN0YW1wIjoxNzc1MTA3NDk1LCJ2ZXJzaW9uIjoxNzYwNjE1MTQ1fQ:axopar:HIVcsWd55Xv5EjfloXgC0Tha08a-KX7MlNHwEniKxCY/download",
+   "tags": [
+    "ax45",
+    "ax45st",
+    "axopar",
+    "france",
+    "ins",
+    "my24"
+   ],
+   "copyright_notice": "All materials are the property of Axopar Boats and BRABUS Marine and are protected by copyright.\nThe materials may be used free of charge for editorial purposes, as well as by authorized dealers and partners for marketing and sales-related communications. Any other commercial use requires prior written permission.\nThe materials must not be used in a misleading or unlawful manner and may not be distributed to unauthorized third parties. Logos and brand assets may not be altered.\nUnless otherwise stated, Axopar/BRABUS Marine must be credited as the source.",
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTI2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 Cross Top (20)",
+   "file_name": "Axopar 45 Cross Top (20).jpg",
+   "ext": "jpg",
+   "width": 8076,
+   "height": 5387,
+   "created": "2025-10-16T11:43:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/7ag6BgnLB2JC2pWPk8LA.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyNiwidGltZXN0YW1wIjoxNzc0OTcxODk3LCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:I7km1ue17MpdkY939dVXtHeEeJ1sbiNNqpqTpjcURtQ/download",
+   "tags": [
+    "ax45",
+    "ax45xt",
+    "axopar",
+    "france",
+    "ins",
+    "my24"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMzA4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 XC_C4A9764",
+   "file_name": "Axopar 45 XC_C4A9764.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:47:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/L2sDeqwH74yg5UDYkoCV.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzMwOCwidGltZXN0YW1wIjoxNzc0OTcyNzIzLCJ2ZXJzaW9uIjoxNzYwNjE1MjM4fQ:axopar:hACXLUy4AIpzBMz_XqAXa6_nAN21x3-Tq9tByabEEJw/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "ins",
+    "mallorca",
+    "my22",
+    "spain"
+   ],
+   "copyright_notice": "© 2022 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozNDQ2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 XC Mediterrana_C4A5937",
+   "file_name": "Axopar 45 XC Mediterrana_C4A5937.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T11:50:22.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/6dGYEfEErizZQy34HhPY.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzQ0NiwidGltZXN0YW1wIjoxNzc0OTcyMTg2LCJ2ZXJzaW9uIjoxNzYwNjE1NDIyfQ:axopar:CNCgSSkrzePgrfUbBFcapKQkbmipewB0wY66CT6IvU8/download",
+   "tags": [
+    "ax45",
+    "ax45xc",
+    "axopar",
+    "france",
+    "ins",
+    "my22"
+   ],
+   "copyright_notice": "© 2022 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzYxNCwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX45STXT_Open_Aft",
+   "file_name": "AX45STXT_Open_Aft.png",
+   "ext": "png",
+   "width": 1476,
+   "height": 1875,
+   "created": "2026-08-31T06:35:01.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ZzrMcBuJYJZhiVxYbnW1.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTQsInRpbWVzdGFtcCI6MTc4ODE1ODE2NSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:-yZXb6U-3u8SqdA5OC9w7lMSbj9pzo0HCSNIBBEgyVw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives For Aft Deck",
+    "item_title": "Open Aft"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzYxNiwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX45STXT_U-Sofa",
+   "file_name": "AX45STXT_U-Sofa.png",
+   "ext": "png",
+   "width": 1476,
+   "height": 1875,
+   "created": "2026-08-31T06:35:01.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WXuzHtj8DNY8gf2fssou.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTYsInRpbWVzdGFtcCI6MTc4ODE1ODIxNSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:NrwceQ9hipaq7S-U7EvRKaKYDtipFiFIHlILZSCPJ7w/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives For Aft Deck",
+    "item_title": "U-Sofa"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzYxNSwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX45STXT_Aft_Cabin",
+   "file_name": "AX45STXT_Aft_Cabin.png",
+   "ext": "png",
+   "width": 1476,
+   "height": 1875,
+   "created": "2026-08-31T06:35:01.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/nX3rSv6HwoMbbnGRVLpB.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTUsInRpbWVzdGFtcCI6MTc4ODE1ODI1NiwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:is_jD3UAnam0dHyGURWmRoE6udVp2ek8DDkJo8_N484/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives For Aft Deck",
+    "item_title": "Aft Cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTUyOSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_ST_K0A9638",
+   "file_name": "Axopar_45_ST_K0A9638.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-12-17T09:48:44.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/2SAaV56cSuMSS44fJH1v.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjksInRpbWVzdGFtcCI6MTc2NTk2NTAwNCwidmVyc2lvbiI6MTc2NTk2NDkyNH0:axopar:Zz6ozdGw5_F-iHyO9MHqle2ew5JmxhU9NCh8GgleOiw/download",
+   "tags": [
+    "axopar",
+    "axopar 45 sun top",
+    "cannes 2023",
+    "day 02"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "MediaBannerBlock",
+    "block_title": null
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMyOCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Silvertex_Petrol",
+   "file_name": "Silvertex_Petrol.jpg",
+   "ext": "jpg",
+   "width": 6000,
+   "height": 4000,
+   "created": "2026-06-08T07:20:50.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Petrol"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMyOSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Silvertex_Squash",
+   "file_name": "Silvertex_Squash.jpg",
+   "ext": "jpg",
+   "width": 6000,
+   "height": 4000,
+   "created": "2026-06-08T07:20:50.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Squash"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMzMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Silvertex_Hunter",
+   "file_name": "Silvertex_Hunter.jpg",
+   "ext": "jpg",
+   "width": 6000,
+   "height": 4000,
+   "created": "2026-06-08T07:20:50.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Hunter"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTQ3OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Linetex_Sphere",
+   "file_name": "Linetex_Sphere.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-05-04T18:10:37.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Linetex Sphere"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMyNCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Linetex_Dust",
+   "file_name": "Linetex_Dust.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-06-08T06:58:06.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Linetex Dust"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTQ4MSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Linetex_Chalk",
+   "file_name": "Linetex_Chalk.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-05-04T18:10:37.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Linetex Chalk"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Taupe",
+   "file_name": "Taupe.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine Pe Taupe"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Natural",
+   "file_name": "Natural.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine Pe Natural"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Antracite",
+   "file_name": "Antracite.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine Pe Antracite"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDQ5NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_ST_Q9A0912",
+   "file_name": "Axopar_45_ST_Q9A0912.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-03-17T10:39:17.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ayjxLUxRDKAJCfxT4aLk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTQsInRpbWVzdGFtcCI6MTc3MzkxMTU0MCwidmVyc2lvbiI6MTc3Mzc0Mzk1N30:axopar:WjJq7UVm2NnqFzCZPh3SCpt4a7K4rZzFSMhwM-j0a50/download",
+   "tags": [
+    "axopar",
+    "axopar 45 sun top",
+    "cannes 2023",
+    "day 02"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Try Before You Buy"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTUyNywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_STDJI_0468",
+   "file_name": "Axopar_45_STDJI_0468.jpg",
+   "ext": "jpg",
+   "width": 5272,
+   "height": 3948,
+   "created": "2025-12-17T09:18:31.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/b4PfkmJc48iq3eoeKCTx.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjcsInRpbWVzdGFtcCI6MTc3MzA0ODAwNywidmVyc2lvbiI6MTc2NTk2MzExMX0:axopar:0c4g-na5XJG-ZgQQWzn4Kvsc4Am9fhfFZ9UcPNCc8eo/download",
+   "tags": [
+    "axopar",
+    "axopar 45 sun top",
+    "cannes 2023",
+    "day 02"
+   ],
+   "copyright_notice": "Henrik Ljungqvist",
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Set Course for What’s Next"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDYyOCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_Dealer_Map",
+   "file_name": "Axopar_Dealer_Map.png",
+   "ext": "png",
+   "width": 1440,
+   "height": 1080,
+   "created": "2026-03-18T13:02:21.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/zQVZ326T1jTr5EXczyu7.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ2MjgsInRpbWVzdGFtcCI6MTc3MzgzODk4NCwidmVyc2lvbiI6MTc3MzgzODk0MX0:axopar:6p6chuzQBwEIE9C3Vw5oDfM7P7WczrACHgYhjJ6jQas/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Talk to your dealer about your next Axopar"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDYzNSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_Brochure_Mockup_2",
+   "file_name": "Axopar_Brochure_Mockup_2.png",
+   "ext": "png",
+   "width": 2048,
+   "height": 1536,
+   "created": "2026-03-18T16:07:46.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/jgTBzf9kEuJ6QoBkztsb.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ2MzUsInRpbWVzdGFtcCI6MTc3Mzg1MDEzNCwidmVyc2lvbiI6MTc3Mzg1MDA2Nn0:axopar:AE2sgelJ6LiCNKleGDJh-gBgdIaeyjobSoBsNipY9aI/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Read Our Brochure"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDQ5MCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_45_ST&XT_Manual",
+   "file_name": "Axopar_45_ST&XT_Manual.png",
+   "ext": "png",
+   "width": 2000,
+   "height": 1500,
+   "created": "2026-03-17T10:21:28.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/E7EEGN4GrDP6eLMDBvRr.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTAsInRpbWVzdGFtcCI6MTc3MzkxMTY0NCwidmVyc2lvbiI6MTc3Mzc0Mjg4OH0:axopar:BEf6hSjNmT9LXTtMt1msnG-pgvBOSKSZj8HIcSFh354/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Read the Axopar 45 Owner's Manual"
+   },
+   "role": "image"
+  }
+ ],
+ "videos": [
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMTUyLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 45 ST",
+   "file_name": "Axopar 45 ST.mp4",
+   "ext": "mp4",
+   "width": 3840,
+   "height": 2160,
+   "created": "2025-10-16T11:44:24.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ajuiY573gj3aSn37e5hs.mp4",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE1MiwidGltZXN0YW1wIjoxNzY1ODY4NTEwLCJ2ZXJzaW9uIjoxNzYwNjE1MDY0fQ:axopar:GRLSWNblDvXhRV2WOIwELWXdf4zs6l7mb9OTI4yjKd8/download",
+   "tags": [
+    "ax45",
+    "ax45st"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "HeroBlock",
+    "block_title": "hero"
+   },
+   "role": "video",
+   "caption": null
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzcwMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Reduced wetted surface area_1920x1080",
+   "file_name": "Reduced wetted surface area_1920x1080.mp4",
+   "ext": "mp4",
+   "width": 1920,
+   "height": 1080,
+   "created": "2026-09-01T15:58:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/UdjFKk9RvPrp6Pqw1AqY.mp4",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3MDAsInRpbWVzdGFtcCI6MTc4ODUwNzAwMSwidmVyc2lvbiI6MTc4ODI3ODMwN30:axopar:bkmfsko5vyvfy_ud6yyslAbDhp67KQsgrwc8Nu-NphU/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "Welcome to the Hull of Fame"
+   },
+   "role": "video",
+   "caption": null
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=FnqlNuLbaYQ",
+   "role": "video_link",
+   "caption": " Family Dreams - Adventure Stories | Axopar 45 Sun-Top",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring Axopar 45 Sun Top",
+    "item_title": " Family Dreams - Adventure Stories | Axopar 45 Sun-Top"
+   }
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=nR1LBX8_Pfg",
+   "role": "video_link",
+   "caption": "ALL NEW Axopar 45 Cross Top and Sun Top: Face-Off Walkthrough",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring Axopar 45 Sun Top",
+    "item_title": " ALL NEW Axopar 45 Cross Top and Sun Top: Face-Off Walkthrough"
+   }
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDQ2MywidHlwZSI6ImFzc2V0In0=",
+   "title": "axopar_community_newsletter_loop_long_v1",
+   "file_name": "axopar_community_newsletter_loop_long_v1.mp4",
+   "ext": "mp4",
+   "width": 1920,
+   "height": 1080,
+   "created": "2026-03-16T13:09:41.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/7vJH9zxUFxKaMkozSkPr.mp4",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NjMsInRpbWVzdGFtcCI6MTc3MzY2Njc5OCwidmVyc2lvbiI6MTc3MzY2NjU4MX0:axopar:0npszscJEnbuBtDI3ljxLXRaVmauIVYfM6ynQRZ_rlY/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "More To Explore",
+    "item_title": "Set Course for What’s Next"
+   },
+   "role": "video",
+   "caption": null
+  }
+ ]
+}

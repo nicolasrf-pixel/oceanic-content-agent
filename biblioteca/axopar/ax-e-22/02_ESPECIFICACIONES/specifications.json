@@ -1,0 +1,223 @@
+{
+  "model": {
+    "brand": "Axopar",
+    "range": "AX/E 100% Electric",
+    "model": "AX/E 22",
+    "variant": "AX/E 22",
+    "model_year": "2027",
+    "configuration": "Base (según web oficial)",
+    "engine_option": "Ver motorización",
+    "boat_type": "motor_electrico"
+  },
+  "compiled_at": "2026-09-25",
+  "rules": "Generado por tools/oceanic/builders/axopar.py desde la web oficial del producto (S1).",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web oficial del producto no publica la eslora."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web oficial del producto no publica la manga."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web oficial del producto no publica peso ni desplazamiento."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web no publica equipamiento ni menciona cabina."
+    },
+    {
+      "oceanic_field": "capacidad_bateria",
+      "label": "Capacidad batería",
+      "status": "VERIFIED",
+      "display_value": "63 kWh",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Efficient Power, Seamless Exploration",
+          "source_value": "Equipped with a 63 kWh battery, it offers a powerful range and efficient charging capabilities, ensuring you’re always ready for your next adventure.",
+          "source_unit": "kWh",
+          "normalized_value": 63,
+          "normalized_unit": "kWh",
+          "model_year": "2027",
+          "location": "Card 'Adventure Further'",
+          "cross_reference": "Eléctrico: la capacidad de batería reemplaza a la de combustible."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "32 l (opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Fresh Water System 32L Including Aft Deck Shower",
+          "source_value": "Fresh Water System 32L Including Aft Deck Shower",
+          "source_unit": "l",
+          "normalized_value": 32,
+          "normalized_unit": "l",
+          "model_year": "2027",
+          "location": "Equipment · Optional Equipment · Front Cabin Module",
+          "cross_reference": "No está en la ficha técnica; se toma del equipamiento de la misma web."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "120+ hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Banner de performance",
+          "source_value": "With the Evoy Breeze motor delivering over 120+ HP, this boat surges to a top speed of 36 knots, ensuring every adventure is powered by instant torque and exhilarating acceleration",
+          "source_unit": "hp",
+          "normalized_value": 120,
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Texto de la página",
+          "cross_reference": "Motor eléctrico: potencia declarada en el texto."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Eléctrica, Evoy Breeze",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Powerhouse Performance",
+          "source_value": "With the Evoy Breeze motor delivering over 120+ HP, this boat surges to a top speed of 36 knots, ensuring every adventure is powered by instant torque and exhilarating acceleration",
+          "source_unit": null,
+          "normalized_value": "eléctrico",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Banner 'Powerhouse Performance'"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "WC opcional",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Optional Equipment",
+          "source_value": "Toilet Package with Electric Fresh Water Flush, AX/E",
+          "source_unit": null,
+          "normalized_value": "opcional",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Optional Equipment",
+          "cross_reference": "WC solo como opción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "VERIFIED",
+      "display_value": "36+ nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "texto",
+          "source_value": "With the Evoy Breeze motor delivering over 120+ HP, this boat surges to a top speed of 36 knots, ensuring every adventure is powered by instant torque and exhilarating acceleration",
+          "source_unit": "nudos",
+          "normalized_value": "36",
+          "normalized_unit": "nudos",
+          "model_year": "2027",
+          "location": "Texto de la página"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "autonomia",
+      "label": "Autonomía",
+      "status": "VERIFIED",
+      "display_value": "60 mn",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "AX/E 22",
+          "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+          "accessed_at": "2026-09-25",
+          "source_field": "texto",
+          "source_value": "At 5 knots, the boat can travel up to 60 nautical miles or operate for up to 10 hours",
+          "source_unit": "mn",
+          "normalized_value": 60,
+          "normalized_unit": "mn",
+          "model_year": "2027",
+          "location": "Texto de la página"
+        }
+      ],
+      "notes": "",
+      "display_note": "a 5 nudos"
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web oficial del producto no publica este dato."
+    }
+  ]
+}

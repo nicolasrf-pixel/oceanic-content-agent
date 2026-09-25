@@ -6,12 +6,16 @@
     python -m oceanic media      <model_dir>   # descarga imágenes y documentos
     python -m oceanic readiness  <model_dir>   # CONTENT_STATUS
     python -m oceanic check      [biblioteca]  # render + readiness de todos los modelos
+    python -m oceanic build      axopar <extract.json>...   # genera paquetes desde extracts
+    python -m oceanic media      <model_dir> [--cdn]        # --cdn: copia web desde el CDN (rápido)
+    python -m oceanic zip        <dir> [<dir>...]           # ZIP en dist/ para subir a Drive
 """
 
 from __future__ import annotations
 
 import json
 import sys
+import zipfile
 from datetime import date
 from pathlib import Path
 
@@ -43,7 +47,7 @@ def main(argv: list[str]) -> int:
         return 1 if errors else 0
     if cmd == "media":
         model = Path(args[0])
-        print("imágenes:", media.download_images(model))
+        print("imágenes:", media.download_images(model, "cdn" if "--cdn" in args else "original"))
         print("documentos:", media.download_documents(model))
         readiness.write(model)
         return 0
@@ -64,6 +68,38 @@ def main(argv: list[str]) -> int:
                 print("   ERROR", e)
             failed += bool(errors)
         return 1 if failed else 0
+    if cmd == "build":
+        brand, extracts = args[0], args[1:]
+        builder = __import__(f"oceanic.builders.{brand}", fromlist=["build"])
+        drafts = ROOT / "drafts" / brand
+        for path in extracts:
+            ext = json.loads(Path(path).read_text())
+            slug = Path(path).stem
+            try:
+                model = builder.build(slug, ext, drafts)
+            except SystemExit as exc:
+                print(exc)
+                continue
+            errors = specs.render(model)
+            result = readiness.write(model)
+            print(f"{result['CONTENT_STATUS']:6} {slug}" + "".join(f"\n   ERROR {e}" for e in errors))
+        return 0
+    if cmd == "zip":
+        dirs = [Path(a).resolve() for a in args]
+        dist = ROOT / "dist"
+        dist.mkdir(exist_ok=True)
+        base = ROOT / "biblioteca"
+        name = "__".join(d.name for d in dirs[:2]) + ("__etc" if len(dirs) > 2 else "")
+        out = dist / f"oceanic-biblioteca__{name}__{date.today().isoformat()}.zip"
+        with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
+            for d in dirs:
+                for f in sorted(d.rglob("*")):
+                    if f.is_file():
+                        # WebP is already compressed.
+                        mode = zipfile.ZIP_STORED if f.suffix == ".webp" else zipfile.ZIP_DEFLATED
+                        zf.write(f, f.relative_to(base), compress_type=mode)
+        print(f"{out} ({out.stat().st_size / 1048576:.1f} MB)")
+        return 0
     print(__doc__)
     return 1
 

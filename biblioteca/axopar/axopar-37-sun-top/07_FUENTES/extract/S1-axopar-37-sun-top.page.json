@@ -1,0 +1,2086 @@
+{
+ "brand": "Axopar",
+ "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-sun-top/",
+ "accessed_at": "2026-09-25",
+ "extractor": "tools/oceanic/adapters/axopar.py",
+ "page_title": "Axopar 37 Sun Top",
+ "configurator_id": "5nMOhrUtfrr8n7YVVxIOtR",
+ "model_year": "2027",
+ "product_group": {
+  "@type": "ProductGroup",
+  "name": "Axopar 37",
+  "url": "https://www.axopar.com/boat-models/axopar-37/"
+ },
+ "country_of_origin": {
+  "@type": "Country",
+  "name": "Finland"
+ },
+ "prices": {
+  "startingPriceEur": 0,
+  "startingPriceUsd": 0,
+  "withEngineEur": 0,
+  "withEngineUsd": 0
+ },
+ "hero": {
+  "title": "Axopar 37 Sun Top",
+  "heading": "Axopar 37 Sun Top",
+  "subheading": "The Adventurer's Best Friend",
+  "intro": "The Axopar 37 Sun Top, with its multi-purpose characteristics, is an all-rounder that combines perfect protection and open space. Enjoying a great day in the sun with family, savouring ‘al-fresco’ dining, having a party with friends, or for those who love the feeling of running an open boat but still being protected from the weather. The 37 Sun Top has proved to be the perfect choice, easily justifying its position as a true game-changer."
+ },
+ "sections": [
+  {
+   "block_type": "BannerBlock",
+   "title": "The Market Leader Revolutionized",
+   "intro": "The versatile Axopar 37 with its distinctive and instantly recognisable looks is the perfect partner for all adventures at sea. It provides responsive, thrilling and sporty handling that will safely take you anywhere in supreme comfort and style. Featuring intuitive solutions, enhanced driving dynamics, flexible accommodation together with a whole new space experience.",
+   "items": []
+  },
+  {
+   "block_type": "BannerBlock",
+   "title": "Driver in Focus",
+   "intro": "New intuitive solutions that bring the driving experience even closer to the ease and simplicity of driving a car. Redefined ergonomics contribute to a supremely practical and functional layout, with excellent all-round visibility. The driver-focused helm, with its clean and uncluttered dashboard, ensures the skipper will always remain in full control.",
+   "items": []
+  },
+  {
+   "block_type": "BannerBlock",
+   "title": "Significant Performance Gains",
+   "intro": "Up to 30% better fuel-economy across the 20 to 40 knot speed range, compared to the predecessor. Resulting in an extended cruising range, on average with 35% or +75 additional nautical miles. Up to +35% increase in ‘comfortable’ and most efficient cruising speed at steady 3500rpm, up from 22knots to 29 knots",
+   "items": []
+  },
+  {
+   "block_type": "BannerBlock",
+   "title": "The Gullwing Door Concept",
+   "intro": "The Gullwing Doors redefine how an enclosed front cabin can be best utilized to provide a more sociable feeling and full interaction with one’s surroundings, making the front cabin feel like it's part of the outdoors. Now it is possible to fully interact with and appreciate the outside surroundings like never before.",
+   "items": []
+  },
+  {
+   "block_type": "BannerBlock",
+   "title": "Welcome to the Hull of Fame",
+   "intro": "Every Axopar begins where the boating experience truly begins: below the waterline. Many boaters have learned to accept certain compromises as normal. Our hull-first approach gets the fundamentals right from the start. Since the first Axopar 28 was launched in 2014, this philosophy has shaped our multi-award-winning range, helped create the adventure boating category, and contributed to more than 7,600 Axopar boats being sold worldwide.\n\nDiscover the Hull of Fame and the engineering behind the distinctive Axopar driving experience.",
+   "items": []
+  },
+  {
+   "block_type": "TabsBlock",
+   "title": "Key Feature Highlights",
+   "intro": null,
+   "items": [
+    {
+     "name": "Multipurpose Roof",
+     "title": "Multipurpose Roof",
+     "text": "The extended roof offers weather protection when needed. By opening the large sliding canvas roof, you can enjoy sunshine in the entire helm and cockpit area.",
+     "list": null
+    },
+    {
+     "name": "Built-in Electric Toilet",
+     "title": "Built-in Electric Toilet",
+     "text": "The built-in electric flush toilet with an 70l septic tank is easily accessible under the L-sofa in front cabin.",
+     "list": null
+    },
+    {
+     "name": "Spacious Fore Deck",
+     "title": "Spacious Fore Deck",
+     "text": "The spacious fore deck is a perfect place to socialize with family and friends. A large anchor box in the bow will hold the anchor, fenders, and ropes easily, as well as other equipment you need for your journey.",
+     "list": null
+    },
+    {
+     "name": "Walkaround Deck",
+     "title": "Walkaround Deck",
+     "text": "A walk-around layout with safe passageways for easy movement onboard, combined with reduced thresholds, makes life onboard functional and safe for both young and old.",
+     "list": null
+    },
+    {
+     "name": "Cabinet in Front Cabin",
+     "title": "Cabinet in Front Cabin",
+     "text": "A cabinet is standard and can be extended with the optional sink and faucet. There is also a mirror above the cabinet and 4 x pop-up clothes hangers standard.",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "TabsBlock",
+   "title": "Key Option Highlights",
+   "intro": null,
+   "items": [
+    {
+     "name": "Gullwing Doors",
+     "title": "Gullwing Doors",
+     "text": "Gullwing doors redefine how an enclosed front cabin can be utilised to create a more sociable environment and encourage full interaction with one’s surroundings, making the front cabin feel like it's part of the outdoors.",
+     "list": null
+    },
+    {
+     "name": "Additional Overnight Possibilities",
+     "title": "Additional Overnight Possibilities",
+     "text": "The spacious optional aft cabin sleeps two people comfortably. Upgrade the aft cabin’s looks and style with an optional comfort package.",
+     "list": null
+    },
+    {
+     "name": "Multi-storage ",
+     "title": "Multi-storage",
+     "text": "Large storage compartment on aft deck. Lockable large hatch with gas strut supports. Rope holders inside the hatch. Additional 2 x LED deck lights inside storage compartment. Water-resistant carpet in black. Additional sun deck and backrest cushions can be ordered in Silvertex fabric.",
+     "list": null
+    },
+    {
+     "name": "Sun Bed on Foredeck",
+     "title": "Sun Bed on Foredeck",
+     "text": "Wide sun bed mattress and backrest in Silvertex fabric with diamond pattern stitching for the fore deck. Openable and lockable storage box under sunbed in GRP. Including a harbour cover for the sun bed.",
+     "list": null
+    },
+    {
+     "name": "Sun Shades",
+     "title": "Sun Shades",
+     "text": "Sun shades with stainless steel supports are available for both fore and aft decks, perfect for providing additional shade on hot summer days (for stationary use only).",
+     "list": null
+    },
+    {
+     "name": "Toilet Compartment",
+     "title": "Toilet Compartment",
+     "text": "An optional fully enclosed toilet compartment with the standard toilet bowl moved to the starboard side, mounted transversely. Corian top with sink, faucet, and a small storage compartment. Further upgradable with an optional shower compartment.",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "TabsBlock",
+   "title": "Driver's Experience",
+   "intro": null,
+   "items": [
+    {
+     "name": "Driver Experience",
+     "title": "Driver Experience",
+     "text": "A clean and uncluttered helm station creates a driving sensation similar to the feel and simplicity of driving a car. The station is extendable with optional Glass Bridge/Information Display touch screens.",
+     "list": null
+    },
+    {
+     "name": "Significant Fuel-Consumption Gains",
+     "title": "Significant Fuel-Consumption Gains",
+     "text": "A new, sharp entry twin-stepped hull, more efficient than ever, resulting in an ultra-low cruising consumption of 2.4l/nm at 30 knots with 2 x Mercury V8 FourStroke 300hp. Considerable improvements of up to 30% better fuel economy across the 20 to 40 knot speed range.",
+     "list": null
+    },
+    {
+     "name": "Axopar Connect",
+     "title": "Axopar Connect",
+     "text": "Our Axopar Connect app brings smarter, more personal boating to life. With remote access to your boat's systems, real-time safety alerts, and customizable settings, the app transforms how you interact with your vessel. The intuitive user interface, on Simrad's multifunction displays, offers seamless control over navigation, diagnostics, and entertainment.",
+     "list": null
+    }
+   ]
+  },
+  {
+   "block_type": "VideoGalleryBlock",
+   "title": "Videos Featuring The Axopar 37 Sun Top ",
+   "intro": null,
+   "items": [
+    {
+     "video_title": "Ascending Mokoli'i Islet - Adventure Stories | Axopar 37 Sun Top",
+     "caption": "Ascending Mokoli'i Islet - Adventure Stories | Axopar 37 Sun Top"
+    },
+    {
+     "video_title": "Axopar Adventures: A Mediterranean Getaway",
+     "caption": "Axopar Adventures: A Mediterranean Getaway"
+    },
+    {
+     "video_title": "Axopar Adventures: United With The Ocean",
+     "caption": "Axopar Adventures: United With The Ocean"
+    },
+    {
+     "video_title": " Axopar 37 Sun-Top Mediterrana Edition - Cannes Yachting Festival",
+     "caption": "Axopar 37 Sun-Top Mediterrana Edition - Cannes Yachting Festival"
+    },
+    {
+     "video_title": " Axopar Adventures: Discovering Paradise",
+     "caption": "Axopar Adventures: Discovering Paradise"
+    }
+   ]
+  },
+  {
+   "block_type": "ImageGalleryBlock",
+   "title": "Axopar 37 Sun Top Gallery",
+   "intro": null,
+   "items": []
+  },
+  {
+   "block_type": "ImageGalleryBlock",
+   "title": null,
+   "intro": null,
+   "items": [
+    {
+     "caption": "If your adventures include a lot of socializing and lounging, the U-Sofa aft configuration, which serves as both a dining spot and a lounging spot, is your option."
+    },
+    {
+     "caption": "The renewed front cabin now has new materials and colors, which makes the space even lighter than before."
+    },
+    {
+     "caption": "Inspired by a laid-back Mediterranean spirit and a love for lounging and socialising onboard, we have developed the new Mediterrana Edition. Now we have fully utilized the perfect layout of the Axopar 37s, further enhancing their appearance with a more relaxed, elegant look and greater on-board comfort."
+    }
+   ]
+  },
+  {
+   "block_type": "ModalLiftBlock",
+   "title": "Upgrade Options",
+   "intro": "Elevate your Axopar 37 with the stylish BRABUS Line for a refined, premium look and feel — or choose the BRABUS Performance Line for extra power and exhilarating speed. For those who value ultimate comfort, the Mediterrana Edition and Soft Decking create a luxurious onboard experience, perfect for lounging and entertaining.",
+   "items": [
+    {
+     "title": "The Iconic Edition",
+     "text": null,
+     "modal_text": [
+      "BRINGING YOU THE ICONIC EDITION",
+      "Axopar 37 Sun Top Iconic Edition",
+      "The Iconic Edition features the ever-so-popular BRABUS Line, offering refined interior and exterior styling enhancements with subtle yet distinctive design details.\n\nThe Iconic Edition features the familiar, beloved BRABUS Line colors: Miami Blue and Platinum Grey. Additionally, we are spicing things up with two new colors, familiar from the BRABUS Marine lineup: Glacier Blue and Icon Grey.\n\nShow your personality by choosing your favorites among Silvertex Petrol with Seine PE Steel accents, Silvertex Sandstone with Seine PE Taupe accents, Silvertex Cobre with Seine PE Ochre accents, or Silvertex Baltic with Seine PE Navy accents to match your adventure spirit.\n\nWe're sweetening the deal with the widely popular Roof Racks in black and the Electric Sliding Roof to make it even easier for you to bring your favorite gear along on your adventures."
+     ]
+    },
+    {
+     "title": "BRABUS Performance Line",
+     "text": null,
+     "modal_text": [
+      " The BRABUS Performance Line",
+      "Axopar 37 Sun Top Iconic Edition",
+      "The BRABUS Performance Line is a thrilling extension to the BRABUS Line that boosts the performance and enhances the boat’s appearance with a stylish hull & roof wrap. The BRABUS Performance Line includes stylish hull and roof graphics, plus more power at the transom with Twin Mercury Verado V10 400hp to get you to your adventure destination promptly."
+     ]
+    },
+    {
+     "title": "The Mediterrana Edition",
+     "text": null,
+     "modal_text": [
+      "The Mediterrana Edition",
+      "Axopar 37 Sun-Top Mediterrana Edition",
+      "The upholstery features exclusive, subtle yet stylish detailing with accentuated patterns, and a structured feel of marine fabrics, complemented by contrast-colored pillows and piping details.\n\nThe Mediterrana Edition features and options:\n\nOutdoor waterproof fabric.\n\nFixed, extended foredeck seating/sunbed with armrests and storage under sunbed extension, including harbor cover.\n\nSunpad extension on top of gullwing doors.\n\nFixed, length-adjustable driver/co-pilot sofa with foldable backrest & flip-up bolsters, including harbor cover.\n\nAft sofa in the cockpit with a large center storage module, including a harbor cover.\n\nAdjustable table in the cockpit (option)\n\nSunpad extension for cockpit (option - only with high/low table)\n\nMediterrana sundeck cushions for multi-storage incl. harbor cover (option)\n\nMediterrana sundeck cushions for aft cabin incl. harbor cover (option)\n\nExtended seating cushions on top of aft fender storage hatches and anchor hatch"
+     ]
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "Alternatives for Aft Deck",
+   "intro": "The modular nature of Axopars and our multi-platform approach enable you to customize your boat with an aft layout that suits your everyday needs. As standard, the Axopar 37 Sun Top comes with a spacious open aft deck. The aft deck can also be equipped with an optional Wet Bar, Multi Storage Compartment, U-Sofa, or Aft Cabin.",
+   "items": [
+    {
+     "title": "Open Aft",
+     "text": null
+    },
+    {
+     "title": "Wet Bar",
+     "text": null
+    },
+    {
+     "title": "Multi Storage",
+     "text": null
+    },
+    {
+     "title": "U-Sofa with Table",
+     "text": null
+    },
+    {
+     "title": "U-Sofa with Sunbed",
+     "text": null
+    },
+    {
+     "title": "Aft Cabin",
+     "text": null
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "Configurations & Layouts",
+   "intro": "We want to provide you with an extensively customizable, user-friendly boat that meets your everyday needs year-round and supports all your adventures. The configuration you choose will define the final layout of your boat. Below are a few examples of exterior and interior layouts available.",
+   "items": [
+    {
+     "title": "Open aft",
+     "text": "with standard Petrol upholstery."
+    },
+    {
+     "title": "Wet Bar",
+     "text": "with optional Squash upholstery."
+    },
+    {
+     "title": "Multi Storage Compartment",
+     "text": "with optional Hunter upholstery."
+    },
+    {
+     "title": "Aft cabin",
+     "text": "with optional Hunter upholstery."
+    }
+   ]
+  },
+  {
+   "block_type": "CardListBlock",
+   "title": "Upholstery Colors",
+   "intro": "Luxurious yet practical, the upholstery combines smooth elegance with breathable texture—soft, cool, easy to clean, and available in four stylish colors.",
+   "items": [
+    {
+     "title": "Silvertex Petrol",
+     "text": "With Seine PE Steel (Standard)"
+    },
+    {
+     "title": "Silvertex Squash",
+     "text": "with Seine PE Corn"
+    },
+    {
+     "title": "Silvertex Hunter",
+     "text": "with Seine PE Sage"
+    },
+    {
+     "title": "Seine PE Taupe",
+     "text": "- Mediterrana Edition Upholstery Option"
+    },
+    {
+     "title": "Seine PE Natural",
+     "text": "- Mediterrana Edition Upholstery Option"
+    },
+    {
+     "title": "Seine PE Antracite",
+     "text": "- Mediterrana Edition Upholstery Option"
+    }
+   ]
+  },
+  {
+   "block_type": "HighlightBannerBlock",
+   "title": "Get Yourself An Icon",
+   "intro": null,
+   "items": []
+  }
+ ],
+ "technical_specifications": [
+  {
+   "name": "Outboard engines",
+   "value": "2 x 300 – 2 x 400 hp"
+  },
+  {
+   "name": "Category",
+   "value": "B – Offshore, C - Coastal"
+  },
+  {
+   "name": "Construction",
+   "value": "GRP"
+  },
+  {
+   "name": "Fuel capacity",
+   "value": "722 l (191 gal)"
+  },
+  {
+   "name": "Berths",
+   "value": "2 persons (with optional aft cabin 2+2)"
+  },
+  {
+   "name": "Draft to props",
+   "value": "0,85 m (2ft 9in)"
+  },
+  {
+   "name": "Beam",
+   "value": "3,35 m (11ft)"
+  },
+  {
+   "name": "Overall Length (excl. Engine)",
+   "value": "11,50 m (37ft 9in)"
+  },
+  {
+   "name": "Passengers",
+   "value": "B:10 / C:12"
+  },
+  {
+   "name": "Max speed range",
+   "value": "38 - 48 knots"
+  },
+  {
+   "name": "Hull design",
+   "value": "Twin stepped 22 degree V “Sharp entry hull”"
+  },
+  {
+   "name": "Weight (excl. Engine)",
+   "value": "3590 kg (7915 lbs)"
+  },
+  {
+   "name": "Fuel consumption, cruise",
+   "value": "2,3 l/nm (2x 300hp Mercury, 28 knots)"
+  }
+ ],
+ "standard_equipment": [
+  {
+   "name": "Wheelhouse / Cockpit",
+   "description": "- Clean helm layout\r\n- Dashboard & console top panels in dark grey soft touch finish\r\n- Center console panels in black high-gloss finish\r\n- Control switch panel in glass with illuminated push buttons\r\n- Main control panel with remote controlled battery switches\r\n- Steering wheel in leather with Axopar logo\r\n- Lockable access hatch to front cabin with grab rail in leather\r\n- Sliding door to front cabin in dark grey soft touch finish\r\n- Cup holder on dashboard\r\n- Splash proof USB outlet in console wall\r\n- Document pocket on console wall\r\n- Footrest in stainless steel & support with Axopar logo\r\n- Lowered floor level at helm section\r\n- 2 x LED deck lights in helm floor\r\n- Large sociable seating area with seven sports seats with mid section in diamond pattern stitching\r\n- Rotating & length adjustable front seats with flip-up bolster\r\n- Extendable table with fixed height in white GRP\r\n- Threshold free aft cockpit area\r\n- Storage compartment under centre aft seats\r\n- Aft-facing cushioned perch behind seating area\r\n- 2 x storage compartments under cockpit table\r\n- Grab rail under roof above cockpit table\r\n- 6 x recessed LED roof lights,\r\n- 2 x LED deck lights in cockpit floor\r\n- Silvertex on all seats and upholstery\r\n- Harbour covering for helm and front seats\r\n- Harbour covering for aft seats\r\n- Harbour cover for cockpit table"
+  },
+  {
+   "name": "General'",
+   "description": "- Hand laminated hull in Vinylester resin for the first coat for osmosis preventation of the hull in GRP material\r\n- Twin-stepped hull with “sharp entry bow”\r\n- Integrated engine bracket in hull for outboard engines\r\n- Fixed aluminum fuel tank 730l with overflow prevention\r\n- Freshwater tank 100l\r\n- Heavy-duty rub rail with rubber end caps in grey\r\n- Heavy-duty rub rail around swim platforms\r\n- Axopar 3D signature chrome logo on both sides of hull\r\n- Bow thruster tunnel preparation in hull\r\n- Walk-around deck layout with open aft deck\r\n- Anti-skid finishing on working deck areas and deck hatches\r\n- Self-draining deck area with quick drain aft deck\r\n- Self-bailing cockpit & helm area\r\n- All hardware, pulpits, locks, hinges, filler caps & cockpit grab rails in 316 stainless steel\r\n- 8 x cleats on aft, midships and fore deck\r\n- Additional hooking points for safety harness around side deck areas\r\n- Fore deck pulpits\r\n- LED navigation lights on fore deck\r\n- Spacious anchor locker with drainage in bow\r\n- Rope holders in anchor locker on fore deck & fender storages\r\n- Sofa with backrest on fore deck including harbor cover\r\n- Large skylight with harbour cover\r\n- Flush mounted 2 x skylights including harbor cover\r\n- Toughened glass windscreen and side windows in light green tint with illuminated 37 signature\r\n- Aluminium window frame painted in white\r\n- Heavy-duty pantograph windscreen wiper\r\n- Windshield washer with separate reservoir\r\n- Integrated boarding steps on both sides of helm\r\n- Extended Sun Top roof in white GRP with large opening canvas roof\r\n- Harbour cover for opening canvas roof\r\n- Sun Top roof support structures in white painted aluminium\r\n- Foldable light mast in white painted aluminium with anchor light\r\n- Twin large fender storages on aft deck with insulation /cooler boxes\r\n- Aft deck with large storage compartment\r\n- Battery / electrical compartment under aft deck storage\r\n- Flagpole\r\n- Signal horn\r\n- Two electric bilge pumps with auto-function\r\n- Manual bilge pump for aft deck section\r\n- Trim-tabs with joystick control\r\n- Side rails\r\n- Integrated swim platforms and telescopic bathing ladder"
+  },
+  {
+   "name": "Front Cabin",
+   "description": "- Front cabin with L-shaped lounge sofa & seating\r\n- Large queen size bed with soft side bolsters\r\n- All upholstery in Torres Grey fabric\r\n- Roof panels in Vintage Steel fabric\r\n- Portlight towards fore deck with openable hatch\r\n- Mirror in forward bulkhead\r\n- 2 x foldable wooden shelves beside the bed\r\n- Cabinet upholstered in Vintage Steel fabric with wenge top\r\n- Mirror above cabinet\r\n- 4 x pop up clothes hangers\r\n- Built-in electric flush toilet under L-sofa with septic tank 70l and deck/hull outlets\r\n- Main 12V fuse panel with automatic fuses\r\n- 12V & USB outlet in front cabin\r\n- Fire & CO2 alarms\r\n- 6 x LED roof spotlights\r\n- LED roof light strip between skylights\r\n- Two manual “mushroom” roof vents\r\n- Carpet in black"
+  }
+ ],
+ "optional_equipment": [
+  {
+   "name": "Edition Package",
+   "description": " - Iconic ST Edition"
+  },
+  {
+   "name": "BRABUS Line",
+   "description": " - BRABUS Line Trim Package S/ST\r\n - BRABUS Line Color Edition S/ST, Miami Blue\r\n - BRABUS Line Color Edition S/ST, Platinum Grey\r\n - BRABUS Line Color Edition S/ST, Glacier Blue\r\n - BRABUS Line Color Edition S/ST, Icon Grey\r\n - BRABUS Performance Line S/ST"
+  },
+  {
+   "name": "Upholstery Color",
+   "description": " - Seats and Upholstery S/ST, Petrol\r\n - Seats and Upholstery S/ST, Cobre\r\n - Seats and Upholstery S/ST, Sandstone\r\n - Seats and Upholstery S/ST, Baltic\r\n - Seats and Upholstery S/ST, BRABUS Line, Cobre\r\n - Seats and Upholstery S/ST, BRABUS Line, Sandstone\r\n - Seats and Upholstery S/ST, BRABUS Line, Baltic"
+  },
+  {
+   "name": "Module Selection Stern",
+   "description": " - Aft Cabin Package - S/ST\r\n - Multi-Storage - S/ST\r\n - Wet Bar Package - S/ST\r\n - U-Sofa"
+  },
+  {
+   "name": "Mediterrana / Lounge",
+   "description": " - The Mediterrana Edition - ST\r\n - The Mediterrana Edition, Aft Cabin - ST\r\n - The Mediterrana Edition, Multi-storage - ST\r\n - The Mediterrana Edition, Wet Bar - ST\r\n - The Mediterrana Edition, U-sofa - ST\r\n - Mediterrana Sunbed Extension, Taupe\r\n - Mediterrana Sunbed Extension, Natural\r\n - Mediterrana Sunbed Extension, Anthracite\r\n - Aft Deck Folding Seats Mediterrana Taupe\r\n - Aft Deck Folding Seats Mediterrana Taupe, BRABUS Line, black\r\n - Mediterrana Anthracite- ST\r\n - Mediterrana Anthracite / Aft Cabin - ST\r\n - Mediterrana Anthracite / Multi-storage - ST\r\n - Mediterrana Anthracite / Wet Bar - ST\r\n - Mediterrana Anthracite / U-Sofa - ST\r\n - Aft Deck Folding Seats Mediterrana Anthracite\r\n - Aft Deck Folding Seats Mediterrana Anthracite, BRABUS Line\r\n - Mediterrana Natural - ST\r\n - Mediterrana Natural / Aft Cabin - ST\r\n - Mediterrana Natural / Multi-Storage - ST\r\n - Mediterrana Natural / Wet Bar - ST\r\n - Mediterrana Natural / U-Sofa - ST\r\n - Aft Deck Folding Seats Mediterrana Natural\r\n - Aft Deck Folding Seats Mediterrana Natural, BRABUS Line"
+  },
+  {
+   "name": "Aft Deck Layout",
+   "description": " - Aft Deck Folding Seats, Petrol\r\n - Aft Deck Folding Seats, Baltic\r\n - Aft Deck Folding Seats, Cobre\r\n - Aft Deck Folding Seats, Sandstone\r\n - Removable Cushions for Aft Fender Boxes, Petrol\r\n - Removable Cushions for Aft Fender Boxes, Baltic\r\n - Removable Cushions For Aft Fender Boxes, Cobre\r\n - Removable Cushions for Aft Fender Boxes, Sandstone\r\n - Aft Deck Folding Seats, Petrol BRABUS Line Black\r\n - Aft Deck Folding Seats, Baltic, BRABUS Line, Black\r\n - Aft Deck Folding Seats, Cobre, BRABUS Line, Black\r\n - Aft Deck Folding Seats, Sandstone, BRABUS Line, Black"
+  },
+  {
+   "name": "Fore deck setup",
+   "description": " - Anchor Hatch and Gullwing Mattresses, Petrol\r\n - Anchor Hatch and Gullwing Mattresses, Baltic\r\n - Anchor Hatch and Gullwing Mattresses, Cobre \r\n - Anchor Hatch and Gullwing Mattresses, Sandstone \r\n - Fixed Sunbed on Front Deck with Storage, Petrol\r\n - Fixed Sunbed on Front Deck with Storage, Baltic\r\n - Fixed Sunbed in Bow with Storage, Cobre \r\n - Fixed Sunbed in Bow with Storage, Sandstone \r\n - Gullwing Doors\r\n - Table in Bow"
+  },
+  {
+   "name": "EU/US version",
+   "description": " - Axopar 37 EU Version\r\n - Axopar 37 US version\r\n - Fuel System - EPA"
+  },
+  {
+   "name": "Navigation Options",
+   "description": " - Axopar Connectivity\r\n - VHF Simrad RS100-B\r\n - Radar Simrad HALO20+\r\n - Echo Sounder, Thru Hull\r\n - Echo Sounder, Active Imaging 3-in-1\r\n - FLIR Marine Thermal Camera"
+  },
+  {
+   "name": "Power Management and Systems",
+   "description": " - Shore Power 230V with 40Ah Charger\r\n - Shore Power 110V with 40Ah Charger, US Standard\r\n - Windlass in Bow, EU\r\n - Windlass in Bow, US\r\n - Lighting Package - ST\r\n - Lighting Package / Aft Cabin - ST\r\n - Underwater Lights, 2in1, Dual Color\r\n - Searchlight with Remote Control\r\n - Bow Thruster Side-Power SE60\r\n - Drawer Type Refrigerator in Cockpit\r\n - Second Drawer Type Refrigerator in Cockpit - S/ST\r\n - Electrical Sliding Canvas Roof System Webasto\r\n - Inverter, 110V\r\n - Inverter, 230V"
+  },
+  {
+   "name": "Entertainment",
+   "description": " - Basic Audio Entertainment System, Clarion\r\n - Extended Audio Entertainment System - Clarion\r\n - Premium Audio Entertainment System, JL Audio\r\n - Premium Audio Entertainment System, BRABUS Line, JL Audio"
+  },
+  {
+   "name": "Front Cabin Layout",
+   "description": " - Toilet compartment\r\n - Extended Front Cabin Wardrobe/Storage"
+  },
+  {
+   "name": "Front Cabin Module",
+   "description": " - Warm water system, EU\r\n - Warm water system, US\r\n - Sink and Faucet for Front Cabin Cabinet\r\n - Shower in Toilet Compartment\r\n - Shower on Aft Deck, Cold/Warm\r\n - Shower on Aft Deck, Cold"
+  },
+  {
+   "name": "Cushion Set",
+   "description": " - Sundeck Cushions for Aft Deck, Petrol - S/ST\r\n - Sundeck Cushions for Aft Deck, Baltic - S/ST\r\n - Sundeck Cushions for Aft Deck, Cobre  - S/ST\r\n - Sundeck Cushions for Aft Deck, Sandstone - S/ST\r\n - Sundeck Cushions for Multi-Storage, Petrol - ST\r\n - Sundeck Cushions for Multi-Storage, Baltic - ST\r\n - Sundeck Cushions for Multi-Storage, Cobre - ST\r\n - Sundeck Cushions for Multi-Storage, Sandstone - ST\r\n - U-Sofa Cushions, Petrol - ST\r\n - U-Sofa Cushions, Baltic - ST\r\n - U-Sofa Cushions, Cobre - ST\r\n - U-Sofa Cushions, Sandstone - ST"
+  },
+  {
+   "name": "Optional Equipment",
+   "description": " - Antifouling, White\r\n - Antifouling, Grey\r\n - Livewell in STBD Fender Box\r\n - Gas Cooktop on Wet Bar\r\n - Wet Bar in Port Fender Box, with Hot & Cold Water\r\n - Wet Bar in Port Fender Box, with Cold Water\r\n - Heater Webasto Air Top Evo55\r\n - Heater Webasto Air Top Evo55 with Aft Cabin\r\n - Axopar Safety Bag\r\n - Aft deck gates\r\n - Mooring Package"
+  },
+  {
+   "name": "Cover",
+   "description": " - Harbor Cover for Aft Cabin, Celestial - ST\r\n - Harbor Cover for Multi-Storage, Celestial - S/ST\r\n - Harbor Cover for Wet Bar, Celestial - ST\r\n - Harbor Cover for U-Sofa, Celestial - ST\r\n - Sprayhood & Extended Canopy / Open Aft Deck, Celestial\r\n - Sprayhood & Extended Canopy / Aft cabin, Celestial\r\n - Sprayhood & Extended Canopy / Multi-Storage, Celestial\r\n - Sprayhood & Extended Canopy / Wetbar, Celestial\r\n - Sprayhood & Extended Canopy / U-sofa, Celestial"
+  },
+  {
+   "name": "Operation",
+   "description": " - Additional Bathing Ladder\r\n - Fishing Targa Arch, Polished - ST\r\n - Sunshade, Fore Deck\r\n - Sunshade on Aft Deck\r\n - Roof Racks, White\r\n - Fishing Targa Arch, BRABUS Line Black - ST\r\n - Sunshade, Fore Deck, BRABUS Line, Black\r\n - Sunshade on Aft Deck, BRABUS Line, Black\r\n - Roof Racks, BRABUS Line, Black\r\n - Engine Frame, EU\r\n - Engine Frame, EU, Black"
+  },
+  {
+   "name": "Pre-Rigging",
+   "description": " - Pre Rig, VesselView 703\r\n - Pre Rig, Twin, Mercury V8\r\n - Pre Rig, V8 Electric Steering JPO\r\n - Pre Rig, Twin, Mercury Verado V10\r\n - Pre Rig, V10 Electric Steering JPO\r\n - Pre Rig, V10 Electric Steering JPO installation (400hp)\r\n - Mercury First Mate - Dual Engine"
+  },
+  {
+   "name": "Engine",
+   "description": " - Twin Mercury Verado V8 300hp, White\r\n - Twin Mercury Verado V8 300hp, Black\r\n - Twin Mercury Verado V8 300hp, JPO, white\r\n - Twin Mercury Verado V8 300hp, JPO, Black\r\n - Twin Mercury Verado V10 350hp, White\r\n - Twin Mercury Verado V10 350hp, Black\r\n - Twin Mercury Verado V10 350hp, JPO, White\r\n - Twin Mercury Verado V10 350hp, JPO, Black\r\n - Twin Mercury Verado V10 400hp, White\r\n - Twin Mercury Verado V10 400hp, Black\r\n - Twin Mercury Verado V10 400hp, JPO, White\r\n - Twin Mercury Verado V10 400hp, JPO, Black"
+  },
+  {
+   "name": "Propellers",
+   "description": " - Twin Propellers Enertia Eco 19\"\r\n - Twin Propellers Revolution X 22\"\r\n - Twin Propellers Revolution X 23\"\r\n - Twin propellers Revolution4 20\""
+  },
+  {
+   "name": "Logistics",
+   "description": " - Aft folding seats delivered uninstalled"
+  }
+ ],
+ "range": [
+  "Axopar 37 Sun Top",
+  "Axopar 37 Spyder",
+  "Axopar 37 XC Cross Cabin"
+ ],
+ "images": [
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQ2NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "0X0A2243-4",
+   "file_name": "0X0A2243-4.jpg",
+   "ext": "jpg",
+   "width": 7086,
+   "height": 4724,
+   "created": "2026-03-06T11:39:21.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/H2bhMjRcbnSbnLv7F8NX.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NjQsInRpbWVzdGFtcCI6MTc3Mjc5NzU0MSwidmVyc2lvbiI6MTc3Mjc5NzE2MX0:axopar:VFPCGSV1A471Pwv_lzi_MUMf1uzqp7jbwyf-HqW4WBs/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "The Market Leader Revolutionized",
+    "item_title": "0X0A2243-4"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTM1OCwidHlwZSI6ImFzc2V0In0=",
+   "title": "0X0A2243-4_Mobile",
+   "file_name": "0X0A2243-4_Mobile.jpg",
+   "ext": "jpg",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-04-13T06:06:58.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/CuRLB7P2DMMYQ2FCCSq7.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUzNTgsInRpbWVzdGFtcCI6MTc3NjA2MDYyNywidmVyc2lvbiI6MTc3NjA2MDQxOH0:axopar:SQB2m5b_hnH8gG81pPIAYLPI5l_fSStGdVRSOnK4Sc0/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "The Market Leader Revolutionized",
+    "item_title": "0X0A2243-4_Mobile"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQ2NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "0X0A2184",
+   "file_name": "0X0A2184.jpg",
+   "ext": "jpg",
+   "width": 3240,
+   "height": 2160,
+   "created": "2026-03-06T11:39:49.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/xUfYTQjRjcnFX8EWkZQL.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NjYsInRpbWVzdGFtcCI6MTc3Mjc5NzU5OCwidmVyc2lvbiI6MTc3Mjc5NzE4OX0:axopar:fh96qYD4ffHFyOIZv3Kjz2-dCmjgwNBVjvBvZohA7xE/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "Driver in Focus",
+    "item_title": "0X0A2184"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQ2NywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 ST BLTP_C4A9783",
+   "file_name": "Axopar 37 ST BLTP_C4A9783.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-03-06T11:40:18.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/1P9YqV4yDFhMVZih7thk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NjcsInRpbWVzdGFtcCI6MTc3Mjc5NzY1NywidmVyc2lvbiI6MTc3Mjc5NzIxOH0:axopar:NNX8abZFiMq5lIVRXXARpg0_LCVXz7HEUuOMBAINtPM/download",
+   "tags": [],
+   "copyright_notice": "© 2021 Axopar Boats Oy",
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "Significant Performance Gains",
+    "item_title": "Axopar 37 ST BLTP_C4A9783"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTM1NywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-37-ST-BLTP_C4A9783_Mobile",
+   "file_name": "Axopar-37-ST-BLTP_C4A9783_Mobile.jpg",
+   "ext": "jpg",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-04-13T06:06:58.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/LQYgnYBuYhWvyAxZgb4i.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUzNTcsInRpbWVzdGFtcCI6MTc3NjA2MDY3NSwidmVyc2lvbiI6MTc3NjA2MDQxOH0:axopar:Wc0FPzgUMAbCVslidt1_rkgsq6TmnB-6T5gV7Jvl9bo/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "Significant Performance Gains",
+    "item_title": "Axopar-37-ST-BLTP_C4A9783_Mobile"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQ2OCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 ST BLTP_DSC08635",
+   "file_name": "Axopar 37 ST BLTP_DSC08635.jpg",
+   "ext": "jpg",
+   "width": 7952,
+   "height": 5304,
+   "created": "2026-03-06T11:42:14.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/qwqwWAMCaCD7imLmw7R5.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NjgsInRpbWVzdGFtcCI6MTc3Mjc5NzcxMiwidmVyc2lvbiI6MTc3Mjc5NzMzNH0:axopar:HPblHnHxwfXorByyyxIcwvG9ZdhYuxIwHYcIpZ7sUmo/download",
+   "tags": [],
+   "copyright_notice": "PHIL CLARK",
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "The Gullwing Door Concept",
+    "item_title": "Axopar 37 ST BLTP_DSC08635"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMzU2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_Sydney MY2020_100_6691",
+   "file_name": "Axopar 37 ST BLTP_Sydney MY2020_100_6691.jpg",
+   "ext": "jpg",
+   "width": 5918,
+   "height": 3938,
+   "created": "2025-10-16T10:41:29.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/pQMchVcDgVxmBz61o4Jo.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjM1NiwidGltZXN0YW1wIjoxNzY3Nzc2NjA5LCJ2ZXJzaW9uIjoxNzYwNjExMjg5fQ:axopar:5g9JTDgoY3kkvxMtnnGwok9C7eWHa6MzSkeFbsdnV10/download",
+   "tags": [
+    "australia",
+    "ax37",
+    "ax37st",
+    "axopar",
+    "ins",
+    "lifestyle",
+    "my20",
+    "sydney"
+   ],
+   "copyright_notice": "JAMES VODICKA",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Multipurpose Roof",
+    "item_title": "Multipurpose Roof"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDc3LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_37_Sun-Top_-",
+   "file_name": "Axopar_37_Sun-Top_-.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:42:30.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/4BCA1iHYYEf954PzSd66.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQ3NywidGltZXN0YW1wIjoxNzY3Nzc2NzQ1LCJ2ZXJzaW9uIjoxNzYwNjExMzUwfQ:axopar:2wMNJIhqscuPatU8Oq4GtAMyUFEzrkit--OvtB135Hs/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Built-in Electric Toilet",
+    "item_title": "Built-in Electric Toilet"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMzU4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_Sydney MY2020_100_6518",
+   "file_name": "Axopar 37 ST BLTP_Sydney MY2020_100_6518.jpg",
+   "ext": "jpg",
+   "width": 5970,
+   "height": 3972,
+   "created": "2025-10-16T10:41:29.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/HWmBiogmxavirBePtAwy.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjM1OCwidGltZXN0YW1wIjoxNzY3Nzc2ODQ0LCJ2ZXJzaW9uIjoxNzYwNjExMjg5fQ:axopar:qX2PfB6QwiKc5OsJRCWWD7zUrIDlhoikGqqaHc7eI0o/download",
+   "tags": [
+    "australia",
+    "ax37",
+    "ax37st",
+    "axopar",
+    "ins",
+    "lifestyle",
+    "my20",
+    "prio2",
+    "sydney"
+   ],
+   "copyright_notice": "JAMES VODICKA",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Spacious Fore Deck",
+    "item_title": "Spacious Fore Deck"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMzUyLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_Sydney MY2020_100_6601",
+   "file_name": "Axopar 37 ST BLTP_Sydney MY2020_100_6601.jpg",
+   "ext": "jpg",
+   "width": 5962,
+   "height": 3967,
+   "created": "2025-10-16T10:41:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/UYLZahx1ee2AACPv2Vx7.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjM1MiwidGltZXN0YW1wIjoxNzY3NzgwODM5LCJ2ZXJzaW9uIjoxNzYwNjExMjg3fQ:axopar:l9Iwst9UUS0gAibl50kosSH0zV3KDRpNrjkWtwwbf6A/download",
+   "tags": [
+    "australia",
+    "ax37",
+    "ax37st",
+    "axopar",
+    "ins",
+    "lifestyle",
+    "my20",
+    "sydney"
+   ],
+   "copyright_notice": "JAMES VODICKA",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Walkaround Deck",
+    "item_title": "Walkaround Deck"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNTE2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_37_Sun-Top_-5917",
+   "file_name": "Axopar_37_Sun-Top_-5917.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:43:11.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ub7zLKd6EZCmuz4R5Gs5.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjUxNiwidGltZXN0YW1wIjoxNzY3NzgwOTgyLCJ2ZXJzaW9uIjoxNzYwNjExMzkxfQ:axopar:BYGu2SNC7EdyqnvZBpIRbOQd9uCA6phIN2usDoVgbBM/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Cabinet in Front Cabin",
+    "item_title": "Cabinet in Front Cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMDY2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 XC Mediterrana_MY2023_C4A4837",
+   "file_name": "Axopar 37 XC Mediterrana_MY2023_C4A4837.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:50:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/mqZB5zgVbdCbCNH4fVC1.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzA2NiwidGltZXN0YW1wIjoxNzY3NzgxNzM1LCJ2ZXJzaW9uIjoxNzYwNjExODI3fQ:axopar:ABZMypHhJhWh85SV9dDAE4-aZ9KZqM9JaJ9z0vPuYbE/download",
+   "tags": [
+    "37xcmedlaunchcyf22",
+    "ax37",
+    "ax37xc",
+    "axopar",
+    "cannes",
+    "france",
+    "ins",
+    "my23",
+    "prio2"
+   ],
+   "copyright_notice": "© 2022 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Gullwing Doors",
+    "item_title": "Gullwing Doors"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTgxOCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-37-ST-MY2020_R7A6950",
+   "file_name": "Axopar-37-ST-MY2020_R7A6950.jpg",
+   "ext": "jpg",
+   "width": 6720,
+   "height": 4480,
+   "created": "2026-01-07T10:37:01.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/sxSSkLEBSziGpXZhD4bR.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE4MTgsInRpbWVzdGFtcCI6MTc2Nzc4MjI2MCwidmVyc2lvbiI6MTc2Nzc4MjIyMX0:axopar:Lewl0nI6tA2nWth5PlUS-IiUqnj3oiZFdmvhDrXys78/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "finland",
+    "helsinki",
+    "ins",
+    "my20"
+   ],
+   "copyright_notice": "© 2019 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Additional Overnight Possibilities",
+    "item_title": "Additional Overnight Possibilities"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTgxOSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-37-ST-BLTP-Mediterrana-MY2022_Q9A0092",
+   "file_name": "Axopar-37-ST-BLTP-Mediterrana-MY2022_Q9A0092.jpg",
+   "ext": "jpg",
+   "width": 8023,
+   "height": 5351,
+   "created": "2026-01-07T10:45:32.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/5MRsW3ctdpedJKywQwpR.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE4MTksInRpbWVzdGFtcCI6MTc2Nzc4Mjc5MCwidmVyc2lvbiI6MTc2Nzc4MjczMn0:axopar:s12n-Nr4HTMVaQj2x3mB3RSDmaqwoleoPvanYYvNt1w/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "italy",
+    "la spezia",
+    "lifestyle",
+    "my22",
+    "out"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Multi-storage",
+    "item_title": "Multi-storage"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjozMDkxLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 XC Cross Cabin_MY2024_099A3609",
+   "file_name": "Axopar 37 XC Cross Cabin_MY2024_099A3609.jpg",
+   "ext": "jpg",
+   "width": 8087,
+   "height": 5394,
+   "created": "2025-10-16T10:50:49.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/JS96Miigvp3eQ6qH9nnL.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzA5MSwidGltZXN0YW1wIjoxNzY3NzgyOTE1LCJ2ZXJzaW9uIjoxNzYwNjExODQ5fQ:axopar:Fay3q1H5cqxElPIXHOa_vKokR3KSIVmwDp-LuX4ijr0/download",
+   "tags": [
+    "ax37",
+    "ax37xc",
+    "axopar",
+    "france",
+    "ins",
+    "my24"
+   ],
+   "copyright_notice": "Axopar Boats 2023 ©",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Sun Bed on Foredeck",
+    "item_title": "Sun Bed on Foredeck"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMTgyMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 ST BLTP_DSC08632",
+   "file_name": "Axopar 37 ST BLTP_DSC08632.jpg",
+   "ext": "jpg",
+   "width": 7952,
+   "height": 5304,
+   "created": "2026-01-07T10:56:07.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/BfYHGuBttZvXKgq6oHYW.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE4MjAsInRpbWVzdGFtcCI6MTc2Nzc4MzM5MSwidmVyc2lvbiI6MTc2Nzc4MzM2N30:axopar:p56hsS_MsRSp8Zz45VnqRU_TJbkW5XW_d-InPT6kwB0/download",
+   "tags": [],
+   "copyright_notice": "PHIL CLARK",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Sun Shades",
+    "item_title": "Sun Shades"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMzc4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 MY2020_R7A8668",
+   "file_name": "Axopar 37 MY2020_R7A8668.jpg",
+   "ext": "jpg",
+   "width": 6720,
+   "height": 4480,
+   "created": "2025-10-16T10:41:38.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/rBfbCofTjZve2muVWTPF.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjM3OCwidGltZXN0YW1wIjoxNzY3NzgzMjA4LCJ2ZXJzaW9uIjoxNzYwNjExMjk4fQ:axopar:JhdrKqECJuUuKybrk7ENurBqCEgKNtlcmHbvt7irSjA/download",
+   "tags": [
+    "ax37",
+    "ax37s",
+    "ax37st",
+    "axopar",
+    "finland",
+    "helsinki",
+    "ins",
+    "my20"
+   ],
+   "copyright_notice": "© 2019 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Toilet Compartment",
+    "item_title": "Toilet Compartment"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMjgwLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 Sun Top Iconic Edition_0X0A4183",
+   "file_name": "Axopar 37 Sun Top Iconic Edition_0X0A4183.jpg",
+   "ext": "jpg",
+   "width": 8128,
+   "height": 5421,
+   "created": "2025-10-16T10:40:54.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/Uz4h7AyMxq5pY1Xs9meB.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjI4MCwidGltZXN0YW1wIjoxNzY3Nzc2NDk5LCJ2ZXJzaW9uIjoxNzYwNjExMjU0fQ:axopar:3UR749A8wkO1N-2CohJ4bNGj8mkebP7vf-8qXOCNnHQ/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "icon",
+    "ins",
+    "my26"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Driver Experience",
+    "item_title": "Driver Experience"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNTY1LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP Mediterrana MY2022_C4A4378 2",
+   "file_name": "Axopar 37 ST BLTP Mediterrana MY2022_C4A4378 2.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:44:02.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/DvYFRELtsQ1GT7EvFkiZ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjU2NSwidGltZXN0YW1wIjoxNzY3NzgxMjAwLCJ2ZXJzaW9uIjoxNzYwNjExNDQyfQ:axopar:qQ91oGZmp6ATRwb43z8roXyxTP4DqVbcG5QopunTU8U/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "ins",
+    "italy",
+    "la spezia",
+    "my22"
+   ],
+   "copyright_notice": "© 2021 Axopar Boats Oy",
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Significant Fuel-Consumption Gains",
+    "item_title": "Significant Fuel-Consumption Gains"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNDYxNSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar connect-banner",
+   "file_name": "Axopar connect-banner.png",
+   "ext": "png",
+   "width": 3183,
+   "height": 2513,
+   "created": "2026-03-18T11:26:04.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/JAh6d26hARM7xuofkH5e.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ2MTUsInRpbWVzdGFtcCI6MTc3NDk2MDk2MywidmVyc2lvbiI6MTc3MzgzMzE2NH0:axopar:aD-6wULt9lNKGiyPeXSYuSq7VwuA4XRb_FrOoHgRaT8/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "TabContentBlock",
+    "block_title": "Axopar Connect",
+    "item_title": "Axopar Connect"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQ3MSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 Sun Top Iconic Edition_0X0A3790",
+   "file_name": "Axopar 37 Sun Top Iconic Edition_0X0A3790.jpg",
+   "ext": "jpg",
+   "width": 8111,
+   "height": 5410,
+   "created": "2026-03-06T12:05:00.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/zhmdrZH58MCnwrHNiLWQ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NzEsInRpbWVzdGFtcCI6MTc3Mjc5ODczMiwidmVyc2lvbiI6MTc3Mjc5ODcwMH0:axopar:4LYc9ammWOb1LkqqxPM9uvWdX0sfY6Vz7EEVfZy6C4o/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "icon",
+    "my26",
+    "out"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "MediaBannerBlock",
+    "block_title": null
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMjY1LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST_Mallorca MY2021_200623_72420_2196",
+   "file_name": "Axopar 37 ST_Mallorca MY2021_200623_72420_2196.jpg",
+   "ext": "jpg",
+   "width": 5472,
+   "height": 3648,
+   "created": "2025-10-16T10:40:45.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/BRNeJ7Qiw31LqjTtCqNF.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjI2NSwidGltZXN0YW1wIjoxNzcyNzE0MzMxLCJ2ZXJzaW9uIjoxNzYwNjExMjQ1fQ:axopar:UlEZMxMqxpsmHwMt-UmsckKOb8TKnhnv4cKqzunp2P4/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "ins",
+    "mallorca",
+    "my21",
+    "spain"
+   ],
+   "copyright_notice": "© Tomas Moya Llado",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDI2LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_Thailand MY2020_G0030563",
+   "file_name": "Axopar 37 ST BLTP_Thailand MY2020_G0030563.jpg",
+   "ext": "jpg",
+   "width": 4000,
+   "height": 3000,
+   "created": "2025-10-16T10:41:57.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/mGViLCq26BneNtQ1tkkX.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQyNiwidGltZXN0YW1wIjoxNzcyNzE0NDgzLCJ2ZXJzaW9uIjoxNzYwNjExMzE3fQ:axopar:lfK4Lme5JUgkXrjwEV7gvOkK7Y4PQrQiN2IqVChCwB4/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "lifestyle",
+    "my20",
+    "out",
+    "pileh lagoon",
+    "thailand"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMTg1LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP MY2021_110971_0266",
+   "file_name": "Axopar 37 ST BLTP MY2021_110971_0266.jpg",
+   "ext": "jpg",
+   "width": 5464,
+   "height": 3640,
+   "created": "2025-10-16T10:40:09.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/JnXr2PAccz5xkWTaHa2n.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjE4NSwidGltZXN0YW1wIjoxNzcyNzE0NjUwLCJ2ZXJzaW9uIjoxNzYwNjExMjA5fQ:axopar:Je--cpxUAYCwCjMRXiw314MjPZFwr88zwgLzEaNb_FQ/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "mallorca",
+    "my21",
+    "out",
+    "spain"
+   ],
+   "copyright_notice": "© Tomas Moya Llado",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMzYwLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_MY2020_Tradeaboat_13",
+   "file_name": "Axopar 37 ST BLTP_MY2020_Tradeaboat_13.jpg",
+   "ext": "jpg",
+   "width": 3264,
+   "height": 4928,
+   "created": "2025-10-16T10:41:29.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/AKeJWBEqDFx5xmvbzu6E.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjM2MCwidGltZXN0YW1wIjoxNzcyNzE0NjgxLCJ2ZXJzaW9uIjoxNzYwNjExMjg5fQ:axopar:sR2jRGTWRgpgGtzb9K_xzCOKEzdEsgcjg0fsClGnOeA/download",
+   "tags": [
+    "australia",
+    "ax37",
+    "ax37st",
+    "axopar",
+    "my20",
+    "out",
+    "queensland"
+   ],
+   "copyright_notice": "© 2020 Trade-A-Boat",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDEzLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP_Thailand MY2020_(3_1)",
+   "file_name": "Axopar 37 ST BLTP_Thailand MY2020_(3_1).jpg",
+   "ext": "jpg",
+   "width": 5464,
+   "height": 3070,
+   "created": "2025-10-16T10:41:52.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/CFyczZhkEt4PVZg73Zig.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQxMywidGltZXN0YW1wIjoxNzcyNzE0ODQyLCJ2ZXJzaW9uIjoxNzYwNjExMzEyfQ:axopar:Zsc9IoRad22GMOby42xgOAswmcWorSMiMcnMv7O5boQ/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "my20",
+    "out",
+    "pileh lagoon",
+    "thailand"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDU4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST CAMO MY2020_P8I5639",
+   "file_name": "Axopar 37 ST CAMO MY2020_P8I5639.jpg",
+   "ext": "jpg",
+   "width": 5472,
+   "height": 3648,
+   "created": "2025-10-16T10:42:16.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/NXA78GJKpfnGMX25KMwk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQ1OCwidGltZXN0YW1wIjoxNzcyNzE0NzkzLCJ2ZXJzaW9uIjoxNzYwNjExMzM2fQ:axopar:hJc9ytbiM2a-lgtFvEXf2x3ZiXxmrCU400w3jZ7xl0o/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "grimaud",
+    "my20",
+    "out"
+   ],
+   "copyright_notice": "@ Henrik Ljungqvist, Adstream AB, All rights reserved.",
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": "Axopar 37 Sun Top Gallery"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM3OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_37_Sun-Top_-7568",
+   "file_name": "Axopar_37_Sun-Top_-7568.jpg",
+   "ext": "jpg",
+   "width": 8027,
+   "height": 5354,
+   "created": "2026-03-06T05:26:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/Ug5nNzvoMd9Ch9w1RYbE.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzNzksInRpbWVzdGFtcCI6MTc3Mjc3NTg1MywidmVyc2lvbiI6MTc3Mjc3NDc2NX0:axopar:N7bVHumxwR2fbbeiBl1TaJ-9ZW2mxNTwKLm0moz2yJg/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": null,
+    "item_title": "If your adventures include a lot of socializing and lounging, the U-Sofa aft configuration, which serves as both a dining spot and a lounging spot, is your option."
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM4MCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_37_Sun-Top_-5915",
+   "file_name": "Axopar_37_Sun-Top_-5915.jpg",
+   "ext": "jpg",
+   "width": 6475,
+   "height": 4319,
+   "created": "2026-03-06T05:31:45.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/8U1A6mcuxUD57A71f4DZ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODAsInRpbWVzdGFtcCI6MTc3Mjc3NTg3NCwidmVyc2lvbiI6MTc3Mjc3NTEwNX0:axopar:rLFmi9QGYf8msyd5jQibDgfbOy8W33mgAk9vhOS9l8Y/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": null,
+    "item_title": "The renewed front cabin now has new materials and colors, which makes the space even lighter than before."
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM4MSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar_37_Sun-Top_--3_Axedit",
+   "file_name": "Axopar_37_Sun-Top_--3_Axedit.jpg",
+   "ext": "jpg",
+   "width": 5272,
+   "height": 3948,
+   "created": "2026-03-06T05:43:10.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/NTreS8p63DhqRAvviJmZ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODEsInRpbWVzdGFtcCI6MTc3Mjc3NTk4NiwidmVyc2lvbiI6MTc3Mjc3NTc5MH0:axopar:S1F0JTAkWVQ-PwTqbwlQblsO5PAYtOyTPz3zACMReuw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ImageGalleryBlock",
+    "block_title": null,
+    "item_title": "Inspired by a laid-back Mediterranean spirit and a love for lounging and socialising onboard, we have developed the new Mediterrana Edition. Now we have fully utilized the perfect layout of the Axopar 37s, further enhancing their appearance with a more relaxed, elegant look and greater on-board comfort."
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM5NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "DSC00771 2",
+   "file_name": "DSC00771 2.jpg",
+   "ext": "jpg",
+   "width": 6194,
+   "height": 4129,
+   "created": "2026-03-06T06:22:53.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/1S5jsxszq8GZdsb7vVn9.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTQsInRpbWVzdGFtcCI6MTc3Mjc3OTIwNiwidmVyc2lvbiI6MTc3Mjc3ODE3M30:axopar:cPglc7Ksk-J66VSLjahyQNXVFOG7mzqyfeupizcz_sg/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjA2MiwidHlwZSI6ImFzc2V0In0=",
+   "title": "0X0A1526",
+   "file_name": "0X0A1526.jpg",
+   "ext": "jpg",
+   "width": 3240,
+   "height": 2160,
+   "created": "2026-02-09T09:33:50.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/dLHBUS1CavCeT9WLbEpk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwNjIsInRpbWVzdGFtcCI6MTc3Mjc5Nzg2NywidmVyc2lvbiI6MTc3MDYyOTYzMH0:axopar:kw-FS4go0ZZmU2na-3ebt4sgP2CbdBQONrleRPQ0w4U/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjA2MywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 Sun Top Iconic Edition_0X0A4179",
+   "file_name": "Axopar 37 Sun Top Iconic Edition_0X0A4179.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-02-09T09:37:53.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/7f9UQ8KWZp2CoN3fzrPD.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwNjMsInRpbWVzdGFtcCI6MTc3Mjc5Nzg2NywidmVyc2lvbiI6MTc3MDYyOTg3M30:axopar:snNnYzXRWf4NTyduJ33tEXVyxSVI-Amnr7yOCdq5s-w/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "icon",
+    "ins",
+    "my26"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjA2NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "A45I2542",
+   "file_name": "A45I2542.jpg",
+   "ext": "jpg",
+   "width": 3648,
+   "height": 5472,
+   "created": "2026-02-09T09:42:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/hgU4P4Dctt7UsLMpPqwh.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwNjQsInRpbWVzdGFtcCI6MTc3Mjc5Nzg2NywidmVyc2lvbiI6MTc3MDYzMDEyNX0:axopar:FrrA8oXMyjKcxkWY6C2CD5XwBQy4qJM-F9LqXHyzNF0/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM4OCwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_Miami_Blue_Petrol",
+   "file_name": "AX37ST_Miami_Blue_Petrol.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-06T06:19:36.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/3mjsPE7peYAPCf2dfquf.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODgsInRpbWVzdGFtcCI6MTc3Mjc3OTM0MywidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:dOCEu_xGj4RTenK6lrIympF6Yl_1CPU41xiPyqnZ6p4/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM4NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_Platinum_Grey_Sandstone",
+   "file_name": "AX37ST_Platinum_Grey_Sandstone.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-06T06:19:36.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/LDqWLJoSnKtx3jUDMqUS.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODYsInRpbWVzdGFtcCI6MTc3Mjc3OTM0MywidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:4yG2Y81cfVGM5IatblzASNrwxz49EXW3rsOQqESIGUY/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM4NywidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_Glacier_Blue_Cobre",
+   "file_name": "AX37ST_Glacier_Blue_Cobre.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-06T06:19:36.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/HWaTei9Cdj6iJpe1LqVH.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODcsInRpbWVzdGFtcCI6MTc3Mjc3OTM0MywidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:y8SCxOGUJPRRef9J0yG2g9gSyDWY2z8FZxGCSsxv0F8/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM5MSwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_Agate_Baltic",
+   "file_name": "AX37ST_Agate_Baltic.png",
+   "ext": "png",
+   "width": 2160,
+   "height": 2160,
+   "created": "2026-03-06T06:19:36.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/pRPX41C1J6yoLemB5Pns.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTEsInRpbWVzdGFtcCI6MTc3Mjc3OTM0MywidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:W3IVyvzDFftQuhUwVJvt0gD-f11DCdNxSO1IktrlqXA/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "BRINGING YOU THE ICONIC EDITION"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjExNywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-37-Sun-Top-Iconic-Edition_0X0A3987_Axedit",
+   "file_name": "Axopar-37-Sun-Top-Iconic-Edition_0X0A3987_Axedit.jpg",
+   "ext": "jpg",
+   "width": 8158,
+   "height": 5441,
+   "created": "2026-02-10T11:17:53.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/KPMJ4X3EcvVvhrqmdzvu.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIxMTcsInRpbWVzdGFtcCI6MTc3MDcyMjM3NSwidmVyc2lvbiI6MTc3MDcyMjI3M30:axopar:7TX0cQYZsa9wl8_ebRZihJP8Qe2YTHHqmYQfoKqXcp8/download",
+   "tags": [],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyMjg3LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 Sun Top Iconic EditionDSC00704",
+   "file_name": "Axopar 37 Sun Top Iconic EditionDSC00704.jpg",
+   "ext": "jpg",
+   "width": 1594,
+   "height": 2351,
+   "created": "2025-10-16T10:41:01.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/GvuENc3XQf5ZWqx98GdN.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjI4NywidGltZXN0YW1wIjoxNzY3Nzg0MDI4LCJ2ZXJzaW9uIjoxNzYwNjExMjYxfQ:axopar:GCRHHFCJpQV1lZVr4aE5Nqfyn-rT7EdVaD1WgBwRwHI/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "icon",
+    "my26",
+    "out"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": " The BRABUS Performance Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjExMSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 Sun Top Iconic Edition_0X0A3987",
+   "file_name": "Axopar 37 Sun Top Iconic Edition_0X0A3987.jpg",
+   "ext": "jpg",
+   "width": 8158,
+   "height": 5441,
+   "created": "2026-02-10T10:58:52.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/dhTUMYmKcttteBnCR9WE.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIxMTEsInRpbWVzdGFtcCI6MTc3MDcyMTM4NiwidmVyc2lvbiI6MTc3MDcyMTEzMn0:axopar:jUwrRljyJNHtuiBeUTOLTI5Rm5U9KDo4QZOSVf6h7v4/download",
+   "tags": [
+    "ax37",
+    "ax37st",
+    "axopar",
+    "france",
+    "icon",
+    "my26",
+    "out"
+   ],
+   "copyright_notice": "© 2025 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": " The BRABUS Performance Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjExMiwidHlwZSI6ImFzc2V0In0=",
+   "title": "DSC03965",
+   "file_name": "DSC03965.jpg",
+   "ext": "jpg",
+   "width": 6000,
+   "height": 4000,
+   "created": "2026-02-10T11:00:22.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/bsSNMzYDS9FxZa4i3QzQ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIxMTIsInRpbWVzdGFtcCI6MTc3MDcyMTQ2OCwidmVyc2lvbiI6MTc3MDcyMTIyMn0:axopar:VSDiJvFGQedXRQsc6ZCXtNIzWpmhWZlqRJYMDSZ6ibM/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": " The BRABUS Performance Line"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjExMywidHlwZSI6ImFzc2V0In0=",
+   "title": "_C4A1927",
+   "file_name": "_C4A1927.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2026-02-10T11:07:40.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/Leu75KtZnrjwvTEkbhg9.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIxMTMsInRpbWVzdGFtcCI6MTc3MDcyMTg1NCwidmVyc2lvbiI6MTc3MDcyMTY2MH0:axopar:_qdPff_ecHOJ_P9vx7pU4hLXsFx4QknoVIqNEDWGxN0/download",
+   "tags": [],
+   "copyright_notice": "Copyright Christian Hoglund",
+   "context": {
+    "block_type": "ModalLiftBlock",
+    "block_title": "Upgrade Options"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDgzLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_37_Sun-Top_-5891",
+   "file_name": "Axopar_37_Sun-Top_-5891.jpg",
+   "ext": "jpg",
+   "width": 8147,
+   "height": 5434,
+   "created": "2025-10-16T10:42:36.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/NVqExyPo5iHmN9AheCcS.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQ4MywidGltZXN0YW1wIjoxNzY3Nzg0OTgxLCJ2ZXJzaW9uIjoxNzYwNjExMzU2fQ:axopar:J4hQmyX8bFLGDQoX4LfGRLP9OHq95kYq1JtAg2M6nlE/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDg3LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_37_Sun-Top_-5893",
+   "file_name": "Axopar_37_Sun-Top_-5893.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:42:41.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/G8rkudhPuqcqGwWAoAnJ.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQ4NywidGltZXN0YW1wIjoxNzY3Nzg0OTgxLCJ2ZXJzaW9uIjoxNzYwNjExMzYxfQ:axopar:akquJgkibb0_RJjwzBDxJea5Hnn13EVa55Y1lPnmmj4/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNDg4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar_37_Sun-Top_-7826",
+   "file_name": "Axopar_37_Sun-Top_-7826.jpg",
+   "ext": "jpg",
+   "width": 7631,
+   "height": 5090,
+   "created": "2025-10-16T10:42:41.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WY1FZPXqDKCX3jwvGDkV.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjQ4OCwidGltZXN0YW1wIjoxNzY3Nzg0OTgxLCJ2ZXJzaW9uIjoxNzYwNjExMzYxfQ:axopar:7QRTlFfAocVmZNoLazFfn4efJlHvjpoml5aKOI7Ah-w/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "france",
+    "ins",
+    "my25"
+   ],
+   "copyright_notice": "© 2024 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNTYxLCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP Mediterrana MY2022_C4A4965",
+   "file_name": "Axopar 37 ST BLTP Mediterrana MY2022_C4A4965.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:43:59.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/2k6AJ4ZibyiUfG3euF2P.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjU2MSwidGltZXN0YW1wIjoxNzY3Nzg1MDQxLCJ2ZXJzaW9uIjoxNzYwNjExNDM5fQ:axopar:KJlufLeDZ877pmRxnGHlcFg1fxF9tiMbHx2TdY2BX4o/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "ins",
+    "italy",
+    "la spezia",
+    "my22",
+    "prio2"
+   ],
+   "copyright_notice": "© 2021 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNTY4LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP Mediterrana MY2022_C4A5428",
+   "file_name": "Axopar 37 ST BLTP Mediterrana MY2022_C4A5428.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:44:06.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/ex4HHyMGoorB1KsFZ4qE.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjU2OCwidGltZXN0YW1wIjoxNzY3Nzg1MDQxLCJ2ZXJzaW9uIjoxNzYwNjExNDQ2fQ:axopar:HYnfU-UG95w4ugX9XFYVy5fa5CjbuxqBhZs21Ls0CrQ/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "ins",
+    "italy",
+    "la spezia",
+    "my22",
+    "prio2"
+   ],
+   "copyright_notice": "© 2021 Axopar Boats Oy",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoyNTc1LCJ0eXBlIjoiYXNzZXQifQ==",
+   "title": "Axopar 37 ST BLTP Mediterrana MY2022_C4A5256",
+   "file_name": "Axopar 37 ST BLTP Mediterrana MY2022_C4A5256.jpg",
+   "ext": "jpg",
+   "width": 8192,
+   "height": 5464,
+   "created": "2025-10-16T10:44:11.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/PdJSkLmz6K6JSW7jnymU.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MjU3NSwidGltZXN0YW1wIjoxNzY3Nzg1MDQxLCJ2ZXJzaW9uIjoxNzYwNjExNDUxfQ:axopar:FRCoz8sOUeupsnucT2HmDUcJWoHTk_VdnQYwSwIaCMw/download",
+   "tags": [
+    "ax37",
+    "ax37mediterrana",
+    "ax37st",
+    "axopar",
+    "ins",
+    "italy",
+    "la spezia",
+    "my22"
+   ],
+   "copyright_notice": "Copyright Christian Hoglund",
+   "context": {
+    "block_type": "PresentationBlock",
+    "block_title": "The Mediterrana Edition"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzYwMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_OpenAft_Squash",
+   "file_name": "AX37ST_OpenAft_Squash.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-28T04:52:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/by4AXeMzrtykRTx6mPan.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MDAsInRpbWVzdGFtcCI6MTc4Nzg5MzEwNywidmVyc2lvbiI6MTc4Nzg5Mjc0N30:axopar:Vy_M86P_IQSE6hgxP-w1qeqZpG49GynHDGzie8Ep5E0/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "Open Aft"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM5OCwidHlwZSI6ImFzc2V0In0=",
+   "title": "WBG__0001_AX37ST_WetBar_Sandstone",
+   "file_name": "WBG__0001_AX37ST_WetBar_Sandstone.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2400,
+   "created": "2026-03-06T06:52:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/bpeLF4Mpma4hL2B9q2qi.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTgsInRpbWVzdGFtcCI6MTc3Mjc4MDEzMywidmVyc2lvbiI6MTc3Mjc3OTkzOX0:axopar:EBDv3yIQAniOd-oCytNMS2tFqDyfxJNBUu5LQHZNG1s/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "Wet Bar"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzU5OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "AX37ST_Multistorage_Hunter",
+   "file_name": "AX37ST_Multistorage_Hunter.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-28T04:52:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/1k8azTL15AaoEXDBPsVL.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTksInRpbWVzdGFtcCI6MTc4Nzg5MzEzOCwidmVyc2lvbiI6MTc4Nzg5Mjc0N30:axopar:zka2H7WclQ4gUbnLjgLD3_TP7XKpxOGaX-K4PbjyYK0/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "Multi Storage"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQwMSwidHlwZSI6ImFzc2V0In0=",
+   "title": "WBG__0002_AX37ST_U-Sofa_Table",
+   "file_name": "WBG__0002_AX37ST_U-Sofa_Table.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2400,
+   "created": "2026-03-06T06:52:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/JxQ8T2oeAZxKQoZDvB4h.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0MDEsInRpbWVzdGFtcCI6MTc3Mjc4MDIxMywidmVyc2lvbiI6MTc3Mjc3OTkzOX0:axopar:B5Pwt9OKNi0h01mj3S_pij2xrSWYrtYQUTA8rUmTPRY/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "U-Sofa with Table"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzQwMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "WBG__0003_AX37ST_U-Sofa_Sun_Lounge",
+   "file_name": "WBG__0003_AX37ST_U-Sofa_Sun_Lounge.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2400,
+   "created": "2026-03-06T06:52:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/9bpeaiN6r7vFvn4ywXYp.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0MDAsInRpbWVzdGFtcCI6MTc3Mjc4MDI1OSwidmVyc2lvbiI6MTc3Mjc3OTkzOX0:axopar:r1pHsuzTqhoaUte_7NNiyTYBnfRaFR5QAz6e3qkrDFE/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "U-Sofa with Sunbed"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMzM5OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "WBG__0000_AX37ST_AftCabin_Petrol_",
+   "file_name": "WBG__0000_AX37ST_AftCabin_Petrol_.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2400,
+   "created": "2026-03-06T06:52:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/xbxiS3pL4316WgSnzwTd.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTksInRpbWVzdGFtcCI6MTc3Mjc4MDI4OCwidmVyc2lvbiI6MTc3Mjc3OTkzOX0:axopar:mH-h9wJlMshfS9BRPMotQsOtf5-uCNGostOLBjZH9mw/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Alternatives for Aft Deck",
+    "item_title": "Aft Cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzU3OCwidHlwZSI6ImFzc2V0In0=",
+   "title": "37SunTop_Spyder_Open_Aft_Petrol",
+   "file_name": "37SunTop_Spyder_Open_Aft_Petrol.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-27T04:46:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/BpJLUCtNJnNhwEq2F1aa.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NzgsInRpbWVzdGFtcCI6MTc4NzgwNjMwNywidmVyc2lvbiI6MTc4NzgwNTk2NX0:axopar:kf8xgm_Y3-IGGypmmAlh_tZi4qErZlLhjXBeB8pxO90/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Configurations & Layouts",
+    "item_title": "Open aft"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzU4MCwidHlwZSI6ImFzc2V0In0=",
+   "title": "37SunTop_Spyder_Wet_Bar_Squash",
+   "file_name": "37SunTop_Spyder_Wet_Bar_Squash.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-27T04:46:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/fWtVFWiBzroQTu74eP4B.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1ODAsInRpbWVzdGFtcCI6MTc4NzgwNjM3NCwidmVyc2lvbiI6MTc4NzgwNTk2NX0:axopar:yzdT6krnm3XlwLr_j81rc_ezU5_3kng5_WI9R6heP1k/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Configurations & Layouts",
+    "item_title": "Wet Bar"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzU3OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "37SunTop_Spyder_Multi-Storage_Hunter",
+   "file_name": "37SunTop_Spyder_Multi-Storage_Hunter.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-27T04:46:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/fxcCDRa3wGfwj5LbiH1m.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NzksInRpbWVzdGFtcCI6MTc4NzgwNjQ2MywidmVyc2lvbiI6MTc4NzgwNTk2NX0:axopar:kHhXTkrgrVWcZhfZH7-aCdbicwfFM4vAXf1IeGvGuBc/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Configurations & Layouts",
+    "item_title": "Multi Storage Compartment"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzU3NywidHlwZSI6ImFzc2V0In0=",
+   "title": "37SunTop_Spyder_Aft_Cabin",
+   "file_name": "37SunTop_Spyder_Aft_Cabin.png",
+   "ext": "png",
+   "width": 1968,
+   "height": 2500,
+   "created": "2026-08-27T04:46:05.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/qMwKN4XrZziLxzxdgvdZ.png",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NzcsInRpbWVzdGFtcCI6MTc4NzgwNjYwOSwidmVyc2lvbiI6MTc4NzgwNTk2NX0:axopar:mkiaBaZmUwSGQzGhvUTkkkV5vGaSS0G6YGQdkbuVemQ/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Configurations & Layouts",
+    "item_title": "Aft cabin"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMjAxNCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Petrol_Front",
+   "file_name": "Petrol_Front.jpg",
+   "ext": "jpg",
+   "width": 5472,
+   "height": 3648,
+   "created": "2026-02-04T12:50:19.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WKoFAUEf65TBFwwokesk.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwMTQsInRpbWVzdGFtcCI6MTc3MDIwOTczNywidmVyc2lvbiI6MTc3MDIwOTQxOX0:axopar:US7yesp4Vs6csGKQPO2Dgu1k01R5K5X89163CehF534/download",
+   "tags": [],
+   "copyright_notice": "Niklas Frank",
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Petrol"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMxNiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Squash_Corn",
+   "file_name": "Squash_Corn.jpg",
+   "ext": "jpg",
+   "width": 5472,
+   "height": 3648,
+   "created": "2026-06-08T06:17:43.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WJ2mBqgPYEoiRn1pqdQQ.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMTYsInRpbWVzdGFtcCI6MTc4NzgxMDc0NSwidmVyc2lvbiI6MTc4MDg5OTQ2M30:axopar:lVlf6zAMwDRPIrdoucVV_RzmTO7tj7iTbHP6eaNZhQk/download",
+   "tags": [],
+   "copyright_notice": "Niklas Frank",
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Squash"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzMxNSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Hunter_Sage",
+   "file_name": "Hunter_Sage.jpg",
+   "ext": "jpg",
+   "width": 5472,
+   "height": 3648,
+   "created": "2026-06-08T06:17:43.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WoPm9isjhEJHequ6fkhC.jpg",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMTUsInRpbWVzdGFtcCI6MTc4NzgxMDg5NSwidmVyc2lvbiI6MTc4MDg5OTQ2M30:axopar:5GzoUPAfeXnE7oPJ8yNPu8S5KktSt0RAKibYpy-DdR8/download",
+   "tags": [],
+   "copyright_notice": "Niklas Frank",
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Silvertex Hunter"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NiwidHlwZSI6ImFzc2V0In0=",
+   "title": "Taupe",
+   "file_name": "Taupe.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc3NTU0MzMwOSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:0nSHQ91EIUIzfRmgbqjsWmFN8WuVI4R8BqhEg_yZ6Qc/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine PE Taupe"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Natural",
+   "file_name": "Natural.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc3NTU0MzM3OCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:sy5VxqaYNXCl_nSOgSSwV9jzbYFakoxTn6hzQRXAR9U/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine PE Natural"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI2NSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Antracite",
+   "file_name": "Antracite.jpg",
+   "ext": "jpg",
+   "width": 1233,
+   "height": 1233,
+   "created": "2026-04-07T06:16:47.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc3NTU0MzQ0NywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:g0X8j3rgAsJX7kOoxJkFMMS2NxMoaWMZ3fIQOY8kpVA/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "CardListBlock",
+    "block_title": "Upholstery Colors",
+    "item_title": "Seine PE Antracite"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTI4OSwidHlwZSI6ImFzc2V0In0=",
+   "title": "Axcopar-37-Sun-Top-Iconic-Edition-Surroundings",
+   "file_name": "Axcopar-37-Sun-Top-Iconic-Edition-Surroundings.jpg",
+   "ext": "jpg",
+   "width": 2472,
+   "height": 1238,
+   "created": "2026-04-08T06:09:16.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/FULeKJCohiLjDvGcN78K.jpg",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyODksInRpbWVzdGFtcCI6MTc3NTYyOTc3NywidmVyc2lvbiI6MTc3NTYyODU1Nn0:axopar:Ezzx6UF2s2YUX-O6SVZpScblXEDaG0MPm25tIrHfQLU/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "HighlightBannerBlock",
+    "block_title": "Get Yourself An Icon",
+    "item_title": "Axcopar-37-Sun-Top-Iconic-Edition-Surroundings"
+   },
+   "role": "image"
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNTMyNywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar-37-Sun-Top-Iconic-Edition-Surroundings-Mobile_1",
+   "file_name": "Axopar-37-Sun-Top-Iconic-Edition-Surroundings-Mobile_1.png",
+   "ext": "png",
+   "width": 1080,
+   "height": 1920,
+   "created": "2026-04-10T08:05:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/vixLnieXPuCLuYN6zzX4.png",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUzMjcsInRpbWVzdGFtcCI6MTc3NTgwODQwNiwidmVyc2lvbiI6MTc3NTgwODMyN30:axopar:PQti8FVItnw1R9PpPs_ZbFCcFMniYaYrTRx1oTJ8QO8/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "HighlightBannerBlock",
+    "block_title": "Get Yourself An Icon",
+    "item_title": "Axopar-37-Sun-Top-Iconic-Edition-Surroundings-Mobile_1"
+   },
+   "role": "image"
+  }
+ ],
+ "videos": [
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxMDgwMywidHlwZSI6ImFzc2V0In0=",
+   "title": "Axopar 37 Sun Top webloop",
+   "file_name": "Axopar 37 Sun Top webloop.mp4",
+   "ext": "mp4",
+   "width": 3840,
+   "height": 2160,
+   "created": "2025-11-11T18:44:02.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/dJxgfsozMoJcGtjwd3n2.mp4",
+   "original_download_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTA4MDMsInRpbWVzdGFtcCI6MTc2Nzc3MjM0NSwidmVyc2lvbiI6MTc2Mjg4NjY0Mn0:axopar:GcTCBLhyNLJswQ2AJbZceYnJL1yYGJYIUvAN1r22udg/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "HeroBlock",
+    "block_title": "hero"
+   },
+   "role": "video",
+   "caption": null
+  },
+  {
+   "dam_id": "eyJpZGVudGlmaWVyIjoxNzcwMCwidHlwZSI6ImFzc2V0In0=",
+   "title": "Reduced wetted surface area_1920x1080",
+   "file_name": "Reduced wetted surface area_1920x1080.mp4",
+   "ext": "mp4",
+   "width": 1920,
+   "height": 1080,
+   "created": "2026-09-01T15:58:27.000+00:00",
+   "src": "https://media.ffycdn.net/eu/axopar/UdjFKk9RvPrp6Pqw1AqY.mp4",
+   "original_download_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3MDAsInRpbWVzdGFtcCI6MTc4ODUwNzAwMSwidmVyc2lvbiI6MTc4ODI3ODMwN30:axopar:bkmfsko5vyvfy_ud6yyslAbDhp67KQsgrwc8Nu-NphU/download",
+   "tags": [],
+   "copyright_notice": null,
+   "context": {
+    "block_type": "BannerBlock",
+    "block_title": "Welcome to the Hull of Fame"
+   },
+   "role": "video",
+   "caption": null
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=LxQElUDCUGQ",
+   "role": "video_link",
+   "caption": "Ascending Mokoli'i Islet - Adventure Stories | Axopar 37 Sun Top",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring The Axopar 37 Sun Top ",
+    "item_title": "Ascending Mokoli'i Islet - Adventure Stories | Axopar 37 Sun Top"
+   }
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=vOU_k0J-lsE",
+   "role": "video_link",
+   "caption": "Axopar Adventures: A Mediterranean Getaway",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring The Axopar 37 Sun Top ",
+    "item_title": "Axopar Adventures: A Mediterranean Getaway"
+   }
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=FZ7s101pinU",
+   "role": "video_link",
+   "caption": "Axopar Adventures: United With The Ocean",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring The Axopar 37 Sun Top ",
+    "item_title": "Axopar Adventures: United With The Ocean"
+   }
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=Ibnek4mFZRc",
+   "role": "video_link",
+   "caption": "Axopar 37 Sun-Top Mediterrana Edition - Cannes Yachting Festival",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring The Axopar 37 Sun Top ",
+    "item_title": " Axopar 37 Sun-Top Mediterrana Edition - Cannes Yachting Festival"
+   }
+  },
+  {
+   "src": "https://www.youtube.com/watch?v=hdQBKoFgUKU",
+   "role": "video_link",
+   "caption": "Axopar Adventures: Discovering Paradise",
+   "context": {
+    "block_type": "VideoGalleryBlock",
+    "block_title": "Videos Featuring The Axopar 37 Sun Top ",
+    "item_title": " Axopar Adventures: Discovering Paradise"
+   }
+  }
+ ]
+}

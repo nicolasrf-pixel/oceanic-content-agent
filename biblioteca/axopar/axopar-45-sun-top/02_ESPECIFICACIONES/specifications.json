@@ -1,0 +1,386 @@
+{
+  "model": {
+    "brand": "Axopar",
+    "range": "Axopar 45",
+    "model": "Axopar 45 Sun Top",
+    "variant": "Sun Top",
+    "model_year": "2027",
+    "configuration": "Base (según web oficial)",
+    "engine_option": "Ver motorización",
+    "boat_type": "motor"
+  },
+  "compiled_at": "2026-09-25",
+  "rules": "Generado por tools/oceanic/builders/axopar.py desde la web oficial del producto (S1).",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "13,91 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Overall Length (excl. Engine)",
+          "source_value": "13,91 m (45ft 8in)",
+          "source_unit": "m",
+          "normalized_value": 13.91,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": "",
+      "display_note": "sin motor"
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,11 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Beam",
+          "source_value": "4,11 m (13ft 6in)",
+          "source_unit": "m",
+          "normalized_value": 4.11,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "7.300 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Weight (excl. Engine)",
+          "source_value": "7300 kg / 16 093 lbs",
+          "source_unit": "kg",
+          "normalized_value": 7300.0,
+          "normalized_unit": "kg",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "La web publica el peso del barco sin motores: es el peso en rosca."
+        }
+      ],
+      "notes": "",
+      "display_note": "sin motor"
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "1 (+1 opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Front Cabin (Standard Features)",
+          "source_value": "Lockable access hatch to front cabin with grab rail in leather.",
+          "source_unit": null,
+          "normalized_value": {
+            "standard": 1,
+            "optional": 1
+          },
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Standard Features",
+          "cross_reference": "Cabina de proa de serie."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Optional Equipment",
+          "source_value": "Sundeck cushions for aft cabin, Petrol - ST/XT",
+          "source_unit": null,
+          "normalized_value": {
+            "standard": 1,
+            "optional": 1
+          },
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Optional Equipment",
+          "cross_reference": "Cabina de popa opcional."
+        }
+      ],
+      "notes": "Cruce de equipamiento estándar y opcional."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "1.390 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Fuel capacity",
+          "source_value": "1390 l (368 gal)",
+          "source_unit": "l",
+          "normalized_value": 1390.0,
+          "normalized_unit": "l",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web no publica un volumen de agua dulce (menciona: Freshwater system.)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B12 / C16",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Category + Passengers",
+          "source_value": "B – Offshore, C - Coastal · B:12 / C:16",
+          "source_unit": "personas",
+          "normalized_value": {
+            "B": 12,
+            "C": 16
+          },
+          "normalized_unit": "personas",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "Cruce de 'Category' y 'Passengers' en formato Oceanic (categoría + personas)."
+        }
+      ],
+      "notes": "",
+      "display_note": "CE · personas"
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "3 x 350 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 425 hp / 3 x 300 hp / 3 x 350 hp",
+          "source_unit": "hp",
+          "normalized_value": "3 x 350",
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Technical Specifications",
+          "cross_reference": "Extremo superior de la motorización publicada."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda, 2 x 425 hp / 3 x 300 hp / 3 x 350 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 425 hp / 3 x 300 hp / 3 x 350 hp",
+          "source_unit": "hp",
+          "normalized_value": "2 x 425 hp / 3 x 300 hp / 3 x 350 hp",
+          "normalized_unit": "hp",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,20 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Draft to props",
+          "source_value": "1,2 m (3ft 11in)",
+          "source_unit": "m",
+          "normalized_value": 1.2,
+          "normalized_unit": "m",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": "",
+      "display_note": "a hélices"
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "2 persons (with optional aft cabin 2+2)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Berths",
+          "source_value": "2 persons (with optional aft cabin 2+2)",
+          "source_unit": null,
+          "normalized_value": "2 persons (with optional aft cabin 2+2)",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Standard Features",
+          "source_value": "Separate toilet compartment with toilet, mirror, cabinet, shower and sink.",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Equipment · Standard Features",
+          "cross_reference": "WC de serie en el equipamiento estándar."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "GRP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Construction",
+          "source_value": "GRP",
+          "source_unit": null,
+          "normalized_value": "GRP",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "diseno_casco",
+      "label": "Diseño de casco",
+      "status": "VERIFIED",
+      "display_value": "Doble step, V de 22°, proa “Sharp entry”",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Hull design",
+          "source_value": "Twin stepped 22 degree V “Sharp entry hull”",
+          "source_unit": null,
+          "normalized_value": "Twin stepped 22 degree V “Sharp entry hull”",
+          "normalized_unit": null,
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "VERIFIED",
+      "display_value": "50 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Max speed range",
+          "source_value": "50 kts",
+          "source_unit": "nudos",
+          "normalized_value": "50 kts",
+          "normalized_unit": "nudos",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "consumo_crucero",
+      "label": "Consumo crucero",
+      "status": "VERIFIED",
+      "display_value": "4,1 l/mn (3 x 300 hp Mercury, 25 knots)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Axopar 45 Sun Top",
+          "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+          "accessed_at": "2026-09-25",
+          "source_field": "Fuel consumption, cruise",
+          "source_value": "4,1 l/nm (3 x 300 hp Mercury, 25 knots)",
+          "source_unit": "l/nm",
+          "normalized_value": "4,1 l/nm (3 x 300 hp Mercury, 25 knots)",
+          "normalized_unit": "l/mn",
+          "model_year": "2027",
+          "location": "Technical Specifications"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

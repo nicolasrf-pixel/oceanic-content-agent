@@ -1,0 +1,41 @@
+{
+  "model": "Axopar 45 Sun Top",
+  "policy": "Datos solo de la web oficial del producto. Manuales/PDF solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Axopar 45 Sun Top",
+      "title": "Axopar 45 Sun Top",
+      "type": "official_product_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "Firecrawl rawHtml + adapters/axopar.py",
+      "model_year_scope": "2027",
+      "extract": "07_FUENTES/extract/S1-axopar-45-sun-top.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Axopar 45",
+      "type": "official_range_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/axopar-45/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    },
+    {
+      "id": "S5",
+      "short": "Media Library",
+      "title": "Media Library",
+      "type": "official_media_terms",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/media/media-library/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "referencia",
+      "model_year_scope": "n/a"
+    }
+  ],
+  "excluded_sources": []
+}

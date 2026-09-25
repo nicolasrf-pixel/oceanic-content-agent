@@ -69,6 +69,8 @@ def validate(spec: dict) -> list[str]:
         if key not in seen:
             errors.append(f"campo de la tabla base {key} ausente: buscarlo en la web del producto")
     for key, field in FIELDS.items():
+        if key == "capacidad_combustible" and boat_type == "motor_electrico":
+            continue
         if field["critical"] and applies(field, boat_type) and key not in seen and key not in BASE_TABLE[boat_type]:
             errors.append(f"campo crítico {key} ausente: registrar como NOT_FOUND si no hay fuente")
     return errors

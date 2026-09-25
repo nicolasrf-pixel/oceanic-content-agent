@@ -1,0 +1,41 @@
+{
+  "model": "AX/E 25",
+  "policy": "Datos solo de la web oficial del producto. Manuales/PDF solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · AX/E 25",
+      "title": "AX/E 25",
+      "type": "official_product_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-25/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "Firecrawl rawHtml + adapters/axopar.py",
+      "model_year_scope": "2027",
+      "extract": "07_FUENTES/extract/S1-ax-e-25.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "AX/E 100% Electric",
+      "type": "official_range_page",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/boat-models/ax-e-100-electric/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    },
+    {
+      "id": "S5",
+      "short": "Media Library",
+      "title": "Media Library",
+      "type": "official_media_terms",
+      "publisher": "Axopar Boats Oy",
+      "url": "https://www.axopar.com/media/media-library/",
+      "accessed_at": "2026-09-25",
+      "retrieved_via": "referencia",
+      "model_year_scope": "n/a"
+    }
+  ],
+  "excluded_sources": []
+}

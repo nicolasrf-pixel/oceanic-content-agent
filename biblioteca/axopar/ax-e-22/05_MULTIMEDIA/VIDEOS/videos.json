@@ -1,0 +1,34 @@
+{
+  "model": "AX/E 22",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "AX-E - The Axe (BTS) 16-9 1080p WEB with name",
+      "url": "https://media.ffycdn.net/eu/axopar/jHTYL7TeUBZQJo1wvwnK.mp4",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "format": "mp4",
+      "resolution": "1920x1080",
+      "description": null,
+      "cover_image": "https://media.ffycdn.net/eu/axopar/X5oirRAJGy2M5v9rxvQK.jpg",
+      "source_page": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+      "date": "2025-12-23",
+      "date_note": "fecha de alta en el DAM",
+      "scope": "THIS_MODEL",
+      "downloaded": false
+    },
+    {
+      "title": "ax_e_webloop_4_v1",
+      "url": "https://media.ffycdn.net/eu/axopar/k2GS26oay3Mvuwce13Vk.mp4",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "format": "mp4",
+      "resolution": "3840x2160",
+      "description": null,
+      "cover_image": "https://media.ffycdn.net/eu/axopar/X5oirRAJGy2M5v9rxvQK.jpg",
+      "source_page": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+      "date": "2026-01-02",
+      "date_note": "fecha de alta en el DAM",
+      "scope": "THIS_MODEL",
+      "downloaded": false
+    }
+  ]
+}

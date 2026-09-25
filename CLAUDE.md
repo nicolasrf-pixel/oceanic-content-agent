@@ -78,8 +78,19 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
+python -m oceanic build axopar <extract.json>...   # genera paquetes completos (no toca los marcados curated)
+python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
+python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
 ```
+
+**Dónde vive cada cosa:** GitHub guarda motor, textos, datos e inventarios (`images.json` con URL del original).
+Las copias web de imágenes NO se versionan (`.gitignore`): van en el ZIP que el usuario sube a mano a Drive
+(`python -m oceanic zip`). Se pueden regenerar en cualquier momento con `media --cdn`.
+
+**Generación masiva (Axopar):** `tools/oceanic/builders/axopar.py` aplica todas las reglas de este archivo. Los textos
+OCEANIC CONTENT salen de `drafts/axopar/<slug>.json` (redactados a mano, solo con lo que dice la web); sin draft,
+el bloque queda "PENDIENTE". Paquetes con `00_MODELO/model.json › curated: true` no se regeneran.
 
 `check` debe terminar sin errores antes de hacer commit.
 

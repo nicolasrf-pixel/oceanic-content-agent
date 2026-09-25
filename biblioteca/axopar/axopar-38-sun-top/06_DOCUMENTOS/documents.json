@@ -1,0 +1,40 @@
+{
+  "model": "Axopar 38 Sun Top",
+  "documents": [
+    {
+      "id": "owner-manuals-portal",
+      "title": "Portal oficial de manuales Axopar",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://manuals.axopar.com/",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo y su MY en el portal)"
+    },
+    {
+      "id": "configurator",
+      "title": "Configurador oficial Axopar (Axopar 38 Sun Top)",
+      "category": "OTHER",
+      "scope": "THIS_MODEL",
+      "model_year": "2027",
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.axopar.com/configurator/",
+      "configurator_id": "ksJqHS0qvu33DynXsjemJ",
+      "file": null,
+      "download_status": "N/A (herramienta web)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "BROCHURES",
+      "detail": "No hay brochure del modelo en axopar.com."
+    },
+    {
+      "category": "PRICE_LIST",
+      "detail": "La web no publica precio."
+    }
+  ]
+}
