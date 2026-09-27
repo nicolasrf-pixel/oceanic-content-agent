@@ -1,0 +1,65 @@
+# Multimedia · Oceanis 30.1
+
+> Generado desde `images.json` y `videos.json` (`python -m oceanic render`). No editar a mano.
+
+- Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
+- Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+
+## HERO_CANDIDATE
+
+| Rank | id | Motivo | URL |
+| --- | --- | --- | --- |
+| 1 | `cover-desktop-oceanis-30-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'cover-desktop-oceanis-30.1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2025-10/cover-desktop-oceanis-30.1.jpg.webp?itok=pNumg8Ms) |
+
+## Imágenes del modelo (18)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`cover-desktop-oceanis-30-1`](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2025-10/cover-desktop-oceanis-30.1.jpg.webp?itok=pNumg8Ms) | HERO | alta |  | 3840x1100 jpg | PENDING | Solo en la página del modelo; archivo 'cover-desktop-oceanis-30.1.jpg' con el nombre del modelo. |
+| [`int2-oceanis30-1`](https://www.beneteau.com/sites/default/files/styles/big_internal_design_large/public/int2_oceanis30.1.jpg.webp?itok=lyFvo0C0) | INTERIOR | media |  | 1468x1238 jpg | PENDING | Solo en la página del modelo; archivo 'int2_oceanis30.1.jpg' con el nombre del modelo. |
+| [`int1-oceanis30-1`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/int1_oceanis30.1.jpg.webp?itok=aQ3mJQfD) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'int1_oceanis30.1.jpg' con el nombre del modelo. |
+| [`int3-oceanis30-1`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/int3_oceanis30.1.jpg.webp?itok=crE_76f6) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'int3_oceanis30.1.jpg' con el nombre del modelo. |
+| [`oc30-1-int-7`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/oc30.1_int_7.jpg.webp?itok=lublIAXe) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_int_7.jpg' con el nombre del modelo. |
+| [`oc30-1-int-6`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/oc30.1_int_6.jpg.webp?itok=C3v8ESJU) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_int_6.jpg' con el nombre del modelo. |
+| [`oc30-1-int-5`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/oc30.1_int_5.jpg.webp?itok=Cejq9gi7) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_int_5.jpg' con el nombre del modelo. |
+| [`oc30-1-int-62`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2022-07/oc30.1_int_62.jpg.webp?itok=2MusKlSE) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_int_62.jpg' con el nombre del modelo. |
+| [`oc301-polaire-deriveur-mat-enrouleur-foc-autovireur`](https://www.beneteau.com/sites/default/files/styles/boat_polar/public/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg.webp?itok=m0hfL_Oc) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg' con el nombre del modelo. |
+| [`oc301-polaire-gte-mat-classique-genois`](https://www.beneteau.com/sites/default/files/styles/boat_polar/public/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg.webp?itok=EX1pQw5E) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'OC301-polaire-GTE-mat-classique-genois.jpg' con el nombre del modelo. |
+| [`oc301-polaire-gte-mat-classique-foc-autovireur`](https://www.beneteau.com/sites/default/files/styles/boat_polar/public/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg.webp?itok=UaAI3yzL) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'OC301-polaire-GTE-mat-classique-foc-autovireur.jpg' con el nombre del modelo. |
+| [`oc301-polaire-pte-mat-enrouleur-foc-autovireur`](https://www.beneteau.com/sites/default/files/styles/boat_polar/public/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg.webp?itok=MqBxmkYh) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg' con el nombre del modelo. |
+| [`oc30-1-long-keel`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/oc30.1_long-keel.jpg.webp?itok=kHQJtRJb) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_long-keel.jpg' con el nombre del modelo. |
+| [`oc30-1-lifting-keel`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/oc30.1-lifting-keel.jpg.webp?itok=rEO2MlWS) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1-lifting-keel.jpg' con el nombre del modelo. |
+| [`oc30-1-swing-keel`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/oc30.1_swing-keel.jpg.webp?itok=ymW0l4dC) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'oc30.1_swing-keel.jpg' con el nombre del modelo. |
+| [`oc30-1-top-view-jpg-1832px`](https://www.beneteau.com/sites/default/files/styles/wide/public/oc30.1-top-view.jpg-1832px.png.webp?itok=e_dLqoBD) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'oc30.1-top-view.jpg-1832px.png' con el nombre del modelo. |
+| [`layout-30-1-jpg-1832px`](https://www.beneteau.com/sites/default/files/styles/wide/public/layout-30.1.jpg-1832px.png.webp?itok=HESJXmp3) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo (sección '2 CABINS & 1 HEAD'). |
+| [`oceanis30-1electrique`](https://www.beneteau.com/sites/default/files/styles/image_text_desktop/public/2022-11/oceanis30-1electrique.jpg.webp?itok=jG914iSh) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'oceanis30-1electrique.jpg' con el nombre del modelo. |
+
+## REQUIRES REVIEW: modelo no confirmado (12)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`oceanis-31-1-transport`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_transport.jpg.webp?itok=XcwPeHS_) | EXTERIOR | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_transport.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-cockpit`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_cockpit.jpg.webp?itok=JT8nWIPK) | COCKPIT | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_cockpit.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-18-barres`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/oceanis-31.18_barres.jpg.webp?itok=mqIqv1Jc) | DETAIL | baja |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.18_barres.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation0-2`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation0_2.jpg.webp?itok=s4s-QaPn) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation0_2.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation01`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation01.jpg.webp?itok=u85j-TPJ) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation01.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation2`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation2.jpg.webp?itok=8-1xa6_f) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation2.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation03`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation03.jpg.webp?itok=ApA16_6K) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation03.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation05`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation05.jpg.webp?itok=-sXs3ysW) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation05.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation06-0`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation06_0.jpg.webp?itok=XrSohHmC) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation06_0.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation08`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation08.jpg.webp?itok=zzLcfH15) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation08.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation09`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation09.jpg.webp?itok=GxPI-wg-) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation09.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`oceanis-31-1-navigation05bis`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation05bis.jpg.webp?itok=sasFU2zm) | UNDERWAY | media |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'oceanis-31.1_navigation05bis.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Bloque genérico de la marca (Seanapps / socios), no es el barco. |
+
+## Videos (1)
+
+| Título | Alcance | Resolución | Fecha DAM | Nota |
+| --- | --- | --- | --- | --- |
+| [Watch the video](https://www.youtube.com/watch?v=phU2gi18no8) | THIS_MODEL |  |  | Incrustado en la página del modelo. |

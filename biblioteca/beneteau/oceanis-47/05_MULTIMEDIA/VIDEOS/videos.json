@@ -1,0 +1,36 @@
+{
+  "model": "Oceanis 47",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video of the Oceanis 47",
+      "url": "https://www.youtube.com/watch?v=3uKC3uv8URg",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/3uKC3uv8URg/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/oceanis/oceanis-47",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Walkthrough",
+      "url": "https://www.youtube.com/watch?v=BwSIdbndjKQ",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/BwSIdbndjKQ/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/oceanis/oceanis-47",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

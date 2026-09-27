@@ -150,3 +150,39 @@ class Pilot(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Beneteau(unittest.TestCase):
+    HTML = """<html><body>
+    <section class="o-section-wrapper o-section-hero"><ol>
+      <li itemprop="itemListElement"><a href="/"><span itemprop="name">Homepage</span></a></li>
+      <li itemprop="itemListElement"><a href="/sailing-yachts"><span itemprop="name">Sailboats</span></a></li>
+      <li itemprop="itemListElement"><a href="/sailing-yachts/oceanis"><span itemprop="name">Oceanis</span></a></li>
+      <li itemprop="itemListElement"><span itemprop="name">Oceanis 99</span></li></ol>
+      <img src="https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-06/oc99-header.jpg.webp?itok=x" width="3840" height="1100">
+      <h1>Oceanis 99</h1><div>Tagline</div><p> From 1 000 € (VAT excluded) </p></section>
+    <div class="o-section-wrapper o-section-product-description"><p>Intro text.</p>
+      <p><strong>Naval Architect:</strong> Studio A<br><strong>Interior Designer:</strong> Studio B</p></div>
+    <div class="o-section-wrapper o-section-attributes"><h2>Specifications</h2>
+      <div class="o-attributes-item"><p class="o-title">Length Overall</p><p class="o-desc">42'2"</p><p class="o-desc">12.86 m</p></div>
+      <div class="o-attributes-item"><p class="o-title">Lightship Displacement</p><p class="o-desc">11,020 lbs</p><p class="o-desc">21700 kg</p></div>
+      <div class="o-attributes-item"><p class="o-title">Cabin Number</p><p class="o-desc">2-4</p></div></div>
+    </body></html>"""
+
+    def test_adapter_and_unit_conflict(self):
+        from oceanic.adapters import beneteau as adapter
+        from oceanic.builders import beneteau as builder
+        ext = adapter.extract(self.HTML, "https://www.beneteau.com/oceanis/oceanis-99", "2026-09-27")
+        self.assertEqual(ext["page_title"], "Oceanis 99")
+        self.assertEqual([c["value"] for c in ext["credits"]], ["Studio A", "Studio B"])
+        self.assertEqual(ext["images"][0]["original"],
+                         "https://www.beneteau.com/sites/default/files/2026-06/oc99-header.jpg")
+        ident = builder.identity(ext)
+        self.assertEqual((ident["slug"], ident["boat_type"]), ("oceanis-99", "vela"))
+        spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
+        by = {f["oceanic_field"]: f for f in spec["fields"]}
+        self.assertEqual(by["eslora_total"]["status"], "VERIFIED")
+        self.assertEqual(by["desplazamiento"]["status"], "CONFLICT")   # 11,020 lbs is not 21 700 kg
+        self.assertEqual(by["camarotes"]["display_value"], "2 a 4")
+        self.assertEqual(by["superficie_velica"]["status"], "NOT_FOUND")
+        self.assertEqual(specs.validate(spec), [])

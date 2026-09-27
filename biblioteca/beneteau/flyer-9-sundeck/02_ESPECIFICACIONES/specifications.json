@@ -1,0 +1,273 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "Flyer 9 SUNdeck",
+    "model_year": "NO DECLARADO",
+    "variant": "Flyer 9 SUNdeck",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "hasta 1 / 2 x 500 hp",
+    "boat_type": "motor",
+    "range": "Flyer"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,1 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "9.1 m",
+          "source_unit": "m",
+          "normalized_value": 9.1,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 29’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,99 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "2.99 m",
+          "source_unit": "m",
+          "normalized_value": 2.99,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 9’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "3.350 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "3 350 kg",
+          "source_unit": "kg",
+          "normalized_value": 3350.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 7,383 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2 x 288 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Fuel Capacity",
+          "source_value": "2 x 288 L",
+          "source_unit": "l",
+          "normalized_value": 288.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2 x 76 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "100 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "100 L",
+          "source_unit": "l",
+          "normalized_value": 100.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 26 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B6 / C10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "B6 / C10",
+          "source_unit": null,
+          "normalized_value": "B6 / C10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "1 / 2 x 500 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "1 / 2 x 500.0 HP",
+          "source_unit": null,
+          "normalized_value": 500.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "2,68 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "2.68 m",
+          "source_unit": "m",
+          "normalized_value": 2.68,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 8’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "0,5 m – 0,9 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Min / Draught Max",
+          "source_value": "0.5 m | 0.9 m",
+          "source_unit": null,
+          "normalized_value": [
+            0.5,
+            0.9
+          ],
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "mín. – máx. según quilla/versión"
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: BENETEAU POWERBOAT · Design: STYLE & DESIGN",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: BENETEAU POWERBOAT · Design: STYLE & DESIGN",
+          "source_unit": null,
+          "normalized_value": "Naval architect: BENETEAU POWERBOAT · Design: STYLE & DESIGN",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "hasta 1 / 2 x 500 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 9 SUNdeck",
+          "url": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "1 / 2 x 500.0 HP",
+          "source_unit": null,
+          "normalized_value": 500.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización = potencia máxima declarada en 'Max. engine power'."
+        }
+      ],
+      "notes": "La web no publica el catálogo de motorizaciones; solo la potencia máxima."
+    }
+  ]
+}

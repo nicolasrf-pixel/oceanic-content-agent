@@ -1,0 +1,21 @@
+{
+  "model": "Oceanis 52",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video",
+      "url": "https://www.youtube.com/watch?v=vlzxpdEfENg",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/vlzxpdEfENg/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/oceanis/oceanis-52",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

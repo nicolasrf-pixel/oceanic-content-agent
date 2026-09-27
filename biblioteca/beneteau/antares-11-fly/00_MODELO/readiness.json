@@ -1,0 +1,98 @@
+{
+  "CONTENT_STATUS": "YELLOW",
+  "completeness_pct": 67,
+  "critical_missing": [],
+  "unresolved_conflicts": [],
+  "items": {
+    "tabla_tecnica": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "tabla base 8/8 verificada"
+    },
+    "especificaciones": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "12 campos con fuente"
+    },
+    "caracteristicas": {
+      "group": "DATOS",
+      "status": "OK",
+      "detail": "presente"
+    },
+    "equipamiento": {
+      "group": "DATOS",
+      "status": "PARTIAL",
+      "detail": "optional.md"
+    },
+    "hero": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "50 palabras fuente · sin candidato Oceanic"
+    },
+    "introduccion": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "70 palabras fuente · sin candidato Oceanic"
+    },
+    "diseno": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "113 palabras fuente · sin candidato Oceanic"
+    },
+    "ingenieria": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "51 palabras fuente · sin candidato Oceanic"
+    },
+    "experiencia": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "93 palabras fuente · sin candidato Oceanic"
+    },
+    "performance": {
+      "group": "EDITORIAL",
+      "status": "PARTIAL",
+      "detail": "111 palabras fuente · sin candidato Oceanic"
+    },
+    "hero_image": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "3 candidatas · sin descargar"
+    },
+    "exterior": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "3 en inventario (mín. 3) · descargadas 0/12"
+    },
+    "interior": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "2 en inventario (mín. 2) · descargadas 0/12"
+    },
+    "detail": {
+      "group": "MULTIMEDIA",
+      "status": "PARTIAL",
+      "detail": "3 en inventario (mín. 2) · descargadas 0/12"
+    },
+    "video": {
+      "group": "MULTIMEDIA",
+      "status": "OK",
+      "detail": "1 videos del modelo"
+    },
+    "brochure": {
+      "group": "DOCUMENTOS",
+      "status": "OK",
+      "detail": "1 documento(s) con enlace oficial"
+    },
+    "technical": {
+      "group": "DOCUMENTOS",
+      "status": "OK",
+      "detail": "1 documento(s) con enlace oficial"
+    },
+    "manual": {
+      "group": "DOCUMENTOS",
+      "status": "PARTIAL",
+      "detail": "1 identificado(s) · requiere revisión"
+    }
+  }
+}

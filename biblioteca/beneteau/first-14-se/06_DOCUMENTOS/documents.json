@@ -1,0 +1,37 @@
+{
+  "model": "First 14 SE",
+  "documents": [
+    {
+      "id": "e-brochure",
+      "title": "E-brochure oficial · First 14 SE",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://pro.beneteau.fr/documents/bateau/12442/ENG_FRA-First14SE.pdf",
+      "source_page": "https://www.beneteau.com/first-se/first-14-se",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha. Puede cubrir toda la gama.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "help-center",
+      "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

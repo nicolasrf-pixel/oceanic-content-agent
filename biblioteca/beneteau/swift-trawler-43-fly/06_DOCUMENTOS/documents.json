@@ -1,0 +1,46 @@
+{
+  "model": "Swift Trawler 43 Fly",
+  "documents": [
+    {
+      "id": "e-brochure",
+      "title": "E-brochure oficial · Swift Trawler 43 Fly",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://brochures.beneteau.com/swifttrawler43/EN/",
+      "source_page": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+      "file": null,
+      "format": "web (flipbook)",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha. Puede cubrir toda la gama.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "equipment-list",
+      "title": "Lista de equipamiento oficial · Swift Trawler 43 Fly",
+      "category": "TECHNICAL",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://pro.beneteau.fr/documents/bateau/14886/ST%2043%20EN%20-%20GENERAL%20EQUIPMENT%20LIST%20JUNE%2026.pdf",
+      "source_page": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "help-center",
+      "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": []
+}

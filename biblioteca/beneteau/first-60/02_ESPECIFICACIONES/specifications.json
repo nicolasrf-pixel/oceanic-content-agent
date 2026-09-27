@@ -1,0 +1,305 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "First 60",
+    "model_year": "NO DECLARADO",
+    "variant": "First 60",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "Motor auxiliar hasta 150 hp",
+    "boat_type": "vela",
+    "range": "First"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "18,95 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "18.95 m",
+          "source_unit": "m",
+          "normalized_value": 18.95,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 62'2'' (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial del producto."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "22.280 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "22 280 kg",
+          "source_unit": "kg",
+          "normalized_value": 22280.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 49,105 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Layouts (pestañas)",
+          "source_value": "Exterior deck; 3 cabins - 3 heads",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "El bloque técnico no publica 'Cabin Number': se toma el número de cabinas de los títulos de los layouts oficiales."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "500 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Fuel Capacity",
+          "source_value": "500 L",
+          "source_unit": "l",
+          "normalized_value": 500.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 132 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "860 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "860 L",
+          "source_unit": "l",
+          "normalized_value": 860.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 227 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A10 / B14 / C14",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "A10/B14/C14",
+          "source_unit": null,
+          "normalized_value": "A10 / B14 / C14",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "150 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "150 CV",
+          "source_unit": "hp",
+          "normalized_value": 147.95,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Max. engine power' de un velero = potencia máxima del motor auxiliar."
+        }
+      ],
+      "notes": "Valor imperial publicado: 150 HP (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "28,41 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "28.41 m",
+          "source_unit": "m",
+          "normalized_value": 28.41,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 93'2'' (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "2,63 m – 2,88 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Min / Draught Max",
+          "source_value": "2.63 m | 2.88 m",
+          "source_unit": null,
+          "normalized_value": [
+            2.63,
+            2.88
+          ],
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "mín. – máx. según quilla/versión"
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Layouts (pestañas)",
+          "source_value": "Exterior deck; 3 cabins - 3 heads",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "Número de baños/aseos según los títulos de los layouts oficiales."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: BISCONTINI YACHT DESIGN · Exterior designer: LORENZO ARGENTO · Interior designer: LORENZO ARGENTO",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: BISCONTINI YACHT DESIGN · Exterior designer: LORENZO ARGENTO · Interior designer: LORENZO ARGENTO",
+          "source_unit": null,
+          "normalized_value": "Naval architect: BISCONTINI YACHT DESIGN · Exterior designer: LORENZO ARGENTO · Interior designer: LORENZO ARGENTO",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Motor auxiliar hasta 150 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 60",
+          "url": "https://www.beneteau.com/first/first-60",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "150 CV",
+          "source_unit": "hp",
+          "normalized_value": 147.95,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motor auxiliar = 'Max. engine power' del bloque técnico (la web no publica marca ni modelo)."
+        }
+      ],
+      "notes": "Marca y modelo de motor: no publicados en la web."
+    }
+  ]
+}

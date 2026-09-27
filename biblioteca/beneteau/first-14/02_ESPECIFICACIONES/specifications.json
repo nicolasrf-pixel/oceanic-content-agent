@@ -1,0 +1,219 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "First 14",
+    "model_year": "NO DECLARADO",
+    "variant": "First 14",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "-",
+    "boat_type": "vela",
+    "range": "First"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "4,3 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "4.3 m",
+          "source_unit": "m",
+          "normalized_value": 4.3,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 14’1’’ (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "1,7 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "1.7 m",
+          "source_unit": "m",
+          "normalized_value": 1.7,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 5’7’’ (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "72 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "72 kg",
+          "source_unit": "kg",
+          "normalized_value": 72.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 158,73 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en el bloque técnico ni en el texto de la página."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en el bloque técnico ni en el texto de la página."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "D2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "D2",
+          "source_unit": null,
+          "normalized_value": "D2",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "El bloque técnico no publica 'Max. engine power'."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "CONFLICT",
+      "display_value": null,
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "6.1 m",
+          "source_unit": "m",
+          "normalized_value": 6.1,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "20’’",
+          "source_unit": "imperial",
+          "normalized_value": 0.51,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "El bloque técnico publica '6.1 m' y '20’’' (≈ 0,51 m): no coinciden. Decidir con el fabricante."
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: Samuel Manuard · Design: Sito",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 14",
+          "url": "https://www.beneteau.com/first/first-14",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: Samuel Manuard · Design: Sito",
+          "source_unit": null,
+          "normalized_value": "Naval architect: Samuel Manuard · Design: Sito",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial del producto."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web no publica motor auxiliar para este modelo."
+    }
+  ]
+}

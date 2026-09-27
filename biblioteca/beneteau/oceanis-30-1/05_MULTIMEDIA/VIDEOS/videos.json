@@ -1,0 +1,21 @@
+{
+  "model": "Oceanis 30.1",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Watch the video",
+      "url": "https://www.youtube.com/watch?v=phU2gi18no8",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/phU2gi18no8/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/oceanis/oceanis-301",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

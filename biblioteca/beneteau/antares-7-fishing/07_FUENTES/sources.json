@@ -1,0 +1,36 @@
+{
+  "model": "Antares 7 Fishing",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Antares 7 Fishing",
+      "title": "Antares 7 Fishing",
+      "type": "official_product_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/antares/antares-7-fishing",
+      "accessed_at": "2026-09-27",
+      "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-antares-7-fishing.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Antares",
+      "type": "official_range_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/motorboats/antares-outboard",
+      "accessed_at": "2026-09-27",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Beneteau",
+      "url": "https://configurator.beneteau.com/",
+      "reason": "Requiere sesión de navegador; no se pudo leer. No aporta datos."
+    }
+  ]
+}

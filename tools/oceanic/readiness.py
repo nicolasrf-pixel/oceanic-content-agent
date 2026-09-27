@@ -47,6 +47,8 @@ def _editorial(model_dir: Path, rel: str) -> tuple[str, str]:
     text = path.read_text()
     src = _section_words(text, "SOURCE CONTENT")
     cand = _section_words(text, "OCEANIC CONTENT")
+    if re.search(r"^## OCEANIC CONTENT\s*\n+PENDIENTE", text, re.M):  # placeholder, not a candidate
+        cand = 0
     if src >= MIN_SOURCE_WORDS and cand > 0:
         return "OK", f"{src} palabras fuente · candidato Oceanic presente"
     if src > 0:
@@ -109,8 +111,9 @@ def evaluate(model_dir: Path) -> dict:
     else:
         put("MULTIMEDIA", "hero_image", "MISSING", "sin HERO_CANDIDATE")
     for cat, minimum in MIN_IMAGES.items():
-        n = sum(1 for r in imgs if r["category"] == cat or (cat == "INTERIOR" and r["category"] in ("CABIN", "COCKPIT")))
-        n_file = sum(1 for r in downloaded if r["category"] == cat)
+        group = {cat} | ({"CABIN", "COCKPIT"} if cat == "INTERIOR" else set()) | ({"UNDERWAY"} if cat == "EXTERIOR" else set())
+        n = sum(1 for r in imgs if r["category"] in group)
+        n_file = sum(1 for r in downloaded if r["category"] in group)
         if n == 0:
             status = "MISSING"
         elif n >= minimum and n_file >= minimum:

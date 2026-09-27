@@ -1,0 +1,36 @@
+{
+  "model": "Gran Turismo 40 Coupe",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video",
+      "url": "https://www.youtube.com/watch?v=uuiNTPsxzBo",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/uuiNTPsxzBo/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Walkthrough",
+      "url": "https://www.youtube.com/watch?v=zru558HVRU8",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/zru558HVRU8/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

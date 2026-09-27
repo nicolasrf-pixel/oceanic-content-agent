@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 83,
+  "completeness_pct": 86,
   "critical_missing": [],
   "unresolved_conflicts": [],
   "items": {
@@ -62,11 +62,11 @@
     "exterior": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "5 en inventario (mín. 3) · descargadas 45/46"
+      "detail": "7 en inventario (mín. 3) · descargadas 45/46"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
+      "status": "OK",
       "detail": "3 en inventario (mín. 2) · descargadas 45/46"
     },
     "detail": {

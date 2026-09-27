@@ -1,0 +1,332 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "Oceanis 30.1",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanis 30.1",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "Motor auxiliar hasta 21 hp",
+    "boat_type": "vela",
+    "range": "Oceanis"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,53 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "9.53 m",
+          "source_unit": "m",
+          "normalized_value": 9.53,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 31’3’’ (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,99 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "2.99 m",
+          "source_unit": "m",
+          "normalized_value": 2.99,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 9’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "4.120 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "4 120 kg",
+          "source_unit": "kg",
+          "normalized_value": 4120.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 9,100 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Cabin Number",
+          "source_value": "2",
+          "source_unit": null,
+          "normalized_value": "2",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "130 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Fuel Capacity",
+          "source_value": "130 L",
+          "source_unit": "l",
+          "normalized_value": 130.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 34 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "CONFLICT",
+      "display_value": null,
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "160 L",
+          "source_unit": "l",
+          "normalized_value": 160.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "34 US Gal",
+          "source_unit": "imperial",
+          "normalized_value": 128.7,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "El bloque técnico publica '160 L' y '34 US Gal' (≈ 128,70 l): no coinciden. Decidir con el fabricante."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B6 / C8 / D10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "B6 / C8 / D10",
+          "source_unit": null,
+          "normalized_value": "B6 / C8 / D10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "21 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "21.0 HP",
+          "source_unit": null,
+          "normalized_value": 21.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Max. engine power' de un velero = potencia máxima del motor auxiliar."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "13,66 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "13.66 m",
+          "source_unit": "m",
+          "normalized_value": 13.66,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 44’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,3 m – 2,3 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Min / Draught Max",
+          "source_value": "1.3 m | 2.3 m",
+          "source_unit": null,
+          "normalized_value": [
+            1.3,
+            2.3
+          ],
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "mín. – máx. según quilla/versión"
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Layouts (pestañas)",
+          "source_value": "Deck plan; 2 CABINS & 1 HEAD",
+          "source_unit": null,
+          "normalized_value": "1",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "Número de baños/aseos según los títulos de los layouts oficiales."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: Finot - Conq · Interior and deck designs: Nauta Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: Finot - Conq · Interior and deck designs: Nauta Design",
+          "source_unit": null,
+          "normalized_value": "Naval architect: Finot - Conq · Interior and deck designs: Nauta Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Motor auxiliar hasta 21 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/oceanis/oceanis-301",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "21.0 HP",
+          "source_unit": null,
+          "normalized_value": 21.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motor auxiliar = 'Max. engine power' del bloque técnico (la web no publica marca ni modelo)."
+        }
+      ],
+      "notes": "Marca y modelo de motor: no publicados en la web."
+    }
+  ]
+}

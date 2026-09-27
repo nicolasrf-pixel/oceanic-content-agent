@@ -19,7 +19,7 @@ from datetime import date
 from pathlib import Path
 
 IMAGE_CATEGORIES = ("HERO", "EXTERIOR", "INTERIOR", "COCKPIT", "CABIN", "HELM",
-                    "DETAIL", "UNDERWAY", "OTHER")
+                    "DETAIL", "UNDERWAY", "PLANS", "OTHER")
 DOC_CATEGORIES = ("BROCHURES", "TECHNICAL", "MANUALS", "OTHER")
 USER_AGENT = "Mozilla/5.0 (oceanic-content-agent; +https://oceanic.cl)"
 

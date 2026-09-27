@@ -1,0 +1,283 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "Swift Trawler 54",
+    "model_year": "NO DECLARADO",
+    "variant": "Swift Trawler 54",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "hasta 2 x 550 hp",
+    "boat_type": "motor",
+    "range": "Swift Trawler"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "17,13 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "17.13 m",
+          "source_unit": "m",
+          "normalized_value": 17.13,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 56’2’’ (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,98 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "4.98 m",
+          "source_unit": "m",
+          "normalized_value": 4.98,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 16'4'' (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "21.518 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "21 518 kg",
+          "source_unit": "kg",
+          "normalized_value": 21518.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 47 426 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Cabin Number",
+          "source_value": "3",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2 x 1.720 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Fuel Capacity",
+          "source_value": "2 x 1720 L",
+          "source_unit": "l",
+          "normalized_value": 1720.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2 x 454 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "2 x 400 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "2 x 400 L",
+          "source_unit": "l",
+          "normalized_value": 400.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2 x 106 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B14 / C14",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "B14 / C14",
+          "source_unit": null,
+          "normalized_value": "B14 / C14",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 550 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "2 x 550 CV",
+          "source_unit": "hp",
+          "normalized_value": 542.48,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2 x 550 HP (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "6,54 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "6.54 m",
+          "source_unit": "m",
+          "normalized_value": 6.54,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 21’5’’ (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,14 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Max",
+          "source_value": "1.14 m",
+          "source_unit": null,
+          "normalized_value": 1.14,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval designer: Dixon Naval Architects · Design: Andreani Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval designer: Dixon Naval Architects · Design: Andreani Design",
+          "source_unit": null,
+          "normalized_value": "Naval designer: Dixon Naval Architects · Design: Andreani Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "hasta 2 x 550 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 54",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "2 x 550 CV",
+          "source_unit": "hp",
+          "normalized_value": 542.48,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización = potencia máxima declarada en 'Max. engine power'."
+        }
+      ],
+      "notes": "La web no publica el catálogo de motorizaciones; solo la potencia máxima."
+    }
+  ]
+}

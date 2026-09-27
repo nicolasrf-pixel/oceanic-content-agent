@@ -1,0 +1,43 @@
+# CONFIGURATIONS · Oceanis 47
+
+> Fuente: S1, sección Layouts (literal). Los planos están en 05_MULTIMEDIA (categoría PLANS).
+
+## Exterior deck plan
+
+- Large cockpit for easy movement onboard: an extra 9% cockpit space
+- 2 tables with cup holders and 3-in-1 adjustable storage feature: high table – low table – sunpad
+- Extra wide sea access as standard and optional enclosed aft cockpit with gas plancha
+- Optional bimini arch with integrated solar panels
+- Helm console with 12" screen and electric motor control
+
+## 4 cabins & 2 bathrooms
+
+- The smoothest companionway on the market!
+- Spacious galley that is easy to move around and offers a greater work capacity
+- 4 cabins
+- Simplified boat management: all electrical controls are grouped in the companionway; all the plumbing in one place
+
+## 3 cabins & 2 bathrooms
+
+- Premium ambiance – upgrade: woodwork with open pore finish, thick edging, wide range of solid woods
+- The smoothest companionway on the market!
+- Marine galley, designed for cooking at sea
+- Very large owner's cabin with double bed (width 160 cm) and the most storage space on the market!
+- Separate owner's shower and toilet
+- High-end anti-glare lighting with dimmer as standard
+- Beautiful range of luxury upholstery with 3 fabric design options
+- Simplified boat management: all electrical controls are grouped in the companionway; all the plumbing in one place
+
+## 4 cabins & 4 bathrooms - Charter version
+
+- The smoothest companionway on the market!
+- Spacious galley that is easy to move around and offers a greater work capacity
+- 4 cabins
+- Simplified boat management: all electrical controls are grouped in the companionway; all the plumbing in one place
+
+## 5 cabins & 3 bathrooms - Charter version
+
+- The smoothest companionway on the market!
+- Spacious galley that is easy to move around and offers a greater work capacity
+- 5 cabins
+- Simplified boat management: all electrical controls are grouped in the companionway; all the plumbing in one place

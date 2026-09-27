@@ -1,0 +1,36 @@
+{
+  "model": "Antares 12 Fly",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video",
+      "url": "https://www.youtube.com/watch?v=8hoDnsONeV4",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/8hoDnsONeV4/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/antares-outboard/antares-12",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "WALKTHROUGH",
+      "url": "https://www.youtube.com/watch?v=rBDlsbZY700",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/rBDlsbZY700/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/antares-outboard/antares-12",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

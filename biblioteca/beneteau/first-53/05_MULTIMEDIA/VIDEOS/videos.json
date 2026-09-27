@@ -1,0 +1,21 @@
+{
+  "model": "First 53",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Watch the video",
+      "url": "https://www.youtube.com/watch?v=feWfaL-M_4M",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/feWfaL-M_4M/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/first/first-53",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

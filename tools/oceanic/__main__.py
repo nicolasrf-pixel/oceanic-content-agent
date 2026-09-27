@@ -72,6 +72,8 @@ def main(argv: list[str]) -> int:
         brand, extracts = args[0], args[1:]
         builder = __import__(f"oceanic.builders.{brand}", fromlist=["build"])
         drafts = ROOT / "drafts" / brand
+        if hasattr(builder, "prepare"):  # cross-model checks (media shared between model pages)
+            builder.prepare([json.loads(Path(p).read_text()) for p in extracts])
         for path in extracts:
             ext = json.loads(Path(path).read_text())
             slug = Path(path).stem
@@ -82,7 +84,7 @@ def main(argv: list[str]) -> int:
                 continue
             errors = specs.render(model)
             result = readiness.write(model)
-            print(f"{result['CONTENT_STATUS']:6} {slug}" + "".join(f"\n   ERROR {e}" for e in errors))
+            print(f"{result['CONTENT_STATUS']:6} {model.name}" + "".join(f"\n   ERROR {e}" for e in errors))
         return 0
     if cmd == "zip":
         dirs = [Path(a).resolve() for a in args]

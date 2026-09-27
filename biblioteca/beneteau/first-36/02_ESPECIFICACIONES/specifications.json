@@ -1,0 +1,198 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "First 36",
+    "model_year": "NO DECLARADO",
+    "variant": "First 36",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "-",
+    "boat_type": "vela",
+    "range": "First"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "10,97 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "10.97 m",
+          "source_unit": "m",
+          "normalized_value": 10.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 36'0\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "3,8 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "3.8 m",
+          "source_unit": "m",
+          "normalized_value": 3.8,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 12'6'' (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "4.800 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "4 800 kg",
+          "source_unit": "kg",
+          "normalized_value": 4800.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 10,580 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Cabin Number",
+          "source_value": "3",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en el bloque técnico ni en el texto de la página."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en el bloque técnico ni en el texto de la página."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial del producto."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "El bloque técnico no publica 'Max. engine power'."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "2,25 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Min",
+          "source_value": "2.25 m",
+          "source_unit": null,
+          "normalized_value": 2.25,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: Samuel Manuard · Design: Lorenzo Argento · Structural engineering: Pure Design & Engineering",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "First 36",
+          "url": "https://www.beneteau.com/first/first-36",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: Samuel Manuard · Design: Lorenzo Argento · Structural engineering: Pure Design & Engineering",
+          "source_unit": null,
+          "normalized_value": "Naval architect: Samuel Manuard · Design: Lorenzo Argento · Structural engineering: Pure Design & Engineering",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web no publica motor auxiliar para este modelo."
+    }
+  ]
+}

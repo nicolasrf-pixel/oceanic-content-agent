@@ -1,0 +1,322 @@
+{
+  "model": {
+    "brand": "Beneteau",
+    "model": "Oceanis 52",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanis 52",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "Motor auxiliar hasta 110 hp",
+    "boat_type": "vela",
+    "range": "Oceanis"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores imperial y métrico del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "16,28 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Length Overall",
+          "source_value": "16.28 m",
+          "source_unit": "m",
+          "normalized_value": 16.28,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 53'5'' (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,84 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Beam overall",
+          "source_value": "4.84 m",
+          "source_unit": "m",
+          "normalized_value": 4.84,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        }
+      ],
+      "notes": "Valor imperial publicado: 15'11'' (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "14.476 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Lightship Displacement",
+          "source_value": "14476 kg",
+          "source_unit": "kg",
+          "normalized_value": 14476.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 31,905 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 5",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Layouts (pestañas)",
+          "source_value": "Exterior deck plan; 3 cabins & 2 bathrooms; 5 cabins & 3 bathrooms -  Charter Version",
+          "source_unit": null,
+          "normalized_value": "3 / 5",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "El bloque técnico no publica 'Cabin Number': se toma el número de cabinas de los títulos de los layouts oficiales."
+        }
+      ],
+      "notes": "",
+      "display_note": "según layout"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "200 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Fuel Capacity",
+          "source_value": "200 L",
+          "source_unit": "l",
+          "normalized_value": 200.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 53 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "420 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Water Capacity",
+          "source_value": "420 L",
+          "source_unit": "l",
+          "normalized_value": 420.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 111 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A13 / B14 / C16",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "CE Certification",
+          "source_value": "A13 - B14 - C16",
+          "source_unit": null,
+          "normalized_value": "A13 / B14 / C16",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Formato: categoría CE + número máximo de personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "110 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "110 CV",
+          "source_unit": "hp",
+          "normalized_value": 108.5,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Max. engine power' de un velero = potencia máxima del motor auxiliar."
+        }
+      ],
+      "notes": "Valor imperial publicado: 110 HP (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "23,85 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Air Draught Max",
+          "source_value": "23.85 m",
+          "source_unit": "m",
+          "normalized_value": 23.85,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 78' (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,92 m – 2,36 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Draught Min / Draught Max",
+          "source_value": "1.92 m | 2.36 m",
+          "source_unit": null,
+          "normalized_value": [
+            1.92,
+            2.36
+          ],
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "mín. – máx. según quilla/versión"
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "2 / 3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Layouts (pestañas)",
+          "source_value": "Exterior deck plan; 3 cabins & 2 bathrooms; 5 cabins & 3 bathrooms -  Charter Version",
+          "source_unit": null,
+          "normalized_value": "2 / 3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "Número de baños/aseos según los títulos de los layouts oficiales."
+        }
+      ],
+      "notes": "",
+      "display_note": "según layout"
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: ROBERTO BISCONTINI · Interior designer: NAUTA DESIGN · Deck design: NAUTA DESIGN",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Créditos (descripción)",
+          "source_value": "Naval architect: ROBERTO BISCONTINI · Interior designer: NAUTA DESIGN · Deck design: NAUTA DESIGN",
+          "source_unit": null,
+          "normalized_value": "Naval architect: ROBERTO BISCONTINI · Interior designer: NAUTA DESIGN · Deck design: NAUTA DESIGN",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Descripción",
+          "cross_reference": "Créditos de arquitectura naval y diseño publicados junto a la descripción."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Motor auxiliar hasta 110 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanis 52",
+          "url": "https://www.beneteau.com/oceanis/oceanis-52",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "110 CV",
+          "source_unit": "hp",
+          "normalized_value": 108.5,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motor auxiliar = 'Max. engine power' del bloque técnico (la web no publica marca ni modelo)."
+        }
+      ],
+      "notes": "Marca y modelo de motor: no publicados en la web."
+    }
+  ]
+}

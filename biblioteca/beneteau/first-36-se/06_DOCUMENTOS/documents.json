@@ -1,0 +1,46 @@
+{
+  "model": "First 36 SE",
+  "documents": [
+    {
+      "id": "e-brochure",
+      "title": "E-brochure oficial · First 36 SE",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://pro.beneteau.fr/documents/bateau/14679/ENG_FRA_First36SE.pdf",
+      "source_page": "https://www.beneteau.com/first-se/first-36-se",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha. Puede cubrir toda la gama.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "equipment-list",
+      "title": "Lista de equipamiento oficial · First 36 SE",
+      "category": "TECHNICAL",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://pro.beneteau.fr/documents/bateau/14661/BENETEAU%20First%2036%20SE_Standard%20Configuration%20Options%20Specs_A2027_EN.pdf",
+      "source_page": "https://www.beneteau.com/first-se/first-36-se",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "help-center",
+      "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": []
+}

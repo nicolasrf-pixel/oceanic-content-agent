@@ -1,0 +1,19 @@
+# HERO · First 36 SE
+
+## SOURCE CONTENT
+
+- **Nombre:** First 36 SE
+- **Tagline:** Where performance meets purpose
+- **Precio publicado:** no publicado
+
+> The BENETEAU First SE range builds on the legendary racing heritage of the FIRST, infused with Seascape DNA. It thrives through a passionate community of sailors who seek adventure, embrace nature, and push beyond their limits.
+
+## OCEANIC CONTENT
+
+PENDIENTE: candidato en español por redactar.
+
+**Imagen hero** (selección final: revisión humana)
+
+| Rank | id | Motivo |
+| --- | --- | --- |
+| 1 | `first-36-se-desktop-cover-1920x550-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'FIRST-36-SE-desktop-cover-1920x550_1.jpg' con el nombre del modelo. |

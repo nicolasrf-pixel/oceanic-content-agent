@@ -1,0 +1,36 @@
+{
+  "model": "Antares 9",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Watch the video",
+      "url": "https://www.youtube.com/watch?v=p9oGa2vmWHU",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/p9oGa2vmWHU/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/antares/antares-9",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "WALKTHROUGH",
+      "url": "https://www.youtube.com/watch?v=pXRnxk_if9Q",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/pXRnxk_if9Q/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/antares/antares-9",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

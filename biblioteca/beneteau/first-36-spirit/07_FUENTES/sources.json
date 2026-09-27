@@ -1,0 +1,36 @@
+{
+  "model": "First 36 Spirit",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · First 36 Spirit",
+      "title": "First 36 Spirit",
+      "type": "official_product_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/first-2016-2026/first-36-spirit",
+      "accessed_at": "2026-09-27",
+      "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-first-36-spirit.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "First (2016 - 2026)",
+      "type": "official_range_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/former-beneteau-sailboats/first-2016-2026",
+      "accessed_at": "2026-09-27",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Beneteau",
+      "url": "https://configurator.beneteau.com/",
+      "reason": "Requiere sesión de navegador; no se pudo leer. No aporta datos."
+    }
+  ]
+}

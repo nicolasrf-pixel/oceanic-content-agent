@@ -1,0 +1,37 @@
+{
+  "model": "Flyer 10 Sport Top",
+  "documents": [
+    {
+      "id": "equipment-list",
+      "title": "Lista de equipamiento oficial · Flyer 10 Sport Top",
+      "category": "TECHNICAL",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://pro.beneteau.fr/documents/bateau/12703/EN_INVENTAIRE_FLYER%2010_EMEA_0826.pdf",
+      "source_page": "https://www.beneteau.com/flyer/flyer-10-sport-top",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "help-center",
+      "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "BROCHURES",
+      "detail": "La página del modelo no enlaza brochure."
+    }
+  ]
+}

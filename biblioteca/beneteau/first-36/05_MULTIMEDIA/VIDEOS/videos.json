@@ -1,0 +1,21 @@
+{
+  "model": "First 36",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "THE FIRST 36 IN NAVIGATION",
+      "url": "https://www.youtube.com/watch?v=7vrVxvo9u08",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/7vrVxvo9u08/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/first/first-36",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

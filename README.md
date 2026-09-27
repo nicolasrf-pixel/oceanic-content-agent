@@ -33,6 +33,58 @@ cual después se construye la página Oceanic.
 | Axopar | [Axopar 45 Cross Top](biblioteca/axopar/axopar-45-cross-top/00_MODELO/00_MODELO.md) | 2027 | 7/8 verificada | YELLOW |
 | Axopar | [Axopar 45 Sun Top](biblioteca/axopar/axopar-45-sun-top/00_MODELO/00_MODELO.md) | 2027 | 7/8 verificada | YELLOW |
 | Axopar | [Axopar 45 XC Cross Cabin](biblioteca/axopar/axopar-45-xc-cross-cabin/00_MODELO/00_MODELO.md) | 2027 | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 11 Coupe](biblioteca/beneteau/antares-11-coupe/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Antares 11 Fly](biblioteca/beneteau/antares-11-fly/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Antares 12 Coupe](biblioteca/beneteau/antares-12-coupe/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 12 Fly](biblioteca/beneteau/antares-12-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 7 Fishing](biblioteca/beneteau/antares-7-fishing/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 7](biblioteca/beneteau/antares-7/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 8 Fishing](biblioteca/beneteau/antares-8-fishing/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Antares 8](biblioteca/beneteau/antares-8/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Antares 9](biblioteca/beneteau/antares-9/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Beneteau | [Figaro Beneteau 3](biblioteca/beneteau/figaro-beneteau-3/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
+| Beneteau | [First 14 SE](biblioteca/beneteau/first-14-se/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Beneteau | [First 14](biblioteca/beneteau/first-14/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Beneteau | [First 18 SE](biblioteca/beneteau/first-18-se/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Beneteau | [First 24 SE](biblioteca/beneteau/first-24-se/00_MODELO/00_MODELO.md) | s/d | 3/9 verificada | RED |
+| Beneteau | [First 24](biblioteca/beneteau/first-24/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Beneteau | [First 27 SE](biblioteca/beneteau/first-27-se/00_MODELO/00_MODELO.md) | s/d | 5/9 verificada | YELLOW |
+| Beneteau | [First 30](biblioteca/beneteau/first-30/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [First 36 SE](biblioteca/beneteau/first-36-se/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
+| Beneteau | [First 36 Spirit](biblioteca/beneteau/first-36-spirit/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [First 36](biblioteca/beneteau/first-36/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Beneteau | [First 44](biblioteca/beneteau/first-44/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [First 53](biblioteca/beneteau/first-53/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [First 60](biblioteca/beneteau/first-60/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
+| Beneteau | [Flyer 10 Sport Top](biblioteca/beneteau/flyer-10-sport-top/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 10](biblioteca/beneteau/flyer-10/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 30](biblioteca/beneteau/flyer-30/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
+| Beneteau | [Flyer 7 SPACEdeck](biblioteca/beneteau/flyer-7-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 7 SUNdeck](biblioteca/beneteau/flyer-7-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 8 SPACEdeck](biblioteca/beneteau/flyer-8-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 8 SUNdeck](biblioteca/beneteau/flyer-8-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 9 SPACEdeck](biblioteca/beneteau/flyer-9-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Flyer 9 SUNdeck](biblioteca/beneteau/flyer-9-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 35](biblioteca/beneteau/gran-turismo-35/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 40 Coupe](biblioteca/beneteau/gran-turismo-40-coupe/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 40 Open](biblioteca/beneteau/gran-turismo-40-open/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 50](biblioteca/beneteau/gran-turismo-50/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
+| Beneteau | [Grand Trawler 63](biblioteca/beneteau/grand-trawler-63/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Oceanis 30.1](biblioteca/beneteau/oceanis-30-1/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | RED |
+| Beneteau | [Oceanis 34.1](biblioteca/beneteau/oceanis-34-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis 37.1](biblioteca/beneteau/oceanis-37-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis 40.1](biblioteca/beneteau/oceanis-40-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis 42](biblioteca/beneteau/oceanis-42/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis 47](biblioteca/beneteau/oceanis-47/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis 52](biblioteca/beneteau/oceanis-52/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis Yacht 54](biblioteca/beneteau/oceanis-yacht-54/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Beneteau | [Oceanis Yacht 60](biblioteca/beneteau/oceanis-yacht-60/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
+| Beneteau | [Swift Trawler 37 Fly](biblioteca/beneteau/swift-trawler-37-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Swift Trawler 37 Sedan](biblioteca/beneteau/swift-trawler-37-sedan/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Swift Trawler 43 Fly](biblioteca/beneteau/swift-trawler-43-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Swift Trawler 43 Sedan](biblioteca/beneteau/swift-trawler-43-sedan/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Swift Trawler 48](biblioteca/beneteau/swift-trawler-48/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Beneteau | [Swift Trawler 54](biblioteca/beneteau/swift-trawler-54/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 
 ## Uso rápido
 

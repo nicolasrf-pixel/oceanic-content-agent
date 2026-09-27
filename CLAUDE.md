@@ -78,7 +78,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build axopar <extract.json>...   # genera paquetes completos (no toca los marcados curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
@@ -92,6 +92,13 @@ Las copias web de imágenes NO se versionan (`.gitignore`): van en el ZIP que el
 OCEANIC CONTENT salen de `drafts/axopar/<slug>.json` (redactados a mano, solo con lo que dice la web); sin draft,
 el bloque queda "PENDIENTE". Paquetes con `00_MODELO/model.json › curated: true` no se regeneran.
 
+**Generación masiva (Beneteau):** web Drupal server-rendered; `adapters/beneteau.py` lee el HTML y `builders/beneteau.py`
+arma el paquete (slug = nombre del modelo, p. ej. `oceanis-30-1`). Particularidades: la web no declara model year
+(`NO DECLARADO`) ni superficie vélica (queda `-`); el bloque técnico da cada valor en imperial y métrico: si no coinciden
+es `CONFLICT`; camarotes/baños se cruzan con los títulos de Layouts; una imagen publicada en varias páginas de modelo
+queda `REQUIRES_REVIEW`. Equipamiento: la lista completa es un PDF (documento); standard/optional solo con menciones
+literales de la página.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
@@ -101,7 +108,8 @@ el bloque queda "PENDIENTE". Paquetes con `00_MODELO/model.json › curated: tru
   embebidos: por eso se usa rawHtml con un adaptador y no el markdown.
 - Los PDF oficiales solo se identifican y registran como documentos (no aportan datos).
 - Las descargas de binarios (imágenes, PDF) las hace `python -m oceanic media` y necesitan acceso de red a los CDN
-  del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`).
+  del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
+  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
   HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).

@@ -1,0 +1,21 @@
+{
+  "model": "Antares 8",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video",
+      "url": "https://www.youtube.com/watch?v=2Lvdst2f1ZM",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/2Lvdst2f1ZM/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/antares-outboard/antares-8",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}
