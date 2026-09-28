@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis Yacht 54
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Cuando navegar rima con elegancia.
+2. El crucero de gama alta de Oceanis.
+3. Rápido en travesía, sereno al atardecer.
+
+**Descripción corta candidata**
+
+> 17,12 m de Biscontini Yacht Design y Lorenzo Argento: bañera enrasada, garaje para una auxiliar de 8 pies y tres camarotes con dos o tres baños.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 36 Spirit
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Simplemente navegar.
+2. Menos es más: más sensación, más vela.
+3. El espíritu Spirit, en clave planeadora.
+
+**Descripción corta candidata**
+
+> Crucero planeador de 11,98 m con tres camarotes y doble timón que planea desde 15 nudos de viento, a un precio muy competitivo.
 
 **Imagen hero** (selección final: revisión humana)
 

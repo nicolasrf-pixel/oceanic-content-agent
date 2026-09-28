@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 36 SE (Seascape Edition) suma a la herencia regatera First el ADN Seascape. Es un regatero planeador puro, optimizado para regatas ORC, que mantiene la vida a bordo del First 36.

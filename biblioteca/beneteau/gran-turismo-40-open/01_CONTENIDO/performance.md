@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Espacios convertibles y alojamiento para pasar la noche: igual de apto para escapadas espontáneas y cruceros más largos.

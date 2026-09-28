@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con menos de 9 x 3 m y menos de 4 toneladas, un profesional puede transportarlo por carretera. La versión de orza y mástil abatible permite llegar por canales y ríos. Se elige entre caña con doble timón o doble rueda.

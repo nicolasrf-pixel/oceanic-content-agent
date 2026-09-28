@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco abierto con escalón en el tercio de proa: potencial de velocidad y rigidez bajo vela. Nauta Design firma un plano de cubierta e interior que da la sensación de estar a bordo de un 45 pies.

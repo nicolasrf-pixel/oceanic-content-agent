@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Gran Turismo 50
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La fortuna favorece a los audaces.
+2. El buque insignia Gran Turismo.
+3. Versátil en navegación, villa al fondeo.
+
+**Descripción corta candidata**
+
+> 15,95 m de Dixon Yacht Design y Andreani Design, con puesto de gobierno de tres estaciones, joystick Volvo y sistema eco-drive.
 
 **Imagen hero** (selección final: revisión humana)
 

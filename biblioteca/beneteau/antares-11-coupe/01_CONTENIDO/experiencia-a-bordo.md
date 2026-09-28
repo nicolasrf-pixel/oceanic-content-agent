@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Camarote doble del armador con baño en suite, camarote de popa a toda manga con tres camas y salón convertible: hasta siete personas a bordo. Vista panorámica desde la timonera.

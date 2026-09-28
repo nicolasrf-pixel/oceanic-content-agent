@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 56% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 72% (informativa; el estado lo deciden las reglas)
 
 Falta crítico: exterior
 Conflictos sin resolver: Capacidad Agua Dulce
@@ -33,12 +33,12 @@ Conflictos sin resolver: Capacidad Agua Dulce
 | DATOS | especificaciones | OK | 13 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
-| EDITORIAL | hero | PARTIAL | 64 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 63 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 118 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 112 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 205 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 145 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 64 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 63 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 118 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | OK | 112 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | OK | 205 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | OK | 145 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 1 candidatas · sin descargar |
 | MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 0/18 |
 | MULTIMEDIA | interior | PARTIAL | 7 en inventario (mín. 2) · descargadas 0/18 |

@@ -23,4 +23,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Tecnología Airstep® 2: con 2 x 350 hp despega en pocos segundos y supera los 40 nudos. Concepto Smart Walkaround, con un solo pasillo asimétrico a babor para ganar espacio en cubierta y cabina.

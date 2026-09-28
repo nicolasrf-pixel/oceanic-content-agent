@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Gran superficie despejada, bordas altas, plataforma lateral abatible que agranda la bañera y diseño deportivo. El asiento de proa opcional crea un salón delantero convertible en gran solárium.

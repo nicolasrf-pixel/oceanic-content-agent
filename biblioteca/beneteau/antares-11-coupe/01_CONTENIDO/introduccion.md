@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con 11 metros de eslora, el buque insignia de la flota Antares ilustra a la perfección el crucero familiar: seguro, marinero e ideal para navegar. Su diseño contemporáneo se centra en el confort, el espacio, la seguridad y la innovación.

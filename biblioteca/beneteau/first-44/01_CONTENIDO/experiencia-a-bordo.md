@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior moderno y luminoso con lacados blancos, maderas moldeadas y tapizados cuidados. Tres camarotes y dos baños. En el salón, la mesa transversal para seis mira al sofá y a la mesa de cartas.

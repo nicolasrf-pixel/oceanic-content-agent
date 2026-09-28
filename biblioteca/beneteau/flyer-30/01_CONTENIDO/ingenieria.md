@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco de doble step que da eficiencia, sustentación y un manejo predecible. Doble fueraborda, puesto de gobierno centrado en el piloto y parabrisas completo.

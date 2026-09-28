@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Desde hace casi 50 años, cada FIRST busca que el latido del navegante siga el ritmo del viento y las olas. El FIRST 60, el First más grande construido, es para navegantes que valoran la intensidad, la precisión al timón y el ajuste fino.

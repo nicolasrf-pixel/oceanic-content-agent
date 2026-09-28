@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> BENETEAU indica en el texto hasta 35 nudos con un fueraborda de hasta 600 hp; el bloque técnico publica 2 x 350 hp como potencia máxima.

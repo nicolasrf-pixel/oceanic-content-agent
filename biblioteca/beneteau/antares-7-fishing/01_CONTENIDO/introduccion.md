@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Heredera directa del Antares 8, la versión Fishing del Antares 7 tiene los mismos ingredientes: modular, fácil de remolcar, rápida y viva, para que toda la familia disfrute de muchas actividades.

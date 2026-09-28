@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Dos años de desarrollo para un nuevo estándar del crucero rápido y lujoso. El espejo de popa se convierte en plataforma de baño y esconde un garaje para una auxiliar de 2,40 m.

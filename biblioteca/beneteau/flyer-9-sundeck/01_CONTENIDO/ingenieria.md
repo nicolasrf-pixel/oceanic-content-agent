@@ -20,4 +20,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La plataforma lateral de babor se abre y crea una terraza con vista al mar y acceso fácil para el baño. Cocina exterior completa, protegida por el parabrisas.

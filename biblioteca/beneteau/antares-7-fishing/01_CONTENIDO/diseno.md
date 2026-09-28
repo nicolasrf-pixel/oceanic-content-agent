@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Líneas deportivas y una cubierta completamente abierta para moverse con facilidad mientras se pesca.

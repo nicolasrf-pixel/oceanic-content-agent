@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cubierta muy abierta y sin backstays. Toda la maniobra vuelve a los dos winches de popa; solo las drizas quedan en el techo. Los instrumentos, con plotter de 7 pulgadas, van en la consola de estribor.

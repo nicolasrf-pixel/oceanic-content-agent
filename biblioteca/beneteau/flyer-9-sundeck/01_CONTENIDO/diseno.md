@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cubierta optimizada y diseño deportivo. Adopta del Flyer 10 el amplio Smart Walkaround a babor, con acceso fácil y seguro a la gran cubierta de proa.

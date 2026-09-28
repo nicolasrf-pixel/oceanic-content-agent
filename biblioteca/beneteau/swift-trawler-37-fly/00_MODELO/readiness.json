@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 61,
+  "completeness_pct": 72,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Altura sobre línea de flotación"
@@ -29,32 +29,32 @@
     "hero": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "36 palabras fuente · sin candidato Oceanic"
+      "detail": "36 palabras fuente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "69 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "69 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "56 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "56 palabras fuente · candidato Oceanic presente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "196 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "196 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "103 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "103 palabras fuente · candidato Oceanic presente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

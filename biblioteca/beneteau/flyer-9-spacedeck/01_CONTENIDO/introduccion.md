@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Funcional y ergonómico, el Flyer 9 SPACEdeck es muy modular: sirve para tomar sol, hacer deportes acuáticos con amigos, comer en familia o pescar.

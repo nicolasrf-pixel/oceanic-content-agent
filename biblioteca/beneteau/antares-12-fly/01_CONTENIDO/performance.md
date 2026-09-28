@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Potencia y agilidad en el agua. La plataforma lateral prolonga la bañera y da acceso fácil al agua para snorkel y paddle.

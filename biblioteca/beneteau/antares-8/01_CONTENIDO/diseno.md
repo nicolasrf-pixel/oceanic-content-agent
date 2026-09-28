@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Líneas estilizadas y aire deportivo. Dos looks: Cruising, de silueta contemporánea, y Fishing, más deportivo.

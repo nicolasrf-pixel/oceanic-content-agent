@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 53 es un crucero de altas prestaciones que navega excepcionalmente bien, para navegantes que no quieren elegir entre rendimiento y confort. Casco equilibrado, sensaciones únicas al timón y una cubierta de circulación fluida.

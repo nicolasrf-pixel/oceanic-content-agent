@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Silueta moderna de Sarrazin Design con grandes cristaleras en la timonera. El flybridge tiene puesto de gobierno a estribor con asiento envolvente, dos bancos enfrentados a babor y un solárium de popa; bimini o panel solar opcionales.

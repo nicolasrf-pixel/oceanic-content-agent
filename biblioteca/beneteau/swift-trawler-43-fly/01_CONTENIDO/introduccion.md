@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo Swift Trawler 43 Fly propone un crucero más suave, cómodo y conectado con el exterior. Fiel al ADN Swift Trawler, une autonomía, seguridad y confort a bordo para alargar cada momento en el agua.

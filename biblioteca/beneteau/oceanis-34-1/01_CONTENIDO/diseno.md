@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Plano de cubierta rediseñado para moverse con comodidad y seguridad. Drizas y enrollador llegan por delante de la bañera y hay un winche a cada banda para el timonel: bañera despejada y acceso fácil a la plataforma de baño.

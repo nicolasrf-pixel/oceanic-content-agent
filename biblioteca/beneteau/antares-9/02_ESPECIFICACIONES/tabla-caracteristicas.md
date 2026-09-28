@@ -25,6 +25,7 @@ Model year: **NO DECLARADO** · Variante: **Antares 9** · Configuración: **seg
 | Calado | 0,63 m – 0,96 m (mín. – máx. según quilla/versión) | VERIFIED |
 | Arquitectura naval | Development: BENETEAU Powerboats · Designer: Sarrazin Design | VERIFIED |
 | Motorización | hasta 2 x 250 hp | VERIFIED |
+| Autonomía | 130 mn a velocidad de crucero | VERIFIED |
 
 ## Campos no encontrados en fuentes oficiales
 

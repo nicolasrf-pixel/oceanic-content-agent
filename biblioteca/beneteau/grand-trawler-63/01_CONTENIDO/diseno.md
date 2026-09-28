@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco de desplazamiento completo y líneas estilizadas de presencia atemporal. Puesto de gobierno rediseñado, inspirado en el Swift Trawler 54, con pantallas MFD flotantes y dirección eléctrica Xenta.

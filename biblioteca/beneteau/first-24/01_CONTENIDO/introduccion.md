@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Crucero de bolsillo, barco de día y regatero de club en uno, fiel a la promesa First de vela moderna. Duerme hasta cuatro personas, y su quilla totalmente retráctil permite botarlo en una rampa corriente. Arquitectura de Samuel Manuard, interior de Sito y concepto de Seascape.

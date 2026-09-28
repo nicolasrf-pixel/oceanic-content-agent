@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo Swift Trawler 48 apuesta por una vida a bordo práctica y una circulación fácil. Tiene un perfil muy estilizado, con paneles de lamas de teca enmarcados en acero inoxidable como los del Grand Trawler 62.

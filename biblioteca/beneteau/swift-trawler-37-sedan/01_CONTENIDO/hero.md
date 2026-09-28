@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Swift Trawler 37 Sedan
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Reinventando el crucero familiar definitivo.
+2. Un techo que se convierte en terraza.
+3. El passagemaker Sedan, más versátil que nunca.
+
+**Descripción corta candidata**
+
+> 11,29 m de Dixon Yacht Design con techo convertible en terraza, cocina y sofá en U para seis y camarote del armador con baño en suite.
 
 **Imagen hero** (selección final: revisión humana)
 

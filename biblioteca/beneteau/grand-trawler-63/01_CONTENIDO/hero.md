@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Grand Trawler 63
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un nuevo referente del viaje elegante.
+2. 1.000 millas a 9 nudos.
+3. Lujo silencioso para largas travesías.
+
+**Descripción corta candidata**
+
+> 18,95 m de MICAD y Nauta Design, con casco de desplazamiento, doble motor MAN con ejes en línea, aletas Sleipner de serie y tres o cuatro camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco, cubierta, mamparos e interior en sándwich infusionado al vacío: ligero y rígido. Desarrollado por un equipo con Samuel Manuard y Maurizio Cossutti para maximizar el potencial ORC.

@@ -254,6 +254,29 @@
         }
       ],
       "notes": "La web no publica el catálogo de motorizaciones; solo la potencia máxima."
+    },
+    {
+      "oceanic_field": "autonomia",
+      "label": "Autonomía",
+      "status": "VERIFIED",
+      "display_value": "130 mn a velocidad de crucero",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Antares 9",
+          "url": "https://www.beneteau.com/antares/antares-9",
+          "accessed_at": "2026-09-27",
+          "source_field": "Texto de la página",
+          "source_value": "Equipped with 500 HP outboard engine – maximum power – and sizeable fuel tanks, it has a cruising range of 130 nautical miles at cruising speed, so that you can go further for longer",
+          "source_unit": null,
+          "normalized_value": 130,
+          "normalized_unit": "mn",
+          "model_year": "NO DECLARADO",
+          "location": "Secciones de texto",
+          "cross_reference": "Autonomía declarada por el fabricante en el texto, con su condición de velocidad."
+        }
+      ],
+      "notes": "Declarada en el texto (no en el bloque técnico)."
     }
   ]
 }

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Swift Trawler 37 Fly
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Redescubre el viaje.
+2. El crucero familiar definitivo, con flybridge.
+3. Elegancia discreta, libertad total.
+
+**Descripción corta candidata**
+
+> 11,29 m de Dixon Yacht Design con flybridge y puesto de gobierno elevado, cocina y sofá en U en cubierta y camarote del armador con ducha separada.
 
 **Imagen hero** (selección final: revisión humana)
 

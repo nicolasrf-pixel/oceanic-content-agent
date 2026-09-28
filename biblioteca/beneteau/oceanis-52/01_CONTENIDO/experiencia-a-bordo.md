@@ -18,4 +18,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Escalera de bajada suave hacia un salón luminoso con cocina en C, nevera de altura completa (opción de segunda) y encimeras Corian. La suite del armador tiene cabecero tapizado, cama de 160 cm y mucho guardado. El camarote de proa sirve para un tripulante o invitados.

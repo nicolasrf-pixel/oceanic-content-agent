@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Nueva bañera con acceso a proa al mismo nivel por pasillos profundos. Los dos puestos de gobierno permiten maniobrar sin dejar el timón. El bimini rígido tiene una sección central que se desliza para regular sombra y ventilación.

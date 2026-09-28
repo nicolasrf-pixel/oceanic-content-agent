@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo Swift Trawler 43 Sedan propone un crucero familiar con más espacio, más confort y más ocasiones de disfrutar el agua. Fiel al ADN Swift Trawler, une autonomía, seguridad y confort.

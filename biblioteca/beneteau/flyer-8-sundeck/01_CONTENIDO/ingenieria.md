@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Accesorios para cada programa: T-top, toldo, poste de esquí acuático y puesto de pesca completo en lugar del banco de popa.

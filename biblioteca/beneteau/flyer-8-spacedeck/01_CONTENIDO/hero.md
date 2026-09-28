@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 8 SPACEdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Diseñado para la pesca y los deportes acuáticos.
+2. Cubierta enrasada de popa a proa.
+3. Ocio activo, sin límites.
+
+**Descripción corta candidata**
+
+> 8,17 m de Andreani Design con cubierta enrasada, solárium de proa, bañera modular y fueraborda de hasta 350 hp. También en Pilot Edition.
 
 **Imagen hero** (selección final: revisión humana)
 

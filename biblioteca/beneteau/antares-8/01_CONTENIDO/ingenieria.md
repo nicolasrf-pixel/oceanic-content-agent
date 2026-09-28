@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco abierto característico de Antares, de gran estabilidad y marinería. Puesto de gobierno ergonómico con panel de control de 12 pulgadas opcional. Admite aire acondicionado.

@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Equipado con tecnologías de navegación integradas en sus sistemas, como la interfaz Ship Control para acceder a datos y componentes. Ofrece múltiples opciones de acabado, aparejo, quilla y mecánica.

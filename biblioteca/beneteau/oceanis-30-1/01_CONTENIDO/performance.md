@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Proa fina, peso optimizado, velas rígidas y mayor de puño cuadrado: rinde en todos los rumbos. Con doble rueda, la bañera admite hasta seis invitados alrededor de una mesa plegable.

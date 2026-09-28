@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Líneas de popa estilizadas y un pantoque marcado. La manga completa hasta el espejo, sello de los cascos Biscontini, da un 30 % más de espacio que el Oceanis 51.1. Dos bancos en C forman una bañera en diamante, con dos mesas regulables y plataforma de baño elevable.

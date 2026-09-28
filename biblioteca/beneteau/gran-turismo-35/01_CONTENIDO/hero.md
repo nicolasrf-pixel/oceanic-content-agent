@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Gran Turismo 35
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La perla del gran turismo.
+2. Vida de villa sobre el agua.
+3. Más de 41 nudos con joystick.
+
+**Descripción corta candidata**
+
+> 11,2 m de Michael Peters Yacht Design y Andreani Design, con balcones abatibles, bañera modular y dos camas dobles. Doble fueraborda Mercury Verado.
 
 **Imagen hero** (selección final: revisión humana)
 

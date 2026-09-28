@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera ergonómica, sin burdas y con doble timón equilibrado. Aparejo de carbono con gran mayor de puño cuadrado, sin backstay ni burdas.

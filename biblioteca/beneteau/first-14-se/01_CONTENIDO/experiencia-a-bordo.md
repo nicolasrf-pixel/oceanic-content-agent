@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Ruedas desmontables para explorar costas lejanas, mástil en dos piezas y equipo que cabe en el casco. Se transporta en el techo del auto.

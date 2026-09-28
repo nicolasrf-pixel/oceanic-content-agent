@@ -32,4 +32,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La cabina tiene aseo y espacio para instalar una nevera o una litera pequeña para niños. En proa, los bancos laterales y central se convierten en solárium; en bañera, los asientos bolster giran 180° para sentar a seis alrededor de la mesa.

@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Planeo a dos dígitos más fácil que nunca, en solitario, a dos o con tripulación completa. Se remolca bajo gracias a la quilla basculante hidráulica y a una manga justo bajo el límite.

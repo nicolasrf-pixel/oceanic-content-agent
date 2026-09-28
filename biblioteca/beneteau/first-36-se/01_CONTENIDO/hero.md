@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 36 SE
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Donde el rendimiento encuentra su propósito.
+2. Planeo puro, optimizado para ORC.
+3. 400 kg más ligero que el First 36.
+
+**Descripción corta candidata**
+
+> Seascape Edition de 11,98 m con caña, menos superficie mojada y 400 kg menos que el First 36, optimizada para regatas ORC.
 
 **Imagen hero** (selección final: revisión humana)
 

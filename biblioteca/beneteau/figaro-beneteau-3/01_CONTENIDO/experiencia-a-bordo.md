@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Pensado para regata en solitario: mayor de puño cuadrado, génova y foque, spinnaker de tope de 105 m² y un gennaker pequeño, con bauprés.

@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 27 SE lleva a manos del navegante recreativo las prestaciones, los eventos y la comunidad de la regata de vanguardia. Permite correr regatas monotipo de larga distancia o hacer cruceros rápidos, y se remolca por completo. Concepto de Seascape; arquitectura de Samuel Manuard.

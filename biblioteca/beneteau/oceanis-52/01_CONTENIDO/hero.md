@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 52
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un paso más allá.
+2. El Oceanis que redefine el confort.
+3. Libertad para cruzar mares.
+
+**Descripción corta candidata**
+
+> 16,28 m de Roberto Biscontini y Nauta Design, con bañera un 30 % más amplia que la del Oceanis 51.1 y suite del armador con cama de 160 cm.
 
 **Imagen hero** (selección final: revisión humana)
 

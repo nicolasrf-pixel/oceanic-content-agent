@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 8
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El weekender familiar definitivo.
+2. Cruising o Fishing: tú eliges.
+3. 35 nudos con 250 hp.
+
+**Descripción corta candidata**
+
+> 8,06 m con casco abierto de gran estabilidad, dos camas dobles (hasta cinco plazas), pasillo ancho a estribor y fueraborda de 250 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

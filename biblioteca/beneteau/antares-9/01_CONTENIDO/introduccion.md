@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Antares 9 es un barco moderno reinventado con innovaciones de los modelos mayores. Hecho para fines de semana divertidos, es más fácil de recorrer y manejar, y mejor en compañía, tanto fondeado como navegando.

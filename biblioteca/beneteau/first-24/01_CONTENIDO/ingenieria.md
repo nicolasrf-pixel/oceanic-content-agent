@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Construcción ligera en GRP por infusión al vacío, casco planeador plano y moderno, quilla basculante profunda lastrada y doble timón. Cámaras de insumergibilidad y una grúa de mástil provisional para ser autónomo en tierra.

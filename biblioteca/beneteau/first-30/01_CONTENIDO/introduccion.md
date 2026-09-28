@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo First 30 celebra las prestaciones, el confort y la innovación. Une sensación de planeo, manejo fácil, seguridad y confort de crucero como sucesor moderno del legendario First 30 de 1977. Inaugura una nueva categoría: los cruceros planeadores.

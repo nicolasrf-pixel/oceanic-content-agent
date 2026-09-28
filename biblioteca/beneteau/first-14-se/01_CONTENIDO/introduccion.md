@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 14 SE (Seascape Edition) lleva la velocidad y la diversión de los skiffs de regata a un dinghy deportivo moderno, seguro y fácil de manejar. Sus materiales permiten apretar con más viento, y su gran superficie vélica rinde con poco viento.

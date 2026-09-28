@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Sensaciones de dinghy en una plataforma más estable y segura. Rápido incluso con poco viento, y controlable al planear a dos dígitos de velocidad.

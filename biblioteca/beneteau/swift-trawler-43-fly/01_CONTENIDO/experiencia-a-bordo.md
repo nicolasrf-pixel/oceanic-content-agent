@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Enfoque residencial: cocina ampliada con encimera Corian, salón cálido, camarote del armador y camarote de invitados rediseñado. Baños con ducha separada, y el camarote de babor accede al aseo por puertas Jack & Jill.

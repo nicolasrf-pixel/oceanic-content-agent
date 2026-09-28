@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Varias configuraciones para adaptarse a todo tipo de navegación. Estándar con mástil enrollador y foque autovirante; opción First Line para más prestaciones.

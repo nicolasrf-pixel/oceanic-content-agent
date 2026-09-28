@@ -32,4 +32,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Asientos para hasta nueve personas. El salón de proa, con asientos enfrentados, deja una gran superficie para pescar, da acceso seguro al pozo de anclas y se convierte en solárium. Bañera para seis con asientos bolster giratorios.

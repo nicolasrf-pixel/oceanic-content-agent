@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 86% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -31,12 +31,12 @@
 | DATOS | especificaciones | OK | 12 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | OK | standard.md, optional.md |
-| EDITORIAL | hero | PARTIAL | 56 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 83 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 160 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 99 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 155 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 58 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 56 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 83 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 160 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | OK | 99 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | OK | 155 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | OK | 58 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 9 en inventario (mín. 3) · descargadas 0/28 |
 | MULTIMEDIA | interior | PARTIAL | 10 en inventario (mín. 2) · descargadas 0/28 |

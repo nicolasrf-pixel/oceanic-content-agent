@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco ultramoderno con las light blades características. Bañera modular inspirada en la vida de villa, balcones abatibles que amplían la cubierta de popa y asientos que se convierten en solárium.

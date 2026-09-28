@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Heredero del Oceanis 51.1, este crucero de 40 pies con casco de Marc Lombard ofrece volumen de cubierta e interior sin rival y sin renunciar a prestaciones. Se adapta con distintos layouts, calados y aparejos.

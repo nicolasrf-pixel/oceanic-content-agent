@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 11 Fly
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un weekender que da en el tono justo, con flybridge.
+2. El placer de navegar al aire libre.
+3. Hasta 7 personas, hasta 2 x 300 hp.
+
+**Descripción corta candidata**
+
+> 11,08 m con flybridge integrado (puesto de gobierno, salón y solárium), timonera acristalada y dos camarotes. Fueraborda de hasta 2 x 300 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

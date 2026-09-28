@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 58% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 75% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Manga Casco, Motorización
 
@@ -32,12 +32,12 @@ Conflictos sin resolver: Manga Casco, Motorización
 | DATOS | especificaciones | PARTIAL | 9 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
-| EDITORIAL | hero | PARTIAL | 73 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 72 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 107 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 140 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 213 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 59 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 73 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 72 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 107 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | OK | 140 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | OK | 213 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | OK | 59 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 10 en inventario (mín. 3) · descargadas 0/26 |
 | MULTIMEDIA | interior | PARTIAL | 7 en inventario (mín. 2) · descargadas 0/26 |

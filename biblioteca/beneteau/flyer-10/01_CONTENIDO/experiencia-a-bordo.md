@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Dos camas dobles, entre la cabina-salón y un camarote medio, para pasar algunas noches a bordo. Baño con WC separado de la ducha y gran guardado. Cocina completa detrás del puesto de gobierno con nevera, fregadero, dos fuegos y horno.

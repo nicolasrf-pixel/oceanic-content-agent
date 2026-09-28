@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Varias configuraciones de cubierta para todo tipo de navegación. Estándar: mástil enrollador y foque autovirante para maniobrar con poca tripulación. El First Line Pack suma un mástil más largo y más superficie vélica.

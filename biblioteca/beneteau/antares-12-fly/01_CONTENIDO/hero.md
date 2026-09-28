@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 12 Fly
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La nueva estrella del crucero familiar.
+2. Tres salones exteriores y un flybridge enorme.
+3. Doble Mercury Verado V10 400 hp con joystick.
+
+**Descripción corta candidata**
+
+> 12,97 m con flybridge con sofá de esquina y cocina exterior, tres camarotes y fueraborda Mercury Verado (2 x V10 400 hp o 3 x V8 300 hp).
 
 **Imagen hero** (selección final: revisión humana)
 

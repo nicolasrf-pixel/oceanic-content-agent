@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Velocidad y un manejo preciso, con una ergonomía de puesto de gobierno pensada para disfrutar al timón.

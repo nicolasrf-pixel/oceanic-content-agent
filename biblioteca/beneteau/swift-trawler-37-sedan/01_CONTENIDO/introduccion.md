@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo Swift Trawler 37 Sedan es un paso adelante en la línea de passagemakers de BENETEAU: libera todo el potencial de la superficie superior de este crucero familiar, adaptable a cada forma de vivir el agua.

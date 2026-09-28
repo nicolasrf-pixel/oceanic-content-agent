@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Gran Turismo 40 Coupe
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Déjalo todo atrás.
+2. El express cruiser, redefinido.
+3. Estética automotriz, confort sorprendente.
+
+**Descripción corta candidata**
+
+> 12,53 m de Michael Peters Yacht Design y Andreani Design, con bañera en doble L, wet bar, solárium de proa y motores base Mercury Verado 400 hp o Yanmar 320 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

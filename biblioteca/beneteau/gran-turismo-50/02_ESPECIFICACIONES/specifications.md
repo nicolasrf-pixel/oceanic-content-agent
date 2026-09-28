@@ -92,6 +92,16 @@ Valor Oceanic: **Architect: Dixon Yacht Design · Designer: Andreani Design**
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/new-gran-turismo-range/gran-turismo-50) Web oficial · Gran Turismo 50 | Descripción | Créditos (descripción) | Architect: Dixon Yacht Design · Designer: Andreani Design |  | Architect: Dixon Yacht Design · Designer: Andreani Design  | Créditos de arquitectura naval y diseño publicados junto a la descripción. | NO DECLARADO | 2026-09-27 |
 
+## Autonomía · `autonomia` · REQUIRES_REVIEW
+
+Valor Oceanic: **hasta 250 mn a 22 nudos**
+
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.beneteau.com/new-gran-turismo-range/gran-turismo-50) Web oficial · Gran Turismo 50 | Secciones de texto | Texto de la página | Powered by Volvo joystick control and equipped with an eco-drive system, the Gran Turismo 50 offers an exceptional range of up to 250 miles at 22 knots (provisional) |  | 250 mn | Autonomía declarada por el fabricante en el texto, con su condición de velocidad. | NO DECLARADO | 2026-09-27 |
+
+Nota: El fabricante la declara provisional.
+
 ## Motorización · `motorizacion` · NOT_FOUND
 
 Valor Oceanic: **-**

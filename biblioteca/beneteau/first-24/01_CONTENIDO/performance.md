@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Rápido y divertido, se mueve incluso con brisas muy suaves. Fácil de manejar en solitario, a dos o con tripulación completa.

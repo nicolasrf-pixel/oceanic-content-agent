@@ -22,4 +22,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Salón con muchas ventanas y ventilación, asiento de piloto giratorio y banco de copiloto que se vuelca para hacer un rincón enfrentado o una litera. Cocina detrás del piloto y cabina con mucho guardado. Bañera en U para cinco convertible en solárium.

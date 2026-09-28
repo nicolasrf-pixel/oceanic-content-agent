@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 18 SE
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Una puerta moderna y divertida a la vela con quilla.
+2. Planeo de dinghy, estabilidad de quillero.
+3. De la regata monotipo al sea-camping.
+
+**Descripción corta candidata**
+
+> 5,55 m con quilla basculante lastrada, doble timón y mástil de carbono sin backstay. Insumergible, remolcable y botable desde rampa.
 
 **Imagen hero** (selección final: revisión humana)
 

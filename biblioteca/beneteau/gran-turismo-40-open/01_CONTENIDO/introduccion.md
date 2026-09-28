@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con más de 140 años de oficio e inspirado en el principio japonés del Yūgen, el Gran Turismo 40 Open encarna el lujo discreto, la versatilidad y una sensación duradera de libertad en el agua.

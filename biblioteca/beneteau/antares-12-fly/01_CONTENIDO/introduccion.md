@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo buque insignia Antares sigue fiel a la identidad de sus predecesores y da un gran paso en equipamiento, confort, sensación de espacio y elegancia.

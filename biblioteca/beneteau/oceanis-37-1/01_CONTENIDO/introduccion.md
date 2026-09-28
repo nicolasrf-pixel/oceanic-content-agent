@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Oceanis 37.1 reúne las innovaciones de la séptima generación Oceanis, que completa como octavo modelo lanzado desde 2017. Ofrece soluciones ecológicas como motor eléctrico opcional o suelo de bañera en iroko.

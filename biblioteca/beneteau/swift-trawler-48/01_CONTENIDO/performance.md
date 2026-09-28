@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Exteriores amplios, pensados para disfrutar el mar a cualquier hora del día.

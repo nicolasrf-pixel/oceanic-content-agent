@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La relación superficie vélica/desplazamiento da velocidad con viento fuerte y flojo. El casco estable, la quilla profunda y el doble timón dan control total al planear en popa.

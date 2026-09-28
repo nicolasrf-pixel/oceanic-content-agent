@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina ampliada con encimera Corian®, salón cálido con grandes cristaleras, camarote del armador y camarote de invitados con baños de ducha separada.

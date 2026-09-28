@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 14 SE
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La emoción de un skiff en un dinghy accesible.
+2. Velocidad de regata, manejo sencillo.
+3. Del techo del auto a la regata monotipo.
+
+**Descripción corta candidata**
+
+> Seascape Edition de 4,3 m con aparejo de carbono, casco planeador ancho y ruedas desmontables. Abre la puerta a la clase monotipo.
 
 **Imagen hero** (selección final: revisión humana)
 

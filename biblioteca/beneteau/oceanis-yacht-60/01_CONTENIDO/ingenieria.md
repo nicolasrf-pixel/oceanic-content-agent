@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Ship Control y Seanapps controlan los sistemas de a bordo y facilitan el mantenimiento. La resina Elium®, probada en el First 44 y desarrollada con Arkema, es reciclable y reduce la huella ambiental.

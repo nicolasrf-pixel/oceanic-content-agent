@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Perfil de cubierta más largo, líneas tensas y ventanas de casco inclinadas de carácter deportivo. El pasillo Smart Walkaround a babor lleva a la cubierta de proa y a su solárium con respaldos reclinables.

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Puerta lateral de estribor que facilita el atraque y ofrece otro acceso seguro al mar. Puesto de gobierno con salpicadero negro de una pieza.

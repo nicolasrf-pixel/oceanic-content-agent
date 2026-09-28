@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Pensado para el ocio familiar, el Antares 7 suma soluciones innovadoras para excursiones más largas. Es un weekender relajado y versátil, fácil de transportar por carretera, y también se ofrece en versión Fishing.

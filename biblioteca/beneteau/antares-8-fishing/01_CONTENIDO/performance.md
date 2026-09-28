@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco abierto característico de la línea Antares, muy estable en toda condición. Con 250 hp alcanza 35 nudos, según BENETEAU.

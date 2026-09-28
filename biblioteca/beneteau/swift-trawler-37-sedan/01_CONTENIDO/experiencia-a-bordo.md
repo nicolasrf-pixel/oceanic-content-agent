@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina en U con nevera y congelador grandes opcionales, y sofá en U para seis convertible en litera doble. Mesa elevable junto al timón como puesto de trabajo. Camarote del armador con baño en suite y ducha separada. Encimeras Corian de serie.

@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Roberto Biscontini y Lorenzo Argento crearon un mundo de refinamiento en este crucero oceánico de 60 pies. Con casi 18 metros de casco, conserva un diseño elegante y excelentes cualidades marineras. Ahora integra en su producción la resina reciclable Elium®.

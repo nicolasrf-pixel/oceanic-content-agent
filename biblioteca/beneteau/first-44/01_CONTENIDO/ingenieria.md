@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Roberto Biscontini aplicó simulaciones e iteraciones heredadas de la America's Cup para lograr un casco potente y equilibrado. Dos lastres de agua de 350 l se activan eléctricamente desde las consolas. La ingeniería es de Mer Forte, que tuvo el mismo papel en el Figaro Bénéteau 3.

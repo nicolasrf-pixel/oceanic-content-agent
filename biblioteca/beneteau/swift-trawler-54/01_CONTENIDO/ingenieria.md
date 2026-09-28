@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco Fusion de Dixon Yacht Design para una navegación más eficiente, y aletas Sleipner Vector Gen 3 con control de 360 grados. Pañol easy load y guardado en el púlpito del flybridge.

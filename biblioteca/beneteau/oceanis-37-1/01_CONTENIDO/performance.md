@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Crucetas dobles para buen rendimiento. Versión estándar con foque autovirante para simplificar, o First Line con mayor de puño cuadrado y génova para quien busca un barco vivo.

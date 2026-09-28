@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Mando joystick Volvo y sistema eco-drive, con interfaz de usuario propia y elección entre puesto de gobierno abierto o protegido. BENETEAU anuncia hasta 250 millas a 22 nudos como dato provisional.

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Solárium de popa, plataforma lateral que crea una terraza sobre el mar y cubierta enrasada que une bañera y timonera. Francobordo alto, pasillos amplios y buena marinería para la seguridad.

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Mezcla de líneas clásicas y modernas: proa recta y fina, manga máxima de 5 m llevada a popa, cubierta enrasada y techo bajo. La bañera separa la maniobra en los dos puestos de gobierno del descanso junto a la bajada.

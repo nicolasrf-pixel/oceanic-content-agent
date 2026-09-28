@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Hace más de 30 años BENETEAU First dio nombre a una filosofía: Spirit. El First 36 Spirit la lleva a una nueva generación de cruceros planeadores, depurada en ligereza y sencillez para que nada se interponga entre el navegante y la experiencia.

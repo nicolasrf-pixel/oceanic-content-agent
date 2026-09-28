@@ -20,4 +20,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Perfil estilizado con el característico parabrisas invertido. Puede llevar poste de luz de fondeo abatible o mástil de radomo opcional, que reducen el air draft y facilitan rutas como el Great Loop. En proa, winche y pañoles de ancla elevados.

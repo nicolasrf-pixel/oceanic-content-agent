@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con un espacio exterior sin igual, el Swift Trawler 54 rompe moldes en el passagemaking. Es un hogar familiar sobre el agua para cruceros largos y eficientes en un ambiente elegante y acogedor.

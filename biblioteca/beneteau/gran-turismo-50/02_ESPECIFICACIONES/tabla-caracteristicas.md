@@ -24,6 +24,7 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 50** · Configuración:
 | Altura sobre línea de flotación | 4,6 m | VERIFIED |
 | Calado | 1,18 m | VERIFIED |
 | Arquitectura naval | Architect: Dixon Yacht Design · Designer: Andreani Design | VERIFIED |
+| Autonomía | REQUIRES REVIEW: hasta 250 mn a 22 nudos | REQUIRES_REVIEW |
 | Motorización | - | NOT_FOUND |
 
 ## Campos no encontrados en fuentes oficiales
@@ -33,3 +34,7 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 50** · Configuración:
 - **Capacidad Agua Dulce**: NO ENCONTRADO — No publicado en el bloque técnico ni en el texto de la página.
 - **Potencia motor máx**: NO ENCONTRADO — El bloque técnico no publica 'Max. engine power'.
 - **Motorización**: NO ENCONTRADO — La web no publica motorización para este modelo.
+
+## Pendiente de decisión humana
+
+- **Autonomía** (REQUIRES_REVIEW): El fabricante la declara provisional.

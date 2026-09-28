@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La configuración Sedan introduce un espacio adaptable. La plataforma superior, con escalera integrada, admite tumbonas, sombra y mesas, o sirve de zona de guardado. El parabrisas invertido amplía el espacio sobre el puesto de gobierno.

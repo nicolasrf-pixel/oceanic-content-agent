@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Se ofrece en versiones fueraborda, dentrofueraborda o coupé. Bañera de popa con asientos en doble L y wet bar mirando a popa, cocina completa, y solárium de proa con asientos abatibles y toldo opcional.

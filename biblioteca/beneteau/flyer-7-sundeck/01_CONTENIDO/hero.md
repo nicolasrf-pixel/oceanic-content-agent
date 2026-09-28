@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 7 SUNdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Ágil, suave y divertido de conducir.
+2. Solárium arriba, cabina abajo.
+3. También en Pilot Edition.
+
+**Descripción corta candidata**
+
+> Day boat de 7,2 m con casco Air Step® 2, gran solárium sobre una cabina con cama doble y aseo, fueraborda de hasta 200 hp. Remolcable.
 
 **Imagen hero** (selección final: revisión humana)
 

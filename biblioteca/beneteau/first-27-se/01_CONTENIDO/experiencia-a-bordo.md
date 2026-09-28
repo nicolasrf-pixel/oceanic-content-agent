@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior para hasta seis adultos: dos en un camarote de proa separado y cuatro en el salón. Puertas magnéticas convierten la zona central en baño, extensión del camarote o espacio húmedo para cambiar velas. Incluye nevera, mesa plegable y pañol de velas.

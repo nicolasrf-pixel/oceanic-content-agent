@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El nuevo Swift Trawler 37 Flybridge une estilo, confort y libertad con una elegancia discreta. Nace de escuchar a los clientes: el crucero familiar definitivo, con espacio y prestaciones óptimos.

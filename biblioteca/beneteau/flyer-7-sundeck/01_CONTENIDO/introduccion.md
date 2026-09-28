@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Flyer 7 SUNdeck es muy ágil y de respuesta rápida, con una navegación suave y sensaciones de conducción muy agradables. Ahora también en Pilot Edition.

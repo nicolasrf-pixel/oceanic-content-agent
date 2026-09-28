@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 8 Fishing
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Ideal para los apasionados de la pesca.
+2. El Antares más deportivo.
+3. Pesca de día, noche a bordo.
+
+**Descripción corta candidata**
+
+> 8,06 m con puesto de pesca y portacañas profesionales, vivero de agua circulante, puerta lateral de estribor y dos camas dobles. Fueraborda de 250 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

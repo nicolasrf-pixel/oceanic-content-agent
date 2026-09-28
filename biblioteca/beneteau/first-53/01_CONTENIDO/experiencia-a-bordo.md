@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Vuelve la madera moldeada, sobre mamparos lacados en blanco y piso de teca. Tres camarotes dobles con dos o tres baños. La gran novedad es separar la zona de descanso, con sofá y mesa baja, del espacio de comedor.

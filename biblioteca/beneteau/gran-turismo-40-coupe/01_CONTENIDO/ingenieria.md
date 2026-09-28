@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Motores base: doble Mercury Verado 400 hp fueraborda o Yanmar 320 hp intraborda, con consola de gobierno de gran ergonomía. Edición limitada Alpine con casco Signal Grey.

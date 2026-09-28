@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 61,
+  "completeness_pct": 78,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Manga Casco",
@@ -29,33 +29,33 @@
     },
     "hero": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "92 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "92 palabras fuente · candidato Oceanic presente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "90 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "90 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "156 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "156 palabras fuente · candidato Oceanic presente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "51 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "51 palabras fuente · candidato Oceanic presente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "180 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "180 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "176 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "176 palabras fuente · candidato Oceanic presente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

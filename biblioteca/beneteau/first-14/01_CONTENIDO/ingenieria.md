@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco planeador ancho y plano, con proa que corta la ola, construido en sándwich por infusión al vacío. Dos posiciones de orza adaptan la superficie vélica al viento o a la tripulación.

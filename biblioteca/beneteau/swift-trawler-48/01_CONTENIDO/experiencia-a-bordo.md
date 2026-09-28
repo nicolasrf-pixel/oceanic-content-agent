@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Andreani Design rehízo el interior: cocina en L equipada, dinette en U elevada para ocho y puesto de gobierno con puerta lateral. Abajo, camarote del armador en proa con baño y ducha separada, y camarote de invitados con dos camas convertibles en doble.

@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Estabilidad en navegación y al fondeo gracias a las aletas Sleipner, y un ambiente muy silencioso.

@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Oceanis 47 combina largos fondeos tranquilos con la emoción del timón. Pensado para reunirse y disfrutar a bordo, inaugura la octava generación de la gama. Arquitectura de Finot-Conq; diseño de Nauta Design.

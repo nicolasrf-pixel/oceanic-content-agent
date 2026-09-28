@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco moderno, estable, rígido y ligero, con doble timón preciso. Arquitectura de Samuel Manuard, diseño exterior de Lorenzo Argento, ingeniería estructural de Pure Design & Engineering e interior de Lorenzo Argento y Sito.

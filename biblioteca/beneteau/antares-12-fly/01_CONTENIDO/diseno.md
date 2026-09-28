@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Arrufo y ventanas de casco que aportan luz natural. El hard top icónico es la base de un gran flybridge. Tres zonas de estar exteriores: bañera, solárium de proa y flybridge con sofá de esquina y mueble de cocina exterior.

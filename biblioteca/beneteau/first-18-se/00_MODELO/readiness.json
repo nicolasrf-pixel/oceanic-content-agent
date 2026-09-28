@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "RED",
-  "completeness_pct": 50,
+  "completeness_pct": 64,
   "critical_missing": [
     "tabla_tecnica"
   ],
@@ -28,33 +28,33 @@
     },
     "hero": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "71 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "71 palabras fuente · candidato Oceanic presente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "68 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "68 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "87 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "87 palabras fuente · candidato Oceanic presente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "159 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "159 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "238 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "238 palabras fuente · candidato Oceanic presente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

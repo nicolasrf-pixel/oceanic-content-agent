@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera convivial con una bonita mesa y acceso a nivel a pasillos amplios. Cuatro winches, un punto fijo central para la escota de mayor y un mástil retrasado aprovechan su plano vélico moderno: mayor esbelta y velas de proa generosas.

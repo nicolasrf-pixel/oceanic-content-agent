@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Velocidades emocionantes y una navegación suave, desde una tirada a fondo hasta una puesta de sol tranquila.

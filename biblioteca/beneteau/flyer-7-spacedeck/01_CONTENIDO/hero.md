@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 7 SPACEdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Wakeboard, surf, pesca o sol: todo en 7 metros.
+2. Deportivo, versátil y sencillo.
+3. Hasta 9 personas a bordo.
+
+**Descripción corta candidata**
+
+> Day boat de 7,2 m con casco Air Step® 2, salón de proa convertible en solárium y fueraborda de hasta 200 hp. También en Pilot Edition.
 
 **Imagen hero** (selección final: revisión humana)
 

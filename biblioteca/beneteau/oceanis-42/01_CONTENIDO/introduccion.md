@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Oceanis 42 abre un nuevo capítulo en el segmento de 40 pies. Sucesor del Oceanis 40.1, es una generación más refinada y personalizable, con cinco layouts. Arquitectura de Marc Lombard Yacht Design; exterior e interior de Nauta Design.

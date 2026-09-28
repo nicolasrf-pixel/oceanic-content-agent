@@ -22,21 +22,21 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 67% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
 | DATOS | tabla_tecnica | OK | tabla base 8/8 verificada |
-| DATOS | especificaciones | OK | 12 campos con fuente |
+| DATOS | especificaciones | OK | 13 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | PARTIAL | optional.md |
-| EDITORIAL | hero | PARTIAL | 33 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 60 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 166 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 51 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 163 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 48 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | PARTIAL | 33 palabras fuente |
+| EDITORIAL | introduccion | OK | 60 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 166 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | OK | 51 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | OK | 163 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | OK | 48 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 12 en inventario (mín. 3) · descargadas 0/27 |
 | MULTIMEDIA | interior | PARTIAL | 7 en inventario (mín. 2) · descargadas 0/27 |
@@ -53,6 +53,7 @@
 - **Desplazamiento en rosca**: Lightship Displacement → 'Lightship Displacement' = desplazamiento en rosca.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.
 - **Motorización**: Max. engine power → Motorización = potencia máxima declarada en 'Max. engine power'.
+- **Autonomía**: Texto de la página → Autonomía declarada por el fabricante en el texto, con su condición de velocidad.
 
 ## Información faltante o por revisar
 

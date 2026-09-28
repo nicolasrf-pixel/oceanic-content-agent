@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Líneas tensas y un parabrisas a toda manga con laterales. El puesto de gobierno sienta a cuatro personas mirando al mar. La bañera tiene un banco de popa que se abate en segundos para formar un gran solárium. T-top rígido o bimini instalables.

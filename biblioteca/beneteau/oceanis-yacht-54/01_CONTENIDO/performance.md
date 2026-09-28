@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco equilibrado para disfrutar en toda condición. Cabos, winches y mandos colocados para navegar casi sin esfuerzo.

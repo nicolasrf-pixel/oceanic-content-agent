@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Roberto Biscontini y Lorenzo Argento firman este 54 pies ágil, que abre una nueva generación de cruceros de gama alta. Optimiza bañera e interiores sin sacrificar prestaciones, practicidad ni confort, y lleva el ADN de la gama Oceanis.

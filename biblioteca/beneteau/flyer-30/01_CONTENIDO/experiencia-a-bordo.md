@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cubierta asimétrica a un solo nivel entre el salón de proa, el timón, la bañera y el agua. Puesto de gobierno para tres con pantallas Garmin, wet bar con Corian y baño de fibra con WC eléctrico, lavabo y portillo.

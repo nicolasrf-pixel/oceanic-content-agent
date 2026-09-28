@@ -25,3 +25,4 @@ Model year: **NO DECLARADO** · Variante: **Grand Trawler 63** · Configuración
 | Calado | 1,4 m | VERIFIED |
 | Arquitectura naval | Naval architect: MICAD · Interior and deck design: Nauta Design | VERIFIED |
 | Motorización | Intraborda, hasta 2 x 730 hp | VERIFIED |
+| Autonomía | hasta 1.000 mn a 9 nudos | VERIFIED |

@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Más potencia sin perder accesibilidad ni control. La mayoría de la gama Oceanis sigue fabricándose en Francia, 40 años después del primer Oceanis.

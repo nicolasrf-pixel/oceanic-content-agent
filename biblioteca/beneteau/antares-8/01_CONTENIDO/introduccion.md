@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Más innovador y versátil que nunca, el nuevo Antares 8 suma funciones de ocio para disfrutar con el máximo confort y el estilo de esta gama icónica. Sirve para relajarse con amigos o salir unos días de crucero.

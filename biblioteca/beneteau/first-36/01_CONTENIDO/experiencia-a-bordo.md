@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Distribución clásica de tres camarotes. El baño reduce su superficie con un lavabo plegable para ganar una mesa de cartas/oficina. Isla de nevera independiente, y una tabla de cortar amplía la cocina en L estándar.

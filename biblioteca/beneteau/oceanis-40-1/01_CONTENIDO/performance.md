@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Ergonomía de bañera pensada para navegar y fondear. Escotillas y portillos de casco y techo aportan luz y ventilación.

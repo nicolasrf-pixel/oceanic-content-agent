@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Puesto de pesca completo, guardado para señuelos y anzuelos, vivero de agua circulante, portacañas, portavasos y tabla de corte. Opcional: pantalla adicional de 9 pulgadas conectada a la sonda. Puerta lateral de estribor para atracar y subir o soltar peces.

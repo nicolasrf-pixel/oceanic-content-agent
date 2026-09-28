@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Estilo vigoroso y dinámico, con líneas tensas y una cinta de defensa que estiliza la silueta. La bañera, desplazada a babor, deja un pasillo ancho a estribor hacia el solárium de proa.

@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Antares 8 Fishing tiene un diseño deportivo y novedades pensadas para las actividades en el mar, sobre todo la pesca, con el estilo de esta línea icónica y verdadero confort.

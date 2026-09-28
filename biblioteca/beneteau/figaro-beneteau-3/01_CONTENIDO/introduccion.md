@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Figaro BENETEAU 3 es el primer monocasco monotipo con foils de producción. Nace de la colaboración entre expertos del grupo BENETEAU y el estudio Van Peteghem Lauriot-Prévost (VPLP), arquitectos de los dos últimos ganadores de la Vendée Globe.

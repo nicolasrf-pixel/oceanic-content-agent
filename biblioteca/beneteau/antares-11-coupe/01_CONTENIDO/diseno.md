@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Fruto de una nueva colaboración entre BENETEAU y Sarrazin Design, con una silueta moderna y grandes superficies acristaladas en la timonera.

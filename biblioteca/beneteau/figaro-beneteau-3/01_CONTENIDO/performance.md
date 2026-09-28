@@ -11,4 +11,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Mayor de 39,5 m² y foque de 30,5 m², según la web. El mástil retrasado, como en los Imoca 60, equilibra el barco bajo vela.

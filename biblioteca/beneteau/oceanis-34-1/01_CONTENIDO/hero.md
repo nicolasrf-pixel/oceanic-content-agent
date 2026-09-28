@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 34.1
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El crucero de última generación.
+2. Más ligero, más vela, más espacio.
+3. Navegación segura para toda la familia.
+
+**Descripción corta candidata**
+
+> 10,77 m de Marc Lombard y Nauta Design, con dos o tres camarotes dobles y un casco de nueva generación que mejora el control de cabeceo en ceñida.
 
 **Imagen hero** (selección final: revisión humana)
 

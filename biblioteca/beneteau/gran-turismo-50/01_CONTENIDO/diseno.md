@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Una distribución segura en navegación que se convierte en espacio tipo villa al amarre. La cubierta principal une las zonas de descanso y lleva al puesto de gobierno de tres estaciones. Filosofía japonesa Kanso y Yugen.

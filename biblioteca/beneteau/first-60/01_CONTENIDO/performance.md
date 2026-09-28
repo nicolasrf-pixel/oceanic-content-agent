@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Sistemas de navegación simples y refinados para interactuar con el yate con precisión. Incluye acompañamiento desde la configuración y el servicio Premium de First.

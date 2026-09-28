@@ -11,4 +11,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Salón desplazado a babor con sofá y mesa para seis frente a la cocina longitudinal. El camarote de proa mira al horizonte por dos portillos de casco; en la versión estándar, popa con cama king-size y gran pañol de velas.

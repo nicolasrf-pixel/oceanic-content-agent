@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera y flybridge amplios con asientos blandos. En popa, elevador de auxiliar de 400 kg, guardado para kayaks y paddleboards y plataforma hidráulica. En proa, un asiento en U con mesa que se convierte en solárium. Arrufo en S hacia la proa.

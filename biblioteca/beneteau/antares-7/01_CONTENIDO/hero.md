@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 7
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Novedades para más confort y versatilidad.
+2. El weekender familiar que se remolca.
+3. Cabina, cocina y bañera en U en 7,5 m.
+
+**Descripción corta candidata**
+
+> 7,48 m de BENETEAU Powerboats y Sarrazin Design, con bañera en U para cinco, puerta lateral de estribor y salón modular. También en versión Fishing.
 
 **Imagen hero** (selección final: revisión humana)
 

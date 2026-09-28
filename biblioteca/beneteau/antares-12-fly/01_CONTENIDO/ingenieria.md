@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Doble Mercury Verado V10 400 hp de última generación con joystick integrado, o triple Mercury Verado V8 300 hp. Excelente visibilidad desde cualquiera de los dos timones.

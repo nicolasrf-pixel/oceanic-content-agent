@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 42% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 53% (informativa; el estado lo deciden las reglas)
 
 Falta crítico: tabla_tecnica
 Conflictos sin resolver: Altura sobre línea de flotación
@@ -33,12 +33,12 @@ Conflictos sin resolver: Altura sobre línea de flotación
 | DATOS | especificaciones | PARTIAL | 7 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
-| EDITORIAL | hero | PARTIAL | 98 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 93 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 150 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 32 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 250 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 98 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 93 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | PARTIAL | 10 palabras fuente |
+| EDITORIAL | ingenieria | OK | 150 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | PARTIAL | 32 palabras fuente |
+| EDITORIAL | performance | OK | 250 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 1 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 8 en inventario (mín. 3) · descargadas 0/15 |
 | MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 0/15 |

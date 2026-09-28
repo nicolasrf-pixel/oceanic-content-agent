@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Gran Turismo 40 Open
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El mar. El horizonte. Las posibilidades.
+2. Lujo discreto inspirado en el Yūgen.
+3. Versatilidad abierta para días y fines de semana.
+
+**Descripción corta candidata**
+
+> 12,3 m de Michael Peters Yacht Design y Andreani Design, con salón de proa en U convertible, bañera ampliable y estabilizador Seakeeper 3 opcional.
 
 **Imagen hero** (selección final: revisión humana)
 

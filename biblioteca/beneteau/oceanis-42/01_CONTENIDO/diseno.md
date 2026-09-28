@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Nauta diseñó un exterior estructurado y fluido. La popa se usa abierta, con la plataforma como extensión de la bañera, o cerrada, con asientos que suman plazas junto al timonel. Los puestos de gobierno heredan del Oceanis 47 y 52 asientos integrados, consolas ergonómicas y mando del motor en la consola.

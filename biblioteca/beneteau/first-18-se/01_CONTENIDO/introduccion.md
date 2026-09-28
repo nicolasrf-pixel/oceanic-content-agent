@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco ancho, plano y estable, quilla basculante lastrada, foque enrollable, sistema de recogida del gennaker y maniobra mínima: un planeo fácil y emocionante. Remolcable y desmontable, sirve tanto para la clase monotipo internacional como para el sea-camping.

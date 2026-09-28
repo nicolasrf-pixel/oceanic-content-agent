@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Grand Trawler 63 es una nueva visión del crucero de larga distancia. Combina 140 años de experiencia, tecnología moderna y fiable, y un diseño de elegancia sobria para abrir destinos soñados.

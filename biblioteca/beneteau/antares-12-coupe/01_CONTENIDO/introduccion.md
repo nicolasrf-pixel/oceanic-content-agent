@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Fiel a la gama Antares, el Antares 12 Coupe es un crucero familiar versátil pensado para navegar largas distancias en todas las latitudes. Complementa al Antares 12 Fly y combina confort, elegancia e innovación.

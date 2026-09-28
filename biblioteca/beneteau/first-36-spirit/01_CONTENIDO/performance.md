@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Acelera con cada cambio de viento en brisa ligera y planea a partir de 15 nudos, equilibrado y bajo control incluso a dos dígitos.

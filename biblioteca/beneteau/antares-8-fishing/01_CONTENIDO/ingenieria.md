@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Vivero de agua circulante y tres pañoles bajo cubierta, uno apto para cajón de pescado. Puerta lateral de estribor para atracar y subir capturas grandes. Portacañas en bordas y techo, foco de popa y proyector LED de proa para la noche.

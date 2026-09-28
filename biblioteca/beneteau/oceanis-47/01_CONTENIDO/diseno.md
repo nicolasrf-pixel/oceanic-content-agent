@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Líneas tensas, volúmenes equilibrados y un pantoque que le da un aire deportivo. La manga máxima llevada hasta el espejo permite una bañera en L amplia, con dos mesas centrales que pasan de altas a bajas.

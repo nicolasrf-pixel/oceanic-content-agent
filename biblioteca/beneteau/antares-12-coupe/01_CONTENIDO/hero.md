@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 12 Coupe
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Cada estación tiene su luz.
+2. Crucero familiar para todas las latitudes.
+3. Techo de cristal eléctrico y hasta ocho a bordo.
+
+**Descripción corta candidata**
+
+> 12,97 m de BENETEAU y Sarrazin Design con techo de cristal eléctrico, plataforma eléctrica de estribor, joystick y dos camarotes con baño.
 
 **Imagen hero** (selección final: revisión humana)
 

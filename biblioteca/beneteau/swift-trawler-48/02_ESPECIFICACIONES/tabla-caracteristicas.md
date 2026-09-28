@@ -25,3 +25,4 @@ Model year: **NO DECLARADO** · Variante: **Swift Trawler 48** · Configuración
 | Calado | 1,15 m | VERIFIED |
 | Arquitectura naval | Naval designer: MICAD · Interior designer: Andreani Design | VERIFIED |
 | Motorización | hasta 2 x 425 hp | VERIFIED |
+| Autonomía | más de 600 mn a 9 nudos | VERIFIED |

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 11 Coupe
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un weekender que da en el tono justo.
+2. El crucero familiar de 11 metros.
+3. Hasta 7 personas, hasta 2 x 300 hp.
+
+**Descripción corta candidata**
+
+> 11,16 m de BENETEAU y Sarrazin Design con timonera acristalada, camarote del armador con baño y camarote de popa a toda manga con tres camas.
 
 **Imagen hero** (selección final: revisión humana)
 

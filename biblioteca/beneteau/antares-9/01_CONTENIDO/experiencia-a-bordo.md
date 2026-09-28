@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Salón luminoso y cocina con nevera de 80 litros y dos fuegos eléctricos. El camarote del armador a proa tiene cama queen y muebles lacados, y el camarote de invitados, dos plazas. Carpintería de nogal y tapizados acolchados.

@@ -104,7 +104,8 @@ def extract(raw_html: str, url: str, accessed_at: str) -> dict:
                              for li in hero.select("[itemprop=itemListElement]") if li.select_one("[itemprop=name]")]
         h1 = hero.find("h1")
         tag = h1.find_next_sibling("div") if h1 else None
-        out["tagline"] = tag.get_text(" ", strip=True) if tag else None
+        tagline = tag.get_text(" ", strip=True) if tag else None
+        out["tagline"] = None if tagline and re.search(r"€|VAT|\$", tagline) else tagline
         price = hero.find("p", string=re.compile(r"\d"))
         if price:
             out["price_text"] = re.sub(r"\s+", " ", price.get_text()).strip()

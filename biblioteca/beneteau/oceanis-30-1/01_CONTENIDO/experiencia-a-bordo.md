@@ -18,4 +18,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Altura interior de 1,98 m donde se está de pie, dos camarotes dobles con literas longitudinales y dos bancos de salón que suman dos plazas más. Baño con WC separado de ducha y lavabo, y cocina en L con nevera de 75 litros y horno.

@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior según la filosofía Kanso: dinette de proa convertible en cama doble transversal y camarote de popa, ambos con cortinas de privacidad. Baño amplio con ducha separada y TV de 32 pulgadas opcional.

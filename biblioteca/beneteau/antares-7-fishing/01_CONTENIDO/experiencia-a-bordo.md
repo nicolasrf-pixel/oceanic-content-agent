@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Salón modular: rincón, banco de copiloto o litera adicional. Cocina completa y cabina con aseo separado; en la versión estándar, la cabina ofrece mucho guardado. Opciones de nevera de 42 l y cocina a gas o eléctrica.

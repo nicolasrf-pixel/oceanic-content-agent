@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 10 Sport Top
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El confort de un express cruiser con la agilidad de un day boat.
+2. Hard top de cristal y horizonte despejado.
+3. Navegar en toda estación.
+
+**Descripción corta candidata**
+
+> 9,95 m de Sarrazin Design con hard top acristalado, dos camas dobles, baño con ducha separada y fueraborda de 2 x 350 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

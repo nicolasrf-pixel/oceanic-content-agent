@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El equipo de Marc Lombard añadió manga en el tercio de proa para controlar mejor el cabeceo en ceñida y lograr un timón más estable escorado. Menos superficie mojada mejora el rendimiento con viento flojo y medio.

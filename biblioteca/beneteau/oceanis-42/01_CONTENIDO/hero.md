@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 42
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Legado francés a vela.
+2. Cinco layouts, un solo 40 pies.
+3. El nuevo referente del segmento 40.
+
+**Descripción corta candidata**
+
+> Sucesor del Oceanis 40.1: 12,86 m de Marc Lombard y Nauta Design, cinco layouts, popa abierta o cerrada y la mayor nevera del segmento (215 l).
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Oceanis 52 reúne elegancia, innovación y herencia, con nuevos estándares de confort y precisión. Está pensado para navegantes exigentes que quieren recorrer los mares con seguridad y comodidad.

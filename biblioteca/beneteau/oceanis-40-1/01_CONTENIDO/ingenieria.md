@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco y oficina de diseño BENETEAU enfocados en espacio interior, gran cubierta y capacidad de hacer millas. Versión First Line con mástil más largo y más calado; enrollador en mástil y foque autovirante para navegar con poca tripulación.

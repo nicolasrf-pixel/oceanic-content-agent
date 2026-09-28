@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Motorización de 2 x 400 o 3 x 300 hp con joystick y estabilizador giroscópico Seakeeper opcional. Techo de cristal eléctrico de serie que inunda de luz el salón.

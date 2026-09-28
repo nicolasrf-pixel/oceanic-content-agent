@@ -20,4 +20,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Camarote del armador con baño propio, camarote de invitados con baño, y una tercera zona modular para litera o guardado. Con el salón de timonera convertible, hasta ocho personas pasan la noche. Salón en U y cocina completa.

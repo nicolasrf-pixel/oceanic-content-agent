@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Vivo y eficaz en todas las condiciones gracias a un plano vélico generoso y a los lastres de agua, que mantienen el potencial del barco.

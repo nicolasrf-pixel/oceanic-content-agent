@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Flyer 10 Sport Top saca todo su potencial adaptándose a distintos usos en cualquier estación. Su distribución prioriza la circulación, la luz natural y una sensación permanente de apertura.

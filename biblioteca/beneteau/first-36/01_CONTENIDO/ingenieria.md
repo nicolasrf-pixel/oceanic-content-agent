@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco, cubierta, mamparos e interior en sándwich infusionado al vacío, una técnica hasta ahora de regata o de marcas de nicho. El resultado es un barco muy rígido de solo 4.800 kg. Diseño naval de Sam Manuard y palas de timón de regata.

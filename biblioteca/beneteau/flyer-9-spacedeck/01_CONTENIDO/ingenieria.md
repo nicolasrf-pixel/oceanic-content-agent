@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Puesto de pesca opcional y portacañas en las bordas. La plataforma lateral de babor se abre para disfrutar la vista al mar y bañarse con facilidad.

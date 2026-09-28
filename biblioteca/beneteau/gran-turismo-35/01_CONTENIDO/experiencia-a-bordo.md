@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior con maderas claras y mucha luz. La cama de proa convertible funciona como salón o cama doble, y un camarote medio con cama completa el interior. Baño cerrado con ducha y cocina equipada para fines de semana.

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco abierto con un nervio que da líneas fluidas, más potencia y estabilidad, mayor rigidez y más volumen en proa. La cubierta de bañera usa iroko con el proceso Iro-Deck de BENETEAU. Opción eléctrica con pod de 12 kW y baterías de 10 kWh.

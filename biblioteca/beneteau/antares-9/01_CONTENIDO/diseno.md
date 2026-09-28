@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Perfil elegante con cinta plateada y ventanas de casco largas. El arco de la timonera se une al techo que protege la bañera de popa (1,7 x 2,4 m). El banco en L pasa a salón en U con un asiento extra y se convierte en solárium.

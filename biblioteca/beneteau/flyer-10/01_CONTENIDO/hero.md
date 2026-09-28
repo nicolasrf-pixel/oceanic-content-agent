@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 10
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El buque insignia Flyer.
+2. Day boat por fuera, casi sport cruiser por dentro.
+3. Más de 40 nudos con 2 x 350 hp.
+
+**Descripción corta candidata**
+
+> 9,98 m con casco Airstep® 2, Smart Walkaround, cocina en cubierta y dos camas dobles con baño y ducha separada. Hasta 11 pasajeros.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 37.1
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un legado de armonía.
+2. El volumen de un 40 pies en 37.
+3. Fácil a dos, vivo con First Line.
+
+**Descripción corta candidata**
+
+> 11,93 m que completan la 7ª generación Oceanis: salón casi de 40 pies, dos o tres camarotes y opción de motor eléctrico.
 
 **Imagen hero** (selección final: revisión humana)
 

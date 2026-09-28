@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 7 Fishing
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La versatilidad en persona.
+2. Todo para la pesca, en 7,5 metros.
+3. Pesca y fin de semana en un solo barco.
+
+**Descripción corta candidata**
+
+> Versión Fishing del Antares 7: cubierta abierta, puesto de pesca completo con vivero de agua circulante y portacañas, y cabina con aseo separado.
 
 **Imagen hero** (selección final: revisión humana)
 

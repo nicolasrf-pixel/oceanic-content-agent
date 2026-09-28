@@ -11,4 +11,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Perfil estilizado y líneas atemporales de Lorenzo Argento, reducidas a lo esencial. Es el único yate de su eslora con zonas de bañera diseñadas para descanso, comedor y navegación.

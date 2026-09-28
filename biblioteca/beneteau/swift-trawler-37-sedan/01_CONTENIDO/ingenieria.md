@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Techo con tomas eléctricas integradas de serie, y toldo o suelo de lamas de madera opcionales. Espacio para claraboyas eléctricas o paneles solares como opción.

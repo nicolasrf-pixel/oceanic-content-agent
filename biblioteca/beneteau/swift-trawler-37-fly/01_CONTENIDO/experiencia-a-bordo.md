@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina y sofá en U en cubierta, con nevera y congelador grandes opcionales. El sofá se convierte en litera doble con cortina, y junto al timón una mesa elevable sirve de puesto de trabajo. Abajo, camarote del armador y baño principal con puertas Jack & Jill y ducha separada. Encimeras Corian de serie.

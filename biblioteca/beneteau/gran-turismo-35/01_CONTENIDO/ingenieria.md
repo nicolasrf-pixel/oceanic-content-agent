@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con doble fueraborda Mercury Verado, la versión base supera los 41 nudos. Atraque y maniobras cerradas con joystick. Existe una edición limitada Alpine con casco Signal Grey y detalles en negro.

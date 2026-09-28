@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Salón con tapizados de espuma gruesa y roble lijado, y tres ambientes a elegir, entre ellos Sunset y Pacific. La versión del armador tiene tres camarotes, dos baños y mesa de cartas; el Elegance Pack añade mesa de salón en Alpi macizo.

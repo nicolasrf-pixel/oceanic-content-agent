@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 36 nació por el placer de planear, en escapadas, vacaciones en familia y regatas de club. Es el primer crucero planeador de gran difusión donde confort y alto rendimiento no se contraponen. European Yacht of the Year 2023.

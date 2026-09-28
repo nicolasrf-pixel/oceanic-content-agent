@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con el First 44, BENETEAU lleva el término racer/cruiser a su expresión más noble: un yate elegante y cómodo con un placer de navegación sin igual. Es el eslabón natural entre el First 36 y el First 53, y su generoso plano vélico lo hace vivo y eficaz en toda condición.

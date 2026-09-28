@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El hard top acristalado da una visibilidad excelente y protege el puesto de gobierno. Dos asientos bolster frente a la consola y un banco doble a babor sientan a cuatro personas.

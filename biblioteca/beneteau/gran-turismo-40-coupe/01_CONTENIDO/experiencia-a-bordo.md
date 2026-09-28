@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior sereno según la filosofía Kanso: cama isla en proa con guardado, cama central convertible multiuso y baño completo con ducha. Luz ambiental, luces de lectura y cajones con cierre suave.

@@ -18,4 +18,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Dos camas dobles, una en la cabina y otra en la timonera, para hasta cinco personas, más una cama extra bajo el salón. Cocina con nevera y placa a gas o eléctrica. Plataformas enrasadas para el baño y pasillo ancho a estribor hacia un gran solárium.

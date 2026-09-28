@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 44,
+  "completeness_pct": 58,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Potencia motor máx"
@@ -28,33 +28,33 @@
     },
     "hero": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "58 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "58 palabras fuente · candidato Oceanic presente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "55 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "55 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "297 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "297 palabras fuente · candidato Oceanic presente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "85 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "85 palabras fuente · candidato Oceanic presente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "90 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "90 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

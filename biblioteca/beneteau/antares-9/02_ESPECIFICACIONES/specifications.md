@@ -109,3 +109,13 @@ Valor Oceanic: **hasta 2 x 250 hp**
 | [S1](https://www.beneteau.com/antares/antares-9) Web oficial · Antares 9 | Specifications (bloque técnico) | Max. engine power | 2 x 250 CV | hp | 246.58 hp | Motorización = potencia máxima declarada en 'Max. engine power'. | NO DECLARADO | 2026-09-27 |
 
 Nota: La web no publica el catálogo de motorizaciones; solo la potencia máxima.
+
+## Autonomía · `autonomia` · VERIFIED
+
+Valor Oceanic: **130 mn a velocidad de crucero**
+
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.beneteau.com/antares/antares-9) Web oficial · Antares 9 | Secciones de texto | Texto de la página | Equipped with 500 HP outboard engine – maximum power – and sizeable fuel tanks, it has a cruising range of 130 nautical miles at cruising speed, so that you can go further for longer |  | 130 mn | Autonomía declarada por el fabricante en el texto, con su condición de velocidad. | NO DECLARADO | 2026-09-27 |
+
+Nota: Declarada en el texto (no en el bloque técnico).

@@ -278,6 +278,29 @@
         }
       ],
       "notes": "La web no publica el catálogo de motorizaciones; solo la potencia máxima."
+    },
+    {
+      "oceanic_field": "autonomia",
+      "label": "Autonomía",
+      "status": "VERIFIED",
+      "display_value": "más de 600 mn a 9 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Swift Trawler 48",
+          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+          "accessed_at": "2026-09-27",
+          "source_field": "Texto de la página",
+          "source_value": "Over 600 nautical miles of range at 9 knots!",
+          "source_unit": null,
+          "normalized_value": 600,
+          "normalized_unit": "mn",
+          "model_year": "NO DECLARADO",
+          "location": "Secciones de texto",
+          "cross_reference": "Autonomía declarada por el fabricante en el texto, con su condición de velocidad."
+        }
+      ],
+      "notes": "Declarada en el texto (no en el bloque técnico)."
     }
   ]
 }

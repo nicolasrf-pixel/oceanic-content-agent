@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 27 SE
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Sensaciones únicas garantizadas.
+2. Tecnología de regata para el navegante recreativo.
+3. El único 8 m remolcable en categoría B con interior completo.
+
+**Descripción corta candidata**
+
+> 7,99 m que planean a dos dígitos, con aparejo de carbono sin backstay, quilla basculante hidráulica e interior para seis adultos.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Swift Trawler 54
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un viaje extraordinario.
+2. Una terraza sobre el mar.
+3. Semanas a bordo con todo el confort de casa.
+
+**Descripción corta candidata**
+
+> 17,13 m de Dixon Naval Architects y Andreani Design, con elevador de auxiliar de 400 kg, casco Fusion, aletas Sleipner Vector Gen 3 y seis plazas de cama.
 
 **Imagen hero** (selección final: revisión humana)
 

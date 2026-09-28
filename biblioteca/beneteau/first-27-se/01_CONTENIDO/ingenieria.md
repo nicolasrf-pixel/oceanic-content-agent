@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco ligero y rígido infusionado al vacío, quilla profunda con bulbo de plomo y basculante hidráulica. Tres cámaras de insumergibilidad y más volumen en proa con crash box le dan la categoría B.

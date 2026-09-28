@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Dos camas dobles y un baño completo con ducha separada. Cabina central y camarote medio luminosos gracias a las ventanas largas de casco, con carpintería de nogal. La bañera a toda manga y el solárium de proa para tres se convierten en grandes zonas de sol.

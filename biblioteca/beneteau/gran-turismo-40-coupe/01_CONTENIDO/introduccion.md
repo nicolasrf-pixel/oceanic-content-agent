@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Nacido de datos modernos y más de un siglo de experiencia, el nuevo Gran Turismo 40 redefine el express cruising. Sirve para salidas de día y fines de semana, con confort, tecnología de punta y una estética inspirada en el automóvil.

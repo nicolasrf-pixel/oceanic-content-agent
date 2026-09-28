@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 9 SUNdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un day boat hecho para compartir.
+2. Cabina con dos camas dobles y ducha separada.
+3. Terraza lateral sobre el mar.
+
+**Descripción corta candidata**
+
+> 9,1 m con plataforma lateral abatible, cocina exterior, cabina con dos camas dobles y fueraborda de hasta 1 / 2 x 500 hp. También en Pilot Edition.
 
 **Imagen hero** (selección final: revisión humana)
 

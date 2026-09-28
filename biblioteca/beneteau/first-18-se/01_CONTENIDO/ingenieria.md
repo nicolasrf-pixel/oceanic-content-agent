@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cámaras de insumergibilidad que lo hacen insumergible. La quilla basculante evita daños estructurales al varar y el doble timón da control total al planear.

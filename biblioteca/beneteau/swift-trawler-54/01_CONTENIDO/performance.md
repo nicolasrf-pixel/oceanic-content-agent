@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Excelente manejo y confort en todas las condiciones. Circulación segura entre las puertas laterales del timón y la cocina.

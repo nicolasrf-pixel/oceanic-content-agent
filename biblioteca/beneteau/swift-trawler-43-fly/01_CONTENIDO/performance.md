@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Pensado para pasar más tiempo en el agua, con mucho guardado y equipamiento para cruceros largos.

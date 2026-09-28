@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Fácil de manejar con cualquier tripulación. La escota de mayor en el techo deja una bañera amplia para navegar o fondear.

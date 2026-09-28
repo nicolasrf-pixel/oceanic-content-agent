@@ -24,4 +24,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco muy ligero de viniléster infusionado al vacío, quilla basculante de composite con bulbo de plomo y aparejo de carbono. Es insumergible, y la quilla basculante protege la estructura si toca fondo.

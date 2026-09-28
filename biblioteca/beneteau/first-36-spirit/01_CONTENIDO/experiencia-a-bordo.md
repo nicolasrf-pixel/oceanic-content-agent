@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior luminoso, abierto y acogedor: tres camarotes, salón amplio y un baño con lavabo plegable. Encimeras resistentes, puertas magnéticas desmontables y guardado abierto.

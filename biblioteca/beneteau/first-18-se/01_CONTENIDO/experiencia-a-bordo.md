@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cabina para dos adultos en modo sea-camping, con litera en V a proa y bolsas de tripulación. Quilla totalmente retráctil y palas de timón desmontables para entrar en las calas más bajas.

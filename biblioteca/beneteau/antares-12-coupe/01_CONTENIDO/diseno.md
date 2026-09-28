@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Recoge los códigos estéticos que firman la gama desde hace 45 años. La plataforma eléctrica de estribor amplía el espacio exterior y facilita el acceso al agua. El techo largo con marquesina cubre la bañera, con cerramiento lateral y techo de lona opcionales.

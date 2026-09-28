@@ -20,4 +20,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Silueta más firme, perfil estilizado y proa alta. El flybridge tiene un gran asiento en U con respaldo adaptable y guardado para paddleboards, kayaks o una auxiliar.

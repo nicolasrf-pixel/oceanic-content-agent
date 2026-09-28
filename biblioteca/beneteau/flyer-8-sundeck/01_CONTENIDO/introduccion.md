@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Elegante y cómodo, el Flyer 8 SUNdeck muestra el carácter de la nueva generación de day boats BENETEAU. Tiene gran habitabilidad y vistas panorámicas, con una cabina confortable y dos soláriums, algo excepcional en un fueraborda de 8 metros.

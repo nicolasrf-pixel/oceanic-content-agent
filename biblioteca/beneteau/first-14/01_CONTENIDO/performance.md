@@ -20,4 +20,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Muy estable y seguro, con momento adrizante suficiente para navegar sin trapecio, solo o a dos. Sistema de recogida del gennaker y foque enrollable para cambiar vela navegando.

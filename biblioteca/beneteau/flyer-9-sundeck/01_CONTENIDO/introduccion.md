@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Flyer 9 SUNdeck aprovecha mejor el espacio y mejora el confort de la generación anterior. Con instrumentos de última generación y más confort, conducirlo es para disfrutar en buena compañía.

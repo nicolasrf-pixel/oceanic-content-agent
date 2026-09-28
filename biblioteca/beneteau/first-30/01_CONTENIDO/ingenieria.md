@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco de regata moderno, ligero, con herrajes seleccionados y winches generosos: fácil de manejar para cualquier tripulante. Diseño moderno, construcción sólida y doble timón para la estabilidad. Certificación oceánica clase A.

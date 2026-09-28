@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Figaro Beneteau 3
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El primer monocasco monotipo con foils de serie.
+2. Tecnología Vendée Globe para la regata en solitario.
+3. Donde el regatista marca la diferencia.
+
+**Descripción corta candidata**
+
+> Monotipo de 10,89 m diseñado por VPLP con foils, quilla profunda y mástil retrasado. Categoría de diseño A ISO/World Sailing.
 
 **Imagen hero** (selección final: revisión humana)
 

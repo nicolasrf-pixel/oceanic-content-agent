@@ -113,3 +113,13 @@ Valor Oceanic: **Intraborda, hasta 2 x 730 hp**
 | [S1](https://www.beneteau.com/grand-trawler/grand-trawler-63) Web oficial · Grand Trawler 63 | Specifications (bloque técnico) | Max. engine power | 2 x 730 HP |  | 730.0 hp | Motorización = potencia máxima declarada en 'Max. engine power' + 'Propulsion'. | NO DECLARADO | 2026-09-27 |
 
 Nota: La web no publica el catálogo de motorizaciones; solo la potencia máxima. Texto oficial sobre motores: The twin MAN engines with straight shafts deliver one of the best power-to-weight ratios on the market, no-nonsense reliability, and the finest manufacturer warranty available to owners today
+
+## Autonomía · `autonomia` · VERIFIED
+
+Valor Oceanic: **hasta 1.000 mn a 9 nudos**
+
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.beneteau.com/grand-trawler/grand-trawler-63) Web oficial · Grand Trawler 63 | Secciones de texto | Texto de la página | Developed in collaboration with MICAD Naval Architects, this yacht delivers remarkable fuel efficiency—offering up to 1,000 nautical miles of range at 9 knots with 10% fuel reserve |  | 1000 mn | Autonomía declarada por el fabricante en el texto, con su condición de velocidad. | NO DECLARADO | 2026-09-27 |
+
+Nota: Declarada en el texto (no en el bloque técnico).

@@ -18,4 +18,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior cálido y moderno de Lorenzo Argento, con mucha luz natural y ventilación. Dos versiones, 3 camarotes y 2 baños o 3 camarotes y 3 baños, en roble claro o nogal. La plataforma de baño revela un garaje para una auxiliar neumática de ocho pies.

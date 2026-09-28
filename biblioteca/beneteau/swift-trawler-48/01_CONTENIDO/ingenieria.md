@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco optimizado para confort y eficiencia: la proa fina es muy marinera, reduce el consumo y hace la navegación más segura. BENETEAU declara más de 600 millas de autonomía a 9 nudos.

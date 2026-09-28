@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Roda recta que libera volumen en proa y manga máxima de 5 m llevada hacia popa. La bañera moderniza el concepto central con un diseño enrasado, con zonas separadas para descansar y navegar. Brazolas y amuradas altas dan seguridad hacia proa.

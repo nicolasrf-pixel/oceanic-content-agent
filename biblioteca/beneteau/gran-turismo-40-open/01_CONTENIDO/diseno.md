@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> En proa, un salón en U envolvente que se convierte en solárium con mesa eléctrica. En popa, la bañera admite pata de mesa eléctrica y cojín para crear otro espacio de descanso. Varias soluciones de sombra a elegir.

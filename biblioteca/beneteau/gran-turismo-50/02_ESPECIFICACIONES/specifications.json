@@ -201,6 +201,29 @@
       "notes": ""
     },
     {
+      "oceanic_field": "autonomia",
+      "label": "Autonomía",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "hasta 250 mn a 22 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Gran Turismo 50",
+          "url": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-50",
+          "accessed_at": "2026-09-27",
+          "source_field": "Texto de la página",
+          "source_value": "Powered by Volvo joystick control and equipped with an eco-drive system, the Gran Turismo 50 offers an exceptional range of up to 250 miles at 22 knots (provisional)",
+          "source_unit": null,
+          "normalized_value": 250,
+          "normalized_unit": "mn",
+          "model_year": "NO DECLARADO",
+          "location": "Secciones de texto",
+          "cross_reference": "Autonomía declarada por el fabricante en el texto, con su condición de velocidad."
+        }
+      ],
+      "notes": "El fabricante la declara provisional."
+    },
+    {
       "oceanic_field": "motorizacion",
       "label": "Motorización",
       "status": "NOT_FOUND",

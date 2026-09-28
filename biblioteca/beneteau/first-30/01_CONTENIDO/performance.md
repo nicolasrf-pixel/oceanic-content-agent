@@ -26,4 +26,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El planeo, antes reservado a regatistas expertos, es aquí sencillo y accesible para todos cada día con al menos viento medio, en crucero familiar o en regata.

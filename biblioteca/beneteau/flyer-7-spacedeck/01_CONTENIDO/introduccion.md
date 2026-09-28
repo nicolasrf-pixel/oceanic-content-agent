@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> ¿Wakeboard, surf, pesca, baño o sol? Con su estética marcada, su versatilidad y su sencillez, el Flyer 7 SPACEdeck sirve para todo tipo de ocio en el agua. Ahora también en Pilot Edition.

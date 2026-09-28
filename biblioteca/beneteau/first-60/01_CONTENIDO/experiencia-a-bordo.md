@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Comedor frente al rincón del armador, con mesa de cartas y sofá. Cocina a lo ancho del barco con encimera alargada. El camarote del armador tiene cama orientada a proa, accesible por ambos lados y con mucha luz natural.

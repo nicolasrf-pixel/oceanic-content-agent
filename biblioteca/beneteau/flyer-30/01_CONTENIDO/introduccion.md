@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Pensado para ir más lejos, quedarse más tiempo y reunir a la gente con confort, el Flyer 30 es una nueva expresión del espíritu Flyer. Elegante, versátil y capaz, reinventa el day boat con una arquitectura refinada y un diseño social.

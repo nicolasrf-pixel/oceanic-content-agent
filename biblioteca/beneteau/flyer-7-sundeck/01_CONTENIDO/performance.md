@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Navegación suave y agradable, con el casco Air Step® 2 que despega rápido y se mantiene estable a toda velocidad.

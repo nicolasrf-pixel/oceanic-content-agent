@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La bañera se configura como puesto de pesca o como banco convertible en solárium, y admite poste de esquí acuático. Dos plataformas de baño facilitan el acceso y el buceo al fondeo.

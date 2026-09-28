@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina central a lo ancho del barco, con frío y guardado a babor, y fregadero, horno y lavavajillas a estribor. Salón para seis frente a una zona de descanso y mesa de cartas curva. Tres camarotes con tres baños, en nogal (roble claro opcional).

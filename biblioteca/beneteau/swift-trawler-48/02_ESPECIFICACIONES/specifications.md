@@ -113,3 +113,13 @@ Valor Oceanic: **hasta 2 x 425 hp**
 | [S1](https://www.beneteau.com/swift-trawler/swift-trawler-48) Web oficial · Swift Trawler 48 | Specifications (bloque técnico) | Max. engine power | 2 x 425 HP |  | 425.0 hp | Motorización = potencia máxima declarada en 'Max. engine power'. | NO DECLARADO | 2026-09-27 |
 
 Nota: La web no publica el catálogo de motorizaciones; solo la potencia máxima.
+
+## Autonomía · `autonomia` · VERIFIED
+
+Valor Oceanic: **más de 600 mn a 9 nudos**
+
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.beneteau.com/swift-trawler/swift-trawler-48) Web oficial · Swift Trawler 48 | Secciones de texto | Texto de la página | Over 600 nautical miles of range at 9 knots! |  | 600 mn | Autonomía declarada por el fabricante en el texto, con su condición de velocidad. | NO DECLARADO | 2026-09-27 |
+
+Nota: Declarada en el texto (no en el bloque técnico).

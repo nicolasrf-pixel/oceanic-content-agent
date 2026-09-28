@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior de Nauta en nogal o roble claro, con 2, 3 o 4 camarotes, cocina en C a estribor y gran salón a babor con mesa de cartas. El espejo de popa se convierte en una plataforma de baño amplia.

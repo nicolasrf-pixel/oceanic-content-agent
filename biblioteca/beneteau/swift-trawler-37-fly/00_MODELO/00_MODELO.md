@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 61% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 72% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Altura sobre línea de flotación
 
@@ -32,12 +32,12 @@ Conflictos sin resolver: Altura sobre línea de flotación
 | DATOS | especificaciones | OK | 11 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | OK | standard.md, optional.md |
-| EDITORIAL | hero | PARTIAL | 36 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 69 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 56 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 196 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 103 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | PARTIAL | 36 palabras fuente |
+| EDITORIAL | introduccion | OK | 69 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 56 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
+| EDITORIAL | experiencia | OK | 196 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | OK | 103 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 14 en inventario (mín. 3) · descargadas 0/23 |
 | MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 0/23 |

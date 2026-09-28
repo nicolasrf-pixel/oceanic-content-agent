@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera modular: las extensiones de banco desmontables la convierten en salón de crucero y, retiradas, queda una bañera eficiente para regata o navegación a dos.

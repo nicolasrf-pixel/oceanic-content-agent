@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior para cuatro navegantes en dos camarotes, con un camarote de proa generoso y literas de salón comparables a las del First 36. Cocina con hornillo cardánico, nevera opcional, altura de 1,85 m y un baño marino. Puertas magnéticas plegables y pañoles textiles desmontables.

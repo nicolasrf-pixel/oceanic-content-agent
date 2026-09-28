@@ -27,4 +27,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bajo el solárium, una cabina con cama doble, guardado, aseo y mueble con nevera opcional. La Pilot Edition suma casco gris, tapicería especial, púlpitos negros, LED en bañera y solárium de proa de serie.

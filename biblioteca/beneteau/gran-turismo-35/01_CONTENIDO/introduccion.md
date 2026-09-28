@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Gran Turismo 35 abre la puerta a nuevas aventuras sin concesiones en prestaciones, confort y estilo. Suma lo último en arquitectura naval y ergonomía a los 140 años de historia de la marca.

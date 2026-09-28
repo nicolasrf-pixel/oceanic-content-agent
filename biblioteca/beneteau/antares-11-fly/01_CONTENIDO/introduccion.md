@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con 11 metros de eslora, el buque insignia de la línea Antares es el crucero familiar por excelencia: elegante, contemporáneo y centrado en el espacio, el confort y la seguridad. Su flybridge se integra en el perfil para disfrutar la navegación al aire libre.

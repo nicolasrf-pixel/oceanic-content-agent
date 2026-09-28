@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina con dinette elevada, gran salón y escalera arquitectónica al flybridge. Seis plazas de cama, más una opcional de tripulación. Ducha con lluvia en el camarote del armador a toda manga. Acabado refinado de serie por los 140 años de BENETEAU.

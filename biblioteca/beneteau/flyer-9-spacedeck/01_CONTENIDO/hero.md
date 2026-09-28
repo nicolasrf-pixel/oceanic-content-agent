@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 9 SPACEdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Modular, funcional, confortable.
+2. Sol, deportes, comidas o pesca.
+3. Cuatro personas para pasar la noche.
+
+**Descripción corta candidata**
+
+> 9,1 m con cubierta despejada, bordas altas, plataforma lateral abatible y cabina con dos camas y aseo. Fueraborda de hasta 1 / 2 x 500 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

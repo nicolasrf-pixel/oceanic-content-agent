@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Roda recta, casco con pantoque vivo y proporciones de pequeño yate. Para tripulaciones reducidas lleva foque autovirante y un solo winche; para prestaciones, génova solapado, code zero enrollable y spinnaker asimétrico.

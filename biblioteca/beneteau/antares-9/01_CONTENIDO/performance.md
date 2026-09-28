@@ -16,4 +16,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Puerta lateral y escalera de baño, y pasillo de estribor más ancho y profundo con púlpitos altos para ir con seguridad a proa.

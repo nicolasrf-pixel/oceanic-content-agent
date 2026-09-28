@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 30
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Una nueva forma de vivir el mar.
+2. Ir más lejos, quedarse más tiempo.
+3. La nueva expresión del espíritu Flyer.
+
+**Descripción corta candidata**
+
+> 9,22 m de Michael Peters Yacht Design con cubierta asimétrica a un solo nivel, casco de doble step, techo flotante y doble fueraborda.
 
 **Imagen hero** (selección final: revisión humana)
 

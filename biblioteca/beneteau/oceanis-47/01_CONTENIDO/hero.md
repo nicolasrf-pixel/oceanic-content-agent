@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 47
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Construido sobre un legado.
+2. Fondeos largos, timón emocionante.
+3. La octava generación Oceanis.
+
+**Descripción corta candidata**
+
+> 14,6 m de Finot-Conq y Nauta Design que abren la octava generación Oceanis, con bañera en L, mesas modulares y versión del armador de tres camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

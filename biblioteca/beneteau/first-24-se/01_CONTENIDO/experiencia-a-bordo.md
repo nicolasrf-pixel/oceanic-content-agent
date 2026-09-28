@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior minimalista y muy cuidado en peso: salón abierto para cuatro adultos, dos en la litera en V y dos en literas laterales extensibles, con bolsas de tripulación, mesa interior/exterior y lugar para un WC químico.

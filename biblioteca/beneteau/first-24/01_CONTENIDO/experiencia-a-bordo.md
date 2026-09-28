@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Un salón de espacio abierto para cuatro adultos: dos en la litera en V de proa y dos en literas laterales extensibles. Bolsas de tripulación, guardado bajo los bancos, mesa interior/exterior plegable y espacio para un WC químico.

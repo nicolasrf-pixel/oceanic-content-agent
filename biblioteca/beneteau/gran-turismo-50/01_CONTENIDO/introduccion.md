@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Gran Turismo 50 es el nuevo buque insignia de la gama crossover express cruiser de BENETEAU. Parte de un enfoque nuevo de distribución, estética y ergonomía, y mantiene el espíritu ir-a-cualquier-parte del concepto Gran Turismo.

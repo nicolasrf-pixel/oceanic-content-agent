@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 30
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El placer de planear, para todos.
+2. Nace una categoría: el crucero planeador.
+3. El sucesor moderno del First 30 de 1977.
+
+**Descripción corta candidata**
+
+> 9,35 m de Samuel Manuard y Lorenzo Argento con dos camarotes, baño marino y certificación de clase A: planea desde viento medio.
 
 **Imagen hero** (selección final: revisión humana)
 

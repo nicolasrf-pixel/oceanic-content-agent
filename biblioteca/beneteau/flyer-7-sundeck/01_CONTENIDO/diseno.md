@@ -10,4 +10,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Gran solárium sobre la cabina. Bañera sorprendentemente amplia para hasta seis personas, con asientos bolster giratorios y bancos laterales integrados.

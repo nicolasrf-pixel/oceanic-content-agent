@@ -19,4 +19,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Más deportivo que el Antares 8 Cruising, con bañera modular. El banco de popa se sustituye por un puesto de pesca con portacañas profesionales. Hard top de timonera recortado para lanzar mejor.

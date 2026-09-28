@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 44
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Rendimiento que emociona. Confort que enamora.
+2. El racer/cruiser en su expresión más noble.
+3. El eslabón entre el First 36 y el First 53.
+
+**Descripción corta candidata**
+
+> 14,65 m de Biscontini Yacht Design y Lorenzo Argento, con dos lastres de agua de 350 litros activables desde el timón, tres camarotes y dos baños.
 
 **Imagen hero** (selección final: revisión humana)
 

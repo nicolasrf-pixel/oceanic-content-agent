@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 67,
+  "completeness_pct": 78,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Desplazamiento en rosca",
@@ -31,32 +31,32 @@
     "hero": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "68 palabras fuente · sin candidato Oceanic"
+      "detail": "32 palabras fuente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "78 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "78 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "167 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "167 palabras fuente · candidato Oceanic presente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "128 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "128 palabras fuente · candidato Oceanic presente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "232 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "232 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

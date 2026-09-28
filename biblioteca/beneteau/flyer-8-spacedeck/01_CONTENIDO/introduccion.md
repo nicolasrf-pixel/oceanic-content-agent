@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Las líneas firmes del Flyer 8 SPACEdeck reflejan el diseño audaz de la nueva generación Flyer. Pensado para la pesca y los deportes acuáticos, es para quien busca un ocio activo lleno de experiencias.

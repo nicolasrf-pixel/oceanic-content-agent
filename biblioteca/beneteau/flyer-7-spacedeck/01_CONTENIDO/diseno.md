@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Deportivo y enérgico. Tapicería Standard o Elegance con púlpitos inox o negros. La consola lleva parabrisas envolvente y pasamanos que hacen más seguros los dos pasillos laterales simétricos.

@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 61,
+  "completeness_pct": 78,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Capacidad Agua Dulce"
@@ -28,33 +28,33 @@
     },
     "hero": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "69 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "69 palabras fuente · candidato Oceanic presente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "63 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "63 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "99 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "99 palabras fuente · candidato Oceanic presente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "51 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "51 palabras fuente · candidato Oceanic presente"
     },
     "experiencia": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "311 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "311 palabras fuente · candidato Oceanic presente"
     },
     "performance": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "84 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "84 palabras fuente · candidato Oceanic presente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",

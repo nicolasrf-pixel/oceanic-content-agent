@@ -29,4 +29,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> 400 kg más ligero que el First 36 estándar. BENETEAU lo presenta como probablemente el 36 pies de serie más rápido y emocionante del mercado.

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 24 SE
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Un sport cruiser moderno y de alta tecnología.
+2. Pocket-rocket de regata monotipo.
+3. Regata por la mañana, fondeo por la tarde.
+
+**Descripción corta candidata**
+
+> 7,29 m con casco de viniléster infusionado, quilla basculante con bulbo de plomo y aparejo de carbono. Insumergible y fácil de remolcar.
 
 **Imagen hero** (selección final: revisión humana)
 

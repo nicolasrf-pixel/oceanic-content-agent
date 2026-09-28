@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera de popa con mesa plegable, dos sillas de director y un gran banco. Doble puerta en el espejo hacia una plataforma amplia, con elevación hidráulica opcional. Flybridge de 20 m² con respaldos transformables, gran mesa y wet bar.

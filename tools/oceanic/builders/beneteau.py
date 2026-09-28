@@ -433,6 +433,22 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                                    + (" La web la llama 'Jib' (foque)." if "Jib" in m.group(0) else ""))
                 fields[key] = _field(key, labels[key], "VERIFIED", [rec], display=f"{_fmt(v, 1)} m²")
 
+    # autonomía declarada en el texto (valor absoluto con su condición); "provisional" -> REQUIRES_REVIEW
+    m = re.search(r"[^.\n]*?(up to|over|of)\s+([\d,]+)\s*(?:nautical\s+)?miles(?: of range)?\s+at\s+"
+                  r"(\d+\s*knots|cruising speed)[^.\n]*", _all_text(ext), re.I)
+    if m and boat == "motor":
+        nm = int(m.group(2).replace(",", ""))
+        pre = {"up to": "hasta ", "over": "más de "}.get(m.group(1).lower(), "")
+        cond = m.group(3).replace("knots", "nudos").replace("cruising speed", "velocidad de crucero")
+        provisional = "provisional" in m.group(0).lower()
+        disp = f"{pre}{_fmt(nm, 0)} mn a {cond}"
+        rec = _text_record(src, "Texto de la página", m.group(0).strip(), nm, "mn", "Secciones de texto",
+                           "Autonomía declarada por el fabricante en el texto, con su condición de velocidad.")
+        fields["autonomia"] = _field("autonomia", labels["autonomia"], "REQUIRES_REVIEW" if provisional else "VERIFIED",
+                                     [rec], display=disp,
+                                     notes="El fabricante la declara provisional." if provisional else
+                                     "Declarada en el texto (no en el bloque técnico).")
+
     # Faltantes: tabla base + críticos
     catalog = json.loads((ROOT / "schema" / "field-catalog.json").read_text())
     base = catalog["base_table"][boat]

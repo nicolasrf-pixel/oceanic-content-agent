@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 24 SE es un sport cruiser moderno y de alta tecnología, con prestaciones emocionantes. Se remolca con facilidad para correr regatas monotipo internacionales o raids costeros, y ofrece un interior sencillo para cuatro personas. Concepto de Seascape; arquitectura de Manuard YD.

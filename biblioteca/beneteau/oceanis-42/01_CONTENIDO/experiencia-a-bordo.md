@@ -22,4 +22,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Tapicería Premium en tres estilos (Ivory, Sunset, Pacific) y roble arena con cantos de 2 mm. Salón luminoso con escritorio frente a él y camarote del armador con cama de 160 cm. La cocina en L, estable escorada, tiene 215 litros de frío.

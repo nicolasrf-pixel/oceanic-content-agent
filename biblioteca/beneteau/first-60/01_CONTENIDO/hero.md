@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 60
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. La alegría en su máxima expresión.
+2. El First más grande jamás construido.
+3. Precisión al timón, placer en cada segundo.
+
+**Descripción corta candidata**
+
+> 18,95 m de Biscontini Yacht Design y Lorenzo Argento, con Winch Island, winche cautivo de mayor, botavara Park Avenue y bañera en tres zonas.
 
 **Imagen hero** (selección final: revisión humana)
 

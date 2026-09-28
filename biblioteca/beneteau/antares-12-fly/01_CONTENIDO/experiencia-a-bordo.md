@@ -23,4 +23,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Timonera central con vista panorámica, cocina completa y salón con asientos enfrentados. El camarote del armador y el camarote VIP tienen baño en suite, y el tercer camarote es muy modular. La puerta de bañera de tres hojas une bañera y salón.

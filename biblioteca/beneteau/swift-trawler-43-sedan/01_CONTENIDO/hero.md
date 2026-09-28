@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Swift Trawler 43 Sedan
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El passagemaker moderno.
+2. Más espacio para la vida en familia.
+3. Preparado para el Great Loop.
+
+**Descripción corta candidata**
+
+> 13,13 m con parabrisas invertido, mástil abatible o radomo opcional para reducir el air draft, cocina con Corian y amplias cristaleras.
 
 **Imagen hero** (selección final: revisión humana)
 

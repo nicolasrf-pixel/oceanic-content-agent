@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Combina elegancia y funcionalidad. La cubierta enrasada permite moverse libremente de las plataformas de popa a la proa, y los púlpitos rebajados dejan vistas despejadas al mar.

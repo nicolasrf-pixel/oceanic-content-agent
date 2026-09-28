@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 30.1
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Pequeño, pero enorme.
+2. El crucero Oceanis que se lleva por carretera.
+3. Fácil de navegar, vivo al timón.
+
+**Descripción corta candidata**
+
+> El Oceanis más pequeño: 9,53 m, dos camarotes dobles y un casco Finot-Conq pensado para lagos, ríos, costa y altamar. Se puede remolcar por carretera.
 
 **Imagen hero** (selección final: revisión humana)
 

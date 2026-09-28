@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cocina con nevera y placa a gas o eléctrica, y opción de aire acondicionado. Hasta cinco personas duermen a bordo en dos camas dobles, en cabina y timonera, más una cama extra bajo el salón. Salón modular con bancos plegables y mesa desmontable.

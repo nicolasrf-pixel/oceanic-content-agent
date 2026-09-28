@@ -24,4 +24,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Foils de perfil hacia dentro que reducen la deriva y aumentan el momento adrizante. Quilla profunda de pala recta con mínima resistencia. Casco en sándwich de espuma, fibra de vidrio y resina de poliéster infusionada.

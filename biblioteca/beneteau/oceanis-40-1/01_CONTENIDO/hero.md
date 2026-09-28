@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Oceanis 40.1
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Redefiniendo el crucero de 12 metros.
+2. Sensación de 45 pies en 40.
+3. Espacio, modularidad y millas.
+
+**Descripción corta candidata**
+
+> Casco Marc Lombard con volumen de cubierta e interior sin rival en su eslora, disponible con 2, 3 o 4 camarotes y distintos calados y aparejos.
 
 **Imagen hero** (selección final: revisión humana)
 

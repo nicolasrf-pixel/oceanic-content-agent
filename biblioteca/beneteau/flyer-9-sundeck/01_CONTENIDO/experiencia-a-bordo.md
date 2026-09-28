@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cabina especialmente grande con dos camas dobles y un baño sorprendentemente amplio con ducha separada. La Pilot Edition suma casco gris, volante deportivo, luces subacuáticas y solárium de proa de serie.

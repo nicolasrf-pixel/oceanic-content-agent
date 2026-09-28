@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Más superficie vélica: el mástil enrollador estándar es 60 cm más alto y los mástiles clásico y performance, 30 cm. Es el único 40 pies del mercado con dos interiores: cocina en L o cocina lineal.

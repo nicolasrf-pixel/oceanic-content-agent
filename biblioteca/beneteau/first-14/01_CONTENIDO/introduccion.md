@@ -14,4 +14,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El First 14 acerca los dinghies rápidos y planeadores a quienes empiezan. Es ligero y emocionante, fácil de manejar y de mantener. Arquitectura naval de Samuel Manuard, diseño de Sito y concepto de Seascape.

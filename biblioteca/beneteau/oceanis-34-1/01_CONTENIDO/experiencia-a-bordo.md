@@ -17,4 +17,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior contemporáneo en nogal o roble claro, con cuatro escotillas, cuatro portillos de casco y ventanas largas. Dos o tres camarotes dobles y un baño; la mesa de cartas plegable del salón suma dos literas individuales.

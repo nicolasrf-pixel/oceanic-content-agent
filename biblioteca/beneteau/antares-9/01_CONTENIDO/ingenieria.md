@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco robusto, más ligero y igual de fuerte gracias al moldeo por inyección. Con 500 hp de potencia máxima y depósitos amplios, BENETEAU declara 130 millas de autonomía a velocidad de crucero. Opciones: calefacción, aire acondicionado, generador, baterías de litio y paneles solares.

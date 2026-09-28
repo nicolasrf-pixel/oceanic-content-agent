@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Conducción suave e intuitiva en toda condición. Existe una edición limitada Alpine con mejoras de motor y casco de color.

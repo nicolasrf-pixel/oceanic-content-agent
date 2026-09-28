@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Diseño de vanguardia: las formas de los montantes juegan con la luz y refuerzan su aire contemporáneo. Arriba, una distribución continua con mucha altura libre conserva el espíritu open.

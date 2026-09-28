@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Swift Trawler 43 Fly
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El passagemaker moderno.
+2. Una nueva forma de vivir el crucero.
+3. Autonomía, seguridad y confort a bordo.
+
+**Descripción corta candidata**
+
+> 13,13 m con flybridge en U, guardado para kayaks y paddleboards, cocina ampliada con Corian y tres o cuatro camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

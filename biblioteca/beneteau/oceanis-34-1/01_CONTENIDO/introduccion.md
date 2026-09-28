@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Más estilizado, más ligero, con más superficie vélica y más espacio en proa para el camarote del armador que su predecesor. Marc Lombard y Nauta Design firman este Oceanis de la 7ª generación.

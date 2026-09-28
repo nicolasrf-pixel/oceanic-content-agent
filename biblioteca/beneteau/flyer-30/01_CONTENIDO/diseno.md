@@ -22,4 +22,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Un nuevo lenguaje de diseño para la gama, basado en continuidad, ligereza y elegancia. Líneas fluidas del casco al hardtop, proporciones equilibradas y un efecto de techo flotante que protege sin cerrar el horizonte.

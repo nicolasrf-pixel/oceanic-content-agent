@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Casco planeador ligero pero rígido, ancho y plano, con proa afilada y cantos vivos, construido en sándwich por infusión al vacío. Aparejo de carbono robusto. Dos ranuras de orza para adaptarlo a uno o dos tripulantes.

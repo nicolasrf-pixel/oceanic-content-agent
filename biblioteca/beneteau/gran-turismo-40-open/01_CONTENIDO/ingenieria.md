@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El sistema de estabilización giroscópica Seakeeper 3, opcional, reduce mucho el movimiento al fondeo.

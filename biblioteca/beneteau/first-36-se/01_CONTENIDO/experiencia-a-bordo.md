@@ -9,4 +9,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Mismos tres camarotes, salón y espacios de vida que el First 36, con escalera de bajada y violines de carbono, bolsas de tripulación desmontables y lee cloths para dormir navegando.

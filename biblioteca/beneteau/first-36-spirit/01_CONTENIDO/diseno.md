@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bañera modular: todos los mandos de mayor al alcance del timonel y winche principal intuitivo. Las extensiones de banco y la mesa la convierten en salón de crucero.

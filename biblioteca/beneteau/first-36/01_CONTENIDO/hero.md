@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 36
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El crucero planeador definitivo.
+2. El placer de planear, sin renunciar al confort.
+3. European Yacht of the Year 2023.
+
+**Descripción corta candidata**
+
+> 10,97 m y 4.800 kg de construcción infusionada, con tres camarotes y el volumen de un 40 pies de la generación anterior. Planea desde 14 nudos de viento.
 
 **Imagen hero** (selección final: revisión humana)
 

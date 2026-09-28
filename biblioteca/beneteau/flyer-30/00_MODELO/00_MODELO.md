@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 44% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 58% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Potencia motor máx
 
@@ -32,12 +32,12 @@ Conflictos sin resolver: Potencia motor máx
 | DATOS | especificaciones | PARTIAL | 7 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | PARTIAL | optional.md |
-| EDITORIAL | hero | PARTIAL | 58 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 55 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 297 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 85 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 90 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 58 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 55 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | OK | 297 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | ingenieria | OK | 85 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | experiencia | OK | 90 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 15 en inventario (mín. 3) · descargadas 0/43 |
 | MULTIMEDIA | interior | PARTIAL | 20 en inventario (mín. 2) · descargadas 0/43 |

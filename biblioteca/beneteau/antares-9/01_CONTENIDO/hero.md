@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Antares 9
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. El estándar de oro de los weekenders.
+2. Innovaciones de los modelos mayores en 8 metros.
+3. 130 millas de autonomía a velocidad de crucero.
+
+**Descripción corta candidata**
+
+> 8,23 m con bañera de 1,7 x 2,4 m convertible en U, camarote del armador con cama queen y puerta lateral. Fueraborda de 2 x 250 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

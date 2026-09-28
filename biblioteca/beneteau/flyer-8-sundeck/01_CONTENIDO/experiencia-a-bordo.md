@@ -32,4 +32,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cabina bien ventilada con banco y mesa convertible en cama grande, aseo separado y nevera accesible. La Pilot Edition suma casco gris, volante deportivo, luces subacuáticas y asientos bolster de serie.

@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Interior sereno, con colores y materiales tranquilos y un estudio cuidado de la comodidad. Iluminación, volúmenes, ergonomía y acabados reflejan los más de 140 años de oficio de la marca.

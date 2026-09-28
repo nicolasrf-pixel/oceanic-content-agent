@@ -29,4 +29,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Todo un logro en un casco abierto: una cabina sorprendentemente amplia con dos camas y aseo, para que cuatro personas pasen la noche.

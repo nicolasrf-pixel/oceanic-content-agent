@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Flyer 8 SUNdeck
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Estilo y confort en 8 metros.
+2. Dos soláriums y una cabina confortable.
+3. También en Pilot Edition.
+
+**Descripción corta candidata**
+
+> 8,17 m de Andreani Design con pasillo Smart Walkaround, cabina con cama, aseo separado y nevera, dos soláriums y fueraborda de hasta 350 hp.
 
 **Imagen hero** (selección final: revisión humana)
 

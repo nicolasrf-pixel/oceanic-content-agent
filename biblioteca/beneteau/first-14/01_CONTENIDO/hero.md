@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 14
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. Ligero, rápido y pensado para el regatista.
+2. La puerta de entrada a la vela moderna.
+3. Planeo fácil, sin trapecio.
+
+**Descripción corta candidata**
+
+> Dinghy de 4,3 m y 72 kg para uno o dos tripulantes, con foque enrollable y autovirante. Se lleva en el techo del auto.
 
 **Imagen hero** (selección final: revisión humana)
 

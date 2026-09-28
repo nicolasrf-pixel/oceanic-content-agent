@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** First 53
+- **Marca / origen:** Beneteau · Francia
+
+**Headlines candidatos**
+
+1. 17 metros de pura sensación.
+2. Rendimiento y confort, sin elegir.
+3. El nuevo estándar del crucero rápido de lujo.
+
+**Descripción corta candidata**
+
+> 17,12 m de Biscontini y Lorenzo Argento, con manga de 5 m, calado de 2,5 o 3 m con bulbo de plomo, doble timón y garaje para una auxiliar de 2,40 m.
 
 **Imagen hero** (selección final: revisión humana)
 

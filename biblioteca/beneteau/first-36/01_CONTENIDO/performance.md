@@ -15,4 +15,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Velocidades de dos dígitos fáciles y bajo control. Planea con 14 nudos de viento, con ruedas ligeras y directas incluso en popa rápida y con mucha escora.

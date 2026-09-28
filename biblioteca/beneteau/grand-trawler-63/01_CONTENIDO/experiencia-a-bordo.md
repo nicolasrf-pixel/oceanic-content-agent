@@ -21,4 +21,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Tres o cuatro camarotes, cada uno con baño amplio y acabados elegantes. Cocina central a pocos pasos del puesto de gobierno, el flybridge, el salón y la terraza sobre el mar. Incluye de serie aletas Sleipner, baterías mejoradas y vajilla.
