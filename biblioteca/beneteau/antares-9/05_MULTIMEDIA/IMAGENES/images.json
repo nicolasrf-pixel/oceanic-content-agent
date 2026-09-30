@@ -372,17 +372,7 @@
       "sha256": null,
       "collected_at": "2026-09-27",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF antares-9-exterior-design-04",
-      "original": {
-        "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04_0.jpg",
-        "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04_0.jpg",
-        "sha256": "8c5f34f8fe20a9f4541b3ac46f60338a05de740e099bd49b427ab479d2c7c6a0",
-        "width": 2880,
-        "height": 1572,
-        "format": "jpeg",
-        "bytes": 480366,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "241105-mxhpics-beneteau-d-0021",

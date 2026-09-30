@@ -11,5 +11,122 @@
  "diseno": "Interior de Nauta Design. Versiones de 3 y 4 camarotes.",
  "ingenieria": "Con Seanapps se vigilan a distancia los sistemas principales y se planifican rutas desde el móvil.",
  "experiencia": "Un crucero sencillo, cómodo y elegante, fiel al estilo Lagoon.",
- "performance": "127 m² de vela en ceñida y dos motores de 57 CV de serie, según la ficha oficial."
+ "performance": "127 m² de vela en ceñida y dos motores de 57 CV de serie, según la ficha oficial.",
+ "image_overrides": {
+  "lagoon-46-iconic-profil-intro.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-profil-intro.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-19.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-19.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-18.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-23.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-23.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-20.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-20.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-17.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-17.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-25.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Publicada también en lagoon-51-iconic, pero el nombre de archivo 'lagoon-46-iconic-slider-25.jpg' nombra exactamente este modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-22.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-21_0.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-21_0.jpg' con el nombre del modelo. Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-11.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-26.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-26.jpg' con el nombre del modelo. Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-03.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-24.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-07.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-12.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-01.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-02.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-08.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-slider-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-04.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-46-video-thumbnail.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo; archivo 'catamaran-lagoon-46-video-thumbnail.jpg' con el nombre del modelo. Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Lagoon_46_furling_boom_Vignette.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Publicada también en lagoon-51-iconic, pero el nombre de archivo 'Lagoon_46_furling_boom_Vignette.jpg' nombra exactamente este modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "Lagoon46_NCZ3020_web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon46_NCZ3020_web.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "lagoon-46-iconic-parallax_0.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'lagoon-46-iconic-parallax_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  }
+ }
 }

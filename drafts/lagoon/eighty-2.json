@@ -11,5 +11,342 @@
  "diseno": "Flybridge de más de 50 m² con doble puesto de gobierno y paneles solares, amueblable a gusto del armador. Códigos de villa junto al mar y vista de 360°.",
  "ingenieria": "En popa, la plataforma de baño llega a 22 m² desplegada y está pensada para integrar una auxiliar o una moto de agua. Dos motores John Deere N5 de 230 HP.",
  "experiencia": "Salón con piso a nivel para moverse con libertad. El camarote del armador tiene cama king, vista al mar, terraza privada y zonas de descanso. Versiones de 4 o 5 camarotes, con cocina arriba o abajo.",
- "performance": "La ficha publica dos valores de superficie vélica en ceñida (337 y 338 m²); queda en conflicto hasta confirmarlo con el fabricante."
+ "performance": "La ficha publica dos valores de superficie vélica en ceñida (337 y 338 m²); queda en conflicto hasta confirmarlo con el fabricante.",
+ "image_overrides": {
+  "Lagoon-82-illustration-intro_03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-illustration-intro_03.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-eighty-2-video-cover.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-01.png": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-01.png' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-47.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-21.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-21.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-03.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-48.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-50.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-04.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-46.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-51.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-slider-1920x720-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-05.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-49.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-40.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-43.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-09.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-38.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-45.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-39.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-17.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-44.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-19.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-21.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-26.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-27.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-20.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-31.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-23.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-28.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-25.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-30.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-36.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-32.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-33.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-35.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGTHY-2-INTERIOR-SLIDER-37.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-42.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "lagoon-eighty-2-video-thumbnail.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-highlight-1800x1200-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-highlight-1800x1200-01.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-highlight-1800x1200-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'Lagoon-82-highlight-1800x1200-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-article-candle-light-cannes-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "slider-article-candle-light-cannes-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "slider-article-candle-light-cannes-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "slider-article-candle-light-cannes-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "slider-article-candle-light-cannes-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Lagoon-82-bloc-premium-1920x1280-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Publicada también en sixty-5, pero el nombre de archivo 'Lagoon-82-bloc-premium-1920x1280-03.jpg' nombra exactamente este modelo. Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "LAGOON-EIGHTY-2-VIRTUAL-TOUR-COVER.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  }
+ }
 }

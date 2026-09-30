@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `l55-exterior-1920x720-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_exterior_1920x720_1.jpg' con el nombre del modelo. |
-| 2 | `l55-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_exterior_1920x720_2.jpg' con el nombre del modelo. |
-| 3 | `l55-exterior-1920x720-3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_exterior_1920x720_3.jpg' con el nombre del modelo. |
+| 1 | `l55-ncf3109-web-1-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_NCF3109_web (1)_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 2 | `l55-exterior-1920x720-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_exterior_1920x720_1.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 3 | `l55-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L55_exterior_1920x720_2.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |

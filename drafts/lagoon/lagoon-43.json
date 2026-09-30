@@ -11,5 +11,182 @@
  "diseno": "Estrena un acceso de popa adicional en cada casco, que facilita subir desde el muelle con comodidad y seguridad, integrado en las líneas del barco. Dos ambientes de inspiración mediterránea, Panarea y Sorrento.",
  "ingenieria": "Nueva forma de casco con volúmenes interiores sin igual en su categoría y camarotes con camas más grandes. Seanapps permite vigilar sistemas y planificar rutas desde el móvil.",
  "experiencia": "Espacios modulares que unen salón y bañera: el comedor llega a doce comensales. El camarote del armador admite la cama a proa o a popa. Versiones de 3 o 4 camarotes, con opción de litera Pullman.",
- "performance": "105 m² de vela en ceñida, mayor de 60 m² (68 m² square top) y génova enrollable de 37 m², según la ficha oficial."
+ "performance": "105 m² de vela en ceñida, mayor de 60 m² (68 m² square top) y génova enrollable de 37 m², según la ficha oficial.",
+ "image_overrides": {
+  "intro-lagoon-43-1080x1920.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'intro-lagoon-43-1080x1920.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-03.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-23.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-23.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-06_0.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-06_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-24.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-10_0.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-10_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-25.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-25.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-07.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-04.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-09.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-09.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-22.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-21.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-21.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-05.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-26.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-26.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-08.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-01.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-02.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "slider-catamaran-lagoon-43-carre-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-01.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-catamaran-lagoon-43-carre-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-04.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-catamaran-lagoon-43-carre-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-05.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-catamaran-lagoon-43-carre-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-02.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-catamaran-lagoon-43-carre-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-03.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-20.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-20.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-18.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-17.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-17.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-16.jpg' con el nombre del modelo. Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-12.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-11.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-13.jpg' con el nombre del modelo. Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-15.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "slider-lagoon-43-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo; archivo 'slider-lagoon-43-14.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "highlight-catamaran-lagoon-43-03-adaptable-living-area.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-03-adaptable-living-area.jpg' con el nombre del modelo. Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "parallax-lagoon-43-1920x1200.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'parallax-lagoon-43-1920x1200.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30)."
+  }
+ }
 }

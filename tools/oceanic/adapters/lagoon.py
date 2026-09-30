@@ -108,8 +108,9 @@ def extract(raw_html: str, url: str, accessed_at: str) -> dict:
                 continue
             else:
                 src = el.get("src") or ""
-                if section == "highlight":
-                    add(_img(el, "highlight", title))
+                if section == "highlight" or (el.get("alt") and el.get("width") == "1440"):
+                    # the highlight image precedes its <h3>; its alt text carries the highlight title
+                    add(_img(el, "highlight", el.get("alt") or title))
                 elif "cover" in src.rsplit("/", 1)[-1].lower() and not any(i["role"] == "hero" for i in out["images"]) \
                         and "video" not in src.lower():
                     add(_img(el, "hero", "hero", "hero"))

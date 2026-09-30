@@ -624,17 +624,7 @@
       "sha256": null,
       "collected_at": "2026-09-27",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF oceanis-52-interior-4",
-      "original": {
-        "url": "https://www.beneteau.com/sites/default/files/2025-11/oceanis-52-interior-4_0.jpg",
-        "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/oceanis-52-interior-4_0.jpg",
-        "sha256": "13d99750fb017407ef380e0e52a9b44c81e58bb69628ca465dd4cb51199e4f2f",
-        "width": 2880,
-        "height": 1572,
-        "format": "jpeg",
-        "bytes": 475399,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "oceanis-52-interior-5",

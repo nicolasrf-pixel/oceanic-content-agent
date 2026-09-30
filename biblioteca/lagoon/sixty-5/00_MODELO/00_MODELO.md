@@ -17,12 +17,12 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/lagoon.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 48 del modelo, 0 de otro modelo (excluidas), 1 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 48 del modelo, 1 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 64% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 75% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -37,10 +37,10 @@
 | EDITORIAL | ingenieria | OK | 61 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 5 en inventario (mín. 3) · descargadas 0/48 |
-| MULTIMEDIA | interior | PARTIAL | 11 en inventario (mín. 2) · descargadas 0/48 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/48 |
+| MULTIMEDIA | hero_image | OK | 2 candidatas |
+| MULTIMEDIA | exterior | PARTIAL | 2 en inventario (mín. 3) · descargadas 48/48 |
+| MULTIMEDIA | interior | OK | 11 en inventario (mín. 2) · descargadas 48/48 |
+| MULTIMEDIA | detail | OK | 4 en inventario (mín. 2) · descargadas 48/48 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

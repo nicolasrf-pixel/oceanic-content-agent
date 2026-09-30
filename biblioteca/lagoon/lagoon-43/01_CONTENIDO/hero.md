@@ -29,4 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway.jpg' con el nombre del modelo. |
+| 1 | `slider-lagoon-43-06-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-06_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 2 | `slider-lagoon-43-24` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-24.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 3 | `slider-lagoon-43-10-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-10_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |

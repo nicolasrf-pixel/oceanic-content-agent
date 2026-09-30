@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 58,
+  "completeness_pct": 75,
   "critical_missing": [],
   "unresolved_conflicts": [],
   "items": {
@@ -56,23 +56,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "1 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "1 en inventario (mín. 3) · descargadas 0/22"
+      "status": "OK",
+      "detail": "6 en inventario (mín. 3) · descargadas 22/22"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/22"
+      "status": "OK",
+      "detail": "8 en inventario (mín. 2) · descargadas 22/22"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/22"
+      "status": "OK",
+      "detail": "2 en inventario (mín. 2) · descargadas 22/22"
     },
     "video": {
       "group": "MULTIMEDIA",

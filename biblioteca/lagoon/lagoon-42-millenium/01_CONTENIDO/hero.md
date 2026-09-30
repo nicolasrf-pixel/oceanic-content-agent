@@ -29,4 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `lag42m-dji-0787` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). |
+| 1 | `l42-millenium-ext-1920x1280-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x1280-2.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 2 | `l42-millenium-ext-1920x720-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x720-1.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 3 | `l42-millenium-ext-1920x1280-3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x1280-3.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |

@@ -1,10 +1,7 @@
 {
-  "CONTENT_STATUS": "RED",
-  "completeness_pct": 56,
-  "critical_missing": [
-    "hero_image",
-    "exterior"
-  ],
+  "CONTENT_STATUS": "YELLOW",
+  "completeness_pct": 75,
+  "critical_missing": [],
   "unresolved_conflicts": [
     "Superficie vélica"
   ],
@@ -61,23 +58,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "sin HERO_CANDIDATE"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 3) · descargadas 0/64"
+      "status": "OK",
+      "detail": "17 en inventario (mín. 3) · descargadas 77/77"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "48 en inventario (mín. 2) · descargadas 0/64"
+      "status": "OK",
+      "detail": "28 en inventario (mín. 2) · descargadas 77/77"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/64"
+      "status": "OK",
+      "detail": "8 en inventario (mín. 2) · descargadas 77/77"
     },
     "video": {
       "group": "MULTIMEDIA",

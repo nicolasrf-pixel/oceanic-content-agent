@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `lagoon-60-slider-09-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-09-1920x720_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 2 | `lagoon-60-slider-27-1920x1280` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-27-1920x1280.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 3 | `lagoon-60-slider-15-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-15-1920x720_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |

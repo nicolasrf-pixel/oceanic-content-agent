@@ -110,7 +110,8 @@ literales de la página.
 produce el mismo extract que Beneteau y `builders/lagoon.py` reutiliza el builder de Beneteau con su propia `CFG`
 (mismo grupo). Tipo `catamaran_vela`. La ficha técnica es completa (superficie vélica de ceñida, motorización estándar,
 depósitos, CE, literas); camarotes y baños salen de las pestañas "Versions" (en el payload Nuxt). Si un campo aparece
-dos veces en la ficha con valores distintos → `CONFLICT`. La galería no trae categorías: se clasifican a la vista.
+dos veces en la ficha con valores distintos → `CONFLICT`. La galería no trae categorías: se clasifican a la vista (hojas de contacto) y quedan en
+`drafts/lagoon/<slug>.json › image_overrides`. Los buques insignia se nombran en palabras (SIXTY 5 = 65, EIGHTY 2 = 82).
 El brochure se pide por formulario (sin enlace directo). Las citas de prensa van a `excluded_sources`.
 
 `check` debe terminar sin errores antes de hacer commit.

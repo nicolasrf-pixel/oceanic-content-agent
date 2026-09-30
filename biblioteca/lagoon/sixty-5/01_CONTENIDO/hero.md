@@ -29,6 +29,5 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `navigation-helico-ncz9704-500-300dpi-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). |
-| 2 | `navigation-helico-ncz9658-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). |
-| 3 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). |
+| 1 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 2 | `s5-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30). |

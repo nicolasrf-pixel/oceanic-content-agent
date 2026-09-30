@@ -11,5 +11,197 @@
  "diseno": "Diseño armónico entre exterior e interior, con múltiples configuraciones sin concesiones: solárium, muebles sueltos opcionales y distintas mesas.",
  "ingenieria": "El puesto de gobierno del flybridge está bien situado y equipado con la última tecnología. Motorización estándar de 195 CV y opción de 2 x 195 CV.",
  "experiencia": "Carpintería y tapicería con acabados elegantes y refinados. Versiones de 4 o 6 camarotes.",
- "performance": "272 m² de vela en ceñida, según la ficha oficial."
+ "performance": "272 m² de vela en ceñida, según la ficha oficial.",
+ "image_overrides": {
+  "Navigation_helico_NCZ9861%20%283%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Navigation_helico_NCZ9704_500-300dpi%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "Navigation_helico_NCZ9658%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "S5_exterior_1920x720_4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30)."
+  },
+  "S5_exterior_1920x720_2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "Pont_et_Fly_Lifestyle_NCZ8420%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30)."
+  },
+  "Pont_et_Fly_Lifestyle_NCK4385%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "Pont_et_Fly_Lifestyle_NCZ8979%20%282%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "Pont_et_Fly_Lifestyle_NCZ8969%20%281%29_1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "Cockpit_AR_NCZ10625%20%281%29_1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "cockpit_Lifestyle__NCZ10750%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "_NCZ0149-HDR_web%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "Carre_NCZ10760_web%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-sixty-5-galley-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-sixty-5-galley-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "carre%E2%95%A0%C3%BC_Lifestyle__NCK5247%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-sixty-5-galley.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "Cuisine__NCZ6774-HDR%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "Cuisine_Lifestyle_NCZ9083%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "_NCZ0029-HDR%20%282%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "Cab_prop_Lifestyle_NCK4782%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "Cabines__NCZ7903-Panorama%20%281%29_1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "Cab_prop_Lifestyle_NCK4874%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-sixty-5-cabin_0.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "Cabines__NCZ7819-Panorama%20%282%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_4.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_5_0.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría COCKPIT por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_6.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_8.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_3.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_1.webp": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "Sixty_5_custom_2.webp": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría DETAIL por revisión visual (2026-09-30)."
+  },
+  "9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30)."
+  },
+  "Pont_et_Fly_Lifestyle_NCZ8086%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'CLEVERLY ADAPTED SPACE'). Categoría HELM por revisión visual (2026-09-30)."
+  },
+  "catamaran-lagoon-sixty-5-highlight-lifestyle.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'CHARM & ALLURE '). Categoría INTERIOR por revisión visual (2026-09-30)."
+  },
+  "SIXTY%205%20cabine%20proprie%CC%81taire%20%282%29.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Pictures & videos'). Categoría CABIN por revisión visual (2026-09-30)."
+  }
+ }
 }

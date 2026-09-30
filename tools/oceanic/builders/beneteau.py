@@ -88,6 +88,11 @@ VARIANT_WORDS = ("sedan", "fly", "coupe", "open", "fishing", "sundeck", "spacede
 
 def _model_tokens(name: str) -> dict:
     low = name.lower()
+    # Lagoon names its flagships in words: "SIXTY 5" = Lagoon 65 in file names ("Lagoon-82-...").
+    words = {"fifty": 5, "sixty": 6, "seventy": 7, "eighty": 8}
+    m = re.match(r"(fifty|sixty|seventy|eighty)\s*(\d)\b", low)
+    if m:
+        low = f"lagoon {words[m.group(1)]}{m.group(2)}"
     rng = next((r for r in RANGE_ALIASES if low.startswith(r)), low.split()[0])
     size = re.search(r"(\d+)(?:\.(\d))?", low)
     variants = [w for w in VARIANT_WORDS if re.search(rf"\b{w.replace('-', '[ -]')}\b", low)]
@@ -587,12 +592,15 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
         fm = _file_model(im["file_name"])
         known = fm and (fm[0], fm[1]) in _CORPUS.get("models", set())
         exact = bool(fm and fm[1] == own["size"] and sorted(fm[2]) == sorted(own["variants"]))
-        if re.search(r"connected boat|partner", im["section_title"] or "", re.I) or \
-                re.search(r"(^|[-_])logo[-_]", im["file_name"], re.I):
+        if re.search(r"connected boat|partner|smart boat", im["section_title"] or "", re.I) or \
+                re.search(r"(^|[-_])logo[-_]|seanapps", im["file_name"], re.I):
             scope, ev = "NOT_MODEL_SPECIFIC", "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco."
         elif others and exact:
             scope, ev = "THIS_MODEL", (f"Publicada también en {', '.join(others)}, pero el nombre de archivo "
                                        f"'{im['file_name']}' nombra exactamente este modelo.")
+        elif others and fm and known and (fm[0], fm[1]) != (own["range"], own["size"]):
+            scope, ev = "OTHER_MODEL", (f"Publicada también en {', '.join(others)} y el nombre de archivo "
+                                        f"'{im['file_name']}' nombra otro modelo.")
         elif others and all(_sister(o, own) for o in others):
             scope, ev = "THIS_MODEL", (f"En la galería oficial del modelo y también en la variante hermana "
                                        f"{', '.join(others)} (mismo casco): decisión Oceanic, se acepta en ambas.")
