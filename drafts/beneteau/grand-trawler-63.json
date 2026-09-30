@@ -11,5 +11,11 @@
  "diseno": "Casco de desplazamiento completo y líneas estilizadas de presencia atemporal. Puesto de gobierno rediseñado, inspirado en el Swift Trawler 54, con pantallas MFD flotantes y dirección eléctrica Xenta.",
  "ingenieria": "Casco desarrollado con MICAD Naval Architects: hasta 1.000 millas a 9 nudos con 10 % de reserva, según BENETEAU. Doble motor MAN con ejes en línea y aletas estabilizadoras Sleipner de serie. Silent Boat Pack opcional y amplio insonorizado.",
  "experiencia": "Tres o cuatro camarotes, cada uno con baño amplio y acabados elegantes. Cocina central a pocos pasos del puesto de gobierno, el flybridge, el salón y la terraza sobre el mar. Incluye de serie aletas Sleipner, baterías mejoradas y vajilla.",
- "performance": "Estabilidad en navegación y al fondeo gracias a las aletas Sleipner, y un ambiente muy silencioso."
+ "performance": "Estabilidad en navegación y al fondeo gracias a las aletas Sleipner, y un ambiente muy silencioso.",
+ "image_overrides": {
+  "grand-trawler-62": {
+   "scope": "THIS_MODEL",
+   "evidence": "Planos publicados en las pestañas Layouts de la página del Grand Trawler 63 (flybridge, 3 y 4 camarotes). No existe un Grand Trawler 62 en la web actual; el nombre del archivo es anterior. Revisión visual 2026-09-30."
+  }
+ }
 }

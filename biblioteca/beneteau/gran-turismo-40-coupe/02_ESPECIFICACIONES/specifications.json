@@ -29,6 +29,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Coupe",
+          "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "12.53 m",
+          "source_unit": "m",
+          "normalized_value": 12.53,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 41'1\" (coherente)."
@@ -89,6 +102,20 @@
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Coupe",
+          "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "8600 kg",
+          "source_unit": "kg",
+          "normalized_value": 8600.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         }
       ],
       "notes": "Valor imperial publicado: 18,954 lbs (coherente)."
@@ -119,6 +146,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Coupe",
+          "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Capacity",
+          "source_value": "2x435 (IB) / 2x600 (OB) L",
+          "source_unit": "l",
+          "normalized_value": 600.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 2x115 (IB) / 2x159 (OB) US Gal (coherente)."
@@ -141,6 +181,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Coupe",
+          "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water Capacity",
+          "source_value": "255 L",
+          "source_unit": "l",
+          "normalized_value": 255.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 67 US Gal (coherente)."

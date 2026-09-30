@@ -9,7 +9,7 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 40 Open** · Configurac
 | Campo | Valor | Estado |
 | --- | --- | --- |
 | Eslora Total | 12,3 m | VERIFIED |
-| Manga Casco | REQUIRES REVIEW: 10,86 m | REQUIRES_REVIEW |
+| Manga Casco | CONFLICT: 10.86 m (S1) / 3.7 m (S3) | CONFLICT |
 | Desplazamiento en rosca | 9.041 kg | VERIFIED |
 | Camarotes | - | NOT_FOUND |
 | Capacidad Combustible | - | NOT_FOUND |
@@ -36,4 +36,4 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 40 Open** · Configurac
 
 ## Pendiente de decisión humana
 
-- **Manga Casco** (REQUIRES_REVIEW): Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web.
+- **Manga Casco** (CONFLICT): Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web. La versión EE. UU. de la página (S3) publica '3.7 m'.

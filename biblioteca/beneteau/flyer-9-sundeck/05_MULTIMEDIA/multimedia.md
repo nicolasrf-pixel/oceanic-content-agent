@@ -44,11 +44,11 @@
 | [`flyer-9-sundeck-top`](https://www.beneteau.com/sites/default/files/styles/wide/public/flyer-9-sundeck-top.jpg.webp?itok=1akdV9uW) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Deckplan'). |
 | [`flyer-9-sundeck-interior`](https://www.beneteau.com/sites/default/files/styles/wide/public/flyer-9-sundeck-interior.jpg.webp?itok=i7Btps8i) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Cabin'). |
 
-## REQUIRES REVIEW: modelo no confirmado (1)
+## Excluidas: no son del barco (1)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`logo-flyer-pilot-edition-petit`](https://www.beneteau.com/sites/default/files/inline-images/logo-flyer-pilot-edition-petit.jpg) | HELM | media |  | 300x170 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: flyer-10, flyer-10-sport-top, flyer-7-spacedeck, flyer-7-sundeck, flyer-8-spacedeck, flyer-8-sundeck, flyer-9-spacedeck. |
+| [`logo-flyer-pilot-edition-petit`](https://www.beneteau.com/sites/default/files/inline-images/logo-flyer-pilot-edition-petit.jpg) | HELM | media |  | 300x170 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
 
 ## Videos (1)
 

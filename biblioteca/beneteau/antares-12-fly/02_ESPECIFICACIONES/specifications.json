@@ -29,6 +29,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "12.97 m",
+          "source_unit": "m",
+          "normalized_value": 12.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 42'7\" (coherente)."
@@ -52,6 +65,20 @@
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "3.78 m",
+          "source_unit": "m",
+          "normalized_value": 3.78,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
       "notes": "Valor imperial publicado: 12'5'' (coherente)."
@@ -74,6 +101,20 @@
           "normalized_unit": "kg",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "9111 kg",
+          "source_unit": "kg",
+          "normalized_value": 9111.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         }
       ],
@@ -119,6 +160,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Capacity",
+          "source_value": "1174 L",
+          "source_unit": "l",
+          "normalized_value": 1174.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 310 US Gal (coherente)."
@@ -198,6 +252,19 @@
           "normalized_unit": "hp",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max. engine power",
+          "source_value": "900 HP",
+          "source_unit": null,
+          "normalized_value": 900.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": ""
@@ -220,6 +287,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Antares 12 Fly",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
+          "source_field": "Bridge Clearance",
+          "source_value": "4.9 m",
+          "source_unit": "m",
+          "normalized_value": 4.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 16'1'' (coherente)."

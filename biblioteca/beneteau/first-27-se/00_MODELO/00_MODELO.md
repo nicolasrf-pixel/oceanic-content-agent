@@ -24,7 +24,6 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 86% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Altura sobre línea de flotación
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
@@ -62,7 +61,6 @@ Conflictos sin resolver: Altura sobre línea de flotación
 - **Capacidad Combustible** (NOT_FOUND): No publicado en el bloque técnico ni en el texto de la página.
 - **Capacidad Agua Dulce** (NOT_FOUND): No publicado en el bloque técnico ni en el texto de la página.
 - **Superficie vélica** (NOT_FOUND): Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos.
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '12.2 m' y '40’’' (≈ 1,02 m): no coinciden. Decidir con el fabricante.
 - Equipamiento: la web no publica lista standard ni optional; ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).
 - Traducción al español del equipamiento: pendiente.
 - Manual del propietario: identificar en el Help Center oficial (help.beneteau.com).

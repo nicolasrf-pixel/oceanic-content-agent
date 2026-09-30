@@ -35,6 +35,7 @@
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
+      "bytes": 183810,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-spacedeck-header_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-spacedeck-header_0.jpg",
@@ -45,7 +46,6 @@
         "bytes": 456146,
         "full_resolution": true
       },
-      "bytes": 183810,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-spacedeck-header_0.jpg"
     },
     {
@@ -78,6 +78,7 @@
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
+      "bytes": 151186,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_header.jpg",
@@ -88,7 +89,6 @@
         "bytes": 470848,
         "full_resolution": true
       },
-      "bytes": 151186,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_header.jpg"
     },
     {
@@ -121,6 +121,7 @@
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
+      "bytes": 165600,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext5.jpg",
@@ -131,7 +132,6 @@
         "bytes": 505508,
         "full_resolution": true
       },
-      "bytes": 165600,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext5.jpg"
     },
     {
@@ -163,6 +163,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 226500,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext3.jpg",
@@ -173,15 +174,14 @@
         "bytes": 678164,
         "full_resolution": true
       },
-      "bytes": 226500,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_ext3.jpg"
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
       "title": "logo-flyer-pilot-edition-petit",
       "category": "HELM",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: flyer-10, flyer-10-sport-top, flyer-7-sundeck, flyer-8-spacedeck, flyer-8-sundeck, flyer-9-spacedeck, flyer-9-sundeck.",
+      "scope": "NOT_MODEL_SPECIFIC",
+      "scope_evidence": "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -204,7 +204,7 @@
       "sha256": null,
       "collected_at": "2026-09-27",
       "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC)"
     },
     {
       "id": "flyer7spacedeck-drivingsensations",
@@ -235,6 +235,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 167716,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_drivingsensations_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_drivingsensations_.jpg",
@@ -245,7 +246,6 @@
         "bytes": 612905,
         "full_resolution": true
       },
-      "bytes": 167716,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7spacedeck_drivingsensations_.jpg"
     },
     {
@@ -277,6 +277,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 81224,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp2-carre.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp2-carre.jpg",
@@ -287,7 +288,6 @@
         "bytes": 158812,
         "full_resolution": true
       },
-      "bytes": 81224,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp2-carre.jpg"
     },
     {
@@ -319,6 +319,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 72630,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp3-bain-soleil.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp3-bain-soleil.jpg",
@@ -329,7 +330,6 @@
         "bytes": 144737,
         "full_resolution": true
       },
-      "bytes": 72630,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer-7-spacedeck-usp3-bain-soleil.jpg"
     },
     {
@@ -367,7 +367,7 @@
       "title": "logo-seanapps2.jpg",
       "category": "OTHER",
       "scope": "NOT_MODEL_SPECIFIC",
-      "scope_evidence": "Bloque genérico de la marca (Seanapps / socios), no es el barco.",
+      "scope_evidence": "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco.",
       "category_confidence": "baja",
       "hero_candidate": false,
       "hero_reason": null,
@@ -421,6 +421,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 7922,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_STD.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_STD.png",
@@ -431,7 +432,6 @@
         "bytes": 40923,
         "full_resolution": true
       },
-      "bytes": 7922,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_STD.png"
     },
     {
@@ -463,6 +463,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 9094,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_TTOP.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_TTOP.png",
@@ -473,7 +474,6 @@
         "bytes": 46213,
         "full_resolution": true
       },
-      "bytes": 9094,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SPACE_TTOP.png"
     },
     {
@@ -505,6 +505,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 4186,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-spacedeck-gris-perle.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-spacedeck-gris-perle.jpg",
@@ -515,7 +516,6 @@
         "bytes": 23823,
         "full_resolution": true
       },
-      "bytes": 4186,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-spacedeck-gris-perle.jpg"
     },
     {
@@ -547,6 +547,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 18994,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-STD.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-STD.png",
@@ -557,7 +558,6 @@
         "bytes": 156021,
         "full_resolution": true
       },
-      "bytes": 18994,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-STD.png"
     },
     {
@@ -589,6 +589,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 20188,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-Elegance.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-Elegance.png",
@@ -599,7 +600,6 @@
         "bytes": 164630,
         "full_resolution": true
       },
-      "bytes": 20188,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/plan-Flyer7SPACE-Elegance.png"
     }
   ]

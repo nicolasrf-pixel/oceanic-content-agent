@@ -72,14 +72,15 @@ Valor Oceanic: **-**
 
 Nota: El bloque técnico no publica 'Max. engine power'.
 
-## Altura sobre línea de flotación · `altura_linea_flotacion` · CONFLICT
+## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
+
+Valor Oceanic: **6,1 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/first/first-14) Web oficial · First 14 | Specifications (bloque técnico) | Air Draught Max | 6.1 m | m | 6.1 m | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/first/first-14) Web oficial · First 14 | Specifications (bloque técnico) | Air Draught Max | 20’’ | imperial | 0.51 m | literal | NO DECLARADO | 2026-09-27 |
 
-Nota: El bloque técnico publica '6.1 m' y '20’’' (≈ 0,51 m): no coinciden. Decidir con el fabricante.
+Nota: Valor imperial publicado '20’’' con el símbolo mal escrito: corresponde a 20' (≈ 6,10 m), coherente con el métrico.
 
 ## Arquitectura naval · `arquitecto_naval` · VERIFIED
 

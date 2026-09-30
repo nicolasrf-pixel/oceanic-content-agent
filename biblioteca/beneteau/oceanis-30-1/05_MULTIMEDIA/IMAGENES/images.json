@@ -35,6 +35,7 @@
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
+      "bytes": 508818,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg",
@@ -45,18 +46,17 @@
         "bytes": 490020,
         "full_resolution": true
       },
-      "bytes": 508818,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg"
     },
     {
       "id": "oceanis-31-1-navigation0-2",
       "title": "oceanis-31.1_navigation0_2.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation0_2.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "source_url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
       "cdn_url": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation0_2.jpg.webp?itok=s4s-QaPn",
       "source_page": "https://www.beneteau.com/oceanis/oceanis-301",
@@ -69,24 +69,37 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation0-2.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "dfb85768ea20742005ba30f6216a0bd866f39e2e7d3acfd7308be505c6a25d1b",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "hero_rank": 2,
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
+        "sha256": "5a08fcb6b90db6df5ab036dcd499603fc93f6a3d05aca58e5fff7c5b575facad",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 2234412,
+        "full_resolution": true
+      },
+      "bytes": 492932,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg"
     },
     {
       "id": "oceanis-31-1-navigation01",
       "title": "oceanis-31.1_navigation01.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation01.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "source_url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
       "cdn_url": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation01.jpg.webp?itok=u85j-TPJ",
       "source_page": "https://www.beneteau.com/oceanis/oceanis-301",
@@ -99,21 +112,34 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation01.webp",
+      "width": 1832,
+      "height": 999,
+      "format": "webp",
+      "sha256": "ea5699761cc6707cb5be60586f68f1aedafd991f6237750253275225ac02e623",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "hero_rank": 3,
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
+        "sha256": "2deea0c2a57fe44f190a3f9944768b6273f0c8dd13d48824f3003f56d8da0be5",
+        "width": 1832,
+        "height": 999,
+        "format": "jpeg",
+        "bytes": 1269444,
+        "full_resolution": true
+      },
+      "bytes": 244530,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg"
     },
     {
       "id": "oceanis-31-1-navigation2",
       "title": "oceanis-31.1_navigation2.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation2.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -129,21 +155,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation2.webp",
+      "width": 1800,
+      "height": 1200,
+      "format": "webp",
+      "sha256": "d6ff4ae629d378821748c8dab8cf2a6bfa7dca59cb6f298011f671ed669b6a93",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg",
+        "sha256": "6eef31494a6af8406d926189d422f605d5f381ded728dfaaab49aa8b2e3d2b1d",
+        "width": 1800,
+        "height": 1200,
+        "format": "jpeg",
+        "bytes": 486134,
+        "full_resolution": true
+      },
+      "bytes": 396852,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg"
     },
     {
       "id": "oceanis-31-1-navigation03",
       "title": "oceanis-31.1_navigation03.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation03.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -159,21 +197,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation03.webp",
+      "width": 1832,
+      "height": 999,
+      "format": "webp",
+      "sha256": "c10477978ba37eeef0d845f4a964f002a0170b36b8ae42638c9aa68c1198966e",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg",
+        "sha256": "ff6ba2cbdd4f15c8280561369265a42f0c17d3f5eeef5c612a9a94e94145ef69",
+        "width": 1832,
+        "height": 999,
+        "format": "jpeg",
+        "bytes": 1170474,
+        "full_resolution": true
+      },
+      "bytes": 237650,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg"
     },
     {
       "id": "oceanis-31-1-navigation05",
       "title": "oceanis-31.1_navigation05.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation05.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -189,21 +239,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation05.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "559f0edad8df900e1bd93500d3d1f85d69fe6fe4c5bfd1953b6c4675c1b67cd6",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg",
+        "sha256": "c7e77daef2b34907e87f2e766daebe6bd86e1afb0a53e402e45003853ebe4057",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 901740,
+        "full_resolution": true
+      },
+      "bytes": 141098,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg"
     },
     {
       "id": "oceanis-31-1-cockpit",
       "title": "oceanis-31.1_cockpit.jpg",
       "category": "COCKPIT",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_cockpit.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -219,21 +281,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/oceanis-31-1-cockpit.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "e26ca9daec8101e3b221ae77112198e97d0d071bd5044340404354eec13ad836",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg",
+        "sha256": "fbefbf7c27c829bc2a73aa5896fbb91dea56daf8e9dd95739fd8d8c250083661",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 1325214,
+        "full_resolution": true
+      },
+      "bytes": 233408,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg"
     },
     {
       "id": "oceanis-31-1-navigation06-0",
       "title": "oceanis-31.1_navigation06_0.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation06_0.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -249,21 +323,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation06-0.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "dc48afb6a0c60ddc590323409f684386aafc7d3cf3d7ceed0bdba550c9545ed2",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg",
+        "sha256": "b7e9ea7477004037957567344e69d5e4f6543097481dde47f217c701c7e9c58a",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 1555072,
+        "full_resolution": true
+      },
+      "bytes": 292338,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg"
     },
     {
       "id": "oceanis-31-1-navigation08",
       "title": "oceanis-31.1_navigation08.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation08.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -279,21 +365,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation08.webp",
+      "width": 1800,
+      "height": 983,
+      "format": "webp",
+      "sha256": "c4c5b9202fc1b4a19aa080df1f4a28bc43d848cd7ff3b96acc7451943bb021ec",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg",
+        "sha256": "1f7db07b756eb31b39e042ca162ccb7e33ac7d909ee2de4d144bb7228a025ab2",
+        "width": 1800,
+        "height": 983,
+        "format": "jpeg",
+        "bytes": 1206251,
+        "full_resolution": true
+      },
+      "bytes": 318506,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg"
     },
     {
       "id": "oceanis-31-1-navigation09",
       "title": "oceanis-31.1_navigation09.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation09.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -309,21 +407,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation09.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "043a9385314805df8c487d9d7ff061f2748b20e8d38c9b4ebd7567ccf7b14ec3",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg",
+        "sha256": "a1d34157998f16b15f04a03e75201590e7e6aabce934f1e1b4e9c1b2bc8f6c8f",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 710449,
+        "full_resolution": true
+      },
+      "bytes": 96682,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg"
     },
     {
       "id": "oceanis-31-1-transport",
       "title": "oceanis-31.1_transport.jpg",
       "category": "EXTERIOR",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_transport.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -339,21 +449,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanis-31-1-transport.webp",
+      "width": 1832,
+      "height": 999,
+      "format": "webp",
+      "sha256": "84ba191656a884b4bc95edd605ac1344abe47ac7d5f4dfd3dd51ba42ae5f9ce5",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg",
+        "sha256": "3fa1b322dfeea2d745a998ec63de00b7bb0883cbe8af0997d99e9635aae40d24",
+        "width": 1832,
+        "height": 999,
+        "format": "jpeg",
+        "bytes": 1168663,
+        "full_resolution": true
+      },
+      "bytes": 228216,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg"
     },
     {
       "id": "oceanis-31-1-navigation05bis",
       "title": "oceanis-31.1_navigation05bis.jpg",
       "category": "UNDERWAY",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "El nombre de archivo 'oceanis-31.1_navigation05bis.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -369,14 +491,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation05bis.webp",
+      "width": 1832,
+      "height": 1000,
+      "format": "webp",
+      "sha256": "73157cc3fb2f5a5d08024356bd595c1f7d0f67b49b369c5a600508d6fa36e1aa",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg",
+        "sha256": "0817de3758010c9bfd3a2c70393486447721122ed180d3117680e4aed8f9da2d",
+        "width": 1832,
+        "height": 1000,
+        "format": "jpeg",
+        "bytes": 1550298,
+        "full_resolution": true
+      },
+      "bytes": 288644,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg"
     },
     {
       "id": "int2-oceanis30-1",
@@ -407,6 +541,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 157620,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg",
@@ -417,7 +552,6 @@
         "bytes": 842887,
         "full_resolution": true
       },
-      "bytes": 157620,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg"
     },
     {
@@ -449,6 +583,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 153610,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg",
@@ -459,7 +594,6 @@
         "bytes": 802738,
         "full_resolution": true
       },
-      "bytes": 153610,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg"
     },
     {
@@ -491,6 +625,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 81456,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg",
@@ -501,7 +636,6 @@
         "bytes": 668694,
         "full_resolution": true
       },
-      "bytes": 81456,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg"
     },
     {
@@ -533,6 +667,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 82984,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg",
@@ -543,7 +678,6 @@
         "bytes": 547185,
         "full_resolution": true
       },
-      "bytes": 82984,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg"
     },
     {
@@ -575,6 +709,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 145218,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg",
@@ -585,7 +720,6 @@
         "bytes": 797234,
         "full_resolution": true
       },
-      "bytes": 145218,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg"
     },
     {
@@ -617,6 +751,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 112904,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg",
@@ -627,7 +762,6 @@
         "bytes": 686711,
         "full_resolution": true
       },
-      "bytes": 112904,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg"
     },
     {
@@ -659,6 +793,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 93538,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg",
@@ -669,7 +804,6 @@
         "bytes": 133886,
         "full_resolution": true
       },
-      "bytes": 93538,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg"
     },
     {
@@ -701,6 +835,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 55962,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg",
@@ -711,7 +846,6 @@
         "bytes": 111497,
         "full_resolution": true
       },
-      "bytes": 55962,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg"
     },
     {
@@ -749,7 +883,7 @@
       "title": "logo-seanapps2.jpg",
       "category": "OTHER",
       "scope": "NOT_MODEL_SPECIFIC",
-      "scope_evidence": "Bloque genérico de la marca (Seanapps / socios), no es el barco.",
+      "scope_evidence": "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco.",
       "category_confidence": "baja",
       "hero_candidate": false,
       "hero_reason": null,
@@ -803,6 +937,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 32748,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg",
@@ -813,7 +948,6 @@
         "bytes": 76558,
         "full_resolution": true
       },
-      "bytes": 32748,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg"
     },
     {
@@ -845,6 +979,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 37222,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg",
@@ -855,7 +990,6 @@
         "bytes": 85277,
         "full_resolution": true
       },
-      "bytes": 37222,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg"
     },
     {
@@ -887,6 +1021,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 36748,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg",
@@ -897,7 +1032,6 @@
         "bytes": 84287,
         "full_resolution": true
       },
-      "bytes": 36748,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg"
     },
     {
@@ -929,6 +1063,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 36268,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg",
@@ -939,7 +1074,6 @@
         "bytes": 81778,
         "full_resolution": true
       },
-      "bytes": 36268,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg"
     },
     {
@@ -971,6 +1105,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 3156,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg",
@@ -981,7 +1116,6 @@
         "bytes": 8365,
         "full_resolution": true
       },
-      "bytes": 3156,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg"
     },
     {
@@ -1013,6 +1147,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 2802,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg",
@@ -1023,7 +1158,6 @@
         "bytes": 7947,
         "full_resolution": true
       },
-      "bytes": 2802,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg"
     },
     {
@@ -1055,6 +1189,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 3186,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg",
@@ -1065,7 +1200,6 @@
         "bytes": 8480,
         "full_resolution": true
       },
-      "bytes": 3186,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg"
     },
     {
@@ -1097,6 +1231,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 26408,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png",
@@ -1107,7 +1242,6 @@
         "bytes": 232133,
         "full_resolution": true
       },
-      "bytes": 26408,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png"
     },
     {
@@ -1139,6 +1273,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 21962,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png",
@@ -1149,7 +1284,6 @@
         "bytes": 179960,
         "full_resolution": true
       },
-      "bytes": 21962,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png"
     }
   ]

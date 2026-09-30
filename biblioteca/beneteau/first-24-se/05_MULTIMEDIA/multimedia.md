@@ -38,4 +38,4 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Bloque genérico de la marca (Seanapps / socios), no es el barco. |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |

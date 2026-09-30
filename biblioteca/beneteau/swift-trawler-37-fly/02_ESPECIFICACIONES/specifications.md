@@ -76,14 +76,15 @@ Valor Oceanic: **440 hp**
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/swift-trawler/swift-trawler-37-fly) Web oficial · Swift Trawler 37 Fly | Specifications (bloque técnico) | Max. engine power | 440 HP |  | 440.0 hp | literal | NO DECLARADO | 2026-09-27 |
 
-## Altura sobre línea de flotación · `altura_linea_flotacion` · CONFLICT
+## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
+
+Valor Oceanic: **4,97 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/swift-trawler/swift-trawler-37-fly) Web oficial · Swift Trawler 37 Fly | Specifications (bloque técnico) | Air Draught Max | 4.97 m | m | 4.97 m | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/swift-trawler/swift-trawler-37-fly) Web oficial · Swift Trawler 37 Fly | Specifications (bloque técnico) | Air Draught Max | 16,4" | imperial | 0.42 m | literal | NO DECLARADO | 2026-09-27 |
 
-Nota: El bloque técnico publica '4.97 m' y '16,4"' (≈ 0,42 m): no coinciden. Decidir con el fabricante.
+Nota: Valor imperial publicado '16,4"' con el símbolo mal escrito: corresponde a 16'4" (≈ 4,98 m), coherente con el métrico.
 
 ## Calado · `calado` · VERIFIED
 

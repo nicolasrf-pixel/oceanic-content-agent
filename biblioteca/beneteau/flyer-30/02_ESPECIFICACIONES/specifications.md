@@ -9,6 +9,7 @@ Valor Oceanic: **9,22 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Length Overall | 9.22 m | m | 9.22 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/flyer/flyer-30) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 9.22 m | m | 9.22 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 30' 3" (coherente).
 
@@ -19,6 +20,7 @@ Valor Oceanic: **3,1 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Beam overall | 3.1 m | m | 3.1 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/flyer/flyer-30) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 3.1 m | m | 3.1 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 10' 2" (coherente).
 
@@ -41,6 +43,7 @@ Valor Oceanic: **795 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Fuel Capacity | 795 L | l | 795.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/flyer/flyer-30) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 795 L | l | 795.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 210 US Gal (coherente).
 
@@ -51,6 +54,7 @@ Valor Oceanic: **140 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Water Capacity | 140 L | l | 140.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/flyer/flyer-30) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Water Capacity | 140 L | l | 140.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 37 US Gal (coherente).
 

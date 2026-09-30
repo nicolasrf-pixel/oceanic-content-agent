@@ -14,7 +14,7 @@
 | 2 | `grand-trawler-63-exterior-1-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'grand-trawler-63-exterior-1_0.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-06/grand-trawler-63-exterior-1_0.jpg.webp?itok=NnwqsY31) |
 | 3 | `grand-trawler-63-exterior-design-11` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'grand-trawler-63-exterior-design-11.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-09/grand-trawler-63-exterior-design-11.jpg.webp?itok=KjEt0qJy) |
 
-## Imágenes del modelo (39)
+## Imágenes del modelo (42)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -56,15 +56,10 @@
 | [`gt-63-usp1`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-06/gt-63-usp1.jpg.webp?itok=wYRJeKR9) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'gt-63-usp1.jpg' con el nombre del modelo. |
 | [`gt-63-usp4`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-06/gt-63-usp4.jpg.webp?itok=omNtflZc) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'gt-63-usp4.jpg' con el nombre del modelo. |
 | [`profile-grand-trawler-63`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2025-06/profile-grand-trawler-63.jpg.webp?itok=9YCmAGL7) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'profile-grand-trawler-63.jpg' con el nombre del modelo. |
+| [`layout-grand-trawler-62-fly`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/layout-grand-trawler-62-fly.jpg.webp?itok=ANcI8kg8) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Planos publicados en las pestañas Layouts de la página del Grand Trawler 63 (flybridge, 3 y 4 camarotes). No existe un Grand Trawler 62 en la web actual; el nombre del archivo es anterior. Revisión visual 2026-09-30. |
 | [`grandtrawler-maindeck-layout`](https://www.beneteau.com/sites/default/files/styles/wide/public/grandtrawler_maindeck_layout.jpg.webp?itok=LlGBzSWg) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Main deck'). |
-
-## REQUIRES REVIEW: modelo no confirmado (3)
-
-| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| [`layout-grand-trawler-62-fly`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/layout-grand-trawler-62-fly.jpg.webp?itok=ANcI8kg8) | PLANS | alta |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'layout-grand-trawler-62-fly.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
-| [`grand-trawler-62-3-cabin-layout`](https://www.beneteau.com/sites/default/files/styles/wide/public/grand-trawler-62-3-cabin-layout.jpg.webp?itok=4lL4tf0j) | PLANS | alta |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'grand-trawler-62-3-cabin-layout.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
-| [`layout-grand-trawler-62-4cabins`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/layout-grand-trawler-62-4cabins.jpg.webp?itok=2GSADFG8) | PLANS | alta |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | El nombre de archivo 'layout-grand-trawler-62-4cabins.jpg' no corresponde al modelo (ni a otro modelo actual de la web); publicado en la página del modelo. |
+| [`grand-trawler-62-3-cabin-layout`](https://www.beneteau.com/sites/default/files/styles/wide/public/grand-trawler-62-3-cabin-layout.jpg.webp?itok=4lL4tf0j) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Planos publicados en las pestañas Layouts de la página del Grand Trawler 63 (flybridge, 3 y 4 camarotes). No existe un Grand Trawler 62 en la web actual; el nombre del archivo es anterior. Revisión visual 2026-09-30. |
+| [`layout-grand-trawler-62-4cabins`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/layout-grand-trawler-62-4cabins.jpg.webp?itok=2GSADFG8) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Planos publicados en las pestañas Layouts de la página del Grand Trawler 63 (flybridge, 3 y 4 camarotes). No existe un Grand Trawler 62 en la web actual; el nombre del archivo es anterior. Revisión visual 2026-09-30. |
 
 ## Videos (1)
 

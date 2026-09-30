@@ -29,6 +29,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Flyer 30",
+          "url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "9.22 m",
+          "source_unit": "m",
+          "normalized_value": 9.22,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 30' 3\" (coherente)."
@@ -51,6 +64,20 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Flyer 30",
+          "url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "3.1 m",
+          "source_unit": "m",
+          "normalized_value": 3.1,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
@@ -90,6 +117,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Flyer 30",
+          "url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Capacity",
+          "source_value": "795 L",
+          "source_unit": "l",
+          "normalized_value": 795.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 210 US Gal (coherente)."
@@ -112,6 +152,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Flyer 30",
+          "url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water Capacity",
+          "source_value": "140 L",
+          "source_unit": "l",
+          "normalized_value": 140.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 37 US Gal (coherente)."

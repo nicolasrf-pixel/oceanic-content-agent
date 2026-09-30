@@ -24,7 +24,7 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = RED** · completitud 50% (informativa; el estado lo deciden las reglas)
 
-Falta crítico: exterior, hero_image
+Falta crítico: hero_image, exterior
 Conflictos sin resolver: Capacidad Agua Dulce
 
 | Grupo | Ítem | Estado | Detalle |

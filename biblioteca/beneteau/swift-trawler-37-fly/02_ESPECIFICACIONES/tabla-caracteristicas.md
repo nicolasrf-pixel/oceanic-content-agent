@@ -21,7 +21,7 @@ Model year: **NO DECLARADO** · Variante: **Swift Trawler 37 Fly** · Configurac
 
 | Campo | Valor | Estado |
 | --- | --- | --- |
-| Altura sobre línea de flotación | CONFLICT: 4.97 m (S1) / 16,4" (S1) | CONFLICT |
+| Altura sobre línea de flotación | 4,97 m | VERIFIED |
 | Calado | 1,17 m | VERIFIED |
 | Arquitectura naval | Naval architect & design: Dixon Yacht Design | VERIFIED |
 | Motorización | hasta 440 hp | VERIFIED |
@@ -29,7 +29,3 @@ Model year: **NO DECLARADO** · Variante: **Swift Trawler 37 Fly** · Configurac
 ## Campos no encontrados en fuentes oficiales
 
 - **Camarotes**: NO ENCONTRADO — No publicado en la web oficial del producto.
-
-## Pendiente de decisión humana
-
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '4.97 m' y '16,4"' (≈ 0,42 m): no coinciden. Decidir con el fabricante.

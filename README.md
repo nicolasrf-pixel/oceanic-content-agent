@@ -70,7 +70,7 @@ cual después se construye la página Oceanic.
 | Beneteau | [Gran Turismo 40 Open](biblioteca/beneteau/gran-turismo-40-open/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | YELLOW |
 | Beneteau | [Gran Turismo 50](biblioteca/beneteau/gran-turismo-50/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
 | Beneteau | [Grand Trawler 63](biblioteca/beneteau/grand-trawler-63/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
-| Beneteau | [Oceanis 30.1](biblioteca/beneteau/oceanis-30-1/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | RED |
+| Beneteau | [Oceanis 30.1](biblioteca/beneteau/oceanis-30-1/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
 | Beneteau | [Oceanis 34.1](biblioteca/beneteau/oceanis-34-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 37.1](biblioteca/beneteau/oceanis-37-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 40.1](biblioteca/beneteau/oceanis-40-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |

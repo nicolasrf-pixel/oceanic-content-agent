@@ -25,7 +25,6 @@
 **CONTENT_STATUS = RED** · completitud 61% (informativa; el estado lo deciden las reglas)
 
 Falta crítico: tabla_tecnica
-Conflictos sin resolver: Altura sobre línea de flotación
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
@@ -62,7 +61,6 @@ Conflictos sin resolver: Altura sobre línea de flotación
 - **Capacidad Agua Dulce** (NOT_FOUND): No publicado en el bloque técnico ni en el texto de la página.
 - **Superficie vélica** (NOT_FOUND): Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos.
 - **Potencia motor auxiliar** (NOT_FOUND): El bloque técnico no publica 'Max. engine power'.
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '6.1 m' y '20’’' (≈ 0,51 m): no coinciden. Decidir con el fabricante.
 - **Motor auxiliar** (NOT_FOUND): La web no publica motor auxiliar para este modelo.
 - Equipamiento: la web no publica lista standard ni optional; ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).
 - Traducción al español del equipamiento: pendiente.

@@ -9,6 +9,7 @@ Valor Oceanic: **12,97 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Length Overall | 12.97 m | m | 12.97 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 12.97 m | m | 12.97 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 42'7" (coherente).
 
@@ -19,6 +20,7 @@ Valor Oceanic: **3,78 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Beam overall | 3.78 m | m | 3.78 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 3.78 m | m | 3.78 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 12'5'' (coherente).
 
@@ -29,6 +31,7 @@ Valor Oceanic: **9.111 kg**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Lightship Displacement | 9111 kg | kg | 9111.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Dry Weight | 9111 kg | kg | 9111.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 20,081 lbs (coherente).
 
@@ -47,6 +50,7 @@ Valor Oceanic: **1.174 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Fuel Capacity | 1174 L | l | 1174.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 1174 L | l | 1174.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 310 US Gal (coherente).
 
@@ -76,6 +80,7 @@ Valor Oceanic: **900 hp**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Max. engine power | 900 HP |  | 900.0 hp | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Max. engine power | 900 HP |  | 900.0 hp | literal | NO DECLARADO | 2026-09-30 |
 
 ## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
 
@@ -84,6 +89,7 @@ Valor Oceanic: **4,9 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Air Draught Max | 4.9 m | m | 4.9 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Bridge Clearance | 4.9 m | m | 4.9 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 16'1'' (coherente).
 

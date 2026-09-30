@@ -9,6 +9,7 @@ Valor Oceanic: **11,2 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Length Overall | 11.2 m | m | 11.2 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 11.2 m | m | 11.2 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 36'9'' (coherente).
 
@@ -28,6 +29,7 @@ Valor Oceanic: **5.336 kg**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Lightship Displacement | 5336 kg | kg | 5336.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Dry Weight | 5336 kg | kg | 5336.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 11,761 lbs (coherente).
 
@@ -44,6 +46,7 @@ Valor Oceanic: **2 x 370 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Fuel Capacity | 2x370 L | l | 370.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 2x370 L | l | 370.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 2x98 US Gal (coherente).
 
@@ -54,6 +57,7 @@ Valor Oceanic: **160 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Water Capacity | 160 L | l | 160.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Water Capacity | 160 L | l | 160.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 42 US Gal (coherente).
 

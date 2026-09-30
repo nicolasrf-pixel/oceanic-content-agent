@@ -243,13 +243,23 @@ def _quantity_field(key, label, row, kind, src, xref=None, loa=None):
         inorm, iunit = _imperial_to_metric(row["label"], imperial[0])
         if inorm is not None and iunit == munit:
             tol = max(0.05 * mnorm, 0.06 if munit == "m" else 0)
+            if abs(inorm - mnorm) > tol and munit == "m":
+                # Same value written with the wrong symbol: 20'' meaning 20 ft, 16,4" meaning 16'4".
+                raw = imperial[0].strip()
+                for alt in (re.sub(r"(\d+)\s*(''|\"|”|’’)$", r"\1'", raw), re.sub(r"^(\d+),(\d+)\"$", "\\1'\\2\"", raw)):
+                    anorm = _feet(alt) if alt != raw else None
+                    if anorm and abs(anorm - mnorm) <= tol:
+                        notes = (f"Valor imperial publicado '{raw}' con el símbolo mal escrito: corresponde a {alt} "
+                                 f"(≈ {_fmt(anorm, 2)} m), coherente con el métrico.")
+                        inorm = mnorm
+                        break
             if abs(inorm - mnorm) > tol:
                 rec2 = _row_record(src, row, round(inorm, 2), iunit, xref)
                 rec2["source_value"], rec2["source_unit"] = imperial[0], "imperial"
                 return _field(key, label, "CONFLICT", [rec, rec2],
                               notes=f"El bloque técnico publica '{mv}' y '{imperial[0]}' (≈ {_fmt(inorm, 2)} {iunit}): "
                                     "no coinciden. Decidir con el fabricante.")
-            notes = f"Valor imperial publicado: {imperial[0]} (coherente)."
+            notes = notes or f"Valor imperial publicado: {imperial[0]} (coherente)."
             if munit == "hp":
                 disp = _es(imperial[0])
     if key == "manga_casco" and loa and mnorm > 0.6 * loa:
@@ -464,6 +474,32 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                                      notes="El fabricante la declara provisional." if provisional else
                                      "Declarada en el texto (no en el bloque técnico).")
 
+    # Versión en inglés (EE. UU.) de la misma página oficial: S3. Mismo valor refuerza; otro valor → CONFLICT.
+    US_LABELS = {"dry weight": "lightship displacement", "bridge clearance": "air draught max",
+                 "draft min": "draught min", "draft max": "draught max"}
+    for alt in ext.get("alternates", []):
+        asrc = {"title": alt["page_title"], "url": alt["source_url"], "accessed_at": alt["accessed_at"]}
+        for arow in alt["specifications"]:
+            lab = US_LABELS.get(arow["label"].strip().lower(), arow["label"].strip().lower())
+            if lab not in SPEC_MAP or not SPEC_MAP[lab][1]:
+                continue
+            key, kind = SPEC_MAP[lab]
+            if key == "potencia_motor_maxima" and boat == "vela":
+                key = "potencia_motor_auxiliar"
+            f = fields.get(key)
+            if not f:
+                continue
+            af = _quantity_field(key, labels[key], arow, kind, asrc, XREF.get(key))
+            if af["status"] not in ("VERIFIED", "REQUIRES_REVIEW") or not af["records"]:
+                continue
+            arec = dict(af["records"][0], source_id="S3", location="Specifications (versión EE. UU. de la página)")
+            same = any(json.dumps(r["normalized_value"]) == json.dumps(arec["normalized_value"]) for r in f["records"])
+            f["records"].append(arec)
+            if not same:
+                f["status"] = "CONFLICT"
+                f["notes"] = ((f.get("notes") or "") + f" La versión EE. UU. de la página (S3) publica "
+                              f"'{arec['source_value']}'.").strip()
+
     # Faltantes: tabla base + críticos
     catalog = json.loads((ROOT / "schema" / "field-catalog.json").read_text())
     base = catalog["base_table"][boat]
@@ -528,7 +564,7 @@ def _category(im: dict) -> tuple[str, str]:
     return "OTHER", "baja"
 
 
-def classify_images(ext: dict, ident: dict) -> dict:
+def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> dict:
     recs, ids = [], set()
     own = ident["tokens"]
     for im in ext["images"]:
@@ -536,8 +572,13 @@ def classify_images(ext: dict, ident: dict) -> dict:
         others = [p for p in pages if p != ident["slug"]]
         fm = _file_model(im["file_name"])
         known = fm and (fm[0], fm[1]) in _CORPUS.get("models", set())
-        if re.search(r"connected boat|partner", im["section_title"] or "", re.I):
-            scope, ev = "NOT_MODEL_SPECIFIC", "Bloque genérico de la marca (Seanapps / socios), no es el barco."
+        exact = bool(fm and fm[1] == own["size"] and sorted(fm[2]) == sorted(own["variants"]))
+        if re.search(r"connected boat|partner", im["section_title"] or "", re.I) or \
+                re.search(r"(^|[-_])logo[-_]", im["file_name"], re.I):
+            scope, ev = "NOT_MODEL_SPECIFIC", "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco."
+        elif others and exact:
+            scope, ev = "THIS_MODEL", (f"Publicada también en {', '.join(others)}, pero el nombre de archivo "
+                                       f"'{im['file_name']}' nombra exactamente este modelo.")
         elif others:
             scope, ev = "REQUIRES_REVIEW", f"Imagen publicada también en: {', '.join(others)}."
         elif fm and (fm[1] != own["size"] or (fm[2] and own["variants"] and not set(fm[2]) & set(own["variants"]))
@@ -565,6 +606,14 @@ def classify_images(ext: dict, ident: dict) -> dict:
             "dam_tags": [], "model_year_tag": None, "file": None, "width": None, "height": None, "format": None,
             "sha256": None, "collected_at": ext["accessed_at"], "downloaded_at": None,
             "download_status": "PENDING" if scope == "THIS_MODEL" else f"NOT_DOWNLOADED (fuera de alcance: {scope})"})
+    for key, ov in (overrides or {}).items():
+        for r in recs:
+            if key in r["source_url"]:
+                r.update(scope=ov["scope"], scope_evidence=ov["evidence"])
+                if ov.get("category"):
+                    r.update(category=ov["category"], category_confidence="revisión visual")
+                r["download_status"] = "PENDING" if ov["scope"] == "THIS_MODEL" else \
+                    f"NOT_DOWNLOADED (fuera de alcance: {ov['scope']})"
     pool = [r for r in recs if r["scope"] == "THIS_MODEL" and r["category"] in ("HERO", "EXTERIOR", "UNDERWAY")
             and (r["declared_width"] or 0) >= (r["declared_height"] or 1)]
     pool.sort(key=lambda r: (r["category"] == "HERO", r["declared_width"] or 0), reverse=True)
@@ -812,6 +861,11 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
         sources.append({"id": "S2", "short": "Web oficial · gama", "title": ident["range"], "type": "official_range_page",
                         "publisher": CFG["publisher"], "url": ident["range_url"], "accessed_at": ext["accessed_at"],
                         "retrieved_via": "referencia", "model_year_scope": "gama"})
+    for alt in ext.get("alternates", []):
+        sources.append({"id": "S3", "short": "Web oficial · versión EE. UU.", "title": alt["page_title"],
+                        "type": "official_product_page", "publisher": CFG["publisher"], "url": alt["source_url"],
+                        "accessed_at": alt["accessed_at"], "retrieved_via": f"Firecrawl rawHtml + {CFG['adapter']}",
+                        "model_year_scope": MODEL_YEAR, "note": "Misma página en su versión en inglés para EE. UU."})
     (fu / "sources.json").write_text(json.dumps({
         "model": ident["model"],
         "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
@@ -830,7 +884,9 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
         json.dumps(spec, ensure_ascii=False, indent=2) + "\n")
 
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
-    images = classify_images(ext, ident)
+    draft_path = drafts_dir / f"{slug}.json"
+    draft = json.loads(draft_path.read_text()) if draft_path.exists() else None
+    images = classify_images(ext, ident, (draft or {}).get("image_overrides"))
     _keep_downloads(inv_path, images)
     inv_path.parent.mkdir(parents=True, exist_ok=True)
     inv_path.write_text(json.dumps(images, ensure_ascii=False, indent=2) + "\n")

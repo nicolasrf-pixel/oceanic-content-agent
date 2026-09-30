@@ -53,6 +53,7 @@ Conflictos sin resolver: Manga Casco, Motorización
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Desplazamiento en rosca**: Lightship Displacement → 'Lightship Displacement' = desplazamiento en rosca.
+- **Desplazamiento en rosca**: Dry Weight → 'Lightship Displacement' = desplazamiento en rosca.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.
 - **Motorización**: Texto de la página → Sin 'Max. engine power' en el bloque técnico; el texto cita motores sin declarar la gama completa.
 

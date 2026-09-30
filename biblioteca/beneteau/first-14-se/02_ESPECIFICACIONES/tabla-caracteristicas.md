@@ -22,7 +22,7 @@ Model year: **NO DECLARADO** · Variante: **First 14 SE** · Configuración: **s
 
 | Campo | Valor | Estado |
 | --- | --- | --- |
-| Altura sobre línea de flotación | CONFLICT: 6.1 m (S1) / 20’’ (S1) | CONFLICT |
+| Altura sobre línea de flotación | 6,1 m | VERIFIED |
 | Calado | 0,11 m – 0,98 m (mín. – máx. según quilla/versión) | VERIFIED |
 | Arquitectura naval | Naval architect: Samuel Manuard · Design: Sito | VERIFIED |
 | Motor auxiliar | - | NOT_FOUND |
@@ -35,7 +35,3 @@ Model year: **NO DECLARADO** · Variante: **First 14 SE** · Configuración: **s
 - **Superficie vélica**: NO ENCONTRADO — Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos.
 - **Potencia motor auxiliar**: NO ENCONTRADO — El bloque técnico no publica 'Max. engine power'.
 - **Motor auxiliar**: NO ENCONTRADO — La web no publica motor auxiliar para este modelo.
-
-## Pendiente de decisión humana
-
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '6.1 m' y '20’’' (≈ 0,51 m): no coinciden. Decidir con el fabricante.

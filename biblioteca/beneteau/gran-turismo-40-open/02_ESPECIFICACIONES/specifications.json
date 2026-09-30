@@ -29,6 +29,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Open",
+          "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-40-open",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "12.3 m",
+          "source_unit": "m",
+          "normalized_value": 12.3,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 41'3\" (coherente)."
@@ -36,7 +49,7 @@
     {
       "oceanic_field": "manga_casco",
       "label": "Manga Casco",
-      "status": "REQUIRES_REVIEW",
+      "status": "CONFLICT",
       "display_value": "10,86 m",
       "records": [
         {
@@ -52,9 +65,23 @@
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Open",
+          "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-40-open",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "3.7 m",
+          "source_unit": "m",
+          "normalized_value": 3.7,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
-      "notes": "Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web."
+      "notes": "Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web. La versión EE. UU. de la página (S3) publica '3.7 m'."
     },
     {
       "oceanic_field": "desplazamiento",
@@ -74,6 +101,20 @@
           "normalized_unit": "kg",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Open",
+          "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-40-open",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "9041 kg",
+          "source_unit": "kg",
+          "normalized_value": 9041.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         }
       ],
@@ -151,6 +192,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Gran Turismo 40 Open",
+          "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-40-open",
+          "accessed_at": "2026-09-30",
+          "source_field": "Bridge Clearance",
+          "source_value": "3.97 m",
+          "source_unit": "m",
+          "normalized_value": 3.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 13'0\" (coherente)."

@@ -9,6 +9,7 @@ Valor Oceanic: **12,53 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Length Overall | 12.53 m | m | 12.53 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 12.53 m | m | 12.53 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 41'1" (coherente).
 
@@ -28,6 +29,7 @@ Valor Oceanic: **8.600 kg**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Lightship Displacement | 8600 kg | kg | 8600.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Dry Weight | 8600 kg | kg | 8600.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 18,954 lbs (coherente).
 
@@ -44,6 +46,7 @@ Valor Oceanic: **2 x 435 (IB) / 2 x 600 (OB) L**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Fuel Capacity | 2x435 (IB) / 2x600 (OB) L | l | 600.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 2x435 (IB) / 2x600 (OB) L | l | 600.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 2x115 (IB) / 2x159 (OB) US Gal (coherente).
 
@@ -54,6 +57,7 @@ Valor Oceanic: **255 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Water Capacity | 255 L | l | 255.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Water Capacity | 255 L | l | 255.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 67 US Gal (coherente).
 

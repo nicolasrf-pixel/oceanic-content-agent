@@ -9,6 +9,7 @@ Valor Oceanic: **9,53 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Length Overall | 9.53 m | m | 9.53 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 9.53 m | m | 9.53 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 31’3’’ (coherente).
 
@@ -19,6 +20,7 @@ Valor Oceanic: **2,99 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Beam overall | 2.99 m | m | 2.99 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 2.99 m | m | 2.99 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 9’10’’ (coherente).
 
@@ -29,6 +31,7 @@ Valor Oceanic: **4.120 kg**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Lightship Displacement | 4 120 kg | kg | 4120.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Dry Weight | 4 120 kg | kg | 4120.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 9,100 lbs (coherente).
 
@@ -47,6 +50,7 @@ Valor Oceanic: **130 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Fuel Capacity | 130 L | l | 130.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 130 L | l | 130.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 34 US Gal (coherente).
 
@@ -82,6 +86,7 @@ Valor Oceanic: **21 hp**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Max. engine power | 21.0 HP |  | 21.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Max. engine power | 21.0 HP |  | 21.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-30 |
 
 ## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
 
@@ -90,6 +95,7 @@ Valor Oceanic: **13,66 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis/oceanis-301) Web oficial · Oceanis 30.1 | Specifications (bloque técnico) | Air Draught Max | 13.66 m | m | 13.66 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis/oceanis-301) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Bridge Clearance | 13.66 m | m | 13.66 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 44’10’’ (coherente).
 

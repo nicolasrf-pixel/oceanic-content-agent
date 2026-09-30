@@ -24,6 +24,18 @@
       "accessed_at": "2026-09-27",
       "retrieved_via": "referencia",
       "model_year_scope": "gama"
+    },
+    {
+      "id": "S3",
+      "short": "Web oficial · versión EE. UU.",
+      "title": "Gran Turismo 40 Coupe",
+      "type": "official_product_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+      "model_year_scope": "NO DECLARADO",
+      "note": "Misma página en su versión en inglés para EE. UU."
     }
   ],
   "excluded_sources": [

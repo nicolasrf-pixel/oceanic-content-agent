@@ -33,15 +33,15 @@
 | [`flyer7sundeck-plan-elegance`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-07/flyer7Sundeck-plan-elegance.png.webp?itok=4F-tRRyv) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Elegance version'). |
 | [`flyer7sundeck-int1`](https://www.beneteau.com/sites/default/files/styles/image_text_desktop/public/flyer7sundeck_int1.jpg.webp?itok=e9_draJc) | OTHER | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Optimized space'). |
 
-## REQUIRES REVIEW: modelo no confirmado (2)
+## REQUIRES REVIEW: modelo no confirmado (1)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
 | [`flyer7-usp4-cockpit`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2022-12/flyer7-usp4-cockpit.jpg.webp?itok=a9XXc6iw) | COCKPIT | media |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: flyer-7-spacedeck. |
-| [`logo-flyer-pilot-edition-petit`](https://www.beneteau.com/sites/default/files/inline-images/logo-flyer-pilot-edition-petit.jpg) | HELM | media |  | 300x170 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: flyer-10, flyer-10-sport-top, flyer-7-spacedeck, flyer-8-spacedeck, flyer-8-sundeck, flyer-9-spacedeck, flyer-9-sundeck. |
 
-## Excluidas: no son del barco (1)
+## Excluidas: no son del barco (2)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Bloque genérico de la marca (Seanapps / socios), no es el barco. |
+| [`logo-flyer-pilot-edition-petit`](https://www.beneteau.com/sites/default/files/inline-images/logo-flyer-pilot-edition-petit.jpg) | HELM | media |  | 300x170 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |

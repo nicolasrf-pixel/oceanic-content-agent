@@ -29,6 +29,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "9.53 m",
+          "source_unit": "m",
+          "normalized_value": 9.53,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 31’3’’ (coherente)."
@@ -52,6 +65,20 @@
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "2.99 m",
+          "source_unit": "m",
+          "normalized_value": 2.99,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
       "notes": "Valor imperial publicado: 9’10’’ (coherente)."
@@ -74,6 +101,20 @@
           "normalized_unit": "kg",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "4 120 kg",
+          "source_unit": "kg",
+          "normalized_value": 4120.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         }
       ],
@@ -119,6 +160,19 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Capacity",
+          "source_value": "130 L",
+          "source_unit": "l",
+          "normalized_value": 130.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 34 US Gal (coherente)."
@@ -207,6 +261,20 @@
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)",
           "cross_reference": "'Max. engine power' de un velero = potencia máxima del motor auxiliar."
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max. engine power",
+          "source_value": "21.0 HP",
+          "source_unit": null,
+          "normalized_value": 21.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)",
+          "cross_reference": "'Max. engine power' de un velero = potencia máxima del motor auxiliar."
         }
       ],
       "notes": ""
@@ -229,6 +297,19 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S3",
+          "source_name": "Oceanis 30.1",
+          "url": "https://www.beneteau.com/en-us/oceanis/oceanis-301",
+          "accessed_at": "2026-09-30",
+          "source_field": "Bridge Clearance",
+          "source_value": "13.66 m",
+          "source_unit": "m",
+          "normalized_value": 13.66,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
       "notes": "Valor imperial publicado: 44’10’’ (coherente)."

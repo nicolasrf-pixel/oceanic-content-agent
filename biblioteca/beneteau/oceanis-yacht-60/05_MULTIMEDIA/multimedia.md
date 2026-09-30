@@ -14,7 +14,7 @@
 | 2 | `oceanisyacht-ext1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'EXTERIOR DESIGN'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/oceanisyacht-ext1.jpg.webp?itok=R3Gz0W9v) |
 | 3 | `oceanisyacht-ext2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'EXTERIOR DESIGN'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/oceanisyacht-ext2.jpg.webp?itok=f3TJp336) |
 
-## Imágenes del modelo (44)
+## Imágenes del modelo (43)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -61,13 +61,13 @@
 | [`ocy60-profil-ext1`](https://www.beneteau.com/sites/default/files/styles/wide/public/ocy60-profil-ext1.jpg.webp?itok=tmPueTTd) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Exterior deck'). |
 | [`ocy60-plan-int`](https://www.beneteau.com/sites/default/files/styles/wide/public/ocy60-plan-int.jpg.webp?itok=KRoEsxxW) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección '3 cabins - 3 heads'). |
 | [`plan-oceanisyacht60-4cabines-4toilettes`](https://www.beneteau.com/sites/default/files/styles/wide/public/2023-03/plan-OceanisYAcht60-4cabines-4toilettes.jpg.webp?itok=XPNSHuZ8) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección '4 cabins - 4 heads'). |
-| [`logo-elium`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-01/Logo-Elium.jpg.webp?itok=KWd0F8se) | OTHER | baja |  | 1090x1050 jpg | WEB_COPY | Solo en la página del modelo (sección 'Elium® resin used in sailboat production'). |
 
-## Excluidas: no son del barco (1)
+## Excluidas: no son del barco (2)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Bloque genérico de la marca (Seanapps / socios), no es el barco. |
+| [`logo-elium`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-01/Logo-Elium.jpg.webp?itok=KWd0F8se) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
 
 ## Videos (1)
 

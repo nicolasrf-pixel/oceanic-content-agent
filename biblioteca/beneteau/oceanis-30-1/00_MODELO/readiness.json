@@ -1,9 +1,7 @@
 {
-  "CONTENT_STATUS": "RED",
-  "completeness_pct": 78,
-  "critical_missing": [
-    "exterior"
-  ],
+  "CONTENT_STATUS": "YELLOW",
+  "completeness_pct": 83,
+  "critical_missing": [],
   "unresolved_conflicts": [
     "Capacidad Agua Dulce"
   ],
@@ -61,22 +59,22 @@
     "hero_image": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "1 candidatas"
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 3) · descargadas 18/18"
+      "status": "OK",
+      "detail": "10 en inventario (mín. 3) · descargadas 29/29"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "7 en inventario (mín. 2) · descargadas 18/18"
+      "detail": "8 en inventario (mín. 2) · descargadas 29/29"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 18/18"
+      "detail": "0 en inventario (mín. 2) · descargadas 29/29"
     },
     "video": {
       "group": "MULTIMEDIA",

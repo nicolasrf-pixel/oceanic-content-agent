@@ -51,6 +51,7 @@ Conflictos sin resolver: Potencia motor máx
 ## Cruces de datos
 
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
+- **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.
 
 ## Información faltante o por revisar

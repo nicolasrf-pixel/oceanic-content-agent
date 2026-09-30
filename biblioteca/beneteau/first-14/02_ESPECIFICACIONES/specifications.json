@@ -144,8 +144,8 @@
     {
       "oceanic_field": "altura_linea_flotacion",
       "label": "Altura sobre línea de flotación",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "6,1 m",
       "records": [
         {
           "source_id": "S1",
@@ -159,22 +159,9 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
-        },
-        {
-          "source_id": "S1",
-          "source_name": "First 14",
-          "url": "https://www.beneteau.com/first/first-14",
-          "accessed_at": "2026-09-27",
-          "source_field": "Air Draught Max",
-          "source_value": "20’’",
-          "source_unit": "imperial",
-          "normalized_value": 0.51,
-          "normalized_unit": "m",
-          "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
         }
       ],
-      "notes": "El bloque técnico publica '6.1 m' y '20’’' (≈ 0,51 m): no coinciden. Decidir con el fabricante."
+      "notes": "Valor imperial publicado '20’’' con el símbolo mal escrito: corresponde a 20' (≈ 6,10 m), coherente con el métrico."
     },
     {
       "oceanic_field": "arquitecto_naval",

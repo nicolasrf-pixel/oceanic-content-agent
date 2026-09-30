@@ -769,5 +769,69 @@
   "Flyer 9 SPACEdeck",
   "Flyer 9 SUNdeck",
   "Flyer 10"
+ ],
+ "alternates": [
+  {
+   "page_title": "Flyer 30",
+   "source_url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+   "accessed_at": "2026-09-30",
+   "specifications": [
+    {
+     "label": "Length Overall",
+     "values": [
+      "30' 3\"",
+      "9.22 m"
+     ]
+    },
+    {
+     "label": "Beam overall",
+     "values": [
+      "10' 2\"",
+      "3.1 m"
+     ]
+    },
+    {
+     "label": "Draft Min",
+     "values": [
+      "26''",
+      "0.66 m"
+     ]
+    },
+    {
+     "label": "Draft Max",
+     "values": [
+      "43''",
+      "1.09 m"
+     ]
+    },
+    {
+     "label": "Fuel Capacity",
+     "values": [
+      "210 US Gal",
+      "795 L"
+     ]
+    },
+    {
+     "label": "Water Capacity",
+     "values": [
+      "37 US Gal",
+      "140 L"
+     ]
+    },
+    {
+     "label": "Max. engine power",
+     "values": [
+      "2 x 447 HP",
+      "2 x 300 CV"
+     ]
+    },
+    {
+     "label": "Propulsion",
+     "values": [
+      "Out-Board"
+     ]
+    }
+   ]
+  }
  ]
 }

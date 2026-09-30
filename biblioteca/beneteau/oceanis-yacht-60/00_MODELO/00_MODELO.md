@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Oceanis Yacht 54).
-- Imágenes: 44 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 43 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 2 no son del barco.
 
 ## Content readiness
 
@@ -39,9 +39,9 @@ Conflictos sin resolver: Desplazamiento en rosca, Capacidad Agua Dulce, Altura s
 | EDITORIAL | experiencia | OK | 232 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 22 en inventario (mín. 3) · descargadas 44/44 |
-| MULTIMEDIA | interior | OK | 12 en inventario (mín. 2) · descargadas 44/44 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 44/44 |
+| MULTIMEDIA | exterior | OK | 22 en inventario (mín. 3) · descargadas 43/43 |
+| MULTIMEDIA | interior | OK | 12 en inventario (mín. 2) · descargadas 43/43 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 43/43 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |
@@ -51,9 +51,11 @@ Conflictos sin resolver: Desplazamiento en rosca, Capacidad Agua Dulce, Altura s
 ## Cruces de datos
 
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
+- **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Desplazamiento en rosca**: Lightship Displacement → 'Lightship Displacement' = desplazamiento en rosca.
 - **Desplazamiento en rosca**: Lightship Displacement → 'Lightship Displacement' = desplazamiento en rosca.
 - **Camarotes**: Layouts (pestañas) → El bloque técnico no publica 'Cabin Number': se toma el número de cabinas de los títulos de los layouts oficiales.
+- **Potencia motor auxiliar**: Max. engine power → 'Max. engine power' de un velero = potencia máxima del motor auxiliar.
 - **Potencia motor auxiliar**: Max. engine power → 'Max. engine power' de un velero = potencia máxima del motor auxiliar.
 - **Baños**: Layouts (pestañas) → Número de baños/aseos según los títulos de los layouts oficiales.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.

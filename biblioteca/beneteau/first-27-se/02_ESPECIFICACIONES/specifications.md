@@ -74,14 +74,15 @@ Valor Oceanic: **10 hp**
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/first-se/first-27-se) Web oficial · First 27 SE | Specifications (bloque técnico) | Max. engine power | 10 HP |  | 10.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
 
-## Altura sobre línea de flotación · `altura_linea_flotacion` · CONFLICT
+## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
+
+Valor Oceanic: **12,2 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/first-se/first-27-se) Web oficial · First 27 SE | Specifications (bloque técnico) | Air Draught Max | 12.2 m | m | 12.2 m | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/first-se/first-27-se) Web oficial · First 27 SE | Specifications (bloque técnico) | Air Draught Max | 40’’ | imperial | 1.02 m | literal | NO DECLARADO | 2026-09-27 |
 
-Nota: El bloque técnico publica '12.2 m' y '40’’' (≈ 1,02 m): no coinciden. Decidir con el fabricante.
+Nota: Valor imperial publicado '40’’' con el símbolo mal escrito: corresponde a 40' (≈ 12,19 m), coherente con el métrico.
 
 ## Calado · `calado` · VERIFIED
 

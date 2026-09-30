@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Flyer 10 Sport Top, Flyer 30, Flyer 7 SPACEdeck, Flyer 7 SUNdeck, Flyer 8 SPACEdeck, Flyer 9 SPACEdeck, Flyer 9 SUNdeck, Flyer 10).
-- Imágenes: 22 del modelo, 0 de otro modelo (excluidas), 1 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 22 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 2 no son del barco.
 
 ## Content readiness
 

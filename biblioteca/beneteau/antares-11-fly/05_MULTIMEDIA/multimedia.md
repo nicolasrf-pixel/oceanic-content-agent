@@ -14,7 +14,7 @@
 | 2 | `antares11fly-exterieur1-slider-1440x786` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares11fly-exterieur1-slider-1440x786.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur1-slider-1440x786.jpg.webp?itok=Aa1Hr9lM) |
 | 3 | `antares11fly-exterieur2-slider-1440x786` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares11fly-exterieur2-slider-1440x786.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur2-slider-1440x786.jpg.webp?itok=EX-wtu2E) |
 
-## Imágenes del modelo (12)
+## Imágenes del modelo (13)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@
 | [`antares11fly-exterieur1-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur1-slider-1440x786.jpg.webp?itok=Aa1Hr9lM) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-exterieur1-slider-1440x786.jpg' con el nombre del modelo. |
 | [`antares11fly-exterieur2-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur2-slider-1440x786.jpg.webp?itok=EX-wtu2E) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-exterieur2-slider-1440x786.jpg' con el nombre del modelo. |
 | [`antares11fly-exterieur3-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur3-slider-1440x786.jpg.webp?itok=PMuSU5Jw) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-exterieur3-slider-1440x786.jpg' con el nombre del modelo. |
+| [`antares11fly-carre-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/big_internal_design_large/public/antares11fly-carre-slider-1440x786.jpg.webp?itok=py5NuKQJ) | INTERIOR | media |  | 1468x1238 jpg | WEB_COPY | Publicada también en antares-11-coupe, pero el nombre de archivo 'antares11fly-carre-slider-1440x786.jpg' nombra exactamente este modelo. |
 | [`antares11fly-cabine-proprio-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/antares11fly-cabine-proprio-slider-1440x786.jpg.webp?itok=WNsPvh91) | CABIN | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-cabine-proprio-slider-1440x786.jpg' con el nombre del modelo. |
 | [`antares11fly-cabine-arriere-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/antares11fly-cabine-arriere-slider-1440x786.jpg.webp?itok=rfADzdco) | CABIN | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-cabine-arriere-slider-1440x786.jpg' con el nombre del modelo. |
 | [`antares11fly-pointfort1-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/antares11fly-pointfort1-slider-1440x786.jpg.webp?itok=yXoURvvc) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares11fly-pointfort1-slider-1440x786.jpg' con el nombre del modelo. |
@@ -31,11 +32,10 @@
 | [`profile-antares-11-fly-gris-perle`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2024-01/profile-antares-11-fly-gris-perle.jpg.webp?itok=cdRCb95O) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'profile-antares-11-fly-gris-perle.jpg' con el nombre del modelo. |
 | [`a11-fly-top-view`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_fly_top_view.jpg.webp?itok=S1J-B3aN) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Layouts'). |
 
-## REQUIRES REVIEW: modelo no confirmado (3)
+## REQUIRES REVIEW: modelo no confirmado (2)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`antares11fly-carre-slider-1440x786`](https://www.beneteau.com/sites/default/files/styles/big_internal_design_large/public/antares11fly-carre-slider-1440x786.jpg.webp?itok=py5NuKQJ) | INTERIOR | media |  | 1468x1238 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-11-coupe. |
 | [`a11-deck-02-12-2020`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_deck_02-12-2020.png.webp?itok=2feq839k) | PLANS | alta |  | NonexNone png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-11-coupe. |
 | [`a11-lowerdeck-jpg`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_lowerdeck.jpg.png.webp?itok=Mkwu8NzM) | PLANS | alta |  | NonexNone png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-11-coupe. |
 
@@ -43,7 +43,7 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Bloque genérico de la marca (Seanapps / socios), no es el barco. |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
 
 ## Videos (1)
 

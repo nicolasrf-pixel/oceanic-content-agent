@@ -11,5 +11,11 @@
  "diseno": "Roda recta, casco con pantoque vivo y proporciones de pequeño yate. Para tripulaciones reducidas lleva foque autovirante y un solo winche; para prestaciones, génova solapado, code zero enrollable y spinnaker asimétrico.",
  "ingenieria": "Con menos de 9 x 3 m y menos de 4 toneladas, un profesional puede transportarlo por carretera. La versión de orza y mástil abatible permite llegar por canales y ríos. Se elige entre caña con doble timón o doble rueda.",
  "experiencia": "Altura interior de 1,98 m donde se está de pie, dos camarotes dobles con literas longitudinales y dos bancos de salón que suman dos plazas más. Baño con WC separado de ducha y lavabo, y cocina en L con nevera de 75 litros y horno.",
- "performance": "Proa fina, peso optimizado, velas rígidas y mayor de puño cuadrado: rinde en todos los rumbos. Con doble rueda, la bañera admite hasta seis invitados alrededor de una mesa plegable."
+ "performance": "Proa fina, peso optimizado, velas rígidas y mayor de puño cuadrado: rinde en todos los rumbos. Con doble rueda, la bañera admite hasta seis invitados alrededor de una mesa plegable.",
+ "image_overrides": {
+  "oceanis-31.1_": {
+   "scope": "THIS_MODEL",
+   "evidence": "Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web."
+  }
+ }
 }

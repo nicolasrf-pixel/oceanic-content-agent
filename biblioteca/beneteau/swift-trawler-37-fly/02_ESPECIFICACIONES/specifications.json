@@ -178,8 +178,8 @@
     {
       "oceanic_field": "altura_linea_flotacion",
       "label": "Altura sobre línea de flotación",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "4,97 m",
       "records": [
         {
           "source_id": "S1",
@@ -193,22 +193,9 @@
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
-        },
-        {
-          "source_id": "S1",
-          "source_name": "Swift Trawler 37 Fly",
-          "url": "https://www.beneteau.com/swift-trawler/swift-trawler-37-fly",
-          "accessed_at": "2026-09-27",
-          "source_field": "Air Draught Max",
-          "source_value": "16,4\"",
-          "source_unit": "imperial",
-          "normalized_value": 0.42,
-          "normalized_unit": "m",
-          "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
         }
       ],
-      "notes": "El bloque técnico publica '4.97 m' y '16,4\"' (≈ 0,42 m): no coinciden. Decidir con el fabricante."
+      "notes": "Valor imperial publicado '16,4\"' con el símbolo mal escrito: corresponde a 16'4\" (≈ 4,98 m), coherente con el métrico."
     },
     {
       "oceanic_field": "calado",

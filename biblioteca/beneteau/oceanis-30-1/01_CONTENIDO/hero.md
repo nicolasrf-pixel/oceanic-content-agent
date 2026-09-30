@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `cover-desktop-oceanis-30-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'cover-desktop-oceanis-30.1.jpg' con el nombre del modelo. |
+| 2 | `oceanis-31-1-navigation0-2` | Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web. |
+| 3 | `oceanis-31-1-navigation01` | Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web. |

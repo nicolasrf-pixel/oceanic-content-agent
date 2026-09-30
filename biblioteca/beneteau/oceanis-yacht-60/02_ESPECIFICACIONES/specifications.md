@@ -9,6 +9,7 @@ Valor Oceanic: **18,95 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Length Overall | 18.95 m | m | 18.95 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Length Overall | 18.95 m | m | 18.95 m | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 62’2’’ (coherente).
 
@@ -19,6 +20,7 @@ Valor Oceanic: **5,25 m**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Beam overall | 5.25 m | m | 5.25 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 5.25 m | m | 5.25 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 17’5’’ (coherente).
 
@@ -46,6 +48,7 @@ Valor Oceanic: **500 l**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Fuel Capacity | 500 L | l | 500.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Fuel Capacity | 500 L | l | 500.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Valor imperial publicado: 132 US Gal (coherente).
 
@@ -81,6 +84,7 @@ Valor Oceanic: **150 hp**
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Max. engine power | 150 HP |  | 150.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Max. engine power | 150 HP |  | 150.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-30 |
 
 ## Altura sobre línea de flotación · `altura_linea_flotacion` · CONFLICT
 

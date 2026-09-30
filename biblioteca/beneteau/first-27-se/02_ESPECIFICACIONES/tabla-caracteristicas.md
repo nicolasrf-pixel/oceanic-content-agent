@@ -22,7 +22,7 @@ Model year: **NO DECLARADO** · Variante: **First 27 SE** · Configuración: **s
 
 | Campo | Valor | Estado |
 | --- | --- | --- |
-| Altura sobre línea de flotación | CONFLICT: 12.2 m (S1) / 40’’ (S1) | CONFLICT |
+| Altura sobre línea de flotación | 12,2 m | VERIFIED |
 | Calado | 0,95 m | VERIFIED |
 | Arquitectura naval | Naval architect: Samuel Manuard · Interior design: Sito | VERIFIED |
 | Motor auxiliar | Motor auxiliar hasta 10 hp | VERIFIED |
@@ -33,7 +33,3 @@ Model year: **NO DECLARADO** · Variante: **First 27 SE** · Configuración: **s
 - **Capacidad Combustible**: NO ENCONTRADO — No publicado en el bloque técnico ni en el texto de la página.
 - **Capacidad Agua Dulce**: NO ENCONTRADO — No publicado en el bloque técnico ni en el texto de la página.
 - **Superficie vélica**: NO ENCONTRADO — Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos.
-
-## Pendiente de decisión humana
-
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '12.2 m' y '40’’' (≈ 1,02 m): no coinciden. Decidir con el fabricante.

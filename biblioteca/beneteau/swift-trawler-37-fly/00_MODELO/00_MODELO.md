@@ -17,14 +17,13 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Grand Trawler 63, Swift Trawler 43 Fly, Swift Trawler 43 Sedan, Swift Trawler 37 Sedan, Swift Trawler 48, Swift Trawler 54).
-- Imágenes: 23 del modelo, 0 de otro modelo (excluidas), 7 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 28 del modelo, 0 de otro modelo (excluidas), 2 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 83% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Altura sobre línea de flotación
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
@@ -39,9 +38,9 @@ Conflictos sin resolver: Altura sobre línea de flotación
 | EDITORIAL | experiencia | OK | 196 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 103 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 14 en inventario (mín. 3) · descargadas 23/23 |
-| MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 23/23 |
-| MULTIMEDIA | detail | OK | 2 en inventario (mín. 2) · descargadas 23/23 |
+| MULTIMEDIA | exterior | OK | 14 en inventario (mín. 3) · descargadas 28/28 |
+| MULTIMEDIA | interior | OK | 6 en inventario (mín. 2) · descargadas 28/28 |
+| MULTIMEDIA | detail | OK | 2 en inventario (mín. 2) · descargadas 28/28 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |
@@ -58,6 +57,5 @@ Conflictos sin resolver: Altura sobre línea de flotación
 ## Información faltante o por revisar
 
 - **Camarotes** (NOT_FOUND): No publicado en la web oficial del producto.
-- **Altura sobre línea de flotación** (CONFLICT): El bloque técnico publica '4.97 m' y '16,4"' (≈ 0,42 m): no coinciden. Decidir con el fabricante.
 - Traducción al español del equipamiento: pendiente.
 - Manual del propietario: identificar en el Help Center oficial (help.beneteau.com).
