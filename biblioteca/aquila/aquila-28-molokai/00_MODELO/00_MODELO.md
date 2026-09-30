@@ -24,7 +24,7 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = RED** · completitud 44% (informativa; el estado lo deciden las reglas)
 
-Falta crítico: exterior, tabla_tecnica
+Falta crítico: tabla_tecnica, exterior
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |

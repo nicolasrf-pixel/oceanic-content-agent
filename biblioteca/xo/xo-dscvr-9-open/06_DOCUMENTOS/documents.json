@@ -1,0 +1,37 @@
+{
+  "model": "XO DSCVR 9 Open",
+  "documents": [
+    {
+      "id": "e-brochure",
+      "title": "E-brochure oficial · XO DSCVR 9 Open",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://online.flippingbook.com/view/167184400/",
+      "source_page": "https://xoboats.com/xo-fleet/dscvr-9/",
+      "file": null,
+      "format": "web (flipbook)",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha. Puede cubrir toda la gama.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "owners",
+      "title": "Documentación de propietario XO",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://xoboats.com/",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

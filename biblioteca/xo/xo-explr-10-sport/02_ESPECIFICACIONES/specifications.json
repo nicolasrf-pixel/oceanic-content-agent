@@ -1,0 +1,358 @@
+{
+  "model": {
+    "brand": "XO",
+    "model": "XO EXPLR 10 Sport",
+    "model_year": "NO DECLARADO",
+    "variant": "XO EXPLR 10 Sport",
+    "configuration": "según ficha técnica",
+    "engine_option": "2 x 250 hp (fueraborda)",
+    "boat_type": "motor",
+    "range": "EXPLR SERIES"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,4 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Overall Lenght",
+          "source_value": "9.4 m",
+          "source_unit": "m",
+          "normalized_value": 9.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "'Overall Lenght (exc. engine)' = eslora total publicada (sin motores fueraborda)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,5 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam",
+          "source_value": "2,5m",
+          "source_unit": "m",
+          "normalized_value": 2.5,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "2.616 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Weight (excl. engine)",
+          "source_value": "2616 kg",
+          "source_unit": "kg",
+          "normalized_value": 2616.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "'Weight (excl. engine)' = desplazamiento en rosca (peso sin motor), como en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2 x 225 l (450 l en total)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel capacity",
+          "source_value": "2×225 l",
+          "source_unit": null,
+          "normalized_value": 450,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "Dos depósitos publicados como 'N×V l'; total = N × V."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "C10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Classification",
+          "source_value": "C",
+          "source_unit": null,
+          "normalized_value": "C10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "'Classification' + 'Passengers' = categoría CE : personas (posición a posición)."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Passengers",
+          "source_value": "10",
+          "source_unit": null,
+          "normalized_value": "C10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "'Classification' + 'Passengers' = categoría CE : personas (posición a posición)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "500 hp (2 x 250 hp)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 250 hp",
+          "source_unit": null,
+          "normalized_value": 500,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "Extremo superior de la fila de motores publicada (motorización más potente ofrecida)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "0,92 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Draft to props",
+          "source_value": "0,92 m",
+          "source_unit": "m",
+          "normalized_value": 0.92,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)",
+          "cross_reference": "'Draft to props' = calado hasta las hélices."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Passengers",
+          "source_value": "10",
+          "source_unit": null,
+          "normalized_value": "10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2 x 250 hp (fueraborda)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Outboard engines",
+          "source_value": "2 x 250 hp",
+          "source_unit": null,
+          "normalized_value": "2 x 250 hp",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "VERIFIED",
+      "display_value": "45+ nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max speed range",
+          "source_value": "45+ kts",
+          "source_unit": null,
+          "normalized_value": "45+ kts",
+          "normalized_unit": "nudos",
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "Aluminio/GRP (fibra)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Construction",
+          "source_value": "Alu/GRP",
+          "source_unit": null,
+          "normalized_value": "Alu/GRP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "diseno_casco",
+      "label": "Diseño de casco",
+      "status": "VERIFIED",
+      "display_value": "Deep-V, astilla muerta 24°",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull",
+          "source_value": "Deep-V",
+          "source_unit": null,
+          "normalized_value": "Deep-V, astilla muerta 24°",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Deadrise",
+          "source_value": "24 deg",
+          "source_unit": null,
+          "normalized_value": "Deep-V, astilla muerta 24°",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "XO EXPLR 10 Sport",
+          "url": "https://xoboats.com/xo-fleet/explr-10-sport/",
+          "accessed_at": "2026-09-30",
+          "source_field": "Berths",
+          "source_value": "3",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Tabla técnica (atributos del producto)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "consumo_crucero",
+      "label": "Consumo crucero",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La ficha publica 'n/a l/nm' (no disponible)."
+    }
+  ]
+}

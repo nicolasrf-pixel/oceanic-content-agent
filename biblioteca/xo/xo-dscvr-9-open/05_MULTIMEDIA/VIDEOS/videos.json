@@ -1,0 +1,22 @@
+{
+  "model": "XO DSCVR 9 Open",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video de cabecera",
+      "url": "https://www.youtube.com/watch?v=V20Qw670-pE",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/V20Qw670-pE/hqdefault.jpg",
+      "source_page": "https://xoboats.com/xo-fleet/dscvr-9/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "REQUIRES_REVIEW",
+      "third_party": false,
+      "notes": "También en: xo-dscvr-9-t-top",
+      "downloaded": false
+    }
+  ]
+}

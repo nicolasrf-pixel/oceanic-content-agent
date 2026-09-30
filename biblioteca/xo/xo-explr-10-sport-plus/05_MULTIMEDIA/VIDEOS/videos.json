@@ -1,0 +1,38 @@
+{
+  "model": "XO EXPLR 10 Sport +",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video de cabecera",
+      "url": "https://www.youtube.com/watch?v=zGMqqExLY5g",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/zGMqqExLY5g/hqdefault.jpg",
+      "source_page": "https://xoboats.com/xo-fleet/explr-10plus-sport/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Walkthrough / video",
+      "url": "https://www.youtube.com/watch?v=QBjtsncrPEw",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/QBjtsncrPEw/hqdefault.jpg",
+      "source_page": "https://xoboats.com/xo-fleet/explr-10plus-sport/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "REQUIRES_REVIEW",
+      "third_party": false,
+      "notes": "También en: xo-explr-10-s-plus-ib",
+      "downloaded": false
+    }
+  ]
+}

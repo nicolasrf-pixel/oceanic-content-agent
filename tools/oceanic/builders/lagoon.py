@@ -21,6 +21,7 @@ MODEL_YEAR = B.MODEL_YEAR
 CFG = dict(B.CFG)
 CFG.update({
     "brand": "Lagoon", "brand_dir": ROOT / "biblioteca" / "lagoon",
+    "site": "catamarans-lagoon.com", "original_path": "admin.catamarans-lagoon.com (back office Drupal)",
     "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)", "origin": "Lagoon · Francia",
     "builder": "lagoon", "adapter": "adapters/lagoon.py",
     "boat_type": lambda ext: "catamaran_vela",

@@ -24,6 +24,7 @@ CFG.update({
     "brand": "Aquila", "brand_dir": ROOT / "biblioteca" / "aquila",
     "publisher": "Aquila (Aquila USA Inc. / MarineMax, EE. UU.)", "origin": "Aquila · EE. UU.",
     "builder": "aquila", "adapter": "adapters/aquila.py",
+    "site": "aquilaboats.com", "original_path": "/hubfs/ (HubSpot)",
     "boat_type": lambda ext: "catamaran_vela" if "Sail" in ext["page_title"] else "catamaran_motor",
     "type_label": {"catamaran_vela": "Catamarán a vela", "catamaran_motor": "Catamarán a motor"},
     "excluded_sources": [{"title": "Evaluaciones de terceros y testimonios de propietarios en la página", "url": None,

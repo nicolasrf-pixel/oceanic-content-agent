@@ -224,3 +224,39 @@ class Lagoon(unittest.TestCase):
         self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "2 x 57 hp")
         self.assertEqual(by["camarotes"]["display_value"], "3 / 4")
         self.assertEqual(specs.validate(spec), [])
+
+
+class XO(unittest.TestCase):
+    HTML = """<html><body><h1>DFNDR 9</h1><p>The award winning DFNDR 9 is a true pathfinder.</p>
+    <h2>Ready for a Rough Ride</h2><p>Inside the boat you’ll find a cozy cabin, where you can rest inbetween destinations.</p>
+    <p>The aft deck can be a sunbed while private head and berths for two enable comfortable overnight stay.</p>
+    <img data-guid="https://xoboats.com/wp-content/uploads/2022/02/XO_Boats-DFNDR9-2b.jpg" src="x-uai-720x480.jpg">
+    <img src="https://xoboats.com/wp-content/uploads/2022/02/XO_Boats-EXPLR9-0707-300x200.jpg">
+    <table class="woocommerce-product-attributes shop_attributes">
+    <tr><th>Overall Lenght (exc. engine)</th><td><p>8,8m</p></td></tr><tr><th>Beam</th><td><p>2,6m</p></td></tr>
+    <tr><th>Weight (excl. engine)</th><td><p>2710kg</p></td></tr><tr><th>Passengers</th><td><p>8/6</p></td></tr>
+    <tr><th>Fuel capacity</th><td><p>450</p></td></tr><tr><th>Classification</th><td><p>B/C</p></td></tr>
+    <tr><th>Outboard engines</th><td><p>2 x 225 – 450 hp</p></td></tr></table>
+    <p>XO Boats Oy Ludviginkatu</p></body></html>"""
+
+    def test_xo_specs_and_scope(self):
+        from oceanic.adapters import xo as adapter
+        from oceanic.builders import xo as builder, beneteau
+        ext = adapter.extract(self.HTML, "https://xoboats.com/xo-fleet/dfndr-9/", "2026-09-30")
+        self.assertEqual(ext["slug"], "xo-dfndr-9")
+        self.assertEqual(adapter.original_url("https://xoboats.com/wp-content/uploads/a/B-uai-720x480.jpg"),
+                         "https://xoboats.com/wp-content/uploads/a/B.jpg")
+        builder.prepare([ext, dict(ext, page_title="XO EXPLR 9", slug="xo-explr-9", images=[])])
+        ident = builder._with_cfg(beneteau.identity, ext)
+        spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
+        by = {f["oceanic_field"]: f for f in spec["fields"]}
+        self.assertEqual(by["eslora_total"]["display_value"], "8,8 m")
+        self.assertEqual(by["desplazamiento"]["display_value"], "2.710 kg")
+        self.assertEqual(by["capacidad_combustible"]["display_value"], "450 l")        # unit missing on the web
+        self.assertEqual(by["certificacion"]["status"], "REQUIRES_REVIEW")           # B8 / C6: fewer people in C
+        self.assertEqual(by["potencia_motor_maxima"]["display_value"], "450 hp (2 x 225 hp)")
+        self.assertEqual(by["camarotes"]["display_value"], "1")                       # text cross-reference
+        self.assertEqual(specs.validate(spec), [])
+        imgs = builder._with_cfg(beneteau.classify_images, ext, ident)["images"]
+        self.assertEqual({i["id"]: i["scope"] for i in imgs},
+                         {"xo-boats-dfndr9-2b": "THIS_MODEL", "xo-boats-explr9-0707": "OTHER_MODEL"})

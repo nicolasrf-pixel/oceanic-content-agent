@@ -29,6 +29,7 @@ PUBLISHER = "BENETEAU (Groupe Beneteau, Francia)"
 CFG = {
     "brand": BRAND, "brand_dir": BRAND_DIR, "publisher": PUBLISHER, "origin": "Beneteau · Francia",
     "builder": "beneteau", "adapter": "adapters/beneteau.py", "boat_type": None, "build_specs": None,
+    "site": "beneteau.com", "original_path": "/sites/default/files/",
     "type_label": {"vela": "Velero monocasco", "motor": "Motor"},
     "reasons": {},
     "excluded_sources": [{"title": "Configurador Beneteau", "url": "https://configurator.beneteau.com/",
@@ -49,7 +50,7 @@ def slugify(text: str) -> str:
 
 
 def model_slug(ext: dict) -> str:
-    return slugify(ext["page_title"])
+    return ext.get("slug") or slugify(ext["page_title"])
 
 
 def prepare(exts: list[dict]) -> None:
@@ -82,7 +83,8 @@ def identity(ext: dict) -> dict:
 RANGE_ALIASES = {"swift trawler": ["swift-trawler", "st"], "grand trawler": ["grand-trawler", "gt"],
                  "gran turismo": ["gran-turismo", "gt"], "oceanis yacht": ["oceanis-yacht", "oy"],
                  "oceanis": ["oceanis", "oc"], "first": ["first"], "flyer": ["flyer"], "antares": ["antares"],
-                 "figaro": ["figaro"], "lagoon": ["lagoon", "l"]}
+                 "figaro": ["figaro"], "lagoon": ["lagoon", "l"],
+                 "xo dfndr": ["dfndr"], "xo dscvr": ["dscvr"], "xo explr": ["explr"]}
 VARIANT_WORDS = ("sedan", "fly", "coupe", "open", "fishing", "sundeck", "spacedeck", "sport-top", "se", "spirit")
 
 
@@ -653,13 +655,13 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
         why = "Imagen de cabecera oficial de la página del modelo" if r["category"] == "HERO" else "Exterior horizontal del modelo"
         r.update(hero_candidate=True, hero_rank=rank, hero_reason=f"{why}; {r['scope_evidence']}")
     return {"model": ident["model"], "source_page": ext["source_url"],
-            "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); "
-                           "confirmar con Beneteau o el importador antes de publicar.",
+            "usage_terms": f"Imágenes de {CFG['site']}: uso sujeto a las condiciones del fabricante (Legal Notices); "
+                           f"confirmar con {CFG['brand']} o el importador antes de publicar.",
             "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; "
                                    "un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por "
                                    "nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
             "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original "
-                             "de /sites/default/files/. El original se referencia en `original`.",
+                             f"de {CFG['original_path']}. El original se referencia en `original`.",
             "images": recs}
 
 

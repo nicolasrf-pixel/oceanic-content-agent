@@ -1,0 +1,56 @@
+{
+  "model": "XO DFNDR 9",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · XO DFNDR 9",
+      "title": "XO DFNDR 9",
+      "type": "official_product_page",
+      "publisher": "XO Boats Oy (Helsinki, Finlandia)",
+      "url": "https://xoboats.com/xo-fleet/dfndr-9/",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "Firecrawl rawHtml + adapters/xo.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-xo-dfndr-9.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "DFNDR SERIES",
+      "type": "official_range_page",
+      "publisher": "XO Boats Oy (Helsinki, Finlandia)",
+      "url": "https://xoboats.com/fleet/dfndr/",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Reseñas de prensa enlazadas en la página (MBY, Venelehti)",
+      "url": null,
+      "reason": "Contenido de terceros: no aporta datos."
+    },
+    {
+      "title": "Configurador XO",
+      "url": "https://xoboats.com/configurator/",
+      "reason": "Herramienta comercial; no es la ficha del producto."
+    },
+    {
+      "title": "Prensa citada en la página (https://www.youtube.com/watch?v=LAMYe8E3JlI)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (https://www.mby.com/specials/xo-sportsboats-121711)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (https://venelehti.fi/koeajossa-xo-dfndr-9-vapaille-vesille/)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    }
+  ]
+}
