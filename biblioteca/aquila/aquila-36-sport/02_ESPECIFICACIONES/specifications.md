@@ -68,7 +68,7 @@ Valor Oceanic: **2 x 300 hp**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.aquilaboats.com/models/sport-power-catamaran/36) Web oficial · Aquila 36 Sport | Overview | Overview (texto) | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40% |  | 600 hp | La ficha técnica no publica motores; el texto oficial declara la motorización y su opción más potente. | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.aquilaboats.com/models/sport-power-catamaran/36) Web oficial · Aquila 36 Sport | Overview / secciones | Texto de la página | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40% |  | 600 hp | La ficha técnica no publica este campo; el texto oficial declara la motorización; se toma la opción más potente. | NO DECLARADO | 2026-09-30 |
 
 ## Eslora Casco · `eslora_casco` · VERIFIED
 
@@ -106,11 +106,11 @@ Valor Oceanic: **2**
 
 ## Motorización · `motorizacion` · VERIFIED
 
-Valor Oceanic: **Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%**
+Valor Oceanic: **Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves **
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.aquilaboats.com/models/sport-power-catamaran/36) Web oficial · Aquila 36 Sport | Overview | Overview (texto) | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40% |  | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%  | Motorización declarada en el texto oficial. | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.aquilaboats.com/models/sport-power-catamaran/36) Web oficial · Aquila 36 Sport | Overview / secciones | Texto de la página | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40% |  | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%  | La ficha técnica no publica este campo; motorización declarada en el texto oficial. | NO DECLARADO | 2026-09-30 |
 
 ## Calado · `calado` · NOT_FOUND
 

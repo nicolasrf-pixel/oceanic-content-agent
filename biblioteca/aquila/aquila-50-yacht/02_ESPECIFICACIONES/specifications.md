@@ -53,11 +53,13 @@ Valor Oceanic: **-**
 
 Nota: No publicado en la ficha técnica ni en el texto de la página del producto.
 
-## Certificación · `certificacion` · NOT_FOUND
+## Certificación · `certificacion` · VERIFIED
 
-Valor Oceanic: **-**
+Valor Oceanic: **A (sin número de personas publicado)**
 
-Nota: No publicado en la ficha técnica ni en el texto de la página del producto.
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.aquilaboats.com/models/yachts/50) Web oficial · Aquila 50 Yacht | Overview / secciones | Texto de la página | Category A ocean certification |  | A  | La ficha técnica no publica este campo; el texto oficial declara la categoría CE. | NO DECLARADO | 2026-09-30 |
 
 ## Potencia motor máx · `potencia_motor_maxima` · VERIFIED
 

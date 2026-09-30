@@ -14,7 +14,7 @@ Model year: **NO DECLARADO** · Variante: **Aquila 50 Yacht** · Configuración:
 | Camarotes | 3 (+4 opcional) (estándar) | VERIFIED |
 | Capacidad Combustible | 1.964 l | VERIFIED |
 | Capacidad Agua Dulce | - | NOT_FOUND |
-| Certificación | - | NOT_FOUND |
+| Certificación | A (sin número de personas publicado) | VERIFIED |
 | Potencia motor máx | 2 x 380 hp | VERIFIED |
 
 ## Otras especificaciones
@@ -31,7 +31,6 @@ Model year: **NO DECLARADO** · Variante: **Aquila 50 Yacht** · Configuración:
 
 - **Desplazamiento en rosca**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Capacidad Agua Dulce**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Certificación**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Calado**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
 
 ## Pendiente de decisión humana

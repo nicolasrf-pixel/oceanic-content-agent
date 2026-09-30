@@ -22,14 +22,14 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 42% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 47% (informativa; el estado lo deciden las reglas)
 
-Falta crítico: exterior, tabla_tecnica
+Falta crítico: exterior
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | MISSING | tabla base 3/8 verificada · faltan: camarotes, capacidad_combustible, capacidad_agua_dulce, certificacion, potencia_motor_maxima |
-| DATOS | especificaciones | PARTIAL | 5 campos con fuente |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 7/8 verificada · faltan: capacidad_agua_dulce |
+| DATOS | especificaciones | OK | 11 campos con fuente |
 | DATOS | caracteristicas | MISSING | no existe |
 | DATOS | equipamiento | MISSING | sin standard/optional |
 | EDITORIAL | hero | PARTIAL | 33 palabras fuente · sin candidato Oceanic |
@@ -37,7 +37,7 @@ Falta crítico: exterior, tabla_tecnica
 | EDITORIAL | diseno | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
 | EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 41 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | performance | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
 | MULTIMEDIA | hero_image | PARTIAL | 1 candidatas · sin descargar |
 | MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 0/18 |
 | MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 0/18 |
@@ -52,15 +52,16 @@ Falta crítico: exterior, tabla_tecnica
 
 - **Manga Casco**: Beam → 'Beam overall' = manga publicada del catamarán.
 - **Desplazamiento en rosca**: Dry Weight → Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca.
+- **Camarotes**: Texto de la página → La ficha técnica no publica este campo; el texto oficial describe las cabinas.
+- **Capacidad Combustible**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la capacidad de combustible (en galones; se normaliza a litros).
+- **Certificación**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la categoría CE.
+- **Potencia motor máx**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la motorización; se toma la opción más potente.
+- **Motorización**: Texto de la página → La ficha técnica no publica este campo; motorización declarada en el texto oficial.
+- **Capacidad de pasajeros**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la capacidad de personas.
 
 ## Información faltante o por revisar
 
-- **Camarotes** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Capacidad Combustible** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Capacidad Agua Dulce** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Certificación** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Potencia motor máx** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Motorización** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
 - Equipamiento: la web no publica lista standard ni optional; la web publica la ficha 'Spec Sheet' en PDF (documento, no aporta datos).
 - Características (03): la página no tiene bloques de características con título.
 - Traducción al español del equipamiento: pendiente.

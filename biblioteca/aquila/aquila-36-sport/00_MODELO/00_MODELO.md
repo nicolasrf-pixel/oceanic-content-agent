@@ -52,9 +52,9 @@
 - **Manga Casco**: Beam Overall → 'Beam overall' = manga publicada del catamarán.
 - **Desplazamiento en rosca**: Light Displacement → Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca.
 - **Camarotes**: Cabins/Heads/Showers → 'Cabins/Heads/Showers': el primer número es cabinas.
-- **Potencia motor máx**: Overview (texto) → La ficha técnica no publica motores; el texto oficial declara la motorización y su opción más potente.
+- **Potencia motor máx**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la motorización; se toma la opción más potente.
 - **Baños**: Cabins/Heads/Showers → 'Cabins/Heads/Showers': el segundo número es baños.
-- **Motorización**: Overview (texto) → Motorización declarada en el texto oficial.
+- **Motorización**: Texto de la página → La ficha técnica no publica este campo; motorización declarada en el texto oficial.
 
 ## Información faltante o por revisar
 

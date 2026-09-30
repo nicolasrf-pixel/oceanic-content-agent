@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 50,
+  "completeness_pct": 53,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Velocidad máxima",
@@ -10,12 +10,12 @@
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 5/8 verificada · faltan: desplazamiento, capacidad_agua_dulce, certificacion"
+      "detail": "tabla base 6/8 verificada · faltan: desplazamiento, capacidad_agua_dulce"
     },
     "especificaciones": {
       "group": "DATOS",
-      "status": "PARTIAL",
-      "detail": "9 campos con fuente"
+      "status": "OK",
+      "detail": "10 campos con fuente"
     },
     "caracteristicas": {
       "group": "DATOS",

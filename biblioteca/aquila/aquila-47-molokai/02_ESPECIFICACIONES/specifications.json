@@ -5,7 +5,7 @@
     "model_year": "NO DECLARADO",
     "variant": "Aquila 47 Molokai",
     "configuration": "según ficha técnica",
-    "engine_option": "-",
+    "engine_option": "Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri",
     "boat_type": "catamaran_motor",
     "range": "Molokai (offshore)"
   },
@@ -82,18 +82,48 @@
     {
       "oceanic_field": "camarotes",
       "label": "Camarotes",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "its luxurious cabin featuring a queen-sized island berth, full head with shower, and premium finishes throughout",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial describe las cabinas."
+        }
+      ],
+      "notes": ""
     },
     {
       "oceanic_field": "capacidad_combustible",
       "label": "Capacidad Combustible",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "1.048 US gal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "Its CE Certified Class B rating demonstrates offshore capability, while the catamaran's 14'7\" beam and 1,048-gallon fuel capacity ensure exceptional range and stability for pursuing distant waters",
+          "source_unit": null,
+          "normalized_value": 3967,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial declara la capacidad de combustible (en galones; se normaliza a litros)."
+        }
+      ],
+      "notes": ""
     },
     {
       "oceanic_field": "capacidad_agua_dulce",
@@ -106,18 +136,48 @@
     {
       "oceanic_field": "certificacion",
       "label": "Certificación",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "B (sin número de personas publicado)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "CE Certified Class B",
+          "source_unit": null,
+          "normalized_value": "B",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial declara la categoría CE."
+        }
+      ],
+      "notes": ""
     },
     {
       "oceanic_field": "potencia_motor_maxima",
       "label": "Potencia motor máx",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "4 x 400 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, rigidity, and fuel efficiency at high speeds",
+          "source_unit": null,
+          "normalized_value": 1600,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial declara la motorización; se toma la opción más potente."
+        }
+      ],
+      "notes": ""
     },
     {
       "oceanic_field": "eslora_casco",
@@ -166,10 +226,48 @@
     {
       "oceanic_field": "motorizacion",
       "label": "Motorización",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, rigidity, and fuel efficiency at high speeds",
+          "source_unit": null,
+          "normalized_value": "Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, rigidity, and fuel efficiency at high speeds",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; motorización declarada en el texto oficial."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "17",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 47 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/47-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "seating for up to 17 people",
+          "source_unit": null,
+          "normalized_value": 17,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial declara la capacidad de personas."
+        }
+      ],
+      "notes": ""
     }
   ]
 }

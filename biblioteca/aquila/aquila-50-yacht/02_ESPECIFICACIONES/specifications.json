@@ -135,10 +135,25 @@
     {
       "oceanic_field": "certificacion",
       "label": "Certificación",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+      "status": "VERIFIED",
+      "display_value": "A (sin número de personas publicado)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Texto de la página",
+          "source_value": "Category A ocean certification",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview / secciones",
+          "cross_reference": "La ficha técnica no publica este campo; el texto oficial declara la categoría CE."
+        }
+      ],
+      "notes": ""
     },
     {
       "oceanic_field": "potencia_motor_maxima",

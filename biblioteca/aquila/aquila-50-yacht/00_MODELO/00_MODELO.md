@@ -22,14 +22,14 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 50% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 53% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Velocidad máxima, Velocidad crucero
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 5/8 verificada · faltan: desplazamiento, capacidad_agua_dulce, certificacion |
-| DATOS | especificaciones | PARTIAL | 9 campos con fuente |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 6/8 verificada · faltan: desplazamiento, capacidad_agua_dulce |
+| DATOS | especificaciones | OK | 10 campos con fuente |
 | DATOS | caracteristicas | MISSING | no existe |
 | DATOS | equipamiento | OK | standard.md, optional.md |
 | EDITORIAL | hero | PARTIAL | 34 palabras fuente · sin candidato Oceanic |
@@ -53,6 +53,7 @@ Conflictos sin resolver: Velocidad máxima, Velocidad crucero
 - **Manga Casco**: Beam Overall → 'Beam overall' = manga publicada del catamarán.
 - **Camarotes**: Cabin Configuration (standard) → 'Cabin Configuration (standard)': 3 cabin / 3 head + utility room.
 - **Camarotes**: Cabin Configuration (optional) → Configuración opcional publicada en la ficha.
+- **Certificación**: Texto de la página → La ficha técnica no publica este campo; el texto oficial declara la categoría CE.
 - **Potencia motor máx**: Engine (standard) → Motorización estándar publicada (no hay opción más potente).
 - **Baños**: Cabin Configuration (standard) → 'Cabin Configuration (standard)': 3 cabin / 3 head + utility room.
 - **Baños**: Cabin Configuration (optional) → Configuración opcional publicada en la ficha.
@@ -62,7 +63,6 @@ Conflictos sin resolver: Velocidad máxima, Velocidad crucero
 
 - **Desplazamiento en rosca** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Capacidad Agua Dulce** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Certificación** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Velocidad máxima** (REQUIRES_REVIEW): La web la declara estimada y no contractual: 'WOT @ 22knots / Cruise Speed @ 18-19 knots'.
 - **Velocidad crucero** (REQUIRES_REVIEW): La web la declara estimada y no contractual: 'WOT @ 22knots / Cruise Speed @ 18-19 knots'.
 - **Calado** (NOT_FOUND): No publicado en la ficha técnica ni en el texto de la página del producto.

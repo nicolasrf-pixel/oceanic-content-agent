@@ -1,6 +1,6 @@
 # Características · Aquila 47 Molokai
 
-Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuración: **según ficha técnica** · Motorización: **-**
+Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuración: **según ficha técnica** · Motorización: **Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri**
 
 > Tabla generada desde `specifications.json` (`python -m oceanic render`). No editar a mano.
 
@@ -11,11 +11,11 @@ Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuració
 | Eslora Total | 14,62 m | VERIFIED |
 | Manga Casco | 4,41 m | VERIFIED |
 | Desplazamiento en rosca | 10.350 kg | VERIFIED |
-| Camarotes | - | NOT_FOUND |
-| Capacidad Combustible | - | NOT_FOUND |
+| Camarotes | 1 | VERIFIED |
+| Capacidad Combustible | 1.048 US gal | VERIFIED |
 | Capacidad Agua Dulce | - | NOT_FOUND |
-| Certificación | - | NOT_FOUND |
-| Potencia motor máx | - | NOT_FOUND |
+| Certificación | B (sin número de personas publicado) | VERIFIED |
+| Potencia motor máx | 4 x 400 hp | VERIFIED |
 
 ## Otras especificaciones
 
@@ -23,13 +23,9 @@ Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuració
 | --- | --- | --- |
 | Eslora Casco | 13,94 m | VERIFIED |
 | Calado | 1,11 m | VERIFIED |
-| Motorización | - | NOT_FOUND |
+| Motorización | Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri | VERIFIED |
+| Capacidad de pasajeros | 17 | VERIFIED |
 
 ## Campos no encontrados en fuentes oficiales
 
-- **Camarotes**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Capacidad Combustible**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
 - **Capacidad Agua Dulce**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Certificación**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Potencia motor máx**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.
-- **Motorización**: NO ENCONTRADO — No publicado en la ficha técnica ni en el texto de la página del producto.

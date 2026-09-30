@@ -130,7 +130,7 @@ def extract(raw_html: str, url: str, accessed_at: str) -> dict:
     # Sections: h2 blocks with paragraphs (skip owners' testimonials and third-party reviews).
     for h2 in soup.find_all("h2"):
         title = h2.get_text(" ", strip=True)
-        if re.search(r"owner|third-party|virtual|request|external evaluation|in action|walkthrough", title, re.I):
+        if re.search(r"owner|third-party|virtual|request|external evaluation|in action|walkthrough|beyond the brand", title, re.I):
             continue
         texts = []
         for sib in h2.find_all_next(["p", "h2"]):

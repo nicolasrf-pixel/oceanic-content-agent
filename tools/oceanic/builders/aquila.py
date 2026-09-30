@@ -203,23 +203,6 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
         if opt:  # two different engines are not a conflict: standard + option
             fields[mkey]["records"] = fields[mkey]["records"][:1]
             fields[mkey]["notes"] = f"Opción publicada: {opt['values'][0]}."
-    else:
-        # Engines only in the overview text (e.g. "Twin Mercury Verado V6 225HP engines (upgradable to 300HP ...)").
-        m = re.search(r"[^.]*\b(?:twin|triple|\dx?)\s+(?:Mercury|Volvo|Yamaha|Suzuki|Yanmar)[^.]*\d{3}\s*HP[^.]*", ext["description"], re.I)
-        if m:
-            q = m.group(0).strip()
-            pkey = "potencia_motor_auxiliar" if boat == "catamaran_vela" else "potencia_motor_maxima"
-            hps = [int(h) for h in re.findall(r"(\d{3})\s*HP", q, re.I)]
-            n = 2 if re.search(r"twin|2x", q, re.I) else 3 if re.search(r"triple|3x", q, re.I) else 1
-            fields[pkey] = _field(pkey, labels[pkey], "VERIFIED",
-                                  [B._text_record(src, "Overview (texto)", q, n * max(hps), "hp", "Overview",
-                                                  "La ficha técnica no publica motores; el texto oficial declara la "
-                                                  "motorización y su opción más potente.")],
-                                  display=f"{n} x {max(hps)} hp" if n > 1 else f"{max(hps)} hp")
-            mkey = "motor_auxiliar" if boat == "catamaran_vela" else "motorizacion"
-            fields[mkey] = _field(mkey, labels[mkey], "VERIFIED",
-                                  [B._text_record(src, "Overview (texto)", q, q, None, "Overview",
-                                                  "Motorización declarada en el texto oficial.")], display=q)
 
     # Performance declared as estimated → REQUIRES_REVIEW.
     for row in rows:
@@ -235,6 +218,53 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                 fields["velocidad_crucero"] = _field("velocidad_crucero", labels["velocidad_crucero"], "REQUIRES_REVIEW",
                                                      [rec(row, m.group(1), "nudos")], display=f"{m.group(1)} nudos",
                                                      notes=f"La web la declara estimada y no contractual: '{v}'.")
+
+    # Cross-references with the official text when the spec table does not publish a field (rule 2).
+    text = "\n".join([ext["description"]] + [x["intro"] for x in ext["sections"]])
+    NUM = {"a": 1, "one": 1, "single": 1, "two": 2, "twin": 2, "dual": 2, "three": 3, "triple": 3, "four": 4, "quad": 4}
+
+    def xtext(key, disp, norm, unit, quote, why):
+        fields[key] = _field(key, labels[key], "VERIFIED",
+                             [B._text_record(src, "Texto de la página", quote.strip(), norm, unit, "Overview / secciones",
+                                             f"La ficha técnica no publica este campo; {why}")], display=disp)
+
+    pkey = "potencia_motor_auxiliar" if boat == "catamaran_vela" else "potencia_motor_maxima"
+    if pkey not in fields:
+        combos = [(NUM[m.group(1).lower()], int(m.group(2)), m) for m in
+                  re.finditer(r"\b(twin|triple|quad|dual)\s+(?:[A-Z][\w-]*\s+){0,3}?(\d{3})\s*HP", text, re.I)]
+        combos += [(int(m.group(1)), int(m.group(2)), m) for m in re.finditer(r"\b(\d)\s*x\s*(?:[A-Z][\w-]*\s+){0,3}?(\d{3})\s*HP", text, re.I)]
+        if combos:
+            n, hp, m = max(combos, key=lambda c: c[0] * c[1])
+            sent = re.search(r"[^.]*" + re.escape(m.group(0)) + r"[^.]*", text).group(0)
+            xtext(pkey, f"{n} x {hp} hp" if n > 1 else f"{hp} hp", n * hp, "hp", sent,
+                  "el texto oficial declara la motorización; se toma la opción más potente.")
+            mkey = "motor_auxiliar" if boat == "catamaran_vela" else "motorizacion"
+            if mkey not in fields:
+                xtext(mkey, sent.strip()[:160], sent.strip(), None, sent, "motorización declarada en el texto oficial.")
+    if "capacidad_combustible" not in fields:
+        m = re.search(r"([\d,]+)-gallon fuel", text, re.I)
+        if m:
+            gal = float(m.group(1).replace(",", ""))
+            xtext("capacidad_combustible", f"{_fmt(gal, 0)} US gal", round(gal * 3.78541), "l",
+                  re.search(r"[^.]*" + re.escape(m.group(0)) + r"[^.]*", text).group(0),
+                  "el texto oficial declara la capacidad de combustible (en galones; se normaliza a litros).")
+    if "certificacion" not in fields:
+        m = re.search(r"CE Certified Class ([A-D])|Category ([A-D]) ocean certification|CE category ([A-D])", text, re.I)
+        if m:
+            cat = next(g for g in m.groups() if g).upper()
+            xtext("certificacion", f"{cat} (sin número de personas publicado)", cat, None, m.group(0),
+                  "el texto oficial declara la categoría CE.")
+    if "capacidad_pasajeros" not in fields:
+        m = re.search(r"seating for up to (\d+) people", text, re.I)
+        if m:
+            xtext("capacidad_pasajeros", m.group(1), int(m.group(1)), None, m.group(0),
+                  "el texto oficial declara la capacidad de personas.")
+    if "camarotes" not in fields:
+        m = re.search(r"\b(a|one|two|three|four|its)\s+(?:(?:private|comfortable|luxurious|appointed|spacious)\s+)*cabins?\b[^.]*",
+                      text, re.I)
+        if m:
+            n = NUM.get(m.group(1).lower(), 1)
+            xtext("camarotes", str(n), n, None, m.group(0), "el texto oficial describe las cabinas.")
 
     for key, extra in notes_extra.items():
         if key in fields:
