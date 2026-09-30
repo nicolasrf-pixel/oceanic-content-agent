@@ -548,7 +548,7 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
 # ---------------------------------------------------------------- images
 
 def _category(im: dict) -> tuple[str, str]:
-    f = im["file_name"].lower()
+    f = (im["file_name"] + " " + (im.get("alt") or "")).lower()
     title = (im["section_title"] or "").lower()
     if im["role"] == "hero":
         return "HERO", "alta"
@@ -592,7 +592,10 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
         fm = _file_model(im["file_name"])
         known = fm and (fm[0], fm[1]) in _CORPUS.get("models", set())
         exact = bool(fm and fm[1] == own["size"] and sorted(fm[2]) == sorted(own["variants"]))
-        if re.search(r"connected boat|partner|smart boat", im["section_title"] or "", re.I) or \
+        hint = CFG.get("scope_hint") and CFG["scope_hint"](im, ident, ext)
+        if hint:
+            scope, ev = hint
+        elif re.search(r"connected boat|partner|smart boat", im["section_title"] or "", re.I) or \
                 re.search(r"(^|[-_])logo[-_]|seanapps", im["file_name"], re.I):
             scope, ev = "NOT_MODEL_SPECIFIC", "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco."
         elif others and exact:
@@ -644,7 +647,7 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
                 r["download_status"] = "PENDING" if ov["scope"] == "THIS_MODEL" else \
                     f"NOT_DOWNLOADED (fuera de alcance: {ov['scope']})"
     pool = [r for r in recs if r["scope"] == "THIS_MODEL" and r["category"] in ("HERO", "EXTERIOR", "UNDERWAY")
-            and (r["declared_width"] or 0) >= (r["declared_height"] or 1)]
+            and ((r["declared_width"] or 0) >= (r["declared_height"] or 1) or not (r["declared_width"] or r["declared_height"]))]
     pool.sort(key=lambda r: (r["category"] == "HERO", r["declared_width"] or 0), reverse=True)
     for rank, r in enumerate(pool[:3], 1):
         why = "Imagen de cabecera oficial de la página del modelo" if r["category"] == "HERO" else "Exterior horizontal del modelo"
@@ -927,6 +930,7 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
                      "format": None, "resolution": None, "description": None, "cover_image": v["thumbnail"],
                      "source_page": ext["source_url"], "date": None, "date_note": "YouTube no expone fecha en la página",
                      "scope": "REQUIRES_REVIEW" if others else "THIS_MODEL",
+                     "third_party": v.get("third_party", False),
                      "notes": f"También en: {', '.join(others)}" if others else "Incrustado en la página del modelo.",
                      "downloaded": False})
     (model_dir / "05_MULTIMEDIA" / "VIDEOS").mkdir(parents=True, exist_ok=True)

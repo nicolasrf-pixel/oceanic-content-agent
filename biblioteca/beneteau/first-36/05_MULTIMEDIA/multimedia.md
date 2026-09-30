@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `header-first36-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'header-first36_1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/header-first36_1.jpg.webp?itok=byY5VdmG) |
+| 2 | `first36-nav1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first36-nav1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/first36-nav1.jpg.webp?itok=UZcA2zii) |
+| 3 | `first36-nav2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first36-nav2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/first36-nav2.jpg.webp?itok=4u0i_ju-) |
 
 ## Imágenes del modelo (24)
 

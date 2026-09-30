@@ -1,0 +1,217 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 54 Yacht",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 54 Yacht",
+    "configuration": "según ficha técnica",
+    "engine_option": "-",
+    "boat_type": "catamaran_motor",
+    "range": "Yacht"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "16,5 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "16.5 m",
+          "source_unit": "m",
+          "normalized_value": 16.5,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 54'2\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,68 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "7.68 m",
+          "source_unit": "m",
+          "normalized_value": 7.68,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 25'2\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "23.300 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light Ship Displacement",
+          "source_value": "23,300 kg",
+          "source_unit": "kg",
+          "normalized_value": 23300.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 52,367 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2.200 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Capacity",
+          "source_value": "2,200 L",
+          "source_unit": "l",
+          "normalized_value": 2200.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 581 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "1.000 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fresh Water",
+          "source_value": "1,000 L",
+          "source_unit": "l",
+          "normalized_value": 1000.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Se publica el valor métrico '1,000 L' (decisión Oceanic: el métrico prevalece). La web publica además '238 GAL' (≈ 900,93 l), que no coincide: error de la web en el valor imperial."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A12 / B12 / C20 / D30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "A: 12; B;12; C:20; D:30",
+          "source_unit": null,
+          "normalized_value": "A12 / B12 / C20 / D30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,37 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max Draft",
+          "source_value": "1.37 m",
+          "source_unit": "m",
+          "normalized_value": 1.37,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4'6\" (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "340 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 54 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/54",
+          "accessed_at": "2026-09-30",
+          "source_field": "Holding Tank",
+          "source_value": "340 L",
+          "source_unit": "l",
+          "normalized_value": 340.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 90 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

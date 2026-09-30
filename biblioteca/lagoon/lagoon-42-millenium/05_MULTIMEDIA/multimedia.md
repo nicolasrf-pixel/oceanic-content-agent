@@ -10,9 +10,9 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `l42-millenium-ext-1920x1280-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x1280-2.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg) |
-| 2 | `l42-millenium-ext-1920x720-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x720-1.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg) |
-| 3 | `l42-millenium-ext-1920x1280-3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x1280-3.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-3.jpg) |
+| 1 | `l42-millenium-cover-1920x1080` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'L42-millenium-cover-1920x1080.jpg' con el nombre del modelo. | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-cover-1920x1080.jpg) |
+| 2 | `l42-millenium-ext-1920x1280-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x1280-2.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg) |
+| 3 | `l42-millenium-ext-1920x720-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'L42-MILLENIUM-EXT-1920x720-1.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg) |
 
 ## Imágenes del modelo (26)
 

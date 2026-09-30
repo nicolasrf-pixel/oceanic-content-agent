@@ -10,9 +10,9 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `lagoon-46-iconic-slider-19` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-19.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-19.jpg) |
-| 2 | `lagoon-46-iconic-slider-18` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-18.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-18.jpg) |
-| 3 | `lagoon-46-iconic-slider-23` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-23.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-23.jpg) |
+| 1 | `cover-lagoon-46-iconic-03` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'cover-lagoon-46-iconic-03.jpg' con el nombre del modelo. | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/cover-lagoon-46-iconic-03.jpg) |
+| 2 | `lagoon-46-iconic-slider-19` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-19.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-19.jpg) |
+| 3 | `lagoon-46-iconic-slider-18` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-18.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-18.jpg) |
 
 ## Imágenes del modelo (29)
 

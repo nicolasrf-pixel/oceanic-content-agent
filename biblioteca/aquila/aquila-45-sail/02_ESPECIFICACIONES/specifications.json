@@ -1,0 +1,323 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 45 Sail",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 45 Sail",
+    "configuration": "según ficha técnica",
+    "engine_option": "2x Volvo Penta 50HP Saildrive",
+    "boat_type": "catamaran_vela",
+    "range": "Sail"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "14,38 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "14.38 m",
+          "source_unit": "m",
+          "normalized_value": 14.38,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 47’ 2\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,77 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam",
+          "source_value": "7.77 m",
+          "source_unit": "m",
+          "normalized_value": 7.77,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 25’ 5” (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins",
+          "source_value": "3 / 4",
+          "source_unit": null,
+          "normalized_value": "3 / 4",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "620 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel Tank",
+          "source_value": "620 L",
+          "source_unit": "l",
+          "normalized_value": 620.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 163GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A12 / B12 / C20 / D30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification (preliminary)",
+          "source_value": "A: 12, B: 12, C: 20, D: 30",
+          "source_unit": null,
+          "normalized_value": "A12 / B12 / C20 / D30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web.",
+      "display_note": "preliminar"
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "125,6 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "TOTAL UPWIND AREA",
+          "source_value": "125.6 SQ m | 1,357.9 SQ FT",
+          "source_unit": null,
+          "normalized_value": 125.6,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Total upwind area' = superficie vélica de ceñida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 50 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "DIESEL",
+          "source_value": "2x Volvo Penta 50HP Saildrive",
+          "source_unit": null,
+          "normalized_value": 100,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,56 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Draft",
+          "source_value": "1.56 m",
+          "source_unit": "m",
+          "normalized_value": 1.56,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 5’ 1” will vary depending on load (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Maximum passengers",
+          "source_value": "30",
+          "source_unit": null,
+          "normalized_value": "30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "78 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Mainsail standard pin top",
+          "source_value": "78 SQ m | 839.6 SQ FT",
+          "source_unit": null,
+          "normalized_value": 78.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "47,6 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Furling Genoa",
+          "source_value": "47.58 SQ m | 512.1 SQ FT",
+          "source_unit": null,
+          "normalized_value": 47.58,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "3 / 4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "Heads with Showers",
+          "source_value": "3 / 4",
+          "source_unit": null,
+          "normalized_value": "3 / 4",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2x Volvo Penta 50HP Saildrive",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "DIESEL",
+          "source_value": "2x Volvo Penta 50HP Saildrive",
+          "source_unit": null,
+          "normalized_value": "2x Volvo Penta 50HP Saildrive",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

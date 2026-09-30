@@ -1,0 +1,329 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 36 Molokai",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 36 Molokai",
+    "configuration": "según ficha técnica",
+    "engine_option": "2X Mercury V8 300 HP",
+    "boat_type": "catamaran_motor",
+    "range": "Molokai (offshore)"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "11,63 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "LENGTH OVERALL",
+          "source_value": "11.63 m",
+          "source_unit": "m",
+          "normalized_value": 11.63,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 38' 2\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "3,59 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "BEAM OVERALL",
+          "source_value": "3.59 m",
+          "source_unit": "m",
+          "normalized_value": 3.59,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 11' 9\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "5.846 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "LIGHT DISPLACEMENT",
+          "source_value": "5,846 kg",
+          "source_unit": "kg",
+          "normalized_value": 5846.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 12,888 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "CABINS AND HEADS",
+          "source_value": "1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'CABINS AND HEADS': el primer número es cabinas."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "1.924 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "FUEL TANK",
+          "source_value": "1,924 L",
+          "source_unit": "l",
+          "normalized_value": 1924.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 508 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "80 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "WATER TANK",
+          "source_value": "80 L",
+          "source_unit": "l",
+          "normalized_value": 80.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 21 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B8 / C12 / D16",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE CERTIFICATIONS",
+          "source_value": "B: 8, C:12, D: 16",
+          "source_unit": null,
+          "normalized_value": "B8 / C12 / D16",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 300 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X Mercury V8 300 HP",
+          "source_unit": null,
+          "normalized_value": 600,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1.065 mm / 3' 6\"",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "DRAFT",
+          "source_value": "1,065 mm / 3' 6\"",
+          "source_unit": null,
+          "normalized_value": 1.07,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "SLEEPS UP TO",
+          "source_value": "2",
+          "source_unit": null,
+          "normalized_value": "2",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "16",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "MAXIMUM PASSENGERS",
+          "source_value": "16",
+          "source_unit": null,
+          "normalized_value": "16",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "80 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "HOLDING TANK",
+          "source_value": "80 L",
+          "source_unit": "l",
+          "normalized_value": 80.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 21 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "CABINS AND HEADS",
+          "source_value": "1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'CABINS AND HEADS': el segundo número es baños."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2X Mercury V8 300 HP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X Mercury V8 300 HP",
+          "source_unit": null,
+          "normalized_value": "2X Mercury V8 300 HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

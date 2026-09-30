@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `hero-firstse-v2` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2022-09/hero-firstse-v2.jpg.webp?itok=sSHmYdu9) |
+| 2 | `first14se-sailing-exp` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14se-sailing-exp.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-07/first14se-sailing-exp.jpg.webp?itok=pIqh0WNL) |
+| 3 | `first14se-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14se-sailing-exp2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-07/first14se-sailing-exp2.jpg.webp?itok=ZQ0OoCWY) |
 
 ## Imágenes del modelo (15)
 

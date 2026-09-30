@@ -37,7 +37,7 @@
 | EDITORIAL | ingenieria | OK | 61 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | OK | 2 candidatas |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
 | MULTIMEDIA | exterior | PARTIAL | 2 en inventario (mín. 3) · descargadas 48/48 |
 | MULTIMEDIA | interior | OK | 11 en inventario (mín. 2) · descargadas 48/48 |
 | MULTIMEDIA | detail | OK | 4 en inventario (mín. 2) · descargadas 48/48 |

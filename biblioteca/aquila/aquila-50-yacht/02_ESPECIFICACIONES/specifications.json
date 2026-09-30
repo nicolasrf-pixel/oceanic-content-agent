@@ -1,0 +1,280 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 50 Yacht",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 50 Yacht",
+    "configuration": "según ficha técnica",
+    "engine_option": "2 x Volvo Penta D6 380HP",
+    "boat_type": "catamaran_motor",
+    "range": "Yacht"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "15,9 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "15.9 m",
+          "source_unit": "m",
+          "normalized_value": 15.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 52'2\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,76 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "7.76 m",
+          "source_unit": "m",
+          "normalized_value": 7.76,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 25'6\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 (+4 opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabin Configuration (standard)",
+          "source_value": "3 cabin / 3 head + utility room",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabin Configuration (standard)': 3 cabin / 3 head + utility room."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabin Configuration (optional)",
+          "source_value": "4 cabin / 4 head + Cpt. Quarters (optional)",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Configuración opcional publicada en la ficha."
+        }
+      ],
+      "notes": "",
+      "display_note": "estándar"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "1.964 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel (standard tanks)",
+          "source_value": "1,964 L",
+          "source_unit": "l",
+          "normalized_value": 1964.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 518 gallons (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 380 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Engine (standard)",
+          "source_value": "2 x Volvo Penta D6 380HP",
+          "source_unit": null,
+          "normalized_value": 760,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "3 (+4 opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabin Configuration (standard)",
+          "source_value": "3 cabin / 3 head + utility room",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabin Configuration (standard)': 3 cabin / 3 head + utility room."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabin Configuration (optional)",
+          "source_value": "4 cabin / 4 head + Cpt. Quarters (optional)",
+          "source_unit": null,
+          "normalized_value": "3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Configuración opcional publicada en la ficha."
+        }
+      ],
+      "notes": "",
+      "display_note": "estándar"
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2 x Volvo Penta D6 380HP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Engine (standard)",
+          "source_value": "2 x Volvo Penta D6 380HP",
+          "source_unit": null,
+          "normalized_value": "2 x Volvo Penta D6 380HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "22 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Estimated Performance (estimated speeds non-contactual)",
+          "source_value": "WOT @ 22knots / Cruise Speed @ 18-19 knots",
+          "source_unit": null,
+          "normalized_value": "22",
+          "normalized_unit": "nudos",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "La web la declara estimada y no contractual: 'WOT @ 22knots / Cruise Speed @ 18-19 knots'."
+    },
+    {
+      "oceanic_field": "velocidad_crucero",
+      "label": "Velocidad crucero",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "18-19 nudos",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Estimated Performance (estimated speeds non-contactual)",
+          "source_value": "WOT @ 22knots / Cruise Speed @ 18-19 knots",
+          "source_unit": null,
+          "normalized_value": "18-19",
+          "normalized_unit": "nudos",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "La web la declara estimada y no contractual: 'WOT @ 22knots / Cruise Speed @ 18-19 knots'."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

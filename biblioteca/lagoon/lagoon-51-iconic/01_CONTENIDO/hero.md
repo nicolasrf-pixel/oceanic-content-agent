@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `catamaran-lagoon-51-iconic-slider-01-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-51-iconic-slider-01_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
-| 2 | `lagoon-51-iconic-parallax` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-51-iconic-parallax.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
-| 3 | `lagoon-51-iconic-slider-18` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-51-iconic-slider-18.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 1 | `cover-lagoon-51-iconic` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'cover-lagoon-51-iconic.jpg' con el nombre del modelo. |
+| 2 | `catamaran-lagoon-51-iconic-slider-01-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-51-iconic-slider-01_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 3 | `lagoon-51-iconic-parallax` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-51-iconic-parallax.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |

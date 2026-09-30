@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `first14-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first14-header.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/first14-header.jpg.webp?itok=SQ4Zy8v3) |
+| 2 | `first14-sailing-exp1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14-sailing-exp1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first14-sailing-exp1.jpg.webp?itok=Bp3dbJZB) |
+| 3 | `first14-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14-sailing-exp2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first14-sailing-exp2.jpg.webp?itok=g55CEah7) |
 
 ## Imágenes del modelo (13)
 

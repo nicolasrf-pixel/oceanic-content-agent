@@ -204,7 +204,6 @@
       "download_status": "WEB_COPY",
       "hero_rank": 1,
       "bytes": 275996,
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L55_NCF3109_web%20%281%29_0.jpg",
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L55_NCF3109_web%20%281%29_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L55_NCF3109_web%20%281%29_0.jpg",
@@ -214,7 +213,8 @@
         "format": "jpeg",
         "bytes": 498066,
         "full_resolution": true
-      }
+      },
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L55_NCF3109_web%20%281%29_0.jpg"
     },
     {
       "id": "l55-exterior-1920x720-1",

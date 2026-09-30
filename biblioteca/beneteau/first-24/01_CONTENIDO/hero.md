@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `first24-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first24-header.jpg' con el nombre del modelo. |
+| 2 | `first24-sailing-exp1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first24-sailing-exp1.jpg' con el nombre del modelo. |
+| 3 | `first24-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first24-sailing-exp2.jpg' con el nombre del modelo. |

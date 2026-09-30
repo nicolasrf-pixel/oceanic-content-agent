@@ -10,9 +10,9 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `slider-lagoon-43-06-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-06_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-06_0.jpg) |
-| 2 | `slider-lagoon-43-24` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-24.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-24.jpg) |
-| 3 | `slider-lagoon-43-10-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-10_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-10_0.jpg) |
+| 1 | `cover-lagoon-43-1920x1080` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'cover-lagoon-43-1920x1080.jpg' con el nombre del modelo. | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-lagoon-43-1920x1080.jpg) |
+| 2 | `slider-lagoon-43-06-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-06_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-06_0.jpg) |
+| 3 | `slider-lagoon-43-24` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'slider-lagoon-43-24.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-24.jpg) |
 
 ## Imágenes del modelo (48)
 

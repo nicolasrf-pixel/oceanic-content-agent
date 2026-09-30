@@ -29,5 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). |
-| 2 | `s5-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 1 | `cover-catamaran-lagoon-sixty-5-0` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
+| 2 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 3 | `s5-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30). |

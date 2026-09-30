@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `lagoon-82-slider-1920x720-01` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-01.png' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
-| 2 | `catamaran-lagoon-eigthy-2-interior-slider-47` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). |
-| 3 | `lagoon-82-slider-1920x720-02` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 1 | `lagoon-eighty-2-mobile-cover-768x1024` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
+| 2 | `lagoon-82-slider-1920x720-01` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'Lagoon-82-slider-1920x720-01.png' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 3 | `catamaran-lagoon-eigthy-2-interior-slider-47` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). |

@@ -38,7 +38,7 @@ Falta crítico: tabla_tecnica
 | EDITORIAL | ingenieria | OK | 225 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | OK | 166 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 161 palabras fuente · candidato Oceanic presente |
-| MULTIMEDIA | hero_image | OK | 1 candidatas |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
 | MULTIMEDIA | exterior | OK | 5 en inventario (mín. 3) · descargadas 17/17 |
 | MULTIMEDIA | interior | OK | 3 en inventario (mín. 2) · descargadas 17/17 |
 | MULTIMEDIA | detail | OK | 5 en inventario (mín. 2) · descargadas 17/17 |

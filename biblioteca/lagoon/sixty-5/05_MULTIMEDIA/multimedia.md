@@ -10,8 +10,9 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg) |
-| 2 | `s5-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg) |
+| 1 | `cover-catamaran-lagoon-sixty-5-0` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg) |
+| 2 | `s5-exterior-1920x720-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg) |
+| 3 | `s5-exterior-1920x720-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Pictures & videos'). Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg) |
 
 ## Imágenes del modelo (48)
 

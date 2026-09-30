@@ -1,0 +1,287 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 36 Sport",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 36 Sport",
+    "configuration": "según ficha técnica",
+    "engine_option": "Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%",
+    "boat_type": "catamaran_motor",
+    "range": "Sport"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "10,96 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "10.96 m",
+          "source_unit": "m",
+          "normalized_value": 10.96,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 36'0\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,45 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "4.45 m",
+          "source_unit": "m",
+          "normalized_value": 4.45,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 14'7\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "6.608 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light Displacement",
+          "source_value": "6,608 kg",
+          "source_unit": "kg",
+          "normalized_value": 6608.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 14,568 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "2 / 2 / 2",
+          "source_unit": null,
+          "normalized_value": 2,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el primer número es cabinas."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B8 / C18 / D26",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "B:8, C:18, D:26",
+          "source_unit": null,
+          "normalized_value": "B8 / C18 / D26",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 300 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Overview (texto)",
+          "source_value": "Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%",
+          "source_unit": null,
+          "normalized_value": 600,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Overview",
+          "cross_reference": "La ficha técnica no publica motores; el texto oficial declara la motorización y su opción más potente."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "9,94 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull Length",
+          "source_value": "9.94 m",
+          "source_unit": "m",
+          "normalized_value": 9.94,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 32'7\" (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6 (2 in salon)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Sleeps",
+          "source_value": "6 (2 in salon)",
+          "source_unit": null,
+          "normalized_value": "6 (2 in salon)",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "26",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max Passengers",
+          "source_value": "26",
+          "source_unit": null,
+          "normalized_value": "26",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "2 / 2 / 2",
+          "source_unit": null,
+          "normalized_value": 2,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el segundo número es baños."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 36 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/36",
+          "accessed_at": "2026-09-30",
+          "source_field": "Overview (texto)",
+          "source_value": "Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%",
+          "source_unit": null,
+          "normalized_value": "Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves efficiency, boosting fuel economy by up to 40%",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Overview",
+          "cross_reference": "Motorización declarada en el texto oficial."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

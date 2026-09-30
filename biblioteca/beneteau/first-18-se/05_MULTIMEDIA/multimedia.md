@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `first-18-se-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first_18_se_1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/first_18_se_1.jpg.webp?itok=0r0zkJfh) |
+| 2 | `first18-se-sailing-exp` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first18-se-sailing-exp.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first18-se-sailing-exp.jpg.webp?itok=ZAwy4iYw) |
+| 3 | `first18-se-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first18-se-sailing-exp2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first18-se-sailing-exp2.jpg.webp?itok=QH1QT57V) |
 
 ## Imágenes del modelo (15)
 

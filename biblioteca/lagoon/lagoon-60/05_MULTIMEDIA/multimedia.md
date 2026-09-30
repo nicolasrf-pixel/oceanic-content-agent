@@ -10,9 +10,9 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `lagoon-60-slider-09-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-09-1920x720_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg) |
-| 2 | `lagoon-60-slider-27-1920x1280` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-27-1920x1280.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg) |
-| 3 | `lagoon-60-slider-15-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-15-1920x720_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg) |
+| 1 | `lagoon-60-mobile-cover-768x1024` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'lagoon-60-mobile-cover-768x1024.jpg' con el nombre del modelo. | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg) |
+| 2 | `lagoon-60-slider-09-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-09-1920x720_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg) |
+| 3 | `lagoon-60-slider-27-1920x1280` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-27-1920x1280.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg) |
 
 ## Imágenes del modelo (45)
 

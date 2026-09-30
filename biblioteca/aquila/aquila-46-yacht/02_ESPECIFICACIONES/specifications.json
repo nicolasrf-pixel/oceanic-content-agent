@@ -1,0 +1,313 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 46 Yacht",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 46 Yacht",
+    "configuration": "según ficha técnica",
+    "engine_option": "2X D4 320 HP VOLVO PENTA",
+    "boat_type": "catamaran_motor",
+    "range": "Yacht"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "14,36 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "LENGTH OVERALL",
+          "source_value": "14.36 m",
+          "source_unit": "m",
+          "normalized_value": 14.36,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 47' 2\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,1 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "BEAM OVERALL",
+          "source_value": "7.1 m",
+          "source_unit": "m",
+          "normalized_value": 7.1,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 23' 3\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 4 / 5",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "CABINS",
+          "source_value": "3 / 4 / 5",
+          "source_unit": null,
+          "normalized_value": "3 / 4 / 5",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "1.800 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "FUEL TANK",
+          "source_value": "1,800 L",
+          "source_unit": "l",
+          "normalized_value": 1800.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 476 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "800 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "WATER TANK",
+          "source_value": "800 L",
+          "source_unit": "l",
+          "normalized_value": 800.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 211 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A8 / B12 / C16 / D24",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE CERTIFICATIONS",
+          "source_value": "A: 8, B: 12, C:16, D: 24",
+          "source_unit": null,
+          "normalized_value": "A8 / B12 / C16 / D24",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 320 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X D4 320 HP VOLVO PENTA",
+          "source_unit": null,
+          "normalized_value": 640,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,24 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "DRAFT",
+          "source_value": "1.24 m",
+          "source_unit": "m",
+          "normalized_value": 1.24,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4' 1\" (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "SLEEPS UP TO",
+          "source_value": "10",
+          "source_unit": null,
+          "normalized_value": "10",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "24",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "MAXIMUM  PASSENGERS",
+          "source_value": "24",
+          "source_unit": null,
+          "normalized_value": "24",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "240 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "HOLDING TANK",
+          "source_value": "240 L",
+          "source_unit": "l",
+          "normalized_value": 240.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 63 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "3 / 4 / 5",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "HEADS W/SHOWERS",
+          "source_value": "3 / 4 / 5",
+          "source_unit": null,
+          "normalized_value": "3 / 4 / 5",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2X D4 320 HP VOLVO PENTA",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 46 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/46",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X D4 320 HP VOLVO PENTA",
+          "source_unit": null,
+          "normalized_value": "2X D4 320 HP VOLVO PENTA",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

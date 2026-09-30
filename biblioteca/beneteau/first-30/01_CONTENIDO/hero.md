@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `header-product-sheet-first30` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'header-product-sheet-first30.jpg' con el nombre del modelo. |
+| 2 | `first30-exterior-6` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first30-exterior-6.jpg' con el nombre del modelo. |
+| 3 | `first30-exterior-5` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first30-exterior-5.jpg' con el nombre del modelo. |

@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `first-36-se-desktop-cover-1920x550-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'FIRST-36-SE-desktop-cover-1920x550_1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2025-06/FIRST-36-SE-desktop-cover-1920x550_1.jpg.webp?itok=oN1LStZU) |
+| 2 | `first-36-se-illu-slider-1440x810-02-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'FIRST-36-SE-illu-slider-1440x810-02_0.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-06/FIRST-36-SE-illu-slider-1440x810-02_0.jpg.webp?itok=cdxbSTkD) |
+| 3 | `first-36-se-illu-slider-1440x810-04` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'FIRST-36-SE-illu-slider-1440x810-04.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-06/FIRST-36-SE-illu-slider-1440x810-04.jpg.webp?itok=6rA9mR97) |
 
 ## Imágenes del modelo (22)
 

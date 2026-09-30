@@ -39,8 +39,8 @@
 | EDITORIAL | performance | PARTIAL | 36 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
 | MULTIMEDIA | exterior | OK | 6 en inventario (mín. 3) · descargadas 22/22 |
-| MULTIMEDIA | interior | OK | 3 en inventario (mín. 2) · descargadas 22/22 |
-| MULTIMEDIA | detail | OK | 4 en inventario (mín. 2) · descargadas 22/22 |
+| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 22/22 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 22/22 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

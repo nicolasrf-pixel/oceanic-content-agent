@@ -1,0 +1,25 @@
+{
+  "model": "Aquila 70 Luxury",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Aquila 70 Luxury",
+      "title": "Aquila 70 Luxury",
+      "type": "official_product_page",
+      "publisher": "Aquila (Aquila USA Inc. / MarineMax, EE. UU.)",
+      "url": "https://www.aquilaboats.com/models/luxury/70",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "Firecrawl rawHtml + adapters/aquila.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-aquila-70-luxury.page.json"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Evaluaciones de terceros y testimonios de propietarios en la página",
+      "url": null,
+      "reason": "Contenido de terceros (BoatTEST, NautiStyles, propietarios): no aporta datos."
+    }
+  ]
+}

@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `first27-se-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first27-se-header.jpg' con el nombre del modelo. |
+| 2 | `first27-se-sailing-exp3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first27-se-sailing-exp3.jpg' con el nombre del modelo. |
+| 3 | `first27-se-sailing-exp4` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first27-se-sailing-exp4.jpg' con el nombre del modelo. |

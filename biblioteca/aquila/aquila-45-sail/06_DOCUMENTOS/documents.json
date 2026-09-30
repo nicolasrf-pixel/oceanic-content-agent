@@ -1,0 +1,46 @@
+{
+  "model": "Aquila 45 Sail",
+  "documents": [
+    {
+      "id": "equipment-list",
+      "title": "Lista de equipamiento oficial · Aquila 45 Sail",
+      "category": "TECHNICAL",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": "https://www.aquilaboats.com/hubfs/45%20Sail/45SAIL_SpecSheet_US_Web.pdf",
+      "source_page": "https://www.aquilaboats.com/models/sail-catamarans/45",
+      "file": null,
+      "format": "PDF",
+      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha.",
+      "download_status": "LINK (no se guarda copia)"
+    },
+    {
+      "id": "brochure-form",
+      "title": "Brochure oficial · Aquila 45 Sail (se pide por formulario)",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.aquilaboats.com/models/sail-catamarans/45",
+      "file": null,
+      "format": "PDF (por email)",
+      "notes": "La web entrega el brochure tras un formulario; no hay enlace directo. Documento: no aporta datos.",
+      "download_status": "NOT_DOWNLOADED (formulario)"
+    },
+    {
+      "id": "owners",
+      "title": "Documentación de propietario Aquila",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.aquilaboats.com/",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": []
+}

@@ -1,0 +1,11 @@
+# INTRODUCCIÓN · Aquila 35 Sport
+
+## SOURCE CONTENT
+
+**Descripción** — S1 (literal):
+
+> Turning an afternoon on the water into a weekend you won't want to end. And it doesn't have to. With the all-new Aquila 35 Sport power catamaran, a generous 14'9" beam delivers class-leading usable space—you'd need a 40-to-43-foot monohull to come close to matching it: a social bow, a convertible aft cockpit, a four-seat helm, a private queen cabin, and a hardtop with room for lounging, water toys, and a launch pad into the water. The helm is built for confidence. Thoughtful design delivers a true 360° view — a low dashboard, clear sightlines all around, and every control right where you need it — so anyone can take the helm with ease. Getting around the boat is just as effortless. Power-sliding U-shaped seating widens the walkway port or starboard at the touch of a button, so docking, boarding, or simply moving fore to aft never means asking anyone to get up. Whether you're going for a full day out with friends and family, taking a getaway for two, or running charters, the 35 Sport keeps up with however you use it — powered by twin Mercury Verado V8 300 or V10 400 outboards and a double-stepped hull for heart-racing acceleration and a smooth, stable, efficient ride. THE 35 SPORT MAKES HER AMERICAS DEBUT Schedule your personal viewing of the 35 Sport. RESERVE NOW /
+
+## OCEANIC CONTENT
+
+PENDIENTE: candidato en español por redactar.

@@ -12,8 +12,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'hero').",
       "category_confidence": "alta",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "hero_candidate": true,
+      "hero_reason": "Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero').",
       "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
       "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
       "source_page": "https://www.catamarans-lagoon.com/boats/sixty-5",
@@ -34,6 +34,7 @@
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "hero_rank": 1,
       "bytes": 252242,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
@@ -244,7 +245,7 @@
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "hero_rank": 1,
+      "hero_rank": 2,
       "bytes": 170396,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg",
@@ -287,7 +288,7 @@
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "hero_rank": 2,
+      "hero_rank": 3,
       "bytes": 277270,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg",

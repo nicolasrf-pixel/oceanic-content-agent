@@ -1,0 +1,3 @@
+# Mapa de fuentes · Aquila 32 Sport
+
+Todos los datos y textos salen de S1 (https://www.aquilaboats.com/models/sport-power-catamaran/32), accedida 2026-09-30 con Firecrawl (rawHtml). S2 es la página de gama (referencia).

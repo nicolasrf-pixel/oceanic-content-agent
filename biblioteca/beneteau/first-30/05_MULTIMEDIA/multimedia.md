@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `header-product-sheet-first30` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'header-product-sheet-first30.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2025-04/header-product-sheet-first30.jpg.webp?itok=g8yNuQTl) |
+| 2 | `first30-exterior-6` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first30-exterior-6.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-04/first30-exterior-6.jpg.webp?itok=R_Jzkkca) |
+| 3 | `first30-exterior-5` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first30-exterior-5.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-04/first30-exterior-5.jpg.webp?itok=9CigDgSG) |
 
 ## Imágenes del modelo (23)
 

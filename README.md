@@ -15,6 +15,23 @@ cual después se construye la página Oceanic.
 
 | Marca | Modelo | MY | Tabla base | CONTENT_STATUS |
 | --- | --- | --- | --- | --- |
+| Aquila | [Aquila 28 Molokai Cuddy](biblioteca/aquila/aquila-28-molokai-cuddy/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | RED |
+| Aquila | [Aquila 28 Molokai](biblioteca/aquila/aquila-28-molokai/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | RED |
+| Aquila | [Aquila 32 Sport](biblioteca/aquila/aquila-32-sport/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Aquila | [Aquila 35 Sport](biblioteca/aquila/aquila-35-sport/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Aquila | [Aquila 36 Molokai](biblioteca/aquila/aquila-36-molokai/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Aquila | [Aquila 36 Sport](biblioteca/aquila/aquila-36-sport/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Aquila | [Aquila 42 Coupe](biblioteca/aquila/aquila-42-coupe/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Aquila | [Aquila 42 Yacht](biblioteca/aquila/aquila-42-yacht/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
+| Aquila | [Aquila 45 Sail](biblioteca/aquila/aquila-45-sail/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
+| Aquila | [Aquila 45 Sport](biblioteca/aquila/aquila-45-sport/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Aquila | [Aquila 46 Coupe](biblioteca/aquila/aquila-46-coupe/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Aquila | [Aquila 46 Yacht](biblioteca/aquila/aquila-46-yacht/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Aquila | [Aquila 47 Molokai](biblioteca/aquila/aquila-47-molokai/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | RED |
+| Aquila | [Aquila 50 Sail](biblioteca/aquila/aquila-50-sail/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
+| Aquila | [Aquila 50 Yacht](biblioteca/aquila/aquila-50-yacht/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
+| Aquila | [Aquila 54 Yacht](biblioteca/aquila/aquila-54-yacht/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
+| Aquila | [Aquila 70 Luxury](biblioteca/aquila/aquila-70-luxury/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
 | Axopar | [AX/E 22](biblioteca/axopar/ax-e-22/00_MODELO/00_MODELO.md) | 2027 | 3/8 verificada | RED |
 | Axopar | [AX/E 25](biblioteca/axopar/ax-e-25/00_MODELO/00_MODELO.md) | 2027 | 4/8 verificada | YELLOW |
 | Axopar | [Axopar 22 Spyder](biblioteca/axopar/axopar-22-spyder/00_MODELO/00_MODELO.md) | 2027 | 8/8 verificada | YELLOW |

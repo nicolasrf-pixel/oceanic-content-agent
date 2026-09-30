@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `first24-se-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first24-se-header.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/first24-se-header.jpg.webp?itok=E_tfjPOo) |
+| 2 | `first24-se-sailing-exp` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first24-se-sailing-exp.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/first24-se-sailing-exp.jpg.webp?itok=TXNaf-KX) |
+| 3 | `first24-se-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first24-se-sailing-exp2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first24-se-sailing-exp2.jpg.webp?itok=_2DzfYG6) |
 
 ## Imágenes del modelo (17)
 

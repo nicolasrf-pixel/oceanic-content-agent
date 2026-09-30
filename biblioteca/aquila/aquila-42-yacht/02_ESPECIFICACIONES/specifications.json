@@ -1,0 +1,235 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 42 Yacht",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 42 Yacht",
+    "configuration": "según ficha técnica",
+    "engine_option": "-",
+    "boat_type": "catamaran_motor",
+    "range": "Yacht"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "12,64 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "12.64 m",
+          "source_unit": "m",
+          "normalized_value": 12.64,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 41' 6\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "6,4 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "6.4 m",
+          "source_unit": "m",
+          "normalized_value": 6.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 21' 0\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "15.700 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light Displacement",
+          "source_value": "15,700 kg",
+          "source_unit": "kg",
+          "normalized_value": 15700.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 34,168 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "2 / 3 / 4",
+          "source_unit": null,
+          "normalized_value": 2,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el primer número es cabinas."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "A8 / B12 / C16 / D2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "A: 8, B:12, C:16, D:2",
+          "source_unit": null,
+          "normalized_value": "A8 / B12 / C16 / D2",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "La web publica 'A: 8, B:12, C:16, D:2': el número de personas no crece de A a D (posible error de la web)."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "8+",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Sleeps",
+          "source_value": "8+",
+          "source_unit": null,
+          "normalized_value": "8+",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "24",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max Passengers",
+          "source_value": "24",
+          "source_unit": null,
+          "normalized_value": "24",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 42 Yacht",
+          "url": "https://www.aquilaboats.com/models/yachts/42",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "2 / 3 / 4",
+          "source_unit": null,
+          "normalized_value": 3,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el segundo número es baños."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 32 Sport",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 32 Sport",
+    "configuration": "según ficha técnica",
+    "engine_option": "2X Black Mercury Verado V6 225 HP; opción: 2X White Mercury Verado V8 300 HP with Joystick Piloting Control",
+    "boat_type": "catamaran_motor",
+    "range": "Sport"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,86 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "9.86 m",
+          "source_unit": "m",
+          "normalized_value": 9.86,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 32' 4\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "3,85 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "3.85 m",
+          "source_unit": "m",
+          "normalized_value": 3.85,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 12' 8\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "4.781 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light Displacement",
+          "source_value": "4,781 kg",
+          "source_unit": "kg",
+          "normalized_value": 4781.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 10,540 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "1 / 1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el primer número es cabinas."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2X 530 l (1.060 l en total)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Tankage · Fuel Tank (Approx.)",
+          "source_value": "2X 530 = 1060 L",
+          "source_unit": "l",
+          "normalized_value": 1060.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Tankage (lista)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2X 140 = 280 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "110 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Tankage · Water Tank Standard (Approx.)",
+          "source_value": "110 L",
+          "source_unit": "l",
+          "normalized_value": 110.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Tankage (lista)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 29 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B6 / C16 / D22",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "B:6, C:16, D:22",
+          "source_unit": null,
+          "normalized_value": "B6 / C16 / D22",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 300 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Propulsion · Optional",
+          "source_value": "2X White Mercury Verado V8 300 HP with Joystick Piloting Control",
+          "source_unit": null,
+          "normalized_value": 600,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Propulsion (lista)",
+          "cross_reference": "Motorización opcional: el motor más potente ofrecido."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "9,82 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull Length",
+          "source_value": "9.82 m",
+          "source_unit": "m",
+          "normalized_value": 9.82,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 32' 2\" (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "4 (2 in salon)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Sleeps",
+          "source_value": "4 (2 in salon)",
+          "source_unit": null,
+          "normalized_value": "4 (2 in salon)",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "22",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Max Passengers",
+          "source_value": "22",
+          "source_unit": null,
+          "normalized_value": "22",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "1X 80 l L",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Tankage · Holding Tank (Approx.)",
+          "source_value": "1X 80 L",
+          "source_unit": "l",
+          "normalized_value": 80.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Tankage (lista)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 1X 21 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins/Heads/Showers",
+          "source_value": "1 / 1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Cabins/Heads/Showers': el segundo número es baños."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2X Black Mercury Verado V6 225 HP; opción: 2X White Mercury Verado V8 300 HP with Joystick Piloting Control",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 32 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+          "accessed_at": "2026-09-30",
+          "source_field": "Propulsion · Standard",
+          "source_value": "2X Black Mercury Verado V6 225 HP",
+          "source_unit": null,
+          "normalized_value": "2X Black Mercury Verado V6 225 HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Propulsion (lista)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": "Opción publicada: 2X White Mercury Verado V8 300 HP with Joystick Piloting Control."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

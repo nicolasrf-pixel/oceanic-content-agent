@@ -1,0 +1,315 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 45 Sport",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 45 Sport",
+    "configuration": "según ficha técnica",
+    "engine_option": "2X Mercury Verado V12 600 HP",
+    "boat_type": "catamaran_motor",
+    "range": "Sport"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "14,17 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "LENGTH OVERALL",
+          "source_value": "14.17 m",
+          "source_unit": "m",
+          "normalized_value": 14.17,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 46’ 6\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,57 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "BEAM OVERALL",
+          "source_value": "4.57 m",
+          "source_unit": "m",
+          "normalized_value": 4.57,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 15' 0\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "9.965 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "LIGHT DISPLACEMENT",
+          "source_value": "9,965 kg",
+          "source_unit": "kg",
+          "normalized_value": 9965.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 21,969 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "CABINS AND HEADS",
+          "source_value": "1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'CABINS AND HEADS': el primer número es cabinas."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "1.514 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "FUEL TANK",
+          "source_value": "1,514 L",
+          "source_unit": "l",
+          "normalized_value": 1514.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 400 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "189 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "WATER TANK",
+          "source_value": "189 L",
+          "source_unit": "l",
+          "normalized_value": 189.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 50 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "B10 / C20 / D29",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE CERTIFICATIONS",
+          "source_value": "B: 10, C:20, D: 29",
+          "source_unit": null,
+          "normalized_value": "B10 / C20 / D29",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "2 x 600 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X Mercury Verado V12 600 HP",
+          "source_unit": null,
+          "normalized_value": 1200,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "2",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "SLEEPS",
+          "source_value": "2",
+          "source_unit": null,
+          "normalized_value": "2",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "29",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "MAXIMUM PASSENGERS",
+          "source_value": "29",
+          "source_unit": null,
+          "normalized_value": "29",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "80 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "HOLDING TANK",
+          "source_value": "80 L",
+          "source_unit": "l",
+          "normalized_value": 80.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 21 GAL (coherente)."
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "CABINS AND HEADS",
+          "source_value": "1 / 1",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'CABINS AND HEADS': el segundo número es baños."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "2X Mercury Verado V12 600 HP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 45 Sport",
+          "url": "https://www.aquilaboats.com/models/sport-power-catamaran/45",
+          "accessed_at": "2026-09-30",
+          "source_field": "ENGINES (STANDARD)",
+          "source_value": "2X Mercury Verado V12 600 HP",
+          "source_unit": null,
+          "normalized_value": "2X Mercury Verado V12 600 HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

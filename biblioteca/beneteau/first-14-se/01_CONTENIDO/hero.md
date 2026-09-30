@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `hero-firstse-v2` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
+| 2 | `first14se-sailing-exp` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14se-sailing-exp.jpg' con el nombre del modelo. |
+| 3 | `first14se-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first14se-sailing-exp2.jpg' con el nombre del modelo. |

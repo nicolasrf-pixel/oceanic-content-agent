@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `figaro-3-desktop` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
+| 2 | `0032web` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'A legend in motion'). |
+| 3 | `0608web` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'A legend in motion'). |

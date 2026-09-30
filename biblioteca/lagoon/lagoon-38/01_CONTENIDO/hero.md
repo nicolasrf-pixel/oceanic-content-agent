@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `catamaran-lagoon-38-slider-29-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-slider-29_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
-| 2 | `catamaran-lagoon-38-slider-25` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-slider-25.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
-| 3 | `catamaran-lagoon-38-slider-52` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-slider-52.png' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 1 | `catamaran-lagoon-38-cover-1920x891` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-cover-1920x891.jpg' con el nombre del modelo. |
+| 2 | `catamaran-lagoon-38-slider-29-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-slider-29_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
+| 3 | `catamaran-lagoon-38-slider-25` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-lagoon-38-slider-25.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |

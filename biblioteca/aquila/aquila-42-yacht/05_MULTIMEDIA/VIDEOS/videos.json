@@ -1,0 +1,54 @@
+{
+  "model": "Aquila 42 Yacht",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Featured Video",
+      "url": "https://www.youtube.com/watch?v=mYPSGd1Uiu0",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/mYPSGd1Uiu0/hqdefault.jpg",
+      "source_page": "https://www.aquilaboats.com/models/yachts/42",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Featured Video",
+      "url": "https://www.youtube.com/watch?v=gHuCNvUyMw8",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/gHuCNvUyMw8/hqdefault.jpg",
+      "source_page": "https://www.aquilaboats.com/models/yachts/42",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Featured Video",
+      "url": "https://www.youtube.com/watch?v=S0LKMSntU5Y",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/S0LKMSntU5Y/hqdefault.jpg",
+      "source_page": "https://www.aquilaboats.com/models/yachts/42",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

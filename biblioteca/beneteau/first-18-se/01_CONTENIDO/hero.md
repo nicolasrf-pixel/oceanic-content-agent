@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `first-18-se-1` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'first_18_se_1.jpg' con el nombre del modelo. |
+| 2 | `first18-se-sailing-exp` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first18-se-sailing-exp.jpg' con el nombre del modelo. |
+| 3 | `first18-se-sailing-exp2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'first18-se-sailing-exp2.jpg' con el nombre del modelo. |

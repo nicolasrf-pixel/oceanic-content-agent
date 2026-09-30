@@ -1,0 +1,308 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 50 Sail",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 50 Sail",
+    "configuration": "según ficha técnica",
+    "engine_option": "2x 50 HP Saildrive",
+    "boat_type": "catamaran_vela",
+    "range": "Sail"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "14,97 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "14.97 m",
+          "source_unit": "m",
+          "normalized_value": 14.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 49’ 1” (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,86 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam",
+          "source_value": "7.86 m",
+          "source_unit": "m",
+          "normalized_value": 7.86,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 25’ 9” (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "4 / 5 / 6",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Cabins",
+          "source_value": "4 / 5 / 6",
+          "source_unit": null,
+          "normalized_value": "4 / 5 / 6",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A12 / B12 / C20 / D30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "A: 12, B: 12, C: 20, D: 30",
+          "source_unit": null,
+          "normalized_value": "A12 / B12 / C20 / D30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "156 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "TOTAL UPWIND AREA",
+          "source_value": "156 SQ m | 1,679.2 SQ FT",
+          "source_unit": null,
+          "normalized_value": 156.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Total upwind area' = superficie vélica de ceñida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 50 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Diesel",
+          "source_value": "2x 50 HP Saildrive",
+          "source_unit": null,
+          "normalized_value": 100,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,45 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Draft",
+          "source_value": "1.45 m",
+          "source_unit": "m",
+          "normalized_value": 1.45,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4’ 8” will vary depending on load (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Maximum passengers",
+          "source_value": "30",
+          "source_unit": null,
+          "normalized_value": "30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "90 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Mainsail standard pin top",
+          "source_value": "90 SQ m | 968.8 SQ FT",
+          "source_unit": null,
+          "normalized_value": 90.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "66 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Furling Genoa",
+          "source_value": "66.0 SQ m | 710.4 SQ FT",
+          "source_unit": null,
+          "normalized_value": 66.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "4 / 5 / 6",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Heads with Showers",
+          "source_value": "4 / 5 / 6",
+          "source_unit": null,
+          "normalized_value": "4 / 5 / 6",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2x 50 HP Saildrive",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 50 Sail",
+          "url": "https://www.aquilaboats.com/models/sail-catamarans/50",
+          "accessed_at": "2026-09-30",
+          "source_field": "Diesel",
+          "source_value": "2x 50 HP Saildrive",
+          "source_unit": null,
+          "normalized_value": "2x 50 HP Saildrive",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Motorización publicada en la ficha técnica."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

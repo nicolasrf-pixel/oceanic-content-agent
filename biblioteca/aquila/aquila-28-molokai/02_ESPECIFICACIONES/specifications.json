@@ -1,0 +1,175 @@
+{
+  "model": {
+    "brand": "Aquila",
+    "model": "Aquila 28 Molokai",
+    "model_year": "NO DECLARADO",
+    "variant": "Aquila 28 Molokai",
+    "configuration": "según ficha técnica",
+    "engine_option": "-",
+    "boat_type": "catamaran_motor",
+    "range": "Molokai (offshore)"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece; métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,38 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 28 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length Overall",
+          "source_value": "9.38 m",
+          "source_unit": "m",
+          "normalized_value": 9.38,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 30'9\" (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,96 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 28 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam",
+          "source_value": "2.96 m",
+          "source_unit": "m",
+          "normalized_value": 2.96,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "'Beam overall' = manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 9' 8.5\" (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "2.797 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 28 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "2,797 kg",
+          "source_unit": "kg",
+          "normalized_value": 2797.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)",
+          "cross_reference": "Peso en vacío publicado ('Light Displacement' / 'Dry Weight') = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 6,166 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "8,6 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 28 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull Length",
+          "source_value": "8.6 m",
+          "source_unit": "m",
+          "normalized_value": 8.6,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 28'2\" (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "0,77 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Aquila 28 Molokai",
+          "url": "https://www.aquilaboats.com/models/offshore/28-molokai-power-catamaran",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull Draft (Motors Down)",
+          "source_value": "0.77 m",
+          "source_unit": "m",
+          "normalized_value": 0.77,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (tabla)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 2'6\" (coherente)."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    }
+  ]
+}

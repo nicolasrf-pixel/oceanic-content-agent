@@ -11,6 +11,8 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 | 1 | `figaro-3-desktop` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). | [original](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-09/figaro-3-desktop.jpg.webp?itok=pI1fuZS9) |
+| 2 | `0032web` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'A legend in motion'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0032web.jpg.webp?itok=jMeSUbh6) |
+| 3 | `0608web` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'A legend in motion'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0608web.jpg.webp?itok=5O0jFniv) |
 
 ## Imágenes del modelo (14)
 
