@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 78,
+  "completeness_pct": 89,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Desplazamiento en rosca",
@@ -60,23 +60,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "22 en inventario (mín. 3) · descargadas 0/44"
+      "status": "OK",
+      "detail": "22 en inventario (mín. 3) · descargadas 44/44"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "12 en inventario (mín. 2) · descargadas 0/44"
+      "status": "OK",
+      "detail": "12 en inventario (mín. 2) · descargadas 44/44"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 en inventario (mín. 2) · descargadas 0/44"
+      "status": "OK",
+      "detail": "3 en inventario (mín. 2) · descargadas 44/44"
     },
     "video": {
       "group": "MULTIMEDIA",

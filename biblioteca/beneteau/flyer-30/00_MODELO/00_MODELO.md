@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 58% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Potencia motor máx
 
@@ -38,10 +38,10 @@ Conflictos sin resolver: Potencia motor máx
 | EDITORIAL | ingenieria | OK | 85 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | OK | 90 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 15 en inventario (mín. 3) · descargadas 0/43 |
-| MULTIMEDIA | interior | PARTIAL | 20 en inventario (mín. 2) · descargadas 0/43 |
-| MULTIMEDIA | detail | PARTIAL | 3 en inventario (mín. 2) · descargadas 0/43 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 15 en inventario (mín. 3) · descargadas 43/43 |
+| MULTIMEDIA | interior | OK | 20 en inventario (mín. 2) · descargadas 43/43 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 43/43 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

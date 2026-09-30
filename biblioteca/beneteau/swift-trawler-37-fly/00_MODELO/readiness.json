@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 72,
+  "completeness_pct": 81,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Altura sobre línea de flotación"
@@ -58,23 +58,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "14 en inventario (mín. 3) · descargadas 0/23"
+      "status": "OK",
+      "detail": "14 en inventario (mín. 3) · descargadas 23/23"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "PARTIAL",
-      "detail": "1 en inventario (mín. 2) · descargadas 0/23"
+      "detail": "1 en inventario (mín. 2) · descargadas 23/23"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "2 en inventario (mín. 2) · descargadas 0/23"
+      "status": "OK",
+      "detail": "2 en inventario (mín. 2) · descargadas 23/23"
     },
     "video": {
       "group": "MULTIMEDIA",

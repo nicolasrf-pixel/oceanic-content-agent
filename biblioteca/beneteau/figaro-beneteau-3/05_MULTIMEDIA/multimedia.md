@@ -16,20 +16,20 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`figaro-3-desktop`](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-09/figaro-3-desktop.jpg.webp?itok=pI1fuZS9) | HERO | alta |  | 3840x1100 jpg | PENDING | Solo en la página del modelo (sección 'hero'). |
-| [`0032web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0032web.jpg.webp?itok=jMeSUbh6) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`0608web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0608web.jpg.webp?itok=5O0jFniv) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`0780web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0780web.jpg.webp?itok=9b-ZKgj_) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`1542`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/1542.jpg.webp?itok=YzhTK45O) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`figaro3-2`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_2.jpg.webp?itok=NXZMd2S7) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`figaro3-1`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_1.jpg.webp?itok=gc6sG5Lq) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`figaro3-4`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_4.jpg.webp?itok=aC8dJgTn) | EXTERIOR | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'A legend in motion'). |
-| [`figaro3-foils`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_foils.jpg.webp?itok=s-hvTlfq) | DETAIL | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
-| [`figaro3-quille`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_quille.jpg.webp?itok=yVrwWqfz) | DETAIL | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
-| [`figaro3-carene`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_carene.jpg.webp?itok=Rb04iFFP) | DETAIL | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
-| [`figaro3-mat`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_mat.jpg.webp?itok=ejRJqoik) | DETAIL | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
-| [`profil-figaro`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/profil-figaro.jpg.webp?itok=vK7haz8v) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Profiles'). |
-| [`maquette-13`](https://www.beneteau.com/sites/default/files/styles/wide/public/maquette_13.jpg.webp?itok=8kf3-uJL) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Layouts'). |
+| [`figaro-3-desktop`](https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-09/figaro-3-desktop.jpg.webp?itok=pI1fuZS9) | HERO | alta |  | 3840x1100 jpg | WEB_COPY | Solo en la página del modelo (sección 'hero'). |
+| [`0032web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0032web.jpg.webp?itok=jMeSUbh6) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`0608web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0608web.jpg.webp?itok=5O0jFniv) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`0780web`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/0780web.jpg.webp?itok=9b-ZKgj_) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`1542`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/1542.jpg.webp?itok=YzhTK45O) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`figaro3-2`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_2.jpg.webp?itok=NXZMd2S7) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`figaro3-1`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_1.jpg.webp?itok=gc6sG5Lq) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`figaro3-4`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/figaro3_4.jpg.webp?itok=aC8dJgTn) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'A legend in motion'). |
+| [`figaro3-foils`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_foils.jpg.webp?itok=s-hvTlfq) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
+| [`figaro3-quille`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_quille.jpg.webp?itok=yVrwWqfz) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
+| [`figaro3-carene`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_carene.jpg.webp?itok=Rb04iFFP) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
+| [`figaro3-mat`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/figaro3_mat.jpg.webp?itok=ejRJqoik) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'MODERNITY, RELIABILITY AND PERFORMANCE'). |
+| [`profil-figaro`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/profil-figaro.jpg.webp?itok=vK7haz8v) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
+| [`maquette-13`](https://www.beneteau.com/sites/default/files/styles/wide/public/maquette_13.jpg.webp?itok=8kf3-uJL) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Layouts'). |
 
 ## Excluidas: no son del barco (1)
 

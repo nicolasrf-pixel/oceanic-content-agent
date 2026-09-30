@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Manga Casco
 
@@ -38,10 +38,10 @@ Conflictos sin resolver: Manga Casco
 | EDITORIAL | ingenieria | OK | 51 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | OK | 152 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 32 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 8 en inventario (mín. 3) · descargadas 0/25 |
-| MULTIMEDIA | interior | PARTIAL | 5 en inventario (mín. 2) · descargadas 0/25 |
-| MULTIMEDIA | detail | PARTIAL | 3 en inventario (mín. 2) · descargadas 0/25 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 8 en inventario (mín. 3) · descargadas 25/25 |
+| MULTIMEDIA | interior | OK | 5 en inventario (mín. 2) · descargadas 25/25 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 25/25 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

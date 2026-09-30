@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 78% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 89% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Desplazamiento en rosca, Capacidad Agua Dulce, Altura sobre línea de flotación
 
@@ -38,10 +38,10 @@ Conflictos sin resolver: Desplazamiento en rosca, Capacidad Agua Dulce, Altura s
 | EDITORIAL | ingenieria | OK | 128 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | experiencia | OK | 232 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 22 en inventario (mín. 3) · descargadas 0/44 |
-| MULTIMEDIA | interior | PARTIAL | 12 en inventario (mín. 2) · descargadas 0/44 |
-| MULTIMEDIA | detail | PARTIAL | 3 en inventario (mín. 2) · descargadas 0/44 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 22 en inventario (mín. 3) · descargadas 44/44 |
+| MULTIMEDIA | interior | OK | 12 en inventario (mín. 2) · descargadas 44/44 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 44/44 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

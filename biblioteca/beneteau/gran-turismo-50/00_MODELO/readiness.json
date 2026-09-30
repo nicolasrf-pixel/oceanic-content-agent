@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 78,
+  "completeness_pct": 89,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Autonomía"
@@ -58,23 +58,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "5 en inventario (mín. 3) · descargadas 0/20"
+      "status": "OK",
+      "detail": "5 en inventario (mín. 3) · descargadas 20/20"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "4 en inventario (mín. 2) · descargadas 0/20"
+      "status": "OK",
+      "detail": "4 en inventario (mín. 2) · descargadas 20/20"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 en inventario (mín. 2) · descargadas 0/20"
+      "status": "OK",
+      "detail": "3 en inventario (mín. 2) · descargadas 20/20"
     },
     "video": {
       "group": "MULTIMEDIA",

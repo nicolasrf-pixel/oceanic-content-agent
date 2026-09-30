@@ -8,7 +8,7 @@
     python -m oceanic check      [biblioteca]  # render + readiness de todos los modelos
     python -m oceanic build      axopar <extract.json>...   # genera paquetes desde extracts
     python -m oceanic media      <model_dir> [--cdn]        # --cdn: copia web desde el CDN (rápido)
-    python -m oceanic zip        <dir> [<dir>...]           # ZIP en dist/ para subir a Drive
+    python -m oceanic zip        [--name=X] <dir> [<dir>...] # ZIP en dist/ para subir a Drive
 """
 
 from __future__ import annotations
@@ -87,11 +87,12 @@ def main(argv: list[str]) -> int:
             print(f"{result['CONTENT_STATUS']:6} {model.name}" + "".join(f"\n   ERROR {e}" for e in errors))
         return 0
     if cmd == "zip":
-        dirs = [Path(a).resolve() for a in args]
+        label = next((a.split("=", 1)[1] for a in args if a.startswith("--name=")), None)
+        dirs = [Path(a).resolve() for a in args if not a.startswith("--name=")]
         dist = ROOT / "dist"
         dist.mkdir(exist_ok=True)
         base = ROOT / "biblioteca"
-        name = "__".join(d.name for d in dirs[:2]) + ("__etc" if len(dirs) > 2 else "")
+        name = label or "__".join(d.name for d in dirs[:2]) + ("__etc" if len(dirs) > 2 else "")
         out = dist / f"oceanic-biblioteca__{name}__{date.today().isoformat()}.zip"
         with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
             for d in dirs:

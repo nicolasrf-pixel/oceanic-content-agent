@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 58,
+  "completeness_pct": 69,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Potencia motor máx"
@@ -58,23 +58,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "15 en inventario (mín. 3) · descargadas 0/43"
+      "status": "OK",
+      "detail": "15 en inventario (mín. 3) · descargadas 43/43"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "20 en inventario (mín. 2) · descargadas 0/43"
+      "status": "OK",
+      "detail": "20 en inventario (mín. 2) · descargadas 43/43"
     },
     "detail": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 en inventario (mín. 2) · descargadas 0/43"
+      "status": "OK",
+      "detail": "3 en inventario (mín. 2) · descargadas 43/43"
     },
     "video": {
       "group": "MULTIMEDIA",

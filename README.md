@@ -85,6 +85,16 @@ cual después se construye la página Oceanic.
 | Beneteau | [Swift Trawler 43 Sedan](biblioteca/beneteau/swift-trawler-43-sedan/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 48](biblioteca/beneteau/swift-trawler-48/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 54](biblioteca/beneteau/swift-trawler-54/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Lagoon | [EIGHTY 2](biblioteca/lagoon/eighty-2/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | RED |
+| Lagoon | [Lagoon 38](biblioteca/lagoon/lagoon-38/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
+| Lagoon | [Lagoon 42 Millenium](biblioteca/lagoon/lagoon-42-millenium/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Lagoon | [Lagoon 43](biblioteca/lagoon/lagoon-43/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Lagoon | [Lagoon 46 Iconic](biblioteca/lagoon/lagoon-46-iconic/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | RED |
+| Lagoon | [Lagoon 47](biblioteca/lagoon/lagoon-47/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
+| Lagoon | [Lagoon 51 Iconic](biblioteca/lagoon/lagoon-51-iconic/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Lagoon | [Lagoon 55](biblioteca/lagoon/lagoon-55/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Lagoon | [Lagoon 60](biblioteca/lagoon/lagoon-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
+| Lagoon | [SIXTY 5](biblioteca/lagoon/sixty-5/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 
 ## Uso rápido
 

@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 78,
+  "completeness_pct": 86,
   "critical_missing": [],
   "unresolved_conflicts": [
     "Manga Casco",
@@ -59,23 +59,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "17 en inventario (mín. 3) · descargadas 0/33"
+      "status": "OK",
+      "detail": "17 en inventario (mín. 3) · descargadas 33/33"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "6 en inventario (mín. 2) · descargadas 0/33"
+      "status": "OK",
+      "detail": "6 en inventario (mín. 2) · descargadas 33/33"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/33"
+      "detail": "0 en inventario (mín. 2) · descargadas 33/33"
     },
     "video": {
       "group": "MULTIMEDIA",
