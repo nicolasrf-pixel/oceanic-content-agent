@@ -92,7 +92,7 @@ Nota: Valor imperial publicado: 3'8" (coherente).
 
 ## Motorización · `motorizacion` · VERIFIED
 
-Valor Oceanic: **Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri**
+Valor Oceanic: **twin 600HP / quad 400HP**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

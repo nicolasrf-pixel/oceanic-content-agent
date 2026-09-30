@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 47% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 53% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Certificación
 
@@ -32,12 +32,12 @@ Conflictos sin resolver: Certificación
 | DATOS | especificaciones | PARTIAL | 8 campos con fuente |
 | DATOS | caracteristicas | MISSING | no existe |
 | DATOS | equipamiento | MISSING | sin standard/optional |
-| EDITORIAL | hero | PARTIAL | 46 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 148 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | OK | 46 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 148 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | PARTIAL | 10 palabras fuente |
+| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
+| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
+| EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | PARTIAL | 2 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 1 en inventario (mín. 3) · descargadas 0/18 |
 | MULTIMEDIA | interior | PARTIAL | 4 en inventario (mín. 2) · descargadas 0/18 |

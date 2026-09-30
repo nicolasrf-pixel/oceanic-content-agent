@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 35 Sport aprovecha una manga de 14'9" para ofrecer espacio de crucero en un deportivo.

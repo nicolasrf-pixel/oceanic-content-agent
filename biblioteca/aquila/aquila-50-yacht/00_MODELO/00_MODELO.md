@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 53% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 58% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Velocidad máxima, Velocidad crucero
 
@@ -32,12 +32,12 @@ Conflictos sin resolver: Velocidad máxima, Velocidad crucero
 | DATOS | especificaciones | OK | 10 campos con fuente |
 | DATOS | caracteristicas | MISSING | no existe |
 | DATOS | equipamiento | OK | standard.md, optional.md |
-| EDITORIAL | hero | PARTIAL | 34 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 145 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 162 palabras fuente · sin candidato Oceanic |
+| EDITORIAL | hero | PARTIAL | 34 palabras fuente |
+| EDITORIAL | introduccion | OK | 145 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | PARTIAL | 10 palabras fuente |
+| EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
+| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
+| EDITORIAL | performance | OK | 162 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | PARTIAL | 2 candidatas · sin descargar |
 | MULTIMEDIA | exterior | PARTIAL | 1 en inventario (mín. 3) · descargadas 0/18 |
 | MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 0/18 |

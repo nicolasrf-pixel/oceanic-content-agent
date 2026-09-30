@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cubierta abierta para hasta 22 pasajeros y un camarote con colchón de espuma viscoelástica y baño privado.

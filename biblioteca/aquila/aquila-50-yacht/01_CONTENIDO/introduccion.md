@@ -11,4 +11,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 50 Yacht redefine la exploración con su nueva estética "Explorer" y un francobordo alto. Sucede al Aquila 48 y se sitúa entre el 44 Yacht y el 54 Yacht.

@@ -13,4 +13,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 47 Molokai lleva la pesca offshore a otro nivel, con construcción en fibra de carbono y certificación CE categoría B.

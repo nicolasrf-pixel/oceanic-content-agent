@@ -1,6 +1,6 @@
 # Características · Aquila 36 Sport
 
-Model year: **NO DECLARADO** · Variante: **Aquila 36 Sport** · Configuración: **según ficha técnica** · Motorización: **Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves **
+Model year: **NO DECLARADO** · Variante: **Aquila 36 Sport** · Configuración: **según ficha técnica** · Motorización: **Twin Mercury Verado 300HP**
 
 > Tabla generada desde `specifications.json` (`python -m oceanic render`). No editar a mano.
 
@@ -25,7 +25,7 @@ Model year: **NO DECLARADO** · Variante: **Aquila 36 Sport** · Configuración:
 | Literas | 6 (2 in salon) | VERIFIED |
 | Capacidad de pasajeros | 26 | VERIFIED |
 | Baños | 2 | VERIFIED |
-| Motorización | Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves  | VERIFIED |
+| Motorización | Twin Mercury Verado 300HP | VERIFIED |
 | Calado | - | NOT_FOUND |
 
 ## Campos no encontrados en fuentes oficiales

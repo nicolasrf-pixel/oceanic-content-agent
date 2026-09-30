@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Bajo cubierta, un camarote con cama queen de isla. En cubierta, dos viveros de 42 galones y una nevera de pesca de más de 700 galones.

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 36 Molokai
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Hecho para ir más lejos.
+2. Pesca offshore con camarote y baño.
+3. Estabilidad de catamarán.
+
+**Descripción corta candidata**
+
+> Catamarán de 11,63 m de eslora total con dos Mercury V8 de 300 HP, certificado B8 / C12 / D16.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Con el espíritu hawaiano en su ADN, afronta el mar de fondo del Pacífico y el oleaje corto del Atlántico con el mismo aplomo.

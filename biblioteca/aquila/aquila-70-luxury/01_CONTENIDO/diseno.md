@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Grandes espacios con aire europeo, luminosos y cuidados. Distribuciones interiores versátiles con acabados de madera y ventanales panorámicos.

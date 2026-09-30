@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 42 Coupe
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Coupé de doble escalón.
+2. Foil Hydro Glide.
+3. Dos camarotes en suite.
+
+**Descripción corta candidata**
+
+> Catamarán coupé de 13,06 m de eslora total con cascos de doble escalón y motorización fueraborda o intraborda Volvo.
 
 **Imagen hero** (selección final: revisión humana)
 

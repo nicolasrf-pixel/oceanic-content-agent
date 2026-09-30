@@ -240,7 +240,8 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                   "el texto oficial declara la motorización; se toma la opción más potente.")
             mkey = "motor_auxiliar" if boat == "catamaran_vela" else "motorizacion"
             if mkey not in fields:
-                xtext(mkey, sent.strip()[:160], sent.strip(), None, sent, "motorización declarada en el texto oficial.")
+                opts = list(dict.fromkeys(re.sub(r"\s+", " ", c[2].group(0)) for c in combos))
+                xtext(mkey, " / ".join(opts), sent.strip(), None, sent, "motorización declarada en el texto oficial.")
     if "capacidad_combustible" not in fields:
         m = re.search(r"([\d,]+)-gallon fuel", text, re.I)
         if m:

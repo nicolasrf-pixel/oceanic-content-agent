@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 70 Luxury es la cumbre del diseño inteligente de la marca: líneas elegantes, gran equilibrio e ingeniería meticulosa.

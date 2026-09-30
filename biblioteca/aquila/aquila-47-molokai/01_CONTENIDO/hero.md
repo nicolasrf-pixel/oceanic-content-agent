@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 47 Molokai
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. El Molokai más grande.
+2. Fibra de carbono y hasta 1.600 HP.
+3. Pesca offshore con camarote de isla.
+
+**Descripción corta candidata**
+
+> Catamarán de 14,62 m de eslora total, con dos Mercury Verado de 600 HP o cuatro de 400 HP y construcción avanzada en fibra de carbono.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 45 Sail
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Aquila también navega a vela.
+2. Proa fija con acceso desde el puente.
+3. Armador o chárter.
+
+**Descripción corta candidata**
+
+> Catamarán de vela de 14,38 m de eslora total y 7,77 m de manga, con versiones de 3 o 4 camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

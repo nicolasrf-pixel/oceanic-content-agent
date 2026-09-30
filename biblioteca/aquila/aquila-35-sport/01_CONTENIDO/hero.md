@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 35 Sport
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Más manga, más vida a bordo.
+2. Casco de doble escalón.
+3. Hasta 2 x 400 HP.
+
+**Descripción corta candidata**
+
+> Catamarán de 10,81 m de eslora total y 4,49 m de manga, con Mercury Verado V8 de 300 HP o V10 de 400 HP.
 
 **Imagen hero** (selección final: revisión humana)
 

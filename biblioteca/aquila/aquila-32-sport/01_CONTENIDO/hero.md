@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 32 Sport
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Deportivo y familiar.
+2. Espacio de catamarán en 32 pies.
+3. Joystick opcional.
+
+**Descripción corta candidata**
+
+> Catamarán de 9,86 m de eslora total con dos Mercury Verado V6 de 225 HP, ampliables a V8 de 300 HP con joystick; hasta 22 pasajeros.
 
 **Imagen hero** (selección final: revisión humana)
 

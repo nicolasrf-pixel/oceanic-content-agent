@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 36 Molokai lleva la plataforma Molokai a un formato mayor para la pesca offshore y la navegación en familia.

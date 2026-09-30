@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Su manga amplia permite circular con facilidad por ambos lados de la consola central, y los mandos, bien situados, dan al patrón una visión de 360 grados. Cuenta con grandes bañeras.

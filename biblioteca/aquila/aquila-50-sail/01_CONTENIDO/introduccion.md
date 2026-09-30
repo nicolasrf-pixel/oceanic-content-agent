@@ -11,4 +11,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 50 Sail es un catamarán de vela para uso de armador o chárter.

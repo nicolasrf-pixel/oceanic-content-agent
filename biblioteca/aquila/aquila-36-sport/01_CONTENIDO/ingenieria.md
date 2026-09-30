@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Dos Mercury Verado de 300 HP con pilotaje por joystick. El sistema de foil Aquila Hydro Glide opcional, desarrollado con Morrelli & Melvin, mejora la eficiencia hasta un 40 % según el fabricante.

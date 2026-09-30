@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 50 Sail
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Vela en formato 50 pies.
+2. De 4 a 6 camarotes.
+3. Armador o chárter.
+
+**Descripción corta candidata**
+
+> Catamarán de vela de 14,97 m de eslora total y 7,86 m de manga, con versiones de 4, 5 o 6 camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 28 Molokai Cuddy
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Allá afuera, la libertad llama.
+2. Protección para todo tiempo.
+3. Capacidad offshore profesional.
+
+**Descripción corta candidata**
+
+> Catamarán de 9,38 m de eslora total con cabina cuddy a proa que da refugio sin renunciar a la capacidad offshore.
 
 **Imagen hero** (selección final: revisión humana)
 

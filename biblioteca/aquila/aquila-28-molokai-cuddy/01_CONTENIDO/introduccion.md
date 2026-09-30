@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 28 Molokai Cuddy combina inteligencia y construcción de calidad para ampliar horizontes, con protección frente a los elementos y confianza en condiciones exigentes.

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 46 Coupe
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Premio Yacht Style 2025.
+2. Coupé con 17'11" de manga.
+3. Fueraborda o intraborda.
+
+**Descripción corta candidata**
+
+> Catamarán coupé de 14,44 m de eslora total y 5,46 m de manga, ganador del Yacht Style Award 2025.
 
 **Imagen hero** (selección final: revisión humana)
 

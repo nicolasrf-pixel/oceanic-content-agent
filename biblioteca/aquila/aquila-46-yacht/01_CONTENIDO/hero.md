@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 46 Yacht
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Estética Explorer.
+2. 23'3" de manga.
+3. Categoría A.
+
+**Descripción corta candidata**
+
+> Catamarán con flybridge de 14,36 m de eslora total y 7,1 m de manga, con dos Volvo Penta D4 de 320 HP.
 
 **Imagen hero** (selección final: revisión humana)
 

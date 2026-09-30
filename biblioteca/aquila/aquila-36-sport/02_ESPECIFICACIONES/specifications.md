@@ -106,7 +106,7 @@ Valor Oceanic: **2**
 
 ## Motorización · `motorizacion` · VERIFIED
 
-Valor Oceanic: **Twin Mercury Verado 300HP outboards with joystick piloting ensure responsive handling, while the optional Aquila Hydro Glide® foil system dramatically improves **
+Valor Oceanic: **Twin Mercury Verado 300HP**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

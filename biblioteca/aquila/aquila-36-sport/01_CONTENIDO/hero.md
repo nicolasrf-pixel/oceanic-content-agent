@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 36 Sport
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Sport con foil.
+2. Dos camarotes con baño.
+3. Crucero o pesca y buceo.
+
+**Descripción corta candidata**
+
+> Catamarán de 10,96 m de eslora total con dos Mercury Verado de 300 HP y joystick, y foil Hydro Glide opcional.
 
 **Imagen hero** (selección final: revisión humana)
 

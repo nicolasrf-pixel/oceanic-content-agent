@@ -12,4 +12,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 32 Sport ofrece la estabilidad y el espacio de un catamarán en un formato deportivo para día y fin de semana.

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 54 Yacht
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. 25'2" de manga.
+2. De 3 a 5 camarotes.
+3. Categoría A.
+
+**Descripción corta candidata**
+
+> Catamarán con flybridge de 16,5 m de eslora total y 7,68 m de manga, con versiones de 3, 4 o 5 camarotes.
 
 **Imagen hero** (selección final: revisión humana)
 

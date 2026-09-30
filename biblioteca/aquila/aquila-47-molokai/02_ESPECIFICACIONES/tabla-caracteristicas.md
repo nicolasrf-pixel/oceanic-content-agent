@@ -1,6 +1,6 @@
 # Características · Aquila 47 Molokai
 
-Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuración: **según ficha técnica** · Motorización: **Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri**
+Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuración: **según ficha técnica** · Motorización: **twin 600HP / quad 400HP**
 
 > Tabla generada desde `specifications.json` (`python -m oceanic render`). No editar a mano.
 
@@ -23,7 +23,7 @@ Model year: **NO DECLARADO** · Variante: **Aquila 47 Molokai** · Configuració
 | --- | --- | --- |
 | Eslora Casco | 13,94 m | VERIFIED |
 | Calado | 1,11 m | VERIFIED |
-| Motorización | Powered by twin 600HP or quad 400HP Mercury Verado outboards and built with advanced carbon fiber construction, the 47 Molokai delivers exceptional strength, ri | VERIFIED |
+| Motorización | twin 600HP / quad 400HP | VERIFIED |
 | Capacidad de pasajeros | 17 | VERIFIED |
 
 ## Campos no encontrados en fuentes oficiales

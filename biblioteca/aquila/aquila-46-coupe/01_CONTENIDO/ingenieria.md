@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Cascos de doble escalón y foil Aquila Hydro Glide. Motores fueraborda o intraborda Volvo.

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 50 Yacht
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Allá afuera, el tiempo se detiene.
+2. Estética Explorer.
+3. Categoría A.
+
+**Descripción corta candidata**
+
+> Catamarán con flybridge de 15,9 m de eslora total y dos Volvo Penta D6 de 380 HP, sucesor del Aquila 48.
 
 **Imagen hero** (selección final: revisión humana)
 

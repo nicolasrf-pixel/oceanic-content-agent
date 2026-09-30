@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 45 Sport
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Estilo SUV sobre el agua.
+2. Más de 50 mph.
+3. Terrazas abatibles de 19 pies.
+
+**Descripción corta candidata**
+
+> Catamarán de 14,17 m de eslora total con dos Mercury Verado V12 de 600 HP y casco de doble escalón.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 28 Molokai
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. Nacido en el Pacífico.
+2. Pesca profesional, versatilidad para todos.
+3. Visión de 360 grados desde el puesto de gobierno.
+
+**Descripción corta candidata**
+
+> Catamarán de consola central de 9,38 m de eslora total, pensado para la pesca de altura, la competición y el chárter de pesca deportiva.
 
 **Imagen hero** (selección final: revisión humana)
 

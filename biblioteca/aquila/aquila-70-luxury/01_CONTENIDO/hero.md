@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 70 Luxury
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. El buque insignia.
+2. Lujo inteligente.
+3. Suite principal de 27 pies de ancho.
+
+**Descripción corta candidata**
+
+> Catamarán de 21,3 m de eslora total, buque insignia de Aquila y galardonado.
 
 **Imagen hero** (selección final: revisión humana)
 

@@ -6,4 +6,6 @@ _Sin contenido de la web oficial para este bloque._
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> La cabina cuddy de proa da refugio manteniendo el carácter offshore. Se puede configurar con hardtop extendido, portaequipajes de techo o asientos centrales opcionales.

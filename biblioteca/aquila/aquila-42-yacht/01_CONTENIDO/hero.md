@@ -10,7 +10,20 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+- **Nombre del barco:** Aquila 42 Yacht
+- **Marca / origen:** Aquila · EE. UU.
+
+**Headlines candidatos**
+
+1. 21 pies de manga.
+2. Flybridge y tres zonas al aire libre.
+3. Categoría A.
+
+**Descripción corta candidata**
+
+> Catamarán con flybridge de 12,64 m de eslora total y 6,4 m de manga, con certificación de categoría A.
 
 **Imagen hero** (selección final: revisión humana)
 

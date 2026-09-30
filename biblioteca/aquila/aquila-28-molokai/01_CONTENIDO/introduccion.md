@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> El Aquila 28 Molokai une capacidad de pesca de nivel profesional con versatilidad práctica. Inspirado en la navegación entre islas en aguas agitadas, cumple varios papeles con estabilidad y aplomo.
