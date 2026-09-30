@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `antares-12-fly-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'antares-12-fly-header.jpg' con el nombre del modelo. |
-| 2 | `antares-12-ext-1920x1200-02` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares-12-EXT-1920x1200-02.jpg' con el nombre del modelo. |
-| 3 | `antares-12-ext-1920x1200-03` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares-12-EXT-1920x1200-03.jpg' con el nombre del modelo. |
+| 2 | `antares-12-ext-1920x1200-02` | Exterior horizontal del modelo; El archivo 'antares-12-EXT-1920x1200-02.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |
+| 3 | `antares-12-ext-1920x1200-03` | Exterior horizontal del modelo; El archivo 'antares-12-EXT-1920x1200-03.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |

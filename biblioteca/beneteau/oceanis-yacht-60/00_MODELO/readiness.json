@@ -2,16 +2,12 @@
   "CONTENT_STATUS": "YELLOW",
   "completeness_pct": 89,
   "critical_missing": [],
-  "unresolved_conflicts": [
-    "Desplazamiento en rosca",
-    "Capacidad Agua Dulce",
-    "Altura sobre línea de flotación"
-  ],
+  "unresolved_conflicts": [],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 6/9 verificada · faltan: superficie_velica · en conflicto: desplazamiento, capacidad_agua_dulce"
+      "detail": "tabla base 8/9 verificada · faltan: superficie_velica"
     },
     "especificaciones": {
       "group": "DATOS",

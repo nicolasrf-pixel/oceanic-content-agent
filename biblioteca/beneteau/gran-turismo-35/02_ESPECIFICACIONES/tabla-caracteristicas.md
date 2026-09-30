@@ -9,7 +9,7 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 35** · Configuración:
 | Campo | Valor | Estado |
 | --- | --- | --- |
 | Eslora Total | 11,2 m | VERIFIED |
-| Manga Casco | CONFLICT: 3.24 m (S1) / 15’3’’ (S1) | CONFLICT |
+| Manga Casco | 3,24 m | VERIFIED |
 | Desplazamiento en rosca | 5.336 kg | VERIFIED |
 | Camarotes | - | NOT_FOUND |
 | Capacidad Combustible | 2 x 370 l | VERIFIED |
@@ -32,5 +32,4 @@ Model year: **NO DECLARADO** · Variante: **Gran Turismo 35** · Configuración:
 
 ## Pendiente de decisión humana
 
-- **Manga Casco** (CONFLICT): El bloque técnico publica '3.24 m' y '15’3’’' (≈ 4,65 m): no coinciden. Decidir con el fabricante.
 - **Motorización** (REQUIRES_REVIEW): Texto oficial sobre motores: Powered by twin Mercury Verado outboards, the base Gran Turismo 35 reaches over 41 knots, delivering thrilling speed and diamond-cut handling

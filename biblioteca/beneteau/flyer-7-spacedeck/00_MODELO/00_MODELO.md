@@ -17,12 +17,12 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Flyer 10 Sport Top, Flyer 30, Flyer 7 SUNdeck, Flyer 8 SUNdeck, Flyer 8 SPACEdeck, Flyer 9 SPACEdeck, Flyer 9 SUNdeck, Flyer 10).
-- Imágenes: 12 del modelo, 0 de otro modelo (excluidas), 1 por revisar (compartidas con otras páginas), 2 no son del barco.
+- Imágenes: 13 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 2 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 83% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 130 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 46 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 3 en inventario (mín. 3) · descargadas 12/12 |
-| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 12/12 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 12/12 |
+| MULTIMEDIA | exterior | OK | 3 en inventario (mín. 3) · descargadas 13/13 |
+| MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 13/13 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 13/13 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

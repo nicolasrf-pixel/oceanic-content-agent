@@ -24,14 +24,16 @@ Valor Oceanic: **5,25 m**
 
 Nota: Valor imperial publicado: 17’5’’ (coherente).
 
-## Desplazamiento en rosca · `desplazamiento` · CONFLICT
+## Desplazamiento en rosca · `desplazamiento` · VERIFIED
+
+Valor Oceanic: **21.700 kg**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Lightship Displacement | 21700 kg | kg | 21700.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Lightship Displacement | 11,020 lbs | imperial | 4998.56 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Dry Weight | 21700 kg | kg | 21700.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '21700 kg' y '11,020 lbs' (≈ 4.998,56 kg): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '21700 kg' (decisión Oceanic: el métrico prevalece). La web publica además '11,020 lbs' (≈ 4.998,56 kg), que no coincide: error de la web en el valor imperial.
 
 ## Camarotes · `camarotes` · VERIFIED
 
@@ -52,14 +54,16 @@ Valor Oceanic: **500 l**
 
 Nota: Valor imperial publicado: 132 US Gal (coherente).
 
-## Capacidad Agua Dulce · `capacidad_agua_dulce` · CONFLICT
+## Capacidad Agua Dulce · `capacidad_agua_dulce` · VERIFIED
+
+Valor Oceanic: **860 l**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Water Capacity | 860 L | l | 860.0 l | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Water Capacity | 211 US Gal | imperial | 798.72 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Water Capacity | 860 L | l | 860.0 l | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '860 L' y '211 US Gal' (≈ 798,72 l): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '860 L' (decisión Oceanic: el métrico prevalece). La web publica además '211 US Gal' (≈ 798,72 l), que no coincide: error de la web en el valor imperial.
 
 ## Certificación · `certificacion` · VERIFIED
 
@@ -86,14 +90,16 @@ Valor Oceanic: **150 hp**
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Max. engine power | 150 HP |  | 150.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
 | [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Max. engine power | 150 HP |  | 150.0 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-30 |
 
-## Altura sobre línea de flotación · `altura_linea_flotacion` · CONFLICT
+## Altura sobre línea de flotación · `altura_linea_flotacion` · VERIFIED
+
+Valor Oceanic: **24,5 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Air Draught Max | 24.5 m | m | 24.5 m | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60) Web oficial · Oceanis Yacht 60 | Specifications (bloque técnico) | Air Draught Max | 75’6’’ | imperial | 23.01 m | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Bridge Clearance | 24.5 m | m | 24.5 m | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '24.5 m' y '75’6’’' (≈ 23,01 m): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '24.5 m' (decisión Oceanic: el métrico prevalece). La web publica además '75’6’’' (≈ 23,01 m), que no coincide: error de la web en el valor imperial.
 
 ## Calado · `calado` · VERIFIED
 

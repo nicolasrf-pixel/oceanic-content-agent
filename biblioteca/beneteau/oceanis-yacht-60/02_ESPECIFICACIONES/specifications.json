@@ -86,8 +86,8 @@
     {
       "oceanic_field": "desplazamiento",
       "label": "Desplazamiento en rosca",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "21.700 kg",
       "records": [
         {
           "source_id": "S1",
@@ -104,21 +104,21 @@
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Oceanis Yacht 60",
-          "url": "https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60",
-          "accessed_at": "2026-09-27",
-          "source_field": "Lightship Displacement",
-          "source_value": "11,020 lbs",
-          "source_unit": "imperial",
-          "normalized_value": 4998.56,
+          "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+          "accessed_at": "2026-09-30",
+          "source_field": "Dry Weight",
+          "source_value": "21700 kg",
+          "source_unit": "kg",
+          "normalized_value": 21700.0,
           "normalized_unit": "kg",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Lightship Displacement' = desplazamiento en rosca."
         }
       ],
-      "notes": "El bloque técnico publica '21700 kg' y '11,020 lbs' (≈ 4.998,56 kg): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '21700 kg' (decisión Oceanic: el métrico prevalece). La web publica además '11,020 lbs' (≈ 4.998,56 kg), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "camarotes",
@@ -182,8 +182,8 @@
     {
       "oceanic_field": "capacidad_agua_dulce",
       "label": "Capacidad Agua Dulce",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "860 l",
       "records": [
         {
           "source_id": "S1",
@@ -199,20 +199,20 @@
           "location": "Specifications (bloque técnico)"
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Oceanis Yacht 60",
-          "url": "https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60",
-          "accessed_at": "2026-09-27",
+          "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+          "accessed_at": "2026-09-30",
           "source_field": "Water Capacity",
-          "source_value": "211 US Gal",
-          "source_unit": "imperial",
-          "normalized_value": 798.72,
+          "source_value": "860 L",
+          "source_unit": "l",
+          "normalized_value": 860.0,
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
-      "notes": "El bloque técnico publica '860 L' y '211 US Gal' (≈ 798,72 l): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '860 L' (decisión Oceanic: el métrico prevalece). La web publica además '211 US Gal' (≈ 798,72 l), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "certificacion",
@@ -284,8 +284,8 @@
     {
       "oceanic_field": "altura_linea_flotacion",
       "label": "Altura sobre línea de flotación",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "24,5 m",
       "records": [
         {
           "source_id": "S1",
@@ -301,20 +301,20 @@
           "location": "Specifications (bloque técnico)"
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Oceanis Yacht 60",
-          "url": "https://www.beneteau.com/oceanis-yacht/oceanis-yacht-60",
-          "accessed_at": "2026-09-27",
-          "source_field": "Air Draught Max",
-          "source_value": "75’6’’",
-          "source_unit": "imperial",
-          "normalized_value": 23.01,
+          "url": "https://www.beneteau.com/en-us/oceanis-yacht/oceanis-yacht-60",
+          "accessed_at": "2026-09-30",
+          "source_field": "Bridge Clearance",
+          "source_value": "24.5 m",
+          "source_unit": "m",
+          "normalized_value": 24.5,
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
-      "notes": "El bloque técnico publica '24.5 m' y '75’6’’' (≈ 23,01 m): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '24.5 m' (decisión Oceanic: el métrico prevalece). La web publica además '75’6’’' (≈ 23,01 m), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "calado",

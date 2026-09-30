@@ -36,7 +36,7 @@ cual después se construye la página Oceanic.
 | Beneteau | [Antares 11 Coupe](biblioteca/beneteau/antares-11-coupe/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Beneteau | [Antares 11 Fly](biblioteca/beneteau/antares-11-fly/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Beneteau | [Antares 12 Coupe](biblioteca/beneteau/antares-12-coupe/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
-| Beneteau | [Antares 12 Fly](biblioteca/beneteau/antares-12-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Beneteau | [Antares 12 Fly](biblioteca/beneteau/antares-12-fly/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Beneteau | [Antares 7 Fishing](biblioteca/beneteau/antares-7-fishing/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Antares 7](biblioteca/beneteau/antares-7/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Antares 8 Fishing](biblioteca/beneteau/antares-8-fishing/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
@@ -58,19 +58,19 @@ cual después se construye la página Oceanic.
 | Beneteau | [First 60](biblioteca/beneteau/first-60/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
 | Beneteau | [Flyer 10 Sport Top](biblioteca/beneteau/flyer-10-sport-top/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 10](biblioteca/beneteau/flyer-10/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
-| Beneteau | [Flyer 30](biblioteca/beneteau/flyer-30/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
+| Beneteau | [Flyer 30](biblioteca/beneteau/flyer-30/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
 | Beneteau | [Flyer 7 SPACEdeck](biblioteca/beneteau/flyer-7-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 7 SUNdeck](biblioteca/beneteau/flyer-7-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 8 SPACEdeck](biblioteca/beneteau/flyer-8-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 8 SUNdeck](biblioteca/beneteau/flyer-8-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 9 SPACEdeck](biblioteca/beneteau/flyer-9-spacedeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Flyer 9 SUNdeck](biblioteca/beneteau/flyer-9-sundeck/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
-| Beneteau | [Gran Turismo 35](biblioteca/beneteau/gran-turismo-35/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
-| Beneteau | [Gran Turismo 40 Coupe](biblioteca/beneteau/gran-turismo-40-coupe/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
-| Beneteau | [Gran Turismo 40 Open](biblioteca/beneteau/gran-turismo-40-open/00_MODELO/00_MODELO.md) | s/d | 3/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 35](biblioteca/beneteau/gran-turismo-35/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 40 Coupe](biblioteca/beneteau/gran-turismo-40-coupe/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Beneteau | [Gran Turismo 40 Open](biblioteca/beneteau/gran-turismo-40-open/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
 | Beneteau | [Gran Turismo 50](biblioteca/beneteau/gran-turismo-50/00_MODELO/00_MODELO.md) | s/d | 4/8 verificada | YELLOW |
 | Beneteau | [Grand Trawler 63](biblioteca/beneteau/grand-trawler-63/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
-| Beneteau | [Oceanis 30.1](biblioteca/beneteau/oceanis-30-1/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
+| Beneteau | [Oceanis 30.1](biblioteca/beneteau/oceanis-30-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 34.1](biblioteca/beneteau/oceanis-34-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 37.1](biblioteca/beneteau/oceanis-37-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 40.1](biblioteca/beneteau/oceanis-40-1/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
@@ -78,7 +78,7 @@ cual después se construye la página Oceanic.
 | Beneteau | [Oceanis 47](biblioteca/beneteau/oceanis-47/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis 52](biblioteca/beneteau/oceanis-52/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Oceanis Yacht 54](biblioteca/beneteau/oceanis-yacht-54/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
-| Beneteau | [Oceanis Yacht 60](biblioteca/beneteau/oceanis-yacht-60/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
+| Beneteau | [Oceanis Yacht 60](biblioteca/beneteau/oceanis-yacht-60/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Beneteau | [Swift Trawler 37 Fly](biblioteca/beneteau/swift-trawler-37-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 37 Sedan](biblioteca/beneteau/swift-trawler-37-sedan/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 43 Fly](biblioteca/beneteau/swift-trawler-43-fly/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
@@ -89,7 +89,7 @@ cual después se construye la página Oceanic.
 | Lagoon | [Lagoon 38](biblioteca/lagoon/lagoon-38/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
 | Lagoon | [Lagoon 42 Millenium](biblioteca/lagoon/lagoon-42-millenium/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Lagoon | [Lagoon 43](biblioteca/lagoon/lagoon-43/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
-| Lagoon | [Lagoon 46 Iconic](biblioteca/lagoon/lagoon-46-iconic/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | RED |
+| Lagoon | [Lagoon 46 Iconic](biblioteca/lagoon/lagoon-46-iconic/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
 | Lagoon | [Lagoon 47](biblioteca/lagoon/lagoon-47/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | RED |
 | Lagoon | [Lagoon 51 Iconic](biblioteca/lagoon/lagoon-51-iconic/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [Lagoon 55](biblioteca/lagoon/lagoon-55/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |

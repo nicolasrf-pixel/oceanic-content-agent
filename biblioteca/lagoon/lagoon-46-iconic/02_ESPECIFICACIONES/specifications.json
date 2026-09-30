@@ -129,8 +129,8 @@
     {
       "oceanic_field": "capacidad_agua_dulce",
       "label": "Capacidad Agua Dulce",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "300 l",
       "records": [
         {
           "source_id": "S1",
@@ -144,22 +144,9 @@
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
-        },
-        {
-          "source_id": "S1",
-          "source_name": "Lagoon 46 Iconic",
-          "url": "https://www.catamarans-lagoon.com/boats/lagoon-46-iconic",
-          "accessed_at": "2026-09-30",
-          "source_field": "Water tank capacity",
-          "source_value": "159 US GAL",
-          "source_unit": "imperial",
-          "normalized_value": 601.88,
-          "normalized_unit": "l",
-          "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
         }
       ],
-      "notes": "El bloque técnico publica '300 L' y '159 US GAL' (≈ 601,88 l): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '300 L' (decisión Oceanic: el métrico prevalece). La web publica además '159 US GAL' (≈ 601,88 l), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "certificacion",

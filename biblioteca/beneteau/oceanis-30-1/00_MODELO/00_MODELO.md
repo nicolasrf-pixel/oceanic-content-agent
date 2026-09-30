@@ -24,11 +24,10 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 83% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Capacidad Agua Dulce
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 7/9 verificada · faltan: superficie_velica · en conflicto: capacidad_agua_dulce |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 8/9 verificada · faltan: superficie_velica |
 | DATOS | especificaciones | OK | 13 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
@@ -62,7 +61,6 @@ Conflictos sin resolver: Capacidad Agua Dulce
 
 ## Información faltante o por revisar
 
-- **Capacidad Agua Dulce** (CONFLICT): El bloque técnico publica '160 L' y '34 US Gal' (≈ 128,70 l): no coinciden. Decidir con el fabricante.
 - **Superficie vélica** (NOT_FOUND): Beneteau no publica la superficie vélica en la web del producto (ni en el bloque técnico ni en el texto). Figura en la lista de equipamiento PDF, que es documento y no aporta datos.
 - Equipamiento: la web no publica lista standard ni optional; ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).
 - Traducción al español del equipamiento: pendiente.

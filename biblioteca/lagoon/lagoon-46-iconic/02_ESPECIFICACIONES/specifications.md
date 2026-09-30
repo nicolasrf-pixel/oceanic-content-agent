@@ -50,14 +50,15 @@ Valor Oceanic: **1.040 l**
 
 Nota: Valor imperial publicado: 275 US GAL (coherente).
 
-## Capacidad Agua Dulce · `capacidad_agua_dulce` · CONFLICT
+## Capacidad Agua Dulce · `capacidad_agua_dulce` · VERIFIED
+
+Valor Oceanic: **300 l**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.catamarans-lagoon.com/boats/lagoon-46-iconic) Web oficial · Lagoon 46 Iconic | Specifications (bloque técnico) | Water tank capacity | 300 L | l | 300.0 l | literal | NO DECLARADO | 2026-09-30 |
-| [S1](https://www.catamarans-lagoon.com/boats/lagoon-46-iconic) Web oficial · Lagoon 46 Iconic | Specifications (bloque técnico) | Water tank capacity | 159 US GAL | imperial | 601.88 l | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '300 L' y '159 US GAL' (≈ 601,88 l): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '300 L' (decisión Oceanic: el métrico prevalece). La web publica además '159 US GAL' (≈ 601,88 l), que no coincide: error de la web en el valor imperial.
 
 ## Certificación · `certificacion` · VERIFIED
 

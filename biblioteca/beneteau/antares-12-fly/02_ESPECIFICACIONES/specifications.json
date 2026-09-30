@@ -180,8 +180,8 @@
     {
       "oceanic_field": "capacidad_agua_dulce",
       "label": "Capacidad Agua Dulce",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "400 l",
       "records": [
         {
           "source_id": "S1",
@@ -197,20 +197,20 @@
           "location": "Specifications (bloque técnico)"
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Antares 12 Fly",
-          "url": "https://www.beneteau.com/antares-outboard/antares-12",
-          "accessed_at": "2026-09-27",
+          "url": "https://www.beneteau.com/en-us/antares-outboard/antares-12",
+          "accessed_at": "2026-09-30",
           "source_field": "Water Capacity",
-          "source_value": "169 US Gal",
-          "source_unit": "imperial",
-          "normalized_value": 639.73,
+          "source_value": "400 L",
+          "source_unit": "l",
+          "normalized_value": 400.0,
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
-      "notes": "El bloque técnico publica '400 L' y '169 US Gal' (≈ 639,73 l): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '400 L' (decisión Oceanic: el métrico prevalece). La web publica además '169 US Gal' (≈ 639,73 l), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "certificacion",

@@ -54,14 +54,16 @@ Valor Oceanic: **1.174 l**
 
 Nota: Valor imperial publicado: 310 US Gal (coherente).
 
-## Capacidad Agua Dulce · `capacidad_agua_dulce` · CONFLICT
+## Capacidad Agua Dulce · `capacidad_agua_dulce` · VERIFIED
+
+Valor Oceanic: **400 l**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Water Capacity | 400 L | l | 400.0 l | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/antares-outboard/antares-12) Web oficial · Antares 12 Fly | Specifications (bloque técnico) | Water Capacity | 169 US Gal | imperial | 639.73 l | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/antares-outboard/antares-12) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Water Capacity | 400 L | l | 400.0 l | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '400 L' y '169 US Gal' (≈ 639,73 l): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '400 L' (decisión Oceanic: el métrico prevalece). La web publica además '169 US Gal' (≈ 639,73 l), que no coincide: error de la web en el valor imperial.
 
 ## Certificación · `certificacion` · VERIFIED
 

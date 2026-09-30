@@ -11,7 +11,7 @@
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
 
-## Imágenes del modelo (27)
+## Imágenes del modelo (29)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@
 | [`lagoon-46-iconic-slider-23`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-23.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-23.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-slider-20`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-20.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-20.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-slider-17`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-17.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-17.jpg' con el nombre del modelo. |
+| [`lagoon-46-iconic-slider-25`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-25.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Publicada también en lagoon-51-iconic, pero el nombre de archivo 'lagoon-46-iconic-slider-25.jpg' nombra exactamente este modelo. |
 | [`lagoon-46-iconic-slider-22`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-22.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-22.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-slider-21-0`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-21_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-21_0.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-slider-11`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-11.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-11.jpg' con el nombre del modelo. |
@@ -40,16 +41,15 @@
 | [`lagoon-46-iconic-slider-08`](https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-46-iconic-slider-08.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-08.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-slider-04`](https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-46-iconic-slider-04.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-slider-04.jpg' con el nombre del modelo. |
 | [`catamaran-lagoon-46-video-thumbnail`](https://admin.catamarans-lagoon.com/sites/default/files/2025-02/catamaran-lagoon-46-video-thumbnail.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo; archivo 'catamaran-lagoon-46-video-thumbnail.jpg' con el nombre del modelo. |
+| [`lagoon-46-furling-boom-vignette`](https://admin.catamarans-lagoon.com/sites/default/files/2024-02/Lagoon_46_furling_boom_Vignette.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Publicada también en lagoon-51-iconic, pero el nombre de archivo 'Lagoon_46_furling_boom_Vignette.jpg' nombra exactamente este modelo. |
 | [`lagoon46-ncz3020-web`](https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon46_NCZ3020_web.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo; archivo 'Lagoon46_NCZ3020_web.jpg' con el nombre del modelo. |
 | [`lagoon-46-iconic-parallax-0`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-parallax_0.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-46-iconic-parallax_0.jpg' con el nombre del modelo. |
 
-## REQUIRES REVIEW: modelo no confirmado (4)
+## REQUIRES REVIEW: modelo no confirmado (2)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
 | [`lagoon-iconic-video-cover`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-iconic-video-cover.jpg) | OTHER | baja |  | 1920x1080 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-51-iconic. |
-| [`lagoon-46-iconic-slider-25`](https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-46-iconic-slider-25.jpg) | OTHER | baja |  | 1920x720 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-51-iconic. |
-| [`lagoon-46-furling-boom-vignette`](https://admin.catamarans-lagoon.com/sites/default/files/2024-02/Lagoon_46_furling_boom_Vignette.jpg) | OTHER | baja |  | 1920x1080 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-51-iconic. |
 | [`seanapps-highlight`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/seanapps-highlight.png) | OTHER | baja |  | 1440x810 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-38, lagoon-42-millenium, lagoon-43, lagoon-47, lagoon-51-iconic, lagoon-55, lagoon-60. |
 
 ## Videos (3)

@@ -182,7 +182,8 @@ class Beneteau(unittest.TestCase):
         spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
         by = {f["oceanic_field"]: f for f in spec["fields"]}
         self.assertEqual(by["eslora_total"]["status"], "VERIFIED")
-        self.assertEqual(by["desplazamiento"]["status"], "CONFLICT")   # 11,020 lbs is not 21 700 kg
+        self.assertEqual(by["desplazamiento"]["status"], "VERIFIED")   # metric prevails over 11,020 lbs
+        self.assertIn("error de la web", by["desplazamiento"]["notes"])
         self.assertEqual(by["camarotes"]["display_value"], "2 a 4")
         self.assertEqual(by["superficie_velica"]["status"], "NOT_FOUND")
         self.assertEqual(specs.validate(spec), [])
@@ -217,7 +218,7 @@ class Lagoon(unittest.TestCase):
         spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
         by = {f["oceanic_field"]: f for f in spec["fields"]}
         self.assertEqual(by["desplazamiento"]["display_value"], "13.900 kg")
-        self.assertEqual(by["capacidad_agua_dulce"]["status"], "CONFLICT")   # 159 US gal is not 300 l
+        self.assertEqual(by["capacidad_agua_dulce"]["display_value"], "300 l")   # metric prevails over 159 US gal
         self.assertEqual(by["certificacion"]["display_value"], "A12 / B14 / C20 / D30")
         self.assertEqual(by["superficie_velica"]["display_value"], "105 m²")
         self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "2 x 57 hp")

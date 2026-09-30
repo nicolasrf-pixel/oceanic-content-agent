@@ -161,3 +161,13 @@ información crítica: `CONTENT_STATUS = RED`. No subir artificialmente el porce
 Al abrir MARCA / MODELO debe estar prácticamente todo lo necesario para construir la página: textos, tabla técnica
 correcta, especificaciones, características, equipamiento, imágenes, videos, documentos, fuentes, conflictos e
 información faltante. Primero se construye la biblioteca; la página Oceanic se construye después.
+
+### Decisión de Oceanic: métrico, superficie vélica e imágenes de variantes hermanas (2026-09-30)
+
+- Cuando la ficha técnica publica el mismo campo en métrico e imperial y no coinciden, se publica el valor métrico y el
+  imperial se anota como error de la web. Si el imperial solo tiene mal el símbolo (`20''` por 20 ft), es el mismo valor.
+  Si el valor internacional no es plausible y la versión en inglés (EE. UU.) de la misma página da uno coherente, se
+  publica ese (fuente S3).
+- La superficie vélica no se toma de la lista de equipamiento PDF: si la web no la publica, queda `-`.
+- Una imagen de la galería oficial del modelo que también publica una variante hermana del mismo casco (misma gama y
+  eslora) se acepta en ambas variantes.

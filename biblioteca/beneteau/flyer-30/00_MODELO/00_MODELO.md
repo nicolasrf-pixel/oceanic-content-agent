@@ -24,12 +24,11 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Potencia motor máx
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 4/8 verificada · faltan: desplazamiento, camarotes, certificacion · en conflicto: potencia_motor_maxima |
-| DATOS | especificaciones | PARTIAL | 7 campos con fuente |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 5/8 verificada · faltan: desplazamiento, camarotes, certificacion |
+| DATOS | especificaciones | PARTIAL | 8 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | PARTIAL | optional.md |
 | EDITORIAL | hero | OK | 58 palabras fuente · candidato Oceanic presente |
@@ -53,14 +52,13 @@ Conflictos sin resolver: Potencia motor máx
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.
+- **Motorización**: Max. engine power → Motorización = potencia máxima declarada en 'Max. engine power' + 'Propulsion'.
 
 ## Información faltante o por revisar
 
 - **Desplazamiento en rosca** (NOT_FOUND): No publicado en la web oficial del producto.
 - **Camarotes** (NOT_FOUND): No publicado en la web oficial del producto.
 - **Certificación** (NOT_FOUND): No publicado en la web oficial del producto.
-- **Potencia motor máx** (CONFLICT): El bloque técnico publica '2 x 300 CV' y '2 x 447 HP' (≈ 447,00 hp): no coinciden. Decidir con el fabricante.
-- **Motorización** (NOT_FOUND): La web no publica motorización para este modelo.
 - Equipamiento: la web no publica lista standard; ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).
 - Traducción al español del equipamiento: pendiente.
 - Manual del propietario: identificar en el Help Center oficial (help.beneteau.com).

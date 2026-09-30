@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Antares 12 Coupe, Antares 7, Antares 8, Antares 8 Fishing, Antares 9, Antares 11 Coupe, Antares 11 Fly, Antares 12 Fly).
-- Imágenes: 26 del modelo, 0 de otro modelo (excluidas), 2 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 28 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 141 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 11 en inventario (mín. 3) · descargadas 26/26 |
-| MULTIMEDIA | interior | OK | 7 en inventario (mín. 2) · descargadas 26/26 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 26/26 |
+| MULTIMEDIA | exterior | OK | 11 en inventario (mín. 3) · descargadas 28/28 |
+| MULTIMEDIA | interior | OK | 7 en inventario (mín. 2) · descargadas 28/28 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 28/28 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

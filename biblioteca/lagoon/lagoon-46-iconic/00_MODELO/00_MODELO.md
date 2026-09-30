@@ -17,19 +17,18 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/lagoon.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 27 del modelo, 0 de otro modelo (excluidas), 4 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 29 del modelo, 0 de otro modelo (excluidas), 2 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 50% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 53% (informativa; el estado lo deciden las reglas)
 
 Falta crítico: hero_image, exterior
-Conflictos sin resolver: Capacidad Agua Dulce
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 8/9 verificada · en conflicto: capacidad_agua_dulce |
+| DATOS | tabla_tecnica | OK | tabla base 9/9 verificada |
 | DATOS | especificaciones | OK | 17 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
@@ -40,9 +39,9 @@ Conflictos sin resolver: Capacidad Agua Dulce
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | MISSING | sin HERO_CANDIDATE |
-| MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 0/27 |
-| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 0/27 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/27 |
+| MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 0/29 |
+| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 0/29 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/29 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |
@@ -61,7 +60,7 @@ Conflictos sin resolver: Capacidad Agua Dulce
 
 ## Información faltante o por revisar
 
-- **Capacidad Agua Dulce** (CONFLICT): El bloque técnico publica '300 L' y '159 US GAL' (≈ 601,88 l): no coinciden. Decidir con el fabricante.
+- Ninguna en la tabla técnica.
 - Equipamiento: la web no publica lista standard ni optional; la web del producto no publica lista de equipamiento (el brochure se pide por formulario).
 - Traducción al español del equipamiento: pendiente.
 - Manual del propietario: no publicado en la web del producto; identificar en el portal de propietarios.

@@ -2,14 +2,12 @@
   "CONTENT_STATUS": "YELLOW",
   "completeness_pct": 83,
   "critical_missing": [],
-  "unresolved_conflicts": [
-    "Capacidad Agua Dulce"
-  ],
+  "unresolved_conflicts": [],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 7/9 verificada · faltan: superficie_velica · en conflicto: capacidad_agua_dulce"
+      "detail": "tabla base 8/9 verificada · faltan: superficie_velica"
     },
     "especificaciones": {
       "group": "DATOS",

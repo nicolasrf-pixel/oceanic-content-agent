@@ -1,15 +1,13 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 86,
+  "completeness_pct": 89,
   "critical_missing": [],
-  "unresolved_conflicts": [
-    "Capacidad Agua Dulce"
-  ],
+  "unresolved_conflicts": [],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
-      "status": "PARTIAL",
-      "detail": "tabla base 7/8 verificada · en conflicto: capacidad_agua_dulce"
+      "status": "OK",
+      "detail": "tabla base 8/8 verificada"
     },
     "especificaciones": {
       "group": "DATOS",
@@ -64,17 +62,17 @@
     "exterior": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "12 en inventario (mín. 3) · descargadas 21/21"
+      "detail": "13 en inventario (mín. 3) · descargadas 22/22"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "4 en inventario (mín. 2) · descargadas 21/21"
+      "detail": "4 en inventario (mín. 2) · descargadas 22/22"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 21/21"
+      "detail": "0 en inventario (mín. 2) · descargadas 22/22"
     },
     "video": {
       "group": "MULTIMEDIA",

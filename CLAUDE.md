@@ -28,13 +28,17 @@ Paquete de referencia ya construido: `biblioteca/axopar/axopar-37-xc-cross-cabin
    ese es el valor publicado; las menciones del mismo dato en otras secciones de la página (equipamiento, textos) se
    anotan en `notes` y no se publican. Un campo que no está en la ficha técnica se busca en otras secciones de la
    web oficial del producto (cruce, ver regla 2).
-   **Dos valores oficiales distintos** fuera de ese caso → `CONFLICT`, conservando ambos. Si dos registros podrían no referirse a lo
+   **Métrico e imperial del mismo campo que no coinciden** → se publica el métrico y el imperial se anota como error
+   de la web (decisión Oceanic 2026-09-30). **Dos valores oficiales distintos** fuera de esos casos → `CONFLICT`,
+   conservando ambos. Si dos registros podrían no referirse a lo
    mismo (otra medida, otra variante, otro año) → `REQUIRES_REVIEW`.
 4. **Modelo exacto.** Diferenciar MODEL / MODEL YEAR / VARIANT / CONFIGURATION / ENGINE OPTION. No mezclar variantes
    (p. ej. 37 XC vs 37 Sun Top) ni generaciones. El model year de los datos es el que declara la web.
 5. **Imágenes solo del modelo.** Cada imagen lleva `scope`: `THIS_MODEL`, `OTHER_MODEL`, `NOT_MODEL_SPECIFIC` o
    `REQUIRES_REVIEW`. Solo se descargan las `THIS_MODEL`. Las páginas oficiales a veces mezclan imágenes de otras
-   variantes (el 37 XC trae fotos del 37 Sun Top): revisar tags y títulos.
+   variantes (el 37 XC trae fotos del 37 Sun Top): revisar tags y títulos. Excepción (decisión Oceanic 2026-09-30):
+   una imagen de la galería oficial del modelo que también publica una variante hermana del mismo casco (misma gama y
+   eslora, p. ej. Antares 8 / 8 Fishing) se acepta en ambas.
 6. **Primero SOURCE CONTENT (literal), después OCEANIC CONTENT (candidato en español).** El candidato solo afirma
    lo que dice la fuente, queda marcado como BORRADOR y no copia textos de la página Oceanic de referencia.
 7. **Equipamiento separado:** STANDARD, OPTIONAL, PACKAGES y CONFIGURATIONS, cada uno en su archivo.
@@ -94,9 +98,12 @@ el bloque queda "PENDIENTE". Paquetes con `00_MODELO/model.json › curated: tru
 
 **Generación masiva (Beneteau):** web Drupal server-rendered; `adapters/beneteau.py` lee el HTML y `builders/beneteau.py`
 arma el paquete (slug = nombre del modelo, p. ej. `oceanis-30-1`). Particularidades: la web no declara model year
-(`NO DECLARADO`) ni superficie vélica (queda `-`); el bloque técnico da cada valor en imperial y métrico: si no coinciden
-es `CONFLICT`; camarotes/baños se cruzan con los títulos de Layouts; una imagen publicada en varias páginas de modelo
-queda `REQUIRES_REVIEW`. Equipamiento: la lista completa es un PDF (documento); standard/optional solo con menciones
+(`NO DECLARADO`) ni superficie vélica (queda `-`: no se toma del PDF, decisión Oceanic); el bloque técnico da cada valor
+en imperial y métrico: si no coinciden se publica el métrico (si el imperial solo tiene mal el símbolo, p. ej. `20''` por
+20 ft, es el mismo valor); la versión EE. UU. de la página es la fuente S3 (se usa si el valor internacional no es
+plausible, p. ej. manga del GT 40 Open); camarotes/baños se cruzan con los títulos de Layouts; una imagen publicada en varias páginas de modelo
+queda `REQUIRES_REVIEW` salvo entre variantes hermanas; revisiones visuales en `drafts/<marca>/<slug>.json ›
+image_overrides`. Equipamiento: la lista completa es un PDF (documento); standard/optional solo con menciones
 literales de la página.
 
 **Generación masiva (Lagoon):** web Nuxt con back office Drupal (`admin.catamarans-lagoon.com`); `adapters/lagoon.py`

@@ -49,23 +49,9 @@
     {
       "oceanic_field": "manga_casco",
       "label": "Manga Casco",
-      "status": "CONFLICT",
-      "display_value": "10,86 m",
+      "status": "VERIFIED",
+      "display_value": "3,7 m",
       "records": [
-        {
-          "source_id": "S1",
-          "source_name": "Gran Turismo 40 Open",
-          "url": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-40-open",
-          "accessed_at": "2026-09-27",
-          "source_field": "Beam overall",
-          "source_value": "10.86 m",
-          "source_unit": "m",
-          "normalized_value": 10.86,
-          "normalized_unit": "m",
-          "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)",
-          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
-        },
         {
           "source_id": "S3",
           "source_name": "Gran Turismo 40 Open",
@@ -81,7 +67,7 @@
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
-      "notes": "Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web. La versión EE. UU. de la página (S3) publica '3.7 m'."
+      "notes": "Se publica el valor de la versión EE. UU. de la página (S3), coherente en métrico e imperial. La página internacional publica '10.86 m', que no es plausible: error de la web."
     },
     {
       "oceanic_field": "desplazamiento",

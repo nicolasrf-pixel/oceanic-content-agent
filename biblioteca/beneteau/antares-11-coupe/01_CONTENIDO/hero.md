@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `antares-11-coupe-header` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'antares-11-coupe-header.jpg' con el nombre del modelo. |
-| 2 | `antares11-design-exterieur-3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares11_design-exterieur-3.jpg' con el nombre del modelo. |
-| 3 | `beneteau-antares-11` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'beneteau_antares_11.jpg' con el nombre del modelo. |
+| 2 | `antares11-design-exterieur-3` | Exterior horizontal del modelo; El archivo 'antares11_design-exterieur-3.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |
+| 3 | `beneteau-antares-11` | Exterior horizontal del modelo; El archivo 'beneteau_antares_11.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |

@@ -24,11 +24,11 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 83% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Manga Casco, Motorización
+Conflictos sin resolver: Motorización
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 5/8 verificada · faltan: camarotes, potencia_motor_maxima · en conflicto: manga_casco |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 6/8 verificada · faltan: camarotes, potencia_motor_maxima |
 | DATOS | especificaciones | PARTIAL | 9 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
@@ -59,7 +59,6 @@ Conflictos sin resolver: Manga Casco, Motorización
 
 ## Información faltante o por revisar
 
-- **Manga Casco** (CONFLICT): El bloque técnico publica '3.24 m' y '15’3’’' (≈ 4,65 m): no coinciden. Decidir con el fabricante.
 - **Camarotes** (NOT_FOUND): No publicado en la web oficial del producto.
 - **Potencia motor máx** (NOT_FOUND): El bloque técnico no publica 'Max. engine power'.
 - **Motorización** (REQUIRES_REVIEW): Texto oficial sobre motores: Powered by twin Mercury Verado outboards, the base Gran Turismo 35 reaches over 41 knots, delivering thrilling speed and diamond-cut handling

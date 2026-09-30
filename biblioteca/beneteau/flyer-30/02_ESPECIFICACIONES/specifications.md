@@ -64,14 +64,16 @@ Valor Oceanic: **-**
 
 Nota: No publicado en la web oficial del producto.
 
-## Potencia motor máx · `potencia_motor_maxima` · CONFLICT
+## Potencia motor máx · `potencia_motor_maxima` · VERIFIED
+
+Valor Oceanic: **2 x 300 CV**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Max. engine power | 2 x 300 CV | hp | 295.9 hp | literal | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Max. engine power | 2 x 447 HP | imperial | 447.0 hp | literal | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/flyer/flyer-30) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Max. engine power | 2 x 300 CV | hp | 295.9 hp | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '2 x 300 CV' y '2 x 447 HP' (≈ 447,00 hp): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '2 x 300 CV' (decisión Oceanic: el métrico prevalece). La web publica además '2 x 447 HP' (≈ 447,00 hp), que no coincide: error de la web en el valor imperial.
 
 ## Calado · `calado` · VERIFIED
 
@@ -89,8 +91,12 @@ Valor Oceanic: **Naval architect: Michael Peters Yacht Design**
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Descripción | Créditos (descripción) | Naval architect: Michael Peters Yacht Design |  | Naval architect: Michael Peters Yacht Design  | Créditos de arquitectura naval y diseño publicados junto a la descripción. | NO DECLARADO | 2026-09-27 |
 
-## Motorización · `motorizacion` · NOT_FOUND
+## Motorización · `motorizacion` · VERIFIED
 
-Valor Oceanic: **-**
+Valor Oceanic: **Fueraborda, hasta 2 x 300 CV**
 
-Nota: La web no publica motorización para este modelo.
+| Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [S1](https://www.beneteau.com/flyer/flyer-30) Web oficial · Flyer 30 | Specifications (bloque técnico) | Max. engine power | 2 x 300 CV | hp | 295.9 hp | Motorización = potencia máxima declarada en 'Max. engine power' + 'Propulsion'. | NO DECLARADO | 2026-09-27 |
+
+Nota: La web no publica el catálogo de motorizaciones; solo la potencia máxima.

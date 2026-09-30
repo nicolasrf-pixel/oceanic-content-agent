@@ -205,6 +205,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 217142,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg",
@@ -215,7 +216,6 @@
         "bytes": 326627,
         "full_resolution": true
       },
-      "bytes": 217142,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg"
     },
     {
@@ -588,8 +588,8 @@
       "id": "a11-deck-02-12-2020",
       "title": "a11_deck_02-12-2020.png",
       "category": "PLANS",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: antares-11-coupe.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "En la galería oficial del modelo y también en la variante hermana antares-11-coupe (mismo casco): decisión Oceanic, se acepta en ambas.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -605,21 +605,33 @@
       "declared_format": "png",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/a11-deck-02-12-2020.webp",
+      "width": 800,
+      "height": 315,
+      "format": "webp",
+      "sha256": "46104963a2d765e0799bbdc1de6b92f57ae66b393eea2d1892e64b84f22ec076",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png",
+        "sha256": "c3bee35b85b57842269ecacc2bc6cee12ebd2a62421334cf1f1ff2af59277e09",
+        "width": 800,
+        "height": 315,
+        "format": "png",
+        "bytes": 231481,
+        "full_resolution": true
+      },
+      "bytes": 30486,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png"
     },
     {
       "id": "a11-lowerdeck-jpg",
       "title": "a11_lowerdeck.jpg.png",
       "category": "PLANS",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: antares-11-coupe.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "En la galería oficial del modelo y también en la variante hermana antares-11-coupe (mismo casco): decisión Oceanic, se acepta en ambas.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -635,14 +647,26 @@
       "declared_format": "png",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/a11-lowerdeck-jpg.webp",
+      "width": 800,
+      "height": 315,
+      "format": "webp",
+      "sha256": "c22648e395f5ad7bef5c15e6839a1a30477ef4980e866bcb45bc4fb42653a4b1",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png",
+        "sha256": "ae235082ec2fa8597c7aa28c980f8be4abb85882c377f2b9bbe720abd761f74e",
+        "width": 800,
+        "height": 315,
+        "format": "png",
+        "bytes": 213149,
+        "full_resolution": true
+      },
+      "bytes": 17474,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png"
     }
   ]
 }

@@ -49,8 +49,8 @@
     {
       "oceanic_field": "manga_casco",
       "label": "Manga Casco",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "3,24 m",
       "records": [
         {
           "source_id": "S1",
@@ -67,21 +67,21 @@
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Gran Turismo 35",
-          "url": "https://www.beneteau.com/gran-turismo-new/gran-turismo-35",
-          "accessed_at": "2026-09-27",
+          "url": "https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35",
+          "accessed_at": "2026-09-30",
           "source_field": "Beam overall",
-          "source_value": "15’3’’",
-          "source_unit": "imperial",
-          "normalized_value": 4.65,
+          "source_value": "3.24 m",
+          "source_unit": "m",
+          "normalized_value": 3.24,
           "normalized_unit": "m",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)",
+          "location": "Specifications (versión EE. UU. de la página)",
           "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del casco."
         }
       ],
-      "notes": "El bloque técnico publica '3.24 m' y '15’3’’' (≈ 4,65 m): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '3.24 m' (decisión Oceanic: el métrico prevalece). La web publica además '15’3’’' (≈ 4,65 m), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "desplazamiento",

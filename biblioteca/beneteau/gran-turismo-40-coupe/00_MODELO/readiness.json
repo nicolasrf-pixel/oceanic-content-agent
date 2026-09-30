@@ -3,14 +3,13 @@
   "completeness_pct": 86,
   "critical_missing": [],
   "unresolved_conflicts": [
-    "Manga Casco",
     "Motorización"
   ],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 5/8 verificada · faltan: camarotes, potencia_motor_maxima · en conflicto: manga_casco"
+      "detail": "tabla base 6/8 verificada · faltan: camarotes, potencia_motor_maxima"
     },
     "especificaciones": {
       "group": "DATOS",

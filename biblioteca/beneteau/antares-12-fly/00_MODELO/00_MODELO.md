@@ -17,18 +17,17 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Antares 12 Coupe, Antares 7, Antares 7 Fishing, Antares 8, Antares 8 Fishing, Antares 9, Antares 11 Coupe, Antares 11 Fly).
-- Imágenes: 21 del modelo, 0 de otro modelo (excluidas), 1 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 22 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 86% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 89% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Capacidad Agua Dulce
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 7/8 verificada · en conflicto: capacidad_agua_dulce |
+| DATOS | tabla_tecnica | OK | tabla base 8/8 verificada |
 | DATOS | especificaciones | OK | 12 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | PARTIAL | optional.md |
@@ -39,9 +38,9 @@ Conflictos sin resolver: Capacidad Agua Dulce
 | EDITORIAL | experiencia | OK | 311 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 84 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 12 en inventario (mín. 3) · descargadas 21/21 |
-| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 21/21 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 21/21 |
+| MULTIMEDIA | exterior | OK | 13 en inventario (mín. 3) · descargadas 22/22 |
+| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 22/22 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 22/22 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |
@@ -59,7 +58,7 @@ Conflictos sin resolver: Capacidad Agua Dulce
 
 ## Información faltante o por revisar
 
-- **Capacidad Agua Dulce** (CONFLICT): El bloque técnico publica '400 L' y '169 US Gal' (≈ 639,73 l): no coinciden. Decidir con el fabricante.
+- Ninguna en la tabla técnica.
 - Equipamiento: la web no publica lista standard; ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).
 - Traducción al español del equipamiento: pendiente.
 - Manual del propietario: identificar en el Help Center oficial (help.beneteau.com).

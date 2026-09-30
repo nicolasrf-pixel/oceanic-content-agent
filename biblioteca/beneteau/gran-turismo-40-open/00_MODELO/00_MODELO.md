@@ -24,11 +24,10 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Manga Casco
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 3/8 verificada · faltan: camarotes, capacidad_combustible, capacidad_agua_dulce, potencia_motor_maxima · en conflicto: manga_casco |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 4/8 verificada · faltan: camarotes, capacidad_combustible, capacidad_agua_dulce, potencia_motor_maxima |
 | DATOS | especificaciones | PARTIAL | 7 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | PARTIAL | optional.md |
@@ -51,14 +50,12 @@ Conflictos sin resolver: Manga Casco
 ## Cruces de datos
 
 - **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
-- **Manga Casco**: Beam overall → 'Beam overall' (manga máxima) es la manga publicada del casco.
 - **Desplazamiento en rosca**: Lightship Displacement → 'Lightship Displacement' = desplazamiento en rosca.
 - **Desplazamiento en rosca**: Dry Weight → 'Lightship Displacement' = desplazamiento en rosca.
 - **Arquitectura naval**: Créditos (descripción) → Créditos de arquitectura naval y diseño publicados junto a la descripción.
 
 ## Información faltante o por revisar
 
-- **Manga Casco** (CONFLICT): Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web. La versión EE. UU. de la página (S3) publica '3.7 m'.
 - **Camarotes** (NOT_FOUND): No publicado en la web oficial del producto.
 - **Capacidad Combustible** (NOT_FOUND): No publicado en el bloque técnico ni en el texto de la página.
 - **Capacidad Agua Dulce** (NOT_FOUND): No publicado en el bloque técnico ni en el texto de la página.

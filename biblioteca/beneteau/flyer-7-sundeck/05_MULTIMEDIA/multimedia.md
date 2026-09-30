@@ -14,7 +14,7 @@
 | 2 | `flyer7sundeck-ext1-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/flyer7sundeck_ext1_1.jpg.webp?itok=JnSCAmGv) |
 | 3 | `flyer7sundeck-ext3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/flyer7sundeck_ext3.jpg.webp?itok=5g_fO9w2) |
 
-## Imágenes del modelo (14)
+## Imágenes del modelo (15)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | [`flyer7sundeck-ext4`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/flyer7sundeck_ext4_.jpg.webp?itok=4qyxElRE) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo (sección 'Exterior design'). |
 | [`flyer-7-sundeck-flyer-edition-2-1500x819`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2023-10/Flyer-7-SUNdeck-Flyer-edition-2-1500x819.jpg.webp?itok=rMJ2xs6p) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Special edition'). |
 | [`flyer-7-sundeck-flyer-edition-1500x819`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2023-10/Flyer-7-SUNdeck-Flyer-edition-1500x819.jpg.webp?itok=YiOOicTV) | EXTERIOR | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Special edition'). |
+| [`flyer7-usp4-cockpit`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2022-12/flyer7-usp4-cockpit.jpg.webp?itok=a9XXc6iw) | COCKPIT | media |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana flyer-7-spacedeck (mismo casco): decisión Oceanic, se acepta en ambas. |
 | [`flyer7sundeck-sensations`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/flyer7sundeck_sensations_.jpg.webp?itok=-rtjTb7b) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Main points'). |
 | [`flyer7sundeck-transportable`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/flyer7sundeck_transportable_.jpg.webp?itok=uw8rYLpe) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Main points'). |
 | [`profil-flyer7sun-std-png`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/profil-Flyer7SUN_STD.png.PNG.webp?itok=AkOakcGd) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
@@ -32,12 +33,6 @@
 | [`flyer7sundeck-plan-std`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-07/flyer7Sundeck-plan-std.png.webp?itok=NSDYfg93) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Standard version'). |
 | [`flyer7sundeck-plan-elegance`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-07/flyer7Sundeck-plan-elegance.png.webp?itok=4F-tRRyv) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Elegance version'). |
 | [`flyer7sundeck-int1`](https://www.beneteau.com/sites/default/files/styles/image_text_desktop/public/flyer7sundeck_int1.jpg.webp?itok=e9_draJc) | OTHER | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Optimized space'). |
-
-## REQUIRES REVIEW: modelo no confirmado (1)
-
-| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| [`flyer7-usp4-cockpit`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2022-12/flyer7-usp4-cockpit.jpg.webp?itok=a9XXc6iw) | COCKPIT | media |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: flyer-7-spacedeck. |
 
 ## Excluidas: no son del barco (2)
 

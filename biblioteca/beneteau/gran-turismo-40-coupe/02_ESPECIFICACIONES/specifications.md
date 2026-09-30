@@ -13,14 +13,16 @@ Valor Oceanic: **12,53 m**
 
 Nota: Valor imperial publicado: 41'1" (coherente).
 
-## Manga Casco · `manga_casco` · CONFLICT
+## Manga Casco · `manga_casco` · VERIFIED
+
+Valor Oceanic: **3,68 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Beam overall | 3.68 m | m | 3.68 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe) Web oficial · Gran Turismo 40 Coupe | Specifications (bloque técnico) | Beam overall | 11'1 | imperial | 3.38 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-40-coupe) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 3.68 m | m | 3.68 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '3.68 m' y '11'1' (≈ 3,38 m): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '3.68 m' (decisión Oceanic: el métrico prevalece). La web publica además '11'1' (≈ 3,38 m), que no coincide: error de la web en el valor imperial.
 
 ## Desplazamiento en rosca · `desplazamiento` · VERIFIED
 

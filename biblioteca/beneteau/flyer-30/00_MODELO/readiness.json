@@ -2,19 +2,17 @@
   "CONTENT_STATUS": "YELLOW",
   "completeness_pct": 69,
   "critical_missing": [],
-  "unresolved_conflicts": [
-    "Potencia motor máx"
-  ],
+  "unresolved_conflicts": [],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 4/8 verificada · faltan: desplazamiento, camarotes, certificacion · en conflicto: potencia_motor_maxima"
+      "detail": "tabla base 5/8 verificada · faltan: desplazamiento, camarotes, certificacion"
     },
     "especificaciones": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "7 campos con fuente"
+      "detail": "8 campos con fuente"
     },
     "caracteristicas": {
       "group": "DATOS",

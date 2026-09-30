@@ -5,7 +5,7 @@
     "model_year": "NO DECLARADO",
     "variant": "Flyer 30",
     "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
-    "engine_option": "-",
+    "engine_option": "Fueraborda, hasta 2 x 300 CV",
     "boat_type": "motor",
     "range": "Flyer"
   },
@@ -180,8 +180,8 @@
     {
       "oceanic_field": "potencia_motor_maxima",
       "label": "Potencia motor máx",
-      "status": "CONFLICT",
-      "display_value": null,
+      "status": "VERIFIED",
+      "display_value": "2 x 300 CV",
       "records": [
         {
           "source_id": "S1",
@@ -197,20 +197,20 @@
           "location": "Specifications (bloque técnico)"
         },
         {
-          "source_id": "S1",
+          "source_id": "S3",
           "source_name": "Flyer 30",
-          "url": "https://www.beneteau.com/flyer/flyer-30",
-          "accessed_at": "2026-09-27",
+          "url": "https://www.beneteau.com/en-us/flyer/flyer-30",
+          "accessed_at": "2026-09-30",
           "source_field": "Max. engine power",
-          "source_value": "2 x 447 HP",
-          "source_unit": "imperial",
-          "normalized_value": 447.0,
+          "source_value": "2 x 300 CV",
+          "source_unit": "hp",
+          "normalized_value": 295.9,
           "normalized_unit": "hp",
           "model_year": "NO DECLARADO",
-          "location": "Specifications (bloque técnico)"
+          "location": "Specifications (versión EE. UU. de la página)"
         }
       ],
-      "notes": "El bloque técnico publica '2 x 300 CV' y '2 x 447 HP' (≈ 447,00 hp): no coinciden. Decidir con el fabricante."
+      "notes": "Se publica el valor métrico '2 x 300 CV' (decisión Oceanic: el métrico prevalece). La web publica además '2 x 447 HP' (≈ 447,00 hp), que no coincide: error de la web en el valor imperial."
     },
     {
       "oceanic_field": "calado",
@@ -264,10 +264,25 @@
     {
       "oceanic_field": "motorizacion",
       "label": "Motorización",
-      "status": "NOT_FOUND",
-      "display_value": "-",
-      "records": [],
-      "notes": "La web no publica motorización para este modelo."
+      "status": "VERIFIED",
+      "display_value": "Fueraborda, hasta 2 x 300 CV",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Flyer 30",
+          "url": "https://www.beneteau.com/flyer/flyer-30",
+          "accessed_at": "2026-09-27",
+          "source_field": "Max. engine power",
+          "source_value": "2 x 300 CV",
+          "source_unit": "hp",
+          "normalized_value": 295.9,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización = potencia máxima declarada en 'Max. engine power' + 'Propulsion'."
+        }
+      ],
+      "notes": "La web no publica el catálogo de motorizaciones; solo la potencia máxima."
     }
   ]
 }

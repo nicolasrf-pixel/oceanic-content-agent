@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `gran-turismo-40-desktop` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'gran-turismo-40-desktop.jpg' con el nombre del modelo. |
-| 2 | `gran-turismo-40-exterior-design-01-1920x1080` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'gran-turismo-40-exterior-design-01-1920x1080.jpg' con el nombre del modelo. |
-| 3 | `gran-turismo-40-exterior-design-02-1920x1080` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'gran-turismo-40-exterior-design-02-1920x1080.jpg' con el nombre del modelo. |
+| 1 | `gran-turismo-40-desktop` | Imagen de cabecera oficial de la página del modelo; El archivo 'gran-turismo-40-desktop.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |
+| 2 | `gran-turismo-40-exterior-design-01-1920x1080` | Exterior horizontal del modelo; El archivo 'gran-turismo-40-exterior-design-01-1920x1080.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |
+| 3 | `gran-turismo-40-exterior-design-02-1920x1080` | Exterior horizontal del modelo; El archivo 'gran-turismo-40-exterior-design-02-1920x1080.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta. |

@@ -249,8 +249,8 @@
       "id": "lagoon-46-iconic-slider-25",
       "title": "lagoon-46-iconic-slider-25.jpg",
       "category": "OTHER",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: lagoon-51-iconic.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Publicada también en lagoon-51-iconic, pero el nombre de archivo 'lagoon-46-iconic-slider-25.jpg' nombra exactamente este modelo.",
       "category_confidence": "baja",
       "hero_candidate": false,
       "hero_reason": null,
@@ -273,7 +273,7 @@
       "sha256": null,
       "collected_at": "2026-09-30",
       "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "download_status": "PENDING"
     },
     {
       "id": "lagoon-46-iconic-slider-22",
@@ -699,8 +699,8 @@
       "id": "lagoon-46-furling-boom-vignette",
       "title": "Lagoon_46_furling_boom_Vignette.jpg",
       "category": "OTHER",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: lagoon-51-iconic.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Publicada también en lagoon-51-iconic, pero el nombre de archivo 'Lagoon_46_furling_boom_Vignette.jpg' nombra exactamente este modelo.",
       "category_confidence": "baja",
       "hero_candidate": false,
       "hero_reason": null,
@@ -723,7 +723,7 @@
       "sha256": null,
       "collected_at": "2026-09-30",
       "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "download_status": "PENDING"
     },
     {
       "id": "lagoon46-ncz3020-web",

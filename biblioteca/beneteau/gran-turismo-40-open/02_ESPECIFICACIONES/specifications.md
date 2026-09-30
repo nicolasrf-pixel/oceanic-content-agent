@@ -13,16 +13,15 @@ Valor Oceanic: **12,3 m**
 
 Nota: Valor imperial publicado: 41'3" (coherente).
 
-## Manga Casco · `manga_casco` · CONFLICT
+## Manga Casco · `manga_casco` · VERIFIED
 
-Valor Oceanic: **10,86 m**
+Valor Oceanic: **3,7 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/new-gran-turismo-range/gran-turismo-40-open) Web oficial · Gran Turismo 40 Open | Specifications (bloque técnico) | Beam overall | 10.86 m | m | 10.86 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
 | [S3](https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-40-open) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 3.7 m | m | 3.7 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
-Nota: Manga publicada (10.86 m) mayor que el 60 % de la eslora (12,30 m): posible error de la web. La versión EE. UU. de la página (S3) publica '3.7 m'.
+Nota: Se publica el valor de la versión EE. UU. de la página (S3), coherente en métrico e imperial. La página internacional publica '10.86 m', que no es plausible: error de la web.
 
 ## Desplazamiento en rosca · `desplazamiento` · VERIFIED
 

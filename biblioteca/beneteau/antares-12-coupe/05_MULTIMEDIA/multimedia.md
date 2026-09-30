@@ -14,7 +14,7 @@
 | 2 | `antares-12-coupe-exterior-1-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares-12-coupe-exterior-1_0.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/antares-12-coupe-exterior-1_0.jpg.webp?itok=Msi3mUQe) |
 | 3 | `antares-12-coupe-exterior-3` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares-12-coupe-exterior-3.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/antares-12-coupe-exterior-3.jpg.webp?itok=asuCir96) |
 
-## Imágenes del modelo (19)
+## Imágenes del modelo (20)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | [`antares-12-coupe-exterior-5`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/antares-12-coupe-exterior-5.jpg.webp?itok=Bp1v43HN) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-exterior-5.jpg' con el nombre del modelo. |
 | [`antares-12-coupe-exterior-6`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/antares-12-coupe-exterior-6.jpg.webp?itok=eI6mrIC7) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-exterior-6.jpg' con el nombre del modelo. |
 | [`antares-12-coupe-exterior-7`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/antares-12-coupe-exterior-7.jpg.webp?itok=eIjyHeHQ) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-exterior-7.jpg' con el nombre del modelo. |
+| [`exterieur-antares-12-technologie`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-11/exterieur-antares-12-technologie.jpg.webp?itok=whEP6pgD) | EXTERIOR | media |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana antares-12-fly (mismo casco): decisión Oceanic, se acepta en ambas. |
 | [`antares-12-coupe-interior-8`](https://www.beneteau.com/sites/default/files/styles/big_internal_design_large/public/2025-07/antares-12-coupe-interior-8.jpg.webp?itok=YTVg97CU) | INTERIOR | media |  | 1468x1238 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-interior-8.jpg' con el nombre del modelo. |
 | [`antares-12-coupe-interior-9`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-07/antares-12-coupe-interior-9.jpg.webp?itok=v6E-V_np) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-interior-9.jpg' con el nombre del modelo. |
 | [`antares-12-coupe-interior-01`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-07/antares-12-coupe-interior-01.jpg.webp?itok=a9Am-uu8) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'antares-12-coupe-interior-01.jpg' con el nombre del modelo. |
@@ -37,12 +38,6 @@
 | [`png-a12-coupe-lower-deck`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-07/PNG%20-%20A12%20Coupe%20-%20lower%20deck.png.webp?itok=rds8cKup) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Top view of the cabin - Standard'). |
 | [`png-a12-coupe-soft-top-a`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20A.png.webp?itok=QAZ1T6IO) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Top view with canvas top - Optional'). |
 | [`png-a12-coupe-pont`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-07/PNG%20-%20A12%20Coupe%20-%20pont.png.webp?itok=rMHFDl9Y) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'U-shaped cockpit - Optional'). |
-
-## REQUIRES REVIEW: modelo no confirmado (1)
-
-| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| [`exterieur-antares-12-technologie`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-11/exterieur-antares-12-technologie.jpg.webp?itok=whEP6pgD) | EXTERIOR | media |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-12-fly. |
 
 ## Excluidas: no son del barco (1)
 

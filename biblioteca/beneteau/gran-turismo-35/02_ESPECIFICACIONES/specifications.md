@@ -13,14 +13,16 @@ Valor Oceanic: **11,2 m**
 
 Nota: Valor imperial publicado: 36'9'' (coherente).
 
-## Manga Casco · `manga_casco` · CONFLICT
+## Manga Casco · `manga_casco` · VERIFIED
+
+Valor Oceanic: **3,24 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Beam overall | 3.24 m | m | 3.24 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
-| [S1](https://www.beneteau.com/gran-turismo-new/gran-turismo-35) Web oficial · Gran Turismo 35 | Specifications (bloque técnico) | Beam overall | 15’3’’ | imperial | 4.65 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S3](https://www.beneteau.com/en-us/gran-turismo-new/gran-turismo-35) Web oficial · versión EE. UU. | Specifications (versión EE. UU. de la página) | Beam overall | 3.24 m | m | 3.24 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-30 |
 
-Nota: El bloque técnico publica '3.24 m' y '15’3’’' (≈ 4,65 m): no coinciden. Decidir con el fabricante.
+Nota: Se publica el valor métrico '3.24 m' (decisión Oceanic: el métrico prevalece). La web publica además '15’3’’' (≈ 4,65 m), que no coincide: error de la web en el valor imperial.
 
 ## Desplazamiento en rosca · `desplazamiento` · VERIFIED
 

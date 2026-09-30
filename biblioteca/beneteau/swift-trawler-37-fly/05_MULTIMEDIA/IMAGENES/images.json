@@ -667,6 +667,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 179004,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
@@ -677,7 +678,6 @@
         "bytes": 474590,
         "full_resolution": true
       },
-      "bytes": 179004,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg"
     },
     {
@@ -709,6 +709,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 157508,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
@@ -719,7 +720,6 @@
         "bytes": 434182,
         "full_resolution": true
       },
-      "bytes": 157508,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg"
     },
     {
@@ -751,6 +751,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 189388,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
@@ -761,7 +762,6 @@
         "bytes": 475686,
         "full_resolution": true
       },
-      "bytes": 189388,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg"
     },
     {
@@ -793,6 +793,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 143140,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
@@ -803,7 +804,6 @@
         "bytes": 429047,
         "full_resolution": true
       },
-      "bytes": 143140,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg"
     },
     {
@@ -835,6 +835,7 @@
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
+      "bytes": 107460,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
@@ -845,7 +846,6 @@
         "bytes": 412194,
         "full_resolution": true
       },
-      "bytes": 107460,
       "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg"
     },
     {
@@ -895,7 +895,7 @@
       "title": "swift-trawler-37-usp-strong-look",
       "category": "DETAIL",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'swift-trawler-37-usp-strong-look.jpg' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'swift-trawler-37-usp-strong-look.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "baja",
       "hero_candidate": false,
       "hero_reason": null,
@@ -937,7 +937,7 @@
       "title": "swift-trawler-37-usp-interior-design",
       "category": "INTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'swift-trawler-37-usp-interior-design.jpg' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'swift-trawler-37-usp-interior-design.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "media",
       "hero_candidate": false,
       "hero_reason": null,
@@ -979,7 +979,7 @@
       "title": "ST37-flybridge-profile-white.png",
       "category": "PLANS",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'ST37-flybridge-profile-white.png' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'ST37-flybridge-profile-white.png' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1021,7 +1021,7 @@
       "title": "ST37-flybridge-profile-grey.png",
       "category": "PLANS",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'ST37-flybridge-profile-grey.png' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'ST37-flybridge-profile-grey.png' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1063,7 +1063,7 @@
       "title": "ST 37 Flybridge standard.jpg",
       "category": "PLANS",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'ST 37 Flybridge standard.jpg' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'ST 37 Flybridge standard.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1104,8 +1104,8 @@
       "id": "st-37-pont-principal-standard",
       "title": "ST 37 pont principal standard.jpg",
       "category": "PLANS",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: swift-trawler-37-sedan.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "En la galería oficial del modelo y también en la variante hermana swift-trawler-37-sedan (mismo casco): decisión Oceanic, se acepta en ambas.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1121,21 +1121,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-principal-standard.webp",
+      "width": 1794,
+      "height": 632,
+      "format": "webp",
+      "sha256": "afe2de7cc0827612f5222c92513fcdbd770ce94a764ac900238d87eecd3a5718",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
+        "sha256": "a0f095f07dc9abe9041d0e68d1dec1427816bd9fb4e907099a287cb44750c233",
+        "width": 1794,
+        "height": 632,
+        "format": "jpeg",
+        "bytes": 240866,
+        "full_resolution": true
+      },
+      "bytes": 73150,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg"
     },
     {
       "id": "st-37-pont-inf-rieur-0",
       "title": "ST 37 pont inférieu",
       "category": "PLANS",
-      "scope": "REQUIRES_REVIEW",
-      "scope_evidence": "Imagen publicada también en: swift-trawler-37-sedan.",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "En la galería oficial del modelo y también en la variante hermana swift-trawler-37-sedan (mismo casco): decisión Oceanic, se acepta en ambas.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1151,21 +1163,33 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-inf-rieur-0.webp",
+      "width": 1795,
+      "height": 634,
+      "format": "webp",
+      "sha256": "61d056449b9dd8cc9d85f2943922c3d28b08b9a5db11f436fe1e3f09afdf86b0",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)"
+      "downloaded_at": "2026-09-30",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
+        "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
+        "sha256": "00092ebc134c564f83c5975edc8821e0457f62bbcf2849d0773d9a33fa846835",
+        "width": 1795,
+        "height": 634,
+        "format": "jpeg",
+        "bytes": 201088,
+        "full_resolution": true
+      },
+      "bytes": 69256,
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg"
     },
     {
       "id": "st-37-flybridge-option-panneaux-ouvrant",
       "title": "ST 37 Flybridge option panneaux ouvrant.jpg",
       "category": "PLANS",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'ST 37 Flybridge option panneaux ouvrant.jpg' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'ST 37 Flybridge option panneaux ouvrant.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,
@@ -1207,7 +1231,7 @@
       "title": "ST 37 Flybridge option silent boat.jpg",
       "category": "PLANS",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo; archivo 'ST 37 Flybridge option silent boat.jpg' con el nombre del modelo.",
+      "scope_evidence": "El archivo 'ST 37 Flybridge option silent boat.jpg' nombra una variante hermana (mismo casco) y está en la galería oficial de este modelo: decisión Oceanic, se acepta.",
       "category_confidence": "alta",
       "hero_candidate": false,
       "hero_reason": null,

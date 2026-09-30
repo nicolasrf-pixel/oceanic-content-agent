@@ -13,7 +13,7 @@ Model year: **NO DECLARADO** · Variante: **Antares 12 Fly** · Configuración: 
 | Desplazamiento en rosca | 9.111 kg | VERIFIED |
 | Camarotes | 3 | VERIFIED |
 | Capacidad Combustible | 1.174 l | VERIFIED |
-| Capacidad Agua Dulce | CONFLICT: 400 L (S1) / 169 US Gal (S1) | CONFLICT |
+| Capacidad Agua Dulce | 400 l | VERIFIED |
 | Certificación | B10 / C12 | VERIFIED |
 | Potencia motor máx | 900 hp | VERIFIED |
 
@@ -25,7 +25,3 @@ Model year: **NO DECLARADO** · Variante: **Antares 12 Fly** · Configuración: 
 | Calado | 1,1 m | VERIFIED |
 | Arquitectura naval | Developpement: BENETEAU · Designer: Sarrazin Design | VERIFIED |
 | Motorización | Fueraborda, hasta 900 hp | VERIFIED |
-
-## Pendiente de decisión humana
-
-- **Capacidad Agua Dulce** (CONFLICT): El bloque técnico publica '400 L' y '169 US Gal' (≈ 639,73 l): no coinciden. Decidir con el fabricante.

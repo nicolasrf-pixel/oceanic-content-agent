@@ -13,7 +13,7 @@ Model year: **NO DECLARADO** · Variante: **Lagoon 46 Iconic** · Configuración
 | Desplazamiento en rosca | 16.300 kg (publicado como 16,3 t) | VERIFIED |
 | Camarotes | 3 / 4 (según versión) | VERIFIED |
 | Capacidad Combustible | 1.040 l | VERIFIED |
-| Capacidad Agua Dulce | CONFLICT: 300 L (S1) / 159 US GAL (S1) | CONFLICT |
+| Capacidad Agua Dulce | 300 l | VERIFIED |
 | Certificación | A12 / B14 / C20 / D30 | VERIFIED |
 | Superficie vélica | 127 m² | VERIFIED |
 | Potencia motor auxiliar | 2 x 57 hp | VERIFIED |
@@ -30,7 +30,3 @@ Model year: **NO DECLARADO** · Variante: **Lagoon 46 Iconic** · Configuración
 | Génova | 46,5 m² | VERIFIED |
 | Motor auxiliar | 2 x 57 CV / HP (estándar) | VERIFIED |
 | Arquitectura naval | Interior design: Nauta Design | VERIFIED |
-
-## Pendiente de decisión humana
-
-- **Capacidad Agua Dulce** (CONFLICT): El bloque técnico publica '300 L' y '159 US GAL' (≈ 601,88 l): no coinciden. Decidir con el fabricante.

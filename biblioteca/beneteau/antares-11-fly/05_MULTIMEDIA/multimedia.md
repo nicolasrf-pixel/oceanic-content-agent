@@ -14,7 +14,7 @@
 | 2 | `antares11fly-exterieur1-slider-1440x786` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares11fly-exterieur1-slider-1440x786.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur1-slider-1440x786.jpg.webp?itok=Aa1Hr9lM) |
 | 3 | `antares11fly-exterieur2-slider-1440x786` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'antares11fly-exterieur2-slider-1440x786.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/antares11fly-exterieur2-slider-1440x786.jpg.webp?itok=EX-wtu2E) |
 
-## Imágenes del modelo (13)
+## Imágenes del modelo (15)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,13 +31,8 @@
 | [`profile-antares11-fly`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-12/profile-antares11-fly.jpg.webp?itok=lyZTSegz) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'profile-antares11-fly.jpg' con el nombre del modelo. |
 | [`profile-antares-11-fly-gris-perle`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2024-01/profile-antares-11-fly-gris-perle.jpg.webp?itok=cdRCb95O) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'profile-antares-11-fly-gris-perle.jpg' con el nombre del modelo. |
 | [`a11-fly-top-view`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_fly_top_view.jpg.webp?itok=S1J-B3aN) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Layouts'). |
-
-## REQUIRES REVIEW: modelo no confirmado (2)
-
-| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| [`a11-deck-02-12-2020`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_deck_02-12-2020.png.webp?itok=2feq839k) | PLANS | alta |  | NonexNone png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-11-coupe. |
-| [`a11-lowerdeck-jpg`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_lowerdeck.jpg.png.webp?itok=Mkwu8NzM) | PLANS | alta |  | NonexNone png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-11-coupe. |
+| [`a11-deck-02-12-2020`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_deck_02-12-2020.png.webp?itok=2feq839k) | PLANS | alta |  | NonexNone png | WEB_COPY | En la galería oficial del modelo y también en la variante hermana antares-11-coupe (mismo casco): decisión Oceanic, se acepta en ambas. |
+| [`a11-lowerdeck-jpg`](https://www.beneteau.com/sites/default/files/styles/wide/public/a11_lowerdeck.jpg.png.webp?itok=Mkwu8NzM) | PLANS | alta |  | NonexNone png | WEB_COPY | En la galería oficial del modelo y también en la variante hermana antares-11-coupe (mismo casco): decisión Oceanic, se acepta en ambas. |
 
 ## Excluidas: no son del barco (1)
 

@@ -14,7 +14,7 @@
 | 2 | `antares7-ext8` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/antares7-ext8.jpg.webp?itok=PFup6s48) |
 | 3 | `antares7-ext10` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/antares7-ext10.jpg.webp?itok=Gk0FHZTm) |
 
-## Imágenes del modelo (34)
+## Imágenes del modelo (36)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -50,15 +50,10 @@
 | [`profile-antares-7-cruising-gris-perle`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2024-01/profile-antares-7-cruising-gris-perle.jpg.webp?itok=An8Yu9fh) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
 | [`profile-antares7-fishing`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-12/profile-antares7-fishing.jpg.webp?itok=XsoSVbg6) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
 | [`profile-antares-7-fishing-gris-perle`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2024-01/profile-antares-7-fishing-gris-perle.jpg.webp?itok=KXHjlBhp) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
+| [`antares7-exterior`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/antares7-exterior.jpg.webp?itok=BNsvfwJk) | PLANS | alta |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana antares-7-fishing (mismo casco): decisión Oceanic, se acepta en ambas. |
+| [`antares-7-fishing-800x560-2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2023-11/antares-7-fishing-800x560-2.jpg.webp?itok=BTaNgrkq) | PLANS | alta |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana antares-7-fishing (mismo casco): decisión Oceanic, se acepta en ambas. |
 | [`antares7-plan2-cabine-std`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-09/antares7-plan2-cabine-std.png.webp?itok=Y1IwwLyL) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Cabin'). |
 | [`antares7-plan1-cabine-separe`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-09/antares7-plan1-cabine-separe.png.webp?itok=vzITnq1N) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Cabin with separate toilets'). |
-
-## REQUIRES REVIEW: modelo no confirmado (2)
-
-| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| [`antares7-exterior`](https://www.beneteau.com/sites/default/files/styles/wide/public/2022-12/antares7-exterior.jpg.webp?itok=BNsvfwJk) | PLANS | alta |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-7-fishing. |
-| [`antares-7-fishing-800x560-2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2023-11/antares-7-fishing-800x560-2.jpg.webp?itok=BTaNgrkq) | PLANS | alta |  | NonexNone jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: antares-7-fishing. |
 
 ## Excluidas: no son del barco (1)
 

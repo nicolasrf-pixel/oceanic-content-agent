@@ -254,11 +254,11 @@ def _quantity_field(key, label, row, kind, src, xref=None, loa=None):
                         inorm = mnorm
                         break
             if abs(inorm - mnorm) > tol:
-                rec2 = _row_record(src, row, round(inorm, 2), iunit, xref)
-                rec2["source_value"], rec2["source_unit"] = imperial[0], "imperial"
-                return _field(key, label, "CONFLICT", [rec, rec2],
-                              notes=f"El bloque técnico publica '{mv}' y '{imperial[0]}' (≈ {_fmt(inorm, 2)} {iunit}): "
-                                    "no coinciden. Decidir con el fabricante.")
+                # Decisión Oceanic (2026-09-30): el valor métrico prevalece; el imperial se registra como error de la web.
+                return _field(key, label, "VERIFIED", [rec], display=disp,
+                              notes=f"Se publica el valor métrico '{mv}' (decisión Oceanic: el métrico prevalece). "
+                                    f"La web publica además '{imperial[0]}' (≈ {_fmt(inorm, 2)} {iunit}), que no coincide: "
+                                    "error de la web en el valor imperial.")
             notes = notes or f"Valor imperial publicado: {imperial[0]} (coherente)."
             if munit == "hp":
                 disp = _es(imperial[0])
@@ -495,6 +495,14 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
             arec = dict(af["records"][0], source_id="S3", location="Specifications (versión EE. UU. de la página)")
             same = any(json.dumps(r["normalized_value"]) == json.dumps(arec["normalized_value"]) for r in f["records"])
             f["records"].append(arec)
+            if not same and f["status"] == "REQUIRES_REVIEW" and af["status"] == "VERIFIED":
+                # The international value is implausible and the US page gives a coherent one: publish S3.
+                bad = f["records"][0]["source_value"]
+                fields[key] = dict(af, records=[arec],
+                                   notes=f"Se publica el valor de la versión EE. UU. de la página (S3), coherente en "
+                                         f"métrico e imperial. La página internacional publica '{bad}', que no es "
+                                         "plausible: error de la web.")
+                continue
             if not same:
                 f["status"] = "CONFLICT"
                 f["notes"] = ((f.get("notes") or "") + f" La versión EE. UU. de la página (S3) publica "
@@ -564,6 +572,12 @@ def _category(im: dict) -> tuple[str, str]:
     return "OTHER", "baja"
 
 
+def _sister(slug: str, own: dict) -> bool:
+    """Another variant of the same hull: same range and size (Antares 8 / 8 Fishing, ST 37 Sedan / Fly)."""
+    t = _model_tokens(_CORPUS["slugs"].get(slug, slug))
+    return t["range"] == own["range"] and t["size"] == own["size"]
+
+
 def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> dict:
     recs, ids = [], set()
     own = ident["tokens"]
@@ -579,8 +593,15 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
         elif others and exact:
             scope, ev = "THIS_MODEL", (f"Publicada también en {', '.join(others)}, pero el nombre de archivo "
                                        f"'{im['file_name']}' nombra exactamente este modelo.")
+        elif others and all(_sister(o, own) for o in others):
+            scope, ev = "THIS_MODEL", (f"En la galería oficial del modelo y también en la variante hermana "
+                                       f"{', '.join(others)} (mismo casco): decisión Oceanic, se acepta en ambas.")
         elif others:
             scope, ev = "REQUIRES_REVIEW", f"Imagen publicada también en: {', '.join(others)}."
+        elif fm and fm[1] == own["size"] and fm[0] == own["range"] and fm[2] != own["variants"] and \
+                any(_sister(o, own) for o in _CORPUS["slugs"] if o != ident["slug"]):
+            scope, ev = "THIS_MODEL", (f"El archivo '{im['file_name']}' nombra una variante hermana (mismo casco) y está "
+                                       "en la galería oficial de este modelo: decisión Oceanic, se acepta.")
         elif fm and (fm[1] != own["size"] or (fm[2] and own["variants"] and not set(fm[2]) & set(own["variants"]))
                      or (fm[2] and not own["variants"])):
             scope, ev = ("OTHER_MODEL", f"El nombre de archivo '{im['file_name']}' nombra otro modelo/variante de la web.") \
