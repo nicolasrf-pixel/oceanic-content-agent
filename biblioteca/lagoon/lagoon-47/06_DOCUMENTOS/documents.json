@@ -1,0 +1,27 @@
+{
+  "model": "Lagoon 47",
+  "documents": [
+    {
+      "id": "lagoon-club",
+      "title": "Lagoon Club (portal de propietarios)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://club.catamarans-lagoon.com/en",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "BROCHURES",
+      "detail": "La página del modelo no enlaza brochure."
+    },
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

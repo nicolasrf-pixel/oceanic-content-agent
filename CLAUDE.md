@@ -78,7 +78,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build <marca> <extract.json>...  # axopar | beneteau: paquetes completos (no toca los curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
@@ -99,6 +99,13 @@ es `CONFLICT`; camarotes/baños se cruzan con los títulos de Layouts; una image
 queda `REQUIRES_REVIEW`. Equipamiento: la lista completa es un PDF (documento); standard/optional solo con menciones
 literales de la página.
 
+**Generación masiva (Lagoon):** web Nuxt con back office Drupal (`admin.catamarans-lagoon.com`); `adapters/lagoon.py`
+produce el mismo extract que Beneteau y `builders/lagoon.py` reutiliza el builder de Beneteau con su propia `CFG`
+(mismo grupo). Tipo `catamaran_vela`. La ficha técnica es completa (superficie vélica de ceñida, motorización estándar,
+depósitos, CE, literas); camarotes y baños salen de las pestañas "Versions" (en el payload Nuxt). Si un campo aparece
+dos veces en la ficha con valores distintos → `CONFLICT`. La galería no trae categorías: se clasifican a la vista.
+El brochure se pide por formulario (sin enlace directo). Las citas de prensa van a `excluded_sources`.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
@@ -109,7 +116,7 @@ literales de la página.
 - Los PDF oficiales solo se identifican y registran como documentos (no aportan datos).
 - Las descargas de binarios (imágenes, PDF) las hace `python -m oceanic media` y necesitan acceso de red a los CDN
   del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
-  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`).
+  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
   HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).

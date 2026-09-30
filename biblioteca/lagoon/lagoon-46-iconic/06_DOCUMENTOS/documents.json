@@ -1,0 +1,37 @@
+{
+  "model": "Lagoon 46 Iconic",
+  "documents": [
+    {
+      "id": "brochure-form",
+      "title": "Brochure oficial · Lagoon 46 Iconic (se pide por formulario)",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-46-iconic",
+      "file": null,
+      "format": "PDF (por email)",
+      "notes": "La web entrega el brochure tras un formulario; no hay enlace directo. Documento: no aporta datos.",
+      "download_status": "NOT_DOWNLOADED (formulario)"
+    },
+    {
+      "id": "lagoon-club",
+      "title": "Lagoon Club (portal de propietarios)",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://club.catamarans-lagoon.com/en",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

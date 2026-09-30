@@ -136,7 +136,8 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             continue
         fmt, w, h = _image_info(data)
         digest = hashlib.sha256(data).hexdigest()
-        full = bool(w and rec["declared_width"] and w >= rec["declared_width"])
+        # Fetched from the original URL = original, whatever its size; otherwise compare with the declared size.
+        full = used == rec["source_url"] or bool(w and rec["declared_width"] and w >= rec["declared_width"])
         if source == "cdn":
             # Original not fetched: keep its reference and declared size from the DAM.
             rec["original"] = {"url": rec["source_url"], "fetched_from": None, "sha256": None,

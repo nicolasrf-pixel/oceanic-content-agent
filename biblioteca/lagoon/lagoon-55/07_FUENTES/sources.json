@@ -1,0 +1,61 @@
+{
+  "model": "Lagoon 55",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Lagoon 55",
+      "title": "Lagoon 55",
+      "type": "official_product_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/boats/lagoon-55",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "Firecrawl rawHtml + adapters/lagoon.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-lagoon-55.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Lagoon",
+      "type": "official_range_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/ranges/sailing-catamarans",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Lagoon",
+      "url": "https://configurator.catamarans-lagoon.com/",
+      "reason": "Herramienta interactiva; no se leyó. No aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (VELA E MOTORE)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (FIGARO NAUTISME)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (VOILE MAGAZINE)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (YACHTING WORLD)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (OUR YACHT WORLD)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    }
+  ]
+}

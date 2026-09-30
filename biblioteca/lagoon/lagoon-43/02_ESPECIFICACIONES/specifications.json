@@ -1,0 +1,413 @@
+{
+  "model": {
+    "brand": "Lagoon",
+    "model": "Lagoon 43",
+    "model_year": "NO DECLARADO",
+    "variant": "Lagoon 43",
+    "configuration": "según versiones oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "2 x 57 CV / HP (estándar)",
+    "boat_type": "catamaran_vela",
+    "range": "Lagoon"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores métrico e imperial del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "13,85 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length overall*",
+          "source_value": "13.85 m",
+          "source_unit": "m",
+          "normalized_value": 13.85,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 45'5'' (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,69 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "7.69 m",
+          "source_unit": "m",
+          "normalized_value": 7.69,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del catamarán."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "7,69 m",
+          "source_unit": "m",
+          "normalized_value": 7.69,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del catamarán."
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "13.900 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light displacement (EEC)",
+          "source_value": "13,9 t",
+          "source_unit": "kg",
+          "normalized_value": 13900.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Light displacement (EEC)' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 30 848 Lbs (coherente).",
+      "display_note": "publicado como 13,9 t"
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Versions (pestañas de layouts)",
+          "source_value": "Flybridge; 6 place settings; 12 place settings; 3 cabins; 3 cabins + Pullman berth; 3 cabins with aft berth; 4 cabins + Pullman berth; 4 cabins",
+          "source_unit": null,
+          "normalized_value": "3 / 4",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Versions",
+          "cross_reference": "El bloque técnico no publica número de cabinas: se toma de las versiones oficiales."
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "570 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel tank capacity",
+          "source_value": "570 L",
+          "source_unit": "l",
+          "normalized_value": 570.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 151 US GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "630 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water tank capacity",
+          "source_value": "630 L",
+          "source_unit": "l",
+          "normalized_value": 630.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 166 US GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A12 / B14 / C20 / D30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE approval",
+          "source_value": "A : 12 - B : 14 - C : 20 - D : 30",
+          "source_unit": null,
+          "normalized_value": "A12 / B14 / C20 / D30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "105 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Upwind sail area",
+          "source_value": "105 m² | 1,130 sq.ft",
+          "source_unit": null,
+          "normalized_value": 105.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (mayor + génova)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 57 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Motorisation - standard",
+          "source_value": "2 x 57 CV / HP",
+          "source_unit": null,
+          "normalized_value": 114,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente) → potencia del motor auxiliar."
+        }
+      ],
+      "notes": "Estándar: 2 x 57 CV / HP"
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "12,82 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull length",
+          "source_value": "12,82 m",
+          "source_unit": "m",
+          "normalized_value": 12.82,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 42'1'' (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,31 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water draft",
+          "source_value": "1.31 m",
+          "source_unit": "m",
+          "normalized_value": 1.31,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4'4'' (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "21,31 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Air draft",
+          "source_value": "21.31 m",
+          "source_unit": "m",
+          "normalized_value": 21.31,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 69'11' (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6 a 13",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "No. of berths",
+          "source_value": "6-13",
+          "source_unit": null,
+          "normalized_value": "6 a 13",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "60 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "High roach mainsail",
+          "source_value": "60 m² | 646 sq.ft",
+          "source_unit": null,
+          "normalized_value": 60.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Otras velas publicadas: Square top mainsail: 68 m²"
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "37 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Furling genoa",
+          "source_value": "37 m² | 398 sq.ft",
+          "source_unit": null,
+          "normalized_value": 37.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 57 CV / HP (estándar)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Motorisation - standard",
+          "source_value": "2 x 57 CV / HP",
+          "source_unit": null,
+          "normalized_value": "2 x 57 CV / HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización del bloque técnico (estándar)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: VPLP Design · Exterior design: Patrick le Quément · Interior design: Nauta Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 43",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+          "accessed_at": "2026-09-30",
+          "source_field": "Specifications (créditos)",
+          "source_value": "Naval architect: VPLP Design · Exterior design: Patrick le Quément · Interior design: Nauta Design",
+          "source_unit": null,
+          "normalized_value": "Naval architect: VPLP Design · Exterior design: Patrick le Quément · Interior design: Nauta Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications",
+          "cross_reference": "Créditos publicados en el bloque técnico."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "model": "Lagoon 43",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Lagoon 43",
+      "title": "Lagoon 43",
+      "type": "official_product_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/boats/lagoon-43",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "Firecrawl rawHtml + adapters/lagoon.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-lagoon-43.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Lagoon",
+      "type": "official_range_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/ranges/sailing-catamarans",
+      "accessed_at": "2026-09-30",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Lagoon",
+      "url": "https://configurator.catamarans-lagoon.com/",
+      "reason": "Herramienta interactiva; no se leyó. No aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (BOAT NEWS)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (LE FIGARO NAUTISME)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (MULTICOQUES MAG)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (YACHT CLASS MONACO)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (YACHTING WORLD)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (CRUISING WORLD)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (VOILE & MOTEUR)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (YACHT CROATIA)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    }
+  ]
+}

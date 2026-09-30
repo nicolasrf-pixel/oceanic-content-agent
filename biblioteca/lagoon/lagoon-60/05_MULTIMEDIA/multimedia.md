@@ -1,0 +1,75 @@
+# Multimedia · Lagoon 60
+
+> Generado desde `images.json` y `videos.json` (`python -m oceanic render`). No editar a mano.
+
+- Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
+- Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+
+## HERO_CANDIDATE
+
+| Rank | id | Motivo | URL |
+| --- | --- | --- | --- |
+
+## Imágenes del modelo (45)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`lagoon-60-mobile-cover-768x1024`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg) | HERO | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-mobile-cover-768x1024.jpg' con el nombre del modelo. |
+| [`lagoon-60-transparent`](https://admin.catamarans-lagoon.com/sites/default/files/2023-09/LAGOON_60_Transparent.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'LAGOON_60_Transparent.png' con el nombre del modelo. |
+| [`layout-l5xa-saloon-galleyup`](https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyUp.webp) | PLANS | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección 'Galley up'). |
+| [`layout-l5xa-saloon-galleydown`](https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyDown.webp) | PLANS | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección 'Galley down'). |
+| [`layout-l5xa-4c4t-galleydown-a`](https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-4c4t-galleydown-A.webp) | PLANS | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección '4 cabins / Galley down'). |
+| [`layout-lagoon-60-5-cabins-galley-down`](https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'layout Lagoon 60 - 5 cabins - galley down.png' con el nombre del modelo. |
+| [`layout-lagoon-60-5-cabins-galley-down-crew-cabin`](https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'layout Lagoon 60 - 5 cabins - galley down - crew cabin.png' con el nombre del modelo. |
+| [`layout-l5xa-5c5t-galleyup-a`](https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp) | PLANS | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección '5 cabins / Galley up'). |
+| [`lagoon-60-flybridge-standard`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'Lagoon 60 - flybridge standard.png' con el nombre del modelo. |
+| [`lagoon-60-vignette-600x400`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-600x400.jpg) | OTHER | baja |  | 800x1096 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-vignette-600x400.jpg' con el nombre del modelo. |
+| [`2`](https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo (sección 'Portada de video / parallax'). |
+| [`lagoon-60-slider-09-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-09-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-27-1920x1280`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-27-1920x1280.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-15-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-15-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-07-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-07-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-07-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-10-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-10-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-10-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-26-1920x1280`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26-1920x1280.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-26-1920x1280.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-06-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-06-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-06-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-28-1920x1280`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-28-1920x1280.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-28-1920x1280.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-26`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-26.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-08-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-08-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-08-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-22-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-22-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-22-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-23-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-23-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-23-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-19-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-19-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-19-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-25-1920x1280`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-25-1920x1280.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-25-1920x1280.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-21-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-21-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-21-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-18-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-18-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-18-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-17-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-17-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-17-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-20-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-20-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-20-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-14-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-14-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-14-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-12-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-12-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-12-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-16-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-16-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-16-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-13-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-13-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-13-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-05-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-05-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-05-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-03-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-03-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-03-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-11-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-11-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-11-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-04-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-04-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-04-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-01-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-01-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-01-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-02-1920x720-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-02-1920x720_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-02-1920x720_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-slider-24-1920x1280`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-24-1920x1280.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-slider-24-1920x1280.jpg' con el nombre del modelo. |
+| [`1`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo (sección 'Portada de video / parallax'). |
+| [`lagoon-60-vignette-highlight-01-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-01_0.jpg) | OTHER | baja |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-vignette-highlight-01_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-vignette-highlight-03-1`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-03_1.jpg) | OTHER | baja |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-vignette-highlight-03_1.jpg' con el nombre del modelo. |
+| [`lagoon-60-vignette-highlight-02-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-02_0.jpg) | OTHER | baja |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-vignette-highlight-02_0.jpg' con el nombre del modelo. |
+| [`lagoon-60-highlight-flybridge`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-60-highlight-flybridge.jpg) | OTHER | baja |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-60-highlight-flybridge.jpg' con el nombre del modelo. |
+
+## REQUIRES REVIEW: modelo no confirmado (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`seanapps-highlight`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/seanapps-highlight.png) | INTERIOR | media |  | 1440x810 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-38, lagoon-42-millenium, lagoon-43, lagoon-46-iconic, lagoon-47, lagoon-51-iconic, lagoon-55. |
+
+## Videos (2)
+
+| Título | Alcance | Resolución | Fecha DAM | Nota |
+| --- | --- | --- | --- | --- |
+| [Lagoon 60, walkthrough & details](https://www.youtube.com/watch?v=6FdhVNNHOus) | THIS_MODEL |  |  | Incrustado en la página del modelo. |
+| [Lagoon 60, the scenery of your dreams](https://www.youtube.com/watch?v=NyRGsfRBUHg) | THIS_MODEL |  |  | Incrustado en la página del modelo. |

@@ -186,3 +186,40 @@ class Beneteau(unittest.TestCase):
         self.assertEqual(by["camarotes"]["display_value"], "2 a 4")
         self.assertEqual(by["superficie_velica"]["status"], "NOT_FOUND")
         self.assertEqual(specs.validate(spec), [])
+
+
+class Lagoon(unittest.TestCase):
+    HTML = """<html><body><main>
+    <img src="https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-lagoon-99.jpg" width="1920" height="1080">
+    <h1>Lagoon 99</h1><h2>A Tagline</h2>
+    <div class="lead-1">The Lagoon 99 is a long enough description of the boat for the introduction block.</div>
+    <img src="https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-99-01.jpg" width="1920" height="720">
+    <h3>A Highlight</h3><p>Highlight text.</p>
+    <h2>Specifications</h2><div><ul>
+      <li><span>Length overall*</span> <span>13.85m / 45'5''ft</span></li>
+      <li><span>Beam overall</span> <span>7.69m / 25'3'ft</span></li>
+      <li><span>Light displacement (EEC)</span> <span>13,9 t / 30 848 Lbs</span></li>
+      <li><span>Water tank capacity</span> <span>300 L / 159 US GAL</span></li>
+      <li><span>Motorisation - standard</span> <span>2 x 57 CV / HP</span></li>
+      <li><span>CE approval</span> <span>A : 12 - B : 14 - C : 20 - D : 30</span></li>
+      <li><span>Upwind sail area</span> <span>105 m² / 1,130 sq.ft</span></li>
+    </ul></div></main>
+    <script>window.__NUXT__=(function(){return {x:[{name:"3 cabins",parent:a,image:{type:n,id:"1",meta:{drupal_internal__target_id:1,url:"https:\\u002F\\u002Fadmin.catamarans-lagoon.com\\u002Fsites\\u002Fdefault\\u002Ffiles\\u002Fl99-3c.jpg",alt:"x"}}},{name:"4 cabins",parent:a,image:{type:n,id:"2",meta:{drupal_internal__target_id:2,url:"https:\\u002F\\u002Fadmin.catamarans-lagoon.com\\u002Fsites\\u002Fdefault\\u002Ffiles\\u002Fl99-4c.jpg",alt:"x"}}}]}}())</script>
+    </body></html>"""
+
+    def test_lagoon_specs(self):
+        from oceanic.adapters import lagoon as adapter
+        from oceanic.builders import lagoon as builder, beneteau
+        ext = adapter.extract(self.HTML, "https://www.catamarans-lagoon.com/boats/lagoon-99", "2026-09-30")
+        self.assertEqual([l["title"] for l in ext["layouts"]], ["3 cabins", "4 cabins"])
+        ident = builder._with_cfg(beneteau.identity, ext)
+        self.assertEqual(ident["boat_type"], "catamaran_vela")
+        spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
+        by = {f["oceanic_field"]: f for f in spec["fields"]}
+        self.assertEqual(by["desplazamiento"]["display_value"], "13.900 kg")
+        self.assertEqual(by["capacidad_agua_dulce"]["status"], "CONFLICT")   # 159 US gal is not 300 l
+        self.assertEqual(by["certificacion"]["display_value"], "A12 / B14 / C20 / D30")
+        self.assertEqual(by["superficie_velica"]["display_value"], "105 m²")
+        self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "2 x 57 hp")
+        self.assertEqual(by["camarotes"]["display_value"], "3 / 4")
+        self.assertEqual(specs.validate(spec), [])

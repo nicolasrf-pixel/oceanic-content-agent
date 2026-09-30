@@ -1,0 +1,418 @@
+{
+  "model": {
+    "brand": "Lagoon",
+    "model": "EIGHTY 2",
+    "model_year": "NO DECLARADO",
+    "variant": "EIGHTY 2",
+    "configuration": "según versiones oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "2 x John Deere N5 - 230 HP",
+    "boat_type": "catamaran_vela",
+    "range": "Lagoon"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores métrico e imperial del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "24,97 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length overall*",
+          "source_value": "24.97 m",
+          "source_unit": "m",
+          "normalized_value": 24.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length overall",
+          "source_value": "24,97 m",
+          "source_unit": "m",
+          "normalized_value": 24.97,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "11 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "11 m",
+          "source_unit": "m",
+          "normalized_value": 11.0,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 36'1'' (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en el bloque técnico."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "4 / 5",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Versions (pestañas de layouts)",
+          "source_value": "Loose Furniture; Galley up; Galley down; 5 cabins / galley down; 5 cabins / Galley up; 4 cabins / galley down",
+          "source_unit": null,
+          "normalized_value": "4 / 5",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Versions",
+          "cross_reference": "El bloque técnico no publica número de cabinas: se toma de las versiones oficiales."
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2 x 1.400 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel tank capacity",
+          "source_value": "2 x 1400 L",
+          "source_unit": "l",
+          "normalized_value": 1400.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel capacity",
+          "source_value": "2 x 1,400 l",
+          "source_unit": "l",
+          "normalized_value": 1400.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "2 x 800 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water tank capacity",
+          "source_value": "2 x 800 L",
+          "source_unit": "l",
+          "normalized_value": 800.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fresh water capacity",
+          "source_value": "2 x 800 l",
+          "source_unit": "l",
+          "normalized_value": 800.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A14 / B18 / C24 / D40",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE approval",
+          "source_value": "A : 14 - B : 18 - C : 24 - D : 40",
+          "source_unit": null,
+          "normalized_value": "A14 / B18 / C24 / D40",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE Certification",
+          "source_value": "A: 14 - B: 18 - C: 24 - D: 40",
+          "source_unit": null,
+          "normalized_value": "A14 / B18 / C24 / D40",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "CONFLICT",
+      "display_value": null,
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Sails area upwind",
+          "source_value": "337m² | 3,627'4''sq.ft",
+          "source_unit": null,
+          "normalized_value": 337.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (mayor + génova)."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Upwind sail area (approx.)",
+          "source_value": "338 m² | 3,638’2’’",
+          "source_unit": null,
+          "normalized_value": 338.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (mayor + génova)."
+        }
+      ],
+      "notes": "El bloque técnico publica este campo más de una vez con valores distintos."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 230 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Motorisation - standard",
+          "source_value": "2 x 230 CV / HP",
+          "source_unit": null,
+          "normalized_value": 460,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente) → potencia del motor auxiliar."
+        }
+      ],
+      "notes": "Estándar: 2 x 230 CV / HP"
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "23,91 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull length",
+          "source_value": "23,91 m",
+          "source_unit": "m",
+          "normalized_value": 23.91,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 78’4” (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,9 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water draft",
+          "source_value": "1.9 m",
+          "source_unit": "m",
+          "normalized_value": 1.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        },
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Draft",
+          "source_value": "1,90 m",
+          "source_unit": "m",
+          "normalized_value": 1.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "36,6 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Air draft",
+          "source_value": "36.6 m",
+          "source_unit": "m",
+          "normalized_value": 36.6,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 120'1'' (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "8 a 16",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "No. of berths",
+          "source_value": "8 - 16",
+          "source_unit": null,
+          "normalized_value": "8 a 16",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x John Deere N5 - 230 HP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Engine power",
+          "source_value": "2 x John Deere N5 - 230 HP",
+          "source_unit": null,
+          "normalized_value": "2 x John Deere N5 - 230 HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización del bloque técnico ('Engine power', con marca y modelo)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Naval architect: VPLP Design · Exterior design: VPLP Design / Patrick Le Quément · Interior design: Nauta Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "EIGHTY 2",
+          "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+          "accessed_at": "2026-09-30",
+          "source_field": "Specifications (créditos)",
+          "source_value": "Naval architect: VPLP Design · Exterior design: VPLP Design / Patrick Le Quément · Interior design: Nauta Design",
+          "source_unit": null,
+          "normalized_value": "Naval architect: VPLP Design · Exterior design: VPLP Design / Patrick Le Quément · Interior design: Nauta Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications",
+          "cross_reference": "Créditos publicados en el bloque técnico."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

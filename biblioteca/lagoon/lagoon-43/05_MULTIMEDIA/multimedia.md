@@ -1,0 +1,80 @@
+# Multimedia · Lagoon 43
+
+> Generado desde `images.json` y `videos.json` (`python -m oceanic render`). No editar a mano.
+
+- Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
+- Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+
+## HERO_CANDIDATE
+
+| Rank | id | Motivo | URL |
+| --- | --- | --- | --- |
+| 1 | `highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway.jpg' con el nombre del modelo. | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway.jpg) |
+
+## Imágenes del modelo (48)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`cover-lagoon-43-1920x1080`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-lagoon-43-1920x1080.jpg) | HERO | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'cover-lagoon-43-1920x1080.jpg' con el nombre del modelo. |
+| [`highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway.jpg) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-02-exterior-access-aft-entryway.jpg' con el nombre del modelo. |
+| [`highlight-catamaran-lagoon-43-01-interior-hull`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/highlight-catamaran-lagoon-43-01-interior-hull.jpg) | INTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-01-interior-hull.jpg' con el nombre del modelo. |
+| [`lagoon-43-owner-cabin-highlight`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-43-owner-cabin-highlight.jpg) | CABIN | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'lagoon-43-owner-cabin-highlight.jpg' con el nombre del modelo. |
+| [`lagoon-43-trefil`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/Lagoon%2043%20trefil.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'Lagoon 43 trefil.png' con el nombre del modelo. |
+| [`l4sc-layout-ext-b`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/L4sc-layout-ext_B.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Flybridge'). |
+| [`l4sc-layout-salone-00-carre-6-couverts`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/L4sc-layout-salone-00-carre-6-couverts.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección '6 place settings'). |
+| [`l4sc-layout-salone-01-carre-12-couverts`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/L4sc-layout-salone-01-carre-12-couverts.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección '12 place settings'). |
+| [`l4sc-layout-lowerdeck-3-cabines`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/L4sc-layout-lowerDeck-3%20cabines.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección '3 cabins'). |
+| [`l43-3-cabines-lits-pullman-3-cabin-pullman-beds`](https://admin.catamarans-lagoon.com/sites/default/files/2025-07/L43---3-cabines-%E2%80%93-Lits-pullman--3-cabin-%E2%80%93-Pullman-beds.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'L43---3-cabines-–-Lits-pullman--3-cabin-–-Pullman-beds.jpg' con el nombre del modelo. |
+| [`layout-lagoon-43-3-cabines-lit-arriere`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/layout-lagoon-43-3-cabines-lit-arriere.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'layout-lagoon-43-3-cabines-lit-arriere.png' con el nombre del modelo. |
+| [`l43-4-cabines-lit-pullman-4-cabin-pullman-bed`](https://admin.catamarans-lagoon.com/sites/default/files/2025-07/L43---4-cabines-%E2%80%93-Lit-pullman--4-cabin-%E2%80%93-Pullman-bed.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'L43---4-cabines-–-Lit-pullman--4-cabin-–-Pullman-bed.jpg' con el nombre del modelo. |
+| [`l4sc-layout-lowerdeck-4c4t`](https://admin.catamarans-lagoon.com/sites/default/files/2024-03/L4sc-layout-lowerDeck-4c4t.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección '4 cabins'). |
+| [`intro-lagoon-43-1080x1920`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/intro-lagoon-43-1080x1920.jpg) | OTHER | baja |  | 800x1096 jpg | PENDING | Solo en la página del modelo; archivo 'intro-lagoon-43-1080x1920.jpg' con el nombre del modelo. |
+| [`5`](https://admin.catamarans-lagoon.com/sites/default/files/2025-11/5.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo (sección 'Portada de video / parallax'). |
+| [`slider-lagoon-43-03`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-03.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-03.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-23`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-23.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-23.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-06-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-06_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-06_0.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-24`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-24.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-24.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-10-0`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-10_0.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-10_0.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-25`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-25.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-25.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-07`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-07.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-07.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-04`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-04.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-04.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-09`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-09.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-09.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-22`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-22.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-22.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-21`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-21.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-21.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-05`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-05.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-05.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-26`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-26.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-26.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-08`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-08.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-08.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-01`](https://admin.catamarans-lagoon.com/sites/default/files/2024-10/slider-lagoon-43-01.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-01.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-02`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-02.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-02.jpg' con el nombre del modelo. |
+| [`slider-catamaran-lagoon-43-carre-01`](https://admin.catamarans-lagoon.com/sites/default/files/2026-04/slider-catamaran-lagoon-43-carre-01.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-01.jpg' con el nombre del modelo. |
+| [`slider-catamaran-lagoon-43-carre-04`](https://admin.catamarans-lagoon.com/sites/default/files/2026-04/slider-catamaran-lagoon-43-carre-04.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-04.jpg' con el nombre del modelo. |
+| [`slider-catamaran-lagoon-43-carre-05`](https://admin.catamarans-lagoon.com/sites/default/files/2026-04/slider-catamaran-lagoon-43-carre-05.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-05.jpg' con el nombre del modelo. |
+| [`slider-catamaran-lagoon-43-carre-02`](https://admin.catamarans-lagoon.com/sites/default/files/2026-04/slider-catamaran-lagoon-43-carre-02.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-02.jpg' con el nombre del modelo. |
+| [`slider-catamaran-lagoon-43-carre-03`](https://admin.catamarans-lagoon.com/sites/default/files/2026-04/slider-catamaran-lagoon-43-carre-03.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-catamaran-lagoon-43-carre-03.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-20`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-20.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-20.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-18`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-18.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-18.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-17`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-17.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-17.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-16`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-16.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-16.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-12`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-12.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-12.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-11`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-11.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-11.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-13`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-13.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-13.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-15`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-15.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-15.jpg' con el nombre del modelo. |
+| [`slider-lagoon-43-14`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/slider-lagoon-43-14.jpg) | OTHER | baja |  | 1920x720 jpg | PENDING | Solo en la página del modelo; archivo 'slider-lagoon-43-14.jpg' con el nombre del modelo. |
+| [`3`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/3.jpg) | OTHER | baja |  | 1920x1080 jpg | PENDING | Solo en la página del modelo (sección 'Portada de video / parallax'). |
+| [`highlight-catamaran-lagoon-43-03-adaptable-living-area`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/highlight-catamaran-lagoon-43-03-adaptable-living-area.jpg) | OTHER | baja |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'highlight-catamaran-lagoon-43-03-adaptable-living-area.jpg' con el nombre del modelo. |
+| [`parallax-lagoon-43-1920x1200`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/parallax-lagoon-43-1920x1200.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'parallax-lagoon-43-1920x1200.jpg' con el nombre del modelo. |
+
+## REQUIRES REVIEW: modelo no confirmado (2)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`highilight-ambiance-illustration`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/highilight-ambiance-illustration.jpg) | OTHER | baja |  | 1440x810 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-38, lagoon-47. |
+| [`seanapps-highlight`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/seanapps-highlight.png) | OTHER | baja |  | 1440x810 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Imagen publicada también en: lagoon-38, lagoon-42-millenium, lagoon-46-iconic, lagoon-47, lagoon-51-iconic, lagoon-55, lagoon-60. |
+
+## Videos (2)
+
+| Título | Alcance | Resolución | Fecha DAM | Nota |
+| --- | --- | --- | --- | --- |
+| [Lagoon 43, Walkthrough & details](https://www.youtube.com/watch?v=G0BCJXjmy2Q) | THIS_MODEL |  |  | Incrustado en la página del modelo. |
+| [Lagoon 43, naturally adaptable](https://www.youtube.com/watch?v=fy0xWivsaCk) | THIS_MODEL |  |  | Incrustado en la página del modelo. |

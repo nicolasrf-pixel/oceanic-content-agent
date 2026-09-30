@@ -1,0 +1,397 @@
+{
+  "model": {
+    "brand": "Lagoon",
+    "model": "Lagoon 42 Millenium",
+    "model_year": "NO DECLARADO",
+    "variant": "Lagoon 42 Millenium",
+    "configuration": "según versiones oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "2 x 57 CV / HP (estándar)",
+    "boat_type": "catamaran_vela",
+    "range": "Lagoon"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores métrico e imperial del mismo campo que no coinciden → CONFLICT.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "13,22 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Length overall*",
+          "source_value": "13.22 m",
+          "source_unit": "m",
+          "normalized_value": 13.22,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 43'4'' (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,68 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam overall",
+          "source_value": "7.68 m",
+          "source_unit": "m",
+          "normalized_value": 7.68,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del catamarán."
+        },
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Beam Overall",
+          "source_value": "7,68 m",
+          "source_unit": "m",
+          "normalized_value": 7.68,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Beam overall' (manga máxima) es la manga publicada del catamarán."
+        }
+      ],
+      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "12.100 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Light displacement (EEC)",
+          "source_value": "12,1 t",
+          "source_unit": "kg",
+          "normalized_value": 12100.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Light displacement (EEC)' = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 26 688 Lbs (coherente).",
+      "display_note": "publicado como 12,1 t"
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web no publica número de cabinas (ni en el bloque técnico ni en las versiones)."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "570 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Fuel tank capacity",
+          "source_value": "570 L",
+          "source_unit": "l",
+          "normalized_value": 570.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 151 US GAL (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "300 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water tank capacity",
+          "source_value": "300 L",
+          "source_unit": "l",
+          "normalized_value": 300.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 79 US GAL (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A12 / B14 / C20 / D30",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "CE approval",
+          "source_value": "A: 12 | B: 14 | C: 20 | D: 30",
+          "source_unit": null,
+          "normalized_value": "A12 / B14 / C20 / D30",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "94 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Sails area upwind",
+          "source_value": "94m² | 1011sq.ft",
+          "source_unit": null,
+          "normalized_value": 94.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (mayor + génova)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 57 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Motorisation - standard",
+          "source_value": "2 x 57 CV / HP",
+          "source_unit": null,
+          "normalized_value": 114,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización estándar publicada (no hay opción más potente) → potencia del motor auxiliar."
+        }
+      ],
+      "notes": "Estándar: 2 x 57 CV / HP"
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "12,79 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Hull length",
+          "source_value": "12,79 m",
+          "source_unit": "m",
+          "normalized_value": 12.79,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 42' (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,26 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Water draft",
+          "source_value": "1.26 m",
+          "source_unit": "m",
+          "normalized_value": 1.26,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4'2'' (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "20,6 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Air draft",
+          "source_value": "20.6 m",
+          "source_unit": "m",
+          "normalized_value": 20.6,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Valor imperial publicado: 67'7'' (coherente)."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6 a 12",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "No. of berths",
+          "source_value": "6 - 12",
+          "source_unit": null,
+          "normalized_value": "6 a 12",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "55 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "High roach mainsail",
+          "source_value": "55 m² | 592 sq.ft",
+          "source_unit": null,
+          "normalized_value": 55.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": "Otras velas publicadas: Square top mainsail (opt.): 59 m²"
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "35 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Self-tacking jib",
+          "source_value": "35m² | 377 sq.ft",
+          "source_unit": null,
+          "normalized_value": 35.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 57 CV / HP (estándar)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Motorisation - standard",
+          "source_value": "2 x 57 CV / HP",
+          "source_unit": null,
+          "normalized_value": "2 x 57 CV / HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications (bloque técnico)",
+          "cross_reference": "Motorización del bloque técnico (estándar)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Interior design: Nauta Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Lagoon 42 Millenium",
+          "url": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+          "accessed_at": "2026-09-30",
+          "source_field": "Specifications (créditos)",
+          "source_value": "Interior design: Nauta Design",
+          "source_unit": null,
+          "normalized_value": "Interior design: Nauta Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications",
+          "cross_reference": "Créditos publicados en el bloque técnico."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

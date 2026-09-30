@@ -25,6 +25,21 @@ BRAND_DIR = ROOT / "biblioteca" / "beneteau"
 MODEL_YEAR = "NO DECLARADO"
 PUBLISHER = "BENETEAU (Groupe Beneteau, Francia)"
 
+# Brand settings. builders/lagoon.py reuses this module with its own CFG (same group, same web stack).
+CFG = {
+    "brand": BRAND, "brand_dir": BRAND_DIR, "publisher": PUBLISHER, "origin": "Beneteau · Francia",
+    "builder": "beneteau", "adapter": "adapters/beneteau.py", "boat_type": None, "build_specs": None,
+    "type_label": {"vela": "Velero monocasco", "motor": "Motor"},
+    "reasons": {},
+    "excluded_sources": [{"title": "Configurador Beneteau", "url": "https://configurator.beneteau.com/",
+                          "reason": "Requiere sesión de navegador; no se pudo leer. No aporta datos."}],
+    "video_platform": "YouTube (canal BENETEAU)",
+    "manual_doc": {"id": "help-center", "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+                   "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178"},
+    "manual_note": "Manual del propietario: identificar en el Help Center oficial (help.beneteau.com).",
+    "equipment_note": "ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).",
+}
+
 # Shared across the models built in one run: which model pages publish each image / video.
 _CORPUS = {"images": {}, "videos": {}, "slugs": {}}
 
@@ -60,14 +75,14 @@ def identity(ext: dict) -> dict:
     name = re.sub(r"\bBENETEAU\b", "Beneteau", ext["page_title"])
     return {"slug": model_slug(ext), "model": name, "family": family, "range": rng,
             "range_url": ext["breadcrumb"][2]["url"] if len(ext["breadcrumb"]) > 2 else None,
-            "boat_type": "vela" if sail else "motor",
+            "boat_type": CFG["boat_type"](ext) if CFG["boat_type"] else ("vela" if sail else "motor"),
             "tokens": _model_tokens(name)}
 
 
 RANGE_ALIASES = {"swift trawler": ["swift-trawler", "st"], "grand trawler": ["grand-trawler", "gt"],
                  "gran turismo": ["gran-turismo", "gt"], "oceanis yacht": ["oceanis-yacht", "oy"],
                  "oceanis": ["oceanis", "oc"], "first": ["first"], "flyer": ["flyer"], "antares": ["antares"],
-                 "figaro": ["figaro"]}
+                 "figaro": ["figaro"], "lagoon": ["lagoon", "l"]}
 VARIANT_WORDS = ("sedan", "fly", "coupe", "open", "fishing", "sundeck", "spacedeck", "sport-top", "se", "spirit")
 
 
@@ -464,13 +479,14 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
         "motor_auxiliar": "La web no publica motor auxiliar para este modelo.",
         "motorizacion": "La web no publica motorización para este modelo.",
     }
+    reasons.update(CFG["reasons"])
     for key in list(dict.fromkeys(base + crit)):
         if key not in fields:
             fields[key] = _field(key, labels[key], "NOT_FOUND", display="-",
                                  notes=reasons.get(key, "No publicado en la web oficial del producto."))
     order = base + [k for k in fields if k not in base]
     return {
-        "model": {"brand": BRAND, "model": ident["model"], "model_year": MODEL_YEAR, "variant": ident["model"],
+        "model": {"brand": CFG["brand"], "model": ident["model"], "model_year": MODEL_YEAR, "variant": ident["model"],
                   "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
                   "engine_option": fields.get("motorizacion", fields.get("motor_auxiliar", {})).get("display_value") or "-",
                   "boat_type": boat, "range": ident["range"]},
@@ -628,7 +644,7 @@ def write_editorial(model_dir: Path, ident: dict, sources: dict, draft: dict | N
         if text:
             lines += ["> Candidato. Estado: **BORRADOR, requiere revisión editorial**.", ""]
             if key == "hero" and isinstance(text, dict):
-                lines += [f"- **Nombre del barco:** {ident['model']}", "- **Marca / origen:** Beneteau · Francia", "",
+                lines += [f"- **Nombre del barco:** {ident['model']}", f"- **Marca / origen:** {CFG['origin']}", "",
                           "**Headlines candidatos**", ""]
                 lines += [f"{i}. {h}" for i, h in enumerate(text.get("headlines", []), 1)]
                 lines += ["", "**Descripción corta candidata**", "", _quote(text.get("descripcion", "")), ""]
@@ -725,16 +741,16 @@ def write_model_md(model_dir: Path, ident: dict, ext: dict, spec: dict, images: 
     xrefs = [(f, r) for f in spec["fields"] for r in f["records"] if r.get("cross_reference")]
     rng = ", ".join(m for m in ext["range_models"] if m) or "-"
     lines = [f"# {ident['model']}", "", "## Identificación", "", "| Campo | Valor | Fuente |", "| --- | --- | --- |",
-             f"| MARCA | {PUBLISHER} | S1 |",
+             f"| MARCA | {CFG['publisher']} | S1 |",
              f"| GAMA | {ident['range']} ({ident['family']}) | S1, S2 |",
              f"| MODEL | {ident['model']} | S1 |",
              f"| MODEL YEAR | {MODEL_YEAR} (la web del producto no declara model year) | S1 |",
              f"| VARIANT | {ident['model']} | S1 |",
-             f"| TIPO | {'Velero monocasco' if ident['boat_type'] == 'vela' else 'Motor'} | S1 |",
+             f"| TIPO | {CFG['type_label'].get(ident['boat_type'], ident['boat_type'])} | S1 |",
              f"| PRECIO | {ext.get('price_text') or 'NO PUBLICADO'} | S1 |",
              f"| URL OFICIAL | {ext['source_url']} | S1 |", "",
              "## Reglas de alcance aplicadas", "",
-             "- Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.",
+             f"- Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/{CFG['builder']}.py`.",
              f"- No se mezclan otros modelos de la gama ({rng}).",
              f"- Imágenes: {count('THIS_MODEL')} del modelo, {count('OTHER_MODEL')} de otro modelo (excluidas), "
              f"{count('REQUIRES_REVIEW')} por revisar (compartidas con otras páginas), {count('NOT_MODEL_SPECIFIC')} no son del barco.",
@@ -747,15 +763,15 @@ def write_model_md(model_dir: Path, ident: dict, ext: dict, spec: dict, images: 
     missing_eq = [n for n in ("standard.md", "optional.md") if n not in equipment]
     if missing_eq:
         lines.append(f"- Equipamiento: la web no publica lista {' ni '.join(n[:-3] for n in missing_eq)}; "
-                     "ver la lista de equipamiento PDF en 06_DOCUMENTOS (documento, no aporta datos).")
+                     + CFG["equipment_note"])
     if not has_features:
         lines.append("- Características (03): la página no tiene bloques de características con título.")
     lines += ["- Traducción al español del equipamiento: pendiente.",
-              "- Manual del propietario: identificar en el Help Center oficial (help.beneteau.com)."]
+              "- " + CFG["manual_note"]]
     (model_dir / "00_MODELO").mkdir(parents=True, exist_ok=True)
     (model_dir / "00_MODELO" / "00_MODELO.md").write_text("\n".join(lines) + "\n")
     (model_dir / "00_MODELO" / "model.json").write_text(
-        json.dumps({"slug": ident["slug"], "curated": False, "builder": "beneteau",
+        json.dumps({"slug": ident["slug"], "curated": False, "builder": CFG["builder"],
                     "source_url": ext["source_url"]}, indent=2) + "\n")
 
 
@@ -777,7 +793,7 @@ def _keep_downloads(path: Path, images: dict):
 def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
     ident = identity(ext)
     slug = ident["slug"]
-    model_dir = BRAND_DIR / slug
+    model_dir = CFG["brand_dir"] / slug
     marker = model_dir / "00_MODELO" / "model.json"
     if marker.exists() and json.loads(marker.read_text()).get("curated") and not force:
         raise SystemExit(f"{slug}: paquete curado a mano, no se sobrescribe")
@@ -789,25 +805,26 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
     (fu / "extract" / f"S1-{slug}.page.json").write_text(json.dumps(ext, ensure_ascii=False, indent=1) + "\n")
     sources = [
         {"id": "S1", "short": f"Web oficial · {ident['model']}", "title": ext["page_title"],
-         "type": "official_product_page", "publisher": PUBLISHER, "url": ext["source_url"],
-         "accessed_at": ext["accessed_at"], "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+         "type": "official_product_page", "publisher": CFG["publisher"], "url": ext["source_url"],
+         "accessed_at": ext["accessed_at"], "retrieved_via": f"Firecrawl rawHtml + {CFG['adapter']}",
          "model_year_scope": MODEL_YEAR, "extract": f"07_FUENTES/extract/S1-{slug}.page.json"}]
     if ident["range_url"]:
         sources.append({"id": "S2", "short": "Web oficial · gama", "title": ident["range"], "type": "official_range_page",
-                        "publisher": PUBLISHER, "url": ident["range_url"], "accessed_at": ext["accessed_at"],
+                        "publisher": CFG["publisher"], "url": ident["range_url"], "accessed_at": ext["accessed_at"],
                         "retrieved_via": "referencia", "model_year_scope": "gama"})
     (fu / "sources.json").write_text(json.dumps({
         "model": ident["model"],
         "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
         "sources": sources,
-        "excluded_sources": [{"title": "Configurador Beneteau", "url": "https://configurator.beneteau.com/",
-                              "reason": "Requiere sesión de navegador; no se pudo leer. No aporta datos."}]},
+        "excluded_sources": CFG["excluded_sources"] + [
+            {"title": f"Prensa citada en la página ({q.get('source') or 's/f'})", "url": None,
+             "reason": "Cita de un medio de terceros: no aporta datos."} for q in ext.get("press_quotes", [])]},
         ensure_ascii=False, indent=2) + "\n")
     (fu / "source-map.md").write_text(
         f"# Mapa de fuentes · {ident['model']}\n\nTodos los datos y textos salen de S1 ({ext['source_url']}), "
         f"accedida {ext['accessed_at']} con Firecrawl (rawHtml). S2 es la página de gama (referencia).\n")
 
-    spec = build_specs(ext, ident, src)
+    spec = (CFG["build_specs"] or build_specs)(ext, ident, src)
     (model_dir / "02_ESPECIFICACIONES").mkdir(parents=True, exist_ok=True)
     (model_dir / "02_ESPECIFICACIONES" / "specifications.json").write_text(
         json.dumps(spec, ensure_ascii=False, indent=2) + "\n")
@@ -821,7 +838,7 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
     vids = []
     for v in ext["videos"]:
         others = sorted(p for p in _CORPUS["videos"].get(v["youtube_id"], ()) if p != slug)
-        vids.append({"title": v.get("section_title") or "Video", "url": v["url"], "platform": "YouTube (canal BENETEAU)",
+        vids.append({"title": v.get("section_title") or "Video", "url": v["url"], "platform": CFG["video_platform"],
                      "format": None, "resolution": None, "description": None, "cover_image": v["thumbnail"],
                      "source_page": ext["source_url"], "date": None, "date_note": "YouTube no expone fecha en la página",
                      "scope": "REQUIRES_REVIEW" if others else "THIS_MODEL",
@@ -834,6 +851,13 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
 
     docs, not_found = [], []
     for dl in ext["downloads"]:
+        if dl["kind"] == "brochure_form":
+            docs.append({"id": "brochure-form", "title": f"Brochure oficial · {ident['model']} (se pide por formulario)",
+                         "category": "BROCHURES", "scope": "THIS_MODEL", "model_year": MODEL_YEAR, "source_id": "S1",
+                         "download_url": None, "source_page": ext["source_url"], "file": None, "format": "PDF (por email)",
+                         "notes": "La web entrega el brochure tras un formulario; no hay enlace directo. Documento: no aporta datos.",
+                         "download_status": "NOT_DOWNLOADED (formulario)"})
+            continue
         brochure = dl["kind"] == "brochure"
         docs.append({"id": "e-brochure" if brochure else "equipment-list",
                      "title": ("E-brochure oficial" if brochure else "Lista de equipamiento oficial") + f" · {ident['model']}",
@@ -844,10 +868,9 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
                      "notes": "Enlazado desde la página del modelo. Documento: no aporta datos a la ficha."
                               + (" Puede cubrir toda la gama." if brochure else ""),
                      "download_status": "LINK (no se guarda copia)"})
-    docs.append({"id": "help-center", "title": "Help Center oficial Beneteau (documentos técnicos por barco)",
+    docs.append({"id": CFG["manual_doc"]["id"], "title": CFG["manual_doc"]["title"],
                  "category": "MANUALS", "scope": "REQUIRES_REVIEW", "model_year": None, "source_id": "S1",
-                 "download_url": None,
-                 "source_page": "https://help.beneteau.com/hc/en-us/categories/360003496178", "file": None,
+                 "download_url": None, "source_page": CFG["manual_doc"]["source_page"], "file": None,
                  "download_status": "PENDING (identificar el manual del modelo en el portal)"})
     if not any(d["category"] == "BROCHURES" for d in docs):
         not_found.append({"category": "BROCHURES", "detail": "La página del modelo no enlaza brochure."})
