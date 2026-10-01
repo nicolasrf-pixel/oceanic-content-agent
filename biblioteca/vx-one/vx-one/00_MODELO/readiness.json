@@ -2,9 +2,9 @@
   "CONTENT_STATUS": "RED",
   "completeness_pct": 31,
   "critical_missing": [
-    "tabla_tecnica",
+    "exterior",
     "hero_image",
-    "exterior"
+    "tabla_tecnica"
   ],
   "unresolved_conflicts": [],
   "items": {
@@ -66,17 +66,17 @@
     "exterior": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 3) · descargadas 0/7"
+      "detail": "0 en inventario (mín. 3) · descargadas 7/7"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/7"
+      "detail": "0 en inventario (mín. 2) · descargadas 7/7"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/7"
+      "detail": "0 en inventario (mín. 2) · descargadas 7/7"
     },
     "video": {
       "group": "MULTIMEDIA",
