@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-se33-life-sailing-yacht-exterior-image-saffier-yachts-7` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-se-33-life-sailing-yacht-saffier-yachts-3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-se-33-life-sailing-yacht-saffier-yachts-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `saffier-se-33-life-sailing-yacht-saffier-yachts-3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `saffier-se-33-life-sailing-yacht-saffier-yachts-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |

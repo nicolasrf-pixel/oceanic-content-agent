@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-5-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 2 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-6-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-2-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 1 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-5-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-6-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `saffier-se-24-lite-electric-daysailer-saffier-yachts-2-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |

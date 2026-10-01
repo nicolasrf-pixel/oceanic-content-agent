@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-sl46-med-sailing-yacht-exterior-image-saffier-yachts-35-1-3` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-sl46-med-sailing-yacht-exterior-image-saffier-yachts-19-1-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-sl46-med-sailing-yacht-exterior-image-saffier-yachts-35-1-1-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `saffier-sl-46-med-official-sailing-exterior-images-saffier-yachts-30` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Your outdoor living space'). |
+| 3 | `saffier-sl-46-med-features` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Two configurable deck layouts'). Categoría UNDERWAY por revisión visual (2026-10-01). |

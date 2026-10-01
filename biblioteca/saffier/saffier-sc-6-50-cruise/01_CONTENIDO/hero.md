@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-classic-line-saffier-sc-6-5-cruise-saffier-yachts` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-sc-6-5-cruise-classic-sailing-yacht-saffier-yachts-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-sc-6-5-cruise-classic-sailing-yacht-saffier-yachts-22` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `saffier-sc-6-5-cruise-classic-sailing-yacht-saffier-yachts-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `saffier-sc-6-5-cruise-classic-sailing-yacht-saffier-yachts-22` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |

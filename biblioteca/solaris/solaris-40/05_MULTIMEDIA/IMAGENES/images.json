@@ -33,7 +33,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 1
     },
     {
@@ -64,7 +64,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 2
     },
     {
@@ -95,7 +95,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 3
     },
     {
@@ -126,7 +126,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-3487",
@@ -156,7 +156,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-3560",
@@ -186,7 +186,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "yacht-test-solaris-40-1",
@@ -216,7 +216,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris-40-v02",
@@ -246,7 +246,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "img-0027-copy",
@@ -276,7 +276,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "img-0011",
@@ -306,7 +306,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "img-0059",
@@ -329,14 +329,26 @@
       "declared_format": "jpeg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/img-0059.webp",
+      "width": 1600,
+      "height": 1067,
+      "format": "webp",
+      "sha256": "9f93b02d6c478222953b22669470dd5d646a20cd477d5951634188f4773220b9",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-01",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0059.jpeg",
+        "fetched_from": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0059.jpeg",
+        "sha256": "2c87933f284a0962741751cd15b0e75197ee797722499d21971de02863fb1ded",
+        "width": 1600,
+        "height": 1067,
+        "format": "jpeg",
+        "bytes": 359135,
+        "full_resolution": true
+      },
+      "bytes": 126870,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0059.jpeg"
     },
     {
       "id": "40-piano-interni-scaled",
@@ -366,7 +378,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "40-profilo-scaled",
@@ -396,7 +408,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "40-pianta-scaled",
@@ -426,7 +438,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     }
   ]
 }

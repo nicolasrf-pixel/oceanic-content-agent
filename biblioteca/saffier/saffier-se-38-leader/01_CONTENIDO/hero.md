@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-se-38-sailing-yacht-exterior-render-header-saffier-yachts` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `190-total-v28-3-fore-water-blue-black-v2-sprayhood-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-se-38-sailing-yacht-exterior-render-saffier-yachts-5` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `190-total-v28-3-fore-water-blue-black-v2-sprayhood-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `saffier-se-38-sailing-yacht-exterior-render-saffier-yachts-5` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01). |

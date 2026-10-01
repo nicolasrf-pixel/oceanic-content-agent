@@ -33,7 +33,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 1
     },
     {
@@ -64,7 +64,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 2
     },
     {
@@ -95,7 +95,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 3
     },
     {
@@ -126,7 +126,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris74fd-int-a-00003-scaled",
@@ -156,7 +156,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris74fd-int-a-00000-scaled",
@@ -186,7 +186,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris74fd-int-a-00001-scaled",
@@ -216,7 +216,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris74fd-int-a-00002-scaled",
@@ -246,7 +246,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris74fd-int-a-00005-scaled",
@@ -276,7 +276,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "74-fd-piano-interni-1-scaled",
@@ -306,7 +306,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "74-fd-profilo-1-scaled",
@@ -336,7 +336,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "74-fd-pianta-1-scaled",
@@ -366,7 +366,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "PENDING"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     }
   ]
 }

@@ -11,5 +11,217 @@
  "diseno": "Bañera cómoda con portavasos integrados y estiba oculta para drizas y cabos. Cubierta de Esthec, con el aspecto de la teca y sin su mantenimiento. Una pequeña cabina permite pasar la noche a bordo.",
  "ingenieria": "Quilla de bulbo que baja el centro de gravedad, timón de pala profundo y relación de lastre del 50 % para una gran estabilidad. Propulsión eléctrica o diésel a elegir.",
  "experiencia": "Todas las maniobras llegan al timón: se navega en solitario con total control, o en compañía de familia y amigos.",
- "performance": "Nuevo aparejo con mayor grande y foque autovirante, excelente en ceñida, con opción de Code Zero enrollable para las portantes."
+ "performance": "Nuevo aparejo con mayor grande y foque autovirante, excelente en ceñida, con opción de Code Zero enrollable para las portantes.",
+ "image_overrides": {
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-20.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-34.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-7-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-33.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-daysailer-in-modern-grey-sailing-yacht-Saffier-Yachts-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-daysailer-in-modern-grey-sailing-yacht-Saffier-Yachts-6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-daysailer-in-modern-grey-sailing-yacht-Saffier-Yachts-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-daysailer-in-modern-grey-sailing-yacht-Saffier-Yachts-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-17.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-19.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-23.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-exterior-image-Saffier-Yachts-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.5-Cruise-Classic-Sailing-Yacht-Saffier-Yachts-32.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-interior-image-Saffier-Yachts-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "Saffier-SC-6.50-Cruise-interior-image-Saffier-Yachts-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-01)."
+  }
+ }
 }

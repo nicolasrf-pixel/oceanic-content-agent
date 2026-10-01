@@ -11,5 +11,82 @@
  "diseno": "Popa cerrada con gran estiba integrada, solárium completo y plataforma de baño plegable que da acceso al alojamiento de la balsa salvavidas. Mamparo principal personalizable: interior diáfano o suite del armador a proa.",
  "ingenieria": "Proa invertida y casco voluminoso orientado al rendimiento. Bauprés con sistema de ancla retráctil y molinete eléctrico.",
  "experiencia": "Interior con materiales cálidos, curvas suaves y mucha luz natural para fines de semana y cruceros en familia.",
- "performance": "Cada cabo y winche está pensado para navegar en solitario; casco rápido, estable y muy fácil de manejar."
+ "performance": "Cada cabo y winche está pensado para navegar en solitario; casco rápido, estable y muy fácil de manejar.",
+ "image_overrides": {
+  "190_total_v28-3_fore_water_blue_black_v2_Sprayhood-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-sailing-yacht-exterior-render-Saffier-Yachts-5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-sailing-yacht-exterior-render-Saffier-Yachts-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-sailing-yacht-exterior-render-Saffier-Yachts-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "190_total_v28_interior_GA_Race_version_blue-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría PLANS por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-Leader-interior-render-light-sailing-yacht-Saffier-Yachts-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-Leader-interior-render-light-sailing-yacht-Saffier-Yachts-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-Leader-interior-render-light-sailing-yacht-Saffier-Yachts-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "Saffier-SE-38-Leader-interior-render-light-sailing-yacht-Saffier-Yachts-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "190_total_v28-3_aft_closed_water_blue_black_v2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Comfort, Storage and Luxury Sunbathing'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "190_total_v28-3_steering.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Effortless Sailing, single-handed perfection'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "Delivery.-9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Performance with unmatched comfort'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "27.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Performance with unmatched comfort'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "26-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Integrated liferaft'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "27-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Customizable main bulkhead'). Categoría DETAIL por revisión visual (2026-10-01)."
+  }
+ }
 }

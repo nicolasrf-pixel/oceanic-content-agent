@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-9` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-12` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-16` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-12` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-16` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |

@@ -18,21 +18,21 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`60-venezia-bg-desktop-frame`](https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/60_venezia_bg_desktop-frame.webp) | HERO | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección 'hero'). |
-| [`mg-2083-post`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_2083_post.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`0y2a1701-post-1-scaled-1`](https://www.solarisyachts.com/cms/wp-content/uploads/0Y2A1701_post-1-scaled-1.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`0y2a2519-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/0Y2A2519_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`mg-1318-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_1318_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`mg-0882-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0882_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`mg-0274-post`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0274_post.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`mg-0521-post-2`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0521_post-2.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
-| [`img-0040-pano-1-scaled-1`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0040-Pano-1-scaled-1.jpeg) | INTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Interior'). |
-| [`img-0133-post`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0133_post.jpeg) | INTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Interior'). |
-| [`img-0121`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0121.jpeg) | INTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Interior'). |
-| [`img-0012`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0012.jpeg) | INTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Interior'). |
-| [`60-piano-interni-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PIANO-INTERNI-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
-| [`60-profilo-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PROFILO-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
-| [`60-pianta1-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PIANTA1-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
+| [`60-venezia-bg-desktop-frame`](https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/60_venezia_bg_desktop-frame.webp) | HERO | alta |  | NonexNone webp | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'hero'). |
+| [`mg-2083-post`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_2083_post.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`0y2a1701-post-1-scaled-1`](https://www.solarisyachts.com/cms/wp-content/uploads/0Y2A1701_post-1-scaled-1.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`0y2a2519-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/0Y2A2519_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`mg-1318-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_1318_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`mg-0882-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0882_post-scaled.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`mg-0274-post`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0274_post.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`mg-0521-post-2`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0521_post-2.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
+| [`img-0040-pano-1-scaled-1`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0040-Pano-1-scaled-1.jpeg) | INTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
+| [`img-0133-post`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0133_post.jpeg) | INTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
+| [`img-0121`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0121.jpeg) | INTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
+| [`img-0012`](https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0012.jpeg) | INTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
+| [`60-piano-interni-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PIANO-INTERNI-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
+| [`60-profilo-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PROFILO-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
+| [`60-pianta1-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/60-PIANTA1-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
 
 ## Videos (1)
 

@@ -138,6 +138,13 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             stats["failed"] += 1
             continue
         fmt, w, h = _image_info(data)
+        if not fmt:
+            # Not an image: e.g. an anti-bot challenge page (SiteGround "sg-captcha") instead of the file.
+            snippet = data[:200].decode("utf-8", "replace")
+            why = "desafío anti-bots del servidor (captcha)" if "captcha" in snippet.lower() else "la respuesta no es una imagen"
+            rec["download_status"] = f"FAILED ({why})"
+            stats["failed"] += 1
+            continue
         digest = hashlib.sha256(data).hexdigest()
         # Fetched from the original URL = original, whatever its size; otherwise compare with the declared size.
         full = used == rec["source_url"] or bool(w and rec["declared_width"] and w >= rec["declared_width"])

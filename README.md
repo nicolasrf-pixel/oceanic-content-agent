@@ -113,7 +113,7 @@ cual después se construye la página Oceanic.
 | Lagoon | [Lagoon 60](biblioteca/lagoon/lagoon-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [SIXTY 5](biblioteca/lagoon/sixty-5/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Saffier | [Saffier SC 6.50 Cruise](biblioteca/saffier/saffier-sc-6-50-cruise/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
-| Saffier | [Saffier SC 8m Cabin](biblioteca/saffier/saffier-sc-8m-cabin/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | RED |
+| Saffier | [Saffier SC 8m Cabin](biblioteca/saffier/saffier-sc-8m-cabin/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Saffier | [Saffier SE 24 Lite](biblioteca/saffier/saffier-se-24-lite/00_MODELO/00_MODELO.md) | s/d | 5/9 verificada | YELLOW |
 | Saffier | [Saffier SE 28 Leopard](biblioteca/saffier/saffier-se-28-leopard/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
 | Saffier | [Saffier SE 33 Life](biblioteca/saffier/saffier-se-33-life/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
