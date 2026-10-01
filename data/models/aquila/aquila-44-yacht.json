@@ -1,0 +1,105 @@
+{
+  "model_id": "aquila-44-yacht",
+  "brand_id": "aquila",
+  "family": "Aquila Yacht",
+  "model_name": "Aquila 44 Yacht",
+  "category": "power_catamaran",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/yachts",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 13.69,
+    "manga_m": 6.55,
+    "calado_m": "1.0 (sin patines de sacrificio) a 1.17 (con patines de sacrificio)",
+    "desplazamiento_kg": "15,899 (ligero) a 22,000 (a plena carga)",
+    "motorizacion": "2 x Volvo Penta D4 225 HP diésel, con caja V-Drive",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 1098,
+    "capacidad_agua_l": 681,
+    "pasajeros": "UNKNOWN",
+    "camarotes": 3,
+    "banos": 3
+  },
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "DISCONTINUED (producido 2014-2025, reemplazado por el Aquila 46 Yacht)",
+          "source": {
+            "url": "https://www.yachtbuyer.com/en-us/aquila/new/aquila-44",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Titula la ficha 'Aquila 44 Yacht Powercat (2014 - 2025)' y afirma explícitamente que el modelo 'ya no está en producción' y fue reemplazado por el 46 Yacht."
+          }
+        },
+        {
+          "value": "Listado activo '2026 Aquila 44 Yacht' en concesionario",
+          "source": {
+            "url": "https://www.marinemax.com/boats-for-sale/details/new/aquila/44-yacht/2026/marinemax-location-near-you/9069985",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Página de concesionario MarineMax con listado '2026 Aquila 44 Yacht' (año de modelo 2026), lo que sugiere inventario o pedidos aún vigentes pese a que otras fuentes indican fin de producción en 2025. Podría tratarse de stock remanente o de una página de concesionario no actualizada."
+          }
+        }
+      ],
+      "notes": "No se encontró una página de modelo '44' vigente entre las URLs indexadas de aquilaboats.com/models/yachts/ (solo se hallaron 42, 46, 50 y 54), lo que es consistente con la discontinuación. Se conserva el registro (CLAUDE.md sección 15: un modelo discontinuado no se borra) y se documenta la contradicción sin resolverla arbitrariamente (CLAUDE.md sección 14). Se recomienda decisión humana si se requiere mayor certeza antes de tratarlo como referencia en contenido editorial."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.yachtbuyer.com/en-us/aquila/new/aquila-44",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente principal de especificaciones (44'11\" LOA, manga 21'6\", desplazamiento 35,053-48,500 lbs, combustible 290 gal, agua 180 gal, calado 3'3\"-3'10\", 3 camarotes/3 baños, motores 2x225 HP Volvo Penta D4) y de la afirmación de fin de producción."
+    },
+    {
+      "url": "https://www.multihulls-world.com/news-catamaran-trimaran/aquila-46-yacht-the-replacement-for-the-iconic-44",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Artículo titulado '¿El Aquila 46 Yacht, el reemplazo del icónico 44?', que enmarca al 46 Yacht como sucesor directo del 44."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/yachts",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página del fabricante sin entrada específica coincidente en 'sources' para esta URL exacta; se usa level=1/UNCONFIRMED por defecto según metodología. URL genérica de línea de producto, compartida entre varios modelos de esta marca, no una ficha específica de este modelo. La manufacturer_url es la página genérica de la línea Yachts (aquilaboats.com/models/yachts), compartida con aquila-48-yacht; no hay entrada específica en 'sources' para esta URL, por lo que se usa level=1/UNCONFIRMED por defecto."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo histórico de gran éxito comercial (más de 200 unidades vendidas según fuentes de tercero), producido aprox. 2014-2025. Se marca DISCONTINUED con confidence_level LOW porque la evidencia proviene solo de fuentes secundarias (nivel 3) sin fetch directo al fabricante, y existe una contradicción documentada (ver 'discrepancies') con un listado de concesionario que sugiere disponibilidad para año-modelo 2026. Un artículo más antiguo (yachtstyle.co, contemporáneo al lanzamiento del 42 Yacht en 2023) citaba 'sin planes de discontinuar' el 44 -- consistente cronológicamente con que la discontinuación ocurrió después, coincidiendo con el lanzamiento del 46 Yacht en 2025. No se encontró evidencia de que Oceanic lo haya representado ni de que lo haya dejado de representar."
+}

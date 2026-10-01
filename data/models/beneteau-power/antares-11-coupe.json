@@ -1,0 +1,82 @@
+{
+  "model_id": "antares-11-coupe",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Antares",
+  "model_name": "Beneteau Antares 11 Coupe",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+  "oceanic_url": "https://oceanic.cl/beneteau-motor/antares-11/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.07,
+    "manga_m": 3.51,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": 3,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial vigente del fabricante para 'Antares 11' (versión Coupe base). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://oceanic.cl/beneteau-motor/antares-11/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de producto en oceanic.cl bajo el nombre genérico 'Antares 11', sin especificar si corresponde a la versión Coupe, Fly, o a la familia en general — se vincula aquí como evidencia de representación local de la familia Antares 11, con incertidumbre sobre a cuál variante corresponde exactamente. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.yachtbuyer.com/en-us/beneteau-yachts/new/antares-11",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Usado para completar eslora/manga (convertidas desde 36'4'' x 11'6''). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "La página de oceanic.cl 'antares-11' no distingue explícitamente entre Coupe y Fly en los snippets recuperados; se asocia a ambos registros (antares-11-coupe y antares-11-fly) como evidencia parcial de representación local, marcando la ambigüedad aquí en vez de asumir cuál variante es. 'camarotes: 3' proviene de reseña de terceros para la versión Fly, aplicado aquí solo por similitud de casco — tratar con cautela."
+}

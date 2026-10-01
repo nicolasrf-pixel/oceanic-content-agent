@@ -1,0 +1,107 @@
+{
+  "model_id": "excess-12",
+  "brand_id": "excess-catamarans",
+  "family": "Excess 12",
+  "model_name": "Excess 12",
+  "variants": [
+    {
+      "variant_name": "Pulse Line rig",
+      "description": "Aparejo opcional de mayor rendimiento, mismo concepto que en el resto de la gama.",
+      "confidence_level": "LOW",
+      "notes": "Mencionado como característica de la gama Excess en general; no se confirmó específicamente para el 12 en esta pasada."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.excess-catamarans.com/our-catamarans/excess-12",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "camarotes": "3 o 4 (reportado por el título de la página oficial, sin ficha numérica confirmada)",
+    "banos": "UNKNOWN",
+    "notas_specs": "Primer modelo firmado por Excess (2019); comparte carena y estructura de puente bajo la línea de flotación con el Lagoon 40, con cascos exteriores rediseñados por VPLP (dos chines nuevos). No se recolectaron cifras numéricas específicas (eslora/manga/calado/desplazamiento) con confianza suficiente en esta pasada — quedan UNKNOWN, pendiente de fetch directo o ficha técnica dedicada."
+  },
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "Página de modelo activa en excess-catamarans.com/our-catamarans/excess-12",
+          "source": {
+            "url": "https://www.excess-catamarans.com/our-catamarans/excess-12",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-14",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "La página del modelo sigue indexada y con lenguaje en presente, lo que sugiere vigencia."
+          }
+        },
+        {
+          "value": "Un resumen de búsqueda sobre 'la gama actual 2026' menciona solo Excess 11, 13 y 14 como modelos vigentes, sin incluir el 12 ni el 15",
+          "source": {
+            "url": "https://www.excess-catamarans.com/our-catamarans",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-14",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Snippet de la página de listado general de modelos; no se pudo confirmar si el 12 sigue en producción activa o si quedó como modelo de generación anterior (construido sobre moldes adaptados de Lagoon, a diferencia de los más nuevos 11/14, diseñados 100% por Excess)."
+          }
+        }
+      ],
+      "notes": "No se resuelve arbitrariamente (CLAUDE.md sección 14): se deja lifecycle_status='UNCONFIRMED' hasta poder confirmar por fetch directo si el 12 sigue en el catálogo vigente del fabricante o si fue descontinuado/reemplazado dentro de la gama."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-12",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/excess-12/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de terceros localizada, contenido no leído en profundidad en esta pasada."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.excess-catamarans.com/our-catamarans/excess-12",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo, incluye galería de fotos del fabricante."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@EXCESSCatamarans",
+        "platform": "youtube",
+        "title": "Canal oficial EXCESS Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Sin video específico del modelo 12 confirmado en esta pasada; se referencia el canal de marca como punto de partida."
+      }
+    ]
+  },
+  "verified_at": "2026-09-14",
+  "last_updated": "2026-09-14",
+  "status_pipeline": "MAPPED",
+  "notes": "Marca agregada por instrucción directa del usuario 2026-09-14; no hay evidencia de que Oceanic Chile represente esta marca — oceanic_url queda null. Primer modelo de la gama Excess (2019), construido sobre moldes adaptados de Lagoon. Especificaciones numéricas mayormente UNKNOWN por falta de fetch directo — pendiente de investigación dirigida antes de generar contenido editorial."
+}

@@ -1,0 +1,83 @@
+{
+  "model_id": "explr-9",
+  "brand_id": "xo-boats",
+  "family": "EXPLR",
+  "model_name": "XO EXPLR 9",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://xoboats.com/xo-fleet/explr-9/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.57,
+    "manga_m": 2.57,
+    "calado_m": 0.94,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Fueraborda; reportado Mercury 400-450 hp",
+    "potencia_max_hp": "UNCONFIRMED",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 305,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 8,
+    "camarotes": "1 camarote (litera doble hasta 230cm)",
+    "banos": "1 (WC eléctrico con tanque séptico)",
+    "notas_especificaciones": "Descrito por el fabricante/terceros como 'cabin boat' con cabina cerrada, salón con mesa, WC eléctrico, lavamanos, ducha de mano y refrigerador de tamaño completo. Pilothouse cerrado con ventanas panorámicas y escotilla de techo. Capacidad máxima de pasajeros (8) reportada de forma consistente en NauticExpo e itBoat."
+  },
+  "sources": [
+    {
+      "url": "https://xoboats.com/xo-fleet/explr-9/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha del fabricante identificada vía snippet; describe EXPLR 9 como cabina mejorada con más ancho/volumen que predecesores. Sin fetch directo."
+    },
+    {
+      "url": "https://www.nauticexpo.com/prod/xo-boats/product-54089-587754.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Catálogo NauticExpo: 'Outboard cabin cruiser - EXPLR 9 - with enclosed cockpit / aluminum / 8-person max', LOA 8.57m, beam 2.57m, draft 0.94m, combustible 305L."
+    },
+    {
+      "url": "https://itboat.com/models/12179-xo-explr-9",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha itBoat de EXPLR 9: LOA 8.6m, Beam 2.6m, Draft 0.9m, desde 69.950 EUR."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/xo-fleet/explr-9/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (ficha del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de EXPLR 9 en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "confidence_level MEDIUM. No se encontró mención específica de EXPLR 9 en fuentes de Oceanic Chile; oceanic_url queda null. NauticExpo e itBoat coinciden en dimensiones (con leve variación de redondeo 2.57 vs 2.6m, no tratada como discrepancia material)."
+}

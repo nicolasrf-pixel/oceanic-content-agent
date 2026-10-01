@@ -1,0 +1,91 @@
+{
+  "model_id": "axopar-38-sun-top",
+  "family": "Axopar 38",
+  "model_name": "Axopar 38 Sun Top",
+  "lifecycle_status": "NEW",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/media/newsroom/press-releases/axopar-launches-the-38-sun-top-an-open-and-social-boat-built-for-shared-time-on-the-water/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de prensa oficial de lanzamiento, mercado en mayo 2026. Describe cockpit de largo completo con techo solar corredizo ('sliding sunroof'), sin cifras numéricas de specs en el snippet obtenido."
+    },
+    {
+      "url": "https://www.boote-magazin.de/en/boats/sport-boats/axopar-38-sun-top-second-model-in-the-new-38-series/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Revista náutica de terceros, confirma que es el segundo modelo de la serie 38."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Contenido de oceanic.cl menciona explícitamente: 'Axopar presenta el segundo modelo de la línea 38: el Sun Top, orientado a la navegación diurna, el sol y el espacio compartido' — confirmación directa y específica."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-38/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url del modelo; no hay coincidencia exacta en 'sources' de este registro (sin fetch directo, EGRESS_BLOCKED). Se asume que incluye galería de fotos, práctica estándar en páginas de producto de fabricantes náuticos, pero no se confirmó por fetch directo en esta pasada."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=qhc1hJb_3wQ",
+        "platform": "youtube",
+        "title": "Axopar 38 Sun Top & XC Cross Cabin | Full Walkthrough",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video que cubre conjuntamente el 38 Sun Top y el 38 XC Cross Cabin, encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Segundo modelo del rango 38, lanzamiento a mercado mayo 2026. Oceanic.cl lo menciona explícitamente por nombre. Sin specs numéricas recolectadas en esta pasada — todas UNKNOWN, pendiente de investigación dirigida.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

@@ -1,0 +1,73 @@
+{
+  "model_id": "antares-8",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Antares",
+  "model_name": "Beneteau Antares 8",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/antares-outboard/antares-8",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 8.23,
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "1 x Mercury fuera de borda",
+    "potencia_max": "250 hp",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 280,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 5,
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/antares-outboard/antares-8",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página vigente del fabricante para la versión fuera de borda. Existen también páginas de generaciones anteriores en beneteau.com/antares-inboard/antares-8 y beneteau.com/antares-2012-2022/antares-8, no usadas como fuente de specs de este registro. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://ilodka.com/en/models/beneteau-antares-8/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Portal de terceros; usado para completar eslora/combustible/motorización/pasajeros. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/antares-outboard/antares-8",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "'pasajeros: 5' corresponde a capacidad de literas para pernoctar reportada por la fuente terciaria; podría diferir de la capacidad diurna homologada (UNKNOWN)."
+}

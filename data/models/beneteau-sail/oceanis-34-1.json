@@ -1,0 +1,79 @@
+{
+  "model_id": "oceanis-34-1",
+  "brand_id": "beneteau-sail",
+  "family": "Oceanis",
+  "model_name": "Beneteau Oceanis 34.1",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": "https://oceanic.cl/beneteau-oceanis/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/sailboats/oceanis",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial de rango Oceanis (fabricante). No es página de modelo específico; usada como respaldo de que la familia Oceanis está vigente."
+    },
+    {
+      "url": "https://oceanic.cl/beneteau-oceanis/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página dedicada a Oceanis dentro de oceanic.cl, detectada vía snippet."
+    },
+    {
+      "url": "https://www.beneteau.com/en-us/sailboats/oceanis",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Snippet resume el rango vigente: 'Oceanis 30.1, 34.1, 37.1, 40.1, and Oceanis 47' como los 8 modelos actuales entre 30 y 60 pies."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/oceanis/oceanis-341",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial de modelo específico en beneteau.com localizada vía búsqueda web en esta pasada de media; no coincide exactamente con ninguna URL ya registrada en 'sources' del modelo, por lo que no hubo fetch directo que la confirme."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "No se confirmó mención específica de este modelo en oceanic.cl (solo la página general de Oceanis); se listó como parte del rango vigente global del fabricante. oceanic_url apunta a la página general de la línea, no a una ficha de modelo propia — no se encontró evidencia de que Oceanic Chile lo represente específicamente, se documenta esta limitación explícitamente."
+}

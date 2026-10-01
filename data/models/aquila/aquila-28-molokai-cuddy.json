@@ -1,0 +1,74 @@
+{
+  "model_id": "aquila-28-molokai-cuddy",
+  "brand_id": "aquila",
+  "family": "Aquila Molokai (Offshore)",
+  "model_name": "Aquila 28 Molokai Cuddy",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": "UNCONFIRMED",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Mercury 150XL FourStroke 150 HP o Mercury FourStroke V6 225 HP (según opciones reportadas por fuente de tercero)",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNCONFIRMED (cuddy cabin delantera, no necesariamente camarote completo)",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo propia y separada de la del Aquila 28 Molokai (sin cuddy) en el sitio del fabricante -- evidencia de que Aquila lo trata como modelo distinto, no como variante (CLAUDE.md sección 7). Acceso directo bloqueado (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.yachtbuyer.com/en/aquila/new/28-molokai-cuddy",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Menciona motorización disponible (Mercury 150XL FourStroke 150HP o Mercury FourStroke V6 225HP) y describe el 'cuddy' como cabina delantera cerrada que ofrece protección adicional respecto a la versión abierta del 28 Molokai. No se encontraron cifras de eslora/manga específicas y propias del Cuddy distintas de las del 28 Molokai base en los snippets disponibles."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Se trata como modelo independiente (no variante del 28 Molokai) porque el fabricante le asigna una URL y ficha de producto propias (CLAUDE.md sección 7 y 16). La mayoría de las especificaciones de dimensiones no se pudieron confirmar como distintas o iguales a las del Aquila 28 Molokai base -- se marcan UNCONFIRMED en vez de asumir que son idénticas. No se encontró evidencia de representación por Oceanic Chile."
+}

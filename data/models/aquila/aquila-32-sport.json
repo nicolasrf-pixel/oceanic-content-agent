@@ -1,0 +1,83 @@
+{
+  "model_id": "aquila-32-sport",
+  "brand_id": "aquila",
+  "family": "Aquila Sport",
+  "model_name": "Aquila 32 Sport",
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 9.75,
+    "manga_m": 3.91,
+    "calado_m": 0.64,
+    "desplazamiento_kg": 4781,
+    "motorizacion": "2 x Mercury Verado V6 225 HP (estándar), actualizable a 2 x 300 HP con joystick piloting",
+    "potencia_max": "2 x 300 HP",
+    "velocidad_max_nudos": 38.9,
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 477,
+    "capacidad_agua_l": 170,
+    "pasajeros": "hasta 22 (uso diurno en cubierta, según fuente de tercero)",
+    "camarotes": 1,
+    "banos": 1
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Acceso directo (WebFetch) a aquilaboats.com bloqueado en este entorno (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.oceanic.cl/motor/aquila/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Snippet de resumen de búsqueda indica que el Aquila 32 Sport Power Catamaran aparece mencionado en contenido de oceanic.cl/motor/aquila/ ('destaca por su estabilidad, amplitud y eficiencia'). No se pudo confirmar por fetch directo si existe una ficha de producto dedicada en oceanic.cl para este modelo específico."
+    },
+    {
+      "url": "https://boattest.com/boats/aquila/32-sport-power-catamaran-2021",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de especificaciones: eslora 32 ft, manga 12'10\", calado mín. 2'1\", peso seco 10,540 lbs, combustible 126 gal, agua 45 gal, 1 camarote/1 baño, velocidad máx. 44.8 mph con 2x300 HP Mercury. Consistente con multihulls-world.com y hawaiiyachtsales.com."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/sport-power-catamaran/32",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página de modelo del fabricante, reusada como referencia de galería (mismo nivel/estado que la entrada coincidente en 'sources')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo de entrada de la línea 'Sport' (día/deportivo), sin flybridge. Especificaciones convertidas desde unidades imperiales (ft, lbs, gal, mph) reportadas por fuentes de terceros; no se encontró ficha técnica del fabricante con fetch directo para verificar cifras exactas. La mención en oceanic.cl (vía /motor/aquila/) es evidencia de que Oceanic representa este modelo, pero no se confirmó una URL de producto dedicada como la que sí existe para el Aquila 50 Yacht (oceanic.cl/aquila-boats/50-yacht/)."
+}

@@ -1,0 +1,98 @@
+{
+  "model_id": "solaris-40",
+  "brand_id": "solaris",
+  "family": "Solaris 40",
+  "model_name": "Solaris 40",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/40/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Solaris 40 ST",
+      "description": "Opción de aparejo con vela mayor 'square-top' (grátil recto) y sin backstay, en vez del aparejo triangular estándar del Solaris 40. Según giornaledellavela.com, el aparejo ST es una opción dentro del Solaris 40, no un modelo aparte con ficha propia independiente confirmada.",
+      "confidence_level": "MEDIUM",
+      "notes": "Existe página propia en solarisyachts.com/en/yachts/40-st/, lo que introduce duda razonable sobre si el fabricante lo trata como modelo independiente. Se mantiene como variante (no como modelo aparte) siguiendo CLAUDE.md sección 16, pero se marca la duda aquí en vez de decidir sin más evidencia."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 12.36,
+    "manga_m": 4.1,
+    "calado_m": 2.4,
+    "desplazamiento_kg": "UNCONFIRMED",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 2,
+    "banos": 2,
+    "superficie_vela_m2": "UNCONFIRMED",
+    "notas_specs": "Desplazamiento reportado como '10 toneladas (media carga)' por itBoat/sailboatdata (fuente Nivel 3, snippet), sin cifra exacta en kg confirmada por fuente Nivel 1 en esta pasada -> UNCONFIRMED. Superficie vélica: mayor 57 m2 + genoa 43 m2 = 100 m2 aprox segun fuente Nivel 3 (snippet), no confirmado contra ficha oficial -> UNCONFIRMED."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/40/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada (título 'Solaris Yachts | 40'); contenido completo no leído por bloqueo de red, solo snippet de búsqueda."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-40/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 12.36 m, beam 4.10 m, draft 2.40 m, LWL 11.7 m confirmados via snippet agregando datos de esta ficha."
+    },
+    {
+      "url": "https://itboat.com/models/12233-solaris-40",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Desplazamiento aproximado '10 toneladas media carga', cabinas 2 huéspedes / 4 personas, 2 baños; motor estándar 30hp Volvo Penta D1 con opciones 50/60hp."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/yachts/40/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (página oficial indexada, contenido completo no leído por bloqueo de red)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Familia/modelo activos según página oficial indexada y múltiples fuentes secundarias consistentes (YachtWorld, itBoat, sailboatdata). No se confirmó individualmente si oceanic.cl vende el Solaris 40 específicamente (solo se confirmó la página de marca general); oceanic_url queda null y la representación a nivel de modelo por Oceanic Chile es UNCONFIRMED."
+}

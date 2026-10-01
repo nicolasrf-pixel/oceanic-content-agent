@@ -1,5 +1,12 @@
 # oceanic-content-agent
 
+**Oceanic Content Engine.** This repository builds a traceable library of official content for the boat brands
+represented by Oceanic (Axopar, Beneteau, Lagoon, Aquila, XO Boats, Solaris, Saffier, VX One…). For each model it
+produces a complete package — source texts and Spanish drafts, a technical sheet where every value is traced to the
+manufacturer's official website, equipment, categorised images, videos, documents, conflicts and missing data — from
+which the Oceanic product page is built later. Data comes only from the official manufacturer sites; the rules live
+in [`CLAUDE.md`](CLAUDE.md) and the status of every package is in the table below.
+
 Recopilar y organizar contenido oficial de las marcas náuticas.
 
 El **Content Engine** construye, para cada embarcación, un paquete completo y verificable (textos, tabla técnica con
@@ -10,6 +17,9 @@ cual después se construye la página Oceanic.
 - Especificación: [`docs/ESPECIFICACION.md`](docs/ESPECIFICACION.md)
 - Proceso: [`docs/PROCESO.md`](docs/PROCESO.md)
 - Biblioteca: [`biblioteca/`](biblioteca/)
+- Catálogo maestro (inventario de marcas, familias y modelos, dashboard de revisión, piloto del collector):
+  [`data/`](data/), [`dashboard/`](dashboard/), [`research/`](research/), [`output/`](output/) — reglas y README
+  originales en [`docs/catalogo/`](docs/catalogo/), arquitectura en [`docs/architecture.md`](docs/architecture.md)
 
 ## Estado de la biblioteca
 

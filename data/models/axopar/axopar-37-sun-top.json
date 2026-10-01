@@ -1,0 +1,109 @@
+{
+  "model_id": "axopar-37-sun-top",
+  "family": "Axopar 37",
+  "model_name": "Axopar 37 Sun-Top",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/range/axopar-37-sun-top/",
+  "oceanic_url": "https://oceanic.cl/axopar-boats/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.51,
+    "manga_m": 3.35,
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNCONFIRMED",
+    "motorizacion": "Fuera de borda, 2 x 300 a 2 x 400 hp",
+    "potencia_max": "2 x 400 hp",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNCONFIRMED",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/range/axopar-37-sun-top/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto del fabricante para el 37 Sun-Top, indexada vía snippet."
+    },
+    {
+      "url": "https://boattest.com/boats/axopar/37-sun-top-2019",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de agregador (BoatTEST), modelo en producción desde 2019; no se extrajeron dimensiones propias del Sun-Top en el snippet (se reutiliza LOA/beam del casco compartido con Spyder/XC, marcados UNCONFIRMED por prudencia ya que el peso y otras specs sí varían entre configuraciones según la misma familia de fuentes)."
+    },
+    {
+      "url": "https://www.barchemagazine.com/en/axopar-37-sun-top-2/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Reseña de revista náutica de terceros, apoyo cualitativo."
+    },
+    {
+      "url": "https://oceanic.cl/axopar-boats/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca Axopar en oceanic.cl, vista vía snippet de búsqueda."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-37-sun-top/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dMbl4TMyMHk",
+        "platform": "youtube",
+        "title": "Axopar 37 Revolution Sun Top Performance Review | 53kts + 5 yr old drives",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Mismo caso que axopar-37-spyder respecto a la ambigüedad de qué configuración exacta vende Oceanic. Eslora y manga se asumen iguales a las del Spyder por compartir casco (según fuente de terceros), pero peso, calado y combustible SÍ varían entre configuraciones del 37 según esa misma fuente, así que se dejaron como UNCONFIRMED en vez de copiar el valor del Spyder.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

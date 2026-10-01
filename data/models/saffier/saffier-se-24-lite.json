@@ -1,0 +1,85 @@
+{
+  "model_id": "saffier-se-24-lite",
+  "brand_id": "saffier",
+  "family": "Saffier SE 24",
+  "model_name": "Saffier SE 24 Lite",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.0,
+    "manga_m": 2.4,
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": 31,
+    "calado_m": 1.3,
+    "notas_specs": "Eslora 8.00m (26'3\"), manga 2.40m (7'11\"), calado 1.30m con 3 opciones de quilla entre 1.00 y 1.44m. Vela estándar mayor 20m2 + foque autovirante 11m2 = 31m2; opciones adicionales: genoa 110% 12.5m2, Code 0 41m2, gennaker 48m2. Premiada 'European Yacht of the Year 2024'."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante indexada; specs citadas vía snippets de terceros que reproducen la ficha oficial (itboat, sailboatdata, nortonyachts)."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/se-24-saffier/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Base de datos de terceros con ficha técnica consistente con otras fuentes."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de modelo del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de SE 24 Lite en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo de entrada de la línea Elegance, sucesor conceptual de la antigua SE 24 / precursor de discusión sobre 'Lite' como sufijo de gama liviana."
+}

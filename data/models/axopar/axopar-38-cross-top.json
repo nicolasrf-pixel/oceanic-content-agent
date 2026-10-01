@@ -1,0 +1,65 @@
+{
+  "model_id": "axopar-38-cross-top",
+  "family": "Axopar 38",
+  "model_name": "Axopar 38 Cross Top",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.yachtbuyer.com/en-us/news/new-axopar-38-sun-top-boat-introduced-following-xc-cross-cabin-debut",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio de terceros: 'the Cross Top model will complete the range later in the year' (2026), con ventana de lanzamiento reportada para septiembre 2026 y descripción de parabrisas plegable hacia adelante."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-38/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url del modelo; no hay coincidencia exacta en 'sources' de este registro (sin fetch directo, EGRESS_BLOCKED). Se asume que incluye galería de fotos, práctica estándar en páginas de producto de fabricantes náuticos, pero no se confirmó por fetch directo en esta pasada."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Anunciado por prensa especializada pero no se encontró página propia del fabricante ni comunicado de prensa oficial de axopar.com en esta pasada — solo Nivel 3. La fecha de lanzamiento reportada (septiembre 2026) coincide con la fecha de esta investigación (2026-09-10), por lo que el modelo podría ya haber pasado a NEW/CURRENT; no se pudo verificar y se deja como ANNOUNCED con nota explícita en vez de asumir. Sin confirmación de Oceanic.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

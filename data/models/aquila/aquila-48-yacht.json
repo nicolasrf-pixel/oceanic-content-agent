@@ -1,0 +1,74 @@
+{
+  "model_id": "aquila-48-yacht",
+  "brand_id": "aquila",
+  "family": "Aquila Yacht",
+  "model_name": "Aquila 48",
+  "category": "power_catamaran",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": "https://www.aquilaboats.com/models/yachts",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 14.71,
+    "manga_m": 7.16,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": 25200,
+    "motorizacion": "2 x Volvo Penta D4 225 HP diésel, con caja V-Drive",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 1348,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "hasta 10 (según layout, fuente de tercero)",
+    "camarotes": "3 (base), con layouts opcionales de 2, 3 o 4 camarotes",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.yachtbuyer.com/en-us/aquila/new/aquila-48",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Titula la ficha 'Aquila 48 Yacht (2014 - 2020)' y describe el modelo como discontinuado, reemplazado por el Aquila 50 Yacht (lanzado 2024)."
+    },
+    {
+      "url": "https://pdf.nauticexpo.com/pdf/aquila-power-catamarans/aquila-48/60821-81702.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Catálogo PDF de terceros (nauticexpo) que aloja/reproduce ficha del fabricante; fuente de especificaciones (LOA 48'3\", manga 23'6\", altura con hard top 18'8\", desplazamiento a plena carga 55,556 lb / 25,200 kg, combustible 356 gal / 1,350 L, motores 2x225 HP Volvo Penta D4)."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.aquilaboats.com/models/yachts",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página del fabricante sin entrada específica coincidente en 'sources' para esta URL exacta; se usa level=1/UNCONFIRMED por defecto según metodología. URL genérica de línea de producto, compartida entre varios modelos de esta marca, no una ficha específica de este modelo. La manufacturer_url es la página genérica de la línea Yachts (aquilaboats.com/models/yachts), compartida con aquila-44-yacht; no hay entrada específica en 'sources' para esta URL, por lo que se usa level=1/UNCONFIRMED por defecto."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UC3Q63RytuJYI032le906OHw",
+        "platform": "youtube",
+        "title": "Aquila Boats - canal oficial de YouTube",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca (confirmado de forma consistente en múltiples búsquedas independientes; contenido de la biografía del canal coincide con la descripción oficial de la marca). Sin video específico de este modelo confirmado como oficial en esta pasada; se referencia el canal como fallback."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo histórico, no vigente, incluido en el inventario por completitud y trazabilidad (CLAUDE.md sección 15: un modelo discontinuado se conserva, no se borra). Detectado como predecesor directo del Aquila 50 Yacht durante la investigación del 50 Yacht ('sucesor del ahora retirado Aquila 48'). No se encontró evidencia de que Oceanic lo haya representado -- el 50 Yacht es el modelo de este rango de tamaño confirmado en oceanic.cl (oceanic.cl/aquila-boats/50-yacht/). Producido aproximadamente 2014-2020 según fuente de tercero, sin fetch directo al fabricante para confirmar fechas exactas."
+}

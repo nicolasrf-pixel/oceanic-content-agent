@@ -1,0 +1,69 @@
+{
+  "model_id": "first-44",
+  "brand_id": "beneteau-sail",
+  "family": "First",
+  "model_name": "Beneteau First 44",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/first/first-44",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/first/first-44",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia; descrito en cobertura como 'el enlace natural entre el First 36 y el First 53', posicionado como expresión de racer/cruiser."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/first/first-44",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=Fi9h3mZquP0",
+        "platform": "youtube",
+        "title": "Beneteau First 44 - Official Movie 2022",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda web; el título indica 'Official Movie' pero el canal que lo publica no pudo confirmarse como canal oficial de la marca en esta pasada (sin fetch directo), por lo que se deja en nivel 3 / UNCONFIRMED. Elegido como modelo insignia de la línea First según instrucción de investigación de media."
+      },
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Adicional al video específico ya listado arriba."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "No se encontró ruta de herencia para este modelo en esta pasada. No se encontró mención en oceanic.cl."
+}

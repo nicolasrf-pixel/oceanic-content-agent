@@ -1,0 +1,184 @@
+{
+  "model_id": "explr-10",
+  "brand_id": "xo-boats",
+  "family": "EXPLR",
+  "model_name": "XO EXPLR 10",
+  "variants": [
+    {
+      "variant_name": "EXPLR 10 Sport",
+      "description": "Configuración base: fueraborda (OB), cockpit de proa abierto.",
+      "confidence_level": "MEDIUM",
+      "notes": "'Sport' es la designación base; ausencia de sufijo '+' o 'IB' según convención reportada por terceros."
+    },
+    {
+      "variant_name": "EXPLR 10 Sport IB",
+      "description": "Motorización intraborda (inboard), cockpit de proa abierto.",
+      "confidence_level": "MEDIUM",
+      "notes": "Sufijo 'IB' = inboard (motor estacionario/intraborda), según review de terceros (toprik.com)."
+    },
+    {
+      "variant_name": "EXPLR 10 Sport+",
+      "description": "Añade camarote de proa cerrado (litera para 2), motorización fueraborda.",
+      "confidence_level": "MEDIUM",
+      "notes": "Sufijo '+' indica presencia de camarote de proa cerrado en lugar de cockpit abierto, según review de terceros."
+    },
+    {
+      "variant_name": "EXPLR 10 Sport+ IB",
+      "description": "Camarote de proa cerrado + motorización intraborda.",
+      "confidence_level": "MEDIUM",
+      "notes": "Combina camarote de proa ('+') y motor inboard ('IB')."
+    }
+  ],
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://xoboats.com/fleet/explr/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": 2.6,
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Fueraborda (Sport, Sport+) o intraborda (Sport IB, Sport+ IB) según variante",
+    "potencia_max_hp": "UNKNOWN",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "notas_especificaciones": "Fuentes de terceros describen la 'familia EXPLR 10' con 4 configuraciones (S / S IB / S+ / S+ IB) y afirman que todas superan los 40 nudos de velocidad máxima ('the maximum speed of all models in the EXPLR 10 series exceeds 40 knots'), sin cifra exacta por variante confirmada por el fabricante."
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m (EXPLR 10 Sport+)",
+      "values": [
+        {
+          "value": 8.9,
+          "source": {
+            "url": "https://itboat.com/models/12181-xo-explr-10-sport-plus",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "itBoat: XO EXPLR 10 Sport+, LOA 8.9m, Beam 2.6m, Draft 1.0m, desde 88.135 EUR."
+          }
+        },
+        {
+          "value": 9.4,
+          "source": {
+            "url": "https://www.yachtbuyer.com/en-us/yachts/compare/xo-boats-explr-10-sport-and-vs-xo-boats-explr-10-sport-and-ib-7f628b5",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "YachtBuyer (página comparativa Sport+ vs Sport+ IB): Sport+ = 9.4m/30'10\", beam 2.5m/8'2\"."
+          }
+        }
+      ],
+      "notes": "Discrepancia de 0.5m entre itBoat (8.9m) y YachtBuyer (9.4m) para 'EXPLR 10 Sport+'. Se conservan ambos valores, con sus fuentes, sin resolver arbitrariamente (CLAUDE.md sección 14). Beam también difiere levemente (2.6m vs 2.5m)."
+    },
+    {
+      "field": "eslora_m (EXPLR 10 Sport+ IB)",
+      "values": [
+        {
+          "value": 8.66,
+          "source": {
+            "url": "https://www.yachtbuyer.com/en-us/xo-boats/new/explr-10-sport-and-ib",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "YachtBuyer: Sport+ IB = 8.66m/28'5\", beam 2.5m/8'2\"."
+          }
+        }
+      ],
+      "notes": "Valor único disponible para esta variante; no contrastado con una segunda fuente independiente. Se marca UNCONFIRMED en las especificaciones agregadas del modelo."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://xoboats.com/fleet/explr/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de serie del fabricante ('EXPLR SERIES - XO Boats'), describe la serie EXPLR como de cuatro estaciones, 5 modelos versátiles en variantes de 9m y 10m con opciones inboard/outboard. Sin fetch directo."
+    },
+    {
+      "url": "https://xoboats.com/xo-fleet/explr-10plus-sport/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha del fabricante para 'EXPLR 10 Sport +'; descrita como uno de los modelos más vendidos, 8.90m, camarote de invitados, calado 0.95m, hasta 40 nudos."
+    },
+    {
+      "url": "https://xoboats.com/xo-fleet/explr-10-sport-ib/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha del fabricante para 'EXPLR 10 S+ IB'."
+    },
+    {
+      "url": "https://xoboats.com/xo-fleet/explr-10-sport-ib-2/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha del fabricante para 'EXPLR 10 Sport IB'."
+    },
+    {
+      "url": "https://www.nauticexpo.com/prod/xo-boats/product-54089-587750.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "NauticExpo: 'Inboard cabin cruiser - EXPLR 10 IB - hard-top / sport / offshore'."
+    },
+    {
+      "url": "https://toprik.com/blog/review/xo-explr-10/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Review comparativa de las 4 configuraciones EXPLR 10 (S / S IB / S+ / S+ IB), explica el significado de los sufijos '+' e 'IB'."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/fleet/explr/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de serie del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de EXPLR 10 (ni de sus variantes) en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelado como un único modelo 'EXPLR 10' con 4 variantes (Sport / Sport IB / Sport+ / Sport+ IB), ya que los sufijos representan combinaciones de layout (camarote de proa) y motorización (inboard/outboard) sobre una misma plataforma de casco (CLAUDE.md sección 7 y 16), no productos con nombre y posicionamiento propios independientes. Existe duda razonable dado que el fabricante publica una ficha web separada por cada configuración; se documenta el criterio en vez de decidir arbitrariamente. Discrepancias de eslora entre fuentes de terceros para Sport+ y Sport+ IB quedan registradas sin resolver. No se encontró mención específica de EXPLR 10 (ni de sus variantes) en fuentes de Oceanic Chile; oceanic_url null."
+}

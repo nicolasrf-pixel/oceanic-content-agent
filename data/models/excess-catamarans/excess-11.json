@@ -1,0 +1,108 @@
+{
+  "model_id": "excess-11",
+  "brand_id": "excess-catamarans",
+  "family": "Excess 11",
+  "model_name": "Excess 11",
+  "variants": [
+    {
+      "variant_name": "Pulse Line rig",
+      "description": "Aparejo opcional de mayor rendimiento: mástil 3 ft (~0.9 m) más alto y 59 ft² (~5.5 m²) de superficie vélica adicional respecto al aparejo estándar.",
+      "confidence_level": "MEDIUM",
+      "notes": "Confirmado por sailboatdata.com y reseñas de prensa especializada; sin ficha oficial del fabricante con las cifras exactas revisada en esta pasada."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.33,
+    "eslora_flotacion_m": 11.05,
+    "manga_m": 6.58,
+    "calado_m": 1.14,
+    "desplazamiento_kg": 9002,
+    "superficie_vela_m2": 77,
+    "motorizacion": "2x Yanmar 29 HP (saildrive)",
+    "capacidad_combustible_l": 401,
+    "capacidad_agua_l": 299,
+    "camarotes": "UNCONFIRMED",
+    "banos": "UNCONFIRMED",
+    "pasajeros_max": "UNKNOWN",
+    "disenador": "VPLP",
+    "notas_specs": "Desplazamiento convertido desde 19,845 lb (lightship) reportado por sailboatdata.com. Camarotes/baños no confirmados en esta pasada — el modelo suele ofrecerse en versiones de 3 o 4 camarotes según fuentes de terceros, sin ficha oficial revisada."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del modelo en el sitio del fabricante."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/excess-11/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Ficha técnica de terceros con dimensiones, desplazamiento y superficie vélica; consistente con reseñas de prensa (Sail Magazine, Yachting Monthly, 48° North)."
+    },
+    {
+      "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/excess-11-review-a-very-rare-sub-40ft-cruising-catamaran",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Reseña de prensa especializada, corrobora posicionamiento y dimensiones generales."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo, incluye galería de fotos del fabricante."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.excess-catamarans.com/our-news/excess-11-on-video",
+        "platform": "manufacturer_page",
+        "title": "Sailing Catamaran Excess 11 in video!",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Nota oficial del fabricante con video embebido, presenta al navegante Marc Guillemot."
+      },
+      {
+        "url": "https://www.youtube.com/@EXCESSCatamarans",
+        "platform": "youtube",
+        "title": "Canal oficial EXCESS Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal de YouTube de la marca; contiene contenido del 11 entre otros modelos, sin un video único identificado para este modelo específico en el canal oficial."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=llCL3uh0O2w",
+        "platform": "youtube",
+        "title": "Excess 11 Catamaran | Génois à recouvrement | Multicoques",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda; el canal no pudo confirmarse como oficial de la marca en esta pasada (título en francés sugiere medio especializado, no el canal de EXCESS)."
+      }
+    ]
+  },
+  "verified_at": "2026-09-14",
+  "last_updated": "2026-09-14",
+  "status_pipeline": "MAPPED",
+  "notes": "Marca agregada por instrucción directa del usuario 2026-09-14 (ver data/changelog/brands-changelog.md); no hay evidencia de que Oceanic Chile represente esta marca — oceanic_url queda null. Modelo de entrada de la gama Excess, diseño VPLP, construido en Burdeos, Francia. Sin fetch directo (CLAUDE.md sección 22): todas las fuentes son vía web_search_snippet."
+}

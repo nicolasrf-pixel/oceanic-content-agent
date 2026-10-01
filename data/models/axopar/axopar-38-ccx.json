@@ -1,0 +1,65 @@
+{
+  "model_id": "axopar-38-ccx",
+  "family": "Axopar 38",
+  "model_name": "Axopar 38 CCX",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "UNCONFIRMED",
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-38/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.yachtbuyer.com/en-us/news/new-axopar-38-sun-top-boat-introduced-following-xc-cross-cabin-debut",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio de terceros: 'followed by three additional Sun Top, Cross Top, and CCX model launches later in 2026 and 2027' — único indicio encontrado de un cuarto modelo CCX en la familia 38, siguiendo el mismo patrón de nomenclatura que el 29 CCX (center console)."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-38/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url del modelo; no hay coincidencia exacta en 'sources' de este registro (sin fetch directo, EGRESS_BLOCKED). Se asume que incluye galería de fotos, práctica estándar en páginas de producto de fabricantes náuticos, pero no se confirmó por fetch directo en esta pasada."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo aún no lanzado ni confirmado por el fabricante directamente en esta pasada — una sola mención de tercero, sin fecha exacta ni ficha. Se incluye igualmente (en vez de omitirlo) porque CLAUDE.md exige registrar todo indicio detectado, marcándolo explícitamente como no suficientemente confirmado en vez de omitirlo en silencio. confidence_level LOW por ser mención aislada.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

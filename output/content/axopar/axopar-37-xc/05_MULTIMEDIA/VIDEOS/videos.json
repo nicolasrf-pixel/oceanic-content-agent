@@ -1,0 +1,62 @@
+{
+  "policy": "No se descargan videos (instrucción explícita del usuario) — solo se registran metadatos: URL, plataforma, título, descripción, página de origen.",
+  "videos_official": [
+    {
+      "url": "https://www.youtube.com/c/AxoparBoats",
+      "platform": "youtube",
+      "title": "Axopar Boats (canal oficial)",
+      "description": "Canal oficial de YouTube de la marca. No se confirmó qué video específico del 37 XC Cross Cabin, si alguno, está subido aquí.",
+      "source_page": "n/a (canal, no video individual)",
+      "level": 1,
+      "verification_state": "CONFIRMED",
+      "notes": "Ya registrado previamente en data/models/axopar/axopar-37-xc-cross-cabin.json"
+    },
+    {
+      "url": "https://www.axopar.com/in-depth-videos",
+      "platform": "manufacturer_page",
+      "title": "Axopar In Depth Videos",
+      "description": "Hub oficial de videos en profundidad de la marca. Relación específica con el 37 XC Cross Cabin no confirmada.",
+      "source_page": "https://www.axopar.com/in-depth-videos",
+      "level": 1,
+      "verification_state": "UNCONFIRMED"
+    }
+  ],
+  "videos_third_party_found_excluded": [
+    {
+      "url": "https://www.youtube.com/watch?v=oVxkNLccKYI",
+      "title": "Axopar 37 XC Cross Cabin | Walkthrough Tour",
+      "attributed_to": "East Coast Yacht Sales (dealer, según snippet)",
+      "reason_excluded": "Canal de distribuidor, no oficial de la marca — excluido por instrucción del usuario, ya estaba en el catálogo anterior marcado como 'canal no identificado como oficial'."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NSpbxcTQkP4",
+      "title": "Axopar 37XC Walkthrough",
+      "attributed_to": "No identificado como oficial",
+      "reason_excluded": "Canal no confirmado como oficial de Axopar."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=njidEFgcues",
+      "title": "Tips & Tricks and Walkthrough: Axopar 37 XC Cross Cabin",
+      "attributed_to": "Presenta al 'founding partner' Jan-Erik Viitala según el snippet — posiblemente contenido oficial reutilizado por un canal no oficial",
+      "reason_excluded": "No se pudo confirmar que el canal que lo aloja sea el canal oficial de Axopar (se hubiera necesitado abrir YouTube directamente, bloqueado). Se documenta la posibilidad, no se incluye como fuente oficial."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yZXg08AQd-c",
+      "title": "Axopar 37 XC: Tips, Tricks and Walkthrough",
+      "attributed_to": "Mismo caso que el anterior — menciona a Jan-Erik Viitala",
+      "reason_excluded": "Misma razón que arriba."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fNV51IIcaUw",
+      "title": "Walkthrough Tour of Axopar 37 Cross Cabin Wet Bar Version with 600hp Mercury Verado Engines",
+      "attributed_to": "No identificado como oficial",
+      "reason_excluded": "Canal no confirmado como oficial."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tnIEkSKH9XU",
+      "title": "Axopar 37 Cross Cabin - Video Walkthrough with Scott Woodruff, CPYB",
+      "attributed_to": "Certified Professional Yacht Broker (dealer/broker, según título)",
+      "reason_excluded": "Explícitamente un broker/distribuidor, no la marca."
+    }
+  ]
+}

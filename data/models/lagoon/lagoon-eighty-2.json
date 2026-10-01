@@ -1,0 +1,82 @@
+{
+  "model_id": "lagoon-eighty-2",
+  "brand_id": "lagoon",
+  "family": "Lagoon Eighty 2",
+  "model_name": "Lagoon Eighty 2",
+  "variants": [
+    {
+      "variant_name": "4 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    },
+    {
+      "variant_name": "5 cabanas",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo."
+    }
+  ],
+  "category": "power_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 24.97,
+    "manga_m": 11.0,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "camarotes": "4 o 5",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "motorizacion_estandar": "2 x John Deere N5 - 230 HP"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante vía snippet de búsqueda. Dimensiones consistentes con tmgyachts.com y multihullcompany.com."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/eighty-2)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=3C-wAIIWNEA",
+        "platform": "youtube",
+        "title": "Lagoon EIGHTY 2 Full Walkthrough | 82ft Luxury Catamaran",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video encontrado vía web_search_snippet (sin fetch directo, CLAUDE.md sección 22); el título sugiere contenido oficial/promocional de Lagoon, pero el canal que lo aloja no pudo confirmarse de forma independiente en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Parte de la línea de catamaranes A MOTOR de Lagoon ('Power catamarans', catamarans-lagoon.com/ranges/power-catamarans). No se encontró evidencia de que este modelo específico tenga página propia en oceanic.cl ni de que Oceanic lo represente -- a diferencia del Lagoon Seventy 8, que SÍ está confirmado en oceanic.cl (ver lagoon-seventy-8.json). Se documenta como catálogo global del fabricante únicamente. oceanic_url null. No se afirma que Oceanic no lo represente, solo que no se pudo confirmar en esta pasada (CLAUDE.md secciones 6 y 22)."
+}

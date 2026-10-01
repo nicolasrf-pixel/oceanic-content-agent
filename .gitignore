@@ -4,3 +4,6 @@ __pycache__/
 # Copias web de imágenes: viven en el ZIP que se sube a Drive (se regeneran con `python -m oceanic media --cdn`).
 biblioteca/**/05_MULTIMEDIA/IMAGENES/*/
 dist/*.zip
+# Credenciales locales: nunca se versionan.
+.env
+*.env

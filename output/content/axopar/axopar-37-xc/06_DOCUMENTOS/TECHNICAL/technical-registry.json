@@ -1,0 +1,14 @@
+{
+  "download_status": "NOT_DOWNLOADED",
+  "download_blocker": "Ver manuals-registry.json — misma limitación de red.",
+  "documents": [
+    {
+      "url": "https://www.axopar.com/pricelist/AXO9003774",
+      "title": "RECOMMENDED RETAIL PRICE 121 200 € AXOPAR 37 XC CROSS CABIN (ficha técnica + precio, página web, no PDF)",
+      "format": "html_page",
+      "status": "FOUND_NOT_DOWNLOADED",
+      "note": "Es una página web, no un PDF descargable — se registra aquí porque funciona como 'product card' oficial (specs + precio + opciones). Contenido usado extensamente en 02_ESPECIFICACIONES y 04_EQUIPAMIENTO."
+    }
+  ],
+  "note_on_missing_brochure": "No se encontró un PDF de brochure o product card técnico alojado en axopar.com o axopar.fi. Se encontraron PDFs de especificaciones técnicas en dominios de distribuidores (jeffbrownyachts.com) que probablemente mirroran contenido oficial casi textual, pero se excluyeron por no ser dominio del fabricante — ver 07_FUENTES/source-map.md."
+}

@@ -1,0 +1,105 @@
+{
+  "model_id": "flyer-8-8-spacedeck",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 8.8 SPACEdeck",
+  "category": "motor",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/flyer-2004-2016/flyer-88-spacedeck",
+  "oceanic_url": "https://www.oceanic.cl/motor/flyer-8-8-spacedeck/",
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 9.0,
+    "manga_m": "UNKNOWN",
+    "calado_m": 0.5,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "1 x Suzuki fuera de borda (desarrollado en partnership con Suzuki)",
+    "potencia_max": "500 hp (opción máxima; estándar probado con 350hp)",
+    "velocidad_max_nudos": 43,
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": 11,
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "DISCONTINUED",
+          "source": {
+            "url": "https://www.beneteau.com/flyer-2004-2016/flyer-88-spacedeck",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Fabricante lo archiva como modelo de generación 2004-2016/producción cerrada. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        },
+        {
+          "value": "CURRENT (aparente)",
+          "source": {
+            "url": "https://www.oceanic.cl/motor/flyer-8-8-spacedeck/",
+            "level": 2,
+            "level_label": "AUTHORIZED",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Oceanic Chile mantiene una página de producto activa para este modelo en 2026. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+          }
+        }
+      ],
+      "notes": "Contradicción real entre fuente Nivel 1 (fabricante trata el modelo como generación cerrada/histórica) y fuente Nivel 2 (Oceanic sigue listándolo como si estuviera disponible). Podría deberse a: (a) página de Oceanic desactualizada, (b) unidad(es) en stock/remanente aún a la venta, o (c) Oceanic usa el nombre antiguo para referirse al modelo vigente 'Flyer 8 SPACEdeck'. No se resuelve arbitrariamente (CLAUDE.md sección 14); lifecycle_status del registro se deja UNCONFIRMED hasta aclarar."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.oceanic.cl/motor/flyer-8-8-spacedeck/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto activa en oceanic.cl que presenta el modelo como parte de la oferta vigente, con homologación B8/C11 y capacidad de 11 personas. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.beneteau.com/flyer-2004-2016/flyer-88-spacedeck",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "El propio fabricante lo cataloga en la ruta 'flyer-2004-2016', es decir, como modelo de una generación ya cerrada (producido 2016-2019 según itboat.com), reemplazado por 'Flyer 8 SPACEdeck' (ver flyer-8-spacedeck). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/flyer-2004-2016/flyer-88-spacedeck",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Ver discrepancies: contradicción documentada entre fabricante (generación cerrada) y Oceanic Chile (página activa). Tratado como modelo propio en vez de variante de flyer-8-spacedeck porque el fabricante le dio nombre y ficha propios de forma explícita (CLAUDE.md sección 7)."
+}

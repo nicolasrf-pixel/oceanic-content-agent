@@ -1,0 +1,82 @@
+{
+  "model_id": "swift-trawler-37-fly",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Swift Trawler",
+  "model_name": "Beneteau Swift Trawler 37 Fly",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/trawler/swift-trawler-37-fly",
+  "oceanic_url": "https://oceanic.cl/beneteau-motor/swift-trawler-37-fly/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.28,
+    "manga_m": 3.99,
+    "calado_m": 1.17,
+    "desplazamiento_kg": 8300,
+    "motorizacion": "1 x Yanmar 6LY diesel 400hp (estándar); opción 440hp",
+    "potencia_max": "440 hp (opción)",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 800,
+    "capacidad_agua_l": 299,
+    "pasajeros": "UNKNOWN",
+    "camarotes": 2,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/beneteau-motor/swift-trawler-37-fly/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto específica en Oceanic Chile; confirma que el modelo es representado localmente. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.beneteau.com/en-us/trawler/swift-trawler-37-fly",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del fabricante para el modelo, confirma nombre y línea. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.mby.com/reviews/trawler-yachts/beneteau-swift-trawler-37-fly-review-you-dont-expect-a-trawler-style-boat-to-look-pretty-but-this-one-really-is",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Reseña de medio náutico (MBY) con especificaciones de eslora/manga/calado/desplazamiento/motor, usada para completar specs. Cifras en pies/galones convertidas a métrico. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/trawler/swift-trawler-37-fly",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Único modelo de la marca confirmado con página de producto propia dentro de oceanic.cl/beneteau-motor/ en esta pasada de investigación. Existe también 'Swift Trawler 37 Sedan' (versión sin flybridge) según catálogo global del fabricante, no confirmada en oceanic.cl — ver swift-trawler-37-sedan."
+}

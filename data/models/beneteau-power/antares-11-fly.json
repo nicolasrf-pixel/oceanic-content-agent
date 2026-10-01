@@ -1,0 +1,82 @@
+{
+  "model_id": "antares-11-fly",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Antares",
+  "model_name": "Beneteau Antares 11 Fly",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/antares-outboard/antares-11-fly",
+  "oceanic_url": "https://oceanic.cl/beneteau-motor/antares-11/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 11.07,
+    "manga_m": 3.51,
+    "calado_m": 0.97,
+    "desplazamiento_kg": 6148,
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 802,
+    "capacidad_agua_l": 201,
+    "pasajeros": 7,
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/antares-outboard/antares-11-fly",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial vigente del fabricante ('The ultimate weekender with a top view'). Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://oceanic.cl/beneteau-motor/antares-11/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ver nota de ambigüedad Coupe/Fly en antares-11-coupe; misma página genérica de Oceanic. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://ilodka.com/en/models/beneteau-antares-11-fly/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Specs convertidas desde imperial: eslora 36'4'' (11.07m), manga 11'6'' (3.51m), calado 0.97m, desplazamiento 13,550 lbs (6,148 kg), combustible 2x106 gal US (~802 L), agua 53 gal (~201 L). Capacidad reportada: 7 personas, cabina doble en proa + cabina de popa manga completa con 3 literas. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/antares-outboard/antares-11-fly",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Camarotes se deja UNKNOWN (no 'doble master + popa' claramente numerable a partir del snippet) para no inventar un conteo exacto no verificado directamente."
+}

@@ -1,0 +1,98 @@
+{
+  "model_id": "solaris-55",
+  "brand_id": "solaris",
+  "family": "Solaris 55",
+  "model_name": "Solaris 55",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/55/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Pañol de velas convertible en camarote de tripulación",
+      "description": "El pañol de velas puede convertirse en un camarote de tripulación con baño integrado, según itBoat.",
+      "confidence_level": "MEDIUM",
+      "notes": "Opción de layout, no modelo aparte."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 16.85,
+    "manga_m": 4.85,
+    "calado_m": 3.0,
+    "desplazamiento_kg": 17600,
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": 3,
+    "banos": 3,
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "3 camarotes, todos en-suite (cada uno con baño propio) según itBoat -> banos=3 (mínimo, sin contar el eventual camarote de tripulación opcional en el pañol de velas)."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/55/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-55-pdf.pdf",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Ficha oficial: LOA 16,85 m, beam 4,85 m, YEAR 2022."
+    },
+    {
+      "url": "https://itboat.com/models/8310-solaris-55",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Draft 3.0 m, desplazamiento 17.600 kg, 3 camarotes en-suite, suite de proa con baño y ducha grande, dos camarotes de popa cada uno con baño propio."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/yachts/55/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (página oficial indexada, contenido completo no leído por bloqueo de red)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Confirmado como parte de la gama exhibida por Solaris en Cannes Yachting Festival 2026 junto a 50, 60 y 64 RS. Representación específica por Oceanic Chile no confirmada a nivel de modelo."
+}

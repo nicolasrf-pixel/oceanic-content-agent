@@ -1,0 +1,73 @@
+{
+  "model_id": "swift-trawler-43-sedan",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Swift Trawler",
+  "model_name": "Beneteau Swift Trawler 43 Sedan",
+  "category": "motor",
+  "lifecycle_status": "ANNOUNCED",
+  "model_year": "2026",
+  "manufacturer_url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.theyachtingvoice.com/en/swift-trawler-43-sedan-version-and-fly-version/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio náutico; título indica explícitamente versiones 'Sedan' y 'Fly' del Swift Trawler 43, tratadas como fichas propias del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.nauticadeldelta.it/en/beneteau-new-swift-trawler-43/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Dealer/medio europeo, confirma existencia de la línea Swift Trawler 43 nueva generación. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería; no hay entrada exactamente coincidente en 'sources' para heredar su nivel/estado, por lo que se asigna level=1/UNCONFIRMED por prudencia. Las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos, pero esto no fue confirmado por fetch directo (CLAUDE.md sección 22). Nota: esta URL corresponde a la página del Swift Trawler 43 Fly (no hay página propia identificada para la versión Sedan en esta pasada); se referencia igualmente como punto de partida de galería, pero no es específica del modelo Sedan."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "No se encontró URL propia en beneteau.com para 'Sedan' en esta pasada (solo la de 'Fly'); existencia del nombre confirmada solo por fuentes de nivel 3. Verificar contra beneteau.com directamente cuando haya acceso de red."
+}

@@ -1,0 +1,116 @@
+{
+  "model_id": "saffier-se-27-leisure",
+  "brand_id": "saffier",
+  "family": "Saffier SE 27",
+  "model_name": "Saffier SE 27 Leisure",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/previous-models/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "No se encontraron specs numéricas confiables en esta pasada de búsqueda más allá de descripciones genéricas ('combina velocidad, alto rendimiento y una estética llamativa')."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/previous-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "El listado de 'Previous models' del fabricante referencia modelos descontinuados de la gama; no se confirmó en el snippet si SE 27 Leisure aparece nombrada explícitamente ahí."
+    },
+    {
+      "url": "https://www.yachtworld.com/yacht/2026-saffier-se-27-leisure-7446542/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listado de venta fechado '2026' para un Saffier SE 27 Leisure, lo que sugiere que unidades siguen disponibles/en inventario en 2026 a pesar de indicios de discontinuación."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/previous-models/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (no se confirmó en el snippet si SE 27 Leisure aparece nombrado explícitamente en esa página)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de este modelo (lifecycle_status UNCONFIRMED) en esta pasada; se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo con evidencia contradictoria/débil sobre su estado de ciclo de vida. Requiere fetch directo de saffieryachts.com/previous-models/ y/o saffieryachts.com/models/ para confirmar. confidence_level LOW.",
+  "discrepancies": [
+    {
+      "field": "lifecycle_status",
+      "values": [
+        {
+          "value": "Posiblemente descontinuado / reemplazado por SE 28 Leopard",
+          "source": {
+            "url": "https://itboat.com/shipyards/510-saffier",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Búsqueda agregada sugiere que 'current lineup appears to have been updated' respecto a SE 27."
+          }
+        },
+        {
+          "value": "Unidad en venta fechada 2026 (posible inventario remanente o producción continuada)",
+          "source": {
+            "url": "https://www.yachtworld.com/yacht/2026-saffier-se-27-leisure-7446542/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Listado de YachtWorld fechado 2026."
+          }
+        }
+      ],
+      "notes": "No hay evidencia suficiente para clasificar con confianza como CURRENT o DISCONTINUED; se deja lifecycle_status=UNCONFIRMED explícitamente en vez de decidir arbitrariamente (CLAUDE.md secciones 6 y 14)."
+    }
+  ]
+}

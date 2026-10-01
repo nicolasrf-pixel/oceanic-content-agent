@@ -1,0 +1,64 @@
+{
+  "model_id": "flyer-10-sport-top",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Flyer",
+  "model_name": "Beneteau Flyer 10 Sport Top",
+  "category": "motor",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/motorboats/flyer",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.bjmarine.net/new-boat-showrooms/beneteau/beneteau-power/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Único listado que menciona esta variante ('Sport Top') de forma explícita como ficha separada. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/motorboats/flyer",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería; no hay entrada exactamente coincidente en 'sources' para heredar su nivel/estado, por lo que se asigna level=1/UNCONFIRMED por prudencia. Las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos, pero esto no fue confirmado por fetch directo (CLAUDE.md sección 22). Nota: esta URL es la página genérica de la familia/línea en beneteau.com (compartida por varios modelos de esta línea), no una página específica de este modelo exacto; se referencia igualmente como punto de partida de galería."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Duda razonable sobre si 'Sport Top' es un modelo propio (con ficha propia del fabricante, no confirmado en esta pasada) o una variante de equipamiento del Flyer 10 — se documenta como modelo separado por prudencia ante la mención explícita del dealer, pero con classification UNCONFIRMED, en vez de decidir arbitrariamente (CLAUDE.md sección 16)."
+}

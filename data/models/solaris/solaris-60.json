@@ -1,0 +1,104 @@
+{
+  "model_id": "solaris-60",
+  "brand_id": "solaris",
+  "family": "Solaris 60",
+  "model_name": "Solaris 60",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/60/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Layout de 3 o 4 camarotes",
+      "description": "Versión de 3 camarotes (más abierta, tipo loft) o 4 camarotes (con dos literas) más camarote de tripulación en la proa con baño separado.",
+      "confidence_level": "MEDIUM",
+      "notes": "Opción de layout interior, no modelo aparte."
+    },
+    {
+      "variant_name": "Quilla fija (2.8 m / 3.2 m) o quilla levadiza (2.40-4.00 m)",
+      "description": "Dos calados fijos disponibles más una opción de quilla levadiza con rango 2.40-4.00 m.",
+      "confidence_level": "MEDIUM",
+      "notes": "Opción de quilla, no modelo aparte."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 18.31,
+    "manga_m": 5.28,
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNCONFIRMED",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": "UNCONFIRMED",
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": 201,
+    "notas_specs": "Calado: dos opciones reportadas (2.8 m / 3.2 m) más quilla levadiza 2.40-4.00 m; se deja 'UNCONFIRMED' en el campo único calado_m porque hay múltiples configuraciones sin un valor 'estándar' claro en las fuentes recuperadas. Camarotes: 3 o 4 según configuración, por eso 'UNCONFIRMED' en el campo único. Desplazamiento: 25.8 toneladas media carga (~24.000-25.800 kg) según fuentes Nivel 3, sin cifra oficial exacta confirmada -> UNCONFIRMED. Superficie vélica: mayor 100 m2 + génova 101 m2 = 201 m2 según fuente Nivel 3."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/60/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-60/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 18.31 m, beam 5.28 m."
+    },
+    {
+      "url": "https://www.yachtscroatia.com/solaris-60/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Descrito como 'Mini Maxi Cruiser', inspirado en la idea de crear un Mini-Maxi de alto rendimiento; desplazamiento ~25.8 t media carga; layouts de 3 o 4 camarotes; drafts 2.8/3.2 m o quilla levadiza 2.40-4.00 m; mayor 100 m2 + genoa 101 m2; motor estándar 75hp Sail Drive, opcional 110/150hp."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/yachts/60/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (página oficial indexada, contenido completo no leído por bloqueo de red)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Confirmado como parte de la gama exhibida por Solaris en Cannes Yachting Festival 2026 junto a 50, 55 y 64 RS. Representación específica por Oceanic Chile no confirmada a nivel de modelo."
+}

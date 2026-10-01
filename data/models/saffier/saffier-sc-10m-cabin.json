@@ -1,0 +1,108 @@
+{
+  "model_id": "saffier-sc-10m-cabin",
+  "brand_id": "saffier",
+  "family": "Saffier SC 10m",
+  "model_name": "Saffier SC 10m Cabin",
+  "category": "sail",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/previous-models/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 10.0,
+    "manga_m": "UNKNOWN",
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "calado_m": 1.13,
+    "notas_specs": "1 camarote con 2 literas. Producción en número limitado."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/previous-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página del fabricante 'Previous models' donde se lista como modelo anterior/descontinuado."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/previous-models/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página del fabricante 'Previous models', donde se lista este modelo descontinuado)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de este modelo descontinuado (SC 10m Cabin) en esta pasada; se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo fuera de producción; se conserva en histórico (CLAUDE.md sección 15), no se elimina. No se encontró evidencia de que Oceanic Chile lo represente activamente (coherente con su estado DISCONTINUED).",
+  "discrepancies": [
+    {
+      "field": "production_years",
+      "values": [
+        {
+          "value": "2017-2022",
+          "source": {
+            "url": "https://itboat.com/models/1706-saffier-sc-10m",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "itBoat indica producción 2017-2022."
+          }
+        },
+        {
+          "value": "2012-2020 (25 unidades)",
+          "source": {
+            "url": "https://www.nortonyachts.com/blog/saffier-sc-10m",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Norton Yachts indica producción 2012-2020, 25 unidades construidas."
+          }
+        }
+      ],
+      "notes": "Fuentes secundarias no coinciden en el rango de años de producción exacto; se conservan ambas. No es un dato requerido por el schema fuera de model_year, que se deja UNKNOWN dado el conflicto."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "model_id": "first-27",
+  "brand_id": "beneteau-sail",
+  "family": "First",
+  "model_name": "Beneteau First 27",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/first/first-27",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/first/first-27",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Título indexado: 'BENETEAU First 27 | The Fastest and Safest Cruiser', en ruta de catálogo vigente."
+    },
+    {
+      "url": "https://www.beneteau.com/en-us/first-2016-2026/first-27",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "El MISMO título/modelo también indexado bajo ruta explícita de herencia 'first-2016-2026/first-27'. A diferencia del First 24, aquí la ruta de herencia apunta directamente al modelo (no solo a la página de rango general), señal más fuerte de posible descontinuación/reemplazo."
+    },
+    {
+      "url": "https://rcryachts.com/beneteau-first-27/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de dealer aún activa promocionando el modelo, sin fecha de retiro visible en el snippet."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/first/first-27",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Señal de descontinuación más fuerte que en First 24: la URL de herencia apunta específicamente a 'first-27' (no solo a la página de rango). No se encontró evidencia de First 27 SE como reemplazo confirmado (una fuente de búsqueda lo mencionó, pero no se encontró una página propia en beneteau.com que lo confirme, así que NO se crea un modelo 'first-27-se' para evitar inventar). Se deja lifecycle_status UNCONFIRMED, confidence LOW, y se marca para revisión humana.",
+  "discrepancies": [
+    {
+      "field": "lifecycle_status / manufacturer_url",
+      "values": [
+        {
+          "value": "Catálogo vigente (beneteau.com/en-us/first/first-27)",
+          "source": {
+            "url": "https://www.beneteau.com/en-us/first/first-27",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED"
+          }
+        },
+        {
+          "value": "Herencia/archivo (beneteau.com/en-us/first-2016-2026/first-27)",
+          "source": {
+            "url": "https://www.beneteau.com/en-us/first-2016-2026/first-27",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED"
+          }
+        }
+      ],
+      "notes": "Ambas rutas indexadas para el mismo nombre de modelo; no resuelto sin fetch directo."
+    }
+  ]
+}

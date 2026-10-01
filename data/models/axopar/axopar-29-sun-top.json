@@ -1,0 +1,100 @@
+{
+  "model_id": "axopar-29-sun-top",
+  "family": "Axopar 29",
+  "model_name": "Axopar 29 Sun Top",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-sun-top/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 9.4,
+    "manga_m": 2.97,
+    "calado_m": 0.89,
+    "desplazamiento_kg": 2800,
+    "motorizacion": "Fuera de borda, 300-400 hp",
+    "potencia_max": "400 hp",
+    "velocidad_max_nudos": 50,
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 400,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "2 (+2)",
+    "camarotes": "UNCONFIRMED",
+    "banos": "UNCONFIRMED"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página índice de todo el rango de modelos Axopar (22 a 45 ft), vista vía snippet de búsqueda. No se hizo fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-sun-top/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto del fabricante, vista vía snippet."
+    },
+    {
+      "url": "https://www.hmy.com/yachts-for-sale/axopar-29-sun-top-2026-2026-axopar-29-sun-top-2850414",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado de dealer (HMY Yachts) con model year 2026 para un 29 Sun Top."
+    },
+    {
+      "url": "https://ecys.com/discovery/axopar-29-sun-top/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de dealer (East Coast Yacht Sales) origen de las medidas: LOA 30'10\" (~9.40 m), beam 9'9\" (~2.97 m), calado a plena carga 2'11\" (~0.89 m), combustible 400 l, velocidad máx. ~50 nudos, motorización 300-400 hp fuera de borda, peso excl. motor 2800 kg, capacidad 2(+2) personas. Conversión de pies/pulgadas a métrico hecha por el agente; no se verificó contra ficha oficial axopar.com directamente (bloqueo de red)."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/boat-models/axopar-29/axopar-29-sun-top/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=nbMs8pdhILI",
+        "platform": "youtube",
+        "title": "Axopar 29 Sun Top: Luxury Performance Meets Adventure...",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Specs de mayor calidad relativa dentro de la familia 29 gracias a ficha de dealer detallada, pero siguen siendo Nivel 3 (no fabricante directo) y sin fetch completo — no alcanzan HIGH. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

@@ -1,0 +1,98 @@
+{
+  "model_id": "solaris-80-rs",
+  "brand_id": "solaris",
+  "family": "Solaris 80",
+  "model_name": "Solaris 80 RS",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.solarisyachts.com/en/yachts/80/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "variants": [
+    {
+      "variant_name": "Interior semi-custom",
+      "description": "Ofrece un rango de interiores semi-personalizados sobre la disposición de cubierta y sistemas ya probados de Solaris.",
+      "confidence_level": "LOW",
+      "notes": "No hay detalle suficiente para tratar interiores individuales como modelos o variantes con nombre propio; se deja constancia genérica."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 23.98,
+    "manga_m": 6.39,
+    "calado_m": 4.0,
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Descrito como yate para circunnavegación ('true world girdling yacht') dentro del segmento semi-custom bluewater de 70-80 pies."
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/solaris-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en Oceanic Chile; confirma representación general de Solaris Yachts. No confirma catálogo modelo por modelo."
+    },
+    {
+      "url": "https://www.solarisyachts.com/en/yachts/80/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del modelo indexada; contenido completo no leído por bloqueo de red."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-80/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 23.98 m, beam 6.39 m, draft 4.0 m."
+    },
+    {
+      "url": "https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Descrito como yate de crucero mundial semi-custom, dentro del rango 40-112 pies que ofrece Solaris."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.solarisyachts.com/en/yachts/80/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url; reusa level/verification_state de la fuente coincidente en 'sources' (página oficial indexada, contenido completo no leído por bloqueo de red)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Representación específica por Oceanic Chile no confirmada a nivel de modelo."
+}

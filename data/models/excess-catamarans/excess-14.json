@@ -1,0 +1,112 @@
+{
+  "model_id": "excess-14",
+  "brand_id": "excess-catamarans",
+  "family": "Excess 14",
+  "model_name": "Excess 14",
+  "variants": [
+    {
+      "variant_name": "Pulse Line rig",
+      "description": "Aparejo opcional de mayor rendimiento: 134 m² de superficie vélica de ceñida frente a los 118 m² del aparejo estándar.",
+      "confidence_level": "MEDIUM",
+      "notes": "Confirmado por sailboatdata.com."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 13.34,
+    "manga_m": 7.87,
+    "calado_m": 1.48,
+    "desplazamiento_kg": "UNCONFIRMED",
+    "superficie_vela_m2_ceñida": 118,
+    "superficie_vela_m2_pulse_line": 134,
+    "camarotes": "3 a 4 dobles (6 a 8 literas)",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN",
+    "clasificacion_ce": "A",
+    "notas_specs": "El rango de eslora reportado por sailboatdata.com (13.97 a 15.99 m) parece corresponder a otra métrica o a una confusión de fuente agregada con otro modelo — se usó en su lugar la cifra de 13.34 m reportada de forma más específica ('Length'). El rango de desplazamiento reportado (11.7 a 18.3 t, mín/máx) es demasiado amplio para tratarse como cifra única confiable; se deja UNCONFIRMED en vez de elegir un extremo arbitrariamente."
+  },
+  "discrepancies": [
+    {
+      "field": "eslora_m",
+      "values": [
+        { "value": 13.34, "source": { "url": "https://sailboatdata.com/sailboat/excess-14/", "level": 3, "level_label": "SECONDARY", "retrieved_at": "2026-09-14", "retrieval_method": "web_search_snippet", "verification_state": "UNCONFIRMED", "notes": "Reportado como 'Length' (LWL o eslora de casco)." } },
+        { "value": "13.97 a 15.99 m", "source": { "url": "https://sailboatdata.com/sailboat/excess-14/", "level": 3, "level_label": "SECONDARY", "retrieved_at": "2026-09-14", "retrieval_method": "web_search_snippet", "verification_state": "UNCONFIRMED", "notes": "Reportado como 'Length overall', rango que resulta inusualmente amplio para un único modelo — posible mezcla de datos agregados de varias fuentes por el motor de búsqueda." } }
+      ],
+      "notes": "No se resuelve arbitrariamente (CLAUDE.md sección 14). Pendiente de confirmar por fetch directo a la ficha oficial del fabricante."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial del modelo."
+    },
+    {
+      "url": "https://sailboatdata.com/sailboat/excess-14/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha de terceros; ver discrepancia de eslora."
+    },
+    {
+      "url": "https://www.cruisingworld.com/sailboats/sailboat-review-excess-14/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-14",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Reseña de prensa especializada."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo, incluye galería de fotos del fabricante."
+      },
+      {
+        "url": "https://www.excess-catamarans.com/our-news/view-our-official-video-of-the-excess-14-and-its-latest-photos",
+        "type": "press_kit",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Nota oficial del fabricante titulada 'vea nuestro video oficial del Excess 14 y sus últimas fotos'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.excess-catamarans.com/our-news/view-our-official-video-of-the-excess-14-and-its-latest-photos",
+        "platform": "manufacturer_page",
+        "title": "Official video of the Excess 14",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Video oficial embebido en nota de prensa del fabricante."
+      },
+      {
+        "url": "https://www.youtube.com/@EXCESSCatamarans",
+        "platform": "youtube",
+        "title": "Canal oficial EXCESS Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED"
+      }
+    ]
+  },
+  "verified_at": "2026-09-14",
+  "last_updated": "2026-09-14",
+  "status_pipeline": "MAPPED",
+  "notes": "Marca agregada por instrucción directa del usuario 2026-09-14; no hay evidencia de que Oceanic Chile represente esta marca — oceanic_url queda null. Desarrolla el ADN deportivo del 11 con mástil más centrado y techo de carroza retrasado; genoa solapado para más potencia a proa."
+}

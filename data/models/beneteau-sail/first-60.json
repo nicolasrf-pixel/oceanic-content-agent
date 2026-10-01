@@ -1,0 +1,70 @@
+{
+  "model_id": "first-60",
+  "brand_id": "beneteau-sail",
+  "family": "First",
+  "model_name": "Beneteau First 60",
+  "category": "sail",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/first/first-60",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "18.95 (UNCONFIRMED, fuente Nivel 3, ~62 ft)",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/first/first-60",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia; presentado en Boot Düsseldorf a inicios de 2026 como el modelo más grande jamás introducido en la serie First, diseño de Biscontini Yacht Design (exterior/interior de Lorenzo Argento)."
+    },
+    {
+      "url": "https://www.unitedyacht.com/used-yachts-for-sale/beneteau-first-60-2026-2846587",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado de dealer año modelo 2026, eslora total citada ~18.95 m (62 ft) en fuentes de mercado."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/first/first-60",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo más nuevo de toda la línea First (debut inicios de 2026); se marca NEW en vez de CURRENT por ser un lanzamiento muy reciente respecto a la fecha de esta investigación (2026-09-10) y no encontrarse aún evidencia de entregas establecidas. No se encontró mención en oceanic.cl."
+}

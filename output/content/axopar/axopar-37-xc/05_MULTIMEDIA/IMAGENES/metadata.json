@@ -1,0 +1,21 @@
+{
+  "download_status": "NOT_DOWNLOADED",
+  "download_blocker": "Descarga de imágenes requiere acceso HTTP directo a axopar.com. Se confirmó bloqueado tanto vía WebFetch (EGRESS_BLOCKED) como vía curl/Bash (403 connect_rejected, política de organización) antes de iniciar este piloto. Ver 07_FUENTES/sources.json → access_test.",
+  "images_found": [
+    {
+      "source_page": "https://www.axopar.com/media-library/",
+      "type": "gallery_hub",
+      "status": "FOUND_NOT_DOWNLOADED",
+      "note": "Biblioteca oficial de imágenes, filtrable por modelo. No se pudo enumerar imágenes individuales (URLs de archivo específicas) sin acceso directo a la página — WebSearch no devuelve URLs de imagen individuales de una galería filtrada dinámicamente por JavaScript."
+    },
+    {
+      "source_page": "https://www.axopar.com/range/axopar-37-xc-cross-cabin/",
+      "type": "product_page_gallery_inferred",
+      "status": "FOUND_NOT_DOWNLOADED",
+      "note": "Práctica estándar del sector: páginas de producto de fabricantes náuticos incluyen galería embebida. No se confirmó el contenido exacto ni se obtuvieron URLs de archivo individuales."
+    }
+  ],
+  "images_downloaded": [],
+  "duplicates_avoided": "N/A — no se descargó ninguna imagen, por lo tanto no hay deduplicación que reportar en esta pasada.",
+  "next_step_if_unblocked": "Con acceso directo (WebFetch/curl habilitado a axopar.com), el flujo sería: 1) fetch de la página de producto y de media-library filtrada por '37 XC Cross Cabin', 2) extraer URLs de <img>/<picture>/galería (evitando thumbnails cuando exista el original), 3) descargar cada imagen a esta carpeta con su nombre original cuando sea útil, 4) calcular hash (sha256) de cada archivo para deduplicar, 5) registrar dimensiones (vía Pillow) y página de origen en este mismo metadata.json."
+}

@@ -1,0 +1,70 @@
+{
+  "model_id": "first-36",
+  "brand_id": "beneteau-sail",
+  "family": "First",
+  "model_name": "Beneteau First 36",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/first/first-36",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/first/first-36",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia; descrita en cobertura de prensa como 'primer racer/cruiser mainstream donde el confort a bordo no afecta la experiencia de navegación de alto rendimiento'."
+    },
+    {
+      "url": "https://www.cruisingworld.com/sailboats/beneteau-unveils-first-36-se/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Artículo sobre el lanzamiento del First 36 SE como 'evolución más liviana y rápida del First 36' — confirma que el First 36 (clásico) es la base de la nueva SE, sin indicar explícitamente que el 36 clásico se descontinúe."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/first/first-36",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Sin video específico del modelo identificado en esta pasada; se usa el canal de marca como fallback, según metodología indicada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "No se encontró ruta de herencia/archivo específica para este modelo (a diferencia de First 27), por lo que se mantiene CURRENT. Se creó un modelo separado 'first-36-se' para la evolución anunciada, en vez de tratarla como variante, porque el fabricante le da nombre y página propios (ver CLAUDE.md sección 7)."
+}

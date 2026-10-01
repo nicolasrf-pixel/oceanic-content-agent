@@ -1,0 +1,103 @@
+{
+  "model_id": "solaris-42",
+  "brand_id": "solaris",
+  "family": "Solaris 42",
+  "model_name": "Solaris 42 (Solaris One 42)",
+  "category": "sail",
+  "lifecycle_status": "UNCONFIRMED",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "variants": [
+    {
+      "variant_name": "Quilla poco profunda (shoal draft)",
+      "description": "Calado reducido de 2.25 m mencionado por sailboatdata.",
+      "confidence_level": "LOW",
+      "notes": "Opción de quilla, no modelo aparte."
+    }
+  ],
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNCONFIRMED",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNCONFIRMED",
+    "notas_specs": "Superficie vélica reportada como mayor 55 m2 + génova 40 m2 = 95 m2 aprox, y en otra fuente 'mayor + jib' 83 m2, cifras inconsistentes entre fuentes secundarias -> UNCONFIRMED. LOA y beam no se pudieron confirmar en los snippets recuperados en esta pasada -> UNKNOWN explícito (no se infiere ni interpola)."
+  },
+  "discrepancies": [
+    {
+      "field": "superficie_vela_m2",
+      "values": [
+        {
+          "value": "Mayor 55 m2 + genoa 40 m2 (~95 m2)",
+          "source": {
+            "url": "https://sailboatdata.com/sailboat/solaris-42/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Snippet parcial de sailboatdata."
+          }
+        },
+        {
+          "value": "Mayor + jib = 83 m2 (fractional rig)",
+          "source": {
+            "url": "https://www.listingsport.com/sailboats/solaris/42",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Otra fuente secundaria reporta una cifra distinta de superficie vélica total."
+          }
+        }
+      ],
+      "notes": "Podrían referirse a configuraciones de vela distintas (genoa grande vs. jib de regata), no necesariamente una contradicción real, pero no se pudo confirmar el criterio exacto -> se documentan ambas sin elegir."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-42/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Calado shoal 2.25 m, superficie vélica genoa 40 m2 + mayor 55 m2, motor Volvo Penta Saildrive 55hp. LOA y beam no capturados en el snippet."
+    },
+    {
+      "url": "https://www.listingsport.com/sailboats/solaris/42",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Descrito como 'Solaris One 42', diseño Javier Soto Acebal, lanzado ~2011, presente activamente en la Solaris Cup (regata anual en Porto Rotondo, Cerdeña); superficie vélica mayor+jib 83 m2. Construcción por infusión al vacío, sándwich E-glass/PVC."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se buscó/encontró video específico de este modelo en esta pasada (2026-09-15); no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. lifecycle_status UNCONFIRMED (no DISCONTINUED) porque, a diferencia del Solaris 37, no se encontró ninguna fuente que declare explícitamente el fin de su producción/venta; sigue mencionado como activo en el circuito de regatas (Solaris Cup) hasta donde alcanzó esta investigación, pero tampoco aparece en la gama vigente /en/yachts/ del sitio oficial detectada en esta pasada. No se encontró mención en oceanic.cl. LOA/beam UNKNOWN explícito: no se encontraron en los snippets recuperados y NO se inventan."
+}

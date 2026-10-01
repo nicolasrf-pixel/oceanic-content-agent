@@ -1,0 +1,93 @@
+{
+  "model_id": "swift-trawler-48",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Swift Trawler",
+  "model_name": "Beneteau Swift Trawler 48",
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/en-us/swift-trawler/swift-trawler-48",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 14.74,
+    "manga_m": 4.5,
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x Cummins QSB 6.7L 380hp (estándar); opción 425hp",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 1930,
+    "capacidad_agua_l": 640,
+    "pasajeros": 8,
+    "camarotes": 3,
+    "banos": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/swift-trawler/swift-trawler-48",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://ancasta.com/boats-for-sale/new/power/beneteau/swift-trawler-48/38918/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Dealer autorizado (Reino Unido, no Oceanic); specs de motorización/combustible/agua/capacidad. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/swift-trawler/swift-trawler-48",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=P9TFDMw3eYI",
+        "platform": "youtube",
+        "title": "Beneteau Swift Trawler 48 | Full Walkthrough | The Marine Channel",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía WebSearch (The Marine Channel, medio especializado de terceros, no canal oficial de Beneteau)."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "velocidad_max_nudos se dejó UNCONFIRMED: se encontraron dos cifras distintas según motorización (21 nudos con 380hp, 25 nudos con 425hp) que no son una contradicción real sino dependientes de la variante de motor — se documentan como parte de las variantes de motorización, no como discrepancia de fuente.",
+  "variants": [
+    {
+      "variant_name": "Motorización estándar 2x Cummins QSB 6.7L 380hp",
+      "confidence_level": "LOW",
+      "notes": "Velocidad máxima reportada por terceros: ~21 nudos."
+    },
+    {
+      "variant_name": "Motorización opcional 2x Cummins QSB 6.7L 425hp",
+      "confidence_level": "LOW",
+      "notes": "Velocidad máxima reportada por terceros: ~25 nudos."
+    }
+  ]
+}

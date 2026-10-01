@@ -1,0 +1,111 @@
+{
+  "model_id": "solaris-37",
+  "brand_id": "solaris",
+  "family": "Solaris 37",
+  "model_name": "Solaris 37",
+  "category": "sail",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "variants": [
+    {
+      "variant_name": "Quilla poco profunda (shoal draft)",
+      "description": "Versión de calado reducido, 2.10 m frente a los 2.40 m estándar.",
+      "confidence_level": "LOW",
+      "notes": "Mencionada por sailboatdata (Nivel 3, snippet)."
+    }
+  ],
+  "specifications": {
+    "eslora_m": 11.4,
+    "manga_m": 3.85,
+    "calado_m": 2.4,
+    "desplazamiento_kg": "UNCONFIRMED",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "tripulacion_pasajeros_max": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Desplazamiento reportado como '7.1 toneladas media carga' por sailboatdata (Nivel 3) -> UNCONFIRMED sin cifra exacta en kg."
+  },
+  "discrepancies": [
+    {
+      "field": "año de inicio de producción",
+      "values": [
+        {
+          "value": "2013 (sailboatdata, via snippet)",
+          "source": {
+            "url": "https://sailboatdata.com/sailboat/solaris-37/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Año de producción indicado en snippet agregado."
+          }
+        },
+        {
+          "value": "2010 (itBoat, via snippet)",
+          "source": {
+            "url": "https://itboat.com/models/2606-solaris-37",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Otra fuente secundaria indica inicio de producción en 2010."
+          }
+        }
+      ],
+      "notes": "Discrepancia menor entre fuentes secundarias sobre el año de inicio de producción; ninguna fuente Nivel 1 disponible en esta pasada para resolverla."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://sailboatdata.com/sailboat/solaris-37/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "LOA 11.40 m, beam 3.85 m, draft 2.40 m (versión shoal 2.10 m), desplazamiento ~7.1 t media carga, año 2013, descrito como discontinuado."
+    },
+    {
+      "url": "https://itboat.com/models/2606-solaris-37",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Indica inicio de producción en 2010; modelo fuera de catálogo."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://itboat.com/models/2606-solaris-37",
+        "type": "single_photo_page",
+        "level": 3,
+        "verification_state": "CONFIRMED",
+        "notes": "manufacturer_url es null (modelo discontinuado, sin página vigente en solarisyachts.com detectada). Se reutiliza esta misma URL ya presente en 'sources' (level 3, CONFIRMED); la página lista fotografías adicionales del modelo según snippet de búsqueda."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@solaris_yachts",
+        "platform": "youtube",
+        "title": "Canal oficial SOLARIS Yachts",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Fallback de canal: no se encontró video específico de este modelo discontinuado (producción ~2010-2013) en WebSearch 2026-09-15; no confundir con 'Solaris Power Yachts', canal distinto de una marca de motor no relacionada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Investigación realizada exclusivamente con WebSearch (snippets indexados). WebFetch directo a solarisyachts.com y oceanic.cl confirmado bloqueado (EGRESS_BLOCKED) en este entorno el 2026-09-10 antes de iniciar esta investigación de modelos, igual que en la verificación de marcas previa (ver CLAUDE.md sección 22). Ninguna fuente de esta pasada es direct_fetch; por lo tanto confidence_level nunca es HIGH. Modelo histórico/discontinuado, incluido por completitud del levantamiento (CLAUDE.md sección 15: los modelos discontinuados se conservan, no se borran). No se encontró ninguna mención de este modelo en oceanic.cl ni evidencia de que haya sido parte del catálogo vendido por Oceanic Chile; se incluye solo como parte del historial de la marca Solaris a nivel de fabricante, con confidence_level LOW. Fecha de fin de producción UNKNOWN."
+}

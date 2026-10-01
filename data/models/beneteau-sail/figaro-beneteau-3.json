@@ -1,0 +1,78 @@
+{
+  "model_id": "figaro-beneteau-3",
+  "brand_id": "beneteau-sail",
+  "family": "Figaro Beneteau",
+  "model_name": "Figaro Beneteau 3",
+  "category": "sail",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.beneteau.com/figaro/figaro-beneteau-3",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "capacidad_maxima_personas": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "superficie_velica_m2": "UNKNOWN"
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/figaro/figaro-beneteau-3",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto propia del fabricante; monocasco foiling one-design de producción, diseñado con VPLP para la Solitaire du Figaro, construido en unidad dedicada del Beneteau Group Racing Division en Nantes-Cheviré."
+    },
+    {
+      "url": "https://www.clarkslanding.com/New-Inventory-2026-Beneteau-Boat-Figaro-3-Maryland-15153305",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado de dealer año modelo 2026, evidencia de disponibilidad comercial vigente fuera del circuito exclusivo de regata francés."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/figaro/figaro-beneteau-3",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Página oficial del modelo en el sitio del fabricante (beneteau.com); las páginas de producto de Beneteau incluyen galería de fotos. Nivel/estado de verificación reutilizados de la fuente coincidente en 'sources'."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=P49nkHFIMDE",
+        "platform": "youtube",
+        "title": "Forged in the heat of Competition: The New Figaro Beneteau 3",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía búsqueda web; el canal que lo publica no pudo confirmarse como oficial de la marca en esta pasada (sin fetch directo), por lo que se deja en nivel 3 / UNCONFIRMED. Modelo único de la línea Figaro Beneteau, incluido explícitamente en la instrucción de investigación de media."
+      },
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de Beneteau, identificado vía búsqueda web. Sin fetch directo del canal en esta pasada (CLAUDE.md sección 22). Adicional al video específico ya listado arriba."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Línea one-design de regata oceánica (Solitaire du Figaro), distinta en propósito comercial de Oceanis/First. Se incluye por instrucción de ser exhaustivo con las líneas vigentes de Beneteau Sail, pero NO se encontró ninguna mención de Figaro en oceanic.cl ni en el boletín 'Puerto' en esta pasada — la representación de este modelo específico por Oceanic Chile queda explícitamente UNCONFIRMED y confidence_level se baja a LOW por esa razón (aunque la vigencia del modelo a nivel de fabricante está bien confirmada). category se deja como 'sail' por instrucción del encargo, aunque el schema también ofrece 'one_design' como opción más específica para futuras revisiones."
+}

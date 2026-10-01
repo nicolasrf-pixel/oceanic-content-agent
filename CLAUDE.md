@@ -4,6 +4,9 @@ Biblioteca de contenido oficial de las marcas náuticas que representa Oceanic. 
 paquete completo en `biblioteca/<marca>/<modelo>/`, listo para construir **después** su página Oceanic.
 Especificación completa: `docs/ESPECIFICACION.md`. Proceso paso a paso: `docs/PROCESO.md`.
 Paquete de referencia ya construido: `biblioteca/axopar/axopar-37-xc-cross-cabin/`.
+El catálogo maestro (`data/`, `dashboard/`, `research/`, `output/`, inventario de marcas y modelos) tiene su propia
+constitución en `docs/catalogo/CLAUDE-catalogo.md`: léela antes de tocar esas carpetas (sus menciones a "CLAUDE.md
+sección N" se refieren a ese documento).
 
 ## Reglas absolutas
 

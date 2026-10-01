@@ -1,0 +1,100 @@
+{
+  "model_id": "axopar-45-xc-cross-cabin",
+  "family": "Axopar 45",
+  "model_name": "Axopar 45 XC Cross Cabin",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.axopar.com/range/axopar-45-xc-cross-cabin/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "UNKNOWN",
+    "potencia_max": "UNKNOWN",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN"
+  },
+  "variants": [],
+  "sources": [
+    {
+      "url": "https://www.axopar.com/boat-models/axopar-45/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de familia Axopar 45 del fabricante, indexada vía snippet."
+    },
+    {
+      "url": "https://www.axopar.com/pressroom/the-new-axopar-45-range",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Comunicado de prensa del fabricante sobre el rango 45 vigente, confirma que el rango actual son 3 modelos (XC Cross Cabin, Sun Top, Cross Top), sin Spyder/T-Top."
+    },
+    {
+      "url": "https://www.axopar.com/range/axopar-45-xc-cross-cabin/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto específica, indexada vía snippet."
+    },
+    {
+      "url": "https://itboat.com/shipyards/1380-axopar",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Fuente de agregador de origen de la discrepancia 'Spyder/T-Top' en el 45 — ver notas del modelo."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.axopar.com/range/axopar-45-xc-cross-cabin/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "URL de página de modelo del fabricante, reutilizada de 'sources' (coincidencia exacta con manufacturer_url). Las páginas de producto de fabricantes náuticos incluyen habitualmente galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=Eo1NIhnDEhY",
+        "platform": "youtube",
+        "title": "Axopar 45 XC Cross Cabin: Benchmark For Adventure | Full Test & Features Review",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video de reseña/test específico del modelo encontrado vía búsqueda; canal no identificado como oficial de la marca."
+      },
+      {
+        "url": "https://www.youtube.com/c/AxoparBoats",
+        "platform": "youtube",
+        "title": "Axopar Boats (canal oficial)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de YouTube de la marca, identificado vía WebSearch (búsqueda 'Axopar Boats official YouTube channel'). Usado como fallback cuando no se encontró video específico del modelo en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Sin specs numéricas propias recolectadas con certeza suficiente en esta pasada para este modelo puntual — quedan UNKNOWN, pendiente de Fase 2. No se encontró en esta pasada de investigación (WebSearch, sin fetch directo) confirmación específica de que Oceanic Chile importe, exhiba o venda este modelo/variante en particular. Está confirmado en el catálogo global del fabricante (axopar.com), pero la representación de la marca 'Axopar' por Oceanic (ver data/brands/master-inventory.json) no implica automáticamente que todos los modelos globales estén disponibles a través de Oceanic Chile. confidence_level se mantiene LOW por esta razón, no por duda sobre la existencia del modelo en sí. Discrepancia detectada y documentada (no se creó un archivo de modelo propio para ella, por ser evidencia demasiado débil para tratarla como modelo confirmado): una fuente de agregador (itboat.com, Nivel 3, snippet único) listó 'Axopar 45 Spyder' y 'Axopar 45 T-Top' como parte del rango 45, mientras que fuentes directas del fabricante (axopar.com/pressroom, axopar.com/boat-models/axopar-45/) describen el rango 45 vigente como compuesto únicamente por XC Cross Cabin, Sun Top y Cross Top — sin Spyder ni T-Top. Es posible que 'Spyder'/'T-Top' hayan existido en generaciones anteriores del 45 (esas nomenclaturas sí existen vigentes en el 22 y existieron en el 37), o que el agregador haya mezclado información de otras esloras. No se resuelve aquí (CLAUDE.md sección 14): se registra para investigación dirigida en Fase 2, sin promoverla a modelo propio ni descartarla en silencio.",
+  "brand_id": "axopar",
+  "category": "motor"
+}

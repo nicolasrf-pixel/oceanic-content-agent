@@ -1,0 +1,107 @@
+{
+  "model_id": "dscvr-9",
+  "brand_id": "xo-boats",
+  "family": "DSCVR",
+  "model_name": "XO DSCVR 9",
+  "variants": [
+    {
+      "variant_name": "DSCVR 9 Open",
+      "description": "Layout abierto tipo bowrider.",
+      "confidence_level": "MEDIUM",
+      "notes": "Ficha propia en itboat.com (modelo 12178) y en xoboats.com; mismo casco que T-Top."
+    },
+    {
+      "variant_name": "DSCVR 9 T-Top",
+      "description": "Misma plataforma de casco con techo T-Top (walkaround).",
+      "confidence_level": "MEDIUM",
+      "notes": "Ficha propia en itboat.com (modelo 12177) y en xoboats.com."
+    }
+  ],
+  "category": "motor",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://xoboats.com/fleet/dscvr/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 8.57,
+    "manga_m": 2.57,
+    "calado_m": 0.9,
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "Fueraborda; ejemplo reportado Mercury V8 250, con opción de hasta 450 hp según configurador",
+    "potencia_max_hp": "UNCONFIRMED",
+    "velocidad_max_nudos": "UNCONFIRMED",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": 305,
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNCONFIRMED",
+    "material_casco": "Aluminio / compuesto GRP (reportado)",
+    "angulo_astilla_muerta_grados": "UNCONFIRMED",
+    "clasificacion_ce": "UNCONFIRMED",
+    "notas_especificaciones": "Fuentes de terceros reportan velocidad máxima '40+ nudos', capacidad de 8 pasajeros, deadrise 22° y clasificación CE-C (aguas costeras); ninguno confirmado por fetch directo al fabricante. Se encontraron listados de unidades año modelo 2026 y 2027 en portales de venta (YachtWorld), lo que sugiere producción vigente/reciente, pero no constituye confirmación de 'model_year' único."
+  },
+  "sources": [
+    {
+      "url": "https://itboat.com/models/12178-xo-dscvr-9",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha itBoat de XO DSCVR 9: LOA 8.6m, Beam 2.6m, Draft 0.9m, desde 60.990 EUR."
+    },
+    {
+      "url": "https://itboat.com/models/12177-xo-dscvr-9-t-top",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Ficha itBoat separada para la variante T-Top."
+    },
+    {
+      "url": "https://xoboats.com/fleet/dscvr/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de serie del fabricante ('DSCVR SERIES - XO Boats'); describe DSCVR como 'ultimate fun-boats' para buceo/surf/natación. Sin fetch directo (EGRESS_BLOCKED)."
+    },
+    {
+      "url": "https://toprik.com/blog/review/xo-dscvr-9/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Review de terceros con specs adicionales: draft 0.90m, combustible 305L, deadrise 22°, clasificación CE-C, motor Mercury V8 250."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://xoboats.com/fleet/dscvr/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (página de serie del fabricante, sin fetch directo, EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/channel/UCyMLUPtUJlAqCxHuM-sQRdw",
+        "platform": "youtube",
+        "title": "XO Boats (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'XO Boats'; existe también el handle @xoboats334 que aparenta apuntar al mismo canal. Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED). No se buscó video específico de DSCVR 9 en esta pasada (fuera del alcance mínimo pedido); se deja solo el fallback de canal."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "confidence_level MEDIUM. No se encontró mención específica de DSCVR 9 en fuentes de Oceanic Chile (solo XO Boats en general vía newsletters y la marca DFNDR 8/EXPLR 44 puntualmente); oceanic_url queda null. Clasificación Open/T-Top como variantes (no modelos independientes) es un criterio propio ante la ausencia de tratamiento explícito distinto por el fabricante más allá de fichas de página separadas — documentado aquí por transparencia (CLAUDE.md sección 16)."
+}

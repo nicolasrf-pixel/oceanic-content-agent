@@ -1,0 +1,92 @@
+{
+  "model_id": "saffier-se-37-lounge",
+  "brand_id": "saffier",
+  "family": "Saffier SE 37",
+  "model_name": "Saffier SE 37 Lounge",
+  "category": "sail",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": "https://saffieryachts.com/pre-owned/saffier-se-37-lounge-2/",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNKNOWN",
+    "manga_m": "UNKNOWN",
+    "peso_kg": "UNKNOWN",
+    "tripulacion_max": "UNKNOWN",
+    "superficie_vela_m2": "UNKNOWN",
+    "notas_specs": "Descrito genéricamente como 'Premium comfort with impressive sailing capabilities'; no se hallaron cifras numéricas confiables en esta pasada."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/saffier-yachts/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de marca dedicada en oceanic.cl; confirma a Oceanic Chile como representante oficial de Saffier Yachts, pero NO lista modelos individuales por nombre en el snippet indexado. Representación de marca confirmada; representación de MODELO específico en oceanic.cl queda UNCONFIRMED salvo evidencia adicional."
+    },
+    {
+      "url": "https://saffieryachts.com/models/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página índice de modelos del fabricante ('Modellen Archive'); confirma existencia de la gama pero el snippet no entrega el listado completo verbatim."
+    },
+    {
+      "url": "https://saffieryachts.com/pre-owned/saffier-se-37-lounge-2/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "El propio fabricante lista este modelo bajo su sección 'pre-owned' (usados), lo cual es indicio fuerte de que ya no es un modelo de producción vigente."
+    },
+    {
+      "url": "https://www.yachtworld.com/boats-for-sale/make-saffier/model-se-37-lounge/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Listados de reventa consistentes con modelo fuera de producción activa."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://saffieryachts.com/pre-owned/saffier-se-37-lounge-2/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Reusa el mismo nivel/estado de verificación que la fuente coincidente en 'sources' para esta URL (el fabricante lista este modelo en su sección 'pre-owned')."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@saffieryachts",
+        "platform": "youtube",
+        "title": "Saffier Yachts (canal identificado vía búsqueda web, fallback de marca)",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Canal identificado por búsqueda web bajo el nombre 'Saffier Yachts' (también indexado como youtube.com/user/saffieryachts). Titularidad oficial no confirmada por fetch directo (EGRESS_BLOCKED)."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9z0nEMTt2EU",
+        "platform": "youtube",
+        "title": "Saffier Yachts SE 37 Lounge",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo (título incluye 'Saffier Yachts'), pero al ser un modelo DISCONTINUED se trata con la misma cautela; no se confirmó con fetch directo el canal que lo aloja (EGRESS_BLOCKED)."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Clasificado DISCONTINUED con confidence_level LOW porque la evidencia (página 'pre-owned' del propio fabricante) es indicio fuerte pero no una declaración explícita de fin de producción con fecha; se conserva en histórico, no se elimina (CLAUDE.md sección 15)."
+}

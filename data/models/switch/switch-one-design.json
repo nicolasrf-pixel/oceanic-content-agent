@@ -1,0 +1,199 @@
+{
+  "model_id": "switch-one-design",
+  "brand_id": "switch",
+  "family": "Switch One Design",
+  "model_name": "Switch One Design",
+  "category": "one_design",
+  "lifecycle_status": "NEW",
+  "model_year": null,
+  "manufacturer_url": "https://www.switchonedesign.com/",
+  "oceanic_url": null,
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 3.9,
+    "manga_m_con_alas": 2.25,
+    "peso_kg_plataforma": 25,
+    "tripulacion_max": 1,
+    "superficie_vela_m2_opciones_rig": [
+      6.5,
+      7.5,
+      8.5
+    ],
+    "viento_minimo_despegue_nudos": 6,
+    "velocidad_maxima_nudos": "30+ (popa)",
+    "controles_numero": 4,
+    "notas_specs": "Casco de fibra de carbono con núcleo PVC, foils en prepreg carbon, bowsprit, mástil de carbono en 3 piezas (CST). Peso de plataforma: ver discrepancy (25kg fabricante vs 29kg fuente de prensa)."
+  },
+  "sources": [
+    {
+      "url": "https://oceanic.cl/puerto-julio-2026/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Boletín/newsletter de Oceanic Chile (edición julio 2026) confirma que 'Switch One Design entra a la flota Oceanic' como nueva representación, junto a otras novedades de marca (Axopar, Beneteau, XO). NOTA: la URL registrada en data/brands/master-inventory.json para esta misma noticia es 'https://oceanic.cl/puerto-junio-2026/' (edición JUNIO); en esta pasada de búsqueda la URL que aparece indexada y consistente con el contenido sobre Switch es 'puerto-julio-2026' (edición JULIO). Se documenta como posible discrepancia/errata a resolver con fetch directo — no se modifica master-inventory.json, ver informe."
+    },
+    {
+      "url": "https://www.switchonedesign.com/technology",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página oficial de tecnología del fabricante: eslora 3.9m, manga 2.25m, peso de plataforma ~25kg, mástil de carbono en 3 piezas (CST), foils en prepreg de alto y medio módulo, despegue desde 6 nudos, velocidad en popa superior a 30 nudos."
+    },
+    {
+      "url": "https://www.giornaledellavela.com/2024/03/14/switch-is-the-new-italian-foiler-4m-that-flies-at-30-knots-and-scares-the-moth/?lang=en",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio náutico italiano especializado; menciona 29kg de peso de plataforma, cifra distinta a la del sitio oficial (25kg) — ver discrepancies. Confirma también los 3 aparejos (6.5/7.5/8.5) y construcción full-carbon."
+    },
+    {
+      "url": "https://www.theswitchclass.com/",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Sitio de la asociación/clase Switch One Design; snippet indica que la clase mantiene reglas estrictas de one-design ('Closed Class'-like) con producción altamente estandarizada, escaso margen de modificación por parte del propietario."
+    },
+    {
+      "url": "https://www.negrinautica.com/en_en/barche-2/switch-element-6/swbc6-5.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Distribuidor (Negrinautica) confirma la existencia de la variante de aparejo 6.5 como producto vendible ('Switch One Design Completo 6.5 Rig')."
+    },
+    {
+      "url": "https://www.negrinautica.com/en_en/barche-2/switch-element-6/swbc7-5.html",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Distribuidor (Negrinautica) confirma la variante de aparejo 7.5 como producto vendible."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.switchonedesign.com/",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url no tiene una entrada exacta coincidente en 'sources' (la fuente registrada apunta a la subpágina '/technology', CONFIRMED). Se asigna nivel 1/UNCONFIRMED por defecto para la home del sitio del fabricante, sin fetch directo (EGRESS_BLOCKED)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=8dH7rn7m0pE",
+        "platform": "youtube",
+        "title": "SWITCH One Design | BOAT TOUR",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video de terceros (boat tour); no se identificó con certeza si el canal que lo aloja pertenece a un distribuidor/tercero o a la marca. No se encontró un canal oficial de YouTube de Switch One Design en esta pasada de búsqueda (a diferencia de sus cuentas de Instagram/Facebook, sí identificadas); se documenta esta ausencia en vez de inventar un canal."
+      }
+    ]
+  },
+  "discrepancies": [
+    {
+      "field": "peso_kg_plataforma",
+      "values": [
+        {
+          "value": 25,
+          "source": {
+            "url": "https://www.switchonedesign.com/technology",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Sitio oficial del fabricante."
+          }
+        },
+        {
+          "value": 29,
+          "source": {
+            "url": "https://www.giornaledellavela.com/2024/03/14/switch-is-the-new-italian-foiler-4m-that-flies-at-30-knots-and-scares-the-moth/?lang=en",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Medio de prensa náutica italiana (2024), posiblemente una cifra de una etapa previa de desarrollo/prototipo respecto a la versión de producción actual."
+          }
+        }
+      ],
+      "notes": "Se prioriza la cifra oficial del fabricante (25kg) como señal más fuerte, sin descartar la cifra de prensa (29kg), siguiendo CLAUDE.md sección 14."
+    },
+    {
+      "field": "superficie_vela_m2_opciones_rig",
+      "values": [
+        {
+          "value": [
+            6.5,
+            7.5,
+            8.5
+          ],
+          "source": {
+            "url": "https://www.switchonedesign.com/technology",
+            "level": 1,
+            "level_label": "PRIMARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Fabricante y master-inventory.json (brand_description) coinciden en 'tres aparejos intercambiables'."
+          }
+        },
+        {
+          "value": [
+            6.5,
+            7.5,
+            8.4
+          ],
+          "source": {
+            "url": "https://sailboatdata.com/sailboat/switch-one-design/",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Base de datos de terceros cita 8.4 en vez de 8.5 para el aparejo mayor; posible error tipográfico de la fuente o redondeo distinto."
+          }
+        }
+      ],
+      "notes": "Diferencia menor (8.5 vs 8.4 m2) en el tercer aparejo; se conservan ambos valores."
+    }
+  ],
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Confirmado: los 'tres aparejos intercambiables' (6.5 / 7.5 / 8.5 m2, mencionados en brand_description de master-inventory.json) son VARIANTES de un único modelo/plataforma, no modelos separados — el fabricante reutiliza el mismo casco, foils, botavara y secciones altas del mástil entre los tres aparejos, cambiando solo la base inferior del mástil; esto es consistente con el tratamiento de 'variante' según CLAUDE.md sección 16 (no se promueven a modelo independiente). oceanic_url queda null/UNKNOWN: no se encontró página de marca dedicada tipo 'oceanic.cl/switch/' en esta pasada de búsqueda, solo la mención en el newsletter 'Puerto Julio 2026' (o 'Puerto Junio 2026' según master-inventory.json — discrepancia de fecha de edición sin resolver, ver fuente arriba).",
+  "variants": [
+    {
+      "variant_name": "Rig 6.5 m²",
+      "confidence_level": "MEDIUM",
+      "description": "Aparejo de menor superficie vélica (6.5 m²), orientado a tripulantes más livianos/jóvenes.",
+      "notes": "Comparte plataforma, botavara y secciones alta/media del mástil con los otros dos aparejos; solo cambia la base inferior del mástil."
+    },
+    {
+      "variant_name": "Rig 7.5 m²",
+      "confidence_level": "MEDIUM",
+      "description": "Aparejo intermedio (7.5 m²).",
+      "notes": "Mismo criterio que Rig 6.5."
+    },
+    {
+      "variant_name": "Rig 8.5 m²",
+      "confidence_level": "MEDIUM",
+      "description": "Aparejo de mayor superficie vélica (8.5 m², citado como 8.4 m² en una fuente secundaria).",
+      "notes": "Mismo criterio que Rig 6.5; ver discrepancy de superficie exacta (8.5 vs 8.4)."
+    }
+  ]
+}

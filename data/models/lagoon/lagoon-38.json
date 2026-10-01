@@ -1,0 +1,93 @@
+{
+  "model_id": "lagoon-38",
+  "brand_id": "lagoon",
+  "family": "Lagoon 38",
+  "model_name": "Lagoon 38",
+  "variants": [
+    {
+      "variant_name": "3 cabanas",
+      "description": "Layout de 3 camarotes (versión propietario), según agregadores de terceros.",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo del fabricante ni de Oceanic; nomenclatura propia de Lagoon para esta variante no confirmada."
+    },
+    {
+      "variant_name": "4 cabanas",
+      "description": "Layout de 4 camarotes (versión charter), según agregadores de terceros.",
+      "confidence_level": "LOW",
+      "notes": "No confirmado por fetch directo del fabricante ni de Oceanic; nomenclatura propia de Lagoon para esta variante no confirmada."
+    }
+  ],
+  "category": "sail_catamaran",
+  "lifecycle_status": "CURRENT",
+  "model_year": null,
+  "manufacturer_url": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+  "oceanic_url": "https://oceanic.cl/lagoonvela/lagoon38/",
+  "confidence_level": "MEDIUM",
+  "specifications": {
+    "eslora_m": 13.12,
+    "eslora_casco_m": 11.38,
+    "manga_m": 6.65,
+    "calado_m": 1.26,
+    "desplazamiento_kg": 10200,
+    "capacidad_combustible_l": 400,
+    "capacidad_agua_l": 300,
+    "camarotes": "3 o 4",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN"
+  },
+  "discrepancies": [],
+  "sources": [
+    {
+      "url": "https://oceanic.cl/lagoonvela/lagoon38/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Página de producto dedicada 'Lagoon 38 - Oceanic' indexada; confirma que Oceanic lista este modelo dentro de su sección lagoon-vela."
+    },
+    {
+      "url": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página de modelo del fabricante encontrada vía snippet de búsqueda (no fetch directo, bloqueado por política de red -- CLAUDE.md sección 22). Dimensiones/desplazamiento/tanques según snippets agregados (itboat.com, multihulls-world.com, sailoe.com) consistentes entre sí."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Reutiliza level/verification_state de la fuente coincidente en 'sources' (https://www.catamarans-lagoon.com/boats/lagoon-38)."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=5uO3dGmIuVM",
+        "platform": "youtube",
+        "title": "Lagoon 38, the family catamaran",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video encontrado vía web_search_snippet (sin fetch directo, CLAUDE.md sección 22); el título sugiere contenido oficial/promocional de Lagoon, pero el canal que lo aloja no pudo confirmarse de forma independiente en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Confirmado en oceanic.cl/lagoonvela/lagoon38/. Especificaciones obtenidas solo vía web_search_snippet (sin fetch directo, ver CLAUDE.md sección 22); múltiples fuentes de terceros coinciden en las mismas cifras, lo que sube confidence_level a MEDIUM, pero no a HIGH."
+}

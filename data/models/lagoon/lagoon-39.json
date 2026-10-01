@@ -1,0 +1,111 @@
+{
+  "model_id": "lagoon-39",
+  "brand_id": "lagoon",
+  "family": "Lagoon 39",
+  "model_name": "Lagoon 39",
+  "variants": [],
+  "category": "sail_catamaran",
+  "lifecycle_status": "DISCONTINUED",
+  "model_year": null,
+  "manufacturer_url": null,
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": "UNCONFIRMED",
+    "manga_m": "UNCONFIRMED",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "camarotes": "UNKNOWN",
+    "banos": "UNKNOWN",
+    "pasajeros_max": "UNKNOWN"
+  },
+  "discrepancies": [
+    {
+      "field": "presencia_en_oceanic_cl",
+      "values": [
+        {
+          "value": "Página indexada con título 'Lagoon 39' en oceanic.cl/vela/lagoon/",
+          "source": {
+            "url": "https://www.oceanic.cl/vela/lagoon/",
+            "level": 2,
+            "level_label": "AUTHORIZED",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "UNCONFIRMED",
+            "notes": "Resultado de búsqueda 'site:oceanic.cl lagoon-vela' devolvió este snippet con título 'Lagoon 39 - Oceanic', bajo una ruta de URL distinta (/vela/lagoon/) a la usada por los modelos vigentes (/lagoonvela/...)."
+          }
+        },
+        {
+          "value": "Modelo discontinuado por el fabricante, reemplazado por el Lagoon 40 (~2018-2019)",
+          "source": {
+            "url": "https://www.sailingeurope.com/en/yacht-reviews/lagoon-39-an-updated-successor-of-lagoon-380",
+            "level": 3,
+            "level_label": "SECONDARY",
+            "retrieved_at": "2026-09-10",
+            "retrieval_method": "web_search_snippet",
+            "verification_state": "CONFIRMED",
+            "notes": "Confirma que el Lagoon 39 fue sucesor del Lagoon 380 y que a su vez fue reemplazado por el Lagoon 40, más liviano."
+          }
+        }
+      ],
+      "notes": "Contradicción aparente: el fabricante y fuentes de terceros coinciden en que el Lagoon 39 es un modelo discontinuado (reemplazado por el 40), pero la búsqueda indexada muestra una página de oceanic.cl con URL/título 'Lagoon 39' bajo una ruta antigua (/vela/lagoon/) distinta a la estructura vigente (/lagoonvela/...) usada para 38, 42, 43, 46, 55, Seventy 8. Podría tratarse de: (a) una página huérfana/desactualizada no removida del sitio, (b) un artefacto de indexación con snippet desactualizado, o (c) evidencia real de que Oceanic mantiene una página histórica. No se puede determinar cuál con el método de esta pasada (sin fetch directo). Se documenta sin resolver, y NO se reclasifica ni se elimina (CLAUDE.md sección 15: un modelo discontinuado se conserva, no se borra)."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.oceanic.cl/vela/lagoon/",
+      "level": 2,
+      "level_label": "AUTHORIZED",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Snippet indexado con título 'Lagoon 39 - Oceanic'; no se pudo confirmar el contenido completo de la página (fetch directo bloqueado)."
+    },
+    {
+      "url": "https://www.sailingeurope.com/en/yacht-reviews/lagoon-39-an-updated-successor-of-lagoon-380",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "CONFIRMED",
+      "notes": "Review de tercero: Lagoon 39 sucesor del 380, descontinuado y reemplazado por el Lagoon 40."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lagoon_39",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Entrada de Wikipedia sobre el modelo (nivel 3, no verificada en detalle en esta pasada)."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.lagoon-catamaran.de/en/lagoon-models/lagoon-39-catamaran.html",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "manufacturer_url es null en este registro y no se encontró página vigente del modelo en catamarans-lagoon.com (consistente con lifecycle_status='DISCONTINUED'). Se usa como alternativa la página del distribuidor oficial alemán (mismo dominio ya usado como fuente nivel 1 en lagoon-eighty-3.json), encontrada vía web_search_snippet."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/@LagoonCatamarans1984",
+        "platform": "youtube",
+        "title": "Canal oficial Lagoon Catamarans",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal oficial de la marca en YouTube (identificado de forma consistente en múltiples búsquedas como 'Lagoon Catamarans'); usado como fallback cuando no se confirma un video específico del modelo con canal verificado."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "Modelo histórico/descontinuado según consenso de fuentes de terceros. Se crea este registro principalmente para documentar la discrepancia de la página de oceanic.cl con URL antigua que menciona 'Lagoon 39' (ver campo discrepancies), y para dejar trazabilidad histórica (CLAUDE.md sección 15) en caso de que haya unidades usadas o en brokerage. Confidence_level LOW: evidencia débil y contradictoria, requiere revisión humana / fetch directo antes de avanzar."
+}

@@ -1,0 +1,90 @@
+{
+  "model_id": "grand-trawler-63",
+  "brand_id": "beneteau-power",
+  "family": "Beneteau Grand Trawler",
+  "model_name": "Beneteau Grand Trawler 63",
+  "category": "motor",
+  "lifecycle_status": "NEW",
+  "model_year": "2027",
+  "manufacturer_url": "https://www.beneteau.com/en-us/grand-trawler/grand-trawler-63",
+  "oceanic_url": null,
+  "confidence_level": "LOW",
+  "specifications": {
+    "eslora_m": 18.9,
+    "manga_m": "UNKNOWN",
+    "calado_m": "UNKNOWN",
+    "desplazamiento_kg": "UNKNOWN",
+    "motorizacion": "2 x MAN i6-730 diésel",
+    "potencia_max": "1460 hp (total, ambos motores)",
+    "velocidad_max_nudos": "UNKNOWN",
+    "velocidad_crucero_nudos": "UNKNOWN",
+    "capacidad_combustible_l": "UNKNOWN",
+    "capacidad_agua_l": "UNKNOWN",
+    "pasajeros": "UNKNOWN",
+    "camarotes": 3,
+    "banos": 3
+  },
+  "sources": [
+    {
+      "url": "https://www.beneteau.com/en-us/grand-trawler/grand-trawler-63",
+      "level": 1,
+      "level_label": "PRIMARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Página oficial del fabricante. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://soundingsonline.com/boats/new-boats/beneteaus-grand-trawler-63/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Medio náutico especializado; confirma sucesión del Grand Trawler 62, layout 3 cabinas/3 baños, motorización y autonomía. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    },
+    {
+      "url": "https://www.boattrader.com/boat/2027-beneteau-grand-trawler-63-10006736/",
+      "level": 3,
+      "level_label": "SECONDARY",
+      "retrieved_at": "2026-09-10",
+      "retrieval_method": "web_search_snippet",
+      "verification_state": "UNCONFIRMED",
+      "notes": "Listado comercial que confirma model year 2027. Acceso directo (WebFetch/curl) a oceanic.cl y beneteau.com bloqueado en este entorno (EGRESS_BLOCKED, política de red / proxy). Dato obtenido vía snippets indexados de búsqueda web (WebSearch), no por lectura directa de la página."
+    }
+  ],
+  "media": {
+    "media_status": "RESEARCHED",
+    "images": [
+      {
+        "url": "https://www.beneteau.com/en-us/grand-trawler/grand-trawler-63",
+        "type": "gallery_page",
+        "level": 1,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Página oficial del fabricante (manufacturer_url), reutilizada como referencia de galería — coincide con fuente ya registrada en 'sources'; las páginas de producto náuticas de Beneteau habitualmente incluyen galería de fotos."
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/user/BeneteauYachtChannel",
+        "platform": "youtube",
+        "title": "Beneteau Yacht Channel (canal oficial de la marca)",
+        "level": 1,
+        "verification_state": "CONFIRMED",
+        "notes": "Canal identificado vía WebSearch (acceso directo a beneteau.com y YouTube bloqueado, CLAUDE.md sección 22); los snippets de búsqueda describen el canal como oficial de Beneteau ('Beneteau has been designing and building boats since 1884...'). Fallback de canal de marca: no se identificó video específico de este modelo en el canal oficial en esta pasada."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=TtQfHuBwXrc",
+        "platform": "youtube",
+        "title": "BENETEAU GRAND TRAWLER 63",
+        "level": 3,
+        "verification_state": "UNCONFIRMED",
+        "notes": "Video específico del modelo encontrado vía WebSearch; el canal/uploader no pudo confirmarse como oficial de Beneteau en esta pasada."
+      }
+    ]
+  },
+  "verified_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "status_pipeline": "MAPPED",
+  "notes": "'Grand Trawler' es una línea DISTINTA de 'Swift Trawler' dentro del portafolio motor de Beneteau (sucesora del 'Grand Trawler 62'), aunque capitaliza la ingeniería de la familia Swift Trawler según el propio fabricante. No hay evidencia en esta pasada de que Oceanic Chile represente este modelo de gama alta/flagship — se incluye por completitud del catálogo motor de Beneteau, pero confidence_level LOW hasta confirmar representación local en Chile. eslora_m convertida desde 62 pies reportados por la fuente (unidad imperial redondeada por la fuente, no medición exacta de m)."
+}
