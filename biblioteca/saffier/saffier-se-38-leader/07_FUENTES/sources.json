@@ -1,0 +1,41 @@
+{
+  "model": "Saffier SE 38 Leader",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Saffier SE 38 Leader",
+      "title": "Saffier SE 38 Leader",
+      "type": "official_product_page",
+      "publisher": "Saffier Yachts B.V. (IJmuiden, Países Bajos)",
+      "url": "https://saffieryachts.com/models/saffier-se-38-leader/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/saffier.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-saffier-se-38-leader.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Elegance",
+      "type": "official_range_page",
+      "publisher": "Saffier Yachts B.V. (IJmuiden, Países Bajos)",
+      "url": "https://saffieryachts.com/elegance-range/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Reseñas de revistas enlazadas en la página (TYD, YACHT...)",
+      "url": null,
+      "reason": "Contenido de terceros: no aporta datos."
+    },
+    {
+      "title": "Configurador Saffier",
+      "url": "https://saffieryachts.com/configure/",
+      "reason": "Herramienta comercial; no es la ficha del producto."
+    }
+  ]
+}

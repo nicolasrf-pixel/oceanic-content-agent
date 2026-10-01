@@ -1,0 +1,51 @@
+{
+  "model": "Saffier SL 46 MED | NORTH",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Saffier SL 46 MED | NORTH",
+      "title": "Saffier SL 46 MED | NORTH",
+      "type": "official_product_page",
+      "publisher": "Saffier Yachts B.V. (IJmuiden, Países Bajos)",
+      "url": "https://saffieryachts.com/models/saffier-sl-46/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/saffier.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-saffier-sl-46-med-north.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Luxury",
+      "type": "official_range_page",
+      "publisher": "Saffier Yachts B.V. (IJmuiden, Países Bajos)",
+      "url": "https://saffieryachts.com/luxury-range/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Reseñas de revistas enlazadas en la página (TYD, YACHT...)",
+      "url": null,
+      "reason": "Contenido de terceros: no aporta datos."
+    },
+    {
+      "title": "Configurador Saffier",
+      "url": "https://saffieryachts.com/configure/",
+      "reason": "Herramienta comercial; no es la ficha del producto."
+    },
+    {
+      "title": "Prensa citada en la página (https://saffieryachts.com/wp-content/uploads/2025/05/SAFFIER-SL-46-Vela-magazine-test-review.pdf)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    },
+    {
+      "title": "Prensa citada en la página (https://saffieryachts.com/wp-content/uploads/2025/05/ocean7-3-2025-Saffier.pdf)",
+      "url": null,
+      "reason": "Cita de un medio de terceros: no aporta datos."
+    }
+  ]
+}

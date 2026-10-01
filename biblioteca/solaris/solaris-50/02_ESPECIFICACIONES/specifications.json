@@ -1,0 +1,290 @@
+{
+  "model": {
+    "brand": "Solaris",
+    "model": "Solaris 50",
+    "model_year": "NO DECLARADO",
+    "variant": "Solaris 50",
+    "configuration": "según ficha técnica",
+    "engine_option": "Volvo P. 50 hp D2 50 S/SR optional 75 hp",
+    "boat_type": "vela",
+    "range": "Flush Deck"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "15,50 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "15,50 M",
+          "source_unit": null,
+          "normalized_value": 15.5,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,78 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BEAM",
+          "source_value": "4,78 M",
+          "source_unit": null,
+          "normalized_value": 4.78,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "15.900 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DISPLACEMENT",
+          "source_value": "15.900 KG",
+          "source_unit": null,
+          "normalized_value": 15900.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "'Displacement' = desplazamiento publicado (en rosca si dice 'light')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "370 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "FUEL",
+          "source_value": "370 L",
+          "source_unit": null,
+          "normalized_value": 370.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "510 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "WATER",
+          "source_value": "510 L",
+          "source_unit": null,
+          "normalized_value": 510.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A (RINA)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE RINA",
+          "source_value": "Open Sea Category A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Literal: 'Open Sea Category A'. La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "155 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "SAIL AREA",
+          "source_value": "155 MQ",
+          "source_unit": null,
+          "normalized_value": 155.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "75 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Volvo P. 50 hp D2 50 S/SR optional 75 hp",
+          "source_unit": null,
+          "normalized_value": 75,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "La fila de motor publica la potencia estándar y las opciones: se toma la mayor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "2,80 m (std.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DRAFT",
+          "source_value": "2,80 M (2,6 - 2,35 optional)",
+          "source_unit": null,
+          "normalized_value": 2.8,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Valor literal con opciones: '2,80 M (2,6 - 2,35 optional)'. Cabecera de la página: '2,80 m (2,6 - 2,35 optional)'."
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "4.850 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BALLAST",
+          "source_value": "4.850 KG",
+          "source_unit": null,
+          "normalized_value": 4850.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Volvo P. 50 hp D2 50 S/SR optional 75 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Volvo P. 50 hp D2 50 S/SR optional 75 hp",
+          "source_unit": null,
+          "normalized_value": "Volvo P. 50 hp D2 50 S/SR optional 75 hp",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Javier Soto Acebal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 50",
+          "url": "https://www.solarisyachts.com/en/yachts/50/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Credits · Design",
+          "source_value": "Javier Soto Acebal",
+          "source_unit": null,
+          "normalized_value": "Javier Soto Acebal",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Credits",
+          "cross_reference": "Diseñador del barco publicado en los créditos."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

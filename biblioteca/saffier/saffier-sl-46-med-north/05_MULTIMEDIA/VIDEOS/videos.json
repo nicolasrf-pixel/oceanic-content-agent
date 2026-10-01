@@ -1,0 +1,38 @@
+{
+  "model": "Saffier SL 46 MED | NORTH",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Saffier Yachts Saffier SL 46 MED | Next-level solo sailing",
+      "url": "https://www.youtube.com/watch?v=0fuuUfY2pv0",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/0fuuUfY2pv0/hqdefault.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-sl-46/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Yachting World Saffier SL 46 MED | Sparkling orange! Premium level of quality and ease.",
+      "url": "https://www.youtube.com/watch?v=wYKOSsd2hcE",
+      "platform": "YouTube",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/wYKOSsd2hcE/hqdefault.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-sl-46/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": true,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

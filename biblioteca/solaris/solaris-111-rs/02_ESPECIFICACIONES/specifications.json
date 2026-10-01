@@ -1,0 +1,334 @@
+{
+  "model": {
+    "brand": "Solaris",
+    "model": "Solaris 111 RS",
+    "model_year": "NO DECLARADO",
+    "variant": "Solaris 111 RS",
+    "configuration": "según ficha técnica",
+    "engine_option": "Hp 425",
+    "boat_type": "vela",
+    "range": "Raised Saloon"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "33,77 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "M 33.77",
+          "source_unit": null,
+          "normalized_value": 33.77,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,90 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BEAM",
+          "source_value": "M 7.90",
+          "source_unit": null,
+          "normalized_value": 7.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "78.000 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DISPLACEMENT",
+          "source_value": "Kg 78.000",
+          "source_unit": null,
+          "normalized_value": 78000.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "'Displacement' = desplazamiento publicado (en rosca si dice 'light')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "4.400 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "FUEL TANK",
+          "source_value": "L 4400",
+          "source_unit": null,
+          "normalized_value": 4400.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "1.700 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "WATER TANK",
+          "source_value": "L 1700",
+          "source_unit": null,
+          "normalized_value": 1700.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE CERTIFICATION",
+          "source_value": "A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Literal: 'A'. La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "645 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "SAIL AREA",
+          "source_value": "M2 645",
+          "source_unit": null,
+          "normalized_value": 645.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "425 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp 425",
+          "source_unit": null,
+          "normalized_value": 425,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "La fila de motor publica la potencia estándar y las opciones: se toma la mayor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "3,90 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DRAFT",
+          "source_value": "3.90 - 6.05 M",
+          "source_unit": null,
+          "normalized_value": 3.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "12,30 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BALLAST",
+          "source_value": "Kg 12,3",
+          "source_unit": null,
+          "normalized_value": 12.3,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "La web publica 'Kg 12,3': 12,3 kg no es plausible para una eslora de 33,77 m (¿toneladas?). No se convierte."
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "135 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "GENOA",
+          "source_value": "M2 135 (90%)",
+          "source_unit": null,
+          "normalized_value": 135.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Mayor + génova (317 m²) no cuadra con la superficie vélica publicada (645 m²); el valor es idéntico al de solaris-80-rs: probablemente copiado en la web."
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "182 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "MAINSAIL",
+          "source_value": "M2 182",
+          "source_unit": null,
+          "normalized_value": 182.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Mayor + génova (317 m²) no cuadra con la superficie vélica publicada (645 m²); el valor es idéntico al de solaris-80-rs: probablemente copiado en la web."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Hp 425",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp 425",
+          "source_unit": null,
+          "normalized_value": "Hp 425",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Javier Soto Acebal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 111 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/111/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Credits · Design",
+          "source_value": "Javier Soto Acebal",
+          "source_unit": null,
+          "normalized_value": "Javier Soto Acebal",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Credits",
+          "cross_reference": "Diseñador del barco publicado en los créditos."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

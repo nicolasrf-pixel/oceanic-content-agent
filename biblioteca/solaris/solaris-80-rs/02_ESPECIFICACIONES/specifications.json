@@ -1,0 +1,372 @@
+{
+  "model": {
+    "brand": "Solaris",
+    "model": "Solaris 80 RS",
+    "model_year": "NO DECLARADO",
+    "variant": "Solaris 80 RS",
+    "configuration": "según ficha técnica",
+    "engine_option": "Hp 180",
+    "boat_type": "vela",
+    "range": "Raised Saloon"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "23,98 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "M 23,98",
+          "source_unit": null,
+          "normalized_value": 23.98,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "6,39 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BEAM",
+          "source_value": "M 6,39",
+          "source_unit": null,
+          "normalized_value": 6.39,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "46 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DISPLACEMENT",
+          "source_value": "Kg 46,0 light",
+          "source_unit": null,
+          "normalized_value": 46.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "'Displacement' = desplazamiento publicado (en rosca si dice 'light')."
+        }
+      ],
+      "notes": "La web publica 'Kg 46,0 light': 46,0 kg no es plausible para una eslora de 23,98 m (¿toneladas?). No se convierte. La web lo declara 'light' (en rosca)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "4 + patrón y tripulación",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Texto de la página",
+          "source_value": "the boat will be laid out with 4 double cabins",
+          "source_unit": null,
+          "normalized_value": 4,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "La ficha técnica no publica este campo; 4 camarotes dobles con baño, más camarotes de patrón y tripulación."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "2.000 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "FUEL TANK",
+          "source_value": "L 2000",
+          "source_unit": null,
+          "normalized_value": 2000.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "1.500 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "WATER TANK",
+          "source_value": "L 1500",
+          "source_unit": null,
+          "normalized_value": 1500.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE CERTIFICATION",
+          "source_value": "A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Literal: 'A'. La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "325 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "SAIL AREA",
+          "source_value": "M2 325",
+          "source_unit": null,
+          "normalized_value": 325.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "180 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp 180",
+          "source_unit": null,
+          "normalized_value": 180,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "La fila de motor publica la potencia estándar y las opciones: se toma la mayor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "4 m (std.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DRAFT",
+          "source_value": "4,0 (3,5 - lift 2.6-4,2 optional) M",
+          "source_unit": null,
+          "normalized_value": 4.0,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Valor literal con opciones: '4,0 (3,5 - lift 2.6-4,2 optional) M'."
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "REQUIRES_REVIEW",
+      "display_value": "12,30 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BALLAST",
+          "source_value": "Kg 12,3",
+          "source_unit": null,
+          "normalized_value": 12.3,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "La web publica 'Kg 12,3': 12,3 kg no es plausible para una eslora de 23,98 m (¿toneladas?). No se convierte."
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "135 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "GENOA",
+          "source_value": "M2 135 (90%)",
+          "source_unit": null,
+          "normalized_value": 135.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "182 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "MAINSAIL",
+          "source_value": "M2 182",
+          "source_unit": null,
+          "normalized_value": 182.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Hp 180",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp 180",
+          "source_unit": null,
+          "normalized_value": "Hp 180",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Javier Soto Acebal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Credits · Design",
+          "source_value": "Javier Soto Acebal",
+          "source_unit": null,
+          "normalized_value": "Javier Soto Acebal",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Credits",
+          "cross_reference": "Diseñador del barco publicado en los créditos."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "4 + patrón y tripulación",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 80 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/80/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Texto de la página",
+          "source_value": "each with its own en-suite bathroom and shower",
+          "source_unit": null,
+          "normalized_value": 4,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "La ficha técnica no publica este campo; Cada camarote doble con baño en suite; patrón y tripulación con baño propio."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

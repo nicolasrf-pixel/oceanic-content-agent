@@ -1,0 +1,30 @@
+{
+  "model": "Solaris 74 RS",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Solaris 74 RS",
+      "title": "Solaris 74 RS",
+      "type": "official_product_page",
+      "publisher": "Solaris Yachts Srl (Aquileia, Italia)",
+      "url": "https://www.solarisyachts.com/en/yachts/74-rs/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/solaris.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-solaris-74-rs.page.json"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Solaris Power (solarispower.com)",
+      "url": "https://www.solarispower.com/",
+      "reason": "Gama a motor de la marca: fuera del alcance de Oceanic (decisión 2026-10-01)."
+    },
+    {
+      "title": "Brokerage / Solaris Certified",
+      "url": "https://www.solarisyachts.com/en/yachts/",
+      "reason": "Barcos de ocasión: no es la ficha del modelo nuevo."
+    }
+  ]
+}

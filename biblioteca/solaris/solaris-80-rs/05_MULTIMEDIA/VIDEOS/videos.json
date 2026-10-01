@@ -1,0 +1,22 @@
+{
+  "model": "Solaris 80 RS",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video de cabecera (loop)",
+      "url": "https://vimeo.com/1085074664",
+      "platform": "Vimeo",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": null,
+      "source_page": "https://www.solarisyachts.com/en/yachts/80/",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

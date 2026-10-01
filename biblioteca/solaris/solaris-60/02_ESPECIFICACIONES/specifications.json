@@ -1,0 +1,349 @@
+{
+  "model": {
+    "brand": "Solaris",
+    "model": "Solaris 60",
+    "model_year": "NO DECLARADO",
+    "variant": "Solaris 60",
+    "configuration": "según ficha técnica",
+    "engine_option": "Yanmar 110 hp (optional 150 hp)",
+    "boat_type": "vela",
+    "range": "Flush Deck"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "18,31 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "M 18,31",
+          "source_unit": null,
+          "normalized_value": 18.31,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "5,28 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BEAM",
+          "source_value": "M 5,28",
+          "source_unit": null,
+          "normalized_value": 5.28,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "25.800 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DISPLACEMENT",
+          "source_value": "Kg 25,800 (light)",
+          "source_unit": null,
+          "normalized_value": 25800.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "'Displacement' = desplazamiento publicado (en rosca si dice 'light')."
+        }
+      ],
+      "notes": "La web lo declara 'light' (en rosca)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 + 1 tripulación",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Texto de la página",
+          "source_value": "for the first time two aft cabins with single or double beds",
+          "source_unit": null,
+          "normalized_value": 3,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "La ficha técnica no publica este campo; Camarote del armador a proa + dos camarotes de popa + camarote de tripulación a proa ('crew cabin too, situated in the bow')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "450 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "FUEL TANK",
+          "source_value": "L 450",
+          "source_unit": null,
+          "normalized_value": 450.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "650 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "WATER TANK",
+          "source_value": "L 650",
+          "source_unit": null,
+          "normalized_value": 650.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE CERTIFICATION",
+          "source_value": "A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Literal: 'A'. La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "201 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "SAIL AREA",
+          "source_value": "M2 201",
+          "source_unit": null,
+          "normalized_value": 201.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "150 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Yanmar 110 hp (optional 150 hp)",
+          "source_unit": null,
+          "normalized_value": 150,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "La fila de motor publica la potencia estándar y las opciones: se toma la mayor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "3,20 m (std.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DRAFT",
+          "source_value": "3,20 (2,80 optional) M",
+          "source_unit": null,
+          "normalized_value": 3.2,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Valor literal con opciones: '3,20 (2,80 optional) M'."
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "7.900 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BALLAST",
+          "source_value": "Kg 7.900",
+          "source_unit": null,
+          "normalized_value": 7900.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "101 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "GENOA",
+          "source_value": "M2 101",
+          "source_unit": null,
+          "normalized_value": 101.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "100 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "MAINSAIL",
+          "source_value": "M2 100",
+          "source_unit": null,
+          "normalized_value": 100.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Yanmar 110 hp (optional 150 hp)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Yanmar 110 hp (optional 150 hp)",
+          "source_unit": null,
+          "normalized_value": "Yanmar 110 hp (optional 150 hp)",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Javier Soto Acebal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 60",
+          "url": "https://www.solarisyachts.com/en/yachts/60/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Credits · Design",
+          "source_value": "Javier Soto Acebal",
+          "source_unit": null,
+          "normalized_value": "Javier Soto Acebal",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Credits",
+          "cross_reference": "Diseñador del barco publicado en los créditos."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

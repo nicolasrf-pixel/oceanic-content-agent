@@ -1,0 +1,37 @@
+{
+  "model": "Saffier SE 24 Lite",
+  "documents": [
+    {
+      "id": "brochure-form",
+      "title": "Brochure oficial · Saffier SE 24 Lite (se pide por formulario)",
+      "category": "BROCHURES",
+      "scope": "THIS_MODEL",
+      "model_year": "NO DECLARADO",
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://saffieryachts.com/models/saffier-se-24-lite/",
+      "file": null,
+      "format": "PDF (por email)",
+      "notes": "La web entrega el brochure tras un formulario; no hay enlace directo. Documento: no aporta datos.",
+      "download_status": "NOT_DOWNLOADED (formulario)"
+    },
+    {
+      "id": "owners",
+      "title": "Documentación de propietario Saffier",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://saffieryachts.com/",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

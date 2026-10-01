@@ -82,7 +82,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo: paquetes completos (no toca los curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
@@ -128,6 +128,21 @@ se aplica la unidad que publica el resto de la gama y se anota. Camarotes/baños
 literales del texto (`TEXT_XREF`; el build falla si la cita desaparece). Slugs con "+" → "plus". El catálogo 2026 de la
 gama (FlippingBook) se registra como documento. Las reseñas de prensa enlazadas van a `excluded_sources`.
 
+**Generación masiva (Solaris):** solo la gama a vela de solarisyachts.com (Solaris Power queda fuera, decisión Oceanic
+2026-10-01). `adapters/solaris.py` lee carruseles, textos, planos, la rejilla "Technical specifications" y los créditos;
+`builders/solaris.py` reutiliza el builder de Beneteau. La ficha está escrita a mano: unidades delante o detrás, miles con
+punto o coma ("Kg 9.850", "9,400 kg"), erratas ("M 22.OO"). Un valor imposible para la eslora (46 kg en un 80 RS) →
+`REQUIRES_REVIEW`; mayor + génova que no cuadra con la superficie vélica → `REQUIRES_REVIEW` (111 RS repite el aparejo del
+80 RS). Potencia auxiliar = la mayor de la fila de motor. Camarotes/baños por citas literales (`TEXT_XREF`). Un RS y un
+Flush Deck de la misma eslora (74 / 74 RS) no son variantes hermanas.
+
+**Generación masiva (Saffier):** saffieryachts.com (WordPress); ficha completa por grupos (Dimensions, Sails, Engine, Tanks,
+Accomodations). "L.O.A. (with bowsprit)" → Eslora Total y "Length (without bowsprit)" → Eslora Casco; calado y lastre de la
+quilla estándar (las otras quillas en notas); "Air draft" → Altura sobre flotación. La web no publica superficie vélica
+total (mayor y foque por separado): queda `-`, no se suman. Potencia en HP o kW (kW → hp solo para el máximo). Videos de
+canales de terceros se marcan; reseñas de revistas (PDF) a `excluded_sources`. SL 46 MED | NORTH son dos cubiertas del
+mismo modelo (un paquete).
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
@@ -138,7 +153,7 @@ gama (FlippingBook) se registra como documento. Las reseñas de prensa enlazadas
 - Los PDF oficiales solo se identifican y registran como documentos (no aportan datos).
 - Las descargas de binarios (imágenes, PDF) las hace `python -m oceanic media` y necesitan acceso de red a los CDN
   del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
-  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`).
+  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
   HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).

@@ -1,0 +1,471 @@
+{
+  "model": {
+    "brand": "Saffier",
+    "model": "Saffier SL 46 MED | NORTH",
+    "model_year": "NO DECLARADO",
+    "variant": "Saffier SL 46 MED | NORTH",
+    "configuration": "según ficha técnica",
+    "engine_option": "Yanmar 4JH57; Yanmar 4JH70 (opcional) — 57 HP / 70 HP (opc.)",
+    "boat_type": "vela",
+    "range": "Luxury"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "14,90 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "L.O.A. (with bowsprit)",
+          "source_value": "14.9m",
+          "source_unit": null,
+          "normalized_value": 14.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'L.O.A. (with bowsprit)' = eslora total (incluye el bauprés)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "4,45 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Beam",
+          "source_value": "4.45m",
+          "source_unit": null,
+          "normalized_value": 4.45,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "10.900 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Displacement",
+          "source_value": "10900kg",
+          "source_unit": null,
+          "normalized_value": 10900.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Displacement' = desplazamiento publicado."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Cabin(s)",
+          "source_value": "3",
+          "source_unit": null,
+          "normalized_value": 3.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Accomodations"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "220 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Fuel tank",
+          "source_value": "220L",
+          "source_unit": null,
+          "normalized_value": 220.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Tanks"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "400 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Fresh water tank",
+          "source_value": "400L",
+          "source_unit": null,
+          "normalized_value": 400.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Tanks"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE-category",
+          "source_value": "A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": "La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web publica las superficies de mayor y foque por separado, sin total: no se suman (sin cálculos)."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "70 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine power (Opt.)",
+          "source_value": "70 HP",
+          "source_unit": null,
+          "normalized_value": 70.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine",
+          "cross_reference": "La mayor potencia publicada (estándar u opcional)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "13,75 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Length (without bowsprit)",
+          "source_value": "13.75m",
+          "source_unit": null,
+          "normalized_value": 13.75,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Length (without bowsprit)' = eslora sin bauprés."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "60 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Black water tank",
+          "source_value": "60L",
+          "source_unit": null,
+          "normalized_value": 60.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Tanks"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "68 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Mainsail area",
+          "source_value": "68 m²",
+          "source_unit": null,
+          "normalized_value": 68.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "22,60 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Air draft",
+          "source_value": "22.6m",
+          "source_unit": null,
+          "normalized_value": 22.6,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Air draft' = altura sobre la línea de flotación."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "2,20 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Draft standard keel",
+          "source_value": "2.20m",
+          "source_unit": null,
+          "normalized_value": 2.2,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Draft standard keel': quilla estándar."
+        }
+      ],
+      "notes": "Otras quillas publicadas: Draft race keel (Opt.): 2.7m.",
+      "display_note": "quilla estándar"
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "4.250 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Ballast standard keel",
+          "source_value": "4250kg",
+          "source_unit": null,
+          "normalized_value": 4250.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "50 m² (foque autovirante)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Self-tacking Jib area",
+          "source_value": "50 m²",
+          "source_unit": null,
+          "normalized_value": 50.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Self-tacking Jib area': vela de proa estándar."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "D. Hennevanger / Kees van de Stadt",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Design",
+          "source_value": "D. Hennevanger | Kees van de Stadt",
+          "source_unit": null,
+          "normalized_value": "D. Hennevanger | Kees van de Stadt",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "Vacuum infused fibreglass",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Hull material",
+          "source_value": "Vacuum infused fibreglass",
+          "source_unit": null,
+          "normalized_value": "Vacuum infused fibreglass",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Yanmar 4JH57; Yanmar 4JH70 (opcional) — 57 HP / 70 HP (opc.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine (Std.)",
+          "source_value": "Yanmar 4JH57",
+          "source_unit": null,
+          "normalized_value": "Yanmar 4JH57; Yanmar 4JH70 (opcional)",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Berth(s)",
+          "source_value": "6",
+          "source_unit": null,
+          "normalized_value": 6.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Accomodations"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1 / 2 (opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SL 46 MED | NORTH",
+          "url": "https://saffieryachts.com/models/saffier-sl-46/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Toilet(s)",
+          "source_value": "1 | 2 (opt.)",
+          "source_unit": null,
+          "normalized_value": 1.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Accomodations"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

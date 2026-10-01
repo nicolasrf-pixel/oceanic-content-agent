@@ -260,3 +260,43 @@ class XO(unittest.TestCase):
         imgs = builder._with_cfg(beneteau.classify_images, ext, ident)["images"]
         self.assertEqual({i["id"]: i["scope"] for i in imgs},
                          {"xo-boats-dfndr9-2b": "THIS_MODEL", "xo-boats-explr9-0707": "OTHER_MODEL"})
+
+
+class SolarisSaffier(unittest.TestCase):
+    def test_solaris_number_parsing(self):
+        from oceanic.builders import solaris
+        self.assertEqual(solaris._num("Kg 9.850", "kg"), 9850)
+        self.assertEqual(solaris._num("9,400 kg", "kg"), 9400)
+        self.assertEqual(solaris._num("Kg 46,0 light", "kg"), 46.0)      # flagged by plausibility, not converted
+        self.assertEqual(solaris._num("M2 100 - std", "m2"), 100)
+        self.assertEqual(solaris._num("M 22.OO", "m"), 22.0)
+        self.assertEqual(solaris._num("M 16,80", "m"), 16.8)
+
+    def test_saffier_specs(self):
+        from oceanic.adapters import saffier as adapter
+        from oceanic.builders import saffier as builder, beneteau
+        html = """<html><head><title>Saffier SE 99 Test | Saffier Yachts</title></head><body>
+        <section id="intro"><h2>Sail</h2><div class="content-holder"><p>A daysailer.</p></div></section>
+        <section id="specifications"><div class="specs-group"><div class="group-title">Dimensions</div>
+        <div class="spec-item"><div class="item-label">Length (without bowsprit)</div><div class="item-value">9.85m</div></div>
+        <div class="spec-item"><div class="item-label">L.O.A. (with bowsprit)</div><div class="item-value">11m</div></div>
+        <div class="spec-item"><div class="item-label">Draft shallow keel</div><div class="item-value">1.45m</div></div>
+        <div class="spec-item"><div class="item-label">Draft standard keel</div><div class="item-value">1.70m</div></div>
+        <div class="spec-item"><div class="item-label">CE-category</div><div class="item-value">C | B</div></div></div>
+        <div class="specs-group"><div class="group-title">Engine</div>
+        <div class="spec-item"><div class="item-label">Engine power (Std.)</div><div class="item-value">15 HP</div></div>
+        <div class="spec-item"><div class="item-label">Engine power (Opt.)</div><div class="item-value">10 kW</div></div></div>
+        </section></body></html>"""
+        ext = adapter.extract(html, "https://saffieryachts.com/models/saffier-se-99-test/", "2026-10-01")
+        self.assertEqual(ext["page_title"], "Saffier SE 99 Test")
+        builder.prepare([ext])
+        ident = builder._with_cfg(beneteau.identity, ext)
+        spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
+        by = {f["oceanic_field"]: f for f in spec["fields"]}
+        self.assertEqual(by["eslora_total"]["display_value"], "11 m")
+        self.assertEqual(by["eslora_casco"]["display_value"], "9,85 m")
+        self.assertEqual(by["calado"]["display_value"], "1,70 m")
+        self.assertEqual(by["certificacion"]["display_value"], "C / B")
+        self.assertEqual(by["superficie_velica"]["status"], "NOT_FOUND")     # no sums
+        self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "15 hp")   # 10 kW ≈ 13,4 hp < 15 HP
+        self.assertEqual(specs.validate(spec), [])

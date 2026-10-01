@@ -85,7 +85,7 @@ RANGE_ALIASES = {"swift trawler": ["swift-trawler", "st"], "grand trawler": ["gr
                  "oceanis": ["oceanis", "oc"], "first": ["first"], "flyer": ["flyer"], "antares": ["antares"],
                  "figaro": ["figaro"], "lagoon": ["lagoon", "l"],
                  "xo dfndr": ["dfndr"], "xo dscvr": ["dscvr"], "xo explr": ["explr"]}
-VARIANT_WORDS = ("sedan", "fly", "coupe", "open", "fishing", "sundeck", "spacedeck", "sport-top", "se", "spirit")
+VARIANT_WORDS = ("sedan", "fly", "coupe", "open", "fishing", "sundeck", "spacedeck", "sport-top", "se", "spirit", "rs")
 
 
 def _model_tokens(name: str) -> dict:

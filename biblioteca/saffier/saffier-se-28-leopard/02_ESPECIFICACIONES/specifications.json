@@ -1,0 +1,438 @@
+{
+  "model": {
+    "brand": "Saffier",
+    "model": "Saffier SE 28 Leopard",
+    "model_year": "NO DECLARADO",
+    "variant": "Saffier SE 28 Leopard",
+    "configuration": "según ficha técnica",
+    "engine_option": "Yanmar 2YM15 Diesel engine o Mitek Electric engine — 15 HP / 7.5 kW",
+    "boat_type": "vela",
+    "range": "Elegance"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "9,20 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "L.O.A. (with bowsprit)",
+          "source_value": "9.2m",
+          "source_unit": null,
+          "normalized_value": 9.2,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'L.O.A. (with bowsprit)' = eslora total (incluye el bauprés)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,70 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Beam",
+          "source_value": "2.7m",
+          "source_unit": null,
+          "normalized_value": 2.7,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "2.200 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Displacement",
+          "source_value": "2200kg",
+          "source_unit": null,
+          "normalized_value": 2200.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Displacement' = desplazamiento publicado."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "32,50 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Fuel tank",
+          "source_value": "32.5L",
+          "source_unit": null,
+          "normalized_value": 32.5,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Tanks"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "45 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Fresh water tank",
+          "source_value": "45L",
+          "source_unit": null,
+          "normalized_value": 45.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Tanks"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "C",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE-category",
+          "source_value": "C",
+          "source_unit": null,
+          "normalized_value": "C",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": "La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web publica las superficies de mayor y foque por separado, sin total: no se suman (sin cálculos)."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "15 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine power (Std.)",
+          "source_value": "15 HP",
+          "source_unit": null,
+          "normalized_value": 15.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine",
+          "cross_reference": "La mayor potencia publicada (estándar u opcional)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "8,40 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Length (without bowsprit)",
+          "source_value": "8.4m",
+          "source_unit": null,
+          "normalized_value": 8.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Length (without bowsprit)' = eslora sin bauprés."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "26 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Mainsail area",
+          "source_value": "26 m²",
+          "source_unit": null,
+          "normalized_value": 26.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "13 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Air draft",
+          "source_value": "13m",
+          "source_unit": null,
+          "normalized_value": 13.0,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Air draft' = altura sobre la línea de flotación."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,70 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Draft standard keel",
+          "source_value": "1.7m",
+          "source_unit": null,
+          "normalized_value": 1.7,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Draft standard keel': quilla estándar."
+        }
+      ],
+      "notes": "Otras quillas publicadas: Draft shallow keel: 1.3m.",
+      "display_note": "quilla estándar"
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "750 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Ballast standard keel",
+          "source_value": "750kg",
+          "source_unit": null,
+          "normalized_value": 750.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Ballast standard keel': quilla estándar."
+        }
+      ],
+      "notes": "Otras quillas publicadas: Ballast shallow keel: 775kg.",
+      "display_note": "quilla estándar"
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "14 m² (foque autovirante)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Self-tacking Jib area",
+          "source_value": "14 m²",
+          "source_unit": null,
+          "normalized_value": 14.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Self-tacking Jib area': vela de proa estándar."
+        }
+      ],
+      "notes": "La web publica también '110% Jib area': 16 m²."
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "D. Hennevanger / Kees van de Stadt",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Design",
+          "source_value": "D. Hennevanger | Kees van de Stadt",
+          "source_unit": null,
+          "normalized_value": "D. Hennevanger | Kees van de Stadt",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "Vacuum infused fibreglass",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Hull material",
+          "source_value": "Vacuum infused fibreglass",
+          "source_unit": null,
+          "normalized_value": "Vacuum infused fibreglass",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Yanmar 2YM15 Diesel engine o Mitek Electric engine — 15 HP / 7.5 kW",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine (Std.)",
+          "source_value": "Yanmar 2YM15 Diesel engine | Mitek Electric engine",
+          "source_unit": null,
+          "normalized_value": "Yanmar 2YM15 Diesel engine o Mitek Electric engine",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Berth(s)",
+          "source_value": "4",
+          "source_unit": null,
+          "normalized_value": 4.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Accomodations"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "banos",
+      "label": "Baños",
+      "status": "VERIFIED",
+      "display_value": "1",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 28 Leopard",
+          "url": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Texto de la página",
+          "source_value": "plus a practical toilet",
+          "source_unit": null,
+          "normalized_value": 1,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "La ficha técnica no publica este campo; El texto describe un aseo bajo cubierta."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

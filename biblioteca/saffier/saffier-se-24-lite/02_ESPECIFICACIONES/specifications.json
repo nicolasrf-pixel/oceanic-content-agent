@@ -1,0 +1,365 @@
+{
+  "model": {
+    "brand": "Saffier",
+    "model": "Saffier SE 24 Lite",
+    "model_year": "NO DECLARADO",
+    "variant": "Saffier SE 24 Lite",
+    "configuration": "según ficha técnica",
+    "engine_option": "Aquamot POD — 2.2 kW",
+    "boat_type": "vela",
+    "range": "Elegance"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "8 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "L.O.A. (with bowsprit)",
+          "source_value": "8m",
+          "source_unit": null,
+          "normalized_value": 8.0,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'L.O.A. (with bowsprit)' = eslora total (incluye el bauprés)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,40 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Beam",
+          "source_value": "2.40m",
+          "source_unit": null,
+          "normalized_value": 2.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "1.200 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Displacement",
+          "source_value": "1200kg",
+          "source_unit": null,
+          "normalized_value": 1200.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Displacement' = desplazamiento publicado."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en el texto de la página del producto."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "C",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE-category",
+          "source_value": "C",
+          "source_unit": null,
+          "normalized_value": "C",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": "La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "La web publica las superficies de mayor y foque por separado, sin total: no se suman (sin cálculos)."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2.2 kW (≈ 3,0 hp)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine power (Std.)",
+          "source_value": "2.2 kW",
+          "source_unit": null,
+          "normalized_value": 3.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine",
+          "cross_reference": "La mayor potencia publicada (estándar u opcional); 2.2 kW convertido a hp (1 kW = 1,341 hp)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "7,10 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Length (without bowsprit)",
+          "source_value": "7.10m",
+          "source_unit": null,
+          "normalized_value": 7.1,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Length (without bowsprit)' = eslora sin bauprés."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "21 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Mainsail area",
+          "source_value": "21 m²",
+          "source_unit": null,
+          "normalized_value": 21.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "10,50 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Air draft",
+          "source_value": "10.5m",
+          "source_unit": null,
+          "normalized_value": 10.5,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Air draft' = altura sobre la línea de flotación."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,30 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Draft standard keel",
+          "source_value": "1.30m",
+          "source_unit": null,
+          "normalized_value": 1.3,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Draft standard keel': quilla estándar."
+        }
+      ],
+      "notes": "Otras quillas publicadas: Draft shallow keel: 1m; Draft race keel (Opt.): 1.44m.",
+      "display_note": "quilla estándar"
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "480 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Ballast standard keel",
+          "source_value": "480kg",
+          "source_unit": null,
+          "normalized_value": 480.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details",
+          "cross_reference": "'Ballast standard keel': quilla estándar."
+        }
+      ],
+      "notes": "Otras quillas publicadas: Ballast shallow keel: 542kg; Ballast race keel: 455kg.",
+      "display_note": "quilla estándar"
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "11 m² (foque autovirante)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Self-tacking Jib area",
+          "source_value": "11 m²",
+          "source_unit": null,
+          "normalized_value": 11.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Sails, mast & rigging",
+          "cross_reference": "'Self-tacking Jib area': vela de proa estándar."
+        }
+      ],
+      "notes": "La web publica también '110% Jib area': 12 m²."
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "D. Hennevanger / Kees van de Stadt",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Design",
+          "source_value": "D. Hennevanger / Kees van de Stadt",
+          "source_unit": null,
+          "normalized_value": "D. Hennevanger / Kees van de Stadt",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "Vaccuum infused fibreglass",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Hull material",
+          "source_value": "Vaccuum infused fibreglass",
+          "source_unit": null,
+          "normalized_value": "Vaccuum infused fibreglass",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Dimensions / Technical details"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Aquamot POD — 2.2 kW",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Saffier SE 24 Lite",
+          "url": "https://saffieryachts.com/models/saffier-se-24-lite/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Engine (Std.)",
+          "source_value": "Aquamot POD",
+          "source_unit": null,
+          "normalized_value": "Aquamot POD",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Specifications · Engine"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

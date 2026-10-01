@@ -1,0 +1,349 @@
+{
+  "model": {
+    "brand": "Solaris",
+    "model": "Solaris 64 RS",
+    "model_year": "NO DECLARADO",
+    "variant": "Solaris 64 RS",
+    "configuration": "según ficha técnica",
+    "engine_option": "Hp V.P. 175 (opt. 230 hp)",
+    "boat_type": "vela",
+    "range": "Raised Saloon"
+  },
+  "policy": "Solo web oficial del producto (S1). La ficha técnica prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "19,40 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "M 19.40",
+          "source_unit": null,
+          "normalized_value": 19.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "5,40 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BEAM",
+          "source_value": "M  5.40",
+          "source_unit": null,
+          "normalized_value": 5.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "27.600 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DISPLACEMENT",
+          "source_value": "Kg 27.600 LIGHT",
+          "source_unit": null,
+          "normalized_value": 27600.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "'Displacement' = desplazamiento publicado (en rosca si dice 'light')."
+        }
+      ],
+      "notes": "La web lo declara 'light' (en rosca)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 (+1 tripulación opcional)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Texto de la página",
+          "source_value": "the two guest cabins have nothing to envy to the owner’s cabin forward",
+          "source_unit": null,
+          "normalized_value": 3,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "La ficha técnica no publica este campo; Camarote del armador + dos de invitados; el pañol de proa puede ser camarote de tripulación opcional ('optional ensuite crew cabin')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "800 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "FUEL TANK",
+          "source_value": "L 800",
+          "source_unit": null,
+          "normalized_value": 800.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "900 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "WATER TANK",
+          "source_value": "L 900",
+          "source_unit": null,
+          "normalized_value": 900.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A (RINA)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "CE CERTIFICATION",
+          "source_value": "RINA A",
+          "source_unit": null,
+          "normalized_value": "A",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Literal: 'RINA A'. La web no publica número de personas."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "222 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "SAIL AREA",
+          "source_value": "M2 222",
+          "source_unit": null,
+          "normalized_value": 222.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "230 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp V.P. 175 (opt. 230 hp)",
+          "source_unit": null,
+          "normalized_value": 230,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications",
+          "cross_reference": "La fila de motor publica la potencia estándar y las opciones: se toma la mayor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "3,30 m (std.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "DRAFT",
+          "source_value": "M 3.30 (2,90 opt) L.KEEL 2.45-3.75",
+          "source_unit": null,
+          "normalized_value": 3.3,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": "Valor literal con opciones: 'M 3.30 (2,90 opt) L.KEEL 2.45-3.75'."
+    },
+    {
+      "oceanic_field": "lastre",
+      "label": "Lastre",
+      "status": "VERIFIED",
+      "display_value": "8.550 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "BALLAST",
+          "source_value": "Kg 8.550",
+          "source_unit": null,
+          "normalized_value": 8550.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "102 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "GENOA",
+          "source_value": "M2 102",
+          "source_unit": null,
+          "normalized_value": 102.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "120 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "MAINSAIL",
+          "source_value": "M2 120",
+          "source_unit": null,
+          "normalized_value": 120.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "Hp V.P. 175 (opt. 230 hp)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "ENGINE",
+          "source_value": "Hp V.P. 175 (opt. 230 hp)",
+          "source_unit": null,
+          "normalized_value": "Hp V.P. 175 (opt. 230 hp)",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Technical specifications"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Javier Soto Acebal",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Solaris 64 RS",
+          "url": "https://www.solarisyachts.com/en/yachts/64/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Credits · Design",
+          "source_value": "Javier Soto Acebal",
+          "source_unit": null,
+          "normalized_value": "Javier Soto Acebal",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Credits",
+          "cross_reference": "Diseñador del barco publicado en los créditos."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}
