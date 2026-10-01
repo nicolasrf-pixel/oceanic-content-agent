@@ -11,5 +11,87 @@
  "diseno": "Proa fija con acceso directo desde el puente. Camarotes con entrada privada.",
  "ingenieria": "Dos motores auxiliares de 50 HP. Certificación A12 / B12 / C20 / D30.",
  "experiencia": "Versiones de 4, 5 o 6 camarotes y capacidad para 30 personas.",
- "performance": "Catamarán de crucero a vela con acceso seguro a proa."
+ "performance": "Catamarán de crucero a vela con acceso seguro a proa.",
+ "image_overrides": {
+  "A50SAIL-Exterior-Idle-Aquila50Sail-DRONE(193of275)-1450x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Lifestyle-Aquila50Sail-LIFESTYLE(105of353)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Lifestyle-Aquila50Sail-LIFESTYLE(142of353)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Lifestyle-Aquila50Sail-LIFESTYLE(261of353)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Flybridge-Aquila50Sail-FLYBRIDGE(23of40)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Flybridge-Aquila50Sail-FLYBRIDGE(1of40)-1042x450.webp ": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Salon-Aquila50Sail-SALON(36of68)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Salon-Aquila50Sail-SALON(27of68)-1042x450.webp ": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Salon-Aquila50Sail-SALON(42of68)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Owner-Cabin-Aquila50Sail-MASTERCABIN(25of43)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Owner-Head-Aquila50Sail-MASTERCABIN(26of43)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Owner-Cabin-Aquila50Sail-MASTERCABIN(12of43)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Aft-Cabin-Aquila50Sail-AFTDECKCABIN(3of18)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Bow-Utility-Aquila50Sail-BOW_CABINS(8of43)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Bow-Utility-Aquila50Sail-BOW_CABINS(19of43)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A50SAIL-Lifestyle-Aquila50Sail-LIFESTYLE(81of353)-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

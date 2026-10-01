@@ -22,9 +22,8 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 50% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 67% (informativa; el estado lo deciden las reglas)
 
-Falta crítico: exterior
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
@@ -38,10 +37,10 @@ Falta crítico: exterior
 | EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 1 candidatas · sin descargar |
-| MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 0/18 |
-| MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 0/18 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/18 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 3 en inventario (mín. 3) · descargadas 18/18 |
+| MULTIMEDIA | interior | OK | 8 en inventario (mín. 2) · descargadas 18/18 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 18/18 |
 | MULTIMEDIA | video | OK | 7 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila54-hero-04272021` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('54 Yacht'). |
+| 2 | `aquila54-gallery2-04272021` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('54 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `aquila54-gallery4-04272021` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('54 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01). |

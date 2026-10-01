@@ -30,4 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila-36-interior-hero-3-07302019-2` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). |
-| 2 | `36-gallery-07302019-9` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). |
+| 2 | `36-gallery-07302019-4` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `36-gallery-07302019-9` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría UNDERWAY por revisión visual (2026-10-01). |

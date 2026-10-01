@@ -77,7 +77,7 @@ relevantes; los críticos que falten van como `NOT_FOUND`. Cada valor es un regi
 
 ```
 cd tools && pip install -r requirements.txt
-python -m oceanic extract <adaptador> <raw.html> <url> <out.json>   # p. ej. adaptador axopar
+python -m oceanic extract <adaptador> <raw.html> <url> <out.json> [--accessed=AAAA-MM-DD]  # p. ej. axopar
 python -m oceanic render <modelo>      # tablas + multimedia.md + validación de reglas
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS

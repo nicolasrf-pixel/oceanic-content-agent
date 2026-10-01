@@ -11,5 +11,27 @@
  "diseno": "Inspirado en el entorno y las condiciones nórdicas, con capacidad de alojamiento y cubierta resistente a la intemperie.",
  "ingenieria": "Casco en V profunda con 24° de astilla muerta. Ágil y reactivo para su eslora, con mucha potencia y gran eficiencia de motor.",
  "experiencia": "Para familias y amigos que disfrutan de un día en mar abierto, con confort extra para travesías cortas y largas.",
- "performance": "Más de 45 nudos con dos fuerabordas de 250 hp."
+ "performance": "Más de 45 nudos con dos fuerabordas de 250 hp.",
+ "image_overrides": {
+  "20180917_081706_XO_Cannes-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "cannestest-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "20180917_080857_XO_Cannes.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_explr10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Publicada también en xo-explr-10-sport-ib, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. Categoría PLANS por revisión visual (2026-10-01)."
+  }
+ }
 }

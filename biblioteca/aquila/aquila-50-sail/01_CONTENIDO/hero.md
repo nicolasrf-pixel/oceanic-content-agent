@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `a50sail-exterior-running-sails-up-aquila50sail-drone-221of275-1440x400` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). |
-| 2 | `a50sail-exterior-idle-aquila50sail-drone-193of275-1450x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). |
-| 3 | `a50sail-lifestyle-aquila50sail-lifestyle-142of353-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). |
+| 2 | `a50sail-exterior-idle-aquila50sail-drone-193of275-1450x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `a50sail-lifestyle-aquila50sail-lifestyle-105of353-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01). |

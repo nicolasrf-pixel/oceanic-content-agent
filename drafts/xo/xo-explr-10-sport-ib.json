@@ -11,5 +11,32 @@
  "diseno": "Inspirado en el entorno y las condiciones nórdicas, con capacidad de alojamiento y cubierta resistente a la intemperie.",
  "ingenieria": "Casco en V profunda especialmente agresivo, con 24° de astilla muerta.",
  "experiencia": "Para familias y amigos que disfrutan de un día en mar abierto, con confort extra.",
- "performance": "Más de 40 nudos con motor intraborda de 370 hp."
+ "performance": "Más de 40 nudos con motor intraborda de 370 hp.",
+ "image_overrides": {
+  "one.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "Aft-deck-setup.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "JWE_6022.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "JWE_5509.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_explr10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Publicada también en xo-explr-10-sport, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. Categoría PLANS por revisión visual (2026-10-01)."
+  }
+ }
 }

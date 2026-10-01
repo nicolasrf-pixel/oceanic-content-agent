@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `xo-dfndr-9-fin-swe-9121` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'THE ADVENTURE BOAT OF THE YEAR 2023!'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 2 | `xo-dfndr-9-fin-swe-insta52-0096-copy` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'THE ADVENTURE BOAT OF THE YEAR 2023!'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `xo-dfndr-9-fin-swe-8981` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'THE ADVENTURE BOAT OF THE YEAR 2023!'). Categoría EXTERIOR por revisión visual (2026-10-01). |

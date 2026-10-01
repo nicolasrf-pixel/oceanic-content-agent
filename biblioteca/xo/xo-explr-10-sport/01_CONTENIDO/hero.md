@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `20180917-081706-xo-cannes-3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `cannestest-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `20180917-080857-xo-cannes` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |

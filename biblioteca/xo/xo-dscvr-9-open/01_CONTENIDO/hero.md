@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `23` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 2 | `24` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `12` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |

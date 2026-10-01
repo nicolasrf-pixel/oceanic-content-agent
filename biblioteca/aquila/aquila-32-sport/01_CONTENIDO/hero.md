@@ -30,4 +30,4 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila32-hero-11132020` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). |
-| 2 | `32s-gallery1-11162020` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). |
+| 2 | `32s-gallery1-11162020` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría UNDERWAY por revisión visual (2026-10-01). |

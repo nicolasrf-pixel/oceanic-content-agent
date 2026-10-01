@@ -30,4 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila-50-yacht-689236586-campaign-hero` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). |
-| 2 | `aquila-50-yacht-689285024-l1` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). |
+| 2 | `aquila-50-yacht-689285028-l2` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `aquila-50-yacht-689285035-l3` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01). |

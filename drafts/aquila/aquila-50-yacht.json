@@ -11,5 +11,87 @@
  "diseno": "Tres camarotes de serie, con camarote principal de manga completa en un solo nivel y cuarto polivalente. Acabados refinados y ventanales panorámicos.",
  "ingenieria": "Certificación CE de categoría A. Hardtop preparado para integrar paneles solares.",
  "experiencia": "Amplio flybridge para disfrutar al aire libre y puesto de gobierno interior opcional para el mal tiempo.",
- "performance": "Diseñado para navegar con seguridad en mar abierto."
+ "performance": "Diseñado para navegar con seguridad en mar abierto.",
+ "image_overrides": {
+  "aquila-50-yacht-689285028-l2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285035-l3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285046-l4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285050-l5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285058-l6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285063-l7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-gallery-08-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285076-l9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285084-l10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285091-l11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285097-l12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-gallery-13-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285112-l14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285120-l15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285128-l16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-50-yacht-689285024-l1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('50 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

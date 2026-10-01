@@ -11,5 +11,71 @@
  "diseno": "Gran solárium a popa y zona integrada de bar y comedor. Toldo opcional. Protección del T-top o solárium al aire libre.",
  "ingenieria": "Casco en V profunda de aluminio con 22° de astilla muerta.",
  "experiencia": "Un día completo de actividades (buceo, surf, baño) y momentos de relax en la vuelta.",
- "performance": "Más de 40 nudos con 450 hp."
+ "performance": "Más de 40 nudos con 450 hp.",
+ "image_overrides": {
+  "dscvr-webiin.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_260_DSCVR_Archipelago-3500-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "I0A4103_3500.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "I0A3687_3500.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "I0A3457_3500.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "I0A3943_3500.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "I0A3477_3500-copy.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "I0A4160_3500.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "XO_FB_mby.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_260_DSCVR_Archipelago-3500-7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_DSCVR-3500-51-3500-50.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DSCVR_9_top_01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Solo en la página del modelo (sección 'Walkthrough'). Categoría PLANS por revisión visual (2026-10-01)."
+  },
+  "DSCVR_9_top_01b.jpg": {
+   "scope": "OTHER_MODEL",
+   "evidence": "Revisión visual (2026-10-01): muestra otro modelo."
+  }
+ }
 }

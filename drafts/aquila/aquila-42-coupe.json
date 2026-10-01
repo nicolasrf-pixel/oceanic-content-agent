@@ -11,5 +11,82 @@
  "diseno": "Dos camarotes con baño en suite.",
  "ingenieria": "Cascos de doble escalón y foil Aquila Hydro Glide. Se ofrece con motores fueraborda o intraborda Volvo.",
  "experiencia": "Dos camarotes en suite para travesías de varios días.",
- "performance": "Cascos de doble escalón con foil Hydro Glide para ganar eficiencia."
+ "performance": "Cascos de doble escalón con foil Hydro Glide para ganar eficiencia.",
+ "image_overrides": {
+  "42C-2-DJI_20250222205714-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "42C-4-DJI_0277-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42-coupe-gallery-aft-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-6-DJI_0286-Enhanced-NR-2-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-8-DSC00699-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "42-coupe-gallery-inside-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-9-DSC00725-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "42-coupe-gallery-inside-2-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-10-DSC00727-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-11-DSC00742-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "42C-12-DSC00763-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "42-coupe-gallery-overhead-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-15-DSC00895-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-14-DSC00935-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "42C-1-DSC09076-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

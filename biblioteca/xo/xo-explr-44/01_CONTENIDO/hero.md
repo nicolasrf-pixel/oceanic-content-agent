@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `dji-20240627214514-0097-d` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). |
-| 2 | `dji-20240627213343-0076-d` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). |
-| 3 | `dji-20240627212801-0026-d` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). |
+| 1 | `x1a8252` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `x1a8448` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `x1a8561` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |

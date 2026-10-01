@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `one` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `jwe-6022` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `jwe-5509` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |

@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 53% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Certificación
 
@@ -38,10 +38,10 @@ Conflictos sin resolver: Certificación
 | EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
 | EDITORIAL | experiencia | OK | 141 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 7 en inventario (mín. 3) · descargadas 0/62 |
-| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 0/62 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/62 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 30 en inventario (mín. 3) · descargadas 62/62 |
+| MULTIMEDIA | interior | OK | 18 en inventario (mín. 2) · descargadas 62/62 |
+| MULTIMEDIA | detail | OK | 9 en inventario (mín. 2) · descargadas 62/62 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | OK | 2 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

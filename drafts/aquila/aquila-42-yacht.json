@@ -11,5 +11,87 @@
  "diseno": "Flybridge y tres zonas al aire libre. Puesto de gobierno interior opcional.",
  "ingenieria": "Certificación CE de categoría A para navegar en mar abierto.",
  "experiencia": "Dos camarotes y capacidad para 24 personas.",
- "performance": "Categoría A para travesías oceánicas."
+ "performance": "Categoría A para travesías oceánicas.",
+ "image_overrides": {
+  "aquila-42-yacht-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-42-yacht-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  }
+ }
 }

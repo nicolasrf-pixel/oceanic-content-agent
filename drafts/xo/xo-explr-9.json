@@ -11,5 +11,127 @@
  "diseno": "Asientos con suspensión completa para el piloto (el del copiloto es opcional) y escotilla en el techo para pilotar de pie al sol.",
  "ingenieria": "Casco en V profunda de aluminio. Se puede equipar con aire acondicionado y calefacción.",
  "experiencia": "Cabina muy espaciosa con buen aislamiento acústico, cama de hasta 230 cm, aseo amplio y bien equipado y nevera de tamaño completo.",
- "performance": "Más tamaño y menos peso, sin renunciar a las prestaciones: más de 40 nudos con 450 hp."
+ "performance": "Más tamaño y menos peso, sin renunciar a las prestaciones: más de 40 nudos con 450 hp.",
+ "image_overrides": {
+  "750_5787.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-87.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_Cabin_Series-19.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-95.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_Cabin_Series-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "750_5765.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-28.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_Cabin_Series-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "750_5756.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-93.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_260_Cabin_Archipelago-6-copy.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "I0A7841_web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_Cabin_Series-40.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "750_5935.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "I0A7821_web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "XO_Boats_EXPLR_DSCVR-3500-51-96.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "I0A7125_web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "750_5498.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "750_5838.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "750_5901.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "EXPLR_9_top_katto-uusi-web.png": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Solo en la página del modelo (sección 'Life at sea just does not get any better than this.'). Categoría PLANS por revisión visual (2026-10-01)."
+  },
+  "EXPLR_9_top_webiin.png": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "Solo en la página del modelo (sección 'Life at sea just does not get any better than this.'). Categoría PLANS por revisión visual (2026-10-01)."
+  }
+ }
 }

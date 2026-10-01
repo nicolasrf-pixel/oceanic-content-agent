@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `a45sail-exterior-idle-aq44-ds-perspective-front-1-1440x400` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). |
-| 2 | `a45sail-exterior-idle-aq44-ds-perspective-front-1-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). |
-| 3 | `a45sail-exterior-idle-aq45-ds-elevation-2` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). |
+| 2 | `a45sail-exterior-idle-aq44-ds-perspective-front-1-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `a45sail-exterior-idle-aq44-ds-aft-cockpit-4-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01). |

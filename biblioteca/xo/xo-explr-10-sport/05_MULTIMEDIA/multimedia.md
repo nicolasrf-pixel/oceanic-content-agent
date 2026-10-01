@@ -10,15 +10,18 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
+| 1 | `20180917-081706-xo-cannes-3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg) |
+| 2 | `cannestest-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg) |
+| 3 | `20180917-080857-xo-cannes` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg) |
 
 ## Imágenes del modelo (4)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`20180917-081706-xo-cannes-3`](https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Overview'). |
-| [`cannestest-1`](https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Overview'). |
-| [`20180917-080857-xo-cannes`](https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Overview'). |
-| [`xo-explr10`](https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Publicada también en xo-explr-10-sport-ib, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. |
+| [`20180917-080857-xo-cannes`](https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| [`20180917-081706-xo-cannes-3`](https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`cannestest-1`](https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`xo-explr10`](https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg) | PLANS | revisión visual |  | NonexNone jpg | WEB_COPY | Publicada también en xo-explr-10-sport-ib, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. Categoría PLANS por revisión visual (2026-10-01). |
 
 ## REQUIRES REVIEW: modelo no confirmado (1)
 

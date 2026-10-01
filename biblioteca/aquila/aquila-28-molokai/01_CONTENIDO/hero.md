@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `offshore-line-hero-molokai-hero-12082021` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). |
+| 2 | `aqu-10698-28-molokai-gallery4` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `aqu-10698-28-molokai-gallery5` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01). |

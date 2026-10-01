@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila70-hero-03232021` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('70 Luxury'). |
+| 2 | `aquila70-gallery-02-03232021` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('70 Luxury'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `aquila70-gallery-03-03232021` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('70 Luxury'). Categoría EXTERIOR por revisión visual (2026-10-01). |

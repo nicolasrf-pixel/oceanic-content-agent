@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `xo-dfndr-8-winter-2113` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `xo-dfndr-8-winter-2159` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `xo-dfndr-8-winter-2096` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |

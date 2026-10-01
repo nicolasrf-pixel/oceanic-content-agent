@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `dscvr-webiin` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 2 | `xo-boats-260-dscvr-archipelago-3500-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `i0a3457-3500` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01). |

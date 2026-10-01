@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 50% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 64% (informativa; el estado lo deciden las reglas)
 
 Falta crítico: tabla_tecnica
 
@@ -38,10 +38,10 @@ Falta crítico: tabla_tecnica
 | EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 4 en inventario (mín. 3) · descargadas 0/15 |
-| MULTIMEDIA | interior | PARTIAL | 2 en inventario (mín. 2) · descargadas 0/15 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/15 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 7 en inventario (mín. 3) · descargadas 15/15 |
+| MULTIMEDIA | interior | OK | 2 en inventario (mín. 2) · descargadas 15/15 |
+| MULTIMEDIA | detail | OK | 4 en inventario (mín. 2) · descargadas 15/15 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

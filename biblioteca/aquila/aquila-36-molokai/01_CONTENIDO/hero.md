@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `36mc-exterior-running-17-1440x400` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). |
-| 2 | `36mc-exterior-running-10-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). |
-| 3 | `36mc-lifestyle-17-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). |
+| 2 | `36mc-exterior-running-10-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `36mc-fishing-4-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01). |

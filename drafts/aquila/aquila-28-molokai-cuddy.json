@@ -11,5 +11,77 @@
  "diseno": "La cabina cuddy de proa da refugio manteniendo el carácter offshore. Se puede configurar con hardtop extendido, portaequipajes de techo o asientos centrales opcionales.",
  "ingenieria": "Con el espíritu hawaiano en su ADN, afronta el mar de fondo del Pacífico y el oleaje corto del Atlántico con el mismo aplomo.",
  "experiencia": "Su amplia bañera sirve tanto para llevar pasajeros como para la pesca seria.",
- "performance": "Rendimiento offshore y protección para seguir navegando cuando cambia el tiempo."
+ "performance": "Rendimiento offshore y protección para seguir navegando cuando cambia el tiempo.",
+ "image_overrides": {
+  "28-offshore-line-cuddy-gallery2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "28-offshore-line-cuddy-gallery1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

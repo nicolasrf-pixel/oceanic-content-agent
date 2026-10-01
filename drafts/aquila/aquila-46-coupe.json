@@ -11,5 +11,87 @@
  "diseno": "Dos camarotes con baño en suite.",
  "ingenieria": "Cascos de doble escalón y foil Aquila Hydro Glide. Motores fueraborda o intraborda Volvo.",
  "experiencia": "Dos camarotes en suite y amplios espacios gracias a sus 17'11\" de manga.",
- "performance": "Cascos de doble escalón con foil Hydro Glide."
+ "performance": "Cascos de doble escalón con foil Hydro Glide.",
+ "image_overrides": {
+  "G3-46C-DJI_0643-3-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "G4-46C-DJI_0481-Enhanced-NR-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "G5-46C-DJI_20250220215855_0013_D-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "46-coupe-gallery-bar-2-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "G6-46C-DSC00413-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "G7-46C-DSC00470-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "G8-46C-DSC00544-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "G9-46C-DSC00555-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "G10-46C-DSC00799-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "4-coupe-gallery-aft-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "G12-46C-DSC00562-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "G13-46C-DSC00588-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "G14-46C-DSC00590-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "G15-46C-DSC00620-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "G16-46C-DSC00625-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "G1-46C-DSC07580-Enhanced-NR-2-1140x550.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

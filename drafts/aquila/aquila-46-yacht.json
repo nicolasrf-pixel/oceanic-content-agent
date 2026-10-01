@@ -11,5 +11,87 @@
  "diseno": "Varias configuraciones de camarotes (3, 4 o 5) y cocina completa con placa de inducción.",
  "ingenieria": "Certificación CE de categoría A. Dos Volvo Penta D4 de 320 HP. Opción de foil.",
  "experiencia": "Hasta 10 literas y cocina completa para vivir a bordo.",
- "performance": "Categoría A para travesías oceánicas."
+ "performance": "Categoría A para travesías oceánicas.",
+ "image_overrides": {
+  "gallery2-46Y-External-Idle-A75I0013-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery3-46Y-Exterior-Running-A75I4894-extended-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "gallery4-46Y-Lifestyle-DJI_20250906181828_0017_D-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery5-46Y-Aft-Cockpit-A7R05296-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "gallery6-46Y-Aft-Cockpit-A7R05323-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery7-46Y-Salon-A7R05326-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery8-46Y-Salon-A7R05344-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery9-46Y-OwnerCabin-A75I4031%20copie-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "gallery10-46Y-OwnerCabin-A75I4050%20copie-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "gallery11-46Y-OwnerCabin-A7R05358-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery12-46Y-Lifestyle-A7R03859-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "gallery13-46Y-Lifestyle-A7R04100-1442x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery14-46Y-Lifestyle-A7R04344-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "gallery15-46Y-Lifestyle-A7R04561-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "gallery16-46Y-Bow-A7R04152-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "gallery1-46Y-External-Idle-A75I0001-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  }
+ }
 }

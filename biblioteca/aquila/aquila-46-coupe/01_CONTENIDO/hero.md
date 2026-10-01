@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aquila-46-coupe-hero-banner-1920x400` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). |
-| 2 | `g3-46c-dji-0643-3-1140x550` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). |
-| 3 | `g4-46c-dji-0481-enhanced-nr-1140x550` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). |
+| 2 | `g3-46c-dji-0643-3-1140x550` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `g4-46c-dji-0481-enhanced-nr-1140x550` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Coupe'). Categoría UNDERWAY por revisión visual (2026-10-01). |

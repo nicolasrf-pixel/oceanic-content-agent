@@ -27,11 +27,11 @@ cual después se construye la página Oceanic.
 | Aquila | [Aquila 45 Sport](biblioteca/aquila/aquila-45-sport/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Aquila | [Aquila 46 Coupe](biblioteca/aquila/aquila-46-coupe/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Aquila | [Aquila 46 Yacht](biblioteca/aquila/aquila-46-yacht/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
-| Aquila | [Aquila 47 Molokai](biblioteca/aquila/aquila-47-molokai/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | RED |
+| Aquila | [Aquila 47 Molokai](biblioteca/aquila/aquila-47-molokai/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Aquila | [Aquila 50 Sail](biblioteca/aquila/aquila-50-sail/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
 | Aquila | [Aquila 50 Yacht](biblioteca/aquila/aquila-50-yacht/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
-| Aquila | [Aquila 54 Yacht](biblioteca/aquila/aquila-54-yacht/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
-| Aquila | [Aquila 70 Luxury](biblioteca/aquila/aquila-70-luxury/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Aquila | [Aquila 54 Yacht](biblioteca/aquila/aquila-54-yacht/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Aquila | [Aquila 70 Luxury](biblioteca/aquila/aquila-70-luxury/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | YELLOW |
 | Axopar | [AX/E 22](biblioteca/axopar/ax-e-22/00_MODELO/00_MODELO.md) | 2027 | 3/8 verificada | RED |
 | Axopar | [AX/E 25](biblioteca/axopar/ax-e-25/00_MODELO/00_MODELO.md) | 2027 | 4/8 verificada | YELLOW |
 | Axopar | [Axopar 22 Spyder](biblioteca/axopar/axopar-22-spyder/00_MODELO/00_MODELO.md) | 2027 | 8/8 verificada | YELLOW |
@@ -112,16 +112,16 @@ cual después se construye la página Oceanic.
 | Lagoon | [Lagoon 55](biblioteca/lagoon/lagoon-55/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [Lagoon 60](biblioteca/lagoon/lagoon-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [SIXTY 5](biblioteca/lagoon/sixty-5/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
-| Xo | [XO DFNDR 8](biblioteca/xo/xo-dfndr-8/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
-| Xo | [XO DFNDR 9](biblioteca/xo/xo-dfndr-9/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
-| Xo | [XO DSCVR 9 Open](biblioteca/xo/xo-dscvr-9-open/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
-| Xo | [XO DSCVR 9 T-TOP](biblioteca/xo/xo-dscvr-9-t-top/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
-| Xo | [XO EXPLR 10 S+ IB](biblioteca/xo/xo-explr-10-s-plus-ib/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | RED |
-| Xo | [XO EXPLR 10 Sport IB](biblioteca/xo/xo-explr-10-sport-ib/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
+| Xo | [XO DFNDR 8](biblioteca/xo/xo-dfndr-8/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Xo | [XO DFNDR 9](biblioteca/xo/xo-dfndr-9/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Xo | [XO DSCVR 9 Open](biblioteca/xo/xo-dscvr-9-open/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Xo | [XO DSCVR 9 T-TOP](biblioteca/xo/xo-dscvr-9-t-top/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
+| Xo | [XO EXPLR 10 S+ IB](biblioteca/xo/xo-explr-10-s-plus-ib/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
+| Xo | [XO EXPLR 10 Sport IB](biblioteca/xo/xo-explr-10-sport-ib/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Xo | [XO EXPLR 10 Sport +](biblioteca/xo/xo-explr-10-sport-plus/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
-| Xo | [XO EXPLR 10 Sport](biblioteca/xo/xo-explr-10-sport/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | RED |
+| Xo | [XO EXPLR 10 Sport](biblioteca/xo/xo-explr-10-sport/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Xo | [XO EXPLR 44](biblioteca/xo/xo-explr-44/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
-| Xo | [XO EXPLR 9](biblioteca/xo/xo-explr-9/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | RED |
+| Xo | [XO EXPLR 9](biblioteca/xo/xo-explr-9/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 
 ## Uso rápido
 

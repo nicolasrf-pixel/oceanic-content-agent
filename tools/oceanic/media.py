@@ -14,6 +14,7 @@ import hashlib
 import http.cookiejar
 import json
 import re
+import urllib.parse
 import urllib.request
 from datetime import date
 from pathlib import Path
@@ -31,6 +32,8 @@ def _slug(text: str) -> str:
 def _fetch(url: str, timeout: int = 120) -> bytes:
     # Some servers (manuals.axopar.com) redirect through a cookie check, so keep cookies across redirects.
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    # Non-ASCII file names (xoboats.com: "D8-sisältä-top.jpg") must be percent-encoded; "%" is kept as is.
+    url = urllib.parse.quote(url, safe=":/?&=%#+,;@~")
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with opener.open(req, timeout=timeout) as resp:
         return resp.read()

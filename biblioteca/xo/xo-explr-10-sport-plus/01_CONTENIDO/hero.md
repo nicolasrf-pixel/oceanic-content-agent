@@ -29,6 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `dji-0105` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). |
-| 2 | `dji-0111-copy-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). |
-| 3 | `dji-0128` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). |
+| 1 | `x1a8186-copy` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 2 | `xo-edited-sky-swap-34` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `dji-0105` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |

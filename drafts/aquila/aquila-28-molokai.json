@@ -11,5 +11,87 @@
  "diseno": "Su manga amplia permite circular con facilidad por ambos lados de la consola central, y los mandos, bien situados, dan al patrón una visión de 360 grados. Cuenta con grandes bañeras.",
  "ingenieria": "Casco catamarán concebido para condiciones exigentes: gran estabilidad y una navegación firme en mar abierto.",
  "experiencia": "Cuando no se usa para pesca o buceo, familia y amigos pueden disfrutar de actividades acuáticas, deportes de arrastre o simplemente de una visita a un restaurante en el muelle, un banco de arena o una isla.",
- "performance": "Su estabilidad y su navegación firme lo hacen apto para la pesca de altura y la competición."
+ "performance": "Su estabilidad y su navegación firme lo hacen apto para la pesca de altura y la competición.",
+ "image_overrides": {
+  "aqu-10698-28-molokai-gallery2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery9.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery15-(1).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery16-(1).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery17-(1).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aqu-10698-28-molokai-gallery1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai'). Categoría HELM por revisión visual (2026-10-01)."
+  }
+ }
 }

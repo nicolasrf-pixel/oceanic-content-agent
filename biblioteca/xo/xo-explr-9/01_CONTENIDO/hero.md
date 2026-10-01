@@ -29,3 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `750-5787` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `xo-boats-cabin-series-19` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `xo-boats-cabin-series-14` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Inspired by Nordic environment.'). Categoría EXTERIOR por revisión visual (2026-10-01). |

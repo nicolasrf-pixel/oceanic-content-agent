@@ -11,5 +11,307 @@
  "diseno": "Estilo moderno en el que la forma sigue a la función. Espacio para paneles solares en el techo y rieles para portaequipajes. Soláriums a proa y a popa.",
  "ingenieria": "Casco de aluminio de 5 mm con largueros de 8 mm en el fondo: rigidez que elimina vibraciones en mar gruesa. Durabilidad, resistencia a la corrosión y facilidad de reparación. Aire acondicionado y calefacción.",
  "experiencia": "Camarote del armador a proa con cama doble, baño, ducha y buena altura; camarote de popa con atrio, dos camas individuales o cama doble con baño propio opcional. Con la litera del puente, aloja hasta 6 personas.",
- "performance": "Navegación suave incluso en las peores condiciones, hasta 50 nudos. Su capacidad de combustible permite trayectos como Miami–Bahamas o Riviera francesa–Córcega con margen."
+ "performance": "Navegación suave incluso en las peores condiciones, hasta 50 nudos. Su capacidad de combustible permite trayectos como Miami–Bahamas o Riviera francesa–Córcega con margen.",
+ "image_overrides": {
+  "X1A8252.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A8582.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8286.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "X1A8715.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "X1A8351.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "X1A8891.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A9031.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8792.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8741.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8510.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "X1A8392.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8338.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "X1A8906.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8827.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8310.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8616.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8823.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8976.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8448.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8921.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8707.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "X1A8376.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "X1A8367.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "X1A9086.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A8905.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "X1A8413.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8931.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8600.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8595.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8319.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "X1A8561.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A8234.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7288.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7211.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "XO-EXPLR-44-pre-launch-9896.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo; archivo 'XO-EXPLR-44-pre-launch-9896.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7903.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7131.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "X1A7530.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627214514_0097_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627213343_0076_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A6713.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A6798.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "X1A6812.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A6216.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7295.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A6266.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A7967.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7239.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627212801_0026_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627213447_0089_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7917.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A8216.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627212927_0040_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A7355.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A7366.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "X1A6936.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A7102.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627215056_0151_D.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "DJI_20240627215204_0165_D-Enhanced-NR.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "X1A7771.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'It’s all about travel, and the upcoming XO EXPLR 44 is here for it.'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `408923490-aqu-10698-28-offshore-line-molokai-cuddy-website-hero-molokai-cuddy` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). |
-| 2 | `28-offshore-line-cuddy-gallery2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). |
-| 3 | `28-offshore-line-cuddy-gallery3` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). |
+| 2 | `28-offshore-line-cuddy-gallery2` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 3 | `28-offshore-line-cuddy-gallery3` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('28 Molokai Cuddy'). Categoría EXTERIOR por revisión visual (2026-10-01). |

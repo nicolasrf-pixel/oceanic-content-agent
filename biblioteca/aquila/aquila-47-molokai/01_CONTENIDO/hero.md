@@ -30,3 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `47molokai-herocarousel2-10102023` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
+| 2 | `aqu-30279-47-molokai-model-launch-gallery4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `aqu-30279-47-molokai-model-launch-gallery6` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). Categoría EXTERIOR por revisión visual (2026-10-01). |

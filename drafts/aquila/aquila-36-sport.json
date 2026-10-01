@@ -11,5 +11,87 @@
  "diseno": "Dos camarotes con baño en suite y cubierta para hasta 26 personas.",
  "ingenieria": "Dos Mercury Verado de 300 HP con pilotaje por joystick. El sistema de foil Aquila Hydro Glide opcional, desarrollado con Morrelli & Melvin, mejora la eficiencia hasta un 40 % según el fabricante.",
  "experiencia": "Dos camarotes en suite para pasar noches a bordo.",
- "performance": "Respuesta ágil con joystick y mayor eficiencia con el foil Hydro Glide opcional."
+ "performance": "Respuesta ágil con joystick y mayor eficiencia con el foil Hydro Glide opcional.",
+ "image_overrides": {
+  "aquila36foil-flexleft-01082020.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(4).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(9).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(10).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(7).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(8).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aquila-36-model-gallery-5b-0706.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(1).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(2).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Gallery'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aquila-36-model-gallery-8b-0706.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Gallery'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aquila-36-model-gallery-6b-0706.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "36-gallery-07302019-(5).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "aquila-36-model-gallery-3b-0706.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "aquila-36-fishing-large-image-2-07302019.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aquila-36-fishing-large-image-1-07302019.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "aquila-36-fishing-large-image-3-07302019.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  }
+ }
 }

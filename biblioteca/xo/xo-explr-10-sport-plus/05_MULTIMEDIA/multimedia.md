@@ -10,26 +10,26 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
-| 1 | `dji-0105` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). | [original](https://xoboats.com/wp-content/uploads/2022/02/DJI_0105.jpg) |
-| 2 | `dji-0111-copy-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). | [original](https://xoboats.com/wp-content/uploads/2022/02/DJI_0111-copy-1.jpg) |
-| 3 | `dji-0128` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). | [original](https://xoboats.com/wp-content/uploads/2022/02/DJI_0128.jpg) |
+| 1 | `x1a8186-copy` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/X1A8186-copy.jpg) |
+| 2 | `xo-edited-sky-swap-34` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-34.jpg) |
+| 3 | `dji-0105` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/DJI_0105.jpg) |
 
 ## Imágenes del modelo (12)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`dji-0105`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0105.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`dji-0111-copy-1`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0111-copy-1.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`dji-0128`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0128.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`x1a8186-copy`](https://xoboats.com/wp-content/uploads/2022/02/X1A8186-copy.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`xo-edited-sky-swap-34`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-34.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`x1a8071-copy`](https://xoboats.com/wp-content/uploads/2022/02/X1A8071-copy.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`xo-edited-sky-swap-43`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-43.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`xo-edited-sky-swap-8`](https://xoboats.com/wp-content/uploads/2022/02/xo-edited-sky-swap-8.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`x1a7581`](https://xoboats.com/wp-content/uploads/2022/03/X1A7581.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`xo-edited-sky-swap-4`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-4.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`20190920-150305-flat-test`](https://xoboats.com/wp-content/uploads/2022/02/20190920_150305_flat_test.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
-| [`xo-edited-sky-swap-57`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-57.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'For families & friends'). |
+| [`x1a8186-copy`](https://xoboats.com/wp-content/uploads/2022/02/X1A8186-copy.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| [`xo-edited-sky-swap-34`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-34.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| [`xo-edited-sky-swap-4`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-4.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| [`dji-0105`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0105.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`x1a8071-copy`](https://xoboats.com/wp-content/uploads/2022/02/X1A8071-copy.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`xo-edited-sky-swap-43`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-43.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`xo-edited-sky-swap-8`](https://xoboats.com/wp-content/uploads/2022/02/xo-edited-sky-swap-8.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`x1a7581`](https://xoboats.com/wp-content/uploads/2022/03/X1A7581.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`dji-0111-copy-1`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0111-copy-1.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`dji-0128`](https://xoboats.com/wp-content/uploads/2022/02/DJI_0128.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`20190920-150305-flat-test`](https://xoboats.com/wp-content/uploads/2022/02/20190920_150305_flat_test.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`xo-edited-sky-swap-57`](https://xoboats.com/wp-content/uploads/2022/03/xo-edited-sky-swap-57.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'For families & friends'). Categoría UNDERWAY por revisión visual (2026-10-01). |
 
 ## Videos (2)
 

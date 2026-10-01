@@ -11,5 +11,52 @@
  "diseno": "Cubierta abierta para hasta 22 pasajeros y un camarote con colchón de espuma viscoelástica y baño privado.",
  "ingenieria": "Dos Mercury Verado V6 de 225 HP de serie; opcionalmente, dos V8 de 300 HP con control de pilotaje por joystick.",
  "experiencia": "Camarote con baño privado para descansar a bordo y cubierta para compartir con familia y amigos.",
- "performance": "Opción de 2 x 300 HP con joystick para maniobrar con precisión."
+ "performance": "Opción de 2 x 300 HP con joystick para maniobrar con precisión.",
+ "image_overrides": {
+  "32s-gallery2-11162020.png": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "32s-gallery3-11162020.png": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "32s-gallery4-11162020.png": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "32-gallery-07302019-(11).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "aquila32-bedroom-gallery-12142020.png": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "32-gallery-07302019-(14).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "32-gallery-07302019-(16).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "32-gallery-07302019-(10).jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "32s-gallery1-11162020.png": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('32 Sport'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

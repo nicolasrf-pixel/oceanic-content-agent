@@ -10,16 +10,19 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
+| 1 | `one` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/one.jpg) |
+| 2 | `jwe-6022` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg) |
+| 3 | `jwe-5509` | Exterior horizontal del modelo; En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). | [original](https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg) |
 
 ## Imágenes del modelo (5)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`one`](https://xoboats.com/wp-content/uploads/2022/02/one.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. |
-| [`aft-deck-setup`](https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Overview'). |
-| [`jwe-6022`](https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. |
-| [`jwe-5509`](https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. |
-| [`xo-explr10`](https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Publicada también en xo-explr-10-sport, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. |
+| [`aft-deck-setup`](https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg) | COCKPIT | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Overview'). Categoría COCKPIT por revisión visual (2026-10-01). |
+| [`one`](https://xoboats.com/wp-content/uploads/2022/02/one.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`jwe-6022`](https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`jwe-5509`](https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana xo-explr-10-s-plus-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01). |
+| [`xo-explr10`](https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg) | PLANS | revisión visual |  | NonexNone jpg | WEB_COPY | Publicada también en xo-explr-10-sport, pero el nombre de archivo 'XO_explr10.jpg' nombra exactamente este modelo. Categoría PLANS por revisión visual (2026-10-01). |
 
 ## REQUIRES REVIEW: modelo no confirmado (1)
 

@@ -11,5 +11,87 @@
  "diseno": "Incluye puesto de aparejos y admite una cocina exterior opcional. Bajo cubierta dispone de camarote con baño.",
  "ingenieria": "Casco catamarán motorizado con dos motores fueraborda Mercury V8 de 300 HP.",
  "experiencia": "Capacidad para 16 personas, con camarote y baño para las salidas largas.",
- "performance": "Motorización de 2 x 300 HP para la navegación offshore."
+ "performance": "Motorización de 2 x 300 HP para la navegación offshore.",
+ "image_overrides": {
+  "36MC-Exterior-Running-10-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "36MC-Fishing-4-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36MC-Lifestyle-14-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36MC-Helm-8-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "36MC-Helm-7-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "36MC-Helm-5-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "36MC-Lifestyle-23-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36MC-Fishing-6-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36MC-Fishing-7-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36MC-Fishing-11-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36MC-Fishing-8-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "36MC-Cabin-2-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "36MC-Lifestyle-11-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36MC-Lifestyle-29-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "36MC-Lifestyle-17-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "36MC-Exterior-Running-19-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('36 Molokai'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  }
+ }
 }

@@ -34,9 +34,11 @@ def main(argv: list[str]) -> int:
         return 1
     cmd, args = argv[0], argv[1:]
     if cmd == "extract":
-        brand, raw, url, out = args
+        # --accessed=YYYY-MM-DD: date the raw HTML was captured (re-extracting an old capture keeps its date)
+        accessed = next((a.split("=", 1)[1] for a in args if a.startswith("--accessed=")), date.today().isoformat())
+        brand, raw, url, out = [a for a in args if not a.startswith("--accessed=")]
         adapter = __import__(f"oceanic.adapters.{brand}", fromlist=["extract"])
-        data = adapter.extract(Path(raw).read_text(), url, date.today().isoformat())
+        data = adapter.extract(Path(raw).read_text(), url, accessed)
         Path(out).write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
         print(f"{len(data['images'])} imágenes, {len(data['videos'])} videos -> {out}")
         return 0

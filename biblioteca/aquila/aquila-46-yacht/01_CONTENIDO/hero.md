@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `46y-exterior-running-a75i4971-1440x400` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). |
-| 2 | `gallery3-46y-exterior-running-a75i4894-extended-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). |
-| 3 | `gallery4-46y-lifestyle-dji-20250906181828-0017-d-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). |
+| 2 | `gallery2-46y-external-idle-a75i0013-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `gallery3-46y-exterior-running-a75i4894-extended-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('46 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01). |

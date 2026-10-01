@@ -11,5 +11,44 @@
  "diseno": "Añade una cabina de dormir en lugar de la bañera abierta de proa; la cabina aloja a dos personas.",
  "ingenieria": "Superestructura de aluminio: se puede varar sin miedo a dañar el casco. Casco en V profunda de aluminio; admite aire acondicionado y calefacción.",
  "experiencia": "Literas para quedarse a dormir en el mar después de un día de aventura.",
- "performance": "Más de 40 nudos con motor intraborda de 370 hp."
+ "performance": "Más de 40 nudos con motor intraborda de 370 hp.",
+ "image_overrides": {
+  "JWE_5420.jpg": {
+   "scope": "OTHER_MODEL",
+   "evidence": "Revisión visual (2026-10-01): muestra la bañera de proa abierta con teca de la variante EXPLR 10 Sport (el S+ IB lleva cabina a proa)."
+  },
+  "JWE_5655.jpg": {
+   "scope": "OTHER_MODEL",
+   "evidence": "Revisión visual (2026-10-01): muestra la bañera de proa abierta con teca de la variante EXPLR 10 Sport (el S+ IB lleva cabina a proa)."
+  },
+  "one.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "JWE_6022.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "JWE_5509.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-explr-10-sport-ib (mismo casco): decisión Oceanic, se acepta en ambas. Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "JWE_5429.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "JWE_5658.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "three.jpg": {
+   "scope": "OTHER_MODEL",
+   "evidence": "Revisión visual (2026-10-01): muestra la bañera de proa abierta con teca de la variante EXPLR 10 Sport (el S+ IB lleva cabina a proa)."
+  }
+ }
 }

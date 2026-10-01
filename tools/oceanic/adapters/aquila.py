@@ -39,9 +39,11 @@ def _values(v: str) -> list[str]:
 
 def _img(url: str, alt: str, section: str, title: str, role: str = "image") -> dict:
     url = url.split("?")[0]
-    path = unquote(url.split("/hubfs/", 1)[-1]) if "/hubfs/" in url else unquote(url.rsplit("/", 1)[-1])
+    # Files on the HubSpot file CDN are also served by the site itself under /hubfs/ (same portal file).
+    mirror = re.sub(r"^https://\d+\.fs1\.hubspotusercontent-na1\.net/hubfs/\d+/", "https://www.aquilaboats.com/hubfs/", url)
+    path = unquote(mirror.split("/hubfs/", 1)[-1]) if "/hubfs/" in mirror else unquote(mirror.rsplit("/", 1)[-1])
     name = path.rsplit("/", 1)[-1]
-    return {"src": url, "original": url, "file_name": name, "alt": alt or "", "width": None, "height": None,
+    return {"src": mirror, "original": url, "file_name": name, "alt": alt or "", "width": None, "height": None,
             "ext": name.rsplit(".", 1)[-1].lower() if "." in name else None, "section": section,
             "section_title": title, "role": role, "dam_folder": path.rsplit("/", 1)[0] if "/" in path else None}
 

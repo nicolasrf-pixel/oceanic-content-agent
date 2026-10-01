@@ -29,5 +29,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `a35s-exterior-running-overhead-render-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). |
-| 2 | `a35s-exterior-running-side-render-2-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). |
+| 1 | `a35s-persp-3-w-1042x450-webp` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 2 | `a35s-persp-4-w-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `a35s-exterior-running-overhead-render-1042x450` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría UNDERWAY por revisión visual (2026-10-01). |

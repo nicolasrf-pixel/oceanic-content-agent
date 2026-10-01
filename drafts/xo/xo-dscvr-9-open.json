@@ -11,5 +11,92 @@
  "diseno": "Amplias zonas de cubierta para un día de sol y opciones para la diversión. La zona de popa se convierte rápidamente en un espacio de barbacoa para hasta diez personas: cada centímetro se aprovecha con uso múltiple.",
  "ingenieria": "Casco en V profunda de aluminio con 22° de astilla muerta.",
  "experiencia": "Pensado para navegantes con estilo de vida activo, que disfrutan y se relajan sintiendo el mar a su alrededor.",
- "performance": "Más de 40 nudos con 450 hp."
+ "performance": "Más de 40 nudos con 450 hp.",
+ "image_overrides": {
+  "23.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "25.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "24.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "22.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "8.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría DETAIL por revisión visual (2026-10-01)."
+  },
+  "21.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría UNDERWAY por revisión visual (2026-10-01)."
+  },
+  "14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Overview'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "DSCVR_9_top_01b.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "PLANS",
+   "evidence": "En la galería oficial del modelo y también en la variante hermana xo-dscvr-9-t-top (mismo casco): decisión Oceanic, se acepta en ambas. Categoría PLANS por revisión visual (2026-10-01)."
+  }
+ }
 }

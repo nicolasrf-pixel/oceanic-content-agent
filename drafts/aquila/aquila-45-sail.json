@@ -11,5 +11,72 @@
  "diseno": "Proa fija con acceso directo desde el puente. Camarotes con entrada privada.",
  "ingenieria": "Dos motores auxiliares de 50 HP.",
  "experiencia": "Versiones de 3 o 4 camarotes y capacidad para 30 personas.",
- "performance": "Catamarán de crucero a vela con acceso seguro a proa."
+ "performance": "Catamarán de crucero a vela con acceso seguro a proa.",
+ "image_overrides": {
+  "A45SAIL-Exterior-Idle-AQ44%20DS%20-%20Perspective%20front%201-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Idle-AQ44%20DS%20-%20Aft%20cockpit%204-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Idle-AQ45%20DS%20-%20Elevation%202.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Perspective%20Aft%201-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Flybridge%203-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría HELM por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Flibridge%201-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría COCKPIT por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Salon%20View%202-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Salon%20View%203-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Cabin%20View%201-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Cabin%20View%202-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Owner%20Cabin%20View%203-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría CABIN por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Owner%20Cabin%20Bathroom-1042x450.webp": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría INTERIOR por revisión visual (2026-10-01)."
+  },
+  "A45SAIL-Exterior-Idle-AQ45%20DS%20-%20Perspective%20front%202.webp": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Archivo en la carpeta del modelo en el CMS de Aquila ('45 Sail'). Categoría EXTERIOR por revisión visual (2026-10-01)."
+  }
+ }
 }

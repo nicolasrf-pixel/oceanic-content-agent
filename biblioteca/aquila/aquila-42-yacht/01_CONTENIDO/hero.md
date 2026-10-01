@@ -30,4 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `aqu-20849-42-yacht-model-launch-hero` | Imagen de cabecera oficial de la página del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). |
-| 2 | `aquila-42-yacht-4` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Gallery'). |
+| 2 | `aquila-42-yacht-2` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| 3 | `aquila-42-yacht-3` | Exterior horizontal del modelo; Archivo en la carpeta del modelo en el CMS de Aquila ('42 Yacht'). Categoría UNDERWAY por revisión visual (2026-10-01). |
