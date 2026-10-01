@@ -82,7 +82,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier: paquetes completos (no toca los curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
@@ -145,6 +145,12 @@ total (mayor y foque por separado): queda `-`, no se suman. Potencia en HP o kW 
 canales de terceros se marcan; reseñas de revistas (PDF) a `excluded_sources`. SL 46 MED | NORTH son dos cubiertas del
 mismo modelo (un paquete).
 
+**VX One:** un solo modelo (sportboat one-design) en vxone.com (Wix). `adapters/vxone.py`: `extract()` por página y
+`merge(home, specs)` arma el extract del modelo (S1 = página Specifications, S3 = portada con el mismo bloque "THE BOAT" y el
+texto de presentación). La web solo publica eslora, flotación, manga, superficie mayor+foque (cifra única), gennaker, calado
+con la quilla abajo y peso de tripulación (2–3 personas): el resto queda `NOT_FOUND` (RED honesto). vxone.org (clase) se
+excluye. Imágenes en `static.wixstatic.com` (original = URL sin `/v1/...`).
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
@@ -155,7 +161,7 @@ mismo modelo (un paquete).
 - Los PDF oficiales solo se identifican y registran como documentos (no aportan datos).
 - Las descargas de binarios (imágenes, PDF) las hace `python -m oceanic media` y necesitan acceso de red a los CDN
   del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
-  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`).
+  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`; VX One: `static.wixstatic.com`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
   HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).

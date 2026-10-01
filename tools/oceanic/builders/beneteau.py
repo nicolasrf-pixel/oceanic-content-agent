@@ -896,10 +896,11 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
                         "publisher": CFG["publisher"], "url": ident["range_url"], "accessed_at": ext["accessed_at"],
                         "retrieved_via": "referencia", "model_year_scope": "gama"})
     for alt in ext.get("alternates", []):
-        sources.append({"id": "S3", "short": "Web oficial · versión EE. UU.", "title": alt["page_title"],
+        sources.append({"id": "S3", "short": alt.get("short", "Web oficial · versión EE. UU."), "title": alt["page_title"],
                         "type": "official_product_page", "publisher": CFG["publisher"], "url": alt["source_url"],
                         "accessed_at": alt["accessed_at"], "retrieved_via": f"Firecrawl rawHtml + {CFG['adapter']}",
-                        "model_year_scope": MODEL_YEAR, "note": "Misma página en su versión en inglés para EE. UU."})
+                        "model_year_scope": MODEL_YEAR,
+                        "note": alt.get("note", "Misma página en su versión en inglés para EE. UU.")})
     (fu / "sources.json").write_text(json.dumps({
         "model": ident["model"],
         "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",

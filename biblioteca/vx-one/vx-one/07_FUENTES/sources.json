@@ -1,0 +1,47 @@
+{
+  "model": "VX One",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · VX One",
+      "title": "VX One",
+      "type": "official_product_page",
+      "publisher": "VX One (web oficial de la clase/marca; construyen Ovington Boats y Mackay Boats)",
+      "url": "https://www.vxone.com/specs",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/vxone.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-vx-one.page.json"
+    },
+    {
+      "id": "S3",
+      "short": "Web oficial · portada",
+      "title": "VX One · Home",
+      "type": "official_product_page",
+      "publisher": "VX One (web oficial de la clase/marca; construyen Ovington Boats y Mackay Boats)",
+      "url": "https://www.vxone.com/home",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/vxone.py",
+      "model_year_scope": "NO DECLARADO",
+      "note": "Portada de la web oficial: bloque 'THE BOAT' (mismas cifras) y texto de presentación."
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "VX One Class (vxone.org)",
+      "url": "https://vxone.org/",
+      "reason": "Asociación de clase: calendario y reglas, no es la ficha del fabricante."
+    },
+    {
+      "title": "Testimonios 'What People Are Saying'",
+      "url": null,
+      "reason": "Opiniones de propietarios: no aportan datos."
+    },
+    {
+      "title": "Tienda Streamline Marine",
+      "url": "http://shop.streamlinemarine.com/",
+      "reason": "Tienda de recambios."
+    }
+  ]
+}

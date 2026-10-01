@@ -1,0 +1,184 @@
+{
+  "model": {
+    "brand": "VX One",
+    "model": "VX One",
+    "model_year": "NO DECLARADO",
+    "variant": "VX One",
+    "configuration": "one-design",
+    "engine_option": "-",
+    "boat_type": "vela",
+    "range": "One Design"
+  },
+  "policy": "Solo web oficial (S1 Specifications, S3 portada). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "5,79 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "VX One",
+          "url": "https://www.vxone.com/specs",
+          "accessed_at": "2026-10-01",
+          "source_field": "LOA",
+          "source_value": "19′/5.79m",
+          "source_unit": null,
+          "normalized_value": 5.79,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "VX ONE SPECIFICATIONS"
+        }
+      ],
+      "notes": "Valor imperial publicado: 19′."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,19 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "VX One",
+          "url": "https://www.vxone.com/specs",
+          "accessed_at": "2026-10-01",
+          "source_field": "Beam",
+          "source_value": "7.17′/2.19m",
+          "source_unit": null,
+          "normalized_value": 2.19,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "VX ONE SPECIFICATIONS"
+        }
+      ],
+      "notes": "Valor imperial publicado: 7.17′."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "19,97 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "VX One",
+          "url": "https://www.vxone.com/specs",
+          "accessed_at": "2026-10-01",
+          "source_field": "SA Main + Jib",
+          "source_value": "215 sq ft./19.97 sq m",
+          "source_unit": null,
+          "normalized_value": 19.97,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "VX ONE SPECIFICATIONS",
+          "cross_reference": "'SA Main + Jib' = superficie vélica de ceñida publicada como una sola cifra."
+        }
+      ],
+      "notes": "Valor imperial publicado: 215 sq ft.. Gennaker: 280 sq ft./26 sq m."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,32 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "VX One",
+          "url": "https://www.vxone.com/specs",
+          "accessed_at": "2026-10-01",
+          "source_field": "Draft, keel down",
+          "source_value": "4.33′/1.32m",
+          "source_unit": null,
+          "normalized_value": 1.32,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "VX ONE SPECIFICATIONS",
+          "cross_reference": "'Draft, keel down' = calado con la quilla abajo (quilla elevable)."
+        }
+      ],
+      "notes": "Valor imperial publicado: 4.33′."
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "2–3 (tripulación)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "VX One",
+          "url": "https://www.vxone.com/specs",
+          "accessed_at": "2026-10-01",
+          "source_field": "Crew Weight tolerance",
+          "source_value": "375 – 475 lbs (2-3 person)",
+          "source_unit": null,
+          "normalized_value": "2-3",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "VX ONE SPECIFICATIONS",
+          "cross_reference": "'Crew Weight tolerance ... (2-3 person)' = tripulación prevista."
+        }
+      ],
+      "notes": "Literal: '375 – 475 lbs (2-3 person)'."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (portada ni página Specifications)."
+    }
+  ]
+}
