@@ -130,6 +130,7 @@ cual después se construye la página Oceanic.
 | Solaris | [Solaris 74 RS](biblioteca/solaris/solaris-74-rs/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Solaris | [Solaris 74](biblioteca/solaris/solaris-74/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
 | Solaris | [Solaris 80 RS](biblioteca/solaris/solaris-80-rs/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Switch | [Switch One Design](biblioteca/switch/switch-one-design/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
 | Vx-one | [VX One](biblioteca/vx-one/vx-one/00_MODELO/00_MODELO.md) | s/d | 3/9 verificada | RED |
 | Xo | [XO DFNDR 8](biblioteca/xo/xo-dfndr-8/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Xo | [XO DFNDR 9](biblioteca/xo/xo-dfndr-9/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |

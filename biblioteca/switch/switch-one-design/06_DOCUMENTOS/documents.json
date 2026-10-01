@@ -1,0 +1,27 @@
+{
+  "model": "Switch One Design",
+  "documents": [
+    {
+      "id": "owners",
+      "title": "Documentación de propietario Switch",
+      "category": "MANUALS",
+      "scope": "REQUIRES_REVIEW",
+      "model_year": null,
+      "source_id": "S1",
+      "download_url": null,
+      "source_page": "https://www.switchonedesign.com/",
+      "file": null,
+      "download_status": "PENDING (identificar el manual del modelo en el portal)"
+    }
+  ],
+  "not_found": [
+    {
+      "category": "BROCHURES",
+      "detail": "La página del modelo no enlaza brochure."
+    },
+    {
+      "category": "TECHNICAL",
+      "detail": "La página del modelo no enlaza lista de equipamiento."
+    }
+  ]
+}

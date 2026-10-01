@@ -1,0 +1,208 @@
+{
+  "model": {
+    "brand": "Switch",
+    "model": "Switch One Design",
+    "model_year": "NO DECLARADO",
+    "variant": "Switch One Design",
+    "configuration": "una plataforma, 3 aparejos (6.5 / 7.5 / 8.5)",
+    "engine_option": "-",
+    "boat_type": "vela",
+    "range": "One Design"
+  },
+  "policy": "Solo web oficial (S1 Home, S3 Technology). El bloque técnico prevalece.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "3,90 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Switch One Design",
+          "url": "https://www.switchonedesign.com/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Length",
+          "source_value": "3.9 m",
+          "source_unit": null,
+          "normalized_value": 3.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE BOAT (Home)",
+          "cross_reference": "'Length' = eslora total publicada."
+        }
+      ],
+      "notes": "La página Technology publica el mismo valor."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,25 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Switch One Design",
+          "url": "https://www.switchonedesign.com/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Width",
+          "source_value": "2.25 m",
+          "source_unit": null,
+          "normalized_value": 2.25,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE BOAT (Home)",
+          "cross_reference": "'Width' = anchura total publicada (con las alas)."
+        }
+      ],
+      "notes": "La página Technology publica el mismo valor."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "25 kg (aprox.)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Switch One Design",
+          "url": "https://www.switchonedesign.com/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Platform Weight",
+          "source_value": "~ 25 KG",
+          "source_unit": null,
+          "normalized_value": 25.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "THE BOAT (Home)",
+          "cross_reference": "'Platform Weight' = peso de la plataforma publicado (sin aparejo); es el único peso de la web."
+        }
+      ],
+      "notes": "La web lo declara aproximado ('~').  La página Technology publica el mismo valor."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "6,5 / 7,5 / 8,4 m² (según aparejo)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Switch One Design",
+          "url": "https://www.switchonedesign.com/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Sail Area",
+          "source_value": "6.5-7.5-8.4 sqm",
+          "source_unit": null,
+          "normalized_value": "6,5 / 7,5 / 8,4",
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE BOAT (Home)",
+          "cross_reference": "Una superficie por aparejo (6.5 / 7.5 / 8.5)."
+        }
+      ],
+      "notes": "El bloque técnico publica '6.5-7.5-8.4 sqm' (prevalece). El texto y los nombres de aparejo dicen '8.5' ('switch from the 6.5m sail to the 7.5 or 8.5m', 'SWITCH 8.5'): mención anotada, no se publica (regla 3). Vela: One Design Quantum Membrane Sail. La página Technology publica el mismo valor."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "velocidad_maxima",
+      "label": "Velocidad máxima",
+      "status": "VERIFIED",
+      "display_value": "> 30 nudos (en popa)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Switch One Design",
+          "url": "https://www.switchonedesign.com/",
+          "accessed_at": "2026-10-01",
+          "source_field": "Downwind Speed",
+          "source_value": ">30 kts",
+          "source_unit": null,
+          "normalized_value": 30.0,
+          "normalized_unit": "nudos",
+          "model_year": "NO DECLARADO",
+          "location": "THE BOAT (Home)"
+        }
+      ],
+      "notes": "Ceñida: >19 Kts. Despega con ~6 nudos de viento. "
+    },
+    {
+      "oceanic_field": "construccion",
+      "label": "Construcción",
+      "status": "VERIFIED",
+      "display_value": "Fibra de carbono - epoxi",
+      "records": [
+        {
+          "source_id": "S3",
+          "source_name": "Switch One Design · Technology",
+          "url": "https://www.switchonedesign.com/technology",
+          "accessed_at": "2026-10-01",
+          "source_field": "Materials",
+          "source_value": "Carbon Fiber - Epoxy",
+          "source_unit": null,
+          "normalized_value": "Carbon Fiber - Epoxy",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "TECHNOLOGY (bloque técnico)",
+          "cross_reference": "Materiales publicados en el bloque técnico."
+        }
+      ],
+      "notes": "Literal: 'Carbon Fiber - Epoxy'. Casco de laminado carbono-epoxi con núcleo de PVC (página Technology)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la web oficial (Home, Technology, Formula Switch, Switch is Smart)."
+    }
+  ]
+}
