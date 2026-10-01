@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Construido por Ovington Boats y Mackay Boats. Mástil, botalón y botavara de carbono con barniz transparente; quilla de aluminio extruido y anodizado; timón de alto rendimiento de carbono-vidrio.

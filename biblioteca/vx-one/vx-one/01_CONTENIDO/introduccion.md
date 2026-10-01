@@ -8,4 +8,6 @@
 
 ## OCEANIC CONTENT
 
-PENDIENTE: candidato en español por redactar.
+> Candidato. Estado: **BORRADOR, requiere revisión editorial**.
+
+> Desde 2012, el VX One es el sportboat one-design de referencia tanto para regatistas de alto nivel como para familias: una plataforma de alto rendimiento y asequible, centrada en la diversión y la competición amistosa, sin profesionales pagados.

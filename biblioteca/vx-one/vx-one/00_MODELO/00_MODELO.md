@@ -22,9 +22,9 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = RED** · completitud 31% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = RED** · completitud 47% (informativa; el estado lo deciden las reglas)
 
-Falta crítico: exterior, hero_image, tabla_tecnica
+Falta crítico: tabla_tecnica
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
@@ -32,16 +32,16 @@ Falta crítico: exterior, hero_image, tabla_tecnica
 | DATOS | especificaciones | PARTIAL | 5 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
-| EDITORIAL | hero | PARTIAL | 70 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | introduccion | PARTIAL | 62 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | diseno | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | ingenieria | PARTIAL | 35 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente · sin candidato Oceanic |
-| EDITORIAL | performance | PARTIAL | 42 palabras fuente · sin candidato Oceanic |
-| MULTIMEDIA | hero_image | MISSING | sin HERO_CANDIDATE |
-| MULTIMEDIA | exterior | MISSING | 0 en inventario (mín. 3) · descargadas 7/7 |
-| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 7/7 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 7/7 |
+| EDITORIAL | hero | OK | 70 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | introduccion | OK | 62 palabras fuente · candidato Oceanic presente |
+| EDITORIAL | diseno | PARTIAL | 10 palabras fuente |
+| EDITORIAL | ingenieria | PARTIAL | 35 palabras fuente |
+| EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
+| EDITORIAL | performance | OK | 42 palabras fuente · candidato Oceanic presente |
+| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
+| MULTIMEDIA | exterior | OK | 7 en inventario (mín. 3) · descargadas 4/7 |
+| MULTIMEDIA | interior | MISSING | 0 en inventario (mín. 2) · descargadas 4/7 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 4/7 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

@@ -1,9 +1,7 @@
 {
   "CONTENT_STATUS": "RED",
-  "completeness_pct": 31,
+  "completeness_pct": 47,
   "critical_missing": [
-    "exterior",
-    "hero_image",
     "tabla_tecnica"
   ],
   "unresolved_conflicts": [],
@@ -30,53 +28,53 @@
     },
     "hero": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "70 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "70 palabras fuente · candidato Oceanic presente"
     },
     "introduccion": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "62 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "62 palabras fuente · candidato Oceanic presente"
     },
     "diseno": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "ingenieria": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "35 palabras fuente · sin candidato Oceanic"
+      "detail": "35 palabras fuente"
     },
     "experiencia": {
       "group": "EDITORIAL",
       "status": "PARTIAL",
-      "detail": "10 palabras fuente · sin candidato Oceanic"
+      "detail": "10 palabras fuente"
     },
     "performance": {
       "group": "EDITORIAL",
-      "status": "PARTIAL",
-      "detail": "42 palabras fuente · sin candidato Oceanic"
+      "status": "OK",
+      "detail": "42 palabras fuente · candidato Oceanic presente"
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "sin HERO_CANDIDATE"
+      "status": "PARTIAL",
+      "detail": "3 candidatas · sin descargar"
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 en inventario (mín. 3) · descargadas 7/7"
+      "status": "OK",
+      "detail": "7 en inventario (mín. 3) · descargadas 4/7"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 7/7"
+      "detail": "0 en inventario (mín. 2) · descargadas 4/7"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 7/7"
+      "detail": "0 en inventario (mín. 2) · descargadas 4/7"
     },
     "video": {
       "group": "MULTIMEDIA",
