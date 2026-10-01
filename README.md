@@ -112,6 +112,24 @@ cual después se construye la página Oceanic.
 | Lagoon | [Lagoon 55](biblioteca/lagoon/lagoon-55/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [Lagoon 60](biblioteca/lagoon/lagoon-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [SIXTY 5](biblioteca/lagoon/sixty-5/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Saffier | [Saffier SC 6.50 Cruise](biblioteca/saffier/saffier-sc-6-50-cruise/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
+| Saffier | [Saffier SC 8m Cabin](biblioteca/saffier/saffier-sc-8m-cabin/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | RED |
+| Saffier | [Saffier SE 24 Lite](biblioteca/saffier/saffier-se-24-lite/00_MODELO/00_MODELO.md) | s/d | 5/9 verificada | YELLOW |
+| Saffier | [Saffier SE 28 Leopard](biblioteca/saffier/saffier-se-28-leopard/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
+| Saffier | [Saffier SE 33 Life](biblioteca/saffier/saffier-se-33-life/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Saffier | [Saffier SE 38 Leader](biblioteca/saffier/saffier-se-38-leader/00_MODELO/00_MODELO.md) | s/d | 5/9 verificada | YELLOW |
+| Saffier | [Saffier SL 46 MED | NORTH](biblioteca/saffier/saffier-sl-46-med-north/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 111 RS](biblioteca/solaris/solaris-111-rs/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 40 ST](biblioteca/solaris/solaris-40-st/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 40](biblioteca/solaris/solaris-40/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Solaris | [Solaris 44](biblioteca/solaris/solaris-44/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Solaris | [Solaris 50](biblioteca/solaris/solaris-50/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 55](biblioteca/solaris/solaris-55/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 60](biblioteca/solaris/solaris-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Solaris | [Solaris 64 RS](biblioteca/solaris/solaris-64-rs/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Solaris | [Solaris 74 RS](biblioteca/solaris/solaris-74-rs/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
+| Solaris | [Solaris 74](biblioteca/solaris/solaris-74/00_MODELO/00_MODELO.md) | s/d | 4/9 verificada | RED |
+| Solaris | [Solaris 80 RS](biblioteca/solaris/solaris-80-rs/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Xo | [XO DFNDR 8](biblioteca/xo/xo-dfndr-8/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Xo | [XO DFNDR 9](biblioteca/xo/xo-dfndr-9/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
 | Xo | [XO DSCVR 9 Open](biblioteca/xo/xo-dscvr-9-open/00_MODELO/00_MODELO.md) | s/d | 6/8 verificada | YELLOW |
