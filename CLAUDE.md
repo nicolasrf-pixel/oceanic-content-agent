@@ -84,6 +84,7 @@ python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
 python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
+python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
 ```
@@ -134,7 +135,8 @@ gama (FlippingBook) se registra como documento. Las reseñas de prensa enlazadas
 punto o coma ("Kg 9.850", "9,400 kg"), erratas ("M 22.OO"). Un valor imposible para la eslora (46 kg en un 80 RS) →
 `REQUIRES_REVIEW`; mayor + génova que no cuadra con la superficie vélica → `REQUIRES_REVIEW` (111 RS repite el aparejo del
 80 RS). Potencia auxiliar = la mayor de la fila de motor. Camarotes/baños por citas literales (`TEXT_XREF`). Un RS y un
-Flush Deck de la misma eslora (74 / 74 RS) no son variantes hermanas.
+Flush Deck de la misma eslora (74 / 74 RS) no son variantes hermanas. Las imágenes no se pueden bajar desde el contenedor
+(captcha anti-bots de SiteGround; no se elude): se bajan a mano en el navegador y se importan con `media --from-dir`.
 
 **Generación masiva (Saffier):** saffieryachts.com (WordPress); ficha completa por grupos (Dimensions, Sails, Engine, Tanks,
 Accomodations). "L.O.A. (with bowsprit)" → Eslora Total y "Length (without bowsprit)" → Eslora Casco; calado y lastre de la

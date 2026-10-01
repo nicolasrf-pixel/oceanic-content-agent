@@ -49,7 +49,8 @@ def main(argv: list[str]) -> int:
         return 1 if errors else 0
     if cmd == "media":
         model = Path(args[0])
-        print("imágenes:", media.download_images(model, "cdn" if "--cdn" in args else "original"))
+        local = next((a.split("=", 1)[1] for a in args if a.startswith("--from-dir=")), None)
+        print("imágenes:", media.download_images(model, f"dir:{local}" if local else "cdn" if "--cdn" in args else "original"))
         print("documentos:", media.download_documents(model))
         readiness.write(model)
         return 0

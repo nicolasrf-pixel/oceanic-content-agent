@@ -99,6 +99,20 @@ def _web_copy(data: bytes, max_edge: int) -> tuple[bytes, int, int]:
         return out.getvalue(), im.width, im.height
 
 
+def _local_original(folder: Path, url: str):
+    """A file saved by hand from the browser, matched by the original's file name (WordPress may add -1, (1)...)."""
+    from urllib.parse import unquote
+    name = unquote(url.split("?")[0].rsplit("/", 1)[-1])
+    stem = name.rsplit(".", 1)[0]
+    exact = folder / name
+    if exact.exists():
+        return exact
+    for f in sorted(folder.rglob("*")):
+        if f.is_file() and f.stem in (stem, f"{stem} (1)", f"{stem}(1)"):
+            return f
+    return None
+
+
 def download_images(model_dir: Path, source: str = "original") -> dict:
     """Store a WebP web copy per image; the original is referenced (URL, sha256, size), not stored.
 
@@ -119,6 +133,13 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
         legacy = model_dir / rec["file"] if rec["file"] else None
         if legacy and legacy.exists() and rec.get("width") == rec["declared_width"]:
             data, used = legacy.read_bytes(), rec.get("downloaded_from") or rec["source_url"]
+        elif source.startswith("dir:"):
+            # Originals downloaded by hand in a browser (sites behind an anti-bot challenge, e.g. solarisyachts.com).
+            f = _local_original(Path(source[4:]), rec["source_url"])
+            if f:
+                data, used = f.read_bytes(), rec["source_url"]
+            else:
+                err = "no está en la carpeta de descargas manuales"
         elif source == "cdn":
             # Fast path: the CDN serves a resized copy, enough for a 2560 px web copy.
             try:
@@ -156,7 +177,9 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
                                "source_copy_sha256": digest}
             full = True
         else:
-            rec["original"] = {"url": rec["source_url"], "fetched_from": used, "sha256": digest,
+            rec["original"] = {"url": rec["source_url"],
+                               "fetched_from": "descarga manual en navegador" if source.startswith("dir:") else used,
+                               "sha256": digest,
                                "width": w, "height": h, "format": fmt, "bytes": len(data),
                                "full_resolution": full}
         if digest in by_hash:
