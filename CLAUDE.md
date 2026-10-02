@@ -85,7 +85,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone: paquetes completos (no toca los curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone | switch: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
@@ -153,6 +153,12 @@ mismo modelo (un paquete).
 texto de presentación). La web solo publica eslora, flotación, manga, superficie mayor+foque (cifra única), gennaker, calado
 con la quilla abajo y peso de tripulación (2–3 personas): el resto queda `NOT_FOUND` (RED honesto). vxone.org (clase) se
 excluye. Imágenes en `static.wixstatic.com` (original = URL sin `/v1/...`).
+
+**Switch One Design:** un solo modelo (foiler one-design de carbono, ElementSIX Evolution) en switchonedesign.com (Wix).
+`adapters/switch.py`: `extract()` por página y `merge(pages)` (Home = S1 con el bloque "THE BOAT", Technology = S3 que
+repite el bloque, Formula Switch y Switch is Smart como textos atribuidos). Los 3 aparejos (6.5 / 7.5 / 8.5) son
+configuraciones de la misma plataforma. El bloque técnico publica "6.5-7.5-8.4 sqm" (prevalece) aunque el texto y el nombre
+del aparejo dicen 8.5 (anotado). "Platform Weight ~25 kg" → desplazamiento (aprox.). Sin depósitos, CE ni motor: RED honesto.
 
 `check` debe terminar sin errores antes de hacer commit.
 

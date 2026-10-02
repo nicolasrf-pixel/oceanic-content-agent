@@ -1,0 +1,42 @@
+{
+  "model": "Switch One Design",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Switch One Design",
+      "title": "Switch One Design",
+      "type": "official_product_page",
+      "publisher": "Switch One Design (ElementSIX Evolution, Italia)",
+      "url": "https://www.switchonedesign.com/",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/switch.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-switch-one-design.page.json"
+    },
+    {
+      "id": "S3",
+      "short": "Web oficial · Technology",
+      "title": "Switch One Design · Technology",
+      "type": "official_product_page",
+      "publisher": "Switch One Design (ElementSIX Evolution, Italia)",
+      "url": "https://www.switchonedesign.com/technology",
+      "accessed_at": "2026-10-01",
+      "retrieved_via": "Firecrawl rawHtml + adapters/switch.py",
+      "model_year_scope": "NO DECLARADO",
+      "note": "Página Technology: repite el bloque técnico (sail area, measurements, speed)."
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Switch Class (theswitchclass.com)",
+      "url": "https://www.theswitchclass.com/",
+      "reason": "Asociación de clase: reglas y eventos, no es la web del fabricante."
+    },
+    {
+      "title": "Prensa náutica (Giornale della Vela) y distribuidores (Negrinautica)",
+      "url": null,
+      "reason": "Terceros: no aportan datos (p. ej. la prensa cita 29 kg frente a los ~25 kg oficiales)."
+    }
+  ]
+}
