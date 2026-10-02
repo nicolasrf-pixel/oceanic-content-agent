@@ -1,0 +1,39 @@
+{
+  "model": "Oceanic Power RIB 380 LUX",
+  "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-380/",
+  "usage_terms": "Imágenes de oceanic.cl: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Oceanic Power o el importador antes de publicar.",
+  "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /wp-content/uploads/ (WordPress). El original se referencia en `original`.",
+  "images": [
+    {
+      "id": "rib-380-lux-1",
+      "title": "RIB-380-LUX-1.jpg",
+      "category": "OTHER",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
+      "category_confidence": "baja",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
+      "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
+      "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-380/",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Página del modelo"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-02",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    }
+  ]
+}

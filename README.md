@@ -122,6 +122,24 @@ cual después se construye la página Oceanic.
 | Lagoon | [Lagoon 55](biblioteca/lagoon/lagoon-55/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [Lagoon 60](biblioteca/lagoon/lagoon-60/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [SIXTY 5](biblioteca/lagoon/sixty-5/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Oceanic-power | [Oceanic Power RIB 330 LUX](biblioteca/oceanic-power/oceanic-power-rib-330-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 380 LUX](biblioteca/oceanic-power/oceanic-power-rib-380-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 430 LUX](biblioteca/oceanic-power/oceanic-power-rib-430-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 520 LUX](biblioteca/oceanic-power/oceanic-power-rib-520-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 580 LUX](biblioteca/oceanic-power/oceanic-power-rib-580-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 620 LUX](biblioteca/oceanic-power/oceanic-power-rib-620-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 660 LUX](biblioteca/oceanic-power/oceanic-power-rib-660-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 750 LUX](biblioteca/oceanic-power/oceanic-power-rib-750-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB 830 LUX](biblioteca/oceanic-power/oceanic-power-rib-830-lux/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 240](biblioteca/oceanic-power/oceanic-power-rib-alum-240/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 270](biblioteca/oceanic-power/oceanic-power-rib-alum-270/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 300](biblioteca/oceanic-power/oceanic-power-rib-alum-300/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 360](biblioteca/oceanic-power/oceanic-power-rib-alum-360/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 430](biblioteca/oceanic-power/oceanic-power-rib-alum-430/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 480](biblioteca/oceanic-power/oceanic-power-rib-alum-480/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 520](biblioteca/oceanic-power/oceanic-power-rib-alum-520/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 580](biblioteca/oceanic-power/oceanic-power-rib-alum-580/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
+| Oceanic-power | [Oceanic Power RIB ALUM 660](biblioteca/oceanic-power/oceanic-power-rib-alum-660/00_MODELO/00_MODELO.md) | s/d | 5/8 verificada | RED |
 | Saffier | [Saffier SC 6.50 Cruise](biblioteca/saffier/saffier-sc-6-50-cruise/00_MODELO/00_MODELO.md) | s/d | 6/9 verificada | YELLOW |
 | Saffier | [Saffier SC 8m Cabin](biblioteca/saffier/saffier-sc-8m-cabin/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |
 | Saffier | [Saffier SE 24 Lite](biblioteca/saffier/saffier-se-24-lite/00_MODELO/00_MODELO.md) | s/d | 5/9 verificada | YELLOW |

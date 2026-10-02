@@ -85,7 +85,7 @@ python -m oceanic render <modelo>      # tablas + multimedia.md + validación de
 python -m oceanic media <modelo>       # descarga imágenes THIS_MODEL y documentos, con hash y dimensiones
 python -m oceanic readiness <modelo>   # CONTENT_STATUS
 python -m oceanic check                # render + readiness de toda la biblioteca (falla si hay errores de reglas)
-python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone | switch: paquetes completos (no toca los curated)
+python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone | switch | oceanicpower: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
@@ -160,6 +160,12 @@ repite el bloque, Formula Switch y Switch is Smart como textos atribuidos). Los 
 configuraciones de la misma plataforma. El bloque técnico publica "6.5-7.5-8.4 sqm" (prevalece) aunque el texto y el nombre
 del aparejo dicen 8.5 (anotado). "Platform Weight ~25 kg" → desplazamiento (aprox.). Sin depósitos, CE ni motor: RED honesto.
 
+**Oceanic Power Boats:** semirrígidos (RIB ALUM y RIB LUX, 18 modelos) de la marca propia de Oceanic; su web oficial es
+oceanic.cl (`/oceanic-power-boats/<modelo>/`), que aquí sí es fuente S1 (no es la página de referencia excluida por la regla 1).
+"Ficha Técnica": largo total sin motor, manga, peso sin motor (→ desplazamiento), carga máxima, pasajeros, combustible y motor
+máx. (fueraborda no incluido). La lista "Esta embarcación Incluye" va a `standard.md` (hook `CFG["write_equipment"]` del builder
+compartido). Precio "DESDE USD" publicado. Sin CE, agua ni camarotes. Imágenes en `oceanic.cl/wp-content/uploads/`.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
@@ -170,7 +176,7 @@ del aparejo dicen 8.5 (anotado). "Platform Weight ~25 kg" → desplazamiento (ap
 - Los PDF oficiales solo se identifican y registran como documentos (no aportan datos).
 - Las descargas de binarios (imágenes, PDF) las hace `python -m oceanic media` y necesitan acceso de red a los CDN
   del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
-  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`; VX One: `static.wixstatic.com`).
+  Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`; VX One y Switch: `static.wixstatic.com`; Oceanic Power: `oceanic.cl`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
   HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).

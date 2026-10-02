@@ -1,0 +1,205 @@
+{
+  "model": {
+    "brand": "Oceanic Power",
+    "model": "Oceanic Power RIB ALUM 660",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanic Power RIB ALUM 660",
+    "configuration": "según ficha técnica",
+    "engine_option": "fueraborda (no incluido)",
+    "boat_type": "motor",
+    "range": "RIB ALUM"
+  },
+  "policy": "Solo web oficial de la marca (oceanic.cl, S1 página del modelo). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "6,60 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "LARGO TOTAL (S/MOTOR)",
+          "source_value": "6,60 mts/ 22 Pies",
+          "source_unit": null,
+          "normalized_value": 6.6,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Largo total (s/motor)' = eslora total publicada, sin motor."
+        }
+      ],
+      "notes": "Valor imperial publicado: 22 pies (≈ 6,71 m), coherente."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,90 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MANGA",
+          "source_value": "2,90mts/ 9,5 Pies",
+          "source_unit": null,
+          "normalized_value": 2.9,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Valor imperial publicado: 9,5 pies (≈ 2,90 m), coherente."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "670 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PESO KG.(SIN MOTOR)",
+          "source_value": "670",
+          "source_unit": null,
+          "normalized_value": 670.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Peso (sin motor)' = desplazamiento en rosca, como 'Weight (excl. Engine)' en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "200 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "CAPACIDAD COMBUSTIBLE",
+          "source_value": "200 L Tanque de Com. Integrado",
+          "source_unit": null,
+          "normalized_value": 200.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Tanque de combustible integrado (literal: '200 L Tanque de Com. Integrado')."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "200 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "200 HP",
+          "source_unit": null,
+          "normalized_value": 200.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Motor (máx-HP)' = potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "12",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PASAJEROS",
+          "source_value": "12",
+          "source_unit": null,
+          "normalized_value": 12.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Carga máxima publicada: 1664 Kg."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda hasta 200 hp (no incluido en la ficha)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 660",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-660/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "200 HP",
+          "source_unit": null,
+          "normalized_value": 200.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "Fueraborda no incluido: la web publica solo la potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    }
+  ]
+}

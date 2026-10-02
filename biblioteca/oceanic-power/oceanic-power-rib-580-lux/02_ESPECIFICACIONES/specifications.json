@@ -1,0 +1,205 @@
+{
+  "model": {
+    "brand": "Oceanic Power",
+    "model": "Oceanic Power RIB 580 LUX",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanic Power RIB 580 LUX",
+    "configuration": "según ficha técnica",
+    "engine_option": "fueraborda (no incluido)",
+    "boat_type": "motor",
+    "range": "RIB LUX"
+  },
+  "policy": "Solo web oficial de la marca (oceanic.cl, S1 página del modelo). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "5,80 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "LARGO TOTAL (S/MOTOR)",
+          "source_value": "5,80 mts/ 19 Pies",
+          "source_unit": null,
+          "normalized_value": 5.8,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Largo total (s/motor)' = eslora total publicada, sin motor."
+        }
+      ],
+      "notes": "Valor imperial publicado: 19 pies (≈ 5,79 m), coherente."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,45 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MANGA",
+          "source_value": "2,45 mts/ 8 Pies",
+          "source_unit": null,
+          "normalized_value": 2.45,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Valor imperial publicado: 8 pies (≈ 2,44 m), coherente."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "450 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PESO KG. (SIN MOTOR)",
+          "source_value": "450",
+          "source_unit": null,
+          "normalized_value": 450.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Peso (sin motor)' = desplazamiento en rosca, como 'Weight (excl. Engine)' en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "150 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "CAPACIDAD COMBUSTIBLE",
+          "source_value": "150 L",
+          "source_unit": null,
+          "normalized_value": 150.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "115 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "115 HP",
+          "source_unit": null,
+          "normalized_value": 115.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Motor (máx-HP)' = potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "10",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PASAJEROS",
+          "source_value": "10",
+          "source_unit": null,
+          "normalized_value": 10.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Carga máxima publicada: 1344 Kg."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda hasta 115 hp (no incluido en la ficha)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 580 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "115 HP",
+          "source_unit": null,
+          "normalized_value": 115.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "Fueraborda no incluido: la web publica solo la potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    }
+  ]
+}

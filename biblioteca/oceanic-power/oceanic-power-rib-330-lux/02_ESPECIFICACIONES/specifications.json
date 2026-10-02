@@ -1,0 +1,205 @@
+{
+  "model": {
+    "brand": "Oceanic Power",
+    "model": "Oceanic Power RIB 330 LUX",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanic Power RIB 330 LUX",
+    "configuration": "según ficha técnica",
+    "engine_option": "fueraborda (no incluido)",
+    "boat_type": "motor",
+    "range": "RIB LUX"
+  },
+  "policy": "Solo web oficial de la marca (oceanic.cl, S1 página del modelo). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "3,30 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "LARGO TOTAL (S/MOTOR)",
+          "source_value": "3,30 mts/ 11 Pies",
+          "source_unit": null,
+          "normalized_value": 3.3,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Largo total (s/motor)' = eslora total publicada, sin motor."
+        }
+      ],
+      "notes": "Valor imperial publicado: 11 pies (≈ 3,35 m), coherente."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "1,74 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MANGA",
+          "source_value": "1,74 mts/ 5,4 Pies",
+          "source_unit": null,
+          "normalized_value": 1.74,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Valor imperial publicado: 5,4 pies (≈ 1,65 m); no coincide con el métrico: se publica el métrico (decisión Oceanic)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "140 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PESO KG. (SIN MOTOR)",
+          "source_value": "140",
+          "source_unit": null,
+          "normalized_value": 140.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Peso (sin motor)' = desplazamiento en rosca, como 'Weight (excl. Engine)' en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "50 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "CAPACIDAD COMBUSTIBLE",
+          "source_value": "50 L",
+          "source_unit": null,
+          "normalized_value": 50.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "30 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "30 HP",
+          "source_unit": null,
+          "normalized_value": 30.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Motor (máx-HP)' = potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "5",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PASAJEROS",
+          "source_value": "5",
+          "source_unit": null,
+          "normalized_value": 5.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Carga máxima publicada: 495 Kg."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda hasta 30 hp (no incluido en la ficha)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB 330 LUX",
+          "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-330/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "30 HP",
+          "source_unit": null,
+          "normalized_value": 30.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "Fueraborda no incluido: la web publica solo la potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    }
+  ]
+}

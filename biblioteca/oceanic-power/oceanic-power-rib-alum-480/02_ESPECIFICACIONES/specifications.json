@@ -1,0 +1,205 @@
+{
+  "model": {
+    "brand": "Oceanic Power",
+    "model": "Oceanic Power RIB ALUM 480",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanic Power RIB ALUM 480",
+    "configuration": "según ficha técnica",
+    "engine_option": "fueraborda (no incluido)",
+    "boat_type": "motor",
+    "range": "RIB ALUM"
+  },
+  "policy": "Solo web oficial de la marca (oceanic.cl, S1 página del modelo). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "4,80 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "LARGO TOTAL (S/MOTOR)",
+          "source_value": "4,80 mts/ 15,7 Pies",
+          "source_unit": null,
+          "normalized_value": 4.8,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Largo total (s/motor)' = eslora total publicada, sin motor."
+        }
+      ],
+      "notes": "Valor imperial publicado: 15,7 pies (≈ 4,79 m), coherente."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "2,05 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MANGA",
+          "source_value": "2,05 mts/ 6,7 Pies",
+          "source_unit": null,
+          "normalized_value": 2.05,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Valor imperial publicado: 6,7 pies (≈ 2,04 m), coherente."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "224 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PESO KG.(SIN MOTOR)",
+          "source_value": "224",
+          "source_unit": null,
+          "normalized_value": 224.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Peso (sin motor)' = desplazamiento en rosca, como 'Weight (excl. Engine)' en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "80 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "CAPACIDAD COMBUSTIBLE",
+          "source_value": "80 L Tanque de Com. Integrado",
+          "source_unit": null,
+          "normalized_value": 80.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Tanque de combustible integrado (literal: '80 L Tanque de Com. Integrado')."
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "90 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "90 HP",
+          "source_unit": null,
+          "normalized_value": 90.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Motor (máx-HP)' = potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "8",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PASAJEROS",
+          "source_value": "8",
+          "source_unit": null,
+          "normalized_value": 8.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Carga máxima publicada: 1200 Kg."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda hasta 90 hp (no incluido en la ficha)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 480",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "90 HP",
+          "source_unit": null,
+          "normalized_value": 90.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "Fueraborda no incluido: la web publica solo la potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    }
+  ]
+}

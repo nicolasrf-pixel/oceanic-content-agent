@@ -976,6 +976,6 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
     draft = json.loads(draft_path.read_text()) if draft_path.exists() else None
     write_editorial(model_dir, ident, editorial_sources(ext), draft, images)
     has_features = write_features(model_dir, ident, ext)
-    equipment = write_equipment(model_dir, ident, ext)
+    equipment = (CFG.get("write_equipment") or write_equipment)(model_dir, ident, ext)
     write_model_md(model_dir, ident, ext, spec, images, equipment, has_features)
     return model_dir

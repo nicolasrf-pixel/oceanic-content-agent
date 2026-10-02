@@ -1,0 +1,36 @@
+{
+  "model": "Oceanic Power RIB 430 LUX",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Oceanic Power RIB 430 LUX",
+      "title": "Oceanic Power RIB 430 LUX",
+      "type": "official_product_page",
+      "publisher": "Oceanic (Chile) · marca propia Oceanic Power Boats",
+      "url": "https://oceanic.cl/oceanic-power-boats/rib-lux-430/",
+      "accessed_at": "2026-10-02",
+      "retrieved_via": "Firecrawl rawHtml + adapters/oceanicpower.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-oceanic-power-rib-430-lux.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "RIB LUX",
+      "type": "official_range_page",
+      "publisher": "Oceanic (Chile) · marca propia Oceanic Power Boats",
+      "url": "https://oceanic.cl/oceanic-power-boats/",
+      "accessed_at": "2026-10-02",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Página Oceanic de referencia (oceanicsite.netlify.app)",
+      "url": "https://oceanicsite.netlify.app/",
+      "reason": "Regla 1: solo estructura."
+    }
+  ]
+}

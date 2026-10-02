@@ -1,0 +1,205 @@
+{
+  "model": {
+    "brand": "Oceanic Power",
+    "model": "Oceanic Power RIB ALUM 240",
+    "model_year": "NO DECLARADO",
+    "variant": "Oceanic Power RIB ALUM 240",
+    "configuration": "según ficha técnica",
+    "engine_option": "fueraborda (no incluido)",
+    "boat_type": "motor",
+    "range": "RIB ALUM"
+  },
+  "policy": "Solo web oficial de la marca (oceanic.cl, S1 página del modelo). Métrico sobre imperial.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "2,40 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "LARGO TOTAL (S/MOTOR)",
+          "source_value": "2,40 mts/ 7,8 Pies",
+          "source_unit": null,
+          "normalized_value": 2.4,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Largo total (s/motor)' = eslora total publicada, sin motor."
+        }
+      ],
+      "notes": "Valor imperial publicado: 7,8 pies (≈ 2,38 m), coherente."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "1,62 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MANGA",
+          "source_value": "1,62 mts/ 5,3 Pies",
+          "source_unit": null,
+          "normalized_value": 1.62,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Valor imperial publicado: 5,3 pies (≈ 1,62 m), coherente."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "65 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PESO KG.(SIN MOTOR)",
+          "source_value": "65",
+          "source_unit": null,
+          "normalized_value": 65.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Peso (sin motor)' = desplazamiento en rosca, como 'Weight (excl. Engine)' en el 37 XC."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "12 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "CAPACIDAD COMBUSTIBLE",
+          "source_value": "12 L",
+          "source_unit": null,
+          "normalized_value": 12.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    },
+    {
+      "oceanic_field": "potencia_motor_maxima",
+      "label": "Potencia motor máx",
+      "status": "VERIFIED",
+      "display_value": "10 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "10 HP",
+          "source_unit": null,
+          "normalized_value": 10.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "'Motor (máx-HP)' = potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_pasajeros",
+      "label": "Capacidad de pasajeros",
+      "status": "VERIFIED",
+      "display_value": "3",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "PASAJEROS",
+          "source_value": "3",
+          "source_unit": null,
+          "normalized_value": 3.0,
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica"
+        }
+      ],
+      "notes": "Carga máxima publicada: 300 Kg."
+    },
+    {
+      "oceanic_field": "motorizacion",
+      "label": "Motorización",
+      "status": "VERIFIED",
+      "display_value": "Fueraborda hasta 10 hp (no incluido en la ficha)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Oceanic Power RIB ALUM 240",
+          "url": "https://oceanic.cl/oceanic-power-boats/ribalum-240/",
+          "accessed_at": "2026-10-02",
+          "source_field": "MOTOR (MÁX- HP)",
+          "source_value": "10 HP",
+          "source_unit": null,
+          "normalized_value": 10.0,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "Ficha Técnica",
+          "cross_reference": "Fueraborda no incluido: la web publica solo la potencia máxima admitida."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "NOT_FOUND",
+      "display_value": "-",
+      "records": [],
+      "notes": "No publicado en la ficha técnica ni en la página del modelo."
+    }
+  ]
+}
