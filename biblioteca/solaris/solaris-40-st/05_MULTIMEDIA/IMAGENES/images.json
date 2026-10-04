@@ -33,7 +33,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 1
     },
     {
@@ -64,7 +64,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 2
     },
     {
@@ -95,7 +95,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 3
     },
     {
@@ -126,7 +126,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "solaris40-st-3-scaled",
@@ -156,7 +156,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "solaris40-st-5-scaled-e1749721254574",
@@ -186,7 +186,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "solaris40-st-7-scaled",
@@ -216,7 +216,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "img-0093",
@@ -239,14 +239,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/img-0093.webp",
+      "width": 1920,
+      "height": 1280,
+      "format": "webp",
+      "sha256": "9e8f64cabda412a03a9108d5631b43e549ff6606b68e0e74d6e422fd80cfd36a",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0093.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "765aeee14d97d815cc7b067d7a1b863247e96e49a167a5e2b34b576acd45572b",
+        "width": 2085,
+        "height": 1390,
+        "format": "jpeg",
+        "bytes": 1449212,
+        "full_resolution": true
+      },
+      "bytes": 105012,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "img-0082-scaled",
@@ -276,7 +288,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "img-0048-e1689335059561",
@@ -299,14 +311,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/img-0048-e1689335059561.webp",
+      "width": 1400,
+      "height": 933,
+      "format": "webp",
+      "sha256": "f72f12c8fd0ff3dd0ab69f1f6faeb0c94ebd024809e271a5eed0ec72db5cfdd9",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0048-e1689335059561.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "9fe1345c66e9d6e3917f86065ff2949881e3ed43cd5734e8e78a3b612547c754",
+        "width": 1400,
+        "height": 933,
+        "format": "jpeg",
+        "bytes": 196860,
+        "full_resolution": true
+      },
+      "bytes": 83996,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "img-0038-e1689335014492",
@@ -329,14 +353,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/img-0038-e1689335014492.webp",
+      "width": 1400,
+      "height": 933,
+      "format": "webp",
+      "sha256": "a38994f8be44c0c552c40fead3720fb94bd9bae042dd856e69b9c7e06aeb677f",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0038-e1689335014492.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "421f20c0a2e7c416e87fa5e28a99efea069313b88e463e3a4267abef4f0bbdef",
+        "width": 1400,
+        "height": 933,
+        "format": "jpeg",
+        "bytes": 206518,
+        "full_resolution": true
+      },
+      "bytes": 92832,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "40-st-piano-interni-scaled",
@@ -366,7 +402,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "40st-draw",
@@ -396,7 +432,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "40-st-pianta-scaled",
@@ -426,7 +462,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     }
   ]
 }

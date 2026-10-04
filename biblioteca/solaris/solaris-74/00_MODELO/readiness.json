@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "RED",
-  "completeness_pct": 39,
+  "completeness_pct": 44,
   "critical_missing": [
     "tabla_tecnica"
   ],
@@ -58,23 +58,23 @@
     },
     "hero_image": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 candidatas · sin descargar"
+      "status": "OK",
+      "detail": "3 candidatas"
     },
     "exterior": {
       "group": "MULTIMEDIA",
       "status": "PARTIAL",
-      "detail": "3 en inventario (mín. 3) · descargadas 0/12"
+      "detail": "3 en inventario (mín. 3) · descargadas 7/12"
     },
     "interior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "5 en inventario (mín. 2) · descargadas 0/12"
+      "status": "OK",
+      "detail": "5 en inventario (mín. 2) · descargadas 7/12"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 0/12"
+      "detail": "0 en inventario (mín. 2) · descargadas 7/12"
     },
     "video": {
       "group": "MULTIMEDIA",

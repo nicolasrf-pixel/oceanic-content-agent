@@ -33,7 +33,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 1
     },
     {
@@ -64,7 +64,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 2
     },
     {
@@ -95,7 +95,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 3
     },
     {
@@ -119,14 +119,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/guillaume-plisson-for-solaris-yachts-2230-scaled.webp",
+      "width": 1920,
+      "height": 1280,
+      "format": "webp",
+      "sha256": "a939785b3c374107c7a988be9cf94c422337114a4417ce9bde333dc7d8698e22",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume_Plisson_for_Solaris_Yachts-2230-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "ba6db16e320d7b52574a985b701c9088e1745e777b828d06d4409e3b3c4eb6b3",
+        "width": 2560,
+        "height": 1706,
+        "format": "jpeg",
+        "bytes": 622958,
+        "full_resolution": true
+      },
+      "bytes": 215266,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-7-e1655824493878",
@@ -156,7 +168,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-9-scaled-e1655837209114",
@@ -186,7 +198,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-6-scaled-e1655824579810",
@@ -216,7 +228,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-3-scaled-e1655824629162",
@@ -246,7 +258,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-1-e1655824664794",
@@ -276,7 +288,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-8-e1655826809402",
@@ -306,7 +318,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-2-scaled-e1655824689379",
@@ -329,14 +341,26 @@
       "declared_format": "jpeg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/guillaume-plisson-for-solaris-yachts-2-scaled-e1655824689379.webp",
+      "width": 1400,
+      "height": 934,
+      "format": "webp",
+      "sha256": "c5ac908e2f1e5c9edb5a04ac6f48cabcc9f4f67840aa60906aff1c95aa9e99ef",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-2-scaled-e1655824689379.jpeg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "8520d8ecc3c22f53fdb6bb54738ea7814b36cbbfd433d0f09aa454c06949194b",
+        "width": 1400,
+        "height": 934,
+        "format": "jpeg",
+        "bytes": 240218,
+        "full_resolution": true
+      },
+      "bytes": 137652,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "dsc7810-1",
@@ -366,7 +390,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "s50-web-1",
@@ -396,7 +420,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "s50-web-2",
@@ -419,14 +443,26 @@
       "declared_format": "jpeg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/s50-web-2.webp",
+      "width": 1600,
+      "height": 1020,
+      "format": "webp",
+      "sha256": "396f7b7cdbdb3f9ae281533599466333fa281f8cf9b384ec45f285a2fdcf4715",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/S50-web-2.jpeg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "d3a23ced257f1d9aa749d19d5bf02de13c107f6cebfce8f95d1d2477e3c3740e",
+        "width": 1600,
+        "height": 1020,
+        "format": "jpeg",
+        "bytes": 1612570,
+        "full_resolution": true
+      },
+      "bytes": 116756,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "s50-web-3-copia",
@@ -456,7 +492,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "50-piano-interni-scaled",
@@ -486,7 +522,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "50-profilo-scaled",
@@ -516,7 +552,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "50-pianta-scaled",
@@ -546,7 +582,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     }
   ]
 }

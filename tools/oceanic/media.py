@@ -137,7 +137,14 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             # Originals downloaded by hand in a browser (sites behind an anti-bot challenge, e.g. solarisyachts.com).
             f = _local_original(Path(source[4:]), rec["source_url"])
             if f:
-                data, used = f.read_bytes(), rec["source_url"]
+                data, used = f.read_bytes(), "descarga manual en navegador"
+                # Same-named copy taken from a mirror (e.g. oceanic.cl): `mirror.json` maps file name -> mirror URL.
+                mj = next((m for m in (f.parent / "mirror.json", Path(source[4:]) / "mirror.json") if m.exists()), None)
+                if mj:
+                    mirror = json.loads(mj.read_text())
+                    mirror = mirror.get(model_dir.name, mirror)
+                    if f.name in mirror:
+                        used = f"copia con el mismo nombre de archivo publicada en {mirror[f.name]}"
             else:
                 err = "no está en la carpeta de descargas manuales"
         elif source == "cdn":
@@ -168,7 +175,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             continue
         digest = hashlib.sha256(data).hexdigest()
         # Fetched from the original URL = original, whatever its size; otherwise compare with the declared size.
-        full = used == rec["source_url"] or bool(w and rec["declared_width"] and w >= rec["declared_width"])
+        full = used in (rec["source_url"], "descarga manual en navegador") or bool(w and rec["declared_width"] and w >= rec["declared_width"])
         if source == "cdn":
             # Original not fetched: keep its reference and declared size from the DAM.
             rec["original"] = {"url": rec["source_url"], "fetched_from": None, "sha256": None,
@@ -178,7 +185,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             full = True
         else:
             rec["original"] = {"url": rec["source_url"],
-                               "fetched_from": "descarga manual en navegador" if source.startswith("dir:") else used,
+                               "fetched_from": used,
                                "sha256": digest,
                                "width": w, "height": h, "format": fmt, "bytes": len(data),
                                "full_resolution": full}

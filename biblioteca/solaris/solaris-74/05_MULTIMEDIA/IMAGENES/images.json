@@ -26,15 +26,27 @@
       "declared_format": "webp",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/HERO/solaris74-hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "sha256": "c0046757e95d0391a9e41455ad79245fbcf8101fa0387489070a81c05608caaf",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
-      "hero_rank": 1
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/2024/10/solaris74-hero.webp",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "119ac217f3ea94b3f3b1572c8a310b0735cfaaa4671bf7fa568cfd30f82b4264",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "bytes": 594744,
+        "full_resolution": true
+      },
+      "bytes": 404446,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-ext-b-0000-scaled",
@@ -57,15 +69,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/solaris74fd-ext-b-0000-scaled.webp",
+      "width": 2560,
+      "height": 1440,
+      "format": "webp",
+      "sha256": "e19d2bcae25158b34f80bfe64a38c4d8ee5d2c4674bb7a139ea1d792c843b511",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
-      "hero_rank": 2
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 2,
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-ext-B-0000-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "d95c2717f9ce254ab3fc98d4f47950285fe29a179af935bf692f7f4fcdff002f",
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "bytes": 496164,
+        "full_resolution": true
+      },
+      "bytes": 327398,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-ext-b-0003-scaled",
@@ -95,7 +119,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 3
     },
     {
@@ -119,14 +143,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/solaris74fd-ext-b-0002-scaled.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "sha256": "33e26a4a40cdb617f95badf45d0d34e6e6e2ec91539fa409caac475ee36d2788",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-ext-B-0002-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "18d532f933a2f795ddf664923fdbac6f90c4ddf3619c545aabd4e0351757177d",
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "bytes": 598318,
+        "full_resolution": true
+      },
+      "bytes": 262320,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-int-a-00003-scaled",
@@ -149,14 +185,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris74fd-int-a-00003-scaled.webp",
+      "width": 1920,
+      "height": 960,
+      "format": "webp",
+      "sha256": "557ea0315d7b774643095ab4934d9314ddc023cde7cde8e653fde7aa96a013bb",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00003-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "4a657187410cf88d3b1576a9f41740fa8a727b323fd54a6d25caf165fd8e8252",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 334423,
+        "full_resolution": true
+      },
+      "bytes": 103016,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-int-a-00000-scaled",
@@ -179,14 +227,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris74fd-int-a-00000-scaled.webp",
+      "width": 1920,
+      "height": 960,
+      "format": "webp",
+      "sha256": "69e39a958be979ab391427f4d0a4b5846ea9d495b61d3a17c1584820ce67c3d4",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00000-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "b960415cf37751a08881670d94403193eea1e83801ae5ee01665856c89d43c23",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 356627,
+        "full_resolution": true
+      },
+      "bytes": 109288,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-int-a-00001-scaled",
@@ -209,14 +269,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris74fd-int-a-00001-scaled.webp",
+      "width": 1920,
+      "height": 960,
+      "format": "webp",
+      "sha256": "7426dcc3c76f0d35dd77d681d4861fdb969252e7577333a160b99de11aa9f942",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00001-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "8ec1ee0be9aaab12770192a651ca3564edb0ab219d7e3052e5581bdcd48af19d",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 362619,
+        "full_resolution": true
+      },
+      "bytes": 118152,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-int-a-00002-scaled",
@@ -239,14 +311,26 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris74fd-int-a-00002-scaled.webp",
+      "width": 1920,
+      "height": 960,
+      "format": "webp",
+      "sha256": "567e89d42d8609dafc9b3ea97f1f1eb1fdf19cf557dc8ee7764d85a5b877239f",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00002-scaled.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "a4b92a52da932344fe41fe8e622aeca7ff7092ee15521e9fb6f03b64cb55a8fe",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 357753,
+        "full_resolution": true
+      },
+      "bytes": 113482,
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "solaris74fd-int-a-00005-scaled",
@@ -276,7 +360,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "74-fd-piano-interni-1-scaled",
@@ -306,7 +390,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "74-fd-profilo-1-scaled",
@@ -336,7 +420,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "74-fd-pianta-1-scaled",
@@ -366,7 +450,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     }
   ]
 }
