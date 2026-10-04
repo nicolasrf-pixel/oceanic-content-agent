@@ -10,9 +10,10 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
+| 1 | `rib-alum-430-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo. | [original](https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-430-1.jpg) |
 
 ## Imágenes del modelo (1)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`rib-alum-430-1`](https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-430-1.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Página del modelo'). |
+| [`rib-alum-430-1`](https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-430-1.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo. |

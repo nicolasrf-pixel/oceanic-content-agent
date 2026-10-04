@@ -8,12 +8,12 @@
     {
       "id": "rib-380-lux-1",
       "title": "RIB-380-LUX-1.jpg",
-      "category": "OTHER",
+      "category": "EXTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
-      "category_confidence": "baja",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
       "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
       "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
       "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-380/",
@@ -26,14 +26,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/rib-380-lux-1.webp",
+      "width": 562,
+      "height": 456,
+      "format": "webp",
+      "sha256": "d3a2e2e5c0d12c91fe3f97a871c82f00c247020c2c426f6ea3acd3b34d55842f",
       "collected_at": "2026-10-02",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "bytes": 7178,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg",
+        "sha256": "cfef85764558daa5ec6aebc26a4a64f328b40efd993f8f05233ca1a0bfa40e82",
+        "width": 562,
+        "height": 456,
+        "format": "jpeg",
+        "bytes": 65759,
+        "full_resolution": true
+      },
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-380-LUX-1.jpg"
     }
   ]
 }

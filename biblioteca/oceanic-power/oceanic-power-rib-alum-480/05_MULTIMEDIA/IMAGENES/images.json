@@ -8,12 +8,12 @@
     {
       "id": "rib-alum-480-1",
       "title": "RIB-ALUM-480-1.jpg",
-      "category": "OTHER",
+      "category": "EXTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
-      "category_confidence": "baja",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
       "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-480-1.jpg",
       "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-480-1.jpg",
       "source_page": "https://oceanic.cl/oceanic-power-boats/ribalum-480/",
@@ -26,14 +26,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/rib-alum-480-1.webp",
+      "width": 562,
+      "height": 456,
+      "format": "webp",
+      "sha256": "8aa66e9e07dbbb114e247f9a0fb475446955a0325ff279026b12c17d9537444d",
       "collected_at": "2026-10-02",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "bytes": 10634,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-480-1.jpg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-480-1.jpg",
+        "sha256": "e41a2289bb42c0c73ba1aa6b40cf159342459f5f9f6488d6025e242556bb043a",
+        "width": 562,
+        "height": 456,
+        "format": "jpeg",
+        "bytes": 89877,
+        "full_resolution": true
+      },
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-480-1.jpg"
     }
   ]
 }

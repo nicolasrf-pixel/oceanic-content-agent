@@ -10,9 +10,10 @@
 
 | Rank | id | Motivo | URL |
 | --- | --- | --- | --- |
+| 1 | `rib-330-lux-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo. | [original](https://oceanic.cl/wp-content/uploads/2024/06/RIB-330-LUX-2.jpg) |
 
 ## Imágenes del modelo (1)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`rib-330-lux-2`](https://oceanic.cl/wp-content/uploads/2024/06/RIB-330-LUX-2.jpg) | OTHER | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Página del modelo'). |
+| [`rib-330-lux-2`](https://oceanic.cl/wp-content/uploads/2024/06/RIB-330-LUX-2.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo. |

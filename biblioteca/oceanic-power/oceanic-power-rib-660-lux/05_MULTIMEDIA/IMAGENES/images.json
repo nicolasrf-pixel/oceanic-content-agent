@@ -8,12 +8,12 @@
     {
       "id": "rib-660-lux-1",
       "title": "RIB-660-LUX-1.jpg",
-      "category": "OTHER",
+      "category": "EXTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
-      "category_confidence": "baja",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
       "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-660-LUX-1.jpg",
       "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-660-LUX-1.jpg",
       "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-660/",
@@ -26,14 +26,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/rib-660-lux-1.webp",
+      "width": 562,
+      "height": 456,
+      "format": "webp",
+      "sha256": "5707998cfa2c899c9676b8b16d381ac43b1387ead0f80cbf03f56f649b2d0bae",
       "collected_at": "2026-10-02",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "bytes": 7416,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-660-LUX-1.jpg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-660-LUX-1.jpg",
+        "sha256": "01b7b6f7ca609a9546ba9da86fe6605e9ac492a1cf8796ff5839f36f7a29738f",
+        "width": 562,
+        "height": 456,
+        "format": "jpeg",
+        "bytes": 65213,
+        "full_resolution": true
+      },
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-660-LUX-1.jpg"
     }
   ]
 }

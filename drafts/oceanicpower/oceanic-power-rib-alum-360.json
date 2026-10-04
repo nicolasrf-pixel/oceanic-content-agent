@@ -11,5 +11,12 @@
  "diseno": "Admite accesorios como arco, consola y asientos cómodos para paseos familiares, deportes náuticos, pesca y aventura. Incluye de serie: caja de almacenamiento frontal.",
  "ingenieria": "Tubos de Hypalon y PVC y casco semirrígido. Peso sin motor: 93 kg. Capacidad de combustible: 25 L.",
  "experiencia": "Hasta 6 pasajeros y una carga máxima de 640 Kg. Equipamiento de serie detallado en la ficha (equipamiento STANDARD).",
- "performance": "Su peso permite una operación de bajo consumo. Admite un fueraborda de hasta 35 HP."
+ "performance": "Su peso permite una operación de bajo consumo. Admite un fueraborda de hasta 35 HP.",
+ "image_overrides": {
+  "RIB-ALUM-360-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo."
+  }
+ }
 }

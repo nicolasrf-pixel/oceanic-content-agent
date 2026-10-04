@@ -8,12 +8,12 @@
     {
       "id": "rib-430-lux-1",
       "title": "RIB-430-LUX-1.jpg",
-      "category": "OTHER",
+      "category": "EXTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
-      "category_confidence": "baja",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
       "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
       "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
       "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-430/",
@@ -26,14 +26,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/rib-430-lux-1.webp",
+      "width": 562,
+      "height": 456,
+      "format": "webp",
+      "sha256": "35614161077c4438f6e919327c0d789730b8bb0d98ee0514be80f6c32b36f713",
       "collected_at": "2026-10-02",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "bytes": 7832,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
+        "sha256": "f05ac8ec4e63cc20728620021d9f1ac09e0c5dd72f292d674bfe52666a17eab4",
+        "width": 562,
+        "height": 456,
+        "format": "jpeg",
+        "bytes": 70201,
+        "full_resolution": true
+      },
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg"
     }
   ]
 }

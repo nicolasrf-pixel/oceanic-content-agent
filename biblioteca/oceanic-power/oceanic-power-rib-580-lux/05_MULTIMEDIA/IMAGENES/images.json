@@ -8,12 +8,12 @@
     {
       "id": "rib-580-lux-1",
       "title": "RIB-580-LUX-1.jpg",
-      "category": "OTHER",
+      "category": "EXTERIOR",
       "scope": "THIS_MODEL",
-      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo').",
-      "category_confidence": "baja",
-      "hero_candidate": false,
-      "hero_reason": null,
+      "scope_evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo.",
       "source_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-580-LUX-1.jpg",
       "cdn_url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-580-LUX-1.jpg",
       "source_page": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
@@ -26,14 +26,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/rib-580-lux-1.webp",
+      "width": 562,
+      "height": 456,
+      "format": "webp",
+      "sha256": "0e22c8b325f46930e91c08f32e729eaeaef2ae37f311ea346ba7b04fe77c9e1e",
       "collected_at": "2026-10-02",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-04",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "bytes": 9914,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-580-LUX-1.jpg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-580-LUX-1.jpg",
+        "sha256": "f6e7b1a4f2ee99191e50d30d2153c3ac621cc5b5240914810bd3374ae2b3b1de",
+        "width": 562,
+        "height": 456,
+        "format": "jpeg",
+        "bytes": 76101,
+        "full_resolution": true
+      },
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-580-LUX-1.jpg"
     }
   ]
 }

@@ -29,3 +29,4 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
+| 1 | `rib-alum-580-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo. |

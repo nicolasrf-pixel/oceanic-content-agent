@@ -11,5 +11,12 @@
  "diseno": "Admite accesorios como arco, consola y asientos cómodos para paseos familiares, deportes náuticos, pesca y aventura. Incluye de serie: casco de aluminio con recubrimiento en polvo.",
  "ingenieria": "Tubos de Hypalon y PVC y casco semirrígido. Peso sin motor: 670 kg. Capacidad de combustible: 200 L Tanque de Com. Integrado.",
  "experiencia": "Hasta 12 pasajeros y una carga máxima de 1664 Kg. Equipamiento de serie detallado en la ficha (equipamiento STANDARD).",
- "performance": "Su peso permite una operación de bajo consumo. Admite un fueraborda de hasta 200 HP."
+ "performance": "Su peso permite una operación de bajo consumo. Admite un fueraborda de hasta 200 HP.",
+ "image_overrides": {
+  "RIB-ALUM-660-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Página del modelo'). Categoría EXTERIOR por revisión visual (2026-10-04): foto de estudio del modelo completo; archivo con el nombre del modelo."
+  }
+ }
 }
