@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `40st-bg-desktop-frame` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `solaris40-st-4-scaled` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `solaris40-lp-8-scaled-e1749720672308` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `oceanic-solaris40-ext-d-0000-hig-scaled-1` | Exterior horizontal del modelo; Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual. |
+| 3 | `oceanic-solaris40-ext-d-0001-hig-scaled-1` | Exterior horizontal del modelo; Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual. |

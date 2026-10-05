@@ -1,15 +1,89 @@
 {
- "hero": {
-  "headlines": [
-   "Reinterpretando un éxito.",
-   "Popa más abierta.",
-   "Interiores con cuero."
-  ],
-  "descripcion": "Velero de 13,35 m de eslora total con 3 camarotes y 2 baños, renovado según el lenguaje de diseño más reciente de Solaris."
- },
- "introduccion": "El nuevo Solaris 44 reinterpreta uno de los modelos de más éxito de la marca y lo alinea con el lenguaje de diseño de los últimos yates de la gama.",
- "diseno": "Popa más abierta, pasillos laterales más cortos con escalones integrados, asientos de timón rediseñados y nuevo plano de cubierta para más elegancia y habitabilidad.",
- "ingenieria": "Diseño de Javier Soto Acebal y estructuras del Solaris Design Team. Certificación CE categoría A.",
- "experiencia": "Interiores con 3-Studio en una única distribución clásica: cocina en L a babor, tres camarotes y dos baños con ducha separada. Uso extensivo de detalles en cuero.",
- "performance": "Superficie vélica de 119 m² (opcional) y motor de 30 hp, con opciones de 60 o 75 hp."
+  "hero": {
+    "headlines": [
+      "Reinterpretando un éxito.",
+      "Popa más abierta.",
+      "Interiores con cuero."
+    ],
+    "descripcion": "Velero de 13,35 m de eslora total con 3 camarotes y 2 baños, renovado según el lenguaje de diseño más reciente de Solaris."
+  },
+  "introduccion": "El nuevo Solaris 44 reinterpreta uno de los modelos de más éxito de la marca y lo alinea con el lenguaje de diseño de los últimos yates de la gama.",
+  "diseno": "Popa más abierta, pasillos laterales más cortos con escalones integrados, asientos de timón rediseñados y nuevo plano de cubierta para más elegancia y habitabilidad.",
+  "ingenieria": "Diseño de Javier Soto Acebal y estructuras del Solaris Design Team. Certificación CE categoría A.",
+  "experiencia": "Interiores con 3-Studio en una única distribución clásica: cocina en L a babor, tres camarotes y dos baños con ducha separada. Uso extensivo de detalles en cuero.",
+  "performance": "Superficie vélica de 119 m² (opcional) y motor de 30 hp, con opciones de 60 o 75 hp.",
+  "extra_images": [
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/44-PANORAMICA-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1048,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0502-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1440,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0534-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1440,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0637-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1440,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v01.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 1600,
+      "height": 1020,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v02.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 1600,
+      "height": 1020,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0411.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2000,
+      "height": 1278,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0434-copia-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-44/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1686,
+      "collected_at": "2026-10-05"
+    }
+  ]
 }

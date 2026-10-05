@@ -1,15 +1,53 @@
 {
- "hero": {
-  "headlines": [
-   "El diseño de Soto Acebal en 40 pies.",
-   "Doble timón, doble rueda.",
-   "Clásico por dentro."
-  ],
-  "descripcion": "Velero de 12,36 m de eslora total diseñado por Javier Soto Acebal, con 3 camarotes y 2 baños."
- },
- "introduccion": "El Solaris 40 nació para reunir las últimas innovaciones en un 40 pies sin perder el estilo de diseño de Javier Soto Acebal, con avances tanto en el rendimiento del casco como en el confort en el mar.",
- "diseno": "Proa muy boyante con un pantoque sutil que termina a media eslora, equilibrada por secciones de popa anchas. Bañera amplia con dos ruedas de timón de lado a lado para gobernar con vista despejada incluso con la capota montada.",
- "ingenieria": "Las secciones de popa anchas permiten dos palas de timón que aseguran una excelente estabilidad direccional. Calado de 2,40 m (2,00 m opcional).",
- "experiencia": "Interiores clásicos creados con el arquitecto Roseo: cocina en L a babor, 3 camarotes y 2 baños, con ducha separada en el baño del armador. Seis ventanas en el casco aportan luz natural.",
- "performance": "Diseñado para mejorar el rendimiento del casco y el confort en el mar."
+  "hero": {
+    "headlines": [
+      "El diseño de Soto Acebal en 40 pies.",
+      "Doble timón, doble rueda.",
+      "Clásico por dentro."
+    ],
+    "descripcion": "Velero de 12,36 m de eslora total diseñado por Javier Soto Acebal, con 3 camarotes y 2 baños."
+  },
+  "introduccion": "El Solaris 40 nació para reunir las últimas innovaciones en un 40 pies sin perder el estilo de diseño de Javier Soto Acebal, con avances tanto en el rendimiento del casco como en el confort en el mar.",
+  "diseno": "Proa muy boyante con un pantoque sutil que termina a media eslora, equilibrada por secciones de popa anchas. Bañera amplia con dos ruedas de timón de lado a lado para gobernar con vista despejada incluso con la capota montada.",
+  "ingenieria": "Las secciones de popa anchas permiten dos palas de timón que aseguran una excelente estabilidad direccional. Calado de 2,40 m (2,00 m opcional).",
+  "experiencia": "Interiores clásicos creados con el arquitecto Roseo: cocina en L a babor, 3 camarotes y 2 baños, con ducha separada en el baño del armador. Seis ventanas en el casco aportan luz natural.",
+  "performance": "Diseñado para mejorar el rendimiento del casco y el confort en el mar.",
+  "extra_images": [
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/S401-1-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-40/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1707,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-1592-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-40/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1707,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-1834-scaled-1.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-40/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1707,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8394-scaled-e1656099992748.jpeg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-40/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1260,
+      "collected_at": "2026-10-05"
+    }
+  ]
 }

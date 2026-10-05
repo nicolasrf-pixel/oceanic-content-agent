@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import re
+from urllib.parse import unquote
 from pathlib import Path
 
 from .. import media
@@ -585,7 +586,7 @@ def _sister(slug: str, own: dict) -> bool:
     return t["range"] == own["range"] and t["size"] == own["size"]
 
 
-def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> dict:
+def classify_images(ext: dict, ident: dict, overrides: dict | None = None, extra: list | None = None) -> dict:
     recs, ids = [], set()
     own = ident["tokens"]
     for im in ext["images"]:
@@ -648,6 +649,24 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None) -> di
                     r.update(category=ov["category"], category_confidence="revisión visual")
                 r["download_status"] = "PENDING" if ov["scope"] == "THIS_MODEL" else \
                     f"NOT_DOWNLOADED (fuera de alcance: {ov['scope']})"
+    # Copies of official images published by Oceanic on another page (e.g. oceanic.cl), with no same-named file in
+    # the official gallery: added only when Oceanic confirms them (drafts › extra_images, visual category).
+    for ex in extra or []:
+        name = unquote(ex["url"].rsplit("/", 1)[-1])
+        rid = base = "oceanic-" + media._slug(re.sub(r"\.\w+$", "", name))
+        n = 2
+        while rid in ids:
+            rid, n = f"{base}-{n}", n + 1
+        ids.add(rid)
+        recs.append({
+            "id": rid, "title": name, "category": ex["category"], "scope": "THIS_MODEL",
+            "scope_evidence": ex["evidence"], "category_confidence": "revisión visual", "hero_candidate": False,
+            "hero_reason": None, "source_url": ex["url"], "cdn_url": ex["url"], "source_page": ex["page"],
+            "source_context": {"section": "copia publicada por Oceanic", "section_title": ex["page"]},
+            "declared_width": ex.get("width"), "declared_height": ex.get("height"),
+            "declared_format": name.rsplit(".", 1)[-1].lower(), "dam_tags": [], "model_year_tag": None,
+            "file": None, "width": None, "height": None, "format": None, "sha256": None,
+            "collected_at": ex["collected_at"], "downloaded_at": None, "download_status": "PENDING"})
     pool = [r for r in recs if r["scope"] == "THIS_MODEL" and r["category"] in ("HERO", "EXTERIOR", "UNDERWAY")
             and ((r["declared_width"] or 0) >= (r["declared_height"] or 1) or not (r["declared_width"] or r["declared_height"]))]
     pool.sort(key=lambda r: (r["category"] == "HERO", r["declared_width"] or 0), reverse=True)
@@ -921,7 +940,7 @@ def build(slug: str, ext: dict, drafts_dir: Path, force: bool = False) -> Path:
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     draft_path = drafts_dir / f"{slug}.json"
     draft = json.loads(draft_path.read_text()) if draft_path.exists() else None
-    images = classify_images(ext, ident, (draft or {}).get("image_overrides"))
+    images = classify_images(ext, ident, (draft or {}).get("image_overrides"), (draft or {}).get("extra_images"))
     _keep_downloads(inv_path, images)
     inv_path.parent.mkdir(parents=True, exist_ok=True)
     inv_path.write_text(json.dumps(images, ensure_ascii=False, indent=2) + "\n")

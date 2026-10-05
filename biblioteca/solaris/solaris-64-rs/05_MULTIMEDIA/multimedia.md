@@ -18,17 +18,17 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`64rs-bg-desktop-frame`](https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/64RS_bg_desktop-frame.webp) | HERO | alta |  | NonexNone webp | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'hero'). |
-| [`mg-0180-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0180-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
-| [`s64-rs-1`](https://www.solarisyachts.com/cms/wp-content/uploads/S64-rs-1.jpeg) | EXTERIOR | media |  | NonexNone jpeg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
-| [`mg-8657-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_8657-post-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
-| [`solaris-64rs-1-b-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-64RS-1-b-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
-| [`solaris-cup-dji-0772-1-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-Cup-DJI_0772-1-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Exterior'). |
-| [`dinette-003-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Dinette_003-scaled.jpg) | INTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
-| [`camera-arm-001-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Camera-Arm_001-scaled.jpg) | INTERIOR | media |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Interior'). |
-| [`64-piano-interni-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PIANO-INTERNI-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
-| [`64-profilo-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PROFILO-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
-| [`64-pianta-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PIANTA-scaled.jpg) | PLANS | alta |  | NonexNone jpg | FAILED (desafío anti-bots del servidor (captcha)) | Solo en la página del modelo (sección 'Drawings'). |
+| [`64rs-bg-desktop-frame`](https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/64RS_bg_desktop-frame.webp) | HERO | alta |  | NonexNone webp | PENDING | Solo en la página del modelo (sección 'hero'). |
+| [`mg-0180-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_0180-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
+| [`s64-rs-1`](https://www.solarisyachts.com/cms/wp-content/uploads/S64-rs-1.jpeg) | EXTERIOR | media |  | NonexNone jpeg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
+| [`mg-8657-post-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/MG_8657-post-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
+| [`solaris-64rs-1-b-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-64RS-1-b-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
+| [`solaris-cup-dji-0772-1-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-Cup-DJI_0772-1-scaled.jpg) | EXTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Exterior'). |
+| [`dinette-003-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Dinette_003-scaled.jpg) | INTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Interior'). |
+| [`camera-arm-001-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/Camera-Arm_001-scaled.jpg) | INTERIOR | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Interior'). |
+| [`64-piano-interni-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PIANO-INTERNI-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
+| [`64-profilo-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PROFILO-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
+| [`64-pianta-scaled`](https://www.solarisyachts.com/cms/wp-content/uploads/64-PIANTA-scaled.jpg) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Drawings'). |
 
 ## Videos (1)
 

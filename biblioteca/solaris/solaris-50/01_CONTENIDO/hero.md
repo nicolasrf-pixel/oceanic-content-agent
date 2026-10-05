@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `50-bg-desktop-frame` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `guillaume-plisson-for-solaris-yachts-4-scaled-e1655824752937` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
-| 3 | `guillaume-plisson-for-solaris-yachts-5-scaled-e1655824421804` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |
+| 2 | `oceanic-guillaume-plisson-for-solaris-yachts-2670-scaled-1` | Exterior horizontal del modelo; Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual. |
+| 3 | `guillaume-plisson-for-solaris-yachts-4-scaled-e1655824752937` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). |

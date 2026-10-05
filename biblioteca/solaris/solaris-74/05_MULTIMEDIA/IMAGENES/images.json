@@ -35,6 +35,7 @@
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
+      "bytes": 404446,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/2024/10/solaris74-hero.webp",
         "fetched_from": "descarga manual en navegador",
@@ -45,7 +46,6 @@
         "bytes": 594744,
         "full_resolution": true
       },
-      "bytes": 404446,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -78,6 +78,7 @@
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
+      "bytes": 327398,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-ext-B-0000-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -88,7 +89,6 @@
         "bytes": 496164,
         "full_resolution": true
       },
-      "bytes": 327398,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -119,7 +119,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
+      "download_status": "PENDING",
       "hero_rank": 3
     },
     {
@@ -151,6 +151,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 262320,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-ext-B-0002-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -161,7 +162,6 @@
         "bytes": 598318,
         "full_resolution": true
       },
-      "bytes": 262320,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -193,6 +193,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 103016,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00003-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -203,7 +204,6 @@
         "bytes": 334423,
         "full_resolution": true
       },
-      "bytes": 103016,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -235,6 +235,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 109288,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00000-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -245,7 +246,6 @@
         "bytes": 356627,
         "full_resolution": true
       },
-      "bytes": 109288,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -277,6 +277,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 118152,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00001-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -287,7 +288,6 @@
         "bytes": 362619,
         "full_resolution": true
       },
-      "bytes": 118152,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -319,6 +319,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 113482,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris74fd-int-A-.00002-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -329,7 +330,6 @@
         "bytes": 357753,
         "full_resolution": true
       },
-      "bytes": 113482,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -360,7 +360,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "PENDING"
     },
     {
       "id": "74-fd-piano-interni-1-scaled",
@@ -390,7 +390,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "PENDING"
     },
     {
       "id": "74-fd-profilo-1-scaled",
@@ -420,7 +420,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "PENDING"
     },
     {
       "id": "74-fd-pianta-1-scaled",
@@ -450,7 +450,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "PENDING"
     }
   ]
 }

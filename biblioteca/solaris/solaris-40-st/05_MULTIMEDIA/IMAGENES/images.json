@@ -33,7 +33,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
       "hero_rank": 1
     },
     {
@@ -43,8 +43,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior').",
       "category_confidence": "media",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior').",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris40-st-4-scaled.jpeg",
       "cdn_url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris40-st-4-scaled.jpeg",
       "source_page": "https://www.solarisyachts.com/en/yachts/40-st/",
@@ -64,8 +64,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
-      "hero_rank": 2
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris40-lp-8-scaled-e1749720672308",
@@ -74,8 +73,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior').",
       "category_confidence": "media",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior').",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris40_LP_8-scaled-e1749720672308.jpg",
       "cdn_url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris40_LP_8-scaled-e1749720672308.jpg",
       "source_page": "https://www.solarisyachts.com/en/yachts/40-st/",
@@ -95,8 +94,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
-      "hero_rank": 3
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris40-st-1",
@@ -126,7 +124,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris40-st-3-scaled",
@@ -156,7 +154,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris40-st-5-scaled-e1749721254574",
@@ -186,7 +184,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "solaris40-st-7-scaled",
@@ -216,7 +214,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "img-0093",
@@ -247,6 +245,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 105012,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0093.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -257,7 +256,6 @@
         "bytes": 1449212,
         "full_resolution": true
       },
-      "bytes": 105012,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -288,7 +286,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "img-0048-e1689335059561",
@@ -319,6 +317,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 83996,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0048-e1689335059561.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -329,7 +328,6 @@
         "bytes": 196860,
         "full_resolution": true
       },
-      "bytes": 83996,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -361,6 +359,7 @@
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
+      "bytes": 92832,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0038-e1689335014492.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -371,7 +370,6 @@
         "bytes": 206518,
         "full_resolution": true
       },
-      "bytes": 92832,
       "downloaded_from": "descarga manual en navegador"
     },
     {
@@ -402,7 +400,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "40st-draw",
@@ -432,7 +430,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
     },
     {
       "id": "40-st-pianta-scaled",
@@ -462,7 +460,135 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
+      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+    },
+    {
+      "id": "oceanic-solaris40-ext-d-0000-hig-scaled-1",
+      "title": "Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "source_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+      "cdn_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+      "source_page": "https://oceanic.cl/solaris-yachts/solaris-40-st/",
+      "source_context": {
+        "section": "copia publicada por Oceanic",
+        "section_title": "https://oceanic.cl/solaris-yachts/solaris-40-st/"
+      },
+      "declared_width": 2560,
+      "declared_height": 1440,
+      "declared_format": "jpeg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris40-ext-d-0000-hig-scaled-1.webp",
+      "width": 2560,
+      "height": 1440,
+      "format": "webp",
+      "sha256": "0a0d0319eb54f70f3ac83a7106e4c3601724b86064e76cbb3cea5dc02f5f59da",
+      "collected_at": "2026-10-05",
+      "downloaded_at": "2026-10-05",
+      "download_status": "WEB_COPY",
+      "hero_rank": 2,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+        "sha256": "c5b246ef3e7a602c4be199b962fbbb8e34d3eceb97b2664d7b54a104fb008a45",
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "bytes": 840440,
+        "full_resolution": true
+      },
+      "bytes": 515248,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg"
+    },
+    {
+      "id": "oceanic-solaris40-ext-d-0001-hig-scaled-1",
+      "title": "Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "source_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+      "cdn_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+      "source_page": "https://oceanic.cl/solaris-yachts/solaris-40-st/",
+      "source_context": {
+        "section": "copia publicada por Oceanic",
+        "section_title": "https://oceanic.cl/solaris-yachts/solaris-40-st/"
+      },
+      "declared_width": 2560,
+      "declared_height": 1440,
+      "declared_format": "jpeg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris40-ext-d-0001-hig-scaled-1.webp",
+      "width": 2560,
+      "height": 1440,
+      "format": "webp",
+      "sha256": "0578217c4a1d8c71c353c4fc825122b9d6fd0a73bf49d2c65632ef7bdc86584b",
+      "collected_at": "2026-10-05",
+      "downloaded_at": "2026-10-05",
+      "download_status": "WEB_COPY",
+      "hero_rank": 3,
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+        "sha256": "22459a8c07b113e87a9828f88915d9ecd2a480d6fdaa03cdcada32c083888dca",
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "bytes": 838203,
+        "full_resolution": true
+      },
+      "bytes": 508982,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg"
+    },
+    {
+      "id": "oceanic-solaris40-ext-d-0011-hig-scaled-1",
+      "title": "Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+      "cdn_url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+      "source_page": "https://oceanic.cl/solaris-yachts/solaris-40-st/",
+      "source_context": {
+        "section": "copia publicada por Oceanic",
+        "section_title": "https://oceanic.cl/solaris-yachts/solaris-40-st/"
+      },
+      "declared_width": 2560,
+      "declared_height": 1440,
+      "declared_format": "jpeg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris40-ext-d-0011-hig-scaled-1.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "sha256": "e3e5ca0ada66703ddb01e0c04802e2b123dd99928ff511ea43686d880755dc6a",
+      "collected_at": "2026-10-05",
+      "downloaded_at": "2026-10-05",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+        "sha256": "8bacb7525e5d75a6b5c72e0e23ce72f3b4d11c726777735fdcd63166c2b1c0ce",
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "bytes": 595228,
+        "full_resolution": true
+      },
+      "bytes": 162928,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg"
     }
   ]
 }

@@ -1,15 +1,53 @@
 {
- "hero": {
-  "headlines": [
-   "Nuevas líneas de agua.",
-   "Garaje para la auxiliar.",
-   "Interiores con Poltrona Frau."
-  ],
-  "descripcion": "Velero de 15,50 m de eslora total y 4,78 m de manga, con garaje estanco para la auxiliar y doble timón."
- },
- "introduccion": "Tras el éxito de los Solaris 48 y 50, la marca diseñó nuevas líneas de agua para crear el nuevo Solaris 50.",
- "diseno": "Bañera más ancha con una o dos mesas y ruedas de timón de lado a lado que mejoran la visibilidad incluso con la capota. Escalones delante del puesto de gobierno que facilitan moverse por cubierta.",
- "ingenieria": "Las secciones de popa alargadas permiten dos palas de timón y un garaje estanco para la auxiliar con acceso longitudinal, solución única en un barco de este tamaño.",
- "experiencia": "Acabados del salón y del camarote del armador personalizables en colaboración con Poltrona Frau.",
- "performance": "Superficie vélica de 155 m² y motor Volvo Penta de 50 hp, con opción de 75 hp."
+  "hero": {
+    "headlines": [
+      "Nuevas líneas de agua.",
+      "Garaje para la auxiliar.",
+      "Interiores con Poltrona Frau."
+    ],
+    "descripcion": "Velero de 15,50 m de eslora total y 4,78 m de manga, con garaje estanco para la auxiliar y doble timón."
+  },
+  "introduccion": "Tras el éxito de los Solaris 48 y 50, la marca diseñó nuevas líneas de agua para crear el nuevo Solaris 50.",
+  "diseno": "Bañera más ancha con una o dos mesas y ruedas de timón de lado a lado que mejoran la visibilidad incluso con la capota. Escalones delante del puesto de gobierno que facilitan moverse por cubierta.",
+  "ingenieria": "Las secciones de popa alargadas permiten dos palas de timón y un garaje estanco para la auxiliar con acceso longitudinal, solución única en un barco de este tamaño.",
+  "experiencia": "Acabados del salón y del camarote del armador personalizables en colaboración con Poltrona Frau.",
+  "performance": "Superficie vélica de 155 m² y motor Volvo Penta de 50 hp, con opción de 75 hp.",
+  "extra_images": [
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/download-1.jpg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-50/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 1280,
+      "height": 669,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/download-2.jpg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-50/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 1536,
+      "height": 864,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/download.jpg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-50/",
+      "category": "INTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 1536,
+      "height": 864,
+      "collected_at": "2026-10-05"
+    },
+    {
+      "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume_Plisson_for_Solaris_Yachts-2670-scaled-1.jpg",
+      "page": "https://oceanic.cl/solaris-yachts/solaris-50/",
+      "category": "EXTERIOR",
+      "evidence": "Copia de una imagen oficial de Solaris publicada por Oceanic (importador) en la página del modelo en oceanic.cl; sin archivo homónimo en la galería oficial. Oceanic confirma que es imagen oficial del modelo (decisión Oceanic 2026-10-05). Categoría por revisión visual.",
+      "width": 2560,
+      "height": 1706,
+      "collected_at": "2026-10-05"
+    }
+  ]
 }
