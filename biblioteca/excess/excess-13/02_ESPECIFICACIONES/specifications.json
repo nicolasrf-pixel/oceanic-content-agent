@@ -1,0 +1,400 @@
+{
+  "model": {
+    "brand": "Excess",
+    "model": "Excess 13",
+    "model_year": "NO DECLARADO",
+    "variant": "Excess 13",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "2 x 40 Hp / 2 x 29 Kw",
+    "boat_type": "catamaran_vela",
+    "range": "Excess 13"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'THE ESSENTIALS IN FIGURES' prevalece; si métrico e imperial no coinciden se publica el métrico.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "12,99 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Overall length [std.]",
+          "source_value": "12.99 m",
+          "source_unit": "m",
+          "normalized_value": 12.99,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Length overall' / 'Overall length [std.]' = eslora total de la versión estándar."
+        }
+      ],
+      "notes": "Valor imperial publicado: 42’7’’ (coherente). La web publica además 'Max. length [incl. options]': 15.30 m | 50’2’’."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "7,25 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Beam",
+          "source_value": "7.25 m",
+          "source_unit": "m",
+          "normalized_value": 7.25,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Beam' = manga máxima publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 23’9’’ (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "10.650 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Light displacement [Mlc]*",
+          "source_value": "10650 kg",
+          "source_unit": "kg",
+          "normalized_value": 10650.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Light displacement' (EEC / MLC) = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 23480 lbs (coherente). La etiqueta de la web lleva asterisco (nota al pie no publicada en la página)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Cabin",
+          "source_value": "3 to 4",
+          "source_unit": null,
+          "normalized_value": "3 / 4",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Layouts publicados: Salon and cockpits, 3 CABIN, 4 CABIN.",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "400 L (2 x 200 L)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Fuel capacity",
+          "source_value": "2 x 200L | 2 x 53 US Gal",
+          "source_unit": null,
+          "normalized_value": 400,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "La web publica 2 depósitos de 200 L ('2 x 200 L'): capacidad total 400 L."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "300 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Standard water capacity",
+          "source_value": "300 L",
+          "source_unit": "l",
+          "normalized_value": 300.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Valor imperial publicado: 79 US Gal (coherente). 'Optional water capacity': 300 L | 79 US Gal (opcional)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A8 / B12 / C16 / D20",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "EC Certification*",
+          "source_value": "A: 8 - B: 12 - C: 16 - D: 20",
+          "source_unit": null,
+          "normalized_value": "A8 / B12 / C16 / D20",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "113 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Upwind sail area",
+          "source_value": "113m² | 1,216 sq ft",
+          "source_unit": null,
+          "normalized_value": 113.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Sails",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (aparejo estándar)."
+        }
+      ],
+      "notes": "Aparejo Pulse Line (opcional): 122 m² | 1,313 sq ft."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 40 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Engine",
+          "source_value": "2 x 40 Hp | 2 x 29 Kw",
+          "source_unit": null,
+          "normalized_value": 80,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "Motorización publicada '2 x 40 Hp': 2 motores de 40 hp."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "71 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Square top main sail",
+          "source_value": "71 m ² | 764 sq ft",
+          "source_unit": null,
+          "normalized_value": 71.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Sails"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "12,38 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Hull length",
+          "source_value": "12.38 m",
+          "source_unit": "m",
+          "normalized_value": 12.38,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions"
+        }
+      ],
+      "notes": "Valor imperial publicado: 40’7’’ (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "19,05 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Mast clearance [std./Pulse Line]",
+          "source_value": "19.05 m",
+          "source_unit": "m",
+          "normalized_value": 19.05,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Mast clearance' = altura del mástil sobre la flotación (aparejo estándar)."
+        }
+      ],
+      "notes": "Valor imperial publicado: 62’6’’ (coherente). Publicado '19.05 m | 62’6’’ / 20.15 m | 66’1’’' (estándar / Pulse Line): se toma el estándar."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,48 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Draft",
+          "source_value": "1.48 m",
+          "source_unit": "m",
+          "normalized_value": 1.48,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions"
+        }
+      ],
+      "notes": "Valor imperial publicado: 4’10’’ (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "160 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Black water capacity",
+          "source_value": "160 L",
+          "source_unit": "l",
+          "normalized_value": 160.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Valor imperial publicado: 42 US gal (coherente)."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 40 Hp / 2 x 29 Kw",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Engine",
+          "source_value": "2 x 40 Hp | 2 x 29 Kw",
+          "source_unit": null,
+          "normalized_value": "2 x 40 Hp | 2 x 29 Kw",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "Motorización del bloque técnico."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6 a 12",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Berths",
+          "source_value": "6 to 12",
+          "source_unit": null,
+          "normalized_value": "6 a 12",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Cabinet Lombard (Marc Lombard YDG) · Diseño interior: Jean-Marc Piaton",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 13",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+          "accessed_at": "2026-10-05",
+          "source_field": "Texto de la página",
+          "source_value": "With the architectural expertise of Marc Lombard YDG",
+          "source_unit": null,
+          "normalized_value": "Cabinet Lombard (Marc Lombard YDG) · Diseño interior: Jean-Marc Piaton",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Texto de la página",
+          "cross_reference": "El bloque técnico no publica este campo; el texto atribuye la arquitectura a Marc Lombard YDG (Eric Levet, Cabinet Lombard) y el diseño interior a Jean-Marc Piaton."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

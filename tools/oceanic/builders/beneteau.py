@@ -567,9 +567,9 @@ def _category(im: dict) -> tuple[str, str]:
         return "DETAIL", "baja"
     if re.search(r"interior|intérieur|living onboard|living", title):
         return "INTERIOR", "media"
-    if re.search(r"sailing experience|navigation", title):
+    if re.search(r"sailing experience|navigation|under sail", title):
         return "UNDERWAY", "media"
-    if re.search(r"exterior|extérieur|design$", title):
+    if re.search(r"exterior|extérieur|design$|^outside$|at mooring", title):
         return "EXTERIOR", "media"
     if im["section"] == "slider-design-pleasure":
         return "DETAIL", "baja"

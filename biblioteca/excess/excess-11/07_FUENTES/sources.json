@@ -1,0 +1,46 @@
+{
+  "model": "Excess 11",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Excess 11",
+      "title": "Excess 11",
+      "type": "official_product_page",
+      "publisher": "Excess Catamarans (Groupe Beneteau, Burdeos, Francia)",
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+      "accessed_at": "2026-10-05",
+      "retrieved_via": "Firecrawl rawHtml + adapters/excess.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-excess-11.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Excess 11",
+      "type": "official_range_page",
+      "publisher": "Excess Catamarans (Groupe Beneteau, Burdeos, Francia)",
+      "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+      "accessed_at": "2026-10-05",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Testimonios de propietarios (bloque 'Testimonies of passionate owners')",
+      "url": null,
+      "reason": "Opiniones de terceros: no aportan datos."
+    },
+    {
+      "title": "Configurador Excess",
+      "url": "https://www.excess-catamarans.com/configurator",
+      "reason": "Herramienta interactiva con condiciones de uso no contractuales; no se leyó."
+    },
+    {
+      "title": "Visita virtual 360° (krpano)",
+      "url": null,
+      "reason": "Contenido interactivo; no aporta datos."
+    }
+  ]
+}

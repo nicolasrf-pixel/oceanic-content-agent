@@ -373,10 +373,17 @@
           "decision": "Eliminar Skeeta del catálogo activo de representadas ('elimina Skeeta'). Instrucción directa, sin fuente nueva que la respalde — se registra como decisión humana, no como hallazgo de investigación.",
           "field_affected": "portfolio_status",
           "supersedes_discrepancy": false
+        },
+        {
+          "date": "2026-10-05",
+          "decided_by": "usuario/propietario del proyecto",
+          "decision": "Skeeta ya no es representada por Oceanic ('elimina skeeta, ya no es representada'). Se mantiene DISCONTINUED y no se construye su paquete en biblioteca/.",
+          "field_affected": "portfolio_status",
+          "supersedes_discrepancy": false
         }
       ],
       "verified_at": "2026-09-10",
-      "last_updated": "2026-09-14",
+      "last_updated": "2026-10-05",
       "status_pipeline": "VALIDATED",
       "notes": "2026-09-14: portfolio_status pasó de ACTIVE a DISCONTINUED por instrucción directa del usuario ('elimina Skeeta'), no por nueva evidencia de fuente. Este registro y su modelo (data/models/skeeta/skeeta.json) se CONSERVAN íntegros por trazabilidad (CLAUDE.md sección 15, aplicado también a marcas) — no se borran. data/catalog/master-catalog.json y oceanic-catalog.json (y por tanto el dashboard) excluyen automáticamente las marcas con portfolio_status distinto de ACTIVE/NEW; ver scripts/build_catalog.py. Historial previo (discrepancia 'solo usados' → decisión humana ACTIVE del 2026-09-10) se conserva sin editar arriba."
     },

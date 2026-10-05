@@ -300,3 +300,41 @@ class SolarisSaffier(unittest.TestCase):
         self.assertEqual(by["superficie_velica"]["status"], "NOT_FOUND")     # no sums
         self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "15 hp")   # 10 kW ≈ 13,4 hp < 15 HP
         self.assertEqual(specs.validate(spec), [])
+
+
+class Excess(unittest.TestCase):
+    def test_excess_specs(self):
+        from oceanic.adapters import excess as adapter
+        from oceanic.builders import excess as builder, beneteau
+        item = ('<div class="feature-item"><h3>{g}</h3><div class="content">{rows}</div></div>')
+        row = '<p><span class="text-primary">{l}</span></p><p><span>{v}</span></p>'
+        rows = lambda pairs: "".join(row.format(l=l, v=v) for l, v in pairs)
+        html = f"""<html><body><main>
+        <section class="banner"><h1><div class="title">Excess 99</div><div class="subtitle">A TEST BOAT</div></h1></section>
+        <section class="summary"><div class="text">The Excess 99 is a test.</div></section>
+        <section class="plans" id="layout"><ul><li class="plan-item"><a class="big-picture" data-title="3 CABIN"
+          href="https://www.excess-catamarans.com/media/2020/10/1-excess-99-3c.jpg">x</a></li>
+          <li class="plan-item"><a class="big-picture" data-title="4 CABIN"
+          href="https://www.excess-catamarans.com/media/2020/10/2-excess-99-4c.jpg">x</a></li></ul></section>
+        <section id="features">
+        {item.format(g="Sails", rows=rows([("Upwind sail area", "90m² | 969 sq ft")]))}
+        {item.format(g="Dimensions", rows=rows([("Length overall", "11.42 m | 37’6’’"), ("Beam", "6,59 m | 21'7''"),
+            ("Mast clearance [std./Pulse Line]", "19.05 m | 62’6’’ / 20.15 m | 66’1’’"),
+            ("Light displacement [EEC]", "9,000 kg | 19,845 lbs")]))}
+        {item.format(g="Equipment", rows=rows([("Fuel capacity", "2 x 200 L | 2 x 53 US Gal"),
+            ("Engines", "2 x 29 HP"), ("EC Certification", "A: 8 - B: 12 - C: 16 - D: 20")]))}
+        </section></main></body></html>"""
+        ext = adapter.extract(html, "https://www.excess-catamarans.com/our-catamarans/excess-99", "2026-10-05")
+        self.assertEqual((ext["page_title"], ext["tagline"]), ("Excess 99", "A test boat"))
+        builder.prepare([ext])
+        ident = builder._with_cfg(beneteau.identity, ext)
+        spec = builder.build_specs(ext, ident, {"title": "t", "url": "u", "accessed_at": "d"})
+        by = {f["oceanic_field"]: f for f in spec["fields"]}
+        self.assertEqual(by["desplazamiento"]["display_value"], "9.000 kg")          # comma = thousands
+        self.assertEqual(by["manga_casco"]["display_value"], "6,59 m")               # comma = decimal
+        self.assertEqual(by["capacidad_combustible"]["display_value"], "400 L (2 x 200 L)")
+        self.assertEqual(by["altura_linea_flotacion"]["display_value"], "19,05 m")   # standard rig
+        self.assertEqual(by["camarotes"]["display_value"], "3 / 4")
+        self.assertEqual(by["certificacion"]["display_value"], "A8 / B12 / C16 / D20")
+        self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "2 x 29 hp")
+        self.assertEqual(specs.validate(spec), [])

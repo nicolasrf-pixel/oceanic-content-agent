@@ -112,6 +112,9 @@ cual después se construye la página Oceanic.
 | Beneteau | [Swift Trawler 43 Sedan](biblioteca/beneteau/swift-trawler-43-sedan/00_MODELO/00_MODELO.md) | s/d | 7/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 48](biblioteca/beneteau/swift-trawler-48/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
 | Beneteau | [Swift Trawler 54](biblioteca/beneteau/swift-trawler-54/00_MODELO/00_MODELO.md) | s/d | 8/8 verificada | YELLOW |
+| Excess | [Excess 11](biblioteca/excess/excess-11/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Excess | [Excess 13](biblioteca/excess/excess-13/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
+| Excess | [Excess 14](biblioteca/excess/excess-14/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [EIGHTY 2](biblioteca/lagoon/eighty-2/00_MODELO/00_MODELO.md) | s/d | 7/9 verificada | YELLOW |
 | Lagoon | [Lagoon 38](biblioteca/lagoon/lagoon-38/00_MODELO/00_MODELO.md) | s/d | 9/9 verificada | YELLOW |
 | Lagoon | [Lagoon 42 Millenium](biblioteca/lagoon/lagoon-42-millenium/00_MODELO/00_MODELO.md) | s/d | 8/9 verificada | YELLOW |

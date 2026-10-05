@@ -1,0 +1,38 @@
+{
+  "model": "Excess 13",
+  "policy": "Solo registro; no se descargan.",
+  "videos": [
+    {
+      "title": "Video de la página",
+      "url": "https://www.youtube.com/watch?v=4cZ5XTzDBRc",
+      "platform": "YouTube (canal EXCESS Catamarans)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/4cZ5XTzDBRc/hqdefault.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    },
+    {
+      "title": "Video de la página",
+      "url": "https://www.youtube.com/watch?v=y-34eKkCG9I",
+      "platform": "YouTube (canal EXCESS Catamarans)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/y-34eKkCG9I/hqdefault.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
+}

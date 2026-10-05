@@ -1,0 +1,423 @@
+{
+  "model": {
+    "brand": "Excess",
+    "model": "Excess 11",
+    "model_year": "NO DECLARADO",
+    "variant": "Excess 11",
+    "configuration": "según layouts oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
+    "engine_option": "2 x 29 HP",
+    "boat_type": "catamaran_vela",
+    "range": "Excess 11"
+  },
+  "policy": "Solo web oficial del producto (S1). El bloque 'THE ESSENTIALS IN FIGURES' prevalece; si métrico e imperial no coinciden se publica el métrico.",
+  "fields": [
+    {
+      "oceanic_field": "eslora_total",
+      "label": "Eslora Total",
+      "status": "VERIFIED",
+      "display_value": "11,42 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Length overall",
+          "source_value": "11.42 m",
+          "source_unit": "m",
+          "normalized_value": 11.42,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Length overall' / 'Overall length [std.]' = eslora total de la versión estándar."
+        }
+      ],
+      "notes": "Valor imperial publicado: 37’6’’ (coherente)."
+    },
+    {
+      "oceanic_field": "manga_casco",
+      "label": "Manga Casco",
+      "status": "VERIFIED",
+      "display_value": "6,59 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Beam",
+          "source_value": "6,59 m",
+          "source_unit": "m",
+          "normalized_value": 6.59,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Beam' = manga máxima publicada del catamarán."
+        }
+      ],
+      "notes": "Valor imperial publicado: 21'7'' (coherente)."
+    },
+    {
+      "oceanic_field": "desplazamiento",
+      "label": "Desplazamiento en rosca",
+      "status": "VERIFIED",
+      "display_value": "9.000 kg",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Light displacement [EEC]",
+          "source_value": "9000 kg",
+          "source_unit": "kg",
+          "normalized_value": 9000.0,
+          "normalized_unit": "kg",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Light displacement' (EEC / MLC) = desplazamiento en rosca."
+        }
+      ],
+      "notes": "Valor imperial publicado: 19845 lbs (coherente)."
+    },
+    {
+      "oceanic_field": "camarotes",
+      "label": "Camarotes",
+      "status": "VERIFIED",
+      "display_value": "3 / 4",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Layouts (títulos de los planos)",
+          "source_value": "Salon and cockpits; 3 CABIN; 4 CABIN; Roof standard; Roof option",
+          "source_unit": null,
+          "normalized_value": "3 / 4",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "Layouts",
+          "cross_reference": "El bloque técnico no publica número de cabinas: se toma de los títulos de los planos oficiales."
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "capacidad_combustible",
+      "label": "Capacidad Combustible",
+      "status": "VERIFIED",
+      "display_value": "400 L (2 x 200 L)",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Fuel capacity",
+          "source_value": "2 x 200 L | 2 x 53 US Gal",
+          "source_unit": null,
+          "normalized_value": 400,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "La web publica 2 depósitos de 200 L ('2 x 200 L'): capacidad total 400 L."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "capacidad_agua_dulce",
+      "label": "Capacidad Agua Dulce",
+      "status": "VERIFIED",
+      "display_value": "300 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Fresh water capacity",
+          "source_value": "300 L",
+          "source_unit": "l",
+          "normalized_value": 300.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Valor imperial publicado: 79 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "certificacion",
+      "label": "Certificación",
+      "status": "VERIFIED",
+      "display_value": "A8 / B12 / C16 / D20",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "EC Certification",
+          "source_value": "A: 8 - B: 12 - C: 16 - D: 20",
+          "source_unit": null,
+          "normalized_value": "A8 / B12 / C16 / D20",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Categoría CE : personas, tal como lo publica la web."
+    },
+    {
+      "oceanic_field": "superficie_velica",
+      "label": "Superficie vélica",
+      "status": "VERIFIED",
+      "display_value": "90 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Upwind sail area",
+          "source_value": "90m² | 969 sq ft",
+          "source_unit": null,
+          "normalized_value": 90.0,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Sails",
+          "cross_reference": "'Upwind sail area' = superficie vélica de ceñida publicada (aparejo estándar)."
+        }
+      ],
+      "notes": "Code 0 (opción): 54m² | 581 sq ft. Aparejo Pulse Line (opcional): 95.5m² | 1028 sq ft."
+    },
+    {
+      "oceanic_field": "potencia_motor_auxiliar",
+      "label": "Potencia motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 29 hp",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Engines",
+          "source_value": "2 x 29 HP",
+          "source_unit": null,
+          "normalized_value": 58,
+          "normalized_unit": "hp",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "Motorización publicada '2 x 29 HP': 2 motores de 29 hp."
+        }
+      ],
+      "notes": "Versión híbrida: Electrical engines: 2x 10kW (POD underwater); Generator: 22 KVA; Charger/inverter: 8 KVA; Lithium batteries: 4x 230A + 4x 230A."
+    },
+    {
+      "oceanic_field": "mayor",
+      "label": "Mayor",
+      "status": "VERIFIED",
+      "display_value": "57,5 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Square-top mainsail",
+          "source_value": "57.5m² | 619 sq ft",
+          "source_unit": null,
+          "normalized_value": 57.5,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Sails"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "genova",
+      "label": "Génova",
+      "status": "VERIFIED",
+      "display_value": "32,5 m²",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Overlapping genoa",
+          "source_value": "32.5m² | 350 sq ft",
+          "source_unit": null,
+          "normalized_value": 32.5,
+          "normalized_unit": "m²",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Sails"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "oceanic_field": "eslora_casco",
+      "label": "Eslora Casco",
+      "status": "VERIFIED",
+      "display_value": "11,33 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Hull length",
+          "source_value": "11.33 m",
+          "source_unit": "m",
+          "normalized_value": 11.33,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions"
+        }
+      ],
+      "notes": "Valor imperial publicado: 37’2’’ (coherente)."
+    },
+    {
+      "oceanic_field": "altura_linea_flotacion",
+      "label": "Altura sobre línea de flotación",
+      "status": "VERIFIED",
+      "display_value": "17,27 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Mast clearance",
+          "source_value": "17.27 m",
+          "source_unit": "m",
+          "normalized_value": 17.27,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions",
+          "cross_reference": "'Mast clearance' = altura del mástil sobre la flotación (aparejo estándar)."
+        }
+      ],
+      "notes": "Valor imperial publicado: 56’8’’ (coherente)."
+    },
+    {
+      "oceanic_field": "calado",
+      "label": "Calado",
+      "status": "VERIFIED",
+      "display_value": "1,15 m",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Draft",
+          "source_value": "1.15 m",
+          "source_unit": "m",
+          "normalized_value": 1.15,
+          "normalized_unit": "m",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Dimensions"
+        }
+      ],
+      "notes": "Valor imperial publicado: 3’9’’ (coherente)."
+    },
+    {
+      "oceanic_field": "capacidad_aguas_negras",
+      "label": "Tanque de aguas negras",
+      "status": "VERIFIED",
+      "display_value": "160 l",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Black water capacity",
+          "source_value": "160 L",
+          "source_unit": "l",
+          "normalized_value": 160.0,
+          "normalized_unit": "l",
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "Valor imperial publicado: 42 US Gal (coherente)."
+    },
+    {
+      "oceanic_field": "motor_auxiliar",
+      "label": "Motor auxiliar",
+      "status": "VERIFIED",
+      "display_value": "2 x 29 HP",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Engines",
+          "source_value": "2 x 29 HP",
+          "source_unit": null,
+          "normalized_value": "2 x 29 HP",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment",
+          "cross_reference": "Motorización del bloque técnico."
+        }
+      ],
+      "notes": "Versión híbrida publicada: Electrical engines: 2x 10kW (POD underwater); Generator: 22 KVA; Charger/inverter: 8 KVA; Lithium batteries: 4x 230A + 4x 230A."
+    },
+    {
+      "oceanic_field": "literas",
+      "label": "Literas",
+      "status": "VERIFIED",
+      "display_value": "6 a 12",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Berths",
+          "source_value": "6 to 12",
+          "source_unit": null,
+          "normalized_value": "6 a 12",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "THE ESSENTIALS IN FIGURES › Equipment"
+        }
+      ],
+      "notes": "",
+      "display_note": "según versión"
+    },
+    {
+      "oceanic_field": "arquitecto_naval",
+      "label": "Arquitectura naval",
+      "status": "VERIFIED",
+      "display_value": "Arquitectura naval: VPLP design · Diseño exterior: Patrick le Quément · Diseño interior: Nauta Design",
+      "records": [
+        {
+          "source_id": "S1",
+          "source_name": "Excess 11",
+          "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+          "accessed_at": "2026-10-05",
+          "source_field": "Texto de la página",
+          "source_value": "designed by VPLP design, one of the most renowned naval architecture companies in the world. The exterior design is by Patrick le Quément. And Nauta Design",
+          "source_unit": null,
+          "normalized_value": "Arquitectura naval: VPLP design · Diseño exterior: Patrick le Quément · Diseño interior: Nauta Design",
+          "normalized_unit": null,
+          "model_year": "NO DECLARADO",
+          "location": "remarkable design (puntos fuertes)",
+          "cross_reference": "Créditos citados literalmente en el texto de la página."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

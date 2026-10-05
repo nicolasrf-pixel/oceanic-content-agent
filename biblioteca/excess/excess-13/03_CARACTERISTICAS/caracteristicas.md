@@ -1,0 +1,11 @@
+# CARACTERÍSTICAS · Excess 13
+
+> Fuente: S1 (literal).
+
+## Strong points
+
+| Característica | SOURCE CONTENT (literal) |
+| --- | --- |
+| More intense sailing | The Excess 13 is a cruising catamaran, a true sailboat capable of ocean passage-making. The boat’s potential is felt as soon as you leave harbor, giving you a dizzying sense of freedom. The very direct helm allows you to feel the connection with the sea and fine-tune everything. Sensations are increased exponentially. The forward-facing chart table keeps you in touch with the elements and allows you to navigate with pinpoint accuracy. Like her predecessor, the Excess 13 uses the principle of asymmetrical hulls. These are finer in beam below the waterline, guaranteeing excellent performance and easy gliding through the water, all while maintaining living space. The real innovations concern the structure, where all the designers’ creativity has been devoted to lightening the boat’s weight. The result is invisible, but you can feel it. More lightness. More harmony with the elements. More responsiveness. More thrills. |
+| On board, optimum comfort | This new model features an interior saloon bathed in natural light and a fully equipped galley opening onto the cockpit, which connect the interior and exterior areas. The hull dedicated to the owners includes a spacious bedroom, a large forward bathroom and, a rare feature on a boat of this size, a dressing room. An ergonomic workspace enables you to reconcile your professional life with your passion for the sea as never before. In the opposite hull, guests benefit from two bedrooms and two private bathrooms. The real achievement of this Excess 13 is to have developed a structure that offers great accommodation, with plenty of living space, vast storage and full headroom, without compromising the boat's performance. |
+| The sea as your playground | The Excess 13 offers answers to all the ways you love the sea. At anchor, she becomes an ideal platform for all nautical activities and the most daring challenges. The monohull-inspired access to the sea via fold-down sugarscoops combines safety and efficiency. Impressive, innovative exterior storage volumes allow you to carry a wide range of equipment for every adventure: diving and snorkeling for fans of the depths; wingfoiling or kitesurfing for adventurous watersports. |
