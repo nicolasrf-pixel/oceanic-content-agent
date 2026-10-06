@@ -31,4 +31,4 @@
 | --- | --- | --- |
 | 1 | `4608-excess-14-nav` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
 | 2 | `0882-excess-14-nav` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 3 | `2774-excess-14-0178` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Under sail'). |
+| 3 | `5318-catamaran-excess-14-video-cover` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'content'). Categoría EXTERIOR por revisión visual (2026-10-06). |

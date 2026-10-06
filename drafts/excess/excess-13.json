@@ -1,15 +1,269 @@
 {
-  "hero": {
-    "headlines": [
-      "Diseñado para navegar, pensado para vivir.",
-      "Un carácter propio.",
-      "Listo para la travesía oceánica."
-    ],
-    "descripcion": "Catamarán de crucero de 12,99 m con arquitectura de Marc Lombard YDG e interior de Jean-Marc Piaton, en versiones de 3 o 4 camarotes."
+ "hero": {
+  "headlines": [
+   "Diseñado para navegar, pensado para vivir.",
+   "Un carácter propio.",
+   "Listo para la travesía oceánica."
+  ],
+  "descripcion": "Catamarán de crucero de 12,99 m con arquitectura de Marc Lombard YDG e interior de Jean-Marc Piaton, en versiones de 3 o 4 camarotes."
+ },
+ "introduccion": "El Excess 13 lleva un paso más allá la idea de navegación de la marca: exaltada, libre, atrevida. Fruto de una larga reflexión sobre el placer de navegar, de vivir a bordo y de disfrutar el agua alrededor del barco.",
+ "diseno": "Conserva las líneas del casco y la forma de las ventanas de los modelos anteriores, con un interior moderno, dinámico y eficiente. Filosofía «less is more»: más funcionalidad y confort con menos material, para barcos más ligeros y robustos.",
+ "ingenieria": "Segunda generación de Excess, con la arquitectura de Marc Lombard YDG y el Excess Design Team. Cascos asimétricos, más finos bajo la flotación, para planear con facilidad sin perder espacio interior. Recuperación de agua de lluvia en el techo y ventilación eficiente que reduce la demanda del aire acondicionado.",
+ "experiencia": "Salón interior bañado de luz natural y cocina completa abierta a la bañera. El casco del armador suma dormitorio amplio, gran baño a proa, vestidor y un espacio de trabajo; en el casco opuesto, dos camarotes con baño privado. Bañeras de popa abatibles y grandes volúmenes de estiba para buceo, wingfoil o kitesurf.",
+ "performance": "Un catamarán de crucero capaz de travesías oceánicas. Timón muy directo y mesa de cartas orientada a proa para navegar con precisión.",
+ "image_overrides": {
+  "1647-excess-13-walkthrough-video-cover.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "OTHER",
+   "evidence": "Solo en la página del modelo (sección 'content'). Categoría OTHER por revisión visual (2026-10-06)."
   },
-  "introduccion": "El Excess 13 lleva un paso más allá la idea de navegación de la marca: exaltada, libre, atrevida. Fruto de una larga reflexión sobre el placer de navegar, de vivir a bordo y de disfrutar el agua alrededor del barco.",
-  "diseno": "Conserva las líneas del casco y la forma de las ventanas de los modelos anteriores, con un interior moderno, dinámico y eficiente. Filosofía «less is more»: más funcionalidad y confort con menos material, para barcos más ligeros y robustos.",
-  "ingenieria": "Segunda generación de Excess, con la arquitectura de Marc Lombard YDG y el Excess Design Team. Cascos asimétricos, más finos bajo la flotación, para planear con facilidad sin perder espacio interior. Recuperación de agua de lluvia en el techo y ventilación eficiente que reduce la demanda del aire acondicionado.",
-  "experiencia": "Salón interior bañado de luz natural y cocina completa abierta a la bañera. El casco del armador suma dormitorio amplio, gran baño a proa, vestidor y un espacio de trabajo; en el casco opuesto, dos camarotes con baño privado. Bañeras de popa abatibles y grandes volúmenes de estiba para buceo, wingfoil o kitesurf.",
-  "performance": "Un catamarán de crucero capaz de travesías oceánicas. Timón muy directo y mesa de cartas orientada a proa para navegar con precisión."
+  "9944-xcs-13-illu-bloc-archi-550x458.jpg": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
+  },
+  "8090-xcs-13-illu-bloc-design-550x458.jpg": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
+  },
+  "0757-xcs-13-illu-bloc-less-is-more-550x458.jpg": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
+  },
+  "9341-250526-polaryse-excess-05107-hdr.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'On board, optimum comfort'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "8074-250525-polaryse-excess-7689-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'The sea as your playground'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "3757-250524-polaryse-excess-7142.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "3868-250524-polaryse-excess-7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1289-250524-polaryse-excess-33.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "2169-250624-polaryse-excess-0072-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "6982-250624-polaryse-excess-0119.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8442-250525-polaryse-excess-04208.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "2549-250524-polaryse-excess-78.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "0365-250524-polaryse-excess-100.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8810-250525-polaryse-excess-04264.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "0611-excess-13-slider-sous-voile-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "5584-excess-13-slider-sous-voile-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "2154-excess-13-slider-sous-voile-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1687-excess-13-slider-sous-voile-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "7639-excess-13-slider-sous-voile-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "2867-250524-polaryse-excess-6805.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "3345-250525-polaryse-excess-03147.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "2066-250524-polaryse-excess-6676.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "6011-250524-polaryse-excess-03925-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "6559-250524-polaryse-excess-03670.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1192-250524-polaryse-excess-03502.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "9507-250524-polaryse-excess-03641.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "4271-250525-polaryse-excess-03354.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "1778-excess-13-slider-ext-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "1486-250526-polaryse-excess-05266.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "7272-excess-13-slider-int-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "4276-250526-polaryse-excess-05604.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "2538-excess-13-slider-int-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "3056-250526-polaryse-excess-05558-hdr.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "8371-250526-polaryse-excess-05679.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Outside'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "6647-excess-13-interior-slider-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "6513-excess-13-interior-slider-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "0145-excess-13-interior-slider-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "2187-excess-13-interior-slider-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "7078-excess-13-interior-slider-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "4802-excess-13-interior-slider-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "9334-250526-polaryse-excess-05756.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "0091-excess-13-slider-int-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1377-excess-13-slider-int-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "0801-excess-13-slider-int-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "2753-excess-13-interior-slider-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "4051-excess-13-slider-int.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "7605-excess-13-slider-int-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "2785-excess-13-slider-int-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1966-excess-13-slider-int-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "7818-excess-13-slider-int-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  }
+ }
 }

@@ -1,15 +1,320 @@
 {
-  "hero": {
-    "headlines": [
-      "Todo lo de un barco grande.",
-      "Catamarán de crucero de 37 pies.",
-      "Disponible en versión Standard, Riders' Edition o Hybrid."
-    ],
-    "descripcion": "Catamarán de crucero de 11,42 m firmado por VPLP design (arquitectura), Patrick le Quément (diseño exterior) y Nauta Design (interior), con 3 o 4 camarotes y doble timón a popa."
+ "hero": {
+  "headlines": [
+   "Todo lo de un barco grande.",
+   "Catamarán de crucero de 37 pies.",
+   "Disponible en versión Standard, Riders' Edition o Hybrid."
+  ],
+  "descripcion": "Catamarán de crucero de 11,42 m firmado por VPLP design (arquitectura), Patrick le Quément (diseño exterior) y Nauta Design (interior), con 3 o 4 camarotes y doble timón a popa."
+ },
+ "introduccion": "El Excess 11 es, según el astillero, el único barco de gran serie del mercado en este tamaño de catamarán. Un crucero de 37 pies pensado para largas travesías y para la vida a bordo, capaz de llevarte a fondeos aislados y playas remotas.",
+ "diseno": "Una personalidad que rompe con los códigos del velero tradicional: líneas cuidadas, proporciones elegantes y equilibrio. Interior luminoso con carpintería en Cedar & White Touch y tres ambientes de diseño a elegir.",
+ "ingenieria": "Arquitectura naval de VPLP design. Versión híbrida disponible: grupo electrógeno y dos motores eléctricos (2 x 10 kW en pod) para maniobras silenciosas en puerto y navegación 100 % eléctrica cuando se quiera. Tecnología SEANAPPS para consultar el estado del barco desde el móvil.",
+ "experiencia": "Volumen de un barco más grande en salón y camarotes, con cama de 2 x 2 m en el camarote del armador y baños con ducha separada. En cubierta, una gran bañera abierta y dos puestos de gobierno.",
+ "performance": "Inspirado en la regata, construido para el crucero: mayor superficie vélica para más velocidad y mejor rendimiento con poco viento, y ajustes que siguen siendo simples. Doble timón a popa con vista directa a las velas, el mar y las proas.",
+ "image_overrides": {
+  "8625-design-sans-titre-2.png": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
   },
-  "introduccion": "El Excess 11 es, según el astillero, el único barco de gran serie del mercado en este tamaño de catamarán. Un crucero de 37 pies pensado para largas travesías y para la vida a bordo, capaz de llevarte a fondeos aislados y playas remotas.",
-  "diseno": "Una personalidad que rompe con los códigos del velero tradicional: líneas cuidadas, proporciones elegantes y equilibrio. Interior luminoso con carpintería en Cedar & White Touch y tres ambientes de diseño a elegir.",
-  "ingenieria": "Arquitectura naval de VPLP design. Versión híbrida disponible: grupo electrógeno y dos motores eléctricos (2 x 10 kW en pod) para maniobras silenciosas en puerto y navegación 100 % eléctrica cuando se quiera. Tecnología SEANAPPS para consultar el estado del barco desde el móvil.",
-  "experiencia": "Volumen de un barco más grande en salón y camarotes, con cama de 2 x 2 m en el camarote del armador y baños con ducha separada. En cubierta, una gran bañera abierta y dos puestos de gobierno.",
-  "performance": "Inspirado en la regata, construido para el crucero: mayor superficie vélica para más velocidad y mejor rendimiento con poco viento, y ajustes que siguen siendo simples. Doble timón a popa con vista directa a las velas, el mar y las proas."
+  "0415-excess-hybrid-illustration.png": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
+  },
+  "5045-excess11-int-ncz7683-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'A bright atmosphere'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "8665-excess-11-9981.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'INSPIRED BY RACING, BUILT FOR CRUISING'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "6075-catamaran-excess-11-navigation-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8134-catamaran-excess-11-navigation-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "5816-catamaran-excess-11-navigation-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1805-catamaran-excess-11-navigation-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "9689-catamaran-excess-11-navigation-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "0319-catamaran-excess-11-navigation-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "7585-catamaran-excess-11-navigation-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "0535-catamaran-excess-11-navigation-09.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8626-catamaran-excess-11-navigation-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8873-catamaran-excess-11-navigation-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "3079-catamaran-excess-11-navigation-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8221-catamaran-excess-11-navigation-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "3271-catamaran-excess-11-navigation-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1399-catamaran-excess-11-navigation-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1127-catamaran-excess-11-navigation-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "9823-catamaran-excess-11-mouillage-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "5738-catamaran-excess-11-mouillage-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "7215-catamaran-excess-11-mouillage-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "2398-catamaran-excess-11-mouillage-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "2634-catamaran-excess-11-mouillage-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "7393-catamaran-excess-11-mouillage-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "8205-catamaran-excess-11-mouillage-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "3152-catamaran-excess-11-mouillage-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "4783-catamaran-excess-11-mouillage-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "0248-catamaran-excess-11-mouillage-09.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'At mooring'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "9695-catamaran-excess-11-lifestyle-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "2508-catamaran-excess-11-lifestyle-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "6158-catamaran-excess-11-lifestyle-03.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "2577-catamaran-excess-11-lifestyle-04.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "8765-catamaran-excess-11-lifestyle-05.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "1044-catamaran-excess-11-lifestyle-06.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "1231-catamaran-excess-11-lifestyle-07.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "9326-catamaran-excess-11-lifestyle-08.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "0582-catamaran-excess-11-lifestyle-09.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "0403-catamaran-excess-11-lifestyle-10.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "3099-catamaran-excess-11-lifestyle-11.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "8626-catamaran-excess-11-lifestyle-12.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "2382-catamaran-excess-11-lifestyle-13.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "1402-catamaran-excess-11-lifestyle-14.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "2256-catamaran-excess-11-lifestyle-15.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "3051-catamaran-excess-11-lifestyle-16.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "6905-catamaran-excess-11-lifestyle-17.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "8325-catamaran-excess-11-lifestyle-18.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Life on board'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "8223-excess11-int-ncz7683-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "8617-excess11-int-ncz7608-hdr-panorama-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1082-excess11-ncz7571-hdr-panorama-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "7962-excess11-int-nck4000-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1319-excess11-int-nck3997-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "9570-excess11-ncz7378-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "9939-excess11-ncz7393-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "1121-excess11-ncz7398-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "627-excess11-ncz7428-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "3990-excess11-int-ncz7458-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "7337-excess11-int-ncz7484-hdr-panorama-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "8003-excess11-int-ncz7503-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "8887-ncz9270-hdr-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "4907-ncz9270-hdr-panorama-web.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  }
+ }
 }

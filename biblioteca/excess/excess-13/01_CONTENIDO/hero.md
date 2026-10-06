@@ -31,4 +31,4 @@
 | --- | --- | --- |
 | 1 | `2287-excess-13-nav` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
 | 2 | `9835-250524-polaryse-excess-6805` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'More intense sailing'). |
-| 3 | `3757-250524-polaryse-excess-7142` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Under sail'). |
+| 3 | `8074-250525-polaryse-excess-7689-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'The sea as your playground'). Categoría EXTERIOR por revisión visual (2026-10-06). |

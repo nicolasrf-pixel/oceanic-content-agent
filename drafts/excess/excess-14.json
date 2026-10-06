@@ -1,15 +1,296 @@
 {
-  "hero": {
-    "headlines": [
-      "La encarnación del ADN Excess.",
-      "Un velero de crucero divertido y de líneas estilizadas.",
-      "Ahora también en Riders' Edition."
-    ],
-    "descripcion": "Catamarán de crucero de 13,97 m con líneas de VPLP design, mayor square-top y génova solapante de serie, en versiones de 3 o 4 camarotes."
+ "hero": {
+  "headlines": [
+   "La encarnación del ADN Excess.",
+   "Un velero de crucero divertido y de líneas estilizadas.",
+   "Ahora también en Riders' Edition."
+  ],
+  "descripcion": "Catamarán de crucero de 13,97 m con líneas de VPLP design, mayor square-top y génova solapante de serie, en versiones de 3 o 4 camarotes."
+ },
+ "introduccion": "El Excess 14 es la encarnación pura del ADN Excess: un velero de crucero divertido y de líneas estilizadas, resultado de un trabajo de diseño dedicado y de una ejecución industrial propia de la marca.",
+ "diseno": "Botavara baja, francobordo reducido, techo retrasado, mástil adelantado, bauprés de composite de serie y proas invertidas e inclinadas. Puestos de gobierno a popa, en contacto directo con los timones y con buena vista de las velas.",
+ "ingenieria": "Líneas desarrolladas con VPLP design a partir de la regata oceánica: aparejo adelantado, mayor square-top y gran génova solapante de serie. Más altura bajo el puente y cascos asimétricos para reducir la resistencia; centro de gravedad más bajo y estructura optimizada en sándwich de espuma con refuerzos de carbono. Tecnología SEANAPPS.",
+ "experiencia": "Camas anchas y baños con ducha separada en los cascos, grandes espacios de estiba y mesa de cartas retráctil. Distribución inédita en el mercado: versión de 3 camarotes con baño central y vestidor, o de 4 camarotes con 4 baños y 4 duchas separadas.",
+ "performance": "Más sensaciones sin renunciar a nada de un barco de crucero: optimiza la relación superficie vélica / desplazamiento. Con la Riders' Edition, el barco se convierte en campo base para wingfoil, trekking, bicicleta o pesca.",
+ "image_overrides": {
+  "5318-catamaran-excess-14-video-cover.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'content'). Categoría EXTERIOR por revisión visual (2026-10-06)."
   },
-  "introduccion": "El Excess 14 es la encarnación pura del ADN Excess: un velero de crucero divertido y de líneas estilizadas, resultado de un trabajo de diseño dedicado y de una ejecución industrial propia de la marca.",
-  "diseno": "Botavara baja, francobordo reducido, techo retrasado, mástil adelantado, bauprés de composite de serie y proas invertidas e inclinadas. Puestos de gobierno a popa, en contacto directo con los timones y con buena vista de las velas.",
-  "ingenieria": "Líneas desarrolladas con VPLP design a partir de la regata oceánica: aparejo adelantado, mayor square-top y gran génova solapante de serie. Más altura bajo el puente y cascos asimétricos para reducir la resistencia; centro de gravedad más bajo y estructura optimizada en sándwich de espuma con refuerzos de carbono. Tecnología SEANAPPS.",
-  "experiencia": "Camas anchas y baños con ducha separada en los cascos, grandes espacios de estiba y mesa de cartas retráctil. Distribución inédita en el mercado: versión de 3 camarotes con baño central y vestidor, o de 4 camarotes con 4 baños y 4 duchas separadas.",
-  "performance": "Más sensaciones sin renunciar a nada de un barco de crucero: optimiza la relación superficie vélica / desplazamiento. Con la Riders' Edition, el barco se convierte en campo base para wingfoil, trekking, bicicleta o pesca."
+  "3707-design-sans-titre-2.png": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "evidence": "Revisión visual (2026-10-06): no muestra el barco (genérica de la marca)."
+  },
+  "7731-410-films-excess-14-catamaran-photography-2023-0751.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'THE EMBODIMENT OF EXCESS DNA'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "0104-410-films-excess-14-catamaran-photography-2023-0445.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'INNOVATIVE ARCHITECTURE'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8442-excess-14-0294.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'MORE SENSATIONS AND EVERYTHING YOU'D EXPECT OF A CRUISING BOAT'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "8252-excess-14-1014.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'A LAYOUT UNSEEN ON THE MARKET'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "2774-excess-14-0178.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "6028-excess-14-0447.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "3292-excess-14-0485.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "2750-excess-14-1887.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "3578-excess-14-0878.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1803-excess-14-0157.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "6828-excess-14-0547.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "5804-excess-14-0838.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "6544-excess-14-0894.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "9289-excess-14-1874.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "6120-excess-14-1884.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "8333-excess-14-2029.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Under sail'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "3877-410-films-excess-14-catamaran-photography-2023.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "7705-410-films-excess-14-catamaran-photography-2023-2.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "5265-410-films-excess-14-catamaran-photography-2023-3.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "3334-410-films-excess-14-catamaran-photography-2023-4.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "6196-410-films-excess-14-catamaran-photography-2023-5.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "7854-410-films-excess-14-catamaran-photography-2023-6.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "1555-410-films-excess-14-catamaran-photography-2023-7.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "8220-410-films-excess-14-catamaran-photography-2023-0435.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "5886-410-films-excess-14-catamaran-photography-2023-0513.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "4008-410-films-excess-14-catamaran-photography-2023-0534.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8823-410-films-excess-14-catamaran-photography-2023-0536.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "8860-410-films-excess-14-catamaran-photography-2023-0583.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "7267-410-films-excess-14-catamaran-photography-2023-0600.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "1203-410-films-excess-14-catamaran-photography-2023-0636.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "0592-410-films-excess-14-catamaran-photography-2023-0728.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "4791-410-films-excess-14-catamaran-photography-2023-0757.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "0540-410-films-excess-14-catamaran-photography-2023-0766.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "1569-410-films-excess-14-catamaran-photography-2023-0825.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría UNDERWAY por revisión visual (2026-10-06)."
+  },
+  "4162-410-films-excess-14-catamaran-photography-2023-06675.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "0915-410-films-excess-14-catamaran-photography-2023-06700.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "HELM",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría HELM por revisión visual (2026-10-06)."
+  },
+  "4675-410-films-excess-14-catamaran-photography-2023-06721-1.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "4077-410-films-excess-14-catamaran-photography-2023-06901.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "7803-410-films-excess-14-catamaran-photography-2023-06915.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría DETAIL por revisión visual (2026-10-06)."
+  },
+  "4281-410-films-excess-14-catamaran-photography-2023-07620.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "3203-410-films-excess-14-catamaran-photography-2023-07766.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "6197-410-films-excess-14-catamaran-photography-2023-07260.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "5111-410-films-excess-14-catamaran-photography-2023-07857.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "1082-410-films-excess-14-catamaran-photography-2023-07899.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "0783-410-films-excess-14-catamaran-photography-2023-07916.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría COCKPIT por revisión visual (2026-10-06)."
+  },
+  "8692-excess-14-crop.png": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Navigation in Florida'). Categoría EXTERIOR por revisión visual (2026-10-06)."
+  },
+  "3121-excess-14-0269.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "5010-excess-14-0309.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "4090-excess-14-0965.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "9904-excess-14-1030.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría CABIN por revisión visual (2026-10-06)."
+  },
+  "2575-excess-14-1997.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "7211-excess-14-0392-trailblazer.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "9934-excess-14-0392-divine.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  },
+  "6224-excess-14-0392.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-06)."
+  }
+ }
 }
