@@ -30,12 +30,12 @@
       "width": 1200,
       "height": 678,
       "format": "webp",
-      "sha256": "677a82fbf692abc015e490c790c4dd417024c1e797d359a83d4afb670a359b4c",
+      "sha256": "c3b5b14ecc41eeaf1e9b4a3a20b8866cd70fa8dc80e7f35fd09e119ca019f262",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 102854,
+      "bytes": 81098,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg",
@@ -46,7 +46,8 @@
         "bytes": 292143,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_081706_XO_Cannes-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "cannestest-1",
@@ -73,12 +74,12 @@
       "width": 1500,
       "height": 1000,
       "format": "webp",
-      "sha256": "504479ef9b5c09afd490113319d116444f7d735c4661e403317b5a4e77ca08e6",
+      "sha256": "ffa37b367f61117e757d417d53602b9fb5d5a126e1820eda29667189acdc4da6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 80228,
+      "bytes": 59768,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 308829,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/cannestest-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "20180917-080857-xo-cannes",
@@ -116,12 +118,12 @@
       "width": 1200,
       "height": 743,
       "format": "webp",
-      "sha256": "02c83fe97549531ded5b792e11caf209843bcca563ecd9d698c3c821ccf04b6c",
+      "sha256": "9a388be4004c00271f6c0d7e112b1f99bee9e4fb0548b9ccf827d15940247874",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 89574,
+      "bytes": 70304,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg",
@@ -132,7 +134,8 @@
         "bytes": 248733,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/20180917_080857_XO_Cannes.jpg",
+      "web_quality": 75
     },
     {
       "id": "xo-boats-dscvr-3500-51-3500-51",
@@ -189,11 +192,11 @@
       "width": 1000,
       "height": 374,
       "format": "webp",
-      "sha256": "2b5faa3645e38b0bb99226ec7e4cd049733c0789f431b502d31347346aeae8b1",
+      "sha256": "81f89a924f96a4502e7405e7db8a276b19466ad3437b26b937a2b228690ac46e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 20278,
+      "bytes": 16486,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
@@ -204,7 +207,8 @@
         "bytes": 73330,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
+      "web_quality": 75
     }
   ]
 }

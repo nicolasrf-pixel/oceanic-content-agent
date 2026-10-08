@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "288c6690897e7b306aa3f8b2ea17133077efea30685ca959fb516bd673472d82",
+      "sha256": "029ced3aa62f541e52f547438bbe3c19c597465c56483b5b6072c9d9c7654db5",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 353846,
+      "bytes": 275188,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_1cf5bc9083984895aafc6431b91c023df000.jpg",
         "fetched_from": "https://static.wixstatic.com/media/812873_1cf5bc9083984895aafc6431b91c023df000.jpg",
@@ -46,7 +46,8 @@
         "bytes": 639180,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_1cf5bc9083984895aafc6431b91c023df000.jpg"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_1cf5bc9083984895aafc6431b91c023df000.jpg",
+      "web_quality": 75
     },
     {
       "id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
@@ -73,12 +74,12 @@
       "width": 1184,
       "height": 844,
       "format": "webp",
-      "sha256": "67db6780b6533e4d8dc9bc67cc50ee6a2fa22f7937a352b8ff22956b4576a69e",
+      "sha256": "621e74c8f1cfeb8109cb8818942e8189a0fb7cf71b1172488f6ecaa8e22f3fc9",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 105282,
+      "bytes": 73756,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_aca22ddcd50f4870854d27e2dbf9aa09~mv2.jpg",
         "fetched_from": "https://static.wixstatic.com/media/812873_aca22ddcd50f4870854d27e2dbf9aa09~mv2.jpg",
@@ -89,7 +90,8 @@
         "bytes": 866559,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_aca22ddcd50f4870854d27e2dbf9aa09~mv2.jpg"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_aca22ddcd50f4870854d27e2dbf9aa09~mv2.jpg",
+      "web_quality": 75
     },
     {
       "id": "812873-b23886fae06d477a9f271106ac902a48-mv2",
@@ -176,12 +178,12 @@
       "width": 1637,
       "height": 973,
       "format": "webp",
-      "sha256": "632e151f0c616c55523a34d865aca8b805f4be7db4ac3d352301621ae509bb08",
+      "sha256": "be4c21d644795ea33590de34d0489e936aee61c2ef70d0bc54e09c0313a1bcc3",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 126474,
+      "bytes": 91220,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_6c212ac952ef4f96909807cf5d4809dd~mv2.jpg",
         "fetched_from": "https://static.wixstatic.com/media/812873_6c212ac952ef4f96909807cf5d4809dd~mv2.jpg",
@@ -192,7 +194,8 @@
         "bytes": 1128498,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_6c212ac952ef4f96909807cf5d4809dd~mv2.jpg"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_6c212ac952ef4f96909807cf5d4809dd~mv2.jpg",
+      "web_quality": 75
     },
     {
       "id": "812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2",
@@ -216,14 +219,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2.webp",
-      "width": 1101,
-      "height": 1920,
+      "width": 918,
+      "height": 1600,
       "format": "webp",
-      "sha256": "2f7229aaeec2f28ff05ace05995e96ffaa4ec52fb9efa58f9c2a44da70141f9b",
+      "sha256": "682b7429de227b913a2c81e1819874ba192698e89240fdd39addd21f2f3a639f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 55110,
+      "bytes": 41854,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_6d4bdc5197e34aa9ade27be8d5f49a04~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_6d4bdc5197e34aa9ade27be8d5f49a04~mv2.png",
@@ -234,7 +237,8 @@
         "bytes": 803945,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_6d4bdc5197e34aa9ade27be8d5f49a04~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_6d4bdc5197e34aa9ade27be8d5f49a04~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-c690e0eaafa44136b9ed16255613a426-mv2",
@@ -258,14 +262,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/812873-c690e0eaafa44136b9ed16255613a426-mv2.webp",
-      "width": 1920,
-      "height": 911,
+      "width": 1600,
+      "height": 759,
       "format": "webp",
-      "sha256": "6806a5f4c9bc5a95c6d8baf0d0864a5ac35ee7532d7f98802afd5a4e740e65e1",
+      "sha256": "b74596a9f652b54304efbce931d3b287140a65430d39aab173060c220268a49d",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 74780,
+      "bytes": 56612,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_c690e0eaafa44136b9ed16255613a426~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_c690e0eaafa44136b9ed16255613a426~mv2.png",
@@ -276,7 +280,8 @@
         "bytes": 630807,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_c690e0eaafa44136b9ed16255613a426~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_c690e0eaafa44136b9ed16255613a426~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-9eea8b64eac04c968f10f12f765e1ffb-mv2",
@@ -303,11 +308,11 @@
       "width": 1080,
       "height": 1080,
       "format": "webp",
-      "sha256": "de1d81a99a5247e4c042e353c2691cb527f7835c7e5f845f2a13e46af2a11360",
+      "sha256": "1fb86cd17d9f0a54efffc8fa61ec71a1042bee12ce07b02c2dadf2b75e81fcc8",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 160922,
+      "bytes": 109850,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_9eea8b64eac04c968f10f12f765e1ffb~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_9eea8b64eac04c968f10f12f765e1ffb~mv2.png",
@@ -318,7 +323,8 @@
         "bytes": 2203387,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_9eea8b64eac04c968f10f12f765e1ffb~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_9eea8b64eac04c968f10f12f765e1ffb~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-0fe4d663964f489b9368382abeea8cbd-mv2",
@@ -345,11 +351,11 @@
       "width": 1080,
       "height": 1080,
       "format": "webp",
-      "sha256": "364fc7cd3f1382371409e14d2eb0610b50ec428481aeeb82532f01dbcc64c100",
+      "sha256": "b95dee1d1f3a560293a2c596ff8ddc82508ef90ce4a28795b676f55556861731",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 194442,
+      "bytes": 143954,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_0fe4d663964f489b9368382abeea8cbd~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_0fe4d663964f489b9368382abeea8cbd~mv2.png",
@@ -360,7 +366,8 @@
         "bytes": 2291334,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_0fe4d663964f489b9368382abeea8cbd~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_0fe4d663964f489b9368382abeea8cbd~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-884c8293d1aa4909b4fc6f79989f366c-mv2",
@@ -387,11 +394,11 @@
       "width": 1080,
       "height": 1080,
       "format": "webp",
-      "sha256": "2a58ed1dbfb40a7a40dd98a34bef5500a2bdf826c32b2dff3c4f84debaad42cd",
+      "sha256": "e652e778e0f78e70be5e50c64169490b8e0baea73243a77e130526b69d1fc9d1",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 141724,
+      "bytes": 105168,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_884c8293d1aa4909b4fc6f79989f366c~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_884c8293d1aa4909b4fc6f79989f366c~mv2.png",
@@ -402,7 +409,8 @@
         "bytes": 1990204,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_884c8293d1aa4909b4fc6f79989f366c~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_884c8293d1aa4909b4fc6f79989f366c~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-0f0c080cfb13486b9509a61014be0d6d-mv2",
@@ -429,11 +437,11 @@
       "width": 1080,
       "height": 1080,
       "format": "webp",
-      "sha256": "abd4f77720bb586d41e87b2a935cebcd102b4178741b97855c4b1718fe7afcfa",
+      "sha256": "f61bbcbd571d4b390b642f089fa5f328f0c7478b0ded07989e07467c307e2320",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 112348,
+      "bytes": 83470,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_0f0c080cfb13486b9509a61014be0d6d~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_0f0c080cfb13486b9509a61014be0d6d~mv2.png",
@@ -444,7 +452,8 @@
         "bytes": 1917990,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_0f0c080cfb13486b9509a61014be0d6d~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_0f0c080cfb13486b9509a61014be0d6d~mv2.png",
+      "web_quality": 75
     },
     {
       "id": "812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2",
@@ -468,14 +477,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2.webp",
-      "width": 1920,
-      "height": 833,
+      "width": 1600,
+      "height": 694,
       "format": "webp",
-      "sha256": "fbaaf5fec298845edb7efe4a9055dfa337afd1cd450e0b02d88baea0cd020e74",
+      "sha256": "deaea90110be1146c4c299f3447f4493b251f43c4aef98d590e0ba063a42e7e9",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 250434,
+      "bytes": 137494,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_5e70edeeb8d04cb7aaab473d1cd2c789~mv2.jpg",
         "fetched_from": "https://static.wixstatic.com/media/812873_5e70edeeb8d04cb7aaab473d1cd2c789~mv2.jpg",
@@ -486,7 +495,8 @@
         "bytes": 590536,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_5e70edeeb8d04cb7aaab473d1cd2c789~mv2.jpg"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_5e70edeeb8d04cb7aaab473d1cd2c789~mv2.jpg",
+      "web_quality": 75
     },
     {
       "id": "812873-f32d3f6f9b014643ae131db48931ff79-mv2",
@@ -510,14 +520,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/812873-f32d3f6f9b014643ae131db48931ff79-mv2.webp",
-      "width": 1920,
-      "height": 833,
+      "width": 1600,
+      "height": 694,
       "format": "webp",
-      "sha256": "cb14b7770d9095f5dad837c2d251f237a6041cbc8d63e570a9aa795f4aef26a6",
+      "sha256": "e1ed61be31bd1824ed3203f0560059353d3469a8e006f85b8e7127fba5f406aa",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 190642,
+      "bytes": 103482,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_f32d3f6f9b014643ae131db48931ff79~mv2.jpg",
         "fetched_from": "https://static.wixstatic.com/media/812873_f32d3f6f9b014643ae131db48931ff79~mv2.jpg",
@@ -528,7 +538,8 @@
         "bytes": 526106,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_f32d3f6f9b014643ae131db48931ff79~mv2.jpg"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_f32d3f6f9b014643ae131db48931ff79~mv2.jpg",
+      "web_quality": 75
     },
     {
       "id": "812873-3fd20a857ade40fe9a635948e7fcb737-mv2",
@@ -552,14 +563,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/812873-3fd20a857ade40fe9a635948e7fcb737-mv2.webp",
-      "width": 1652,
-      "height": 1080,
+      "width": 1600,
+      "height": 1046,
       "format": "webp",
-      "sha256": "8428f2f240a95f2a1655018267dbec4bb0717a09fb40be7d561a33441ecc75ff",
+      "sha256": "1a07d07b68d4e2348dfaed7223d145fd12e83d5a791929ef9d4636b1a8ac8fbb",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 33102,
+      "bytes": 22686,
       "original": {
         "url": "https://static.wixstatic.com/media/812873_3fd20a857ade40fe9a635948e7fcb737~mv2.png",
         "fetched_from": "https://static.wixstatic.com/media/812873_3fd20a857ade40fe9a635948e7fcb737~mv2.png",
@@ -570,7 +581,8 @@
         "bytes": 373838,
         "full_resolution": true
       },
-      "downloaded_from": "https://static.wixstatic.com/media/812873_3fd20a857ade40fe9a635948e7fcb737~mv2.png"
+      "downloaded_from": "https://static.wixstatic.com/media/812873_3fd20a857ade40fe9a635948e7fcb737~mv2.png",
+      "web_quality": 75
     }
   ]
 }

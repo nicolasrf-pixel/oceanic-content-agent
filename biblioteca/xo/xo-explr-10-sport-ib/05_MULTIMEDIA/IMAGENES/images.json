@@ -30,12 +30,12 @@
       "width": 1600,
       "height": 1092,
       "format": "webp",
-      "sha256": "fa2746492223b1f2e5d3494c47ad17aabaf6025f01006a33aa3434cbc07111d4",
+      "sha256": "66adda407be27124ab9ee92cf6721c2dc9b74affde42ef02957103e9fc618ddd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 214290,
+      "bytes": 164568,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/one.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/one.jpg",
@@ -46,7 +46,8 @@
         "bytes": 536554,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/one.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/one.jpg",
+      "web_quality": 75
     },
     {
       "id": "aft-deck-setup",
@@ -73,11 +74,11 @@
       "width": 1000,
       "height": 607,
       "format": "webp",
-      "sha256": "b2fad979198189fe70042c9ac84d6105625fe238a68004fa9454d6a91649d68c",
+      "sha256": "66a1a2feef24f8c1fd3824b1ef47da0ed3b73bf47cc0cd414d7ebf6fd8d64b60",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 90818,
+      "bytes": 70440,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg",
@@ -88,7 +89,8 @@
         "bytes": 252297,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/Aft-deck-setup.jpg",
+      "web_quality": 75
     },
     {
       "id": "jwe-6022",
@@ -115,12 +117,12 @@
       "width": 1000,
       "height": 510,
       "format": "webp",
-      "sha256": "22828f3949e8a13dfd35b2583536989631fa778221cc4966f39b9f469811c564",
+      "sha256": "f94ac5879cb3de2feec0874b38fce0cbe03523029967d979a9a6bff0e9a25651",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 107536,
+      "bytes": 84056,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg",
@@ -131,7 +133,8 @@
         "bytes": 217023,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_6022.jpg",
+      "web_quality": 75
     },
     {
       "id": "jwe-5509",
@@ -158,12 +161,12 @@
       "width": 1100,
       "height": 648,
       "format": "webp",
-      "sha256": "9b7152346d8cf38cdbfc65f5562820df0f692bfd8f58bddcb5cc6b40c52ed394",
+      "sha256": "9c9b9452c8c68b9e95ed0065a3c2d46b6183da3e363c71a32ceb3260ff8888b5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 103636,
+      "bytes": 81484,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg",
@@ -174,7 +177,8 @@
         "bytes": 225589,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/JWE_5509.jpg",
+      "web_quality": 75
     },
     {
       "id": "xo-boats-dscvr-3500-51-3500-51",
@@ -231,11 +235,11 @@
       "width": 1000,
       "height": 374,
       "format": "webp",
-      "sha256": "2b5faa3645e38b0bb99226ec7e4cd049733c0789f431b502d31347346aeae8b1",
+      "sha256": "81f89a924f96a4502e7405e7db8a276b19466ad3437b26b937a2b228690ac46e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 20278,
+      "bytes": 16486,
       "original": {
         "url": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
         "fetched_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
@@ -246,7 +250,8 @@
         "bytes": 73330,
         "full_resolution": true
       },
-      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg"
+      "downloaded_from": "https://xoboats.com/wp-content/uploads/2022/02/XO_explr10.jpg",
+      "web_quality": 75
     }
   ]
 }

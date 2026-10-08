@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 1280,
       "format": "webp",
-      "sha256": "f612c83ab288175eb7770492e073bdf146cf1411cb80c46eaa97e24f19b417f5",
+      "sha256": "d08c211bd4d7538dbb1dd2bd2a9af2432a31d072bb8352a1f7d247473684cc86",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 252242,
+      "bytes": 177252,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
@@ -46,7 +46,8 @@
         "bytes": 409735,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/cover-catamaran-lagoon-sixty-5_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "navigation-helico-ncz9861-3",
@@ -70,14 +71,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/navigation-helico-ncz9861-3.webp",
-      "width": 1476,
-      "height": 1920,
+      "width": 1230,
+      "height": 1600,
       "format": "webp",
-      "sha256": "d3ab9a80ed8fbc0a3eda13a9e398baead779438833f1c230a9766c8d3801bb14",
+      "sha256": "6faaeac7c0daa7d3c4b21e501e133a3710ade9aa284e6c1302bdf4d7742f5ad7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 274132,
+      "bytes": 151592,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9861%20%283%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9861%20%283%29.jpg",
@@ -88,7 +89,8 @@
         "bytes": 510942,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9861%20%283%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9861%20%283%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "10",
@@ -115,11 +117,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "b4ccc5ee8355452478014c160c9c5f41be5033854db0356c698d4e65c63edc3a",
+      "sha256": "23d62541d063d37c5530b4e395dc5c9d6e552d0bdef46e912701c9187f9b5de7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 43812,
+      "bytes": 31976,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/10.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/10.jpg",
@@ -130,7 +132,8 @@
         "bytes": 87234,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/10.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/10.jpg",
+      "web_quality": 75
     },
     {
       "id": "navigation-helico-ncz9704-500-300dpi-1",
@@ -154,14 +157,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/navigation-helico-ncz9704-500-300dpi-1.webp",
-      "width": 2000,
-      "height": 1944,
+      "width": 1600,
+      "height": 1555,
       "format": "webp",
-      "sha256": "87ded45fe99ead720ea1292fae2f0edd7e756a60478f6fedd5cef128378dc89a",
+      "sha256": "1e18a2cfd0828b710dc372c229dbb87524342ff52d53c889047f60fadeb2cc50",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 423708,
+      "bytes": 220364,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9704_500-300dpi%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9704_500-300dpi%20%281%29.jpg",
@@ -172,7 +175,8 @@
         "bytes": 489264,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9704_500-300dpi%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9704_500-300dpi%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "navigation-helico-ncz9658-1",
@@ -196,14 +200,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/navigation-helico-ncz9658-1.webp",
-      "width": 1999,
-      "height": 1460,
+      "width": 1600,
+      "height": 1169,
       "format": "webp",
-      "sha256": "697f48b3429873823ae45cd59afe5fd0bec6be3fb98a4aded382c4737df88f75",
+      "sha256": "71fb1bc296cc70fefa57d8d9081fa137bc94ac358d59beed7196a0c5142e90af",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 333566,
+      "bytes": 174812,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9658%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9658%20%281%29.jpg",
@@ -214,7 +218,8 @@
         "bytes": 498340,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9658%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Navigation_helico_NCZ9658%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "s5-exterior-1920x720-4",
@@ -241,12 +246,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "04f04e43776956770912964a33ba7dd0225b54242712e9fe2bd7862157c72309",
+      "sha256": "70320875fdea2f0fac5d3ab097de1304f8a36569a10b140e6fbfcefcced23335",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 170396,
+      "bytes": 120466,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg",
@@ -257,7 +262,8 @@
         "bytes": 489632,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_4.jpg",
+      "web_quality": 75
     },
     {
       "id": "s5-exterior-1920x720-2",
@@ -284,12 +290,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "cf12cb69d6fbb0aa7bb6c29d391d5cbd909cc06ef1578224744ccd8f153db447",
+      "sha256": "b0f4165a9d24e785fd3b5d4222ed3990aede38a0b098f942df532e04cbf0717b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 277270,
+      "bytes": 222190,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg",
@@ -300,7 +306,8 @@
         "bytes": 508666,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-11/S5_exterior_1920x720_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "pont-et-fly-lifestyle-ncz8420-1",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/pont-et-fly-lifestyle-ncz8420-1.webp",
-      "width": 1920,
-      "height": 1403,
+      "width": 1600,
+      "height": 1169,
       "format": "webp",
-      "sha256": "05eb0dcfd24d11af9094808228df379ed760ad49fb039e1e67b785583bd91c8f",
+      "sha256": "4959515fabc4730527de3621c6dee4fa21ba0d3677a8c68ea20c4c7988784fa3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 266062,
+      "bytes": 153868,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8420%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8420%20%281%29.jpg",
@@ -342,7 +349,8 @@
         "bytes": 510861,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8420%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8420%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "pont-et-fly-lifestyle-nck4385-1",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/pont-et-fly-lifestyle-nck4385-1.webp",
-      "width": 1920,
-      "height": 1248,
+      "width": 1600,
+      "height": 1040,
       "format": "webp",
-      "sha256": "2fd907364943da60658e2525f956339cdcc55a979354e90c87a872ab9af2b4f3",
+      "sha256": "6ff2ea315858b4ad5eb72dc2364f30acdfafe31ef7320b71e681ce1da50db501",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 205310,
+      "bytes": 117216,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCK4385%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCK4385%20%281%29.jpg",
@@ -384,7 +392,8 @@
         "bytes": 431419,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCK4385%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCK4385%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "pont-et-fly-lifestyle-ncz8979-2",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/pont-et-fly-lifestyle-ncz8979-2.webp",
-      "width": 1920,
-      "height": 1398,
+      "width": 1600,
+      "height": 1165,
       "format": "webp",
-      "sha256": "ba9ef5ac3ce8414f0dbea8b4eaee77f54b43791e8abf1ee0ed39c86793905088",
+      "sha256": "084a10a8b6b23119d2eeb5d04d9aeaaeaa0d2ba7f7684d6d40d7927341b11424",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 294688,
+      "bytes": 164360,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8979%20%282%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8979%20%282%29.jpg",
@@ -426,7 +435,8 @@
         "bytes": 497285,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8979%20%282%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8979%20%282%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "pont-et-fly-lifestyle-ncz8969-1-1",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/pont-et-fly-lifestyle-ncz8969-1-1.webp",
-      "width": 1920,
-      "height": 1397,
+      "width": 1600,
+      "height": 1164,
       "format": "webp",
-      "sha256": "5a3b12a9e7dacb0f0865e886bc17c1c0d84f64dc30a4718daf4053db1dbf4503",
+      "sha256": "7a98742789e99738be65c64b2e24cb4856efc6f61d00c9d23a74fb22eda79f04",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 247138,
+      "bytes": 139904,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8969%20%281%29_1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8969%20%281%29_1.jpg",
@@ -468,7 +478,8 @@
         "bytes": 485889,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8969%20%281%29_1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8969%20%281%29_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "cockpit-ar-ncz10625-1-1",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/cockpit-ar-ncz10625-1-1.webp",
-      "width": 1920,
-      "height": 1407,
+      "width": 1600,
+      "height": 1173,
       "format": "webp",
-      "sha256": "d0295963aa0d027502b52a58b0bbd594785489961a2aa5dbb6a91ac9b1650c48",
+      "sha256": "02af3ebe739ba481196eb067115adb9908ebefc6b440a76d63442342f60ae547",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 198238,
+      "bytes": 114182,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cockpit_AR_NCZ10625%20%281%29_1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cockpit_AR_NCZ10625%20%281%29_1.jpg",
@@ -510,7 +521,8 @@
         "bytes": 502124,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cockpit_AR_NCZ10625%20%281%29_1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cockpit_AR_NCZ10625%20%281%29_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "cockpit-lifestyle-ncz10750-1",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cockpit-lifestyle-ncz10750-1.webp",
-      "width": 1920,
-      "height": 1403,
+      "width": 1600,
+      "height": 1169,
       "format": "webp",
-      "sha256": "33fe19ed5e7e4895ca85a446db4123a895f46a80e8fbe25029c37b64704df0e5",
+      "sha256": "851a4871e30f34319fbe713a5d3e5d0d153319c3348b4394230251524e3e2d25",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 223146,
+      "bytes": 125780,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/cockpit_Lifestyle__NCZ10750%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/cockpit_Lifestyle__NCZ10750%20%281%29.jpg",
@@ -552,7 +564,8 @@
         "bytes": 442541,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/cockpit_Lifestyle__NCZ10750%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/cockpit_Lifestyle__NCZ10750%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncz0149-hdr-web-1",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ncz0149-hdr-web-1.webp",
-      "width": 1920,
-      "height": 1402,
+      "width": 1600,
+      "height": 1168,
       "format": "webp",
-      "sha256": "96b9497784ad67303e017a58885e4477a99e7c0e14d1498bd61438d247d4d695",
+      "sha256": "de14a061dd8bf4353530346b27d3ac23364ef494b94360937c40b739acd7abcd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 165086,
+      "bytes": 82264,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0149-HDR_web%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0149-HDR_web%20%281%29.jpg",
@@ -594,7 +607,8 @@
         "bytes": 481281,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0149-HDR_web%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0149-HDR_web%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "carre-ncz10760-web-1",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/carre-ncz10760-web-1.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "9d0d04869f112b89eb7385afdaa2c48838b98091b8b3397361835bc12df922d2",
+      "sha256": "5c5277c13b0cb77a4f53dc886b0783214b81ec155260ae9e43c2de2190c82fa3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 145380,
+      "bytes": 78212,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Carre_NCZ10760_web%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Carre_NCZ10760_web%20%281%29.jpg",
@@ -636,7 +650,8 @@
         "bytes": 495738,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Carre_NCZ10760_web%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Carre_NCZ10760_web%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-sixty-5-galley-02",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/catamaran-lagoon-sixty-5-galley-02.webp",
-      "width": 1920,
-      "height": 1438,
+      "width": 1600,
+      "height": 1198,
       "format": "webp",
-      "sha256": "dfa6ed839a2bc8ea02273363b1801e33586dad2db71d6d899e4042c17f20a0b8",
+      "sha256": "fab19ccd1e6e190aada60c2ec5c21eb1782c3ae2e461d21b565b1d8f5508ed6c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 211946,
+      "bytes": 102312,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-02.jpg",
@@ -678,7 +693,8 @@
         "bytes": 395077,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-sixty-5-galley-03",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/catamaran-lagoon-sixty-5-galley-03.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "1f4242d13d68b0b749785e847cedd8a9c5e9a1903aa787038422cb58e2e5c6e4",
+      "sha256": "04e2031ec6e48f14afddb893196b346ff99ca9952e73fa141d029d8f3e526123",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 36118,
+      "bytes": 20160,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-03.jpg",
@@ -720,7 +736,8 @@
         "bytes": 270962,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "carre-lifestyle-nck5247-1",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/carre-lifestyle-nck5247-1.webp",
-      "width": 1920,
-      "height": 1246,
+      "width": 1600,
+      "height": 1038,
       "format": "webp",
-      "sha256": "71e1de2ace48c1a2d9315e7950771170033b0608843e572cff86a3f56547479a",
+      "sha256": "6dddfd0006148a9b8e5ee47d83bd5cd1d334c356f919e458030695432222b6b7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 138298,
+      "bytes": 76598,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/carre%E2%95%A0%C3%BC_Lifestyle__NCK5247%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/carre%E2%95%A0%C3%BC_Lifestyle__NCK5247%20%281%29.jpg",
@@ -762,7 +779,8 @@
         "bytes": 453883,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/carre%E2%95%A0%C3%BC_Lifestyle__NCK5247%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/carre%E2%95%A0%C3%BC_Lifestyle__NCK5247%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-sixty-5-galley",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/catamaran-lagoon-sixty-5-galley.webp",
-      "width": 1920,
-      "height": 1438,
+      "width": 1600,
+      "height": 1198,
       "format": "webp",
-      "sha256": "7b0c8397a1ff9c12de1f46df57349b3f89c43ff8e6f8ca4f6d515f80544910d4",
+      "sha256": "67095efa8bd58ece540187e3bfd05c8d0b7a0b49c0da47dab13ff9c4e98c53d9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 126034,
+      "bytes": 65046,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley.jpg",
@@ -804,7 +822,8 @@
         "bytes": 406483,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-galley.jpg",
+      "web_quality": 75
     },
     {
       "id": "cuisine-ncz6774-hdr-1",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cuisine-ncz6774-hdr-1.webp",
-      "width": 1920,
-      "height": 1398,
+      "width": 1600,
+      "height": 1165,
       "format": "webp",
-      "sha256": "2631ab1a7cf56a72745472d7a896a244673badec42e338eacacc1c726828b647",
+      "sha256": "08416f640f4e6ca25ab0c58f884e1f82643fd2a05e893f6c0dbb9185c3cf1b84",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 130896,
+      "bytes": 67776,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine__NCZ6774-HDR%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine__NCZ6774-HDR%20%281%29.jpg",
@@ -846,7 +865,8 @@
         "bytes": 436276,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine__NCZ6774-HDR%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine__NCZ6774-HDR%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "cuisine-lifestyle-ncz9083-1",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cuisine-lifestyle-ncz9083-1.webp",
-      "width": 1920,
-      "height": 1405,
+      "width": 1600,
+      "height": 1171,
       "format": "webp",
-      "sha256": "bab629b22c0179ee8aee997e8307c8603621bd8f8e364eb530e41034ce1de2a2",
+      "sha256": "551b4512d228da97726514c047e88282488a7b3089a3dfd8da0677c1eae5a7fb",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143516,
+      "bytes": 76860,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine_Lifestyle_NCZ9083%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine_Lifestyle_NCZ9083%20%281%29.jpg",
@@ -888,7 +908,8 @@
         "bytes": 470481,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine_Lifestyle_NCZ9083%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cuisine_Lifestyle_NCZ9083%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncz0029-hdr-2",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ncz0029-hdr-2.webp",
-      "width": 1920,
-      "height": 1400,
+      "width": 1600,
+      "height": 1167,
       "format": "webp",
-      "sha256": "7d33e52b4e185d418276a2088c3724f1c803634c0aee88df9cb57ebf5d99377d",
+      "sha256": "cc887d2d34c55c6ca95535584558b314d2c84151ca271ade9c42980226c23b76",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 194286,
+      "bytes": 103498,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0029-HDR%20%282%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0029-HDR%20%282%29.jpg",
@@ -930,7 +951,8 @@
         "bytes": 499606,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0029-HDR%20%282%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCZ0029-HDR%20%282%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "cab-prop-lifestyle-nck4782-1",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cab-prop-lifestyle-nck4782-1.webp",
-      "width": 1920,
-      "height": 1246,
+      "width": 1600,
+      "height": 1038,
       "format": "webp",
-      "sha256": "29fe4bd7bb42975c4bf287d6c351fad298338089a0ca4b01c61423a466bfa6e6",
+      "sha256": "f7b208cd62f514e0e893ca16a14751cd70e9385a87ba39677bcf7b5425a2adda",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 173876,
+      "bytes": 86602,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4782%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4782%20%281%29.jpg",
@@ -972,7 +994,8 @@
         "bytes": 504709,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4782%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4782%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "cabines-ncz7903-panorama-1-1",
@@ -996,14 +1019,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/cabines-ncz7903-panorama-1-1.webp",
-      "width": 1920,
-      "height": 950,
+      "width": 1600,
+      "height": 792,
       "format": "webp",
-      "sha256": "228437c955a963ed2ccba979dd6d5fc3c40f5d7ccb0d103ef4baa89f2401866c",
+      "sha256": "cf1b83934878cee12f0098cbdafa6411fa1904e2aa4f3c86a8d4d265031b3174",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 141208,
+      "bytes": 64076,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7903-Panorama%20%281%29_1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7903-Panorama%20%281%29_1.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 460252,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7903-Panorama%20%281%29_1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7903-Panorama%20%281%29_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "cab-prop-lifestyle-nck4874-1",
@@ -1038,14 +1062,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cab-prop-lifestyle-nck4874-1.webp",
-      "width": 1920,
-      "height": 1249,
+      "width": 1600,
+      "height": 1041,
       "format": "webp",
-      "sha256": "84282897c750e67851c2d91766df9ffc6aa0f463d442980f236c217b6e8a0e0b",
+      "sha256": "cf2a43792c83ac88e2a1e1fd93fd09f63df231c84ef3e966baf5de64e3b5c52d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 131804,
+      "bytes": 63928,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4874%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4874%20%281%29.jpg",
@@ -1056,7 +1080,8 @@
         "bytes": 438953,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4874%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cab_prop_Lifestyle_NCK4874%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-sixty-5-cabin-0",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/catamaran-lagoon-sixty-5-cabin-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "e5bfbe19d20aca157d71d64248602305857b804c66300be29a3cda184f814f90",
+      "sha256": "a998dc8e1fdf10442008677016c2e977c12a5e9fed3f6520a6e51cd5b5605d9d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 71604,
+      "bytes": 35850,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-cabin_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-cabin_0.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 401012,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-cabin_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-cabin_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "cabines-ncz7819-panorama-2",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/cabines-ncz7819-panorama-2.webp",
-      "width": 1920,
-      "height": 1557,
+      "width": 1600,
+      "height": 1298,
       "format": "webp",
-      "sha256": "a7f44f3b206653f6e4be98c409d59bccb2adc0f228331bc779a8e6642d712687",
+      "sha256": "b71674e5b9f1ff6ef751b0f6fc730837d08a0f73f19d0443a91b74f972e70982",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 159806,
+      "bytes": 82410,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7819-Panorama%20%282%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7819-Panorama%20%282%29.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 500895,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7819-Panorama%20%282%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Cabines__NCZ7819-Panorama%20%282%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-4",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/sixty-5-custom-4.webp",
-      "width": 1920,
-      "height": 1470,
+      "width": 1600,
+      "height": 1225,
       "format": "webp",
-      "sha256": "bcc1667e45492c4860ddc4b387f75b0d1f47e0f276af2b9d472297e3de614157",
+      "sha256": "58f4008066a316e019b5fb348ff18a0bcd9455ff6bcdd67852a7e894086da5a0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 323858,
+      "bytes": 169426,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_4.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_4.webp",
@@ -1182,7 +1209,8 @@
         "bytes": 306122,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_4.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_4.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-5-0",
@@ -1206,14 +1234,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/sixty-5-custom-5-0.webp",
-      "width": 1920,
-      "height": 1469,
+      "width": 1600,
+      "height": 1224,
       "format": "webp",
-      "sha256": "34a52d5b9cfd9f151823937927a1abd51c4cf8007ff45e7a3eaa84c49e6cff57",
+      "sha256": "020e5f837adba4ef2f955e011553c3a8b896575a6c4b3a3228b05b4f700c4e65",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204154,
+      "bytes": 109588,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_5_0.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_5_0.webp",
@@ -1224,7 +1252,8 @@
         "bytes": 201284,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_5_0.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_5_0.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-6",
@@ -1248,14 +1277,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/sixty-5-custom-6.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "70aa06c915cf28e485b71754b47f62e19eb303a8d11880646c031815939acfc4",
+      "sha256": "8535e8d10b83263a13ac96990d7fbaa761b4129bc9bfbc7ceab448b52a71e002",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 236652,
+      "bytes": 120144,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_6.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_6.webp",
@@ -1266,7 +1295,8 @@
         "bytes": 224570,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_6.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_6.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-8",
@@ -1290,14 +1320,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/sixty-5-custom-8.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "a6576c9ca0735571d174b60c1d5ab1a72a5dad61021190faa0e9a254ebba311a",
+      "sha256": "1bd440b4e2a65a0e5076e3b6b339eb3f4fa49b8f5b8a26d0898267d8ffdfe76b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 269730,
+      "bytes": 133250,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_8.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_8.webp",
@@ -1308,7 +1338,8 @@
         "bytes": 265512,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_8.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_8.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-7",
@@ -1332,14 +1363,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/sixty-5-custom-7.webp",
-      "width": 1920,
-      "height": 1406,
+      "width": 1600,
+      "height": 1172,
       "format": "webp",
-      "sha256": "da41bb21f8781a80473c616f97c0556c44a8f75a68f064723301e0e1946486f5",
+      "sha256": "6b8d98bd2074e71218602ad157fd269501b7f3703b588955f3a5419b85ae0079",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 155682,
+      "bytes": 80808,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/Sixty_5_custom_7.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/Sixty_5_custom_7.jpg",
@@ -1350,7 +1381,8 @@
         "bytes": 372264,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/Sixty_5_custom_7.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/Sixty_5_custom_7.jpg",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-3",
@@ -1374,14 +1406,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/sixty-5-custom-3.webp",
-      "width": 1920,
-      "height": 1014,
+      "width": 1600,
+      "height": 845,
       "format": "webp",
-      "sha256": "345beaf441ef9d90ac94076afceff8c3896d8f7967bb8462636453476ec32405",
+      "sha256": "e1f63b887e34c3d6abcd860ffa01d12abd77731fce009fda4a25ccc671daff63",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 100428,
+      "bytes": 53190,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_3.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_3.webp",
@@ -1392,7 +1424,8 @@
         "bytes": 101698,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_3.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_3.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-1",
@@ -1416,14 +1449,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/sixty-5-custom-1.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "c8d6769042bde7f044d7b015c81dae9808dc6c9e4ca0a7a617605415d8561bea",
+      "sha256": "10c77ec584b0df16459164960ee8b7035f5c7dff579be56e4c7e9f72082125ce",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 163286,
+      "bytes": 82340,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_1.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_1.webp",
@@ -1434,7 +1467,8 @@
         "bytes": 164146,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_1.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_1.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-custom-2",
@@ -1458,14 +1492,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/sixty-5-custom-2.webp",
-      "width": 1920,
-      "height": 1469,
+      "width": 1600,
+      "height": 1224,
       "format": "webp",
-      "sha256": "320d51888aa591e8b79afdb4ea7bd9984cc8f79bd899e6e038f31c4119640ace",
+      "sha256": "ffab51e64c0f5865a20489081f2e20d7c9a64b780715528fc3a775f99ef803db",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 163394,
+      "bytes": 81450,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_2.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_2.webp",
@@ -1476,7 +1510,8 @@
         "bytes": 164236,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_2.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-01/Sixty_5_custom_2.webp",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-bloc-premium-1920x1280-03",
@@ -1533,11 +1568,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "e166050b76d9fdee3cc076509d0593dbd6c750a1a73dfa0e537179f017eb9930",
+      "sha256": "a9efcea9062e026972aa45027aff6b37931d212fc22f4d3edf8320901674bf2e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93866,
+      "bytes": 66686,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/9.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/9.jpg",
@@ -1548,7 +1583,8 @@
         "bytes": 137804,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/9.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/9.jpg",
+      "web_quality": 75
     },
     {
       "id": "pont-et-fly-lifestyle-ncz8086-1",
@@ -1572,14 +1608,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/pont-et-fly-lifestyle-ncz8086-1.webp",
-      "width": 1920,
-      "height": 1407,
+      "width": 1600,
+      "height": 1173,
       "format": "webp",
-      "sha256": "d3020396f078270cc6222efebe57469692002a87542deeea4cd854255ed568a9",
+      "sha256": "03456073616fbc8e85068f22d05bb1aa47a8c1bbc39cb72e19b4dc53e56bb355",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204398,
+      "bytes": 115248,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8086%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8086%20%281%29.jpg",
@@ -1590,7 +1626,8 @@
         "bytes": 435001,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8086%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Pont_et_Fly_Lifestyle_NCZ8086%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-sixty-5-highlight-lifestyle",
@@ -1614,14 +1651,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/catamaran-lagoon-sixty-5-highlight-lifestyle.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "105713531cd2610dc47bb8bd977774420ad28c2e1f7f3af7785779bd9558f591",
+      "sha256": "4d3f8ea360d83081379f90ed10650105ab64eb4cfbd51d4166e7c2140ff47559",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 89638,
+      "bytes": 52364,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-highlight-lifestyle.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-highlight-lifestyle.jpg",
@@ -1632,7 +1669,8 @@
         "bytes": 399696,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-highlight-lifestyle.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/catamaran-lagoon-sixty-5-highlight-lifestyle.jpg",
+      "web_quality": 75
     },
     {
       "id": "sixty-5-cabine-proprie-taire-2",
@@ -1656,14 +1694,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/sixty-5-cabine-proprie-taire-2.webp",
-      "width": 1920,
-      "height": 1282,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "b08d8d6ae2e0edb60ad2a5518bff1079f64f4920f8da07ad55f4f0b6929791c3",
+      "sha256": "e71b9317ebfe5e1a2d7aab309b80d9dc37b818599fad189b6092a3ac9a3fe289",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 131564,
+      "bytes": 67214,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/SIXTY%205%20cabine%20proprie%CC%81taire%20%282%29.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/SIXTY%205%20cabine%20proprie%CC%81taire%20%282%29.webp",
@@ -1674,7 +1712,8 @@
         "bytes": 255602,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/SIXTY%205%20cabine%20proprie%CC%81taire%20%282%29.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/SIXTY%205%20cabine%20proprie%CC%81taire%20%282%29.webp",
+      "web_quality": 75
     },
     {
       "id": "sixty-5",
@@ -1698,14 +1737,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/sixty-5.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "9f129eb0f23d413fa92ded771c99db5ea7a92f4923e76ed57d86178cbdc6f82b",
+      "sha256": "e5025a68c0de8c2ec07e4b6b4d8f56a4a89f0a0719f02ceac9d1c6bd012ed9a8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 178274,
+      "bytes": 139234,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/SIXTY_5.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/SIXTY_5.webp",
@@ -1716,7 +1755,8 @@
         "bytes": 196556,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/SIXTY_5.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/SIXTY_5.webp",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-fly-standard",
@@ -1743,11 +1783,11 @@
       "width": 1007,
       "height": 504,
       "format": "webp",
-      "sha256": "baa502fe9c75a05c3aa048a01235b4044cca33cc82ffe51324b1110a7c986ecf",
+      "sha256": "0f49bbef0cc3eefc14ae440a4384570f7f8fa1af7f445e674f722f9aed80096c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 27194,
+      "bytes": 21182,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_STANDARD.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_STANDARD.jpg",
@@ -1758,7 +1798,8 @@
         "bytes": 202247,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_STANDARD.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_STANDARD.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-fly-bain-soleil",
@@ -1785,11 +1826,11 @@
       "width": 1007,
       "height": 504,
       "format": "webp",
-      "sha256": "c270162523d33993f8d9135c04e41d876e96e45a5ebcdf6916189b7886b67642",
+      "sha256": "b20c8e02a9e715e39d616afce26c939151521913fcb789ab017df786c87e7523",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 28810,
+      "bytes": 21492,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_BAIN_SOLEIL.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_BAIN_SOLEIL.jpg",
@@ -1800,7 +1841,8 @@
         "bytes": 204216,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_BAIN_SOLEIL.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_BAIN_SOLEIL.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-fly-tribu",
@@ -1827,11 +1869,11 @@
       "width": 1007,
       "height": 504,
       "format": "webp",
-      "sha256": "0fe2d7800600bd1fa3b94398ddc8eaf0c189ddf0c331526c2abe3ef2a77c40c9",
+      "sha256": "432480d2fea347f11ae313cdb18076d079fe79e8f0bcae87eb711605ade8b353",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 28878,
+      "bytes": 21922,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_TRIBU.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_TRIBU.jpg",
@@ -1842,7 +1884,8 @@
         "bytes": 205960,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_TRIBU.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_FLY_TRIBU.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty5-galley-down-4c-4t",
@@ -1869,11 +1912,11 @@
       "width": 1007,
       "height": 546,
       "format": "webp",
-      "sha256": "f2d4597a55e75518941919b303688b07be17f14d363ccb01a13201445f7fa3a4",
+      "sha256": "980c5ddd3bf3604801d938324e160562fcc874a31458767242913210967456d5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 25834,
+      "bytes": 20434,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_DOWN_4C_4T.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_DOWN_4C_4T.jpg",
@@ -1884,7 +1927,8 @@
         "bytes": 198396,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_DOWN_4C_4T.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_DOWN_4C_4T.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty5-galley-up-6c-6t",
@@ -1911,11 +1955,11 @@
       "width": 1007,
       "height": 546,
       "format": "webp",
-      "sha256": "723ca069805e8beaf930f579aabf6dd06399b30b61bdb602e6940f0aafd38397",
+      "sha256": "b52124e00eda7c7c1d0bf83ad0583aa7911392e002b59459887a05500ee5fabb",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 26772,
+      "bytes": 21130,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_UP_6C_6T.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_UP_6C_6T.jpg",
@@ -1926,7 +1970,8 @@
         "bytes": 202647,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_UP_6C_6T.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY5_GALLEY_UP_6C_6T.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-lounge-standard",
@@ -1953,11 +1998,11 @@
       "width": 1007,
       "height": 546,
       "format": "webp",
-      "sha256": "64849b859fd4e351eab724c7d426815df3774a1ec181e051a6d54a25b529ea4c",
+      "sha256": "b454e098e271b2dfa713ad60f6a100c2c487f57f445faf71fbfd8b04d29041e6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 37208,
+      "bytes": 29098,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_STANDARD.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_STANDARD.jpg",
@@ -1968,7 +2013,8 @@
         "bytes": 263599,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_STANDARD.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_STANDARD.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-lounge-option-tables-basses-0",
@@ -1995,11 +2041,11 @@
       "width": 1007,
       "height": 546,
       "format": "webp",
-      "sha256": "066d74d43ce6d8d6bb6f3151c29b3cab5200fb7cc8a7b4bd2d4bc42af5114837",
+      "sha256": "75c314249f006535a582f981e1872f776e8b06d8666b470ef3c99ef220f39dd0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 36922,
+      "bytes": 28748,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_BASSES_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_BASSES_0.jpg",
@@ -2010,7 +2056,8 @@
         "bytes": 262655,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_BASSES_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_BASSES_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-catamaran-sixty-5-lounge-option-tables-hautes",
@@ -2037,11 +2084,11 @@
       "width": 1007,
       "height": 546,
       "format": "webp",
-      "sha256": "8a9e66369fdecf53e587e4d1b09190e6671afd72202d4cf03c7d644da548e14f",
+      "sha256": "a4a4cfb7fdd73c88db0c95d035ad21cb196e7e0877f961392f8fb7e6e1b15840",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 37534,
+      "bytes": 29356,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_HAUTES.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_HAUTES.jpg",
@@ -2052,7 +2099,8 @@
         "bytes": 264581,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_HAUTES.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-10/LAYOUT-CATAMARAN-SIXTY_5_LOUNGE_OPTION_TABLES_HAUTES.jpg",
+      "web_quality": 75
     }
   ]
 }

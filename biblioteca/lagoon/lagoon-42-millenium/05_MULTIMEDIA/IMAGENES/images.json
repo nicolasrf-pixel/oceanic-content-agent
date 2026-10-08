@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "9cb808370e101e7d5529ebcbf075a5a49537748cb71a2db4b7c2671892b300cf",
+      "sha256": "25567cde9a863bba0bb486c4c9b5535d3d82e11d912a09506c8cd67cf2ae4380",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 404220,
+      "bytes": 317148,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-cover-1920x1080.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-cover-1920x1080.jpg",
@@ -46,7 +46,8 @@
         "bytes": 410340,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-cover-1920x1080.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-cover-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-img-intro-produit-880x1177",
@@ -73,11 +74,11 @@
       "width": 880,
       "height": 1177,
       "format": "webp",
-      "sha256": "8a8abb820f12cc676d2c369f6f0ee5590629f0bb34d14465b8930bd1f9d3f818",
+      "sha256": "2f30b4fa7a806ab8704394fb2f86667f2b43429bcf3d6006d6581ed3d92a001b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 207174,
+      "bytes": 167086,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-img-intro-produit-880x1177.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-img-intro-produit-880x1177.jpg",
@@ -88,7 +89,8 @@
         "bytes": 405819,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-img-intro-produit-880x1177.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-img-intro-produit-880x1177.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-ext-1920x1280-2",
@@ -115,12 +117,12 @@
       "width": 1920,
       "height": 1280,
       "format": "webp",
-      "sha256": "f881eea9c57bf64743e38352c7c1ad68bf9f468d44d9746adad8164996b7a128",
+      "sha256": "c7f861ea833f9bc5719d96f55d82b796ec3df11bcb922ce022fbe3d6e79f7bf2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 435654,
+      "bytes": 329296,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg",
@@ -131,7 +133,8 @@
         "bytes": 405453,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-ext-1920x720-1",
@@ -158,12 +161,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "c69aeec8de19648363cda52338b19503ff2f55f73da1454c1f147bfa1dd24ad1",
+      "sha256": "af503a28acabe7e1233961e54b359765ebf27bd9b669d2e1da82838d0323a11a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 363772,
+      "bytes": 287964,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg",
@@ -174,7 +177,8 @@
         "bytes": 393169,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x720-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-ext-1920x1280-3",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/l42-millenium-ext-1920x1280-3.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "001aa79436652091409f5d87d54c15642aff1d966cdf53fb67e1888d260a34f2",
+      "sha256": "f7b5dd786bffc4f6d3daf2253f9c79b9beeaec2fe16960910ded5109a5b9cffc",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 346152,
+      "bytes": 166324,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-3.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-3.jpg",
@@ -216,7 +220,8 @@
         "bytes": 407399,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-3.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-ext-1920x1280-4",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/l42-millenium-ext-1920x1280-4.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f5f9cdbf917abfa4fb73a6172aa5418b51f10b87e3957ecb2a9676122c6d7978",
+      "sha256": "505d1320d3d6c3ed461555f30bfd46b5269777253c655e0dbe769aaea333289d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 371856,
+      "bytes": 186106,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-4.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-4.jpg",
@@ -258,7 +263,8 @@
         "bytes": 404536,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-4.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-04/L42-MILLENIUM-EXT-1920x1280-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "lag42m-dji-0787",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lag42m-dji-0787.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6adb1533aecea48afbd79d6c884f487826dbc6f774294a1cb3dcec85f158f413",
+      "sha256": "3970a562f9753051363d39c1dac2ed219079aa82cf4bc99ea28b318155a125af",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 241374,
+      "bytes": 115770,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/LAG42M-DJI_0787.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/LAG42M-DJI_0787.jpg",
@@ -300,7 +306,8 @@
         "bytes": 375656,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/LAG42M-DJI_0787.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/LAG42M-DJI_0787.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2459-hdr-web",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ncf2459-hdr-web.webp",
-      "width": 1427,
-      "height": 1920,
+      "width": 1189,
+      "height": 1600,
       "format": "webp",
-      "sha256": "f86171b74c5996b2a93c253c885a977e51776fe62cc5009ce4b7346ed81e5325",
+      "sha256": "32194912f0b6ce9904e18f508af51082e6f2674031d92222140573d12159a754",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 178758,
+      "bytes": 90596,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2459-HDR_web.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2459-HDR_web.jpg",
@@ -342,7 +349,8 @@
         "bytes": 493624,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2459-HDR_web.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2459-HDR_web.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-ncf2484-hdr-web",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/l42-ncf2484-hdr-web.webp",
-      "width": 1920,
-      "height": 1419,
+      "width": 1600,
+      "height": 1183,
       "format": "webp",
-      "sha256": "c0ca9bb83ebc739e865ecbaa835b532123f3e5da063d2cbd6211bb26979026bf",
+      "sha256": "f4b077befae25477c9c6d50777efc761d6d96dfa90508574fbfdd84bdb602af0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 182278,
+      "bytes": 95562,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2484-HDR_web.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2484-HDR_web.jpg",
@@ -384,7 +392,8 @@
         "bytes": 501659,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2484-HDR_web.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2484-HDR_web.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-ncf2453-web-4",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/l42-ncf2453-web-4.webp",
-      "width": 1920,
-      "height": 1389,
+      "width": 1600,
+      "height": 1158,
       "format": "webp",
-      "sha256": "69cf4cc881a9318665f60945a93ef42de166999468ba858685258894d6d88527",
+      "sha256": "8cf27bc46dda9857c648530907c05b2db66a2ba77886e18c60d49fae1d7fb0ae",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 155534,
+      "bytes": 82528,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2453_web_4.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2453_web_4.jpg",
@@ -426,7 +435,8 @@
         "bytes": 475148,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2453_web_4.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2453_web_4.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-ncf2514-hdr-web",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/l42-ncf2514-hdr-web.webp",
-      "width": 1920,
-      "height": 1469,
+      "width": 1600,
+      "height": 1224,
       "format": "webp",
-      "sha256": "4b387fc938eafd6d851bbc71c81d45c5459f4445a2dd225262094859065ec1d8",
+      "sha256": "e39426e66de8975b3a5b826567d45619f74a0b5c81254433327575e0c00d3c3f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 188896,
+      "bytes": 96052,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2514-HDR_web.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2514-HDR_web.jpg",
@@ -468,7 +478,8 @@
         "bytes": 432888,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2514-HDR_web.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2514-HDR_web.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2407-hdr-web-2",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/ncf2407-hdr-web-2.webp",
-      "width": 1920,
-      "height": 1400,
+      "width": 1600,
+      "height": 1167,
       "format": "webp",
-      "sha256": "f949a663b3880aa3e1439ea57f1be200a46b71b9a46b060f128f1bb69dee0bb1",
+      "sha256": "8a457f53f06944aa908825b3f77895f70e7bc41e61c45fe12417a1edea10f5ab",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 103130,
+      "bytes": 53422,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2407-HDR_web_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2407-HDR_web_2.jpg",
@@ -510,7 +521,8 @@
         "bytes": 359996,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2407-HDR_web_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2407-HDR_web_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-ncf2405-hdr-web",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/l42-ncf2405-hdr-web.webp",
-      "width": 1920,
-      "height": 1400,
+      "width": 1600,
+      "height": 1167,
       "format": "webp",
-      "sha256": "5c119489e625d8e4853c79baeb72704bae2d23c51544c0b8a25d8a4f1343b063",
+      "sha256": "6a01c1cbf129a9beb00b8880711a3fc26987b3058a6702a69bffacc3ad6a42c1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 161290,
+      "bytes": 80560,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2405-HDR_web.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2405-HDR_web.jpg",
@@ -552,7 +564,8 @@
         "bytes": 483105,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2405-HDR_web.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/L42_NCF2405-HDR_web.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2377-hdr-web-2",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/ncf2377-hdr-web-2.webp",
-      "width": 1920,
-      "height": 1405,
+      "width": 1600,
+      "height": 1171,
       "format": "webp",
-      "sha256": "c1f9cfe8158a2fbc4de6de403ee3942ae646286aff26f5b1f8fae8190cd7395f",
+      "sha256": "2ac0c4cfe97f22f784d986ddb5a07cc873d82e476d25cb23ac154664ea9ee77c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157816,
+      "bytes": 74204,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2377-HDR_web_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2377-HDR_web_2.jpg",
@@ -594,7 +607,8 @@
         "bytes": 508547,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2377-HDR_web_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2377-HDR_web_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2383-hdr-web-2",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/ncf2383-hdr-web-2.webp",
-      "width": 1920,
-      "height": 1403,
+      "width": 1600,
+      "height": 1169,
       "format": "webp",
-      "sha256": "debab20c2b988b7882328a1919fbca8ee79fa948be023eeec4e8236a20836f4f",
+      "sha256": "060552c86ede3b3dccd3757713c3968c413444ec327de93da435aa47563a4a19",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101980,
+      "bytes": 53032,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2383-HDR_web_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2383-HDR_web_2.jpg",
@@ -636,7 +650,8 @@
         "bytes": 378015,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2383-HDR_web_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2383-HDR_web_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2417-hdr-web-2",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/ncf2417-hdr-web-2.webp",
-      "width": 1473,
-      "height": 1920,
+      "width": 1228,
+      "height": 1600,
       "format": "webp",
-      "sha256": "eddb5ac55408434fce9fcf7bdd461b91e81f9ddc9e2f747897dfc673d6aeea45",
+      "sha256": "1f8820352b6b6efc10ea08ae8ddbdf4cb0b94a19750484a03c4ac6e343ced436",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 119258,
+      "bytes": 59000,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2417-HDR_web_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2417-HDR_web_2.jpg",
@@ -678,7 +693,8 @@
         "bytes": 389880,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2417-HDR_web_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2417-HDR_web_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "ncf2435-hdr-web-2",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/ncf2435-hdr-web-2.webp",
-      "width": 1474,
-      "height": 1920,
+      "width": 1228,
+      "height": 1600,
       "format": "webp",
-      "sha256": "3452dfac12b6dbaa26aa5d1c525b0eb6e61d59d8c09f4fe27dcb2992fa5dc9a0",
+      "sha256": "788c071f070c2f47423e1df3e382b2c3044c1e0dca99cd43c75460e1a0f86cfd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 96668,
+      "bytes": 48660,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2435-HDR_web_2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2435-HDR_web_2.jpg",
@@ -720,7 +736,8 @@
         "bytes": 346607,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2435-HDR_web_2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/_NCF2435-HDR_web_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-42-jupes-arrie-re",
@@ -747,11 +764,11 @@
       "width": 1200,
       "height": 896,
       "format": "webp",
-      "sha256": "784644310d8839be9556317dd8f6cc58da8875181e62402f66cc82492f885885",
+      "sha256": "4a89d4b51ae59b5889c5c91e4d1b74aae37d1f3261ec9a09ce7014111e4e5b1a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 134118,
+      "bytes": 104350,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/Lagoon%2042%20jupes%20arrie%CC%80re.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/Lagoon%2042%20jupes%20arrie%CC%80re.webp",
@@ -762,7 +779,8 @@
         "bytes": 125684,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/Lagoon%2042%20jupes%20arrie%CC%80re.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-02/Lagoon%2042%20jupes%20arrie%CC%80re.webp",
+      "web_quality": 75
     },
     {
       "id": "lagoon-42-m-1200x917-usp1",
@@ -789,11 +807,11 @@
       "width": 1200,
       "height": 917,
       "format": "webp",
-      "sha256": "3dd03378902987a57cf08d6c61bb65a011b11330a5796cd9fc61d0d49e7e27b8",
+      "sha256": "0cde66545285ffc683def1bc940d2c1a8a46c89fb4ce81c616e5dfe34762194c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 337758,
+      "bytes": 258058,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon-42-M-1200x917-USP1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon-42-M-1200x917-USP1.jpg",
@@ -804,7 +822,8 @@
         "bytes": 443769,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon-42-M-1200x917-USP1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon-42-M-1200x917-USP1.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-42-cockpit",
@@ -831,11 +850,11 @@
       "width": 1196,
       "height": 896,
       "format": "webp",
-      "sha256": "b683f5b7b4226efe56839d5886566a30a2f03193ae8e814d1c973c6a0083d1f9",
+      "sha256": "ced3ff1de70fb9ed219111a70acf3a125c24f322be41284ce3518ffbdc0ef2f3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 112142,
+      "bytes": 85902,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2042%20cockpit.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2042%20cockpit.jpg",
@@ -846,7 +865,8 @@
         "bytes": 278375,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2042%20cockpit.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2042%20cockpit.jpg",
+      "web_quality": 75
     },
     {
       "id": "web-l42-ncf2484-hdr",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/web-l42-ncf2484-hdr.webp",
-      "width": 1920,
-      "height": 1410,
+      "width": 1600,
+      "height": 1175,
       "format": "webp",
-      "sha256": "1afe9c5452753921468c78335d32b9bd238a3d665685af8cd761e96dce2b8ee4",
+      "sha256": "1908444b615df7993074c184f5d79ac087474f07f27fc3b266440435728f8bea",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 181082,
+      "bytes": 95926,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/WEB_L42_NCF2484-HDR.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/WEB_L42_NCF2484-HDR.jpg",
@@ -888,7 +908,8 @@
         "bytes": 411958,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/WEB_L42_NCF2484-HDR.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/WEB_L42_NCF2484-HDR.jpg",
+      "web_quality": 75
     },
     {
       "id": "seanapps-highlight",
@@ -942,14 +963,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon42millenium-virtual-tour-cover.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "46247b8941778ecba5320b25df8c28f733e1aae5b2ada22d9e22110aef40ebb1",
+      "sha256": "3e0fea7659001a762f2fa5dd7dfed4180d480e37fcceacdadb4bc1f9e4bedf9f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 363478,
+      "bytes": 198482,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon42Millenium-virtual-tour-cover.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon42Millenium-virtual-tour-cover.jpg",
@@ -960,7 +981,8 @@
         "bytes": 338798,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon42Millenium-virtual-tour-cover.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/Lagoon42Millenium-virtual-tour-cover.jpg",
+      "web_quality": 75
     },
     {
       "id": "l42-millenium-paralax-1900x1200",
@@ -984,14 +1006,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/l42-millenium-paralax-1900x1200.webp",
-      "width": 1800,
-      "height": 1200,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "6651e17d314ce3dae9e5094ea1ecc5ef8346c178e872a90d7a3331325f06f8cf",
+      "sha256": "e86fcf94f87f99fceae39815e7c1d6812c9e0ba87f733260b71b8a7e502e19d8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 311506,
+      "bytes": 168078,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-paralax-1900x1200.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-paralax-1900x1200.jpg",
@@ -1002,7 +1024,8 @@
         "bytes": 398695,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-paralax-1900x1200.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-05/L42-millenium-paralax-1900x1200.jpg",
+      "web_quality": 75
     },
     {
       "id": "new-4-cabines",
@@ -1029,11 +1052,11 @@
       "width": 1007,
       "height": 556,
       "format": "webp",
-      "sha256": "c7f46bec9757453fb3addf2392ebea02b35336e0f3bcca91c31d6e808b1bc4a4",
+      "sha256": "9d36e5d4ab1b08a352fa6ec0035a2ee20fffb687057d405a2a572685e8ba9e67",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 15832,
+      "bytes": 11974,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/new%204%20cabines.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/new%204%20cabines.png",
@@ -1044,7 +1067,8 @@
         "bytes": 214102,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/new%204%20cabines.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/new%204%20cabines.png",
+      "web_quality": 75
     },
     {
       "id": "cockpit-new",
@@ -1071,11 +1095,11 @@
       "width": 1007,
       "height": 556,
       "format": "webp",
-      "sha256": "5c720742f200e125fe1c7f42b4b4329198cd3620aee98e1f9ad01091b4a7aac2",
+      "sha256": "ea204a55e09d9eebf0e88f7d1d2bca42c20d9aace098cc51fd764f2f072e2eb3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20420,
+      "bytes": 15580,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/cockpit%20new.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/cockpit%20new.png",
@@ -1086,7 +1110,8 @@
         "bytes": 250861,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/cockpit%20new.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-07/cockpit%20new.png",
+      "web_quality": 75
     },
     {
       "id": "lagoon-42",
@@ -1110,14 +1135,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-42.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "2c0f4e2293a5408e66d98177f49db584832b177148612849645951ece280e82e",
+      "sha256": "8b03b602dee516d448a5c95365dce52b4a418a95149cb2f7ae08d055241fe51b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 214990,
+      "bytes": 168180,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_42.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_42.webp",
@@ -1128,7 +1153,8 @@
         "bytes": 224224,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_42.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_42.webp",
+      "web_quality": 75
     }
   ]
 }

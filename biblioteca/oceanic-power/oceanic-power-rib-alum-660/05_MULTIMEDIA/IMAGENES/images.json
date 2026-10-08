@@ -30,12 +30,12 @@
       "width": 562,
       "height": 456,
       "format": "webp",
-      "sha256": "20471644735db2420fdd921ca445c18c433da05059f30d47f525f1a4a17048c1",
+      "sha256": "21c0d67584127be902ba18eccf4154f109421c7f9c8ec8e271e89db7b23d0e5c",
       "collected_at": "2026-10-02",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 6258,
+      "bytes": 5040,
       "original": {
         "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-660-1.jpg",
         "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-660-1.jpg",
@@ -46,7 +46,8 @@
         "bytes": 58950,
         "full_resolution": true
       },
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-660-1.jpg"
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-ALUM-660-1.jpg",
+      "web_quality": 75
     }
   ]
 }

@@ -30,12 +30,12 @@
       "width": 562,
       "height": 456,
       "format": "webp",
-      "sha256": "6b121372745893817e7601f704c5363a6bc1fd4ce528c2d416058b7b6897b8f2",
+      "sha256": "af43a2183240bf1e3b89c452ab2f93c8f1e724491642a973b19793d9fff954bf",
       "collected_at": "2026-10-02",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 7560,
+      "bytes": 5978,
       "original": {
         "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-620-LUX-1.jpg",
         "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-620-LUX-1.jpg",
@@ -46,7 +46,8 @@
         "bytes": 69346,
         "full_resolution": true
       },
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-620-LUX-1.jpg"
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-620-LUX-1.jpg",
+      "web_quality": 75
     }
   ]
 }

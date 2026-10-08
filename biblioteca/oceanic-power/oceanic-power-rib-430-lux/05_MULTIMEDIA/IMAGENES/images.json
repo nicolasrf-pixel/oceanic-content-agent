@@ -30,12 +30,12 @@
       "width": 562,
       "height": 456,
       "format": "webp",
-      "sha256": "35614161077c4438f6e919327c0d789730b8bb0d98ee0514be80f6c32b36f713",
+      "sha256": "e83c91ced002aea0a1fc47688e5da9f69bd2a2fc3c2b756a2ac0dfa8d4fca30e",
       "collected_at": "2026-10-02",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 7832,
+      "bytes": 5936,
       "original": {
         "url": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
         "fetched_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
@@ -46,7 +46,8 @@
         "bytes": 70201,
         "full_resolution": true
       },
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg"
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2024/06/RIB-430-LUX-1.jpg",
+      "web_quality": 75
     }
   ]
 }

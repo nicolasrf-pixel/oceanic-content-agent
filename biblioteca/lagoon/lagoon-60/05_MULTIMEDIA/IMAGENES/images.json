@@ -30,12 +30,12 @@
       "width": 768,
       "height": 1024,
       "format": "webp",
-      "sha256": "7595b79247746c81092288e89b5f4c4060c541b7ae210f86ad03183bc3c411e8",
+      "sha256": "4c4caf2ae789e3d6d142dacbb7a9f697ea637ed756442431c47584b5530bb6a4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 103442,
+      "bytes": 74644,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg",
@@ -46,7 +46,8 @@
         "bytes": 395167,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-mobile-cover-768x1024.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-vignette-600x400",
@@ -73,11 +74,11 @@
       "width": 400,
       "height": 600,
       "format": "webp",
-      "sha256": "b1a13be9871a5cc739e210820004d36710046fee5394bafc8756eeaa838d8fdc",
+      "sha256": "a5b915a2c8ef699ee7a7a9ed0163a2f306957b4f7f9044b22b14bebdd5b8ca32",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 36738,
+      "bytes": 27764,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-600x400.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-600x400.jpg",
@@ -88,7 +89,8 @@
         "bytes": 223335,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-600x400.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-600x400.jpg",
+      "web_quality": 75
     },
     {
       "id": "2",
@@ -115,11 +117,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "dda81a7d8a2f00359e73d6aa2fd258e7ea58b1d13fa254f1d39701b5775999d1",
+      "sha256": "9b750a3bb8898b93f46857f19866ad95a6ee844b5d99ae3e2eda623b3f8e4587",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 167714,
+      "bytes": 132704,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg",
@@ -130,7 +132,8 @@
         "bytes": 206131,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-09-1920x720-0",
@@ -157,12 +160,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "26106c7efa7fe6b1d4db2fb54db87c236a2837b7db89a88479d1366e604cbfab",
+      "sha256": "3eb2bc3af8db4257ffd4a61c7e1c9d980f1854a38d3108df8b05290b97adb45f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 318686,
+      "bytes": 229452,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg",
@@ -173,7 +176,8 @@
         "bytes": 509114,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-27-1920x1280",
@@ -200,12 +204,12 @@
       "width": 1920,
       "height": 1279,
       "format": "webp",
-      "sha256": "856463b943c89ac96f6f36282dc984dfbbdea6b2c7b768d652c3a248c1cbb2cd",
+      "sha256": "688c75e7603eac44ef98c6c85cb601360bcdd20b737d8a092932350ffae3de85",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 425544,
+      "bytes": 324262,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg",
@@ -216,7 +220,8 @@
         "bytes": 408091,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-15-1920x720-0",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/lagoon-60-slider-15-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "345e69ff2bc1dbb6df3e257c4f4a2d24f145bee05aa7c36bd8c3038bd8098304",
+      "sha256": "49ee80895a833fad7f3f3770ae2ca8e60bbd61aa4bce7ea0c14e315056cc12e2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 191996,
+      "bytes": 96700,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg",
@@ -258,7 +263,8 @@
         "bytes": 405445,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-15-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-07-1920x720-0",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/lagoon-60-slider-07-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "f489d01f295cb43a364f90125651c23513ce9dc4eaa53f73ac1b21b566d3b5e7",
+      "sha256": "1967f3c2224fcce1a61f018928ff730a1031ff0a3924a0f8b458a8070e1c6036",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 273486,
+      "bytes": 139192,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-07-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-07-1920x720_0.jpg",
@@ -300,7 +306,8 @@
         "bytes": 400914,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-07-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-07-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-10-1920x720-0",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-10-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "80e3dbadb5ac153bbe2fa96a793cb126c791941a8a0ad1f3f7be805dc876ac8b",
+      "sha256": "87c22c951e3fced7b970eb7d94f281b0072cdc78f32949856440c35b515a1bb4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 274028,
+      "bytes": 147818,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-10-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-10-1920x720_0.jpg",
@@ -342,7 +349,8 @@
         "bytes": 403574,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-10-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-10-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-26-1920x1280",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-26-1920x1280.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f98b661ec9cb529d18eeee5b19258eeeff679f5df7a685aff8d45f9d3cb94d79",
+      "sha256": "057cf0fa661124b3d96c268b71145e529a806f276fbc2d070acbd181597fa4a1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 257868,
+      "bytes": 147744,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26-1920x1280.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26-1920x1280.jpg",
@@ -384,7 +392,8 @@
         "bytes": 403762,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26-1920x1280.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26-1920x1280.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-06-1920x720-0",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/lagoon-60-slider-06-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6afbebd6c27c44e5faedca0c157c643537a8429c6acc0abe9a1beaf6af03e794",
+      "sha256": "1e7f2463ab38a13183662cc40277242e6a2a20c0b90dda87e3c275c3b896b288",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204642,
+      "bytes": 99722,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-06-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-06-1920x720_0.jpg",
@@ -426,7 +435,8 @@
         "bytes": 395872,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-06-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-06-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-28-1920x1280",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-60-slider-28-1920x1280.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "262ff2ff78551a362f9c4d8fc795ee87e11ed1e7c9f7a8f0322a0ae07e904605",
+      "sha256": "3e610b74292ce7136f9939a655c65bf15fb15a84a182320b84f32036403c24de",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 293218,
+      "bytes": 167358,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-28-1920x1280.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-28-1920x1280.jpg",
@@ -468,7 +478,8 @@
         "bytes": 406907,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-28-1920x1280.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-28-1920x1280.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-26",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-26.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "0bcf922aff8d7ef71fd1697c1ad7f9ce1a6d328693c0258745ca4752e1da238b",
+      "sha256": "ca88f8135bcd3785d7b5de0e5e7bc8e11ff68db7126c0388dba50dd4e3039bd7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 98010,
+      "bytes": 54952,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26.jpg",
@@ -510,7 +521,8 @@
         "bytes": 349288,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-26.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-08-1920x720-0",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-08-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "43841554dd027f117c4ef40bde8c4b90ea1246c77aa81e4d3ef31dc6382ddeb9",
+      "sha256": "8432f74b2eb162b358fddee76f8815509207e3013205de3e29dd45fb7a1edc47",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 333030,
+      "bytes": 177380,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-08-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-08-1920x720_0.jpg",
@@ -552,7 +564,8 @@
         "bytes": 407589,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-08-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-08-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-22-1920x720-0",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-22-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "dd45a1efd55ba474456b249598b73c1d942065f1a72eed7d957ae8d66fc579f8",
+      "sha256": "e401af2e09b0dcf2d64504c8dc8ce806a951d4ba365d9e297112a4d0269a79a3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 238346,
+      "bytes": 130100,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-22-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-22-1920x720_0.jpg",
@@ -594,7 +607,8 @@
         "bytes": 408937,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-22-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-22-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-23-1920x720-0",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-23-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "75db87d180d83a895acebd711427d7b9744c4a2da849428478aa08333d8733fe",
+      "sha256": "37f347ef2f82a47e84b19b91ce29c400046ebaadd2bb45a9f3fcd991b6fb4766",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 275806,
+      "bytes": 144920,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-23-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-23-1920x720_0.jpg",
@@ -636,7 +650,8 @@
         "bytes": 410179,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-23-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-23-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-19-1920x720-0",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-19-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "7de041fddf16beb6425e2c451c439030c4ae0ecf08f865cf492338c854ce34fb",
+      "sha256": "229be8cd3a517bac04ea605649136e186b11d7f284990fc2da2963c234285eb8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 296122,
+      "bytes": 163842,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-19-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-19-1920x720_0.jpg",
@@ -678,7 +693,8 @@
         "bytes": 407563,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-19-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-19-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-25-1920x1280",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-slider-25-1920x1280.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "660d0b4fb6fbdd86b6346b3b0928ce824e2743eed2d009368e2e51c606b1a6e9",
+      "sha256": "5ace1bdd6b3492bbdba95f60cf2a3f48ea6e8e6cbcd04d1bd8308a5317d4e61b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 240430,
+      "bytes": 134598,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-25-1920x1280.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-25-1920x1280.jpg",
@@ -720,7 +736,8 @@
         "bytes": 402868,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-25-1920x1280.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-25-1920x1280.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-21-1920x720-0",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-21-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "b9f9ac80f261f09509a712c71beb0cfc94391d6f1b8b883a8b0a88e70c67a8fe",
+      "sha256": "b313c100d19e53a3d182321fe6c7d1ab4b7a9c6cb1ac16852824a03ae92932c7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 240972,
+      "bytes": 128044,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-21-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-21-1920x720_0.jpg",
@@ -762,7 +779,8 @@
         "bytes": 402676,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-21-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-21-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-18-1920x720-0",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-18-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "34c6791008173daeaa9782925586925cc6aa2f879e5f461a343ae89f8bb99d14",
+      "sha256": "d490df8aa0d6038226d8e4f2f0f9c11068e5a7d8b200ec396b4f0e3205cb03b5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 163468,
+      "bytes": 86824,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-18-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-18-1920x720_0.jpg",
@@ -804,7 +822,8 @@
         "bytes": 402678,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-18-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-18-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-17-1920x720-0",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-17-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "c5542491fea81baa6ebfcde5a7e179ffc58c5d391b029ed56d8c032545f25e38",
+      "sha256": "ce3d4868e2d0f87cace09805be2f5b5d892449f1be9ba2673fe619410fd0375d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 214002,
+      "bytes": 113598,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-17-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-17-1920x720_0.jpg",
@@ -846,7 +865,8 @@
         "bytes": 394557,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-17-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-17-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-20-1920x720-0",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-20-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "a724a8432d661339e62a73d67e6596b8ea4ce5d213fc836bcb28ea2586da1d7d",
+      "sha256": "225f8f86fb37acf51bb12ef719326815db5c0e563a83507aab3100a7979ec219",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 185880,
+      "bytes": 96334,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-20-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-20-1920x720_0.jpg",
@@ -888,7 +908,8 @@
         "bytes": 408005,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-20-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-20-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-14-1920x720-0",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-slider-14-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "bcbdc886cd107a5b3cdbe6cb450875e30ce7bdefd178b3df0487c08a51ddb47f",
+      "sha256": "dbd44837fef8edb2cc797f823c790c995a1521248623a1efc21152d3456393c6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 169016,
+      "bytes": 90770,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-14-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-14-1920x720_0.jpg",
@@ -930,7 +951,8 @@
         "bytes": 404310,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-14-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-14-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-12-1920x720-0",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-12-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "506f36b8203b70cdf24ee43ba469559d1aad4b961e90c9c7fa8a9dd5f872106f",
+      "sha256": "770db852cf8ab3a33a821aa5b6b23ba7056b2d80da4ac08dbab36573ec3898a4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 173316,
+      "bytes": 93700,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-12-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-12-1920x720_0.jpg",
@@ -972,7 +994,8 @@
         "bytes": 404145,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-12-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-12-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-16-1920x720-0",
@@ -996,14 +1019,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-16-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "acea2475453b65cb5f8212faad6d6094d7e07fbc96309f4a672f5cbfb10f3c17",
+      "sha256": "a05ec2abe6187bdce7310fae607e3d33a34a691eab9b80439915b3d37e419ef4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 206424,
+      "bytes": 113380,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-16-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-16-1920x720_0.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 405395,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-16-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-16-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-13-1920x720-0",
@@ -1038,14 +1062,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-13-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "8f86601790700b22e690d8082eb5031a19e99a35e141f0e7acdf3ae07adb8272",
+      "sha256": "a04d978a069a746f76d2622f7e21b31a30fe29cf48e584381349532ecf3ab6ee",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 171134,
+      "bytes": 91150,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-13-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-13-1920x720_0.jpg",
@@ -1056,7 +1080,8 @@
         "bytes": 395538,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-13-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-13-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-05-1920x720-0",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-05-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "f4dba9ef786b7695351f877bf496a0fd284f0f60c52ba36d63aa113dbfad5655",
+      "sha256": "649b08c3f599f9a975ec7e1e6a93504bc046e24576a4a59854c7a0a7593de654",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 98952,
+      "bytes": 48950,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-05-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-05-1920x720_0.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 404299,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-05-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-05-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-03-1920x720-0",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-03-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "b5de53a74f2bd4772a38ceb2dab845575537a2b179792088ccc2069827ac5532",
+      "sha256": "da1b4d322e2a4bade60d04cdfaff1878847df5295a0244e71bddb0098873fd3d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 95392,
+      "bytes": 49854,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-03-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-03-1920x720_0.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 402015,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-03-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-03-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-11-1920x720-0",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-11-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "05ecbdce0aa5f2d571410083c0b7045e22d45d330c343751f6fa5675ef66ff67",
+      "sha256": "7b09f1bb6bebfddc48515b954bd864bd364105bf48ebc9a97271a5eb90d91218",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 153220,
+      "bytes": 82470,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-11-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-11-1920x720_0.jpg",
@@ -1182,7 +1209,8 @@
         "bytes": 408068,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-11-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-11-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-04-1920x720-0",
@@ -1206,14 +1234,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-60-slider-04-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "e4ef97cd51cdd5694995b0b0d05c4a75ac0032cd2030f5cf70cd0aea93256086",
+      "sha256": "49e0c1499e8e1d554bc044d91c7371c2ead29fd6ec46a987919963e9cc85bef4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 105514,
+      "bytes": 55390,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-04-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-04-1920x720_0.jpg",
@@ -1224,7 +1252,8 @@
         "bytes": 409229,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-04-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-04-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-01-1920x720-0",
@@ -1248,14 +1277,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-60-slider-01-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "d79b25b25e20bd9996e7d2490f21a3bc6916432c44486d9e95e521d48248207e",
+      "sha256": "5e59e8a7cb001bbf2e7b960615d225420b6e06dc65d45bb15a182b7beb1020be",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 120694,
+      "bytes": 62938,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-01-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-01-1920x720_0.jpg",
@@ -1266,7 +1295,8 @@
         "bytes": 396000,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-01-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-01-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-02-1920x720-0",
@@ -1290,14 +1320,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-60-slider-02-1920x720-0.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "c5236702effd5873942f07f130e57dadfcabf1152bd3574ec0774304e9c15a64",
+      "sha256": "710ad1113ba7c0344fad739aa1ccc421d1c9fde9009f40a0cd9c768df7fcca3c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 80786,
+      "bytes": 39496,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-02-1920x720_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-02-1920x720_0.jpg",
@@ -1308,7 +1338,8 @@
         "bytes": 397154,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-02-1920x720_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-02-1920x720_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-slider-24-1920x1280",
@@ -1332,14 +1363,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-slider-24-1920x1280.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "abb431d4e28e450b619e8fa37d80f101796a114b3fd2b9fea40876c8cf055bd9",
+      "sha256": "d5377b94b43f2f7cab3d95b49ecce2b15027c7e1db6e5fbf39be0c40a8082013",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 211206,
+      "bytes": 114558,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-24-1920x1280.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-24-1920x1280.jpg",
@@ -1350,7 +1381,8 @@
         "bytes": 409399,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-24-1920x1280.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-24-1920x1280.jpg",
+      "web_quality": 75
     },
     {
       "id": "1",
@@ -1377,11 +1409,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "161d2ad36c871ad9297783b80a7b36bfab87064df1d2484736c7fba60bccd526",
+      "sha256": "46c30aa1c8ba520d2c43eed3a795a9fcbf09c4704ed2cdcdad31d52d63ce6eae",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 99464,
+      "bytes": 73816,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg",
@@ -1392,7 +1424,8 @@
         "bytes": 146451,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-vignette-highlight-01-0",
@@ -1416,14 +1449,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-60-vignette-highlight-01-0.webp",
-      "width": 1800,
-      "height": 1200,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b164bf586b4082540a50cd2b5d0efdc37cddf256a9dc9b4ea56cd8afabbcf93e",
+      "sha256": "6e1bb72e355f2827dd134ed14375cb99e049258ba22c110a73221f60f614c99d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 318614,
+      "bytes": 195240,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-01_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-01_0.jpg",
@@ -1434,7 +1467,8 @@
         "bytes": 409967,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-01_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-01_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-vignette-highlight-03-1",
@@ -1458,14 +1492,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-60-vignette-highlight-03-1.webp",
-      "width": 1800,
-      "height": 1200,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "668e2fb3c4626932fbf2120783975b041f206c09df92bbf93d8cee71c67ec25a",
+      "sha256": "f820440cf2103a1edd87e9468e460d495716dde3245c364fe09547f234a5541c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 210212,
+      "bytes": 119834,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-03_1.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-03_1.jpg",
@@ -1476,7 +1510,8 @@
         "bytes": 409226,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-03_1.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-03_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-vignette-highlight-02-0",
@@ -1500,14 +1535,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-60-vignette-highlight-02-0.webp",
-      "width": 1800,
-      "height": 1200,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "ff8ae2e08299216fd9751d7a4665a837ed2aefac98e87921ba840f413e2877d3",
+      "sha256": "c848064093bd092891548946caab6bf39d0da1aa96ce869157f21709d381016d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 214126,
+      "bytes": 124294,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-02_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-02_0.jpg",
@@ -1518,7 +1553,8 @@
         "bytes": 403607,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-02_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-vignette-highlight-02_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "seanapps-highlight",
@@ -1575,11 +1611,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "6a169abb6b78ff0bf8e194015e8ad5ed2119246a95159bff2ea148cc998ca9f1",
+      "sha256": "d362050bd74066b545769842b7b5aff725e2da793aaf525d110d3bea4f1da373",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 138634,
+      "bytes": 104716,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-60-highlight-flybridge.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-60-highlight-flybridge.jpg",
@@ -1590,7 +1626,8 @@
         "bytes": 492485,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-60-highlight-flybridge.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-60-highlight-flybridge.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-transparent",
@@ -1614,14 +1651,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-60-transparent.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "2965dce0a2352fcc2e1c6a1f2b679efc8c939a3503500d31e41584424dd49ab4",
+      "sha256": "24c197fa551bf04ecf7e416ad2c9789485c13f8a871ee581f03e139f40a22936",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 164118,
+      "bytes": 129210,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-09/LAGOON_60_Transparent.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-09/LAGOON_60_Transparent.png",
@@ -1632,7 +1669,8 @@
         "bytes": 155511,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-09/LAGOON_60_Transparent.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-09/LAGOON_60_Transparent.png",
+      "web_quality": 75
     },
     {
       "id": "layout-l5xa-saloon-galleyup",
@@ -1656,14 +1694,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-l5xa-saloon-galleyup.webp",
-      "width": 1920,
-      "height": 1081,
+      "width": 1600,
+      "height": 901,
       "format": "webp",
-      "sha256": "3d4eebba77fcad474849025d27b1d853952b325ef499638c96ccd7b21311071f",
+      "sha256": "1f3a0b9b12eb9c0745894aefe0a92f6e07d6dd8132fe65cd24ddbfb4033db30e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 245826,
+      "bytes": 168870,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyUp.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyUp.webp",
@@ -1674,7 +1712,8 @@
         "bytes": 234336,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyUp.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyUp.webp",
+      "web_quality": 75
     },
     {
       "id": "layout-l5xa-saloon-galleydown",
@@ -1698,14 +1737,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-l5xa-saloon-galleydown.webp",
-      "width": 1920,
-      "height": 1081,
+      "width": 1600,
+      "height": 901,
       "format": "webp",
-      "sha256": "3418200270404b5b34e58717755e743b59c47ab733ea465a7e6f76d7a10d010a",
+      "sha256": "f5ab4c697d1e78a5ed5b961a65b27cd5ddbf240869578b1fba11e6d82f612c45",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 240504,
+      "bytes": 168406,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyDown.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyDown.webp",
@@ -1716,7 +1755,8 @@
         "bytes": 233650,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyDown.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-saloon-galleyDown.webp",
+      "web_quality": 75
     },
     {
       "id": "layout-l5xa-4c4t-galleydown-a",
@@ -1740,14 +1780,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-l5xa-4c4t-galleydown-a.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "f1d98431d22e0530f8b6b710acf9131a429e41a1ea5acff1504450105edaca59",
+      "sha256": "e46a63bea03d1a8aac149f5e8cf134efce985de83edf084cfdebad903fe84ba6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 224932,
+      "bytes": 157858,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-4c4t-galleydown-A.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-4c4t-galleydown-A.webp",
@@ -1758,7 +1798,8 @@
         "bytes": 218678,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-4c4t-galleydown-A.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-4c4t-galleydown-A.webp",
+      "web_quality": 75
     },
     {
       "id": "layout-lagoon-60-5-cabins-galley-down",
@@ -1782,14 +1823,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-lagoon-60-5-cabins-galley-down.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "127956edcb683defc0ec692edfc6edf41e6942e30d305e402ab7f29f57d2d1d1",
+      "sha256": "c24e42e53e0abd7c1b153af35746642cd4c5e203cc57c68f714ed52b1b88e16b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 171904,
+      "bytes": 156972,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down.png",
@@ -1800,7 +1841,8 @@
         "bytes": 491092,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down.png",
+      "web_quality": 75
     },
     {
       "id": "layout-lagoon-60-5-cabins-galley-down-crew-cabin",
@@ -1824,14 +1866,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-lagoon-60-5-cabins-galley-down-crew-cabin.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "a31325598fa628591aceec6f4c298fda2601c9442417bb257b93ebd2d063b2d4",
+      "sha256": "654f84072bc97b5279febe8917f084a84ee0d489de7aadae80440cd39727c5a8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204524,
+      "bytes": 176188,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png",
@@ -1842,7 +1884,8 @@
         "bytes": 487518,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png",
+      "web_quality": 75
     },
     {
       "id": "layout-l5xa-5c5t-galleyup-a",
@@ -1866,14 +1909,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-l5xa-5c5t-galleyup-a.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "4f09a16de0dc9c611ec0af4ed2eaa2bc906a8fc3ac07efcf2423952615f1b3ad",
+      "sha256": "5cac0a6c51c253cbb5b0e605fd7f82de0f94e1c68dc34b429726ce71e10a2e01",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 219858,
+      "bytes": 156582,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp",
@@ -1884,7 +1927,8 @@
         "bytes": 219098,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp",
+      "web_quality": 75
     },
     {
       "id": "lagoon-60-flybridge-standard",
@@ -1908,14 +1952,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-60-flybridge-standard.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "0342b650706014ac3891bbfc5b613d84865aed9bd05a92128259df1508e6b8d3",
+      "sha256": "89208704afdcc3e89ff69be5672a19b7bda7514cfd900e1bb24f0da7fe5efdeb",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 231676,
+      "bytes": 192652,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png",
@@ -1926,7 +1970,8 @@
         "bytes": 510230,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png",
+      "web_quality": 75
     }
   ]
 }

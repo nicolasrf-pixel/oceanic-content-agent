@@ -30,12 +30,12 @@
       "width": 768,
       "height": 1024,
       "format": "webp",
-      "sha256": "5c620378b393d8769f80777fc6b2063a19b1bdeb1af0dc5f5487ebaedcbe591a",
+      "sha256": "81de402f7bc90df37bb71710c779bd66d7f67a3e403f1688db702490c4af8856",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 128210,
+      "bytes": 98186,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-eighty-2-mobile-cover-768x1024.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-eighty-2-mobile-cover-768x1024.jpg",
@@ -46,7 +46,8 @@
         "bytes": 399209,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-eighty-2-mobile-cover-768x1024.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-eighty-2-mobile-cover-768x1024.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-illustration-intro-03",
@@ -73,11 +74,11 @@
       "width": 501,
       "height": 891,
       "format": "webp",
-      "sha256": "e301b301d729bdee64f8575ea2b239823251fd788b60337b0c4eaf55f893e5de",
+      "sha256": "48999b425d45988d51afde9d79b1ffa2f2bc5327db86db34dd3678802c140207",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 81962,
+      "bytes": 64014,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-illustration-intro_03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-illustration-intro_03.jpg",
@@ -88,7 +89,8 @@
         "bytes": 275255,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-illustration-intro_03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-illustration-intro_03.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eighty-2-video-cover",
@@ -115,11 +117,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "499aa1bed48a665e4b7516fa06c9292e83838d19681e37c504c42ef778c33e1f",
+      "sha256": "5263c671f6c88f76114c699dd2cb3771d21d56bd8e409676ae4835cd4b2966c1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87094,
+      "bytes": 63576,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-12/catamaran-lagoon-eighty-2-video-cover.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-12/catamaran-lagoon-eighty-2-video-cover.jpg",
@@ -130,7 +132,8 @@
         "bytes": 449161,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-12/catamaran-lagoon-eighty-2-video-cover.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-12/catamaran-lagoon-eighty-2-video-cover.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-01",
@@ -157,12 +160,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "4ef27706097ee84e40bad470375ddd4b687d58600ba6e69b2f6df82f10059e98",
+      "sha256": "cdbb753c5e86b7f793b704771c082674c26f4b40a9b40a3c3c28d6e2288398c0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 175888,
+      "bytes": 125820,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-01.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-01.png",
@@ -173,7 +176,8 @@
         "bytes": 475045,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-01.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-01.png",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-47",
@@ -200,12 +204,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "11a0c3f721d091aea482910f849b133fe1d86f1d105b60193b8645a5aa7b681b",
+      "sha256": "429cd707edfc9349f356639c5a6f1198dbb4c5d22c203536ad366d9b85b37a34",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 100266,
+      "bytes": 74014,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-47.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-47.jpg",
@@ -216,7 +220,8 @@
         "bytes": 416245,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-47.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-47.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-02",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-82-slider-1920x720-02.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "04613a10b0d323bb24cd6180710e9d494237d09db1d4c6d00878137aa8ae9d64",
+      "sha256": "4431abb9cca84f7f61cca3ff2f9087c2f954a4141e95befd8ec3663bee14cbdb",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 283704,
+      "bytes": 160644,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-02.jpg",
@@ -258,7 +263,8 @@
         "bytes": 379812,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-21",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-82-slider-1920x720-21.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "cdbe9535d3d539b70e8f556c3b10cb7b44525eefb4df79d4c79b4afb8188c9b9",
+      "sha256": "035574379cab99b8cccbe5d46926554e4af11633412a6de18157cf783e2da9bc",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 135212,
+      "bytes": 68506,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-21.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-21.jpg",
@@ -300,7 +306,8 @@
         "bytes": 390419,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-21.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-21.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-03",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/lagoon-82-slider-1920x720-03.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "f6e8d885e2d1314c0e069978e7fdf5297bc60d7f04882c104240f08dee34da07",
+      "sha256": "f3292c039bdf10ba4c8caa2a6f8c36a504786e47b523259b0cd99e4b8f776c0c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 132354,
+      "bytes": 73966,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-03.jpg",
@@ -342,7 +349,8 @@
         "bytes": 481694,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-48",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/catamaran-lagoon-eigthy-2-interior-slider-48.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6aedda208902d052b5230eacafb8372050468fd2d99e101f573c4657e8f589b9",
+      "sha256": "164a019e7d59641b253779a3754110031bac496b861e47251cfc9511a7e9062e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 208422,
+      "bytes": 115624,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-48.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-48.jpg",
@@ -384,7 +392,8 @@
         "bytes": 475906,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-48.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-48.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-50",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/catamaran-lagoon-eigthy-2-interior-slider-50.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6fb8af1d7dcdc9ae45cc21b95c630a61626e81052372680f87eec4576b8b5d4d",
+      "sha256": "a2493c0df1867a4fd2e70def725150ba0dc3bc86e2e34cdae042c9792c0a9c23",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 179708,
+      "bytes": 101232,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-50.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-50.jpg",
@@ -426,7 +435,8 @@
         "bytes": 439819,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-50.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-50.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-04",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-82-slider-1920x720-04.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "90f9fa2d7a40e635fbd6f61c173410360f8711764c0845f660dce1f18eab68a6",
+      "sha256": "0a208bff2978a1be6a760d7b891d35d17ed06286af7d0f2db3260796e65d7d27",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 121682,
+      "bytes": 66562,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-04.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-04.jpg",
@@ -468,7 +478,8 @@
         "bytes": 471826,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-04.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-46",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/catamaran-lagoon-eigthy-2-interior-slider-46.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "7f2518911cbaa9381d80e34228022154d2cf9827e3f0daaaec2049ffc48b0056",
+      "sha256": "95bb3fcf4096998f0076524cb8d1c7765f2e0a370d5910615888735a96a37f9e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 124866,
+      "bytes": 69280,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-46.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-46.jpg",
@@ -510,7 +521,8 @@
         "bytes": 459392,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-46.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-46.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-51",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/catamaran-lagoon-eigthy-2-interior-slider-51.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "d578445ec8c1bdcb5b5fa6f72b0c12d442370c47b29b72ea43f4f65c29307968",
+      "sha256": "05d75d0a30d3fb8e7a52a21b8e0f61fcf5fe5967c2be39dd0fb8c9375601a922",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 125544,
+      "bytes": 70068,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-51.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-51.jpg",
@@ -552,7 +564,8 @@
         "bytes": 504852,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-51.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-51.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-slider-1920x720-05",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-82-slider-1920x720-05.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "3b2449c9b2d1f9ddd362e658b297add1080435ec955dca60674166af7203ad88",
+      "sha256": "e5ce79f1e5960330c8d8f2f7585c4ce35eabc5dbc6e72ea705872d1190bc0286",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 193462,
+      "bytes": 111052,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-05.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-05.jpg",
@@ -594,7 +607,8 @@
         "bytes": 452572,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-05.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-slider-1920x720-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-49",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/catamaran-lagoon-eigthy-2-interior-slider-49.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "ebf89c1024d556b219347d64cacf69303ad373b32e5b3e96795fb1aea95ca933",
+      "sha256": "012692e4617d8abf19dcc76c5e1e580083e940f0d55731c4abc2c29c405e1474",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 256862,
+      "bytes": 146520,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-49.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-49.jpg",
@@ -636,7 +650,8 @@
         "bytes": 490815,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-49.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-49.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-40",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/catamaran-lagoon-eigthy-2-interior-slider-40.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "22d3307de006101a54c73169510e67824fccf934084c24422c2522cf6a0a2723",
+      "sha256": "0300857686b54bbdab9ceb4c9eebcba476fccc928e958648fb542e7b39791a8f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 316364,
+      "bytes": 175604,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-40.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-40.jpg",
@@ -678,7 +693,8 @@
         "bytes": 416957,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-40.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-40.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-01",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-01.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7022229df4558b8025cf5752a9df76dcbafafe1cf9b355fe839d38091446e488",
+      "sha256": "e0dc6d8e36a59a31ffbd85acfd5fd094edf619af6c8ccbcbadb378b3a2a6cdd5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 272348,
+      "bytes": 145070,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-01.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-01.jpg",
@@ -720,7 +736,8 @@
         "bytes": 405004,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-01.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-02",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-02.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7806826c0fcd4e15554a2f4e8c2ac0f6fae00cddaa392e30336d52c0b5d17e35",
+      "sha256": "d7683e882065923e61155919969de87e500ae62041b53bbe582f8b97e1fd7147",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 304908,
+      "bytes": 165506,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-02.jpg",
@@ -762,7 +779,8 @@
         "bytes": 406520,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-04",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-04.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "e075eba6a38962c11844f9b1d5b82f815060c06133886de58b16936c323a5339",
+      "sha256": "3a05fc601d575d9d7826e9d11a280404f37486ede3b189e51db767046eb6b1d9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 262240,
+      "bytes": 139992,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-04.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-04.jpg",
@@ -804,7 +822,8 @@
         "bytes": 379712,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-04.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-05",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-05.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "5c354138136d29bd659bc0d8d57110b642dad89ed4d17a9c5f044221fbb9e04e",
+      "sha256": "7c2f62392987b01d55afb50d5ce321ae966882b84fca31c344f3e0ce2c3248e9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 347732,
+      "bytes": 188520,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-05.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-05.jpg",
@@ -846,7 +865,8 @@
         "bytes": 406826,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-05.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-06",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/lagoon-eigthy-2-interior-slider-06.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "4306e26778c2735936387e255488161e716aaa1ee2839328cf66282f394a8daa",
+      "sha256": "d0ba63f4738456bc53794b4450d0f532a5cf8161b734e56bd999bf63246ff091",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 253044,
+      "bytes": 140346,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-06.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-06.jpg",
@@ -888,7 +908,8 @@
         "bytes": 405894,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-06.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-06.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-43",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/catamaran-lagoon-eigthy-2-interior-slider-43.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "8488867de3841dc358b0a94bd0726a2de96c3174b30c18d9856d338a89c50804",
+      "sha256": "598bb9c7e5ac32450812bf81ea9f64aea6a820e3065ea966f88642785ed055bb",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 181378,
+      "bytes": 99394,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-43.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-43.jpg",
@@ -930,7 +951,8 @@
         "bytes": 420543,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-43.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-43.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-07",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-07.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7cbaba00273ffc11838f22ea312bd090a93253f271755166d69c3124752b72db",
+      "sha256": "e79439cc64bd5a809f78ee7018f0cef9131184fefad93333997f7f7c17865b2c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 290794,
+      "bytes": 154668,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-07.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-07.jpg",
@@ -972,7 +994,8 @@
         "bytes": 399629,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-07.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-08",
@@ -996,14 +1019,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-08.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "42c46ce52e300bd99dd7b15bc64c146375be63a8d4215175f64d2a9b39f4ca8d",
+      "sha256": "d04a2a807f5a78e0d67b6aa0b14df8c26736a80ea21ca4debc1663a6f6ebc8c2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 318286,
+      "bytes": 169396,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-08.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-08.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 407000,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-08.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-09",
@@ -1038,14 +1062,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-09.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "14b619279c9cacca9e8c9c9305e6b66af09062bfb5dc2c4b672ea244ca3d7143",
+      "sha256": "fd18546b2246f5cf6cd7e934d2f228885b3caac5974a32debe9105569383ede8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 302170,
+      "bytes": 160634,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-09.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-09.jpg",
@@ -1056,7 +1080,8 @@
         "bytes": 393100,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-09.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-10",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/lagoon-eigthy-2-interior-slider-10.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "032979a9ecb2611339036b99c70be06a9a13ce1d972094e7363ee7da4c10ae0e",
+      "sha256": "148bc25aeef39b129598ed30176c5989292b2c2fe97a10b592f90bee2b1bcd7c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 267098,
+      "bytes": 141296,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-10.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-10.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 387455,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-10.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-38",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/catamaran-lagoon-eigthy-2-interior-slider-38.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "1388afa531fded1e671e3bbaab059813ede3b11ecb1d7655a6b0ccf39c284fd6",
+      "sha256": "34daff26aa7339d971d9f3c5a8f679bd6c6e4673840b996095dbd7a9779a418b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 228010,
+      "bytes": 127196,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-38.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-38.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 484723,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-38.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-38.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-45",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/catamaran-lagoon-eigthy-2-interior-slider-45.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "3664b979e3c033679015956d07b09c2cfffc71f2c43d138fc8a474fe9e762ef3",
+      "sha256": "0c3c439bd9cae6e82cf80a3465af481ccdedba7bb995165792c94571e72417ca",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 194004,
+      "bytes": 106692,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-45.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-45.jpg",
@@ -1182,7 +1209,8 @@
         "bytes": 443726,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-45.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-45.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-11",
@@ -1206,14 +1234,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-11.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "ca246ab53f8671d53062b2a8c1619306a42941427ae658003b30062fb2591710",
+      "sha256": "596378ccf97842672490da52b85e7309f483210f1c00512f1151dee7ba5cd3e9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 290760,
+      "bytes": 155024,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-11.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-11.jpg",
@@ -1224,7 +1252,8 @@
         "bytes": 408321,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-11.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-16",
@@ -1248,14 +1277,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/lagoon-eigthy-2-interior-slider-16.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "338ee13dda60af8e17d02c830eba9ca6dd8389160631f9e62b261eb26553d935",
+      "sha256": "ea93665c535d65fd316b0568201653de505677a9f98f6e8c89834550c4245e64",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 290928,
+      "bytes": 160762,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-16.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-16.jpg",
@@ -1266,7 +1295,8 @@
         "bytes": 403840,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-16.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-16.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-39",
@@ -1290,14 +1320,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/catamaran-lagoon-eigthy-2-interior-slider-39.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "29173a957409d6b9a1494290b490823723974f95310f400438ef67979732def0",
+      "sha256": "f7326e09f53a577142570a7faef31561288c15dc948f5940b3bfa2ccc3b63bcf",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 203084,
+      "bytes": 110874,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-39.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-39.jpg",
@@ -1308,7 +1338,8 @@
         "bytes": 454559,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-39.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-39.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-17",
@@ -1332,14 +1363,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eigthy-2-interior-slider-17.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "3138edf1546f9ba9e4a6ebb9d1d842d80f0a1b62fd866bc0e5c9c588dfd9d41b",
+      "sha256": "70653886012c2186338a5010777f5f7492c438361fa487105db6a9e14e365d80",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 328642,
+      "bytes": 180066,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-17.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-17.jpg",
@@ -1350,7 +1381,8 @@
         "bytes": 400072,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-17.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-17.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-44",
@@ -1374,14 +1406,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/catamaran-lagoon-eigthy-2-interior-slider-44.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "cfb9adc9fd4f53fa1fd7358e122db547fc5f7a2e4b028cf7eafe3f87951c3b4b",
+      "sha256": "d4c336585be19400ee55f20a04b422933848a76cdf80647f96f0bddaa483bcf2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87546,
+      "bytes": 46916,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-44.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-44.jpg",
@@ -1392,7 +1424,8 @@
         "bytes": 416280,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-44.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-44.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-12",
@@ -1416,14 +1449,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-eigthy-2-interior-slider-12.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "1b869e45aa9f2d157213d46a7dfce85622521409243daa4bceec591ae2d250b3",
+      "sha256": "fb6b61babf296ebd881ee30586107392ef4294dd09a81efa72c4de03663e9cf3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 186744,
+      "bytes": 89982,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-12.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-12.jpg",
@@ -1434,7 +1467,8 @@
         "bytes": 372316,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-12.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-14",
@@ -1458,14 +1492,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-eigthy-2-interior-slider-14.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "9acb90be32de458a4cf6e5174a514a82f06f3efad9d65a9e310767e1fcc85864",
+      "sha256": "0d5edbea2c2fd6fa11a1833e06247d4d08710793de04d33643b0f86c5fbe75e0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189900,
+      "bytes": 99356,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-14.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-14.jpg",
@@ -1476,7 +1510,8 @@
         "bytes": 397646,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-14.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-15",
@@ -1500,14 +1535,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/lagoon-eigthy-2-interior-slider-15.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "fddc0e3f528c42c17c6485f523ffa6220b5e68b04c3901dd0383ea819497af8d",
+      "sha256": "f5dc2a3e4ec24432ebc3d5f80f209c27480bceb8d631d0eb4c40795f5522ab67",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 232842,
+      "bytes": 115074,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-15.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-15.jpg",
@@ -1518,7 +1553,8 @@
         "bytes": 395041,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-15.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-13",
@@ -1542,14 +1578,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-eigthy-2-interior-slider-13.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "84031afa55f9ecf55410c882308eceddb4b7363a70306154c260eccddad23903",
+      "sha256": "55112e3840a5e57b020ac2b19193633715856ca4a003ad93ac802d0919733410",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 170594,
+      "bytes": 88572,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-13.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-13.jpg",
@@ -1560,7 +1596,8 @@
         "bytes": 394417,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-13.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-19",
@@ -1584,14 +1621,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-19.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "8f935457be822cf12403a1c61971a04c69dd7d6f6b859c59aa5b1d3082a38381",
+      "sha256": "bd58f18e297e3353f29c740305f91982c876b03bf884751ad1f699d881b5609d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 193576,
+      "bytes": 93294,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-19.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-19.jpg",
@@ -1602,7 +1639,8 @@
         "bytes": 389792,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-19.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-19.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-21",
@@ -1626,14 +1664,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-21.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "aceb6cd9676b0a8e9be3eccb6068ceedb871478a09272583188c3c0de38a44b4",
+      "sha256": "7c2fd48ae5217e1c4320b236f3c278354ae7f3f32f0af62ed479ff03afbb7954",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 182980,
+      "bytes": 89786,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-21.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-21.jpg",
@@ -1644,7 +1682,8 @@
         "bytes": 388339,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-21.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-21.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-22",
@@ -1668,14 +1707,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-22.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f2e2da024036910cadf277fcef764b94dcb0df07a839bf28e5e426ff85dac5ac",
+      "sha256": "b7fdad37a12667610a57b272767d4e7d3f933b79fd312fdde31ac0eb64a57c28",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 173718,
+      "bytes": 85866,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-22.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-22.jpg",
@@ -1686,7 +1725,8 @@
         "bytes": 404348,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-22.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-22.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-24",
@@ -1710,14 +1750,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-24.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f31d353880333b982d7709518aeca45a9d069efa0215c857f2030e760d44d408",
+      "sha256": "4a0e77d1e9953cb5335fc1429ffb971606317950aa0daa37a09a907f1ec2a561",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 132956,
+      "bytes": 70178,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-24.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-24.jpg",
@@ -1728,7 +1768,8 @@
         "bytes": 381354,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-24.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-24.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-26",
@@ -1752,14 +1793,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/lagoon-eigthy-2-interior-slider-26.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "6991326d75d0ede1e1f5fcd86cf0aae6271c602868eb8b669fb3b36c77e58d7e",
+      "sha256": "724401f46fd621932dca8540f28f6ee2640f77163411e7dd6c2351382511b707",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 169344,
+      "bytes": 80910,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-26.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-26.jpg",
@@ -1770,7 +1811,8 @@
         "bytes": 385804,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-26.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-26.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-27",
@@ -1794,14 +1836,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-27.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "e06477522fed35c0da3a7921a1217fa7feaa6c0cbda3462e778137ad525e0215",
+      "sha256": "1e6a8438c707c433145a892dc156524dcbf5b5d38f481953106fcd2672ce6d76",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 167534,
+      "bytes": 81200,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-27.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-27.jpg",
@@ -1812,7 +1854,8 @@
         "bytes": 396259,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-27.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-27.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-18",
@@ -1836,14 +1879,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-18.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "a06fb920c218397a0b491ebe00a3cd51e64654dc60922da731304625e23fbe91",
+      "sha256": "87cc68dd32fcdbd238cece36a5af485b95a758e80f65d56841d1c5cf7332fcbd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 172748,
+      "bytes": 91648,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-18.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-18.jpg",
@@ -1854,7 +1897,8 @@
         "bytes": 406642,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-18.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-18.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-20",
@@ -1878,14 +1922,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-20.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f02893986c11b09a50763e3f413f4f9509b2b5a1f2d042f3b210d7462cf5604a",
+      "sha256": "257da39470d134c3ec3df6607f759ee5650b48277b7dcc51439e497e960ba541",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 198604,
+      "bytes": 96394,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-20.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-20.jpg",
@@ -1896,7 +1940,8 @@
         "bytes": 398270,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-20.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-20.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-31",
@@ -1920,14 +1965,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-eigthy-2-interior-slider-31.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "6ce9907cf6f281995ca6e8c8ce8ed027b7d6a234f62b49edfc9a1d2296a0c9ec",
+      "sha256": "06215ed5c9a52209a6ad04b9ccfee7bbc8faa28013a753bd6ab577055bfee2ec",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 124200,
+      "bytes": 66414,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-31.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-31.jpg",
@@ -1938,7 +1983,8 @@
         "bytes": 369118,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-31.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-31.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-23",
@@ -1962,14 +2008,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-23.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b6469f4e428554aef34843b694471ccc3cdeb0068c2ece36dfb3a753283c1876",
+      "sha256": "1911157494b2f8ce35f18fae573c6c8137d61c33feea90eb5076eec5538f7727",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87652,
+      "bytes": 46672,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-23.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-23.jpg",
@@ -1980,7 +2026,8 @@
         "bytes": 375472,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-23.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-23.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-28",
@@ -2004,14 +2051,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-28.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "8b502fcbe406a2e3002a922baddabbf86d05d5c563a80dd6e7e5e6df4db75865",
+      "sha256": "e26d1bba9e67cc6e5e8aaae30228fdf9910637ae867a73d6467c2a9fcc87cd19",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 162186,
+      "bytes": 76328,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-28.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-28.jpg",
@@ -2022,7 +2069,8 @@
         "bytes": 391440,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-28.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-28.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-25",
@@ -2046,14 +2094,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-25.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "c3f9978cc263032cc49fa1fa96d297b1a8d40a5fbfc39cd70085dd046ec25b88",
+      "sha256": "e467560dc44d9ce1130765aed7f61fb6e26510a07117202779db1acddbcbc166",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 135884,
+      "bytes": 67210,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-25.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-25.jpg",
@@ -2064,7 +2112,8 @@
         "bytes": 390268,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-25.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-25.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-29",
@@ -2088,14 +2137,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-29.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "195c027505977d0b30cce9a64029705b9b5bda184e5badcc41149bad08bce631",
+      "sha256": "e36dfdea2b90ab0715e89bb7b21f10d4d40c943ce18480c947660c6db736cd6f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 142284,
+      "bytes": 68866,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-29.jpg",
@@ -2106,7 +2155,8 @@
         "bytes": 372712,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-29.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-30",
@@ -2130,14 +2180,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-30.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "39eb0c0c6da064e590204eeda9e9cfb2bb1d3cdbfb3a0ada0ca69b543559a7c5",
+      "sha256": "fd31b380d0d0651e78ae6c5969fde041867e4242251280ef0cddf4655fe67247",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 122054,
+      "bytes": 63216,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-30.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-30.jpg",
@@ -2148,7 +2198,8 @@
         "bytes": 407100,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-30.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-30.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-36",
@@ -2172,14 +2223,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/lagoon-eigthy-2-interior-slider-36.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7f622dd2c6cc037c90c4b58a29a58186de76fea95935dd07864eecd0256eee90",
+      "sha256": "0d288d7b57379a63f02c202a8716d440845398f4814c27d9e0878b8b5d48d735",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 159064,
+      "bytes": 76154,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-36.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-36.jpg",
@@ -2190,7 +2241,8 @@
         "bytes": 400791,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-36.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-36.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-32",
@@ -2214,14 +2266,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-eigthy-2-interior-slider-32.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "6277e9eb22acd6a7f18557cb1c0e11495596440b8e9be90f96117e7a656705ad",
+      "sha256": "cee72af495051756d74209e52025ff414faa9a03a6f58e329599c244aa04d60e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 97064,
+      "bytes": 49174,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-32.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-32.jpg",
@@ -2232,7 +2284,8 @@
         "bytes": 382410,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-32.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-32.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-33",
@@ -2256,14 +2309,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-eigthy-2-interior-slider-33.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "2ac65ad14ee93b75dbb30ff1a58c3d437846840f85b14e37415e773449c5baef",
+      "sha256": "89049a2ce1d04400e3a8f25f1da617f272318a95692ae6a272cb12a045aaa456",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 126536,
+      "bytes": 64564,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-33.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-33.jpg",
@@ -2274,7 +2327,8 @@
         "bytes": 379043,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-33.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-33.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-35",
@@ -2298,14 +2352,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-35.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "8fc0ff7b43f4e62c854441ba01d0b24d1a8c3186f61799408faf0cb055c37fd8",
+      "sha256": "af60e5ff547a60f7c4cdad720598d9540c1bdc5636374eb6af8436cdfecaad0a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 82630,
+      "bytes": 44576,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-35.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-35.jpg",
@@ -2316,7 +2370,8 @@
         "bytes": 397828,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-35.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-35.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eigthy-2-interior-slider-37",
@@ -2340,14 +2395,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-eigthy-2-interior-slider-37.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7b1cc9e355826937a0115b4c8045c35455e654994feb63baa99fb2d760ecd967",
+      "sha256": "59abc620bd99746c01092d78247e1652f4211325b116922b63fc922f5eae5ff3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101868,
+      "bytes": 53882,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-37.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-37.jpg",
@@ -2358,7 +2413,8 @@
         "bytes": 406964,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-37.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-08/LAGOON-EIGTHY-2-INTERIOR-SLIDER-37.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-eigthy-2-interior-slider-42",
@@ -2382,14 +2438,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/catamaran-lagoon-eigthy-2-interior-slider-42.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "f5c81f8a4584b857c00553e8918417dba5e5bbfaefaff641fb5c9780f6b93503",
+      "sha256": "f652dfd393d491ff0636c852d01261e97dd1bf254fc50078a2e3fb431fcd387c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 48538,
+      "bytes": 27416,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-42.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-42.jpg",
@@ -2400,7 +2456,8 @@
         "bytes": 255768,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-42.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/catamaran-LAGOON-EIGTHY-2-INTERIOR-SLIDER-42.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eighty-2-video-thumbnail",
@@ -2424,14 +2481,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-eighty-2-video-thumbnail.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "1243405977fb048140654610311d8cd06b61097f869f05a1279f39d8e351a884",
+      "sha256": "8c389091078328803b1f23642cbe65682c0153938a84212ce1f50481fe049716",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111124,
+      "bytes": 66672,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-eighty-2-video-thumbnail.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-eighty-2-video-thumbnail.jpg",
@@ -2442,7 +2499,8 @@
         "bytes": 500033,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-eighty-2-video-thumbnail.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-eighty-2-video-thumbnail.jpg",
+      "web_quality": 75
     },
     {
       "id": "6",
@@ -2469,11 +2527,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "cdf5db5e996d90bbb8795625e252837a1ce35d5ecaf8cd4c9b5e9160b91ffdb4",
+      "sha256": "1bd5e89da8a05f07626725b4810596b4b839f711b6e86d936f6436edb4499440",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 74954,
+      "bytes": 56532,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-11/6.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-11/6.jpg",
@@ -2484,7 +2542,8 @@
         "bytes": 114216,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-11/6.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-11/6.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-highlight-1800x1200-01",
@@ -2511,11 +2570,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "3b5247c2fed443c8cd138757a90d8edb06bc6717cb6d761585817fb2d4181890",
+      "sha256": "80d52f1f0e19dd1ea1d90b6dba850a09873b0edb288cbd5d71ed1802a24b4b2b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 173444,
+      "bytes": 134306,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-01.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-01.jpg",
@@ -2526,7 +2585,8 @@
         "bytes": 381325,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-01.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-highlight-1800x1200-02",
@@ -2553,11 +2613,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "95a009c067ca5e5887d34cfa278afee33c0bb5026274d52ac1b02183042c3b25",
+      "sha256": "daa6f0d8fec6ce5deb735ae0827823d73206721c943a2d572f041115317c4016",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 166390,
+      "bytes": 126218,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-02.jpg",
@@ -2568,7 +2628,8 @@
         "bytes": 410287,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-highlight-1800x1200-03",
@@ -2595,11 +2656,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "a5c8b5a9d5091f863e2ecf0d4b07d341b66d74de651d9b2494045aca55d294b6",
+      "sha256": "1fbacce10662a86cbf227e5660e53b994dfbb6519c42360471fa3215f17d2c19",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 97402,
+      "bytes": 68088,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-03.jpg",
@@ -2610,7 +2671,8 @@
         "bytes": 403343,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/Lagoon-82-highlight-1800x1200-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-highlight-1800x1200-04",
@@ -2637,11 +2699,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "9a6a239745bb8962681ecb2566011f7bbfc2754467c65451f1082820b20acb0b",
+      "sha256": "ca7654e015080e455a3cbf7e3e3c5b467509d0663a80977aef7c09cab45b8780",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 120162,
+      "bytes": 85734,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-82-highlight-1800x1200-04.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-82-highlight-1800x1200-04.jpg",
@@ -2652,7 +2714,8 @@
         "bytes": 447649,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-82-highlight-1800x1200-04.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/lagoon-82-highlight-1800x1200-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "slider-article-candle-light-cannes-05",
@@ -2676,14 +2739,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/slider-article-candle-light-cannes-05.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "3b4fc6356130dfaa0bafb58f75bff5ab7f8d6cba601a6ffacbf6282591902d5b",
+      "sha256": "a0cfbc3bdc0c61e0670e9d809411ba76caa4c7d938ff8320454543cabc16c018",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 271542,
+      "bytes": 147302,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-05.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-05.jpg",
@@ -2694,7 +2757,8 @@
         "bytes": 400286,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-05.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "slider-article-candle-light-cannes-01",
@@ -2718,14 +2782,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/slider-article-candle-light-cannes-01.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6f4e18c69f3af7cb09e64c340341e715a42b9d118880fcff7fb4ac007d2ba4ad",
+      "sha256": "51a4ec827a86e79763764610aaa315bf0a04b6c89dc63c03c18a17c593469951",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 166524,
+      "bytes": 94114,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-01.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-01.jpg",
@@ -2736,7 +2800,8 @@
         "bytes": 458774,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-01.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "slider-article-candle-light-cannes-02",
@@ -2760,14 +2825,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/slider-article-candle-light-cannes-02.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "2fd64a15b201150559d6e2688435a7ec809ef15244a7f77b32fbf8e68c9251c9",
+      "sha256": "df8b286813cbb61cd8ae6ed28f99deae98314771598811023ff09f84200eb06b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 252354,
+      "bytes": 135496,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-02.jpg",
@@ -2778,7 +2843,8 @@
         "bytes": 378467,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "slider-article-candle-light-cannes-03",
@@ -2802,14 +2868,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/slider-article-candle-light-cannes-03.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "1cdfedda5e2ae7f9142edb3fa89b8e701a82002a40e1960da55b9bddaf854cc1",
+      "sha256": "48d06442032a595b2c52e4df0ab41eb4f3e2630813445b52b93357998d8fcb3e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 188114,
+      "bytes": 97840,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-03.jpg",
@@ -2820,7 +2886,8 @@
         "bytes": 501057,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "slider-article-candle-light-cannes-04",
@@ -2844,14 +2911,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/slider-article-candle-light-cannes-04.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "1755c248803e0bec14f8d8dbfcdc7a23c76d20dde0656fe5bd2386b7b01ebe73",
+      "sha256": "57ed47f3f7664fa9526901b3cbe8fc645e410731c69eaa9093e6c3fad310f935",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 190830,
+      "bytes": 97238,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-04.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-04.jpg",
@@ -2862,7 +2929,8 @@
         "bytes": 326679,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-04.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/slider-article-candle-light-cannes-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-bloc-premium-1920x1280-03",
@@ -2886,14 +2954,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/lagoon-82-bloc-premium-1920x1280-03.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b70635ae47e7868a176039198c60cec945e31fc402ac3c4aedd60efafb46e17c",
+      "sha256": "1adf72557f93f773572515a6462b0469e12694d354a409a1d38bdf4421baae0c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 107470,
+      "bytes": 63090,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg",
@@ -2904,7 +2972,8 @@
         "bytes": 395150,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eighty-2-virtual-tour-cover",
@@ -2928,14 +2997,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-eighty-2-virtual-tour-cover.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "09729d27e32f97b2c55ccf5bd8d2d30edc8341fc9fb235f0cc2f6d1d801c38aa",
+      "sha256": "cbf96ac9bfa792ba900c591ae97b1498b2b831b90024d91332aecda0404fa478",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 275838,
+      "bytes": 152598,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/LAGOON-EIGHTY-2-VIRTUAL-TOUR-COVER.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/LAGOON-EIGHTY-2-VIRTUAL-TOUR-COVER.jpg",
@@ -2946,7 +3015,8 @@
         "bytes": 439283,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/LAGOON-EIGHTY-2-VIRTUAL-TOUR-COVER.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-11/LAGOON-EIGHTY-2-VIRTUAL-TOUR-COVER.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-eighty2-trefil",
@@ -2970,14 +3040,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-eighty2-trefil.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "8e9eaa71b8e8d049901e25007f47d63379d0b3bb115a273d7b88749271a73d3a",
+      "sha256": "1094bf88923b33b1d8b71479b1f59d233a72ac7f42796258d8e4c8bf6ba0912f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 242204,
+      "bytes": 197740,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/LAGOON_EIGHTY2-trefil.png",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/LAGOON_EIGHTY2-trefil.png",
@@ -2988,7 +3058,8 @@
         "bytes": 144377,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/LAGOON_EIGHTY2-trefil.png"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2024-09/LAGOON_EIGHTY2-trefil.png",
+      "web_quality": 75
     },
     {
       "id": "eighty2-flybridge-loose-furnitures",
@@ -3012,14 +3083,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/eighty2-flybridge-loose-furnitures.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "99ee95d4b7fce265035a0e1609087407e997c056ea9a565a3e71452c96df91eb",
+      "sha256": "5a5e5be4e818ecdb7c8b4038545dfa615c56dbd7e4aea794196e7355efe2f9c8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 79430,
+      "bytes": 47032,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_FLYBRIDGE_LOOSE_FURNITURES.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_FLYBRIDGE_LOOSE_FURNITURES.jpg",
@@ -3030,7 +3101,8 @@
         "bytes": 422749,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_FLYBRIDGE_LOOSE_FURNITURES.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_FLYBRIDGE_LOOSE_FURNITURES.jpg",
+      "web_quality": 75
     },
     {
       "id": "eighty2-carre-cuisine-en-haut",
@@ -3054,14 +3126,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/eighty2-carre-cuisine-en-haut.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e9c2da6adf1be867aca6d45cdbb4f1544aada345071f776c497208e578474d51",
+      "sha256": "ac5261e0cd4c68d3ed44c9a9b2af704d87e9d4d3df24ebaac58be2734a3faac9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 97016,
+      "bytes": 56238,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_CARRE_CUISINE_EN_HAUT.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_CARRE_CUISINE_EN_HAUT.jpg",
@@ -3072,7 +3144,8 @@
         "bytes": 469023,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_CARRE_CUISINE_EN_HAUT.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_CARRE_CUISINE_EN_HAUT.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-82-layout-1920x1080-carre-cuisine-bas",
@@ -3096,14 +3169,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-82-layout-1920x1080-carre-cuisine-bas.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "ce10676285ca84da1a1f5bf6edd3c0305ee5f585bff5a08e97073639a8ab4fbd",
+      "sha256": "43f3756b3da6fe7d36a39d9cb413e1de994d98f973f658ca90fdc444d0702e90",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 90180,
+      "bytes": 51122,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/Lagoon-82-layout-1920x1080-carre-cuisine-bas.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/Lagoon-82-layout-1920x1080-carre-cuisine-bas.jpg",
@@ -3114,7 +3187,8 @@
         "bytes": 458848,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/Lagoon-82-layout-1920x1080-carre-cuisine-bas.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/Lagoon-82-layout-1920x1080-carre-cuisine-bas.jpg",
+      "web_quality": 75
     },
     {
       "id": "eighty2-5-cabines-cuisine-en-bas",
@@ -3138,14 +3212,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/eighty2-5-cabines-cuisine-en-bas.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "a4e1aac9b32df87fdfb7a709a43d23503f1dbe8b228de202d151e8c3cc8ff209",
+      "sha256": "2da0f3778dd2c7ac9be6fcf8653ccc729b65c534e47f1b719fa1a470512f0e69",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 65204,
+      "bytes": 40242,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_bas.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_bas.jpg",
@@ -3156,7 +3230,8 @@
         "bytes": 377345,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_bas.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_bas.jpg",
+      "web_quality": 75
     },
     {
       "id": "eighty2-5-cabines-cuisine-en-haut",
@@ -3180,14 +3255,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/eighty2-5-cabines-cuisine-en-haut.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "48df5cf34c60d41ebc652d3a37ce768026a186d8070b08ec5f172d407acb276b",
+      "sha256": "6f0e83d88fb6f0251f969ac4162c7e6451a1b577b5a40262a1a3c8f271957589",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 55288,
+      "bytes": 32828,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_haut.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_haut.jpg",
@@ -3198,7 +3273,8 @@
         "bytes": 336253,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_haut.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_5_cabines_Cuisine_en_haut.jpg",
+      "web_quality": 75
     },
     {
       "id": "eighty2-4-cabines-cuisine-en-bas",
@@ -3222,14 +3298,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/eighty2-4-cabines-cuisine-en-bas.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e69e3cef5bde9f8d5aafa369aa65c3d5f74b2b52501a0581419dc7f2fa64c3aa",
+      "sha256": "ecece19a8d0704a38e426442d94cd38bf5f5c9e6b3004cdf37b526c0286515da",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 61012,
+      "bytes": 36116,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_4_cabines_Cuisine_en_bas.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_4_cabines_Cuisine_en_bas.jpg",
@@ -3240,7 +3316,8 @@
         "bytes": 363230,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_4_cabines_Cuisine_en_bas.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/EIGHTY2_4_cabines_Cuisine_en_bas.jpg",
+      "web_quality": 75
     }
   ]
 }

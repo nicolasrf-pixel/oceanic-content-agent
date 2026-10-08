@@ -418,10 +418,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris44-int-h-00010-scaled.webp",
-      "width": 1920,
-      "height": 960,
+      "width": 1600,
+      "height": 800,
       "format": "webp",
-      "sha256": "20b31350df8f09a322cc6a8220a969168099ffcf77a211935d9a52a48d5fb62f",
+      "sha256": "feb5b4f213add40c5a0b136db3034168a73726391968979fbe46cce98b1a31ea",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -435,8 +435,9 @@
         "bytes": 509569,
         "full_resolution": true
       },
-      "bytes": 218940,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/Solaris44-int-H-.00010-scaled.jpg"
+      "bytes": 99872,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/Solaris44-int-H-.00010-scaled.jpg",
+      "web_quality": 75
     },
     {
       "id": "solaris44-int-h-00009-scaled",
@@ -460,10 +461,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/solaris44-int-h-00009-scaled.webp",
-      "width": 1920,
-      "height": 960,
+      "width": 1600,
+      "height": 800,
       "format": "webp",
-      "sha256": "690b8ad56c109f42b09322b15d01119186d68bc580dcfdac61a7b52126b3070a",
+      "sha256": "20c3b7c7be362a6f7815ee626c55d551dd58b38e6a95cfc71f701d82754face0",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -477,8 +478,9 @@
         "bytes": 518482,
         "full_resolution": true
       },
-      "bytes": 216848,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/Solaris44-int-H-.00009-scaled.jpg"
+      "bytes": 97608,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/Solaris44-int-H-.00009-scaled.jpg",
+      "web_quality": 75
     },
     {
       "id": "443interni-scaled",
@@ -502,10 +504,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/443interni-scaled.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "3a5df8f9d9df41345184f38f1aa6a6093cbaf6e417e8fbfe19232e65cc321aa3",
+      "sha256": "df97c8e981f8b7b9982209d0c6acae049193534493b0dc4afe53d24d0dcc4f05",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -519,8 +521,9 @@
         "bytes": 231369,
         "full_resolution": true
       },
-      "bytes": 56726,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/443interni-scaled.jpg"
+      "bytes": 35744,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2026/07/443interni-scaled.jpg",
+      "web_quality": 75
     },
     {
       "id": "443vistalaterale-scaled",
@@ -604,10 +607,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-44-panoramica-scaled-1.webp",
-      "width": 1920,
-      "height": 786,
+      "width": 1600,
+      "height": 655,
       "format": "webp",
-      "sha256": "f15724aa426ad391656c6a9606b25c543164a8549aa8893e17bc4f239f4f67bb",
+      "sha256": "4e74be023ae281b99ae5b7e16937ea26e79733fef33b22fe240dfb06137b2580",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -621,8 +624,9 @@
         "bytes": 297652,
         "full_resolution": true
       },
-      "bytes": 92076,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/44-PANORAMICA-scaled-1.jpeg"
+      "bytes": 43954,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/44-PANORAMICA-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-dji-0502-scaled-1",
@@ -649,7 +653,7 @@
       "width": 2560,
       "height": 1440,
       "format": "webp",
-      "sha256": "1a0fc37128bb7acf9198c924f1a83ade2bc6974477894e6ca1b8e9f443178a59",
+      "sha256": "fd52feefea5b7c2f4546b5c9fa5c892b55db13072fcc3f8aa63d417c3138e166",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -664,8 +668,9 @@
         "bytes": 789251,
         "full_resolution": true
       },
-      "bytes": 638722,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0502-scaled-1.jpeg"
+      "bytes": 508738,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0502-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-dji-0534-scaled-1",
@@ -692,7 +697,7 @@
       "width": 2560,
       "height": 1440,
       "format": "webp",
-      "sha256": "59c3ddec20dcdf0cf731b2998c461e125da5456a0d6e5ab2414a5dec7091cd31",
+      "sha256": "2183a796bf063d72f04856f7b6f8c8365453c5d0d0663306c2b4e62c78c73edc",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -707,8 +712,9 @@
         "bytes": 488549,
         "full_resolution": true
       },
-      "bytes": 324830,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0534-scaled-1.jpeg"
+      "bytes": 234476,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0534-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-dji-0637-scaled-1",
@@ -732,10 +738,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-dji-0637-scaled-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "4a8b0b2bbe46878ad45cb037f5599a8b2bb4072aea612ea601192714970783f9",
+      "sha256": "2cb7c1a3010b410fd45eeb5a23f9235d4bf98b6541f466ff46aaf28a9ad2f129",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -749,8 +755,9 @@
         "bytes": 563456,
         "full_resolution": true
       },
-      "bytes": 230886,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0637-scaled-1.jpeg"
+      "bytes": 110944,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/DJI_0637-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris-44-v01",
@@ -777,7 +784,7 @@
       "width": 1600,
       "height": 1020,
       "format": "webp",
-      "sha256": "59f1c106d8d896666b95c74347f69510d107e3f2f4d441e3f40a33d766799a48",
+      "sha256": "f98332deadebfb825f9b68856fb8af57c3780770d9456849d4de8f99426180ca",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -791,8 +798,9 @@
         "bytes": 253113,
         "full_resolution": true
       },
-      "bytes": 76386,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v01.jpeg"
+      "bytes": 44592,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v01.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris-44-v02",
@@ -819,7 +827,7 @@
       "width": 1600,
       "height": 1020,
       "format": "webp",
-      "sha256": "a6ecb8d340de92556b516cd9e875828e1285633a64820c1ca6ab5709a3dff36d",
+      "sha256": "7e29abe93106e633c9ac00d3a069295d0a7ffd28451ebbebc7b169a132a914be",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -833,8 +841,9 @@
         "bytes": 211263,
         "full_resolution": true
       },
-      "bytes": 60098,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v02.jpeg"
+      "bytes": 33384,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris-44-v02.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris-44-0411",
@@ -858,10 +867,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris-44-0411.webp",
-      "width": 1920,
-      "height": 1227,
+      "width": 1600,
+      "height": 1023,
       "format": "webp",
-      "sha256": "43d0a15b8c5f9799ba273b2338647ee989942756c1868cd7605271f8f1fc659a",
+      "sha256": "1a9f0e17da5116d83190e79fb4720d0f1eaec9292ac649ef8e1764b3634da7d1",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -875,8 +884,9 @@
         "bytes": 751155,
         "full_resolution": true
       },
-      "bytes": 244224,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0411.jpeg"
+      "bytes": 136636,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0411.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris-44-0434-copia-scaled-1",
@@ -900,10 +910,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris-44-0434-copia-scaled-1.webp",
-      "width": 1920,
-      "height": 1265,
+      "width": 1600,
+      "height": 1054,
       "format": "webp",
-      "sha256": "0d3b1508db9a43edf5196c49ef875e5ea653c242db54c129b9f4ec64597ec467",
+      "sha256": "3e7461a8340accfcb9709a289071ac52994aece2c666e16b60c8efe1c5e2a10b",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -917,8 +927,9 @@
         "bytes": 737102,
         "full_resolution": true
       },
-      "bytes": 334800,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0434-copia-scaled-1.jpeg"
+      "bytes": 189254,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris_44_0434-copia-scaled-1.jpeg",
+      "web_quality": 75
     }
   ]
 }

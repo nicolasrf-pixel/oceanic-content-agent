@@ -238,14 +238,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/img-0093.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "9e8f64cabda412a03a9108d5631b43e549ff6606b68e0e74d6e422fd80cfd36a",
+      "sha256": "fbc70f4124c78126bab07c651abb08ad26bc9a279ee5d06f48c06f600b168123",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 105012,
+      "bytes": 50346,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0093.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -256,7 +256,8 @@
         "bytes": 1449212,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "img-0082-scaled",
@@ -313,11 +314,11 @@
       "width": 1400,
       "height": 933,
       "format": "webp",
-      "sha256": "f72f12c8fd0ff3dd0ab69f1f6faeb0c94ebd024809e271a5eed0ec72db5cfdd9",
+      "sha256": "d77df29039a85467596c878b6d4f0e2e21da99ec3deaa93dee5caa79878dd88f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 83996,
+      "bytes": 49446,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0048-e1689335059561.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -328,7 +329,8 @@
         "bytes": 196860,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "img-0038-e1689335014492",
@@ -355,11 +357,11 @@
       "width": 1400,
       "height": 933,
       "format": "webp",
-      "sha256": "a38994f8be44c0c552c40fead3720fb94bd9bae042dd856e69b9c7e06aeb677f",
+      "sha256": "08bcd3d8107a0bb395b383f366494cf3aefdee44eef5dcfc0477eb4cb8d380f2",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 92832,
+      "bytes": 55594,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0038-e1689335014492.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -370,7 +372,8 @@
         "bytes": 206518,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "40-st-piano-interni-scaled",
@@ -487,7 +490,7 @@
       "width": 2560,
       "height": 1440,
       "format": "webp",
-      "sha256": "0a0d0319eb54f70f3ac83a7106e4c3601724b86064e76cbb3cea5dc02f5f59da",
+      "sha256": "e09a0c6d65d7a35723df2f9811b2861f0b455265f4035734ee7fc78fc2b90bca",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -502,8 +505,9 @@
         "bytes": 840440,
         "full_resolution": true
       },
-      "bytes": 515248,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg"
+      "bytes": 393762,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0000-hig-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris40-ext-d-0001-hig-scaled-1",
@@ -530,7 +534,7 @@
       "width": 2560,
       "height": 1440,
       "format": "webp",
-      "sha256": "0578217c4a1d8c71c353c4fc825122b9d6fd0a73bf49d2c65632ef7bdc86584b",
+      "sha256": "6e1947bdb8cf5acd2febf549c08faefd5a78da7f43999df695d63530a22e5033",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -545,8 +549,9 @@
         "bytes": 838203,
         "full_resolution": true
       },
-      "bytes": 508982,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg"
+      "bytes": 368010,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0001-hig-scaled-1.jpeg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-solaris40-ext-d-0011-hig-scaled-1",
@@ -570,10 +575,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-solaris40-ext-d-0011-hig-scaled-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e3e5ca0ada66703ddb01e0c04802e2b123dd99928ff511ea43686d880755dc6a",
+      "sha256": "41e6870d402c5c0a654fc726e6e2851fe1392332b592b9da683581cb925a684c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -587,8 +592,9 @@
         "bytes": 595228,
         "full_resolution": true
       },
-      "bytes": 162928,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg"
+      "bytes": 72162,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Solaris40-ext-D-0011-hig-scaled-1.jpeg",
+      "web_quality": 75
     }
   ]
 }

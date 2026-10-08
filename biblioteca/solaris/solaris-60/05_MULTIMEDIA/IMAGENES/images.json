@@ -178,10 +178,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/mg-0882-post-scaled.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "1de7a7557d92ecb241991fe9a380bb62abe99a9bb2e1011398d3c99527d1d9fd",
+      "sha256": "2df5e3a35b23816e30a11466dc0b32045757d4f24b46c44b7fe3cbf4ff4df81a",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -195,8 +195,9 @@
         "bytes": 714213,
         "full_resolution": true
       },
-      "bytes": 330352,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/MG_0882_post-scaled.jpeg"
+      "bytes": 180644,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/MG_0882_post-scaled.jpeg",
+      "web_quality": 75
     },
     {
       "id": "mg-0274-post",
@@ -223,7 +224,7 @@
       "width": 1600,
       "height": 1021,
       "format": "webp",
-      "sha256": "4284a7a3cc189491ed903929f3280257c2485c55ceac049d04c16b2c638c36f0",
+      "sha256": "ab0e16b6e1bf23ca4dede3d0ca6225d98b37030648c698d7c0bc47a39da6c4c5",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -237,8 +238,9 @@
         "bytes": 502915,
         "full_resolution": true
       },
-      "bytes": 210664,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/MG_0274_post.jpeg"
+      "bytes": 163428,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/MG_0274_post.jpeg",
+      "web_quality": 75
     },
     {
       "id": "mg-0521-post-2",
@@ -505,7 +507,7 @@
       "width": 2560,
       "height": 1440,
       "format": "webp",
-      "sha256": "849c6ae5f834885d930f23de30607241f9de657b663f5fc79ebcfccd89faf9ce",
+      "sha256": "a05dc2b5b423472b1bffdc0d45edc058dc2e38ef30201bea8abb3b6059df0567",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -520,8 +522,9 @@
         "bytes": 591685,
         "full_resolution": true
       },
-      "bytes": 419486,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1-2.jpg"
+      "bytes": 304034,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-10",
@@ -548,7 +551,7 @@
       "width": 1600,
       "height": 1020,
       "format": "webp",
-      "sha256": "dc6d15ba41feebaf2bf413760e04303b27130295cde92d1f81c1892dbac6194d",
+      "sha256": "337aff109146ccb50e8ad54d8d623f161e64dbb4fd62b8af0d02d1eb19620f6e",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -562,8 +565,9 @@
         "bytes": 555702,
         "full_resolution": true
       },
-      "bytes": 254200,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-10.jpg"
+      "bytes": 201420,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-11",
@@ -590,7 +594,7 @@
       "width": 2560,
       "height": 1611,
       "format": "webp",
-      "sha256": "c2b4c7473e9b82fc60edcb910bf08b63dc0bcd15a3c58ee8954ecd903461647d",
+      "sha256": "2bb27abc301fb0ad7c227782246570109753291f35bbc41e9d4aeae77fb86161",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -605,8 +609,9 @@
         "bytes": 658361,
         "full_resolution": true
       },
-      "bytes": 345090,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-11.jpg"
+      "bytes": 246606,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-2-2",
@@ -630,10 +635,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-download-2-2.webp",
-      "width": 1920,
-      "height": 1152,
+      "width": 1600,
+      "height": 960,
       "format": "webp",
-      "sha256": "e8ab811bf01b1150fd9872bd4e265d91eeb6fd174fabbb015455a9bad6f0278b",
+      "sha256": "2828ad8a069c6545d68b5b3dbb73fa6aae0cdd3f3f9ed2c04bdb30b7cd7d688b",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -647,8 +652,9 @@
         "bytes": 663071,
         "full_resolution": true
       },
-      "bytes": 257584,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2-2.jpg"
+      "bytes": 113914,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-3-2",
@@ -672,10 +678,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-download-3-2.webp",
-      "width": 1920,
-      "height": 911,
+      "width": 1600,
+      "height": 759,
       "format": "webp",
-      "sha256": "8be687c11c66810e810f83a305b76f05c2bde5da11213edf142236dd87e92fb4",
+      "sha256": "c9b9b5e73cc274ecaea6f29b329900718243be26b3f378b1e4089065573d7496",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -689,8 +695,9 @@
         "bytes": 504907,
         "full_resolution": true
       },
-      "bytes": 146750,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3-2.jpg"
+      "bytes": 72994,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-4-1",
@@ -717,7 +724,7 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "6e2f9c9f85261f01deb5e533ecc2d0ec16fa6111295f13d42d497622b91f9497",
+      "sha256": "292b7e4861073619502e4c16ac7ce6feb15464ce9ab068a1c2e24cf66e21e890",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -731,8 +738,9 @@
         "bytes": 328949,
         "full_resolution": true
       },
-      "bytes": 120714,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-4-1.jpg"
+      "bytes": 70140,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-4-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-5",
@@ -759,7 +767,7 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "c83523981f055a5d786c72fa4fe78a4a8e9f04a45383f65f5a38cae9386946bf",
+      "sha256": "db1ec2451a47d1d1d77f4d46714e2b63dd120259071345e975c225982f9ec1af",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -773,8 +781,9 @@
         "bytes": 252379,
         "full_resolution": true
       },
-      "bytes": 133480,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-5.jpg"
+      "bytes": 87804,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-6",
@@ -841,7 +850,7 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "530973a688a4672885624318609ccf7e86647d807b0052ecaa33dd2c53f6aaf4",
+      "sha256": "b4068bfb487d120360d8630ba3972cc6c6d0ea3086e804a18bd4fa48d78dc4cd",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -855,8 +864,9 @@
         "bytes": 417629,
         "full_resolution": true
       },
-      "bytes": 160146,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-7.jpg"
+      "bytes": 119468,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-8",
@@ -920,10 +930,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-download-9.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "6bdd92416ba2c4bc031e3cc3fdeee47a5a906484a6fd67aa9f5b1506f2572483",
+      "sha256": "511b935c5cbd9db3026e6b06b7b5b256e5fb087d3976df017c414519916407f1",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -937,8 +947,9 @@
         "bytes": 469299,
         "full_resolution": true
       },
-      "bytes": 165672,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-9.jpg"
+      "bytes": 91690,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-9.jpg",
+      "web_quality": 75
     }
   ]
 }

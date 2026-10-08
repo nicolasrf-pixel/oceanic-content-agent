@@ -598,10 +598,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-dinette-3.webp",
-      "width": 1920,
-      "height": 1445,
+      "width": 1600,
+      "height": 1204,
       "format": "webp",
-      "sha256": "23bab40900c96298b3a5659f2e8d1d189aea61a8fe61404d695020a77fbb498e",
+      "sha256": "37d2f323ac07346d79b75d62e03c03331f6afffb801024944239184dd2868236",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -615,8 +615,9 @@
         "bytes": 3174686,
         "full_resolution": true
       },
-      "bytes": 144896,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Dinette-3.jpg"
+      "bytes": 74682,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Dinette-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-owner-cabin-1",
@@ -640,10 +641,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-owner-cabin-1.webp",
-      "width": 1920,
-      "height": 1520,
+      "width": 1600,
+      "height": 1267,
       "format": "webp",
-      "sha256": "1f6c1a5075a7cdedd34b425acf90848124b0c34cafcd6a8dc2bd33c7cc24ef34",
+      "sha256": "14fc9c3583ea3db24b3740a87a9c067730a0643430df556475367605b0da3e28",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -657,8 +658,9 @@
         "bytes": 3491251,
         "full_resolution": true
       },
-      "bytes": 139068,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Owner-Cabin-1.jpg"
+      "bytes": 61056,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/Owner-Cabin-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-1-1",
@@ -685,7 +687,7 @@
       "width": 2560,
       "height": 1706,
       "format": "webp",
-      "sha256": "ff7f1be39d7102afcffe349d89888ed7301015bf63989da161b73bdee84d1b5e",
+      "sha256": "34954e5d4e115ba06e64cb6dac5d63d9f4932a0ffd66842d9b1a35679ce58dda",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -700,8 +702,9 @@
         "bytes": 773121,
         "full_resolution": true
       },
-      "bytes": 574536,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1-1.jpg"
+      "bytes": 453050,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-2-1",
@@ -725,10 +728,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-download-2-1.webp",
-      "width": 1920,
-      "height": 1124,
+      "width": 1600,
+      "height": 937,
       "format": "webp",
-      "sha256": "e7cde9a0ae2efa27623bea971861d90b53834b3aa187696bda2dc0037fd28987",
+      "sha256": "362c146f17db9b2eef64cffc00c8a069b09c67737c973ce6270902b544a8b0e6",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -742,8 +745,9 @@
         "bytes": 557111,
         "full_resolution": true
       },
-      "bytes": 123106,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2-1.jpg"
+      "bytes": 59896,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-3-1",
@@ -767,10 +771,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanic-download-3-1.webp",
-      "width": 1920,
-      "height": 979,
+      "width": 1600,
+      "height": 816,
       "format": "webp",
-      "sha256": "76f4c11efd3f8e6030e599a44cddebd4aa376c8370b1e0f1474b2059c633b758",
+      "sha256": "bf8c72b4263bf7e0fd03b22515f61152ce411b4a9775a55372e2376a243f0e9e",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -784,8 +788,9 @@
         "bytes": 303931,
         "full_resolution": true
       },
-      "bytes": 74582,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3-1.jpg"
+      "bytes": 35196,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-3",
@@ -812,7 +817,7 @@
       "width": 2560,
       "height": 1706,
       "format": "webp",
-      "sha256": "4c9d7e0362bb9144833fcee08c8a6a064ccf741e4f63bd843de7cd53f242a52e",
+      "sha256": "7d266c4e3232d59112ababd43e2dd03fd9a5f1194a0c6e787c2820a6d79d417a",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -827,8 +832,9 @@
         "bytes": 751274,
         "full_resolution": true
       },
-      "bytes": 536036,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3.jpg"
+      "bytes": 375600,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-4",
@@ -852,10 +858,10 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-download-4.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "3648a285fbb7052aa32bc1452214b00bf723985e52b7d9e316a671b6fa3383fa",
+      "sha256": "0576efcff1e76866409d30401b2fa0a187c8ec939b2758c725caddb261b10f42",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -869,8 +875,9 @@
         "bytes": 698584,
         "full_resolution": true
       },
-      "bytes": 314460,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-4.jpg"
+      "bytes": 162238,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-4.jpg",
+      "web_quality": 75
     }
   ]
 }

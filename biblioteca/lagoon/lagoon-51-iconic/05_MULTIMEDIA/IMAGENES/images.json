@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 1280,
       "format": "webp",
-      "sha256": "255815d42f8d985efde02635c68f3b417f0fd10e4f61268d9c5de256d56694ca",
+      "sha256": "84e9f07187dd203cc239ab360a13715e684bb4a669c09786f4e989926f6d30df",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 241460,
+      "bytes": 158910,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/cover-lagoon-51-iconic.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/cover-lagoon-51-iconic.jpg",
@@ -46,7 +46,8 @@
         "bytes": 365037,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/cover-lagoon-51-iconic.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/cover-lagoon-51-iconic.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-profil-intro",
@@ -73,11 +74,11 @@
       "width": 800,
       "height": 1199,
       "format": "webp",
-      "sha256": "8cf72e063b85ba33e357100b88b578a0c964fdc92766e11585806490af10f9e0",
+      "sha256": "73ad84ede260e35d8b579d532638e362f2f282969cab40acffe04edbb2d245ad",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 70410,
+      "bytes": 50252,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-profil-intro.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-profil-intro.jpg",
@@ -88,7 +89,8 @@
         "bytes": 366969,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-profil-intro.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-profil-intro.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-iconic-video-cover",
@@ -145,12 +147,12 @@
       "width": 1920,
       "height": 720,
       "format": "webp",
-      "sha256": "912ec0a914078b7204d6199c5a569d0d849d198a9b46b5f2b44d73637bee584b",
+      "sha256": "833ab91fdd80a1fddab3e35e76aa7b01ed3e8566c703b81a16a5c4f66fac9498",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 135666,
+      "bytes": 116202,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/catamaran-lagoon-51-iconic-slider-01_0.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/catamaran-lagoon-51-iconic-slider-01_0.jpg",
@@ -161,7 +163,8 @@
         "bytes": 367787,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/catamaran-lagoon-51-iconic-slider-01_0.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/catamaran-lagoon-51-iconic-slider-01_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-parallax",
@@ -188,12 +191,12 @@
       "width": 1920,
       "height": 820,
       "format": "webp",
-      "sha256": "21ddc3d2d609d532e0926dd7120d2ac746323a360f5eebfc6d3a40304fb34e8e",
+      "sha256": "0f8099cf020b5cf007a77db401b567e492e5bbd2a6b9f56a3e67117e82106c27",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 149092,
+      "bytes": 120030,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-parallax.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-parallax.jpg",
@@ -204,7 +207,8 @@
         "bytes": 402479,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-parallax.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-parallax.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-18",
@@ -228,14 +232,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-51-iconic-slider-18.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "3ff3e094b3162d2e8f35713e29b1488de73db0dffb0a5f640464620714208ae0",
+      "sha256": "169943e5cd6824d42a1f58bf13ee0683cf2fb4e7c57f08c3b3ec32937d7a44b6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 133908,
+      "bytes": 44406,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-18.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-18.jpg",
@@ -246,7 +250,8 @@
         "bytes": 389803,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-18.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-18.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-46-iconic-slider-25",
@@ -300,14 +305,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-51-iconic-slider-21.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "6a0ae38463eccc209352abd47ad5c6e6020f62d54887fd9e0f4e02433d553b60",
+      "sha256": "5a8918213cc7ea01a210571c391b22150f60047a675bdc375eaf7f3130abf518",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 153132,
+      "bytes": 61908,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-21.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-21.jpg",
@@ -318,7 +323,8 @@
         "bytes": 410788,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-21.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-21.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-20",
@@ -342,14 +348,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/lagoon-51-iconic-slider-20.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "760781ac25fe00e3bf80ebec4c0d059d42aefc75bc1ef008d9eebf844d20fac2",
+      "sha256": "7382953e3942907c9e8b9fb67b56d003641cfa1201246eb1a9d29a01710656b9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 123404,
+      "bytes": 50024,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-20.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-20.jpg",
@@ -360,7 +366,8 @@
         "bytes": 372711,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-20.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-20.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-19",
@@ -384,14 +391,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-51-iconic-slider-19.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "7030ea94b8fb3513f3ebf3b6dc225970abdf92f5284be10a30ddf89be44d66a3",
+      "sha256": "32b1b7d32388a8c4ceed1075deb04cc9e3501ddc63ec16fe147dc145554b07e8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 120982,
+      "bytes": 57964,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-19.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-19.jpg",
@@ -402,7 +409,8 @@
         "bytes": 376902,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-19.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-19.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-22",
@@ -426,14 +434,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-51-iconic-slider-22.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "1491b1bb8840c34300c5086ca3d1955c26902d57c157647ad02265407c61a6ca",
+      "sha256": "1cfa93e489bfb2f98666d6700407e0e37560537596185b685c88f7fbb4ab48d3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 113500,
+      "bytes": 43872,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-22.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-22.jpg",
@@ -444,7 +452,8 @@
         "bytes": 355001,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-22.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-22.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-23",
@@ -468,14 +477,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-51-iconic-slider-23.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "02b6cba946eff5b4021c5c44f557960fe6462db40480ecd588c2274dfcc53233",
+      "sha256": "7396434e1d7a631ac7c7cb2e37b9dc20804636228039db15ed9e6996ab65505c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 192326,
+      "bytes": 87110,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-23.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-23.jpg",
@@ -486,7 +495,8 @@
         "bytes": 310461,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-23.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-23.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-05",
@@ -510,14 +520,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-51-iconic-slider-05.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "f530c5b897ff6cf241f0e37413856b1df395c5f66e72314eaef5ae5b155ee420",
+      "sha256": "6895f08ba6ed771a96210e870fb04bb2ae981e36fbb2b3ea1d1e5586fb7fbc7d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 116564,
+      "bytes": 64214,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-05.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-05.jpg",
@@ -528,7 +538,8 @@
         "bytes": 336897,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-05.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-07",
@@ -552,14 +563,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/lagoon-51-iconic-slider-07.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "c4a0309a7f7e85f16a15bd934da00ac8ec31b4cfa714c47033cf1afdd31ca34c",
+      "sha256": "938c93d1e99f30210ee6caa18139315818d24ac0c14ff18395611878f989ea8c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 112760,
+      "bytes": 62750,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-07.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-07.jpg",
@@ -570,7 +581,8 @@
         "bytes": 317776,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-07.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-02",
@@ -594,14 +606,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-51-iconic-slider-02.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "baa3296e54889628ef6214c148aebd7340550a372269f4ada7978cc4dcb645ab",
+      "sha256": "23449441c3dab0357a2d2d62a096a76c7a6c34294287ffa60ab8a4183d28fd1c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 80930,
+      "bytes": 45036,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-02.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-02.jpg",
@@ -612,7 +624,8 @@
         "bytes": 398939,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-02.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-01",
@@ -636,14 +649,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-51-iconic-slider-01.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "19fd9df94e4eab15a819eaff91c66a9203c1860af5320f20949945ccf7abcb9d",
+      "sha256": "49a55404a99411dcd39254ffdf6f050c148e9adf188eb184cfeed4772337c8ba",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 90724,
+      "bytes": 44236,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-01.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-01.jpg",
@@ -654,7 +667,8 @@
         "bytes": 408801,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-01.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-03",
@@ -678,14 +692,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/lagoon-51-iconic-slider-03.webp",
-      "width": 1920,
-      "height": 720,
+      "width": 1600,
+      "height": 600,
       "format": "webp",
-      "sha256": "23ca6a907045cfcf543f9b201ef14d712a792c9796fca9574c31858b8e6ca2bd",
+      "sha256": "3bd5c9e001c25a5f29b9aeff657f964e6c8b92c74da1d91305f2f11c09bfd701",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 66688,
+      "bytes": 34608,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-03.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-03.jpg",
@@ -696,7 +710,8 @@
         "bytes": 339557,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-03.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-06/lagoon-51-iconic-slider-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-51-iconic-slider-08",
@@ -720,14 +735,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/lagoon-51-iconic-slider-08.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "83f4f924e1bb0fbdff92cf39742580b70ee4171d8d6637349cecaa46d058333d",
+      "sha256": "a348794645999bb3da1fdb0e2c5385f8bbcaaf0759afc12e7b356e6bebf2a9ea",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 89526,
+      "bytes": 45570,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-08.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-08.jpg",
@@ -738,7 +753,8 @@
         "bytes": 346916,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-08.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-04/lagoon-51-iconic-slider-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "catamaran-lagoon-51-video-thumbnail",
@@ -765,11 +781,11 @@
       "width": 1280,
       "height": 720,
       "format": "webp",
-      "sha256": "6d1355be735d6459150623f535d76690e4f6c5ee71d43d0e3965e16b498db17b",
+      "sha256": "e94d35f1555d1d9e682dbb39887ce9f6130607f9de075846a0330e5a1d6ba21f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 307420,
+      "bytes": 250280,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/catamaran-lagoon-51-video-thumbnail.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/catamaran-lagoon-51-video-thumbnail.jpg",
@@ -780,7 +796,8 @@
         "bytes": 313326,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/catamaran-lagoon-51-video-thumbnail.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/catamaran-lagoon-51-video-thumbnail.jpg",
+      "web_quality": 75
     },
     {
       "id": "lagoon-46-furling-boom-vignette",
@@ -834,14 +851,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/lagoon-51-navigation-1.webp",
-      "width": 1707,
-      "height": 2560,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "6b42a33fc1e2bcde39fd14060082170154d658c8c7f6a9b1ab758f329d074c68",
+      "sha256": "3db581120f8463dee9947fa766d64c8d75b27221e3cfdbd5926de0e7ffb266d5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 255046,
+      "bytes": 98400,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2051%20navigation%20%281%29.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2051%20navigation%20%281%29.jpg",
@@ -852,7 +869,8 @@
         "bytes": 498227,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2051%20navigation%20%281%29.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-06/Lagoon%2051%20navigation%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "seanapps-highlight",
@@ -906,14 +924,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lagoon-51.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "70447acfd13fb3a9f2f777666edc8ae292bfd335d8b9abed7ad412b8ee2af6aa",
+      "sha256": "1d7a232f9e029387f6ba9e21571805ae417e64addd00f45b89865b47187f5505",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 207664,
+      "bytes": 160614,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_51.webp",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_51.webp",
@@ -924,7 +942,8 @@
         "bytes": 225596,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_51.webp"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2023-08/LAGOON_51.webp",
+      "web_quality": 75
     },
     {
       "id": "layout-lagoon-51-4-cabins",
@@ -948,14 +967,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-lagoon-51-4-cabins.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "8c9b4e19d3a482ef0fd9c9b1f4dc59d2580a35aedbdc904e6ec72e8215e90d5e",
+      "sha256": "644dde043f2001eeeb375176c788c15f41c39659e891e403fc8654c79cbad99d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 69612,
+      "bytes": 40986,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins.jpg",
@@ -966,7 +985,8 @@
         "bytes": 192892,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-lagoon-51-4-cabins-4-sdb",
@@ -990,14 +1010,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-lagoon-51-4-cabins-4-sdb.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "7ba71e4753a2fcf89eb7b9aac9267afe6e38b744d84be427fd16aad9de10cffe",
+      "sha256": "59cc4e8029eb1f07c2908558e03d795f6334a8adfe072bddcdb4eb0b0bb7701f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 71646,
+      "bytes": 40210,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins-4-sdb.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins-4-sdb.jpg",
@@ -1008,7 +1028,8 @@
         "bytes": 192446,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins-4-sdb.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-4-cabins-4-sdb.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-lagoon-51-6-cabins-6-sdb",
@@ -1032,14 +1053,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/layout-lagoon-51-6-cabins-6-sdb.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "88e86d9bd7dd7214bb1e2744c8bfef5804fde34850cf87341ff2a487050aedfa",
+      "sha256": "446adea06ac8e1ebaf89da9c6e63652f5f8558239fe96fe01fba08946687e859",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 70506,
+      "bytes": 42160,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-6-cabins-6-sdb.jpg",
         "fetched_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-6-cabins-6-sdb.jpg",
@@ -1050,7 +1071,8 @@
         "bytes": 193982,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-6-cabins-6-sdb.jpg"
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-02/layout-lagoon-51-6-cabins-6-sdb.jpg",
+      "web_quality": 75
     }
   ]
 }

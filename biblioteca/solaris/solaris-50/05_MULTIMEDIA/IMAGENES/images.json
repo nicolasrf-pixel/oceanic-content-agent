@@ -30,7 +30,7 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "076bed270b231cc355e5a984632e1d45546d460d4744ec3a35dc10188cf66284",
+      "sha256": "e3e622ceec07a90f6ebcaacf9cbf8477ecefac073568f5444be9fbe497311b3a",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -45,8 +45,9 @@
         "bytes": 165042,
         "full_resolution": true
       },
-      "bytes": 160266,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2021/09/50_bg_desktop-frame.webp"
+      "bytes": 123284,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2021/09/50_bg_desktop-frame.webp",
+      "web_quality": 75
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-4-scaled-e1655824752937",
@@ -131,14 +132,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/guillaume-plisson-for-solaris-yachts-2230-scaled.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "a939785b3c374107c7a988be9cf94c422337114a4417ce9bde333dc7d8698e22",
+      "sha256": "28663aa5107eb4641b370797086485df166f341e2229506b916eba85662ae45e",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 215266,
+      "bytes": 118504,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume_Plisson_for_Solaris_Yachts-2230-scaled.jpg",
         "fetched_from": "descarga manual en navegador",
@@ -149,7 +150,8 @@
         "bytes": 622958,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-7-e1655824493878",
@@ -206,7 +208,7 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "b67a923a12c0df8a14f4f34d9e02ac5baba9f9556bbf33815a04b9b3af71dcfb",
+      "sha256": "9ddc8428478282dd5c0f21503a34ce9fbce34600b2bfd8a9dbd8445e8b9238e1",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -220,8 +222,9 @@
         "bytes": 304341,
         "full_resolution": true
       },
-      "bytes": 205636,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-9-scaled-e1655837209114.jpeg"
+      "bytes": 153836,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-9-scaled-e1655837209114.jpeg",
+      "web_quality": 75
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-6-scaled-e1655824579810",
@@ -248,7 +251,7 @@
       "width": 1200,
       "height": 800,
       "format": "webp",
-      "sha256": "e4ae8e5e0fdfc4e90f2cd29fc276a202ababb2c3e942c581077af8b46e117d5d",
+      "sha256": "9057618f9431ddbb0dd120ac91d8c99ac66e30f4411ab7601f3e7c1fec8a8cc4",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -262,8 +265,9 @@
         "bytes": 166889,
         "full_resolution": true
       },
-      "bytes": 117500,
-      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-6-scaled-e1655824579810.jpeg"
+      "bytes": 91042,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-6-scaled-e1655824579810.jpeg",
+      "web_quality": 75
     },
     {
       "id": "guillaume-plisson-for-solaris-yachts-3-scaled-e1655824629162",
@@ -380,11 +384,11 @@
       "width": 1400,
       "height": 934,
       "format": "webp",
-      "sha256": "c5ac908e2f1e5c9edb5a04ac6f48cabcc9f4f67840aa60906aff1c95aa9e99ef",
+      "sha256": "3b7ae223003766c8cdaf2fb805c86fbfbbde6273a3a88af65f390fbd53d56db2",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 137652,
+      "bytes": 104824,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9-Guillaume-Plisson-for-Solaris-Yachts-2-scaled-e1655824689379.jpeg",
         "fetched_from": "descarga manual en navegador",
@@ -395,7 +399,8 @@
         "bytes": 240218,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "dsc7810-1",
@@ -482,11 +487,11 @@
       "width": 1600,
       "height": 1020,
       "format": "webp",
-      "sha256": "396f7b7cdbdb3f9ae281533599466333fa281f8cf9b384ec45f285a2fdcf4715",
+      "sha256": "3546574f740577d2b509afb2f105979ac3b12d5a196a994b72a2a37ee4556070",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-04",
       "download_status": "WEB_COPY",
-      "bytes": 116756,
+      "bytes": 72980,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/S50-web-2.jpeg",
         "fetched_from": "descarga manual en navegador",
@@ -497,7 +502,8 @@
         "bytes": 1612570,
         "full_resolution": true
       },
-      "downloaded_from": "descarga manual en navegador"
+      "downloaded_from": "descarga manual en navegador",
+      "web_quality": 75
     },
     {
       "id": "s50-web-3-copia",
@@ -644,7 +650,7 @@
       "width": 1280,
       "height": 669,
       "format": "webp",
-      "sha256": "84757a4467735d09f89d0a4d9e94e5c5927a7aa9e90236ad0097b781044351e5",
+      "sha256": "3c6b17781068c7cfdf59be7e8e6abd2d8c63ed93e8fe241536f76329a668c162",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -658,8 +664,9 @@
         "bytes": 103014,
         "full_resolution": true
       },
-      "bytes": 55082,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1.jpg"
+      "bytes": 37418,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download-2",
@@ -686,7 +693,7 @@
       "width": 1536,
       "height": 864,
       "format": "webp",
-      "sha256": "60089624f5795a7dd31340bfed8ccc84ddd79d84ca637006b1da6a08ca99b50e",
+      "sha256": "98907e78e15a1f806ff5b32619adc8f87883afddbc0d54b8258c8587b54e8918",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -700,8 +707,9 @@
         "bytes": 149088,
         "full_resolution": true
       },
-      "bytes": 80172,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2.jpg"
+      "bytes": 46022,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-download",
@@ -728,7 +736,7 @@
       "width": 1536,
       "height": 864,
       "format": "webp",
-      "sha256": "ba49e08c552058d73f4befeede9682cde03ff8f6028e98bd126d815774f8e1b8",
+      "sha256": "889cde5c0daf208260f2cc7466e52f49b2c875f7d60df076d1c8cc0282ba25ae",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -742,8 +750,9 @@
         "bytes": 173377,
         "full_resolution": true
       },
-      "bytes": 104536,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download.jpg"
+      "bytes": 68694,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/download.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanic-guillaume-plisson-for-solaris-yachts-2670-scaled-1",
@@ -770,7 +779,7 @@
       "width": 2560,
       "height": 1706,
       "format": "webp",
-      "sha256": "6e56c0b5e12c44299b05e73b570048f3dd77ef13d4ca7fb2110f649ce7b141b3",
+      "sha256": "889c6afb5ce63ba1b35747c99924b972f8530660aaeff035be59b76e3981f553",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
       "download_status": "WEB_COPY",
@@ -785,8 +794,9 @@
         "bytes": 1222622,
         "full_resolution": true
       },
-      "bytes": 844604,
-      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume_Plisson_for_Solaris_Yachts-2670-scaled-1.jpg"
+      "bytes": 618648,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume_Plisson_for_Solaris_Yachts-2670-scaled-1.jpg",
+      "web_quality": 75
     }
   ]
 }
