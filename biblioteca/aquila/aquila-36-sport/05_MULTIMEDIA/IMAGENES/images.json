@@ -30,11 +30,11 @@
       "width": 609,
       "height": 278,
       "format": "webp",
-      "sha256": "925054b33e5669c94bd337cdf123d363fa28c8bdc2753a27f768536f6215a191",
+      "sha256": "d55defbd51d63b31fa5d97c667676764ad807797ede6b123090ef3faa9b2ee81",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 9090,
+      "bytes": 7830,
       "original": {
         "url": "https://www.aquilaboats.com/hubfs/36%20Sport/aqu-profile-line-art-flex-callout-36s-copy.png",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aqu-profile-line-art-flex-callout-36s-copy.png",
@@ -45,7 +45,8 @@
         "bytes": 10098,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aqu-profile-line-art-flex-callout-36s-copy.png"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aqu-profile-line-art-flex-callout-36s-copy.png",
+      "web_quality": 75
     },
     {
       "id": "aquila36cruiser-flexleft-07162020-3",
@@ -72,11 +73,11 @@
       "width": 523,
       "height": 340,
       "format": "webp",
-      "sha256": "830cebe185c8070dfa2ac6d0ba49608e909544a8ffa62fcc45fb9eb62d23655c",
+      "sha256": "4c2202db0ff648c0ab1115243540a3ca823cae4d09f5f1a7177b531ed74103aa",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 30714,
+      "bytes": 24114,
       "original": {
         "url": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36cruiser-flexleft-07162020-3.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36cruiser-flexleft-07162020-3.jpg",
@@ -87,7 +88,8 @@
         "bytes": 37646,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36cruiser-flexleft-07162020-3.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36cruiser-flexleft-07162020-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila36foil-flexleft-01082020",
@@ -114,11 +116,11 @@
       "width": 523,
       "height": 340,
       "format": "webp",
-      "sha256": "efc521b20761086ee00a0460296defb157f41b56545651cf7ba7cea562d8a511",
+      "sha256": "cf771dfc70efd44acbeece0f1fda0458da5fbb1e2dc47d52aa87e3a04e098435",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
-      "bytes": 7738,
+      "bytes": 6112,
       "original": {
         "url": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36foil-flexleft-01082020.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36foil-flexleft-01082020.jpg",
@@ -129,7 +131,8 @@
         "bytes": 9324,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36foil-flexleft-01082020.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila36foil-flexleft-01082020.jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-4",
@@ -156,12 +159,12 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "ed9304aecfdd86d5fb1bfdfcd3d980bfeb9bbcf48f632192b3d56f38e314963d",
+      "sha256": "e38cd569231c07891f6f92b01e941b27e5ac3af3f09433e305edd6927f8e03d4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
       "hero_rank": 2,
-      "bytes": 89090,
+      "bytes": 69018,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(4).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(4).jpg",
@@ -172,7 +175,8 @@
         "bytes": 188174,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(4).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(4).jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-9",
@@ -199,12 +203,12 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "cf246fc034f3b32b913edf4d38db7f96fe270d2cbff8c5bda226c04f4e31db0a",
+      "sha256": "4a8f7f4df617a7c650dc438e6c4a4e3fef9af6e42b1939046c21bb74226686ed",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
       "hero_rank": 3,
-      "bytes": 241426,
+      "bytes": 188452,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(9).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(9).jpg",
@@ -215,7 +219,8 @@
         "bytes": 416616,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(9).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(9).jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-10",
@@ -242,11 +247,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "e98b770148ab4e1ea20281a5a6abe56b496b15e68f1affd9cb957e55ce983649",
+      "sha256": "f7024415cb6efd734917ba72de8e1e8ddffeee7ad0ff219b6988160a34cc9b6f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 133764,
+      "bytes": 86412,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(10).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(10).jpg",
@@ -257,7 +262,8 @@
         "bytes": 305795,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(10).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(10).jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-7",
@@ -284,11 +290,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "74a1907dfd7a2b258a5d72167eaa344f79f8bea201c7a7308d86c9c2a963e2e2",
+      "sha256": "ed251de834fd05f3c7076f070b43b6236cdd93f20d7b007b31a4b66c5c3daae8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 162298,
+      "bytes": 125808,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(7).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(7).jpg",
@@ -299,7 +305,8 @@
         "bytes": 307720,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(7).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(7).jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-8",
@@ -326,11 +333,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "35989646285bc2c2fdf5e91d508b650e68d907bdd04e70eaf28e0c997c45b436",
+      "sha256": "4b59b9439461ff8a7c74883415dacf75c4762e508606a494ce22ea3281eda937",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 140932,
+      "bytes": 106046,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(8).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(8).jpg",
@@ -341,7 +348,8 @@
         "bytes": 301766,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(8).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(8).jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-model-gallery-5b-0706",
@@ -368,11 +376,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "98a32c5ee1b254dd7794176b04de704f2316170ca891f3d2dd789a9eb7ab5136",
+      "sha256": "46e82e4ad7713a25f77bcbd5d8e0d8298f358986ee1c8888c17cd0e368421bb7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 163292,
+      "bytes": 129206,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-model-gallery-5b-0706.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-5b-0706.jpg",
@@ -383,7 +391,8 @@
         "bytes": 203640,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-5b-0706.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-5b-0706.jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-1",
@@ -410,11 +419,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "4952f7de19681052c3ac63edfc251e2db511f41a37eb136e67e1e2fef34424ff",
+      "sha256": "24b8efb54a0ee7fb467859328acf05a6b647ca9365d4fc5effffc8240106a176",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 150006,
+      "bytes": 116868,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(1).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(1).jpg",
@@ -425,7 +434,8 @@
         "bytes": 292138,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(1).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(1).jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-2",
@@ -452,11 +462,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "2ce58a6c5d9d82e5e5c848772fad431adbf272d83ab1369ebb3f6d895121026c",
+      "sha256": "62014734d4497b20224d0a6eaf3a4dd8b4697f3a12d8ca50b5c4f908e994d867",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 106158,
+      "bytes": 81580,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36-gallery-07302019-(2).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36-gallery-07302019-(2).jpg",
@@ -467,7 +477,8 @@
         "bytes": 232093,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36-gallery-07302019-(2).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36-gallery-07302019-(2).jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-model-gallery-8b-0706",
@@ -494,11 +505,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "72362c822dac6c29c13ffc53a678a9bd9f0d73daaf8a6b1bb8d1e59011eafe70",
+      "sha256": "24921421b5300b6b72b70b0d02d273c814df8683f428f6194da495553c951217",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 108112,
+      "bytes": 83820,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/aquila-36-model-gallery-8b-0706.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/aquila-36-model-gallery-8b-0706.jpg",
@@ -509,7 +520,8 @@
         "bytes": 131940,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/aquila-36-model-gallery-8b-0706.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/aquila-36-model-gallery-8b-0706.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-model-gallery-6b-0706",
@@ -536,11 +548,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "cd3a7c13d71744b80d50e4e458ae5cd7912206b2c434eaf84b6d9c1be1495497",
+      "sha256": "513e7d597e31da5c97b92e8c08c92b9468f692f1c88947b91f5788f4f5014017",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 77326,
+      "bytes": 59630,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-model-gallery-6b-0706.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-6b-0706.jpg",
@@ -551,7 +563,8 @@
         "bytes": 102312,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-6b-0706.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-6b-0706.jpg",
+      "web_quality": 75
     },
     {
       "id": "36-gallery-07302019-5",
@@ -578,11 +591,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "37e7f726d18607439c64a82d283bf3397e8517c3259690e7b4d71ea2d8e8dc1d",
+      "sha256": "3d3649ccf4dc0f076442da88f214fc5ee73a7d78bd7d8beecbc5107bdbd34ccc",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 54298,
+      "bytes": 33512,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/36-gallery-07302019-(5).jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(5).jpg",
@@ -593,7 +606,8 @@
         "bytes": 147235,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(5).jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(5).jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-model-gallery-3b-0706",
@@ -620,11 +634,11 @@
       "width": 1200,
       "height": 680,
       "format": "webp",
-      "sha256": "ab81a4c5e0976a017795b97214d2a2dec3a4825eff16545e372056cc962c96fc",
+      "sha256": "850ac1f266ea022c788d5e8e0c6e83ef46044deb98df1db5b532dc0d1d8e0d68",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 47776,
+      "bytes": 31704,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-model-gallery-3b-0706.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-3b-0706.jpg",
@@ -635,7 +649,8 @@
         "bytes": 73452,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-3b-0706.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-3b-0706.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-interior-hero-3-07302019",
@@ -702,11 +717,11 @@
       "width": 1200,
       "height": 755,
       "format": "webp",
-      "sha256": "bd97363c430aaa165d661f93e11e2f160ebfd5afdb80cbc366949790b76ccd56",
+      "sha256": "9dee26ad0a711d7ce55294a12c9df865f28f97ff3512b3572701c139321a5c9f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 93484,
+      "bytes": 72734,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-fishing-large-image-2-07302019.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-2-07302019.jpg",
@@ -717,7 +732,8 @@
         "bytes": 114408,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-2-07302019.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-2-07302019.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-fishing-large-image-1-07302019",
@@ -744,11 +760,11 @@
       "width": 1200,
       "height": 755,
       "format": "webp",
-      "sha256": "48e7e25cee743d93d6d465eee9d9a2fb60d28fcb39c5fdda4bbe201cdc1916e5",
+      "sha256": "da6b38199bf965db32cf21e3dfe52cc5eb0461d4b1968b23a2ac17b0337414a0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 70888,
+      "bytes": 51656,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-fishing-large-image-1-07302019.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-1-07302019.jpg",
@@ -759,7 +775,8 @@
         "bytes": 94044,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-1-07302019.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-1-07302019.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-fishing-large-image-3-07302019",
@@ -786,11 +803,11 @@
       "width": 1200,
       "height": 755,
       "format": "webp",
-      "sha256": "664d65b580bca3ee896ce39f8ae237f2bf11e21cae761602e1315282c46615c7",
+      "sha256": "cee1e79fdfa3d683f25a11727143c7d22f966b78adb9520fbf103c338480a56c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY (original no disponible; desde CDN)",
-      "bytes": 135954,
+      "bytes": 105452,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/36%20Sport/aquila-36-fishing-large-image-3-07302019.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-3-07302019.jpg",
@@ -801,7 +818,8 @@
         "bytes": 164494,
         "full_resolution": false
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-3-07302019.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-3-07302019.jpg",
+      "web_quality": 75
     },
     {
       "id": "aquila-36-interior-hero-3-07302019-2",
@@ -828,12 +846,12 @@
       "width": 1440,
       "height": 400,
       "format": "webp",
-      "sha256": "dd317229b63f6a8945231c61872c6f12eee455790611ed5711eed0d0f3bcb95f",
+      "sha256": "f09c22f9534d6ef4b5be973897c752df03226fef1139bc7583d9ac78f3e8d9f1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 124954,
+      "bytes": 101596,
       "original": {
         "url": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg",
         "fetched_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg",
@@ -844,7 +862,8 @@
         "bytes": 149600,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg"
+      "downloaded_from": "https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg",
+      "web_quality": 75
     }
   ]
 }

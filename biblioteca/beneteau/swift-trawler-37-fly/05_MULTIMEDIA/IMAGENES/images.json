@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "2296963c6a72a04daf13c9d52c78a912c9c350e9fa26485faabda8cc1942e212",
+      "sha256": "da3e7fdbb3604205d80e2a821b867bed1ef77e0f4933b6ba404222e170cefce7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 236612,
+      "bytes": 185930,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly.jpg",
@@ -46,7 +46,8 @@
         "bytes": 507833,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterieur-1",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "2adcdd06fe20f0833be82d43e32c3c71fd288b1046eca6d8d778098499df21cc",
+      "sha256": "60f502cba03bff7a603604f9b84bc7664d38e24f9a49b561063421f30d7a2f15",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 473116,
+      "bytes": 368756,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 500427,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterieur-2",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "976093b8f3c88e06aa70942d15418678ea36a5380422ebd1c9e700827147edf6",
+      "sha256": "211f6f70079fdf0c1e74b7da8fff92df52a489c2b7db098d5c153e489695b8d1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 335720,
+      "bytes": 235080,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 511306,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterieur-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterieur-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "7ef2659695e9a28dbd7d3bac99ebb4157a30e3ca21b8adfc05f7181c1fa67bfb",
+      "sha256": "d3df762b2b7e0e431d2a09f9a20c4ed29552eeba7fef2f3cb19aec79e0c967f9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 406058,
+      "bytes": 222628,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 426631,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-exterieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-01",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-01.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "488cc95267e12cc1e3afcb9a57190ceb75c2d20dc53c8729fe7a7f7d8bc81e83",
+      "sha256": "9096225a386df442939e360e37e1446817fc4fb986610aaec0b613a9f4f9fe59",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189030,
+      "bytes": 85708,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-01.jpg",
@@ -216,7 +220,8 @@
         "bytes": 486353,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-02",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-02.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "17856a42266718b0204b42e1af3f5da8719e8034cf0cf9fbd2bf25ab27b78e16",
+      "sha256": "cfb4da5c14cba48bc460eab286db7ed6431d679fbb03655875258ff46565c769",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 212112,
+      "bytes": 109384,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-02.jpg",
@@ -258,7 +263,8 @@
         "bytes": 471683,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-03",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-03.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "b24556fa92144739bcd6d2b56096f8d6633dccffaf3cee58bef9d6535e340817",
+      "sha256": "3150c91367b8cac58e486b2e9a5fead8fbae4ae06e9dc9736b913727891c3799",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 127670,
+      "bytes": 65314,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-03.jpg",
@@ -300,7 +306,8 @@
         "bytes": 500431,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-04",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-04.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e5ca9581c2d6f83e50505ed62f9353bee42748fb4f0ecd57b1f45ca5c2ea6a56",
+      "sha256": "26b3d7825763c9fc6753b7e586a0c8ded36b54bdfef7ddbbbd2fde8e2cd26683",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 175550,
+      "bytes": 96116,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-04.jpg",
@@ -342,7 +349,8 @@
         "bytes": 508210,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-04.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-05",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-05.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "6a71d57ee837795d7e97ecda424c11451b2154def2e7ea329cc93824313a9ff7",
+      "sha256": "ac8f2971db2bc7e15d41d8c3f29a9b40c589da5d7b2eda11dcd28e95bbb984ef",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 238782,
+      "bytes": 126368,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-05.jpg",
@@ -384,7 +392,8 @@
         "bytes": 467857,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-06",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-06.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "d48bfbabcb5fb6d1c10682cf0c7dae56178e53ff7032964c89b4e220b91ec175",
+      "sha256": "899bd8c4b298912118e71e1d5b1e22ff749382967f3c4fe3b5c09c9dc83901ef",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 156672,
+      "bytes": 78904,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-06.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-06.jpg",
@@ -426,7 +435,8 @@
         "bytes": 444846,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-06.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-06.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-07",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-07.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "f76f83325b655c346bb238648df777a88bb70439db0e00ae82760041b75d3750",
+      "sha256": "c0c82a172d73f2d6dae4321b8c175c6cdd4d5c1e1610531f55f13b53a693f791",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 261140,
+      "bytes": 116198,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-07.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-07.jpg",
@@ -468,7 +478,8 @@
         "bytes": 461013,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-07.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-08",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-08.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "6186279d58a50cd42b71f1a822f8ba5e51a905fec5a8b0c78c2508ef941f75a5",
+      "sha256": "b44ebfb0c88653dee30ff570bd495ccc689e8398dd3aa8d9567ad7b83d729ed1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 158396,
+      "bytes": 80630,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-08.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-08.jpg",
@@ -510,7 +521,8 @@
         "bytes": 439408,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-08.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-09",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-09.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "0dea88d4431873da77d5e1b525b6a25e2e12472ce7945392d41150d24ef5c9be",
+      "sha256": "65dfc411278d0dbc1f38458a454be747582e462cc9f6093e97197bf637d29db0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 345922,
+      "bytes": 179942,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-09.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-09.jpg",
@@ -552,7 +564,8 @@
         "bytes": 501536,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-09.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-10",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-10.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "3fa237d7640e657c1f426be38bda1e49dd3438170ed7b8a33cb8d6bb19e9714b",
+      "sha256": "3df8af53edc1d8b7ff84f16a80cfb75716d2b24f3a2d5a939d4be0e281c3a03e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 230340,
+      "bytes": 114010,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-10.jpg",
@@ -594,7 +607,8 @@
         "bytes": 462957,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-exterior-design-11-0",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-37-fly-exterior-design-11-0.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "d67b3e991847f17580ae207022d088e95c95f8a3910de5f31fcec16819010aba",
+      "sha256": "f731973ede40ff30ed27cd51217bf0394b1250c542dc513a85d4e8e98f1207fc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 221124,
+      "bytes": 123458,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-11_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-11_0.jpg",
@@ -636,7 +650,8 @@
         "bytes": 469987,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-11_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-exterior-design-11_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-01",
@@ -663,11 +678,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "2bcbfece89f0bdf0288d7cf5bf3888b140df669dcb07855a7f1562b187ea09e6",
+      "sha256": "02f9d0595ae30ff9596cda13ce6eda5fca8fa714d0e6e15324e973943c94ec2a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 179004,
+      "bytes": 124320,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
@@ -678,7 +693,8 @@
         "bytes": 474590,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-02",
@@ -705,11 +721,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "5dad1f8e9aaef601b66a3f3d77165bc361d608c2e4e271c2adc87745e96e3acf",
+      "sha256": "8ac5b78af9337eb2635cabe6a5c04988ba690084c0e3b9ddd98391ef22e3804f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157508,
+      "bytes": 108378,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
@@ -720,7 +736,8 @@
         "bytes": 434182,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-03",
@@ -747,11 +764,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "2fb42b04cedcfd698c255e72f31647acd616d52f917ad0e7378928f9cf6b6d5d",
+      "sha256": "9189282c82e6c5258238639138216760e04f9e4148f9462a394d297b7024b02d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189388,
+      "bytes": 131100,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
@@ -762,7 +779,8 @@
         "bytes": 475686,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-04",
@@ -789,11 +807,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "ee8de6f20f3e1a2b2198d0d7ccd53803cf197f4a150fb388eda354c63c518524",
+      "sha256": "4eef3155cd0cf23ca6bd67d8265465e734c594ff7c672d0484d43ad294f8fd1b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143140,
+      "bytes": 101140,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
@@ -804,7 +822,8 @@
         "bytes": 429047,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-05",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-37-fly-interior-design-05.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e8720aee7d21421ddb8823f36b376b87399e6632dc482fcfe220463e55742fe2",
+      "sha256": "ab907f2b818b8af6082300c86be50dba8e7d38e059a9bd474f84a1e6f76a5810",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 107460,
+      "bytes": 54412,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
@@ -846,7 +865,8 @@
         "bytes": 412194,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-usp-1",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-37-fly-usp-1.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "dc681021605ab96f294291eed9f8a19578a270f9f9f4e8de775d4f3f2e93b6cb",
+      "sha256": "cc125a2c67518a887d9f4455c841e00ad7d8aec8f8df5ec55ecdbe74d10a5503",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 147672,
+      "bytes": 77946,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-usp-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-usp-1.jpg",
@@ -888,7 +908,8 @@
         "bytes": 435544,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-usp-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/swift-trawler-37-fly-usp-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-usp-strong-look",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-37-usp-strong-look.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "f90a94d714f5e959ebf26ab7a394d603f84e59327c2117096e51a000ce054e54",
+      "sha256": "12a93a377a1e817211022aac4769314d1108b5b14bffb8c375ea3522fad6709b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 245500,
+      "bytes": 130700,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-strong-look.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-strong-look.jpg",
@@ -930,7 +951,8 @@
         "bytes": 495102,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-strong-look.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-strong-look.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-usp-interior-design",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-37-usp-interior-design.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "82532901e987917fa8c71dbd78da07e2f91668dc0175ea4b6c49a723a66e63bd",
+      "sha256": "38e7286a2553c97a5945b5598671907d3cae641e229768889178a5afd94bb97e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 137130,
+      "bytes": 67872,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-interior-design.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-interior-design.jpg",
@@ -972,7 +994,8 @@
         "bytes": 460597,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-interior-design.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-usp-interior-design.jpg",
+      "web_quality": 75
     },
     {
       "id": "st37-flybridge-profile-white",
@@ -999,11 +1022,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "d291006d9c27afa7b9fbc218b16083b46dcaf40dfef604cd24a449254fd66fe5",
+      "sha256": "0fd498e06c18580f3cdb66aabccd7a44c04a5d7c6b51916ef4855309cbd7ff11",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16094,
+      "bytes": 13176,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-white.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-white.png",
@@ -1014,7 +1037,8 @@
         "bytes": 118711,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-white.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-white.png",
+      "web_quality": 75
     },
     {
       "id": "st37-flybridge-profile-grey",
@@ -1041,11 +1065,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "a9406188800b6500fc103ec1dc82fb5cf48eba3611d994b9e6adbe71aafa481d",
+      "sha256": "abe6acdcc280dfb41889117ebab3c192f5dbd962ae7cd5be7f3d413fdd32afc4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 15948,
+      "bytes": 13228,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-grey.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-grey.png",
@@ -1056,7 +1080,8 @@
         "bytes": 118905,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-grey.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37-flybridge-profile-grey.png",
+      "web_quality": 75
     },
     {
       "id": "st-37-flybridge-standard",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-flybridge-standard.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "e237a7121cf8ce924d3527d64d5f6d0919316841add4741755bc7ec78470966a",
+      "sha256": "3e41db35718e2c0ec77d3ac324a9c4eefe90ace11fb6e816b891cb104b3154ff",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 62186,
+      "bytes": 38454,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20standard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20standard.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 195034,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20standard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-pont-principal-standard",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-principal-standard.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "afe2de7cc0827612f5222c92513fcdbd770ce94a764ac900238d87eecd3a5718",
+      "sha256": "cce2060776c1c063d5b5e378c7833100db0c054f788b9034d96bceab2da3339c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 73150,
+      "bytes": 45628,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 240866,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-pont-inf-rieur-0",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-inf-rieur-0.webp",
-      "width": 1795,
-      "height": 634,
+      "width": 1600,
+      "height": 565,
       "format": "webp",
-      "sha256": "61d056449b9dd8cc9d85f2943922c3d28b08b9a5db11f436fe1e3f09afdf86b0",
+      "sha256": "94d9c609cdfff464ddd6501d2abf25b800da545a52816bf090f159c408ea097c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 69256,
+      "bytes": 44812,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
@@ -1182,7 +1209,8 @@
         "bytes": 201088,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-flybridge-option-panneaux-ouvrant",
@@ -1206,14 +1234,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-flybridge-option-panneaux-ouvrant.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "0a9218e907e4adb4d03f7a44eaa5d7aa74d02ad13def9068ff381ce85685c3a1",
+      "sha256": "05c37c3877031a1020474c65e3e93caf186e5edf11318fc20c7b7b0a22594ce5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 63216,
+      "bytes": 38984,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20panneaux%20ouvrant.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20panneaux%20ouvrant.jpg",
@@ -1224,7 +1252,8 @@
         "bytes": 200441,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20panneaux%20ouvrant.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20panneaux%20ouvrant.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-flybridge-option-silent-boat",
@@ -1248,14 +1277,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-flybridge-option-silent-boat.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "605a0090760c316be983bbaa2e37b4b8e241e8a569a352a9bdff2f09472ae9c3",
+      "sha256": "02b16a523705bb4127eff45fa601aff1c8163582ae9af6814cc3f1186134e33c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 73656,
+      "bytes": 45736,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20silent%20boat.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20silent%20boat.jpg",
@@ -1266,7 +1295,8 @@
         "bytes": 230628,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20silent%20boat.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Flybridge%20option%20silent%20boat.jpg",
+      "web_quality": 75
     }
   ]
 }

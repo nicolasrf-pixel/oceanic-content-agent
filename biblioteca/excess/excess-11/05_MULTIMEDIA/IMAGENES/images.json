@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "cc9181665f3e5d9b1c6c35c159e98197c03c50f5249d6b6e48b5cbda3bc6dd7b",
+      "sha256": "7998d0dc647bd82471f81d8bf5052b1db05a7aab917d968a2f854cfbbf5fc9e4",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 723420,
+      "bytes": 551232,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/9097-excess-port-vendres-arthur-aumond-rs-web-189.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/9097-excess-port-vendres-arthur-aumond-rs-web-189.jpg",
@@ -46,7 +46,8 @@
         "bytes": 5765426,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/9097-excess-port-vendres-arthur-aumond-rs-web-189.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/9097-excess-port-vendres-arthur-aumond-rs-web-189.jpg",
+      "web_quality": 75
     },
     {
       "id": "4931-excess-port-vendres-arthur-aumond-rs-web-190",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "b0d1198225abd67c776af02b5c73a8f2aadfa85ebbae5a096409ee9bbab9d36f",
+      "sha256": "93b27f26b4532fdc1f6fe572de3e41205ac4b4c18b8d2776c708c2167dfa04fc",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 836116,
+      "bytes": 626180,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/4931-excess-port-vendres-arthur-aumond-rs-web-190.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/4931-excess-port-vendres-arthur-aumond-rs-web-190.jpg",
@@ -89,7 +90,8 @@
         "bytes": 6012761,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/4931-excess-port-vendres-arthur-aumond-rs-web-190.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/4931-excess-port-vendres-arthur-aumond-rs-web-190.jpg",
+      "web_quality": 75
     },
     {
       "id": "8625-design-sans-titre-2",
@@ -176,12 +178,12 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "cb1620f9d4abf54c973864cadb516cff5f8e8573e5c9583fc2ef99da7e2d0526",
+      "sha256": "fc6e267b86d4e073fec02fa6a3f0887dca358790b593819d6fdb4f181264a447",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 550450,
+      "bytes": 407088,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/5761-dscf2601.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/5761-dscf2601.jpg",
@@ -192,7 +194,8 @@
         "bytes": 5053538,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5761-dscf2601.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5761-dscf2601.jpg",
+      "web_quality": 75
     },
     {
       "id": "3327-dscf3165",
@@ -216,14 +219,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/3327-dscf3165.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "8161b3cb30d2ce385df7343ef7084b82daf809a38553dad48784ac1e280208c5",
+      "sha256": "3d1dea9e509688220ae7928fedad0cf9bdf1e864aa834ed2ff55fb5989a72d78",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 297678,
+      "bytes": 119498,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/3327-dscf3165.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/3327-dscf3165.jpg",
@@ -234,7 +237,8 @@
         "bytes": 4746778,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/3327-dscf3165.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/3327-dscf3165.jpg",
+      "web_quality": 75
     },
     {
       "id": "5045-excess11-int-ncz7683-hdr-web",
@@ -258,14 +262,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/5045-excess11-int-ncz7683-hdr-web.webp",
-      "width": 1920,
-      "height": 1435,
+      "width": 1600,
+      "height": 1196,
       "format": "webp",
-      "sha256": "c5c5548543dcc21af38c8c5d5bd30787fad0f43a72b8c0c9578ae01aea0cfd12",
+      "sha256": "ca723f63d4dc64a396722d9131d984c8da6f640dd2092b1e39f12dddeadd0b88",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 229086,
+      "bytes": 121452,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/5045-excess11-int-ncz7683-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/5045-excess11-int-ncz7683-hdr-web.jpg",
@@ -276,7 +280,8 @@
         "bytes": 541146,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5045-excess11-int-ncz7683-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5045-excess11-int-ncz7683-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "8665-excess-11-9981",
@@ -300,14 +305,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/8665-excess-11-9981.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "31d22e5779578ead27bf9b8bc5f02d13e79b84b71c5f5663d13e34da0137128c",
+      "sha256": "ee040bcf7bf64416fe5bba1fde9ea8f1dc0cc732cc679aa557cc603d531d251f",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 146928,
+      "bytes": 81862,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/09/8665-excess-11-9981.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/09/8665-excess-11-9981.jpg",
@@ -318,7 +323,8 @@
         "bytes": 16044203,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/8665-excess-11-9981.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/8665-excess-11-9981.jpg",
+      "web_quality": 75
     },
     {
       "id": "6075-catamaran-excess-11-navigation-01",
@@ -342,14 +348,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/6075-catamaran-excess-11-navigation-01.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "e2c887dd8c69e6452820a22709cc926d622253940132199e00c76035fdb33567",
+      "sha256": "6a5641c1f83e583e7946e90b52b83a06e7662313a42746d7a5ab3bc3e9c08537",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 205698,
+      "bytes": 110474,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/6075-catamaran-excess-11-navigation-01.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/6075-catamaran-excess-11-navigation-01.jpg",
@@ -360,7 +366,8 @@
         "bytes": 388782,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6075-catamaran-excess-11-navigation-01.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6075-catamaran-excess-11-navigation-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "8134-catamaran-excess-11-navigation-02",
@@ -384,14 +391,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/8134-catamaran-excess-11-navigation-02.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "c4bb3551ab9d7fd2b063c6dba3ec9827728400505234771c1ba93ef1b3c4ea2a",
+      "sha256": "155a7a477ba732594c818be0e5e3644da2dff8d75dbfaf951d28e65c309134d5",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 183780,
+      "bytes": 100994,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8134-catamaran-excess-11-navigation-02.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8134-catamaran-excess-11-navigation-02.jpg",
@@ -402,7 +409,8 @@
         "bytes": 364533,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8134-catamaran-excess-11-navigation-02.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8134-catamaran-excess-11-navigation-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "5816-catamaran-excess-11-navigation-03",
@@ -426,14 +434,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/5816-catamaran-excess-11-navigation-03.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "9080f2feb752390ab0459d67a26b8d4a012f33ec7999c2c60eff5872cde59174",
+      "sha256": "5238ccc7adc72f2da2bc4af0061371e597393b843c23bc87d143baf8b268550c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 318046,
+      "bytes": 173256,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/5816-catamaran-excess-11-navigation-03.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/5816-catamaran-excess-11-navigation-03.jpg",
@@ -444,7 +452,8 @@
         "bytes": 442986,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/5816-catamaran-excess-11-navigation-03.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/5816-catamaran-excess-11-navigation-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "1805-catamaran-excess-11-navigation-05",
@@ -468,14 +477,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/1805-catamaran-excess-11-navigation-05.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "3ad5347a0569ab2f9cee88d731f35bdd7a95d783189b5bc547cda49f980ad113",
+      "sha256": "20df1da105f0a6e554e22a6c2eb9a6fe7795e3141f865652bab96811a02df647",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 259176,
+      "bytes": 142134,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1805-catamaran-excess-11-navigation-05.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1805-catamaran-excess-11-navigation-05.jpg",
@@ -486,7 +495,8 @@
         "bytes": 446638,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1805-catamaran-excess-11-navigation-05.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1805-catamaran-excess-11-navigation-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "9689-catamaran-excess-11-navigation-06",
@@ -510,14 +520,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/9689-catamaran-excess-11-navigation-06.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "a47a844742f0e356dfe46e6617cedc1367ad429a692ca14729352852e3a5c85d",
+      "sha256": "ea2d4d73f11bf195283fd50f8835d9319dc030972fc870d8e4c93311f61ce31b",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 311662,
+      "bytes": 169574,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/9689-catamaran-excess-11-navigation-06.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/9689-catamaran-excess-11-navigation-06.jpg",
@@ -528,7 +538,8 @@
         "bytes": 507946,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9689-catamaran-excess-11-navigation-06.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9689-catamaran-excess-11-navigation-06.jpg",
+      "web_quality": 75
     },
     {
       "id": "0319-catamaran-excess-11-navigation-07",
@@ -552,14 +563,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/0319-catamaran-excess-11-navigation-07.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "0695b6ec870e34762f769638cf84df22d1fa19e61e41a32a87ec64e8c2151fb7",
+      "sha256": "0fdc5106ec040754a412ee04d38e4ff3c90b1321ce5559dae4f74f4fa3a11c91",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 331260,
+      "bytes": 181480,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/0319-catamaran-excess-11-navigation-07.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/0319-catamaran-excess-11-navigation-07.jpg",
@@ -570,7 +581,8 @@
         "bytes": 458931,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0319-catamaran-excess-11-navigation-07.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0319-catamaran-excess-11-navigation-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "7585-catamaran-excess-11-navigation-08",
@@ -594,14 +606,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/7585-catamaran-excess-11-navigation-08.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "bd6ed7e2529b1e4f0b8f20c831c570b9beaa613ae0f37c4fd35722fe3db4901b",
+      "sha256": "89557c7d2a9082f6dde8e9c9efb4d7a3a6b25543248fd160453395472e7e3c82",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 297672,
+      "bytes": 159186,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/7585-catamaran-excess-11-navigation-08.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/7585-catamaran-excess-11-navigation-08.jpg",
@@ -612,7 +624,8 @@
         "bytes": 438613,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7585-catamaran-excess-11-navigation-08.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7585-catamaran-excess-11-navigation-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "0535-catamaran-excess-11-navigation-09",
@@ -636,14 +649,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/0535-catamaran-excess-11-navigation-09.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "1b51b8b4f0f0ac4d7226a39ad6f316bd65c57fac2a67e95f2603619ebc4f3555",
+      "sha256": "616816ff024e5a38f000a0be3167294a8e0a691d5d8b1b2375c2f94228d53b8b",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 324166,
+      "bytes": 180466,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/0535-catamaran-excess-11-navigation-09.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/0535-catamaran-excess-11-navigation-09.jpg",
@@ -654,7 +667,8 @@
         "bytes": 461133,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0535-catamaran-excess-11-navigation-09.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0535-catamaran-excess-11-navigation-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "8626-catamaran-excess-11-navigation-10",
@@ -678,14 +692,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/8626-catamaran-excess-11-navigation-10.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "2567aaf5a2ebd8dc281c9eb9d3037926b2b12acbd7a96d3f448636f2994fa01b",
+      "sha256": "b39bd7090b15576334dd1212f4a7b42f5ae53b7a1021886004616d79322621dc",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 327582,
+      "bytes": 181048,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-navigation-10.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-navigation-10.jpg",
@@ -696,7 +710,8 @@
         "bytes": 460171,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-navigation-10.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-navigation-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "8873-catamaran-excess-11-navigation-11",
@@ -720,14 +735,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/8873-catamaran-excess-11-navigation-11.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7cfcd0a6483bff314919d70a8f12870c578530d4d331311b97a6eb89f63c4d4a",
+      "sha256": "4d27940c2dc919ca1091647692c8ab2645c7b89a259ae77e7fb7009be8d1e9db",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 206018,
+      "bytes": 108316,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8873-catamaran-excess-11-navigation-11.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8873-catamaran-excess-11-navigation-11.jpg",
@@ -738,7 +753,8 @@
         "bytes": 393240,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8873-catamaran-excess-11-navigation-11.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8873-catamaran-excess-11-navigation-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "3079-catamaran-excess-11-navigation-12",
@@ -762,14 +778,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/3079-catamaran-excess-11-navigation-12.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "d967722db432c153679c66ff0053b16f07fa021aa934ca380d4e8c7895c52a70",
+      "sha256": "cf7befd0c23fac7ecd8a0521061d8c891bdd8bc82f6a670507a2cc82a6242ca3",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 170252,
+      "bytes": 92412,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/3079-catamaran-excess-11-navigation-12.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/3079-catamaran-excess-11-navigation-12.jpg",
@@ -780,7 +796,8 @@
         "bytes": 340215,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3079-catamaran-excess-11-navigation-12.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3079-catamaran-excess-11-navigation-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "8221-catamaran-excess-11-navigation-13",
@@ -804,14 +821,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/8221-catamaran-excess-11-navigation-13.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "acda6b3323743d08c0b02bf5f765c373d63f652b55d78b57cd9c6e7e5a6a4f4e",
+      "sha256": "58a8da542b588d84978adc2c383af3fb87540af2b9695f7fe2596226e8e1e84c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 252060,
+      "bytes": 131784,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8221-catamaran-excess-11-navigation-13.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8221-catamaran-excess-11-navigation-13.jpg",
@@ -822,7 +839,8 @@
         "bytes": 479921,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8221-catamaran-excess-11-navigation-13.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8221-catamaran-excess-11-navigation-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "3271-catamaran-excess-11-navigation-14",
@@ -846,14 +864,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/3271-catamaran-excess-11-navigation-14.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "80099447a97171924bf46f67dfb09a109d47154261ce1706b7d68c136d37a9db",
+      "sha256": "f7244eb90e32cacdcf66eeb8a2cc7af6153639b3a1d11592756358fac03f3db0",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 138360,
+      "bytes": 77386,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/3271-catamaran-excess-11-navigation-14.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/3271-catamaran-excess-11-navigation-14.jpg",
@@ -864,7 +882,8 @@
         "bytes": 442075,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3271-catamaran-excess-11-navigation-14.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3271-catamaran-excess-11-navigation-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "1399-catamaran-excess-11-navigation-15",
@@ -888,14 +907,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/1399-catamaran-excess-11-navigation-15.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b62c9ef075f83d880126af0666d0b13fa20d6a9fa386afe87eb78564a7323eae",
+      "sha256": "d55e734e667dc8f1bd9960a2ca7b9328581f5f9c449ed5dc7db57bcb0cb84ed8",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 66472,
+      "bytes": 38416,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1399-catamaran-excess-11-navigation-15.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1399-catamaran-excess-11-navigation-15.jpg",
@@ -906,7 +925,8 @@
         "bytes": 437805,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1399-catamaran-excess-11-navigation-15.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1399-catamaran-excess-11-navigation-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "1127-catamaran-excess-11-navigation-16",
@@ -930,14 +950,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/1127-catamaran-excess-11-navigation-16.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "6e7501f73f750ecb1132ab01ee8c25e631171df1c927ac014489a7d9ded9901b",
+      "sha256": "bcb41fc354b32b29135258605bbe0636b1bc4a20ac764b1033a6c928853ecdd9",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 358450,
+      "bytes": 196704,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1127-catamaran-excess-11-navigation-16.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1127-catamaran-excess-11-navigation-16.jpg",
@@ -948,7 +968,8 @@
         "bytes": 488095,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1127-catamaran-excess-11-navigation-16.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1127-catamaran-excess-11-navigation-16.jpg",
+      "web_quality": 75
     },
     {
       "id": "9823-catamaran-excess-11-mouillage-10",
@@ -972,14 +993,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/9823-catamaran-excess-11-mouillage-10.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "d5d7a4920890c6249af157de7440ff581dff3b3bb9668360deb4206f33a6dcf1",
+      "sha256": "17222dc506c2896327c7b5763ba13470323c645a27882d546ac3d895213e2ee2",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 267432,
+      "bytes": 131816,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/9823-catamaran-excess-11-mouillage-10.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/9823-catamaran-excess-11-mouillage-10.jpg",
@@ -990,7 +1011,8 @@
         "bytes": 477362,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9823-catamaran-excess-11-mouillage-10.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9823-catamaran-excess-11-mouillage-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "5738-catamaran-excess-11-mouillage-01",
@@ -1014,14 +1036,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/5738-catamaran-excess-11-mouillage-01.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "3efdb63e0c13e1351a4a1155b9e495c9ab8deee2af24d610501029007af6652a",
+      "sha256": "b62a6d6d31c99a1cca9903bca6723a6380adeb1a58d1a5a9abe6ba69887f7f10",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 311130,
+      "bytes": 160486,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/5738-catamaran-excess-11-mouillage-01.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/5738-catamaran-excess-11-mouillage-01.jpg",
@@ -1032,7 +1054,8 @@
         "bytes": 438589,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/5738-catamaran-excess-11-mouillage-01.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/5738-catamaran-excess-11-mouillage-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "7215-catamaran-excess-11-mouillage-04",
@@ -1056,14 +1079,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/7215-catamaran-excess-11-mouillage-04.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7e20c7ba2c119af25bd2206bf21634c057f450bd33122527ef694bfc3d0e9d7f",
+      "sha256": "eecb773affeffc3bf1c199942d52c58f4e69767e1a2177792a2bd643bc9de094",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 345176,
+      "bytes": 177580,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/7215-catamaran-excess-11-mouillage-04.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/7215-catamaran-excess-11-mouillage-04.jpg",
@@ -1074,7 +1097,8 @@
         "bytes": 482362,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7215-catamaran-excess-11-mouillage-04.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7215-catamaran-excess-11-mouillage-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "2398-catamaran-excess-11-mouillage-02",
@@ -1098,14 +1122,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/2398-catamaran-excess-11-mouillage-02.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "c81b9013407b16c396dc56a9fd88b6d5728572c677c577240e379865bf3cda2f",
+      "sha256": "14c297c78298905fa9e49eac5c85b373f9256a7cb5165dfee8ebaefbeb772970",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 362272,
+      "bytes": 187318,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2398-catamaran-excess-11-mouillage-02.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2398-catamaran-excess-11-mouillage-02.jpg",
@@ -1116,7 +1140,8 @@
         "bytes": 494082,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2398-catamaran-excess-11-mouillage-02.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2398-catamaran-excess-11-mouillage-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "2634-catamaran-excess-11-mouillage-03",
@@ -1140,14 +1165,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/2634-catamaran-excess-11-mouillage-03.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "84654e93416e1928d11ab0532f068122cea9027bfd2986facafaedbd2aaa4a4b",
+      "sha256": "24334061df1d6fc1c3d034db869860eb170143527a3f4cb259b1f91d7b34277c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 338526,
+      "bytes": 172866,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2634-catamaran-excess-11-mouillage-03.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2634-catamaran-excess-11-mouillage-03.jpg",
@@ -1158,7 +1183,8 @@
         "bytes": 472383,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2634-catamaran-excess-11-mouillage-03.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2634-catamaran-excess-11-mouillage-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "7393-catamaran-excess-11-mouillage-05",
@@ -1182,14 +1208,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/7393-catamaran-excess-11-mouillage-05.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "e489d2330c817d9a1033eee664b2459cae5e13f15a07b575d5cf457b2bbdf63d",
+      "sha256": "e1adfa17b6851a35471370f5acf10b7e0c5383646d7b48cf907b21009353bc2c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 185130,
+      "bytes": 85834,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/7393-catamaran-excess-11-mouillage-05.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/7393-catamaran-excess-11-mouillage-05.jpg",
@@ -1200,7 +1226,8 @@
         "bytes": 377399,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7393-catamaran-excess-11-mouillage-05.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/7393-catamaran-excess-11-mouillage-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "8205-catamaran-excess-11-mouillage-06",
@@ -1224,14 +1251,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/8205-catamaran-excess-11-mouillage-06.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "560504f73ffc6c3f049ed1c41b4b1ebc25888e7fddc7c069ebb633e159596fc8",
+      "sha256": "23fa331faf48b1dfd92275656ba60fa986e31f1e96821ea9431a461ed8b75b55",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 227250,
+      "bytes": 98396,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8205-catamaran-excess-11-mouillage-06.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8205-catamaran-excess-11-mouillage-06.jpg",
@@ -1242,7 +1269,8 @@
         "bytes": 427237,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8205-catamaran-excess-11-mouillage-06.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8205-catamaran-excess-11-mouillage-06.jpg",
+      "web_quality": 75
     },
     {
       "id": "3152-catamaran-excess-11-mouillage-07",
@@ -1266,14 +1294,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/3152-catamaran-excess-11-mouillage-07.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "063725f99b261c148509313f37c38fcf2b9f4542f821f015597b38c74fca388b",
+      "sha256": "31da88a71ea511c76d828ba873e17d35d21895b6fb129fc781c4b6e6ea011769",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 315164,
+      "bytes": 165118,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/3152-catamaran-excess-11-mouillage-07.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/3152-catamaran-excess-11-mouillage-07.jpg",
@@ -1284,7 +1312,8 @@
         "bytes": 442206,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3152-catamaran-excess-11-mouillage-07.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3152-catamaran-excess-11-mouillage-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "4783-catamaran-excess-11-mouillage-08",
@@ -1308,14 +1337,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/4783-catamaran-excess-11-mouillage-08.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "52b5045b60579afb15b43a141057d1c79b88387d81273590bc5be027d8c9da62",
+      "sha256": "09d9e93f7dd7238f70c8fd26030e4a10dddddebd09aa4ba443cfe605fe502b3e",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 179094,
+      "bytes": 90460,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/4783-catamaran-excess-11-mouillage-08.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/4783-catamaran-excess-11-mouillage-08.jpg",
@@ -1326,7 +1355,8 @@
         "bytes": 363599,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/4783-catamaran-excess-11-mouillage-08.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/4783-catamaran-excess-11-mouillage-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "0248-catamaran-excess-11-mouillage-09",
@@ -1350,14 +1380,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/0248-catamaran-excess-11-mouillage-09.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "48f1f0fa9f31ed9e18677fba813a184767720caec6dab733b2f3fa1cac52f992",
+      "sha256": "0f3e9140bd76cb5dcc5a7a98ceb4e795866637591cb8228575483799b7c0e3c6",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 232782,
+      "bytes": 121110,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/0248-catamaran-excess-11-mouillage-09.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/0248-catamaran-excess-11-mouillage-09.jpg",
@@ -1368,7 +1398,8 @@
         "bytes": 414566,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0248-catamaran-excess-11-mouillage-09.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0248-catamaran-excess-11-mouillage-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "9695-catamaran-excess-11-lifestyle-01",
@@ -1392,14 +1423,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/9695-catamaran-excess-11-lifestyle-01.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "67402802b575d6fb82af4a3eb083d43946138623aea7eaa7260ce4c397080d48",
+      "sha256": "ba1296637a91a5542ee56b55d8a27aa87a98e60ec7b45125d306997dafbd56c9",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 149992,
+      "bytes": 61256,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/9695-catamaran-excess-11-lifestyle-01.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/9695-catamaran-excess-11-lifestyle-01.jpg",
@@ -1410,7 +1441,8 @@
         "bytes": 479949,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9695-catamaran-excess-11-lifestyle-01.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9695-catamaran-excess-11-lifestyle-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "2508-catamaran-excess-11-lifestyle-02",
@@ -1434,14 +1466,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/2508-catamaran-excess-11-lifestyle-02.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "fe0fcfda6f7b915c00435f61228fd5706ed77cbd6fca4be74ce532a955da5965",
+      "sha256": "de84ad9092b0a53ebf65a2f49a3f5fa8a8c488e5b7b6795bf147b7811e78e9a9",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 140576,
+      "bytes": 78118,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2508-catamaran-excess-11-lifestyle-02.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2508-catamaran-excess-11-lifestyle-02.jpg",
@@ -1452,7 +1484,8 @@
         "bytes": 467516,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2508-catamaran-excess-11-lifestyle-02.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2508-catamaran-excess-11-lifestyle-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "6158-catamaran-excess-11-lifestyle-03",
@@ -1476,14 +1509,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/6158-catamaran-excess-11-lifestyle-03.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "25bc38779dd5c9c55a3172d0562cb7c909b954ffc5e11f8180bba24ec9a01038",
+      "sha256": "ad031a6f10fa8e8ac789dbd069543ebc514e2abf682818b38e896c8104f209dd",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 200972,
+      "bytes": 83432,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/6158-catamaran-excess-11-lifestyle-03.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/6158-catamaran-excess-11-lifestyle-03.jpg",
@@ -1494,7 +1527,8 @@
         "bytes": 458787,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6158-catamaran-excess-11-lifestyle-03.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6158-catamaran-excess-11-lifestyle-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "2577-catamaran-excess-11-lifestyle-04",
@@ -1518,14 +1552,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/2577-catamaran-excess-11-lifestyle-04.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "dc8f1b9ebec633c3b25826708f3041e4659f9ec7080b3cbe71354900a9a5afde",
+      "sha256": "5468e8805f1ef240e6f5567c06b96f09e9cf1e2d0898171c1d69059f1a4c0439",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 250482,
+      "bytes": 122616,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2577-catamaran-excess-11-lifestyle-04.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2577-catamaran-excess-11-lifestyle-04.jpg",
@@ -1536,7 +1570,8 @@
         "bytes": 506583,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2577-catamaran-excess-11-lifestyle-04.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2577-catamaran-excess-11-lifestyle-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "8765-catamaran-excess-11-lifestyle-05",
@@ -1560,14 +1595,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/8765-catamaran-excess-11-lifestyle-05.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "8aee3e2dac2e5312aa6d87f91e20c13ffe16009ba0c046a4b40952718c1b77a2",
+      "sha256": "5b6e986584f9c0a7ca2c957750fa6d0d58a27fa36c317fd85bba13d6d35f86be",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 248558,
+      "bytes": 111582,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8765-catamaran-excess-11-lifestyle-05.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8765-catamaran-excess-11-lifestyle-05.jpg",
@@ -1578,7 +1613,8 @@
         "bytes": 500471,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8765-catamaran-excess-11-lifestyle-05.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8765-catamaran-excess-11-lifestyle-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "1044-catamaran-excess-11-lifestyle-06",
@@ -1602,14 +1638,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/1044-catamaran-excess-11-lifestyle-06.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "4354212c4b9695c973b343e153293ddd1189a15b895cfd0dcc0a5fef04e6d682",
+      "sha256": "d82bfbbb914631e80aaab1df1eba9769811f025f0f25215428f19a9c8a8f3a55",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 198128,
+      "bytes": 91872,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1044-catamaran-excess-11-lifestyle-06.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1044-catamaran-excess-11-lifestyle-06.jpg",
@@ -1620,7 +1656,8 @@
         "bytes": 375921,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1044-catamaran-excess-11-lifestyle-06.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1044-catamaran-excess-11-lifestyle-06.jpg",
+      "web_quality": 75
     },
     {
       "id": "1231-catamaran-excess-11-lifestyle-07",
@@ -1644,14 +1681,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/1231-catamaran-excess-11-lifestyle-07.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "81368cb90c1b529510f9bec8d30ecfef14103886090c46fd8852e2eefb333754",
+      "sha256": "2f744bd55d7790e5307408fff899b85eb4438d47aaa1b0cde0e5b88a34af4981",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 240700,
+      "bytes": 110216,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1231-catamaran-excess-11-lifestyle-07.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1231-catamaran-excess-11-lifestyle-07.jpg",
@@ -1662,7 +1699,8 @@
         "bytes": 501899,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1231-catamaran-excess-11-lifestyle-07.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1231-catamaran-excess-11-lifestyle-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "9326-catamaran-excess-11-lifestyle-08",
@@ -1686,14 +1724,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/9326-catamaran-excess-11-lifestyle-08.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b800420104a05e1fa26a2cf05335e7929ac626efd7d94f3a34f35b4578b841fc",
+      "sha256": "efb27e2f18f2cea9cec05baef231959c99f6d7dd7b9055ec6956d77ba500c24c",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 210050,
+      "bytes": 88024,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/9326-catamaran-excess-11-lifestyle-08.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/9326-catamaran-excess-11-lifestyle-08.jpg",
@@ -1704,7 +1742,8 @@
         "bytes": 470466,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9326-catamaran-excess-11-lifestyle-08.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/9326-catamaran-excess-11-lifestyle-08.jpg",
+      "web_quality": 75
     },
     {
       "id": "0582-catamaran-excess-11-lifestyle-09",
@@ -1728,14 +1767,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/0582-catamaran-excess-11-lifestyle-09.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "57072befda3fa4273e0b9016d0f02f01b3b258645401ba48090980691ea12a14",
+      "sha256": "cff62cf4e5381aa5ab23da7a2f34fc7bd6ef92e4f0abd326540f04c3d2e9e6a5",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 210546,
+      "bytes": 113984,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/0582-catamaran-excess-11-lifestyle-09.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/0582-catamaran-excess-11-lifestyle-09.jpg",
@@ -1746,7 +1785,8 @@
         "bytes": 424538,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0582-catamaran-excess-11-lifestyle-09.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0582-catamaran-excess-11-lifestyle-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "0403-catamaran-excess-11-lifestyle-10",
@@ -1770,14 +1810,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/0403-catamaran-excess-11-lifestyle-10.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "d27dce32510877a370b9f2987a76784c2c8251936b2d093be23abcac3e1d1605",
+      "sha256": "7d79cf0ea46ef55d7af1e4f6ad3fe7d957e93d1399da71e763f2ed545d172674",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 97326,
+      "bytes": 49404,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/0403-catamaran-excess-11-lifestyle-10.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/0403-catamaran-excess-11-lifestyle-10.jpg",
@@ -1788,7 +1828,8 @@
         "bytes": 386495,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0403-catamaran-excess-11-lifestyle-10.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/0403-catamaran-excess-11-lifestyle-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "3099-catamaran-excess-11-lifestyle-11",
@@ -1812,14 +1853,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/3099-catamaran-excess-11-lifestyle-11.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "4715b443d9db975e2f6995d6245b272e0534341d848ded3183d33af8396ae752",
+      "sha256": "9606c196cdabce53e691bd057334a7edbd49995e515e789ae39b40e54cf12951",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 112906,
+      "bytes": 57914,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/3099-catamaran-excess-11-lifestyle-11.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/3099-catamaran-excess-11-lifestyle-11.jpg",
@@ -1830,7 +1871,8 @@
         "bytes": 421651,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3099-catamaran-excess-11-lifestyle-11.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3099-catamaran-excess-11-lifestyle-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "8626-catamaran-excess-11-lifestyle-12",
@@ -1854,14 +1896,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/8626-catamaran-excess-11-lifestyle-12.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "58497e4a2e7b08b7cd463b0da84ff11dd896f03c55893ebb20475b86512c64e0",
+      "sha256": "13b49302c0edfe16a689d12ac1412ae0307c53373e1d9716f24304f7acd5423a",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 233254,
+      "bytes": 139354,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-lifestyle-12.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-lifestyle-12.jpg",
@@ -1872,7 +1914,8 @@
         "bytes": 444731,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-lifestyle-12.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8626-catamaran-excess-11-lifestyle-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "2382-catamaran-excess-11-lifestyle-13",
@@ -1896,14 +1939,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/2382-catamaran-excess-11-lifestyle-13.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "bcacc6b24e79eb8a65f9787d56ec70c484a8f27ce1ba8ad61ded328a5128bb63",
+      "sha256": "679f0282677db4b4b06cf7981101cd3f5a5b46a3fd2ba2be56975eb05c231800",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 88840,
+      "bytes": 50234,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2382-catamaran-excess-11-lifestyle-13.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2382-catamaran-excess-11-lifestyle-13.jpg",
@@ -1914,7 +1957,8 @@
         "bytes": 509923,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2382-catamaran-excess-11-lifestyle-13.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2382-catamaran-excess-11-lifestyle-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "1402-catamaran-excess-11-lifestyle-14",
@@ -1938,14 +1982,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/1402-catamaran-excess-11-lifestyle-14.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "7d93318f93138fa1a050a3b9e5af8de80bbaedd6d5f0ee4f66e6a4b6b28fe38a",
+      "sha256": "9b7be48b7dc414330e90c269d9ac7bcbf497027bf303219f4baf33c116e09027",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 201894,
+      "bytes": 117510,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/1402-catamaran-excess-11-lifestyle-14.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/1402-catamaran-excess-11-lifestyle-14.jpg",
@@ -1956,7 +2000,8 @@
         "bytes": 403848,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1402-catamaran-excess-11-lifestyle-14.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/1402-catamaran-excess-11-lifestyle-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "2256-catamaran-excess-11-lifestyle-15",
@@ -1980,14 +2025,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/2256-catamaran-excess-11-lifestyle-15.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "36655b1eefc3d5de1617e60534e1a9fc1a7f10ef5855682c1719226b7aab960f",
+      "sha256": "459de96665f77dc0b16ca91c8d7770df2e6446ff554d8087d9074f9f26963b43",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 101000,
+      "bytes": 50688,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/2256-catamaran-excess-11-lifestyle-15.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/2256-catamaran-excess-11-lifestyle-15.jpg",
@@ -1998,7 +2043,8 @@
         "bytes": 441049,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2256-catamaran-excess-11-lifestyle-15.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/2256-catamaran-excess-11-lifestyle-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "3051-catamaran-excess-11-lifestyle-16",
@@ -2022,14 +2068,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/3051-catamaran-excess-11-lifestyle-16.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "27f54b4a6d86699c966312b3de2de7987cc17fbc3fec2936a4f07a9c1330971f",
+      "sha256": "ab8e5df8d907765d19dafc30b6a77f826328824e02f09a18a0fb9b9f4d2deebe",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 323702,
+      "bytes": 174504,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/3051-catamaran-excess-11-lifestyle-16.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/3051-catamaran-excess-11-lifestyle-16.jpg",
@@ -2040,7 +2086,8 @@
         "bytes": 452463,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3051-catamaran-excess-11-lifestyle-16.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/3051-catamaran-excess-11-lifestyle-16.jpg",
+      "web_quality": 75
     },
     {
       "id": "6905-catamaran-excess-11-lifestyle-17",
@@ -2064,14 +2111,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/6905-catamaran-excess-11-lifestyle-17.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "20dcac93cd5e21c292225599e18dccc4728241e2dd0e020120691184d23eca47",
+      "sha256": "778df1ef92e2e73c7f634baa054f65753e5c70e40dc5fef9ed0e40ae980b2968",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 193336,
+      "bytes": 99150,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/6905-catamaran-excess-11-lifestyle-17.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/6905-catamaran-excess-11-lifestyle-17.jpg",
@@ -2082,7 +2129,8 @@
         "bytes": 431145,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6905-catamaran-excess-11-lifestyle-17.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/6905-catamaran-excess-11-lifestyle-17.jpg",
+      "web_quality": 75
     },
     {
       "id": "8325-catamaran-excess-11-lifestyle-18",
@@ -2106,14 +2154,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/8325-catamaran-excess-11-lifestyle-18.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "3b7fba087a14bc3540aa77b8b7a7c50efd195711a997a70b7024eb52dadefed8",
+      "sha256": "ef65f4eea1ceee2bd102c8860750ba17aec9487512f0f84459a13ef4672159df",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 79792,
+      "bytes": 45402,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/02/8325-catamaran-excess-11-lifestyle-18.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2026/02/8325-catamaran-excess-11-lifestyle-18.jpg",
@@ -2124,7 +2172,8 @@
         "bytes": 362230,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8325-catamaran-excess-11-lifestyle-18.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/02/8325-catamaran-excess-11-lifestyle-18.jpg",
+      "web_quality": 75
     },
     {
       "id": "8223-excess11-int-ncz7683-hdr-web",
@@ -2148,14 +2197,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/8223-excess11-int-ncz7683-hdr-web.webp",
-      "width": 1920,
-      "height": 1469,
+      "width": 1600,
+      "height": 1224,
       "format": "webp",
-      "sha256": "9f12319f4afeab77726ab3e550fbde259205a77ef0960f41b32e750cc7b601aa",
+      "sha256": "5c9506fd943cbda1ef0a9dd05930fc99df742debe5f756b2fe05acb229209a45",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 226022,
+      "bytes": 120934,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/8223-excess11-int-ncz7683-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/8223-excess11-int-ncz7683-hdr-web.jpg",
@@ -2166,7 +2215,8 @@
         "bytes": 674525,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8223-excess11-int-ncz7683-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8223-excess11-int-ncz7683-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "8617-excess11-int-ncz7608-hdr-panorama-web",
@@ -2190,14 +2240,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/8617-excess11-int-ncz7608-hdr-panorama-web.webp",
-      "width": 1920,
-      "height": 1095,
+      "width": 1600,
+      "height": 913,
       "format": "webp",
-      "sha256": "932b1429f7f752a97bfb1acc37a41c1f82ed7191bc24af90347a16d654cf7d4a",
+      "sha256": "b3a02e73b2b2b48ae6a9d4346429e8c81e27a0a1d9f7ca3232ed1cac9533b60e",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 170662,
+      "bytes": 96120,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/8617-excess11-int-ncz7608-hdr-panorama-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/8617-excess11-int-ncz7608-hdr-panorama-web.jpg",
@@ -2208,7 +2258,8 @@
         "bytes": 615681,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8617-excess11-int-ncz7608-hdr-panorama-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8617-excess11-int-ncz7608-hdr-panorama-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "1082-excess11-ncz7571-hdr-panorama-web",
@@ -2232,14 +2283,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/1082-excess11-ncz7571-hdr-panorama-web.webp",
-      "width": 1920,
-      "height": 1019,
+      "width": 1600,
+      "height": 849,
       "format": "webp",
-      "sha256": "91829d4cc29752552d992b445ea8cd2aa4a8e47e420f61f661520985cf854526",
+      "sha256": "7208dc9083e03d68b434168460b9f51e14691ed7b125e30d107173fc8ccb0604",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 169296,
+      "bytes": 92256,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/06/1082-excess11-ncz7571-hdr-panorama-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/06/1082-excess11-ncz7571-hdr-panorama-web.jpg",
@@ -2250,7 +2301,8 @@
         "bytes": 600168,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/1082-excess11-ncz7571-hdr-panorama-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/1082-excess11-ncz7571-hdr-panorama-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "7962-excess11-int-nck4000-web",
@@ -2274,14 +2326,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/7962-excess11-int-nck4000-web.webp",
-      "width": 1920,
-      "height": 1312,
+      "width": 1600,
+      "height": 1093,
       "format": "webp",
-      "sha256": "4b03784b1b1e6f848cf3f8e9bb5317a79adf04433f517f946f9762dccea72ca7",
+      "sha256": "2d15f7062ee71ddb179e5bfe601ab992765c59c014ed44cfe0fc0a149012e875",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 181630,
+      "bytes": 106664,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/7962-excess11-int-nck4000-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/7962-excess11-int-nck4000-web.jpg",
@@ -2292,7 +2344,8 @@
         "bytes": 590600,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/7962-excess11-int-nck4000-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/7962-excess11-int-nck4000-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "1319-excess11-int-nck3997-web",
@@ -2316,14 +2369,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/1319-excess11-int-nck3997-web.webp",
-      "width": 1261,
-      "height": 1920,
+      "width": 1051,
+      "height": 1600,
       "format": "webp",
-      "sha256": "b4381fe269800578037d9edbb3489c59d360b491167ff62f640ccc6ae5d20175",
+      "sha256": "95b9350a71861f8ec92cc320d8d7e4ba8bbfa5f79105e8310ddb3a65cb14b12f",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 179552,
+      "bytes": 103124,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/1319-excess11-int-nck3997-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/1319-excess11-int-nck3997-web.jpg",
@@ -2334,7 +2387,8 @@
         "bytes": 504798,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/1319-excess11-int-nck3997-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/1319-excess11-int-nck3997-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "9570-excess11-ncz7378-hdr-web",
@@ -2358,14 +2412,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/9570-excess11-ncz7378-hdr-web.webp",
-      "width": 1920,
-      "height": 1468,
+      "width": 1600,
+      "height": 1223,
       "format": "webp",
-      "sha256": "ed7dc5da1209247f5fdd0ed18283a271f50a9794df424c33fa40fe3185c990a5",
+      "sha256": "def56fcb44e6b22eb75987accc31cd6b9d1289ca40fe40ec03d29aac603ce751",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 139846,
+      "bytes": 72974,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/06/9570-excess11-ncz7378-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/06/9570-excess11-ncz7378-hdr-web.jpg",
@@ -2376,7 +2430,8 @@
         "bytes": 565633,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/9570-excess11-ncz7378-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/9570-excess11-ncz7378-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "9939-excess11-ncz7393-hdr-web",
@@ -2400,14 +2455,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/9939-excess11-ncz7393-hdr-web.webp",
-      "width": 1920,
-      "height": 1468,
+      "width": 1600,
+      "height": 1223,
       "format": "webp",
-      "sha256": "381c0acc97867ac6281139762256424887dc2ef36fd7489e6e30026fd12716c8",
+      "sha256": "a5cd29187adebc0e83f20744a223b8c805d2cc841fd92997a205f3c1ba9e8599",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 135080,
+      "bytes": 72170,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/06/9939-excess11-ncz7393-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/06/9939-excess11-ncz7393-hdr-web.jpg",
@@ -2418,7 +2473,8 @@
         "bytes": 526885,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/9939-excess11-ncz7393-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/9939-excess11-ncz7393-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "1121-excess11-ncz7398-hdr-web",
@@ -2442,14 +2498,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/1121-excess11-ncz7398-hdr-web.webp",
-      "width": 1920,
-      "height": 1468,
+      "width": 1600,
+      "height": 1223,
       "format": "webp",
-      "sha256": "fd3aef92b1b11a1b165d2c21c54d1e776b41f1fc271dc36de856d1149bc76ae4",
+      "sha256": "cd2dc06a2966b8bf04a9f6e0832a39ab066908ff56f33e16d20aa31990bd86cc",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 102222,
+      "bytes": 58316,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/06/1121-excess11-ncz7398-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/06/1121-excess11-ncz7398-hdr-web.jpg",
@@ -2460,7 +2516,8 @@
         "bytes": 391023,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/1121-excess11-ncz7398-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/1121-excess11-ncz7398-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "627-excess11-ncz7428-hdr-web",
@@ -2484,14 +2541,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/627-excess11-ncz7428-hdr-web.webp",
-      "width": 1786,
-      "height": 1920,
+      "width": 1488,
+      "height": 1600,
       "format": "webp",
-      "sha256": "16a51ab062b83813b916a5d68085b811d4f98be732566537c33f75b0df234dc8",
+      "sha256": "ca42ad8ede14af8b540245535ef7e3de01d39b7182f458246254f38fd6725f4b",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 137292,
+      "bytes": 74500,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/06/627-excess11-ncz7428-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/06/627-excess11-ncz7428-hdr-web.jpg",
@@ -2502,7 +2559,8 @@
         "bytes": 519815,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/627-excess11-ncz7428-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/06/627-excess11-ncz7428-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "3990-excess11-int-ncz7458-hdr-web",
@@ -2526,14 +2584,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/3990-excess11-int-ncz7458-hdr-web.webp",
-      "width": 1420,
-      "height": 1920,
+      "width": 1183,
+      "height": 1600,
       "format": "webp",
-      "sha256": "02155e60c47815bf79eae22ffeaf7f1806085fb87c87cb541a5ebf9da983a7cc",
+      "sha256": "770972517169316f6c9f620a004022c854ae2742ea5f56cdae31460ead08a306",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 76214,
+      "bytes": 42780,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/3990-excess11-int-ncz7458-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/3990-excess11-int-ncz7458-hdr-web.jpg",
@@ -2544,7 +2602,8 @@
         "bytes": 354902,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/3990-excess11-int-ncz7458-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/3990-excess11-int-ncz7458-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "7337-excess11-int-ncz7484-hdr-panorama-web",
@@ -2568,14 +2627,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/7337-excess11-int-ncz7484-hdr-panorama-web.webp",
-      "width": 1920,
-      "height": 1375,
+      "width": 1600,
+      "height": 1146,
       "format": "webp",
-      "sha256": "c9119afff74f333857635a9a6c57ef4685199cc2a392389dff3785321325727e",
+      "sha256": "261b17d07015334b90a07537378e88cb6b669b3b0b091ac652d7aad925f39c06",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 172974,
+      "bytes": 92578,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/7337-excess11-int-ncz7484-hdr-panorama-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/7337-excess11-int-ncz7484-hdr-panorama-web.jpg",
@@ -2586,7 +2645,8 @@
         "bytes": 521157,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/7337-excess11-int-ncz7484-hdr-panorama-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/7337-excess11-int-ncz7484-hdr-panorama-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "8003-excess11-int-ncz7503-hdr-web",
@@ -2610,14 +2670,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/8003-excess11-int-ncz7503-hdr-web.webp",
-      "width": 1420,
-      "height": 1920,
+      "width": 1183,
+      "height": 1600,
       "format": "webp",
-      "sha256": "ed154c647b7c94be89acb9268cdeb341c6dfd15b4c510c8a74e259310095b38a",
+      "sha256": "00b4c65172d85e901a1c6819d73083fb382009a9caadf7e9c743528775caa909",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 111928,
+      "bytes": 54780,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/07/8003-excess11-int-ncz7503-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/07/8003-excess11-int-ncz7503-hdr-web.jpg",
@@ -2628,7 +2688,8 @@
         "bytes": 476934,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8003-excess11-int-ncz7503-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/07/8003-excess11-int-ncz7503-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "8887-ncz9270-hdr-web",
@@ -2652,14 +2713,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/8887-ncz9270-hdr-web.webp",
-      "width": 1920,
-      "height": 1439,
+      "width": 1600,
+      "height": 1199,
       "format": "webp",
-      "sha256": "3fe568c847d9f605293be42dc30283fe8288023d14325beba722918d55e223c4",
+      "sha256": "d819e1672496db18a55943ec2ae5630f859f9c6eb872a58ab32e2c0d1c7a8cf4",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 224638,
+      "bytes": 120054,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/12/8887-ncz9270-hdr-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/12/8887-ncz9270-hdr-web.jpg",
@@ -2670,7 +2731,8 @@
         "bytes": 619825,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/12/8887-ncz9270-hdr-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/12/8887-ncz9270-hdr-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "4907-ncz9270-hdr-panorama-web",
@@ -2694,14 +2756,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/4907-ncz9270-hdr-panorama-web.webp",
-      "width": 1920,
-      "height": 1229,
+      "width": 1600,
+      "height": 1024,
       "format": "webp",
-      "sha256": "18cdc7fdea8e3687c4dc1d3e03cc2f1601e648af47222feee05ec7ff24239a43",
+      "sha256": "59e922969b718cbee30e692df8c28c35baa6ae93170ec5471fa6faf1286bc9cb",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 173988,
+      "bytes": 100796,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/12/4907-ncz9270-hdr-panorama-web.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/12/4907-ncz9270-hdr-panorama-web.jpg",
@@ -2712,7 +2774,8 @@
         "bytes": 448500,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/12/4907-ncz9270-hdr-panorama-web.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/12/4907-ncz9270-hdr-panorama-web.jpg",
+      "web_quality": 75
     },
     {
       "id": "5429-excess-11-deck-layout",
@@ -2736,14 +2799,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/5429-excess-11-deck-layout.webp",
-      "width": 1920,
-      "height": 1357,
+      "width": 1600,
+      "height": 1131,
       "format": "webp",
-      "sha256": "9bfeef83618b03c7ae4a19e3e167787736235653acfd3e15b20e2ad513ce5a65",
+      "sha256": "d31ea4c7baccea26f9da9abc5dd87f3bf24e0605b056838d5a36a5133fe96f61",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 158770,
+      "bytes": 98532,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/10/5429-excess-11-deck-layout.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/10/5429-excess-11-deck-layout.jpg",
@@ -2754,7 +2817,8 @@
         "bytes": 2034882,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/5429-excess-11-deck-layout.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/5429-excess-11-deck-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "3508-excess-11-3c2t-layout",
@@ -2778,14 +2842,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/3508-excess-11-3c2t-layout.webp",
-      "width": 1920,
-      "height": 1357,
+      "width": 1600,
+      "height": 1131,
       "format": "webp",
-      "sha256": "f30814c4d20d55e70c202c048d0f369f3544ab61a297519c21cf59fe5d8ec2dc",
+      "sha256": "01538d0b7a556546c3169f33c7381fbbb070ced00bb8cd0302dcd4314ea153be",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 186388,
+      "bytes": 102304,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/10/3508-excess-11-3c2t-layout.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/10/3508-excess-11-3c2t-layout.jpg",
@@ -2796,7 +2860,8 @@
         "bytes": 4674626,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/3508-excess-11-3c2t-layout.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/3508-excess-11-3c2t-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "3978-excess-11-4c2t-layout",
@@ -2820,14 +2885,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/3978-excess-11-4c2t-layout.webp",
-      "width": 1920,
-      "height": 1357,
+      "width": 1600,
+      "height": 1131,
       "format": "webp",
-      "sha256": "2cef4d94bbc65cb45950f4f564e8039734e4d833dac87d04bdda452c99c90de5",
+      "sha256": "e35126f6b6dff078bf9f449d5063e9ed632e21546b16b155116addada30c9675",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 200424,
+      "bytes": 108510,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/10/3978-excess-11-4c2t-layout.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/10/3978-excess-11-4c2t-layout.jpg",
@@ -2838,7 +2903,8 @@
         "bytes": 4925179,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/3978-excess-11-4c2t-layout.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/3978-excess-11-4c2t-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "4018-excess-11-roof-standard",
@@ -2862,14 +2928,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/4018-excess-11-roof-standard.webp",
-      "width": 1920,
-      "height": 1234,
+      "width": 1600,
+      "height": 1028,
       "format": "webp",
-      "sha256": "faab7fe412eeeec8ebca1d719fa04f4ab9e899beb61909e3c73bf338a2d1041a",
+      "sha256": "5092b7fa209866726ac0ad6ceb8a648b800d03693f8e9168f63e24f046be8b2a",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 136682,
+      "bytes": 81594,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/10/4018-excess-11-roof-standard.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/10/4018-excess-11-roof-standard.jpg",
@@ -2880,7 +2946,8 @@
         "bytes": 1841303,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/4018-excess-11-roof-standard.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/4018-excess-11-roof-standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "8710-excess-11-roof-option",
@@ -2904,14 +2971,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/8710-excess-11-roof-option.webp",
-      "width": 1920,
-      "height": 1234,
+      "width": 1600,
+      "height": 1028,
       "format": "webp",
-      "sha256": "e8f8756176613f6c26a1a9d80a9b893b88219a525c8e9549341e1a739ac3e997",
+      "sha256": "678c77f2fef352fb86f79aab7e2f38696d3ed579d5df029f47ce23930c1932bd",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-06",
       "download_status": "WEB_COPY",
-      "bytes": 150388,
+      "bytes": 88796,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2020/10/8710-excess-11-roof-option.jpg",
         "fetched_from": "https://www.excess-catamarans.com/media/2020/10/8710-excess-11-roof-option.jpg",
@@ -2922,7 +2989,8 @@
         "bytes": 2020538,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/8710-excess-11-roof-option.jpg"
+      "downloaded_from": "https://www.excess-catamarans.com/media/2020/10/8710-excess-11-roof-option.jpg",
+      "web_quality": 75
     }
   ]
 }

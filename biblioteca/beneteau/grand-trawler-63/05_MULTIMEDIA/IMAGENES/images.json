@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "8cb4001f4d6f626ed2b35b9d0ddc146d35cf9d109f1e2975ae487d4c9d930840",
+      "sha256": "2683f15594e5fb4ba51c61a99e5d40500209d3f9835d6757fe4e859b12c444f1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 412646,
+      "bytes": 323776,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/grand-trawler-63_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/grand-trawler-63_0.jpg",
@@ -46,7 +46,8 @@
         "bytes": 436147,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/grand-trawler-63_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/grand-trawler-63_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-1-0",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "5103d17fbc56fd5696ac4cccf84086c6f077e1a092ed8f2a5d825a0dec402af6",
+      "sha256": "efe2420f84158bb0ad14c9365c4ae346e973ceb884cc186c7aaf27553e24af70",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 290066,
+      "bytes": 205466,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-1_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-1_0.jpg",
@@ -89,7 +90,8 @@
         "bytes": 382635,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-1_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-1_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-11",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "1e6a58378553d99e6c9d0ea6c58414fa9b9772fd1da74b0d53ebbbfe6dd53f58",
+      "sha256": "c345a68be8281388fdd624adbbad5909dd3c7f327d7f1d342911a287160373d0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 343564,
+      "bytes": 234718,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-11.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-11.jpg",
@@ -132,7 +134,8 @@
         "bytes": 457523,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-11.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-5-0",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-5-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "2023c1e99f47f1b8d1b34f01ac51ffc5e9f54b9198be708c768a3729e270bad5",
+      "sha256": "1776b654b733d43214018a83ad9a8e6edd3c9c94ab566472910b006a3c52e802",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 347316,
+      "bytes": 179278,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-5_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-5_0.jpg",
@@ -174,7 +177,8 @@
         "bytes": 474478,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-5_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-5_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-3-0",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-3-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "343002b056ae0cfddceb54464a2f1643476a2af2df7d95a936b48b59c4e33858",
+      "sha256": "75b728c8c6b1610cddaa1533e594ef299d1bf4fed38eb4f2ba48907be5f2abe2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 356022,
+      "bytes": 207256,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-3_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-3_0.jpg",
@@ -216,7 +220,8 @@
         "bytes": 308075,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-3_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-3_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-13",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-13.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "adb69b7a9f4a5127f4d59d183b4decbe8b411482d7f01928b0096131ed55eaf1",
+      "sha256": "ac1d51c79343df7abb3e9a77aab401e033757772f9aee0c290d0600fa805c23e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 99930,
+      "bytes": 57018,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-13.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-13.jpg",
@@ -258,7 +263,8 @@
         "bytes": 388096,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-13.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-6",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "702310a753a67b5d16588532562de4cd131ae0d051af6bc068062feb082ecf48",
+      "sha256": "2e9ed03d463f62f3debab8890c3a88fbd4ed415f1ddee3d1f088158e9cdb9b27",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 370136,
+      "bytes": 215938,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-6.jpg",
@@ -300,7 +306,8 @@
         "bytes": 462291,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-12",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-12.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "125acac47eac090ec183ccb16421cde99fdc8fd1e7961dd940daba0d961aca44",
+      "sha256": "cf1ce739cda2ea1a2b10c54313f2cd327fbc23d360cd0fa1775c7ccb482a58be",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 199282,
+      "bytes": 101794,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-12.jpg",
@@ -342,7 +349,8 @@
         "bytes": 447488,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-19",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-19.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "6dec5ddd4c34ab62a939c12d14fe6f1031a3c28c89b33ba50c507b74c2f86562",
+      "sha256": "74d3fe2ae5228b7b067cbabee89f7b92b605edf8b83a5b8126b38f5d8a735032",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 135006,
+      "bytes": 60118,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-19.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-19.jpg",
@@ -384,7 +392,8 @@
         "bytes": 435223,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-19.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-19.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-7",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-7.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "684a9f20e267f8e3645abf264a217c7591ea283ff57b1f6e06fdacf55864db93",
+      "sha256": "a5bc3315c50b48ad80c4c052eb09d9a17d6ab99d0084b132186cd43cb86a38c2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 194310,
+      "bytes": 100608,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-7.jpg",
@@ -426,7 +435,8 @@
         "bytes": 476719,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-23",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-23.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "a82f3d244c3e0a73a43e24e766e1222bb903f83e73f49de10b302343f5f41cfc",
+      "sha256": "2c68eb57270ecc28b6cf1eea6ffb20a0a612eb1742a08cc5ae51f022b5be28ba",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 249040,
+      "bytes": 132590,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-23.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-23.jpg",
@@ -468,7 +478,8 @@
         "bytes": 441239,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-23.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-23.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-16",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-16.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e19d8086b28dae83981f66df44276fa12c15bf24642e5724f837fe836c7cd4b1",
+      "sha256": "028a95f68450c400d8c6ef621b10ed320e8f562ea8708e76d1e68d4205e65c3d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 277780,
+      "bytes": 148172,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-16.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-16.jpg",
@@ -510,7 +521,8 @@
         "bytes": 462311,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-16.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-16.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-8",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-8.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "35e8a84febac2fd74900f17e276f03b018be2b253812d9b635d6651cc3406866",
+      "sha256": "7862c847ccf2c3a31cbc341af4460e8aeb7e5e36057cce818bba837ae560eea9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 282296,
+      "bytes": 147190,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-8.jpg",
@@ -552,7 +564,8 @@
         "bytes": 489361,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-22",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-22.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "1e1e0ab7ee2a6966fb916cf6d6f756dd84811dba11f3840191087252e0b59e4e",
+      "sha256": "31307bc1dcdcd64598ba2bfbe347605f1276f2b1e9586511304e68ab80a259a6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 151938,
+      "bytes": 84022,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-22.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-22.jpg",
@@ -594,7 +607,8 @@
         "bytes": 405855,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-22.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-22.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-14",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-14.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "11612a5ebb3a1269b8430019a89f9760314fed17a52ad17aa1cb9dcaedab933f",
+      "sha256": "de48afa499f6f60f894f1f7c28bd518ea7d83f6ae91c041f6fcc2dd8e0fed4bd",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 124938,
+      "bytes": 72950,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-14.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-14.jpg",
@@ -636,7 +650,8 @@
         "bytes": 428940,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-14.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-20",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-20.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "b40731a0120bbd276e5f1f340be5e48cb5b721fb552c8bea5b7851341ed458ba",
+      "sha256": "eb1fe97fb822ea3b1eba5d0fbe468c9b81992e8450cfb4808cda0ac24ab0e933",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 126480,
+      "bytes": 57558,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-20.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-20.jpg",
@@ -678,7 +693,8 @@
         "bytes": 393446,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-20.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-20.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-10",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-10.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "92a49da17767c023e7cb9f12e850be9f2d8050d61984bac84651f754beb90587",
+      "sha256": "a8b5a751a09ce428e6b17ac7a25412a2c207b089dfa4fc8d1560666f32e3fea1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 345904,
+      "bytes": 179004,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-10.jpg",
@@ -720,7 +736,8 @@
         "bytes": 462883,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-17",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-17.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "9f9f990418af1d6c5dd55effdf349f3e80a7799499ee5165fbaba09c7bd922f4",
+      "sha256": "aed79ea00e87d20df729d9fcaf67b3a654fdbf815f998dde1d797dbb02659857",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 127734,
+      "bytes": 69040,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-17.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-17.jpg",
@@ -762,7 +779,8 @@
         "bytes": 411083,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-17.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-17.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-18",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-18.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "8abf7cd19d5c3dea4daab0e0a68afce9e0aac1f6b17b193ddd63f97eadee7fb0",
+      "sha256": "4da07b334501b6d29d0054359c959cd5d0140c2058dbb1905a2f851cdb74de5d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101978,
+      "bytes": 57282,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-18.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-18.jpg",
@@ -804,7 +822,8 @@
         "bytes": 384635,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-18.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-18.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-07",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-07.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "3a0eef2b9593b621d010d4b5571080b0a88827279da5c81ea3a51a861dd341a7",
+      "sha256": "cd11ad6aa63a026caea4238da820bc28c0a78a4b4b8740fb068dc69d9e7c097d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 222152,
+      "bytes": 114440,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-07.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-07.jpg",
@@ -846,7 +865,8 @@
         "bytes": 439476,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-07.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-15",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-15.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "49f3edabfd6a013f9ddb66f6966fe2bbf088a42fdb17e166f2467c502c7c5967",
+      "sha256": "25f0f54aa8b644313c5a5e5c77a8dbad5e7cbc424043c7e9c28694f0ef27cb97",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 252664,
+      "bytes": 128234,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-15.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-15.jpg",
@@ -888,7 +908,8 @@
         "bytes": 434023,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-15.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-09",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-09.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "16b3c849f81a999d07a8bee51e577eccb24e66d9120ce50bc11dce8e26483504",
+      "sha256": "ff73f2ba5f158fd7ad6137f93eacccdf6268ac32eb3bacf93c7c37e2542bbd08",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 196288,
+      "bytes": 103340,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-09.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-09.jpg",
@@ -930,7 +951,8 @@
         "bytes": 441370,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-09.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-09.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-05",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-05.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "5be1d7d4ea48bb9d980bde110989ef3d8febbefc32c126d0778d6ffe82f6195b",
+      "sha256": "ffc4cbe271dbdc6c9ac2b0ea406e8f2f2db2615d2bfa6f44fec9230af0b5a698",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 239914,
+      "bytes": 123138,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-05.jpg",
@@ -972,7 +994,8 @@
         "bytes": 431414,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-4-0",
@@ -996,14 +1019,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-4-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "8d40b5a4a3300f7f24f353177cc182a90574aa023182b1e44da97f448ea42d15",
+      "sha256": "5bb95b94ad7aa50154c614f8dc627e5b242aa57383c72ca16159177324cb6dca",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 545266,
+      "bytes": 320940,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-4_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-4_0.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 433304,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-4_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-exterior-4_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-04",
@@ -1038,14 +1062,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-04.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "67f3b96cc299d9fd98a173e11c32ada0e2f31e0237c1eb7d1e05b12ad1e6f79d",
+      "sha256": "5978423199040b07a078d2f0d4d9549873f91e0f2803d20067e98f44110008a3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 206442,
+      "bytes": 112528,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-04.jpg",
@@ -1056,7 +1080,8 @@
         "bytes": 424254,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-04.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-01",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-01.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "d9f3efd2492060687ae169eabccabd27df12333b802fef1caf5a99f8f28422c9",
+      "sha256": "03fe5c8b2a4dd4f352993edc07ca4befa9e623c3f352abe066e6ec64d473a640",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 85932,
+      "bytes": 40202,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-01.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 420103,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-exterior-design-03",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/grand-trawler-63-exterior-design-03.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "c08d840b5addd58c214e282ecd0836e65d6591907882a1b1af18007de4be997d",
+      "sha256": "f2910fb34c0f49dd0223a69076d65668d9f3c953098cf8891538616a21f1a543",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 241988,
+      "bytes": 107362,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-03.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 453066,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/grand-trawler-63-exterior-design-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-1",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "b2016b039114f8a8723e6e290932ca96297107ddbb591621fc4b80f02dd54639",
+      "sha256": "9f35d284931bff08b03c8d4949aa5043bef3802e12235726fd22bc072fffe283",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 235544,
+      "bytes": 114154,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-1.jpg",
@@ -1182,7 +1209,8 @@
         "bytes": 347782,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-2",
@@ -1206,14 +1234,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "75e5e1b729bd41011e37fc36b8ca11269dd8a860016c98ac1c497b842ea6000b",
+      "sha256": "15cb08524ebdddf880c9fa00ff365f24c4d05fc02cd8eacb2dd66181f36d6221",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 176418,
+      "bytes": 86040,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-2.jpg",
@@ -1224,7 +1252,8 @@
         "bytes": 276673,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-3",
@@ -1248,14 +1277,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "092dc33bbb6b3343dd91bb1da29329f6b4281713bade45983bf4e6a09c01eefa",
+      "sha256": "e9ad557c17a8091a6007e0ae5bdd1248a0e8a8b4eae070de76306f11abc6032a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 250948,
+      "bytes": 128348,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-3.jpg",
@@ -1266,7 +1295,8 @@
         "bytes": 365298,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-4",
@@ -1290,14 +1320,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "ed05d9a9a524abfdd4ff876dd2714532c31e383c66caad7f18f88e6177f10bba",
+      "sha256": "82ddd20b10d27ccf125e13179a27b9b957ed65d5f5a33e63704cfd3fbd4ccdca",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 168132,
+      "bytes": 74916,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-4.jpg",
@@ -1308,7 +1338,8 @@
         "bytes": 240084,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-5",
@@ -1332,14 +1363,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-5.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "d60c2d3452735a6e3704f88c72a26c875d5843083e1bce19fb30c2444e001e2e",
+      "sha256": "cf2dd7c11e443946065137b620ec5b57e92eae5fc1ec710ca1a9f9eeb55c319c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 202688,
+      "bytes": 105946,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-5.jpg",
@@ -1350,7 +1381,8 @@
         "bytes": 299369,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-6",
@@ -1374,14 +1406,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "b4fcf43324dbce4529e1bca24e61c0d8d58f1aa5e43cbcac5ff63ee1bb50e32d",
+      "sha256": "685afb2e8fa97ed54af4c17732b5f0dfbb1b2f3c66b4c21f6c1f0d8c7ae6dcff",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 246704,
+      "bytes": 123380,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-6.jpg",
@@ -1392,7 +1424,8 @@
         "bytes": 346976,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-63-interior-7",
@@ -1416,14 +1449,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/grand-trawler-63-interior-7.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "996ea64fd346badd2e588da8224d1cc48c27680f21641e33294bd653bf558b23",
+      "sha256": "b9f89d2b0520c358772de493bb8446516e08737a0fe5120abcca7db1787c89d0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143948,
+      "bytes": 74070,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-7.jpg",
@@ -1434,7 +1467,8 @@
         "bytes": 435256,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/grand-trawler-63-interior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-63-usp2",
@@ -1458,14 +1492,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/gt-63-usp2.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "10573bbe212c3d9bbb46999f6bb748ae103f6cceb136fa5cef1fb61180cbbb38",
+      "sha256": "5c56e105d3977955d784cd1337000837a8316bac16469a66f0ef89fc89ef4b17",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 435016,
+      "bytes": 244134,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp2.jpg",
@@ -1476,7 +1510,8 @@
         "bytes": 465049,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp2.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-63-usp1",
@@ -1500,14 +1535,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/gt-63-usp1.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "b2d7a894fbcba18dffde8b67f51600c376c8eacb8e28b2c428e26e63888f4590",
+      "sha256": "2b83aff67052e576fb4facc4f586200e9c6bddb1747f79312b61765f40e594f7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 369394,
+      "bytes": 189722,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp1.jpg",
@@ -1518,7 +1553,8 @@
         "bytes": 474934,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp1.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-63-usp4",
@@ -1542,14 +1578,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/gt-63-usp4.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "98b18ea72ac1fd45272e72f5db44700417492e87637a6b40ce6caaf4fcdddb74",
+      "sha256": "f33760c25dbe894976347cc3787d286aa6318cf3cb007cf4be41e686b8dc00ee",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 196822,
+      "bytes": 98374,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp4.jpg",
@@ -1560,7 +1596,8 @@
         "bytes": 420283,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt-63-usp4.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-grand-trawler-63",
@@ -1587,11 +1624,11 @@
       "width": 1000,
       "height": 705,
       "format": "webp",
-      "sha256": "2c96e27c3f03a4b87a854d04f05c3b3163aee805370293bf2e0bf53ae571d443",
+      "sha256": "1a7d19056d486d6c75bee4d5acc3c74f8755e40c04c4b96b14c959346a922a90",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 18666,
+      "bytes": 14072,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/profile-grand-trawler-63.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/profile-grand-trawler-63.jpg",
@@ -1602,7 +1639,8 @@
         "bytes": 48174,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/profile-grand-trawler-63.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/profile-grand-trawler-63.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-grand-trawler-62-fly",
@@ -1629,11 +1667,11 @@
       "width": 800,
       "height": 559,
       "format": "webp",
-      "sha256": "b6d086530e01abfbabb9cc64d0ddad8d0e24ace3dc36a933450b17c20db3c17a",
+      "sha256": "d6def1b94160ca385585025128bdcab70e470e5bb75c20567cf525f991a642ef",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 19794,
+      "bytes": 15456,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-fly.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-fly.jpg",
@@ -1644,7 +1682,8 @@
         "bytes": 69576,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-fly.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-fly.jpg",
+      "web_quality": 75
     },
     {
       "id": "grandtrawler-maindeck-layout",
@@ -1671,11 +1710,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "bdd860edd7c2c5ecd4e93e8abb71c3692d86ef4bf4f34508935c0dd9fd1495ce",
+      "sha256": "149455ce9ae951af6504c91f30fa3cd5539988fd652a557d5c1a1f1cec2771c4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 19386,
+      "bytes": 15388,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/grandtrawler_maindeck_layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/grandtrawler_maindeck_layout.jpg",
@@ -1686,7 +1725,8 @@
         "bytes": 129278,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/grandtrawler_maindeck_layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/grandtrawler_maindeck_layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "grand-trawler-62-3-cabin-layout",
@@ -1713,11 +1753,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "759c054987e0b7dc9cda6de8870be88b1cca8561491fc83a0da7dcdc7b399466",
+      "sha256": "a960be7728b25016215c6819f30cb6d8e870247f292ab0682250efd5bf9ee497",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 21766,
+      "bytes": 18092,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/grand-trawler-62-3-cabin-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/grand-trawler-62-3-cabin-layout.jpg",
@@ -1728,7 +1768,8 @@
         "bytes": 113229,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/grand-trawler-62-3-cabin-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/grand-trawler-62-3-cabin-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "layout-grand-trawler-62-4cabins",
@@ -1755,11 +1796,11 @@
       "width": 800,
       "height": 559,
       "format": "webp",
-      "sha256": "aa6cc5d562eb2c3b2980b7766e4973e5fee508b0a4d785ed3857d5ee14285aff",
+      "sha256": "b61d53853398e8bc5d4e5da2f38cff8ef6b51ac20bb2f55feab81e9dee755864",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 23880,
+      "bytes": 19480,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-4cabins.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-4cabins.jpg",
@@ -1770,7 +1811,8 @@
         "bytes": 74394,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-4cabins.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/layout-grand-trawler-62-4cabins.jpg",
+      "web_quality": 75
     }
   ]
 }

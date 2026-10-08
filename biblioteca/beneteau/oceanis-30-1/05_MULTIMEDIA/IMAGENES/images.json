@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "31acc28af90edeb275adab42b463d79e39ef9819a52830cd273b4c29db229059",
+      "sha256": "73fad1edf519514ce31e561166bf49b375082fe8b79526ab39f241d7c09e0174",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 508818,
+      "bytes": 402530,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg",
@@ -46,7 +46,8 @@
         "bytes": 490020,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/cover-desktop-oceanis-30.1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation0-2",
@@ -73,12 +74,12 @@
       "width": 1832,
       "height": 1000,
       "format": "webp",
-      "sha256": "dfb85768ea20742005ba30f6216a0bd866f39e2e7d3acfd7308be505c6a25d1b",
+      "sha256": "4c8b970a26058efe52a012f6b21fb54dafdfcc5020dca0be1bc3b163b13b08ee",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 492932,
+      "bytes": 387084,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
@@ -89,7 +90,8 @@
         "bytes": 2234412,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation0_2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation01",
@@ -116,12 +118,12 @@
       "width": 1832,
       "height": 999,
       "format": "webp",
-      "sha256": "ea5699761cc6707cb5be60586f68f1aedafd991f6237750253275225ac02e623",
+      "sha256": "87d4cf04d6620744e4c71f4d77bf24e5278cd87370910e70e53a7d28629fb720",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 244530,
+      "bytes": 182498,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
@@ -132,7 +134,8 @@
         "bytes": 1269444,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation01.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation2",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation2.webp",
-      "width": 1800,
-      "height": 1200,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "d6ff4ae629d378821748c8dab8cf2a6bfa7dca59cb6f298011f671ed669b6a93",
+      "sha256": "c42a0016fa77243432c074580b2c92519da3dfd97f657f0d0f4c16821423f118",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 396852,
+      "bytes": 224988,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg",
@@ -174,7 +177,8 @@
         "bytes": 486134,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation03",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation03.webp",
-      "width": 1832,
-      "height": 999,
+      "width": 1600,
+      "height": 872,
       "format": "webp",
-      "sha256": "c10477978ba37eeef0d845f4a964f002a0170b36b8ae42638c9aa68c1198966e",
+      "sha256": "9eef501e824c63fdeb65e8cf71fa041abf78a244e614842290379768e3a68b31",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 237650,
+      "bytes": 145586,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg",
@@ -216,7 +220,8 @@
         "bytes": 1170474,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation03.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation05",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation05.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "559f0edad8df900e1bd93500d3d1f85d69fe6fe4c5bfd1953b6c4675c1b67cd6",
+      "sha256": "12c65050664639da7b9459e8478cb042e43a354497ecb2fdfb2af450e33133d5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 141098,
+      "bytes": 79174,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg",
@@ -258,7 +263,8 @@
         "bytes": 901740,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-cockpit",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/oceanis-31-1-cockpit.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e26ca9daec8101e3b221ae77112198e97d0d071bd5044340404354eec13ad836",
+      "sha256": "1abb1eee6d8f44476628a9e5883a8584c138ba8e69ba97f67c47b03b4aef544e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 233408,
+      "bytes": 139714,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg",
@@ -300,7 +306,8 @@
         "bytes": 1325214,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_cockpit.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation06-0",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation06-0.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "dc48afb6a0c60ddc590323409f684386aafc7d3cf3d7ceed0bdba550c9545ed2",
+      "sha256": "bf9e1a9b174e1e362e9cd401b4412364bc3d4b0f70dccef1c1859b5ab9bed792",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 292338,
+      "bytes": 171540,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg",
@@ -342,7 +349,8 @@
         "bytes": 1555072,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation06_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation08",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation08.webp",
-      "width": 1800,
-      "height": 983,
+      "width": 1600,
+      "height": 874,
       "format": "webp",
-      "sha256": "c4c5b9202fc1b4a19aa080df1f4a28bc43d848cd7ff3b96acc7451943bb021ec",
+      "sha256": "60f6608e5c98a54287173588b9aacc809179a44f7d763f7b97f61421067597e4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 318506,
+      "bytes": 194050,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg",
@@ -384,7 +392,8 @@
         "bytes": 1206251,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation08.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation09",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation09.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "043a9385314805df8c487d9d7ff061f2748b20e8d38c9b4ebd7567ccf7b14ec3",
+      "sha256": "fa6db9da6d1ee188cf6c45584b900fe7d0f4fecd5968e0f2e486aa0df27bf1be",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 96682,
+      "bytes": 58322,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg",
@@ -426,7 +435,8 @@
         "bytes": 710449,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation09.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-transport",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanis-31-1-transport.webp",
-      "width": 1832,
-      "height": 999,
+      "width": 1600,
+      "height": 872,
       "format": "webp",
-      "sha256": "84ba191656a884b4bc95edd605ac1344abe47ac7d5f4dfd3dd51ba42ae5f9ce5",
+      "sha256": "ff590d3a65199b96b0cd736c6b44a751c039224832ccea4cfe560bc01bd336e6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 228216,
+      "bytes": 135362,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg",
@@ -468,7 +478,8 @@
         "bytes": 1168663,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_transport.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-1-navigation05bis",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/oceanis-31-1-navigation05bis.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "73157cc3fb2f5a5d08024356bd595c1f7d0f67b49b369c5a600508d6fa36e1aa",
+      "sha256": "cae3ae235cc082ff4662c6b8febf97149397a4b9ac007138da8f31891cf53d23",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 288644,
+      "bytes": 164730,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg",
@@ -510,7 +521,8 @@
         "bytes": 1550298,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oceanis-31.1_navigation05bis.jpg",
+      "web_quality": 75
     },
     {
       "id": "int2-oceanis30-1",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/int2-oceanis30-1.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "594dc9e6f3af07ffa7ff0802dfaaa4a4d9d05dfc40611afb2e71c0f075d9c439",
+      "sha256": "6f8583bcb122ba79bd1315dd3482195561d05e54006aef5e28ecf20a5292067c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157620,
+      "bytes": 74586,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg",
@@ -552,7 +564,8 @@
         "bytes": 842887,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/int2_oceanis30.1.jpg",
+      "web_quality": 75
     },
     {
       "id": "int1-oceanis30-1",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/int1-oceanis30-1.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "718d09ffcdbbd6781036e1bf564d18ec9ae220c3c857744009c4d2690297a17b",
+      "sha256": "b7f0dfb62d5952a708e56b6b01d82e1c04e366bc7c71a8657e061a04316aa43f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 153610,
+      "bytes": 77234,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg",
@@ -594,7 +607,8 @@
         "bytes": 802738,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/int1_oceanis30.1.jpg",
+      "web_quality": 75
     },
     {
       "id": "int3-oceanis30-1",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/int3-oceanis30-1.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "b14b7a977da111f13f7d8683eb6f706900f7406d1d5f88d411c55d0491b0bb58",
+      "sha256": "cbc0a0c4d6077133faab2abada4e21eb587defee674056c5d08c2afffdd1d5d9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 81456,
+      "bytes": 35214,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg",
@@ -636,7 +650,8 @@
         "bytes": 668694,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/int3_oceanis30.1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-int-7",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oc30-1-int-7.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "57e1e3cf48efaeea52204bdb70ee173e823481b7573a44edf7582e202c260a57",
+      "sha256": "1d1a1df9bafe544ece16d6a57f872213a22ba76c8f1c88b88cbf921e9a19e7c1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 82984,
+      "bytes": 35820,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg",
@@ -678,7 +693,8 @@
         "bytes": 547185,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_7.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-int-6",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oc30-1-int-6.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "63c16001a8c6f0abf4027ea6fe783edc6ada87718bb1caef27cfcae78017753c",
+      "sha256": "0d5e655e055400d06c1034f5b5cc6a393f114c15d36a3b5a4c400f94b024b2ae",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 145218,
+      "bytes": 65808,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg",
@@ -720,7 +736,8 @@
         "bytes": 797234,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_6.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-int-5",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oc30-1-int-5.webp",
-      "width": 1832,
-      "height": 1000,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "f98b44b877a23a5a3da4f4d1a21f4ce88cb8a81ef2732f1e1f8050bd8c4fddcd",
+      "sha256": "b197cda248ec22444cbe19c0833f4f4d412d0672a8f3e3f67ae7a4430f89c2dd",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 112904,
+      "bytes": 58518,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg",
@@ -762,7 +779,8 @@
         "bytes": 686711,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1_int_5.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-int-62",
@@ -789,11 +807,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "5cff075bc06b344b63c5edb7c98b1bf7bba18ad08d7d40a042d9d2ce596178d3",
+      "sha256": "247f97a03b4820bc82602871c1fe5ba404f66a9d51749752dc629ff56aa9c604",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93538,
+      "bytes": 55108,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg",
@@ -804,7 +822,8 @@
         "bytes": 133886,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_int_62.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis30-1electrique",
@@ -831,11 +850,11 @@
       "width": 1090,
       "height": 1050,
       "format": "webp",
-      "sha256": "5db76ded9bcc6b8bc30dff275949ee8f4822bb5882f2e4067ad40e692c840749",
+      "sha256": "125bde74ed6a4f592fcad58df87244051bd9619b46cb5f3c8c353ffc92302e54",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 55962,
+      "bytes": 43414,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg",
@@ -846,7 +865,8 @@
         "bytes": 111497,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-11/oceanis30-1electrique.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-31-18-barres",
@@ -933,11 +953,11 @@
       "width": 800,
       "height": 1211,
       "format": "webp",
-      "sha256": "38a0886a22c20af22931274b63ae705ea76c7982d183b64e7b64e1f05f8004fc",
+      "sha256": "28a182670b3bc8f1c4d51b3d0f435223ea84c5a21a96717bc0eed4bad4db1738",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 32748,
+      "bytes": 25248,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg",
@@ -948,7 +968,8 @@
         "bytes": 76558,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-deriveur-mat-enrouleur-foc-autovireur.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc301-polaire-gte-mat-classique-genois",
@@ -975,11 +996,11 @@
       "width": 800,
       "height": 1211,
       "format": "webp",
-      "sha256": "c3f5c6e5da890997b742fc0f758c8721f22668898d6622137bb01e0f42137a1b",
+      "sha256": "d67a19135f294ccbc4ab48831e9c7ae85c137e058e9f6a7538d6584beb3731a8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 37222,
+      "bytes": 29512,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg",
@@ -990,7 +1011,8 @@
         "bytes": 85277,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-genois.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc301-polaire-gte-mat-classique-foc-autovireur",
@@ -1017,11 +1039,11 @@
       "width": 800,
       "height": 1211,
       "format": "webp",
-      "sha256": "ff21db1bbc0f0976390e9473c20d2ac0e274d388272e900e3c20d8c6e54e6d14",
+      "sha256": "c7cecfcefc7e9e02e92b32934fcf062b80a35d0e746722cd10a067896068d6b5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 36748,
+      "bytes": 28750,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg",
@@ -1032,7 +1054,8 @@
         "bytes": 84287,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-GTE-mat-classique-foc-autovireur.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc301-polaire-pte-mat-enrouleur-foc-autovireur",
@@ -1059,11 +1082,11 @@
       "width": 800,
       "height": 1211,
       "format": "webp",
-      "sha256": "7e54c58431e725b4896c224a56e93a28bb0021e805721d3f17c0dc52d63b9d80",
+      "sha256": "1de8d533d8ae00c378870b1596ca54a73581312d9c5cb7d8e10f93ee3ccef04a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 36268,
+      "bytes": 28190,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg",
@@ -1074,7 +1097,8 @@
         "bytes": 81778,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/OC301-polaire-PTE-mat-enrouleur-foc-autovireur.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-long-keel",
@@ -1101,11 +1125,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "7dd0b514bb94a11fda67154de79a44647203f8987901c557673603b931b8b117",
+      "sha256": "3db3d6ddb179fdd6426379fc439f37e4a282bb30c1af437023bfcc6473fc7d53",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 3156,
+      "bytes": 2434,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg",
@@ -1116,7 +1140,8 @@
         "bytes": 8365,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_long-keel.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-lifting-keel",
@@ -1143,11 +1168,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "4b82b927cedf6f7f64adea4739e8c73cfc36ebbae6623e894170087f5bfcaa5b",
+      "sha256": "e5d26d012c7d0d201af7c29a9e2b213c1c29e35ac5ac306c2ae4f4bf7592cde5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 2802,
+      "bytes": 2200,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg",
@@ -1158,7 +1183,8 @@
         "bytes": 7947,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1-lifting-keel.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-swing-keel",
@@ -1185,11 +1211,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "197c8942424a76ec6eadd8b040f0ce09766f9272954029fd027741a3237796c0",
+      "sha256": "6d163a88151896005aae1e2f169ff35e74886488fb1f45f9bb0f5fe040748c7a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 3186,
+      "bytes": 2508,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg",
@@ -1200,7 +1226,8 @@
         "bytes": 8480,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc30.1_swing-keel.jpg",
+      "web_quality": 75
     },
     {
       "id": "oc30-1-top-view-jpg-1832px",
@@ -1227,11 +1254,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "0de89e59c1100ea7d912bbf877f463fea5f5968a20c1369042214cee2828f413",
+      "sha256": "1d8f5e41f997bf45f97436d6888ebdedbb2b41e4f2f90194169f8c33b5b696d3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 26408,
+      "bytes": 21670,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png",
@@ -1242,7 +1269,8 @@
         "bytes": 232133,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc30.1-top-view.jpg-1832px.png",
+      "web_quality": 75
     },
     {
       "id": "layout-30-1-jpg-1832px",
@@ -1269,11 +1297,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "6224ce62a18b4b846a91b63ec8ddb3fd307d4694561b62904f3d3a04c32ab35b",
+      "sha256": "1cece64e612464e733058a21978ff0b6294fdb9f8f1a6f39002d98935d3d37c8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 21962,
+      "bytes": 18370,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png",
@@ -1284,7 +1312,8 @@
         "bytes": 179960,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/layout-30.1.jpg-1832px.png",
+      "web_quality": 75
     }
   ]
 }

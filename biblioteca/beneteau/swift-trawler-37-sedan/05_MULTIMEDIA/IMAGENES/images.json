@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 550,
       "format": "webp",
-      "sha256": "715640c6564ded0ea6511ebbed55e65d89b7d23b4700e1ae1609d665c57a2112",
+      "sha256": "f405cc8e04b192bfc48b49302aba038720485266f6a6a663c4de62aeae64fd6e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 181478,
+      "bytes": 139716,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-header-desktop.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-header-desktop.jpg",
@@ -46,7 +46,8 @@
         "bytes": 434504,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-header-desktop.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-header-desktop.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-4",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "7f6753c9efcbe3c0a3cc57875dea243c45bf64a5cc8638aee72f3caab0087686",
+      "sha256": "514d9d2ec32e571a7ffff2eeadb0d3dfc3e9d1037df34e10e1d7ed765d47dad4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 251424,
+      "bytes": 176122,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-4.jpg",
@@ -89,7 +90,8 @@
         "bytes": 454208,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-7",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "4e67dc23a6a4c7317a912f63f4af26c1871eb98384157502c8e3828e7c8a510c",
+      "sha256": "719eb01ec3459d5a4704c96dff50b4d8332938aad0a7d8b265e95c9c20690088",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 245542,
+      "bytes": 182222,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-7.jpg",
@@ -132,7 +134,8 @@
         "bytes": 430990,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-6",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/st-37-sedan-exterieur-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "c413951adc42b786a1509c4419a129c83954cbbdccdfdf76427a65c3ab4ec366",
+      "sha256": "cb679fcc8835bc4d5efa800dadd07463db6d4689867ebaec9fd098d2f5e6f5fa",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 235546,
+      "bytes": 126422,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-6.jpg",
@@ -174,7 +177,8 @@
         "bytes": 414781,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-3",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/st-37-sedan-exterieur-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e544fac0f299b5008fc597ef1e3a10ef31b3da91c55dc1ff02ac68b56e4a8761",
+      "sha256": "04adb31398c01d37cc9404f011e765b71174d614a7f37b4159ca7aff074db2d6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 223904,
+      "bytes": 119788,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-3.jpg",
@@ -216,7 +220,8 @@
         "bytes": 434380,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-1",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/st-37-sedan-exterieur-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "fee7ba3844bd7ba5a71e4334a670e1d5f348ebcc528306f9f068a22adbc7292c",
+      "sha256": "6532bf4b01906249606926cac80fa221d3760dc11031f15eddd506dc51c4fef2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 332890,
+      "bytes": 182324,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-1.jpg",
@@ -258,7 +263,8 @@
         "bytes": 377275,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-2",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/st-37-sedan-exterieur-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "c94b2a9d2a8a8bd977369e9ed27133a27e96cd92bd6623e79f853f3ddca54e86",
+      "sha256": "710b74969996cd2360d1e9fe6f4e3bd858b50e1a77a9d47bc693005d28c6bc21",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 287836,
+      "bytes": 152902,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-2.jpg",
@@ -300,7 +306,8 @@
         "bytes": 448466,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-exterieur-5",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/st-37-sedan-exterieur-5.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "3c4e5e6e1e1bec97b902eca9211a4719d25df9f9d6cca52e89e7f9372deef882",
+      "sha256": "5a34a1b27cf00ca581e6e80064e60e0610aa1adf68b0cadbec218766051fd185",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 252184,
+      "bytes": 131816,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-5.jpg",
@@ -342,7 +349,8 @@
         "bytes": 439381,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST-37-sedan-exterieur-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-01",
@@ -369,11 +377,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "2bcbfece89f0bdf0288d7cf5bf3888b140df669dcb07855a7f1562b187ea09e6",
+      "sha256": "02f9d0595ae30ff9596cda13ce6eda5fca8fa714d0e6e15324e973943c94ec2a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 179004,
+      "bytes": 124320,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
@@ -384,7 +392,8 @@
         "bytes": 474590,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-02",
@@ -411,11 +420,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "5dad1f8e9aaef601b66a3f3d77165bc361d608c2e4e271c2adc87745e96e3acf",
+      "sha256": "8ac5b78af9337eb2635cabe6a5c04988ba690084c0e3b9ddd98391ef22e3804f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157508,
+      "bytes": 108378,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
@@ -426,7 +435,8 @@
         "bytes": 434182,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-03",
@@ -453,11 +463,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "2fb42b04cedcfd698c255e72f31647acd616d52f917ad0e7378928f9cf6b6d5d",
+      "sha256": "9189282c82e6c5258238639138216760e04f9e4148f9462a394d297b7024b02d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189388,
+      "bytes": 131100,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
@@ -468,7 +478,8 @@
         "bytes": 475686,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-04",
@@ -495,11 +506,11 @@
       "width": 1570,
       "height": 1324,
       "format": "webp",
-      "sha256": "ee8de6f20f3e1a2b2198d0d7ccd53803cf197f4a150fb388eda354c63c518524",
+      "sha256": "4eef3155cd0cf23ca6bd67d8265465e734c594ff7c672d0484d43ad294f8fd1b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143140,
+      "bytes": 101140,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
@@ -510,7 +521,8 @@
         "bytes": 429047,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/swift-trawler-37-fly-interior-design-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-fly-interior-design-05",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-37-fly-interior-design-05.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e8720aee7d21421ddb8823f36b376b87399e6632dc482fcfe220463e55742fe2",
+      "sha256": "ab907f2b818b8af6082300c86be50dba8e7d38e059a9bd474f84a1e6f76a5810",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 107460,
+      "bytes": 54412,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
@@ -552,7 +564,8 @@
         "bytes": 412194,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-37-fly-interior-design-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-usp-2",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-37-usp-2.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "f5c828d550e03a21c487db610550f5461fd5c92606330ab56cf184bf175b6b23",
+      "sha256": "7dc865b9b9a96fa193525f54c7f1dc59d3028b884be944b5f0cbb93fc51a3752",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 205372,
+      "bytes": 117530,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-2.jpg",
@@ -594,7 +607,8 @@
         "bytes": 384885,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-usp-1",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-37-usp-1.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "2e8565fb10c40015dd62289c85308195eb942cc3855d3a9cc964a7bff4769b4f",
+      "sha256": "27ca9c62229011f6da52ceb92ade456d32d88df1539e669b82d728fa275c3446",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157352,
+      "bytes": 86680,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-1.jpg",
@@ -636,7 +650,8 @@
         "bytes": 447854,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-37-usp-3-0",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-37-usp-3-0.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "42a042ad5a763c46cb759ddad33196cba53fed50e4d571f541cddb9ec1fd9677",
+      "sha256": "a90f6c886785e07b96ca4896a18216e036d65b898ce78ba037b14b9290489282",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 169112,
+      "bytes": 91054,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-3_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-3_0.jpg",
@@ -678,7 +693,8 @@
         "bytes": 478297,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-3_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/swift-trawler-37-usp-3_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "st37sedan-profile-white",
@@ -705,11 +721,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "7e7c95cc5a9776fc782a2979ece73ca79b434b847d9b4b78044424264503f9a2",
+      "sha256": "9c12d52f1582aa6d90f0784f2da9b166bad674790219984aa6a309a1661a93a6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 14638,
+      "bytes": 12268,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-white.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-white.png",
@@ -720,7 +736,8 @@
         "bytes": 108565,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-white.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-white.png",
+      "web_quality": 75
     },
     {
       "id": "st37sedan-profile-grey",
@@ -747,11 +764,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "cd1eb93682f714eebfea0ca9e4f95f7aad2362a9abb915b390bcd6a68796c154",
+      "sha256": "d2ce4d5a97f30fbf40bc8a20bb1a61ac2d9684ca7f654d5a3748570eba6f8903",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 14552,
+      "bytes": 12292,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-grey.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-grey.png",
@@ -762,7 +779,8 @@
         "bytes": 108895,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-grey.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST37sedan-profile-grey.png",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-standard",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-sedan-standard.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "df740b330e961371149e37dcc67e0619aa3b8ad73808d24354b029b5a348f692",
+      "sha256": "609dcc2d971a6e9265ce0f3e3f718c93fc02c593d309b6880ee06fd99dbd82f4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 47014,
+      "bytes": 29284,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20standard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20standard.jpg",
@@ -804,7 +822,8 @@
         "bytes": 379160,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20standard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-pont-principal-standard",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-principal-standard.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "afe2de7cc0827612f5222c92513fcdbd770ce94a764ac900238d87eecd3a5718",
+      "sha256": "cce2060776c1c063d5b5e378c7833100db0c054f788b9034d96bceab2da3339c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 73150,
+      "bytes": 45628,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
@@ -846,7 +865,8 @@
         "bytes": 240866,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20principal%20standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-pont-inf-rieur-0",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-pont-inf-rieur-0.webp",
-      "width": 1795,
-      "height": 634,
+      "width": 1600,
+      "height": 565,
       "format": "webp",
-      "sha256": "61d056449b9dd8cc9d85f2943922c3d28b08b9a5db11f436fe1e3f09afdf86b0",
+      "sha256": "94d9c609cdfff464ddd6501d2abf25b800da545a52816bf090f159c408ea097c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 69256,
+      "bytes": 44812,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
@@ -888,7 +908,8 @@
         "bytes": 201088,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-option-panneaux-ouvrants",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-sedan-option-panneaux-ouvrants.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "bcb85c4619ea5c356dc718de45cb7cb5f0cd74eeff5f90d50a485f426c6cadb2",
+      "sha256": "37972f5b58c564a959ac9eb035e2ca3d6e7ac0fdd79b137909ec33511f0c5668",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 47866,
+      "bytes": 29886,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Sedan%20option%20panneaux%20ouvrants.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Sedan%20option%20panneaux%20ouvrants.jpg",
@@ -930,7 +951,8 @@
         "bytes": 389690,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Sedan%20option%20panneaux%20ouvrants.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20Sedan%20option%20panneaux%20ouvrants.jpg",
+      "web_quality": 75
     },
     {
       "id": "st-37-sedan-option-silent-boat",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/st-37-sedan-option-silent-boat.webp",
-      "width": 1794,
-      "height": 632,
+      "width": 1600,
+      "height": 564,
       "format": "webp",
-      "sha256": "0bfe76bea071b065603002de6e6a046f044cf5bcf543f8d0af2749124b0b93e3",
+      "sha256": "d85f3721ea99e0522c4e37d77b77ae4a91461e879c979645cbbe7195b4d6d463",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 59724,
+      "bytes": 36318,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20option%20silent%20boat.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20option%20silent%20boat.jpg",
@@ -972,7 +994,8 @@
         "bytes": 461160,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20option%20silent%20boat.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/ST%2037%20sedan%20option%20silent%20boat.jpg",
+      "web_quality": 75
     }
   ]
 }

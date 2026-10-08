@@ -30,12 +30,12 @@
       "width": 1900,
       "height": 550,
       "format": "webp",
-      "sha256": "3eb42f0412990925033214277425df7656002fc49c64aefcfbdf3a10689b5834",
+      "sha256": "1ba130b46d601f57a37064657ad4f638e4fed392e7bf5cd3c15b39c308871b80",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 174122,
+      "bytes": 130994,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first24-se-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first24-se-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 272038,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first24-se-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first24-se-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-sailing-exp",
@@ -73,12 +74,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "7db2dbfb2554eb4847f2d2d4347a37064573750ba45c9d1b8df3960b0249e232",
+      "sha256": "8afe1a1fda7a864151ac483c2368582cc15a1b7e62e77ae2d2f8904f4e60e483",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 198742,
+      "bytes": 152604,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first24-se-sailing-exp.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first24-se-sailing-exp.jpg",
@@ -89,7 +90,8 @@
         "bytes": 516374,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first24-se-sailing-exp.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first24-se-sailing-exp.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-sailing-exp2",
@@ -116,12 +118,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "9a9f1c5e3e1a3d3069b60f2bd0340f7e45189ee1f47f678f55e5e9df8ff08a03",
+      "sha256": "3345a0da1e68488bd4f4ee2dbea294533fc96f9b0c70d4b0b9b84876d1ade5ee",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 86014,
+      "bytes": 64978,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 120813,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-sailing-exp3",
@@ -159,11 +162,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "179042d64e2d2c70d817d2f10221275fde1991962b9d2d9eda2f16869379fa6c",
+      "sha256": "65d6327b3a8521afdc75b7c6511f9a0118d80beab355ace8bc51c9f32ae3c9ec",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 246806,
+      "bytes": 193878,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 276076,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-sailing-exp4",
@@ -201,11 +205,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "1bb9717354e54c1bd1cdd89433705eace6b0242bccf17f04d6a4d133f685c336",
+      "sha256": "bc31d43ccb41b082d77aefa6df4b80f9a55c5b24469f3a77a32f10c52bf21fc2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 73724,
+      "bytes": 50534,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 121628,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-sailing-exp5",
@@ -243,11 +248,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "97d9c79ad347bf0e9842d03c0fe7bf48cc499d8a3052c7dd25c91100543ff908",
+      "sha256": "eee5d1b721dbd3554757dfeeae0d96dfd0cf76f05cb9ae02f2d4f7c5f5e5eabc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 218390,
+      "bytes": 168324,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp5.jpg",
@@ -258,7 +263,8 @@
         "bytes": 251941,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-sailing-exp5.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-onboard",
@@ -285,11 +291,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "59b767f51eb2b3ba548bad15da12350493d58b35e719770ce120a4d7b6d265e9",
+      "sha256": "97c5b94c4618c66a2474ed7f3b1fd5d00eb5bca7c704f327f9ea170dc0d65902",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 91150,
+      "bytes": 62240,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard.jpg",
@@ -300,7 +306,8 @@
         "bytes": 138010,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-onboard2",
@@ -327,11 +334,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "b3bcdaa3b259cd8182cd3a9f291f09bea83567e27728cb0925d083b04ab6727e",
+      "sha256": "f9b9787e5ec82ee465c4dff0ea97f59722818ff9f6cf6de7c1eb59b15787ef06",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 89296,
+      "bytes": 56082,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard2.jpg",
@@ -342,7 +349,8 @@
         "bytes": 131992,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-onboard3",
@@ -369,11 +377,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "c5416d1b53b298b0430097d7b59085f429e7262b2978d5513994d2fff40934d5",
+      "sha256": "350f0efc3db3ee9435816149544185fff2c657f185b337d0d64b3441741f45bc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 52314,
+      "bytes": 32644,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard3.jpg",
@@ -384,7 +392,8 @@
         "bytes": 91405,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-onboard3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24-se-scommunity",
@@ -411,11 +420,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "99f980b096d0a2b3f30cf6ee89fa122950a6bf78e5f8482dae77887caef506d2",
+      "sha256": "6bf22d5c57b417ce9851dbbb2f0a95f67aff49de429f90a683e4a3b3bbdd330b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 153988,
+      "bytes": 119714,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-scommunity.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-scommunity.jpg",
@@ -426,7 +435,8 @@
         "bytes": 199346,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-scommunity.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24-se-scommunity.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24se-usp1-v2",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first24se-usp1-v2.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "5199a9dacaba5fe7e2c4a26556be3ee749c89d7b40cc6c7822f9438cad353e52",
+      "sha256": "de8e5a90eeae52326989e6762db7fc955745e492f81a1f66fd83bf0b19812938",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 320544,
+      "bytes": 221920,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp1-v2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp1-v2.jpg",
@@ -468,7 +478,8 @@
         "bytes": 400584,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp1-v2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp1-v2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24se-usp2-v2",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first24se-usp2-v2.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "1d1744a17be40539454ac323c7abd4a97e36a9451ea6fd322aa3a6131db62999",
+      "sha256": "2758ed9abd74c81b1c2123ff62d4e1836e3af72580ba346250a6a68ba9fe30ca",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 146224,
+      "bytes": 95816,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp2-v2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp2-v2.jpg",
@@ -510,7 +521,8 @@
         "bytes": 231833,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp2-v2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp2-v2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24se-usp3-v2",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first24se-usp3-v2.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "3410afeac2a06566c2bc3081cf4755b200315ece29639b3967c48b6a7de56944",
+      "sha256": "f544c31840708e52f3757ee1c41544e2075d9d30e997fb960307ed0c1a05061a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 137054,
+      "bytes": 89620,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp3-v2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp3-v2.jpg",
@@ -552,7 +564,8 @@
         "bytes": 235739,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp3-v2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp3-v2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24se-usp4-v2-0",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first24se-usp4-v2-0.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "137668ac9af4aea35c1a94ce30a204be45e8c61076a838c0c9b1cf41b8e4e22a",
+      "sha256": "cc37c985a652fd7df9aeeb522e4c892ae81ceefdecc2c7efc702749e423ab75b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 125778,
+      "bytes": 81898,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp4-v2_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp4-v2_0.jpg",
@@ -594,7 +607,8 @@
         "bytes": 206203,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp4-v2_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp4-v2_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "first24se-usp5-v2",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first24se-usp5-v2.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "1459e222249f777083ff8f772825ea206f11ee71cc7d576651750b308ecc9e02",
+      "sha256": "7a81b5eab1043244c03dedc10bde295d511861c2d249a5f1e6d837365478e4db",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 155708,
+      "bytes": 107476,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp5-v2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp5-v2.jpg",
@@ -636,7 +650,8 @@
         "bytes": 236912,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp5-v2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first24se-usp5-v2.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -693,11 +708,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "8173fb8596fcf0190d72c4dfde5f612a66fbaddfba4af4fb16de7c1b0fe600a5",
+      "sha256": "e9c9c9f5add788cc189a2e3a5af59ebdfe5120f4360f220d479fd0367251c96e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 2188,
+      "bytes": 1822,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-no-sail.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-no-sail.jpg",
@@ -708,7 +723,8 @@
         "bytes": 19359,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-no-sail.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-no-sail.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-first-24-se-sail",
@@ -735,11 +751,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "64d83522f721f78f888788dc3a4717138ae193fe5fe7de0f535d4e1f0fba1847",
+      "sha256": "a14b68d23af80b7a8993bd9abe0d96374da568de32b57f4fdb6b2577fe5bea55",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 2778,
+      "bytes": 2240,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-sail.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-sail.jpg",
@@ -750,7 +766,8 @@
         "bytes": 24350,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-sail.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-24-SE-sail.jpg",
+      "web_quality": 75
     }
   ]
 }

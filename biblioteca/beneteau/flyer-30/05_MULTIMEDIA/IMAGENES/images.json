@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "9ff91b642a31834cef1872bbbd06a979bbab9a1f5b8e701875f616d04a6f65f0",
+      "sha256": "4634ffbcdf13b0e461729630cadf3ba72bb4220710c83ec09e9475e69b93bf7d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 159048,
+      "bytes": 121382,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-hero%20%282%29_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-hero%20%282%29_0.jpg",
@@ -46,7 +46,8 @@
         "bytes": 507984,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-hero%20%282%29_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-hero%20%282%29_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-1",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "78ab49b648075096f70d6de76a476322a91b981ec3261c88d48e7f79692b681a",
+      "sha256": "8db320fd5a6a5bbe04db06527193b57da0318bd2e1de42e6c8b216fd770a1819",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 512416,
+      "bytes": 386310,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 509215,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-2",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "6db1671d6d1885e45780b9443070dcc4a68f2145cc1a328bdb4c2b2e3c7911b1",
+      "sha256": "cb17eededd3ae6ad61f92180450b7694069330c078a19883e384ad95a85e6623",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 438306,
+      "bytes": 341332,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 505716,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "d70e71fde8a2ebf151928ed69a451727ee2441cde054c32b50acae98146bdc7e",
+      "sha256": "851dd256cb7d307b5f6d90a247747920c9e66febecff4589d08f204817e04582",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 133972,
+      "bytes": 71100,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 502158,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-4",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-4.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "c348981ce2e242006799512a9bafe21beaf88ab353a02e4997212a8e9078bb26",
+      "sha256": "7c67c5850ab9a7d1448429bb9b5e63bd716db13b61cd6abbaba6b0b6cc813aa1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 227062,
+      "bytes": 127318,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 498508,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-5",
@@ -243,11 +248,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "9ff4ccae2db6205296bcb10398bcd23595d710877ca93f7d1f2747d6b3bd59ba",
+      "sha256": "f731f55cf1a55d8d39329381ee74a1a0f24da1e54f7f748b330b3062b3b8c3b6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 266276,
+      "bytes": 217354,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-09/Flyer-30-exterior-5.jpg.webp?itok=U3wcvtf0",
@@ -258,7 +263,8 @@
         "bytes": 265254,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-09/Flyer-30-exterior-5.jpg.webp?itok=U3wcvtf0"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-09/Flyer-30-exterior-5.jpg.webp?itok=U3wcvtf0",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-6",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-6.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "44daa5f72215baeadb6b2b9d3eeb576306180f324dcaa1e620c2b109264390bd",
+      "sha256": "e848c3c23472d3a3da796c46e404e5af36eeb569dd23a97dbb9c3fc1156464d8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 196860,
+      "bytes": 108886,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-6.jpg",
@@ -300,7 +306,8 @@
         "bytes": 508606,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-7",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-7.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "5abd16c0acfec46fb2fd42c569fb621f2bbfe50be92ef18299fa81dcfd0c0ddc",
+      "sha256": "5da5070b15c7304b0f8c40252bd8130850ed51e7b9aba55b9db4be55fdfcbd15",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 289704,
+      "bytes": 157840,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-7.jpg",
@@ -342,7 +349,8 @@
         "bytes": 504879,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-8",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-8.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "63e6037ea308a27a656b9f8e28426d907369060a1780e8bce01816fe03978b90",
+      "sha256": "1007f946b341726527b3b69e776a4ca4196c52bde52df73e6699e0d461b233eb",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 219096,
+      "bytes": 121180,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-8.jpg",
@@ -384,7 +392,8 @@
         "bytes": 503070,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-9",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-9.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "8037da0db93c9982c2332700322655c899b996d392763e52742fda5420b0dd51",
+      "sha256": "59c124bd159afe4e015fbee59fd0d573436fb683b05e5b7d96f900a31386a164",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 298374,
+      "bytes": 157564,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-9.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-9.jpg",
@@ -426,7 +435,8 @@
         "bytes": 503701,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-9.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-9.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-10",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-10.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "66e1a2004f47405353ad424b204e579e3d578227153c311ee7b043d6200d9f28",
+      "sha256": "2fa12f6a817f5e6bf0b854ab320fdb2295fee2f8d9f3f652eb7f5e49ace03ef1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 321008,
+      "bytes": 166216,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-10.jpg",
@@ -468,7 +478,8 @@
         "bytes": 507142,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-11",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-11.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "b6ebbc8eb664faa32152e431199f4d853d9ea57952c73a3a9d1ab1a1a7cbf61b",
+      "sha256": "8d881abed37c282a32cb7a537e9713b2a9402f7e172c707502a6546fbead166f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 431290,
+      "bytes": 250978,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-11.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-11.jpg",
@@ -510,7 +521,8 @@
         "bytes": 425441,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-11.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-12",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-12.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "b4a13a98483d13bd26eae2eaf64b6674607669e66348e467b88d1bc313385c9b",
+      "sha256": "f33333341b85a69e69e1c0e4eb8280064ed168da0a2bb8ef48e1acea68b75003",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 49780,
+      "bytes": 26880,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-12.jpg",
@@ -552,7 +564,8 @@
         "bytes": 511341,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-13",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-13.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "12b943f41af9d9c6e3533cb459d096866294d30128a5fb0186bca402039b97f4",
+      "sha256": "dd132ee22913755e4f5d8a0e5063fc04a602e2cbbb7b8dc66a6c082e28df2a52",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 379658,
+      "bytes": 201586,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-13.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-13.jpg",
@@ -594,7 +607,8 @@
         "bytes": 501120,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-13.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-14",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-14.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "42ba6bfefcd467108c7425248cbeb1666a257ae4c45e36257e995e50b58bc0a3",
+      "sha256": "ed70398e6df11e7c96cc8f578c283d1018a3c54312603cb107782d7655ce5ce1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 252440,
+      "bytes": 141426,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-14.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-14.jpg",
@@ -636,7 +650,8 @@
         "bytes": 508185,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-14.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-exterior-15",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-30-exterior-15.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "c71f69ddc203ab8391f0e33064022ff058e375869f1bad23f576f5c26c5cd6fd",
+      "sha256": "5b4a8efcaf6e3de23f67cbb564d337542bafdb880446229f6ed2388a030402e2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 369484,
+      "bytes": 189672,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-15.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-15.jpg",
@@ -678,7 +693,8 @@
         "bytes": 510360,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-15.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-exterior-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-1",
@@ -705,11 +721,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "928f5801bab6f16b3f5c9d9584fd9e5e1c74ed011fdb35e0b23543b08608a6a9",
+      "sha256": "a5e3fabcc4bcfdce004c839b1f9581b19d2b92231a1abdd6644fbb4867ec55ba",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 126196,
+      "bytes": 93780,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-1.jpg",
@@ -720,7 +736,8 @@
         "bytes": 508832,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-2",
@@ -747,11 +764,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "ddabf5f863d0e9b01db0fbfe6f998416cfaab8c24b219d0718afc824b973a793",
+      "sha256": "a00dac2c2dcede4bbe4f336046349bc1fd680b3e8de953275873c4f91e740489",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 152306,
+      "bytes": 116336,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-2.jpg",
@@ -762,7 +779,8 @@
         "bytes": 508884,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-3",
@@ -789,11 +807,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "9e21935db1c554798e807a6898b4b048b1fea34a0e0f525f325d0fd67cfaa8b1",
+      "sha256": "f9fc850a6b831b837cc0bc4deac24a56b74f906a3d6339c576fdba6935efd06f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 174506,
+      "bytes": 135486,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-3.jpg",
@@ -804,7 +822,8 @@
         "bytes": 490870,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-4",
@@ -831,11 +850,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "e6ddb876e6867959425e11088805283cef7b6bf4ef17deb3655158c5022d05b3",
+      "sha256": "f09b16d61209eae86b09aa624d6e4c8858cde35756db77b21a8593f607fcd8c8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 130454,
+      "bytes": 92616,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-4.jpg",
@@ -846,7 +865,8 @@
         "bytes": 496031,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-5",
@@ -873,11 +893,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "de61ebd321cb581c45c6e759095b7536b4437acfb168089ae1f8553a32a97f27",
+      "sha256": "a52f5a00a147806517f3ad5381d0b7523b10c8d051974b3bc1095caa5c13b447",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 113186,
+      "bytes": 76382,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-5.jpg",
@@ -888,7 +908,8 @@
         "bytes": 501520,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-6",
@@ -915,11 +936,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "a5d650bba3ffa924917035c0c6b8ed0ce25a91a861b9b44ea630ab51929c0ccf",
+      "sha256": "fc81a9b2983c596c2704625527a9b4ee3754e3c8db305e9bae58dc74fe5d5a29",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 94060,
+      "bytes": 65654,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-6.jpg",
@@ -930,7 +951,8 @@
         "bytes": 488534,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-7",
@@ -957,11 +979,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "f62cf0cf00ed67be02d0d00f0f951a46f923c6eed529f4b5f94c40780748aa34",
+      "sha256": "9060c50469b365cce54e8e1631367b2ce83e695a847ff3187225a84facc1f63f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 109846,
+      "bytes": 80754,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-7.jpg",
@@ -972,7 +994,8 @@
         "bytes": 481390,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-8",
@@ -999,11 +1022,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "708183bab953f70500990f1a81443c7d6dd12d97f6a3c904480d5b9b4ce3a250",
+      "sha256": "acad04b84beb667844de7b04411c088017f56057a6004535c7eea0cec52d016d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 124664,
+      "bytes": 93912,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-8.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 492303,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-9",
@@ -1041,11 +1065,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "8fb2abd47b8ff108d24d1127ca8bbda69bc5405c1d13d56649f655599c576e2a",
+      "sha256": "6367c81b86ffc385a84e6f5a123e027e4ace11a554022d2a5a629b6a011050f1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 63504,
+      "bytes": 44488,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-9.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-9.jpg",
@@ -1056,7 +1080,8 @@
         "bytes": 488412,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-9.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-9.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-10",
@@ -1083,11 +1108,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "6955f70d5616d07bb1de9907cc6617a8251816838fa06051d60dca2b7ea6c6f4",
+      "sha256": "38ee287f390fdc8b2c7b294c48a02a5a5bf5abf7fdd4d7a88914ae9f740e9f57",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 100092,
+      "bytes": 75530,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-10.jpg",
@@ -1098,7 +1123,8 @@
         "bytes": 507291,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-10.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-11",
@@ -1125,11 +1151,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "f38a58fcd3b6a59b4614d6854a78a98437b1d8262af243d7252a01d135856333",
+      "sha256": "7c77bf71e6b1145edda00ac93aafaed40c43b7c828f67d20e470a71a7c2151d5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 142980,
+      "bytes": 107874,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-11.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-11.jpg",
@@ -1140,7 +1166,8 @@
         "bytes": 503243,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-11.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-11.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-12",
@@ -1167,11 +1194,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "e467cf4f6b5fc3683f945cdd689c552cf19e4a1975443e583c23d4cf5ec5494f",
+      "sha256": "6add4cef57ef2b8180bdbecec2551c603f203b4c67d900f4b2cc8519a8fa7ced",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 110476,
+      "bytes": 80792,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-12.jpg",
@@ -1182,7 +1209,8 @@
         "bytes": 490766,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-13",
@@ -1209,11 +1237,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "d874990fc04a5da74e00bddf367d5856d2ba5d72c9c2851e84c73fcd510a6af4",
+      "sha256": "e26802437d0193ec23cbd71cbb885076aaf69e47c97a26df98ff44f7b3a06978",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101770,
+      "bytes": 75242,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-13.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-13.jpg",
@@ -1224,7 +1252,8 @@
         "bytes": 500690,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-13.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-13.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-14",
@@ -1251,11 +1280,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "644f812c290f24880e2d9cac716c3e891d4b198260ca80670e221edd33ea756a",
+      "sha256": "3880aacba9ee0ca4f4a20e17310a8978d19b13cbeead41f8a821f017d56e8bf6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101716,
+      "bytes": 73868,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-14.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-14.jpg",
@@ -1266,7 +1295,8 @@
         "bytes": 507646,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-14.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-14.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-15",
@@ -1293,11 +1323,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "5ec452db1960ceb433ae40bf7f0d5d54efb1e8a49c907380290e88a1aca7a5d5",
+      "sha256": "bea783469a9a31304faf300215fdcda630c0eecded780554c909ce07df38d78f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 57524,
+      "bytes": 43026,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-15.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-15.jpg",
@@ -1308,7 +1338,8 @@
         "bytes": 486341,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-15.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-15.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-16",
@@ -1335,11 +1366,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "7970b8bd8b31d01de8ee83d17cc5aae492cccd5a4f631d5e768ee2205af86e98",
+      "sha256": "974ffe14cb8e66476141ce675a551833d7b5ed771d693ff8983acfa4b29b852a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 132742,
+      "bytes": 103132,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-16.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-16.jpg",
@@ -1350,7 +1381,8 @@
         "bytes": 491731,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-16.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-16.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-17",
@@ -1377,11 +1409,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "c3bc71a338c2680da5acf5fe822e8c2255050507f7874b139df7b05066a49749",
+      "sha256": "e42d345494ff4acb41e7278e51dacf1bc178b74b9c231fad650f1e642eaa15c6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 75984,
+      "bytes": 54118,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-17.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-17.jpg",
@@ -1392,7 +1424,8 @@
         "bytes": 501718,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-17.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-17.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-18",
@@ -1419,11 +1452,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "b107c851619842eb81977f51fa9ecf58e3e094477231fa44ed7b69c52f27f11a",
+      "sha256": "31a297ef92a8c2ffc30c36fdee08023538fb17b701c1306dd216c844e05e9b90",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 79838,
+      "bytes": 60874,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-18.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-18.jpg",
@@ -1434,7 +1467,8 @@
         "bytes": 497663,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-18.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-18.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-19",
@@ -1461,11 +1495,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "cb74d49f27d851788f3ccf69b95b4cfe754c28414084e1fb100b326b7e29b439",
+      "sha256": "87ec0a072dbf02be5ac1da458e2725d60cb3f2e01691366daabc50429a449087",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 106320,
+      "bytes": 68274,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-19.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-19.jpg",
@@ -1476,7 +1510,8 @@
         "bytes": 457555,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-19.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-19.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-interior-20",
@@ -1503,11 +1538,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "6b614611272a33e00b6641581560906c7848fa36aa6166f53649ed1269271d43",
+      "sha256": "421f4c4689ec97f316674e4f93cd6a9b860cade19cd1dc02604580a6830b7a06",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 127752,
+      "bytes": 91540,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-20.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-20.jpg",
@@ -1518,7 +1553,8 @@
         "bytes": 494815,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-20.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-interior-20.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-usp1",
@@ -1542,14 +1578,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-30-usp1.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "512bfb2027ba44dbf17b995296fec269b551680133aff6200b48c636753997bf",
+      "sha256": "3a552bd3129e9209356b42004475abd872ec259a4226a5fac53fdf77669ed1ef",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 105482,
+      "bytes": 55354,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP1.jpg",
@@ -1560,7 +1596,8 @@
         "bytes": 509182,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-usp2",
@@ -1584,14 +1621,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-30-usp2.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "9f9b76db61ffa093bd6b920f57a17bf5ee0695a3e551874c726471ba457c231c",
+      "sha256": "20e19442a0a83249944df948d5b53b733994edee2f65e4edaa3047c74acf3493",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 220540,
+      "bytes": 120988,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP2.jpg",
@@ -1602,7 +1639,8 @@
         "bytes": 504017,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-usp3",
@@ -1626,14 +1664,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-30-usp3.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "29527449a75aa40e17e90d65d116757a40a5a3cedc9348453f2d1d781e7c839c",
+      "sha256": "04550b52fa5b9c7482d2709da337c3a29b426cb9e8c5447cb08ba400c0d04724",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 225564,
+      "bytes": 126592,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP3.jpg",
@@ -1644,7 +1682,8 @@
         "bytes": 507627,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-USP3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-profile-white-hull",
@@ -1671,11 +1710,11 @@
       "width": 600,
       "height": 720,
       "format": "webp",
-      "sha256": "c3fd901a32a909129b5bb49e6fdbc2d6924bef6cdd25200c4cc74d735e011b0a",
+      "sha256": "d1fbe77f674f8266e21f6226accfc3cc37bbd124c59f6d8e86f4467bba56a6a9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 6338,
+      "bytes": 5228,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-white-hull.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-white-hull.jpg",
@@ -1686,7 +1725,8 @@
         "bytes": 31378,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-white-hull.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-white-hull.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-profile-blue-hull",
@@ -1713,11 +1753,11 @@
       "width": 600,
       "height": 720,
       "format": "webp",
-      "sha256": "2481ac2efd7f07681e043d15bf40f27da03a9c0bf475474dd6138e8e53deba96",
+      "sha256": "4127153685c70237851777262a912676cf8bc4732f025d67a4e059357803e4be",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 6722,
+      "bytes": 5364,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-blue-hull.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-blue-hull.jpg",
@@ -1728,7 +1768,8 @@
         "bytes": 36545,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-blue-hull.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-profile-blue-hull.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-layout1",
@@ -1755,11 +1796,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "d28399c5f6ba52277f47269e758fe5ded23583cf15df15f7c4801772f5a407eb",
+      "sha256": "890b9290ddbb50d230c5de3d68220135afde63aab754291542f95a028d6888dc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 43908,
+      "bytes": 34126,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout1.jpg",
@@ -1770,7 +1811,8 @@
         "bytes": 306581,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-30-layout2",
@@ -1797,11 +1839,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "a108525af420d2deee9c5e2989b7e20e70314e71db0956b90220a85876d62da4",
+      "sha256": "6d1e527baa9b7a0aa083beef26324a66da2b7ffcc30aef33b0294592d3c50b5f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 43166,
+      "bytes": 33292,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout2.jpg",
@@ -1812,7 +1854,8 @@
         "bytes": 306287,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/Flyer-30-layout2.jpg",
+      "web_quality": 75
     }
   ]
 }

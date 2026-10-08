@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "998924d83d8e5f11bd6f90d4502a2949f5118d2a56e0d6fcdbdf3db827b6379f",
+      "sha256": "41131a41e86e57900b735d0ca67abe4e442807a13d758330875e649115894085",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 281964,
+      "bytes": 211360,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-08/gran-turismo-35-desktop.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-08/gran-turismo-35-desktop.jpg.webp?itok=n9MnAjgw",
@@ -46,7 +46,8 @@
         "bytes": 549588,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-08/gran-turismo-35-desktop.jpg.webp?itok=n9MnAjgw"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/article_main_desktop/public/2026-08/gran-turismo-35-desktop.jpg.webp?itok=n9MnAjgw",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-01-1920x1080",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "d2ba5d9bb2f5410e57232d709e006ba2d6553765c4345de74feecb1078299dc1",
+      "sha256": "ed6434b11fdc3cff321d431c6c94d637e7c28944ff162e88fadf1b7dcff5a20d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 422336,
+      "bytes": 343094,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-01-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-01-1920x1080.jpg",
@@ -89,7 +90,8 @@
         "bytes": 410363,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-01-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-01-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-02-1920x1080",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "cba870111f64ca9766969f3a6c2b31fa38fe80bbedbedb97e761b88b62338ea5",
+      "sha256": "0b264f05358210a7959c94ceb57fab93715ac08ecd5d3b1d71d87962132e4f80",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 338302,
+      "bytes": 267092,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-02-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-02-1920x1080.jpg",
@@ -132,7 +134,8 @@
         "bytes": 405522,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-02-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-02-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-03-1920x1080",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-03-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "b89faa1dbdb29bef9e136651373597542cc1fe2dbf2b9e5819146b30824503d1",
+      "sha256": "d65ec9fe180b9ed377e623ae1c8f98e38f11efd18a38b24a340e70db62e9bf74",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 276078,
+      "bytes": 148518,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-03-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-03-1920x1080.jpg",
@@ -174,7 +177,8 @@
         "bytes": 375087,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-03-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-03-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-04-1920x1080",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-04-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "f7bdc240481c57d4a9488c038fa92396a305a0b0c80312e977ca4d7c3dceaa3b",
+      "sha256": "3e27a519d7196f84973d8b1f98696e1bc831b65badcf76a08212b9460b18d9b9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 254868,
+      "bytes": 130026,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-04-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-04-1920x1080.jpg",
@@ -216,7 +220,8 @@
         "bytes": 356649,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-04-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-04-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-05-1920x1080",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-05-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e4828793d451f292b815e4dc75bf4da334ca9e47019688ba021c035de584b93b",
+      "sha256": "067c9eb91481e9f092665d5d68ba00aad5213599391246b049ff0dc5f235cb94",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 299304,
+      "bytes": 169886,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-05-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-05-1920x1080.jpg",
@@ -258,7 +263,8 @@
         "bytes": 397719,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-05-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-05-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-06-990x540",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-06-990x540.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "825a65457126e9607135033d25bdec62cab3ff61c352c1885fe44bd5bf2f3da4",
+      "sha256": "1b96ccae780b177019ab035bf1ce448909f0bc2241645d5156ec1ec5ab7e132d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 226326,
+      "bytes": 99440,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-06-990x540.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-06-990x540.jpg",
@@ -300,7 +306,8 @@
         "bytes": 381930,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-06-990x540.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-06-990x540.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-07-990x540",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-07-990x540.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "09d3cf9f1eded1d11b55a8f516bedec6206bd27997aa7ef2c9992cb21d48d9e3",
+      "sha256": "d210529e9c637b4a7fa33310616fb1f4bf3c5ce0b8117a740a0883e33152c75e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 232828,
+      "bytes": 124722,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-07-990x540.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-07-990x540.jpg",
@@ -342,7 +349,8 @@
         "bytes": 401455,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-07-990x540.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-07-990x540.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-08-990x540",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-08-990x540.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "ed9d21c36db598884b262d86ffb092ec53c67a7f675652bd12d3bd54d8004b99",
+      "sha256": "7950ebc2546ecdcd96bb0935549fd200037e0d760a1479cec9d61df37720ec66",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 271020,
+      "bytes": 135734,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-08-990x540.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-08-990x540.jpg",
@@ -384,7 +392,8 @@
         "bytes": 365437,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-08-990x540.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-08-990x540.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-boat-meet-slider-01",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-boat-meet-slider-01.webp",
-      "width": 1920,
-      "height": 656,
+      "width": 1600,
+      "height": 547,
       "format": "webp",
-      "sha256": "7c6a409e5af8e384582f3a6eb8ca8dc588fb75617b89769daa32e70511a6cb21",
+      "sha256": "7b49e2d3627c3bdaafb34af17818fc7bccf0af3b9ae3b2ffcf05f614ff789dc9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 254978,
+      "bytes": 140414,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-01.jpg",
@@ -426,7 +435,8 @@
         "bytes": 407569,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-exterior-design-09-1920x1080",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-35-exterior-design-09-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "b018ee5263cc1b950ff2aa8f4f06ce8634e3ff52ca511134c1f8a2c6a859cb73",
+      "sha256": "0dbe88e72c8d8fb0a3aca2ac4e973757b4b5e5d52a64650876c0ec9c51ccb2c4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 158470,
+      "bytes": 79410,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-09-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-09-1920x1080.jpg",
@@ -468,7 +478,8 @@
         "bytes": 326425,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-09-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-exterior-design-09-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-boat-meet-slider-02",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gran-turismo-35-boat-meet-slider-02.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "6d9ecd632345c60b0e1b0bb7bf54b07c536b8cc42c3f1889c8a6b0c388615a5e",
+      "sha256": "0bb09ae112bec6a8d262e84594cd0fa956369cbdb735dfd5babcd58c7856241b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 137242,
+      "bytes": 75294,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-02.jpg",
@@ -510,7 +521,8 @@
         "bytes": 377803,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt35-c-00010",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt35-c-00010.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e9da1b2354d476efd0057bef7eda88ab364ef4b4e23fb8e6c4cbc0cc81afd2f6",
+      "sha256": "4b06e35b74572680a870e1812a4d2607d2fc4e92a4baa54470050291554bb521",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 177590,
+      "bytes": 79926,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00010.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00010.jpg",
@@ -552,7 +564,8 @@
         "bytes": 257133,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00010.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00010.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt35-c-00011",
@@ -579,11 +592,11 @@
       "width": 990,
       "height": 540,
       "format": "webp",
-      "sha256": "64fdb03ce6f973deb3a7775e02739faaed9ab536cdb21069998ce7e5ef48d669",
+      "sha256": "f655fe26258f9590b400ca0c92518e16b8fb318faeaca735920afae2ed14e5f1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 42788,
+      "bytes": 31574,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00011.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-06/gt35-C-00011.jpg.webp?itok=FHUu6uoV",
@@ -594,7 +607,8 @@
         "bytes": 45372,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-06/gt35-C-00011.jpg.webp?itok=FHUu6uoV"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-06/gt35-C-00011.jpg.webp?itok=FHUu6uoV",
+      "web_quality": 75
     },
     {
       "id": "gt35-c-00012",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt35-c-00012.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "cca967577751ac9c438359e795bbfbc2ae60a60e3fc9ee83f7489e37f8b35a07",
+      "sha256": "0ca9c7d606f99af18d10ed1a84958dee83b5020110a4c3371336ba9b8c78891f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 162792,
+      "bytes": 69626,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00012.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00012.jpg",
@@ -636,7 +650,8 @@
         "bytes": 239679,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00012.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00012.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt35-c-00013",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt35-c-00013.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "cadc8a255dd1a078e8768443114042b6e2702a6b0aa352f50ffeb0c60dc28b1e",
+      "sha256": "a8a0b5a57fcfda1c07f12e48d5d1aa24383bb3ad7df29d4c4fc75d255f0ac56b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 211900,
+      "bytes": 90584,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00013.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00013.jpg",
@@ -678,7 +693,8 @@
         "bytes": 276253,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00013.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00013.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt35-c-00014",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt35-c-00014.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "25cfdeffa8172eceae0a627d340e170a9a640cddd81c23ea5044340889dee809",
+      "sha256": "6a2a899e9633f549d94b3a2f6003436a0020af371f680961b866f737b3043f16",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 76174,
+      "bytes": 36184,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00014.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00014.jpg",
@@ -720,7 +736,8 @@
         "bytes": 127108,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00014.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt35-C-00014.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-interior-design-01-990x540",
@@ -747,11 +764,11 @@
       "width": 990,
       "height": 540,
       "format": "webp",
-      "sha256": "5d7e004c7e13b98b58ec14c62d1f9e3ef074e71164ddc87689231fcaa18dfebe",
+      "sha256": "7e853ff0118eac3ec6bb7cb788194fec2f79063892aca788f388d784736a52b9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 73690,
+      "bytes": 56508,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-interior-design-01-990x540.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-interior-design-01-990x540.jpg",
@@ -762,7 +779,8 @@
         "bytes": 254291,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-interior-design-01-990x540.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-interior-design-01-990x540.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-35-boat-meet-slider-03",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/gran-turismo-35-boat-meet-slider-03.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "2d50837ee4ceff7bbb88b39ccd55f9f39599ae7b5699df46b6698b2fca72ed85",
+      "sha256": "71a5daa62809522a0b6fb935162bc06c5ba71fe2a9dc1fa3582844c2875634bc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 126790,
+      "bytes": 73602,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-03.jpg",
@@ -804,7 +822,8 @@
         "bytes": 385484,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-35-boat-meet-slider-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -861,11 +880,11 @@
       "width": 1288,
       "height": 720,
       "format": "webp",
-      "sha256": "e12df626c34f6dce0987acdfd6717b7c87c4fbcda5828230269b2494feb81c5e",
+      "sha256": "7ad8f23c333af66117acd2321c92b74e56070736d5ce87f8b094e4a5f6792704",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 30038,
+      "bytes": 25452,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-35-profile.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-35-profile.jpg",
@@ -876,7 +895,8 @@
         "bytes": 63432,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-35-profile.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-35-profile.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-alpine-gran-turismo-35-1",
@@ -903,11 +923,11 @@
       "width": 1288,
       "height": 720,
       "format": "webp",
-      "sha256": "63378745fd86e383223a75295fddebf8ee35f36dfd034a4533cd6047a70f7bec",
+      "sha256": "0e776d2a91d52ea9709aa34f7934c85bef51d82acad99467e3ad824f49eb86b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 50834,
+      "bytes": 44728,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-35_1.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-35_1.png",
@@ -918,7 +938,8 @@
         "bytes": 273589,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-35_1.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-35_1.png",
+      "web_quality": 75
     },
     {
       "id": "gt35-top-ttop-pv-teak",
@@ -942,14 +963,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt35-top-ttop-pv-teak.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "805a2f1bae86ee02faefe2907bbeb16301f204a37f1f5b541875be2bbf8fd4e3",
+      "sha256": "58bc7de7562f81bfdbbc18faac3495e6d2ccb46c724ddbf2dae332b169000949",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 79152,
+      "bytes": 60204,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-Ttop-PV-teak.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-Ttop-PV-teak.png",
@@ -960,7 +981,8 @@
         "bytes": 258186,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-Ttop-PV-teak.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-Ttop-PV-teak.png",
+      "web_quality": 75
     },
     {
       "id": "gt35-top-beach-teak",
@@ -984,14 +1006,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt35-top-beach-teak.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "cb491efa083c7a55f0c672cbfadb1b17e96261d621714baca6d3a6a36a54a11a",
+      "sha256": "093597e72e078f3d8083e56a25f9c909e271813a13291ddc2c5db9840b2731b6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 91350,
+      "bytes": 72660,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-beach-teak.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-beach-teak.png",
@@ -1002,7 +1024,8 @@
         "bytes": 298115,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-beach-teak.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-beach-teak.png",
+      "web_quality": 75
     },
     {
       "id": "gt35-top-dinette-teak",
@@ -1026,14 +1049,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt35-top-dinette-teak.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "99a7c0ee55333b9209b06784b969e9e65cb593b7ad09d4bb4ee8f8cf6c1db157",
+      "sha256": "2c82e0cffe1f7810174523ef5b0c2a468a6527968381eb11487ae3daf24432a4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 88810,
+      "bytes": 66034,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-dinette-teak.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-dinette-teak.png",
@@ -1044,7 +1067,8 @@
         "bytes": 294017,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-dinette-teak.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-dinette-teak.png",
+      "web_quality": 75
     },
     {
       "id": "gt35-top-interior-dinette",
@@ -1068,14 +1092,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt35-top-interior-dinette.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "5493ff801d1b213a7c3baa801e8533d9c5cd57d1d54a91dfaa759132b861f550",
+      "sha256": "ddddf9e020bdee1024a777ecd8bf5c66ad4f6008c85f0b77066741a03d828f9c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 42572,
+      "bytes": 32256,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-dinette.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-dinette.png",
@@ -1086,7 +1110,8 @@
         "bytes": 191859,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-dinette.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-dinette.png",
+      "web_quality": 75
     },
     {
       "id": "gt35-top-interior-beds",
@@ -1110,14 +1135,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt35-top-interior-beds.webp",
-      "width": 1920,
-      "height": 1358,
+      "width": 1600,
+      "height": 1132,
       "format": "webp",
-      "sha256": "8c7d004c715abf76b8b3c7428c98046e705aad6e047f657c84089022f6d1dcab",
+      "sha256": "9ae3d1614239090174b43dcf18937efb6e76ad3613d9527a1616457da16b88ce",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 42458,
+      "bytes": 32394,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-beds.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-beds.png",
@@ -1128,7 +1153,8 @@
         "bytes": 195812,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-beds.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT35-top-interior-beds.png",
+      "web_quality": 75
     }
   ]
 }

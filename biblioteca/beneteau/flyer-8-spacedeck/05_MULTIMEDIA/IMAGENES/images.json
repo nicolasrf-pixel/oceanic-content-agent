@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "5863fa623dd69efd2b1f28821c46eecc71f4083706ceb9c58b8bb82622719906",
+      "sha256": "1196d6eef68810c2697249047d14a19e31fa5d4b3a44b6c1cf36894bb41516db",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 280062,
+      "bytes": 223426,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 496921,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-1",
@@ -73,12 +74,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "b674a154fca59355ab4bfb4fe26959e54b3fbc7644564d0648f4274f43a07355",
+      "sha256": "7d37deaf92437f6f3963ac4b39c97c45a6624c3cb62a20cc9f0fd800cc31d752",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 127886,
+      "bytes": 95528,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 168483,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-2",
@@ -116,12 +118,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "785da336ddb9e30d6221a7f97f980e20602c38e54a918201c78abf8c11df217a",
+      "sha256": "8217a9024be0ac45353d4ba2bd91b0e4ad42e6454a4ae33c7e5c75b50335a46c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 117148,
+      "bytes": 85898,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 154053,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space3",
@@ -159,11 +162,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "df44ccd6831b8bb3d07f7d766610ac397c71172a0cda5f812da0536f279e2205",
+      "sha256": "6c2039fc5dbcde91d0e3dbc530bd7aa5ff2473bc43b66852581ed87d513ec14c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 134906,
+      "bytes": 102182,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 182316,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space4",
@@ -201,11 +205,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "9a0ad0e8b3948e5fad1f23d0650dde84e796761c66e8a8621ac8e75c57c6bb8d",
+      "sha256": "a0bc7489bd9ce8a206e0aa55fa2aec15017c9960a815f946a440a9f1c8d0301c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143790,
+      "bytes": 108252,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 185101,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space5",
@@ -243,11 +248,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "3469378ae021b265bea27e9deb7a4ca06256aed1a79aa3da29734ca866feadec",
+      "sha256": "e21ceb810f9e2568ad01ff10689948008582aa8f0af606d3282c59f54a26c960",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 176546,
+      "bytes": 136750,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg",
@@ -258,7 +263,8 @@
         "bytes": 234542,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space6",
@@ -285,11 +291,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "1c0057b72c003922ec895deda9142235b6fbdb5347ca779e8c373b4ff2ed68d8",
+      "sha256": "5bcf69daf912b5a7064fbe67a469148f6dceb4473888cf15ce4b4f62b409f009",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 161166,
+      "bytes": 118766,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg",
@@ -300,7 +306,8 @@
         "bytes": 223951,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-int1",
@@ -327,11 +334,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "216ef8665b610a06e2e95e51c792c97a0da96315b9f93837717442d1ee8ad9da",
+      "sha256": "24d72839a804256e1043eb1be89482b2f619608fd2869bb325f318e424d4c655",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 41886,
+      "bytes": 27578,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg",
@@ -342,7 +349,8 @@
         "bytes": 78487,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
@@ -396,14 +404,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer8-pilot-edition-4.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "629821243259b4517e02237977b7f9e46df6fa86119b2f1fe5eece9668fe3317",
+      "sha256": "9e045240d5589498c0a41d57e129a9de678c5a76f5e1d9ac113749d75d3bb6c5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 292932,
+      "bytes": 145824,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg",
@@ -414,7 +422,8 @@
         "bytes": 501779,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8-pilot-edition-3",
@@ -438,14 +447,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer8-pilot-edition-3.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "ca5cbd89a3209b6caa6c3221a432065e0e131b2408f14b924443c2671c633123",
+      "sha256": "5d461982611d5d2bda356fab5d820c8a2bf53f4eb5115b2cce2539afced99292",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 274916,
+      "bytes": 143908,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg",
@@ -456,7 +465,8 @@
         "bytes": 508516,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8-pilot-edition-2",
@@ -480,14 +490,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer8-pilot-edition-2.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "4debe535f858e41107d62f62ab7fc93f8264d5dbf5b4aaff12094d5845f0a741",
+      "sha256": "ab070bcfcfd58751f16caf7c6d62d1381861713ce90ae0d893eb58a2760baef4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 278100,
+      "bytes": 145504,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg",
@@ -498,7 +508,8 @@
         "bytes": 490851,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8-pilot-edition-1",
@@ -522,14 +533,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer8-pilot-edition-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e3c5a7dcfccb36bd54809075a67fcb29c16b0226b0268efee148a94ea7df8d97",
+      "sha256": "58ff2bc80763066e9aaf2450efdc6368ec75fb282c51bdb560eb0a8f56d74fdf",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 134008,
+      "bytes": 66226,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg",
@@ -540,7 +551,8 @@
         "bytes": 483101,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-8-spaceeck-flyer-edition-1-1500x819",
@@ -567,11 +579,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "d45e7932cf1313a8f688050f776e66cf5425b976f075d9bd773c06daafa5977b",
+      "sha256": "e40f952200a22dd26fd16f9e337394df6603d5e073068560fdd888dd1c721f73",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93394,
+      "bytes": 68894,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg",
@@ -582,7 +594,8 @@
         "bytes": 511301,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-8-spaceeck-flyer-edition-2-1500x819",
@@ -609,11 +622,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "269709aa203c4da863814944f09c89b8c799e0ab90f2f624a5cbb8e7cded94f8",
+      "sha256": "66ee0e6b904c2f40929ad95bea70070a8ce380e9813d7d9bcb06fe8660edb1c6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 37370,
+      "bytes": 24852,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg",
@@ -624,7 +637,8 @@
         "bytes": 495609,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-usp1",
@@ -648,14 +662,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer8space-usp1.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "76053563ecc360d23d6e97634f3bcd5721d937d80d2f9044c5677c11a3cc6225",
+      "sha256": "b615485a4265eb2353775cbf07b55ba3a3b27af7294ae71c0ef9de0c928e030f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 162420,
+      "bytes": 109020,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg",
@@ -666,7 +680,8 @@
         "bytes": 253543,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-usp2",
@@ -690,14 +705,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer8space-usp2.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "978e3f55438c32fc81ba6ec570d983d87ff8291bafd6e3ec3372f2d0128089dc",
+      "sha256": "923d79d528647a967a2fa884a52a76df79d335209c6677d93338c287c53cad14",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 104574,
+      "bytes": 70950,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg",
@@ -708,7 +723,8 @@
         "bytes": 193727,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-usp3",
@@ -732,14 +748,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer8space-usp3.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "87120c1b1fee3c832cd79712a99807ac89f947c706be8a2334ea596744adc9a7",
+      "sha256": "a0d0be6211f52adac9063e8b0d40393944c6280d1c94173f48a27b8eb45df455",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 123744,
+      "bytes": 82454,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg",
@@ -750,7 +766,8 @@
         "bytes": 214274,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-usp4-1",
@@ -777,11 +794,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "ae98ea71621d39c4bab8f8a8b75dd99ff0765038d5d55e6524b90bf26510339e",
+      "sha256": "180843b0b3edc365ce9bb1aa279f2a70e2e4b0861861af943d98c467e8fadd54",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 72110,
+      "bytes": 52574,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg",
@@ -792,7 +809,8 @@
         "bytes": 262897,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -849,11 +867,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "b571077bff18fed800691f449b5cd385d36d4abccce7d5d7e61fac2fc9adf6d8",
+      "sha256": "28d8857933f7f1c2b2cf3e15076c2fcc284acf39ce77cd7142e38ab441c4e1da",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 10618,
+      "bytes": 8360,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg",
@@ -864,7 +882,8 @@
         "bytes": 21792,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-flyer-8-spacedeck-gris-perle",
@@ -891,11 +910,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "3f5573ff3e8c9ae66691d13b5739ae5734b99696f39734d65755d0ac9cdf7265",
+      "sha256": "9b00163c284a7f37592b56e664e7bf96386f972a3c3aaef4f8ad391ad61cacbf",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 10476,
+      "bytes": 8510,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg",
@@ -906,7 +925,8 @@
         "bytes": 58396,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer8space-plan",
@@ -933,11 +953,11 @@
       "width": 660,
       "height": 260,
       "format": "webp",
-      "sha256": "bc3cf09b7c6dab92a4aa022c67dfb3b3006eb38506a8148b037290e2a4de2331",
+      "sha256": "b9633602f6013f6dfe0a4bfa0f8507148be5ec2dfaf953673b830c0a1ab7b6c4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17714,
+      "bytes": 14706,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png",
@@ -948,7 +968,8 @@
         "bytes": 137510,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png",
+      "web_quality": 75
     }
   ]
 }

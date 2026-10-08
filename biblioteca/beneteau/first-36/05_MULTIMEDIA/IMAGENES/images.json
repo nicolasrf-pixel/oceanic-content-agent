@@ -30,12 +30,12 @@
       "width": 1900,
       "height": 550,
       "format": "webp",
-      "sha256": "11b0695c3a4c209cc5faef57095f830d67d31bc5f8df74aa8bf443d849170ef1",
+      "sha256": "1a5c1307c6510b20dcdad3b66a5bbec04911ce6c1409b12745b8edae48146d93",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 109702,
+      "bytes": 83156,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/header-first36_1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/header-first36_1.jpg",
@@ -46,7 +46,8 @@
         "bytes": 183219,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/header-first36_1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/header-first36_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-nav1",
@@ -73,12 +74,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "d14b67e154a125d39c6fb253be7d54911f992ebbdbbb3409df0734044d0bd323",
+      "sha256": "f48ac1ff82949babcc95fd57ecc3f9a71675af3457f06d91b56275c441a83163",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 397116,
+      "bytes": 316908,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-nav1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-nav1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 397640,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-nav1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-nav1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-nav2",
@@ -116,12 +118,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "38fb06421f6f1bbb31eab2634786a26cf44053463071412f27cde42ddca8e9c0",
+      "sha256": "2a78e77fdc6f8837e00d448ce2d0f887b5af7c0e787c8a9691bb841ef757a9e3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 200046,
+      "bytes": 153088,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-nav2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-nav2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 302173,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-nav2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-nav2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-nav3",
@@ -159,11 +162,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "05d5e5052cd2c51f93c0a543d63bb5658fcbbf523f909142daa808841a82c46c",
+      "sha256": "a87f9e7f61759057578503d6411d4abc0fa1bf65ae03ab7f36b8f2d493c34246",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 113236,
+      "bytes": 80808,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 155216,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-nav4",
@@ -201,11 +205,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "853f7ec305cf1167f880f09c4196d704eb78b953fd287ce096f4219c9d7b8449",
+      "sha256": "fa642691c28232018c101ee32199a2be004f4c0316dfb1628601872dbeaa6574",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 130012,
+      "bytes": 89892,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 184361,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-nav5",
@@ -243,11 +248,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "1f471d4291177cfec099ea0ba741c7d6b729e3ab20bc57e63a7765dbdb7fcf30",
+      "sha256": "999defdca48391a07972bc8864a7b37f583efd35515b3c94e8fd29ff2d1c0c53",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 301062,
+      "bytes": 238722,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav5.jpg",
@@ -258,7 +263,8 @@
         "bytes": 318309,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-nav5.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int1-4",
@@ -285,11 +291,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "42c7e966fd61c487df2206f85b5f4afe5dde297b460ebe09d39b0413a043f48e",
+      "sha256": "bc07761881664b66403084d4801c331a2c0bc0e6bd6d825c52737e6af9c0d5d1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 140612,
+      "bytes": 95348,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-4.jpg",
@@ -300,7 +306,8 @@
         "bytes": 191999,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int1",
@@ -327,11 +334,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "a48e327643b657992ea7af0031c883a8bd10eeba271f11de667ea0d2b113c6b5",
+      "sha256": "63c8a8265e47e714a3bd095c4477bf6f5acd343fe4a7fd5bab2c99f68702540d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101316,
+      "bytes": 64312,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1.jpg",
@@ -342,7 +349,8 @@
         "bytes": 149120,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int1-2",
@@ -369,11 +377,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "c4f163917be33bdcbd489c8ca61430c3b17c18002d693aed39240fd6870698ca",
+      "sha256": "57e5e3b37a9436cc97ed150181303e5c5be066402974e128ae7fe51ac204a146",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 82414,
+      "bytes": 56468,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-2.jpg",
@@ -384,7 +392,8 @@
         "bytes": 127693,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int1-3",
@@ -411,11 +420,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "5ea5b10e6042c573d68030e7f18abc7dc358518ef420147a3e993b7508765798",
+      "sha256": "0757032cd4eb6b848efca9d2a83c8920119b00272f0c866f52d6de4ef8c6c9c8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 80876,
+      "bytes": 53116,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-3.jpg",
@@ -426,7 +435,8 @@
         "bytes": 129258,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int1-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int2",
@@ -453,11 +463,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "a6205b65670f75307e619bfe97d87d63fcc43e8a08809705059010636c4de65d",
+      "sha256": "da7f2225bb85afdb600f3d14c2e9afdff74a7ac5269b79863bff9d826f01a263",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 85602,
+      "bytes": 53166,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2.jpg",
@@ -468,7 +478,8 @@
         "bytes": 123463,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int2-1",
@@ -495,11 +506,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "d97dc0d090a242ab0f8e703cf535ee76b908670ff67139f2027e70c8421332b8",
+      "sha256": "757fcef583ac1d1b7e7f7779b2461465cccbf8537c613d4230934353faffef24",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 116952,
+      "bytes": 67140,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2-1.jpg",
@@ -510,7 +521,8 @@
         "bytes": 151778,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int2-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int3",
@@ -537,11 +549,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "8a865918107db195ffcde292af4212bfc8fdda416c8e9d5b0a90705fdb2004f5",
+      "sha256": "8904ef1a767753763be1c53249e68eb0e2721888ec3153e9c8bd548a5c6b953f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 65996,
+      "bytes": 39872,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int3.jpg",
@@ -552,7 +564,8 @@
         "bytes": 110228,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int4",
@@ -579,11 +592,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "8f1863d1b7f5bcbfd952165fc7b7e9f9ff7fce4642192b832e80c70949ea0809",
+      "sha256": "d36c52d7071f74c0eddc938f719ec9bf2cdcc03e7c0e4496c26737ad84c597bc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111948,
+      "bytes": 75430,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int4.jpg",
@@ -594,7 +607,8 @@
         "bytes": 166342,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-int5",
@@ -621,11 +635,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "e7bb2b8680f44cf1758d632c04ca0c8f7e16b183826d2e85acd533ecc55b6ebb",
+      "sha256": "38a513a40d89f43cfd165987cdc20138cb3e91dac8a9696bf2e151c65a81ad19",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 70008,
+      "bytes": 47980,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/first36-int5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int5.jpg",
@@ -636,7 +650,8 @@
         "bytes": 114712,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/first36-int5.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-esp1",
@@ -663,11 +678,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "33d82a1b233a2281bb75d86daa99092fc8c5a7796383bae99373c0f2f180d281",
+      "sha256": "48829444b2c94976f6925b989ffbdb1fc64c9d08b2f1606b3478f05049c293a1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111932,
+      "bytes": 86770,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-esp1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-esp1.jpg",
@@ -678,7 +693,8 @@
         "bytes": 188191,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-esp2",
@@ -705,11 +721,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "9b8bdb52c3e4341abc4f53e43c4ef81ba6613a87e8fd1b9f961ed53a0586203b",
+      "sha256": "5b2caac8e03ab36f32e313928846321a03220caea7a3335052a5cf64e0257497",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 129532,
+      "bytes": 97580,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-esp2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-esp2.jpg",
@@ -720,7 +736,8 @@
         "bytes": 231457,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-esp3",
@@ -747,11 +764,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "b6eee30622be77fcae4427c6a81e4ce31f003a7a29a825edf4c20716777d225a",
+      "sha256": "ab17a66f5583d13c15b534ac01ddd945d8e090d19749cb69a8eea5aa5bd4a7a7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 145352,
+      "bytes": 102996,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-esp3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-esp3.jpg",
@@ -762,7 +779,8 @@
         "bytes": 207329,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-esp4",
@@ -789,11 +807,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "1739daf8f9fadeaece1e342c4f637db141b112e4a729ab600e4cd3f30596e648",
+      "sha256": "8a4d72b588a337b5b5ed53cc7d1d65c768e99769b0072b2ef1dab5fa42f802c0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 91240,
+      "bytes": 56630,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-esp4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-esp4.jpg",
@@ -804,7 +822,8 @@
         "bytes": 148691,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-esp4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first36-esp5",
@@ -831,11 +850,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "eca98b869c488b08635d93eca1a79582b7ab5e8af3be0106da0d7e580382b0ab",
+      "sha256": "9c77f55aae8c5c702c2e6641e910a8260b251e85cf57bc054cf33aaae163f675",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 220552,
+      "bytes": 174796,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-09/first36-esp5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-09/first36-esp5.jpg",
@@ -846,7 +865,8 @@
         "bytes": 260523,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first36-esp5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first36-esp5.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -903,11 +923,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "2ebff7c6870a4752fc463bba92e82be61d40f47babdd97acf7d50bb4cafe42df",
+      "sha256": "4dd3497aa1650ca550a0bab9e6b2d486e7ea70b3fe9e0bc5c173fe0e56276563",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 13136,
+      "bytes": 11698,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-36-no-sail.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-36-no-sail.png",
@@ -918,7 +938,8 @@
         "bytes": 12833,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-36-no-sail.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-36-no-sail.png",
+      "web_quality": 75
     },
     {
       "id": "first36-profil",
@@ -945,11 +966,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "783b570ace8e3afd3bdb701fcbd00ef782993b66c84307f83611b3778085203d",
+      "sha256": "b09462c0efab745ae700a4c49338ebb6c84ce3ef44d62e2782a959164da99f89",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 3190,
+      "bytes": 2546,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/first36-profil.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/first36-profil.jpg",
@@ -960,7 +981,8 @@
         "bytes": 8470,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-profil.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first36-profil.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-deck-layout",
@@ -987,11 +1009,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "6db68a316ed9b0cdd1bee97a2c910bef570058569e1c363975fdeba7994b0083",
+      "sha256": "c71dc81ba2e7d569b8636431669992176c9030b926fa725ef8c4b0f60ead9e4e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20494,
+      "bytes": 16726,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-deck-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-deck-layout.jpg",
@@ -1002,7 +1024,8 @@
         "bytes": 160625,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-deck-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-deck-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-interior-layout",
@@ -1029,11 +1052,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "877158a315efc2c68de848b30d7b262db8c73b589003daa5e7dc5c2a05949f34",
+      "sha256": "0bddf7da9cc21ae5e506f55414998401d4342aed867f5a92e91d01c3634863e1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20032,
+      "bytes": 16114,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-interior-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-interior-layout.jpg",
@@ -1044,7 +1067,8 @@
         "bytes": 269826,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-interior-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-36-interior-layout.jpg",
+      "web_quality": 75
     }
   ]
 }

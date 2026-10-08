@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "56238cb1b4382846ee095cf02bb51fbe86c777c0b64fad06d312f8b81369a85a",
+      "sha256": "4a94bea02d9531c43ff78c7d7e03b4aef82ddbe7a577335f306544ee73b330f9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 321486,
+      "bytes": 237960,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/flyer-10-sport-top-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-10-sport-top-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 504827,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-10-sport-top-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-10-sport-top-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-exterior-2-0",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "76ad67854c0f342945d6a7e51b99bc822c94035e1cde882592bf94ab7bce8f29",
+      "sha256": "e0dbb43f001c9df0ba3661d0149954a425373dbd1744739070511124e1fb7ab0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 200582,
+      "bytes": 146030,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-2_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-2_0.jpg",
@@ -89,7 +90,8 @@
         "bytes": 464870,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-2_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-2_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-exterior-1",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "fc0b3e1d460e9b8f4bb3931c048a996e424b21ef4499771d22ba182acf6753ff",
+      "sha256": "bd2d249e43870b2107ca98f29354cfac80ff8b1c11a299ae622b535ec028ee95",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 226936,
+      "bytes": 169112,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-1.jpg",
@@ -132,7 +134,8 @@
         "bytes": 477425,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-exterior-4-0",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-10-sport-top-exterior-4-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "acb3fed2778dd218cf2bfdab52232492c0dee936bc72b31ce14a5c8be6bae9c2",
+      "sha256": "dca6f125a6df37c8019b7b5b3bfddc30838d0cb0835611d35427fabf9d5ee1a5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 317284,
+      "bytes": 168802,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-4_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-4_0.jpg",
@@ -174,7 +177,8 @@
         "bytes": 478394,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-4_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-4_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-exterior-3-0",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer-10-sport-top-exterior-3-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "ac48e177345b81e01d9ea7f12f8b8ee3bd9021308c62d49cbb9ea342ce4e8968",
+      "sha256": "57e55a4971434431f7d3a6d471869084bfe83215dceee66a321e6112ec7ff76e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 140808,
+      "bytes": 78492,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-3_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-3_0.jpg",
@@ -216,7 +220,8 @@
         "bytes": 469695,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-3_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-exterior-3_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-int",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/flyer-10-sport-top-int.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "239858c4c36b1ba5854c20a78322ec4ad905b0a77a7941420b982cc1d2ee3954",
+      "sha256": "d51dc7c90f247be7596b4506c1e807377596d941afd7bb3e8d97b20f74162248",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 155090,
+      "bytes": 88558,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int.jpg",
@@ -258,7 +263,8 @@
         "bytes": 491835,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-int-1",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/flyer-10-sport-top-int-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e4c61240251a4aef29d841aa98613aa5bf6d6026b196eb01514c4a67e310fab5",
+      "sha256": "109fad7f08813412fbe7b35c7a7d69ff12600db01158064ee846e0921e56e5b9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 463050,
+      "bytes": 236682,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-1.jpg",
@@ -300,7 +306,8 @@
         "bytes": 431398,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-int-2",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/flyer-10-sport-top-int-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "d8e1fd05240fd73eae13b6252373d80fe1993aba2f370774360f4b125ef207fb",
+      "sha256": "484cb52bb6e789967a3cb6a3aead37bc846d9a5b845fdb01f5c69b7798ec06f6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 219984,
+      "bytes": 106184,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-2.jpg",
@@ -342,7 +349,8 @@
         "bytes": 414844,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-int-4",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/flyer-10-sport-top-int-4.webp",
-      "width": 1200,
-      "height": 1920,
+      "width": 1000,
+      "height": 1600,
       "format": "webp",
-      "sha256": "97d7040ea0a3cef1997a021890d6460c7ba21d9aafc04a79494239c648ba0a42",
+      "sha256": "523a9932e2c8cf7a7c9b5bc4ed9dcaeffe36ea0ed9deaac87345822be7245f6c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 187316,
+      "bytes": 80142,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-4.jpg",
@@ -384,7 +392,8 @@
         "bytes": 474383,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-int-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
@@ -438,14 +447,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer-10-sport-top-pilot-edition-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "0da99892e661059fdc5520031aaabfdca8a6f4ea6e04a0b2478669b50a8f6350",
+      "sha256": "09b3f9c9d199e9b673b5e7218ead7c3a97c102da5db1de183a49ef7b53669ded",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 227112,
+      "bytes": 117804,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-1.jpg",
@@ -456,7 +465,8 @@
         "bytes": 469881,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-pilot-edition-2",
@@ -480,14 +490,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer-10-sport-top-pilot-edition-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "97657b3e5ac513f4a1f6abe635a722c03e9ff5bb3ad9d301a46de98ff3366ace",
+      "sha256": "32a515fcf074fd0b71544b8154e160ece8dbed911c801e7ff5e66ee9df91e0b4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 144296,
+      "bytes": 80926,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-2.jpg",
@@ -498,7 +508,8 @@
         "bytes": 348550,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-pilot-edition-3",
@@ -522,14 +533,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/flyer-10-sport-top-pilot-edition-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "3d8ddd1e88502ef84ad9bf6e6dcf4aaa721b35aded3ba0e85cf5bbe8fef1ed78",
+      "sha256": "47868e10f9ee59f8b2d98c6b69b69f8982cc6185e7e0b4398becb9eb696e5ad8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 152908,
+      "bytes": 82994,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-3.jpg",
@@ -540,7 +551,8 @@
         "bytes": 428442,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-pilot-edition-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-motorisation",
@@ -564,14 +576,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-10-sport-top-motorisation.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "69ccf9c41fba4a0ea063ad0458c2f694f94d4fe080a64d297e460f1231fdfba8",
+      "sha256": "624305e2de36b3c82099a8c857c4103cafe73a371105b31cd3b7d22ebbb9916d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143146,
+      "bytes": 71824,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-motorisation.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-motorisation.jpg",
@@ -582,7 +594,8 @@
         "bytes": 317373,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-motorisation.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-motorisation.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-visibilite",
@@ -606,14 +619,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-10-sport-top-visibilite.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "9e753d194a9b0837295af83f971f7ccaf0a83eeb15bbff809d41b182abd016a1",
+      "sha256": "377e3014ef4285edca9bf3ffe6712a6420db807f0f4032a6fb6a6fa5088cc6d2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93346,
+      "bytes": 53880,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-visibilite.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-visibilite.jpg",
@@ -624,7 +637,8 @@
         "bytes": 415152,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-visibilite.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-visibilite.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-10-sport-top-bains-de-soleil",
@@ -648,14 +662,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer-10-sport-top-bains-de-soleil.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "3fc5e3fb0844607cee4f81d70cbc06397ca8902a774e3180996320678c5f70f3",
+      "sha256": "b2c0ce484d132b20cf28f7b696758e54f1c646624a565c30ab6c860d6dc74a16",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 106690,
+      "bytes": 59232,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-bains-de-soleil.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-bains-de-soleil.jpg",
@@ -666,7 +680,8 @@
         "bytes": 371147,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-bains-de-soleil.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer-10-sport-top-bains-de-soleil.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -723,11 +738,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "ce72d562a454f5bf87592e54beb0906a6b699aaeb33c70fa06237d8f6bab21ac",
+      "sha256": "684f0da927bf5320b7797f00ce33f03a3abbfe8eebe425874a23ad227e0dfe29",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16004,
+      "bytes": 14350,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-profile.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-profile.png",
@@ -738,7 +753,8 @@
         "bytes": 105030,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-profile.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-profile.png",
+      "web_quality": 75
     },
     {
       "id": "flyer10-sport-top-1",
@@ -762,14 +778,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/flyer10-sport-top-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "66fed31234a238f611ad67d87c0aaeea144024c9804fd706d1647e9e46fc4ef8",
+      "sha256": "23a0964ea4a6e0eb9cb815415ca8ff1227dedb3ac3d8c2671832e3e751c9733f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 66370,
+      "bytes": 51996,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-1.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-1.png",
@@ -780,7 +796,8 @@
         "bytes": 450186,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-1.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-1.png",
+      "web_quality": 75
     },
     {
       "id": "flyer10-sport-top-2",
@@ -804,14 +821,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/flyer10-sport-top-2.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "d8bf0a2e47e03f5fe8b13c5fb51994014b178a4154799e61545ec9b9def0a3f9",
+      "sha256": "e8381d032d356da1e4992da6aee446a1ff91b2778583e0659772990ee8245810",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 90290,
+      "bytes": 70746,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-2.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-2.png",
@@ -822,7 +839,8 @@
         "bytes": 285664,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-2.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-2.png",
+      "web_quality": 75
     },
     {
       "id": "flyer10-sport-top-3",
@@ -846,14 +864,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/flyer10-sport-top-3.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "6318140f9f9fb0bf58b9a3ff2b1b403f2a5e68f289866f4295a777e6f42759d7",
+      "sha256": "f638e9bd8360af5690a2497efb044df86a07fc94ab773a9dd0e53c7961c59a6e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 52884,
+      "bytes": 38270,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-3.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-3.png",
@@ -864,7 +882,8 @@
         "bytes": 333899,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-3.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/flyer10-sport-top-3.png",
+      "web_quality": 75
     }
   ]
 }

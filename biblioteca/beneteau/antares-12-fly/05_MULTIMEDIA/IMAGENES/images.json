@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "cad3c8149ffaa8502ceb092a3d9bf8024424aebfeaf0a261ed2c41b8ace057ca",
+      "sha256": "6ea913941075ba178c5e1bc1b41bf6ebc16b1021d15a3f2c70324605c8ab8c6c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 531884,
+      "bytes": 407846,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-fly-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-fly-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 505932,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-fly-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-fly-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-ext-1920x1200-02",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "87a2b1196faf09a4a42695618c13f5f9ba2bb3132bac117bf66aa6970bbea231",
+      "sha256": "6b0a55b2eff3fdb9792cefe796d2165a93d6ec19b588924714b25207b97e4f3e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 482884,
+      "bytes": 386108,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-02.jpg",
@@ -89,7 +90,8 @@
         "bytes": 407254,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-ext-1920x1200-03",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "2048b39660c92ec50ececfb10f7a48a908b4d72dac062e4e313c3142c6bc33fd",
+      "sha256": "66331011abf37b89af132dc71a85f1d9dbacdc4250c743764925b911e47aff24",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 180484,
+      "bytes": 133842,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-03.jpg",
@@ -132,7 +134,8 @@
         "bytes": 391479,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-ext-1920x1200",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/antares-12-ext-1920x1200.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "a4549c725f5d77fa454d7308daf198488c0d0f4ba4ee1eff9d31ef5101d18655",
+      "sha256": "41beb26da09823ddfbacd37728490431a79c2205d40321e3d2a018e28cbf124e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 323128,
+      "bytes": 187226,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200.jpg",
@@ -174,7 +177,8 @@
         "bytes": 407905,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/antares-12-EXT-1920x1200.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-00-0",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-00-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "bf292c300994fcf1c1f822e206541c2105d9a13cb382be93d8446e12fba89ce8",
+      "sha256": "a9a2369c49cae44c7c8b756f32d3933af7f5102796cd33516d89413015aef042",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204052,
+      "bytes": 116432,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-00_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-00_0.jpg",
@@ -216,7 +220,8 @@
         "bytes": 503311,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-00_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-00_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "profil-antares-12-bi-moteur-blanc",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/profil-antares-12-bi-moteur-blanc.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "b7c98abe29cf3cf7cb01853a5f41faf27ffff201f837bb97dbb0b757871c96a1",
+      "sha256": "bd1725d07a1f36277c7355e37231c60306f2c7bf2603fa46427ac7413f83ace5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 54840,
+      "bytes": 32080,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/profil-antares-12-bi-moteur-blanc.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/profil-antares-12-bi-moteur-blanc.jpg",
@@ -258,7 +263,8 @@
         "bytes": 375862,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/profil-antares-12-bi-moteur-blanc.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/profil-antares-12-bi-moteur-blanc.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-1-0",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-1-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "b637d02f63b77fd3fdf053b820a6039a64dcc5709e0f7b9b9d6c822d470e8eff",
+      "sha256": "5e192d919a7aa0348ca00e63ee5673437d09f0420fb7889944f87c125e998a73",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 462870,
+      "bytes": 244702,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-1_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-1_0.jpg",
@@ -300,7 +306,8 @@
         "bytes": 510275,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-1_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-1_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-flybridge",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-flybridge.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "aec92d11689e8ed71d950f560b735fd7d90ea73a69715f27d7a0136b8162686f",
+      "sha256": "c941e2c6fb754a83995cef1c200dbdf23c48561e66c1945f353cdb797f3cb021",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 212962,
+      "bytes": 121118,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-flybridge.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-flybridge.jpg",
@@ -342,7 +349,8 @@
         "bytes": 509567,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-flybridge.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-flybridge.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-7",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-7.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "3d89e52620048cfecd3625f6f0b0fed090efe5d2518563e7bc6ebe044896f407",
+      "sha256": "6498cb4d94faf4df9067b86de286ed1c9d13c31e47a32731b33a7ef143b6a497",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 271124,
+      "bytes": 148012,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-7.jpg",
@@ -384,7 +392,8 @@
         "bytes": 487738,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-0-0",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-0-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "181c504b86c3970dbcd6e73c7f02e1205ff1f6fe22ca80620cdd7a49b13060f3",
+      "sha256": "f4ec52da573a3148243338dd26f033a6965691620c13c96210f5e71f83ab0050",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 226330,
+      "bytes": 118056,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-0_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-0_0.jpg",
@@ -426,7 +435,8 @@
         "bytes": 504966,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-0_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-0_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "interieur-antares-12-1",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/interieur-antares-12-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "4e156b6cbb1473bb7fc2860ba91ac463d57e74c8f9c9030e85687a40f44f0d4d",
+      "sha256": "804913f9b32b5ff5d9978b8b07a9123fb53fd4ed52824b301f9e8731cf48e8f5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 290520,
+      "bytes": 152686,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-1.jpg",
@@ -468,7 +478,8 @@
         "bytes": 501985,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "interieur-antares-12-3",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/interieur-antares-12-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "d9ebd52312deefecf11d3418ba5689de3b7219999e400fa6705abeecf8a5ea48",
+      "sha256": "378eb7eb97445f7782ab778b406b8b6e450041e766b5325fb8f72ff96712342e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 320166,
+      "bytes": 148136,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-3.jpg",
@@ -510,7 +521,8 @@
         "bytes": 510213,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "interieur-antares-12-5",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/interieur-antares-12-5.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "a4d22f945cfebef7f107245bd8eb8492bfd155c196ec7d311f627cd76983a1ca",
+      "sha256": "18debad21d970a0c35830365e39130219e4d479f4bd8bba273cf4929e6c068b0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 393248,
+      "bytes": 181100,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-5.jpg",
@@ -552,7 +564,8 @@
         "bytes": 498137,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "interieur-antares-12-4",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/interieur-antares-12-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "9e18c473f30609a95b7ef510e8da60466072345ab976f001dc5cee81e086e637",
+      "sha256": "ad897c9afd1ff7379cc5eb34041803d2fb9bb14b271dfab2e367bbe18fede676",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 319476,
+      "bytes": 137756,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-4.jpg",
@@ -594,7 +607,8 @@
         "bytes": 509295,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/interieur-antares-12-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-6",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "cea51eb126c143890bb0c06bef019f1069d21fbd7c6a4de5b7b9e42fc04a3ead",
+      "sha256": "d337f562afe9cb162e5a0d2ecbfb974b1c2a936be69f1f09a782148203ba3e31",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 416704,
+      "bytes": 219720,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-6.jpg",
@@ -636,7 +650,8 @@
         "bytes": 501127,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/exterieur-antares-12-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-technologie",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-technologie.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "9b8206182293fb743e229c0c105d8edf1dd4aaf39d22332ebf79e090335ef00a",
+      "sha256": "1b71c321d6e5090f8dbf6a0933d31596731972370b7b5bfe2f175b6517b3ed0c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111580,
+      "bytes": 60398,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
@@ -678,7 +693,8 @@
         "bytes": 509680,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares12-1",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares12-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "41dbe1061ff03149e5aeba453f21200374209ed4abe0c1b540da9b9f90113fa6",
+      "sha256": "653a6e4bdaf5291ed43d032ea4c8a8a0f2b0b2ff5fffbbd8c4db8bc3f091ac81",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 238204,
+      "bytes": 132770,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-1.jpg",
@@ -720,7 +736,8 @@
         "bytes": 425611,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares12-2-0",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares12-2-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "0ed271d8e06d695e46c14a3b683eef716b45795c75fbb14ad76334583d2130b1",
+      "sha256": "a1b9d3facd79f391f2dab79a4631839f82eee3068f6fe7783401e789743d5707",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 278926,
+      "bytes": 151660,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-2_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-2_0.jpg",
@@ -762,7 +779,8 @@
         "bytes": 464426,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-2_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/exterieur-antares12-2_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -816,14 +834,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/lower-deck-antares-12.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "cec3bfd9f82cd7617b0ef7f87ed8fede45399e9cffa9edd3c1c873c8bab0ab5e",
+      "sha256": "2a0c576a51f3b8f4b9f9662d53ce7dabb9a448eaf06cb2fcabd7678d6edc96d3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 134832,
+      "bytes": 75514,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/lower-deck-antares-12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/lower-deck-antares-12.jpg",
@@ -834,7 +852,8 @@
         "bytes": 281416,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/lower-deck-antares-12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/lower-deck-antares-12.jpg",
+      "web_quality": 75
     },
     {
       "id": "dessus-fly-bi-moteur-antares12",
@@ -858,14 +877,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/dessus-fly-bi-moteur-antares12.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e9532ef739275abfa5ac990dffba4a814a6daddb756c38fbf55e08059df7a706",
+      "sha256": "91d2b11ceeebacfcf3ab23fc43381373758f06c5ef509b6b5ccf574aa2862906",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 82156,
+      "bytes": 49024,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/dessus-fly-bi-moteur-antares12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-fly-bi-moteur-antares12.jpg",
@@ -876,7 +895,8 @@
         "bytes": 479320,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-fly-bi-moteur-antares12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-fly-bi-moteur-antares12.jpg",
+      "web_quality": 75
     },
     {
       "id": "timonerie-bi-moteur-antares12",
@@ -900,14 +920,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/timonerie-bi-moteur-antares12.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "d423e5302e604eceaa9f0fca205b7290833c58b2379e8ef7cc2b4a6a612737f9",
+      "sha256": "ae9dcebad7683dd4c10a451b54e298fec3bc2857d05ce82917dc1bbf9f2ffd3a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 86758,
+      "bytes": 50972,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/timonerie-bi-moteur-antares12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/timonerie-bi-moteur-antares12.jpg",
@@ -918,7 +938,8 @@
         "bytes": 461441,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/timonerie-bi-moteur-antares12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/timonerie-bi-moteur-antares12.jpg",
+      "web_quality": 75
     },
     {
       "id": "dessus-tri-moteur-antares12",
@@ -942,14 +963,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/dessus-tri-moteur-antares12.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "150d5b604dda237e53a2f3356012a46b9f6e2ef3109fcd401cbe06baacd085a1",
+      "sha256": "152fa8318b230300245a78030c4bbfdd8660ce44e04f971279ed77206d0af781",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 88058,
+      "bytes": 51734,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-07/dessus-tri-moteur-antares12.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-tri-moteur-antares12.jpg",
@@ -960,7 +981,8 @@
         "bytes": 465513,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-tri-moteur-antares12.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/dessus-tri-moteur-antares12.jpg",
+      "web_quality": 75
     }
   ]
 }

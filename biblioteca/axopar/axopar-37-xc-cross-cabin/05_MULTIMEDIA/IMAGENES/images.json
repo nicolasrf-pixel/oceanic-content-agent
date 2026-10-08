@@ -65,10 +65,10 @@
         "my24"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/HELM/axopar-37-xc-cross-cabin-my2024-099a3613.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "d6535bbff66c0dbdb97027852ddf44108a4cd2d5a7488c93f0b32b43282d7e6b",
+      "sha256": "a594ae7659ff3224fbc5c3748f9982a7059c35412f98cb8d6bfc0e76f76cbcc7",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -86,7 +86,8 @@
         "bytes": 26069363,
         "full_resolution": true
       },
-      "bytes": 177856
+      "bytes": 92962,
+      "web_quality": 75
     },
     {
       "id": "l013146",
@@ -158,7 +159,7 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "72c75699557ae16f1f466a92808b5fb6cd45d006a758d0d40193b942cb6d4975",
+      "sha256": "0017cad00f50e0fab3844a95c57eaf76943534c2cd088981489c839f289870f8",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -177,7 +178,8 @@
         "bytes": 9010936,
         "full_resolution": true
       },
-      "bytes": 489822
+      "bytes": 369972,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2",
@@ -200,10 +202,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "dc2d4adf095902620fd473b10fc306bb4686d2ff68606865bbd2c606759b5c8b",
+      "sha256": "7025e1ab85434230fe8720c75ca1d6115f6353eb4bf57109a6944323400a9fdb",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -221,7 +223,8 @@
         "bytes": 19507292,
         "full_resolution": true
       },
-      "bytes": 228312
+      "bytes": 113598,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-sun-top",
@@ -287,7 +290,7 @@
       "width": 2560,
       "height": 1706,
       "format": "webp",
-      "sha256": "00cc4ba65482f675050286dad5b4cd402b33e0f6615de6f35dece41fed8bbace",
+      "sha256": "85214ce8709ea771896053a649fff05d2f890eef89490da6b105fb89bfe78943",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -306,7 +309,8 @@
         "bytes": 10341857,
         "full_resolution": true
       },
-      "bytes": 275376
+      "bytes": 136436,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a5133",
@@ -329,10 +333,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-37-xc-mediterrana-c4a5133.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "1211f3442f01973ef919cfc4f32534df0fb0d63bbc49eb9e9a860218e3865892",
+      "sha256": "e17f44b40bf274d850ba9837101645e9d641dda0ea24b2b108dfac6c4911a193",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -350,7 +354,8 @@
         "bytes": 13241301,
         "full_resolution": true
       },
-      "bytes": 300028
+      "bytes": 142782,
+      "web_quality": 75
     },
     {
       "id": "2659-axopar-37-manitowoc-marina-oct-21",
@@ -405,10 +410,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/CABIN/axopar-37-xc-bltp-r7a2211.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "5c313504aef3816b087d2745ba0c04e179788c49baf9fa90370fb6ffbdf44558",
+      "sha256": "452f0785969f52be046bd0369281159a2c90e0c2defdb4043b3983107f700375",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -426,7 +431,8 @@
         "bytes": 18048028,
         "full_resolution": true
       },
-      "bytes": 324304
+      "bytes": 152178,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210",
@@ -456,10 +462,10 @@
         "usa"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "1bc350cff70dc11811422a95007547b5fe2707aee7d6c6ad73280b3ad1437e12",
+      "sha256": "be49660f8cba9ae397e6576ac6b468797ff4ceba1adb32b4fad1ef86d016b7cb",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -477,7 +483,8 @@
         "bytes": 17526760,
         "full_resolution": true
       },
-      "bytes": 222288
+      "bytes": 117508,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-9",
@@ -508,10 +515,10 @@
         "my24"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-cross-cabin-my2024-9.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "8f801db962b93c44035c495cceb12c8c727c0b01b51fd3178e92bbe5eb83f697",
+      "sha256": "bbf8b86653119bf7055c53cf2ee81ccd153a0cef7cbf815742b51ae4050ffd74",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -529,7 +536,8 @@
         "bytes": 26268816,
         "full_resolution": true
       },
-      "bytes": 287452
+      "bytes": 150044,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-5",
@@ -560,10 +568,10 @@
         "my24"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/HELM/axopar-37-xc-cross-cabin-my2024-5.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "7d6b00856a259cca0d635c1bd8b971ad921a7bd60718eeb03fcf928050d07b13",
+      "sha256": "20a8b00e5d4bd8b7a76657aac7255f875af2737349631b87fdcc161807d147ef",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -581,7 +589,8 @@
         "bytes": 22743189,
         "full_resolution": true
       },
-      "bytes": 133812
+      "bytes": 73264,
+      "web_quality": 75
     },
     {
       "id": "axopar-connect-banner",
@@ -646,7 +655,7 @@
       "width": 2560,
       "height": 1708,
       "format": "webp",
-      "sha256": "05163688a608b842f340fde03845a4c08b76810c9cb534b88d586d09698c2a66",
+      "sha256": "d5b23ee39ccaa47ea7f8d4adc89d811a03e7b799b597628703167856803215cb",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -665,7 +674,8 @@
         "bytes": 37665876,
         "full_resolution": true
       },
-      "bytes": 839468
+      "bytes": 628764,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-sun-top-5906",
@@ -734,10 +744,10 @@
         "my23"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-37-xc-mediterrana-my2023-c4a5238.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "64f0c8425a8124c180396175260b8e569e2bd472d4abb7b007d3ff36d2589129",
+      "sha256": "1ab4e5df43fda71bf7c590c84663d87f3a5b9cb745c8b6cab1b831fe186a04dc",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -755,7 +765,8 @@
         "bytes": 11247634,
         "full_resolution": true
       },
-      "bytes": 259512
+      "bytes": 142496,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-bltp-my2020-dji-0858",
@@ -785,10 +796,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-bltp-my2020-dji-0858.webp",
-      "width": 1279,
-      "height": 1920,
+      "width": 1066,
+      "height": 1600,
       "format": "webp",
-      "sha256": "d9d15e24af473348dba23058197245c58ee1b09bf1b79cfae750d41e0ee6f3f5",
+      "sha256": "8a45b45d4471ef9af673067d6ff7246b66c387ebda74e3c0326d51736fc92195",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -806,7 +817,8 @@
         "bytes": 13380635,
         "full_resolution": true
       },
-      "bytes": 178030
+      "bytes": 63096,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-9664-axedit",
@@ -828,10 +840,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-cross-cabin-9664-axedit.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "713b3a7151c41fb7f8c9c33c5c65a5a1166763f3bdca454dcf2c2b92f5fe5e2a",
+      "sha256": "3892b9221fbb4b72404e95ee74390f5deb564f2fe8d117059c73271742971a03",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -849,7 +861,8 @@
         "bytes": 4415758,
         "full_resolution": true
       },
-      "bytes": 268134
+      "bytes": 145884,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-bltp-my2020-a45i3759",
@@ -879,10 +892,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-bltp-my2020-a45i3759.webp",
-      "width": 1280,
-      "height": 1920,
+      "width": 1067,
+      "height": 1600,
       "format": "webp",
-      "sha256": "e10df6d891f2d3082206a9f021959ed8d32a4a65108f937d7d42d6adfc243527",
+      "sha256": "b93c7b747ee7fd27a249d2a337daeb73e5e50835f623ad9a2c8cf3f709964fb6",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -900,7 +913,8 @@
         "bytes": 10146246,
         "full_resolution": true
       },
-      "bytes": 273676
+      "bytes": 154792,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210-2",
@@ -1000,10 +1014,10 @@
         "usa"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-cross-cabin.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "9c51aa56895b1f79149e9e4844197cf8a543cefb9239e12adae5800b2485908b",
+      "sha256": "60516548c811e6c31182153da56a2e923e6cdad20bdb75396e908722c965fcb8",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1021,7 +1035,8 @@
         "bytes": 30293421,
         "full_resolution": true
       },
-      "bytes": 142520
+      "bytes": 65902,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-bltp-r7a1726-axedit",
@@ -1044,10 +1059,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-bltp-r7a1726-axedit.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "93812abc24135f197e2a49e076429353b721e9a6c72b5e27afbe44b5ecba433e",
+      "sha256": "8eef1ef9abf630c3b405fa9d7b8f53dd08ce8deec6f7d720d7848adabc00895a",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1065,7 +1080,8 @@
         "bytes": 13626826,
         "full_resolution": true
       },
-      "bytes": 140016
+      "bytes": 74914,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-099a3604",
@@ -1095,10 +1111,10 @@
         "my24"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-37-xc-cross-cabin-my2024-099a3604.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "8488f7627c9630302726c9761a49113cccd8764aa739099452d659fbb40866c2",
+      "sha256": "3bb7c0b9e59c0946769b759fa052e6c190dc9f9bf1c6b2306caf3324e48fa7b3",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1116,7 +1132,8 @@
         "bytes": 22161773,
         "full_resolution": true
       },
-      "bytes": 191142
+      "bytes": 102550,
+      "web_quality": 75
     },
     {
       "id": "37-icon-edition-hero",
@@ -1169,10 +1186,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-bltp-662a1511.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "df82fcb624a01a71655079fd55b9e8b24e6abc3989476f2776e533d5752d82a9",
+      "sha256": "f270228830843c0ff037bc81441ace2f71f9ed546af8df326fe62d71214ed311",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1190,7 +1207,8 @@
         "bytes": 18490714,
         "full_resolution": true
       },
-      "bytes": 79944
+      "bytes": 44624,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-8569",
@@ -1212,10 +1230,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-cross-cabin-8569.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "f2404e9c6ee5bd6b80cd239b7af01f7f8d6580963b456f2a95fa9736cca3cf67",
+      "sha256": "0d1ab393c2bd5d327bd8a74085c0fe68ccf2a62bc5df95fb0c6f141dfd962702",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1233,7 +1251,8 @@
         "bytes": 10640261,
         "full_resolution": true
       },
-      "bytes": 138396
+      "bytes": 70506,
+      "web_quality": 75
     },
     {
       "id": "axopar-bltp-c4a1061",
@@ -1317,10 +1336,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-miami-blue-sandstone.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "af0d0e71e89aa3484d86955ba150a1367d2ce1e5908c11f122db0dc482a849f3",
+      "sha256": "c83ab80fc2edb21fcdb184b248b2eb0abc26bfe96b994adc9b2d9ba29120ff04",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1338,7 +1357,8 @@
         "bytes": 1252328,
         "full_resolution": true
       },
-      "bytes": 108054
+      "bytes": 76556,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-platinum-grey-petrol",
@@ -1360,10 +1380,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-platinum-grey-petrol.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "975eb60c1d3a072292021a6833bd61e1cacb752044a65df58546540320e71b41",
+      "sha256": "53786814baeb9b657d451473f430d89fe8a731d9e39be11dcca2d22f14777965",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1381,7 +1401,8 @@
         "bytes": 1205358,
         "full_resolution": true
       },
-      "bytes": 98098
+      "bytes": 71724,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-glacier-blue-cobre",
@@ -1403,10 +1424,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-glacier-blue-cobre.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "0982c1b9697af59a14721fa655dba7b6a9dc9443b141f480925f89aefea4c593",
+      "sha256": "be3373255757d7d8f1f3579a477a5b1de1ebe78f28f852c5a53598997323a1b9",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1424,7 +1445,8 @@
         "bytes": 1272867,
         "full_resolution": true
       },
-      "bytes": 105256
+      "bytes": 75438,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-agate-baltic",
@@ -1446,10 +1468,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-agate-baltic.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "cd9ad8f1c1cd2295d1009149e8bbb8ca4dd7f88c85d45bdcd157d1d7a8641002",
+      "sha256": "6b5d000eeb67559b9f366015d95432846d2fa14832dd55ecec772e6700cd1352",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1467,7 +1489,8 @@
         "bytes": 1265243,
         "full_resolution": true
       },
-      "bytes": 102466
+      "bytes": 74222,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
@@ -1499,7 +1522,7 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "f4c4228747f7d02330278f71b0c5f1b65256d27047b55a4955ea3a963e88162b",
+      "sha256": "33c3f9cb2169c3d244bdbe9676f2fa21ab065d008cb082543f6e88c48f06c448",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1518,7 +1541,8 @@
         "bytes": 16360487,
         "full_resolution": true
       },
-      "bytes": 313852
+      "bytes": 228180,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223",
@@ -1547,10 +1571,10 @@
         "usa"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "cc90dd53363f4d57d27015b29821f2032cc3e95b47beb5c6ecbd3b6ce6a721cd",
+      "sha256": "ba0b0a195084cf373a8c5f608de5c1be24b6ad9482285a0fc0db0ec1701e04fd",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1568,7 +1592,8 @@
         "bytes": 19175636,
         "full_resolution": true
       },
-      "bytes": 270464
+      "bytes": 147048,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-099a9348",
@@ -1597,10 +1622,10 @@
         "uae"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-37-xc-cross-cabin-099a9348.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "66f1130bccde273bf5a7eb3b2af974aefd8ba824eb21d1c6f5b250448f219563",
+      "sha256": "a71d4ae430f148caaaf47531cd519ab30bcb1ce076edd977b935df9be0b57915",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1618,7 +1643,8 @@
         "bytes": 19433515,
         "full_resolution": true
       },
-      "bytes": 53670
+      "bytes": 32018,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-099a8696",
@@ -1650,7 +1676,7 @@
       "width": 2560,
       "height": 1708,
       "format": "webp",
-      "sha256": "cc8c66e6498e67ca7a4d767458e0011d542485cd86318ed1005e9cbe5e339e62",
+      "sha256": "1d0817a634afa23e13deda8b70efa41957560c6c91ebaa416798a3864d1910c3",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1669,7 +1695,8 @@
         "bytes": 24860704,
         "full_resolution": true
       },
-      "bytes": 219006
+      "bytes": 155062,
+      "web_quality": 75
     },
     {
       "id": "c4a1894",
@@ -1722,10 +1749,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-mediterrana-c4a4285.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "da0d029157cc1663520f91954bf70190db1c0c7af6271d0f1839501ade09c264",
+      "sha256": "6af307d57cf70dbea4ce187d8c03583aa662906b774d3ca32b0dcf20e11b4e2a",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1743,7 +1770,8 @@
         "bytes": 12318781,
         "full_resolution": true
       },
-      "bytes": 318214
+      "bytes": 155460,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a5052",
@@ -1765,10 +1793,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-mediterrana-c4a5052.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "667f960468adf88b7f9bb8a2074770cbf3cf562a27a0aa9d969a616b0ac37f7d",
+      "sha256": "b29e3dd15aaa83478a67b28de651185141d5965d3f1c54f7af6cdec12c95b812",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1786,7 +1814,8 @@
         "bytes": 12124483,
         "full_resolution": true
       },
-      "bytes": 350338
+      "bytes": 173554,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a4929",
@@ -1808,10 +1837,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-mediterrana-c4a4929.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "67090a1716a60b93f4746ef624aa3c23c88ab2a3de87a71df7b98c798a9c5e8d",
+      "sha256": "ed70a073e486efb2e5516ba0c22497d5cfc3e890996d27a9211f35a3fef308a4",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1829,7 +1858,8 @@
         "bytes": 18849736,
         "full_resolution": true
       },
-      "bytes": 417634
+      "bytes": 208508,
+      "web_quality": 75
     },
     {
       "id": "wbg-0003-ax37xc-open-aft",
@@ -1852,10 +1882,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/wbg-0003-ax37xc-open-aft.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "aa2b99f0b4d56d4e10052f1c2bc28fd53914b53a9acfd341585085317a15dcf4",
+      "sha256": "d51592c5c495c4a2aae776b25ac7383a35f576e30bfbc1c2e8e4173aa026eee0",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1873,7 +1903,8 @@
         "bytes": 236574,
         "full_resolution": true
       },
-      "bytes": 81128
+      "bytes": 51674,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-aft-bench",
@@ -1896,10 +1927,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-aft-bench.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "45ba8fe7169017c6dec2db755f983b144ea1ef69995be9652d0847b00974c6a1",
+      "sha256": "7fcac5112823c6dcc066a97296088106fa454f8b7484cf8c72e17ebc439e6ae8",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1917,7 +1948,8 @@
         "bytes": 1955650,
         "full_resolution": true
       },
-      "bytes": 108836
+      "bytes": 77682,
+      "web_quality": 75
     },
     {
       "id": "wbg-0000-ax37xc-wet-bar",
@@ -1940,10 +1972,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/wbg-0000-ax37xc-wet-bar.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "4a2031b443aa38978b5878484fe09f32a1c81dcda2c6ac755f2ccd8b7984fb5b",
+      "sha256": "57b4f80bc765ed483fe3a0afdd46f61f2fb47f21c9064e7cf74f04f198b72be6",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -1961,7 +1993,8 @@
         "bytes": 246010,
         "full_resolution": true
       },
-      "bytes": 84322
+      "bytes": 54354,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-multi-storage",
@@ -1984,10 +2017,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-multi-storage.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "d0a87694a2828a3e3bd750386e9990bcb77e2727b93316904b9aff4c76c3c210",
+      "sha256": "6deb0ef0aa9cff6b66aa9c7be7bc41b4f8dd4d96f7e9051dc00fdb133b8d28c3",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2005,7 +2038,8 @@
         "bytes": 1936795,
         "full_resolution": true
       },
-      "bytes": 105718
+      "bytes": 76404,
+      "web_quality": 75
     },
     {
       "id": "wbg-0002-ax37xc-usofa-table",
@@ -2028,10 +2062,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/wbg-0002-ax37xc-usofa-table.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "898e01dbcf234c291322ad3287bfc7308b7f25618383a8b0a5ea0b5eea9c2c59",
+      "sha256": "3615505e89f6d803877ccc073d68fe79dcd14bc0eac4a3be90221ada56f6d45a",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2049,7 +2083,8 @@
         "bytes": 259072,
         "full_resolution": true
       },
-      "bytes": 88484
+      "bytes": 56210,
+      "web_quality": 75
     },
     {
       "id": "wbg-0001-ax37xc-usofa",
@@ -2072,10 +2107,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/wbg-0001-ax37xc-usofa.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "7522a4e3ade04da32f5ddffaf8899c8a8f9e07a5edd7f97edb557871201f618b",
+      "sha256": "33045496a7e54b56e35890a2f84deb66c8569c6b131ab37152638ea130119ade",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2093,7 +2128,8 @@
         "bytes": 255609,
         "full_resolution": true
       },
-      "bytes": 86852
+      "bytes": 54870,
+      "web_quality": 75
     },
     {
       "id": "wbg-0006-ax37xc-aft-cabin",
@@ -2116,10 +2152,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/wbg-0006-ax37xc-aft-cabin.webp",
-      "width": 1623,
-      "height": 1920,
+      "width": 1353,
+      "height": 1600,
       "format": "webp",
-      "sha256": "148aa7639afcb180387617aedb96660c0ca8aa43c5b8f3775f32997ec969ff6a",
+      "sha256": "42ffcf4d380c04e0637dfa5a8d8595134587b0dbc8017023d44c6f389ef3cd8b",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2137,7 +2173,8 @@
         "bytes": 253459,
         "full_resolution": true
       },
-      "bytes": 87926
+      "bytes": 55150,
+      "web_quality": 75
     },
     {
       "id": "aft-bench",
@@ -2160,10 +2197,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/aft-bench.webp",
-      "width": 1511,
-      "height": 1920,
+      "width": 1259,
+      "height": 1600,
       "format": "webp",
-      "sha256": "8ea92c7a07333d234d3aa66f5cabe1f8fbc02f3290af9e43850f5166756e609d",
+      "sha256": "25a4341be07dd77dc7fde71c815144d7bf4eaaa3ba82bde11c47af2369e11443",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2181,7 +2218,8 @@
         "bytes": 2102020,
         "full_resolution": true
       },
-      "bytes": 68634
+      "bytes": 49286,
+      "web_quality": 75
     },
     {
       "id": "ax37xcxc-wetbar-petrol-hires",
@@ -2204,10 +2242,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xcxc-wetbar-petrol-hires.webp",
-      "width": 1511,
-      "height": 1920,
+      "width": 1259,
+      "height": 1600,
       "format": "webp",
-      "sha256": "3f43c703b8a10d719fe78d3ce3ecf49443f35145aed719ea5c38009de5151cd1",
+      "sha256": "2c1917957e0382445d6ad322fa9d2fa549656e838f455eed8e865a125721f5cb",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2225,7 +2263,8 @@
         "bytes": 2512044,
         "full_resolution": true
       },
-      "bytes": 74102
+      "bytes": 53606,
+      "web_quality": 75
     },
     {
       "id": "multi-storage",
@@ -2248,10 +2287,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/multi-storage.webp",
-      "width": 1511,
-      "height": 1920,
+      "width": 1259,
+      "height": 1600,
       "format": "webp",
-      "sha256": "ae3b7ada1dbbde08ea4d74e77cad20117a1418f8bc98c6d3c0590d90d0a7aa5e",
+      "sha256": "5e7ab644f52fe6c5953f6f48bd922c1769233b4c0e76dbe870e7f1ad3eb74c9f",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2269,7 +2308,8 @@
         "bytes": 2073719,
         "full_resolution": true
       },
-      "bytes": 67152
+      "bytes": 48212,
+      "web_quality": 75
     },
     {
       "id": "aft-cabin-std",
@@ -2292,10 +2332,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/aft-cabin-std.webp",
-      "width": 1511,
-      "height": 1920,
+      "width": 1259,
+      "height": 1600,
       "format": "webp",
-      "sha256": "6672b8c45c7fd33cf0ee237d5f554065cb7a2191a7a70659160728cd7647ec24",
+      "sha256": "6688f701fbd8ca1eee64c8beeff5ef9d2f303524d304b801b67f879a1c1da513",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2313,7 +2353,8 @@
         "bytes": 2123809,
         "full_resolution": true
       },
-      "bytes": 69028
+      "bytes": 49632,
+      "web_quality": 75
     },
     {
       "id": "ax37xc-aftcabin-petrol-hires",
@@ -2336,10 +2377,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax37xc-aftcabin-petrol-hires.webp",
-      "width": 1511,
-      "height": 1920,
+      "width": 1259,
+      "height": 1600,
       "format": "webp",
-      "sha256": "09e940d4f08b7911636175d27a3a47c2621bf3054e8e02572d0ffca96cee0bcd",
+      "sha256": "26c57a3705a760c38f9c20be29098e50da6b1e386296ea5a3e55f6014fdc9fe5",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2357,7 +2398,8 @@
         "bytes": 2527185,
         "full_resolution": true
       },
-      "bytes": 74292
+      "bytes": 53274,
+      "web_quality": 75
     },
     {
       "id": "petrol-front",
@@ -2380,10 +2422,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/petrol-front.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "1df7b2e7f6f0ae45fad8f1470660233e25e14b43ab6c3fc57b66c475cd3d7f96",
+      "sha256": "f221dadf9487d20a5edcca66cf67f666bbffb5a449cd63429fe102bb8356fbcd",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2401,7 +2443,8 @@
         "bytes": 9549851,
         "full_resolution": true
       },
-      "bytes": 384474
+      "bytes": 160096,
+      "web_quality": 75
     },
     {
       "id": "hunter-sage",
@@ -2424,10 +2467,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/hunter-sage.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "c137a6e7b2bc22d41c8a2c3138e6e19e31451112443cb15c41855873f0f89187",
+      "sha256": "86df985a90e9d5ef6ea832be40c5209cd47617293365245ea27573d43aee86cd",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2445,7 +2488,8 @@
         "bytes": 8650287,
         "full_resolution": true
       },
-      "bytes": 458878
+      "bytes": 213550,
+      "web_quality": 75
     },
     {
       "id": "squash-corn",
@@ -2468,10 +2512,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/squash-corn.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "b0614004fc31185ec23fdcbdb0b7d11fe2539df253ba0fd92bbf752bbebe3019",
+      "sha256": "48157de54ac49dda8f6525b9baad8c68e61eeddfdf7f5859f732eccb84e733a3",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2489,7 +2533,8 @@
         "bytes": 13654834,
         "full_resolution": true
       },
-      "bytes": 437882
+      "bytes": 193474,
+      "web_quality": 75
     },
     {
       "id": "taupe",
@@ -2515,7 +2560,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "ea29e7a61d780bf513be5108fcb9d0715029b2aaa1de1676cbf120061472763d",
+      "sha256": "cbca95647249314a691b1866636956167a07550b1daa0b15a54533265e8b46af",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2533,7 +2578,8 @@
         "bytes": 356598,
         "full_resolution": true
       },
-      "bytes": 344542
+      "bytes": 290632,
+      "web_quality": 75
     },
     {
       "id": "natural",
@@ -2559,7 +2605,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "f86ad66e33037e1d2cf36f653e114557db69fe0516d551734a564331b9d26253",
+      "sha256": "8a3c981164bd4852e6537973dd35bd7720ecb1d772deaa14378d5b1370dd6eef",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2577,7 +2623,8 @@
         "bytes": 181269,
         "full_resolution": true
       },
-      "bytes": 143686
+      "bytes": 107980,
+      "web_quality": 75
     },
     {
       "id": "antracite",
@@ -2603,7 +2650,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "55e9612543c4037d3345cc94740ad4e65100bb1b106b8b5caa4eba62f8d06158",
+      "sha256": "97535b2b1019f4bda93484f5666d1848c1cb11e50eb27388cdaa0fd3e79e4de6",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2621,7 +2668,8 @@
         "bytes": 309069,
         "full_resolution": true
       },
-      "bytes": 247284
+      "bytes": 206690,
+      "web_quality": 75
     },
     {
       "id": "axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
@@ -2644,10 +2692,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axcopar-37-xc-cross-cabin-iconic-edition-surroundings.webp",
-      "width": 1920,
-      "height": 962,
+      "width": 1600,
+      "height": 802,
       "format": "webp",
-      "sha256": "c022fc55943e36b918e72192509118b5cf8377905afbe72608f6034b1a51967d",
+      "sha256": "e2ed1915547b6e518dea2f7204a2cd0298e0dc34ac9761db88c7ce7c8fd42d07",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2665,7 +2713,8 @@
         "bytes": 693145,
         "full_resolution": true
       },
-      "bytes": 328890
+      "bytes": 185572,
+      "web_quality": 75
     },
     {
       "id": "axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
@@ -2688,10 +2737,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2.webp",
-      "width": 963,
-      "height": 1920,
+      "width": 803,
+      "height": 1600,
       "format": "webp",
-      "sha256": "f81b5d3e170b514e5a92b40625bb0d508b7cecba349ec2901774019655204b34",
+      "sha256": "70732b28ca579dc65dc349f3943bda884a6d1a4dd926b79d5943fd3968770d1d",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
       "download_status": "WEB_COPY",
@@ -2709,7 +2758,8 @@
         "bytes": 3493173,
         "full_resolution": true
       },
-      "bytes": 171324
+      "bytes": 95062,
+      "web_quality": 75
     }
   ]
 }

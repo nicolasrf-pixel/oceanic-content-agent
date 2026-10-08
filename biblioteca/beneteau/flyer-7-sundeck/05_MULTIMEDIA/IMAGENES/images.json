@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "aea19ba17945f22763a507fc81068069c40f3d3279d9de778f1c6b9109f3e450",
+      "sha256": "0037e6f109611d8f496e3b83e35ee6d28040de0e78192ae1dcde289eaa67593f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 148022,
+      "bytes": 109190,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-sundeck-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-sundeck-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 434456,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-sundeck-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-7-sundeck-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-ext1-1",
@@ -73,12 +74,12 @@
       "width": 1832,
       "height": 1221,
       "format": "webp",
-      "sha256": "c115d43eee7128b41b962f8c94f689ebec7934e11ac95f639740a2a43bf6c9bd",
+      "sha256": "86962343fe8b487aa58a13127b9ea0ffd9d48b191b598176c8bc9c2eab268be5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 123052,
+      "bytes": 90458,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext1_1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext1_1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 331922,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext1_1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext1_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-ext3",
@@ -116,12 +118,12 @@
       "width": 1832,
       "height": 1221,
       "format": "webp",
-      "sha256": "1b5f2b685dbaf2887998ac9a8d5dca0964e611d354555e41f06bc6131b6df6a0",
+      "sha256": "fe4f92b17a47cf94299116f414aa1a95a61cef49466168e41c9e1f53a171b618",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 133980,
+      "bytes": 106590,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext3.jpg",
@@ -132,7 +134,8 @@
         "bytes": 942742,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext3.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-ext4",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/flyer7sundeck-ext4.webp",
-      "width": 1832,
-      "height": 1221,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "c989d164318d32fb3851da1d7d2e4576fc3b3d365a237889d12cae808ddbbd84",
+      "sha256": "7c38f076041098459260efce00bda9c91f5b0adad79eb7e47e2b0d6bcf749a67",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 232192,
+      "bytes": 139808,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext4_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext4_.jpg",
@@ -174,7 +177,8 @@
         "bytes": 832485,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext4_.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_ext4_.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-int1",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/flyer7sundeck-int1.webp",
-      "width": 1832,
-      "height": 1221,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "311cd57a187d00cc76afe73e4836cb8542cb91d85d765b12733b97a37537a139",
+      "sha256": "b51590e628495f93b98a20a3113dd5978a7ae3a0e1a98f6d1dcf760692efed4d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 117108,
+      "bytes": 47726,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_int1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_int1.jpg",
@@ -216,7 +220,8 @@
         "bytes": 487725,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_int1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_int1.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
@@ -273,11 +278,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "9550d7174e3d138a6be3d1ce914f60fd675bac62e7fcd038aac9dfdfc3b9a848",
+      "sha256": "418a2209370771552f4af5f44363e59f57efb75bbac5ae98b1ebcab9772445ca",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 69652,
+      "bytes": 52802,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-2-1500x819.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-2-1500x819.jpg",
@@ -288,7 +293,8 @@
         "bytes": 493483,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-2-1500x819.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-2-1500x819.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer-7-sundeck-flyer-edition-1500x819",
@@ -315,11 +321,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "3dffeeb08637985f2725a13cfb91fa105a330c321819e98c5073de873a8bdd34",
+      "sha256": "35bdaaa1533d80a6b36ca87c49caaf4bdcb9b756845e437a74794de584f0d182",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 49188,
+      "bytes": 32638,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-1500x819.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-1500x819.jpg",
@@ -330,7 +336,8 @@
         "bytes": 494516,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-1500x819.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-7-SUNdeck-Flyer-edition-1500x819.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-sensations",
@@ -354,14 +361,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer7sundeck-sensations.webp",
-      "width": 1832,
-      "height": 1221,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "b8f5454fe346092b49f08b76fb0960dc1f8fae9878fb6fde6a59ebc1a9cb1273",
+      "sha256": "f5f027e7e6b5fb7efe7cc91a36e5fc68ca934600ae707e65330c7bbb40026b32",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157118,
+      "bytes": 92828,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_sensations_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_sensations_.jpg",
@@ -372,7 +379,8 @@
         "bytes": 632732,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_sensations_.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_sensations_.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-transportable",
@@ -396,14 +404,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/flyer7sundeck-transportable.webp",
-      "width": 1832,
-      "height": 1221,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "61cdecaac2a9e7b2898039cff72f4543f7800b650a7a18d860c3fb3d6757e75f",
+      "sha256": "5ca2749c6a6f1650a376104ba12f6e5cd97bcf14c91703fdb3329cea470b92ad",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 187746,
+      "bytes": 109364,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/flyer7sundeck_transportable_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_transportable_.jpg",
@@ -414,7 +422,8 @@
         "bytes": 704127,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_transportable_.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer7sundeck_transportable_.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7-usp4-cockpit",
@@ -438,14 +447,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/COCKPIT/flyer7-usp4-cockpit.webp",
-      "width": 1650,
-      "height": 569,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "bc428b5d645d273d2859fcb90995ab256fcfd6fc48789667b1c08569f756d20d",
+      "sha256": "444fb73ea508e608c602fc720150180f213d97e1de8e70bea2a7b998a1cd219f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 82212,
+      "bytes": 53482,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/flyer7-usp4-cockpit.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer7-usp4-cockpit.jpg",
@@ -456,7 +465,8 @@
         "bytes": 157671,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer7-usp4-cockpit.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/flyer7-usp4-cockpit.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -513,11 +523,11 @@
       "width": 400,
       "height": 225,
       "format": "webp",
-      "sha256": "9051120978c6dcd4d1375a5830e4474d2471d8fe0c76448efb08de4fa7ee9d6e",
+      "sha256": "9186f2db6799e481162c854c314dc59db63fc1252a7172d6320b17de7be12cee",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 8114,
+      "bytes": 7400,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_STD.png.PNG",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_STD.png.PNG",
@@ -528,7 +538,8 @@
         "bytes": 43601,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_STD.png.PNG"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_STD.png.PNG",
+      "web_quality": 75
     },
     {
       "id": "profil-flyer7sun-elegance-png",
@@ -555,11 +566,11 @@
       "width": 400,
       "height": 225,
       "format": "webp",
-      "sha256": "4e9c410b57a28714886f11e35a8b9e565e4dc1135c4a7c53355e07db9653d52d",
+      "sha256": "01a4f068d41b38bb646887a1c34e7a0ff95219f9078278f352050f182d12d259",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 8114,
+      "bytes": 7430,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_ELEGANCE.png.PNG",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_ELEGANCE.png.PNG",
@@ -570,7 +581,8 @@
         "bytes": 44290,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_ELEGANCE.png.PNG"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-Flyer7SUN_ELEGANCE.png.PNG",
+      "web_quality": 75
     },
     {
       "id": "profile-flyer-7-sundeck-gris-perle",
@@ -597,11 +609,11 @@
       "width": 400,
       "height": 225,
       "format": "webp",
-      "sha256": "56478d55b706ae44c5cc5e4ca1076000b2c4327c2df115c915f5476a6ed90940",
+      "sha256": "54b38cf7c035034a08b73127131969d494b64cd4ee2fe3a6870cd2dc9be54da1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 4588,
+      "bytes": 3750,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-sundeck-gris-perle.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-sundeck-gris-perle.jpg",
@@ -612,7 +624,8 @@
         "bytes": 25191,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-sundeck-gris-perle.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-7-sundeck-gris-perle.jpg",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-plan-std",
@@ -639,11 +652,11 @@
       "width": 800,
       "height": 559,
       "format": "webp",
-      "sha256": "7ded5ac961e942ddf4163dcb0518cb5e2809d9275833d1f704a2f4768f047298",
+      "sha256": "af8f551b54afff41d9178f18348b0d735b938579721cba56c114c4c65b258ed9",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17822,
+      "bytes": 15340,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-std.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-std.png",
@@ -654,7 +667,8 @@
         "bytes": 152670,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-std.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-std.png",
+      "web_quality": 75
     },
     {
       "id": "flyer7sundeck-plan-elegance",
@@ -681,11 +695,11 @@
       "width": 800,
       "height": 559,
       "format": "webp",
-      "sha256": "3782601a3e5bbe9c86824d209d466437d768da4a8675cc6725deaf57a26cb0a2",
+      "sha256": "5009338abd0d657f6c4bcfb987c855fee83f45a1de67e8fb2988c03d29799d7a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20078,
+      "bytes": 16918,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-elegance.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-elegance.png",
@@ -696,7 +710,8 @@
         "bytes": 162536,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-elegance.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/flyer7Sundeck-plan-elegance.png",
+      "web_quality": 75
     }
   ]
 }

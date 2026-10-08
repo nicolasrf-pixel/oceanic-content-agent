@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "ff24f126f2c965a16703dcf9667a98f3cc002eb74d3c26783fd033fe1a69097d",
+      "sha256": "230c2ab418575243225e93b6ec58c10b9457e49b8b0eb8626f5d6fef5c0171b3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 565358,
+      "bytes": 456454,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/gt-50-header-desktop.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/gt-50-header-desktop.jpg",
@@ -46,7 +46,8 @@
         "bytes": 506282,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/gt-50-header-desktop.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/gt-50-header-desktop.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-exterieur-2",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "03c67cbe6af20ba9c5c58ab151fb9078db6301166bc88feb5e25e6ae133181cf",
+      "sha256": "215c31456d3ae1e5aa3832fa1d1ce514723c2dc67021fb3a9839a562ad7c6d6f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 665954,
+      "bytes": 496906,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-2.jpg",
@@ -89,7 +90,8 @@
         "bytes": 408622,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-exterieur-1",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "66452d947c9c0082d01baf602bee4ff94f174518ddd3f1c69436e39e03b64333",
+      "sha256": "c9ec360cc5d9479f18b61359c9444d3399f9ae03ab8670e30758489b9eca260e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 703374,
+      "bytes": 565414,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-1.jpg",
@@ -132,7 +134,8 @@
         "bytes": 450496,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-exterieur-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gt-50-image-exterieur-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "afb67a9e130fd46bb0d6bca9d3421b7ffb1a50b27903001606e660229da4a0ff",
+      "sha256": "1da895866fa7e20ccb417e0c24cffd14a8e843444fa8063ee455d95622ac55af",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 324236,
+      "bytes": 170740,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 492014,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-exterieur-4",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gt-50-image-exterieur-4.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "c5af0487b31d9c2fb2c43975dd5c9fc18effcff987b6e0bd0e84c66bc246b73c",
+      "sha256": "73cd604e2485e9527a3bfb55637ac5e659553d1aa255d7bc2bb53a1f7bbcefa4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 380064,
+      "bytes": 195768,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 381836,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-exterieur-5",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gt-50-image-exterieur-5.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "65a76ce74b3ae1f35f809d1b13d760f67baff7b49c0649fd2f651a34705cb718",
+      "sha256": "ae6eebeadc1e213a638365999abdf27ae4c0a1a5fce21a791c08f1e6fb555ba8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 414136,
+      "bytes": 228136,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-5.jpg",
@@ -258,7 +263,8 @@
         "bytes": 412071,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-exterieur-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-interieur-1",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt-50-image-interieur-1.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "debd1ba4468a853cd0a832b03f1d51a82152b5587154aaaf347609ae8395281b",
+      "sha256": "112d581715f8bc15320555df6c5cd70c1ecde932424f23594f30c40caee1b373",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189608,
+      "bytes": 98306,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-1.jpg",
@@ -300,7 +306,8 @@
         "bytes": 497010,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-interieur-2",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt-50-image-interieur-2.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "ccab867c1fee813c5fb7c26d63973e4c402c411f682b9d7f4f28c8217622e3d9",
+      "sha256": "41f0bd833ffb4833a9f92780a1d451fa8711e620fc67c287483cc84e2c083a74",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 223374,
+      "bytes": 97264,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-2.jpg",
@@ -342,7 +349,8 @@
         "bytes": 490803,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-interieur-3",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt-50-image-interieur-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "d2e9da01da83e9e964a616a3d26a5e2e87c4715ecc6d668dd835d5d8f0ab816c",
+      "sha256": "92ad839a673483bbf3742e1561bf59cf4883d305ebe7b6e1b6ea1bc9347bd17a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204568,
+      "bytes": 86978,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-3.jpg",
@@ -384,7 +392,8 @@
         "bytes": 511660,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-interieur-4",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt-50-image-interieur-4.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "3692ef0b599cf7bddd540432ecf066d3e1fafa1be1f4f16390339f846dc8314c",
+      "sha256": "fccc631356e902bf958e0804e7f3a2fea1e3b05adc017b715898c7a2955e1741",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 174452,
+      "bytes": 97450,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-4.jpg",
@@ -426,7 +435,8 @@
         "bytes": 486772,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-interieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt-50-image-poste-pilotage",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/HELM/gt-50-image-poste-pilotage.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "3746c286a837c08c072f17d3f2f734600b3be85931f1af07e7f3d834a51fd8e4",
+      "sha256": "08b09a593fd5342f0bf34533b933a05ef76c9bdfd9936218a3bc7456f6b3d033",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 248594,
+      "bytes": 128810,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-poste-pilotage.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-poste-pilotage.jpg",
@@ -468,7 +478,8 @@
         "bytes": 510321,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-poste-pilotage.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/gt-50-image-poste-pilotage.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-1-gt-50-beneteau",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-1-gt-50-beneteau.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "3f38a3e7f104b5fffa21eeb5dde7110774b09a9bff24e974a812640224d0a267",
+      "sha256": "bf40599ec3120bda4b860447da49f55c0aa79289d46437014d52998b5e0fa133",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 457206,
+      "bytes": 264166,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-gt-50-beneteau.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-gt-50-beneteau.jpg",
@@ -510,7 +521,8 @@
         "bytes": 509848,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-gt-50-beneteau.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-gt-50-beneteau.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-2-gt-50-beneteau",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-2-gt-50-beneteau.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "b8b9a01a3234c6df02d194714472b0035b5afb43e9975f8b8fa38e17d6b66f2b",
+      "sha256": "8fff5af54f6114d273d559929a6864b6ae6119ba1972b615201e1f3193f7e5a0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 142320,
+      "bytes": 77904,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-gt-50-beneteau.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-gt-50-beneteau.jpg",
@@ -552,7 +564,8 @@
         "bytes": 464057,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-gt-50-beneteau.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-gt-50-beneteau.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-3-gt-50-beneteau",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-3-gt-50-beneteau.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "6291e2d7c3d9e60416f5fa447e21849297317b247da4aec2d2f4a3b50c93db79",
+      "sha256": "e47bcc7dd609d794967c0cf69e3e4652930a5557942a222690cf26dedf30a7a6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 212042,
+      "bytes": 109280,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-gt-50-beneteau.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-gt-50-beneteau.jpg",
@@ -594,7 +607,8 @@
         "bytes": 506025,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-gt-50-beneteau.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-gt-50-beneteau.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-gran-turismo-50-standard",
@@ -621,11 +635,11 @@
       "width": 370,
       "height": 176,
       "format": "webp",
-      "sha256": "ee56eed1153421807c107c24d9c87cf0fb7a2e408c0e229406f7577f8798b68e",
+      "sha256": "9cb7926d0688ee9e7bab7e3af61513105b98df712eaa89c4a2ed30a3b1ccfc6c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 8404,
+      "bytes": 7472,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/profile-gran-turismo-50-standard.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/profile-gran-turismo-50-standard.png",
@@ -636,7 +650,8 @@
         "bytes": 15397,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/profile-gran-turismo-50-standard.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/profile-gran-turismo-50-standard.png",
+      "web_quality": 75
     },
     {
       "id": "profilegt50-alp-ne",
@@ -663,11 +678,11 @@
       "width": 600,
       "height": 286,
       "format": "webp",
-      "sha256": "6bf9ee79858d391b8a024d41ea53da764324f97e6cbe30b271ba25d247ed7a67",
+      "sha256": "9a8c6f0f90abf5342459ca81a8a1617d951a060094e1d6956d6c8d35e7e1976a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 13730,
+      "bytes": 11594,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/profileGT50-Alp%C3%AEne.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/profileGT50-Alp%C3%AEne.png",
@@ -678,7 +693,8 @@
         "bytes": 81246,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/profileGT50-Alp%C3%AEne.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/profileGT50-Alp%C3%AEne.png",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-50-hard-top-standard",
@@ -705,11 +721,11 @@
       "width": 1090,
       "height": 761,
       "format": "webp",
-      "sha256": "64c135bbdf391d0b254206cf2a867acf3aefd2190f116b39517b08e11974640e",
+      "sha256": "5c22fa0c782855a1fb13cb2605a3ecaeee8da15bc2eb60d814c93bfc6d8fe712",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 25542,
+      "bytes": 20462,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-standard.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-standard.jpg",
@@ -720,7 +736,8 @@
         "bytes": 219832,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-standard.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-standard.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-50-hard-top-silent-boat-option-layout",
@@ -747,11 +764,11 @@
       "width": 1090,
       "height": 761,
       "format": "webp",
-      "sha256": "27b64936f5997df129861666a75eb1ecb56cfd9dbe50f1941e56fdb8e4dfa928",
+      "sha256": "1e588f0e0773288502ba628d6b04f38a8c2f06773c8de40e0536f55428d26782",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 26234,
+      "bytes": 20620,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-silent-boat-option-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-silent-boat-option-layout.jpg",
@@ -762,7 +779,8 @@
         "bytes": 219679,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-silent-boat-option-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-hard-top-silent-boat-option-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-50-cockpit-helm-station-layout",
@@ -789,11 +807,11 @@
       "width": 1090,
       "height": 761,
       "format": "webp",
-      "sha256": "40657edd9c0eccc20973a0c617e28ca9744844319a4f6798f81125d2c3f58a7f",
+      "sha256": "77fdfeb4634211213a72d28053fa73d4bb423c2608c3c64c3fde3ced5807c42d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 35284,
+      "bytes": 28072,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-helm-station-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-helm-station-layout.jpg",
@@ -804,7 +822,8 @@
         "bytes": 291157,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-helm-station-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-helm-station-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-50-cockpit-4-berths-configuration-layout",
@@ -831,11 +850,11 @@
       "width": 1090,
       "height": 761,
       "format": "webp",
-      "sha256": "533b2f9f4c46cce5cb2557de1df0c08969f8fcf34ac9856161b4dd3fe10b2d86",
+      "sha256": "c67f6ddf5702a6de77ac112309ea327fbf9e950127a8650b6219a10508d2fb6c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 32720,
+      "bytes": 26288,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-4-berths-configuration-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-4-berths-configuration-layout.jpg",
@@ -846,7 +865,8 @@
         "bytes": 281120,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-4-berths-configuration-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/gran-turismo-50-cockpit-4-berths-configuration-layout.jpg",
+      "web_quality": 75
     }
   ]
 }

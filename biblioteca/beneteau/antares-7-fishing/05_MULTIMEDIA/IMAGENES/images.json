@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "98603d383f7dd68bcd7a567da1adf9eaa774f0c7d4189cc1973f6ea935a3ebaf",
+      "sha256": "f654db4d085063fc7b50fb7f709ecd28c708aee2b68e1899bad9d14426bcc14b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 250326,
+      "bytes": 192118,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/antares-7-fishing-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-7-fishing-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 505444,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-7-fishing-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-7-fishing-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-1",
@@ -73,12 +74,12 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "8a3cbf0fdec7586abbed2179eafe1b98d98dcca653f2f71120c2e0eef44b5544",
+      "sha256": "24f321047f6392d5fb230c1a103f9cb5c1b35df12680c73425beb374d6a6567c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 130836,
+      "bytes": 102458,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 420999,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-2",
@@ -116,12 +118,12 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "d4d333157533a0e50479c9d526d5fcb4d77ef6f93ab3d59c12151a76bafad5ec",
+      "sha256": "c1961703e7b5e3a8ed7123014b8464eb065b10f501b56e84e2fc7396a882217d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 122694,
+      "bytes": 97192,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 478680,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-3",
@@ -159,11 +162,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "7858b894b44176e4fe73a8e0bb15d713ba5a7742bcceac7a3b5c5f3245a2dba7",
+      "sha256": "0d2957dc4c0da097fc29705f0143fd75530b902d8a8ed7411d1fbe4ca36efd28",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 130500,
+      "bytes": 101706,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 477701,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-4",
@@ -201,11 +205,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "2d536e3a7ca5433d8de5cded36709843a7b521114f37ce1e0a25fcebb97c754a",
+      "sha256": "04e70c83eefada44717104175e55a8b782e67b6a3902ac4bb804f4a9c23f40ce",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 137820,
+      "bytes": 105948,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 480079,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-5",
@@ -243,11 +248,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "cde26b69b0fe4c5b88f861b4edc624c350f60d46a6ba40f19f9837cb72eac8b9",
+      "sha256": "5629154b58cd8bfb15f40d1d35b18765e6974322beb97695127673c9fdbd97f5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 256346,
+      "bytes": 204360,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-5.jpg",
@@ -258,7 +263,8 @@
         "bytes": 478309,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext-6",
@@ -285,11 +291,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "442dbb732d06c1edbf5520b2da8dae98d65d0317dfaef2c227968a55ff64be37",
+      "sha256": "2f23aaeb31385b2f5dda17d1ef7201707fd0b870f0d930ac6ea95d687f3032e1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 164280,
+      "bytes": 128980,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-6.jpg",
@@ -300,7 +306,8 @@
         "bytes": 459543,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext7",
@@ -327,11 +334,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "995b7e89fb4ff70949afc3263d0530967cb72633608754aa4057134be1d92412",
+      "sha256": "8bc90d0ac00db63c570e47ae822de262d59bc4479cd2746413b995205a9ecb4c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 186870,
+      "bytes": 147692,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext7.jpg",
@@ -342,7 +349,8 @@
         "bytes": 473046,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext7.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext8",
@@ -369,11 +377,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "35633cf6e873ec2c5cfd717b54a538be8a1a7fda27aee5f4088a2657a0ca396f",
+      "sha256": "c920511dd7bcc3fcd5a470faddd4940b1f040c2106e691394216296312ea719b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 245990,
+      "bytes": 191490,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext8.jpg",
@@ -384,7 +392,8 @@
         "bytes": 447039,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext8.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext9",
@@ -411,11 +420,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "8f266f38a803ec66a06beb2bd3bdae972e2ed62344efc2e1fd6d2bbb10a4d7eb",
+      "sha256": "5f15912538e8df17b5f4c1fc7383cf64bd6af37008b2d826b233417fa2fe1e56",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 162018,
+      "bytes": 126648,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext9.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext9.jpg",
@@ -426,7 +435,8 @@
         "bytes": 472374,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext9.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext9.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext10",
@@ -453,11 +463,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "29f7718cd2a88f0e545f9d82c6c85947db6704816ad86e2bb87956b2d708d0e1",
+      "sha256": "c84d963819c5c3a9a23c0a01fb557f18b4b15c14870b425b39b1c4ff6001dca3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 252188,
+      "bytes": 205194,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext10.jpg",
@@ -468,7 +478,8 @@
         "bytes": 490632,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext10.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-ext11",
@@ -495,11 +506,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "92bf1baa4bd2fcdcf5cc3d09118b76a453aafdfc75d950e927031bc6b60dc742",
+      "sha256": "55df23f5dfbd20592a97ce29c33a9c17d7b475798504ee9ecd7b5984d8e85cf6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 98326,
+      "bytes": 75258,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext11.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext11.jpg",
@@ -510,7 +521,8 @@
         "bytes": 494913,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext11.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--ext11.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-6",
@@ -537,11 +549,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "d46cbbe2e81ff62d4a73b1b35527cfc50a97283907d0646cafedcd6b3688a040",
+      "sha256": "3b8fe8cd877532871ebd1032843a1c0a082cb6572f21380b1d5078c9396717f2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 147060,
+      "bytes": 112464,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-6.jpg",
@@ -552,7 +564,8 @@
         "bytes": 493072,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-7",
@@ -579,11 +592,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "53bafa5664c2943642f7a9db50517082d583e912df8251830f48f5ee32b3e6ff",
+      "sha256": "0ffb80454989e42fc3377c6f6dd4d42505e1794e82e5323c58805b5668fce28a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93510,
+      "bytes": 72164,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-7.jpg",
@@ -594,7 +607,8 @@
         "bytes": 485838,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-1",
@@ -621,11 +635,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "75347e45fcbd4bfe3b9cef38d6fd1cc3cc83bcd4d4b81bbbae7a2c9d155e13ca",
+      "sha256": "d36f03d96ccb19d50a5013d0200c5a03fa0672ec5f14797b0739b1604d07c18d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 139022,
+      "bytes": 107254,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-1.jpg",
@@ -636,7 +650,8 @@
         "bytes": 480463,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-2",
@@ -663,11 +678,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "e41b4b251abfa32e154ae2415028814c793eb409ac3a7a5240953e9a163901a4",
+      "sha256": "36b137035afe9255582bbee2b44ebbd8c1b7702f61aa466ddb2d38cb83ac0a16",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 95124,
+      "bytes": 69376,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-2.jpg",
@@ -678,7 +693,8 @@
         "bytes": 498412,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-3",
@@ -705,11 +721,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "58985055fe40b422f0c95d167d346e3929faa01238f5fa50be6cc5d6cda295cb",
+      "sha256": "0efc1734bc3849b1f13d7cb3c129eb598e4c7f78ec81653f6d7d10402edced91",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 92822,
+      "bytes": 69666,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-3.jpg",
@@ -720,7 +736,8 @@
         "bytes": 453427,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-4",
@@ -747,11 +764,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "86e4a725297a6af88dccac907f320e3900d468a2aeeb6b130577314748b35015",
+      "sha256": "ae0c20588d8e911a3cdd340393f402c5e0f0f78bdb360a9b64ffde78c6d01712",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 76608,
+      "bytes": 57876,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-4.jpg",
@@ -762,7 +779,8 @@
         "bytes": 460286,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-fishing-interior-5",
@@ -789,11 +807,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "8d91869eaa253b5bf11817ddcc7fae44fc647b15c2a7c39d46e4a8f26322ac83",
+      "sha256": "fc1df73f02d06b2c5c9015f4422f2ec7194eea4431e827cdcc3ec787c94a6a27",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 80016,
+      "bytes": 60552,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-5.jpg",
@@ -804,7 +822,8 @@
         "bytes": 474462,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/antares7-fishing--interior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "hero-antares7-fishing-desktop-1920x640-0",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/hero-antares7-fishing-desktop-1920x640-0.webp",
-      "width": 1920,
-      "height": 640,
+      "width": 1600,
+      "height": 533,
       "format": "webp",
-      "sha256": "a2ffcd32fb771ea05c3757d678d14704ca31ae8fda0e33f8e3a81ce60f7c6947",
+      "sha256": "3bf13a8d8ee39223bc57413b872415413cfe050c81fadde44572ba7490d2518c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 94132,
+      "bytes": 50876,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/hero-antares7-fishing-desktop-1920x640_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/hero-antares7-fishing-desktop-1920x640_0.jpg",
@@ -846,7 +865,8 @@
         "bytes": 427427,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/hero-antares7-fishing-desktop-1920x640_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/hero-antares7-fishing-desktop-1920x640_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-1640x566-2",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/antares-7-fishing-1640x566-2.webp",
-      "width": 1640,
-      "height": 566,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "c7f92a7d494a98182e5c7ba939745b4c8b97813330f515646b3330a37d7bbfd3",
+      "sha256": "40e0eb95788c8faa7807d4a39c03a23f23de99ec350b697f2a70ff78ffa0de7e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 88924,
+      "bytes": 62754,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-2.jpg",
@@ -888,7 +908,8 @@
         "bytes": 497979,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-1640x566-3",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/antares-7-fishing-1640x566-3.webp",
-      "width": 1640,
-      "height": 566,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "f98115ce713cc0be2e56e492264c6a73ac4f6c8b0f04a572e4c9b6d3c1f37c9f",
+      "sha256": "cf1babe8a86a2ba511dbb03f6db2a14ecab844ee89f26f5ed660802fb349c8b6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 81680,
+      "bytes": 56566,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-3.jpg",
@@ -930,7 +951,8 @@
         "bytes": 460836,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Antares-7-Fishing-1640x566-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -987,11 +1009,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "d6d89500f0e44db393eba1d3e572d7f4f2afa722eab38d4378433b16f59af1af",
+      "sha256": "50bcf9a9ca2e2a5d6fd0646f0259bc6937e9d4c8eacc6391fd9ccfe8ff301b8b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 10866,
+      "bytes": 8386,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-white.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-white.jpg",
@@ -1002,7 +1024,8 @@
         "bytes": 67916,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-white.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-white.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-profil-700x331-gray-0",
@@ -1029,11 +1052,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "fedb93a4b2a61e19d747e636453739aa5e515c35b9d04787f5a2dfe058b51c98",
+      "sha256": "0a0554e43c3f07c6d59d114e870a9ad25589b6f63f1ef929a399f04c40df2360",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 11692,
+      "bytes": 9316,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-gray_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-gray_0.jpg",
@@ -1044,7 +1067,8 @@
         "bytes": 67780,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-gray_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-profil-700x331-gray_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares7-exterior",
@@ -1071,11 +1095,11 @@
       "width": 800,
       "height": 559,
       "format": "webp",
-      "sha256": "d3d8987153f9aa01bb7a89d9c35201638ca5370077851c4083ece80a261774b7",
+      "sha256": "457fe08b2259da301d30c27af5d7a5e495373c0debf444bb8fe9881d2303b133",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17392,
+      "bytes": 14178,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/antares7-exterior.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/antares7-exterior.jpg",
@@ -1086,7 +1110,8 @@
         "bytes": 39745,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/antares7-exterior.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/antares7-exterior.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-800x560-2",
@@ -1113,11 +1138,11 @@
       "width": 800,
       "height": 560,
       "format": "webp",
-      "sha256": "7808d3781b3a5a73cf769e33978a0f2b7d0d7511541010d87143ceaf88b10cc3",
+      "sha256": "2d22720ab9cab45deecd3b0c6e44a65723235cdeb8a56b7ef66ed23706dd8d93",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 18290,
+      "bytes": 15062,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-800x560-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-800x560-2.jpg",
@@ -1128,7 +1153,8 @@
         "bytes": 109009,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-800x560-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-800x560-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-cabine-standard-800x315",
@@ -1155,11 +1181,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "e00e16238bcb3654d374899a46e321d247bc35084ec0ab8834cab1185b23fb08",
+      "sha256": "9660bd02b634bbd1a95678994f1f06608b28895ae869a90e634d18d53afab9f5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 15726,
+      "bytes": 12448,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-standard-800x315.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-standard-800x315.jpg",
@@ -1170,7 +1196,8 @@
         "bytes": 98889,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-standard-800x315.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-standard-800x315.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-7-fishing-cabine-weekender-800x315",
@@ -1197,11 +1224,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "ad3569e67fbd5ea9d98e901c034e5999bd5f31f9afbd6116cc7c93bd54241b97",
+      "sha256": "cbce87be41c5fcae1fe9a3107424092259e58667380f395695e63d26323633bc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16362,
+      "bytes": 13262,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-weekender-800x315.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-weekender-800x315.jpg",
@@ -1212,7 +1239,8 @@
         "bytes": 101155,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-weekender-800x315.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-11/antares-7-fishing-cabine-weekender-800x315.jpg",
+      "web_quality": 75
     }
   ]
 }

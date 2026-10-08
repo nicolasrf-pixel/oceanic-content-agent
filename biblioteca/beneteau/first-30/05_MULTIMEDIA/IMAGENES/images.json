@@ -30,12 +30,12 @@
       "width": 1920,
       "height": 600,
       "format": "webp",
-      "sha256": "7a8d7acac859a3326d6de3b637432c79dcc884b606a2d4b4af3f15540b82cf1e",
+      "sha256": "03a03644639ebeae35c081cb474fd2a643ae1d55562b80fd20c93a496186456e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 298932,
+      "bytes": 231772,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/header-product-sheet-first30.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/header-product-sheet-first30.jpg",
@@ -46,7 +46,8 @@
         "bytes": 411186,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/header-product-sheet-first30.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/header-product-sheet-first30.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-6",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "142b062cc93f06cc213298ae0a1578f8fddc22e428b89346846f5fee1de87df4",
+      "sha256": "4d01f34dfe30e24e0069b15cc1920d7e48fd1d75a5d92789584041dbe601a97e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 383710,
+      "bytes": 308922,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-6.jpg",
@@ -89,7 +90,8 @@
         "bytes": 327042,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-5",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "d5781ba9dad814146ddf5fd9b238b87773fae3ebedbb642a175d60f2581096c0",
+      "sha256": "95721d6f48e9c8632e058dfc1444ad7cfdf4ae0f658b716cf6eacdd73d6ec621",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 421018,
+      "bytes": 339088,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-5.jpg",
@@ -132,7 +134,8 @@
         "bytes": 345453,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-8",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/first30-exterior-8.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "20ceac1df71bf3759ebf81fde660899aacd232a7d02587c3f6de9a7e539e46a5",
+      "sha256": "71ef793bdb006eaaad2ba931fba7477200da4f66216700fce0b4b1bcfcc0b91d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 437328,
+      "bytes": 263168,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-8.jpg",
@@ -174,7 +177,8 @@
         "bytes": 340956,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-7",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/first30-exterior-7.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "dda93a549670a2c8b849c50ee958af6658397fbb7a8ccc79a7a6a4b7f6189821",
+      "sha256": "467ad04b560d3279106f41fedeb2db1bce408bc77345f248b6fedf750d54dcc4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 460608,
+      "bytes": 288832,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-7.jpg",
@@ -216,7 +220,8 @@
         "bytes": 376713,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-0",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/first30-exterior-0.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "a15fd3b4ec92ba1f208c7190f531fa72fb6bbd5afd2b1e79327b4314b43ce95a",
+      "sha256": "88980e2ebb691a08213d7a775a74b4895d804a2afd623134516f9d9a63be4044",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 592154,
+      "bytes": 361076,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-0.jpg",
@@ -258,7 +263,8 @@
         "bytes": 468130,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-0.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-exterior-4",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/first30-exterior-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "1f1d15649ececab8f1dc789c9ff60fa04797c36d12bae564201a124ac12a9fde",
+      "sha256": "9c1b2eb86cf0aa7c6237b2039888deab8e3141aa344c76c4c736b2f4bb5a4668",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 474182,
+      "bytes": 274668,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-4.jpg",
@@ -300,7 +306,8 @@
         "bytes": 379885,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-exterior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-1",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "a34ef287137903c3d27be9d3dade7750e6de77f49e9daba816af8817bd5c3bac",
+      "sha256": "b9e2536d79c53b55acaaa39a72017af15a9a3bec9dac33255699f768dedf043e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 133066,
+      "bytes": 62414,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-1.jpg",
@@ -342,7 +349,8 @@
         "bytes": 488327,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-2",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "d3fdf9820f1ab53d8a7e1e663efd03167800450d82216842f0da237a1fdd448c",
+      "sha256": "209d09871a0e184c8469516150367a5fbfd8a9f83dd1aa7a29229b0786ab38cf",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 164708,
+      "bytes": 82098,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-2.jpg",
@@ -384,7 +392,8 @@
         "bytes": 425575,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-3",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "90143fe4987d77fb473e912cab40042387bf881f78626e55abde492c6a1c96f6",
+      "sha256": "8dc830e0d0d528c9d317d6ba269f002124272f725e6f964fe9912680b57ed114",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 157574,
+      "bytes": 62238,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-3.jpg",
@@ -426,7 +435,8 @@
         "bytes": 420573,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-4",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "4e951808160e1daa195b25bee8393237b080b751713272404212997e12f22527",
+      "sha256": "e70c1191e009c2cfea71e542d455dcdcd060ffe4a0988329edfa95e5e2774eb5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 115064,
+      "bytes": 62624,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-4.jpg",
@@ -468,7 +478,8 @@
         "bytes": 357353,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-5",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-5.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e4dae8fe877520422037d5e4725f5dfe7520e305f523987d25620bde92bd6b03",
+      "sha256": "0b055bb3742cfc00b5061a453c8c8c207484a02da5d9c74472b8030ed51fb7c3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 145394,
+      "bytes": 75732,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-5.jpg",
@@ -510,7 +521,8 @@
         "bytes": 415087,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-6",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "aeb803c6523e8d2e3374f67340cf1321ac5dc97ab977d568367deb8ef1064942",
+      "sha256": "335f6dc71e149492fb3367ead6c63aeee7036d76c44a1805ad4ebdf8a1bb99b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 154970,
+      "bytes": 61852,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-6.jpg",
@@ -552,7 +564,8 @@
         "bytes": 409196,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-7",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-7.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "a27802ffc74687725b093a6d126d8f07f78d09e79294ce91cf729b30c467578f",
+      "sha256": "6a2c577b05accdc118760e4003fd6f285d446e5552c5f03879ca92089aec79b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 114920,
+      "bytes": 48906,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-7.jpg",
@@ -594,7 +607,8 @@
         "bytes": 345732,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-interior-8",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/first30-interior-8.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "9820e2daebfdcbdf4be8a375aea32d25d00eabc82d0a27f38827e1481c51dd49",
+      "sha256": "9c96e92262dbe88109f089a09073898cbe8b2cb63b632f4814a9515368576bc6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 72026,
+      "bytes": 38036,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-8.jpg",
@@ -636,7 +650,8 @@
         "bytes": 418618,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-interior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-planing-sans-effort",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first30-planing-sans-effort.webp",
-      "width": 1650,
-      "height": 570,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "2cee7c28242633b6ec5750b6caf7591c6617a37b8e9d9c91c7aebb2016c1911a",
+      "sha256": "addb7860874265ba64861e6970ab58b3163d707b840cf8d5b1cf1fbda5337219",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 253548,
+      "bytes": 175196,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-planing-sans-effort.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-planing-sans-effort.jpg",
@@ -678,7 +693,8 @@
         "bytes": 447743,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-planing-sans-effort.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-planing-sans-effort.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-sailors-1",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first30-sailors-1.webp",
-      "width": 1650,
-      "height": 570,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "c3834caf9ed2a7025084bdb053824b32ec4aa6b2e20681cc7617c34d584e75d9",
+      "sha256": "9b916c1bb4e4e18fc12d3ebd8ac4c6d4e3993cac1d52d04aac41219c2eeaf666",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 195142,
+      "bytes": 147098,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailors%20%281%29.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailors%20%281%29.jpg",
@@ -720,7 +736,8 @@
         "bytes": 178078,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailors%20%281%29.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailors%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-sailorslikeyou",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first30-sailorslikeyou.webp",
-      "width": 1650,
-      "height": 570,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "bf1c6e800b7235e980f38856c8874ec7cd9d0c0bbb5cc0336c8d99d1dfdc996a",
+      "sha256": "b0e8e01bd455432e9563aef12cc8f96dbf0691b170f91fd1ed7bf14008d1305f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 316520,
+      "bytes": 225924,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailorslikeyou.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailorslikeyou.jpg",
@@ -762,7 +779,8 @@
         "bytes": 480700,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailorslikeyou.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-sailorslikeyou.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-cosystyle",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first30-cosystyle.webp",
-      "width": 1650,
-      "height": 570,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "87209313d082ab157cd994d6dbda30577152a471c2eafe20081cc352df58c8b4",
+      "sha256": "a6addf8c44a300829c76336ce57b1a067b132ada5abf5f00d80824b9b76a3735",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 97374,
+      "bytes": 62246,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30_cosystyle.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30_cosystyle.jpg",
@@ -804,7 +822,8 @@
         "bytes": 314925,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30_cosystyle.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30_cosystyle.jpg",
+      "web_quality": 75
     },
     {
       "id": "first30-fast-1",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first30-fast-1.webp",
-      "width": 1650,
-      "height": 570,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "466dafb69914880a71148b78b2bee6f250592bd1c41a9bcb6ee6ec029a7e68ed",
+      "sha256": "cc2331a83de03b5e70751fc4adb4cefe26ad41faebd4fcb2b1e11f0ee1b4c22e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 240762,
+      "bytes": 183444,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-04/first30-fast%20%281%29.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-fast%20%281%29.jpg",
@@ -846,7 +865,8 @@
         "bytes": 206841,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-fast%20%281%29.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/first30-fast%20%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -903,11 +923,11 @@
       "width": 308,
       "height": 370,
       "format": "webp",
-      "sha256": "b7224089c8970e8dbc7ec8daf5ff0448a16bf3d90e587c47142b643aa7666c6d",
+      "sha256": "82893ac1b6a802510a6dc813463b74ac8478693c7f6ff7ef512bffcea43ee37e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 11846,
+      "bytes": 10678,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-30-no-sail.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-30-no-sail.png",
@@ -918,7 +938,8 @@
         "bytes": 12059,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-30-no-sail.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-30-no-sail.png",
+      "web_quality": 75
     },
     {
       "id": "first-30-deck-layout",
@@ -945,11 +966,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "71b464204a654cc36cb834eb106dc6a50a93869fb3a01ff7e9a1dcc82260e115",
+      "sha256": "c4029c8c92835c52f8e780e161ba44eef014e3dce596afafc4ee30576f31e8f3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16160,
+      "bytes": 13282,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-deck-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-deck-layout.jpg",
@@ -960,7 +981,8 @@
         "bytes": 185013,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-deck-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-deck-layout.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-30-interior-layout",
@@ -987,11 +1009,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "402044d31b0636d8d51c18bdb899cc293af6c5ac940fbe368bb1d6966f232a58",
+      "sha256": "c491a59f19a31813580c6f83a5217260f173ecf87a02a509b3c4ebbd2cb45abb",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 18402,
+      "bytes": 14110,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-interior-layout.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-interior-layout.jpg",
@@ -1002,7 +1024,8 @@
         "bytes": 293606,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-interior-layout.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-01/FIRST-30-interior-layout.jpg",
+      "web_quality": 75
     }
   ]
 }

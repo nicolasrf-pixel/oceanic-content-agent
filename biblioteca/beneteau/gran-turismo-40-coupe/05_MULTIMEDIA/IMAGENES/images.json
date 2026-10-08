@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "b8ea517ba92eb32b08824140223e88b8bb85cb44438871834e89476103318d9c",
+      "sha256": "30d4ad1186605f9389569e0bdd97e519aa59287d3b528533c31c749ddc71b9e2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 370018,
+      "bytes": 280338,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-08/gran-turismo-40-desktop.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-08/gran-turismo-40-desktop.jpg",
@@ -46,7 +46,8 @@
         "bytes": 510856,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/gran-turismo-40-desktop.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/gran-turismo-40-desktop.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-01-1920x1080",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "bf50274be4ffe505767609ddebabd9e377a409190320bad8e5ff1b1158202401",
+      "sha256": "c6624f7c502b7e4470157e9fbb9abdcbb727d4324bfb3d95dc96f833fb00ed5e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 323358,
+      "bytes": 257742,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-01-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-01-1920x1080.jpg",
@@ -89,7 +90,8 @@
         "bytes": 391203,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-01-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-01-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-02-1920x1080",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1080,
       "format": "webp",
-      "sha256": "217366fe92ad77f6000f492f479dcfacce16dbb5f17eab662f58cf8f0c276c49",
+      "sha256": "1eb4011460436943847bb7da41382dd1175103fed5ce3f052536631a2ca7e23b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 389898,
+      "bytes": 320208,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-02-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-02-1920x1080.jpg",
@@ -132,7 +134,8 @@
         "bytes": 408818,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-02-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-02-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-03-1920x1080",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-03-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "587159c32d672df8dc33cd80c768d20e08ccb57106e8ccaaa4207edf73813e79",
+      "sha256": "cdc158d84b5d7af1111fb7a8f1990a5966f0c11312bcd05b9626e8b0573974cf",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 232178,
+      "bytes": 126372,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-03-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-03-1920x1080.jpg",
@@ -174,7 +177,8 @@
         "bytes": 354069,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-03-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-03-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-04-1920x1080",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-04-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "3e43ad35204269b4e27697a3d17a3d2f6362cfb8105450cd9060fd1a6cc6a97a",
+      "sha256": "f95a26bd603cd5f8bcccffe27ed554371e572de22873ca5c023794c91ade24b0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 323180,
+      "bytes": 178458,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-04-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-04-1920x1080.jpg",
@@ -216,7 +220,8 @@
         "bytes": 364616,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-04-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-04-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-05-1920x1080",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-05-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "b2beedf7201ab97633dbbe1c67408eac6753a44a532f757fccdf920c1621d07c",
+      "sha256": "2f2bdacb6aeb794860e6d851aea777449be5cc8eccc42fd32c1eee16a3970541",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 437758,
+      "bytes": 248124,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-05-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-05-1920x1080.jpg",
@@ -258,7 +263,8 @@
         "bytes": 399798,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-05-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-05-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-06-1920x1080",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-06-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "e90ceadb7c1cf28e031444fb380281a9be0a79b3724fbec77b278d50527b8b3e",
+      "sha256": "692e002046ad03cf5d3c0dceef74b3ae8881248808349384f369776d4820c0d7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 422728,
+      "bytes": 248082,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-06-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-06-1920x1080.jpg",
@@ -300,7 +306,8 @@
         "bytes": 378963,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-06-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-06-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-07-1920x1080",
@@ -327,11 +334,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "fb2a5de59483c96a5812313789c0a4f9caaedfc92aa86892c66b327c7ae68f9d",
+      "sha256": "c537555cd8ccd4bf02351240e4719bac5b2b29bb9c219074be6116f09c796ee5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 161922,
+      "bytes": 128000,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-07-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-09/gran-turismo-40-exterior-design-07-1920x1080.jpg.webp?itok=5C4dNeyM",
@@ -342,7 +349,8 @@
         "bytes": 165248,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-09/gran-turismo-40-exterior-design-07-1920x1080.jpg.webp?itok=5C4dNeyM"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-09/gran-turismo-40-exterior-design-07-1920x1080.jpg.webp?itok=5C4dNeyM",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-08-1920x1080",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-08-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "52a5d2890f57173c5eb0181178b070586fbd182fc17259eeb9056b7a5eaec0f4",
+      "sha256": "aabfa554174e3cb410a975ca9291bf122c950124eb65ec7cb3a308c8359ac698",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 110554,
+      "bytes": 61850,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-08-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-08-1920x1080.jpg",
@@ -384,7 +392,8 @@
         "bytes": 334665,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-08-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-08-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-09-1920x1080",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-09-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "06f977e9858c56f71f64ba2c6140b5bd23000b5cc1e4d3596403a1075beb5a8b",
+      "sha256": "0c95a2b0e4216b2047d85a69754d73043d89561636483fdbddd584e275bbb42c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 108630,
+      "bytes": 58534,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-09-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-09-1920x1080.jpg",
@@ -426,7 +435,8 @@
         "bytes": 278016,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-09-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-09-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-10-1920x1080",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-10-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "25ac296459e1007e3308f91d8f7f389123b7e1ab9c1162f55fbdf79532905246",
+      "sha256": "65c67933960476d392f0f0a8a627355ff24e7359ab8935f8353a1277525265d2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 342446,
+      "bytes": 182132,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-10-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-10-1920x1080.jpg",
@@ -468,7 +478,8 @@
         "bytes": 407724,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-10-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-10-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-11-1920x1080",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-11-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "24eeac5df3631b7f1d4e3837264fa3ba72bfb3ba71b4b660901b824c7ab051eb",
+      "sha256": "b5a00d5ed5e15b6de9b43371d2a42577bb3b9541b8799e0f4e94c16dccb8402d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 397700,
+      "bytes": 229750,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-11-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-11-1920x1080.jpg",
@@ -510,7 +521,8 @@
         "bytes": 403021,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-11-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-11-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-12-1920x1080",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-12-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "ef163d192a2643d4212fe9f74b94c237d48fcbb0257cb2a335f22ed4738bb457",
+      "sha256": "fa04eeb910041af46deb4a63aab6253b85da93419e1f13128edef9344e0e6967",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 375472,
+      "bytes": 213308,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-12-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-12-1920x1080.jpg",
@@ -552,7 +564,8 @@
         "bytes": 407041,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-12-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-12-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-boat-meet-slider-02",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-boat-meet-slider-02.webp",
-      "width": 1920,
-      "height": 656,
+      "width": 1600,
+      "height": 547,
       "format": "webp",
-      "sha256": "fa33963eb517173d4f010f16bdeebc1d9637a5c7d03435db3f75b66a1e2fb832",
+      "sha256": "8fdf009b41adb6c8cddab433bc05801f80ccec9e7b72bc90688b50754179cbc6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 184166,
+      "bytes": 103438,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-02.jpg",
@@ -594,7 +607,8 @@
         "bytes": 403549,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-13-1920x1080",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-13-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "9d760364c9a9079818303df3c3c42bb9ff56490e7611f9fb9d85714accd49009",
+      "sha256": "a48dbd063af17caf11e8fd6ccd234e1afb25e33cda0e053029987c9eb908e828",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 396996,
+      "bytes": 214698,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-13-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-13-1920x1080.jpg",
@@ -636,7 +650,8 @@
         "bytes": 390744,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-13-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-13-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-15-1920x1080",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-15-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "d2ba5d9bb2f5410e57232d709e006ba2d6553765c4345de74feecb1078299dc1",
+      "sha256": "8a432fbdc8a50a6d20d55342502b896d94fad2410ad83deb90ac6b2f275356a7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 422336,
+      "bytes": 246352,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-15-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-15-1920x1080.jpg",
@@ -678,7 +693,8 @@
         "bytes": 410363,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-15-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-15-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-boat-meet-slider-01",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-boat-meet-slider-01.webp",
-      "width": 1920,
-      "height": 656,
+      "width": 1600,
+      "height": 547,
       "format": "webp",
-      "sha256": "fa13417a205b49d0436a71df1e2859e8b6c017603790b5fe0c04acb006630128",
+      "sha256": "1ca9790a42c276d2f892502e6ee4e5cea201a1005c7d48f85fa341f29f530d6e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 116206,
+      "bytes": 59930,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-01.jpg",
@@ -720,7 +736,8 @@
         "bytes": 410075,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-boat-meet-slider-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-exterior-design-16-1920x1080",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gran-turismo-40-exterior-design-16-1920x1080.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "4d43c1fd61fb0b4965b17da5691cc0f0f1f9b61daa977f31234637760fd5f690",
+      "sha256": "5a11e91b7ba67f6026648f17508c9dbdea36dd1c0a42f8482bb414fa1e63435d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 243894,
+      "bytes": 137230,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-16-1920x1080.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-16-1920x1080.jpg",
@@ -762,7 +779,8 @@
         "bytes": 357157,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-16-1920x1080.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-09/gran-turismo-40-exterior-design-16-1920x1080.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-int3",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-int3.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "21d2c9ab631a658beeb98889ea0de67fe82bdcdc7320ac48a96ddd9ca8ce4c13",
+      "sha256": "73f3d6ff2f5658bdf817b54de59bb128662e1c392c49348c6685d1e1db5c2701",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 161642,
+      "bytes": 69450,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int3.jpg",
@@ -804,7 +822,8 @@
         "bytes": 219100,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int3.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-int10",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-int10.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "6b1aca27d0fc3e7d5837e6d3f60d5e5a590375b2b216e86a3fb6266781178d5c",
+      "sha256": "7f3959051d1fb0ea32d466993a6334801456375393ad65ffa0402e21c6c19aa4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111046,
+      "bytes": 47538,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int10.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int10.jpg",
@@ -846,7 +865,8 @@
         "bytes": 188370,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int10.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int10.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-int2",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-int2.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "9a7605448f61f0868eeb02c679c1deefaa99d82d36c90c30e687d33069624ec0",
+      "sha256": "b099d693f027ba4b14c3d5b39843445119bde58a05555145bc0af7df5645cfef",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 139378,
+      "bytes": 66130,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int2.jpg",
@@ -888,7 +908,8 @@
         "bytes": 198500,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int2.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-int1",
@@ -912,14 +933,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-int1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "22e6331a3fd1d4c8b90ea6b304072470f34e158492cf78c6092cd8d1576ab207",
+      "sha256": "38646275d78547ac6b63e207a3d57433cd36d155bb2bc5bfc1f4e044d7e469ba",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 146842,
+      "bytes": 68358,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int1.jpg",
@@ -930,7 +951,8 @@
         "bytes": 204446,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int1.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-int4",
@@ -954,14 +976,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-int4.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "280d83026781e46e9e15272d74dc1c6d821ddf1fec55474b6d01365f5e4a1b07",
+      "sha256": "fa01334d355f6b46802898e146322938d9398e130b94b23239a591d3664abfec",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 116808,
+      "bytes": 56180,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int4.jpg",
@@ -972,7 +994,8 @@
         "bytes": 173728,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-int4.jpg",
+      "web_quality": 75
     },
     {
       "id": "gt40-alpine-b-00008-1",
@@ -996,14 +1019,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/gt40-alpine-b-00008-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "8e453582207504e2be86a084e974d8100bd1336a6ec843127419089eb1b17059",
+      "sha256": "8de84233d091aff93a26c1388badcd4708e05af78754c9effd2e6163b1bf6a03",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 137016,
+      "bytes": 76264,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gt40-alpine-B.00008%281%29.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-alpine-B.00008%281%29.jpg",
@@ -1014,7 +1037,8 @@
         "bytes": 162165,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-alpine-B.00008%281%29.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gt40-alpine-B.00008%281%29.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -1071,11 +1095,11 @@
       "width": 1288,
       "height": 720,
       "format": "webp",
-      "sha256": "d05168769fe12769fa0ed268cef6e89490569ad040f4ba2cca17d07dabd9c69d",
+      "sha256": "c93f43ed65bfa55ac7826a68bd8c479ea5866dad09c11e2401df2dc354f45172",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 26882,
+      "bytes": 22350,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ib.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ib.jpg",
@@ -1086,7 +1110,8 @@
         "bytes": 58112,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ib.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ib.jpg",
+      "web_quality": 75
     },
     {
       "id": "gran-turismo-40-profile-ob",
@@ -1113,11 +1138,11 @@
       "width": 1288,
       "height": 720,
       "format": "webp",
-      "sha256": "67e30f02e26f39e71a99bc6b32a309e51161c7fa86f82af39540af12e9328270",
+      "sha256": "f2e1309ce82a55c31dcfd4a59ad1b1dd6f73b0e3bfef00e6b123a2c299a93e96",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 28370,
+      "bytes": 23736,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ob.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ob.jpg",
@@ -1128,7 +1153,8 @@
         "bytes": 61282,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ob.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/gran-turismo-40-profile-ob.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-alpine-gran-turismo-40-coupe-0",
@@ -1155,11 +1181,11 @@
       "width": 1288,
       "height": 720,
       "format": "webp",
-      "sha256": "47a7855bf7cf7dc588afc43d9acb8a00be8272bd59aaeee5777c308ab25560a6",
+      "sha256": "68ecfcbb0da0dfe83847206da26087eda489b07439c72ebc21f8557498328ed4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 43812,
+      "bytes": 38536,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-40-coupe_0.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-40-coupe_0.png",
@@ -1170,7 +1196,8 @@
         "bytes": 229005,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-40-coupe_0.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-08/profile-alpine-gran-turismo-40-coupe_0.png",
+      "web_quality": 75
     },
     {
       "id": "gt40-top-sp-inbord",
@@ -1194,14 +1221,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt40-top-sp-inbord.webp",
-      "width": 1920,
-      "height": 845,
+      "width": 1600,
+      "height": 704,
       "format": "webp",
-      "sha256": "7424412f2caea05fdcf9524d5d9618eaab99a1c0f531fad6218bc5ab37edb0c1",
+      "sha256": "1020bbc49a1b2ecba2d3d8cca733849c0b7c1e511726d27c1f0ef6073eef09ed",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 60624,
+      "bytes": 42584,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-inbord.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-inbord.png",
@@ -1212,7 +1239,8 @@
         "bytes": 246876,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-inbord.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-inbord.png",
+      "web_quality": 75
     },
     {
       "id": "gt40-top-sp-outboard",
@@ -1236,14 +1264,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt40-top-sp-outboard.webp",
-      "width": 1920,
-      "height": 845,
+      "width": 1600,
+      "height": 704,
       "format": "webp",
-      "sha256": "134b686208a2ddc8576bbb8930550eef0bbb50d510794c2bb70d35dad1bc4c68",
+      "sha256": "4ac2a05f213e74069654b829a43c582d897b63683d25a0a93a6bd712533ab69e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 64166,
+      "bytes": 46460,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-outboard.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-outboard.png",
@@ -1254,7 +1282,8 @@
         "bytes": 250545,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-outboard.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-SP-outboard.png",
+      "web_quality": 75
     },
     {
       "id": "gt40-top-2-inbord",
@@ -1278,14 +1307,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt40-top-2-inbord.webp",
-      "width": 1920,
-      "height": 833,
+      "width": 1600,
+      "height": 694,
       "format": "webp",
-      "sha256": "6bed7a9ca443d001a4f7a6023cceabde49f14c172fda4869d5ba6435964a3dc4",
+      "sha256": "cd76b7b94b58282636595ee42e9f2c77307a424f02499389f651a08aabdec0a2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 94816,
+      "bytes": 64446,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-inbord.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-inbord.png",
@@ -1296,7 +1325,8 @@
         "bytes": 331741,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-inbord.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-inbord.png",
+      "web_quality": 75
     },
     {
       "id": "gt40-top-2-outbord",
@@ -1320,14 +1350,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt40-top-2-outbord.webp",
-      "width": 1920,
-      "height": 833,
+      "width": 1600,
+      "height": 694,
       "format": "webp",
-      "sha256": "e37fca2762ccf1fd9ffcc62c7d79a59de5486f5ddefb257a10613e666f557449",
+      "sha256": "304172fd4cedf8ade089eca326a72d491dfa80f62714f7af290ccf99945c4115",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 93450,
+      "bytes": 68010,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-outbord.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-outbord.png",
@@ -1338,7 +1368,8 @@
         "bytes": 333499,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-outbord.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-2-outbord.png",
+      "web_quality": 75
     },
     {
       "id": "gt40-top-3-inbord",
@@ -1362,14 +1393,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/gt40-top-3-inbord.webp",
-      "width": 1920,
-      "height": 748,
+      "width": 1600,
+      "height": 623,
       "format": "webp",
-      "sha256": "627c3656564c7dca47d8cee194746925ceae12fbab250e5eb6399491e6e29662",
+      "sha256": "9beb647643a6106fe4a973ca6a2dbc997f678a205cb44aa987f7977ae267af8f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 67142,
+      "bytes": 46700,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-3-inbord.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-3-inbord.png",
@@ -1380,7 +1411,8 @@
         "bytes": 241670,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-3-inbord.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT40-top-3-inbord.png",
+      "web_quality": 75
     },
     {
       "id": "gt3xc-top-3-outbord",
@@ -1407,11 +1439,11 @@
       "width": 800,
       "height": 312,
       "format": "webp",
-      "sha256": "a5dd26ffea6e835867e42cfbbcb5eadf43a6324cbbc4e0d9b6162cb170f23774",
+      "sha256": "0615463a018ac3c32fa95aee403c6e409bd4b5e8688558999d3e9bee1c084627",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 18104,
+      "bytes": 14794,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-06/GT3XC%20top%203%20outbord.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-06/GT3XC%20top%203%20outbord.png",
@@ -1422,7 +1454,8 @@
         "bytes": 29331,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT3XC%20top%203%20outbord.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-06/GT3XC%20top%203%20outbord.png",
+      "web_quality": 75
     }
   ]
 }

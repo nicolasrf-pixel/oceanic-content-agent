@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "d995e662d818649b1e9d2e95d68c066a4aa10b12cc45a9aecc0fe0b0805a4a69",
+      "sha256": "237f13c4195059117ab40fc2cbf53d619246d0ed7ae8e6be65f19e4ee4276087",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 256638,
+      "bytes": 193248,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/oceanis-yacht-54.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/oceanis-yacht-54.jpg",
@@ -46,7 +46,8 @@
         "bytes": 506138,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/oceanis-yacht-54.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/oceanis-yacht-54.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-exterior1",
@@ -73,12 +74,12 @@
       "width": 2250,
       "height": 1266,
       "format": "webp",
-      "sha256": "8a9fe301945d7f560f3f3145e30aa485e16c2c7698fc1916fc20ffe8b8941483",
+      "sha256": "8578e42124da3aef36fb7001790bf4c848bb474b964f69ba45735da92400dd8f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 758846,
+      "bytes": 602364,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-exterior1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 2139673,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior1.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-exterior2",
@@ -116,12 +118,12 @@
       "width": 2250,
       "height": 1266,
       "format": "webp",
-      "sha256": "52bc7533541feda8405ee8464d22262fefb19f799e6d370e9c89c9f11747b1c7",
+      "sha256": "771bcb626d1bedbd2511a55ed841c704e1bb1ed7c9f8c440e92f39d99604e976",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 361448,
+      "bytes": 278120,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-exterior2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 978078,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior2.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-exterior3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/ocy54-exterior3.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "aa41cb38e37854e00c95ed2cd82701f1ff5431922992f5b2209db709eda897f5",
+      "sha256": "d3f92e49d0a2cbdce4913c0354f5a64cb549ef776df5903038715dfebfe42e40",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 203588,
+      "bytes": 105370,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-exterior3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 1037324,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior3.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-exterior4",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/ocy54-exterior4.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "3c83e8315b563b36030bcecd5769e47bbd56eda63d35fd018ed878fb2b9820d1",
+      "sha256": "7a5b13401b5e0c0d88083e91134c557d3a6f902666ab6804ca835b210b43d9ce",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 340796,
+      "bytes": 186084,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-exterior4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 866886,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-exterior4.jpg",
+      "web_quality": 75
     },
     {
       "id": "gmr-ocy54-1118-jpg-1900px",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gmr-ocy54-1118-jpg-1900px.webp",
-      "width": 1900,
-      "height": 1266,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "49454dacd77eef74d24f1d06e47b297b86c6b85bff30825ae2acab4cc43ac696",
+      "sha256": "06b409302af3d192a11e6e6703a489cfa0b2258bd4fe20408e75f8548d64303b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 195276,
+      "bytes": 106436,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1118.jpg-1900px.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1118.jpg-1900px.jpg",
@@ -258,7 +263,8 @@
         "bytes": 533664,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1118.jpg-1900px.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1118.jpg-1900px.jpg",
+      "web_quality": 75
     },
     {
       "id": "gmr-ocy54-1294-jpg-1900px",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gmr-ocy54-1294-jpg-1900px.webp",
-      "width": 1900,
-      "height": 1266,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "6be86602d8f835fc27e0d8ad5a71f663c081f88325d8f5ff1d2934a18154edc8",
+      "sha256": "a5323ec6c6c98722d72fc24e8cac50cc59baa0ce9c7b68b9ad4da71cca59cd9f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 267210,
+      "bytes": 132626,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1294.jpg-1900px.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1294.jpg-1900px.jpg",
@@ -300,7 +306,8 @@
         "bytes": 627342,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1294.jpg-1900px.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_1294.jpg-1900px.jpg",
+      "web_quality": 75
     },
     {
       "id": "gmr-ocy54-0069-jpg-1900px",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gmr-ocy54-0069-jpg-1900px.webp",
-      "width": 1900,
-      "height": 1266,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "9013d397797bbc6e7da080b500f59987715b667d529a6510f078bcd407d20b22",
+      "sha256": "f63c37d737252f899e082627125c1ee1dd60fd5042e18b4e15aaa7912607d135",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 351754,
+      "bytes": 186562,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0069.jpg-1900px.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0069.jpg-1900px.jpg",
@@ -342,7 +349,8 @@
         "bytes": 766788,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0069.jpg-1900px.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0069.jpg-1900px.jpg",
+      "web_quality": 75
     },
     {
       "id": "gmr-ocy54-0988-jpg-1900px",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/gmr-ocy54-0988-jpg-1900px.webp",
-      "width": 1900,
-      "height": 1266,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "64bc1ea9c3ff50fb0690789c2cb22eaac4b414e6b8c3a9f1e719472ce64dbcaf",
+      "sha256": "7ff424af3bde86dcc5ddba4872f06f357e53ac0bd7afedf8601d3164731f94f2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 254568,
+      "bytes": 129600,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0988.jpg-1900px.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0988.jpg-1900px.jpg",
@@ -384,7 +392,8 @@
         "bytes": 660365,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0988.jpg-1900px.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/gmr_ocy54_0988.jpg-1900px.jpg",
+      "web_quality": 75
     },
     {
       "id": "dji-0252-edit",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/dji-0252-edit.webp",
-      "width": 1732,
-      "height": 1154,
+      "width": 1600,
+      "height": 1066,
       "format": "webp",
-      "sha256": "cd6560d34dd3c5a69f3fdaeec6f9fdb36d5affea101433b691e973a50834e730",
+      "sha256": "b270b2fd3ba452048fcba7c5372abc8653949a0a27002f9f7e187b5cdc986bcb",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 183136,
+      "bytes": 109282,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/dji_0252-edit.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/dji_0252-edit.jpg",
@@ -426,7 +435,8 @@
         "bytes": 261297,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/dji_0252-edit.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/dji_0252-edit.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior1",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior1.webp",
-      "width": 1900,
-      "height": 1314,
+      "width": 1600,
+      "height": 1107,
       "format": "webp",
-      "sha256": "e3ca2208f85024522de4af95b05f780b73208736b8ec3def0c9aaae274fb8825",
+      "sha256": "037265c65d8586fb682f2299c1e0ab1f5f6aee7b7c690fb12a540832db876c5a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 184544,
+      "bytes": 84166,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior1.jpg",
@@ -468,7 +478,8 @@
         "bytes": 595245,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior1.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior2",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior2.webp",
-      "width": 1900,
-      "height": 1416,
+      "width": 1600,
+      "height": 1192,
       "format": "webp",
-      "sha256": "b91380847a19804e38f28e891c32454f4fc3a05e13bfa35e870147090e8b1a5d",
+      "sha256": "a203f1b21782b374f8246acdbb84c707e95ee7ba630da98682c764e39fd98715",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 206798,
+      "bytes": 95906,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior2.jpg",
@@ -510,7 +521,8 @@
         "bytes": 669540,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior2.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior3",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior3.webp",
-      "width": 1900,
-      "height": 1038,
+      "width": 1600,
+      "height": 874,
       "format": "webp",
-      "sha256": "9b0f0b2da82e25250043836b36d1b41017d3f5b8d31da31b866b24c728bf4545",
+      "sha256": "f25b2ffe635acc4ef3bae31676770143903b18f529e512f661318df92143e1a3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 133296,
+      "bytes": 67148,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior3_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior3_.jpg",
@@ -552,7 +564,8 @@
         "bytes": 422332,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior3_.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior3_.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior4",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior4.webp",
-      "width": 1881,
-      "height": 1413,
+      "width": 1600,
+      "height": 1202,
       "format": "webp",
-      "sha256": "be70d069d6a43e9f8a1ff040706b6321f5066b6acfc91a7837e8e11611153a9f",
+      "sha256": "3a9c08fcb45443e5561256df589033a7e8e03d31e7df5c31217f15724ace2b8e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 204424,
+      "bytes": 95236,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior4.jpg",
@@ -594,7 +607,8 @@
         "bytes": 570796,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior4.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior5",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior5.webp",
-      "width": 1898,
-      "height": 1404,
+      "width": 1600,
+      "height": 1184,
       "format": "webp",
-      "sha256": "16f583d0812adc87beaf1fdb4b54e1962b174dd5937743c4061c64fc07759636",
+      "sha256": "1e7ded519b483b60fae286207eb213896ccbe3bb50d9f7b658b297ed0f8c6366",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 189758,
+      "bytes": 95076,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior5.jpg",
@@ -636,7 +650,8 @@
         "bytes": 583187,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior5.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior6",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior6.webp",
-      "width": 1875,
-      "height": 1389,
+      "width": 1600,
+      "height": 1185,
       "format": "webp",
-      "sha256": "b1751b3adc5889890db2b00876e7c18ac9bb59843d9f894c014fff2323d0bb1e",
+      "sha256": "a395fc8326c33873880d95714b94bf7009199489bd4cf8a02a9f9405b6ea00af",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 166314,
+      "bytes": 82194,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior6.jpg",
@@ -678,7 +693,8 @@
         "bytes": 555148,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior6.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-interior7",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/ocy54-interior7.webp",
-      "width": 1900,
-      "height": 1038,
+      "width": 1600,
+      "height": 874,
       "format": "webp",
-      "sha256": "f6cc148dce3380e904ff4084ce6cb82d9a4592d2b55f08bf682cee47aa0220a8",
+      "sha256": "10144ddff00cc3a4e7068495c539ac07b75adf151082a22f373af5816bc9d728",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 146498,
+      "bytes": 67806,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-interior7_.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-interior7_.jpg",
@@ -720,7 +736,8 @@
         "bytes": 435264,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior7_.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-interior7_.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-easysailing",
@@ -747,11 +764,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "63ac86af19991d79d5617376099e27606d219f2384f18963f79c76a163d7faa8",
+      "sha256": "5168d105c6a91b4bb7c879353e62f2dc7aceab5aa273b3c56cd8d8ea592b7cc0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 88338,
+      "bytes": 63816,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54_easysailing.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54_easysailing.jpg",
@@ -762,7 +779,8 @@
         "bytes": 450063,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_easysailing.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_easysailing.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-deplacement",
@@ -789,11 +807,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "4596242be0fa43580b2708aa81accb938b2ec64c71879b4d4d416e48612e810f",
+      "sha256": "5e1bc0c400c2209cc2643c14cb06d31a4e2960079340ce7536ec1b86b9705b80",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143676,
+      "bytes": 110688,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54_deplacement.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54_deplacement.jpg",
@@ -804,7 +822,8 @@
         "bytes": 592251,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_deplacement.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_deplacement.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-finitionmathautdegamme",
@@ -831,11 +850,11 @@
       "width": 1400,
       "height": 926,
       "format": "webp",
-      "sha256": "5f40d1f07e05177c4bbeec7c92429e9d3f06ca976d37ba91538b7b7d7e6c851a",
+      "sha256": "902909f3372068d7c488a2b09fdf49b26fa8fa5cd6f1e825928fc448dfa89388",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 227206,
+      "bytes": 179144,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54_finitionmathautdegamme.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54_finitionmathautdegamme.jpg",
@@ -846,7 +865,8 @@
         "bytes": 970244,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_finitionmathautdegamme.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54_finitionmathautdegamme.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -903,11 +923,11 @@
       "width": 300,
       "height": 360,
       "format": "webp",
-      "sha256": "e953dd9c7680aad73f3d0652994beb20929cd3a40b69c206120bf2ee8ac240f1",
+      "sha256": "5c9c0171d21f7eb473e43715574016bfbaec95aaa41da40eafb2dff848e870ac",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 2618,
+      "bytes": 1906,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-07/ocy54-profil.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-07/ocy54-profil.jpg",
@@ -918,7 +938,8 @@
         "bytes": 6573,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/ocy54-profil.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/ocy54-profil.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-deck",
@@ -945,11 +966,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "08f3e6a6bf122b87e68f54615fbb70b512af4e09e856a152c6e91cb5d58dff8a",
+      "sha256": "3e87914bd2101e088e641afebe97ef6cbc8a0519743ca2a37297d631080be750",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 19410,
+      "bytes": 15108,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-deck.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-deck.jpg",
@@ -960,7 +981,8 @@
         "bytes": 122230,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-deck.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-deck.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-3cab2t",
@@ -987,11 +1009,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "c00ba35382bcc60675bfa7eff59f36048767b1c4e3fc8d24151406a21585bc46",
+      "sha256": "8bb32494c2bf34b9001f8844ba770eca2ce39f5ba131d85bcc49384c5e8f314b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 19120,
+      "bytes": 15560,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-3cab2t.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab2t.jpg",
@@ -1002,7 +1024,8 @@
         "bytes": 92994,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab2t.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab2t.jpg",
+      "web_quality": 75
     },
     {
       "id": "ocy54-3cab3t",
@@ -1029,11 +1052,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "8418cf046039efe732ebcd671a92a8e89fe0c1620e0994fdb04ad0b71fa54e4d",
+      "sha256": "51c395ea56a9b3ce9ec9797aa5e1d18ea25ef3e7de7cea0ab0867cbdf7644635",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20234,
+      "bytes": 16538,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/ocy54-3cab3t.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab3t.jpg",
@@ -1044,7 +1067,8 @@
         "bytes": 96436,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab3t.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/ocy54-3cab3t.jpg",
+      "web_quality": 75
     }
   ]
 }

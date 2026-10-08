@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "7f2607f27c78a9e079b259250f1e9c9dc028e964447efc183659d6bb3789989b",
+      "sha256": "737fb579b03f21dd5c467ac0ae6311255a10f89fc333f1eef89db730b645ed42",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 320926,
+      "bytes": 242974,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-54-header_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-54-header_0.jpg",
@@ -46,7 +46,8 @@
         "bytes": 471406,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-54-header_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/swift-trawler-54-header_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterior-0",
@@ -73,12 +74,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "1297711303ce4c7a8104def894acbe7e282cbcc27b3ce172f920185bc570311e",
+      "sha256": "d20b32ecd765f745f384b025896a60d5044d81a0dc5dcae297e0b2df6c9363b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 437266,
+      "bytes": 332130,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-0.jpg",
@@ -89,7 +90,8 @@
         "bytes": 409651,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-0.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterior-5",
@@ -116,12 +118,12 @@
       "width": 1920,
       "height": 1200,
       "format": "webp",
-      "sha256": "ac9fbc18814051ebe48928d9b90d91e35d7f53fb1586641cc900a7de715e01ed",
+      "sha256": "7148d5ca1e4dc072eeb3a51b33ad361809e734ef2b0cd9240607a624847bf93a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 299952,
+      "bytes": 229288,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-5.jpg",
@@ -132,7 +134,8 @@
         "bytes": 391071,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterior-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterior-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e702fe6604764c3608ebdfc06a7959c228794124f0b86b2f8fc72a1611650a1b",
+      "sha256": "e0ebf599f8227eb8091f41199be4a32d15a18831023f5b83a35848ec8571f98d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 381806,
+      "bytes": 214132,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 408930,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterior-4",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterior-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "c7e7a763ce6bfa3b6de6d22ae8bbb3ecce566d79dfd46374d868a8bb4fc551ef",
+      "sha256": "fc9c04ec4a3ec391a110058d426cbd08739062dd27dff99665181f4e335ccb6b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 351312,
+      "bytes": 192226,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 394969,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterior-6",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterior-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "ac3bec4630258bcf560d0a224132e199372d6b4e059881923174c5ec1bd13446",
+      "sha256": "a53c644bc783e44ec1f60a360e3c9dddfa55fab16c494308fc9e01f89a0263d1",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 199724,
+      "bytes": 104414,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-6.jpg",
@@ -258,7 +263,8 @@
         "bytes": 399955,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-10/swift-trawler-54-exterior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterieur-1",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterieur-1.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "9d6a67655ba0580f7ab52c82338b1fae987319f36f966a1a9968d5406eb08804",
+      "sha256": "a35a1e97c561978c1f6aa1e1ee9b54774ab48a64290374a9f539583bdda120da",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 190526,
+      "bytes": 98512,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-1.jpg",
@@ -300,7 +306,8 @@
         "bytes": 307596,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterieur-2",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterieur-2.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "fd5633ba334e655db87239c95186a9eb507773534793f67fcbb4712f685b063c",
+      "sha256": "c8acdce49b2a28aeb8e94293663998cd5d06c8e636192bd04a966eac991f74bd",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 336784,
+      "bytes": 192606,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-2.jpg",
@@ -342,7 +349,8 @@
         "bytes": 298949,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterieur-3",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterieur-3.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e29b590816f4d02d805eb156685bb0272a4f50c7bf4c639a62e26d606279e288",
+      "sha256": "df0b76e56710a8380afeb0fa906b162321f993ec7711546cb4c5164bafaa7039",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 212164,
+      "bytes": 101750,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-3.jpg",
@@ -384,7 +392,8 @@
         "bytes": 305843,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-exterieur-4",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/swift-trawler-54-exterieur-4.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "2bcadfcee75908290178576ad376b557e71dfb31a4793e988183c796fff8b569",
+      "sha256": "ac88d1080416ffa6a537b7f2b675f64ff8bdfb145cf6acfbca19e6ecb39cfdac",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 358698,
+      "bytes": 205272,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-4.jpg",
@@ -426,7 +435,8 @@
         "bytes": 304164,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-exterieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-01",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-01.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "8555ffe4e80ad474564c1f9ec2435a69e290aef2a64643dfcc8646f771690713",
+      "sha256": "f20a7d03d25d588c29061a29018a2ba0c0a3541f2d1a047da8af06cd124752b5",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 235398,
+      "bytes": 122408,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-01.jpg",
@@ -468,7 +478,8 @@
         "bytes": 405746,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-02",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-02.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "8d59a54d817a7e941488f7523eac3e4f71c48268f817e5084687743951e1a151",
+      "sha256": "2fdbfaf7068fabae8b284035ab1805ddaec35b1d7c5c6c4f5849d863290dd960",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 274128,
+      "bytes": 134624,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-02.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-02.jpg",
@@ -510,7 +521,8 @@
         "bytes": 369721,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-02.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-02.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-03",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-03.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "7cefb28ed78f331eadd0cc730fd2006edf14c196e7a5e634b2efce8990b79c9a",
+      "sha256": "91bae3196133b3fe16032781347ec6c9405d82c6b1c4c83a6eed74a6e83fa663",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 267892,
+      "bytes": 147362,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-03.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-03.jpg",
@@ -552,7 +564,8 @@
         "bytes": 370469,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-03.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-03.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-04",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-04.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "4e6db560b692a2c0676e03e13d5c811810eb0bdf71a6429e89f3401536b840fe",
+      "sha256": "24fc9e73264aef86ccb9bebf02475bd6c09ebf5f88417921caab2c5f82732c39",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 225080,
+      "bytes": 107476,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-04.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-04.jpg",
@@ -594,7 +607,8 @@
         "bytes": 407495,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-04.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-04.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-05",
@@ -618,14 +632,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-05.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "e3bb03c5ff435ae175698d12cce3ec6c09404faa8f3d3ad131cdfdf2f7c7e098",
+      "sha256": "35a93a4408461659e3fbf46f3b80eee75f911b4b4165a389510ebad57390d612",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 117014,
+      "bytes": 56852,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-05.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-05.jpg",
@@ -636,7 +650,8 @@
         "bytes": 402990,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-05.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-05.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interieur-6",
@@ -660,14 +675,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interieur-6.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "73f1b7311254db4ff13838a93e6d071a3e1f7613d78044969bc22b566952353e",
+      "sha256": "7282bb2d41f2c7b26b4ca80386531e8bf0344f4408783da56dcb99808b6b2f4a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 307934,
+      "bytes": 147420,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-6.jpg",
@@ -678,7 +693,8 @@
         "bytes": 485460,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-07",
@@ -702,14 +718,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-07.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "cc7f3b659b8106c90b25633050806d8ffa7c92bdd690101f5571367fa810352e",
+      "sha256": "7c1b3c8eb94d147e1faa9620486c104ca8154afa08936f405416ec745f599026",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 143194,
+      "bytes": 69022,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-07.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-07.jpg",
@@ -720,7 +736,8 @@
         "bytes": 409685,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-07.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-07.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interieur-8",
@@ -744,14 +761,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interieur-8.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "ef8f1409337befd61df584886f4f2278f0fed030719dc9410697807a04e922a8",
+      "sha256": "1042ccd3dd1107686a626f18f9c8b7835ceca42220d2721e35084e7bfc7bf664",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 215298,
+      "bytes": 106368,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-8.jpg",
@@ -762,7 +779,8 @@
         "bytes": 458989,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interieur-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-08-slider-1640x566",
@@ -786,14 +804,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-08-slider-1640x566.webp",
-      "width": 1640,
-      "height": 566,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "484ba652fe846b834013ce2ad4bf6e3651157b86fad52b553f76527fdadba7f3",
+      "sha256": "4789c5fcdf4a2ba86116d5df73fcb76c9b5f74652ab20cce2f66852cff79c9cc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 148244,
+      "bytes": 96654,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-08-slider-1640x566.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-08-slider-1640x566.jpg",
@@ -804,7 +822,8 @@
         "bytes": 400711,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-08-slider-1640x566.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-08-slider-1640x566.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-slider-03-1640x566",
@@ -828,14 +847,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/swift-trawler-54-slider-03-1640x566.webp",
-      "width": 1640,
-      "height": 566,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "04a260a3419ecb2ad0c892cc8dd6643ddcc1c656b6ea63c1af97a0268ff17a77",
+      "sha256": "a72b6ecefe69ad8c3cc9de7cb56ac20ce419a3c54f53b2118feee8b81c771e11",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 244356,
+      "bytes": 167726,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-slider-03-1640x566.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-slider-03-1640x566.jpg",
@@ -846,7 +865,8 @@
         "bytes": 398040,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-slider-03-1640x566.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-slider-03-1640x566.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-interior-slider-02-1640x566-0",
@@ -870,14 +890,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/swift-trawler-54-interior-slider-02-1640x566-0.webp",
-      "width": 1640,
-      "height": 566,
+      "width": 1600,
+      "height": 552,
       "format": "webp",
-      "sha256": "29b4db95b1d78ad3ea3f3aaa8006305dd3a4ad13702fd77ac3148e2b62924bb7",
+      "sha256": "b55b3a2bc05995071a8f87d30802fbca45d27da6d0b3e13a2d6ea7698f841b2e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 110012,
+      "bytes": 72516,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-slider-02-1640x566_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-slider-02-1640x566_0.jpg",
@@ -888,7 +908,8 @@
         "bytes": 426978,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-slider-02-1640x566_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-02/swift-trawler-54-interior-slider-02-1640x566_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-profile-1",
@@ -915,11 +936,11 @@
       "width": 627,
       "height": 394,
       "format": "webp",
-      "sha256": "4e0957416113da20060bde384513f5377b3201d204c5e1d19db23ebd5d1d7de7",
+      "sha256": "90cac69357e89db05d1cb7869175daa057cc5ec3e258ed13cbb46c4ec234ced4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16348,
+      "bytes": 14182,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-1.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-1.png",
@@ -930,7 +951,8 @@
         "bytes": 96969,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-1.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-1.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-profile-2",
@@ -957,11 +979,11 @@
       "width": 625,
       "height": 393,
       "format": "webp",
-      "sha256": "a73b10e4f4c5ee3c061259ec72f2742f73ad680fd330cf4eeeb00e60a3a94fe7",
+      "sha256": "c6491ec9193630322a94c0650e3c9368f7c0edd6aba5b6a9b07b56fbb3cfba29",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 16026,
+      "bytes": 13954,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-2.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-2.png",
@@ -972,7 +994,8 @@
         "bytes": 102080,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-2.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-2.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-profile-3-0",
@@ -999,11 +1022,11 @@
       "width": 625,
       "height": 393,
       "format": "webp",
-      "sha256": "42a10427a52ca2a6452e9ab431eb494cbb35f9d699116399a6b3b6c16eb9d72c",
+      "sha256": "0c45a864da45aa0ad06a541780dce270180e0a837ec7875c8aef9e8130daad58",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17826,
+      "bytes": 15670,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-3_0.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-3_0.png",
@@ -1014,7 +1037,8 @@
         "bytes": 98564,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-3_0.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-profile-3_0.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-layout-sans-eolienne",
@@ -1038,14 +1062,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/swift-trawler-54-layout-sans-eolienne.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "d37e071d1ccec66b91f24bb9d9a7a305f7c5de2a8019f9c10ea682c70c772681",
+      "sha256": "ce92a1d4bad74e022aa5d8add993a51e53d187073b93a0849d3a9653bd42962d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 64822,
+      "bytes": 45020,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-sans-eolienne.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-sans-eolienne.png",
@@ -1056,7 +1080,8 @@
         "bytes": 280240,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-sans-eolienne.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-sans-eolienne.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-layout-2-1",
@@ -1080,14 +1105,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/swift-trawler-54-layout-2-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "070dd40384817bb376274bd556b8f994691a26252b580b11f3106c6f4e87db14",
+      "sha256": "4dda7206a1965d20d9260b837826957e56e25433b098baa31d90c12937cd3291",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 64644,
+      "bytes": 45858,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-2%20%281%29.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-2%20%281%29.png",
@@ -1098,7 +1123,8 @@
         "bytes": 291816,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-2%20%281%29.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-2%20%281%29.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-layout-3-1",
@@ -1122,14 +1148,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/swift-trawler-54-layout-3-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "6c1aaf022b2e60a266c15329b3edee6bd5a1c1c1c73c50a92cb8fdec7a7314cc",
+      "sha256": "0cc5b0b27be64a79c0ac19fb0ece778758d375882ed59a0b64abfca5a659b669",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 78678,
+      "bytes": 51228,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-3%20%281%29.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-3%20%281%29.png",
@@ -1140,7 +1166,8 @@
         "bytes": 313489,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-3%20%281%29.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-3%20%281%29.png",
+      "web_quality": 75
     },
     {
       "id": "swift-trawler-54-layout-4-1",
@@ -1164,14 +1191,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/swift-trawler-54-layout-4-1.webp",
-      "width": 1920,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "bb69b87fac15e0b6339dd5a0f49f0e5ff2b628282858f74133e657ad44a65985",
+      "sha256": "db7cb77a5fbf1b0ea9855d942fadf4a3730612e886b42aec41b5583f788507d7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87540,
+      "bytes": 59338,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-4%20%281%29.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-4%20%281%29.png",
@@ -1182,7 +1209,8 @@
         "bytes": 296578,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-4%20%281%29.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-06/swift-trawler-54-layout-4%20%281%29.png",
+      "web_quality": 75
     }
   ]
 }

@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 1000,
       "format": "webp",
-      "sha256": "42c18b5fd045fd5d47ab2f98bf038bea3c3e9524efa6f82a9161a627a50d8bc6",
+      "sha256": "696b4d6a19c474f684ec42816e55f17c408754cc012a36f81b796995ae38fe41",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 409288,
+      "bytes": 314102,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/antares-11-fly-header.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-11-fly-header.jpg",
@@ -46,7 +46,8 @@
         "bytes": 403793,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-11-fly-header.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-11-fly-header.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-exterieur1-slider-1440x786",
@@ -73,12 +74,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "bbb9915bf8ffbff5456101f27ed994b5a0d777f328149f409bb228ad9b6d19ae",
+      "sha256": "29622ddd1ee4d76f726ad6682eab577e74b5d53c595f752d77b4d4aa907bfb1b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 128378,
+      "bytes": 97962,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur1-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur1-slider-1440x786.jpg",
@@ -89,7 +90,8 @@
         "bytes": 200860,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur1-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur1-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-exterieur2-slider-1440x786",
@@ -116,12 +118,12 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "59e47e6f5caca80bf42292fc796f00bc36b3c234375907f0cc777916fe7ee713",
+      "sha256": "cf62563011cbcfc3586fc899df6a715780dae5ff019dedb1bc7c05a8a052ab3d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 263172,
+      "bytes": 201670,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur2-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur2-slider-1440x786.jpg",
@@ -132,7 +134,8 @@
         "bytes": 359638,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur2-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur2-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-exterieur3-slider-1440x786",
@@ -159,11 +162,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "69ae208986979510ded7e190e1f79c56eed30976c2cc8fd8bd446f40c3adc04b",
+      "sha256": "21dcdc886eff1c5fb0625cec4c4a9038cfad6cdb8ee277604e37b0d5e8d262f7",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 220302,
+      "bytes": 156242,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur3-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur3-slider-1440x786.jpg",
@@ -174,7 +177,8 @@
         "bytes": 335204,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur3-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-exterieur3-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-carre-slider-1440x786",
@@ -201,11 +205,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "0016fc94eb819e7265d330e258dda343056f9f63d682b1d80210483a45f8b9e0",
+      "sha256": "de8941ad586d69e3590c004b92beb7a8706d1866eafad886165dfadb60055aab",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 217142,
+      "bytes": 164066,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg",
@@ -216,7 +220,8 @@
         "bytes": 326627,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-carre-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-cabine-proprio-slider-1440x786",
@@ -243,11 +248,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "95bcd66b60bf166e7a108008209a55d8a5f393905f0921fca445bfdca06652f7",
+      "sha256": "710ff13a3c4ff75fcf4edff9100ae103bd5c70f01a14facb3fa869cd6c5103eb",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 121272,
+      "bytes": 81376,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-proprio-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-proprio-slider-1440x786.jpg",
@@ -258,7 +263,8 @@
         "bytes": 202547,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-proprio-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-proprio-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-cabine-arriere-slider-1440x786",
@@ -285,11 +291,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "a8cd3c8a3a17466773530c812335cc41e5950d921081a0b6b41c4e872dbcfc2d",
+      "sha256": "8c7cbe90c34a8ef6842de2a8c52995fdf914a3fa94a7d3697a983f92e0016cca",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 136928,
+      "bytes": 89272,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-arriere-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-arriere-slider-1440x786.jpg",
@@ -300,7 +306,8 @@
         "bytes": 225104,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-arriere-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-cabine-arriere-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-pointfort1-slider-1440x786",
@@ -327,11 +334,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "549a66322e0702563794cda3bc6e256f7dd22e99cec17a8f69110bb7191e19d1",
+      "sha256": "a055455fb62336e0dc23063dd65fc7d8fea61aa3a44e895e81956f9ca2bd296d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 172462,
+      "bytes": 133872,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort1-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort1-slider-1440x786.jpg",
@@ -342,7 +349,8 @@
         "bytes": 264259,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort1-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort1-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-pointfort3-slider-1440x786",
@@ -369,11 +377,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "8433e7352565d0fccddb6a186a426c0334fa91689f289d090abdd08729113029",
+      "sha256": "85f5c92a9535882f3bbd292e182e96c9204ff3cfb0625f199d98bbf8544fedd6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 159702,
+      "bytes": 119412,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort3-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort3-slider-1440x786.jpg",
@@ -384,7 +392,8 @@
         "bytes": 257547,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort3-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort3-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares11fly-pointfort2-slider-1440x786",
@@ -411,11 +420,11 @@
       "width": 1440,
       "height": 786,
       "format": "webp",
-      "sha256": "3e1ac64b19069200e57007acd8156ffe2f06b3b39d1282e39ccbb90d926c6b93",
+      "sha256": "3e3e4ddbcde3fd552d166fe073ed0c280976f4fdaf0d412435ae1663a1288d3c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 136968,
+      "bytes": 101404,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort2-slider-1440x786.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort2-slider-1440x786.jpg",
@@ -426,7 +435,8 @@
         "bytes": 231766,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort2-slider-1440x786.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/antares11fly-pointfort2-slider-1440x786.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -483,11 +493,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "5dc91b95a4b22f49a46804d836b002ef09198a941d6968eea83fdb38ae234c08",
+      "sha256": "f6ab151e00837094d4a88c8c75eca856573dec6e5fb3c0b84e0020b8f2f8f179",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17000,
+      "bytes": 13628,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2022-12/profile-antares11-fly.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-antares11-fly.jpg",
@@ -498,7 +508,8 @@
         "bytes": 32217,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-antares11-fly.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-antares11-fly.jpg",
+      "web_quality": 75
     },
     {
       "id": "profile-antares-11-fly-gris-perle",
@@ -525,11 +536,11 @@
       "width": 700,
       "height": 331,
       "format": "webp",
-      "sha256": "ab9e9abf8fe8840cbbb2b80be64efa2183d49f5736f53273d1e15915ece04d4b",
+      "sha256": "e936357c0cdf88b786209850f0f49b3b7497f27358b01521d14e0dfe39f40a5a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 12942,
+      "bytes": 10268,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2024-01/profile-antares-11-fly-gris-perle.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-antares-11-fly-gris-perle.jpg",
@@ -540,7 +551,8 @@
         "bytes": 73996,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-antares-11-fly-gris-perle.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-antares-11-fly-gris-perle.jpg",
+      "web_quality": 75
     },
     {
       "id": "a11-fly-top-view",
@@ -567,11 +579,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "2756fb4211380fe97b955341c681a26a62a2e651f46defcb11b0b19343ed87e5",
+      "sha256": "bb84a1a0c5ff28841604760cdbfb083d2777ca9ec23def4b7968ab0c456f38c2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20494,
+      "bytes": 16284,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/a11_fly_top_view.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/a11_fly_top_view.jpg",
@@ -582,7 +594,8 @@
         "bytes": 114837,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_fly_top_view.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_fly_top_view.jpg",
+      "web_quality": 75
     },
     {
       "id": "a11-deck-02-12-2020",
@@ -609,11 +622,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "46104963a2d765e0799bbdc1de6b92f57ae66b393eea2d1892e64b84f22ec076",
+      "sha256": "5657bd4b05f69e6a6ab63d807ab9e1f7e8c5edddfb28c9995d700dca07e5daa4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 30486,
+      "bytes": 25166,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png",
@@ -624,7 +637,8 @@
         "bytes": 231481,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_deck_02-12-2020.png",
+      "web_quality": 75
     },
     {
       "id": "a11-lowerdeck-jpg",
@@ -651,11 +665,11 @@
       "width": 800,
       "height": 315,
       "format": "webp",
-      "sha256": "c22648e395f5ad7bef5c15e6839a1a30477ef4980e866bcb45bc4fb42653a4b1",
+      "sha256": "ba641322ca59307fc56e2aff13096ad1308dcad182a866d14aa6c3ee0ea2eb63",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 17474,
+      "bytes": 12926,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png",
@@ -666,7 +680,8 @@
         "bytes": 213149,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/a11_lowerdeck.jpg.png",
+      "web_quality": 75
     }
   ]
 }

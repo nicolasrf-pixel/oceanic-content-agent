@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "0c058156766402565d0068fefcf2c7d3bca8c6b41c319baebbd4735f2cbf25db",
+      "sha256": "1ac0fcc3236a9add763e487ecea5c12d7d1e097b23e6fdaa28f50cb588c0aaed",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 476146,
+      "bytes": 386614,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-coupe.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-coupe.jpg",
@@ -46,7 +46,8 @@
         "bytes": 475553,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-coupe.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-12-coupe.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-exterior-1-0",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "ba335d786e14e9b11815b88ada9881fc94cb2ed22f5c6f9524d2a3fa54045f33",
+      "sha256": "6392ff1a599ad45dbe0c8e4d062763c61c9abb453cda0eb6bbc119051537910d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 782670,
+      "bytes": 631158,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-1_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-1_0.jpg",
@@ -89,7 +90,8 @@
         "bytes": 499451,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-1_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-1_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-exterior-3",
@@ -116,12 +118,12 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "dc17622d0a2319f60d821459e514b6ea1eec5d3810f0464f85813bcd7ac205b5",
+      "sha256": "6db86283907e13549f0a48347df85aadaed47cfdbfe54790add9593bbaa6612e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 144364,
+      "bytes": 114396,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-3.jpg",
@@ -132,7 +134,8 @@
         "bytes": 484113,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-exterior-5",
@@ -159,11 +162,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "61572a9d4cdc7db6239ce9933782742b93be981d86eb15ee2b7bd8736ca8997f",
+      "sha256": "51ae324c7dbf2891391bc972e59bb34f58b84ac5d20fa7790012996d114652eb",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 156550,
+      "bytes": 121638,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-5.jpg",
@@ -174,7 +177,8 @@
         "bytes": 357377,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-exterior-6",
@@ -201,11 +205,11 @@
       "width": 1440,
       "height": 810,
       "format": "webp",
-      "sha256": "cb2d5ec7991f7f483117ec7b8639ed35f75bc901740c342134705dc83ad41639",
+      "sha256": "9e0080b42f2789a8057076e42f20ff356cf91f06e534c84c271c2093c4e52b59",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 144678,
+      "bytes": 111560,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-6.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-6.jpg",
@@ -216,7 +220,8 @@
         "bytes": 507383,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-6.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-6.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-exterior-7",
@@ -240,14 +245,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/antares-12-coupe-exterior-7.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "e23b9cbb5ab5fabe6cf1f8685ea557fdf734ec075daf991d9b76a6c937c5d69c",
+      "sha256": "aaf79f10cca189194358237eb1e21702833b32d7c56d1d3d33b4fbc3e6c115bc",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 323904,
+      "bytes": 180882,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-7.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-7.jpg",
@@ -258,7 +263,8 @@
         "bytes": 486457,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-7.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-exterior-7.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-interior-8",
@@ -282,14 +288,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/antares-12-coupe-interior-8.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "1c59576e57741b162a9634a517e5124a99d174618b6a5225be71c8e3d7b498e6",
+      "sha256": "d1603d969f53e9e4d6a8ca2c92b708aff991c74d60ec2b641a030b9c6b68e0b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 240384,
+      "bytes": 112846,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-8.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-8.jpg",
@@ -300,7 +306,8 @@
         "bytes": 501133,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-8.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-8.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-interior-9",
@@ -324,14 +331,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/antares-12-coupe-interior-9.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "18d552f19afb6ac167233eec6eec8367bd4568f64e9874fd71eba49618ed808a",
+      "sha256": "ad84188c0c856625b1f4aeb692e4bba79f151e5f27ca594639cbceb42e9f6405",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 321012,
+      "bytes": 141356,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-9.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-9.jpg",
@@ -342,7 +349,8 @@
         "bytes": 496570,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-9.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-9.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-interior-01",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/antares-12-coupe-interior-01.webp",
-      "width": 1920,
-      "height": 1200,
+      "width": 1600,
+      "height": 1000,
       "format": "webp",
-      "sha256": "3bf4617d91223573916a3cdbc6e964370642aca9be8bc0c69d127358533ac5ba",
+      "sha256": "93c1da800500cb45d62fe382fda802cd04b16ea895773225f7b045643c118a7c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 160758,
+      "bytes": 77154,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-01.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-01.jpg",
@@ -384,7 +392,8 @@
         "bytes": 489395,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-01.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-01.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-interior-5",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/antares-12-coupe-interior-5.webp",
-      "width": 1200,
-      "height": 1920,
+      "width": 1000,
+      "height": 1600,
       "format": "webp",
-      "sha256": "539cf865bde4ff539d6e24078993252af19f7c178d78b8ea1c56725daf2cc15f",
+      "sha256": "cc93258b4608905b535c44ddee42452bd7cc44fb71dcd89d92b2f1a7668a1db3",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 311718,
+      "bytes": 135710,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-5.jpg",
@@ -426,7 +435,8 @@
         "bytes": 396486,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-boat-meet-slider-usp1-1",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/antares-12-coupe-boat-meet-slider-usp1-1.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "69c9d8452111e31a383eb2424a19b95615fd0302339a020c06d307cc6d3338d1",
+      "sha256": "e14effac262b2347c53defb8da60aa903feddee20b349dcb587948f7b8be20e2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 138702,
+      "bytes": 76774,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp1_1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp1_1.jpg",
@@ -468,7 +478,8 @@
         "bytes": 511006,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp1_1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp1_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-boat-meet-slider-usp2-1",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/antares-12-coupe-boat-meet-slider-usp2-1.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "bf9439e01777195f45f5d61685f23ae4dac97d3882b0f3fed1f83fd043369aa6",
+      "sha256": "6b00c535bd04e418cc1c9275cfc3ad814bec46ef5a874fa85c97bb8578335149",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 332574,
+      "bytes": 191610,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp2_1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp2_1.jpg",
@@ -510,7 +521,8 @@
         "bytes": 509815,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp2_1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-12-coupe-boat-meet-slider-usp2_1.jpg",
+      "web_quality": 75
     },
     {
       "id": "antares-12-coupe-interior-raffinement",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/antares-12-coupe-interior-raffinement.webp",
-      "width": 1920,
-      "height": 800,
+      "width": 1600,
+      "height": 667,
       "format": "webp",
-      "sha256": "771ade5f454ac58278aa7819b66f320a6f1cca474026365771b0b0e506c66aa5",
+      "sha256": "ae764bb723dfa3c96387495cf1bf8e891ae5db55f7c8c1ad7ddfbfd233e9df8f",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 144104,
+      "bytes": 71868,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-raffinement.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-raffinement.jpg",
@@ -552,7 +564,8 @@
         "bytes": 410758,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-raffinement.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/antares-12-coupe-interior-raffinement.jpg",
+      "web_quality": 75
     },
     {
       "id": "exterieur-antares-12-technologie",
@@ -576,14 +589,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/exterieur-antares-12-technologie.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "9b8206182293fb743e229c0c105d8edf1dd4aaf39d22332ebf79e090335ef00a",
+      "sha256": "1b71c321d6e5090f8dbf6a0933d31596731972370b7b5bfe2f175b6517b3ed0c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 111580,
+      "bytes": 60398,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
@@ -594,7 +607,8 @@
         "bytes": 509680,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/exterieur-antares-12-technologie.jpg",
+      "web_quality": 75
     },
     {
       "id": "logo-seanapps2",
@@ -651,11 +665,11 @@
       "width": 1000,
       "height": 705,
       "format": "webp",
-      "sha256": "9c8cd33a291498f9d479b516c2154aaa577aec75acd8d6cbd4894f5795e01e72",
+      "sha256": "e43d4bdf1e8ef26d7787f105911922c4c800b6dc530c07cf51b7721e2a78b6ba",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 33336,
+      "bytes": 28046,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/profile-antares-12-coupe.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/profile-antares-12-coupe.png",
@@ -666,7 +680,8 @@
         "bytes": 239878,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/profile-antares-12-coupe.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/profile-antares-12-coupe.png",
+      "web_quality": 75
     },
     {
       "id": "png-a12-coupe-soft-top-b",
@@ -690,14 +705,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/png-a12-coupe-soft-top-b.webp",
-      "width": 1641,
-      "height": 552,
+      "width": 1600,
+      "height": 538,
       "format": "webp",
-      "sha256": "7f35869d5869f0a5966f2987a7d8367b28df4d9006d0382772e4d49e495bf907",
+      "sha256": "7a53fef91c6c5d3da91d37722747566d44d219083eacfe02e56bce2675eb972c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 72710,
+      "bytes": 68884,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20B.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20B.png",
@@ -708,7 +723,8 @@
         "bytes": 207562,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20B.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20B.png",
+      "web_quality": 75
     },
     {
       "id": "png-a12-coupe-soft-top-c",
@@ -732,14 +748,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/png-a12-coupe-soft-top-c.webp",
-      "width": 1640,
-      "height": 552,
+      "width": 1600,
+      "height": 539,
       "format": "webp",
-      "sha256": "9f137b7c5549252efa46a87e72e8e821f1982a8fb12f793db5b4181085083678",
+      "sha256": "9b731474ffcc172d3c8fb5532c1d16e88fb6bac6bf47a0e4245c900c2191ff9d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 84354,
+      "bytes": 76138,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20C.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20C.png",
@@ -750,7 +766,8 @@
         "bytes": 212189,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20C.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20C.png",
+      "web_quality": 75
     },
     {
       "id": "png-a12-coupe-lower-deck",
@@ -774,14 +791,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/png-a12-coupe-lower-deck.webp",
-      "width": 1643,
-      "height": 489,
+      "width": 1600,
+      "height": 476,
       "format": "webp",
-      "sha256": "964e77b1fb13d0f51d9cbc75efb8edcfb77eae9f0b75e5dc8de60e5adb24d63c",
+      "sha256": "26212fe9e33de3c3c3dbab6c0279d15238e899b0b20b86c21caf5f19546b277a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 81132,
+      "bytes": 73108,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20lower%20deck.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20lower%20deck.png",
@@ -792,7 +809,8 @@
         "bytes": 263425,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20lower%20deck.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20lower%20deck.png",
+      "web_quality": 75
     },
     {
       "id": "png-a12-coupe-soft-top-a",
@@ -816,14 +834,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/png-a12-coupe-soft-top-a.webp",
-      "width": 1640,
-      "height": 552,
+      "width": 1600,
+      "height": 539,
       "format": "webp",
-      "sha256": "610f8a397d73ec554262970bd642c21f8707c075ec9c24d1833e8ce6ef7d2c7a",
+      "sha256": "a35481f8e3df3ed1d27e81cf67ee2c01bce6f89a4175e871356b5de6fd392fc2",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 74688,
+      "bytes": 71290,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20A.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20A.png",
@@ -834,7 +852,8 @@
         "bytes": 207181,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20A.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20soft%20top%20A.png",
+      "web_quality": 75
     },
     {
       "id": "png-a12-coupe-pont",
@@ -858,14 +877,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/PLANS/png-a12-coupe-pont.webp",
-      "width": 1637,
-      "height": 489,
+      "width": 1600,
+      "height": 478,
       "format": "webp",
-      "sha256": "e0f3a92794e97a22b503c7494f3c5bca63c1898818442831887ecdc60e7201d3",
+      "sha256": "ee3cc364400721b6d2f3c51aad7070b5c1fe197d3516ee0f5bb6d42ea30a234e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87610,
+      "bytes": 78964,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20pont.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20pont.png",
@@ -876,7 +895,8 @@
         "bytes": 231024,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20pont.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-07/PNG%20-%20A12%20Coupe%20-%20pont.png",
+      "web_quality": 75
     }
   ]
 }

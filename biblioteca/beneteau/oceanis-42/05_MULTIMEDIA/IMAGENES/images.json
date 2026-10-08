@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "84d3a72e0654c12c47231964eee4f7902664227fba438fbf6d5f53ae4bd518e9",
+      "sha256": "1a56e4a325179a3df2eba3ae0e6726be67ee2424096cac44b87bf60f2758882d",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 252450,
+      "bytes": 191256,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-header-desktop.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-header-desktop.jpg",
@@ -46,7 +46,8 @@
         "bytes": 506278,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-header-desktop.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-header-desktop.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-exterieur-1",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "a1541432cc856634455b7188bbe4b25939d35d09fc0e79c9b8cebefa8054ed36",
+      "sha256": "be7173f62a82de44b1019d9b12989666ae011c7801cdc2ca3bc9da33178ec19b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 290998,
+      "bytes": 211174,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-1.jpg",
@@ -89,7 +90,8 @@
         "bytes": 472760,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-exterieur-2",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "a40106ccd76c543cbe18bbc1518c313db73b0d44b1909f9690a48c271c85248c",
+      "sha256": "ef30530c1b8d3e571ce8f0b563df18b0f468b08deba621dc3d9ec27cc3158a00",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 321252,
+      "bytes": 231976,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 500127,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-exterieur-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanis-exterieur-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "5b116d40861d448cdb59b10b149db64bd18408cc03caad1708b42c8eec2c3f2e",
+      "sha256": "b1dfb518e8bd8ca4ec0e1e2a93394462fab2208fc24c29bd13c71782c4348b13",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 195084,
+      "bytes": 99918,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 510666,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-exterieur-4",
@@ -198,14 +202,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanis-exterieur-4.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "7524c7e783f8e55fb09ff369aa7acd566277922f426b388ec97b1584b0d4797d",
+      "sha256": "e7ee36c2226a34c42992824f5f071234dfb10080c36ae5b93d634ccb51c17c92",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 116718,
+      "bytes": 61676,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-4.jpg",
@@ -216,7 +220,8 @@
         "bytes": 494331,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-exterieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-interieur-1",
@@ -243,11 +248,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "95c2c59dff6421e83645d66494bc0978a54a03650885c42180794bd7af70c1a8",
+      "sha256": "6b43a72e1be99fd5f12d28ee5fd38bd14609a804cb227d24215991ba869cc0c6",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 109486,
+      "bytes": 76576,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-1.jpg",
@@ -258,7 +263,8 @@
         "bytes": 470546,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-interieur-2",
@@ -285,11 +291,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "01cddb5c0187dd9733c1a118748bb566488a759e2a432bc89f35b6fe438ff8ee",
+      "sha256": "8d9847583ae4233c04a25ca16e91682a7a2bc4640a07ae25a37927743e339211",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 125754,
+      "bytes": 88546,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-2.jpg",
@@ -300,7 +306,8 @@
         "bytes": 501822,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-interieur-3",
@@ -327,11 +334,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "1f0a57fa8ccf94c9b0a6f6267b4f463f0767495b1fdf3693b3af05616790f165",
+      "sha256": "d57a59bc359b06dc917f8343155b217e73f64cab7f9edb9f7651684d6b4b400e",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 117934,
+      "bytes": 75022,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-3.jpg",
@@ -342,7 +349,8 @@
         "bytes": 474091,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-interieur-4",
@@ -369,11 +377,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "dd67c3f17ba854e98dbc96165807785630fe2d4f6b8993119cd08ffada3f4789",
+      "sha256": "e2fe0797085632ea523fc8b903a2d459fa6e6118829ab8840ee91492c1b6391a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 108124,
+      "bytes": 72916,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-4.jpg",
@@ -384,7 +392,8 @@
         "bytes": 462043,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-interieur-5",
@@ -411,11 +420,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "297eae44c9ea90aa24cf1cfe8b45a6c9dee885d13bcdf9a5200c5bf2011e55b8",
+      "sha256": "a168ef3459dec9cf3cbde414afd84cdfb5b5100bf83792edc4852c6c0cab91ea",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 108456,
+      "bytes": 65456,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-5.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-5.jpg",
@@ -426,7 +435,8 @@
         "bytes": 458845,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-5.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/oceanis-interieur-5.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-1-oceanis-42",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-1-oceanis-42.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "1380b24012e99ddb31214589402a8a14a21bf9ca9af1e7151bb83c16cd783dd1",
+      "sha256": "71581ad5e613d8d8e8abd32dec27e0eb2c053581e70c3f814c23a48af1023cbf",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 127534,
+      "bytes": 60020,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-oceanis-42.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-oceanis-42.jpg",
@@ -468,7 +478,8 @@
         "bytes": 453307,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-oceanis-42.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-1-oceanis-42.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-2-oceanis-42",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-2-oceanis-42.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "3f92aac03cb8a94c2a082c54a21b23c3d8b28610efda1013ea807ccdc31016b1",
+      "sha256": "60e2ea0801f116b6e7b1c3d86b50f19ad539be0d3079f5961d7c3b69384d2347",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 72998,
+      "bytes": 38190,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-oceanis-42.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-oceanis-42.jpg",
@@ -510,7 +521,8 @@
         "bytes": 438520,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-oceanis-42.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-2-oceanis-42.jpg",
+      "web_quality": 75
     },
     {
       "id": "usp-3-oceanis-42",
@@ -534,14 +546,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/usp-3-oceanis-42.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "54ef7705260d8e18049a6bdf70784247a34243408a8a6d22a4639305bfd32799",
+      "sha256": "31405d45bfbd21dbf4e3f639476b8aebb031dd3f5067e14ff3cc1c599e8310d4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 121790,
+      "bytes": 57388,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-oceanis-42.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-oceanis-42.jpg",
@@ -552,7 +564,8 @@
         "bytes": 481262,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-oceanis-42.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-07/usp-3-oceanis-42.jpg",
+      "web_quality": 75
     },
     {
       "id": "oceanis-47-40-ans-d-icones-v2",
@@ -639,11 +652,11 @@
       "width": 600,
       "height": 720,
       "format": "webp",
-      "sha256": "bcbe6e2354b094f8bd40fc5436eee1d5c153515b00d3bb26fa655617004ef09d",
+      "sha256": "0127fb0c59625fadc1f4f19a57cbb919381d5c39bc261f3076540dde397d9444",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 31586,
+      "bytes": 27638,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-profil.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-profil.png",
@@ -654,7 +667,8 @@
         "bytes": 197529,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-profil.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-profil.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-plan-de-pont",
@@ -681,11 +695,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "48edb18f0416d21ef9db318e8a2c7c8429a6d1631c22e7dcfe2a0ca86ad8c018",
+      "sha256": "ec28f30c4df90d674524abf822bdc595628403982b5da97ab3ac1da8a2591259",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 42264,
+      "bytes": 35234,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-plan-de-pont.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-plan-de-pont.png",
@@ -696,7 +710,8 @@
         "bytes": 466441,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-plan-de-pont.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-plan-de-pont.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-2-cabines-1-salle-deau",
@@ -723,11 +738,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "b6916606ad9f6634b6816e4820860e07a665e3ecf670841ca18000773815d70a",
+      "sha256": "34c662b3fb1a2c9237ec82d211982da0217b2f8880f69d5614b5339e2fe79f93",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 41748,
+      "bytes": 31882,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-2-cabines-1-salle-deau.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-2-cabines-1-salle-deau.png",
@@ -738,7 +753,8 @@
         "bytes": 214747,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-2-cabines-1-salle-deau.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-2-cabines-1-salle-deau.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-3-cabines-1-salle-deau",
@@ -765,11 +781,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "88783fcc9d54f346c76df968fe5f03f47cfb689d4e44d2a242999a87fbb0cebb",
+      "sha256": "a04264e72b385e6d083f871b5f4f0f7a36e18e8e879f362181fb8eccdd52caa4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 44362,
+      "bytes": 34936,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-1-salle-deau.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-1-salle-deau.png",
@@ -780,7 +796,8 @@
         "bytes": 224819,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-1-salle-deau.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-1-salle-deau.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-3-cabines-2-salles-deau",
@@ -807,11 +824,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "198347c3f4d8888e819ed7b0b3b384afefab0fed234324b6bea51c03256d9d5e",
+      "sha256": "0e3110ccb36c0728aae0ce13b92c3baf9e45d5df5d2be7d0e23f35680773da12",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 45562,
+      "bytes": 35142,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-2-salles-deau.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-2-salles-deau.png",
@@ -822,7 +839,8 @@
         "bytes": 224642,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-2-salles-deau.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-2-salles-deau.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-3-cabines-3-salles-deau",
@@ -849,11 +867,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "c2237115546cf40e677b9c57f56ed062a945f566d598f620e6799d4bd46766e2",
+      "sha256": "fefbbc836d728b3fe4d70c3257bad7fa0535108a5a772171df03956709ab08f0",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 46242,
+      "bytes": 35374,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-3-salles-deau.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-3-salles-deau.png",
@@ -864,7 +882,8 @@
         "bytes": 224777,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-3-salles-deau.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-3-cabines-3-salles-deau.png",
+      "web_quality": 75
     },
     {
       "id": "oceanis-42-4-cabines-2-salles-deau-charter",
@@ -891,11 +910,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "c9ab719cc6ae823a8a2479844da424e6a0b9637fc94f50e1e384e51ea745628e",
+      "sha256": "40517f38ae9c0bd9322c958ad4172a2d8414be34d034888f7cfc63c32a5fa667",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 42906,
+      "bytes": 33056,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-4-cabines-2-salles-deau-charter.png",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-4-cabines-2-salles-deau-charter.png",
@@ -906,7 +925,8 @@
         "bytes": 230530,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-4-cabines-2-salles-deau-charter.png"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-06/oceanis-42-4-cabines-2-salles-deau-charter.png",
+      "web_quality": 75
     }
   ]
 }

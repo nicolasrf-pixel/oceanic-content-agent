@@ -30,12 +30,12 @@
       "width": 2560,
       "height": 733,
       "format": "webp",
-      "sha256": "08ebca2af83fb4e6265c5bb56a291b31c1d815fc507bafc3543ac19840109fca",
+      "sha256": "da5c0a43b1ee3952cb01200a9aaa3181f89f6bdc4e107e5b203f1588162ad5c8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 56798,
+      "bytes": 44382,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Hero_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Hero_0.jpg",
@@ -46,7 +46,8 @@
         "bytes": 464565,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Hero_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Hero_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-ex-1-0",
@@ -73,12 +74,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "6ed55dd669be3a287ca6ae7c16e88bc9acd679a14bbb67787f94a69bada4203b",
+      "sha256": "e02714eeab22b546302d8f4dba7a438a7e43e0ef6b6e25501a6faea8a961aa23",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 2,
-      "bytes": 638562,
+      "bytes": 495950,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-1_0.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-1_0.jpg",
@@ -89,7 +90,8 @@
         "bytes": 434753,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-1_0.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-1_0.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-ex-2",
@@ -116,12 +118,12 @@
       "width": 2560,
       "height": 1397,
       "format": "webp",
-      "sha256": "89c6019c4aa22f6233fff3ea91cb10b97110e6a307b6fe6dc9fe98c20d20d551",
+      "sha256": "7fc582595ebe0d34799bce84fb64f3c32ed3949c02caea65d7a608663b5fb287",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
-      "bytes": 104756,
+      "bytes": 82146,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-2.jpg",
@@ -132,7 +134,8 @@
         "bytes": 489771,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-ex-3",
@@ -156,14 +159,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/first-36-spirit-ex-3.webp",
-      "width": 1920,
-      "height": 1048,
+      "width": 1600,
+      "height": 873,
       "format": "webp",
-      "sha256": "03bf6084aa2ea8068a9417e9ba3cc465d9e24e1cf2ed240b49b447de822a12c9",
+      "sha256": "3b437941401459bc134f96fcc6d64a9e8e77ec1938fdead9504c32e8d572986a",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 99342,
+      "bytes": 57686,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-3.jpg",
@@ -174,7 +177,8 @@
         "bytes": 508617,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-Ex-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-in-1",
@@ -201,11 +205,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "02d42e3d926f6b4bafdefe38fd50c09d25ef5c1fe737110f667ae90cec48ceb1",
+      "sha256": "6a31232d68fef0cc9f1876d8472ad08df19f03fcbc272f6fb4755b3b622ff5b8",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 90210,
+      "bytes": 62772,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-1.jpg",
@@ -216,7 +220,8 @@
         "bytes": 496809,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-in-2",
@@ -243,11 +248,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "0040e12ec2717e5487989b679988519ab6af14f85bd8293687cca647b37120c5",
+      "sha256": "e6343359471747707f85ca79352c0ca0067495c89df4df6b7f7747d624f25c66",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 87704,
+      "bytes": 61698,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-2.jpg",
@@ -258,7 +263,8 @@
         "bytes": 500337,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-in-3",
@@ -285,11 +291,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "3f7296ac91706186bb8522cc1eae4500b719c7d2b95de78e69454cca61c8b8fd",
+      "sha256": "d9ae2ace1759bdbd713059c17d9ef8071905ffba077cfb506615bcecf77f4cc4",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 67444,
+      "bytes": 51538,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-3.jpg",
@@ -300,7 +306,8 @@
         "bytes": 468741,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-in-4",
@@ -327,11 +334,11 @@
       "width": 1500,
       "height": 819,
       "format": "webp",
-      "sha256": "679017f2f1a06355c4a319222e7b4f5b3bc3f87b22a23ab5549909b746726976",
+      "sha256": "6b38eab64bf899f0ee357d9ca8abf8a95d7f61820b133d601906139ecff56975",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 38410,
+      "bytes": 25278,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-4.jpg",
@@ -342,7 +349,8 @@
         "bytes": 486413,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-In-4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-usp1",
@@ -366,14 +374,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first-36-spirit-usp1.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "aab3b83b341058ba53dc50436450c01a203f2cd081573d511009431df39046c1",
+      "sha256": "59362f4408de6442f12c673f228f24bedd7be527301e47c1189d0166d9a58c88",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 305348,
+      "bytes": 182794,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP1.jpg",
@@ -384,7 +392,8 @@
         "bytes": 510133,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-usp2",
@@ -408,14 +417,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first-36-spirit-usp2.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "a338c2707bf0f99cd5fdbeddc15d0dba979ed103243e7fbc3f677d060c2d2ac9",
+      "sha256": "b45712a0ae4e1e18e9587a3fdec3d97959d02c9ca7954830c00f2dce4a9d9666",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 101050,
+      "bytes": 60598,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP2.jpg",
@@ -426,7 +435,8 @@
         "bytes": 475784,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP2.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-usp3",
@@ -450,14 +460,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first-36-spirit-usp3.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "fe1cb7091f09fb339de220d309e07fbb178fd5c0c243c2f86c710394e0def379",
+      "sha256": "0e1d94088d69dea1641735c1dea7a8c8ce55e79cbcd7cd8e6b49152814dfb6fd",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 90832,
+      "bytes": 53022,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP3.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP3.jpg",
@@ -468,7 +478,8 @@
         "bytes": 510895,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP3.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP3.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-usp4",
@@ -492,14 +503,14 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/first-36-spirit-usp4.webp",
-      "width": 1920,
-      "height": 663,
+      "width": 1600,
+      "height": 553,
       "format": "webp",
-      "sha256": "f10133fed49f8ed051a8bfbe8ed8c4e3b6fede65ba3f5a643fa43ec5062464fa",
+      "sha256": "b86e5264816071fdce6717c78c607fa8420844009ff0487c846d09d4b89aa825",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 77872,
+      "bytes": 46056,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP4.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP4.jpg",
@@ -510,7 +521,8 @@
         "bytes": 506038,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP4.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-USP4.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-profile",
@@ -537,11 +549,11 @@
       "width": 600,
       "height": 720,
       "format": "webp",
-      "sha256": "3f4d37668f3870ce63327958123c8dc0e2db8445adc0429847b49f102b45a085",
+      "sha256": "4f91b4f495f9ba3d3059abce05d20648633363689027358c91a8e147c875d82b",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 9006,
+      "bytes": 7288,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-profile.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-profile.jpg",
@@ -552,7 +564,8 @@
         "bytes": 48843,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-profile.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-profile.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-layout1",
@@ -579,11 +592,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "00cab4618fe3c80b9cc1bfbd01c277403f9a60202b1a4b45d21ae6f6fb80787a",
+      "sha256": "b7c4302483babbc3e5d434d364371ffe9bd29a5975bdcd392f96deed76df8d4c",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 20478,
+      "bytes": 15950,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout1.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout1.jpg",
@@ -594,7 +607,8 @@
         "bytes": 225042,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout1.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout1.jpg",
+      "web_quality": 75
     },
     {
       "id": "first-36-spirit-layout2",
@@ -621,11 +635,11 @@
       "width": 1360,
       "height": 950,
       "format": "webp",
-      "sha256": "750037d3f63ababbb898de21d0d6fb98242055570a3968cd89022b345ad5cda0",
+      "sha256": "118e074e340961bd5f7447d1409c6fa299ba6502aba9221539d95f5cf448ed05",
       "collected_at": "2026-09-27",
       "downloaded_at": "2026-09-30",
       "download_status": "WEB_COPY",
-      "bytes": 26962,
+      "bytes": 22102,
       "original": {
         "url": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout2.jpg",
         "fetched_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout2.jpg",
@@ -636,7 +650,8 @@
         "bytes": 154545,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout2.jpg"
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/First-36-Spirit-layout2.jpg",
+      "web_quality": 75
     }
   ]
 }

@@ -153,10 +153,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-22-tt-my2022-dji-0747-mobile.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "ae779fd09413589d39d5b2139585e96e714751fd76d737e934d792dfa3d4f4c9",
+      "sha256": "5c2fc51119fd88d7971219d1d7aa3b282a7c2aaff4ec32695db29ffea299ec9c",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -174,8 +174,9 @@
         "full_resolution": null,
         "source_copy_sha256": "63daa373c02c2ef294543940dd366e1daaf999b3835f8e44cdac6a2f443c0a23"
       },
-      "bytes": 372618,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/uAaQpW3YXR5RD5JUeFpG.jpg?width=2560&quality=90"
+      "bytes": 200178,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/uAaQpW3YXR5RD5JUeFpG.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "dji-0666-axedit",
@@ -262,10 +263,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/ax22tt-trailerability-axedit.webp",
-      "width": 1919,
-      "height": 1080,
+      "width": 1600,
+      "height": 900,
       "format": "webp",
-      "sha256": "5b6ba1f6fc2e364ef663397b2d425b5006a4ec5fb1f2c4dcdcb5e46a968b136d",
+      "sha256": "e202b1002db7dc5a87390ef1ef20a3198c1ac0f69b73c8e23a079c878f7afaf9",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -283,8 +284,9 @@
         "full_resolution": null,
         "source_copy_sha256": "5302ac3c61d81b152f0a00088514effd5cd8f9a6ddcd55374e285c8a1a58bfc8"
       },
-      "bytes": 64642,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/gtXDHb1RCENFN5TraRCT.png?width=2560&quality=90"
+      "bytes": 37250,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/gtXDHb1RCENFN5TraRCT.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-662a0051",
@@ -318,7 +320,7 @@
       "width": 2560,
       "height": 1708,
       "format": "webp",
-      "sha256": "fd2fdce6b11e5494ba545aa5079327a99d3abe4a526f3d7e5cdecbf7e5418839",
+      "sha256": "cdf0bdf9b6f598d3457ce4f2ffb2142258dfaff4200b4e78e46b31a25238a521",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -337,8 +339,9 @@
         "full_resolution": null,
         "source_copy_sha256": "408c1e1deab5506229609ff24c7b8e5c1eb45d092b5a2a06c2ce91abf6600eb8"
       },
-      "bytes": 285840,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/tKLuJjVw1a2o2KCkhN1b.jpg?width=2560&quality=90"
+      "bytes": 196246,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/tKLuJjVw1a2o2KCkhN1b.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "662a0247",
@@ -634,7 +637,7 @@
       "width": 984,
       "height": 1250,
       "format": "webp",
-      "sha256": "9e84122756e6dc781b9afba4c1340be471dd3b828417644452cdb151df2d50a0",
+      "sha256": "d53f89e1a241957a98d5ce294a8a363ad40bc005bc199e43535f775e584e362a",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -652,8 +655,9 @@
         "full_resolution": null,
         "source_copy_sha256": "0e5e9b96bae511def4aa70c8538083e3fb06015d70fdce15c5c3577ced568705"
       },
-      "bytes": 56190,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/y2FRpXCPhqxErrJtMcaD.png?width=2560&quality=90"
+      "bytes": 50020,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/y2FRpXCPhqxErrJtMcaD.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "ax22-ttop-squash-u-sofa",
@@ -679,7 +683,7 @@
       "width": 984,
       "height": 1250,
       "format": "webp",
-      "sha256": "d72e5b29bd391d4a6c2b31d57ff514c262ef6a06a4073cfb41b4f5502c7e35b4",
+      "sha256": "bc9c3bd6f57e6343f5f311d34d9504436e469fa42121222c028a8752acb750b3",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -697,8 +701,9 @@
         "full_resolution": null,
         "source_copy_sha256": "8b2b825149561505b98b6bd1238a581976f78d6a2bb639980a35c861a29dbce5"
       },
-      "bytes": 60110,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/ve4gbgRTu4j2ks9Kr9ag.png?width=2560&quality=90"
+      "bytes": 52326,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/ve4gbgRTu4j2ks9Kr9ag.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "ax22-ttop-sphere-multi-storage",
@@ -724,7 +729,7 @@
       "width": 984,
       "height": 1250,
       "format": "webp",
-      "sha256": "7f57a32ac4e9d2e4da9cb6e73d6dd9dd9daf824376582af405914ad1c634010c",
+      "sha256": "e5244351e3b425f4e13ed3e36563f65386372ca5c17b5720fbadf4f03f004622",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -742,8 +747,9 @@
         "full_resolution": null,
         "source_copy_sha256": "1670fdcf8678f35fe81d35c6243b2c51a640e706cfbd123e6a9255ce245ca99a"
       },
-      "bytes": 57294,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/wvsXtvZjez2fbhHSypHa.png?width=2560&quality=90"
+      "bytes": 50694,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/wvsXtvZjez2fbhHSypHa.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "ax22-ttop-hunter-multi-storage",
@@ -769,7 +775,7 @@
       "width": 984,
       "height": 1250,
       "format": "webp",
-      "sha256": "3bf5a2131d15ebbb0c41a7094f99fed1823b2fe6eeed248b2b3f0775a4e872b5",
+      "sha256": "4692b6ff76fb321d2f4c5164cb1c429f0220aa42a63ffd030df49ea6764c9e81",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -787,8 +793,9 @@
         "full_resolution": null,
         "source_copy_sha256": "5569824c28da129c580e91cc358f45961616943822b9ff1cb7342c12a35fcaa6"
       },
-      "bytes": 56232,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/X1bhFUqzBTz3HmkgaiaR.png?width=2560&quality=90"
+      "bytes": 49676,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/X1bhFUqzBTz3HmkgaiaR.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "ax22-ttop-taupe-multi-stoage",
@@ -814,7 +821,7 @@
       "width": 984,
       "height": 1250,
       "format": "webp",
-      "sha256": "edcd758381856835019b808c277cb512f674aecfb963de7163a0b10da0097637",
+      "sha256": "f9cab782fa1c40af702a9e7608696cec3288184860a81239a7d6119aa33c5315",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -832,8 +839,9 @@
         "full_resolution": null,
         "source_copy_sha256": "c6dc29b353bfdf54b62e7c2d3b16e5cec5f841f0a4498041291957ba2f50d2bc"
       },
-      "bytes": 57920,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/6RHhRW634FPTQmFSTuTa.png?width=2560&quality=90"
+      "bytes": 50992,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/6RHhRW634FPTQmFSTuTa.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-0v9a2541",
@@ -863,10 +871,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-22-tt-my2022-0v9a2541.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "85aef8effb166c59f7f03e839d802a9007ed5cbd4936ff90e2cc022016b92466",
+      "sha256": "6908aaebe0a8b715a755cf561bb833559fa4e181893b1592189c85556133418b",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -884,8 +892,9 @@
         "full_resolution": null,
         "source_copy_sha256": "5d796ddf3f8a24470270b2e5c8b684361bea9cba5737614ef0f543d7334b6e51"
       },
-      "bytes": 165200,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/wc5sv2Acp53V1p81tcHj.jpg?width=2560&quality=90"
+      "bytes": 94530,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/wc5sv2Acp53V1p81tcHj.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-0v9a2673",
@@ -915,10 +924,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-22-tt-my2022-0v9a2673.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "2357ae0afa4fc9e1c7130e22820e821eb2796fdfa6fdd5b9d57af2122e8b9130",
+      "sha256": "9c153353c4a98cb3de53674d9a6e585a7efe7eacd086346a28ad5fa36ce4b3ac",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -936,8 +945,9 @@
         "full_resolution": null,
         "source_copy_sha256": "351c1eb8c99af2189b166a43ddde56f65c6272c4784e5fac99522de96d366019"
       },
-      "bytes": 183198,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Y7rre6Z8DxBw563aUguj.jpg?width=2560&quality=90"
+      "bytes": 93982,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Y7rre6Z8DxBw563aUguj.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-0v9a2782",
@@ -967,10 +977,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-22-tt-my2022-0v9a2782.webp",
-      "width": 1281,
-      "height": 1920,
+      "width": 1068,
+      "height": 1600,
       "format": "webp",
-      "sha256": "686e708667ae01df7f772f7ef9f65ff2649e03608228c0029e286a6eca92dbe5",
+      "sha256": "20b46644f3fafc9ec4ab464968de2fb85dc8d6da95f6adf7f4a53553d31b8a29",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -988,8 +998,9 @@
         "full_resolution": null,
         "source_copy_sha256": "a59ca1d9812b423cb3523b7e3fa83ae76726cd4741b53ed9deecb0937749c3f7"
       },
-      "bytes": 128226,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/tddP1nNixe7BZaDCTSzL.jpg?width=2560&quality=90"
+      "bytes": 70584,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/tddP1nNixe7BZaDCTSzL.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-mediterrana-1",
@@ -1022,7 +1033,7 @@
       "width": 2560,
       "height": 1626,
       "format": "webp",
-      "sha256": "928e8284310964f80d8a5748110305f3991533eea7bef4fb69f6971a4442fcf7",
+      "sha256": "eba91ea225179a47f0da74a750e4aa8bcbde1fe919eaecc422a5acc31bb051d6",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1041,8 +1052,9 @@
         "full_resolution": null,
         "source_copy_sha256": "184cc8d394fbe78ef349c3644d1708fa6cc7eefaac75877747cd38d50fea81c0"
       },
-      "bytes": 463994,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/M8jCRKb9Y4rqmLGZ9Ntq.jpg?width=2560&quality=90"
+      "bytes": 339770,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/M8jCRKb9Y4rqmLGZ9Ntq.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-0v9a2515",
@@ -1072,10 +1084,10 @@
         "vancouver"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/axopar-22-tt-my2022-0v9a2515.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "8e8d5ede085ad37bb3008f84d3e33c09e4fdee81b5c7143450a96e0d631e2d3a",
+      "sha256": "7be686c03bc7d4ce9d90e44279e93d9a7b3141ee0fec548e53be17361ca6267f",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1093,8 +1105,9 @@
         "full_resolution": null,
         "source_copy_sha256": "1b5920a8efa6266d0263e626be9bbea3265fe16876a2f2d914d9f346c4f93741"
       },
-      "bytes": 140614,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/p8safFEt1Gkut2ctSLWk.jpg?width=2560&quality=90"
+      "bytes": 81154,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/p8safFEt1Gkut2ctSLWk.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-3",
@@ -1123,10 +1136,10 @@
         "out"
       ],
       "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/axopar-22-t-top-3.webp",
-      "width": 1920,
-      "height": 1440,
+      "width": 1600,
+      "height": 1200,
       "format": "webp",
-      "sha256": "f8076f3dfaefefe0a86619862aa4e4c78e39a3dd428ee478b5992b3cb4bf90a1",
+      "sha256": "c1d1046a09ed1c784eb4aaf7799290ebbf99777d48d13c13bb76b3463db0de4f",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1144,8 +1157,9 @@
         "full_resolution": null,
         "source_copy_sha256": "bee1c63180dce17e6ad606df66baef23da4175e1b975e85bb15c1df6daa1b9c1"
       },
-      "bytes": 363914,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/oqrXGfgmHZMebA71rYpJ.jpg?width=2560&quality=90"
+      "bytes": 148156,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/oqrXGfgmHZMebA71rYpJ.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-tt-my2022-dji-0747",
@@ -1178,7 +1192,7 @@
       "width": 2560,
       "height": 1706,
       "format": "webp",
-      "sha256": "2c718f93caa2a80eb10e67aa3878a1335ce6c221be51cde4e8cba4c942f1492e",
+      "sha256": "9e8fb944e0da4c6df44fc5b914ddeab043fc94fc7bbff6cce22762593449ccbb",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1197,8 +1211,9 @@
         "full_resolution": null,
         "source_copy_sha256": "99ca6e2217dbfc58942265552df8f8cafdae7818b582864a3c83398ce207b15d"
       },
-      "bytes": 459772,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Pw3vPdvfSywxodVjJJg3.jpg?width=2560&quality=90"
+      "bytes": 312342,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Pw3vPdvfSywxodVjJJg3.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "0v9a2648",
@@ -1381,10 +1396,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-aft-sofa-petrol.webp",
-      "width": 1464,
-      "height": 1920,
+      "width": 1220,
+      "height": 1600,
       "format": "webp",
-      "sha256": "5787b63fa30c2a21974761c520b1ced9dbb14da546c6145701f14811bbc7dba1",
+      "sha256": "60f83f77f0b4470f1e89e0f02840f08263aef02524e475d08b89cc102ff91f57",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1402,8 +1417,9 @@
         "full_resolution": null,
         "source_copy_sha256": "e90ed77d8dc56b3b68ed50af9a87d516ab4a0d8b1ff299bbee0ffbed0ed560e3"
       },
-      "bytes": 57676,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png?width=2560&quality=90"
+      "bytes": 41436,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/PRSwJ48DmRgCL92gjGfw.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table",
@@ -1426,10 +1442,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table.webp",
-      "width": 1464,
-      "height": 1920,
+      "width": 1220,
+      "height": 1600,
       "format": "webp",
-      "sha256": "92e9ab7cc2956388526689efb7ae5b2716b73daa6741a35c9a19739d079b2eb7",
+      "sha256": "be7466708b9c9989673fe49162d693d6dc4aefde4bab30781ea863049ef4c37f",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1447,8 +1463,9 @@
         "full_resolution": null,
         "source_copy_sha256": "102afcf3dd5d5d6043e8ee36acbe4fc7473c499c45342e75b4b675d3992ab9d6"
       },
-      "bytes": 62914,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png?width=2560&quality=90"
+      "bytes": 44034,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Z12chCoasxmcs7i792sC.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-u-sofa-sunbed-sphere",
@@ -1471,10 +1488,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-u-sofa-sunbed-sphere.webp",
-      "width": 1464,
-      "height": 1920,
+      "width": 1220,
+      "height": 1600,
       "format": "webp",
-      "sha256": "dec4fdcf862e1d3cfe1876ed3e4189b72aab557f6e7a0151868aba352b842992",
+      "sha256": "666f8db8d34e6a30e86267ff9c038d6bdd34eaf2a2598bb5cd8f39323cb10c91",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1492,8 +1509,9 @@
         "full_resolution": null,
         "source_copy_sha256": "3b023b65019c97ffc80a61feb3e3584569eec732535d6cf9191e2f246980120f"
       },
-      "bytes": 66568,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png?width=2560&quality=90"
+      "bytes": 44366,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/J1geeUaD746yk2XrNL3Z.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter",
@@ -1516,10 +1534,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter.webp",
-      "width": 1464,
-      "height": 1920,
+      "width": 1220,
+      "height": 1600,
       "format": "webp",
-      "sha256": "24f0f8681b5ed2ff124819d73ba30e4916c24013cebc6b9a4575afdc8657924f",
+      "sha256": "72c8aad5278bed51c8c0d8c5ce75b0c5f29cc2ee53ee58f367e6709b17c48ebe",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1537,8 +1555,9 @@
         "full_resolution": null,
         "source_copy_sha256": "230f922ff2a6cdaf78cb8c102586afcb2c50d29ace2aea03344c17e9981ee972"
       },
-      "bytes": 57940,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png?width=2560&quality=90"
+      "bytes": 41738,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/fjYhx5f8vFT4EyqshNkh.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-multi-storage-drivers-sofa-mediterrana",
@@ -1561,10 +1580,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-multi-storage-drivers-sofa-mediterrana.webp",
-      "width": 1464,
-      "height": 1920,
+      "width": 1220,
+      "height": 1600,
       "format": "webp",
-      "sha256": "cdfb1600c1dad5c6bd300628fb9656ea6c560c38ee360ed9b47d58bd26ff16cb",
+      "sha256": "eb4bcd7de631442bebe1d2fe3feedfd106d26a8f340dde59c3c26ed21b3235f0",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1582,8 +1601,9 @@
         "full_resolution": null,
         "source_copy_sha256": "d4dc37003b6c252b7b6c0ff9f98ad9b9855d8a6003a0247e758c546673e76859"
       },
-      "bytes": 97290,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png?width=2560&quality=90"
+      "bytes": 61284,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/1D9G6QDfZwAk8sLzmQPs.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-brabus-line-1",
@@ -1605,10 +1625,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-t-top-brabus-line-1.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "85f7b222015d44a09964b31bc488efd627dfa3a9f76b0b00e2fb8e8008b5774f",
+      "sha256": "b5ae257275b6795474abc2cffac95f563c9f3f7fd336bc87500fdfae43dbcfce",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1626,8 +1646,9 @@
         "full_resolution": null,
         "source_copy_sha256": "e661ac51612e01d29cdde6053741d37b45f2b72f1f0bf2efafdcfcb354457d90"
       },
-      "bytes": 75860,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/1zPvyb6RWe13GfdJhnGb.png?width=2560&quality=90"
+      "bytes": 57014,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/1zPvyb6RWe13GfdJhnGb.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-brabus-line-miami-blue",
@@ -1649,10 +1670,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-t-top-brabus-line-miami-blue.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "f90334acfa7b62b41aae2262c770da45c626784748d902efaea386db5e9c1cfe",
+      "sha256": "898d8dfc1b30a886034b6868bfe861494226f2708629767c672ea9b22df031c2",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1670,8 +1691,9 @@
         "full_resolution": null,
         "source_copy_sha256": "888c7f7976330ab2ef66dfd7e9c31076f8906813ccc60bda966046dad83790d3"
       },
-      "bytes": 83108,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jUX5VVgThpY7g27FP1DE.png?width=2560&quality=90"
+      "bytes": 59930,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jUX5VVgThpY7g27FP1DE.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-brabus-line-platinum-grey",
@@ -1693,10 +1715,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/axopar-22-t-top-brabus-line-platinum-grey.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "e4bcf80f5af00c923991518d373b76fd5f7e901e4ebbc26bc3b4cc3177460c0a",
+      "sha256": "88da8d79e30c63ec94657f7f5d2a00b8790f48bced498aa3a5c85f9ded51677e",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1714,8 +1736,9 @@
         "full_resolution": null,
         "source_copy_sha256": "4a9b96c4688cfac24c61e8c261b4c7b23cbd817b93674848da55c755993978f4"
       },
-      "bytes": 74482,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/VsD2Kptqgnjfs5VwsBp6.png?width=2560&quality=90"
+      "bytes": 55868,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/VsD2Kptqgnjfs5VwsBp6.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-glacier-blue",
@@ -1737,10 +1760,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/axopar-22-t-top-glacier-blue.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "fc620dcacdd0d48ad3ce0f6c2dbf249c11edf3feed0363f0f4e39487f923389f",
+      "sha256": "4e66a29a5dd34ec4840a484d38430c7696c740523fc9385362c66146b0489e07",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1758,8 +1781,9 @@
         "full_resolution": null,
         "source_copy_sha256": "0acae9cbe317bdda4f7580fdd23a11f3ac1adf90d5e61dc7dee2134103323008"
       },
-      "bytes": 76408,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/U454PKUmSvEZeEoBqnHD.png?width=2560&quality=90"
+      "bytes": 56062,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/U454PKUmSvEZeEoBqnHD.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-pearl-white",
@@ -1781,10 +1805,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/axopar-22-t-top-pearl-white.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "10bc426b60799cfdb068728b992093207501f57c99133e9c72800670aef156a5",
+      "sha256": "1b0ec00fd7f7636c57fd0c05becf2b2a7c2f6789b02c747561205694eefe0dcd",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1802,8 +1826,9 @@
         "full_resolution": null,
         "source_copy_sha256": "b2f5b1102683c613aed24862d276c95adeb28e354ed39e7cd958bd7250f36f8a"
       },
-      "bytes": 75994,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jEqm8WxuayfarnQid2JB.png?width=2560&quality=90"
+      "bytes": 56094,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jEqm8WxuayfarnQid2JB.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-brabus-performance-line-1",
@@ -1825,10 +1850,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-t-top-brabus-performance-line-1.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "9d2143e2aa0d4805697131df6c2805fc57150232a21852d2b5803e8207ffb950",
+      "sha256": "218da7968b8ba7a61a060319721b3b9a481efc13038c6f189ab4434b59dd95de",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1846,8 +1871,9 @@
         "full_resolution": null,
         "source_copy_sha256": "7fa6b669cbd283ff50b7c6be8ee1a59185531c1bb9b60d364dc22bda8db6603f"
       },
-      "bytes": 78688,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/du8tRNH8hfdMVE25BDNS.png?width=2560&quality=90"
+      "bytes": 57914,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/du8tRNH8hfdMVE25BDNS.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-22-t-top-the-mediterrana-edition-1",
@@ -1869,10 +1895,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-t-top-the-mediterrana-edition-1.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "8ee742fd14913651a869b425255a0b8d975053f6ceb4b26efbab5ad1963631fa",
+      "sha256": "d13dcd648f89d4bafa4a27d3bffa2b1a0d971dcc666a8f56c35089f664e83214",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -1890,8 +1916,9 @@
         "full_resolution": null,
         "source_copy_sha256": "c666f66ed45ebb9101de731f4d1b740b1811a446384538f63e5595ed20e2e837"
       },
-      "bytes": 115936,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/ozujgpEMeKV1h3m9MQp8.png?width=2560&quality=90"
+      "bytes": 78566,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/ozujgpEMeKV1h3m9MQp8.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "q9a2200",
@@ -2068,10 +2095,10 @@
       "declared_format": "png",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/OTHER/axopar-22-t-top-jobe-edition-1.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 1600,
+      "height": 1600,
       "format": "webp",
-      "sha256": "94eefebaaa6d06abd2f087ab5900a477e73ebf23f2f9ce2c784410b561b49bc6",
+      "sha256": "14e1c6144a21eb0c86746f1e98ea5ce3dd7460fcdf82cbab68c76358287dcd92",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2089,8 +2116,9 @@
         "full_resolution": null,
         "source_copy_sha256": "1a2b43bc72799ef5bfd8fb9fbfe3945d919cd756316d50e779712b6cfbe20f69"
       },
-      "bytes": 71970,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Te1hxutuPpn7AAVUToK1.png?width=2560&quality=90"
+      "bytes": 54846,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Te1hxutuPpn7AAVUToK1.png?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "axopar-x-jobe-22-c4a2876",
@@ -2206,10 +2234,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/silvertex-petrol.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "42b232956c1b35bf518d79ad544821c51155862343de7f0cd21118e4fd104600",
+      "sha256": "44775dc8a5510a5ccc7199760611bbb8a851569a311dd094e4fffe6ab45e1f56",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2227,8 +2255,9 @@
         "full_resolution": null,
         "source_copy_sha256": "cd5779cf7244f3ed93b9b0665144321ffa925099736ea4cf07daf0d0f68eb069"
       },
-      "bytes": 497538,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg?width=2560&quality=90"
+      "bytes": 227844,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/pixz7CVJQw3SJUx7tkZA.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "silvertex-squash",
@@ -2251,10 +2280,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/silvertex-squash.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "da7ad72bb5362496ad22fa3e563d7c891ce0cd44e26586c36e61fbb88f5306b4",
+      "sha256": "c4072c90d1dfd5fbf970b4f9a66b74b44b86049b43308e5cdee7e03bc01a0060",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2272,8 +2301,9 @@
         "full_resolution": null,
         "source_copy_sha256": "10dc7d8cfc7ff769212aa573b013dc9a890eca4dbaf639911d66c96fd3769858"
       },
-      "bytes": 525848,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg?width=2560&quality=90"
+      "bytes": 242142,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/t5PmT11p6JdodrM5NCCB.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "silvertex-hunter",
@@ -2296,10 +2326,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/silvertex-hunter.webp",
-      "width": 1920,
-      "height": 1280,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "501f6d85fffa2474e37376359586820f6dd27e7ff810577a6f82b254970ffd84",
+      "sha256": "e32921b17a11ec4e387ee00066ef46a0abb002dcfcd2da33a9e16cbfc7faf11a",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2317,8 +2347,9 @@
         "full_resolution": null,
         "source_copy_sha256": "8e5b141e0442db13f27775db42424e7e4dfbae019a381298e406b653d583e229"
       },
-      "bytes": 464858,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg?width=2560&quality=90"
+      "bytes": 204176,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/jK5sECcc5JZiuRQmpgU5.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "linetex-sphere",
@@ -2341,10 +2372,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/linetex-sphere.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "7c4829a462b0e8b34b1e6b81cc4ecca3158f64b0452efebe1978949960893132",
+      "sha256": "4970263ef61bff1fe4021837e4a5c53f6822da171420284ce3533380098b80a5",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2362,8 +2393,9 @@
         "full_resolution": null,
         "source_copy_sha256": "d340794b7be3a017690eeb0b51da2db0e06a03a8c7a0985ccdde2cbe4b1a3256"
       },
-      "bytes": 111330,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg?width=2560&quality=90"
+      "bytes": 41032,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/Vsspdaze9kPmvVatN9EK.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "linetex-dust",
@@ -2386,10 +2418,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/linetex-dust.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "31a04545ea7068cc7811f39ade3b0a2faaac3515c04a1e38f65888f13f4faf9a",
+      "sha256": "a463cdd0fcdfeabe02ba7207143b46dd0c67b503f7ab5972ae7c5f1382456703",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2407,8 +2439,9 @@
         "full_resolution": null,
         "source_copy_sha256": "8c054e0aeaae41d8554116996407d0eafae14d00de0da0e8e2db35d6590ab0e1"
       },
-      "bytes": 101258,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg?width=2560&quality=90"
+      "bytes": 38340,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/cxE6pjSHLBHerfmxzskg.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "linetex-chalk",
@@ -2431,10 +2464,10 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "file": "05_MULTIMEDIA/IMAGENES/DETAIL/linetex-chalk.webp",
-      "width": 1920,
-      "height": 1281,
+      "width": 1600,
+      "height": 1068,
       "format": "webp",
-      "sha256": "1cf327bc40bf76b4b34788a6d8949c1a4c66a367aba88c2fa0adedf0fec70b62",
+      "sha256": "070b48a74bce545a704534db39335ca6856b9d3e7a5ebc54f77dfa681b7e67f7",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2452,8 +2485,9 @@
         "full_resolution": null,
         "source_copy_sha256": "8b306223386b84034ac058a782da6e87b8d4ef354687af3c48612df8936bb5bb"
       },
-      "bytes": 50716,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg?width=2560&quality=90"
+      "bytes": 22406,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/xojZHCEphpbkGuZtfZ8z.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "taupe",
@@ -2479,7 +2513,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "5ec5c8506043e29dc62ad569de43f9f54501e9383be3737da328fd298cfa3432",
+      "sha256": "9117189c97360676b2b5390a8d131936f17b61a1883804dede35f8aa328e1f6f",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2497,8 +2531,9 @@
         "full_resolution": null,
         "source_copy_sha256": "9bee7fc0b9def793c42352099b6fe1de6d66c7cf3531a3230c22116bfc2b7f4d"
       },
-      "bytes": 339904,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg?width=2560&quality=90"
+      "bytes": 284030,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/WouJ94Chnh63iN9Dwkpe.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "natural",
@@ -2524,7 +2559,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "6f315e969b0951bc924ce681388c8ccb60a16712a1c6a509741ecd3250720a2f",
+      "sha256": "b7c8233b11f30d9572eb7a549385b943f0c7b03897e0915c2dd34628a02c9a5a",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2542,8 +2577,9 @@
         "full_resolution": null,
         "source_copy_sha256": "9bd0ed9bcca314c254ef18dff427b6ea28513c7ee7bc90329d89479957aad11e"
       },
-      "bytes": 141128,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg?width=2560&quality=90"
+      "bytes": 110836,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "antracite",
@@ -2569,7 +2605,7 @@
       "width": 1233,
       "height": 1233,
       "format": "webp",
-      "sha256": "eff9d052ef51ff5806a6bb64c26b589f8433860491df064b3122aa731ad897f1",
+      "sha256": "dac2ca9363b4894ace02bb03af95e8840b33ace63813909b7d3947acc866d8de",
       "collected_at": "2026-09-25",
       "downloaded_at": "2026-09-25",
       "download_status": "WEB_COPY",
@@ -2587,8 +2623,9 @@
         "full_resolution": null,
         "source_copy_sha256": "31f7a9cc4ad50e5acbed5984dfedb425405874d44523a939c72486d322282c1e"
       },
-      "bytes": 252224,
-      "downloaded_from": "https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg?width=2560&quality=90"
+      "bytes": 208288,
+      "downloaded_from": "https://media.ffycdn.net/eu/axopar/2xuFX1gzDz2ufpPJvycm.jpg?width=2560&quality=90",
+      "web_quality": 75
     },
     {
       "id": "0v9a2701",
