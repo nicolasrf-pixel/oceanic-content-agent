@@ -88,6 +88,7 @@ python -m oceanic check                # render + readiness de toda la bibliotec
 python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon | aquila | xo | solaris | saffier | vxone | switch | oceanicpower | excess: paquetes completos (no toca los curated)
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
+python -m oceanic optimize <carpeta>                 # recomprime copias web ya bajadas al estándar actual (sin re-descargar)
 python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
 python -m unittest discover -s tests   # pruebas
 ```
@@ -188,6 +189,6 @@ es representada (decisión Oceanic 2026-10-05): sin paquete.
   del fabricante (Axopar: `media.ffycdn.net`, `axopar.frontify.com`, `brand.axopar.com`, `manuals.axopar.com`;
   Beneteau: `www.beneteau.com`, originales en `/sites/default/files/`; Lagoon: `admin.catamarans-lagoon.com`; Aquila: `www.aquilaboats.com`; XO: `xoboats.com`, originales en `/wp-content/uploads/`; Solaris: `www.solarisyachts.com`; Saffier: `saffieryachts.com`; VX One y Switch: `static.wixstatic.com`; Oceanic Power: `oceanic.cl`; Excess: `www.excess-catamarans.com`, originales en `/media/`).
 - **Peso:** no se guardan originales. Por imagen se guarda una copia web WebP (2560 px lado mayor si es
-  HERO_CANDIDATE, 1920 px el resto) y el original queda referenciado en `images.json › original` (URL, sha256,
+  HERO_CANDIDATE, 1600 px el resto, calidad WebP 75: decisión Oceanic 2026-10-08 para carpetas más livianas) y el original queda referenciado en `images.json › original` (URL, sha256,
   dimensiones, peso). Los documentos se guardan como enlace (`keep_file: true` solo si hace falta la copia).
   Objetivo: ~10–15 MB por modelo.

@@ -54,6 +54,12 @@ def main(argv: list[str]) -> int:
         print("documentos:", media.download_documents(model))
         readiness.write(model)
         return 0
+    if cmd == "optimize":
+        for model in sorted(p.parent.parent for p in Path(args[0]).rglob("00_MODELO/00_MODELO.md")):
+            st = media.optimize_images(model)
+            print(f"{model.name}: {st['optimized']} optimizadas, "
+                  f"{st['bytes_before'] / 1048576:.1f} → {st['bytes_after'] / 1048576:.1f} MB")
+        return 0
     if cmd == "readiness":
         result = readiness.write(Path(args[0]))
         print(result["CONTENT_STATUS"], f"{result['completeness_pct']}%")

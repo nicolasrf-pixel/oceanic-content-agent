@@ -679,7 +679,7 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None, extra
             "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; "
                                    "un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por "
                                    "nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-            "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original "
+            "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original "
                              f"de {CFG['original_path']}. El original se referencia en `original`.",
             "images": recs}
 

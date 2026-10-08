@@ -83,8 +83,9 @@ def init_inventory(extract: dict) -> list[dict]:
     return records
 
 
-WEB_MAX_EDGE = {"hero": 2560, "default": 1920}
-WEB_QUALITY = 82
+# Decisión Oceanic 2026-10-08: carpetas más livianas (1920 px / q82 → 1600 px / q75; ~40 % menos por imagen).
+WEB_MAX_EDGE = {"hero": 2560, "default": 1600}
+WEB_QUALITY = 75
 
 
 def _web_copy(data: bytes, max_edge: int) -> tuple[bytes, int, int]:
@@ -204,10 +205,44 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
         by_hash[digest] = rec["id"]
         stats["from_cdn"] += not full
         rec.update(file=str(dest.relative_to(model_dir)), sha256=hashlib.sha256(web).hexdigest(),
-                   format="webp", width=ww, height=wh, bytes=len(web),
+                   format="webp", width=ww, height=wh, bytes=len(web), web_quality=WEB_QUALITY,
                    downloaded_at=date.today().isoformat(), downloaded_from=used,
                    download_status="WEB_COPY" if full else "WEB_COPY (original no disponible; desde CDN)")
         stats["stored"] += 1
+    inv_path.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n")
+    return stats
+
+
+def optimize_images(model_dir: Path) -> dict:
+    """Re-encode existing web copies to the current size/quality (WEB_MAX_EDGE, WEB_QUALITY) without re-downloading.
+
+    Copies already at the current settings (`web_quality`) are left alone; the original stays referenced in `original`.
+    """
+    import io
+    from PIL import Image
+    inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+    inv = json.loads(inv_path.read_text())
+    stats = {"optimized": 0, "skipped": 0, "bytes_before": 0, "bytes_after": 0}
+    for rec in inv["images"]:
+        f = model_dir / rec["file"] if rec.get("file") else None
+        if not f or not f.exists() or rec.get("web_quality") == WEB_QUALITY:
+            stats["skipped"] += 1
+            continue
+        edge = WEB_MAX_EDGE["hero" if rec.get("hero_candidate") else "default"]
+        before = f.read_bytes()
+        with Image.open(io.BytesIO(before)) as im:
+            im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
+            im.thumbnail((edge, edge), Image.LANCZOS)
+            out = io.BytesIO()
+            im.save(out, "WEBP", quality=WEB_QUALITY, method=6)
+            web, ww, wh = out.getvalue(), im.width, im.height
+        if len(web) >= len(before):  # already lighter (small source): keep it
+            web, (ww, wh) = before, (rec.get("width"), rec.get("height"))
+        f.write_bytes(web)
+        stats["bytes_before"] += len(before)
+        stats["bytes_after"] += len(web)
+        stats["optimized"] += 1
+        rec.update(sha256=hashlib.sha256(web).hexdigest(), width=ww, height=wh, bytes=len(web), web_quality=WEB_QUALITY)
     inv_path.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n")
     return stats
 

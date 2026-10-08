@@ -338,3 +338,24 @@ class Excess(unittest.TestCase):
         self.assertEqual(by["certificacion"]["display_value"], "A8 / B12 / C16 / D20")
         self.assertEqual(by["potencia_motor_auxiliar"]["display_value"], "2 x 29 hp")
         self.assertEqual(specs.validate(spec), [])
+
+
+class Optimize(unittest.TestCase):
+    def test_optimize_resizes_and_is_idempotent(self):
+        import io
+        import tempfile
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as tmp:
+            m = Path(tmp)
+            img_dir = m / "05_MULTIMEDIA" / "IMAGENES" / "EXTERIOR"
+            img_dir.mkdir(parents=True)
+            buf = io.BytesIO()
+            Image.new("RGB", (3000, 2000), (20, 90, 160)).save(buf, "WEBP", quality=90)
+            (img_dir / "a.webp").write_bytes(buf.getvalue())
+            inv = {"images": [{"id": "a", "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/a.webp", "hero_candidate": False,
+                               "width": 3000, "height": 2000}]}
+            (m / "05_MULTIMEDIA" / "IMAGENES" / "images.json").write_text(json.dumps(inv))
+            st = media.optimize_images(m)
+            rec = json.loads((m / "05_MULTIMEDIA" / "IMAGENES" / "images.json").read_text())["images"][0]
+            self.assertEqual((st["optimized"], rec["width"], rec["web_quality"]), (1, 1600, media.WEB_QUALITY))
+            self.assertEqual(media.optimize_images(m)["optimized"], 0)
