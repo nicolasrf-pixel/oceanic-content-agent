@@ -183,6 +183,11 @@ queda como bloc de notas literal en `usados/<slug>/ficha.txt` (texto del aviso, 
 fotos) + `fotos/` (WebP 1600 px q75, no versionadas, van en ZIP). `usados/LEEME.txt` es el índice (incluye vendidos y
 tarjetas sin ficha) y `usados/OBSERVACIONES.txt` anota lo que hay que corregir en la web actual.
 
+**Contenido de marca (decisión Oceanic 2026-10-09):** `marcas/<marca>/` guarda el texto institucional de la web oficial de
+cada marca (historia, ADN, valores) para las páginas de marca de la nueva web: `original.md` (literal, con URL y fecha) y
+`es.md` (traducción fiel al español, BORRADOR, sin agregar ni quitar afirmaciones; las dudas van como «Nota para la web»).
+`marcas/TODAS-es.md` las reúne. Se omiten equipos directivos, contactos, cookies, testimonios y condiciones legales.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl

@@ -104,7 +104,8 @@ def main(argv: list[str]) -> int:
     OUT.mkdir(exist_ok=True)
     index = cards(fetch(INDEX))
     lines = [f"USADOS OCEANIC · índice", f"Fuente: {INDEX} (capturado {today})",
-             "Datos tal como los publica cada aviso; no se normalizan (decisión Oceanic 2026-10-09).", ""]
+             "Datos tal como los publica cada aviso; no se normalizan (decisión Oceanic 2026-10-09).",
+             "Se publican todos los avisos (decisión Oceanic 2026-10-09). Correcciones pendientes en OBSERVACIONES.txt.", ""]
     for n, c in enumerate(index, 1):
         head = " | ".join(c["lines"])
         slug = slug_of(c["link"]) if c["link"] else None
