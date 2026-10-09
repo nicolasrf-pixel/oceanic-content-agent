@@ -7,3 +7,6 @@ dist/*.zip
 # Credenciales locales: nunca se versionan.
 .env
 *.env
+
+# Fotos de usados: van en el ZIP, no en git
+usados/*/fotos/

@@ -177,6 +177,12 @@ altura sobre flotación (aparejo estándar). Camarotes de "Cabin" (13) o de los 
 citas literales (`TEXT_XREF`). Testimonios de propietarios, configurador y visita 360° a `excluded_sources`. Skeeta ya no
 es representada (decisión Oceanic 2026-10-05): sin paquete.
 
+**Usados (excepción, decisión Oceanic 2026-10-09):** `python3 tools/usados.py` captura https://oceanic.cl/usados/. Solo para
+usados, los datos son variables por aviso y NO se normalizan al catálogo de campos ni pasan por `biblioteca/`: cada aviso
+queda como bloc de notas literal en `usados/<slug>/ficha.txt` (texto del aviso, tarjeta del índice, documentos y URL de
+fotos) + `fotos/` (WebP 1600 px q75, no versionadas, van en ZIP). `usados/LEEME.txt` es el índice (incluye vendidos y
+tarjetas sin ficha) y `usados/OBSERVACIONES.txt` anota lo que hay que corregir en la web actual.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
