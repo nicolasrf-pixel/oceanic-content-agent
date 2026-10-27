@@ -18,7 +18,7 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`a35s-persp-3-w-1042x450-webp`](https://www.aquilaboats.com/hubfs/35%20Sport/A35S-Persp%203-W-1042x450.webp ) | EXTERIOR | revisión visual |  | NonexNone webp  | WEB_COPY | Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
+| [`a35s-persp-3-w-1042x450-webp`](https://www.aquilaboats.com/hubfs/35%20Sport/A35S-Persp%203-W-1042x450.webp ) | EXTERIOR | revisión visual |  | NonexNone webp  | FAILED (HTTPError: HTTP Error 404: Not Found) | Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
 | [`a35s-persp-4-w-1042x450`](https://www.aquilaboats.com/hubfs/35%20Sport/A35S-Persp%204-W-1042x450.webp) | EXTERIOR | revisión visual |  | NonexNone webp | WEB_COPY | Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
 | [`a35s-persp-7-adjusted-backrest-1042x450`](https://www.aquilaboats.com/hubfs/35%20Sport/A35S-Persp%207-Adjusted%20Backrest-1042x450.webp) | EXTERIOR | revisión visual |  | NonexNone webp | WEB_COPY | Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
 | [`a35s-aftcockpit-image-07-1042x450`](https://www.aquilaboats.com/hubfs/35%20Sport/A35S-AftCockpit-image-07-1042x450.webp) | EXTERIOR | revisión visual |  | NonexNone webp | WEB_COPY | Archivo en la carpeta del modelo en el CMS de Aquila ('35 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |

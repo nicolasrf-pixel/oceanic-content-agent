@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 54 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 14/18 |
-| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 14/18 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 14/18 |
+| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 18/18 |
+| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 18/18 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 18/18 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

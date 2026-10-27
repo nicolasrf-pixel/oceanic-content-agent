@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 56% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 64% (informativa; el estado lo deciden las reglas)
 
 Conflictos sin resolver: Lastre, Génova, Mayor
 
@@ -38,10 +38,10 @@ Conflictos sin resolver: Lastre, Génova, Mayor
 | EDITORIAL | ingenieria | PARTIAL | 10 palabras fuente |
 | EDITORIAL | experiencia | OK | 103 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
-| MULTIMEDIA | hero_image | PARTIAL | 3 candidatas · sin descargar |
-| MULTIMEDIA | exterior | PARTIAL | 7 en inventario (mín. 3) · descargadas 0/17 |
-| MULTIMEDIA | interior | PARTIAL | 6 en inventario (mín. 2) · descargadas 0/17 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 0/17 |
+| MULTIMEDIA | hero_image | OK | 3 candidatas |
+| MULTIMEDIA | exterior | OK | 7 en inventario (mín. 3) · descargadas 17/17 |
+| MULTIMEDIA | interior | OK | 6 en inventario (mín. 2) · descargadas 17/17 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 17/17 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

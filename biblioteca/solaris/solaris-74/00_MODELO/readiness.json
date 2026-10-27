@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "RED",
-  "completeness_pct": 44,
+  "completeness_pct": 47,
   "critical_missing": [
     "tabla_tecnica"
   ],
@@ -63,18 +63,18 @@
     },
     "exterior": {
       "group": "MULTIMEDIA",
-      "status": "PARTIAL",
-      "detail": "3 en inventario (mín. 3) · descargadas 7/12"
+      "status": "OK",
+      "detail": "3 en inventario (mín. 3) · descargadas 12/12"
     },
     "interior": {
       "group": "MULTIMEDIA",
       "status": "OK",
-      "detail": "5 en inventario (mín. 2) · descargadas 7/12"
+      "detail": "5 en inventario (mín. 2) · descargadas 12/12"
     },
     "detail": {
       "group": "MULTIMEDIA",
       "status": "MISSING",
-      "detail": "0 en inventario (mín. 2) · descargadas 7/12"
+      "detail": "0 en inventario (mín. 2) · descargadas 12/12"
     },
     "video": {
       "group": "MULTIMEDIA",

@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | PARTIAL | 27 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 9 en inventario (mín. 3) · descargadas 6/17 |
-| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 6/17 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 6/17 |
+| MULTIMEDIA | exterior | OK | 9 en inventario (mín. 3) · descargadas 17/17 |
+| MULTIMEDIA | interior | OK | 4 en inventario (mín. 2) · descargadas 17/17 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 17/17 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

@@ -122,7 +122,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     inv = json.loads(inv_path.read_text())
     by_hash = {(r["original"].get("sha256") or r["original"].get("source_copy_sha256")): r["id"]
-               for r in inv["images"] if r.get("original") and r["file"]}
+               for r in inv["images"] if r.get("original") and r["file"] and (model_dir / r["file"]).exists()}
     stats = {"stored": 0, "duplicates": 0, "failed": 0, "skipped": 0, "from_cdn": 0}
     for rec in inv["images"]:
         done = rec["file"] and rec["file"].endswith(".webp") and rec.get("original") \
@@ -190,7 +190,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
                                "sha256": digest,
                                "width": w, "height": h, "format": fmt, "bytes": len(data),
                                "full_resolution": full}
-        if digest in by_hash:
+        if by_hash.get(digest, rec["id"]) != rec["id"]:  # re-download of its own copy is not a duplicate
             rec.update(file=None, download_status=f"DUPLICATE_OF {by_hash[digest]}")
             stats["duplicates"] += 1
             continue

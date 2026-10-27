@@ -26,15 +26,28 @@
       "declared_format": "webp",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/HERO/solaris40-hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "webp",
+      "sha256": "797967243988f89ad60241cc0c40873efba54302a69b9afa4c638085f1e03970",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))",
-      "hero_rank": 1
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY",
+      "hero_rank": 1,
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/Solaris40-hero.webp",
+        "fetched_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/Solaris40-hero.webp",
+        "sha256": "603bb55fd95d3a2ef73c6315bbb3e45d7239c530c592546d85a83bad065d76f9",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "bytes": 215998,
+        "full_resolution": true
+      },
+      "bytes": 104074,
+      "web_quality": 75,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/2020/12/Solaris40-hero.webp"
     },
     {
       "id": "solaris40-segeln-2021-tst-lowres-0172",
@@ -61,22 +74,22 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "86e78ab330aa64d47595ad60e38a90c637b7831f183b2353be1a5a663c92b004",
+      "sha256": "36a081d5706a54e4d49b684336edde3b29d5353888a5144b29484c624af3779f",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 99294,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 105466,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/solaris40-segeln-2021-tst_lowres_0172.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/solaris40-segeln-2021-tst_lowres_0172.jpeg",
         "sha256": "a0866faa0eb8d286db2645701d5b41813e8b7887652a33e7a6376fce6a861620",
         "width": 1708,
         "height": 1139,
         "format": "jpeg",
         "bytes": 326602,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/solaris40-segeln-2021-tst_lowres_0172.jpeg",
       "web_quality": 75
     },
     {
@@ -104,22 +117,22 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "3acb435b8c468954503a10fad9234d9f0ef33148f87a17ce6e2bac73d3c071a1",
+      "sha256": "57f67d0a74e8f9947898dc3b96d4af4f4ca9cd5b703ac1f6dc449795a37040cb",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 265256,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 268658,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume-Plisson-for-Solaris-Yachts-4575.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-4575-scaled.jpeg",
         "sha256": "45f13a06616b4ec93acc19fc44a8bf066eb084aeed088df7ad4e9ccbaf5aece6",
         "width": 2560,
         "height": 1708,
         "format": "jpeg",
         "bytes": 1001422,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-4575-scaled.jpeg",
       "web_quality": 75
     },
     {
@@ -147,22 +160,22 @@
       "width": 1600,
       "height": 914,
       "format": "webp",
-      "sha256": "8e67b8b68e50cf8bc18ce960cc1f69971f14b9d4d86ae9372c9d3c9a5f4c929b",
+      "sha256": "8f22037395ba9e3c0727a3bb7e75f7792dccdb95dbbb8cc867051ab747a7f2e6",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 145896,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 152130,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume-Plisson-for-Solaris-Yachts-8251-scaled.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8251-scaled-1.jpeg",
         "sha256": "c94798e904f35c5fa2fafcb1ae25686cb76631b13c839eaed03a95e1fd709e6a",
         "width": 2560,
         "height": 1463,
         "format": "jpeg",
         "bytes": 574728,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8251-scaled-1.jpeg",
       "web_quality": 75
     },
     {
@@ -190,22 +203,22 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "7bce5927812b119bf9235bf39bddc87b2ae5d02f8d2ad43795beec97417ac4f0",
+      "sha256": "b44a21f66c5698f2f3ccb104b9aff79126332d34042286930d5b16198aa0645a",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 88716,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 94918,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume-Plisson-for-Solaris-Yachts-3487.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-3487-scaled.jpeg",
         "sha256": "3297aaf8f317ac7a9817a79fdfb5fd92c1cdbd4b6adcd56523853915651b0ce7",
         "width": 2560,
         "height": 1707,
         "format": "jpeg",
         "bytes": 496460,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-3487-scaled.jpeg",
       "web_quality": 75
     },
     {
@@ -233,22 +246,22 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "1db1bc19a044de5ba4b5b4d59b12dda7f8dab99b5b3478d84af4cde4e286e383",
+      "sha256": "0e157f98ea329b2c0c669e7f879d1a39541b29ed89ddca690cc069c5c62d1fe3",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 71688,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 75692,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/%C2%A9Guillaume-Plisson-for-Solaris-Yachts-3560.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-3560-scaled.jpeg",
         "sha256": "194388b3c0bb4cb43b8f3ef28303b56eccd3c94ef6b93011846e637b528efdef",
         "width": 2560,
         "height": 1708,
         "format": "jpeg",
         "bytes": 412194,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-3560-scaled.jpeg",
       "web_quality": 75
     },
     {
@@ -276,22 +289,22 @@
       "width": 1600,
       "height": 901,
       "format": "webp",
-      "sha256": "765f087dc450e98390c69e4ad2877007b5841e83bc32d6e64cf8bc39fce07f3f",
+      "sha256": "27802b40034cd4e6a4ff4de1a43e30681172a5f23286323aac2a7363b07a3e23",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 82972,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 86872,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Yacht-Test-Solaris-40-1.jpeg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/Yacht-Test-Solaris-40-1.jpeg",
         "sha256": "bd5c2e66b56faf9433e7915ee2eebaa31b58cec89180fc25d0758552624d4b6a",
         "width": 1600,
         "height": 901,
         "format": "jpeg",
         "bytes": 187934,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/Yacht-Test-Solaris-40-1.jpeg",
       "web_quality": 75
     },
     {
@@ -319,22 +332,22 @@
       "width": 1600,
       "height": 1020,
       "format": "webp",
-      "sha256": "31ee5e0f5f4f3167a594b04efbac61ad2e4ec8f32987405e17b24540bededd59",
+      "sha256": "cbdb0a8a4aa675200329a3ee0f834460e3ab4f278defbed82574ffb41c63f09a",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 105752,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 107976,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/Solaris-40-v02.jpg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/Solaris-40-v02.jpeg",
         "sha256": "2d3bd1463aa6002ac82d1c7017c6f76c1c18fc2b5466e421423412011bae8a35",
         "width": 1600,
         "height": 1020,
         "format": "jpeg",
         "bytes": 353988,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/Solaris-40-v02.jpeg",
       "web_quality": 75
     },
     {
@@ -362,22 +375,22 @@
       "width": 1600,
       "height": 900,
       "format": "webp",
-      "sha256": "41a0735c2bca9873a36cd56ed893a01de34ba702c9257219d9017e26a1b6fa3b",
+      "sha256": "0d3bf3dc8739c9c90c689bac57e0fa595c5ba47b1bfa5e33b78cde6be23de4de",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 59552,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 65374,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0027-copy.jpeg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/IMG_0027-copy.jpeg",
         "sha256": "4c72980413f50c62201558e6d205093dd48a7a1769528be4d7a72b8b443b3f68",
         "width": 1600,
         "height": 900,
         "format": "jpeg",
         "bytes": 286632,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/IMG_0027-copy.jpeg",
       "web_quality": 75
     },
     {
@@ -405,22 +418,22 @@
       "width": 1600,
       "height": 1013,
       "format": "webp",
-      "sha256": "5a2aff12706f43e77c78982c14454bf6489df77291c7ffddf615df5ff09b4255",
+      "sha256": "839816691613c02bb21f82feee23563babc3946e2243d7017f38e5f200fda428",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-04",
-      "download_status": "WEB_COPY",
-      "bytes": 61102,
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "bytes": 65386,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0011.jpeg",
-        "fetched_from": "descarga manual en navegador",
+        "fetched_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/IMG_0011.jpeg",
         "sha256": "37d937a1bb00a5b6fba1313227bc4529dfeb1a4c6250919f1a65064a40b91f97",
         "width": 1600,
         "height": 1013,
         "format": "jpeg",
         "bytes": 304757,
-        "full_resolution": true
+        "full_resolution": false
       },
-      "downloaded_from": "descarga manual en navegador",
+      "downloaded_from": "copia con el mismo nombre de archivo publicada en https://oceanic.cl/wp-content/uploads/2023/12/IMG_0011.jpeg",
       "web_quality": 75
     },
     {
@@ -448,11 +461,11 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "97132a3c7df819ed9326667dc291ef922587a727412e9bb1386f4dc5be0e8a4e",
+      "sha256": "e4e90526bd06da378546c93fa288eb408e541bb63102e7482e573ecef50de040",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
-      "bytes": 80368,
+      "bytes": 87236,
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0059.jpeg",
         "fetched_from": "https://www.solarisyachts.com/cms/wp-content/uploads/IMG_0059.jpeg",
@@ -487,14 +500,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/40-piano-interni-scaled.webp",
+      "width": 1600,
+      "height": 800,
+      "format": "webp",
+      "sha256": "bd3fb866ee860fdfcb65370f571750aab748e24b57cee56ba1f4dcf203ffbe5d",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANO-INTERNI-scaled.jpg",
+        "fetched_from": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANO-INTERNI-scaled.jpg",
+        "sha256": "81d482dd87677bc42db6549754e59b6fbbd27564e450edd2f5dc6177c1ca2786",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 189726,
+        "full_resolution": true
+      },
+      "bytes": 27550,
+      "web_quality": 75,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANO-INTERNI-scaled.jpg"
     },
     {
       "id": "40-profilo-scaled",
@@ -521,9 +547,9 @@
       "width": 1600,
       "height": 800,
       "format": "webp",
-      "sha256": "3c0c9573913d73a052c7269ca6262c6dfbaf317dd340c25d4e8b338913759add",
+      "sha256": "13c6a1f848b559a2687c00fb1213a31791887a393d50728b24d5d831e04764d7",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-05",
+      "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
       "original": {
         "url": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PROFILO-scaled.jpg",
@@ -535,7 +561,7 @@
         "bytes": 101280,
         "full_resolution": true
       },
-      "bytes": 10332,
+      "bytes": 10830,
       "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PROFILO-scaled.jpg",
       "web_quality": 75
     },
@@ -560,14 +586,27 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/PLANS/40-pianta-scaled.webp",
+      "width": 1600,
+      "height": 800,
+      "format": "webp",
+      "sha256": "9120d43e53b9faf4e9ac07fd51960f443da72e2e41327e4edb009ff426f9a168",
       "collected_at": "2026-10-01",
-      "downloaded_at": null,
-      "download_status": "FAILED (desafío anti-bots del servidor (captcha))"
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANTA-scaled.jpg",
+        "fetched_from": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANTA-scaled.jpg",
+        "sha256": "107d2529a93ffd18c052ecb7fad9c1a027c73df92200cf5c8e728a2f9d0ff001",
+        "width": 2560,
+        "height": 1280,
+        "format": "jpeg",
+        "bytes": 408942,
+        "full_resolution": true
+      },
+      "bytes": 71496,
+      "web_quality": 75,
+      "downloaded_from": "https://www.solarisyachts.com/cms/wp-content/uploads/40-PIANTA-scaled.jpg"
     },
     {
       "id": "oceanic-s401-1-scaled-1",
@@ -597,7 +636,7 @@
       "sha256": "0de7008e0e358e08add6899aeeca97bea7a489dc61b82030cd6ddf6085eefe8d",
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-05",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (URLError: <urlopen error [Errno 104] Connection reset by peer>)",
       "hero_rank": 2,
       "original": {
         "url": "https://oceanic.cl/wp-content/uploads/2023/12/S401-1-scaled-1.jpeg",
@@ -638,9 +677,9 @@
       "width": 2560,
       "height": 1707,
       "format": "webp",
-      "sha256": "409110537389a307c124cd48458aa8f85b2846ca893c6dcfda483e6938589c4e",
+      "sha256": "49b3b55db42084b9fcadd9b2300ea364edd6bc4c1c2672ad16e6eb049eef3218",
       "collected_at": "2026-10-05",
-      "downloaded_at": "2026-10-05",
+      "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
       "hero_rank": 3,
       "original": {
@@ -653,7 +692,7 @@
         "bytes": 545241,
         "full_resolution": true
       },
-      "bytes": 217664,
+      "bytes": 233628,
       "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-1592-scaled-1.jpeg",
       "web_quality": 75
     },
@@ -682,9 +721,9 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "1283508313498e0ce61e94ce5f1623b1cabea445366b8df6c6e085f5cfa732c2",
+      "sha256": "795fa132752997ce67520e07cfc45fde0dfb9bb210e320c2229fcf91fd2f76aa",
       "collected_at": "2026-10-05",
-      "downloaded_at": "2026-10-05",
+      "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
       "original": {
         "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-1834-scaled-1.jpeg",
@@ -696,7 +735,7 @@
         "bytes": 407575,
         "full_resolution": true
       },
-      "bytes": 84004,
+      "bytes": 88668,
       "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-1834-scaled-1.jpeg",
       "web_quality": 75
     },
@@ -721,14 +760,27 @@
       "declared_format": "jpeg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/oceanic-guillaume-plisson-for-solaris-yachts-8394-scaled-e1656099992748.webp",
+      "width": 1600,
+      "height": 788,
+      "format": "webp",
+      "sha256": "b914c7d9973892e3399e49de91826a969045e8b21b9bdb49f213f9905420aace",
       "collected_at": "2026-10-05",
-      "downloaded_at": null,
-      "download_status": "FAILED (URLError: <urlopen error [Errno 104] Connection reset by peer>)"
+      "downloaded_at": "2026-10-27",
+      "download_status": "WEB_COPY",
+      "original": {
+        "url": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8394-scaled-e1656099992748.jpeg",
+        "fetched_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8394-scaled-e1656099992748.jpeg",
+        "sha256": "767efc963d99f5e41022edbb9d5722c4486a7b4ee17ab52f1552829e468211d8",
+        "width": 2560,
+        "height": 1260,
+        "format": "jpeg",
+        "bytes": 344389,
+        "full_resolution": true
+      },
+      "bytes": 69546,
+      "web_quality": 75,
+      "downloaded_from": "https://oceanic.cl/wp-content/uploads/2023/12/©Guillaume-Plisson-for-Solaris-Yachts-8394-scaled-e1656099992748.jpeg"
     }
   ]
 }
