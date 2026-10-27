@@ -42,7 +42,7 @@
 | [`fy53-profil-white`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/fy53-profil-white.jpg.webp?itok=i6ijkJE3) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Profiles'). |
 | [`desck`](https://www.beneteau.com/sites/default/files/styles/wide/public/desck.png.webp?itok=--71TKIt) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección 'Main Deck'). |
 | [`plan-2-0`](https://www.beneteau.com/sites/default/files/styles/wide/public/plan-2_0.png.webp?itok=tQSbh_KM) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección '3 cabins - 2 heads'). |
-| [`plan-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/plan-1.png.webp?itok=PYPbpd-r) | PLANS | alta |  | NonexNone png | WEB_COPY (original no disponible; desde CDN) | Solo en la página del modelo (sección '3 cabins - 3 heads'). |
+| [`plan-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/plan-1.png.webp?itok=PYPbpd-r) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección '3 cabins - 3 heads'). |
 
 ## Excluidas: no son del barco (1)
 
