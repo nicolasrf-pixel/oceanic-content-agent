@@ -7,6 +7,12 @@
   var cont=document.getElementById('marca'); if(!C||!M||!cont) return;
   var slug=new URLSearchParams(location.search).get('m')||'beneteau';
   var info=M[slug], cat=C[slug];
+  // Marcas con vela y motor (Beneteau, Aquila…): ?u=vela|motor muestra solo esa línea, con su nombre e imagen
+  var linea=new URLSearchParams(location.search).get('u');
+  if(info&&cat&&info.lineas&&info.lineas[linea]){
+    info=Object.assign({},info,info.lineas[linea]);
+    cat={nombre:cat.nombre,modelos:cat.modelos.filter(function(m){return familia(m.tipo)===linea;})};
+  }
   if(!info||!cat){ cont.innerHTML='<section class="cat-hero"><div class="wrap-wide"><h1 class="cat-h1">Marca no encontrada</h1><p class="cat-sub"><a href="../index.html" style="color:var(--boya)">Volver al inicio</a></p></div></section>'; return; }
   document.title=info.nombre+' en Chile | Oceanic';
 
@@ -14,7 +20,7 @@
   var mailto='mailto:ventas@oceanic.cl?subject='+encodeURIComponent('Consulta '+info.nombre)+'&body='+encodeURIComponent('Hola Oceanic, quiero información de la marca '+info.nombre+'.');
 
   // hero
-  var heroImg=/^(https?:)?\/\/|^\//.test(info.hero)?info.hero:AB+info.hero+'.webp';
+  var heroImg=/^(https?:)?\/\/|^\//.test(info.hero)?info.hero:AB+info.hero+(/\.\w{3,4}$/.test(info.hero)?'':'.webp');
   var hero='<header class="mk-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.92),rgba(20,33,43,.35)),url('+heroImg+')">'+
     '<div class="wrap-wide">'+
     '<nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>'+info.universo+'</span></nav>'+

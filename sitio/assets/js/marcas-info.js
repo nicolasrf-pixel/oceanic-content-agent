@@ -1,4 +1,6 @@
-/* OCEANIC, Info editorial de cada marca (hero, origen, carácter). Editar aquí. */
+/* OCEANIC, Info editorial de cada marca (hero, origen, carácter). Lo administra el CMS (/admin/ › Marcas).
+   "lineas" (opcional): una marca con vela y motor tiene una página por línea (/marca/?m=<marca>&u=vela|motor),
+   con su nombre, imagen y textos; los campos que no se indiquen salen de la marca. */
 window.OCEANIC_MARCAS={
  "axopar": {
   "nombre": "Axopar",
@@ -14,7 +16,23 @@ window.OCEANIC_MARCAS={
   "universo": "Vela y Motor",
   "hero": "b-beneteau-sail",
   "claim": "El astillero que definió el crucero moderno.",
-  "intro": "Más de 140 años construyendo veleros y lanchas a motor. De los Oceanis y First a los Gran Turismo y Antares: la referencia mundial en volumen y fiabilidad."
+  "intro": "Más de 140 años construyendo veleros y lanchas a motor. De los Oceanis y First a los Gran Turismo y Antares: la referencia mundial en volumen y fiabilidad.",
+  "lineas": {
+   "vela": {
+    "nombre": "Beneteau",
+    "universo": "Vela",
+    "hero": "b-beneteau-sail",
+    "claim": "El astillero que definió el crucero moderno.",
+    "intro": "Veleros de crucero y de regata: Oceanis, Oceanis Yacht, First y Figaro Beneteau."
+   },
+   "motor": {
+    "nombre": "Beneteau Motor",
+    "universo": "Motor",
+    "hero": "b-beneteau-power",
+    "claim": "Lanchas y cruceros a motor con el sello Beneteau.",
+    "intro": "Antares, Flyer, Gran Turismo, Swift Trawler y Grand Trawler: del day boat al trawler de travesía."
+   }
+  }
  },
  "lagoon": {
   "nombre": "Lagoon",
@@ -38,7 +56,20 @@ window.OCEANIC_MARCAS={
   "universo": "Motor",
   "hero": "b-aquila",
   "claim": "El catamarán a motor, pensado desde cero.",
-  "intro": "Power catamarans diseñados específicamente como multicasco a motor. Espacio de yate, estabilidad y autonomía para la costa y la travesía."
+  "intro": "Power catamarans diseñados específicamente como multicasco a motor. Espacio de yate, estabilidad y autonomía para la costa y la travesía.",
+  "lineas": {
+   "motor": {
+    "nombre": "Aquila",
+    "universo": "Motor"
+   },
+   "vela": {
+    "nombre": "Aquila Sail",
+    "universo": "Vela",
+    "hero": "modelos/aquila-50-sail-hero.webp",
+    "claim": "El catamarán Aquila, ahora a vela.",
+    "intro": "Aquila 45 Sail y Aquila 50 Sail: catamaranes a vela de la gama Aquila."
+   }
+  }
  },
  "xo": {
   "nombre": "XO Boats",

@@ -79,7 +79,10 @@
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
     var F = Fotos(AB, mo, CC.galeria || {});
     var wa = 'https://wa.me/56229537322?text=' + encodeURIComponent('Hola Oceanic, quiero cotizar el ' + mo.nombre + ' (' + info.nombre + ').');
-    var gama = 'index.html?m=' + marca;
+    // marcas con línea vela y motor: volver a la línea del modelo
+    var lineaMo = /electric|eléctric/i.test(mo.tipo) ? 'electrico' : /vela/i.test(mo.tipo) ? 'vela' : 'motor';
+    var gama = 'index.html?m=' + marca + (info.lineas && info.lineas[lineaMo] ? '&u=' + lineaMo : '');
+    if (info.lineas && info.lineas[lineaMo]) info = Object.assign({}, info, info.lineas[lineaMo]);
     var html = [], nav = [];
     var fondo = false; // alterna fondo claro / arena entre bloques, como la maqueta
     function seccion(id, contenido, clase) {

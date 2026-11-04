@@ -11,7 +11,7 @@
       nombre:'Vela', hero:'u-vela.webp',
       kicker:'Universo Vela',
       lede:'Del day sailer al crucero de regata. Monocascos y catamaranes a vela de astilleros de referencia mundial.',
-      marcas:['beneteau','solaris','saffier','lagoon','excess']
+      marcas:['beneteau','solaris','saffier','lagoon','excess','aquila']
     },
     motor:{
       nombre:'Motor', hero:'u-motor.webp',
@@ -32,7 +32,7 @@
   if(!u){ cont.innerHTML='<section class="uni-hero"><div class="wrap-wide"><h1 class="uni-h1">Universo no encontrado</h1><p><a href="'+pre+'index.html#universos" style="color:var(--boya)">Ver los universos</a></p></div></section>'; return; }
   document.title=u.nombre+' — Oceanic';
 
-  function marcaHref(mk){ return pre+'marca/index.html?m='+mk; }
+  function marcaHref(mk){ var L=(M[mk].lineas||{})[slug]; return pre+'marca/index.html?m='+mk+(L?'&u='+slug:''); }
 
   // hero
   var hero='<header class="uni-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.9),rgba(20,33,43,.35)),url('+AB+u.hero+')">'+
@@ -45,10 +45,11 @@
 
   // tarjetas de marca (no productos)
   var cards=u.marcas.filter(function(mk){return M[mk];}).map(function(mk){
-    var info=M[mk];
-    var etiqueta=mk==='beneteau'&&slug==='motor'?'Beneteau Motor':info.nombre;
+    var info=Object.assign({},M[mk],(M[mk].lineas||{})[slug]||{});  // línea vela / motor de la marca, si la tiene
+    var etiqueta=info.nombre;
+    var foto=/\.\w{3,4}$/.test(info.hero)?AB+info.hero:AB+info.hero+'.webp';
     return '<a class="um" href="'+marcaHref(mk)+'">'+
-      '<span class="um-img"><img src="'+AB+info.hero+'.webp" alt="'+etiqueta+'" loading="lazy" onerror="this.style.opacity=0"></span>'+
+      '<span class="um-img"><img src="'+foto+'" alt="'+etiqueta+'" loading="lazy" onerror="this.style.opacity=0"></span>'+
       '<span class="um-body">'+
         '<span class="um-top"><span class="um-name">'+etiqueta+'</span><span class="um-pais">'+info.pais+'</span></span>'+
         (info.claim?'<span class="um-claim">'+info.claim+'</span>':'')+
