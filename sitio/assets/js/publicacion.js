@@ -27,8 +27,33 @@ window.OCEANIC_PUBLICACION = /*DATOS*/{
 
 (function () {
   'use strict';
+  // Opcionales y ediciones: no se publican en ningún barco (decisión Oceanic 2026-11-04). Los datos de la biblioteca
+  // quedan completos; aquí se limpian solo para mostrarlos.
+  var OPC = /opcional|optional|Pilot Edition|edici[oó]n limitada|Riders.? Edition|\bAlpine\b|\bpack\b/i;
+  function texto(t) {
+    if (!t || !OPC.test(t)) return t;
+    return t.split(/(?<=[.!?])\s+/).filter(function (f) { return !OPC.test(f); }).join(' ').trim();
+  }
+  function spec(v) {  // "3 (+4 opcional)" → "3"; "WC opcional" / "32 l (opcional)" → null (fila fuera)
+    if (!v || !OPC.test(v)) return v;
+    if (/^\s*[^()]*\(\s*opcional\s*\)\s*$/i.test(v)) return null;
+    v = v.replace(/\s*\([^)]*opcional[^)]*\)/gi, '').trim();
+    return v && !OPC.test(v) ? v : null;
+  }
+  window.OCEANIC_SIN_OPCIONALES = { texto: texto, spec: spec, lista: function (a) {
+    return (a || []).filter(function (x) { return !OPC.test(typeof x === 'string' ? x : JSON.stringify(x)); });
+  } };
+
   var C = window.OCEANIC_CATALOGO, O = window.OCEANIC_PUBLICACION.ocultos;
   if (!C) return;
+  Object.keys(C).forEach(function (marca) {
+    C[marca].modelos.forEach(function (m) {
+      m.desc = texto(m.desc); m.desc_larga = texto(m.desc_larga);
+      m.specs = (m.specs || []).map(function (s) {
+        var v = spec(s.value); return v ? { label: s.label, value: v, note: s.note && !OPC.test(s.note) ? s.note : '' } : null;
+      }).filter(Boolean);
+    });
+  });
   Object.keys(C).forEach(function (marca) {
     C[marca].modelos = C[marca].modelos.filter(function (m) { return !O[marca + '/' + m.slug]; });
   });

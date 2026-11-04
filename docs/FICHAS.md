@@ -20,6 +20,10 @@ URL de una ficha: `sitio/marca/index.html?m=<marca>&modelo=<slug>`.
 ni las pestañas de opciones destacadas, ni las ediciones o paquetes opcionales. Se conversan en persona; la ficha
 invita a cotizar la configuración.
 
+**Datos del catálogo sin opcionales:** `sitio/assets/js/publicacion.js` limpia al mostrar los datos del catálogo
+(descripciones, ficha técnica y borradores): omite las frases con opcionales o ediciones, quita aclaraciones como
+"3 (+4 opcional)" → "3" y esconde las filas que son opcionales en sí ("WC opcional"). La biblioteca queda completa.
+
 **Precios: ningún barco nuevo publica precio** (solo los usados). Los extracts traen campos de precio (`prices`,
 `price_text`, "DESDE USD"): nunca pasan a `pagina-es.json` ni al sitio.
 

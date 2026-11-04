@@ -49,6 +49,15 @@
 
   // Borrador del catálogo con la misma forma que pagina-es.json (para modelos aún sin traducción completa).
   function desdeCatalogo(mo, CC) {
+    var L = window.OCEANIC_SIN_OPCIONALES || { texto: function (t) { return t; }, lista: function (a) { return a; } };
+    CC = {  // el borrador del catálogo también sin opcionales
+      secciones: (CC.secciones || []).map(function (s) {
+        return { t: s.t, p: (s.p || []).map(L.texto).filter(function (x) { return x; }) };
+      }).filter(function (s) { return s.p.length; }),
+      equipamiento: (CC.equipamiento || []).map(function (c) { return { cat: c.cat, items: L.lista(c.items) }; })
+        .filter(function (c) { return c.items.length; }),
+      galeria: CC.galeria
+    };
     var secs = (CC.secciones || []).filter(function (s) { return s.t !== 'Introducción'; });
     var intro = (CC.secciones || []).filter(function (s) { return s.t === 'Introducción'; })[0];
     return {
