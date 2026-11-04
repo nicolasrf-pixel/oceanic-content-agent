@@ -2,7 +2,7 @@
 // Usan datos de prueba y un Brevo simulado: no envían nada.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { onRequestPost, limpiar, validar, correoVentas } from '../functions/api/formulario.js';
+import { onRequestPost, limpiar, validar, correoVentas, correoConfirmacion } from '../functions/api/formulario.js';
 
 const SITIO = 'https://oceanic.example';
 const ENV = {
@@ -49,7 +49,9 @@ test('cotización: avisa a ventas, confirma al cliente y guarda el contacto', as
   assert.equal(correos[0].cuerpo.replyTo.email, 'prueba@ejemplo.cl');
   assert.match(correos[0].cuerpo.subject, /Axopar 37 XC/);
   assert.equal(correos[1].cuerpo.to[0].email, 'prueba@ejemplo.cl');
-  assert.equal(correos[1].cuerpo.subject, 'Hemos recibido tu solicitud');
+  assert.equal(correos[1].cuerpo.subject, 'Gracias por tu solicitud de cotización del Axopar 37 XC');
+  assert.match(correos[1].cuerpo.textContent, /^Hola Persona,/);
+  assert.match(correos[1].cuerpo.textContent, /Tu mensaje: Hola/);
   const contacto = llamadas.find((l) => l.ruta === '/contacts' && l.metodo === 'POST');
   assert.equal(contacto.cuerpo.attributes.POLITICA_VERSION, '2026-11-borrador');
   assert.equal(contacto.cuerpo.attributes.MODELO, 'Axopar 37 XC');
@@ -145,4 +147,28 @@ test('el correo a ventas escapa el HTML', () => {
   const c = correoVentas(d);
   assert.ok(!c.html.includes('<script>'));
   assert.ok(c.html.includes('&lt;script&gt;'));
+});
+
+test('cada tipo de solicitud recibe su agradecimiento (no solo las cotizaciones)', async () => {
+  const casos = [
+    [{ tipo: 'usado', modelo: 'XO DFNDR 8 (2024)' }, /consulta por el XO DFNDR 8/],
+    [{ tipo: 'contacto', motivo: 'Otro' }, /Gracias por escribirnos/],
+    [{ tipo: 'charter', detalle: '• Destino: Cícladas' }, /solicitud de charter/],
+    [{ tipo: 'equipamiento', categorias: ['Velas'] }, /solicitud de equipamiento/],
+  ];
+  for (const [extra, asunto] of casos) {
+    const llamadas = simularBrevo();
+    const r = await onRequestPost({ request: pedido({ nombre: 'Persona Prueba', email: 'a@b.cl', ...extra }), env: ENV });
+    assert.equal(r.status, 200, extra.tipo);
+    const alCliente = llamadas.filter((l) => l.ruta === '/smtp/email' && l.cuerpo.to[0].email === 'a@b.cl');
+    assert.equal(alCliente.length, 1, extra.tipo + ': un agradecimiento');
+    assert.match(alCliente[0].cuerpo.subject, asunto);
+  }
+});
+
+test('el agradecimiento incluye la copia de lo enviado, escapada', () => {
+  const d = { ...limpiar({ tipo: 'equipamiento', nombre: 'Ana', email: 'a@b.cl', categorias: ['Velas', 'Propulsión'], mensaje: '<b>hola</b>' }) };
+  const c = correoConfirmacion(d);
+  assert.match(c.texto, /Intereses: Velas, Propulsión/);
+  assert.ok(c.html.includes('&lt;b&gt;hola&lt;/b&gt;'));
 });

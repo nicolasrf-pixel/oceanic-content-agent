@@ -5,7 +5,7 @@
    1. Valida y limpia los datos (y descarta bots con el campo trampa "web").
    2. Envía el aviso a ventas@ (salvo la suscripción sola a Puerto, que solo pide la doble confirmación). Si esto falla responde 502 y el navegador abre el correo del
       visitante como respaldo: así nunca se pierde una solicitud.
-   3. Mejor esfuerzo (si falla no bloquea): confirmación al cliente, contacto en Brevo con el
+   3. Mejor esfuerzo (si falla no bloquea): agradecimiento al cliente (con cada solicitud, texto según el tipo), contacto en Brevo con el
       consentimiento (fecha y versión de la política), negocio en el pipeline y, si el visitante
       marcó Puerto, correo de doble confirmación.
 
@@ -189,21 +189,59 @@ export function correoVentas(d) {
   return { asunto: asunto.slice(0, 200), texto, html };
 }
 
+// Agradecimiento al cliente: sale con CADA solicitud (cotización, usado, contacto, charter o
+// equipamiento), con un texto propio por tipo y la copia de lo que envió.
+const AGRADECIMIENTO = {
+  cotizacion: (d) => ({
+    asunto: 'Gracias por tu solicitud de cotización' + (d.modelo ? ' del ' + d.modelo : ''),
+    cuerpo: 'Gracias por cotizar' + (d.modelo ? ' el ' + d.modelo : '') + ' con Oceanic. Un especialista te escribe ' +
+      'dentro de un día hábil con precio, configuración y plazos de entrega.',
+  }),
+  usado: (d) => ({
+    asunto: 'Gracias por tu consulta' + (d.modelo ? ' por el ' + d.modelo : ''),
+    cuerpo: 'Gracias por tu interés' + (d.modelo ? ' en el ' + d.modelo : ' en este usado') + '. Un especialista te escribe ' +
+      'dentro de un día hábil para contarte su estado y coordinar una visita.',
+  }),
+  contacto: () => ({
+    asunto: 'Gracias por escribirnos',
+    cuerpo: 'Gracias por escribir a Oceanic. Te respondemos dentro de un día hábil con información concreta.',
+  }),
+  charter: () => ({
+    asunto: 'Gracias por tu solicitud de charter',
+    cuerpo: 'Gracias por tu solicitud de charter. Te enviamos una propuesta a medida dentro de un día hábil, ' +
+      'según el destino, las fechas y la embarcación que elegiste.',
+  }),
+  equipamiento: () => ({
+    asunto: 'Gracias por tu solicitud de equipamiento',
+    cuerpo: 'Gracias por tu solicitud de información de equipamiento. Un especialista te escribe dentro de un día ' +
+      'hábil con alternativas y precios.',
+  }),
+};
+
 export function correoConfirmacion(d) {
-  const sobre = d.modelo ? ' sobre el ' + d.modelo : '';
+  const t = AGRADECIMIENTO[d.tipo](d);
   const saludo = d.nombre ? 'Hola ' + d.nombre.split(' ')[0] + ',' : 'Hola,';
-  const parrafos = [
-    saludo,
-    'Hemos recibido tu solicitud' + sobre + '. Un especialista de Oceanic te escribe dentro de un día hábil con información concreta.',
-    'Si quieres agregar algo, responde este correo.',
-    'Equipo Oceanic',
-  ];
-  return {
-    asunto: 'Hemos recibido tu solicitud',
-    texto: parrafos.join('\n\n'),
-    html: '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#14212B">' +
-      parrafos.map((p) => '<p>' + esc(p) + '</p>').join('') + '</div>',
-  };
+  const copia = [
+    ['Modelo', d.modelo],
+    ['Motivo', d.motivo],
+    ['Intereses', d.categorias.join(', ')],
+    ['Detalle', d.detalle],
+    ['Tu mensaje', d.mensaje],
+  ].filter((f) => f[1]);
+  const cierre = ['Si quieres agregar algo, responde este correo.', 'Equipo Oceanic'];
+
+  const texto = [saludo, t.cuerpo]
+    .concat(copia.length ? ['Esto es lo que nos enviaste:\n' + copia.map((f) => f[0] + ': ' + f[1]).join('\n')] : [])
+    .concat(cierre).join('\n\n');
+  const p = (x) => '<p style="margin:0 0 14px">' + esc(x) + '</p>';
+  const html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#14212B;max-width:560px">' +
+    p(saludo) + p(t.cuerpo) +
+    (copia.length ? '<p style="margin:22px 0 6px;font-size:13px;color:#52616E">Esto es lo que nos enviaste:</p>' +
+      '<table cellpadding="4" style="border-collapse:collapse;margin-bottom:18px">' +
+      copia.map((f) => '<tr><td style="color:#52616E;padding-right:14px;vertical-align:top">' + esc(f[0]) +
+        '</td><td style="white-space:pre-wrap">' + esc(f[1]) + '</td></tr>').join('') + '</table>' : '') +
+    cierre.map(p).join('') + '</div>';
+  return { asunto: t.asunto.slice(0, 200), texto, html };
 }
 
 /* ---------- Brevo ---------- */

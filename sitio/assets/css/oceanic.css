@@ -379,7 +379,7 @@ section{padding:var(--rhythm) 0}
 /* ---------- conversión ---------- */
 .talk{background:var(--noche);color:var(--natural);position:relative;overflow:hidden}
 .talk-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.16;z-index:0}
-.talk .wrap{position:relative;z-index:1}
+.talk .wrap,.talk .wrap-wide{position:relative;z-index:1}
 .talk h2{color:var(--natural);max-width:14ch}
 .talk .lede{color:rgba(255,255,255,.82);max-width:44ch;font-weight:300}
 form{display:grid;gap:16px}
@@ -456,47 +456,3 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 .asis-back{align-self:flex-start;background:none;border:0;color:var(--trabajo);cursor:pointer;
   font-family:var(--dato);font-size:12px;letter-spacing:.04em;padding:4px 0;margin-top:2px}
 .asis-back:hover{color:var(--boya)}
-
-/* ===== COTIZADOR (modal por barco) ===== */
-.cot-dlg{border:0;padding:0;max-width:min(560px,calc(100vw - 24px));width:100%;
-  background:#fff;color:var(--noche);box-shadow:0 40px 100px -24px rgba(20,33,43,.6)}
-.cot-dlg::backdrop{background:rgba(20,33,43,.55);backdrop-filter:blur(2px)}
-.cot-form,.cot-ok{padding:clamp(24px,4vw,44px);position:relative}
-.cot-x{position:absolute;top:14px;right:16px;background:none;border:0;font-size:26px;line-height:1;
-  color:var(--trabajo);cursor:pointer;width:44px;height:44px;display:flex;align-items:center;justify-content:center}
-.cot-x:hover{color:var(--boya)}
-.cot-kick{font-family:var(--dato);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--boya);margin:0 0 8px}
-.cot-h{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.05;
-  font-size:clamp(24px,2.4vw+14px,34px);margin:0}
-.cot-sub{font-family:var(--texto);color:var(--trabajo);font-size:14px;margin:8px 0 0;line-height:1.4}
-.cot-sub span{color:var(--niebla)}
-.cot-row{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px;margin-top:clamp(18px,2vw,26px)}
-@media(max-width:520px){.cot-row{grid-template-columns:1fr}}
-.cot-f{display:flex;flex-direction:column;gap:6px}
-.cot-f.cot-full{margin-top:14px}
-.cot-f>span{font-family:var(--display);font-weight:500;font-size:13px;color:var(--noche)}
-.cot-f>span i{color:var(--boya);font-style:normal;margin-left:2px}
-.cot-f input,.cot-f textarea{font-family:var(--texto);font-size:15px;color:var(--noche);
-  border:1px solid rgba(20,33,43,.22);padding:12px 13px;background:#fff;width:100%;border-radius:0}
-.cot-f input:focus,.cot-f textarea:focus{outline:2px solid var(--boya);outline-offset:1px;border-color:var(--boya)}
-.cot-f textarea{resize:vertical;min-height:72px}
-.cot-seg{display:flex;gap:6px;flex-wrap:wrap}
-.cot-seg label{position:relative;flex:1 1 auto}
-.cot-seg input{position:absolute;opacity:0;width:1px;height:1px}
-.cot-seg span{display:block;text-align:center;font-family:var(--display);font-weight:500;font-size:13px;
-  padding:11px 10px;border:1px solid rgba(20,33,43,.22);color:var(--trabajo);cursor:pointer;min-height:44px;
-  display:flex;align-items:center;justify-content:center}
-.cot-seg input:checked+span{background:var(--noche);border-color:var(--noche);color:#fff}
-.cot-seg input:focus-visible+span{outline:2px solid var(--boya);outline-offset:1px}
-.cot-err{color:#b3261e;font-family:var(--texto);font-size:14px;margin:14px 0 0;line-height:1.4}
-.cot-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(18px,2vw,26px);align-items:center}
-.cot-send{min-height:48px}
-.cot-wa{min-height:48px}
-.cot-legal{font-family:var(--texto);font-size:12px;color:var(--niebla);margin:14px 0 0;line-height:1.4}
-.cot-ok{text-align:center}
-.cot-ok-mark{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;
-  background:var(--boya);color:#fff;font-size:28px;margin-bottom:16px}
-.cot-ok-txt{font-family:var(--texto);color:var(--trabajo);font-size:16px;line-height:1.55;max-width:42ch;margin:12px auto 0}
-.cot-ok .cot-cta{justify-content:center}
-@media (prefers-reduced-motion:no-preference){.cot-dlg[open]{animation:cotIn .3s cubic-bezier(.16,.84,.34,1)}}
-@keyframes cotIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}

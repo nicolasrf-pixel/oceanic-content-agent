@@ -107,18 +107,8 @@ window.OCEANIC_RENDER_MODELO=function(marca,mslug){
   document.title=mo.nombre+', '+info.nombre+' | Oceanic';
 
   var wa='https://wa.me/56229537322?text='+encodeURIComponent('Hola Oceanic, quiero cotizar el '+mo.nombre+' ('+info.nombre+').');
-  var hrefModelo=(marca==='axopar'&&mslug==='axopar-37-xc-cross-cabin')?'../marcas/axopar/axopar-37-xc/index.html':('index.html?m='+marca+'&modelo='+mslug);
-  // botón de cotización de este barco (abre el modal del cotizador)
+  // escapar texto para atributos HTML
   function attr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-  function cotBtn(txt,cls){
-    var specs=attr(JSON.stringify((mo.specs||[]).slice(0,4).map(function(s){return {label:s.label,value:s.value};})));
-    return '<button type="button" class="'+(cls||'btn')+'" data-cotizar'+
-      ' data-modelo="'+attr(mo.nombre)+'"'+
-      ' data-marca="'+attr(info.nombre)+'"'+
-      ' data-href="'+attr(hrefModelo)+'"'+
-      ' data-wa="'+attr(wa)+'"'+
-      ' data-specs="'+specs+'">'+txt+'</button>';
-  }
 
   var heroImg=mo.hero?(AB+mo.hero):(AB+info.hero+'.webp');
   function famLabel(t){t=(t||'').toLowerCase();
@@ -131,7 +121,7 @@ window.OCEANIC_RENDER_MODELO=function(marca,mslug){
     '<div class="wrap-wide"><nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><a href="index.html?m='+marca+'">'+info.nombre+'</a><span>·</span><span>'+mo.nombre+'</span></nav>'+
     '<span class="md2-marca">'+info.nombre+'</span><h1 class="md2-h1">'+mo.nombre+'</h1>'+
     (meta.length?'<span class="md2-meta">'+meta.join('  ·  ')+'</span>':'')+
-    '<div class="md2-cta">'+cotBtn('Solicitar cotización','btn')+
+    '<div class="md2-cta"><a href="#cotizar" class="btn" data-ir-form>Solicitar cotización</a>'+
     '<a href="'+wa+'" target="_blank" rel="noopener" class="btn btn-line">Cotizar por WhatsApp</a></div></div></header>';
 
   var intro=(mo.desc_larga||mo.desc)?'<section class="md2-intro"><div class="wrap"><p class="lede">'+(mo.desc_larga||mo.desc)+'</p></div></section>':'';
@@ -201,16 +191,52 @@ window.OCEANIC_RENDER_MODELO=function(marca,mslug){
       '<p class="md2-fuente">Especificaciones según la ficha oficial de '+info.nombre+'. Los valores finales pueden variar según configuración y motorización.</p></div></section>';
   }
 
-  var cierre='<section class="talk"><img class="talk-bg" src="'+AB+'talk.webp" alt="" loading="lazy" onerror="this.style.display=\'none\'">'+
+  // Cierre con formulario de cotización: el mismo en todas las fichas (antes solo lo tenía el Axopar 37 XC).
+  var HP='<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
+  var cierre='<section class="talk" id="cotizar"><img class="talk-bg" src="'+AB+'talk.webp" alt="" loading="lazy" onerror="this.style.display=\'none\'">'+
     '<div class="wrap-wide"><div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Conversemos</span></div>'+
     '<h2 class="talk-h">¿Te interesa<br>este modelo?</h2>'+
-    '<p class="lede talk-lede">Te preparamos una propuesta con precio, configuración y plazos. Por correo o directo por WhatsApp.</p>'+
-    '<div class="talk-cta">'+cotBtn('Solicitar cotización','btn')+
-    '<a href="'+wa+'" target="_blank" rel="noopener" class="btn btn-line">Cotizar por WhatsApp</a>'+
-    '<a href="index.html?m='+marca+'" class="btn btn-line">Ver toda la gama '+info.nombre+'</a></div></div></section>';
+    '<div class="two talk-form">'+
+      '<div>'+
+        '<h3 class="talk-h3">Cotiza el '+mo.nombre+'</h3>'+
+        '<p class="lede" style="margin-top:18px">Te preparamos una propuesta con precio, configuración y plazos según cómo navegas. Sin presión y sin secuencias automáticas.</p>'+
+        '<a class="btn talk-wa" href="'+wa+'" target="_blank" rel="noopener">Cotizar por WhatsApp</a>'+
+        '<span class="talk-or">o déjanos tus datos y te escribimos →</span>'+
+        '<p style="margin-top:28px"><a href="index.html?m='+marca+'" class="btn btn-line">Ver toda la gama '+info.nombre+'</a></p>'+
+      '</div>'+
+      '<div>'+
+        '<form data-form="cotizacion" data-modelo="'+attr(mo.nombre)+'" data-marca="'+attr(info.nombre)+'" data-universo="'+attr(famLabel(mo.tipo))+'" data-ok="#cokModelo" novalidate>'+HP+
+          '<div class="row">'+
+            '<div><label for="cz-n">Nombre</label><input id="cz-n" name="nombre" required autocomplete="name"></div>'+
+            '<div><label for="cz-e">Correo</label><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email"></div>'+
+          '</div>'+
+          '<div class="row">'+
+            '<div><label for="cz-t">Teléfono <span style="text-transform:none;letter-spacing:0">(opcional)</span></label><input id="cz-t" name="telefono" type="tel" autocomplete="tel" inputmode="tel"></div>'+
+            '<div></div>'+
+          '</div>'+
+          '<div><label for="cz-m">Cómo navegas o cómo te gustaría navegar</label>'+
+            '<textarea id="cz-m" name="mensaje" placeholder="Dónde navegas, con quién, qué configuración te interesa y cuándo lo necesitas."></textarea></div>'+
+          '<label class="check"><input name="puerto" type="checkbox">'+
+            '<span>Quiero recibir <b>Puerto</b>, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span></label>'+
+          '<div class="form-foot"><button class="btn" type="submit">Enviar solicitud</button>'+
+            '<span class="form-note">Te respondemos dentro de un día hábil.</span></div>'+
+        '</form>'+
+        '<div class="form-ok" hidden id="cokModelo" role="status" tabindex="-1">'+
+          '<h3 class="talk-h3">Gracias por tu solicitud</h3>'+
+          '<p class="lede" style="margin-top:12px">Un especialista de Oceanic te escribe dentro de un día hábil con precio, configuración y plazos del '+mo.nombre+'. <span data-via></span></p>'+
+        '</div>'+
+      '</div>'+
+    '</div></div></section>';
 
   cont.innerHTML=hero+intro+secciones+gal+equip+ficha+cierre;
   window.scrollTo(0,0);
+  // el botón del hero baja al formulario y deja el cursor en "Nombre"
+  var ir=cont.querySelector('[data-ir-form]');
+  if(ir) ir.addEventListener('click',function(e){
+    e.preventDefault();
+    document.getElementById('cotizar').scrollIntoView({behavior:'smooth',block:'start'});
+    setTimeout(function(){ var n=document.getElementById('cz-n'); if(n) n.focus({preventScroll:true}); },500);
+  });
 
   // resiliencia de imágenes: si una galería/sección se queda sin fotos (no descargadas),
   // ocultar el contenedor para no dejar huecos vacíos.

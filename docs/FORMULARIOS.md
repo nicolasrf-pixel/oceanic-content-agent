@@ -6,8 +6,8 @@ Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulari
 
 | Formulario | Página | `tipo` |
 |---|---|---|
-| Cotizador (modal) | fichas de modelo y de usados | `cotizacion` / `usado` |
-| Cotización Axopar 37 XC | `marcas/axopar/axopar-37-xc/` | `cotizacion` |
+| Cotización, al final de cada ficha de modelo (148, incluido el Axopar 37 XC) | `marca/?m=…&modelo=…` y `marcas/axopar/axopar-37-xc/` | `cotizacion` |
+| Consulta, al final de cada ficha de usado | `usados/barco/?id=…` | `usado` |
 | Contacto | `contacto/` | `contacto` |
 | Charter | `charter/` | `charter` |
 | Equipamiento | `equipamiento/` | `equipamiento` |
@@ -18,7 +18,8 @@ Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulari
 1. El servidor valida los datos y descarta bots (campo trampa `web`, invisible para las personas). Solo acepta
    envíos desde el mismo dominio del sitio.
 2. Envía el aviso a ventas@ con todos los datos. "Responder" le escribe directo al cliente.
-3. Si eso funcionó, en paralelo: confirmación al cliente ("Hemos recibido tu solicitud"), contacto en Brevo con
+3. Si eso funcionó, en paralelo: agradecimiento al cliente, **con cada solicitud** (cotización, usado, contacto,
+   charter o equipamiento), con un texto propio por tipo y la copia de lo que envió; contacto en Brevo con
    origen, modelo, fecha y versión de la política, y negocio en el pipeline "Cotizaciones" (si está configurado).
 4. Si el visitante marcó la casilla de Puerto (siempre viene **desmarcada**), Brevo le manda un correo de doble
    confirmación. Solo entra a la lista, con `CONSENTIMIENTO_MARKETING = true`, cuando hace clic.

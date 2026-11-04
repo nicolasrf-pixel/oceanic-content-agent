@@ -104,25 +104,47 @@
 
   var waTxt = encodeURIComponent('Hola Oceanic, me interesa el ' + U.nombre + (U.anio ? ' (' + U.anio + ')' : '') + ' que vi en usados.');
   var wa = 'https://wa.me/56229537322?text=' + waTxt;
-  var mailBody = encodeURIComponent('Hola Oceanic,\n\nQuiero más información del usado:\n• ' + U.nombre + (U.anio ? ' · ' + U.anio : '') + (U.precio ? '\n• Precio publicado: ' + U.precio : '') + '\n\nMi consulta:\n');
-  var mail = 'mailto:ventas@oceanic.cl?subject=' + encodeURIComponent('Usado, ' + U.nombre) + '&body=' + mailBody;
 
   var meta = [U.anio, (U.marca && U.marca !== '·' ? U.marca : ''), TIPO].filter(Boolean).join(' · ');
 
-  // botón cotizador (abre el modal por-barco, mismo que los modelos nuevos)
   function cAttr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-  var cotSpecs = cAttr(JSON.stringify([
-    U.anio ? {label:'Año', value:U.anio} : null,
-    (U.marca && U.marca !== '·') ? {label:'Marca', value:U.marca} : null,
-    precioTxt ? {label:'Precio', value:precioTxt} : null
-  ].filter(Boolean)));
-  function cotBtn(txt, cls){
-    return '<button type="button" class="' + (cls||'btn') + '" data-cotizar data-tipo="usado"' +
-      ' data-modelo="' + cAttr(U.nombre + (U.anio ? ' (' + U.anio + ')' : '')) + '"' +
-      ' data-marca="' + cAttr('Usado' + (U.marca && U.marca !== '·' ? ' · ' + U.marca : '')) + '"' +
-      ' data-wa="' + cAttr(wa) + '"' +
-      ' data-specs="' + cotSpecs + '">' + txt + '</button>';
-  }
+  // botones que bajan al formulario de la página (el mismo en todas las fichas de barco)
+  function irBtn(txt, cls){ return '<a href="#consultar" class="' + (cls||'btn') + '" data-ir-form>' + txt + '</a>'; }
+  var nombreFicha = U.nombre + (U.anio ? ' (' + U.anio + ')' : '');
+  var HP = '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
+  var formulario =
+    '<div class="two talk-form">' +
+      '<div>' +
+        '<h3 class="talk-h3">' + (vendido ? 'Cuéntanos qué buscas' : 'Consulta por el ' + U.nombre) + '</h3>' +
+        '<p class="lede" style="margin-top:18px">' + (vendido
+          ? 'Te avisamos cuando entre una unidad parecida.'
+          : 'Te contamos su estado, coordinamos una visita y revisamos la documentación.') + '</p>' +
+        '<a class="btn talk-wa" href="' + wa + '" target="_blank" rel="noopener">Consultar por WhatsApp</a>' +
+        '<span class="talk-or">o déjanos tus datos y te escribimos →</span>' +
+      '</div>' +
+      '<div>' +
+        '<form data-form="usado" data-modelo="' + cAttr(nombreFicha) + '" data-marca="' + cAttr('Usado' + (U.marca && U.marca !== '·' ? ' · ' + U.marca : '')) + '" data-ok="#cokUsado" novalidate>' + HP +
+          '<div class="row">' +
+            '<div><label for="cz-n">Nombre</label><input id="cz-n" name="nombre" required autocomplete="name"></div>' +
+            '<div><label for="cz-e">Correo</label><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email"></div>' +
+          '</div>' +
+          '<div class="row">' +
+            '<div><label for="cz-t">Teléfono <span style="text-transform:none;letter-spacing:0">(opcional)</span></label><input id="cz-t" name="telefono" type="tel" autocomplete="tel" inputmode="tel"></div>' +
+            '<div></div>' +
+          '</div>' +
+          '<div><label for="cz-m">Tu consulta</label>' +
+            '<textarea id="cz-m" name="mensaje" placeholder="' + (vendido ? 'Qué tipo de barco buscas, eslora y presupuesto aproximado.' : 'Qué te gustaría saber del barco y cuándo podrías verlo.') + '"></textarea></div>' +
+          '<label class="check"><input name="puerto" type="checkbox">' +
+            '<span>Quiero recibir <b>Puerto</b>, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span></label>' +
+          '<div class="form-foot"><button class="btn" type="submit">Enviar consulta</button>' +
+            '<span class="form-note">Te respondemos dentro de un día hábil.</span></div>' +
+        '</form>' +
+        '<div class="form-ok" hidden id="cokUsado" role="status" tabindex="-1">' +
+          '<h3 class="talk-h3">Gracias por tu consulta</h3>' +
+          '<p class="lede" style="margin-top:12px">Un especialista de Oceanic te escribe dentro de un día hábil. <span data-via></span></p>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
 
   main.innerHTML =
     '<div class="wrap-wide b-top">' +
@@ -131,7 +153,7 @@
         '<div><h1 class="b-h1">' + U.nombre + '</h1>' +
           (meta ? '<p class="b-sub">' + meta + '</p>' : '') + '</div>' +
         '<div class="b-price">' + estadoTag + '<span class="b-price-n">' + precioTxt + '</span>' +
-          (vendido ? '' : cotBtn('Consultar por este barco', 'btn')) + '</div>' +
+          (vendido ? '' : irBtn('Consultar por este barco', 'btn')) + '</div>' +
       '</div>' +
     '</div>' +
     galSec +
@@ -140,7 +162,7 @@
       '<aside class="b-aside">' + fichaSec +
         '<div class="b-cta-card">' +
           '<span class="b-cta-h">' + (vendido ? '¿Buscas algo parecido?' : '¿Te interesa?') + '</span>' +
-          (vendido ? '' : cotBtn('Solicitar cotización', 'btn b-cta-wa')) +
+          (vendido ? '' : irBtn('Solicitar cotización', 'btn b-cta-wa')) +
           '<a href="' + wa + '" target="_blank" rel="noopener" class="btn btn-line">Consultar por WhatsApp</a>' +
         '</div>' +
       '</aside>' +
@@ -151,8 +173,15 @@
       '<p class="lede talk-lede">' + (vendido
         ? 'Recibimos unidades parecidas seguido. Cuéntanos qué buscas y te avisamos cuando entre algo.'
         : 'Vemos el barco juntos, resolvemos dudas y revisamos la documentación completa. Sin apuro.') + '</p>' +
-      '<div class="talk-cta"><a href="' + wa + '" target="_blank" rel="noopener" class="btn">Consultar por WhatsApp</a>' +
-        '<a href="' + mail + '" class="btn btn-line">Escribir por correo</a></div></div></section>';
+      formulario + '</div></section>';
+
+  [].forEach.call(main.querySelectorAll('[data-ir-form]'), function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('consultar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(function () { var n = document.getElementById('cz-n'); if (n) n.focus({ preventScroll: true }); }, 500);
+    });
+  });
 
   // menú móvil
   var bt = document.getElementById('burger'), dr = document.getElementById('drawer');
