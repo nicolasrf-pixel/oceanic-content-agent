@@ -2,16 +2,11 @@
 
 ## Fotos de modelos (catálogo)
 
-El catálogo de 125 modelos usa fotos oficiales de los fabricantes. Las URLs están
-referenciadas en `assets/js/catalogo-data.js` (datos del repo oceanic-content-agent).
-
-Los archivos NO vienen incluidos (pesan y están en los CDN de cada astillero).
-Para descargarlas, desde la raíz del sitio, en un servidor con acceso a internet:
-
-    bash scripts/descargar-fotos.sh
-
-Esto baja ~872 fotos a `assets/img/modelos/`. El catálogo y las fichas las toman
-automáticamente. Hasta entonces, el sitio funciona perfecto sin fotos (las oculta).
+Las fotos oficiales (3.558, de las 11 marcas y los usados) no se guardan en git: las descarga y optimiza el build
+de Cloudflare (`bash scripts/build.sh`), desde la lista `scripts/fotos.tsv` (WebP 1600 px, 2560 px las portadas,
+calidad 75). La lista se regenera desde la biblioteca con `python3 tools/sitio_fotos.py` (raíz del repo).
+Si una foto no baja, el sitio oculta su contenedor. Saffier y Solaris bloquean las descargas automáticas: sus fotos
+hay que bajarlas a mano (ver la biblioteca, `media --from-dir`).
 
 Uso de las imágenes: editorial / distribuidor autorizado. Acreditar a cada
 astillero (Axopar, Beneteau, Lagoon, Aquila, Solaris, Saffier, XO) y no alterar logos.

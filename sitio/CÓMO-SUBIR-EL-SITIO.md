@@ -1,60 +1,44 @@
-# CÓMO DEJAR EL SITIO OPERATIVO CON FOTOS
+# Cómo publicar el sitio en Cloudflare
 
-El sitio ya tiene fotos reales en: home, todas las marcas, Axopar completo,
-usados, Puerto, y el modelo insignia de cada marca en el catálogo.
+El sitio se publica conectando Cloudflare Pages al repositorio de GitHub. Se hace **una sola vez**: después,
+cada cambio que se sube a la rama `sitio-web` se publica solo en unos minutos. No hay archivos que reemplazar.
 
-Las fotos de LOS 125 modelos del catálogo se bajan solas al publicar.
-Elige una opción:
+> **No uses "Upload assets" (arrastrar archivos).** Así Cloudflare no ejecuta los formularios (`functions/`) ni
+> descarga las fotos de los modelos.
 
+## Paso a paso (una vez)
 
-## OPCIÓN 1 — NETLIFY (la más simple, baja las fotos sola)
+1. Entra a **dash.cloudflare.com** → **Workers & Pages** → **Create** → pestaña **Pages** → **Connect to Git**.
+2. Autoriza GitHub si lo pide y elige el repositorio **nicolasrf-pixel/oceanic-content-agent**.
+3. **Project name:** `oceanic-sitio` (la dirección será `oceanic-sitio.pages.dev`).
+4. **Production branch:** `sitio-web`.
+5. **Build settings:**
+   - Framework preset: **None**
+   - Build command: `bash scripts/build.sh`
+   - Build output directory: `.`
+   - **Root directory (advanced):** `sitio`
+6. **Save and Deploy.** La primera publicación tarda unos 5 minutos: descarga y optimiza ~3.500 fotos oficiales.
 
-1. Ve a **netlify.com** → crea cuenta gratis (con tu correo o GitHub)
-2. **Add new site** → **Deploy manually** (o "Import from Git" si subes el repo)
-3. Si es manual: arrastra la carpeta del sitio. Netlify detecta el archivo
-   `netlify.toml` y **corre solo el script que baja las fotos**.
-4. Queda online en `tu-sitio.netlify.app`
+Listo. Cada vez que se suba un avance a `sitio-web`, Cloudflare vuelve a publicar solo. El estado de cada
+publicación se ve en el proyecto → **Deployments**.
 
-Netlify tiene internet abierto en su build, así que baja las 872 fotos
-automáticamente. No tocas nada en tu computador.
+## Qué se ve en esta etapa
 
+- **Vista previa privada:** el sitio no aparece en Google (`robots.txt` y la cabecera `X-Robots-Tag` lo
+  impiden). Al lanzar, quitar esas dos cosas (ver comentarios en `robots.txt` y `_headers`).
+- **Formularios:** mientras Brevo no esté configurado, al enviar se abre el correo del visitante con la solicitud
+  escrita (respaldo). Configuración de Brevo: `docs/FORMULARIOS.md` en la raíz del repo.
+- **Fotos:** Saffier y Solaris bloquean las descargas automáticas; sus fichas se ven sin fotos hasta cargarlas a
+  mano. Todas las demás marcas bajan solas.
+- **Contenido:** las fichas con traducción completa de la página oficial se van agregando (`docs/FICHAS.md`); las
+  demás muestran el borrador del catálogo con el mismo diseño.
 
-## OPCIÓN 2 — CLOUDFLARE PAGES (desde Git, baja las fotos sola)
+## Si algo falla
 
-1. Sube la carpeta a un repositorio de GitHub (gratis)
-2. **dash.cloudflare.com** → Workers & Pages → Create → Pages → Connect to Git
-3. En Build settings:
-   - Build command:  `bash scripts/descargar-fotos.sh`
-   - Build output directory:  `/`
-4. Deploy. Cloudflare baja las fotos en el build y publica.
+- **La publicación falla:** proyecto → Deployments → la publicación fallida → **View details** muestra el
+  registro. Revisa que Root directory sea `sitio` y Build command `bash scripts/build.sh`.
+- **Una página da 404:** las fichas de modelo están en `/marca/index.html?m=<marca>&modelo=<modelo>`.
 
+## Uso de las imágenes
 
-## OPCIÓN 3 — CLOUDFLARE drag & drop (rápido, SIN las fotos del catálogo)
-
-1. dash.cloudflare.com → Workers & Pages → Create → Pages → Upload assets
-2. Arrastra el contenido de la carpeta → Deploy
-
-Esta opción NO corre el script, así que el catálogo masivo queda sin las
-fotos de cada modelo (sí con las de los insignia). Sirve para una demo rápida.
-
-
-## RESUMEN
-
-- ¿Quieres TODO con fotos, sin tocar tu computador?  → Netlify (Opción 1)
-- ¿Ya usas GitHub y Cloudflare?                        → Cloudflare Git (Opción 2)
-- ¿Solo una demo rápida ahora?                         → Cloudflare drag&drop (Opción 3)
-
-Cualquiera queda online en minutos. El link se lo mandas al cliente.
-
-
-## Sobre las fotos (importante y honesto)
-
-Yo (Claude) no puedo bajar las fotos desde mi entorno — está bloqueado el
-acceso a los sitios de los fabricantes. Pero Netlify y Cloudflare SÍ pueden,
-en su paso de build. Por eso la solución correcta es publicar ahí, no bajarlas
-a mano. El repositorio de contenido ya dejó todas las URLs listas; el script
-(scripts/descargar-fotos.sh) hace el resto.
-
-Uso de las imágenes: editorial / distribuidor autorizado. Acreditar a cada
-astillero (Axopar, Beneteau, Lagoon, Aquila, Solaris, Saffier, XO) y no
-alterar logos.
+Editorial / distribuidor autorizado. Acreditar a cada astillero y no alterar logos.

@@ -1,10 +1,10 @@
 # Netlify — Oceanic
 # Al publicar, Netlify corre este build y baja las fotos de los modelos solo.
 [build]
-  command = "bash scripts/descargar-fotos.sh"
+  command = "bash scripts/build.sh"
   publish = "."
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22"
 
 # Páginas 404 y headers ya definidos en _headers / _redirects (Netlify los respeta)

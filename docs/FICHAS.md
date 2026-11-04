@@ -41,5 +41,5 @@ Mientras un modelo no tenga `pagina-es.json`, su ficha usa el borrador corto del
 
 ## Fotos
 
-Las fotos se descargan al publicar (`sitio/scripts/descargar-fotos.sh`). Si una foto no existe, la plantilla retira
+Las fotos se descargan y optimizan al publicar (`sitio/scripts/build.sh`, lista en `sitio/scripts/fotos.tsv`). Si una foto no existe, la plantilla retira
 su contenedor y el texto ocupa el ancho completo: nunca quedan huecos.

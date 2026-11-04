@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Sitio Oceanic Chile",
   "scripts": {
-    "build": "bash scripts/descargar-fotos.sh"
+    "build": "bash scripts/build.sh"
   }
 }

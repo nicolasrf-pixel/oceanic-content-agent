@@ -1,4 +1,6 @@
+# VISTA PREVIA: el sitio aún no se lanza. Al lanzar, reemplazar por:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://<dominio>/sitemap.xml
 User-agent: *
-Allow: /
-
-Sitemap: https://oceanic.pages.dev/sitemap.xml
+Disallow: /
