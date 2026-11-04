@@ -121,3 +121,25 @@
 .md2-eq-cat li{font-family:var(--texto);font-weight:300;line-height:1.4;color:var(--trabajo);
   font-size:clamp(14px,.3vw+12px,15px);padding:8px 0 8px 18px;position:relative;border-bottom:1px solid rgba(20,33,43,.08)}
 .md2-eq-cat li::before{content:"";position:absolute;left:0;top:14px;width:6px;height:6px;background:var(--boya);border-radius:50%}
+
+/* ===== Ficha de modelo (ficha-tpl.js): complementos a la maqueta del 37 XC ===== */
+.story-line.story-larga{font-size:clamp(22px,2.2vw,38px);line-height:1.3;max-width:34ch;margin-left:auto;margin-right:auto}
+.eq-h{font-family:var(--display);font-size:clamp(19px,.6vw + 14px,26px);margin:0 0 14px}
+.eq-g{border-top:1px solid var(--linea)}
+.eq-g:last-child{border-bottom:1px solid var(--linea)}
+.eq-g summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;padding:16px 0;
+  font-family:var(--display);font-weight:500;font-size:clamp(16px,.3vw + 14px,19px);color:var(--noche)}
+.eq-g summary::-webkit-details-marker{display:none}
+.eq-g summary b{font-weight:500;flex:1}
+.eq-g summary span{font-family:var(--dato);font-size:12px;color:var(--niebla);align-self:center}
+.eq-g summary::after{content:'+';color:var(--boya);font-size:20px;line-height:1}
+.eq-g[open] summary::after{content:'−'}
+.eq-g ul{margin:0 0 18px;padding-left:18px;columns:1}
+.eq-g li{font-size:15px;line-height:1.5;color:var(--trabajo);margin-bottom:6px}
+.gal-item img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.two.sin-foto{grid-template-columns:1fr}
+.two.sin-foto>div{max-width:68ch}
+.hero .hero-in{padding-left:var(--gut);padding-right:var(--gut)}
+.hero .hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,33,43,.92) 0%,rgba(20,33,43,.55) 45%,rgba(20,33,43,.1) 80%)}
+@media(max-width:700px){.hero .hero-scroll{display:none}}

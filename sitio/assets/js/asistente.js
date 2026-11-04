@@ -12,7 +12,6 @@
   function modelosDe(mk){ return (C[mk]&&C[mk].modelos)||[]; }
   function marcaHref(mk){ return mk==='axopar'?pre+'marcas/axopar/index.html':pre+'marca/index.html?m='+mk; }
   function modeloHref(mk,slug){
-    if(mk==='axopar'&&slug==='axopar-37-xc-cross-cabin') return pre+'marcas/axopar/axopar-37-xc/index.html';
     return pre+'marca/index.html?m='+mk+'&modelo='+slug;
   }
   function wa(msg){ return 'https://wa.me/'+WA+'?text='+encodeURIComponent(msg); }

@@ -188,6 +188,11 @@ cada marca (historia, ADN, valores) para las páginas de marca de la nueva web: 
 `es.md` (traducción fiel al español, BORRADOR, sin agregar ni quitar afirmaciones; las dudas van como «Nota para la web»).
 `marcas/TODAS-es.md` las reúne. Se omiten equipos directivos, contactos, cookies, testimonios y condiciones legales.
 
+**Fichas del sitio (decisión Oceanic 2026-11-04):** cada modelo se publica en `sitio/` con el diseño único de la
+maqueta del Axopar 37 XC, lleno con la página oficial traducida fiel al español neutro en
+`01_CONTENIDO/pagina-es.json` (BORRADOR hasta revisión). Bloques de la maqueta sin dato oficial no se muestran.
+Publicar con `python3 tools/sitio_fichas.py`. Detalle en `docs/FICHAS.md`.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl
