@@ -24,27 +24,27 @@ superpone al archivo del repo correspondiente.
 
 > No uses "Upload assets" (arrastrar archivos): así no corren los formularios, el administrador ni las fotos.
 
-## 2. Abrir el administrador con Cloudflare Access (una vez)
+## 2. Abrir el administrador con Cloudflare Access (una vez, 2 minutos)
 
-El administrador está **cerrado por defecto**: hasta que se configure Access, `/admin/` responde "cerrado".
+El administrador está **cerrado por defecto**: hasta que Access esté activo, `/admin/` responde "cerrado".
 
-1. **Zero Trust** → **Access controls** → **Applications** → **Add an application** → **Self-hosted**.
-2. Nombre: `Oceanic administrador`. **Destinations** (agrega las dos):
-   - `oceanic.<tu-subdominio>.workers.dev` con ruta `admin`
-   - `oceanic.<tu-subdominio>.workers.dev` con ruta `api/admin`
-   (cuando el sitio tenga dominio propio, agrega también `oceanic.cl/admin` y `oceanic.cl/api/admin`).
-3. **Policy:** Allow → **Emails** → los correos de quienes administran el sitio. Método de ingreso: código de un
-   solo uso por correo (One-time PIN) está bien.
-4. Guarda y copia el **Application Audience (AUD) Tag** (en la aplicación → Additional settings).
-5. Copia tu **team domain**: Zero Trust → Settings → *Team name and domain* (ej. `oceanic.cloudflareaccess.com`).
-6. Worker **oceanic** → **Settings** → **Variables and Secrets** → agrega dos variables de texto:
-   - `ACCESS_TEAM_DOMAIN` = `oceanic.cloudflareaccess.com` (el tuyo, sin https)
-   - `ACCESS_AUD` = el AUD Tag del paso 4
-   - (opcional) `ADMIN_EMAILS` = lista de correos separada por comas, como segunda barrera.
-7. Entra a `https://oceanic.<tu-subdominio>.workers.dev/admin/`: Access pide el correo, envía un código y entras.
+1. **dash.cloudflare.com** → menú izquierdo **Compute (Workers)** → **Workers & Pages** → clic en **oceanic**.
+2. Pestaña **Settings** → sección **Domains & Routes**.
+3. En la fila **workers.dev**, botón **Enable Cloudflare Access** (o el menú `⋯` de esa fila → *Enable Cloudflare
+   Access*). Confirma.
+4. Clic en **Manage Cloudflare Access**: en la política deja **tu correo** (y el de quien vaya a administrar).
+   Guarda.
+5. Abre `https://oceanic.<tu-subdominio>.workers.dev/admin/`: Cloudflare pide el correo, envía un código de 6
+   dígitos y entras.
 
-El Worker verifica la firma de Access en cada solicitud del administrador (no basta con la cookie). Las variables
-quedan guardadas aunque se vuelva a desplegar (`keep_vars`).
+No hay que copiar nada: Cloudflare le entrega al Worker el correo ya verificado. Mientras el sitio sea de prueba,
+esto protege **todo** el sitio (solo entran los correos de la política), lo que sirve de vista previa privada.
+
+**Al lanzar con dominio propio** (oceanic.cl) el sitio debe ser público y solo el administrador privado: se crea una
+aplicación de Access para las rutas `oceanic.cl/admin` y `oceanic.cl/api/admin` (Zero Trust → Access controls →
+Applications → Self-hosted) y se agregan al Worker las variables `ACCESS_TEAM_DOMAIN` (ej. `oceanic.cloudflareaccess.com`)
+y `ACCESS_AUD` (el *Application Audience Tag* de esa aplicación). Opcional en ambos casos: `ADMIN_EMAILS` = correos
+autorizados separados por coma, como segunda barrera.
 
 ## 3. Formularios (Brevo)
 
@@ -89,8 +89,8 @@ y se indica dónde está el problema.
 
 - **La publicación falla:** Worker → **Deployments** → la publicación fallida → registro. Revisa Root directory
   `sitio`, Build command `bash scripts/build.sh` y Deploy command `npx wrangler deploy`.
-- **El administrador dice "cerrado":** faltan `ACCESS_TEAM_DOMAIN` / `ACCESS_AUD` (paso 2.6).
-- **"Acceso denegado":** el correo no está en la política de Access (o en `ADMIN_EMAILS`), o el AUD no coincide.
+- **El administrador dice "cerrado":** Access no está activado en el Worker (paso 2).
+- **"Acceso denegado":** el correo no está en la política de Access (o en `ADMIN_EMAILS`).
 - **Errores del Worker:** Worker → **Observability** → Logs.
 
 ## Para desarrolladores

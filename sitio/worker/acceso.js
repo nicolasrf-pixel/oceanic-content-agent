@@ -1,5 +1,7 @@
-/* OCEANIC · Acceso al administrador con Cloudflare Access.
-   Cerrado por defecto: sin ACCESS_TEAM_DOMAIN + ACCESS_AUD configurados, nadie entra.
+/* OCEANIC · Acceso al administrador con Cloudflare Access. Cerrado por defecto.
+   Forma 1 (la simple): Access activado en el Worker (botón "Enable Cloudflare Access"). Cloudflare entrega la
+   identidad verificada en ctx.access; no hay nada que copiar. Forma 2: aplicación de Access por ruta, con
+   ACCESS_TEAM_DOMAIN + ACCESS_AUD, y aquí se verifica el JWT.
    Cloudflare Access pide el correo (código de un solo uso) antes de dejar pasar a /admin/* y /api/admin/*, y agrega
    la cabecera Cf-Access-Jwt-Assertion. Aquí se verifica esa firma (RS256 con las llaves públicas del equipo), la
    audiencia (AUD de la aplicación), el emisor y la fecha. Opcional: ADMIN_EMAILS = lista blanca extra.
@@ -7,19 +9,26 @@
 
 let llaves = null, llavesHasta = 0;
 
-export async function usuarioAdmin(request, env) {
+export async function usuarioAdmin(request, env, ctx) {
   const host = new URL(request.url).hostname;
   if (env.ADMIN_LOCAL && (host === 'localhost' || host === '127.0.0.1')) return env.ADMIN_LOCAL;
+  if (ctx && ctx.access && typeof ctx.access.getIdentity === 'function') {  // lo pone la plataforma, no se puede falsificar
+    let id = null;
+    try { id = await ctx.access.getIdentity(); } catch (e) { id = null; }
+    if (id && id.email) return enLista(String(id.email).toLowerCase(), env);
+  }
   const equipo = (env.ACCESS_TEAM_DOMAIN || '').replace(/^https?:\/\//, '').replace(/\/$/, '');
   if (!equipo || !env.ACCESS_AUD) return null;
   const jwt = request.headers.get('Cf-Access-Jwt-Assertion');
   if (!jwt) return null;
   const datos = await verificar(jwt, equipo, env.ACCESS_AUD);
   if (!datos || !datos.email) return null;
-  const email = String(datos.email).toLowerCase();
+  return enLista(String(datos.email).toLowerCase(), env);
+}
+
+function enLista(email, env) {  // ADMIN_EMAILS (opcional): segunda barrera además de la política de Access
   const lista = (env.ADMIN_EMAILS || '').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
-  if (lista.length && !lista.includes(email)) return null;
-  return email;
+  return lista.length && !lista.includes(email) ? null : email;
 }
 
 export async function verificar(jwt, equipo, aud, ahora = Date.now() / 1000, obtener = fetch) {

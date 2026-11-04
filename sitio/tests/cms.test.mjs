@@ -88,3 +88,14 @@ test('Access: firma RS256, audiencia, emisor y vencimiento', async () => {
   const [a, , c] = t.split('.');
   assert.equal(await verificar(a + '.' + b64({ ...base, email: 'intruso@x.com' }) + '.' + c, equipo, 'AUD1', ahora, obtener), null);
 });
+
+test('Access activado en el Worker: identidad desde ctx.access, con lista blanca opcional', async () => {
+  const { usuarioAdmin } = await import('../worker/acceso.js');
+  const req = new Request('https://oceanic.ejemplo.workers.dev/admin/');
+  const ctx = (email) => ({ access: { aud: 'x', getIdentity: async () => (email ? { email } : null) } });
+  assert.equal(await usuarioAdmin(req, {}, ctx('Nico@Oceanic.cl')), 'nico@oceanic.cl');
+  assert.equal(await usuarioAdmin(req, {}, ctx(null)), null);
+  assert.equal(await usuarioAdmin(req, {}, {}), null);
+  assert.equal(await usuarioAdmin(req, { ADMIN_EMAILS: 'otra@oceanic.cl' }, ctx('nico@oceanic.cl')), null);
+  assert.equal(await usuarioAdmin(req, { ADMIN_LOCAL: 'dev@x' }, {}), null);  // ADMIN_LOCAL solo en localhost
+});

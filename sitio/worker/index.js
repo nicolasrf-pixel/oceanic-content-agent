@@ -28,7 +28,7 @@ export default {
         if (request.method !== 'POST') return texto('Método no permitido', 405, { Allow: 'POST' });
         return await formulario({ request, env });
       }
-      if (p === '/admin' || p.startsWith('/admin/') || p.startsWith('/api/admin/')) return await admin(request, env, url);
+      if (p === '/admin' || p.startsWith('/admin/') || p.startsWith('/api/admin/')) return await admin(request, env, url, ctx);
       if (p.startsWith('/media/')) return await media(request, env, decodeURIComponent(p.slice(7)));
       if (/^\/puerto-[a-z0-9-]+\/?$/.test(p)) return await redireccionPuerto(request, env, url);
       const clave = claveDeRuta(p);
@@ -42,12 +42,12 @@ export default {
 };
 
 /* ---------- administrador ---------- */
-async function admin(request, env, url) {
-  const email = await usuarioAdmin(request, env);
+async function admin(request, env, url, ctx) {
+  const email = await usuarioAdmin(request, env, ctx);
   if (!email) {
-    const sinConfig = !env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD;
+    const sinConfig = !(ctx && ctx.access) && (!env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD);
     const msg = sinConfig
-      ? 'El administrador está cerrado: falta configurar Cloudflare Access (ACCESS_TEAM_DOMAIN y ACCESS_AUD). Ver CÓMO-SUBIR-EL-SITIO.md.'
+      ? 'El administrador está cerrado: activa Cloudflare Access en el Worker (Settings › Domains & Routes › Enable Cloudflare Access). Ver CÓMO-SUBIR-EL-SITIO.md.'
       : 'Acceso denegado. Entra con tu correo autorizado en Cloudflare Access.';
     if (url.pathname.startsWith('/api/')) return json({ ok: false, error: msg }, 403);
     return texto(msg, 403);
