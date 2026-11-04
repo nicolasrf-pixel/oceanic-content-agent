@@ -10,3 +10,8 @@ dist/*.zip
 
 # Fotos de usados: van en el ZIP, no en git
 usados/*/fotos/
+
+# Restos de wrangler (pruebas locales de Cloudflare)
+sitio/node_modules/
+sitio/.wrangler/
+.dev.vars

@@ -117,7 +117,7 @@
     precioTxt ? {label:'Precio', value:precioTxt} : null
   ].filter(Boolean)));
   function cotBtn(txt, cls){
-    return '<button type="button" class="' + (cls||'btn') + '" data-cotizar' +
+    return '<button type="button" class="' + (cls||'btn') + '" data-cotizar data-tipo="usado"' +
       ' data-modelo="' + cAttr(U.nombre + (U.anio ? ' (' + U.anio + ')' : '')) + '"' +
       ' data-marca="' + cAttr('Usado' + (U.marca && U.marca !== '·' ? ' · ' + U.marca : '')) + '"' +
       ' data-wa="' + cAttr(wa) + '"' +

@@ -289,12 +289,8 @@
 <span class="talk-or">o déjanos tus datos y te escribimos →</span>
 </div>
 <div>
-<form onsubmit="event.preventDefault();
-        var n=this.nombre.value.trim(), e=this.email.value.trim();
-        if(!n||!e){alert('Déjanos tu nombre y correo.');return;}
-        var t=this.telefono.value.trim(), m=this.mensaje.value.trim();
-        var cuerpo='Hola Oceanic, quiero cotizar el Axopar 37 XC.\n\nDatos de contacto:\n• Nombre: '+n+'\n• Correo: '+e+(t?'\n• Teléfono: '+t:'')+(m?'\n\nCómo navego:\n'+m:'')+'\n\nModelo: Axopar 37 XC · Motor';
-        window.location.href='mailto:ventas@oceanic.cl?subject='+encodeURIComponent('Cotización Axopar 37 XC, '+n)+'&amp;body='+encodeURIComponent(cuerpo);">
+<form data-form="cotizacion" data-modelo="Axopar 37 XC" data-marca="Axopar" data-universo="Motor" data-ok="#cok37" novalidate>
+<input aria-hidden="true" autocomplete="off" name="web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <div class="row">
 <div><label for="n">Nombre</label><input id="n" name="nombre" required=""/></div>
 <div><label for="e">Correo</label><input id="e" name="email" required="" type="email"/></div>
@@ -309,19 +305,24 @@
 </div>
 <input id="intencion" name="intencion" type="hidden" value=""/>
 <label class="check">
-<input checked="" name="puerto" type="checkbox"/>
+<input name="puerto" type="checkbox"/>
 <span>Quiero recibir <b>Puerto</b>, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span>
 </label>
 <div class="form-foot">
-<button class="btn" type="submit">Enviar solicitud por correo</button>
+<button class="btn" type="submit">Enviar solicitud</button>
 <span class="form-note">Contexto capturado: Axopar 37 XC · Axopar · Motor</span>
 </div>
 </form>
+<div class="form-ok" hidden id="cok37" role="status" tabindex="-1">
+<h3 class="talk-h3" style="font-size:clamp(22px,1.4vw+16px,30px)">Hemos recibido tu solicitud</h3>
+<p class="lede" style="margin-top:12px">Un especialista de Oceanic te escribe dentro de un día hábil con configuraciones, plazos y precio del Axopar 37 XC. <span data-via></span></p>
+</div>
 </div>
 </div>
 </section>
 <div id="foot"></div>
 <div class="mob"><a class="btn" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." rel="noopener" target="_blank">Habla con un especialista</a></div>
+<script src="../../../assets/js/formularios.js"></script>
 <script src="../../../assets/js/nav-tpl.js"></script>
 <script src="../../../assets/js/oceanic.js"></script>
 <script src="../../../assets/js/motion.js"></script>

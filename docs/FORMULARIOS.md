@@ -1,0 +1,107 @@
+# Formularios del sitio (fase 4)
+
+Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulario`
+(`sitio/functions/api/formulario.js`, una Cloudflare Pages Function). El navegador usa
+`sitio/assets/js/formularios.js`.
+
+| Formulario | Página | `tipo` |
+|---|---|---|
+| Cotizador (modal) | fichas de modelo y de usados | `cotizacion` / `usado` |
+| Cotización Axopar 37 XC | `marcas/axopar/axopar-37-xc/` | `cotizacion` |
+| Contacto | `contacto/` | `contacto` |
+| Charter | `charter/` | `charter` |
+| Equipamiento | `equipamiento/` | `equipamiento` |
+| Suscripción a Puerto | `puerto/` y `contacto/` | `puerto` |
+
+## Qué pasa al enviar
+
+1. El servidor valida los datos y descarta bots (campo trampa `web`, invisible para las personas). Solo acepta
+   envíos desde el mismo dominio del sitio.
+2. Envía el aviso a ventas@ con todos los datos. "Responder" le escribe directo al cliente.
+3. Si eso funcionó, en paralelo: confirmación al cliente ("Hemos recibido tu solicitud"), contacto en Brevo con
+   origen, modelo, fecha y versión de la política, y negocio en el pipeline "Cotizaciones" (si está configurado).
+4. Si el visitante marcó la casilla de Puerto (siempre viene **desmarcada**), Brevo le manda un correo de doble
+   confirmación. Solo entra a la lista, con `CONSENTIMIENTO_MARKETING = true`, cuando hace clic.
+
+**Nunca se pierde una solicitud:** si el servidor no responde, no está configurado o falla el aviso a ventas,
+el navegador abre el correo del visitante con la solicitud ya escrita (como en la etapa 1) y se lo dice.
+La suscripción a Puerto no tiene respaldo por correo: si falla, avisa que lo intente más tarde.
+
+El registro del servidor solo guarda códigos de error, nunca datos personales.
+
+## Variables en Cloudflare
+
+Cloudflare → Workers & Pages → el proyecto → Settings → Variables and secrets. En el proyecto, **Root directory = `sitio`**.
+
+| Variable | Tipo | Quién | Valor |
+|---|---|---|---|
+| `BREVO_API_KEY` | **Secreto** | Nico | Clave de API de Brevo (ver abajo). Nunca por chat, correo ni repositorio. |
+| `REMITENTE_EMAIL` | Texto | Johnny | Dirección verificada en Brevo, p. ej. `no-responder@oceanic.cl` |
+| `REMITENTE_NOMBRE` | Texto | Johnny | `Oceanic` |
+| `VENTAS_EMAIL` | Texto | Johnny | `ventas@oceanic.cl` (es el valor por defecto) |
+| `POLITICA_VERSION` | Texto | Johnny | Versión vigente de la política de privacidad, p. ej. `2026-12-01`. Cambiarla cada vez que cambie el texto. |
+| `BREVO_LISTA_CONTACTOS` | Texto | Nico | Opcional. ID de una lista para todos los que escriben (no es marketing). |
+| `BREVO_LISTA_PUERTO` | Texto | Nico | ID de la lista de Puerto |
+| `BREVO_PLANTILLA_DOI` | Texto | Nico | ID de la plantilla de doble confirmación |
+| `PUERTO_URL_CONFIRMADO` | Texto | Johnny | Página a la que llega quien confirma, p. ej. `https://oceanic.cl/puerto/` |
+| `BREVO_PIPELINE_ID` | Texto | Nico | Opcional. ID del pipeline "Cotizaciones" |
+| `BREVO_ETAPA_INICIAL` | Texto | Nico | Opcional. ID de la primera etapa del pipeline |
+| `ORIGENES_PERMITIDOS` | Texto | Johnny | Opcional. Dominios separados por coma si el sitio responde en más de uno. |
+| `MODO_PRUEBA` | Texto | Johnny | `1` para validar sin enviar nada (pruebas). Quitarla en producción. |
+
+Sin `BREVO_API_KEY` ni `REMITENTE_EMAIL` el endpoint responde 503 y los formularios usan el correo de respaldo.
+
+## Instrucciones de Brevo para Nico
+
+Nico hace todo esto en su cuenta, sin dar acceso a nadie.
+
+**1. Atributos de contacto** (Contactos → Configuración → Atributos de contacto → Añadir). Escribir los nombres
+exactos, en mayúsculas:
+
+| Nombre | Tipo |
+|---|---|
+| `ORIGEN` | Texto |
+| `TIPO_FORMULARIO` | Texto |
+| `LINEA_NEGOCIO` | Texto |
+| `MARCA` | Texto |
+| `MODELO` | Texto |
+| `UNIVERSO` | Texto |
+| `TELEFONO` | Texto |
+| `CONSENTIMIENTO_MARKETING` | Booleano |
+| `CONSENTIMIENTO_FECHA` | Fecha |
+| `POLITICA_VERSION` | Texto |
+
+`FIRSTNAME` ya existe en Brevo y guarda el nombre.
+
+**2. Lista de Puerto** (Contactos → Listas → Crear una lista): llamarla "Puerto". Anotar su ID (número).
+
+**3. Plantilla de doble confirmación** (Campañas → Plantillas → Nueva plantilla): elegir la plantilla
+"Double opt-in", con el botón que lleva `{{ doubleoptin }}`. Texto sugerido: "Confirma tu suscripción a Puerto, el
+newsletter de Oceanic. Si no la pediste, ignora este correo." Activarla y anotar su ID.
+
+**4. Pipeline "Cotizaciones"** (opcional, CRM → Negocios → Configuración): crear el pipeline con sus etapas
+(sugerencia: Nueva, Contactado, Propuesta enviada, Ganada, Perdida). Anotar el ID del pipeline y el de la etapa
+"Nueva".
+
+**5. Remitente** (Configuración → Remitentes, dominios e IP dedicadas): verificar que el dominio `oceanic.cl` sigue
+autenticado (DKIM y DMARC en verde) y crear el remitente `no-responder@oceanic.cl` con nombre "Oceanic".
+
+**6. Clave de API** (Configuración → SMTP y API → Claves API → Generar una nueva clave): nombre
+"sitio-oceanic". Nico la copia y la pega **él mismo** en Cloudflare como secreto `BREVO_API_KEY`
+(Settings → Variables and secrets → Add → Type: Secret). No se guarda en ningún otro lugar. Si se filtra, se borra
+en Brevo y se genera otra.
+
+**7. Pasar los IDs a Johnny**: los de la lista, la plantilla y el pipeline no son secretos.
+
+## Cómo probar sin datos reales
+
+- Pruebas automáticas, desde `sitio/`: `node --test tests/formulario.test.mjs` (Brevo simulado, no envía nada).
+- En local con Cloudflare: `npx wrangler pages dev sitio --binding MODO_PRUEBA=1`.
+- Prueba completa con Brevo: usar un correo propio de prueba (no de clientes), enviar cada formulario y revisar
+  que llegue el aviso a ventas@, la confirmación, que aparezca el contacto con sus atributos y que la suscripción a
+  Puerto solo entre a la lista tras confirmar. Borrar después el contacto de prueba en Brevo.
+
+## Pendiente antes de publicar (puerta legal)
+
+- La política de privacidad todavía no existe (fase 5). Hasta entonces `POLITICA_VERSION` no apunta a un texto real.
+- Contratos de encargo firmados y validación del abogado antes de recibir datos reales.

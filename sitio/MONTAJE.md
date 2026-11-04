@@ -24,6 +24,7 @@ astillero (Axopar, Beneteau, Lagoon, Aquila, Solaris, Saffier, XO) y no alterar 
 
 ## Formularios
 
-Todos los cotizadores/formularios envían por `mailto:ventas@oceanic.cl` (abre el
-cliente de correo del usuario) con WhatsApp como alternativa. Para envío con backend
-silencioso, conectar a un servicio de formularios o endpoint propio.
+Todos los cotizadores/formularios envían a `/api/formulario` (Cloudflare Pages Function en
+`functions/api/formulario.js`), que avisa a ventas@, confirma al cliente y guarda el contacto en
+Brevo. Si el servidor no está disponible abren el correo del visitante como respaldo. WhatsApp
+sigue como alternativa. Configuración: `docs/FORMULARIOS.md` en la raíz del repo.

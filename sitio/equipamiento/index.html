@@ -58,10 +58,12 @@
 <label>Teléfono (opcional)<input id="ef-tel"/></label>
 <label>Embarcación (opcional)<input id="ef-barco" placeholder="Marca y modelo, si aplica"/></label>
 </div>
+<input aria-hidden="true" autocomplete="off" id="ef-web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <label class="eform-msg">Cuéntanos qué necesitas<textarea id="ef-msg" placeholder="Qué equipo buscas o qué quieres resolver" rows="3"></textarea></label>
 </div>
 <div class="eform-cta">
-<button class="btn" id="efSend">Enviar solicitud por correo</button>
+<button class="btn" id="efSend" type="button">Enviar solicitud</button>
+<p class="eform-estado" hidden id="efEstado" role="status"></p>
 <a class="eform-wa-alt" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20informaci%C3%B3n%20de%20equipamiento." id="efWa" rel="noopener" target="_blank">o por WhatsApp →</a>
 </div>
 </div>
@@ -72,6 +74,7 @@
 <div class="mob"><a class="btn" href="../contacto/index.html">Cuéntanos qué necesitas</a></div>
 <script src="../assets/js/nav-tpl.js"></script>
 <script src="../assets/js/equipamiento-data.js"></script>
+<script src="../assets/js/formularios.js"></script>
 <script src="../assets/js/equipamiento.js"></script>
 <script src="../assets/js/motion.js"></script>
 <script src="../assets/js/catalogo-data.js"></script>

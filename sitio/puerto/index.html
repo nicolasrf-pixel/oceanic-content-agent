@@ -35,7 +35,8 @@
 <h2>Recibe Puerto<br/>en tu correo</h2>
 <p>Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta.</p>
 </div>
-<form class="psub-form" onsubmit="event.preventDefault();this.innerHTML='&lt;p class=&quot;psub-ok&quot;&gt;Listo. Nos vemos en la próxima edición de Puerto.&lt;/p&gt;';">
+<form class="psub-form" data-puerto data-ok-class="psub-ok" novalidate>
+<input aria-hidden="true" autocomplete="off" name="web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <input aria-label="Correo" name="email" placeholder="tu@correo.cl" required="" type="email"/>
 <button class="btn" type="submit">Suscribirme</button>
 </form>
@@ -44,6 +45,7 @@
 <div id="foot"></div>
 <div class="drawer" hidden="" id="drawer"></div>
 <div class="mob"><a class="btn" href="#suscribir">Suscribirme a Puerto</a></div>
+<script src="../assets/js/formularios.js"></script>
 <script src="../assets/js/nav-tpl.js"></script>
 <script src="../assets/js/motion.js"></script>
 <script src="../assets/js/catalogo-data.js"></script>

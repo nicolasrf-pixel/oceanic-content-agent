@@ -37,7 +37,7 @@ Para automatizar en Cloudflare Pages (Opción B), pon como Build command:
 ## Antes de producción
 1. Reemplazar `oceanic.pages.dev` por el dominio real en robots.txt y sitemap.xml
 2. Correr el pase editorial de las descripciones (vienen como borrador)
-3. Conectar los formularios (hoy usan mailto:ventas@oceanic.cl) a un backend si se
-   quiere envío silencioso. Cloudflare Pages Functions o un servicio como Formspree.
+3. Configurar los formularios: variables y secreto de Brevo en Cloudflare, según
+   `docs/FORMULARIOS.md` (raíz del repo). Sin eso usan el correo de respaldo.
 4. Validar precios "desde" con ventas (son referenciales)
 5. Confirmar specs del repo con las fichas oficiales vigentes

@@ -1,11 +1,9 @@
 /* OCEANIC — Cotizador por barco (modal <dialog>).
    Cada ficha abre su propio formulario pre-llenado con el modelo.
-   Al enviar: arma un correo ordenado a ventas@oceanic.cl y muestra "hemos recibido tu solicitud".
-   2ª etapa (servidor): reemplazar enviarSolicitud() por un POST al backend que envía
-   el correo a ventas@ y el autoresponder al solicitante. El HTML del form ya queda listo. */
+   Al enviar: POST a /api/formulario (aviso a ventas@ y confirmación al cliente) vía
+   OCEANIC_ENVIAR (assets/js/formularios.js). Si el servidor no está, abre el correo del visitante. */
 (function(){
   'use strict';
-  var VENTAS='ventas@oceanic.cl';
   var dlg, trigger;
 
   function esc(s){ return (s==null?'':String(s)).replace(/[<>&"]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c];}); }
@@ -32,6 +30,7 @@
     datos=datos||{};
     trigger=datos.trigger||document.activeElement;
     var modelo=datos.modelo||'', marca=datos.marca||'';
+    var tipo=datos.tipo||(/^usado/i.test(marca)?'usado':'cotizacion');
     var titulo=modelo?('Cotizar '+modelo):'Solicitar información';
     // resumen de specs clave para contexto del vendedor
     var resumen=(datos.specs||[]).slice(0,4).map(function(s){return s.label+': '+s.value;}).join(' · ');
@@ -57,6 +56,7 @@
           '</label>'+
         '</div>'+
         '<label class="cot-f cot-full"><span>Mensaje</span><textarea name="mensaje" rows="3" placeholder="Cuéntanos cómo navegas, cuándo lo necesitas o qué configuración te interesa."></textarea></label>'+
+        '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">'+
         '<p class="cot-err" id="cotErr" role="alert" hidden></p>'+
         '<div class="cot-cta">'+
           '<button type="submit" class="btn cot-send">Enviar solicitud</button>'+
@@ -67,7 +67,7 @@
       '<div class="cot-ok" hidden>'+
         '<span class="cot-ok-mark" aria-hidden="true">✓</span>'+
         '<h2 class="cot-h">Hemos recibido tu solicitud</h2>'+
-        '<p class="cot-ok-txt">Gracias. Un especialista de Oceanic te escribe dentro de un día hábil con precio, configuración y plazos'+(modelo?(' del <b>'+esc(modelo)+'</b>'):'')+'. Te enviamos una copia a tu correo.</p>'+
+        '<p class="cot-ok-txt">Gracias. Un especialista de Oceanic te escribe dentro de un día hábil con precio, configuración y plazos'+(modelo?(' del <b>'+esc(modelo)+'</b>'):'')+'.<span class="cot-ok-via"></span></p>'+
         '<div class="cot-cta"><button type="button" class="btn cot-close2">Listo</button>'+
           (datos.href?'<a class="btn btn-line" href="'+esc(datos.href)+'">Ver la ficha</a>':'')+'</div>'+
       '</div>';
@@ -96,10 +96,20 @@
       var tel=f.telefono.value.trim();
       var via=(f.querySelector('input[name=via]:checked')||{}).value||'Correo';
       var msg=f.mensaje.value.trim();
-      enviarSolicitud({modelo:modelo,marca:marca,resumen:resumen,nombre:nombre,email:email,telefono:tel,via:via,mensaje:msg,href:datos.href});
-      // mostrar confirmación
-      form.hidden=true; ok.hidden=false;
-      ok.querySelector('.cot-close2').focus();
+      var d={tipo:tipo,modelo:modelo,marca:marca,resumen:resumen,nombre:nombre,email:email,telefono:tel,via:via,mensaje:msg,href:datos.href,web:f.web.value};
+      var btn=f.querySelector('.cot-send');
+      btn.disabled=true; btn.textContent='Enviando…';
+      window.OCEANIC_ENVIAR(d, respaldo(d)).then(function(r){
+        ok.querySelector('.cot-ok-via').textContent = r.via==='servidor'
+          ? ' Te enviamos una copia a tu correo.'
+          : ' Se abrió tu correo con la solicitud escrita: envíala para que nos llegue.';
+        form.hidden=true; ok.hidden=false;
+        ok.querySelector('.cot-close2').focus();
+      }, function(){
+        btn.disabled=false; btn.textContent='Enviar solicitud';
+        err.textContent='Revisa tu nombre y correo, y vuelve a enviar.';
+        err.hidden=false;
+      });
     });
 
     // abrir modal (focus trap + Esc nativos de <dialog>)
@@ -109,10 +119,8 @@
     var first=dlg.querySelector('input[name=nombre]'); if(first) first.focus();
   };
 
-  /* ETAPA 1 (sin servidor): abre el cliente de correo con todo ordenado para ventas@.
-     ETAPA 2 (servidor): reemplazar por fetch('/api/cotizar',{method:'POST',body:...})
-     que envía el correo a ventas@ y el autoresponder "hemos recibido tu solicitud" al cliente. */
-  function enviarSolicitud(d){
+  // Respaldo por correo si el servidor no está disponible.
+  function respaldo(d){
     var lineas=[
       'Nueva solicitud de cotización desde el sitio Oceanic.','',
       'EMBARCACIÓN',
@@ -130,18 +138,7 @@
       'MENSAJE',
       (d.mensaje||'(sin mensaje)')
     ].filter(function(x){return x!=='';});
-    var cuerpo=lineas.join('\n');
-    var asunto='Cotización'+(d.modelo?' — '+d.modelo:'')+' — '+d.nombre;
-    // Guardar un registro local por si el envío de correo falla (respaldo para el vendedor).
-    try{
-      var reg=JSON.parse(localStorage.getItem('oceanic_cotizaciones')||'[]');
-      reg.push({fecha:new Date().toISOString(),asunto:asunto,cuerpo:cuerpo});
-      localStorage.setItem('oceanic_cotizaciones',JSON.stringify(reg).slice(0,50000));
-    }catch(e){}
-    var url='mailto:'+VENTAS+'?subject='+encodeURIComponent(asunto)+'&body='+encodeURIComponent(cuerpo);
-    // abrir el correo sin sacar al usuario de la página (la confirmación se muestra igual)
-    var a=document.createElement('a'); a.href=url; a.style.display='none';
-    document.body.appendChild(a); a.click(); setTimeout(function(){a.remove();},100);
+    return { asunto:'Cotización'+(d.modelo?' — '+d.modelo:'')+' — '+d.nombre, cuerpo:lineas.join('\n') };
   }
 
   // Delegación: cualquier elemento con [data-cotizar] abre el modal con los datos del barco.
@@ -154,6 +151,7 @@
       marca:t.getAttribute('data-marca')||'',
       href:t.getAttribute('data-href')||'',
       wa:t.getAttribute('data-wa')||'',
+      tipo:t.getAttribute('data-tipo')||'',
       specs:[]
     };
     var raw=t.getAttribute('data-specs');

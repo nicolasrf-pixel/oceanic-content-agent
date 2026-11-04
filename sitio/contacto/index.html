@@ -30,13 +30,8 @@
 <div class="wrap-wide cgrid">
 <!-- FORM -->
 <div class="cform-wrap">
-<form class="cform" onsubmit="event.preventDefault();
-        var n=this.nombre.value.trim(), e=this.email.value.trim();
-        if(!n||!e){alert('Déjanos tu nombre y correo.');return;}
-        var t=this.telefono.value.trim(), mo=this.motivo.value, m=this.mensaje.value.trim();
-        var cuerpo='Hola Oceanic,\n\nDatos de contacto:\n• Nombre: '+n+'\n• Correo: '+e+(t?'\n• Teléfono: '+t:'')+(mo?'\n• Motivo: '+mo:'')+(m?'\n\nMensaje:\n'+m:'');
-        window.location.href='mailto:ventas@oceanic.cl?subject='+encodeURIComponent('Contacto web, '+n+(mo?' ('+mo+')':''))+'&amp;body='+encodeURIComponent(cuerpo);
-        this.style.display='none';document.getElementById('cok').hidden=false;document.getElementById('cok').scrollIntoView({behavior:'smooth',block:'center'});">
+<form class="cform" data-form="contacto" data-ok="#cok" novalidate>
+<input aria-hidden="true" autocomplete="off" name="web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <div class="crow">
 <div class="cfield"><label for="nombre">Nombre</label><input id="nombre" name="nombre" required=""/></div>
 <div class="cfield"><label for="email">Correo</label><input id="email" name="email" required="" type="email"/></div>
@@ -62,7 +57,7 @@
 <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos dónde navegas, con quién, qué barco tienes hoy si tienes uno, y qué te gustaría hacer que hoy no puedes. Mientras más nos cuentes, mejor te orientamos." rows="5"></textarea>
 </div>
 <label class="ccheck">
-<input checked="" name="puerto" type="checkbox"/>
+<input name="puerto" type="checkbox"/>
 <span>Quiero recibir <b>Puerto</b>, el newsletter de Oceanic, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span>
 </label>
 <div class="cfoot">
@@ -73,7 +68,7 @@
 <div class="cok" hidden="" id="cok">
 <span class="cok-mark">✓</span>
 <h3>Gracias. Recibimos tu mensaje.</h3>
-<p>Te escribimos dentro de un día hábil con información concreta. Mientras tanto, puedes explorar las marcas o revisar los usados disponibles.</p>
+<p>Te escribimos dentro de un día hábil con información concreta. <span data-via></span> Mientras tanto, puedes explorar las marcas o revisar los usados disponibles.</p>
 <div class="cok-links"><a href="../marcas/axopar/index.html">Ver marcas →</a><a href="../usados/index.html">Ver usados →</a></div>
 </div>
 </div>
@@ -108,7 +103,8 @@
 <h2>Suscríbete al<br/>newsletter</h2>
 <p>Cada edición: premios de las marcas, entregas que ya navegan, la agenda náutica del mes y técnica útil. Cuando hay algo que contar.</p>
 </div>
-<form class="cnews-form" onsubmit="event.preventDefault();this.innerHTML='&lt;p class=&quot;cnews-ok&quot;&gt;Listo. Te sumamos a Puerto, nos vemos en la próxima edición.&lt;/p&gt;';">
+<form class="cnews-form" data-puerto data-ok-class="cnews-ok" novalidate>
+<input aria-hidden="true" autocomplete="off" name="web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <input aria-label="Correo" name="email" placeholder="tu@correo.cl" required="" type="email"/>
 <button class="btn" type="submit">Suscribirme</button>
 </form>
@@ -117,6 +113,7 @@
 <div id="foot"></div>
 <div class="drawer" hidden="" id="drawer"></div>
 <div class="mob"><a class="btn" href="#form">Escríbenos</a></div>
+<script src="../assets/js/formularios.js"></script>
 <script src="../assets/js/nav-tpl.js"></script>
 <script src="../assets/js/motion.js"></script>
 <script src="../assets/js/catalogo-data.js"></script>

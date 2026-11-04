@@ -68,7 +68,7 @@
   }
 })();
 
-/* ---- Formulario de solicitud con selector múltiple → correo a ventas ---- */
+/* ---- Formulario de solicitud con selector múltiple → /api/formulario (o correo de respaldo) ---- */
 (function () {
   'use strict';
   var send = document.getElementById('efSend');
@@ -105,9 +105,20 @@
       (tel ? '\n• Teléfono: ' + tel : '') +
       (barco ? '\n• Embarcación: ' + barco : '') +
       (msg ? '\n\nComentario:\n' + msg : '');
-    var mailto = 'mailto:ventas@oceanic.cl?subject=' +
-      encodeURIComponent('Solicitud de equipamiento, ' + nombre) +
-      '&body=' + encodeURIComponent(cuerpo);
-    window.location.href = mailto;
+    var estado = document.getElementById('efEstado');
+    send.disabled = true; send.textContent = 'Enviando…';
+    window.OCEANIC_ENVIAR({
+      tipo: 'equipamiento', nombre: nombre, email: correo, telefono: tel,
+      categorias: cats, detalle: barco ? 'Embarcación: ' + barco : '', mensaje: msg,
+      web: val('ef-web')
+    }, { asunto: 'Solicitud de equipamiento, ' + nombre, cuerpo: cuerpo }).then(function (r) {
+      send.hidden = true;
+      estado.innerHTML = '<b>Hemos recibido tu solicitud.</b> Te escribimos dentro de un día hábil. ' +
+        (r.via === 'servidor' ? 'Te enviamos una copia a tu correo.' : 'Se abrió tu correo con la solicitud escrita: envíala para que nos llegue.');
+      estado.hidden = false;
+    }, function () {
+      send.disabled = false; send.textContent = 'Enviar solicitud';
+      estado.textContent = 'Revisa tu nombre, tu correo y que hayas marcado una categoría.'; estado.hidden = false;
+    });
   });
 })();

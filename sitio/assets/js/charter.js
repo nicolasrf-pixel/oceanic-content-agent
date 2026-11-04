@@ -131,8 +131,10 @@
           '<label>Teléfono (opcional)<input id="r-tel"></label>' +
           '<label>Comentario (opcional)<input id="r-msg"></label>' +
         '</div>' +
+        '<input id="r-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
+        '<p class="cotz-estado" id="r-estado" role="status" hidden></p>' +
         '<div class="cotz-res-cta">' +
-          '<a class="btn" id="cotz-send-mail" href="#" data-act="mail" data-lineas="' + encodeURIComponent(lineas) + '">Enviar solicitud por correo</a>' +
+          '<a class="btn" id="cotz-send-mail" href="#" data-act="mail" data-lineas="' + encodeURIComponent(lineas) + '">Enviar solicitud</a>' +
           '<a class="cotz-wa-alt" href="' + wa + '" target="_blank" rel="noopener">o por WhatsApp →</a>' +
         '</div>' +
         '<div class="cotz-nav" style="margin-top:18px"><button class="cotz-back" data-act="back">← Ajustar</button></div>' +
@@ -170,10 +172,22 @@
             '\n• Correo: ' + correo +
             (tel ? '\n• Teléfono: ' + tel : '') +
             (com ? '\n\nComentario:\n' + com : '');
-          var mailto = 'mailto:ventas@oceanic.cl?subject=' +
-            encodeURIComponent('Solicitud de charter, ' + nombre) +
-            '&body=' + encodeURIComponent(cuerpo);
-          window.location.href = mailto;
+          var estado = document.getElementById('r-estado');
+          if (el.getAttribute('aria-disabled') === 'true') return;
+          el.setAttribute('aria-disabled', 'true'); el.textContent = 'Enviando…';
+          window.OCEANIC_ENVIAR({
+            tipo: 'charter', nombre: nombre.trim(), email: correo.trim(), telefono: tel.trim(),
+            mensaje: com.trim(), detalle: lineas,
+            web: (document.getElementById('r-web') || {}).value || ''
+          }, { asunto: 'Solicitud de charter, ' + nombre, cuerpo: cuerpo }).then(function (r) {
+            var box = el.closest('.cotz-res-form');
+            box.innerHTML = '<p class="cotz-estado" role="status"><b>Hemos recibido tu solicitud.</b> ' +
+              'Te enviamos la propuesta a medida por correo dentro de un día hábil. ' +
+              (r.via === 'servidor' ? 'Te llegó una copia a tu correo.' : 'Se abrió tu correo con la solicitud escrita: envíala para que nos llegue.') + '</p>';
+          }, function () {
+            el.removeAttribute('aria-disabled'); el.textContent = 'Enviar solicitud';
+            estado.textContent = 'Revisa tu nombre y correo, y vuelve a enviar.'; estado.hidden = false;
+          });
         }
       });
     });
