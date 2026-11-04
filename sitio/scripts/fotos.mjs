@@ -55,7 +55,7 @@ async function procesar([destino, url]) {
     stats.ok++;
   } catch (e) {
     stats.fallidas++;
-    const host = new URL(url).host;
+    let host; try { host = new URL(url).host; } catch { host = 'URL inválida'; }
     fallasPorHost[host] = (fallasPorHost[host] || 0) + 1;
   }
 }

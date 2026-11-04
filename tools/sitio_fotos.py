@@ -4,6 +4,8 @@ Cada fila: destino (relativo a sitio/assets/img/), URL a descargar y URL del ori
 La URL a descargar sale de la biblioteca (images.json):
   - Axopar: el CDN redimensiona (`cdn_url?width=…`); los originales del DAM pesan 30-70 MB y no sirven para web.
   - Otras marcas: `cdn_url` (versión web que publica la marca) o, si no hay, el original.
+  - Saffier y Solaris bloquean descargas automáticas: se usa una copia oficial en otro origen si la biblioteca la
+    tiene (oceanic.cl); si no, la foto queda para carga manual.
   - Fotos sin registro en la biblioteca (usados de oceanic.cl): la URL que ya tenía la lista.
 Las fotos se descargan y convierten en el build de Cloudflare con sitio/scripts/fotos.mjs.
 
@@ -11,6 +13,7 @@ Uso, desde la raíz del repo:  python3 tools/sitio_fotos.py
 """
 import csv
 import json
+import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -29,7 +32,20 @@ def indice_biblioteca():
     return por_url
 
 
+# Sitios que bloquean las descargas automáticas (captcha / anti-bots). No se eluden: si la biblioteca tiene una copia
+# oficial en otro origen (p. ej. la misma foto publicada en oceanic.cl, decisión Oceanic 2026-10-04), se usa esa.
+BLOQUEADOS = ('saffieryachts.com', 'www.solarisyachts.com')
+
+
 def url_web(im, original, destino):
+    o = (im or {}).get('original') or {}
+    # fetched_from puede ser una nota ("copia con el mismo nombre de archivo publicada en https://…"): se toma la URL
+    alternativas = [m.group(0) for u in (o.get('fetched_from'), o.get('url'), (im or {}).get('cdn_url')) if u
+                    for m in [re.search(r'https?://\S+', u)] if m]
+    if original.split('/')[2] in BLOQUEADOS:
+        otra = next((u for u in alternativas if u.split('/')[2] not in BLOQUEADOS), None)
+        if otra:
+            return otra
     cdn = (im or {}).get('cdn_url') or ''
     if 'media.ffycdn.net' in cdn:  # Axopar: el CDN entrega la foto al ancho pedido
         return cdn.split('?')[0] + ('?width=2560&quality=90' if destino.endswith('-hero.webp') else '?width=1600&quality=90')
@@ -47,7 +63,7 @@ def main():
     for destino, _, original in filas:
         im = por_url.get(original.strip())
         sin += im is None
-        salida.append([destino, url_web(im, original, destino), original])
+        salida.append([destino, url_web(im, original, destino).strip(), original.strip()])
     with TSV.open('w', newline='') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(cab)
