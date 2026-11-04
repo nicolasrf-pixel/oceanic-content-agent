@@ -15,10 +15,10 @@ superpone al archivo del repo correspondiente.
 
 1. **dash.cloudflare.com** → **Workers & Pages** → Worker **oceanic** → **Settings** → **Build** → **Connect**.
 2. Repositorio **nicolasrf-pixel/oceanic-content-agent**, rama **`sitio-web`**.
-3. Configuración del build:
-   - **Root directory:** `sitio`
-   - **Build command:** `bash scripts/build.sh`
-   - **Deploy command:** `npx wrangler deploy`
+3. Configuración del build (así quedó en la cuenta; Root directory queda en `/`):
+   - **Build command:** `cd sitio && bash scripts/build.sh`
+   - **Deploy command:** `cd sitio && npx wrangler deploy`
+   - **Enable Preview builds:** desmarcado (las otras ramas no tienen el sitio)
 4. Guardar. La primera publicación tarda unos 5 minutos (descarga y optimiza ~3.500 fotos oficiales).
    El estado se ve en **Deployments**.
 
@@ -87,8 +87,8 @@ y se indica dónde está el problema.
 
 ## Si algo falla
 
-- **La publicación falla:** Worker → **Deployments** → la publicación fallida → registro. Revisa Root directory
-  `sitio`, Build command `bash scripts/build.sh` y Deploy command `npx wrangler deploy`.
+- **La publicación falla:** Worker → **Deployments** → la publicación fallida → registro. Revisa que los comandos
+  empiecen con `cd sitio && ` (Settings → Build).
 - **El administrador dice "cerrado":** Access no está activado en el Worker (paso 2).
 - **"Acceso denegado":** el correo no está en la política de Access (o en `ADMIN_EMAILS`).
 - **Errores del Worker:** Worker → **Observability** → Logs.
