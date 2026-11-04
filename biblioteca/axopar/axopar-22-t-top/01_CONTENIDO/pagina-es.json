@@ -1,0 +1,133 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/axopar-22/axopar-22-t-top/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-axopar-22-t-top.page.json",
+ "portada": {
+  "bajada": "La fórmula ganadora de Axopar, reunida en un barco de 22 pies bajo un techo T-Top"
+ },
+ "intro": [
+  "Un sportboat transportable en carro, hecho para traslados rápidos y aventuras con cualquier clima. El Axopar 22 T-Top lleva a otro nivel la diversión, la libertad y la funcionalidad en la clase de 22 pies. Este modelo estilizado y versátil suma la protección de un elegante T-Top sin sacrificar la emoción de navegar al aire libre. Ágil, estable y lleno de detalles de diseño inteligentes, el 22 T-Top ofrece una de las mejores experiencias de conducción de su categoría, con los precios sólidos y competitivos por los que Axopar es conocido."
+ ],
+ "bloques": [
+  {
+   "titulo": "El mejor barco de 22 pies del mercado",
+   "texto": [
+    "El singular y llamativo Axopar 22 no solo tiene la estética: es un verdadero barco de rendimiento, con una de las mejores experiencias de conducción; estabilidad, agilidad y manejo sin igual, junto con la mejor navegabilidad de su clase. Hecho a la medida de tus necesidades.\n¡Para la mejor experiencia en el agua!"
+   ]
+  },
+  {
+   "titulo": "Fácil de manejar",
+   "texto": [
+    "Con el mismo ADN que sus hermanos mayores, el 22 T-Top ofrece un manejo ágil y un comportamiento seguro, que te permite relajarte y concentrarte en pasarlo bien en el agua. El casco de doble step, con centro de gravedad bajo y configuración en V profunda, asegura una buena estabilidad direccional y un agarre fantástico en las curvas."
+   ]
+  },
+  {
+   "titulo": "Puesto de mando despejado",
+   "texto": [
+    "El puesto de mando, despejado e intuitivo, está pensado para que tengas control total sobre el barco y sus funciones en cualquier situación."
+   ]
+  },
+  {
+   "titulo": "Transportable en carro",
+   "texto": [
+    "Fácil de remolcar casi a cualquier parte, el Axopar 22 te permite botarlo en nuevas aguas y descubrir islas escondidas. Con certificación costera, puedes disfrutar de cómodas aventuras de día completo con amigos y familia."
+   ]
+  },
+  {
+   "titulo": "Bienvenido al Hull of Fame",
+   "texto": [
+    "Todo Axopar comienza donde realmente comienza la experiencia de navegar: bajo la línea de flotación. Muchos navegantes han aprendido a aceptar ciertas concesiones como algo normal. Nuestro enfoque, que parte por el casco, resuelve lo fundamental desde el inicio. Desde el lanzamiento del primer Axopar 28 en 2014, esta filosofía ha dado forma a nuestra gama multipremiada, ha ayudado a crear la categoría de barcos de aventura y ha contribuido a que se vendan más de 7.600 Axopar en el mundo.",
+    "Descubre el Hull of Fame y la ingeniería detrás de la experiencia de conducción distintiva de Axopar."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Equipamiento destacado",
+   "items": [
+    {
+     "titulo": "Consola central walk-around",
+     "texto": "La consola central walk-around permite moverse con fluidez y te da mejor control en situaciones como el amarre. La consola central también incluye un gran compartimento de almacenamiento."
+    },
+    {
+     "titulo": "Toma USB a prueba de salpicaduras en la consola",
+     "texto": "No pierdas la oportunidad de capturar y compartir cada momento con tus dispositivos siempre cargados. La toma USB a prueba de salpicaduras tiene clasificación IPX6 y puede cargar dos dispositivos al mismo tiempo, con 2,1 A por toma."
+    },
+    {
+     "titulo": "Posibilidades de almacenamiento",
+     "texto": "¿Llevas juguetes acuáticos, equipo de camping u otro equipo de aventura? Puedes guardarlo todo cómodamente en alguno de los muchos espacios de almacenamiento repartidos por el barco."
+    },
+    {
+     "titulo": "Gran funda de puerto para la consola y los asientos delanteros",
+     "texto": "Las fundas de puerto protegen las zonas más usadas del barco de la lluvia, el sol y el polvo. Se instalan fácilmente con broches resistentes. (En la foto, el modelo Spyder)."
+    },
+    {
+     "titulo": "Bolsillo de almacenamiento en la pared de la consola central",
+     "texto": "El bolsillo de almacenamiento te permite guardar todos los objetos pequeños que llevas en tus aventuras."
+    }
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Timonera / Cockpit",
+    "items": [
+     "Puesto de mando despejado",
+     "Panel del tablero en terminación soft touch gris oscuro",
+     "Panel de interruptores en negro de alto brillo con botones iluminados",
+     "Volante de cuero con logo Axopar",
+     "Dos asientos delanteros giratorios, regulables en largo, con apoyo alto abatible",
+     "Silvertex en todos los asientos y la tapicería",
+     "Dos portavasos",
+     "Toma USB a prueba de salpicaduras en la consola",
+     "Zona del cockpit sin umbrales",
+     "Reposapiés con terminación antideslizante",
+     "Gran funda de puerto para la consola y los asientos delanteros"
+    ]
+   },
+   {
+    "grupo": "Casco y cubierta",
+    "items": [
+     "Cubierta walk-around con consola central y cubierta de popa cerrada",
+     "Techo T-Top con mástil de luces, gran consola central con almacenamiento",
+     "Sofá central con almacenamiento con llave bajo la cubierta de popa",
+     "Casco laminado a mano en GRP, con la primera capa en resina viniléster para prevenir la osmosis",
+     "Casco de doble step con proa de entrada fina (“sharp entry bow”)",
+     "Soporte de motores integrado al casco para motores fueraborda",
+     "Estanque de combustible fijo de aluminio de 230 l con prevención de rebalse",
+     "Terminación antideslizante en zonas de cubierta y escotillas",
+     "Cubierta autodrenante con desagüe rápido en la cubierta de popa",
+     "Toda la herrajería, cerraduras, bisagras, tapas de llenado y pasamanos en acero inoxidable 316 o con pintura en polvo negra",
+     "4 cornamusas",
+     "Cáncamos de proa y popa en acero inoxidable 316",
+     "Luces de navegación LED en la cubierta de proa",
+     "Luz de fondeo removible",
+     "Amplio cofre de ancla con drenaje en la proa",
+     "Soportes para cabos en el cofre de ancla de proa y en el sofá de popa",
+     "Parabrisas regulable de plexiglás con serigrafía negra",
+     "Deflectores de viento en la consola central",
+     "Almacenamiento bajo el piso de la cubierta de proa",
+     "Gran compartimento de almacenamiento bajo el piso de la cubierta de popa, con escotilla asistida por amortiguadores de gas",
+     "Almacenamiento en los paneles laterales",
+     "Bolsillo de almacenamiento en la pared de la consola central",
+     "Bandeja de batería con soporte y fusibles principales a prueba de salpicaduras en el almacenamiento del sofá de popa",
+     "Bocina",
+     "Dos bombas de achique eléctricas con función automática",
+     "Bomba de achique manual",
+     "Plataformas de baño integradas y escalera de baño telescópica oculta"
+    ]
+   },
+   {
+    "grupo": "General",
+    "items": [
+     "Cumple las normas USCG y ABYC aplicables",
+     "Cumple las normas CE europeas aplicables",
+     "Certificación NMMA"
+    ]
+   }
+  ]
+ }
+}

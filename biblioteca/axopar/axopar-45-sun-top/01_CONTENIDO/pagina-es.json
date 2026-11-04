@@ -1,0 +1,140 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/axopar-45/axopar-45-sun-top/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-axopar-45-sun-top.page.json",
+ "portada": {
+  "bajada": "Redefine tus aventuras en el mar"
+ },
+ "intro": [
+  "El nuevo Axopar 45 Sun Top (ST), diseñado para ser versátil, une sin esfuerzo el placer de las aventuras al aire libre y la comodidad protegida, para una experiencia inolvidable en el agua. Disfruta la emocionante sensación al volante y luego relájate en uno de los amplios espacios sociales a bordo.",
+  "El Axopar 45 Sun Top es nuestra interpretación de un día perfecto en el mar en funcionalidad, conducción, comodidad y seguridad. Es uno de los barcos más completos y versátiles del mercado y un verdadero barco para ir a cualquier parte, con un diseño y un rendimiento seguros de sí mismos, ideal para exploraciones largas y para recorrer islas."
+ ],
+ "bloques": [
+  {
+   "titulo": "Bienvenido al Hull of Fame",
+   "texto": [
+    "Todo Axopar comienza donde realmente comienza la experiencia de navegar: bajo la línea de flotación. Muchos navegantes han aprendido a aceptar ciertas concesiones como algo normal. Nuestro enfoque, que parte por el casco, resuelve lo fundamental desde el inicio. Desde el lanzamiento del primer Axopar 28 en 2014, esta filosofía ha dado forma a nuestra gama multipremiada, ha ayudado a crear la categoría de barcos de aventura y ha contribuido a que se vendan más de 7.600 Axopar en el mundo.",
+    "Descubre el Hull of Fame y la ingeniería detrás de la experiencia de conducción distintiva de Axopar."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "El equilibrio perfecto entre sol y sombra",
+   "items": [
+    {
+     "titulo": "Puertas balcón",
+     "texto": "Pensando en la facilidad de uso y la seguridad, ubicamos una solución nueva e innovadora, nuestras puertas balcón elevadas, en el centro del barco, donde se concentra toda la actividad social, para ampliar el espacio útil para sentarse sin sacrificar la seguridad ni la comodidad a bordo."
+    },
+    {
+     "titulo": "Para momentos en compañía",
+     "texto": "Siete cómodos asientos deportivos giratorios y regulables en largo, junto con la mesa de comedor extensible, forman una gran zona social. Un lugar perfecto para recibir invitados y disfrutar una cena."
+    },
+    {
+     "titulo": "Puertas de ala de gaviota",
+     "texto": "Los íconos modernos vienen de serie en la gama 45. Olvídate de las cabinas de proa estrechas y con poca luz; transforma tu ya luminosa cabina de proa abriendo las puertas de ala de gaviota y dejando entrar el exterior."
+    },
+    {
+     "titulo": "Dos techos solares eléctricos",
+     "texto": "Lleva el exterior al interior abriendo los dos techos solares eléctricos, que dejan entrar mucha luz y brisa cuando quieras, por supuesto."
+    }
+   ]
+  },
+  {
+   "grupo": "La mejor experiencia al timón",
+   "items": [
+    {
+     "titulo": "Experiencia al timón",
+     "texto": "La hélice de proa, los flaps de trimado y el sistema de audio nunca habían estado tan cerca. El módulo de dirección inteligente te permite controlarlos todos desde el volante."
+    },
+    {
+     "titulo": "Mejoras significativas en consumo de combustible",
+     "texto": "Un nuevo casco de doble step con proa de entrada fina, más eficiente que nunca, logra un consumo de crucero ultrabajo de 2,4 l/mn a 30 nudos con 3 Mercury V8 FourStroke de 300 hp. Mejoras considerables de hasta un 30% en eficiencia de combustible entre 20 y 40 nudos."
+    }
+   ]
+  },
+  {
+   "grupo": "Comodidad para familia y amigos",
+   "items": [
+    {
+     "titulo": "Wet bar",
+     "texto": "Para aprovechar al máximo la distribución de la timonera del 45, decidimos crear un wet bar con un sofá central y un apoyo para reclinarse, que se convierte en el nuevo centro innovador y funcional de la timonera."
+    },
+    {
+     "titulo": "Clóset en la cabina de proa",
+     "texto": "Cuelga tu ropa y guarda ordenadamente tus pertenencias en el clóset de la cabina de proa, como en casa."
+    },
+    {
+     "titulo": "Baño y ducha cerrados con altura completa para estar de pie",
+     "texto": "Una distribución rediseñada crea un baño un 60% más grande, con una zona de ducha separada para más comodidad y practicidad. Una mayor altura interior, gracias al nuevo diseño en GRP, mejora aún más la experiencia a bordo, mientras amplias soluciones de almacenamiento mantienen las pertenencias personales ordenadas y fuera de la vista."
+    }
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Timonera / Cockpit",
+    "items": [
+     "Dos techos de lona de accionamiento eléctrico con fundas de puerto.",
+     "Tapicería en Silvertex Petrol con ribete Seine.",
+     "Mástil de luces plegable en aluminio pintado blanco, con luz de fondeo.",
+     "Asiento de piloto y 2 asientos de copiloto con apoyos abatibles y base giratoria, con dos grandes cajones y desconectadores de batería remotos en la base.",
+     "Amplio sofá de popa con unidades de almacenamiento.",
+     "Wet bar con lavaplatos y grifería y refrigerador de cajón de 65 l.",
+     "Sofá tapizado mirando a popa alrededor del wet bar.",
+     "Mesa ancha, plegable y de altura regulable entre la banca de popa y el wet bar.",
+     "Luces LED empotradas en el techo y parlantes ocultos.",
+     "Limpiaparabrisas integrados con depósito independiente. Pasamanos a ambos lados del techo.",
+     "Puesto de mando despejado con panel de interruptores de vidrio con botones iluminados.",
+     "Dos pantallas Simrad Glass Bridge de 12”.",
+     "Volante de cuero con módulo de dirección inteligente (ISM) y mandos integrados de audio, flaps de trimado y hélice de proa.",
+     "Limpiaparabrisas integrados con depósito independiente.",
+     "Escotilla de acceso a la cabina de proa con llave y pasamanos de cuero.",
+     "Alarmas de incendio y CO2."
+    ]
+   },
+   {
+    "grupo": "Casco y cubierta",
+    "items": [
+     "Casco laminado a mano en GRP, con la primera capa en resina viniléster para prevenir la osmosis.",
+     "Largueros infusionados al vacío y casco de 45” de doble step con proa de entrada fina, hélice de proa y soportes de motor integrados para 3 motores fueraborda Mercury V8 de 300 hp.",
+     "Flaps de trimado y luces subacuáticas en el espejo de popa.",
+     "Logo Axopar 3D cromado y puertas balcón que se abren a ambos lados del casco.",
+     "Cubierta walk-around autodrenante laminada a mano, con terminación antideslizante y luces de cubierta.",
+     "Toda la herrajería, púlpitos, barandas laterales, escalera de baño con manillas altas, escalera de baño telescópica, cerraduras, bisagras, tapas de llenado, 8 cornamusas y pasamanos del cockpit en acero inoxidable 316.",
+     "Puntos de enganche para arnés de seguridad y 2 grandes cofres para defensas en la cubierta de popa abierta, con compartimento de baterías / electricidad debajo.",
+     "Ducha en la cubierta de popa.",
+     "Luces de navegación LED en la proa.",
+     "Escotilla de ancla con dos tomas de conexión a tierra conectadas al cargador de baterías.",
+     "Sofá en la cubierta de proa con tapicería Silvertex Petrol con ribete Seine y funda de puerto.",
+     "Barco completo en gelcoat blanco Axopar."
+    ]
+   },
+   {
+    "grupo": "General",
+    "items": [
+     "Sistema de agua dulce.",
+     "Alarmas de incendio y CO2."
+    ]
+   },
+   {
+    "grupo": "Cabina de proa",
+    "items": [
+     "Colchones y cojines tapizados en Wish, elegantes; paneles interiores en roble claro y cubiertas de mesa en madera color wengué.",
+     "Cama queen que, al levantarse, transforma los sofás separados en un sofá en U.",
+     "Paneles de techo y paredes tapizados en un material de fieltro moderno.",
+     "2 parlantes en el techo.",
+     "Puertas de ala de gaviota.",
+     "Lavamanos y grifería, clóset, luces LED empotradas en el techo, luces de lectura e iluminación ambiental en el techo y el piso.",
+     "Alarmas de incendio y CO2.",
+     "Alfombra en el piso y la escalera.",
+     "Baño separado con inodoro, espejo, mueble, ducha y lavamanos.",
+     "Incluye sistema de agua dulce."
+    ]
+   }
+  ]
+ }
+}

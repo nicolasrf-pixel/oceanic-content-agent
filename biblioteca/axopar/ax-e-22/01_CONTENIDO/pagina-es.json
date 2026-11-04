@@ -1,0 +1,78 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-22/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-ax-e-22.page.json",
+ "portada": {
+  "titular": "La lancha eléctrica de 22 pies de Axopar",
+  "bajada": "100% eléctrica"
+ },
+ "intro": [
+  "Elegancia sin igual, impulsada por la innovación: el AX/E 22 no es solo un barco; es una declaración. Con su propulsión eléctrica silenciosa y eficiente y su refinado diseño Mediterrana, cada travesía se convierte en una aventura de rendimiento y lujo. Materiales seleccionados a mano y una fabricación experta crean un entorno donde rendimiento y estilo convergen, y hacen que cada momento en el agua sea tan refinado como emocionante. Transportable en carro y versátil, es tu puerta de entrada a la aventura de navegar en eléctrico."
+ ],
+ "bloques": [
+  {
+   "titulo": "Potencia, precisión y respuesta",
+   "texto": [
+    "El AX/E 22 está diseñado para emocionar. Con el motor Evoy Breeze, que entrega más de 120 HP, este barco alcanza una velocidad máxima de 36 nudos, y cada aventura se impulsa con torque instantáneo y una aceleración emocionante. Su casco en V de doble step aumenta la agilidad y hace del AX/E 22 un placer de maniobrar, ya sea cortando olas o navegando junto a la costa. Silencioso, potente y ágil: así se redefine el rendimiento. No deja más que ondas en el agua.",
+    "Premios de la gama Axopar 22: el AX/E 22 no es solo una versión eléctrica; es la siguiente evolución del premiado Axopar 22, que se diseñó desde el inicio pensando en una futura propulsión eléctrica. Al refinar su reconocida plataforma y adaptarla a una propulsión eléctrica avanzada, el AX/E 22 combina innovación, rendimiento y sostenibilidad para los navegantes de hoy."
+   ]
+  },
+  {
+   "titulo": "Velocidades emocionantes",
+   "texto": [
+    "El motor Evoy Breeze entrega más de 120 HP y lleva al AX/E 22 a una velocidad máxima de 36 nudos, con una aceleración emocionante y potencia dinámica en el agua."
+   ]
+  },
+  {
+   "titulo": "Manejo excepcional",
+   "texto": [
+    "El diseño del casco en V de doble step y su construcción liviana aseguran una estabilidad y un control sobresalientes, y permiten maniobras precisas y seguras en distintas condiciones de mar."
+   ]
+  },
+  {
+   "titulo": "Maniobrabilidad ágil",
+   "texto": [
+    "Pensado para giros cerrados y respuestas rápidas, el AX/E 22 ofrece un manejo sin esfuerzo, que hace la navegación fluida e intuitiva tanto en aguas abiertas como en espacios reducidos."
+   ]
+  },
+  {
+   "titulo": "Navegación suave",
+   "texto": [
+    "Con su avanzado diseño de casco, el AX/E 22 ofrece una navegación cómoda y estable, que minimiza los impactos y entrega una experiencia fluida tanto a baja como a alta velocidad."
+   ]
+  },
+  {
+   "titulo": "Control preciso",
+   "texto": [
+    "El torque instantáneo del motor eléctrico asegura una respuesta inmediata, que permite al conductor sentirse conectado y con pleno dominio de los movimientos del barco."
+   ]
+  },
+  {
+   "titulo": "Emoción con conciencia ecológica",
+   "texto": [
+    "Disfruta la emoción de navegar a alta velocidad con la ventaja de una operación casi silenciosa, que crea una conexión serena e inmersiva con el agua."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Hecho para tu aventura",
+   "items": [
+    {
+     "titulo": "Terminaciones interiores",
+     "texto": "El diseño de inspiración mediterránea incorpora materiales de alta gama, con una estética elegante y refinada que mejora la experiencia a bordo."
+    },
+    {
+     "titulo": "Detalles de lujo",
+     "texto": "La tapicería AX/E Mediterrana aumenta la comodidad a bordo con materiales premium, que combinan estilo, durabilidad y un aspecto sofisticado."
+    },
+    {
+     "titulo": "Puesto de mando optimizado",
+     "texto": "El puesto de mando ergonómico está pensado para un uso fácil, con parabrisas regulable y mandos intuitivos, para una navegación protegida y bajo control."
+    }
+   ]
+  }
+ ]
+}

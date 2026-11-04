@@ -44,6 +44,16 @@ def texto_modal(it):
     return sin_frase_cortada(parrafos('\n\n'.join(partes)))
 
 
+# Contenido que no se publica (decisiones Oceanic 2026-11-04): opcionales, ediciones, configuraciones y colores
+# (se conversan en persona) y llamados a la red de distribuidores de la marca (en el sitio, el contacto es Oceanic).
+NO_PUBLICAR = re.compile(r'option|upgrade|edition|configur|layout|alternativ|upholster|colou?r|more to explore|dealer|'
+                         r'brochure|newsletter|manual|try before|sea trial', re.I)
+
+
+def es_opcional(texto):
+    return bool(re.search(r'\boptional\b|\bupgrade', texto or '', re.I))
+
+
 def plantilla_axopar(j):
     """Estructura de pagina-es.json con los textos en inglés (hojas = frases a traducir)."""
     h = j.get('hero') or {}
@@ -61,6 +71,8 @@ def plantilla_axopar(j):
     for s in j.get('sections') or []:
         t, tit = s['block_type'], (s.get('title') or '').strip()
         items = s.get('items') or []
+        if NO_PUBLICAR.search(tit):
+            continue
         if t in ('BannerBlock', 'AnimationBlock') and s.get('intro') and not tit.lower().startswith('configure'):
             P['bloques'].append({'titulo': tit, 'texto': parrafos(s['intro'])})
         elif t == 'TabsBlock' and items and 'option' in tit.lower():
@@ -68,21 +80,13 @@ def plantilla_axopar(j):
         elif t == 'ModalLiftBlock':
             continue  # ediciones y paquetes opcionales (Upgrade Options): tampoco se publican
         elif t == 'TabsBlock' and items:
-            P['destacados'].append({'grupo': tit, 'items': [
-                {k: v for k, v in (('titulo', (it.get('title') or it.get('name') or '').strip()),
-                                   ('texto', ' '.join(parrafos(it.get('text'))))) if v} for it in items]})
-        elif t == 'CardListBlock' and items:
-            g = {'grupo': tit}
-            if s.get('intro'):
-                g['intro'] = ' '.join(parrafos(s['intro']))
-            g['items'] = []
-            for it in items:
-                cuerpo = parrafos(re.sub(r'^\s*-\s*', '', it.get('text') or '')) or texto_modal(it)
-                x = {'titulo': (it.get('title') or '').strip()}
-                if cuerpo:
-                    x['texto'] = cuerpo
-                g['items'].append(x)
-            P['configuracion'].append(g)
+            its = [{k: v for k, v in (('titulo', (it.get('title') or it.get('name') or '').strip()),
+                                      ('texto', ' '.join(parrafos(it.get('text'))))) if v} for it in items]
+            # pestañas sobre opcionales (p. ej. "Optional toilet") no se publican
+            its = [x for x in its if not es_opcional(x.get('titulo')) and not NO_PUBLICAR.search(x.get('titulo', ''))]
+            if its:
+                P['destacados'].append({'grupo': tit, 'items': its})
+        # CardListBlock (configuraciones, distribuciones, colores) y ModalLiftBlock (ediciones): no se publican
     # Solo equipamiento de serie: el opcional no se publica (decisión Oceanic 2026-11-04)
     for clave, dest in (('standard_equipment', 'serie'),):
         for g in j.get(clave) or []:
@@ -92,12 +96,18 @@ def plantilla_axopar(j):
     return limpiar({k: v for k, v in P.items() if v and (k != 'equipamiento' or v['serie'])})
 
 
+BASURA = {'', 'test', 'lorem ipsum'}  # textos vacíos o de prueba olvidados en la web oficial
+
+
 def limpiar(x):
-    """Quita textos vacíos (p. ej. bloques sin título) para que no queden frases vacías por traducir."""
+    """Quita textos vacíos o de prueba (p. ej. un bloque "Test" en la web) para que no se traduzcan ni publiquen."""
+    vacio = lambda v: v in (None, [], {}) or (isinstance(v, str) and v.strip().lower() in BASURA)
     if isinstance(x, dict):
-        return {k: limpiar(v) for k, v in x.items() if v not in ('', None, [], {})}
+        x = {k: limpiar(v) for k, v in x.items() if not vacio(v)}
+        return {k: v for k, v in x.items() if not vacio(v)}
     if isinstance(x, list):
-        return [limpiar(v) for v in x if v not in ('', None, [], {})]
+        x = [limpiar(v) for v in x if not vacio(v)]
+        return [v for v in x if not vacio(v) and v != {}]
     return x
 
 
@@ -149,15 +159,23 @@ def cmd_pendientes(marca, maximo):
     print(json.dumps({'pendientes': len(vistos), 'lote': lote}, ensure_ascii=False, indent=1))
 
 
-def cmd_agregar(marca, archivo):
+def cmd_agregar(marca, archivo, omitidas=()):
     """Agrega al glosario las traducciones de un archivo JSON: lista en el mismo orden que el último lote."""
     lote = json.loads((GLOSARIOS / f'.lote-{marca}.json').read_text())
     es = json.loads(Path(archivo).read_text())
     if len(es) != len(lote):
         sys.exit(f'El archivo tiene {len(es)} traducciones y el lote {len(lote)} frases')
+    omitidas = set(omitidas)
+    # control de alineación: una frase corta (título) no puede quedar emparejada con un párrafo, ni al revés
+    # --omitidas=12,40: posiciones donde se omitió a propósito una mención a opcionales (traducción más corta)
+    sospechosas = [i for i, (a, b) in enumerate(zip(lote, es)) if i not in omitidas and
+                   (len(b) > 3 * len(a) + 40 or len(a) > 3 * len(b) + 40)]
+    if sospechosas:
+        sys.exit(f'Posible desalineación en las posiciones {sospechosas[:10]}: revisa el orden del archivo')
     glos = glosario(marca)
-    for a, b in zip(lote, es):
-        if not b.strip():
+    for i, (a, b) in enumerate(zip(lote, es)):
+        # "" en una posición declarada en --omitidas = la frase entera no se publica (p. ej. un párrafo sobre opcionales)
+        if not b.strip() and i not in omitidas:
             sys.exit(f'Traducción vacía para: {a[:80]}')
         glos[a] = b.strip()
     guardar_glosario(marca, glos)
@@ -170,7 +188,7 @@ def cmd_armar(marca):
     for carpeta, ex in modelos(marca):
         j = json.loads(ex.read_text())
         faltan = set()
-        P = traducir(plantilla_axopar(j), glos, faltan)
+        P = limpiar(traducir(plantilla_axopar(j), glos, faltan))  # limpiar: quita las frases omitidas ("")
         if faltan:
             incompletos.append(f'{carpeta.name} ({len(faltan)})')
             continue
@@ -178,8 +196,9 @@ def cmd_armar(marca):
         previo = json.loads(destino.read_text()) if destino.exists() else {}
         salida = {'estado': previo.get('estado', 'BORRADOR'),
                   'criterio': 'Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario '
-                              f'traducciones/{marca}.json. No agrega ni quita afirmaciones; si la captura corta una '
-                              'frase, se omite la frase incompleta. Nombres de productos, telas, motores y marcas sin traducir.',
+                              f'traducciones/{marca}.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, '
+                              'configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las '
+                              'frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.',
                   'fuente': j.get('source_url'), 'capturada': j.get('accessed_at'),
                   'extract': str(ex.relative_to(carpeta))}
         salida.update(P)
@@ -221,7 +240,7 @@ if __name__ == '__main__':
     if a[:1] == ['pendientes']:
         cmd_pendientes(a[1], int(opts.get('max', 200)))
     elif a[:1] == ['agregar']:
-        cmd_agregar(a[1], a[2])
+        cmd_agregar(a[1], a[2], {int(x) for x in opts.get('omitidas', '').split(',') if x})
     elif a[:1] == ['armar']:
         cmd_armar(a[1])
     elif a[:1] == ['sembrar']:

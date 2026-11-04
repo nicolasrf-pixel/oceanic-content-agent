@@ -1,0 +1,92 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/ax-e-100-electric/ax-e-25/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-ax-e-25.page.json",
+ "portada": {
+  "titular": "La electrizante lancha eléctrica de 25 pies",
+  "bajada": "Vive la clase magistral de la navegación eléctrica"
+ },
+ "intro": [
+  "El AX/E 25 es la máxima expresión de innovación y elegancia en la navegación eléctrica. Une una navegación silenciosa con un rendimiento impresionante, y está pensado para quienes aprecian lo mejor de la vida. Su icónico diseño característico y su versatilidad para el transporte en carro lo hacen ideal para explorar nuevas aguas con estilo y facilidad.",
+  "El AX/E 25 enriquece esta experiencia con un exterior estilizado, un interior amplio y tecnología avanzada, y entrega tanto aventuras emocionantes como comodidad sin esfuerzo. Diseñado para la aventura y para lo práctico, el AX/E 25 ofrece un manejo excepcional, una velocidad impresionante y una comodidad inigualable en cada travesía."
+ ],
+ "bloques": [
+  {
+   "titulo": "Rendimiento potente",
+   "texto": [
+    "Equipado con el formidable motor Evoy Storm, el AX/E 25 entrega 300 HP nominales con un impulso máximo de 600 HP, y lleva al barco a velocidades emocionantes de más de 50 nudos. El torque instantáneo asegura una aceleración rápida, y cada respuesta del acelerador es inmediata y emocionante."
+   ]
+  },
+  {
+   "titulo": "Velocidades emocionantes y manejo preciso",
+   "texto": [
+    "Este barco está diseñado para quienes valoran tanto la velocidad como la precisión. El avanzado casco en V de doble step ofrece una estabilidad excepcional y un manejo preciso, tanto a baja velocidad como a velocidad máxima. Ya sea tomando curvas cerradas o navegando en aguas abiertas, el AX/E 25 ofrece una navegación suave y ágil, que se siente fácil y controlada."
+   ]
+  },
+  {
+   "titulo": "Control sin esfuerzo, comodidad inigualable",
+   "texto": [
+    "El AX/E 25 redefine la experiencia en el agua al unir agilidad y comodidad en perfecta armonía. Su casco estilizado y angosto asegura maniobras precisas y mantiene una navegación suave y estable en todas las condiciones. A cualquier velocidad, desde una navegación tranquila hasta el acelerador a fondo, el barco mantiene el rumbo con un control excepcional, con una conducción predecible y serena que no se había visto antes en barcos eléctricos. Este nivel de conducción fluida es resultado directo de la ingeniería de casco característica de Axopar. Con un manejo sin esfuerzo, el conductor mantiene el control total y puede disfrutar del entorno y de la compañía a bordo sin distracciones."
+   ]
+  },
+  {
+   "titulo": "Funcionamiento casi en silencio",
+   "texto": [
+    "Disfruta la serenidad de una operación casi silenciosa mientras el sistema de propulsión eléctrica zumba suavemente bajo el agua. A alta velocidad, el barco se mantiene suave y silencioso, lo que refuerza la conexión entre el patrón, la embarcación y el entorno."
+   ]
+  },
+  {
+   "titulo": "Emoción con conciencia ecológica",
+   "texto": [
+    "Vive la emoción de navegar con alto rendimiento sin emisiones. El potente motor eléctrico entrega toda la emoción de un motor tradicional y asegura una travesía sin emisiones, para que cada aventura sea emocionante."
+   ]
+  },
+  {
+   "titulo": "Compartimento de almacenamiento múltiple: almacenamiento inteligente con diseño práctico.",
+   "texto": [
+    "El versátil compartimento de almacenamiento múltiple combina practicidad y comodidad. Ofrece espacio para equipos de deportes acuáticos como wakeboards, kneeboards y esquís acuáticos, y se convierte fácilmente en una zona de solárium de 1,50 metros. Un respaldo reposicionable permite que los pasajeros se sienten a lo largo o a lo ancho, con asientos flexibles. Este diseño inteligente aprovecha al máximo el espacio y mejora la comodidad, perfecto para aventuras de todo el día sin sacrificar la estética estilizada y moderna del barco."
+   ]
+  },
+  {
+   "titulo": "Precisión electrizante, potencia inigualable",
+   "texto": [
+    "El AX/E 25 es el barco definitivo para el conductor, diseñado para quienes exigen potencia y precisión en el agua. Impulsado por el avanzado motor Evoy Storm, que entrega más de 300 HP con picos de hasta 600 HP, este barco redefine la navegación eléctrica de alto rendimiento. Con velocidades de más de 50 nudos, el AX/E 25 ofrece una aceleración emocionante y una potencia dinámica que llamarán la atención en cada marina.",
+    "Construido con el característico casco en V de doble step de Axopar, este barco ofrece una estabilidad excepcional y un manejo de gran precisión, incluso en las condiciones más exigentes. La combinación de torque instantáneo e ingeniería meticulosa asegura una navegación suave, ágil y con respuesta, en la que cada maniobra se siente sin esfuerzo. Ya sea tomando curvas cerradas o navegando a alta velocidad, el AX/E 25 entrega la emoción de navegar rápido con la tranquila confianza de un sistema de propulsión eléctrica tan potente como sostenible."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Características destacadas",
+   "items": [
+    {
+     "titulo": "Ambiente refinado a bordo",
+     "texto": "De inspiración mediterránea, con detalles y materiales de lujo. Materiales suaves al tacto se combinan con una resistencia robusta, para que cada travesía sea tan cómoda como elegante."
+    },
+    {
+     "titulo": "Cómoda cabina cuddy",
+     "texto": "La acogedora cabina cuddy de proa es perfecta para escapadas cortas o para pasar la noche cómodamente dos personas. Con litera en V acolchada, lavamanos de agua dulce e inodoro marino, combina practicidad y comodidad. La luz natural entra por una escotilla que se abre, y los parlantes integrados crean un ambiente relajado. Pensado con cuidado, este espacio tiene todo lo necesario para descansar, de día o de noche."
+    }
+   ]
+  },
+  {
+   "grupo": "Innovación a tus órdenes",
+   "items": [
+    {
+     "titulo": "Pantalla multifunción Next4 Q Experience de 10\"",
+     "texto": "La pantalla Q Experience aporta un nuevo nivel de simplicidad y control a la navegación al integrar todas las funciones esenciales del barco en una sola interfaz intuitiva. Esta pantalla táctil de alta resolución ofrece monitoreo del sistema en tiempo real, asistencia a la navegación y funciones de entretenimiento en un formato fácil de usar. Con conectividad 4G integrada, transmisión de audio por Bluetooth y actualizaciones inalámbricas, la pantalla Q te mantiene conectado, ya sea en el mar o en el muelle."
+    },
+    {
+     "titulo": "Smart Boating Screen",
+     "texto": "Una Smart Boating Screen integrada ofrece navegación completa, información meteorológica en tiempo real y monitoreo detallado del sistema. Mantiene al patrón informado y con el control, con todos los datos necesarios en un formato claro y fácil de usar."
+    },
+    {
+     "titulo": "App de monitoreo inteligente",
+     "texto": "La Evoy App extiende las capacidades del barco más allá del puesto de mando y permite gestionar a distancia el seguimiento GPS, los horarios de carga y el registro de travesías. Ya sea en el amarre o en el agua, esta app asegura que el barco esté siempre a tu alcance y listo para la próxima aventura."
+    }
+   ]
+  }
+ ]
+}
