@@ -15,9 +15,14 @@ URL de una ficha: `sitio/marca/index.html?m=<marca>&modelo=<slug>`.
 | Relato | introducción del modelo | `intro` |
 | Bloques de texto con foto | secciones con título de la página oficial, en su orden | `bloques[]` |
 | Lista de puntos con foto | pestañas / destacados oficiales | `destacados[]` |
+
+**Opcionales: no se publican en ninguna ficha** (decisión Oceanic 2026-11-04): ni la lista de equipamiento opcional,
+ni las pestañas de opciones destacadas, ni las ediciones o paquetes opcionales. Se conversan en persona; la ficha
+invita a cotizar la configuración.
+
 | Galería | fotos `THIS_MODEL` de la biblioteca | (automático) |
 | Versiones y configuración | configuraciones, distribuciones, ediciones, colores | `configuracion[]` |
-| Equipamiento | de serie y opcional | `equipamiento.serie[]`, `equipamiento.opcional[]` |
+| Equipamiento | solo de serie; al lado, invitación a conversar opcionales y configuración | `equipamiento.serie[]` |
 | Ficha técnica | ficha verificada de la biblioteca (`specifications.json`) | (automático) |
 | Más de la marca | gama oficial del modelo (del extract) | (automático) |
 | Formulario de cotización | propio de Oceanic, en todas las fichas | — |

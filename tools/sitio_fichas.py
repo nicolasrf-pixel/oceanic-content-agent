@@ -77,6 +77,9 @@ def main(solo_validar=False):
         if solo_validar:
             continue
         salida = {k: d[k] for k in PUBLICAR if d.get(k)}
+        # Opcionales: no se publican en ninguna ficha (decisión Oceanic 2026-11-04)
+        if 'equipamiento' in salida:
+            salida['equipamiento'] = {k: v for k, v in salida['equipamiento'].items() if k != 'opcional'}
         salida['estado'] = d['estado']
         salida['fuente'] = d['fuente']
         g = gama(carpeta)

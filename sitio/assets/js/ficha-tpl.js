@@ -152,12 +152,16 @@
           g.items.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></details>';
       }).join('');
     }
-    var serie = grupos(eq.serie), opc = grupos(eq.opcional);
-    if (serie || opc) {
+    // Solo equipamiento de serie: los opcionales no se publican, se conversan con un especialista (decisión 2026-11-04)
+    var serie = grupos(eq.serie);
+    if (serie) {
       cuerpo.push(seccion('equipamiento', cabeza('Equipamiento') + '<div class="two">' +
-        (serie ? '<div><h3 class="eq-h">De serie</h3>' + serie + '</div>' : '') +
-        (opc ? '<div><h3 class="eq-h">Opcional</h3>' + opc + '</div>' : '') +
-        '</div><p class="spec-fuente">Según la ficha oficial de ' + esc(info.nombre) + '. El equipamiento opcional se cotiza aparte.</p>'));
+        '<div><h3 class="eq-h">De serie</h3>' + serie + '</div>' +
+        '<div><h3 class="eq-h">Opcionales y configuración</h3>' +
+        '<p class="lede" style="margin-top:0">Cada ' + esc(mo.nombre) + ' se arma a la medida de cómo navegas: motorización, ' +
+        'equipamiento opcional y terminaciones. Lo revisamos contigo, con precio y plazos.</p>' +
+        '<p style="margin-top:22px"><a class="btn" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p></div>' +
+        '</div><p class="spec-fuente">Equipamiento de serie según la ficha oficial de ' + esc(info.nombre) + '.</p>'));
       nav.push(['equipamiento', 'Equipamiento']);
     }
 
