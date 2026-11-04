@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/dscvr-9-t-top/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-dscvr-9-t-top.page.json",
+ "portada": {
+  "titular": "Te lleva aún más lejos"
+ },
+ "bloques": [
+  {
+   "titulo": "Ve más allá de lo convencional",
+   "texto": [
+    "Elige relajarte en el solárium o enfrentar el viento con la protección del T-top: el DSCVR 9 T-top tiene ambas cosas para la aventura de tus sueños."
+   ]
+  }
+ ]
+}

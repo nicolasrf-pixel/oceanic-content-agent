@@ -111,6 +111,55 @@ def limpiar(x):
     return x
 
 
+OPCIONAL = re.compile(r'\boptional\b|\boptions?\b|\bupgrade|en option|\bopcional', re.I)
+
+
+def sin_opcionales(ps):
+    """Párrafos que mencionan opcionales: no se publican (decisión Oceanic 2026-11-04)."""
+    return [p for p in ps if not OPCIONAL.search(p)]
+
+
+def titulo_limpio(t):
+    """Quita marcas técnicas de la captura: "Events (home)", "Features (página Specifications)", "Página Home"."""
+    t = re.sub(r'\s*\((home|página [^)]*)\)\s*$', '', (t or '').strip(), flags=re.I)
+    return re.sub(r'^Página\s+', '', t).strip()
+
+
+def plantilla_comun(j):
+    """Extract compartido (Beneteau, Lagoon, Aquila, XO, Solaris, Saffier, Excess, VX One, Oceanic Power)."""
+    P = {'portada': {}, 'intro': sin_opcionales(parrafos(j.get('description'))), 'bloques': [], 'destacados': [],
+         'equipamiento': {'serie': []}}
+    if (j.get('tagline') or '').strip():
+        P['portada']['titular'] = j['tagline'].strip()
+    desc = re.sub(r'\s+', ' ', j.get('description') or '')[:80]
+    for s in j.get('sections') or []:
+        kind, tit = (s.get('kind') or ''), titulo_limpio(s.get('title'))
+        if 'video' in kind or 'polar' in kind or NO_PUBLICAR.search(tit):
+            continue
+        items = [it for it in (s.get('items') or []) if isinstance(it, dict)]
+        if kind == 'features' and items:
+            # listas de características / "Esta embarcación incluye": equipamiento de serie
+            its = [it['title'].strip() for it in items if (it.get('title') or '').strip() and not OPCIONAL.search(it['title'])]
+            if its:
+                P['equipamiento']['serie'].append({'grupo': tit, 'items': its})
+        elif items:
+            its = [{k: v for k, v in (('titulo', (it.get('title') or '').strip()),
+                                      ('texto', ' '.join(parrafos(it.get('text'))))) if v} for it in items]
+            its = [x for x in its if not OPCIONAL.search(x.get('titulo', '') + ' ' + x.get('texto', ''))
+                   and not NO_PUBLICAR.search(x.get('titulo', ''))]
+            if its:
+                P['destacados'].append({'grupo': tit, 'items': its})
+        elif s.get('intro'):
+            texto = sin_opcionales(parrafos(s['intro']))
+            if texto and re.sub(r'\s+', ' ', texto[0])[:80] != desc:  # no repetir la descripción
+                P['bloques'].append({'titulo': tit, 'texto': texto})
+    return limpiar({k: v for k, v in P.items() if v and (k != 'equipamiento' or v['serie'])})
+
+
+def plantilla(j):
+    return plantilla_axopar(j) if 'hero' in j else plantilla_comun(j)
+
+
 def hojas(x):
     if isinstance(x, str):
         yield x
@@ -132,9 +181,19 @@ def traducir(x, glos, faltan):
     return {k: traducir(v, glos, faltan) for k, v in x.items()}
 
 
+def ocultos():
+    """Modelos apagados en el sitio (sitio/assets/js/publicacion.js): no se traducen."""
+    js = (RAIZ / 'sitio' / 'assets' / 'js' / 'publicacion.js').read_text()
+    datos = json.loads(js.split('/*DATOS*/', 1)[1].split('/*FIN*/', 1)[0])
+    return set(datos.get('ocultos', {}))
+
+
 def modelos(marca):
+    apagados = ocultos()
     for ex in sorted(BIBLIOTECA.glob(f'{marca}/*/07_FUENTES/extract/S1-*.json')):
-        yield ex.parent.parent.parent, ex
+        carpeta = ex.parent.parent.parent
+        if f'{marca}/{carpeta.name}' not in apagados:
+            yield carpeta, ex
 
 
 def glosario(marca):
@@ -149,8 +208,11 @@ def guardar_glosario(marca, g):
 
 def cmd_pendientes(marca, maximo):
     glos, vistos = glosario(marca), []
-    for _, ex in modelos(marca):
-        for h in hojas(plantilla_axopar(json.loads(ex.read_text()))):
+    for carpeta, ex in modelos(marca):
+        man = carpeta / '01_CONTENIDO' / 'pagina-es.json'
+        if man.exists() and json.loads(man.read_text()).get('manual'):
+            continue
+        for h in hojas(plantilla(json.loads(ex.read_text()))):
             if h not in glos and h not in vistos:
                 vistos.append(h)
     lote = vistos[:maximo]
@@ -184,15 +246,25 @@ def cmd_agregar(marca, archivo, omitidas=()):
 
 def cmd_armar(marca):
     glos = glosario(marca)
-    listos, incompletos = 0, []
+    listos, incompletos, vacios = 0, [], []
     for carpeta, ex in modelos(marca):
         j = json.loads(ex.read_text())
+        manual = carpeta / '01_CONTENIDO' / 'pagina-es.json'
+        if manual.exists() and json.loads(manual.read_text()).get('manual'):
+            listos += 1  # ficha traducida a mano (p. ej. Switch): no se sobrescribe
+            continue
         faltan = set()
-        P = limpiar(traducir(plantilla_axopar(j), glos, faltan))  # limpiar: quita las frases omitidas ("")
+        P = limpiar(traducir(plantilla(j), glos, faltan))  # limpiar: quita las frases omitidas ("")
         if faltan:
             incompletos.append(f'{carpeta.name} ({len(faltan)})')
             continue
         destino = carpeta / '01_CONTENIDO' / 'pagina-es.json'
+        if not any(P.get(k) for k in ('intro', 'bloques', 'destacados', 'equipamiento')):
+            # todo lo publicable se omitió (p. ej. solo había la descripción de un video): sin ficha traducida
+            if destino.exists():
+                destino.unlink()
+            vacios.append(carpeta.name)
+            continue
         previo = json.loads(destino.read_text()) if destino.exists() else {}
         salida = {'estado': previo.get('estado', 'BORRADOR'),
                   'criterio': 'Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario '
@@ -204,14 +276,15 @@ def cmd_armar(marca):
         salida.update(P)
         destino.write_text(json.dumps(salida, ensure_ascii=False, indent=1) + '\n')
         listos += 1
-    print(f'{listos} fichas armadas; incompletas: {", ".join(incompletos) or "ninguna"}')
+    print(f'{listos} fichas armadas; incompletas: {", ".join(incompletos) or "ninguna"}'
+          + (f'; sin contenido publicable: {", ".join(vacios)}' if vacios else ''))
 
 
 def cmd_sembrar(marca, modelo):
     """Alinea un pagina-es.json hecho a mano con la plantilla en inglés y carga los pares al glosario."""
     carpeta = BIBLIOTECA / marca / modelo
     ex = next((carpeta / '07_FUENTES' / 'extract').glob('S1-*.json'))
-    en = plantilla_axopar(json.loads(ex.read_text()))
+    en = plantilla(json.loads(ex.read_text()))
     es = json.loads((carpeta / '01_CONTENIDO' / 'pagina-es.json').read_text())
     glos, n = glosario(marca), 0
 

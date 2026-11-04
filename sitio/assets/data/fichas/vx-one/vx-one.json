@@ -1,0 +1,51 @@
+{
+ "portada": {
+  "titular": "One design, evolucionado."
+ },
+ "intro": [
+  "Desde 2012, el VX One es el sportboat one design definitivo, tanto para regatistas de alto nivel como para familias. Con foco en la diversión, la competencia amistosa y sin profesionales pagados, el VX One es una plataforma de alto rendimiento asequible que garantiza diversión en todas las condiciones. La familia VX One es única, ¡y esperamos que te sumes!"
+ ],
+ "bloques": [
+  {
+   "titulo": "Eventos",
+   "texto": [
+    "Con cientos de barcos navegando en el mundo, el próximo gran evento nunca está lejos. En Estados Unidos, los regatistas pasan el verano con sus flotas locales y luego se reúnen en un circuito de invierno en el sur de Florida y Charleston."
+   ]
+  },
+  {
+   "titulo": "Soporte",
+   "texto": [
+    "El objetivo es que salir a navegar sea más fácil que nunca. Repuestos, jarcia, reparaciones y servicio están disponibles en todos los eventos principales, junto con la gestión del transporte y la logística."
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Características",
+    "items": [
+     "Barcos construidos por Ovington Boats y Mackay Boats",
+     "GNAV (vang sobre la botavara)",
+     "Foque autovirante sobre riel radial Harken",
+     "Enrollador de foque Harken empotrado",
+     "Lanzador de gennaker de boca ancha",
+     "Driza, recogida y botalón del gennaker con un solo cabo",
+     "Mástil de carbono con barniz transparente, de Southern Spars o CST",
+     "Botalón de gennaker de carbono con barniz transparente",
+     "Botavara de carbono con barniz transparente",
+     "Cockpit simple y despejado",
+     "Quilla de aluminio extruido y anodizado, para una forma perfecta y durabilidad",
+     "Timón de carbono y vidrio con perfil de alto rendimiento",
+     "Aparejo simplificado con ingeniería sensata; fácil de ajustar",
+     "Almacenamiento para equipo del día / provisiones",
+     "Almacenamiento de remo bajo cubierta",
+     "Sin programas profesionales pagados en el nivel VX One",
+     "Todos los regatistas son bienvenidos. Sin restricciones de dueño-timonel",
+     "Enfoque KISS: mantenlo simple"
+    ]
+   }
+  ]
+ },
+ "estado": "BORRADOR",
+ "fuente": "https://www.vxone.com/specs"
+}

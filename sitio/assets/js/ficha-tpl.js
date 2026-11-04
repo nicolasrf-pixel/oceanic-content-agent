@@ -285,7 +285,14 @@
     // index.json lista las fichas con traducción completa; las demás usan el borrador del catálogo
     json(base + 'index.json')
       .then(function (lista) { if (lista.indexOf(marca + '/' + mslug) < 0) throw 0; return json(base + marca + '/' + mslug + '.json'); })
-      .then(function (P) { render(marca, mslug, P); }, function () { render(marca, mslug, desdeCatalogo(mo, CC)); });
+      .then(function (P) {
+        // si la página oficial traducida no trae bloques o equipamiento, se completan con el borrador del catálogo
+        var B = desdeCatalogo(mo, CC);
+        if (!P.bloques || !P.bloques.length) P.bloques = B.bloques;
+        if (!P.equipamiento && B.equipamiento) P.equipamiento = B.equipamiento;
+        if (!P.intro || !P.intro.length) P.intro = B.intro;
+        render(marca, mslug, P);
+      }, function () { render(marca, mslug, desdeCatalogo(mo, CC)); });
   };
 
   var q = new URLSearchParams(location.search);

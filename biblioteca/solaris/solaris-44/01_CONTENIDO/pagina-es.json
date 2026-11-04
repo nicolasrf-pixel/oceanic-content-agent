@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/solaris.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.solarisyachts.com/en/yachts/44/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-solaris-44.page.json",
+ "intro": [
+  "El nuevo Solaris 44 fue concebido para reinterpretar uno de los modelos más exitosos de la marca, alineándolo con el lenguaje de diseño de los últimos yates de la gama. Una popa más abierta, pasillos laterales más cortos con peldaños integrados, asientos de timonel rediseñados y una distribución de cubierta revisada aumentan su elegancia, comodidad y habitabilidad a bordo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Interiores",
+   "texto": [
+    "Los interiores, desarrollados junto a 3-Studio, se ofrecen en una sola distribución, de un clasicismo atemporal. La cocina en L está a babor, y el alojamiento comprende tres camarotes y dos baños, ambos con ducha separada. El diseño interior refleja una artesanía excepcional y una atención minuciosa al detalle, con una ebanistería que integra con elegancia las ventanas del casco. Una innovación clave es el uso extensivo de insertos y detalles refinados de cuero en todo el interior, que aportan calidez, sofisticación y una sensación claramente premium."
+   ]
+  }
+ ]
+}

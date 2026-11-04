@@ -18,7 +18,7 @@ BIBLIOTECA = RAIZ / 'biblioteca'
 SALIDA = RAIZ / 'sitio' / 'assets' / 'data' / 'fichas'
 
 # Palabras muy frecuentes en inglés que no existen en español: si aparecen varias, el texto no está traducido.
-INGLES = re.compile(r"\b(the|and|with|for|your|from|this|that|which|while|offers|boat|deck|cabin|optional)\b", re.I)
+INGLES = re.compile(r"\b(the|and|with|for|your|from|this|that|which|while|offers|optional)\b", re.I)
 PUBLICAR = ('portada', 'intro', 'bloques', 'destacados', 'configuracion', 'equipamiento')
 
 
@@ -88,6 +88,12 @@ def main(solo_validar=False):
         destino = SALIDA / marca / f'{modelo}.json'
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(json.dumps(salida, ensure_ascii=False, indent=1) + '\n')
+    if not solo_validar:
+        # fichas publicadas que ya no tienen traducción (p. ej. quedaron sin contenido publicable): se borran
+        vigentes = {SALIDA / p.parent.parent.parent.name / f'{p.parent.parent.name}.json' for p in archivos}
+        for viejo in SALIDA.glob('*/*.json'):
+            if viejo not in vigentes:
+                viejo.unlink()
     if not solo_validar and not total_err:
         # Índice de fichas traducidas: la plantilla solo pide las que existen (sin 404 para las demás).
         publicadas = sorted(f'{p.parent.parent.parent.name}/{p.parent.parent.name}' for p in archivos)

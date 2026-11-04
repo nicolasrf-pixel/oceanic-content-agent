@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/dscvr-9/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-dscvr-9-open.page.json",
+ "portada": {
+  "titular": "Sol, diversión y mucho más."
+ },
+ "bloques": [
+  {
+   "titulo": "El day cruiser para mucho más que tomar sol.",
+   "texto": [
+    "El XO DSCVR 9 Open combina lo mejor de ambos mundos: lleva la emoción, la diversión, la aventura y la adrenalina a un day cruiser de nivel mundial, con mucho espacio para disfrutar los días de descanso sobre las olas."
+   ]
+  }
+ ]
+}
