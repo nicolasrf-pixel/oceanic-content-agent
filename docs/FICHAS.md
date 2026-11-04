@@ -43,3 +43,14 @@ Mientras un modelo no tenga `pagina-es.json`, su ficha usa el borrador corto del
 
 Las fotos se descargan y optimizan al publicar (`sitio/scripts/build.sh`, lista en `sitio/scripts/fotos.tsv`). Si una foto no existe, la plantilla retira
 su contenedor y el texto ocupa el ancho completo: nunca quedan huecos.
+
+## Publicar o apagar un modelo
+
+`sitio/assets/js/publicacion.js` tiene la lista de modelos apagados (`"<marca>/<slug>": "motivo"`). Un modelo apagado
+desaparece de gamas, menús, asistente y "Más de la marca", y su ficha redirige a la página de la marca. Para
+publicarlo, se borra de la lista. Será un botón prender/apagar en el CMS.
+
+Reglas vigentes (decisión Oceanic 2026-11-04):
+- Marcas que bloquean la descarga automática de fotos (Saffier, Solaris): solo se publican los modelos con material
+  en oceanic.cl; el resto queda para carga manual vía CMS.
+- Todas las demás marcas se publican completas, salvo los modelos que el cliente pida apagar.

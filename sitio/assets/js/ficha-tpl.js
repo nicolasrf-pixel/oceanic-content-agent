@@ -241,7 +241,8 @@
   window.OCEANIC_RENDER_MODELO = function (marca, mslug) {
     var C = window.OCEANIC_CATALOGO, cat = C && C[marca];
     var mo = cat && cat.modelos.filter(function (x) { return x.slug === mslug; })[0];
-    if (!mo) return;
+    // modelo apagado (publicacion.js) o inexistente: a la página de la marca
+    if (!mo) { location.replace(cat ? 'index.html?m=' + marca : '../index.html'); return; }
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
     var base = (document.body.dataset.assetBase || '../assets/img/').replace(/img\/$/, '') + 'data/fichas/';
     function json(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }

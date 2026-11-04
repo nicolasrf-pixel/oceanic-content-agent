@@ -29,9 +29,10 @@ publicación se ve en el proyecto → **Deployments**.
 - **Formularios:** mientras Brevo no esté configurado, al enviar se abre el correo del visitante con la solicitud
   escrita (respaldo). Configuración de Brevo: `docs/FORMULARIOS.md` en la raíz del repo.
 - **Fotos:** Saffier y Solaris bloquean las descargas automáticas en sus webs; sus fotos salen de las que Oceanic
-  cargó en oceanic.cl (`scripts/fotos-oceanic.json`). Sin página en oceanic.cl, y por eso sin portada propia:
-  Saffier SC 8m Cabin y SE 28 Leopard; Solaris 64 RS y 74 RS (con algunas fotos de galería). Todas las demás
-  marcas bajan solas.
+  cargó en oceanic.cl (`scripts/fotos-oceanic.json`). Todas las demás marcas bajan solas.
+- **Modelos apagados:** `assets/js/publicacion.js` es el interruptor por barco (lo administrará el CMS). Hoy están
+  apagados los modelos de Saffier y Solaris sin material en oceanic.cl: Saffier SC 8m Cabin y SE 28 Leopard;
+  Solaris 64 RS, 74 RS, 80 RS y 111 RS. Un modelo apagado no aparece en ninguna parte y su ficha lleva a la marca.
 - **Contenido:** las fichas con traducción completa de la página oficial se van agregando (`docs/FICHAS.md`); las
   demás muestran el borrador del catálogo con el mismo diseño.
 
