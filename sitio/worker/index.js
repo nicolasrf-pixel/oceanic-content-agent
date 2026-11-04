@@ -10,6 +10,7 @@
    El repo es la base: con D1 vacío el sitio se ve igual que el repo. Lo que se publica desde el CMS se superpone. */
 import { onRequestPost as formulario } from '../functions/api/formulario.js';
 import { usuarioAdmin } from './acceso.js';
+import { claveConfigurada, entrar, salir } from './clave.js';
 import { DOCS, definicion, renderArchivo, claveDeRuta } from './documentos.js';
 import { api } from './api.js';
 
@@ -43,13 +44,20 @@ export default {
 
 /* ---------- administrador ---------- */
 async function admin(request, env, url, ctx) {
+  if (url.pathname === '/admin/entrar') return entrar(request, env, url);
+  if (url.pathname === '/admin/salir') return request.method === 'POST' ? salir(request, env, url) : texto('Método no permitido', 405);
   const email = await usuarioAdmin(request, env, ctx);
   if (!email) {
+    const api_ = url.pathname.startsWith('/api/');
+    if (claveConfigurada(env)) {  // ingreso con contraseña
+      if (api_) return json({ ok: false, error: 'Tu sesión terminó. Vuelve a entrar.', sesion: false }, 401);
+      return Response.redirect(url.origin + '/admin/entrar', 302);
+    }
     const sinConfig = !(ctx && ctx.access) && (!env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD);
     const msg = sinConfig
-      ? 'El administrador está cerrado: activa Cloudflare Access en el Worker (pestaña Access › Protect this Worker behind Access). Ver CÓMO-SUBIR-EL-SITIO.md.'
+      ? 'El administrador está cerrado: falta el secreto ADMIN_PASSWORD (o activar Cloudflare Access). Ver CÓMO-SUBIR-EL-SITIO.md.'
       : 'Acceso denegado. Entra con tu correo autorizado en Cloudflare Access.';
-    if (url.pathname.startsWith('/api/')) return json({ ok: false, error: msg }, 403);
+    if (api_) return json({ ok: false, error: msg }, 403);
     return texto(msg, 403);
   }
   if (url.pathname.startsWith('/api/admin/')) {

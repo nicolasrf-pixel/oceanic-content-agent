@@ -5,7 +5,10 @@
    Cloudflare Access pide el correo (código de un solo uso) antes de dejar pasar a /admin/* y /api/admin/*, y agrega
    la cabecera Cf-Access-Jwt-Assertion. Aquí se verifica esa firma (RS256 con las llaves públicas del equipo), la
    audiencia (AUD de la aplicación), el emisor y la fecha. Opcional: ADMIN_EMAILS = lista blanca extra.
+   Forma 3 (sin Access): contraseña ADMIN_PASSWORD con sesión propia (worker/clave.js).
    Desarrollo local: ADMIN_LOCAL=<correo> solo funciona en localhost / 127.0.0.1. */
+
+import { usuarioPorSesion } from './clave.js';
 
 let llaves = null, llavesHasta = 0;
 
@@ -18,12 +21,12 @@ export async function usuarioAdmin(request, env, ctx) {
     if (id && id.email) return enLista(String(id.email).toLowerCase(), env);
   }
   const equipo = (env.ACCESS_TEAM_DOMAIN || '').replace(/^https?:\/\//, '').replace(/\/$/, '');
-  if (!equipo || !env.ACCESS_AUD) return null;
   const jwt = request.headers.get('Cf-Access-Jwt-Assertion');
-  if (!jwt) return null;
-  const datos = await verificar(jwt, equipo, env.ACCESS_AUD);
-  if (!datos || !datos.email) return null;
-  return enLista(String(datos.email).toLowerCase(), env);
+  if (equipo && env.ACCESS_AUD && jwt) {
+    const datos = await verificar(jwt, equipo, env.ACCESS_AUD);
+    if (datos && datos.email) return enLista(String(datos.email).toLowerCase(), env);
+  }
+  return usuarioPorSesion(request, env);  // forma 3: contraseña (worker/clave.js)
 }
 
 function enLista(email, env) {  // ADMIN_EMAILS (opcional): segunda barrera además de la política de Access

@@ -99,3 +99,17 @@ test('Access activado en el Worker: identidad desde ctx.access, con lista blanca
   assert.equal(await usuarioAdmin(req, { ADMIN_EMAILS: 'otra@oceanic.cl' }, ctx('nico@oceanic.cl')), null);
   assert.equal(await usuarioAdmin(req, { ADMIN_LOCAL: 'dev@x' }, {}), null);  // ADMIN_LOCAL solo en localhost
 });
+
+test('contraseña: sin secreto o sin cookie válida no hay sesión', async () => {
+  const { usuarioPorSesion, claveConfigurada } = await import('../worker/clave.js');
+  const kv = new Map([['sesion:' + 'a'.repeat(64), 'Nico']]);
+  const MEDIA = { get: async (k) => kv.get(k) ?? null };
+  const req = (c) => new Request('https://x.workers.dev/admin/', { headers: c ? { Cookie: c } : {} });
+  assert.equal(claveConfigurada({ MEDIA }), false);
+  assert.equal(await usuarioPorSesion(req('oceanic_admin=' + 'a'.repeat(64)), { MEDIA }), null);       // sin ADMIN_PASSWORD
+  const env = { MEDIA, ADMIN_PASSWORD: 'x' };
+  assert.equal(await usuarioPorSesion(req('oceanic_admin=' + 'a'.repeat(64)), env), 'Nico');
+  assert.equal(await usuarioPorSesion(req('oceanic_admin=' + 'b'.repeat(64)), env), null);
+  assert.equal(await usuarioPorSesion(req('oceanic_admin=corto'), env), null);
+  assert.equal(await usuarioPorSesion(req(null), env), null);
+});

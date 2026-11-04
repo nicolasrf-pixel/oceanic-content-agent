@@ -24,27 +24,25 @@ superpone al archivo del repo correspondiente.
 
 > No uses "Upload assets" (arrastrar archivos): así no corren los formularios, el administrador ni las fotos.
 
-## 2. Abrir el administrador con Cloudflare Access (una vez, 2 minutos)
+## 2. Abrir el administrador (una vez, 1 minuto)
 
-El administrador está **cerrado por defecto**: hasta que Access esté activo, `/admin/` responde "cerrado".
+El administrador está **cerrado por defecto**. Hoy se entra con **contraseña** (decisión Oceanic 2026-11-04: Zero
+Trust pide tarjeta aunque el plan sea gratis).
 
-1. **dash.cloudflare.com** → **Workers & Pages** → clic en **oceanic**.
-2. Arriba, pestaña **Access** (junto a Overview, Deployments, Settings…).
-3. Botón **Protect this Worker behind Access**. Si Cloudflare pide activar **Zero Trust** primero, acepta el plan
-   **Free** (hasta 50 usuarios, sin costo) y elige un nombre de equipo, p. ej. `oceanic`; luego vuelve a este paso.
-4. Elige **All traffic**. En **Authentication policy**, permite por **correo** (Emails) y escribe tu correo y el de
-   quien vaya a administrar. **Apply Access**.
-5. Abre `https://oceanic.<tu-subdominio>.workers.dev/admin/`: Cloudflare pide el correo, envía un código de 6
-   dígitos y entras.
+1. **dash.cloudflare.com** → **Workers & Pages** → **oceanic** → **Settings** → **Variables and Secrets** → **Add**.
+2. **Type: Secret** · **Variable name:** `ADMIN_PASSWORD` · **Value:** una contraseña larga (16+ caracteres; por
+   ejemplo cuatro palabras al azar). Guarda (**Deploy**). Nunca la escribas en el chat, correos ni el repo.
+3. Entra a `https://oceanic.narf.workers.dev/admin/`: pide tu **nombre** (queda en el historial de cambios) y la
+   contraseña.
 
-No hay que copiar nada: Cloudflare le entrega al Worker el correo ya verificado. Mientras el sitio sea de prueba,
-esto protege **todo** el sitio (solo entran los correos de la política), lo que sirve de vista previa privada.
+Seguridad: la sesión dura 8 horas (botón **Salir** arriba a la derecha); 5 intentos fallidos desde la misma conexión
+bloquean el ingreso 15 minutos. Para cambiar la contraseña, edita el secreto: las sesiones abiertas siguen hasta
+vencer. El sitio de prueba sigue visible para quien tenga la dirección (no aparece en Google).
 
-**Al lanzar con dominio propio** (oceanic.cl) el sitio debe ser público y solo el administrador privado: se crea una
-aplicación de Access para las rutas `oceanic.cl/admin` y `oceanic.cl/api/admin` (Zero Trust → Access controls →
-Applications → Self-hosted) y se agregan al Worker las variables `ACCESS_TEAM_DOMAIN` (ej. `oceanic.cloudflareaccess.com`)
-y `ACCESS_AUD` (el *Application Audience Tag* de esa aplicación). Opcional en ambos casos: `ADMIN_EMAILS` = correos
-autorizados separados por coma, como segunda barrera.
+**Más adelante (opcional): Cloudflare Access.** Si se activa Access en el Worker (pestaña **Access** → *Protect this
+Worker behind Access*, requiere Zero Trust), el administrador lo reconoce solo y además el sitio de prueba queda
+privado. Con dominio propio, Access por rutas (`oceanic.cl/admin`, `oceanic.cl/api/admin`) con las variables
+`ACCESS_TEAM_DOMAIN` y `ACCESS_AUD`. Opcional en ese caso: `ADMIN_EMAILS`.
 
 ## 3. Formularios (Brevo)
 
@@ -89,8 +87,8 @@ y se indica dónde está el problema.
 
 - **La publicación falla:** Worker → **Deployments** → la publicación fallida → registro. Revisa que los comandos
   empiecen con `cd sitio && ` (Settings → Build).
-- **El administrador dice "cerrado":** Access no está activado en el Worker (paso 2).
-- **"Acceso denegado":** el correo no está en la política de Access (o en `ADMIN_EMAILS`).
+- **El administrador dice "cerrado":** falta el secreto `ADMIN_PASSWORD` (paso 2).
+- **"Demasiados intentos":** espera 15 minutos.
 - **Errores del Worker:** Worker → **Observability** → Logs.
 
 ## Para desarrolladores

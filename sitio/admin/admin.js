@@ -54,7 +54,13 @@
       body: op.body ? (fd ? op.body : JSON.stringify(op.body)) : undefined
     }).then(function (r) {
       return r.json().catch(function () { return { ok: false, error: 'Respuesta inválida del servidor (' + r.status + ')' }; })
-        .then(function (d) { d.status = r.status; if (!r.ok) d.ok = false; return d; });
+        .then(function (d) {
+          d.status = r.status; if (!r.ok) d.ok = false;
+          if (r.status === 401 && d.sesion === false) {  // sesión vencida: volver a entrar (se avisa si hay cambios sin guardar)
+            if (!Object.keys(docs).some(function (k) { return docs[k].sucio; }) || confirm('Tu sesión terminó. Tienes cambios sin guardar: copia lo importante antes de continuar. ¿Ir a entrar?')) location.href = '/admin/entrar';
+          }
+          return d;
+        });
     }).catch(function () { return { ok: false, error: 'Sin conexión con el servidor' }; });
   }
 

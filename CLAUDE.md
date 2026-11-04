@@ -197,7 +197,8 @@ Publicar con `python3 tools/sitio_fichas.py`. Detalle en `docs/FICHAS.md`.
 
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
-`oceanic-imagenes` (archivos subidos, servidos en `/media/`), acceso con Cloudflare Access (cerrado por defecto).
+`oceanic-imagenes` (archivos subidos, servidos en `/media/`). Acceso cerrado por defecto: contraseña `ADMIN_PASSWORD`
+(secreto del Worker, sesión 8 h, bloqueo por intentos) o Cloudflare Access si se activa.
 Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=<JSON>;`); lo publicado en el CMS se
 superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
 Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
