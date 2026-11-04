@@ -1,0 +1,90 @@
+/* Oceanic — Puerto (archivo del newsletter) */
+.phero{background:var(--noche);color:#fff;padding:clamp(90px,11vw,150px) 0 clamp(44px,5vw,80px)}
+.phero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--niebla);margin-bottom:clamp(16px,1.6vw,26px)}
+.phero .crumb a{color:var(--niebla);text-decoration:none}.phero .crumb a:hover{color:#fff}
+.phero-h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:.95;
+  font-size:clamp(52px,7vw,140px);margin:0}
+.phero-sub{font-family:var(--texto);font-style:italic;font-weight:300;line-height:1.55;
+  font-size:clamp(18px,.7vw+14px,26px);color:rgba(255,255,255,.82);
+  max-width:56ch;margin:clamp(18px,2vw,30px) 0 0}
+
+/* edición destacada */
+.pfeat{background:var(--noche);padding:0 0 clamp(56px,7vw,110px)}
+.pfeat-card{display:block;text-decoration:none;color:inherit;max-width:var(--max-wide);
+  margin:0 auto;padding:0 var(--gut)}
+.pfeat-img{overflow:hidden;aspect-ratio:4/3;background:var(--trabajo)}
+.pfeat-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.5s cubic-bezier(.16,.84,.34,1)}
+.pfeat-card:hover .pfeat-img img{transform:scale(1.03)}
+.pfeat-body{padding-top:clamp(22px,2.4vw,36px);max-width:70ch}
+.pfeat-tag{display:inline-block;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--boya);margin-bottom:14px}
+.pfeat-body h2{color:#fff;font-family:var(--display);font-weight:700;letter-spacing:-.02em;
+  font-size:clamp(28px,3vw,56px);line-height:1.02;margin:0 0 .35em}
+.pfeat-body p{color:rgba(255,255,255,.76);font-weight:300;font-size:clamp(16px,.5vw+13px,20px);
+  line-height:1.55;margin:0 0 1em;max-width:60ch}
+.pfeat-link{font-family:var(--display);font-weight:500;color:var(--boya);
+  font-size:clamp(15px,.3vw+13px,18px)}
+
+/* archivo */
+.parch{padding:var(--rhythm) 0;background:#FFFFFF}
+.parch-head{margin-bottom:clamp(34px,4vw,64px)}
+.parch-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;
+  font-size:clamp(30px,3.4vw,64px);line-height:1;margin:0}
+.pgrid{display:grid;grid-template-columns:1fr;gap:clamp(34px,4vw,64px) clamp(24px,2.6vw,44px)}
+@media(min-width:680px){.pgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.pgrid{grid-template-columns:repeat(3,1fr)}}
+.ped{text-decoration:none;color:inherit;display:block}
+.ped-img{overflow:hidden;aspect-ratio:4/3;margin-bottom:16px;background:var(--trabajo)}
+.ped-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.3s cubic-bezier(.16,.84,.34,1)}
+.ped:hover .ped-img img{transform:scale(1.04)}
+.ped-date{display:block;font-family:var(--dato);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--boya);margin-bottom:9px}
+.ped h3{font-family:var(--display);font-weight:600;letter-spacing:-.012em;
+  font-size:clamp(20px,.8vw+15px,27px);line-height:1.1;margin:0 0 .4em;transition:color .3s}
+.ped:hover h3{color:var(--boya)}
+.ped p{font-family:var(--texto);font-weight:300;line-height:1.5;
+  font-size:clamp(15px,.3vw+13px,17px);color:var(--trabajo);margin:0;max-width:42ch}
+
+/* suscripción */
+.psub{background:var(--gris,#E3E1DC);padding:clamp(56px,7vw,110px) 0}
+.psub-in{display:grid;gap:clamp(30px,4vw,60px);align-items:center}
+@media(min-width:900px){.psub-in{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.psub-txt h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;
+  font-size:clamp(28px,2.8vw,56px);line-height:1.02;margin:12px 0 .4em;color:var(--noche)}
+.psub-txt p{color:var(--trabajo);font-weight:300;max-width:48ch;margin:0}
+.psub-form{display:flex;flex-wrap:wrap;gap:12px}
+.psub-form input{flex:1 1 220px;font-family:var(--texto);font-size:16px;color:var(--noche);
+  background:#fff;border:1px solid rgba(20,33,43,.25);padding:14px 16px}
+.psub-form input:focus{outline:0;border-color:var(--boya)}
+.psub-ok{font-family:var(--texto);font-size:18px;color:var(--noche);margin:0}
+
+.parch-lede{max-width:56ch;margin:12px 0 0}
+.parch-more{font-family:var(--dato);font-size:12px;letter-spacing:.04em;color:var(--niebla);
+  margin:clamp(30px,4vw,56px) 0 0;text-align:center}
+
+/* ===== Puerto v2 (ediciones desde data) ===== */
+.pfeat2{padding:var(--rhythm) 0 clamp(40px,5vw,70px);background:#fff}
+.pfeat2-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,60px);align-items:center}
+@media(min-width:860px){.pfeat2-grid{grid-template-columns:1fr 1fr}}
+.pfeat2-img{aspect-ratio:4/3;overflow:hidden;background:var(--gris,#E3E1DC);box-shadow:0 30px 70px -30px rgba(20,33,43,.4)}
+.pfeat2-img img{width:100%;height:100%;object-fit:cover}
+.pfeat2-mes{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(28px,3vw,52px);color:var(--noche);display:block;margin-bottom:.4em}
+.pfeat2-res{font-family:var(--texto);font-weight:300;line-height:1.6;font-size:clamp(16px,.5vw+13px,20px);color:var(--trabajo);margin:0 0 clamp(22px,2.4vw,32px);max-width:48ch}
+.ped-notas{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.ped-notas li{display:flex;flex-direction:column;gap:3px;padding-left:16px;border-left:2px solid var(--boya)}
+.ped-notas b{font-family:var(--display);font-weight:600;font-size:clamp(15px,.4vw+13px,18px);color:var(--noche)}
+.ped-notas span{font-family:var(--texto);font-weight:300;font-size:14px;line-height:1.45;color:var(--trabajo)}
+.parch2{padding:clamp(40px,5vw,70px) 0 var(--rhythm);background:var(--gris,#E3E1DC)}
+.parch2-h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(26px,3vw,48px);margin:0 0 clamp(30px,3.6vw,52px);color:var(--noche)}
+.parch2-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.4vw,36px)}
+@media(min-width:720px){.parch2-grid{grid-template-columns:repeat(2,1fr)}}
+.ped2{background:#fff;display:flex;flex-direction:column}
+.ped2-img{aspect-ratio:4/3;overflow:hidden;background:var(--trabajo)}
+.ped2-img img{width:100%;height:100%;object-fit:cover}
+.ped2-body{padding:clamp(20px,2.2vw,30px)}
+.ped2-mes{font-family:var(--display);font-weight:600;font-size:clamp(19px,.8vw+15px,25px);color:var(--noche);display:block;margin-bottom:.4em}
+.ped2-res{font-family:var(--texto);font-weight:300;line-height:1.5;font-size:15px;color:var(--trabajo);margin:0 0 16px}
+.ped2-notas{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.ped2-notas li{font-family:var(--display);font-weight:500;font-size:14px;color:var(--noche);padding-left:14px;position:relative}
+.ped2-notas li::before{content:"·";position:absolute;left:3px;color:var(--boya)}

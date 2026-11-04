@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Equipamiento · Todo lo que el barco necesita | Oceanic</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<meta content="Electrónica, jarcia, velas, hélices, pintura y remolques. Las marcas de equipamiento náutico que Oceanic representa en Chile, seleccionadas por el mismo equipo que representa los astilleros." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/equipamiento.css" rel="stylesheet"/>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<!-- HERO -->
+<header class="ehero">
+<div class="ehero-media"><picture>
+<source media="(max-width:700px)" srcset="../assets/img/equip-hero-m.webp"/>
+<img alt="Equipamiento náutico" fetchpriority="high" src="../assets/img/equip-hero.webp"/></picture></div>
+<div class="wrap-wide ehero-in">
+<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Equipamiento</span></nav>
+<h1 class="ehero-h1">Todo lo que<br/>el barco necesita</h1>
+<p class="ehero-sub">Electrónica, jarcia, velas, hélices, pintura y transporte. Seleccionado por el mismo equipo que representa los astilleros, te decimos qué necesitas, no te vendemos catálogo.</p>
+</div>
+</header>
+<!-- TIRA DE LOGOS -->
+<section class="elogos" id="elogos"></section>
+<!-- CATEGORÍAS · rellenadas por el template -->
+<div id="ecats"></div>
+<!-- CIERRE -->
+<!-- FORMULARIO SELECTOR MÚLTIPLE -->
+<section class="eform" id="solicitar">
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Solicitar información</span><span class="rule"></span></div>
+<h2 class="eform-h2">Marca lo que te interesa</h2>
+<p class="lede eform-lede">Selecciona una o varias categorías y déjanos tus datos. Te enviamos la información y los precios por correo. Si prefieres, escríbenos directo por WhatsApp.</p>
+<div class="eform-box">
+<fieldset class="eform-cats" id="eformCats">
+<legend>¿Qué estás buscando?</legend>
+<label class="echk"><input type="checkbox" value="Navegación y electrónica"/><span>Navegación y electrónica</span></label>
+<label class="echk"><input type="checkbox" value="Jarcia y cubierta"/><span>Jarcia y cubierta</span></label>
+<label class="echk"><input type="checkbox" value="Velas"/><span>Velas</span></label>
+<label class="echk"><input type="checkbox" value="Propulsión"/><span>Propulsión</span></label>
+<label class="echk"><input type="checkbox" value="Pintura y protección"/><span>Pintura y protección</span></label>
+<label class="echk"><input type="checkbox" value="Remolques y transporte"/><span>Remolques y transporte</span></label>
+</fieldset>
+<div class="eform-fields">
+<div class="eform-row">
+<label>Nombre<input id="ef-nombre" required=""/></label>
+<label>Correo<input id="ef-email" required="" type="email"/></label>
+</div>
+<div class="eform-row">
+<label>Teléfono (opcional)<input id="ef-tel"/></label>
+<label>Embarcación (opcional)<input id="ef-barco" placeholder="Marca y modelo, si aplica"/></label>
+</div>
+<label class="eform-msg">Cuéntanos qué necesitas<textarea id="ef-msg" placeholder="Qué equipo buscas o qué quieres resolver" rows="3"></textarea></label>
+</div>
+<div class="eform-cta">
+<button class="btn" id="efSend">Enviar solicitud por correo</button>
+<a class="eform-wa-alt" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20informaci%C3%B3n%20de%20equipamiento." id="efWa" rel="noopener" target="_blank">o por WhatsApp →</a>
+</div>
+</div>
+</div>
+</section>
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<div class="mob"><a class="btn" href="../contacto/index.html">Cuéntanos qué necesitas</a></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/equipamiento-data.js"></script>
+<script src="../assets/js/equipamiento.js"></script>
+<script src="../assets/js/motion.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/asistente.js"></script>
+</body>
+</html>

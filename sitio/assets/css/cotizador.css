@@ -1,0 +1,59 @@
+/* OCEANIC — Cotizador por barco (modal <dialog>) */
+.cot-dlg{
+  border:0;padding:0;max-width:min(560px,calc(100vw - 32px));width:100%;
+  background:#fff;color:var(--noche);box-shadow:0 40px 100px -24px rgba(20,33,43,.55);
+  margin:auto; /* centrado */
+}
+.cot-dlg::backdrop{background:rgba(20,33,43,.6);backdrop-filter:blur(3px)}
+.cot-dlg[open]{animation:cotIn .3s cubic-bezier(.16,.84,.34,1)}
+@keyframes cotIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.cot-dlg[open]{animation:none}}
+
+.cot-form,.cot-ok{padding:clamp(26px,3.4vw,44px);position:relative}
+.cot-x{position:absolute;top:14px;right:16px;background:none;border:0;font-size:26px;line-height:1;
+  color:var(--trabajo);cursor:pointer;padding:4px;transition:color .2s}
+.cot-x:hover{color:var(--noche)}
+.cot-kick{font-family:var(--dato);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--boya);margin:0 0 10px}
+.cot-h{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.05;
+  font-size:clamp(24px,2.2vw+14px,34px);margin:0 0 6px;color:var(--noche)}
+.cot-sub{font-family:var(--texto);font-size:14px;color:var(--trabajo);margin:0 0 clamp(20px,2.2vw,28px);line-height:1.4}
+.cot-sub span{color:var(--niebla)}
+
+.cot-row{display:grid;gap:14px 18px;margin-bottom:14px}
+@media(min-width:560px){.cot-row{grid-template-columns:1fr 1fr}}
+.cot-f{display:flex;flex-direction:column;gap:6px}
+.cot-f>span{font-family:var(--dato);font-size:12px;letter-spacing:.03em;color:var(--trabajo)}
+.cot-f>span i{color:var(--boya);font-style:normal}
+.cot-f input,.cot-f textarea{font-family:var(--texto);font-size:15px;color:var(--noche);
+  border:1px solid rgba(20,33,43,.2);background:#fff;padding:11px 13px;width:100%;
+  transition:border-color .2s;border-radius:0}
+.cot-f input:focus,.cot-f textarea:focus{outline:2px solid var(--boya);outline-offset:-1px;border-color:var(--boya)}
+.cot-full{margin-bottom:16px}
+
+/* segmento de medio de contacto */
+.cot-seg{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid rgba(20,33,43,.2);width:100%}
+.cot-seg label{position:relative;cursor:pointer}
+.cot-seg input{position:absolute;opacity:0;width:0;height:0}
+.cot-seg label>span{display:block;text-align:center;font-family:var(--display);font-weight:500;font-size:13px;
+  padding:9px 8px;color:var(--trabajo);transition:background .2s,color .2s;white-space:nowrap}
+.cot-seg label:not(:last-child)>span{border-right:1px solid rgba(20,33,43,.15)}
+.cot-seg input:checked + span{background:var(--noche);color:#fff}
+.cot-seg input:focus-visible + span{outline:2px solid var(--boya);outline-offset:-2px}
+
+.cot-err{font-family:var(--texto);font-size:13px;color:#b64e30;margin:0 0 14px;
+  background:rgba(203,92,60,.08);padding:10px 13px;border-left:2px solid var(--boya)}
+.cot-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:4px}
+.cot-send{min-width:180px;justify-content:center;text-align:center}
+.cot-wa{font-family:var(--display);font-weight:500}
+.cot-legal{font-family:var(--texto);font-size:12px;color:var(--niebla);line-height:1.45;margin:16px 0 0}
+
+/* confirmación */
+.cot-ok{text-align:center;display:flex;flex-direction:column;align-items:center}
+.cot-ok-mark{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;
+  background:var(--boya);color:#fff;font-size:28px;margin-bottom:18px}
+.cot-ok-txt{font-family:var(--texto);font-size:15px;line-height:1.55;color:var(--trabajo);
+  max-width:42ch;margin:0 0 clamp(22px,2.4vw,30px)}
+.cot-ok .cot-cta{justify-content:center}
+
+body.cot-lock{overflow:hidden}

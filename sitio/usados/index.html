@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Usados · Embarcaciones con historia conocida | Oceanic</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<meta content="Embarcaciones usadas revisadas por Oceanic: horas de motor, mantenciones y estado real de cada barco. Y si quieres vender la tuya, la recibimos en consignación." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/usados.css" rel="stylesheet"/>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<!-- HERO -->
+<header class="uhero">
+<div class="uhero-media"><picture>
+<source media="(max-width:700px)" srcset="../assets/img/usados-hero-m.webp"/>
+<img alt="Embarcaciones usadas" fetchpriority="high" src="../assets/img/usados-hero.webp"/></picture></div>
+<div class="wrap-wide uhero-in">
+<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Usados</span></nav>
+<h1 class="uhero-h1">Barcos con<br/>historia conocida</h1>
+<p class="uhero-sub">Cada embarcación revisada antes de listarla: horas de motor, mantenciones, reparaciones y estado de obra viva. La ficha dice lo que encontramos, no lo que conviene.</p>
+</div>
+</header>
+<!-- REPOSITORIO -->
+<section class="repo" id="repo">
+<div class="wrap-wide">
+<div class="repo-bar">
+<div class="repo-count"><span id="count">0</span> embarcaciones</div>
+<div class="filters" id="filters">
+<div class="fgroup" data-filter="tipo">
+<button class="fbtn is-on" data-val="">Todas</button>
+<button class="fbtn" data-val="motor">Motor</button>
+<button class="fbtn" data-val="vela">Vela</button>
+<button class="fbtn" data-val="catamaran">Catamaranes</button>
+</div>
+<select aria-label="Ordenar" class="fsel" id="sortSel">
+<option value="recientes">Más recientes</option>
+<option value="precio-asc">Precio: menor a mayor</option>
+<option value="precio-desc">Precio: mayor a menor</option>
+<option value="eslora-desc">Eslora: mayor a menor</option>
+</select>
+</div>
+</div>
+<div class="ugrid" id="grid"></div>
+<p class="repo-empty" hidden="" id="empty">No hay embarcaciones con ese filtro. <button class="linkbtn" id="reset">Ver todas</button></p>
+</div>
+</section>
+<!-- VENDE LA TUYA -->
+<section class="sell" id="vender">
+<div class="wrap-wide sell-grid">
+<div class="sell-txt">
+<div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Vende tu embarcación</span></div>
+<h2>¿Vendes<br/>tu barco?</h2>
+<p class="lede">Lo recibimos en consignación. Lo revisamos, lo documentamos con honestidad y lo mostramos a la base de compradores que ya confía en Oceanic.</p>
+<p>No inflamos fichas ni escondemos horas. Un barco bien documentado se vende igual, y el comprador vuelve. Esa reputación es la que te ayuda a vender el tuyo.</p>
+<a class="btn" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20vender%20mi%20embarcaci%C3%B3n." rel="noopener" target="_blank">Cuéntanos qué tienes</a>
+</div>
+<div class="sell-steps">
+<div class="sstep"><span class="ss-n">01</span><div><h3>Nos cuentas</h3><p>Marca, modelo, año y estado general. Nos mandas fotos.</p></div></div>
+<div class="sstep"><span class="ss-n">02</span><div><h3>Revisamos juntos</h3><p>Vemos el barco, documentamos su estado real y acordamos un precio de mercado.</p></div></div>
+<div class="sstep"><span class="ss-n">03</span><div><h3>Lo publicamos</h3><p>Entra al repositorio y a nuestra red de compradores.</p></div></div>
+<div class="sstep"><span class="ss-n">04</span><div><h3>Cerramos la venta</h3><p>Acompañamos la operación, la transferencia y la entrega.</p></div></div>
+</div>
+</div>
+</section>
+<!-- CONVERSEMOS -->
+<section class="talk" id="conversemos">
+<img alt="" class="talk-bg" loading="lazy" src="../assets/img/talk.webp"/>
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Conversemos</span></div>
+<h2 class="talk-h">¿Viste algo<br/>que te interesa?</h2>
+<p class="lede talk-lede">Coordinamos una visita, resolvemos dudas y, si hace falta, buscamos lo que aún no está listado.</p>
+<div class="talk-cta">
+<a class="btn" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." rel="noopener" target="_blank">Habla con un especialista</a>
+<a class="btn btn-line" href="../puerto/index.html">Suscribirme a Puerto</a>
+</div>
+</div>
+</section>
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<div class="mob"><a class="btn" href="#vender">Vende tu embarcación</a></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/usados-data.js"></script>
+<script src="../assets/js/usados.js"></script>
+<script src="../assets/js/motion.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/asistente.js"></script>
+</body>
+</html>

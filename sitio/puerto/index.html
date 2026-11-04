@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Puerto · El newsletter de Oceanic | Archivo</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<meta content="Puerto es el newsletter de Oceanic: premios de las marcas, entregas que ya navegan, agenda náutica y técnica útil. Todas las ediciones, en un solo lugar." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/puerto.css" rel="stylesheet"/>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<!-- INTRO EDITORIAL -->
+<header class="phero">
+<div class="wrap-wide phero-in">
+<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Puerto</span></nav>
+<h1 class="phero-h1">Puerto</h1>
+<p class="phero-sub">Siempre volvemos a Puerto. Aquí el mar se vuelve relato: las entregas que ya navegan, la agenda que asoma con viento nuevo, los premios y la técnica que un barco bien equipado necesita.</p>
+</div>
+</header>
+<!-- PUERTO: ediciones (render desde puerto-data.js) -->
+<div id="puertoEd"></div>
+<!-- SUSCRIPCIÓN -->
+<section class="psub" id="suscribir">
+<div class="wrap-wide psub-in">
+<div class="psub-txt">
+<span class="eyebrow" style="color:var(--boya)">No te pierdas ninguna</span>
+<h2>Recibe Puerto<br/>en tu correo</h2>
+<p>Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta.</p>
+</div>
+<form class="psub-form" onsubmit="event.preventDefault();this.innerHTML='&lt;p class=&quot;psub-ok&quot;&gt;Listo. Nos vemos en la próxima edición de Puerto.&lt;/p&gt;';">
+<input aria-label="Correo" name="email" placeholder="tu@correo.cl" required="" type="email"/>
+<button class="btn" type="submit">Suscribirme</button>
+</form>
+</div>
+</section>
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<div class="mob"><a class="btn" href="#suscribir">Suscribirme a Puerto</a></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/motion.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/asistente.js"></script>
+<script src="../assets/js/puerto-data.js"></script>
+<script src="../assets/js/puerto.js"></script>
+</body>
+</html>

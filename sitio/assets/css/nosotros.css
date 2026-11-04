@@ -1,0 +1,65 @@
+/* Oceanic — Nosotros */
+.nhero{position:relative;overflow:hidden;background:var(--noche);color:#fff;
+  min-height:440px;height:58vh;max-height:660px;display:flex;align-items:flex-end}
+@media(min-width:2000px){.nhero{max-height:820px}}
+.nhero-media{position:absolute;inset:0;z-index:0}
+.nhero-media img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+.nhero::after{content:"";position:absolute;inset:0;z-index:1;background:
+  linear-gradient(to top,rgba(20,33,43,.93) 0%,rgba(20,33,43,.5) 40%,rgba(20,33,43,.12) 72%,rgba(20,33,43,.22) 100%)}
+.nhero-in{position:relative;z-index:2;width:100%;padding-bottom:clamp(34px,4vw,64px)}
+.nhero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--niebla);margin-bottom:clamp(14px,1.4vw,22px)}
+.nhero .crumb a{color:var(--niebla);text-decoration:none}.nhero .crumb a:hover{color:#fff}
+.nhero-h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:.98;
+  font-size:clamp(40px,5.5vw,104px);margin:0}
+.nhero-sub{font-family:var(--texto);font-weight:300;line-height:1.5;
+  font-size:clamp(17px,.6vw+13px,24px);color:rgba(255,255,255,.82);max-width:52ch;margin:clamp(14px,1.4vw,22px) 0 0}
+
+.nintro{padding:var(--rhythm) 0;background:#FFFFFF}
+.nintro-grid{display:grid;gap:clamp(28px,3vw,56px)}
+@media(min-width:960px){.nintro-grid{grid-template-columns:minmax(0,.5fr) minmax(0,1fr)}}
+.nintro-body p{max-width:62ch}
+
+.nfigs{background:var(--noche);color:#fff;padding:clamp(40px,5vw,76px) 0}
+.nfigs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(26px,3vw,48px)}
+@media(min-width:800px){.nfigs-grid{grid-template-columns:repeat(4,1fr)}}
+.nfig b{display:block;font-family:var(--display);font-weight:600;letter-spacing:-.03em;
+  font-size:clamp(34px,3.6vw,68px);line-height:1}
+.nfig span{display:block;margin-top:8px;font-family:var(--dato);font-size:clamp(10px,.2vw+9px,12px);
+  letter-spacing:.14em;text-transform:uppercase;color:var(--niebla)}
+
+.nwork{padding:var(--rhythm) 0;background:#FFFFFF}
+.nwork-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;
+  font-size:clamp(32px,3.8vw,72px);line-height:1.02;margin:12px 0 .3em}
+.nwork-lede{max-width:54ch;margin-bottom:clamp(40px,5vw,72px)}
+.nwork-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2vw,1px)}
+@media(min-width:760px){.nwork-grid{grid-template-columns:repeat(2,1fr);gap:1px;
+  background:var(--linea);border:1px solid var(--linea)}}
+.nw{background:#fff;padding:clamp(26px,2.8vw,46px)}
+.nw-n{font-family:var(--dato);font-size:12px;letter-spacing:.12em;color:var(--boya);display:block;margin-bottom:14px}
+.nw h3{font-family:var(--display);font-weight:600;letter-spacing:-.01em;
+  font-size:clamp(20px,.9vw+15px,28px);margin:0 0 .4em}
+.nw p{font-family:var(--texto);font-weight:300;line-height:1.5;
+  font-size:clamp(15px,.3vw+13px,17px);color:var(--trabajo);margin:0;max-width:46ch}
+
+.ncta{background:var(--noche);color:#fff;padding:clamp(60px,7vw,120px) 0;text-align:center}
+.ncta-in h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;
+  font-size:clamp(32px,3.6vw,64px);margin:0 0 .3em}
+.ncta-in p{color:rgba(255,255,255,.78);font-weight:300;font-size:clamp(17px,.5vw+14px,22px);
+  max-width:46ch;margin:0 auto 1.6em}
+.ncta-btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.ncta .btn-line{background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff}
+.ncta .btn-line:hover{background:rgba(255,255,255,.1);border-color:#fff}
+
+/* box explicativo que se revela al pasar el mouse */
+.nw{position:relative;overflow:hidden;transition:background .35s cubic-bezier(.16,.84,.34,1)}
+.nw-more{max-height:0;opacity:0;overflow:hidden;
+  transition:max-height .5s cubic-bezier(.16,.84,.34,1),opacity .4s ease,margin-top .5s}
+.nw-more p{font-family:var(--texto);font-weight:300;line-height:1.55;
+  font-size:clamp(13px,.25vw+12px,15px);color:var(--trabajo);margin:0;
+  padding-top:16px;border-top:1px solid var(--linea)}
+.nw:hover{background:var(--gris,#E3E1DC)}
+.nw:hover .nw-more{max-height:320px;opacity:1;margin-top:16px}
+/* en táctil (sin hover) se muestra siempre para no ocultar contenido */
+@media(hover:none){.nw-more{max-height:none;opacity:1;margin-top:16px}
+  .nw-more p{padding-top:16px}}

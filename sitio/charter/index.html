@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Charter · Navega el mundo con Oceanic</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<meta content="Alquiler de embarcaciones con o sin tripulación en el Mediterráneo, el Caribe, el Pacífico Sur y más. Cuéntanos destino, fechas y grupo, y armamos tu travesía." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/charter.css" rel="stylesheet"/>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<!-- HERO -->
+<header class="chero-l">
+<div class="chero-l-media"><picture>
+<source media="(max-width:700px)" srcset="../assets/img/charter-hero-m.webp"/>
+<img alt="Velero navegando al atardecer" fetchpriority="high" src="../assets/img/charter-hero.webp"/></picture></div>
+<div class="wrap-wide chero-l-in">
+<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Charter</span></nav>
+<h1 class="chero-l-h1">El mundo se<br/>navega mejor</h1>
+<p class="chero-l-sub">Alquila una embarcación con o sin tripulación en los mejores destinos del planeta. Tú eliges dónde y cuándo; nosotros armamos la travesía completa.</p>
+<a class="btn chero-l-cta" href="#cotizar">Cotizar mi travesía</a>
+</div>
+</header>
+<!-- COTIZADOR -->
+<section class="cotz" id="cotizar">
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Arma tu travesía</span><span class="rule"></span></div>
+<h2 class="cotz-h2">Cuéntanos qué imaginas</h2>
+<p class="lede cotz-lede">Responde unas pocas preguntas y te preparamos una propuesta a medida. Sin costo, sin compromiso.</p>
+<div class="cotz-box" id="cotzBox">
+<!-- progreso -->
+<div aria-hidden="true" class="cotz-prog" id="cotzProg"></div>
+<!-- pasos (los llena el JS) -->
+<div class="cotz-steps" id="cotzSteps"></div>
+</div>
+</div>
+</section>
+<!-- CÓMO FUNCIONA -->
+<section class="chow">
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow">Cómo funciona</span></div>
+<h2 class="chow-h2">De la idea<br/>al zarpe</h2>
+<div class="chow-grid">
+<div class="chs"><span class="chs-n">01</span><h3>Nos cuentas</h3><p>Destino, fechas, cuántos son y cómo les gusta navegar. El cotizador de arriba es el punto de partida.</p></div>
+<div class="chs"><span class="chs-n">02</span><h3>Armamos la propuesta</h3><p>Seleccionamos la embarcación, la tripulación si la quieres y la ruta. Con precio claro y sin sorpresas.</p></div>
+<div class="chs"><span class="chs-n">03</span><h3>Ajustamos contigo</h3><p>Cambiamos lo que haga falta hasta que la travesía sea exactamente lo que buscas.</p></div>
+<div class="chs"><span class="chs-n">04</span><h3>Zarpas</h3><p>Coordinamos la entrega, el briefing y el aprovisionamiento. Tú solo llegas y navegas.</p></div>
+</div>
+</div>
+</section>
+<!-- DESTINOS -->
+<section class="cdest">
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow">Dónde navegar</span><span class="rule"></span></div>
+<h2 class="cdest-h2">Destinos</h2>
+<div class="cdest-grid" id="cdestGrid"></div>
+</div>
+</section>
+<!-- CIERRE -->
+<section class="talk" id="conversemos">
+<img alt="" class="talk-bg" loading="lazy" src="../assets/img/talk.webp"/>
+<div class="wrap-wide">
+<div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Conversemos</span></div>
+<h2 class="talk-h">¿Prefieres<br/>hablarlo directo?</h2>
+<p class="lede talk-lede">Cuéntanos por WhatsApp qué tienes en mente y te armamos la propuesta.</p>
+<div class="talk-cta">
+<a class="btn" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20cotizar%20un%20charter." rel="noopener" target="_blank">Cotizar por WhatsApp</a>
+<a class="btn btn-line" href="#cotizar">Usar el cotizador</a>
+</div>
+</div>
+</section>
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<div class="mob"><a class="btn" href="#cotizar">Cotizar mi travesía</a></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/charter-data.js"></script>
+<script src="../assets/js/charter.js"></script>
+<script src="../assets/js/motion.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/asistente.js"></script>
+</body>
+</html>

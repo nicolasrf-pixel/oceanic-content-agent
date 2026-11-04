@@ -1,0 +1,165 @@
+/* Oceanic — Charter landing */
+
+/* HERO */
+.chero-l{position:relative;overflow:hidden;background:var(--noche);color:#fff;
+  min-height:520px;height:72vh;max-height:820px;display:flex;align-items:flex-end}
+@media(min-width:2000px){.chero-l{max-height:940px}}
+.chero-l-media{position:absolute;inset:0;z-index:0}
+.chero-l-media img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.chero-l::after{content:"";position:absolute;inset:0;z-index:1;background:
+  linear-gradient(to top,rgba(20,33,43,.92) 0%,rgba(20,33,43,.45) 42%,rgba(20,33,43,.1) 72%,rgba(20,33,43,.25) 100%)}
+.chero-l-in{position:relative;z-index:2;width:100%;padding-bottom:clamp(40px,5vw,80px)}
+.chero-l .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--niebla);margin-bottom:clamp(16px,1.6vw,26px)}
+.chero-l .crumb a{color:var(--niebla);text-decoration:none}.chero-l .crumb a:hover{color:#fff}
+.chero-l-h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:.96;
+  font-size:clamp(44px,6vw,120px);margin:0}
+.chero-l-sub{font-family:var(--texto);font-weight:300;line-height:1.55;
+  font-size:clamp(17px,.6vw+13px,25px);color:rgba(255,255,255,.85);max-width:56ch;margin:clamp(16px,1.8vw,28px) 0 0}
+.chero-l-cta{margin-top:clamp(24px,2.6vw,38px)}
+
+/* COTIZADOR */
+.cotz{padding:var(--rhythm) 0;background:var(--gris,#E3E1DC)}
+.cotz-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;
+  font-size:clamp(30px,3.4vw,60px);line-height:1;margin:0 0 .3em}
+.cotz-lede{max-width:52ch;margin:0 0 clamp(30px,3.4vw,50px)}
+.cotz-box{background:#fff;padding:clamp(24px,3vw,52px);box-shadow:0 30px 80px -30px rgba(20,33,43,.28)}
+
+.cotz-prog{display:flex;gap:8px;margin-bottom:clamp(28px,3vw,44px)}
+.cotz-dot{flex:1;height:3px;background:var(--linea);transition:background .4s}
+.cotz-dot.on{background:var(--boya)}
+
+.cotz-steps.fade{animation:cfade .4s cubic-bezier(.16,.84,.34,1)}
+@keyframes cfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.cotz-hd{margin-bottom:clamp(22px,2.4vw,34px)}
+.cotz-hd h3{font-family:var(--display);font-weight:600;letter-spacing:-.02em;
+  font-size:clamp(24px,2vw+14px,38px);line-height:1.05;margin:0 0 .3em}
+.cotz-hd p{font-family:var(--texto);font-weight:300;font-size:clamp(15px,.4vw+13px,19px);
+  color:var(--trabajo);margin:0;max-width:52ch}
+
+/* cards con imagen (continentes) */
+.cotz-cards{display:grid;grid-template-columns:1fr;gap:clamp(12px,1.4vw,20px)}
+@media(min-width:640px){.cotz-cards{grid-template-columns:repeat(2,1fr)}}
+.cotz-cards-sm{gap:12px}
+@media(min-width:640px){.cotz-cards-sm{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.cotz-cards-sm{grid-template-columns:repeat(4,1fr)}}
+.cotz-card{position:relative;text-align:left;border:0;cursor:pointer;overflow:hidden;
+  min-height:150px;padding:0;background:var(--trabajo);color:#fff;
+  background-size:cover;background-position:center;transition:transform .5s cubic-bezier(.16,.84,.34,1)}
+.cotz-card:hover{transform:translateY(-4px)}
+.cotz-card-in{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:clamp(16px,1.8vw,24px)}
+.cotz-card-t{font-family:var(--display);font-weight:600;font-size:clamp(18px,.7vw+14px,24px);letter-spacing:-.01em}
+.cotz-card-d{font-family:var(--texto);font-weight:300;font-size:clamp(13px,.25vw+11px,15px);
+  color:rgba(255,255,255,.85);margin-top:5px;line-height:1.4}
+
+/* cards simples (embarcación/tripulación) */
+.cotz-card-simple{position:static;min-height:0;background:#fff;color:var(--noche);
+  border:1px solid var(--linea);padding:clamp(18px,1.8vw,26px);display:flex;flex-direction:column;gap:7px}
+.cotz-card-simple:hover{border-color:var(--boya)}
+.cotz-card-simple.on{border-color:var(--boya);background:rgba(203,92,60,.06)}
+.cotz-card-simple .cotz-card-d{color:var(--trabajo)}
+
+/* pills (destinos) */
+.cotz-pills{display:flex;flex-wrap:wrap;gap:10px}
+.cotz-pill{font-family:var(--display);font-weight:500;font-size:clamp(14px,.3vw+12px,16px);
+  color:var(--noche);background:#fff;border:1px solid var(--linea-med,rgba(20,33,43,.2));
+  padding:11px 18px;cursor:pointer;transition:all .25s}
+.cotz-pill:hover{border-color:var(--noche)}
+.cotz-pill.on{background:var(--noche);border-color:var(--noche);color:#fff}
+
+/* fechas */
+.cotz-dates{display:grid;gap:16px}
+@media(min-width:560px){.cotz-dates{grid-template-columns:1fr 1fr;max-width:520px}}
+.cotz-dates label{display:flex;flex-direction:column;font-family:var(--dato);font-size:11px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--trabajo);gap:8px}
+.cotz-dates input{font-family:var(--texto);font-size:16px;color:var(--noche);
+  border:0;border-bottom:1px solid rgba(20,33,43,.25);padding:10px 0;background:#fff}
+.cotz-dates input:focus{outline:0;border-color:var(--boya)}
+
+/* contador */
+.cotz-count{display:flex;align-items:center;gap:clamp(20px,3vw,40px)}
+.cotz-cbtn{width:52px;height:52px;border:1px solid var(--linea-med,rgba(20,33,43,.2));
+  background:#fff;font-size:26px;color:var(--noche);cursor:pointer;transition:all .25s;line-height:1}
+.cotz-cbtn:hover{border-color:var(--boya);color:var(--boya)}
+.cotz-cnum{font-family:var(--display);font-weight:700;font-size:clamp(36px,4vw,56px);
+  min-width:60px;text-align:center;color:var(--noche)}
+
+.cotz-hint{font-family:var(--texto);font-size:14px;color:var(--niebla);margin:clamp(16px,1.6vw,22px) 0 0}
+.cotz-hint a{color:var(--boya)}
+
+/* navegación de pasos */
+.cotz-nav{display:flex;align-items:center;gap:18px;margin-top:clamp(26px,3vw,40px);flex-wrap:wrap}
+.cotz-back{background:none;border:0;font-family:var(--display);font-weight:500;font-size:15px;
+  color:var(--trabajo);cursor:pointer;padding:8px 0;transition:color .2s}
+.cotz-back:hover{color:var(--boya)}
+.cotz-next[disabled]{opacity:.4;cursor:not-allowed}
+
+/* resumen */
+.cotz-res-hd{margin-bottom:clamp(24px,2.6vw,34px)}
+.cotz-check{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;
+  border-radius:50%;background:var(--boya);color:#fff;font-size:22px;margin-bottom:16px}
+.cotz-res-hd h3{font-family:var(--display);font-weight:600;font-size:clamp(24px,2vw+14px,36px);margin:0 0 .3em}
+.cotz-res-hd p{font-family:var(--texto);font-weight:300;color:var(--trabajo);margin:0;max-width:50ch}
+.cotz-res-list{margin:0 0 clamp(28px,3vw,40px);border-top:1px solid var(--linea)}
+.cotz-res-list>div{display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--linea)}
+.cotz-res-list dt{font-family:var(--dato);font-size:12px;letter-spacing:.06em;color:var(--trabajo);margin:0}
+.cotz-res-list dd{font-family:var(--display);font-weight:500;font-size:clamp(15px,.4vw+13px,17px);color:var(--noche);margin:0;text-align:right}
+.cotz-res-row{display:grid;gap:16px;margin-bottom:clamp(20px,2vw,28px)}
+@media(min-width:560px){.cotz-res-row{grid-template-columns:1fr 1fr}}
+.cotz-res-row label{display:flex;flex-direction:column;font-family:var(--dato);font-size:11px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--trabajo);gap:8px}
+.cotz-res-row input{font-family:var(--texto);font-size:16px;color:var(--noche);
+  border:0;border-bottom:1px solid rgba(20,33,43,.25);padding:10px 0}
+.cotz-res-row input:focus{outline:0;border-color:var(--boya)}
+.cotz-res-cta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+
+/* CÓMO FUNCIONA */
+.chow{padding:var(--rhythm) 0;background:#fff}
+.chow-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;
+  font-size:clamp(30px,3.4vw,64px);line-height:1.02;margin:12px 0 clamp(36px,4vw,60px)}
+.chow-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--linea);border:1px solid var(--linea)}
+@media(min-width:640px){.chow-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.chow-grid{grid-template-columns:repeat(4,1fr)}}
+.chs{background:#fff;padding:clamp(24px,2.6vw,40px)}
+.chs-n{font-family:var(--dato);font-size:12px;letter-spacing:.12em;color:var(--boya);display:block;margin-bottom:14px}
+.chs h3{font-family:var(--display);font-weight:600;font-size:clamp(19px,.7vw+15px,25px);margin:0 0 .4em}
+.chs p{font-family:var(--texto);font-weight:300;line-height:1.5;font-size:clamp(14px,.3vw+12px,16px);color:var(--trabajo);margin:0}
+
+/* DESTINOS */
+.cdest{padding:var(--rhythm) 0;background:var(--noche);color:#fff}
+.cdest .eyebrow{color:var(--niebla)}
+.cdest-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;color:#fff;
+  font-size:clamp(30px,3.4vw,64px);line-height:1;margin:0 0 clamp(34px,4vw,56px)}
+.cdest-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.4vw,36px)}
+@media(min-width:640px){.cdest-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.cdest-grid{grid-template-columns:repeat(4,1fr)}}
+.cd{background:var(--trabajo)}
+.cd-img{overflow:hidden;aspect-ratio:4/3;background:#1a2b38}
+.cd-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.3s cubic-bezier(.16,.84,.34,1)}
+.cd:hover .cd-img img{transform:scale(1.05)}
+.cd-body{padding:clamp(18px,1.8vw,26px)}
+.cd-body h3{font-family:var(--display);font-weight:600;font-size:clamp(19px,.7vw+15px,24px);margin:0 0 .35em;color:#fff}
+.cd-body p{font-family:var(--texto);font-weight:300;line-height:1.5;font-size:14px;color:rgba(255,255,255,.75);margin:0 0 .8em}
+.cd-list{font-family:var(--dato);font-size:11px;letter-spacing:.06em;color:var(--niebla);line-height:1.5}
+
+/* cierre reusa .talk */
+.talk-h{color:#fff;font-size:clamp(34px,4.2vw,84px);line-height:1.01;max-width:14ch}
+.talk-lede{color:rgba(255,255,255,.8);max-width:50ch;font-weight:300;margin-top:20px}
+.talk-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:clamp(26px,3vw,44px)}
+
+/* CTA de correo + WhatsApp secundario en el resumen */
+.cotz-res-cta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.cotz-wa-alt{font-family:var(--display);font-weight:500;font-size:15px;color:var(--boya);
+  text-decoration:none;border-bottom:1px solid rgba(203,92,60,.35);padding-bottom:2px;transition:border-color .3s}
+.cotz-wa-alt:hover{border-color:var(--boya)}
+
+/* configurador — cards de modelo con imagen (reusa .cotz-card) */
+.cfg-card-img{min-height:190px;background-size:cover;background-position:center}
+
+/* precio desde en configurador */
+.cfg-precio{display:block;margin-top:12px;font-family:var(--dato);font-size:15px;
+  letter-spacing:.02em;color:#fff}
+.cfg-precio i{font-style:normal;opacity:.7;margin-left:1px;color:var(--boya)}
+.cfg-nota{margin-top:clamp(20px,2vw,30px);font-family:var(--texto);font-size:13px;
+  line-height:1.5;color:var(--niebla);max-width:64ch;font-style:italic}

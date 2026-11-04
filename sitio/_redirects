@@ -1,0 +1,6 @@
+# Cloudflare Pages — redirects
+# Clean URLs: /catalogo → /catalogo/ (Pages lo maneja solo con index.html)
+# Rutas legacy por si acaso
+/home                /                      301
+/marcas              /marcas/vela/          301
+/catalogo/modelo     /catalogo/             301

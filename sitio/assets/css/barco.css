@@ -1,0 +1,75 @@
+/* Oceanic — Ficha de barco usado */
+.b-top{padding:clamp(28px,3vw,48px) 0 clamp(20px,2vw,30px)}
+.b-head{display:flex;flex-wrap:wrap;gap:24px 40px;align-items:flex-end;justify-content:space-between;
+  padding-top:clamp(12px,1.4vw,20px)}
+.b-h1{font-family:var(--display);font-weight:700;letter-spacing:-.025em;line-height:1;
+  font-size:clamp(34px,4vw,72px);margin:0}
+.b-sub{font-family:var(--dato);font-size:clamp(13px,.3vw + 11px,15px);letter-spacing:.04em;
+  color:var(--trabajo);margin:clamp(12px,1.2vw,18px) 0 0}
+.b-price{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.b-tag{font-family:var(--dato);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;padding:5px 11px;color:#fff}
+.b-res{background:var(--boya)}.b-vend{background:var(--trabajo)}
+.b-price-n{font-family:var(--display);font-weight:700;font-size:clamp(26px,2vw,40px);color:var(--noche);letter-spacing:-.02em}
+
+/* galería */
+.b-gal{display:grid;gap:clamp(10px,1.2vw,18px);margin:clamp(20px,2vw,32px) 0}
+@media(min-width:900px){.b-gal{grid-template-columns:1.6fr 1fr}}
+.b-gal-main{overflow:hidden;aspect-ratio:16/10;background:var(--trabajo)}
+.b-gal-main img{width:100%;height:100%;object-fit:cover}
+.b-gal-side{display:grid;gap:clamp(10px,1.2vw,18px)}
+.b-gal-side img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/11;background:var(--trabajo)}
+@media(max-width:899px){.b-gal-side{grid-template-columns:1fr 1fr}}
+
+/* cuerpo */
+.b-body{display:grid;gap:clamp(40px,5vw,80px);padding:clamp(40px,5vw,80px) 0 var(--rhythm)}
+@media(min-width:1000px){.b-body{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:start}}
+.b-h2{font-family:var(--display);font-weight:600;letter-spacing:-.015em;
+  font-size:clamp(22px,1.4vw + 16px,32px);margin:0 0 clamp(16px,1.6vw,24px)}
+.b-hist p{max-width:62ch}
+.b-hist-note{font-family:var(--texto);font-style:italic;color:var(--boya);
+  font-size:clamp(15px,.4vw + 13px,18px);margin:0 0 clamp(18px,1.8vw,26px)}
+.b-inc{margin-top:clamp(40px,4vw,64px)}
+.b-inc-list{list-style:none;margin:0;padding:0;columns:2;column-gap:40px}
+@media(max-width:600px){.b-inc-list{columns:1}}
+.b-inc-list li{font-family:var(--texto);font-size:clamp(15px,.3vw + 13px,17px);
+  line-height:1.4;color:var(--noche);padding:10px 0 10px 20px;position:relative;break-inside:avoid;
+  border-bottom:1px solid var(--linea)}
+.b-inc-list li::before{content:"·";position:absolute;left:4px;color:var(--boya);font-weight:700}
+
+.b-aside{position:sticky;top:100px}
+.b-spec{background:var(--gris,#E3E1DC);padding:clamp(24px,2.4vw,40px)}
+.b-spec-grid{margin:0}
+.b-spec-grid>div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;
+  border-bottom:1px solid rgba(20,33,43,.1)}
+.b-spec-grid>div:last-child{border-bottom:0}
+.b-spec-grid dt{font-family:var(--dato);font-size:12px;letter-spacing:.04em;color:var(--trabajo);margin:0}
+.b-spec-grid dd{font-family:var(--display);font-weight:500;font-size:14px;color:var(--noche);margin:0;text-align:right}
+
+/* galería: placeholder sin foto */
+.b-gal-ph{display:none;align-items:center;justify-content:center;
+  aspect-ratio:16/10;background:linear-gradient(135deg,var(--trabajo),var(--noche));padding:24px}
+.b-gal-ph span{font-family:var(--display);font-weight:600;font-size:clamp(22px,2.4vw,34px);
+  color:rgba(255,255,255,.9);text-align:center;letter-spacing:-.01em}
+.b-gal.is-noimg{grid-template-columns:1fr}
+.b-gal.is-noimg .b-gal-main,.b-gal.is-noimg .b-gal-side{display:none}
+.b-gal.is-noimg .b-gal-ph{display:flex}
+
+/* documentos */
+.b-docs{margin-top:clamp(40px,4vw,64px)}
+.b-docs-list{list-style:none;margin:0;padding:0}
+.b-docs-list li{padding:12px 0;border-bottom:1px solid var(--linea)}
+.b-docs-list a{font-family:var(--display);font-weight:500;color:var(--boya);text-decoration:none;
+  font-size:clamp(15px,.3vw + 13px,17px)}
+.b-docs-list a:hover{text-decoration:underline}
+
+/* tarjeta CTA en aside */
+.b-cta-card{margin-top:clamp(20px,2vw,28px);background:var(--noche);color:#fff;
+  padding:clamp(24px,2.4vw,34px);display:flex;flex-direction:column;gap:12px}
+.b-cta-h{font-family:var(--display);font-weight:600;font-size:clamp(17px,.6vw + 14px,21px);
+  margin-bottom:6px}
+.b-cta-card .btn{width:100%;text-align:center;justify-content:center}
+.b-cta-wa{background:var(--boya);border-color:var(--boya)}
+.b-cta-card .btn-line{color:#fff;border-color:rgba(255,255,255,.4)}
+.b-cta-card .btn-line:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+
+@media(max-width:999px){.b-aside{position:static}}

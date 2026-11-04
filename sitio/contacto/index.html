@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Conversemos · Contacto | Oceanic</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<meta content="Habla con un especialista de Oceanic. Cuéntanos cómo navegas y te ayudamos a encontrar la embarcación que corresponde." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/contacto.css" rel="stylesheet"/>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<!-- HERO CORTO -->
+<header class="chero">
+<div class="wrap-wide chero-in">
+<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Conversemos</span></nav>
+<h1 class="chero-h1">Cuéntanos<br/>cómo navegas</h1>
+<p class="chero-sub">Te respondemos con información concreta: qué marca corresponde, plazos reales y precio según lo que necesitas. Sin secuencias automáticas ni presión de venta.</p>
+</div>
+</header>
+<!-- FORMULARIO + DATOS -->
+<section class="cmain" id="form">
+<div class="wrap-wide cgrid">
+<!-- FORM -->
+<div class="cform-wrap">
+<form class="cform" onsubmit="event.preventDefault();
+        var n=this.nombre.value.trim(), e=this.email.value.trim();
+        if(!n||!e){alert('Déjanos tu nombre y correo.');return;}
+        var t=this.telefono.value.trim(), mo=this.motivo.value, m=this.mensaje.value.trim();
+        var cuerpo='Hola Oceanic,\n\nDatos de contacto:\n• Nombre: '+n+'\n• Correo: '+e+(t?'\n• Teléfono: '+t:'')+(mo?'\n• Motivo: '+mo:'')+(m?'\n\nMensaje:\n'+m:'');
+        window.location.href='mailto:ventas@oceanic.cl?subject='+encodeURIComponent('Contacto web, '+n+(mo?' ('+mo+')':''))+'&amp;body='+encodeURIComponent(cuerpo);
+        this.style.display='none';document.getElementById('cok').hidden=false;document.getElementById('cok').scrollIntoView({behavior:'smooth',block:'center'});">
+<div class="crow">
+<div class="cfield"><label for="nombre">Nombre</label><input id="nombre" name="nombre" required=""/></div>
+<div class="cfield"><label for="email">Correo</label><input id="email" name="email" required="" type="email"/></div>
+</div>
+<div class="crow">
+<div class="cfield"><label for="tel">Teléfono <span class="opt">(opcional)</span></label><input id="tel" name="telefono" type="tel"/></div>
+<div class="cfield">
+<label for="motivo">Motivo</label>
+<select id="motivo" name="motivo">
+<option value="">Elige uno</option>
+<option>Quiero comprar una embarcación nueva</option>
+<option>Me interesa un barco usado</option>
+<option>Quiero vender mi embarcación</option>
+<option>Equipamiento y repuestos</option>
+<option>Postventa o servicio técnico</option>
+<option>Prensa o alianzas</option>
+<option>Otro</option>
+</select>
+</div>
+</div>
+<div class="cfield">
+<label for="mensaje">Tu mensaje</label>
+<textarea id="mensaje" name="mensaje" placeholder="Cuéntanos dónde navegas, con quién, qué barco tienes hoy si tienes uno, y qué te gustaría hacer que hoy no puedes. Mientras más nos cuentes, mejor te orientamos." rows="5"></textarea>
+</div>
+<label class="ccheck">
+<input checked="" name="puerto" type="checkbox"/>
+<span>Quiero recibir <b>Puerto</b>, el newsletter de Oceanic, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span>
+</label>
+<div class="cfoot">
+<button class="btn" type="submit">Enviar</button>
+<span class="cnote">Te respondemos dentro de un día hábil.</span>
+</div>
+</form>
+<div class="cok" hidden="" id="cok">
+<span class="cok-mark">✓</span>
+<h3>Gracias. Recibimos tu mensaje.</h3>
+<p>Te escribimos dentro de un día hábil con información concreta. Mientras tanto, puedes explorar las marcas o revisar los usados disponibles.</p>
+<div class="cok-links"><a href="../marcas/axopar/index.html">Ver marcas →</a><a href="../usados/index.html">Ver usados →</a></div>
+</div>
+</div>
+<!-- ASIDE DATOS -->
+<aside class="cside">
+<div class="cblock">
+<span class="eyebrow">Oficina</span>
+<p class="cbig">Alonso de Córdova 2653<br/>of. 302, Vitacura</p>
+<p class="csmall">Santiago · Chile</p>
+</div>
+<div class="cblock">
+<span class="eyebrow">Directo</span>
+<p><a class="clink" href="tel:+560229537321">+56 2 2953 7321</a></p>
+<p><a class="clink" href="mailto:contacto@oceanic.cl">contacto@oceanic.cl</a></p>
+</div>
+<div class="cblock">
+<span class="eyebrow">Horario</span>
+<p class="csmall">Lunes a viernes<br/>9:00 – 18:00</p>
+</div>
+<div class="cblock">
+<span class="eyebrow">Síguenos</span>
+<p><a class="clink" href="https://instagram.com" rel="noopener" target="_blank">Instagram</a> · <a class="clink" href="https://youtube.com" rel="noopener" target="_blank">YouTube</a> · <a class="clink" href="https://linkedin.com" rel="noopener" target="_blank">LinkedIn</a></p>
+</div>
+</aside>
+</div>
+</section>
+<!-- NEWSLETTER -->
+<section class="cnews">
+<div class="wrap-wide cnews-in">
+<div class="cnews-txt">
+<span class="eyebrow" style="color:var(--boya)">Puerto</span>
+<h2>Suscríbete al<br/>newsletter</h2>
+<p>Cada edición: premios de las marcas, entregas que ya navegan, la agenda náutica del mes y técnica útil. Cuando hay algo que contar.</p>
+</div>
+<form class="cnews-form" onsubmit="event.preventDefault();this.innerHTML='&lt;p class=&quot;cnews-ok&quot;&gt;Listo. Te sumamos a Puerto, nos vemos en la próxima edición.&lt;/p&gt;';">
+<input aria-label="Correo" name="email" placeholder="tu@correo.cl" required="" type="email"/>
+<button class="btn" type="submit">Suscribirme</button>
+</form>
+</div>
+</section>
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<div class="mob"><a class="btn" href="#form">Escríbenos</a></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/motion.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/asistente.js"></script>
+</body>
+</html>
