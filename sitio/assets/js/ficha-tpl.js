@@ -7,13 +7,11 @@
 (function () {
   'use strict';
 
-  // Configurador oficial de Axopar: enlace directo al modelo solo donde axopar.com lo abre (probado 2026-11-04);
-  // los demás modelos van al configurador general, donde se elige el modelo.
-  var CONFIGURADOR_AXOPAR = {
-    'axopar-38-cross-top': 'https://www.axopar.com/configurator/model/?model=6A39llMhRZcMApa2LGwiWx',
-    'axopar-38-sun-top': 'https://www.axopar.com/configurator/model/?model=ksJqHS0qvu33DynXsjemJ',
-    'axopar-38-xc-cross-cabin': 'https://www.axopar.com/configurator/model/?model=6fLSfJOLjBTBl7qosNYlSM'
-  };
+  // Configurador oficial de Axopar incrustado en la ficha: SOLO Axopar y SOLO si la versión no muestra precios
+  // (regla Oceanic: los barcos nuevos no publican precio). El configurador público de axopar.com muestra el precio
+  // en euros y hoy solo existe para la gama 38, así que la lista está vacía hasta que Axopar entregue una versión
+  // sin precios (p. ej. de distribuidor). Formato: 'slug': 'https://…'.
+  var CONFIGURADOR_AXOPAR = {};
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function parr(arr, cls) { return (arr || []).map(function (p) { return '<p' + (cls ? ' class="' + cls + '"' : '') + '>' + esc(p) + '</p>'; }).join(''); }
@@ -161,23 +159,29 @@
       }).join('');
     }
     // Solo equipamiento de serie: los opcionales no se publican, se conversan con un especialista (decisión 2026-11-04).
-    // Axopar trae su configurador oficial: solo en esa marca se ofrece (enlace directo donde axopar.com lo permite).
+    // Axopar trae su configurador oficial: solo en esa marca, incrustado en la ficha (el visitante no sale del sitio).
     var serie = grupos(eq.serie);
-    var conf = marca === 'axopar' ? (CONFIGURADOR_AXOPAR[mslug] || 'https://www.axopar.com/configurator/') : null;
+    var conf = marca === 'axopar' ? (CONFIGURADOR_AXOPAR[mslug] || null) : null;
     if (serie || conf) {
       cuerpo.push(seccion('equipamiento', cabeza(serie ? 'Equipamiento' : 'Configuración') + '<div class="two">' +
         (serie ? '<div><h3 class="eq-h">De serie</h3>' + serie + '</div>' : '') +
         '<div><h3 class="eq-h">Opcionales y configuración</h3>' +
         (conf
-          ? '<p class="lede" style="margin-top:0">Arma tu ' + esc(mo.nombre) + ' en el configurador oficial de Axopar y luego ' +
-            'revisamos contigo la configuración, con precio y plazos.</p>' +
-            '<p style="margin-top:22px;display:flex;flex-wrap:wrap;gap:12px"><a class="btn" href="' + conf + '" target="_blank" rel="noopener">Abrir el configurador Axopar</a>' +
+          ? '<p class="lede" style="margin-top:0">Arma tu ' + esc(mo.nombre) + ' en el configurador oficial de Axopar, aquí mismo, y luego ' +
+            'revisamos contigo la configuración, con precio y plazos para Chile.</p>' +
+            '<p style="margin-top:22px;display:flex;flex-wrap:wrap;gap:12px"><button type="button" class="btn" data-configurador>Configura tu Axopar</button>' +
             '<a class="btn btn-line btn-line-dark" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p>'
           : '<p class="lede" style="margin-top:0">Cada ' + esc(mo.nombre) + ' se arma a la medida de cómo navegas: motorización, ' +
             'equipamiento opcional y terminaciones. Lo revisamos contigo, con precio y plazos.</p>' +
             '<p style="margin-top:22px"><a class="btn" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p>') +
         '</div></div>' + (serie ? '<p class="spec-fuente">Equipamiento de serie según la ficha oficial de ' + esc(info.nombre) + '.</p>' : '')));
       nav.push(['equipamiento', serie ? 'Equipamiento' : 'Configuración']);
+    }
+    // Configurador Axopar incrustado: se carga solo cuando el visitante lo abre (pesa y usa cookies de Axopar)
+    if (conf) {
+      cuerpo.push('<section id="configurador" class="conf" hidden><div class="conf-marco" data-src="' + conf + '"></div>' +
+        '<div class="wrap conf-pie"><p>¿Lista tu configuración? Cuéntanos qué elegiste y te enviamos precio y plazos para Chile.</p>' +
+        '<a class="btn" href="#cotizar" data-ir-form>Cotizar mi configuración</a></div></section>');
     }
 
     // 8 · Ficha técnica (datos verificados de la biblioteca)
@@ -246,6 +250,19 @@
         if (!cont.querySelector('.hero-img')) { var n = cont.querySelector('.hero-photo-note'); if (n) n.remove(); }
       }
       if (im.complete && im.naturalWidth === 0) fuera(); else im.addEventListener('error', fuera);
+    });
+    // botón "Configura tu Axopar": muestra y carga el configurador dentro de la ficha
+    var bConf = cont.querySelector('[data-configurador]');
+    if (bConf) bConf.addEventListener('click', function () {
+      var sec = document.getElementById('configurador'), marco = sec.querySelector('.conf-marco');
+      if (!marco.firstChild) {
+        var f = document.createElement('iframe');
+        f.src = marco.getAttribute('data-src'); f.title = 'Configurador oficial Axopar · ' + mo.nombre;
+        f.setAttribute('allow', 'fullscreen'); f.setAttribute('loading', 'eager');
+        marco.appendChild(f);
+      }
+      sec.hidden = false; bConf.textContent = 'Ver el configurador';
+      sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     // botones "Cotizar" bajan al formulario
     [].forEach.call(cont.querySelectorAll('[data-ir-form]'), function (a) {

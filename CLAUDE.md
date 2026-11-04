@@ -191,7 +191,8 @@ cada marca (historia, ADN, valores) para las páginas de marca de la nueva web: 
 **Fichas del sitio (decisión Oceanic 2026-11-04):** cada modelo se publica en `sitio/` con el diseño único de la
 maqueta del Axopar 37 XC, lleno con la página oficial traducida fiel al español neutro en
 `01_CONTENIDO/pagina-es.json` (BORRADOR hasta revisión). Bloques de la maqueta sin dato oficial no se muestran. Los opcionales (equipamiento opcional, opciones destacadas,
-ediciones y paquetes) no se publican: se conversan en persona.
+ediciones y paquetes) no se publican: se conversan en persona. **Ningún barco nuevo publica
+precio** (solo los usados).
 Publicar con `python3 tools/sitio_fichas.py`. Detalle en `docs/FICHAS.md`.
 
 `check` debe terminar sin errores antes de hacer commit.

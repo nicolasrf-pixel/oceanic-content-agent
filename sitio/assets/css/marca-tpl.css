@@ -145,3 +145,10 @@
 @media(max-width:700px){.hero .hero-scroll{display:none}}
 .btn-line.btn-line-dark{color:var(--noche);border-color:rgba(20,33,43,.45)}
 .btn-line.btn-line-dark:hover{background:rgba(20,33,43,.06);border-color:var(--noche)}
+/* Configurador Axopar incrustado (solo fichas Axopar) */
+.conf{background:#F4F5F5;padding:0 0 clamp(28px,3vw,44px)}
+.conf-marco iframe{display:block;width:100%;height:min(90vh,920px);min-height:620px;border:0;background:#F4F5F5}
+.conf-pie{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:clamp(20px,2vw,28px)}
+.conf-pie p{margin:0;font-size:clamp(16px,.4vw + 13px,19px);color:var(--trabajo);max-width:60ch}
+@media(max-width:700px){.conf-marco iframe{height:82vh;min-height:520px}}
+#configurador{scroll-margin-top:96px}

@@ -20,9 +20,12 @@ URL de una ficha: `sitio/marca/index.html?m=<marca>&modelo=<slug>`.
 ni las pestañas de opciones destacadas, ni las ediciones o paquetes opcionales. Se conversan en persona; la ficha
 invita a cotizar la configuración.
 
-**Configurador:** solo Axopar, que trae un configurador oficial. Sus fichas enlazan al configurador de axopar.com
-(directo al modelo en los Axopar 38, donde la web lo permite; al configurador general en los demás). Las demás
-marcas invitan a conversar la configuración con un especialista.
+**Precios: ningún barco nuevo publica precio** (solo los usados). Los extracts traen campos de precio (`prices`,
+`price_text`, "DESDE USD"): nunca pasan a `pagina-es.json` ni al sitio.
+
+**Configurador:** solo Axopar, incrustado en la ficha (el visitante no sale del sitio), y solo si la versión no muestra
+precios. El configurador público de axopar.com muestra el precio en euros y hoy solo existe para la gama 38, por eso
+está desactivado (`CONFIGURADOR_AXOPAR` vacío en `ficha-tpl.js`) hasta que Axopar entregue una versión sin precios.
 
 | Galería | fotos `THIS_MODEL` de la biblioteca | (automático) |
 | Versiones y configuración | configuraciones, distribuciones, ediciones, colores | `configuracion[]` |
