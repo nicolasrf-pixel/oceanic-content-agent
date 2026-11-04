@@ -5,8 +5,8 @@
 Las fotos oficiales (3.558, de las 11 marcas y los usados) no se guardan en git: las descarga y optimiza el build
 de Cloudflare (`bash scripts/build.sh`), desde la lista `scripts/fotos.tsv` (WebP 1600 px, 2560 px las portadas,
 calidad 75). La lista se regenera desde la biblioteca con `python3 tools/sitio_fotos.py` (raíz del repo).
-Si una foto no baja, el sitio oculta su contenedor. Saffier y Solaris bloquean las descargas automáticas: sus fotos
-hay que bajarlas a mano (ver la biblioteca, `media --from-dir`).
+Si una foto no baja, el sitio oculta su contenedor. Saffier y Solaris bloquean las descargas automáticas (no se
+eluden): sus fotos salen de las que Oceanic cargó en oceanic.cl, listadas en `scripts/fotos-oceanic.json`.
 
 Uso de las imágenes: editorial / distribuidor autorizado. Acreditar a cada
 astillero (Axopar, Beneteau, Lagoon, Aquila, Solaris, Saffier, XO) y no alterar logos.

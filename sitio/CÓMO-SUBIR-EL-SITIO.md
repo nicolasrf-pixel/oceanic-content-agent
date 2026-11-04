@@ -28,8 +28,10 @@ publicación se ve en el proyecto → **Deployments**.
   impiden). Al lanzar, quitar esas dos cosas (ver comentarios en `robots.txt` y `_headers`).
 - **Formularios:** mientras Brevo no esté configurado, al enviar se abre el correo del visitante con la solicitud
   escrita (respaldo). Configuración de Brevo: `docs/FORMULARIOS.md` en la raíz del repo.
-- **Fotos:** Saffier y Solaris bloquean las descargas automáticas; sus fichas se ven sin fotos hasta cargarlas a
-  mano. Todas las demás marcas bajan solas.
+- **Fotos:** Saffier y Solaris bloquean las descargas automáticas en sus webs; sus fotos salen de las que Oceanic
+  cargó en oceanic.cl (`scripts/fotos-oceanic.json`). Sin página en oceanic.cl, y por eso sin portada propia:
+  Saffier SC 8m Cabin y SE 28 Leopard; Solaris 64 RS y 74 RS (con algunas fotos de galería). Todas las demás
+  marcas bajan solas.
 - **Contenido:** las fichas con traducción completa de la página oficial se van agregando (`docs/FICHAS.md`); las
   demás muestran el borrador del catálogo con el mismo diseño.
 

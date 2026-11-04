@@ -64,11 +64,39 @@ def main():
         im = por_url.get(original.strip())
         sin += im is None
         salida.append([destino, url_web(im, original, destino).strip(), original.strip()])
+    asignadas = asignar_oceanic(salida)
     with TSV.open('w', newline='') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(cab)
         w.writerows(salida)
-    print(f'{len(salida)} fotos; {sin} sin registro en la biblioteca (se usa su URL tal cual)')
+    bloqueadas = sum(1 for _, u, _ in salida if u.split('/')[2] in BLOQUEADOS)
+    print(f'{len(salida)} fotos; {sin} sin registro en la biblioteca (se usa su URL tal cual); '
+          f'{asignadas} desde fotos-oceanic.json; {bloqueadas} siguen sin fuente')
+
+
+def asignar_oceanic(salida):
+    """Fotos que siguen apuntando a un sitio bloqueado: se reemplazan por las fotos que Oceanic cargó en oceanic.cl
+    para ese mismo modelo (sitio/scripts/fotos-oceanic.json). La portada (-hero) recibe la primera."""
+    fuente = json.loads((TSV.parent / 'fotos-oceanic.json').read_text())['modelos']
+    usadas = {u for _, u, _ in salida}
+    por_modelo = {}
+    for fila in salida:
+        if fila[1].split('/')[2] not in BLOQUEADOS:
+            continue
+        slug = re.sub(r'-(hero|g\d+)\.webp$', '', fila[0].split('/')[-1])
+        por_modelo.setdefault(slug, []).append(fila)
+    n = 0
+    for slug, filas in por_modelo.items():
+        libres = [u for u in fuente.get(slug, []) if u not in usadas]
+        filas.sort(key=lambda f: (not f[0].endswith('-hero.webp'), int((re.search(r'-g(\d+)\.webp$', f[0]) or [0, 0])[1])))
+        for fila, url in zip(filas, libres):
+            fila[1] = url
+            n += 1
+        # La portada nunca queda vacía si el modelo tiene fotos: se repite la primera aunque ya esté en la galería.
+        if filas[0][0].endswith('-hero.webp') and filas[0][1].split('/')[2] in BLOQUEADOS and fuente.get(slug):
+            filas[0][1] = fuente[slug][0]
+            n += 1
+    return n
 
 
 if __name__ == '__main__':
