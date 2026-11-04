@@ -6,7 +6,7 @@ Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulari
 
 | Formulario | Página | `tipo` |
 |---|---|---|
-| Cotización, al final de cada ficha de modelo (148, incluido el Axopar 37 XC) | `marca/?m=…&modelo=…` y `marcas/axopar/axopar-37-xc/` | `cotizacion` |
+| Cotización, al final de cada ficha de modelo publicada | `marca/?m=…&modelo=…` | `cotizacion` |
 | Consulta, al final de cada ficha de usado | `usados/barco/?id=…` | `usado` |
 | Contacto | `contacto/` | `contacto` |
 | Charter | `charter/` | `charter` |

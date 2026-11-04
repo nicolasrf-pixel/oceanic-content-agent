@@ -75,7 +75,7 @@
   }).join('');
 
   var introGama=variasFamilias
-    ? 'Vela y motor, cada modelo se configura y se encarga a medida: especificamos contigo, seguimos la fabricación y lo entregamos nacionalizado en Chile.'
+    ? cat.modelos.length+' modelos: '+orden.map(function(f){return FAM[f].t.toLowerCase();}).join(' y ')+'. Cada uno se configura y se encarga a medida: especificamos contigo, seguimos la fabricación y lo entregamos nacionalizado en Chile.'
     : cat.modelos.length+' modelos. Cada uno se configura y se encarga a medida: especificamos contigo, seguimos la fabricación y lo entregamos nacionalizado en Chile.';
 
   var gama='<section class="mk-gama" id="gama"><div class="wrap-wide">'+

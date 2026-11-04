@@ -1,4 +1,5 @@
-/* OCEANIC · Publicación de modelos: interruptor por barco.
+/* OCEANIC · Publicación de modelos: modelos destacados de la portada e interruptor por barco.
+   "destacados": los 3 modelos que muestra la portada, en orden ("<marca>/<slug>"). Un modelo apagado no se muestra.
    Un modelo en "ocultos" no aparece en ninguna parte del sitio (gamas, menús, asistente, fichas); su ficha
    redirige a la página de la marca. Para volver a publicarlo, se borra de la lista.
    Este archivo lo administrará el CMS (botón prender/apagar por barco). Hasta entonces se edita aquí.
@@ -9,6 +10,11 @@
      está en oceanic.cl. Los demás quedan para carga manual vía CMS (decisión Oceanic 2026-11-04).
    - Cualquier modelo que el cliente no quiera publicar se agrega aquí con su motivo. */
 window.OCEANIC_PUBLICACION = /*DATOS*/{
+  "destacados": [
+    "axopar/axopar-37-xc-cross-cabin",
+    "beneteau/oceanis-34-1",
+    "lagoon/lagoon-42-millenium"
+  ],
   "ocultos": {
     "saffier/saffier-sc-8m-cabin": "Sin material: no está en oceanic.cl (Saffier bloquea la descarga automática)",
     "saffier/saffier-se-28-leopard": "Sin material: no está en oceanic.cl (Saffier bloquea la descarga automática)",

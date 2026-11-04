@@ -66,3 +66,8 @@ Reglas vigentes (decisión Oceanic 2026-11-04):
 - Marcas que bloquean la descarga automática de fotos (Saffier, Solaris): solo se publican los modelos con material
   en oceanic.cl; el resto queda para carga manual vía CMS.
 - Todas las demás marcas se publican completas, salvo los modelos que el cliente pida apagar.
+
+## Modelos destacados de la portada
+
+`sitio/assets/js/publicacion.js › destacados` lista los 3 modelos de la portada, en orden (`"<marca>/<slug>"`). Foto,
+nombre y descripción salen del catálogo. Un modelo apagado no se muestra. Lo elegirá el administrador.

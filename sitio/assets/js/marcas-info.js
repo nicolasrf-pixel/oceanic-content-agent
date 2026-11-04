@@ -2,8 +2,7 @@
 window.OCEANIC_MARCAS = {
   axopar:   { nombre:'Axopar', pais:'Finlandia', universo:'Motor', hero:'b-axopar',
     claim:'Diseñados donde el mar no perdona.',
-    intro:'Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año.',
-    pagina:'marcas/axopar/index.html' },
+    intro:'Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año.' },
   beneteau: { nombre:'Beneteau', pais:'Francia', universo:'Vela y Motor', hero:'b-beneteau-sail',
     claim:'El astillero que definió el crucero moderno.',
     intro:'Más de 140 años construyendo veleros y lanchas a motor. De los Oceanis y First a los Gran Turismo y Antares: la referencia mundial en volumen y fiabilidad.' },

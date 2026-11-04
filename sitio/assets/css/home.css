@@ -276,3 +276,4 @@
 .door-cta{font-family:var(--display);font-weight:500;font-size:clamp(14px,.24vw+12px,16px);
   color:var(--boya);transition:transform .3s;display:inline-block}
 .door:hover .door-cta{transform:translateX(4px)}
+.d-txt p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}

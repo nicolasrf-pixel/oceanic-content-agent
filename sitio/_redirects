@@ -4,6 +4,8 @@
 /marcas              /#marcas               301
 /catalogo            /#marcas               301
 /catalogo/*          /#marcas               301
-# La ficha del Axopar 37 XC ahora usa la plantilla común, como los demás modelos
+# Axopar usa la plantilla común, como las demás marcas (su página y la ficha del 37 XC eran hechas a mano)
+/marcas/axopar/            /marca/index.html?m=axopar  301
+/marcas/axopar/index.html  /marca/index.html?m=axopar  301
 /marcas/axopar/axopar-37-xc/            /marca/index.html?m=axopar&modelo=axopar-37-xc-cross-cabin  301
 /marcas/axopar/axopar-37-xc/index.html  /marca/index.html?m=axopar&modelo=axopar-37-xc-cross-cabin  301

@@ -32,7 +32,7 @@
   if(!u){ cont.innerHTML='<section class="uni-hero"><div class="wrap-wide"><h1 class="uni-h1">Universo no encontrado</h1><p><a href="'+pre+'index.html#universos" style="color:var(--boya)">Ver los universos</a></p></div></section>'; return; }
   document.title=u.nombre+' — Oceanic';
 
-  function marcaHref(mk){ return mk==='axopar'?pre+'marcas/axopar/index.html':pre+'marca/index.html?m='+mk; }
+  function marcaHref(mk){ return pre+'marca/index.html?m='+mk; }
 
   // hero
   var hero='<header class="uni-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.9),rgba(20,33,43,.35)),url('+AB+u.hero+')">'+

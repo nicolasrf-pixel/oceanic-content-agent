@@ -10,7 +10,7 @@
   var ORDEN=['axopar','beneteau','lagoon','solaris','saffier','aquila','xo','excess','vx-one','switch','oceanic-power'];
   function nombreMarca(mk){ return (C[mk]&&C[mk].nombre)||mk; }
   function modelosDe(mk){ return (C[mk]&&C[mk].modelos)||[]; }
-  function marcaHref(mk){ return mk==='axopar'?pre+'marcas/axopar/index.html':pre+'marca/index.html?m='+mk; }
+  function marcaHref(mk){ return pre+'marca/index.html?m='+mk; }
   function modeloHref(mk,slug){
     return pre+'marca/index.html?m='+mk+'&modelo='+slug;
   }

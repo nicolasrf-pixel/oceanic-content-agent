@@ -4,14 +4,13 @@
   var AB=document.body.dataset.assetBase||'assets/img/';
   var pre=AB.replace('assets/img/',''); // '../' según profundidad
 
-  // marcas por universo, cada una a su página /marca/?m=slug (Axopar a su página propia)
+  // marcas por universo, cada una a su página /marca/?m=slug
   var MARCAS={
     'Vela':[['beneteau','Beneteau'],['solaris','Solaris'],['saffier','Saffier'],['lagoon','Lagoon'],['excess','Excess']],
     'Motor':[['axopar','Axopar'],['beneteau','Beneteau Motor'],['xo','XO Boats'],['aquila','Aquila'],['oceanic-power','Oceanic Power']],
     'Vela deportiva':[['vx-one','VX One'],['switch','Switch']]
   };
   function marcaHref(slug){
-    if(slug==='axopar') return pre+'marcas/axopar/index.html';
     return pre+'marca/index.html?m='+slug;
   }
   var UNIV={'Vela':'vela','Motor':'motor','Vela deportiva':'deportiva'};
