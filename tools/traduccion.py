@@ -6,6 +6,7 @@ agregar ni quitar afirmaciones) en traducciones/<marca>.json {"inglés": "españ
 
 Uso, desde la raíz del repo:
   python3 tools/traduccion.py pendientes <marca> [--max=N]   # frases sin traducir (JSON en la salida)
+  python3 tools/traduccion.py agregar <marca> <archivo>     # traducciones del último lote (lista JSON, mismo orden)
   python3 tools/traduccion.py armar <marca>                  # escribe pagina-es.json de los modelos completos
   python3 tools/traduccion.py sembrar <marca> <modelo>       # carga al glosario un pagina-es.json hecho a mano
 
@@ -88,7 +89,16 @@ def plantilla_axopar(j):
             its = lineas(g.get('description'))
             if its:
                 P['equipamiento'][dest].append({'grupo': g['name'].strip(), 'items': its})
-    return {k: v for k, v in P.items() if v and (k != 'equipamiento' or v['serie'])}
+    return limpiar({k: v for k, v in P.items() if v and (k != 'equipamiento' or v['serie'])})
+
+
+def limpiar(x):
+    """Quita textos vacíos (p. ej. bloques sin título) para que no queden frases vacías por traducir."""
+    if isinstance(x, dict):
+        return {k: limpiar(v) for k, v in x.items() if v not in ('', None, [], {})}
+    if isinstance(x, list):
+        return [limpiar(v) for v in x if v not in ('', None, [], {})]
+    return x
 
 
 def hojas(x):
@@ -133,7 +143,25 @@ def cmd_pendientes(marca, maximo):
         for h in hojas(plantilla_axopar(json.loads(ex.read_text()))):
             if h not in glos and h not in vistos:
                 vistos.append(h)
-    print(json.dumps({'pendientes': len(vistos), 'lote': vistos[:maximo]}, ensure_ascii=False, indent=1))
+    lote = vistos[:maximo]
+    GLOSARIOS.mkdir(exist_ok=True)
+    (GLOSARIOS / f'.lote-{marca}.json').write_text(json.dumps(lote, ensure_ascii=False, indent=0) + '\n')
+    print(json.dumps({'pendientes': len(vistos), 'lote': lote}, ensure_ascii=False, indent=1))
+
+
+def cmd_agregar(marca, archivo):
+    """Agrega al glosario las traducciones de un archivo JSON: lista en el mismo orden que el último lote."""
+    lote = json.loads((GLOSARIOS / f'.lote-{marca}.json').read_text())
+    es = json.loads(Path(archivo).read_text())
+    if len(es) != len(lote):
+        sys.exit(f'El archivo tiene {len(es)} traducciones y el lote {len(lote)} frases')
+    glos = glosario(marca)
+    for a, b in zip(lote, es):
+        if not b.strip():
+            sys.exit(f'Traducción vacía para: {a[:80]}')
+        glos[a] = b.strip()
+    guardar_glosario(marca, glos)
+    print(f'{len(es)} frases agregadas al glosario de {marca} ({len(glos)} en total)')
 
 
 def cmd_armar(marca):
@@ -192,6 +220,8 @@ if __name__ == '__main__':
     a = [x for x in a if not x.startswith('--')]
     if a[:1] == ['pendientes']:
         cmd_pendientes(a[1], int(opts.get('max', 200)))
+    elif a[:1] == ['agregar']:
+        cmd_agregar(a[1], a[2])
     elif a[:1] == ['armar']:
         cmd_armar(a[1])
     elif a[:1] == ['sembrar']:

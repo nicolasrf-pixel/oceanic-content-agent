@@ -7,6 +7,14 @@
 (function () {
   'use strict';
 
+  // Configurador oficial de Axopar: enlace directo al modelo solo donde axopar.com lo abre (probado 2026-11-04);
+  // los demás modelos van al configurador general, donde se elige el modelo.
+  var CONFIGURADOR_AXOPAR = {
+    'axopar-38-cross-top': 'https://www.axopar.com/configurator/model/?model=6A39llMhRZcMApa2LGwiWx',
+    'axopar-38-sun-top': 'https://www.axopar.com/configurator/model/?model=ksJqHS0qvu33DynXsjemJ',
+    'axopar-38-xc-cross-cabin': 'https://www.axopar.com/configurator/model/?model=6fLSfJOLjBTBl7qosNYlSM'
+  };
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function parr(arr, cls) { return (arr || []).map(function (p) { return '<p' + (cls ? ' class="' + cls + '"' : '') + '>' + esc(p) + '</p>'; }).join(''); }
   function famLabel(t) {
@@ -152,17 +160,24 @@
           g.items.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></details>';
       }).join('');
     }
-    // Solo equipamiento de serie: los opcionales no se publican, se conversan con un especialista (decisión 2026-11-04)
+    // Solo equipamiento de serie: los opcionales no se publican, se conversan con un especialista (decisión 2026-11-04).
+    // Axopar trae su configurador oficial: solo en esa marca se ofrece (enlace directo donde axopar.com lo permite).
     var serie = grupos(eq.serie);
-    if (serie) {
-      cuerpo.push(seccion('equipamiento', cabeza('Equipamiento') + '<div class="two">' +
-        '<div><h3 class="eq-h">De serie</h3>' + serie + '</div>' +
+    var conf = marca === 'axopar' ? (CONFIGURADOR_AXOPAR[mslug] || 'https://www.axopar.com/configurator/') : null;
+    if (serie || conf) {
+      cuerpo.push(seccion('equipamiento', cabeza(serie ? 'Equipamiento' : 'Configuración') + '<div class="two">' +
+        (serie ? '<div><h3 class="eq-h">De serie</h3>' + serie + '</div>' : '') +
         '<div><h3 class="eq-h">Opcionales y configuración</h3>' +
-        '<p class="lede" style="margin-top:0">Cada ' + esc(mo.nombre) + ' se arma a la medida de cómo navegas: motorización, ' +
-        'equipamiento opcional y terminaciones. Lo revisamos contigo, con precio y plazos.</p>' +
-        '<p style="margin-top:22px"><a class="btn" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p></div>' +
-        '</div><p class="spec-fuente">Equipamiento de serie según la ficha oficial de ' + esc(info.nombre) + '.</p>'));
-      nav.push(['equipamiento', 'Equipamiento']);
+        (conf
+          ? '<p class="lede" style="margin-top:0">Arma tu ' + esc(mo.nombre) + ' en el configurador oficial de Axopar y luego ' +
+            'revisamos contigo la configuración, con precio y plazos.</p>' +
+            '<p style="margin-top:22px;display:flex;flex-wrap:wrap;gap:12px"><a class="btn" href="' + conf + '" target="_blank" rel="noopener">Abrir el configurador Axopar</a>' +
+            '<a class="btn btn-line btn-line-dark" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p>'
+          : '<p class="lede" style="margin-top:0">Cada ' + esc(mo.nombre) + ' se arma a la medida de cómo navegas: motorización, ' +
+            'equipamiento opcional y terminaciones. Lo revisamos contigo, con precio y plazos.</p>' +
+            '<p style="margin-top:22px"><a class="btn" href="#cotizar" data-ir-form>Conversemos tu configuración</a></p>') +
+        '</div></div>' + (serie ? '<p class="spec-fuente">Equipamiento de serie según la ficha oficial de ' + esc(info.nombre) + '.</p>' : '')));
+      nav.push(['equipamiento', serie ? 'Equipamiento' : 'Configuración']);
     }
 
     // 8 · Ficha técnica (datos verificados de la biblioteca)

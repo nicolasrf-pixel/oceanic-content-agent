@@ -19,3 +19,4 @@ sitio/.wrangler/
 # Fotos del sitio: se descargan en el build de Cloudflare (sitio/scripts/build.sh), no se versionan
 sitio/assets/img/modelos/
 sitio/assets/img/usados/
+traducciones/.lote-*.json

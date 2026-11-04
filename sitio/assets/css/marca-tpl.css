@@ -143,3 +143,5 @@
 .hero .hero-in{padding-left:var(--gut);padding-right:var(--gut)}
 .hero .hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,33,43,.92) 0%,rgba(20,33,43,.55) 45%,rgba(20,33,43,.1) 80%)}
 @media(max-width:700px){.hero .hero-scroll{display:none}}
+.btn-line.btn-line-dark{color:var(--noche);border-color:rgba(20,33,43,.45)}
+.btn-line.btn-line-dark:hover{background:rgba(20,33,43,.06);border-color:var(--noche)}
