@@ -28,12 +28,12 @@ superpone al archivo del repo correspondiente.
 
 El administrador está **cerrado por defecto**: hasta que Access esté activo, `/admin/` responde "cerrado".
 
-1. **dash.cloudflare.com** → menú izquierdo **Compute (Workers)** → **Workers & Pages** → clic en **oceanic**.
-2. Pestaña **Settings** → sección **Domains & Routes**.
-3. En la fila **workers.dev**, botón **Enable Cloudflare Access** (o el menú `⋯` de esa fila → *Enable Cloudflare
-   Access*). Confirma.
-4. Clic en **Manage Cloudflare Access**: en la política deja **tu correo** (y el de quien vaya a administrar).
-   Guarda.
+1. **dash.cloudflare.com** → **Workers & Pages** → clic en **oceanic**.
+2. Arriba, pestaña **Access** (junto a Overview, Deployments, Settings…).
+3. Botón **Protect this Worker behind Access**. Si Cloudflare pide activar **Zero Trust** primero, acepta el plan
+   **Free** (hasta 50 usuarios, sin costo) y elige un nombre de equipo, p. ej. `oceanic`; luego vuelve a este paso.
+4. Elige **All traffic**. En **Authentication policy**, permite por **correo** (Emails) y escribe tu correo y el de
+   quien vaya a administrar. **Apply Access**.
 5. Abre `https://oceanic.<tu-subdominio>.workers.dev/admin/`: Cloudflare pide el correo, envía un código de 6
    dígitos y entras.
 
