@@ -47,7 +47,7 @@ async function admin(request, env, url, ctx) {
   if (!email) {
     const sinConfig = !(ctx && ctx.access) && (!env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD);
     const msg = sinConfig
-      ? 'El administrador está cerrado: activa Cloudflare Access en el Worker (Settings › Domains & Routes › Enable Cloudflare Access). Ver CÓMO-SUBIR-EL-SITIO.md.'
+      ? 'El administrador está cerrado: activa Cloudflare Access en el Worker (pestaña Access › Protect this Worker behind Access). Ver CÓMO-SUBIR-EL-SITIO.md.'
       : 'Acceso denegado. Entra con tu correo autorizado en Cloudflare Access.';
     if (url.pathname.startsWith('/api/')) return json({ ok: false, error: msg }, 403);
     return texto(msg, 403);
