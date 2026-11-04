@@ -1,0 +1,35 @@
+{
+ "portada": {
+  "titular": "Listo para la aventura"
+ },
+ "intro": [
+  "Oceanic Power es una embarcación de casco semirrígido, muy segura, gracias a las válvulas y estanqueidad que posee, gran flotabilidad y muy resistente por sus tubos de Hypalon y PVC. Su peso le permite una operación de bajo consumo."
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Esta embarcación incluye",
+    "items": [
+     "Caja de almacenamiento frontal",
+     "Tubo de PVC o tubo Hypalon",
+     "Costuras soldadas para tubo de PVC.",
+     "Válvulas de aire",
+     "Casco de aluminio con recubrimiento en polvo",
+     "Seft – plataforma de drenaje",
+     "Soportes del espejo de popa",
+     "Punto de izado y argollas de remolque",
+     "Plataforma de PVC antideslizante",
+     "Traza de frotamiento de Hypalon o PVC",
+     "Protector de quilla",
+     "Bomba de pie",
+     "Kits de reparación",
+     "Remos",
+     "Mango blando de Hypalon o PVC",
+     "Carpa para bote"
+    ]
+   }
+  ]
+ },
+ "estado": "BORRADOR",
+ "fuente": "https://oceanic.cl/oceanic-power-boats/ribalum-300/"
+}

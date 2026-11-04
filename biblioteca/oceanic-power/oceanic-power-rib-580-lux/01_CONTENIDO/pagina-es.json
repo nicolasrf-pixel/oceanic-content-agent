@@ -1,0 +1,41 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/oceanic-power.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://oceanic.cl/oceanic-power-boats/rib-lux-580/",
+ "capturada": "2026-10-02",
+ "extract": "07_FUENTES/extract/S1-oceanic-power-rib-580-lux.page.json",
+ "portada": {
+  "titular": "Listo para la aventura"
+ },
+ "intro": [
+  "Oceanic Power es una embarcación de casco semirrígido, muy segura, gracias a las válvulas y estanqueidad que posee, gran flotabilidad y muy resistente por sus tubos de Hypalon y PVC. Su peso le permite una operación de bajo consumo."
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Esta embarcación incluye",
+    "items": [
+     "Consola F-1, caja de almacenamiento con cojín",
+     "Asiento E, caja de almacenamiento con cojín, mesa en el interior",
+     "Cojines de la caja de almacenamiento del asiento de proa",
+     "Asiento de popa con cojines con respaldo.",
+     "Mango blando de Hypalon o PVC",
+     "Bomba de pie y bomba de achique",
+     "Mango blando de Hypalon o PVC. Tacos de acero inoxidable",
+     "Traza de frotamiento de Hypalon o PVC",
+     "Soporte hidráulico de 2 piezas en la consola para colocar la escotilla",
+     "Placa de montaje del motor en el espejo de popa",
+     "Tacos de acero inoxidable",
+     "Armazón de hierro con polea para colocar bote",
+     "Caja de batería e interruptor para 60 A",
+     "kit de reparación",
+     "2 anillos en D de acero inoxidable en la popa, 2 anillos en D de acero inoxidable en la parte delantera",
+     "Uso del tapón de drenaje para cubierta",
+     "Uso del tapón de drenaje para el interior del casco.",
+     "Válvulas de aire del Reino Unido",
+     "Gel-coat Ashland estándar: GE1000s"
+    ]
+   }
+  ]
+ }
+}

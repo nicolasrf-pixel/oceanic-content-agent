@@ -1,0 +1,58 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/saffier.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://saffieryachts.com/models/saffier-se-33-life/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-saffier-se-33-life.page.json",
+ "portada": {
+  "titular": "Navega como nunca antes"
+ },
+ "intro": [
+  "El Saffier SE 33 Life marca un nuevo estándar en la navegación de día de alta gama. En pocas palabras, el Saffier SE 33 Life es un velero de lujo, y se nota en su navegación, su comodidad y su artesanía. Ofrece una experiencia a vela sin igual. El Saffier SE 33 Life está diseñado para navegar en solitario con la máxima comodidad, a altas velocidades y con un manejo fácil. Es el velero perfecto para disfrutar la vida con amigos y familia, sobre todo por su lujoso cockpit e interior.\nAdemás, la tecnología de este daysailer es de primer nivel. El diseño de casco más reciente y la construcción al vacío dan un velero estable, liviano, rápido y seguro. La nueva tecnología inteligente de este daysailer de lujo permite monitorear tu barco en todo momento. En pocas palabras, el Saffier SE 33 Life crea una nueva filosofía de navegación de día de alta gama. Navega tus aguas favoritas como nunca antes con este yate Saffier."
+ ],
+ "bloques": [
+  {
+   "titulo": "Una experiencia a vela perfecta",
+   "texto": [
+    "El Saffier SE 33 Life es uno de los daysailers más rápidos en el agua. Desde detrás de las ruedas de timón controlas el velero de lujo Saffier SE 33 Life.\nTodas las escotas, drizas y cabos de trimado corren bajo cubierta hasta el puesto del timonel. Navegar en solitario es el estándar en todo yate Saffier. Además, la experiencia a vela no se parece a la de ningún otro velero.",
+    "La velocidad, la comodidad y la seguridad fueron los pilares sobre los que se diseñó y construyó este velero. Todo esto junto con el cockpit perfecto del Saffier SE 33 Life, que te ofrece lujo, comodidad y soláriums para relajarte antes, durante y después de navegar. En pocas palabras, el Saffier SE 33 Life te permite navegar, vivir aventuras y relajarte."
+   ]
+  },
+  {
+   "titulo": "Un arte fino que es lujo",
+   "texto": [
+    "Se necesita artesanía y conocimiento para crear un interior que se sienta como en casa y un daysailer que navegue a la perfección. En un yate Saffier, el lujo y la comodidad se aseguran con el uso de materiales de la más alta calidad.\nNuestra terminación de lujo se logra eligiendo las maderas, telas y materiales correctos. Además, es nuestra reconocida artesanía la que asegura un velero de la más alta calidad. Este Saffier SE 33 Life lleva el lujo y la comodidad a nuevas alturas. Es un velero como ningún otro."
+   ]
+  },
+  {
+   "titulo": "Modelo premiado",
+   "texto": [
+    "El Saffier SE 33 Life es un daysailer premiado que marca nuevos estándares en navegar rápido con total comodidad.\nCoronado como European Yacht of the Year, este yate encarna el equilibrio perfecto entre la navegación deportiva y la comodidad de lujo. Diseñado para navegantes que valoran un manejo con respuesta y un crucero rápido, el SE 33 Life ofrece una experiencia emocionante, ya sea navegando solo o con amigos."
+   ]
+  },
+  {
+   "titulo": "Escota de mayor en la botavara",
+   "texto": [
+    "El sistema alemán de escotas lleva la escota de mayor por dentro de la botavara, con una estética limpia y un cockpit hermosamente despejado."
+   ]
+  },
+  {
+   "titulo": "Asientos gentlemen",
+   "texto": [
+    "Los asientos gentlemen dan al timonel un asiento cómodo mientras conduce el Saffier SE 33 Life por tus aguas favoritas."
+   ]
+  },
+  {
+   "titulo": "Sistema de fondeo",
+   "texto": [
+    "El sistema de ancla eléctrico plegable integrado te da la libertad de fondear donde quieras."
+   ]
+  },
+  {
+   "titulo": "Mástil de carbono",
+   "texto": [
+    "El mástil de fibra de carbono vendrá con crucetas curvas de fibra de carbono, botavara de fibra de carbono y rodkick de fibra de carbono."
+   ]
+  }
+ ]
+}

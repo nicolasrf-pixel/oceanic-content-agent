@@ -1,0 +1,66 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/saffier.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://saffieryachts.com/models/saffier-se-24-lite/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-saffier-se-24-lite.page.json",
+ "portada": {
+  "titular": "Tu daysailer fácil de transportar."
+ },
+ "intro": [
+  "En pocas palabras, el Saffier SE 24 Lite es un velero de 24 pies muy rápido, que navega con facilidad y diversión. Este daysailer se impulsa con viento y electricidad. El sistema de propulsión eléctrica se carga las 24 horas con paneles solares integrados. El Saffier SE 24 Lite es fácil de transportar y se puede botar desde un carro o izar desde el agua con un solo punto de izado. Este daysailer navega rápido, con diversión y a la perfección.\nEl Saffier SE 24 Lite ofrece la experiencia de navegación definitiva. Se puede navegar en solitario a toda velocidad, acelera rápido y se desliza con facilidad. Ya sea para una salida rápida o un momento tranquilo con familia y amigos, cumple. Sobre todo, este velero ganó el European Yacht of the Year 2024. Conoce el impactante nuevo Saffier SE 24 Lite."
+ ],
+ "bloques": [
+  {
+   "titulo": "Impulsado por la naturaleza",
+   "texto": [
+    "Un velero impulsado por electricidad y viento. El velero Saffier SE 24 Lite tiene paneles solares integrados y es verdaderamente autosuficiente.\nLos paneles solares están hechos a medida e integrados al diseño de la cubierta de proa del SE 24 Lite. Estos paneles generan energía suficiente para cargar constantemente la batería Torqeedo de 3,5 kW de la propulsión eléctrica, en cualquier momento y lugar. Además, los instrumentos y las luces se pueden retirar del daysailer y recargar en tu auto, en casa o con un power bank. El Saffier SE 24 Lite se puede navegar en completo silencio, escuchando solo este yate de 24 pies cortando el agua. En otras palabras, este daysailer funciona con la energía de la naturaleza."
+   ]
+  },
+  {
+   "titulo": "Navegar muy rápido y de forma segura",
+   "texto": [
+    "En pocas palabras, el Saffier SE 24 Lite se diseñó pensando en la velocidad, la comodidad y la seguridad.\nPor eso es un velero de 24 pies que navega con el control total, en solitario, con todas las escotas a mano y mostrando dos dígitos en tu pantalla recargable. El Saffier SE 24 Lite tiene una forma de casco moderna, con buena estabilidad de forma para alcanzar altas velocidades. Esto se logra con una sección sumergida plana y una manga de 2,40 m. Un yate liviano es clave para el rendimiento. Por eso este velero de 24 pies navega con diversión, rapidez y a la perfección. Solo trae diversión y sonrisas al navegar bajo el sol, el viento y el agua."
+   ]
+  },
+  {
+   "titulo": "Remolca. Bota. Arma. Navega. Todo por tu cuenta.",
+   "texto": [
+    "El Saffier SE 24 Lite está hecho para la independencia en cada etapa: antes, durante y después de navegar.\nLiviano y fácil de manejar, puedes remolcar el barco, botarlo, plantar el mástil y zarpar completamente por tu cuenta. Ya sea para una salida rápida en la tarde o una aventura de fin de semana, el SE 24 Lite hace todo el proceso rápido, simple y divertido.",
+    "Todo está optimizado para el uso en solitario, con sistemas de jarcia inteligentes y controles intuitivos. Sin tripulación. Solo tú, el viento y la libertad de navegar cuando y donde quieras."
+   ]
+  },
+  {
+   "titulo": "Modelo premiado",
+   "texto": [
+    "El Saffier SE 24 Lite es un verdadero cambio de juego en la navegación de día: liviano, con propulsión eléctrica y fácil de manejar por cualquiera.\nEste diseño innovador ganó tanto el HISWA Boot van het Jaar como el prestigioso European Yacht of the Year, lo que lo convierte en uno de los yates más celebrados de su clase.",
+    "El jurado destacó del SE 24 Lite su distribución inteligente, su estética estilizada y una diversión a vela sin igual. Seas principiante o regatista experimentado, este yate ofrece libertad pura: remólcalo, bótalo, ármalo y navégalo, todo por tu cuenta.",
+    "Vive una innovación premiada. Navega el futuro."
+   ]
+  },
+  {
+   "titulo": "Proa invertida",
+   "texto": [
+    "El Saffier SE 24 Lite tiene proa invertida. Esto le da al velero de 24 pies su estética moderna y afilada. Este velero, con su proa negativa, corta las olas como un cuchillo."
+   ]
+  },
+  {
+   "titulo": "Cockpit amplio",
+   "texto": [
+    "Una mirada de cerca al cockpit de este velero revela su carácter familiar: un gran cockpit despejado para 6 personas, con solárium y acceso fácil desde la orilla."
+   ]
+  },
+  {
+   "titulo": "Instrumentos recargables",
+   "texto": [
+    "Los instrumentos y las luces se pueden retirar del velero y recargar en tu auto, en casa o con un power bank. Este daysailer funciona con la energía de la naturaleza."
+   ]
+  },
+  {
+   "titulo": "Sin concesiones en materiales",
+   "texto": [
+    "Construido con materiales premium, sin concesiones. El SE 24 Lite ofrece máxima calidad, durabilidad y estilo, como cualquier otro yate Saffier."
+   ]
+  }
+ ]
+}

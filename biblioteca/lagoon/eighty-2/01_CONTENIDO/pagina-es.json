@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/eighty-2",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-eighty-2.page.json",
+ "portada": {
+  "titular": "Un viaje para tu emoción"
+ },
+ "intro": [
+  "El EIGHTY 2 es tu nuevo refugio, un lujoso remanso donde el tiempo se detiene y la vida a bordo nunca ha sido más dulce. Abierto al mar, este nuevo catamarán es el resultado de un sueño de escapar de lo cotidiano."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Un yate a tu estilo",
+     "texto": "Sube a bordo y contempla una vista privilegiada. El flybridge de más de 50 m² ofrece una vista impresionante del horizonte.\nEquipado con doble timón y paneles solares, el flybridge también es un lugar de expresión personal: se puede amoblar para crear un espacio que refleje tu estilo."
+    },
+    {
+     "titulo": "El cockpit de popa, una invitación a nadar",
+     "texto": "El EIGHTY 2 está diseñado para ofrecerte lo mejor: un acceso abierto al océano.\nA popa, la plataforma de baño puede llegar a 22 m² desplegada, como una extensión del cockpit. Adaptable a tus preferencias y planes de navegación, está diseñada para integrar un bote auxiliar o una moto de agua, y para ser escenario de los chapuzones más bellos."
+    },
+    {
+     "titulo": "Admira el horizonte desde el interior",
+     "texto": "En el interior, el salón con piso a ras facilita el movimiento por el catamarán. Los espacios habitables se diseñaron para vivir la vida a bordo con naturalidad y total libertad. Volcado hacia el exterior, el EIGHTY 2 retoma los códigos de diseño de las villas junto al mar, con una vista de 360° para admirar el horizonte.\n“Trabajamos los más mínimos detalles, que nunca son solo detalles, porque el diseño es un todo y cada parte debe contribuir a su atractivo.” - Patrick Le Quément"
+    },
+    {
+     "titulo": "Notas contemporáneas, diseño atemporal",
+     "texto": "El EIGHTY 2 es un yate donde cada detalle cuenta. El camarote del armador, con cama king, vista al mar, terraza privada y zonas de descanso, es un verdadero refugio privado."
+    }
+   ]
+  }
+ ]
+}
