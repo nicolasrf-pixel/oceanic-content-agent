@@ -1,0 +1,43 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/flyer/flyer-9-sundeck",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-flyer-9-sundeck.page.json",
+ "intro": [
+  "El espacio a bordo del Flyer 9 SUNdeck está inteligentemente optimizado y mejora el nivel de comodidad de la generación anterior. Con instrumentos de vanguardia y comodidad extra, el placer de conducir este barco se trata de pasarlo bien juntos en buena compañía."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Cubierta optimizada y diseño deportivo: el Flyer 9 SUNdeck es un day boat acogedor, con terminaciones cuidadas. Al adoptar el ancho pasillo Smart Walkaround a babor del Flyer 10, el Flyer 9 ofrece un excelente acceso a la amplia cubierta de proa y gran seguridad."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Además de lo que acoge en su cockpit, el Flyer 9 SUNdeck tiene una cabina cómoda, especialmente grande, con dos camas dobles. El baño resulta sorprendentemente amplio, con ducha separada."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Sensación de acogida",
+   "items": [
+    {
+     "titulo": "Terraza con vista al mar",
+     "texto": "La plataforma lateral abatible a babor es una de las grandes novedades del Flyer 9: ofrece vista al mar y un acceso fácil para nadar."
+    },
+    {
+     "titulo": "Dos literas",
+     "texto": "El Flyer 9 SPACEdeck puede alojar 4 personas por una noche a bordo gracias a sus dos literas."
+    },
+    {
+     "titulo": "Para cocinar a bordo",
+     "texto": "Una cocina exterior completa, bien integrada y protegida por el amplio parabrisas, permite cocinar a bordo."
+    }
+   ]
+  }
+ ]
+}

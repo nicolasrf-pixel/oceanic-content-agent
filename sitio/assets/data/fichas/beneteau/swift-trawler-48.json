@@ -1,0 +1,41 @@
+{
+ "portada": {
+  "titular": "Hecho para buscar nuevos horizontes"
+ },
+ "intro": [
+  "El nuevo Swift Trawler 48 se centra en una vida práctica y fácil a bordo y en la circulación, y está hecho para buscar nuevos horizontes.\nEste barco de gama media tiene un perfil llamativo y elegante, con nuevas placas decorativas de listones de teca enmarcados en acero inoxidable, como las del Grand Trawler 62."
+ ],
+ "bloques": [
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Tu hogar sobre el agua",
+   "items": [
+    {
+     "titulo": "Eficiente y autónomo",
+     "texto": "El casco se optimizó para un barco cómodo y eficiente a la vez.\nLa proa esbelta es notablemente marinera, lo que reduce el consumo de combustible y hace más segura la navegación. ¡Más de 600 millas náuticas de autonomía a 9 nudos!"
+    },
+    {
+     "titulo": "Abierto al mar",
+     "texto": "Los amplios espacios exteriores se diseñaron y optimizaron con cuidado para que la tripulación disfrute el mar a cualquier hora del día."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+ "gama": [
+  "Grand Trawler 63",
+  "Swift Trawler 43 Fly",
+  "Swift Trawler 43 Sedan",
+  "Swift Trawler 37 Sedan",
+  "Swift Trawler 37 Fly",
+  "Swift Trawler 54"
+ ]
+}

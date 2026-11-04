@@ -1,0 +1,41 @@
+{
+ "portada": {
+  "titular": "Un nuevo referente en la navegación elegante"
+ },
+ "intro": [
+  "El BENETEAU Grand Trawler 63 no es solo una evolución: es la nueva visión del crucero cómodo de larga distancia. Construido con la experiencia de 140 años en el agua, diseñado con tecnología y sistemas modernos y confiables, y con una elegancia con propósito y un lujo discreto, el nuevo Grand Trawler abrirá las aventuras y los destinos con los que has soñado por tanto tiempo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Una visión redefinida, un legado renovado",
+   "texto": [
+    "Desde su potente casco de desplazamiento completo hasta las líneas estilizadas que le dan una presencia atemporal en el agua, el Grand Trawler 63 equilibra elegancia y funcionalidad. Desarrollado junto a MICAD Naval Architects, este yate ofrece una eficiencia de combustible notable: hasta 1.000 millas náuticas de autonomía a 9 nudos con un 10% de reserva de combustible.\nLa verdadera comodidad fue un foco central de su diseño y ejecución, y se logra de muchas formas: desde las aletas Sleipner, que garantizan una estabilización moderna navegando y fondeado, hasta la amplia insonorización de sus espacios de vida y la comodidad estudiada de sus múltiples zonas de asientos. Ningún aspecto se ignora, ningún detalle se pasa por alto.\nTambién destaca por el espacio que ofrece, tanto en zona de vida como en capacidad de almacenamiento, algo esencial para quienes buscan pasar largas temporadas en el agua."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Diseño",
+   "items": [
+    {
+     "titulo": "Autonomía y eficiencia de combustible excepcionales",
+     "texto": "Gracias a su casco de desplazamiento completo desarrollado con MICAD, el Grand Trawler 63 ofrece hasta 1.000 millas náuticas de autonomía a 9 nudos con un 10% de reserva de combustible: un rendimiento líder en su clase que amplía tu horizonte.\nLos dos motores MAN con ejes rectos ofrecen una de las mejores relaciones potencia-peso del mercado, una confiabilidad a toda prueba y la mejor garantía de fabricante disponible hoy para los dueños. ¿El resultado? Verdadera tranquilidad."
+    },
+    {
+     "titulo": "Puesto de mando y navegación de nueva generación",
+     "texto": "El puesto de mando rediseñado, inspirado en el Swift Trawler 54, tiene pantallas multifunción flotantes y un nuevo sistema de dirección eléctrica Xenta, para una conducción moderna, con respuesta y agradable.\nLa ergonomía es notablemente buena –todo está donde debe estar– y los asientos marcan un nuevo estándar de comodidad, tanto en los sillones del patrón como en el lindo diván a babor."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/grand-trawler/grand-trawler-63",
+ "gama": [
+  "Swift Trawler 37 Sedan",
+  "Swift Trawler 43 Sedan",
+  "Swift Trawler 43 Fly",
+  "Swift Trawler 37 Fly",
+  "Swift Trawler 48",
+  "Swift Trawler 54"
+ ]
+}

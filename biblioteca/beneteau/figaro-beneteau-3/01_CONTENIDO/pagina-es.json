@@ -1,0 +1,40 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/figaro/figaro-beneteau-3",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-figaro-beneteau-3.page.json",
+ "portada": {
+  "titular": "El primer monocasco one design de producción con foils del mundo"
+ },
+ "intro": [
+  "El Figaro BENETEAU 3 es el primer monocasco one design de producción con foils jamás diseñado. Concentrado de tecnología e innovación, es el resultado de una colaboración entre los mejores expertos del grupo BENETEAU y la oficina Van Peteghem Lauriot-Prévost (VPLP), los arquitectos de los dos últimos barcos ganadores de la Vendée Globe.\nEl prototipo fue probado y se lanzó la producción del barco. Entrará en la categoría de diseño ISO/World Sailing A."
+ ],
+ "bloques": [
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Modernidad, confiabilidad y rendimiento",
+   "items": [
+    {
+     "titulo": "Los foils",
+     "texto": "A diferencia de los foils de los Imoca 60, los foils del FB3 tendrán un perfil orientado hacia adentro. Su funcionamiento es distinto. Son foils versátiles que reducen la deriva y mejoran el momento adrizante del barco, sin aumentar el movimiento, lo que mejora el rendimiento del barco."
+    },
+    {
+     "titulo": "La quilla",
+     "texto": "Profunda y de pala recta, crea una resistencia mínima. Los foils aportan una reducción de deriva complementaria."
+    },
+    {
+     "titulo": "El casco",
+     "texto": "Hecho de sándwich de espuma, fibra de vidrio y resina de poliéster infusionada, responde a los diseños actuales y no lleva lastre de agua."
+    }
+   ]
+  }
+ ]
+}

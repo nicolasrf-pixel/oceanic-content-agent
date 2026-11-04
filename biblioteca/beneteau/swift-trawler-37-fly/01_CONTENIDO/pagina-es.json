@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-37-fly",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-swift-trawler-37-fly.page.json",
+ "portada": {
+  "titular": "Redescubre el viaje"
+ },
+ "intro": [
+  "El llamativo nuevo Swift Trawler 37 Flybridge combina estilo, comodidad y libertad para una elegancia discreta en el agua.\nPor más de 140 años BENETEAU ha mejorado continuamente. Y siempre escuchamos a nuestros clientes. Eso nos llevó a crear el crucero familiar definitivo, con espacio y rendimiento óptimos para la vida a bordo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "La impactante configuración Flybridge tiene un puesto de mando elevado con excelente visibilidad, junto a un acogedor asiento en U con respaldo adaptable hacia adelante, mesa y nevera integrada.\nIncluso con esta disposición clásica hay mucho espacio para guardar tus juguetes acuáticos junto a las modernas instalaciones recreativas y de navegación."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "El hogar perfecto sobre el agua",
+   "items": [
+    {
+     "titulo": "Tu punto justo",
+     "texto": "Con diseño contemporáneo, terminaciones elegantes e innovaciones inteligentes en todo el barco, el nuevo Swift Trawler 37 da en el punto justo, con la combinación perfecta de rendimiento de crucero y características distintivas que sumergen a los clientes en nuestro universo Trawler."
+    },
+    {
+     "titulo": "Una estética fuerte y con propósito",
+     "texto": "Diseñado con una línea de arrufo que sube hasta una proa característica, potente, abierta y alta, el moderno Swift Trawler 37 transmite fuerza y propósito.\nEl nuevo parabrisas invertido no solo asegura mejor visibilidad, sino que crea un perfil de trawler más profesional, realzado por ventanas de casco más alargadas."
+    }
+   ]
+  }
+ ]
+}

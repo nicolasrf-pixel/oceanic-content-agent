@@ -1,0 +1,42 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/oceanis/oceanis-47",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-oceanis-47.page.json",
+ "portada": {
+  "titular": "Construido sobre un legado, mejorado para hoy"
+ },
+ "intro": [
+  "El Oceanis 47 se diseñó para responder a las expectativas de los dueños de yates de hoy, que buscan combinar el encanto de los fondeos largos y tranquilos con la emoción del timón. Pensado como un lugar para reunirse y disfrutar la vida a bordo, este nuevo yate inaugura la octava generación de una gama icónica del mundo de la vela."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Líneas tensas, volúmenes equilibrados y libertad de movimiento: el Oceanis 47 luce una silueta contemporánea y elegante, diseñada para el crucero. Cada metro cuadrado de cubierta se optimizó para dar comodidad y seguridad, con facilidad de movimiento y amplias zonas de descanso. Su característico pantoque suma a su estética deportiva y elegante, mientras la manga máxima que se extiende hasta el espejo de popa permite un cockpit de buen tamaño, un verdadero espacio de vida al aire libre.\nEl cockpit en L es fácil de recorrer y tiene asientos cómodos, perfectos para compartir momentos en el mar. Las dos grandes mesas centrales son totalmente modulares: pasan con facilidad de mesa alta a mesa baja o se convierten en un gran solárium. Una configuración 3 en 1 que se adapta a cualquier uso, desde el almuerzo a bordo hasta el descanso fondeado."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Un yate diseñado para cruceros de larga distancia",
+   "items": [
+    {
+     "titulo": "La zona del armador",
+     "texto": "La versión armador del Oceanis 47 ofrece tres camarotes y dos baños, con un alto nivel de comodidad, una verdadera mesa de cartas y un ambiente cuidado hasta el más mínimo detalle."
+    },
+    {
+     "titulo": "Rendimiento impresionante",
+     "texto": "El Oceanis 47 es, ante todo, un yate diseñado para navegar. Fácil de manejar, sus múltiples configuraciones modulares de cubierta le permiten adaptarse a todo tipo de navegación.\nLa versión estándar viene con mástil enrollador y foque autovirante, lo que garantiza una maniobrabilidad óptima incluso con poca tripulación."
+    }
+   ]
+  }
+ ]
+}

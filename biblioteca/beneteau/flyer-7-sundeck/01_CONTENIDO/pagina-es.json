@@ -1,0 +1,43 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/flyer/flyer-7-sundeck",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-flyer-7-sundeck.page.json",
+ "intro": [
+  "Extremadamente ágil y de respuesta rápida, el Flyer 7 SUNdeck ofrece una navegación suave y sensaciones de conducción muy agradables."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Flyer 7 SPACEdeck es claramente deportivo y enérgico.\nLa consola tiene un parabrisas envolvente y pasamanos que hacen mucho más seguro el movimiento por los dos pasillos laterales simétricos."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Puntos principales",
+   "items": [
+    {
+     "titulo": "Sensaciones al timón",
+     "texto": "El Flyer 7 tiene el casco Air Step® 2, que despega rápido y es mucho más estable incluso a toda velocidad."
+    },
+    {
+     "titulo": "Remolcable",
+     "texto": "Muy amplio y práctico, otra característica importante del Flyer 7 SUNdeck es que se puede remolcar."
+    },
+    {
+     "titulo": "Cockpit",
+     "texto": "El salón del cockpit es sorprendentemente grande.\nAcoge hasta 6 personas, gracias a los asientos giratorios con apoyo y las bancas laterales integradas."
+    }
+   ]
+  }
+ ]
+}

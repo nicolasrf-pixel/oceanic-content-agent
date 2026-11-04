@@ -1,0 +1,53 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/first/first-24",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-first-24.page.json",
+ "intro": [
+  "Un pequeño crucero inteligente, un divertido barco de día o un emocionante barco de regata de club, todo en uno: cumple la promesa First de una navegación moderna de alto rendimiento. Duerme fácilmente hasta 4 personas y al mismo tiempo ofrece una experiencia a vela divertida, emocionante y moderna. Una quilla completamente retráctil te da acceso a lugares de crucero que te habías perdido y la posibilidad de botar y recuperar tu 24 en una rampa común, lo que abre nuevas oportunidades. Te llevará en relajados cruceros familiares y emocionantes días de navegación, y traerá trofeos a casa de las regatas de club.\nConcepto e I+D: Seascape"
+ ],
+ "bloques": [
+  {
+   "titulo": "Experiencia a vela",
+   "texto": [
+    "El First 24 muestra su verdadera naturaleza bajo vela. Un casco planeador plano y moderno y una quilla profunda lastrada ofrecen una navegación rápida y divertida. La forma del casco y la quilla pivotante profunda dan una gran estabilidad, y los dos timones aseguran el control total en cualquier condición. Gracias a su casco muy liviano, avanza y sigue avanzando incluso con la brisa más suave. Gracias a un cockpit amplio, disfrutarás de un manejo fácil en solitario, en dupla o con tripulación completa, ya sea relajándote en una tarde de navegación, compitiendo en una regata de club o de crucero con tu familia. En cualquier modo, te sorprenderá con una navegación divertida, cómoda y relajada."
+   ]
+  },
+  {
+   "titulo": "La vida a bordo",
+   "texto": [
+    "El interior te recibe con un gran salón abierto que acoge fácilmente hasta 4 adultos, 2 en la litera en V de proa y 2 en ingeniosas literas laterales extensibles. Ofrece todo lo esencial que puedes esperar de un barco moderno de 7,30 m: bolsos para las pertenencias personales, almacenamiento bajo las bancas, mesas para interior y exterior y un lugar dedicado al inodoro químico al fondo del salón. Para el almacenamiento técnico hay un gran espacio bajo el cockpit, accesible desde el exterior. El cockpit abierto, amplio y despejado ofrece una excelente relación entre comodidad y experiencia a vela. Las anchas bancas laterales, junto con una banca de popa, son un gran lugar para relajarse; además te mantienen conectado y cerca de la naturaleza, ya que el cockpit acoge fácilmente a 4 o 5 navegantes."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "¿Por qué el First 24?",
+   "items": [
+    {
+     "titulo": "Moderno",
+     "texto": "Infusión al vacío avanzada de GRP, estructura muy liviana, forma de casco moderna, quilla profunda y dos timones definen el carácter del barco y su experiencia a vela: un velero planeador moderno, estable, rápido y fácil de controlar."
+    },
+    {
+     "titulo": "Inteligente",
+     "texto": "El interior es un amplio espacio abierto con suficiente comodidad y todos los elementos clave para vivir a bordo. Duerme cómodamente 4 adultos y tiene una mesa plegable para interior y exterior e incluso un lugar dedicado al inodoro químico."
+    },
+    {
+     "titulo": "Móvil",
+     "texto": "La quilla retráctil hace más fácil que nunca el transporte por carretera, el almacenamiento de invierno y la botadura en rampa. Una grúa provisoria para el mástil te hace independiente de las instalaciones en tierra. En el agua, te permite descubrir los lugares más escondidos y de poca profundidad."
+    },
+    {
+     "titulo": "Seguro",
+     "texto": "A pesar de ser moderno y rápido, es muy seguro. Sus cámaras de flotabilidad lo hacen insumergible, la quilla pivotante protege la estructura en caso de varada y un sistema de dos timones bien equilibrado te da el control total."
+    }
+   ]
+  }
+ ]
+}

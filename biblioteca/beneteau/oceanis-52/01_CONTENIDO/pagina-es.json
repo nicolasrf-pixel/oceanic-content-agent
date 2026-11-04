@@ -1,0 +1,42 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/oceanis/oceanis-52",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-oceanis-52.page.json",
+ "portada": {
+  "titular": "Un paso más allá, pensado para emocionarte"
+ },
+ "intro": [
+  "Elegancia, innovación y herencia se reúnen en el Oceanis 52, que marca nuevos estándares de comodidad y precisión. Diseñado para navegantes exigentes y sin concesiones, ofrece la libertad de explorar los mares del mundo con total seguridad y una comodidad notable."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Te encantará el Oceanis 52 por sus líneas de popa estilizadas y el equilibrio perfecto de su elegante silueta. Su marcado pantoque le da una elegancia audaz y dinámica, mientras el generoso cockpit, posible gracias a la manga máxima que se extiende hasta el espejo de popa, es un sello de los cascos Biscontini. Este diseño único da un espacio de vida excepcional, con un 30% más de espacio que el Oceanis 51.1, y marca un nuevo estándar de comodidad.\nEl cockpit del Oceanis 52 combina ergonomía y fluidez. Las dos bancas en C crean un espacio en forma de diamante, que facilita moverse entre la bajada y la plataforma de baño levadiza. Con dos mesas de altura regulable, el cockpit es perfecto para cada momento del crucero: aperitivos, comidas o tomar sol. Una zona de asientos central, con refrigerador y plancha, hará más especial cada fondeo.\nNavegando, el cockpit de popa se convierte en una estación de maniobra intuitiva, con una clara separación entre winches primarios y secundarios, que facilita mantener los cabos ordenados. El peldaño da un acceso seguro al pasillo. Al timón, el patrón traza su rumbo con precisión con una pantalla de 12 pulgadas que da una excelente comodidad visual con cualquier clima."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Un nuevo estándar para el crucero",
+   "items": [
+    {
+     "titulo": "La suite del armador",
+     "texto": "Te encantará la suite del armador, el centro de este increíble interior, por su amplitud y su ambiente premium. Diseñada para la máxima comodidad, tiene cabecera tapizada, una amplia cama de 160 cm y mucho almacenamiento: dos roperos, grandes compartimentos en las brazolas y un gran cajón bajo la cama. La luz natural entra por grandes portillos con una impresionante vista al mar, mientras los focos antideslumbrantes y los LED ambientales de blanco cálido crean un ambiente íntimo de noche.\nCada detalle se diseñó con cuidado para crear una experiencia donde estilo, elegancia y comodidad se unen para momentos inolvidables a bordo."
+    },
+    {
+     "titulo": "Foco en el rendimiento",
+     "texto": "El Oceanis 52 es, ante todo, un yate diseñado para navegar. Fácil de manejar, se adapta con facilidad a todo tipo de navegación.\nLa versión estándar viene con mástil enrollador y foque autovirante, lo que garantiza una maniobrabilidad óptima incluso con poca tripulación."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "portada": {
+  "titular": "Un weekender que da en el tono justo"
+ },
+ "intro": [
+  "Con una eslora total de 11 metros, el nuevo buque insignia de la flota Antares es la ilustración perfecta de un crucero familiar.\nSeguro, ideal para cruceros y marinero, el diseño contemporáneo de este barco a motor se centra en la comodidad y el espacio, así como en la seguridad y la innovación."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Fruto de una nueva colaboración entre BENETEAU y Sarrazin Design, su silueta moderna y enérgica se realza con las amplias superficies vidriadas de la timonera, que dan una luz óptima a bordo.\nMuchas soluciones modulares inteligentes hacen muy agradable la vida a bordo."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "La luz y la comodidad de crucero caracterizan a este gran weekender.\nEl camarote principal doble, con baño y ducha en suite, está muy por sobre los estándares habituales. El camarote de popa ocupa toda la manga y tiene tres literas. El Antares 11 tiene un salón convertible y puede acoger hasta 7 personas en excelentes condiciones. Los amplios ventanales de la timonera ofrecen una vista impresionante en todas direcciones."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Más que un weekender",
+   "items": [
+    {
+     "titulo": "Innovaciones",
+     "texto": "Sus muchas soluciones innovadoras aseguran un alto nivel de comodidad: solárium de popa, plataforma de baño lateral que crea una terraza con vista al mar y cubierta a ras que conecta casi sin transición con el cockpit y la timonera."
+    },
+    {
+     "titulo": "Seguridad",
+     "texto": "Francobordos altos, pasillos amplios, circulación fácil y un excelente comportamiento en el mar aseguran la máxima seguridad en este gran crucero familiar a motor."
+    },
+    {
+     "titulo": "Rendimiento",
+     "texto": "Potentes motores fueraborda de hasta 2 x 300 hp y un casco bien protegido aseguran un excelente rendimiento."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/antares-outboard/antares-11-ob",
+ "gama": [
+  "Antares 12 Coupe",
+  "Antares 7",
+  "Antares 7 Fishing",
+  "Antares 8",
+  "Antares 8 Fishing",
+  "Antares 9",
+  "Antares 11 Fly",
+  "Antares 12 Fly"
+ ]
+}

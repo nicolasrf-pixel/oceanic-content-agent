@@ -1,0 +1,55 @@
+{
+ "portada": {
+  "titular": "El weekender familiar definitivo"
+ },
+ "intro": [
+  "Más innovador y versátil que nunca, el nuevo Antares 8 tiene una serie de nuevas funciones de ocio, para que disfrutes la máxima comodidad y navegues con el estilo y la elegancia propios de esta gama icónica.\nUn barco sumamente versátil, perfecto para relajarse con amigos o salir de crucero por unos días."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Con sus líneas estilizadas y su aire deportivo, el Antares 8 encaja perfectamente en la línea de weekenders de la marca. Su impactante diseño combina estilo y elegancia con un perfil limpio y aerodinámico que le da al barco su sensación deportiva. Las versiones Cruising y Fishing tienen dos estéticas distintas: la Cruising, con su silueta estilizada y contemporánea, y la Fishing, decididamente más deportiva."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El Antares 8 tiene todo lo necesario para navegar por la costa con total comodidad: una cocina con refrigerador y anafe a gas o eléctrico.\nEl barco tiene dos camas dobles, una en la cabina y otra en la timonera, y puede alojar hasta cinco pasajeros. También se puede armar una litera extra en el espacio bajo el salón."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "El weekender familiar definitivo",
+   "items": [
+    {
+     "titulo": "Habitabilidad y modularidad",
+     "texto": "Las grandes plataformas a ras facilitan subir al barco y son excelentes para bañarse en el mar. Además, el ancho pasillo de estribor facilita ir de popa a proa, con su enorme solárium.\nA popa, el cockpit modular asegura a la tripulación una conducción cómoda y segura. La nueva mesa plegable del salón permite convertir las bancas en un gran solárium y es perfecta para compartir comidas a bordo con tus pasajeros."
+    },
+    {
+     "titulo": "Equipamiento pensado especialmente para los aficionados a la pesca",
+     "texto": "Diseñado para salidas de pesca físicamente exigentes, el Antares 8 Fishing tiene un cockpit abierto que facilita el movimiento por el barco; todo está perfectamente pensado, hasta el más mínimo detalle. La banca de popa se reemplaza por una estación de pesca con portacañas de nivel profesional. Además del vivero con recirculación, esta versión Fishing tiene tres compartimentos de almacenamiento bajo el puente, uno de los cuales puede llevar un vivero."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/antares-outboard/antares-8",
+ "gama": [
+  "Antares 12 Coupe",
+  "Antares 7",
+  "Antares 7 Fishing",
+  "Antares 8 Fishing",
+  "Antares 9",
+  "Antares 11 Coupe",
+  "Antares 11 Fly",
+  "Antares 12 Fly"
+ ]
+}

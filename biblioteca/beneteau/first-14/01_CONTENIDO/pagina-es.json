@@ -1,0 +1,50 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/first/first-14",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-first-14.page.json",
+ "portada": {
+  "titular": "Un dinghy liviano y rápido, pensado para el navegante"
+ },
+ "intro": [
+  "El First 14 acerca el mundo moderno de los dinghies rápidos y planeadores a quienes empiezan a navegar. Es un dinghy liviano, rápido y emocionante, pensado para el navegante. La promesa de un velero accesible, fácil de manejar y, ante todo, divertido se cumple con un diseño, una tecnología de construcción y materiales de calidad que además simplifican el mantenimiento.\nConcepto e I+D: Seascape"
+ ],
+ "bloques": [
+  {
+   "titulo": "Experiencia a vela",
+   "texto": [
+    "El First 14 es un dinghy de iniciación ideal para uno o dos navegantes: una puerta de entrada única a la navegación moderna, que ofrece una experiencia emocionante en un barco fácil de manejar y accesible. El foque enrollable y autovirante, el casco ancho y estable y el cockpit amplio y abierto, sin cabos enredados, garantizan diversión sin fin en el agua. Está diseñado para navegarse sin trapecio, y puedes ajustar fácilmente la superficie vélica según la fuerza del viento o el tamaño de la tripulación sin perder la experiencia a vela, gracias a dos posiciones de orza. Con un equipamiento de cubierta fácil de mantener, aparejo de aluminio y velas de dacrón, es un barco sin complicaciones."
+   ]
+  },
+  {
+   "titulo": "Movilidad 2.0",
+   "texto": [
+    "La libertad en el agua aumenta con unas ruedas removibles únicas, que te permiten explorar costas lejanas sin necesidad de volver al punto de partida. Las playas más escondidas, salvajes y hermosas ahora son accesibles como nunca antes.\nEn tierra, es lo bastante liviano para transportarse en el techo del auto, así que podrás llevarlo a todas partes. Gracias al diseño de bancas planas, se transporta fácilmente boca abajo, y el mástil desarmable y el equipo caben fácilmente en el casco, así que el maletero del auto queda libre para las cosas de tu familia."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "¿Por qué el First 14?",
+   "items": [
+    {
+     "titulo": "Manejo fácil",
+     "texto": "Un dinghy de iniciación muy fácil de manejar gracias a un diseño inteligente: casco estable; cockpit grande, despejado y ergonómico; cabos de control simplificados, foque enrollable y autovirante, sistema de recogida del gennaker, botavara más alta y sin trapecio."
+    },
+    {
+     "titulo": "Solo o de a dos",
+     "texto": "Se adapta tanto a tripulaciones de una como de dos personas sin perder la experiencia a vela, gracias a dos posiciones de orza y un foque enrollable para cambiar la superficie sobre la marcha. Ideal para iniciarse en la vela."
+    },
+    {
+     "titulo": "Liviano y rápido",
+     "texto": "Un casco planeador liviano, moderno, ancho y plano y una proa que corta las olas dan como resultado un dinghy muy estable, construido con tecnología de sándwich por infusión al vacío de alta calidad."
+    },
+    {
+     "titulo": "Estable y seguro",
+     "texto": "La forma de casco moderna, ancha y plana, con pantoques marcados y proa penetrante, da como resultado un dinghy extremadamente estable y seguro, que da a la tripulación suficiente palanca para sacar el cuerpo. Por eso se navega fácilmente sin trapecio."
+    }
+   ]
+  }
+ ]
+}

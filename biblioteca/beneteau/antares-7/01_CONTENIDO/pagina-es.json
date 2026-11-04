@@ -1,0 +1,52 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/antares-outboard/antares-7",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-antares-7.page.json",
+ "portada": {
+  "titular": "Muchas novedades, para más comodidad y versatilidad"
+ },
+ "intro": [
+  "Pensado especialmente para el mercado del ocio familiar, el Antares 7 adopta soluciones innovadoras que lo convierten en la elección perfecta para salidas más largas. El equipamiento está pensado para que la navegación y la vida a bordo sean lo más cómodas posible, y lo convierte en un weekender relajado y versátil.\nFácil de transportar por carretera, el Antares 7 promete muchos nuevos descubrimientos y experiencias de navegación costera."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Antares 7 luce con orgullo un estilo enérgico y dinámico.\nSus líneas tensas y limpias le dan un aire deportivo, como la defensa perimetral que le da al barco su silueta esbelta y elegante. Esta nueva unidad afirma su propio carácter manteniendo los rasgos característicos de la gama Antares. Su cockpit, levemente desplazado a babor, deja un pasillo ancho a estribor que facilita el acceso al solárium de proa."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El cuidado puesto en el diseño de la silueta del Antares 7 continúa en el salón, que tiene un puesto de mando especialmente atractivo. Con un tablero completamente negro de una sola pieza, complementa con elegancia la terminación general del barco. Las numerosas ventanas y aberturas de ventilación ofrecen a todos los pasajeros excelentes vistas panorámicas y una ventilación muy buena. Los numerosos espacios de almacenamiento y la modularidad de la cabina hacen muy cómoda la vida a bordo."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Puerta lateral de estribor",
+     "texto": "La puerta lateral de estribor facilita aún más el atraque y crea un acceso adicional y seguro al mar para nadar o subir peces a bordo."
+    },
+    {
+     "titulo": "Amplio cockpit en U",
+     "texto": "El cockpit acoge cómodamente hasta 5 personas. Todos los asientos y la gran mesa plegable se pueden convertir en un amplio solárium."
+    },
+    {
+     "titulo": "Salón cómodo",
+     "texto": "El salón del Antares 7 ofrece una comodidad sobresaliente. La modularidad aumenta con un asiento de piloto giratorio y una banca de copiloto que se abate en un instante para quedar frente a la segunda banca o para formar una litera. La cocina está detrás del asiento del piloto."
+    }
+   ]
+  }
+ ]
+}

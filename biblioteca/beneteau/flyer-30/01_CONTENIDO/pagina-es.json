@@ -1,0 +1,46 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/flyer/flyer-30",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-flyer-30.page.json",
+ "portada": {
+  "titular": "Una nueva forma de vivir el mar."
+ },
+ "intro": [
+  "Diseñado para ir más lejos, quedarse más tiempo y reunir a las personas con una comodidad notable, el Flyer 30 presenta una nueva expresión del espíritu Flyer. Elegante, versátil y seguramente capaz, reimagina el day boat con una arquitectura refinada, una protección bien pensada y un diseño social continuo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Flyer 30 trae a la gama un lenguaje de diseño refinado, definido por la continuidad, la liviandad y la elegancia contemporánea.\nDel casco al hardtop, cada línea se pensó con cuidado para crear un flujo arquitectónico continuo. La silueta se siente fuerte y a la vez serena, impactante sin ser nunca excesiva. Líneas de visión abiertas, proporciones equilibradas y un efecto de techo flotante dan al barco una presencia característica en el agua y refuerzan la sensación de conexión con el horizonte.\nEs un diseño que no busca llamar la atención con excesos. Se la gana con armonía."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El Flyer 30 nace de una idea simple: tu tiempo en el agua debe sentirse natural, fluido y compartido.\nSu cubierta asimétrica de un solo nivel crea una circulación continua por todo el barco, hace el movimiento más intuitivo y abre cada espacio al siguiente. El resultado es una distribución que se siente más liviana, más social y más acogedora desde cualquier ángulo.\nCada zona se diseñó para reducir las fricciones y acompañar cómo las personas viven a bordo hoy: moverse, reunirse, relajarse y disfrutar el momento juntos."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Una nueva forma de vivir el mar",
+   "items": [
+    {
+     "titulo": "Elegancia contemporánea, fiel a Beneteau",
+     "texto": "El Flyer 30 trae a la gama un nuevo lenguaje de diseño refinado, con líneas limpias, volúmenes equilibrados y un flujo continuo del casco al hardtop. Su línea de techo flotante crea una sensación liviana y abierta y a la vez protege de los elementos. Líneas de visión abiertas y detalles cuidadosamente pensados refuerzan la conexión con el agua, el horizonte y la luz. El resultado es una presencia característica, segura, contemporánea e inconfundiblemente BENETEAU."
+    },
+    {
+     "titulo": "Un diseño pensado en el estilo de vida",
+     "texto": "Diseñado en torno a cómo las personas pasan hoy su tiempo en el agua, el Flyer 30 hace que cada momento se sienta más natural, social y fácil. Una cubierta asimétrica de un solo nivel permite moverse de forma intuitiva entre el salón de proa, el puesto de mando, el cockpit y el agua. Asientos generosos, disposiciones de popa flexibles y espacio para hasta tres personas al timón invitan a todos a ser parte de la experiencia. Bajo cubierta, comodidades integradas prolongan el disfrute mucho más allá de un día en el agua."
+    },
+    {
+     "titulo": "Diseñado para ir más allá",
+     "texto": "El Flyer 30 está diseñado para dar a los navegantes la confianza de quedarse más tiempo y explorar más lejos. Su casco de doble step ofrece un rendimiento eficiente, mayor sustentación y un manejo sereno y predecible cuando cambian las condiciones. Dos motores fueraborda, un puesto de mando pensado para el conductor y un parabrisas completo combinan respuesta con facilidad y protección en el día a día. Con una capacidad de combustible de 210 galones estadounidenses, es un day boat de 30 pies hecho para una autonomía real y más libertad en el agua."
+    }
+   ]
+  }
+ ]
+}

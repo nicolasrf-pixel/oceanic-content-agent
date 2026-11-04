@@ -1,0 +1,54 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/first/first-30",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-first-30.page.json",
+ "portada": {
+  "titular": "¡La alegría de planear sin esfuerzo, para todos!"
+ },
+ "intro": [
+  "El nuevo BENETEAU First 30 es una celebración del rendimiento, la comodidad y la innovación, perfecto para la próxima generación de navegantes. Ofrece la sensación de planear, un manejo fácil, seguridad y comodidad de crucero: una combinación única de cualidades, digna del sucesor moderno del legendario First 30 de 1977.\n¡Bienvenido a una nueva categoría de veleros: los cruceros planeadores!\nInnovación e investigación: BENETEAU y Seascape"
+ ],
+ "bloques": [
+  {
+   "titulo": "Experiencia a vela",
+   "texto": [
+    "Pocas sensaciones se comparan con el momento en que un velero empieza a planear: un emocionante «despegue» cuando el barco se libera de las cadenas de la velocidad de desplazamiento. Hasta ahora, esta experiencia requería habilidades avanzadas. Con el nuevo BENETEAU First 30, la alegría de planear se vuelve fácil y accesible para todos, ya seas un regatista experimentado o recién te inicies en la vela.\nLa cubierta y el generoso cockpit se diseñaron con dos objetivos: minimizar los obstáculos para crear una zona de descanso amplia y cómoda, y asegurar una ergonomía de navegación sobresaliente."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "¿Por qué el First 30?",
+   "items": [
+    {
+     "titulo": "¡La alegría de planear sin esfuerzo, para todos!",
+     "texto": "Con su amplia experiencia y su herencia, BENETEAU lanza una nueva categoría de veleros: el crucero planeador. Redefine la navegación en barcos pequeños combinando un rendimiento sobresaliente con una facilidad de uso sin igual, y ofrece la comodidad de un crucero completamente equipado."
+    },
+    {
+     "titulo": "Para navegantes como TÚ",
+     "texto": "La combinación de un casco moderno de regata, liviandad, un equipamiento de cubierta cuidadosamente elegido y winches de buen tamaño lo hace fácil de manejar para todos los tripulantes, sin importar su fuerza física. El nuevo First 30 lleva la emoción de planear a una amplia variedad de navegantes con experiencia y además inspira nuevos proyectos en el estilo de vida de la vela."
+    },
+    {
+     "titulo": "Planear es DIVERTIDO",
+     "texto": "Vive la diversión de planear rápido, una sensación reservada hasta ahora a los navegantes profesionales, los windsurfistas y las lanchas planeadoras. El First 30 lo convierte en un paseo alegre todos los días con al menos viento medio. Disfrutarás deslizándote sin esfuerzo sobre el agua, ya sea de crucero con tu familia o compitiendo con tu equipo."
+    },
+    {
+     "titulo": "Un nuevo estilo de ACOGEDOR",
+     "texto": "Bajo cubierta, la reinvención innovadora de todo lo esencial para el crucero se combina con la simplicidad para asegurar una estadía acogedora y cómoda a bordo."
+    },
+    {
+     "titulo": "Rápido es SEGURO",
+     "texto": "Ir rápido solo es divertido si te sientes seguro y con el control. El First 30 ofrece una estabilidad y una seguridad excepcionales gracias a su diseño moderno, su construcción sólida y sus dos timones. Por eso es increíblemente fácil de manejar, y siempre mantienes el control. Aunque mide solo 30 pies, su certificación oceánica Clase A subraya su seguridad y navegabilidad."
+    }
+   ]
+  }
+ ]
+}
