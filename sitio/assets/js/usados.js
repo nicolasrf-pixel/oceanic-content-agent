@@ -5,29 +5,35 @@
   var empty=document.getElementById('empty');
   var AB=(document.body.dataset.assetBase||'../assets/img/')+'usados/';
   var filtro='';
+  function esc(v){ return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  function src(f){  // {url, local} del build, o ruta/URL subida desde el CMS
+    if(f&&typeof f==='object') return f.local?AB+f.local:(f.url||'');
+    f=String(f||''); return /^(https?:)?\/\//.test(f)||f.charAt(0)==='/'?f:AB+f.replace(/^usados\//,'');
+  }
 
   function foto(u){
-    var f=(u.fotos&&u.fotos.length)?u.fotos[0].local:null;
-    if(f) return '<img src="'+AB+f+'" alt="'+u.nombre+'" loading="lazy" onerror="this.closest(\'.uc-img\').classList.add(\'is-noimg\')">';
+    var f=(u.fotos&&u.fotos.length)?src(u.fotos[0]):null;
+    if(f) return '<img src="'+esc(f)+'" alt="'+esc(u.nombre)+'" loading="lazy" onerror="this.closest(\'.uc-img\').classList.add(\'is-noimg\')">';
     return '';
   }
   function card(u){
     var vend=u.estado==='vendido';
     var tiene=u.fotos&&u.fotos.length;
-    return '<a class="uc'+(vend?' e-vendido':'')+'" href="barco/index.html?id='+u.id+'">'+
+    return '<a class="uc'+(vend?' e-vendido':'')+'" href="barco/index.html?id='+encodeURIComponent(u.id)+'">'+
       '<div class="uc-img'+(tiene?'':' is-noimg')+'">'+(vend?'<span class="uc-estado uc-vendido">Vendido</span>':'')+
       foto(u)+
-      '<div class="uc-noimg"><span>'+(u.marca&&u.marca!=='·'?u.marca:u.nombre)+'</span></div></div>'+
-      '<div class="uc-body"><div class="uc-top"><span class="uc-name">'+u.nombre+'</span>'+
-      (u.anio?'<span class="uc-anio">'+u.anio+'</span>':'')+'</div>'+
-      (u.marca&&u.marca!=='·'?'<span class="uc-meta">'+u.marca+'</span>':'')+
-      '<span class="uc-resumen">'+u.resumen+'</span>'+
-      '<span class="uc-precio">'+u.precio+'</span></div></a>';
+      '<div class="uc-noimg"><span>'+esc(u.marca&&u.marca!=='·'?u.marca:u.nombre)+'</span></div></div>'+
+      '<div class="uc-body"><div class="uc-top"><span class="uc-name">'+esc(u.nombre)+'</span>'+
+      (u.anio?'<span class="uc-anio">'+esc(u.anio)+'</span>':'')+'</div>'+
+      (u.marca&&u.marca!=='·'?'<span class="uc-meta">'+esc(u.marca)+'</span>':'')+
+      '<span class="uc-resumen">'+esc(u.resumen)+'</span>'+
+      '<span class="uc-precio">'+esc(u.precio)+'</span></div></a>';
   }
 
   function render(){
     var lista=U.filter(function(u){ return !filtro||u.tipo===filtro; });
-    lista.sort(function(a,b){ return (a.estado==='vendido')-(b.estado==='vendido'); });
+    // vendidos al final; dentro de cada grupo, el más nuevo primero (fecha de publicación)
+    lista.sort(function(a,b){ return ((a.estado==='vendido')-(b.estado==='vendido')) || String(b.fecha||'').localeCompare(String(a.fecha||'')); });
     grid.innerHTML=lista.map(card).join('');
     if(cont) cont.textContent=lista.length;
     if(empty) empty.hidden=lista.length>0;

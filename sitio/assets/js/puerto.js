@@ -1,39 +1,39 @@
-/* OCEANIC, Puerto: renderiza ediciones desde puerto-data.js */
-(function(){
-  var P=window.OCEANIC_PUERTO, cont=document.getElementById('puertoEd');
-  if(!P||!cont||!P.length) return;
-  var AB='../assets/img/';
+/* OCEANIC · Puerto: índice de ediciones (puerto-data.js, lo administra el CMS).
+   Ordena por fecha (la más nueva es la destacada). Todo el texto se escapa antes de insertarlo. */
+(function () {
+  'use strict';
+  var P = (window.OCEANIC_PUERTO || []).slice(), cont = document.getElementById('puertoEd');
+  if (!cont) return;
+  var AB = document.body.dataset.assetBase || '../assets/img/';
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function img(p) { p = String(p || ''); if (!p) return ''; if (/^(https?:)?\/\//.test(p) || p.charAt(0) === '/') return p; return AB + p + (/\.\w{3,4}$/.test(p) ? '' : '.webp'); }
+  function url(ed) { return 'edicion/?ed=' + encodeURIComponent(ed.slug); }
+  function titulares(ed) { return (ed.bloques || []).filter(function (b) { return b.titular; }); }
 
-  var destacada=P[0], resto=P.slice(1);
+  P.sort(function (a, b) { return String(b.fecha || '').localeCompare(String(a.fecha || '')); });
+  if (!P.length) { cont.innerHTML = '<section class="parch2"><div class="wrap-wide"><p class="parch-lede">Pronto, la primera edición.</p></div></section>'; return; }
+  var d = P[0], resto = P.slice(1);
 
-  function notas(ed){
-    return '<ul class="ped-notas">'+ed.notas.map(function(n){
-      return '<li><b>'+n.titular+'</b><span>'+n.bajada+'</span></li>';
-    }).join('')+'</ul>';
-  }
+  var feat = '<section class="pfeat2"><div class="wrap-wide">' +
+    '<div class="sec-head"><span class="eyebrow">Última edición</span><span class="rule"></span></div>' +
+    '<a class="pfeat2-grid" href="' + url(d) + '" style="text-decoration:none;color:inherit">' +
+      '<div class="pfeat2-img">' + (d.portada ? '<img src="' + esc(img(d.portada)) + '" alt="Puerto ' + esc(d.mes) + '">' : '') + '</div>' +
+      '<div class="pfeat2-body"><span class="pfeat2-mes">' + esc(d.mes) + '</span>' +
+      '<p class="pfeat2-res">' + esc(d.resumen) + '</p>' +
+      '<ul class="ped-notas">' + titulares(d).map(function (b) {
+        return '<li><b>' + esc(b.titular) + '</b>' + (b.bajada ? '<span>' + esc(b.bajada) + '</span>' : '') + '</li>';
+      }).join('') + '</ul><p class="pfeat-link" style="margin-top:22px">Leer la edición →</p></div>' +
+    '</a></div></section>';
 
-  // destacada
-  var feat='<section class="pfeat2"><div class="wrap-wide">'+
-    '<div class="sec-head"><span class="eyebrow">Última edición</span><span class="rule"></span></div>'+
-    '<div class="pfeat2-grid">'+
-      '<div class="pfeat2-img"><img src="'+AB+destacada.portada+'.webp" alt="Puerto '+destacada.mes+'"></div>'+
-      '<div class="pfeat2-body"><span class="pfeat2-mes">'+destacada.mes+'</span>'+
-      '<p class="pfeat2-res">'+destacada.resumen+'</p>'+notas(destacada)+'</div>'+
-    '</div></div></section>';
-
-  // archivo
-  var arch='';
-  if(resto.length){
-    arch='<section class="parch2"><div class="wrap-wide">'+
-      '<div class="sec-head"><span class="eyebrow">El archivo</span><span class="rule"></span></div>'+
-      '<h2 class="parch2-h2">Ediciones anteriores</h2>'+
-      '<div class="parch2-grid">'+resto.map(function(ed){
-        return '<article class="ped2"><div class="ped2-img"><img src="'+AB+ed.portada+'.webp" alt="Puerto '+ed.mes+'" loading="lazy"></div>'+
-          '<div class="ped2-body"><span class="ped2-mes">'+ed.mes+'</span>'+
-          '<p class="ped2-res">'+ed.resumen+'</p>'+
-          '<ul class="ped2-notas">'+ed.notas.map(function(n){return '<li>'+n.titular+'</li>';}).join('')+'</ul>'+
-          '</div></article>';
-      }).join('')+'</div></div></section>';
-  }
-  cont.innerHTML=feat+arch;
+  var arch = resto.length ? '<section class="parch2"><div class="wrap-wide">' +
+    '<div class="sec-head"><span class="eyebrow">El archivo</span><span class="rule"></span></div>' +
+    '<h2 class="parch2-h2">Ediciones anteriores</h2><div class="parch2-grid">' + resto.map(function (ed) {
+      return '<a class="ped2" href="' + url(ed) + '" style="text-decoration:none;color:inherit">' +
+        '<div class="ped2-img">' + (ed.portada ? '<img src="' + esc(img(ed.portada)) + '" alt="Puerto ' + esc(ed.mes) + '" loading="lazy">' : '') + '</div>' +
+        '<div class="ped2-body"><span class="ped2-mes">' + esc(ed.mes) + '</span>' +
+        '<p class="ped2-res">' + esc(ed.resumen) + '</p>' +
+        '<ul class="ped2-notas">' + titulares(ed).map(function (b) { return '<li>' + esc(b.titular) + '</li>'; }).join('') + '</ul>' +
+        '</div></a>';
+    }).join('') + '</div></div></section>' : '';
+  cont.innerHTML = feat + arch;
 })();

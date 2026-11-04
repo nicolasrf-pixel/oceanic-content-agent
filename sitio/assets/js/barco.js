@@ -12,6 +12,16 @@
   }
 
   document.title = U.nombre + ', Usados | Oceanic';
+  // Todo el texto viene del CMS: se escapa una vez aquí (R conserva el original para atributos y WhatsApp).
+  function esc(v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function fotoSrc(f) {  // {url, local} del build, o ruta/URL subida desde el CMS
+    if (f && typeof f === 'object') return f.local ? AB + f.local : (f.url || '');
+    f = String(f || ''); return /^(https?:)?\/\//.test(f) || f.charAt(0) === '/' ? f : AB + f.replace(/^usados\//, '');
+  }
+  function enlace(h) { h = String(h || '').trim(); return /^https?:\/\//i.test(h) || (/^[\/#?.\w]/.test(h) && !/^[a-z][a-z0-9+.-]*:/i.test(h) && !/^\/\//.test(h)) ? h : ''; }
+  var R = U;
+  U = { id: R.id, nombre: esc(R.nombre), marca: esc(R.marca), tipo: R.tipo, anio: esc(R.anio), precio: esc(R.precio),
+    estado: R.estado, resumen: esc(R.resumen), texto: esc(R.texto), fotos: R.fotos, docs: (R.docs || []).map(enlace).filter(Boolean) };
   var vendido = U.estado === 'vendido';
   var TIPO = { motor: 'A motor', vela: 'Vela', catamaran: 'Catamarán' }[U.tipo] || '';
   var estadoTag = {
@@ -21,14 +31,14 @@
   }[U.estado] || '';
 
   /* ---------- galería ---------- */
-  var fotos = (U.fotos || []).map(function (f) { return f.local; });
+  var fotos = (U.fotos || []).map(fotoSrc).filter(Boolean).map(esc);
   var galeria;
   if (fotos.length) {
     galeria = '<div class="b-gal">' +
-      '<div class="b-gal-main"><img src="' + AB + fotos[0] + '" alt="' + U.nombre + '" ' +
+      '<div class="b-gal-main"><img src="' + fotos[0] + '" alt="' + U.nombre + '" ' +
         'onerror="this.closest(\'.b-gal\').classList.add(\'is-noimg\')"></div>' +
       (fotos.length > 1 ? '<div class="b-gal-side">' + fotos.slice(1, 3).map(function (im) {
-        return '<img src="' + AB + im + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+        return '<img src="' + im + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
       }).join('') + '</div>' : '') +
       '<div class="b-gal-ph"><span>' + (U.marca && U.marca !== '·' ? U.marca : U.nombre) + '</span></div>' +
     '</div>';
@@ -87,7 +97,7 @@
 
   var docsSec = (U.docs && U.docs.length) ? '<div class="b-docs"><h2 class="b-h2">Documentos</h2><ul class="b-docs-list">' +
     U.docs.map(function (d) {
-      return '<li><a href="' + d + '" target="_blank" rel="noopener">Descargar documento adjunto ↗</a></li>';
+      return '<li><a href="' + esc(d) + '" target="_blank" rel="noopener">Descargar documento adjunto ↗</a></li>';
     }).join('') + '</ul></div>' : '';
 
   var sinInfo = (!prosa.length && !specs.length && !items.length) ?
@@ -102,7 +112,7 @@
       '<li><b>Cierre y entrega</b><span>Acompañamos la transferencia y quedamos disponibles después.</span></li>' +
     '</ol></div>';
 
-  var waTxt = encodeURIComponent('Hola Oceanic, me interesa el ' + U.nombre + (U.anio ? ' (' + U.anio + ')' : '') + ' que vi en usados.');
+  var waTxt = encodeURIComponent('Hola Oceanic, me interesa el ' + R.nombre + (R.anio ? ' (' + R.anio + ')' : '') + ' que vi en usados.');
   var wa = 'https://wa.me/56229537322?text=' + waTxt;
 
   var meta = [U.anio, (U.marca && U.marca !== '·' ? U.marca : ''), TIPO].filter(Boolean).join(' · ');
@@ -110,7 +120,7 @@
   function cAttr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
   // botones que bajan al formulario de la página (el mismo en todas las fichas de barco)
   function irBtn(txt, cls){ return '<a href="#consultar" class="' + (cls||'btn') + '" data-ir-form>' + txt + '</a>'; }
-  var nombreFicha = U.nombre + (U.anio ? ' (' + U.anio + ')' : '');
+  var nombreFicha = R.nombre + (R.anio ? ' (' + R.anio + ')' : '');
   var HP = '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
   var formulario =
     '<div class="two talk-form">' +
@@ -123,7 +133,7 @@
         '<span class="talk-or">o déjanos tus datos y te escribimos →</span>' +
       '</div>' +
       '<div>' +
-        '<form data-form="usado" data-modelo="' + cAttr(nombreFicha) + '" data-marca="' + cAttr('Usado' + (U.marca && U.marca !== '·' ? ' · ' + U.marca : '')) + '" data-ok="#cokUsado" novalidate>' + HP +
+        '<form data-form="usado" data-modelo="' + cAttr(nombreFicha) + '" data-marca="' + cAttr('Usado' + (R.marca && R.marca !== '·' ? ' · ' + R.marca : '')) + '" data-ok="#cokUsado" novalidate>' + HP +
           '<div class="row">' +
             '<div><label for="cz-n">Nombre</label><input id="cz-n" name="nombre" required autocomplete="name"></div>' +
             '<div><label for="cz-e">Correo</label><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email"></div>' +

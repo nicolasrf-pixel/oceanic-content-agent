@@ -6,6 +6,7 @@
    Regla: un bloque de la maqueta sin datos oficiales no se muestra. */
 (function () {
   'use strict';
+  function IMG(b, p) { return /^(https?:)?\/\/|^\//.test(p) ? p : b + p; }  // /media/... del CMS o URL completa: tal cual
 
   // Configurador oficial de Axopar incrustado en la ficha: SOLO Axopar y SOLO si la versión no muestra precios
   // (regla Oceanic: los barcos nuevos no publican precio). El configurador público de axopar.com muestra el precio
@@ -38,9 +39,9 @@
     Object.keys(galCat).forEach(function (c) { (galCat[c] || []).forEach(function (f) { if (lista.indexOf(f) < 0) lista.push(f); }); });
     var i = 0;
     return {
-      hero: mo.hero ? AB + mo.hero : null,
-      sig: function () { return i < lista.length ? AB + lista[i++] : null; },
-      resto: function (n) { var r = lista.slice(i, i + n).map(function (f) { return AB + f; }); i += r.length; return r; }
+      hero: mo.hero ? IMG(AB, mo.hero) : null,
+      sig: function () { return i < lista.length ? IMG(AB, lista[i++]) : null; },
+      resto: function (n) { var r = lista.slice(i, i + n).map(function (f) { return IMG(AB, f); }); i += r.length; return r; }
     };
   }
   function img(src, alt, cls) {
@@ -211,7 +212,7 @@
     otros = otros.slice(0, 3);
     if (otros.length) {
       cuerpo.push(seccion('', cabeza('Más ' + info.nombre) + '<div class="cards">' + otros.map(function (x) {
-        return '<a class="card" href="index.html?m=' + marca + '&modelo=' + x.slug + '"><div class="ph ph-soft">' + img(x.hero ? AB + x.hero : null, x.nombre) + '</div>' +
+        return '<a class="card" href="index.html?m=' + marca + '&modelo=' + x.slug + '"><div class="ph ph-soft">' + img(x.hero ? IMG(AB, x.hero) : null, x.nombre) + '</div>' +
           '<span class="eyebrow">' + esc(famLabel(x.tipo)) + (x.eslora ? ' · ' + esc(x.eslora) : '') + '</span><h3>' + esc(x.nombre) + '</h3>' +
           (x.desc ? '<p>' + esc(x.desc) + '</p>' : '') + '</a>';
       }).join('') + '</div><p class="cards-foot"><a href="' + gama + '">Ver toda la gama ' + esc(info.nombre) + ' →</a></p>'));

@@ -19,7 +19,7 @@ astillero (Axopar, Beneteau, Lagoon, Aquila, Solaris, Saffier, XO) y no alterar 
 
 ## Formularios
 
-Todos los cotizadores/formularios envían a `/api/formulario` (Cloudflare Pages Function en
+Todos los cotizadores/formularios envían a `/api/formulario` (Worker `oceanic`, código en
 `functions/api/formulario.js`), que avisa a ventas@, confirma al cliente y guarda el contacto en
 Brevo. Si el servidor no está disponible abren el correo del visitante como respaldo. WhatsApp
 sigue como alternativa. Configuración: `docs/FORMULARIOS.md` en la raíz del repo.

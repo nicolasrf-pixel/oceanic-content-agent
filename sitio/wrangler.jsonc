@@ -1,0 +1,43 @@
+// OCEANIC · Worker del sitio. Cloudflare lo despliega solo con cada cambio en la rama sitio-web
+// (Workers Builds: Root directory "sitio", Build command "bash scripts/build.sh", Deploy command "npx wrangler deploy").
+// Los archivos estáticos salen de esta carpeta; el Worker solo atiende formularios, administrador, medios y datos del CMS.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "oceanic",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": [
+      "/api/*",
+      "/admin",
+      "/admin/*",
+      "/media/*",
+      "/puerto-*",
+      "/assets/js/publicacion.js",
+      "/assets/js/usados-data.js",
+      "/assets/js/puerto-data.js",
+      "/assets/js/catalogo-data.js",
+      "/assets/js/catalogo-contenido.js",
+      "/assets/js/marcas-info.js",
+      "/assets/js/marcas-contenido.js",
+      "/assets/js/charter-data.js",
+      "/assets/js/equipamiento-data.js",
+      "/assets/data/fichas/*"
+    ]
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "oceanic-cms", "database_id": "822318c1-a9b5-43a4-838a-acb1bdea7fb5", "migrations_dir": "worker/migraciones" }
+  ],
+  "kv_namespaces": [
+    { "binding": "MEDIA", "id": "91c39dbc598d450889624c3d90c4054c" }
+  ],
+  // Las variables (ACCESS_TEAM_DOMAIN, ACCESS_AUD, ADMIN_EMAILS, REMITENTE_EMAIL, VENTAS_EMAIL...) y el secreto
+  // BREVO_API_KEY se cargan en el panel de Cloudflare (Worker › Settings › Variables and Secrets). keep_vars evita
+  // que cada despliegue las borre.
+  "keep_vars": true,
+  "observability": { "enabled": true }
+}

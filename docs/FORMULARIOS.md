@@ -1,7 +1,7 @@
 # Formularios del sitio (fase 4)
 
 Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulario`
-(`sitio/functions/api/formulario.js`, una Cloudflare Pages Function). El navegador usa
+(`sitio/functions/api/formulario.js`, que atiende el Worker `oceanic` en `sitio/worker/index.js`). El navegador usa
 `sitio/assets/js/formularios.js`.
 
 | Formulario | Página | `tipo` |
@@ -32,7 +32,7 @@ El registro del servidor solo guarda códigos de error, nunca datos personales.
 
 ## Variables en Cloudflare
 
-Cloudflare → Workers & Pages → el proyecto → Settings → Variables and secrets. En el proyecto, **Root directory = `sitio`**.
+Cloudflare → Workers & Pages → Worker **oceanic** → Settings → Variables and Secrets (ver `sitio/CÓMO-SUBIR-EL-SITIO.md`).
 
 | Variable | Tipo | Quién | Valor |
 |---|---|---|---|

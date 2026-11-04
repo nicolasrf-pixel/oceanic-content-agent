@@ -1,5 +1,6 @@
 /* OCEANIC, Usados reales (oceanic.cl, cap. 2026-10-09). Fuente: repo oceanic-content-agent/usados.
-   Para editar: cambia texto/precio/estado/resumen aquí. Las fotos se descargan en build desde fotos[].url. */
+   Lo administra el CMS (/admin/ › Usados). Formato: window.OCEANIC_USADOS=<JSON>;. fotos[]: {url, local} (se
+   descargan en el build) o rutas /media/... subidas desde el CMS. El listado ordena por "fecha" (más nuevo primero). */
 window.OCEANIC_USADOS=[
  {
   "id": "xo-dfndr-8",
@@ -9,6 +10,7 @@ window.OCEANIC_USADOS=[
   "anio": "2024",
   "precio": "Consultar",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Cabinada de aluminio, uso intensivo y mar abierto. Año 2024, revisada por Oceanic.",
   "texto": "",
   "fotos": [],
@@ -22,6 +24,7 @@ window.OCEANIC_USADOS=[
   "anio": "2023",
   "precio": "$160.000.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Crucero a motor 2023 con 180 h, Suzuki 200 CV, bow-thruster y electrónica Garmin. Entrega inmediata.",
   "texto": "ANTARES 8\nModelo: ANTARES 8 OB V2, Crucero\nAño: 2023\nEquipada con un motor fueraborda:\nMarca: SUZUKI, Modelo: DF200APX\nPotencia: 200CV cuatro tiempos\nHoras de motor: 180\n$160.000.000 CLP\nENTREGA INMEDIATA\nEl\nAntares 8\nintegra nuevas funcionalidades dedicadas a la navegación de recreo, en las mejores condiciones de confort y siempre con el estilo y la elegancia característicos de esta gama icónica.\nCARACTERÍSTICAS\nLos datos del motor Suzuki se conectan al Garmin\nDefensas nuevas 6\nCabos nuevos\nBañera cubierta completa con toldos NV para Beneteau Antares\nEstanque de Gasolina de 380 Litros\nEstanque de agua 100 Litros\nBaño con medidor de\nEstanque de agua bomba manual\nPintura antifouling\nTiene dos bancos de baterías , completamente eléctrico\nToma electricidad de Puerto\nInverter 2000kw\nUn banco de baterías que consta de 2 baterías de ciclo profundo marca AC DELCO, de 90 AH, con caja plástica para cada unidad.\nCortacorriente para operación\nCargador de baterías marca VICTRON marino 12 volts 30 amperes 3 bancos\nELECTRONIC PACK\nPantalla multifunción\nGARMIN 7, GPS, PLOTER, SONDA.\nKit de Fondeo completo\nMolinete eléctrico Lewmar, switch de levante en cabina y en cubierta en proa piso,\nAncla ultra resistente acero inoxidable 35 Libras\nBow-thruster\nMesa bañera madera alerce\nDucha bañera\nEscalera de baño\nPuerta de cabina en tres hojas\nEscotilla de techo con estores\nCortinas interiores\nApoya pies aviento giratorio\nDos porta cañas\nDos posavasos exterior\nDucha en popa",
   "fotos": [
@@ -84,6 +87,7 @@ window.OCEANIC_USADOS=[
   "anio": "2012",
   "precio": "$200.000.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Velero de crucero 2012, versión 3 cabinas / 2 baños, mástil y jarcia nuevos (2023) y electrónica Simrad completa.",
   "texto": "Modelo Oceanis 41\n$200.000.000\n2012\nCARACTERÍSTICAS\nVersión 3 cabinas, 2 baños\nMotor Yanmar 3JH5C3 de 40 HP con sistema de pod ZF\nMantención general al sistema ZF realizada en 2023\nMástil y jarcia nuevos, año 2023\nAparejo de trinquetilla completo\nAparejo de spinnaker asimétrico completo\nAparejo de Code 0 con enrollador completo\nElectrónica completa Simrad\nRadar + pantallas NSS 7”–12” + piloto automático\nVeleta, corredera y ecosonda\nDesalinizador Dessalator 12V, 30 l/h\nCalefacción Webasto, mantención general 2023, ductos principales cambiados en 2023\nPlataforma de popa abatible eléctricamente\nDinghy Plastimo 2,7 m con motor Mercury 2,5 HP\nBalsa Plastimo para 8 pax, mantención 2023\nCocina completa con horno + grill, 2 quemadores\nRefrigerador y congelador\nWinche de maniobra eléctrico\nWinche de ancla eléctrico con mando a distancia\nBow thruster",
   "fotos": [
@@ -114,6 +118,7 @@ window.OCEANIC_USADOS=[
   "anio": "2021",
   "precio": "Consultar",
   "estado": "vendido",
+  "fecha": "2026-10-09",
   "resumen": "Crucero compacto Beneteau, año 2021. Unidad vendida, tenemos modelos parecidos entrando.",
   "texto": "",
   "fotos": [],
@@ -127,6 +132,7 @@ window.OCEANIC_USADOS=[
   "anio": "2016",
   "precio": "USD 315.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Catamarán 2016, 3 cabinas, electrónica B&G completa, watermaker y generador. Listo para travesía.",
   "texto": "Lagoon 39\nUSD $315.000\nBASE\n3 CABINAS + 2 ASEOS\nMOTORES 2 x 45 HP (Yanmar 4JH45)\nPAR DE HÉLICES PLEGABLES DE 3 PALAS PARA YANMAR 4JH45 (45 HP)\n2 BATERIAS SERVICIO\nCIRCUITOS\nBATERÍAS DE GEL 480Ah EN LUGAR DE LAS BATERÍAS DE ÁCIDO ESTÁNDAR\nINVERTER 12 / 220V – 2000 VA\nGENERADOR PANDA GENSET 4 kVA 220V / 50 Hz + COCOON\nDESALINIZADOR 63 L/H (16 GAL EE. UU./H) SEA RECOVERY ULTRA WHISPER 400 12V\nVELAS\nEQUIPO DE SPINNAKER ASIMÉTRICO\nAPAREJO Y BOTALÓN DE CODE 0 + WINCHE\nEQUIPAMIENTO\nCONGELADOR 12V 100L (26 GAL EE. UU.)\n2 PISOS ADICIONALES EN EL SALÓN\nLITERA EN EL COMPARTIMENTO DE PROA DE BABOR\nWC EN EL COMPARTIMENTO DE PROA DE ESTRIBOR\nCALEFACCIÓN DIÉSEL CON CIRCUITO DE AGUA\nHORNO MICROONDAS CON GRILL 220V\nBAÑOS ELECTRICOS\nELECTRONICA\nTRANSCEPTOR AIS 400 B&G CON ACOPLADOR DE ANTENA\nB&G 4G RADAR\nCONTROL REMOTO DE PILOTO AUTOMÁTICO B&G\nB&G VHF V50\nMÓDULO WIFI B&G\nPANTALLA B&G ZEUS 12” EN EL PUESTO DE TIMÓN\nSONDA B&G FORWARD SCAN\nANTENA DE TV\nEQUIPO SONIDO FUSION\nKIT DE AMARRE: 4 CABOS DE AMARRE Y 6 DEFENSAS\nDINGHY HIGHFIELD CL 310 PVC CON ASIENTO\nMOTOR YAMAHA F6 S\nWINDLASS CON CONTADOR DE CADENA",
   "fotos": [
@@ -161,6 +167,7 @@ window.OCEANIC_USADOS=[
   "anio": "2013",
   "precio": "Consultar",
   "estado": "vendido",
+  "fecha": "2026-10-09",
   "resumen": "Crucero mayor Beneteau, año 2013. Unidad vendida, consúltanos por unidades equivalentes.",
   "texto": "",
   "fotos": [],
@@ -174,6 +181,7 @@ window.OCEANIC_USADOS=[
   "anio": "2017",
   "precio": "Consultar",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Lagoon 40 (2017) con bandera chilena, base en Puerto Aguirre. 4+1 cabinas, muy buen estado.",
   "texto": "Yate \"Isla Jéchica II\"\nMarca y modelo:\nLagoon 40\nAño de fabricación:\n2017\nBandera:\nChile\nPuerto de registro:\nValparaíso\nMatrícula:\n5178\nSeñal de llamada:\nCA 6664\nISMM:\n725 000 153\nUbicación actual:\nPuerto Aguirre. En Marina Austral.\nNúmero de serie (HIN):\n40052\nEslora:\n11.97 mts.\nManga:\n7.25 mts.\nCalado:\n1.21 mts.\nPuntal:\n1.90 mts.\nDesplazamiento:\n10.615 kgs.\nSuperficie vélica:\n84 m2\nMaterial de construcción:\nFibra de vidrio.\nCapacidad:\n8 + 1\nCabinas:\n4 + 1\nBaños:\n2 + 1\nEstado general:\nBueno\nVer más información",
   "fotos": [
@@ -218,6 +226,7 @@ window.OCEANIC_USADOS=[
   "anio": "2018",
   "precio": "USD 170.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Crucero 2017/2018, quilla corta, 3 cabinas, mástil enrollador y paneles solares. Impecable.",
   "texto": "CARACTERÍSTICAS\nMarca: Jeanneau\nModelo: Sun Oddyseay 349 Yanmar 21 CV\nAño: 2017\nPrecio: US$170.000\nVersión Quilla Corta\n3 Cabinas / 1 Aseo\nBatería Suplementaria\nTapicería Ambiance Pure White\nBimini con Focos Led\nPlataforma Baño con Escalera Telescópica\nBomba de Pie Agua de Mar + Drenaje Nevera\nPaneles Solare sen Cubierta\nCalefacción Diesel Aire Propulsado\nVeleta y anemómetro\nMástil Enrollador Con Mayor Dacron\nMoliente Eéctrico\nKit Fondeo\nKit Amarre",
   "fotos": [
@@ -260,6 +269,7 @@ window.OCEANIC_USADOS=[
   "anio": "2012",
   "precio": "$13.000.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Velero deportivo de dos dueños, guardado en galpón. Velas North Sails nuevas (2023) y trailer incluido.",
   "texto": "Barco 20\nAño 2012\n$13.000.000\nDos dueños, cuidado maniático, guardado en galpón, velas Mayor y Foque North Sails año 2023 nuevas. Cuenta con maniobra de spinaker completa. Trailer, impecable estado!!! Se entrega en lago Colico donde actualmente está guardado. Sin motor.",
   "fotos": [
@@ -326,6 +336,7 @@ window.OCEANIC_USADOS=[
   "anio": "1985",
   "precio": "$145.000.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Motorsailer clásico de 44 pies (1985), watermaker y electrónica completa. Pensado para navegar lejos.",
   "texto": "Motorsailer Nauticat 44\n$145.000.000\nCARACTERÍSTICAS\nEslora 44 Pies.\nManga 12 Pies.\nCalado 1.80mtr.\nAño 1985.\nMotor Ford Lehmann 135 Hp.\nGenerador Eléctrico 110V.\nWater Maker.\nTermo Agua Caliente 80 Lts.\nEstanque Agua 500 Lts.\nEstanques Petróleo 2 Total 850 Lts.\nElectrónica: Radar, Chartplotter, Anemómetro, Ecosonda, VHF\nVelas: Genoa, Trinqueta, Mayor",
   "fotos": [
@@ -360,6 +371,7 @@ window.OCEANIC_USADOS=[
   "anio": "",
   "precio": "$11.700.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Dos unidades disponibles. Consúltanos por estado y equipamiento de cada una.",
   "texto": "Axopar 28 Cabin\n$11.700.000\n2 unidades disponibles!",
   "fotos": [
@@ -438,6 +450,7 @@ window.OCEANIC_USADOS=[
   "anio": "2009",
   "precio": "Consultar",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Bluewater Oyster 56 (2009): velas North Sails nuevas, aire acondicionado, generador y desalinizadora.",
   "texto": "Oyster 56\nCARACTERÍSTICAS\nOyster 56 H# 071 2009\nParte de Equipamiento:\nDesalinizadora\nGenerador\nAire Acondicionado\nEnrollador de Mayor Eléctrico\nEnrollador de Genoa Eléctrico\nPiloto Automático\nDinghy mando central Honda 20HP\nHélice Gory\nMotor Principal Yanmar 160HP\nMayor Enrollar North Sails (Nueva)\nGenoa Enrollar North Sails (Nueva)\nAsimétrico con enrollador\nElectrónica completa Raymarine (Plotter interior y Exterior, Radar )\nVHF ( Interior exterior )\nAIS\nWinches de Genoa Eléctricos\nWinche de maniobra Eléctrico\nSi quieres más información puedes llenar el formulario o escribirle directamente a Rodrigo Zuazola rzuazola@oceanic.cl",
   "fotos": [
@@ -492,6 +505,7 @@ window.OCEANIC_USADOS=[
   "anio": "1986",
   "precio": "$30.000.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Velero de regatas Frers (1986) con gran potencial. Proyecto de restauración, motor Yanmar y velas North Sails.",
   "texto": "AGUANTAO\nFrers Icibila, 1986\nLa embarcación se encuentra en el estado que se aprecia en las imágenes, ideal para quienes buscan un buen proyecto de restauración con gran potencial.\nCuenta con motor Yanmar y velas North Sails, ambas renovadas antes de la pandemia.\n• Eslora total: 11,25 metros\n• Manga: 3,60 metros\n• Material casco: Fibra de vidrio\n• Tipo: Velero deportivo / regatas\n• Uso: Privado\nPrecio sugerido y aceptado por el dueño:\n$30.000.000 CLP\nSe aceptan ofertas serias.\nCaracterística\nEspecificación\nNombre de la nave\nAguantao\nMatrícula\n·\nConstructor\nFrers Icibila S.A.\nLugar y año\nArgentina – 1986\nMaterial del casco\nFibra de vidrio\nEslora total\n11,25 metros\nManga\n3,60 metros\nPuntal\n1,72 metros\nCalado\n1,10 metros\nTonelaje registro bruto\n16,03 ton.\nTonelaje registro neto\n8,82 ton.\nTipo\nVelero\nServicio\nDeportivo / Regatas\nUso\nPrivado",
   "fotos": [
@@ -558,6 +572,7 @@ window.OCEANIC_USADOS=[
   "anio": "2004",
   "precio": "USD 195.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Crucero 2004, 4 camarotes, instrumentos y jarcia renovados (2017), paneles solares y baterías nuevas (2026).",
   "texto": "Oceanis 47.3\nBeneteau\nPrecio US$195.000\nCARACTERISTICAS\nAño 2004\n4 camarotes dobles\n3 Baños\nMotor Yanmar 100 HP\nWinche eléctrico ancla con ancla y 80 mts cadena\n1 velas Mayor de enrollar\n2 Genoa de enrollar\nGenerador 2HP\nCalefacción\nWatermaker 60 lts (2017)\nChubasquero completo (2020)\nCocina con Horno\nRefigerador y Frezer\nAgua Fría y caliente\nInstrumentos Cambiados Año 2017\nRadar+GPS+Chart Plotter+Piloto automático+Ais\nCorredera ecosonda Anemómetro\nRadio VHF interior y exterior\nEpirb\nBalsa salvavidas 10 Personas\nJarcias cambiadas Año 2017\nBote inflable piso solido (2020)\nMotor Suzuki 4 tiempos  6 HP  ( 2020)\nBaterias nuevas (2026)\nKit Panel Solar 600w (2026)\nCables Acero Cambiados Año 2017\nSistema\nDetalle\nMolinete de ancla\nEléctrico\nAncla\nIncluida\nCadena de fondeo\n80 m\nVela mayor\nEnrollable\nGenoa\n2 velas enrollables\nGenerador\n2 HP\nCalefacción\nSí\nWatermaker\n60 l/h (instalado 2017)\nChubasquero completo\nRenovado 2020\nCocina\nCon horno\nRefrigeración\nRefrigerador y freezer\nAgua caliente\nSí\nAgua fría\nSí",
   "fotos": [
@@ -596,6 +611,7 @@ window.OCEANIC_USADOS=[
   "anio": "2016",
   "precio": "€ 315.000",
   "estado": "disponible",
+  "fecha": "2026-10-09",
   "resumen": "Lagoon 39 (2016). Consúltanos por ficha completa y fotos.",
   "texto": "",
   "fotos": [],

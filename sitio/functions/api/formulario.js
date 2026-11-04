@@ -1,4 +1,4 @@
-/* OCEANIC · Endpoint único de formularios (Cloudflare Pages Function).
+/* OCEANIC · Endpoint único de formularios (lo atiende el Worker: sitio/worker/index.js).
    POST /api/formulario con JSON { tipo, nombre, email, ... }.
 
    Qué hace, en orden:
@@ -9,7 +9,7 @@
       consentimiento (fecha y versión de la política), negocio en el pipeline y, si el visitante
       marcó Puerto, correo de doble confirmación.
 
-   Variables (Cloudflare → Pages → Settings → Variables and secrets): ver docs/FORMULARIOS.md en la raíz del repo.
+   Variables (Cloudflare → Worker oceanic → Settings → Variables and secrets): ver docs/FORMULARIOS.md en la raíz del repo.
    La clave de Brevo la guarda Nico como secreto: nunca va en el código, el chat ni el correo. */
 
 const TIPOS = {

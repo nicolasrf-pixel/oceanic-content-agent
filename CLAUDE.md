@@ -195,6 +195,13 @@ ediciones y paquetes) no se publican: se conversan en persona. **Ningún barco n
 precio** (solo los usados).
 Publicar con `python3 tools/sitio_fichas.py`. Detalle en `docs/FICHAS.md`.
 
+**Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
+(`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
+`oceanic-imagenes` (archivos subidos, servidos en `/media/`), acceso con Cloudflare Access (cerrado por defecto).
+Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=<JSON>;`); lo publicado en el CMS se
+superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
+Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl

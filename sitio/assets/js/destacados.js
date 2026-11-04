@@ -13,7 +13,7 @@
     if (!mo) return '';
     var nombreMarca = (M[marca] && M[marca].nombre) || cat.nombre || marca;
     return '<a class="d" href="marca/index.html?m=' + esc(marca) + '&amp;modelo=' + esc(mo.slug) + '">' +
-      (mo.hero ? '<div class="d-img"><img alt="' + esc(mo.nombre) + '" loading="lazy" src="assets/img/' + esc(mo.hero) + '" onerror="this.parentNode.remove()"></div>' : '') +
+      (mo.hero ? '<div class="d-img"><img alt="' + esc(mo.nombre) + '" loading="lazy" src="' + esc(/^(https?:)?\/\/|^\//.test(mo.hero) ? mo.hero : 'assets/img/' + mo.hero) + '" onerror="this.parentNode.remove()"></div>' : '') +
       '<div class="d-txt"><span class="d-brand">' + esc(nombreMarca) + '</span><h3>' + esc(mo.nombre.replace(nombreMarca + ' ', '')) + '</h3>' +
       (mo.desc ? '<p>' + esc(mo.desc) + '</p>' : '') + '</div></a>';
   }).join('');

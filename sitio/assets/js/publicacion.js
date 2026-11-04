@@ -2,7 +2,7 @@
    "destacados": los 3 modelos que muestra la portada, en orden ("<marca>/<slug>"). Un modelo apagado no se muestra.
    Un modelo en "ocultos" no aparece en ninguna parte del sitio (gamas, menús, asistente, fichas); su ficha
    redirige a la página de la marca. Para volver a publicarlo, se borra de la lista.
-   Este archivo lo administrará el CMS (botón prender/apagar por barco). Hasta entonces se edita aquí.
+   Lo administra el CMS (/admin/ › Publicación y destacados): lo publicado allí reemplaza el bloque DATOS al servirse.
    Debe cargarse justo después de catalogo-data.js.
 
    Reglas vigentes:

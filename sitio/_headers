@@ -1,4 +1,4 @@
-# Cloudflare Pages — headers
+# Cabeceras de los archivos estáticos (Cloudflare Workers static assets; el Worker agrega las suyas a lo que sirve)
 
 /*
   # VISTA PREVIA: quitar esta línea al lanzar (puerta legal). Evita que Google indexe borradores.

@@ -1,0 +1,15 @@
+# No se publican como archivos del sitio (código del Worker, herramientas, pruebas, documentación interna)
+worker
+functions
+node_modules
+tests
+scripts
+.wrangler
+wrangler.jsonc
+package.json
+package-lock.json
+netlify.toml
+*.md
+.dev.vars
+.node-version
+.assetsignore

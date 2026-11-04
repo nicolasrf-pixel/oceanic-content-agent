@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Administrador · Oceanic</title>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="admin.css" rel="stylesheet">
+</head>
+<body>
+<header class="top">
+  <button class="menu-btn" id="menuBtn" aria-label="Menú" aria-expanded="false">☰</button>
+  <a class="logo" href="#inicio">Oceanic <span>Administrador</span></a>
+  <div class="top-der">
+    <label class="vista" title="Ver en el sitio los borradores sin publicar (solo en este navegador, 1 hora)">
+      <input type="checkbox" id="vistaPrevia"> Vista previa de borradores
+    </label>
+    <a class="btn-sm" href="/" target="_blank" rel="noopener">Ver sitio ↗</a>
+    <span class="yo" id="yo"></span>
+  </div>
+</header>
+<div class="cuerpo">
+  <nav class="lateral" id="lateral" aria-label="Secciones">
+    <a href="#inicio" data-sec="inicio">Inicio</a>
+    <span class="grupo">Barcos nuevos</span>
+    <a href="#barcos" data-sec="barcos">Publicación y destacados</a>
+    <a href="#traducciones" data-sec="traducciones">Revisión de traducciones</a>
+    <a href="#catalogo" data-sec="catalogo">Catálogo (ficha técnica)</a>
+    <span class="grupo">Contenido</span>
+    <a href="#usados" data-sec="usados">Usados</a>
+    <a href="#puerto" data-sec="puerto">Puerto</a>
+    <a href="#contenido/marcas" data-sec="contenido/marcas">Marcas</a>
+    <a href="#contenido/marcas-contenido" data-sec="contenido/marcas-contenido">Textos de marca</a>
+    <a href="#contenido/charter" data-sec="contenido/charter">Charter</a>
+    <a href="#contenido/equipamiento" data-sec="contenido/equipamiento">Equipamiento</a>
+    <span class="grupo">Herramientas</span>
+    <a href="#medios" data-sec="medios">Imágenes y documentos</a>
+    <a href="#patrones" data-sec="patrones">Patrones prohibidos</a>
+  </nav>
+  <main id="app" tabindex="-1"><p class="cargando">Cargando…</p></main>
+</div>
+<div class="aviso" id="aviso" role="status" aria-live="polite" hidden></div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -14,7 +14,7 @@
   var mailto='mailto:ventas@oceanic.cl?subject='+encodeURIComponent('Consulta '+info.nombre)+'&body='+encodeURIComponent('Hola Oceanic, quiero información de la marca '+info.nombre+'.');
 
   // hero
-  var heroImg=AB+info.hero+'.webp';
+  var heroImg=/^(https?:)?\/\/|^\//.test(info.hero)?info.hero:AB+info.hero+'.webp';
   var hero='<header class="mk-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.92),rgba(20,33,43,.35)),url('+heroImg+')">'+
     '<div class="wrap-wide">'+
     '<nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>'+info.universo+'</span></nav>'+
@@ -52,7 +52,7 @@
   function tarjeta(m){
     var href='index.html?m='+slug+'&modelo='+m.slug;
     var meta=[]; if(m.eslora)meta.push(m.eslora); if(m.motor)meta.push(m.motor.replace(/Fueraborda,?\s*/i,'').slice(0,22));
-    var foto=m.hero?'<div class="mkc-img"><img src="'+AB+m.hero+'" alt="'+m.nombre+'" loading="lazy" onerror="this.closest(\'.mkc-img\').remove()"></div>':'';
+    var foto=m.hero?'<div class="mkc-img"><img src="'+(/^(https?:)?\/\/|^\//.test(m.hero)?m.hero:AB+m.hero)+'" alt="'+m.nombre+'" loading="lazy" onerror="this.closest(\'.mkc-img\').remove()"></div>':'';
     return '<a class="mkc'+(m.hero?' mkc-foto':'')+'" href="'+href+'">'+foto+
       '<div class="mkc-body">'+(m.anio?'<div class="mkc-top"><span class="mkc-anio">'+m.anio+'</span></div>':'')+
       '<h3>'+m.nombre+'</h3>'+(meta.length?'<span class="mkc-meta">'+meta.join(' · ')+'</span>':'')+
