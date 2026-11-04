@@ -85,6 +85,11 @@ def main(solo_validar=False):
         destino = SALIDA / marca / f'{modelo}.json'
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(json.dumps(salida, ensure_ascii=False, indent=1) + '\n')
+    if not solo_validar and not total_err:
+        # Índice de fichas traducidas: la plantilla solo pide las que existen (sin 404 para las demás).
+        publicadas = sorted(f'{p.parent.parent.parent.name}/{p.parent.parent.name}' for p in archivos)
+        SALIDA.mkdir(parents=True, exist_ok=True)
+        (SALIDA / 'index.json').write_text(json.dumps(publicadas, ensure_ascii=False, indent=0) + '\n')
     print(f'{len(archivos)} fichas traducidas, {total_err} errores')
     return 1 if total_err else 0
 

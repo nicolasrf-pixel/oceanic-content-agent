@@ -243,8 +243,11 @@
     var mo = cat && cat.modelos.filter(function (x) { return x.slug === mslug; })[0];
     if (!mo) return;
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
-    var url = (document.body.dataset.assetBase || '../assets/img/').replace(/img\/$/, '') + 'data/fichas/' + marca + '/' + mslug + '.json';
-    fetch(url).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    var base = (document.body.dataset.assetBase || '../assets/img/').replace(/img\/$/, '') + 'data/fichas/';
+    function json(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+    // index.json lista las fichas con traducción completa; las demás usan el borrador del catálogo
+    json(base + 'index.json')
+      .then(function (lista) { if (lista.indexOf(marca + '/' + mslug) < 0) throw 0; return json(base + marca + '/' + mslug + '.json'); })
       .then(function (P) { render(marca, mslug, P); }, function () { render(marca, mslug, desdeCatalogo(mo, CC)); });
   };
 
