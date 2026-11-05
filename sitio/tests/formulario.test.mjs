@@ -2,7 +2,17 @@
 // Usan datos de prueba y un Brevo simulado: no envían nada.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { onRequestPost, limpiar, validar, correoVentas, correoConfirmacion } from '../functions/api/formulario.js';
+import { onRequestPost as endpoint, limpiar, validar, correoVentas, correoConfirmacion } from '../functions/api/formulario.js';
+import { armarMensaje, enviarSMTP } from '../functions/api/smtp.js';
+
+// Motor de correo simulado: registra cada correo como si fuera una llamada '/smtp/email' (mismo formato que antes).
+let registro = [], fallarCorreo = () => false;
+const enviarSimulado = async (c) => {
+  const cuerpo = { sender: c.from, to: c.to, replyTo: c.replyTo, subject: c.subject, textContent: c.text, htmlContent: c.html };
+  registro.push({ ruta: '/smtp/email', metodo: 'POST', cuerpo, clave: 'clave-de-prueba' });
+  return fallarCorreo('/smtp/email', cuerpo) ? { ok: false, status: 'smtp', error: 'falla simulada' } : { ok: true, status: 250 };
+};
+const onRequestPost = (args) => endpoint({ ...args, enviar: args.env.SIN_MOTOR ? undefined : enviarSimulado });
 
 const SITIO = 'https://oceanic.example';
 const ENV = {
@@ -24,6 +34,7 @@ function pedido(cuerpo, origen = SITIO) {
 // Brevo simulado: registra cada llamada y responde según `fallar`.
 function simularBrevo(fallar = () => false) {
   const llamadas = [];
+  registro = llamadas; fallarCorreo = fallar;
   globalThis.fetch = async (url, opts) => {
     const ruta = url.replace('https://api.brevo.com/v3', '');
     const cuerpo = opts.body ? JSON.parse(opts.body) : null;
@@ -226,4 +237,36 @@ test('antispam: mensajes con muchos enlaces no se envían y hay límite por cone
   const estados = [];
   for (let i = 0; i < 6; i++) { llamadas = simularBrevo(); estados.push((await onRequestPost({ request: pedidoIp(), env })).status); }
   assert.deepEqual(estados, [200, 200, 200, 200, 200, 429]);
+});
+
+test('motor propio: arma un correo MIME válido y conversa con el servidor SMTP', async () => {
+  const m = armarMensaje({ from: { email: 'contacto@oceanic.cl', name: 'Oceanic' }, to: [{ email: 'a@b.cl', name: 'Ána' }],
+    replyTo: { email: 'c@d.cl' }, subject: 'Cotización de un Beneteau First 30', text: 'hola', html: '<b>hola</b>' }, 'oceanic.cl');
+  assert.match(m, /^From: Oceanic <contacto@oceanic\.cl>/m);
+  assert.match(m, /^Subject: =\?UTF-8\?B\?/m);
+  assert.match(m, /^Reply-To: c@d\.cl/m);
+  assert.match(m, /multipart\/alternative/);
+  // servidor SMTP simulado
+  const enviados = []; let respuestas = ['220 listo', '250-hola\r\n250 AUTH LOGIN', '334 VXNlcm5hbWU6', '334 UGFzc3dvcmQ6', '235 ok', '250 ok', '250 ok', '354 dale', '250 encolado', '221 chao'];
+  const conectar = () => {
+    let porLeer = [respuestas.shift() + '\r\n'];
+    return {
+      writable: new WritableStream({ write(c) { const t = new TextDecoder().decode(c); enviados.push(t); if (respuestas.length) porLeer.push(respuestas.shift() + '\r\n'); } }),
+      readable: new ReadableStream({ async pull(ctl) { while (!porLeer.length) await new Promise((r) => setTimeout(r, 1)); ctl.enqueue(new TextEncoder().encode(porLeer.shift())); } }),
+      close: async () => {},
+    };
+  };
+  const r = await enviarSMTP({ SMTP_CLAVE: 'clave', REMITENTE_EMAIL: 'contacto@oceanic.cl' },
+    { from: { email: 'contacto@oceanic.cl' }, to: [{ email: 'a@b.cl' }], subject: 'x', text: 't', html: 'h' }, conectar);
+  assert.equal(r.ok, true, JSON.stringify(r));
+  assert.ok(enviados.some((t) => t.startsWith('MAIL FROM:<contacto@oceanic.cl>')));
+  assert.ok(enviados.some((t) => t.startsWith('RCPT TO:<a@b.cl>')));
+  assert.ok(!enviados.join('').includes('clave\r\n'), 'la clave viaja en base64 dentro de AUTH, nunca en claro');
+});
+
+test('sin motor de correo configurado responde 503 indicando SMTP_CLAVE', async () => {
+  simularBrevo();
+  const r = await endpoint({ request: pedido(COTIZACION), env: { REMITENTE_EMAIL: 'contacto@oceanic.cl' } });
+  assert.equal(r.status, 503);
+  assert.deepEqual((await r.json()).falta, ['SMTP_CLAVE']);
 });

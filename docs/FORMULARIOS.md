@@ -127,3 +127,17 @@ Cada solicitud guarda la versión de la política (`POLITICA_VERSION`) y la fech
 - **Página de gracias:** `sitio/gracias/` se abre cuando el servidor recibe la cotización (si falla y se usa el respaldo por correo, se queda el aviso en la ficha). Muestra «¡Gracias, [Nombre]!», el barco y los pasos siguientes, con los botones «Volver al home» y «Seguir viendo [marca]». Los datos pasan por `sessionStorage`, nunca por la URL. No se indexa.
 
 - **Demás formularios (contacto, usado, charter, equipamiento, privacidad):** mismo diseño (logo, datos ordenados, botones Responder / WhatsApp / Llamar a ventas; saludo, «Lo que nos contaste» y cierre al cliente). Usados: el formulario manda `ficha` (id del aviso) y el correo lleva la tarjeta del usado desde `assets/js/usados-data.js` (foto, año, precio, estado). Charter: la tarjeta del destino con su foto (`assets/img/destino-*.webp`) según la región elegida.
+
+
+## Motor de correo propio (decisión Oceanic 2026-11-05)
+
+Brevo es solo para mailings hechos ahí a mano y para el CRM de cotizantes; **los correos de los formularios salen por un motor interno** (como Forminator + SMTP en WordPress): `sitio/functions/api/smtp.js` entrega cada correo al SMTP de Google Workspace (`smtp.gmail.com:465`, TLS) autenticado como `contacto@oceanic.cl`. Cada envío queda en «Enviados» de esa casilla.
+
+Configuración (una vez):
+1. En la cuenta Google de `contacto@oceanic.cl`: activar la verificación en 2 pasos y crear una **contraseña de aplicación** (myaccount.google.com → Seguridad → Contraseñas de aplicaciones), nombre «sitio oceanic».
+2. En Cloudflare, Worker oceanic → Settings → Variables and Secrets → Add → tipo **Secret**, nombre `SMTP_CLAVE`, valor: esa contraseña de aplicación (16 letras). Nunca por chat ni correo.
+3. DNS de oceanic.cl (lo administra inc.cl): agregar `include:_spf.google.com` al registro SPF y activar DKIM de Google Workspace (Admin → Apps → Gmail → Autenticar correo), para que los correos no caigan en spam.
+
+Opcionales: `SMTP_USUARIO` (si se autentica con otra cuenta que tenga contacto@ como alias), `SMTP_HOST`, `SMTP_PUERTO`.
+
+**CRM en Brevo (opcional, con `BREVO_API_KEY` como Secret):** cada contacto se guarda con sus datos y entra a la lista de su marca, que se busca por nombre: crear en Brevo listas llamadas `Web · Beneteau`, `Web · Lagoon`, `Web · Axopar`, … y `Web · Charter`, `Web · Equipamiento`, `Web · Usados`. Si una lista no existe, el contacto se guarda igual (sin esa lista).

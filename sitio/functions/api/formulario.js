@@ -12,6 +12,7 @@
    Variables (Cloudflare → Worker oceanic → Settings → Variables and secrets): ver docs/FORMULARIOS.md en la raíz del repo.
    La clave de Brevo la guarda Nico como secreto: nunca va en el código, el chat ni el correo. */
 
+import { enviarSMTP } from './smtp.js';
 import { cotizacionVentas, cotizacionCliente, barcoDelCatalogo, genericoVentas, genericoCliente, usadoDelCatalogo, destinoCharter } from './correos.js';
 
 const TIPOS = {
@@ -30,7 +31,7 @@ const LIMITES = { nombre: 120, email: 160, telefono: 40, via: 20, motivo: 120, m
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const BREVO = 'https://api.brevo.com/v3';
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost({ request, env, enviar }) {
   if (!origenPermitido(request, env)) return json({ ok: false, error: 'origen' }, 403);
 
   let entrada;
@@ -61,13 +62,15 @@ export async function onRequestPost({ request, env }) {
   // Modo prueba: valida todo pero no envía nada (para probar sin datos reales ni Brevo).
   if (env.MODO_PRUEBA === '1') return json({ ok: true, modo: 'prueba' });
 
-  if (!env.BREVO_API_KEY || !env.REMITENTE_EMAIL) {
+  // Los correos salen por el motor propio (SMTP de la casilla de Oceanic, functions/api/smtp.js). Brevo es opcional y
+  // solo guarda el contacto en el CRM (lista por marca) y la suscripción a Puerto.
+  const enviarCorreo = enviar || ((correo) => enviarSMTP(env, correo));
+  const brevo = env.BREVO_API_KEY ? clienteBrevo(env.BREVO_API_KEY) : null;
+  if (d.tipo !== 'puerto' && (!(env.SMTP_CLAVE || enviar) || !env.REMITENTE_EMAIL)) {
     // solo el nombre de lo que falta (nunca valores), para diagnosticar la configuración del Worker
-    const falta = ['BREVO_API_KEY', 'REMITENTE_EMAIL'].filter((k) => !env[k]);
+    const falta = ['SMTP_CLAVE', 'REMITENTE_EMAIL'].filter((k) => !env[k] && !(k === 'SMTP_CLAVE' && enviar));
     return json({ ok: false, error: 'sin-configurar', falta }, 503);
   }
-
-  const brevo = clienteBrevo(env.BREVO_API_KEY);
   const ventas = env.VENTAS_EMAIL || 'ventasweb@oceanic.cl';
   // Cotización desde una ficha: los datos del barco salen del catálogo del sitio, no de lo que mande el navegador
   const origen = new URL(request.url).origin;
@@ -80,40 +83,42 @@ export async function onRequestPost({ request, env }) {
   // Suscripción sola a Puerto: no hay solicitud que avisar a ventas, y el contacto lo crea Brevo
   // cuando la persona confirma el correo.
   if (d.tipo === 'puerto') {
+    if (!brevo) return json({ ok: false, error: 'puerto' }, 502);
     const r = await suscribirPuerto(brevo, d, env);
     return r.ok ? json({ ok: true }) : json({ ok: false, error: 'puerto' }, 502);
   }
 
   const aviso = correoVentas(d, barco);
-  const enviado = await brevo('POST', '/smtp/email', {
-    sender: remitente,
+  const enviado = await enviarCorreo({
+    from: remitente,
     to: [{ email: ventas }],
     replyTo: { email: d.email, name: d.nombre || d.email },
     subject: aviso.asunto,
-    textContent: aviso.texto,
-    htmlContent: aviso.html,
+    text: aviso.texto,
+    html: aviso.html,
   });
   if (!enviado.ok) {
-    // código y mensaje de Brevo (nunca datos personales) para diagnosticar la configuración
-    const brevoError = { status: enviado.status, code: enviado.datos && enviado.datos.code, message: enviado.datos && String(enviado.datos.message || '').slice(0, 160) };
-    console.log('formulario: Brevo rechazó el envío', JSON.stringify(brevoError));
-    return json({ ok: false, error: 'envio', brevo: brevoError }, 502);
+    // código del servidor de correo (nunca datos personales) para diagnosticar la configuración
+    console.log('formulario: no se pudo enviar el aviso', enviado.status, enviado.error || '');
+    return json({ ok: false, error: 'envio', detalle: enviado.error || enviado.status }, 502);
   }
 
   const conf = correoConfirmacion(d, barco);
   const tareas = [
-    guardarContacto(brevo, d, env),
-    brevo('POST', '/smtp/email', {
-      sender: remitente,
+    enviarCorreo({
+      from: remitente,
       to: [{ email: d.email, name: d.nombre || undefined }],
       replyTo: { email: ventas },
       subject: conf.asunto,
-      textContent: conf.texto,
-      htmlContent: conf.html,
+      text: conf.texto,
+      html: conf.html,
     }),
   ];
-  if (d.puerto) tareas.push(suscribirPuerto(brevo, d, env));
-  if (d.tipo === 'cotizacion' || d.tipo === 'usado') tareas.push(crearNegocio(brevo, d, env));
+  if (brevo) {
+    tareas.push(guardarContacto(brevo, d, env));
+    if (d.puerto) tareas.push(suscribirPuerto(brevo, d, env));
+    if (d.tipo === 'cotizacion' || d.tipo === 'usado') tareas.push(crearNegocio(brevo, d, env));
+  }
 
   const resultados = await Promise.allSettled(tareas);
   // Solo códigos de error en el registro, nunca datos personales.
@@ -319,10 +324,25 @@ export function atributos(d) {
   return a;
 }
 
+// Listas del CRM: cada contacto entra a la lista general (BREVO_LISTA_CONTACTOS, opcional) y a la de su marca, que se
+// busca por nombre en Brevo: «Web · Beneteau», «Web · Lagoon», … (si no existe, no se crea). Memoria de 10 minutos.
+let listas = null, listasT = 0;
+async function listaDeMarca(brevo, d) {
+  const marca = String(d.marca || '').replace(/^Usado\s*·\s*/i, '').replace(/\s+(Motor|Sail)$/i, '').trim().toLowerCase();
+  const tipo = { charter: 'charter', equipamiento: 'equipamiento', usado: 'usados' }[d.tipo];
+  if (!marca && !tipo) return 0;
+  if (!listas || Date.now() - listasT > 600000) {
+    const r = await brevo('GET', '/contacts/lists?limit=50&offset=0');
+    listas = r.ok && r.datos && r.datos.lists ? r.datos.lists : []; listasT = Date.now();
+  }
+  const quiero = [marca && 'web · ' + marca, tipo && 'web · ' + tipo].filter(Boolean);
+  return listas.filter((l) => quiero.includes(String(l.name).trim().toLowerCase())).map((l) => l.id);
+}
+
 async function guardarContacto(brevo, d, env) {
   const cuerpo = { email: d.email, attributes: atributos(d), updateEnabled: true };
-  const lista = num(env.BREVO_LISTA_CONTACTOS);
-  if (lista) cuerpo.listIds = [lista];
+  const ids = [num(env.BREVO_LISTA_CONTACTOS)].filter(Boolean).concat(await listaDeMarca(brevo, d).catch(() => []) || []);
+  if (ids.length) cuerpo.listIds = ids;
   const r = await brevo('POST', '/contacts', cuerpo);
   // Si a la cuenta le falta algún campo propio del sitio, Brevo rechaza todo: se guarda igual el contacto con
   // nombre y correo (y la lista), para no perderlo. Los campos se crean en Brevo una sola vez (docs/FORMULARIOS.md).
