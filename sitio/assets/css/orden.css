@@ -39,3 +39,32 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 /* bloques que traían su propio margen grande (equipamiento y charter en portada, relato de la ficha) */
 .equip,.chome{padding-top:var(--rhythm)!important;padding-bottom:var(--rhythm)!important;min-height:0!important}
 .es-ficha .story{padding-top:clamp(44px,4vw,72px)!important}
+
+/* 8 · Cotizador: sin márgenes apilados entre el título, la línea y el formulario */
+.talk .sec-head{margin-bottom:16px}
+.talk-h,.talk h2{margin-bottom:0}
+.talk-form{margin-top:clamp(24px,2.4vw,36px);padding-top:clamp(24px,2.4vw,36px)}
+
+/* ===== 9 · Movimiento (oceano.js). Solo si el JS está activo y el sistema no pide reducir movimiento ===== */
+.o-avance{position:fixed;top:0;left:0;right:0;height:2px;background:var(--boya);transform-origin:0 50%;transform:scaleX(0);z-index:200;pointer-events:none}
+.o-anim .o-sube{opacity:0;transform:translate3d(0,28px,0);transition:opacity .9s cubic-bezier(.16,.84,.34,1),transform 1.1s cubic-bezier(.16,.84,.34,1)}
+.o-anim .o-sube.o-visto{opacity:1;transform:none}
+/* fotos que se descubren como una ventana que se abre */
+.o-anim .o-foto{clip-path:inset(12% 0 12% 0);transform:scale(1.12);transition:clip-path 1.4s cubic-bezier(.65,0,.15,1),transform 1.8s cubic-bezier(.16,.84,.34,1)}
+.o-anim .o-foto.o-visto{clip-path:inset(0 0 0 0);transform:scale(1)}
+/* portada: la foto se acerca lento, como una ola larga; el texto entra en capas */
+.o-anim header.hero .hero-img img{animation:o-respira 14s cubic-bezier(.33,0,.2,1) both}
+@keyframes o-respira{from{transform:scale(1.12) translate3d(0,var(--o-par,0),0)}to{transform:scale(1.02) translate3d(0,var(--o-par,0),0)}}
+.o-anim .o-capa{animation:o-entra 1s cubic-bezier(.16,.84,.34,1) both}
+@keyframes o-entra{from{opacity:0;transform:translate3d(0,22px,0)}to{opacity:1;transform:none}}
+/* foto del relato con parallax */
+.o-anim .story-fig{overflow:hidden}
+.o-anim .story-fig img{transform:translate3d(0,var(--o-par,0),0) scale(1.1);transition:transform .2s linear}
+/* respuesta al tacto: botones y enlaces con movimiento corto */
+.btn,.mcard-cta,.em-wa,.em-mail{transition:transform .25s cubic-bezier(.16,.84,.34,1),background .25s,color .25s,border-color .25s}
+.btn:hover,.em-wa:hover,.em-mail:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0) scale(.98)}
+.gal-item{overflow:hidden}
+.gal-item img{transition:transform 1.2s cubic-bezier(.16,.84,.34,1)}
+.gal-item:hover img{transform:scale(1.05)}
+@media (prefers-reduced-motion:reduce){.o-avance{display:none}}
