@@ -56,7 +56,11 @@ export async function onRequestPost({ request, env }) {
   // Modo prueba: valida todo pero no envía nada (para probar sin datos reales ni Brevo).
   if (env.MODO_PRUEBA === '1') return json({ ok: true, modo: 'prueba' });
 
-  if (!env.BREVO_API_KEY || !env.REMITENTE_EMAIL) return json({ ok: false, error: 'sin-configurar' }, 503);
+  if (!env.BREVO_API_KEY || !env.REMITENTE_EMAIL) {
+    // solo el nombre de lo que falta (nunca valores), para diagnosticar la configuración del Worker
+    const falta = ['BREVO_API_KEY', 'REMITENTE_EMAIL'].filter((k) => !env[k]);
+    return json({ ok: false, error: 'sin-configurar', falta }, 503);
+  }
 
   const brevo = clienteBrevo(env.BREVO_API_KEY);
   const ventas = env.VENTAS_EMAIL || 'ventasweb@oceanic.cl';
