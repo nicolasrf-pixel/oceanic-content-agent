@@ -28,7 +28,8 @@ function simularBrevo(fallar = () => false) {
     const ruta = url.replace('https://api.brevo.com/v3', '');
     const cuerpo = opts.body ? JSON.parse(opts.body) : null;
     llamadas.push({ ruta, metodo: opts.method, cuerpo, clave: opts.headers['api-key'] });
-    if (fallar(ruta, cuerpo)) return new Response('{"message":"error"}', { status: 500 });
+    const f = fallar(ruta, cuerpo);
+    if (f) return new Response('{"message":"error"}', { status: typeof f === 'number' ? f : 500 });
     if (ruta === '/crm/deals') return Response.json({ id: 'neg1' }, { status: 201 });
     if (ruta.startsWith('/contacts/') && opts.method === 'GET') return Response.json({ id: 42 });
     return Response.json({ messageId: 'x' }, { status: 201 });
@@ -200,4 +201,15 @@ test('cotización desde la ficha: los datos del barco salen del catálogo del si
   assert.match(cliente.htmlContent, /9,35 m/);
   assert.ok(!/opcional/i.test(cliente.htmlContent), 'la ficha corta no muestra opcionales');
   assert.ok(!/Falso/.test(ventas.htmlContent + cliente.htmlContent), 'ignora el modelo que manda el navegador');
+});
+
+test('si Brevo rechaza campos del contacto, lo guarda igual con nombre y correo', async () => {
+  let intentos = 0;
+  const llamadas = simularBrevo((ruta) => ruta === '/contacts' && ++intentos === 1 && 400);
+  const r = await onRequestPost({ request: pedido(COTIZACION), env: ENV });
+  assert.equal(r.status, 200);
+  const contactos = llamadas.filter((l) => l.ruta === '/contacts');
+  assert.equal(contactos.length, 2);
+  assert.equal(contactos[0].cuerpo.attributes.NOMBRE, 'Persona Prueba');
+  assert.deepEqual(contactos[1].cuerpo.attributes, { NOMBRE: 'Persona Prueba' });
 });

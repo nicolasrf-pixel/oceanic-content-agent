@@ -72,7 +72,7 @@ exactos, en mayúsculas:
 | `CONSENTIMIENTO_FECHA` | Fecha |
 | `POLITICA_VERSION` | Texto |
 
-`FIRSTNAME` ya existe en Brevo y guarda el nombre.
+`NOMBRE` ya existe en la cuenta de Oceanic y guarda el nombre (no se usa FIRSTNAME). Si falta algún campo, el sitio guarda igual el contacto con nombre y correo.
 
 **2. Lista de Puerto** (Contactos → Listas → Crear una lista): llamarla "Puerto". Anotar su ID (número).
 

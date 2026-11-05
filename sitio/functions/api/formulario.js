@@ -286,18 +286,25 @@ export function atributos(d) {
     CONSENTIMIENTO_FECHA: d.fecha.slice(0, 10),
     POLITICA_VERSION: d.politica,
   };
-  if (d.nombre) a.FIRSTNAME = d.nombre;
+  if (d.nombre) a.NOMBRE = d.nombre;  // la cuenta Brevo de Oceanic usa NOMBRE (en español), no FIRSTNAME
   if (d.telefono) a.TELEFONO = d.telefono;
   // CONSENTIMIENTO_MARKETING no va aquí: solo se guarda vía la doble confirmación de Puerto.
   for (const k of Object.keys(a)) if (a[k] === '') delete a[k];
   return a;
 }
 
-function guardarContacto(brevo, d, env) {
+async function guardarContacto(brevo, d, env) {
   const cuerpo = { email: d.email, attributes: atributos(d), updateEnabled: true };
   const lista = num(env.BREVO_LISTA_CONTACTOS);
   if (lista) cuerpo.listIds = [lista];
-  return brevo('POST', '/contacts', cuerpo);
+  const r = await brevo('POST', '/contacts', cuerpo);
+  // Si a la cuenta le falta algún campo propio del sitio, Brevo rechaza todo: se guarda igual el contacto con
+  // nombre y correo (y la lista), para no perderlo. Los campos se crean en Brevo una sola vez (docs/FORMULARIOS.md).
+  if (!r.ok && r.status === 400) {
+    console.log('formulario: Brevo rechazó campos del contacto; se guarda solo con nombre y correo');
+    return brevo('POST', '/contacts', { ...cuerpo, attributes: d.nombre ? { NOMBRE: d.nombre } : {} });
+  }
+  return r;
 }
 
 function suscribirPuerto(brevo, d, env) {
