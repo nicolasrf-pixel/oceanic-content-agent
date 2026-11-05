@@ -215,9 +215,10 @@
     otros = otros.slice(0, 3);
     if (otros.length) {
       cuerpo.push(seccion('', cabeza('Más ' + info.nombre) + '<div class="cards">' + otros.map(function (x) {
-        return '<a class="card" href="index.html?m=' + marca + '&modelo=' + x.slug + '"><div class="ph ph-soft">' + img(x.hero ? IMG(AB, x.hero) : null, x.nombre) + '</div>' +
-          '<span class="eyebrow">' + esc(famLabel(x.tipo)) + (x.eslora ? ' · ' + esc(x.eslora) : '') + '</span><h3>' + esc(x.nombre) + '</h3>' +
-          (x.desc ? '<p>' + esc(x.desc) + '</p>' : '') + '</a>';
+        var fx = x.tarjeta || x.hero;
+        return '<a class="mcard" href="index.html?m=' + marca + '&modelo=' + x.slug + '">' + (fx ? '<div class="mcard-img">' + img(IMG(AB, fx), x.nombre) + '</div>' : '') +
+          '<div class="mcard-body"><span class="mcard-marca">' + esc(famLabel(x.tipo)) + '</span><h3>' + esc(x.nombre) + '</h3>' +
+          (x.eslora ? '<span class="mcard-eslora">Eslora ' + esc(x.eslora) + '</span>' : '') + '<span class="mcard-cta">Ver modelo</span></div></a>';
       }).join('') + '</div><p class="cards-foot"><a href="' + gama + '">Ver toda la gama ' + esc(info.nombre) + ' →</a></p>'));
     }
 

@@ -199,7 +199,9 @@ ediciones y paquetes) no se publican: se conversan en persona. **Ningún barco n
 precio** (solo los usados).
 Publicar con `python3 tools/sitio_fichas.py`. Un modelo nuevo entra al catálogo del sitio con
 `python3 tools/sitio_catalogo.py <marca> <slug>...` (ficha técnica, galería y fotos). Marcas con vela y motor tienen una
-página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor`). Detalle en `docs/FICHAS.md`.
+página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor`). Foto de tarjeta (3:2, barco completo) y
+portadas inservibles (verticales, interiores): `python3 tools/sitio_tarjetas.py` + revisión visual en `tools/tarjetas-revision.json`.
+Detalle en `docs/FICHAS.md`.
 
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV

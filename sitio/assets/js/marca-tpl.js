@@ -55,14 +55,11 @@
     if(t.indexOf('vela')>=0) return 'vela';
     return 'motor';
   }
-  function tarjeta(m){
-    var href='index.html?m='+slug+'&modelo='+m.slug;
-    var meta=[]; if(m.eslora)meta.push(m.eslora); if(m.motor)meta.push(m.motor.replace(/Fueraborda,?\s*/i,'').slice(0,22));
-    var foto=m.hero?'<div class="mkc-img"><img src="'+(/^(https?:)?\/\/|^\//.test(m.hero)?m.hero:AB+m.hero)+'" alt="'+m.nombre+'" loading="lazy" onerror="this.closest(\'.mkc-img\').remove()"></div>':'';
-    return '<a class="mkc'+(m.hero?' mkc-foto':'')+'" href="'+href+'">'+foto+
-      '<div class="mkc-body">'+(m.anio?'<div class="mkc-top"><span class="mkc-anio">'+m.anio+'</span></div>':'')+
-      '<h3>'+m.nombre+'</h3>'+(meta.length?'<span class="mkc-meta">'+meta.join(' · ')+'</span>':'')+
-      (m.desc?'<p>'+m.desc+'</p>':'')+'<span class="mkc-cta">Ver modelo →</span></div></a>';
+  function tarjeta(m){  // tarjeta de modelo: foto completa del barco, nombre, eslora y botón
+    var href='index.html?m='+slug+'&modelo='+m.slug, f=m.tarjeta||m.hero;
+    var foto=f?'<div class="mcard-img"><img src="'+(/^(https?:)?\/\/|^\//.test(f)?f:AB+f)+'" alt="'+m.nombre+'" loading="lazy" onerror="this.closest(\'.mcard-img\').remove()"></div>':'';
+    return '<a class="mcard" href="'+href+'">'+foto+'<div class="mcard-body"><h3>'+m.nombre+'</h3>'+
+      (m.eslora?'<span class="mcard-eslora">Eslora '+m.eslora+'</span>':'')+'<span class="mcard-cta">Ver modelo</span></div></a>';
   }
   // ordenar familias presentes
   var FAM={vela:{t:'Vela',sub:'Monocascos y catamaranes a vela.'},

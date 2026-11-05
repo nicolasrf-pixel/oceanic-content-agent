@@ -456,3 +456,21 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 .asis-back{align-self:flex-start;background:none;border:0;color:var(--trabajo);cursor:pointer;
   font-family:var(--dato);font-size:12px;letter-spacing:.04em;padding:4px 0;margin-top:2px}
 .asis-back:hover{color:var(--boya)}
+
+/* ===== Tarjeta de modelo (gamas, "Más de la marca", destacados): foto completa, nombre, eslora y botón ===== */
+.mcard{display:flex;flex-direction:column;background:#fff;border:1px solid var(--linea);text-decoration:none;color:var(--noche);
+  transition:box-shadow .35s,transform .35s cubic-bezier(.16,.84,.34,1)}
+.mcard:hover{box-shadow:0 22px 44px -26px rgba(20,33,43,.45);transform:translateY(-3px)}
+.mcard-img{aspect-ratio:3/2;overflow:hidden;background:var(--natural)}
+.mcard-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.16,.84,.34,1)}
+.mcard:hover .mcard-img img{transform:scale(1.03)}
+.mcard-body{display:flex;flex-direction:column;gap:6px;padding:clamp(18px,1.6vw,26px);flex:1}
+.mcard-marca{font-family:var(--dato);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--niebla)}
+.mcard h3{font-family:var(--display);font-weight:600;letter-spacing:-.01em;font-size:clamp(19px,.6vw + 15px,24px);line-height:1.15;margin:0}
+.mcard-eslora{font-family:var(--dato);font-size:13px;color:var(--trabajo)}
+.mcard-cta{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:var(--noche);color:#fff;
+  font-family:var(--display);font-weight:600;font-size:15px;padding:11px 18px;border-radius:2px;transition:background .25s}
+.mcard-body .mcard-cta{margin-top:14px}
+.mcard:hover .mcard-cta{background:var(--boya)}
+.mcard-cta::after{content:"→";transition:transform .25s}
+.mcard:hover .mcard-cta::after{transform:translateX(3px)}
