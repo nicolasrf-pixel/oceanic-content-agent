@@ -155,10 +155,10 @@ test('el correo a ventas escapa el HTML', () => {
 test('cada tipo de solicitud recibe su agradecimiento (no solo las cotizaciones)', async () => {
   const casos = [
     [{ tipo: 'usado', modelo: 'XO DFNDR 8 (2024)' }, /consulta por el XO DFNDR 8/],
-    [{ tipo: 'contacto', motivo: 'Otro' }, /Gracias por escribirnos/],
+    [{ tipo: 'contacto', motivo: 'Otro' }, /Hemos recibido tu mensaje/],
     [{ tipo: 'charter', detalle: '• Destino: Cícladas' }, /solicitud de charter/],
     [{ tipo: 'equipamiento', categorias: ['Velas'] }, /solicitud de equipamiento/],
-    [{ tipo: 'privacidad', motivo: 'Supresión' }, /solicitud de supresión de datos personales/],
+    [{ tipo: 'privacidad', motivo: 'Supresión' }, /Recibimos tu solicitud sobre tus datos personales/],
   ];
   for (const [extra, asunto] of casos) {
     const llamadas = simularBrevo();

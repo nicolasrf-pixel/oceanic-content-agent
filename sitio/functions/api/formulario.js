@@ -12,7 +12,7 @@
    Variables (Cloudflare → Worker oceanic → Settings → Variables and secrets): ver docs/FORMULARIOS.md en la raíz del repo.
    La clave de Brevo la guarda Nico como secreto: nunca va en el código, el chat ni el correo. */
 
-import { cotizacionVentas, cotizacionCliente, barcoDelCatalogo } from './correos.js';
+import { cotizacionVentas, cotizacionCliente, barcoDelCatalogo, genericoVentas, genericoCliente, usadoDelCatalogo, destinoCharter } from './correos.js';
 
 const TIPOS = {
   cotizacion:   { linea: 'Embarcaciones nuevas', asunto: 'Cotización' },
@@ -61,8 +61,11 @@ export async function onRequestPost({ request, env }) {
   const brevo = clienteBrevo(env.BREVO_API_KEY);
   const ventas = env.VENTAS_EMAIL || 'ventasweb@oceanic.cl';
   // Cotización desde una ficha: los datos del barco salen del catálogo del sitio, no de lo que mande el navegador
-  const barco = d.tipo === 'cotizacion' && d.ficha ? await barcoDelCatalogo(env, new URL(request.url).origin, d.ficha) : null;
-  if (barco) { d.marca = barco.marca; d.modelo = barco.nombre; }
+  const origen = new URL(request.url).origin;
+  const barco = d.tipo === 'cotizacion' && d.ficha ? await barcoDelCatalogo(env, origen, d.ficha)
+    : d.tipo === 'usado' && d.ficha ? await usadoDelCatalogo(env, origen, d.ficha)
+    : d.tipo === 'charter' ? destinoCharter(origen, d.detalle) : null;
+  if (barco && d.tipo !== 'charter') { d.marca = barco.marca; d.modelo = barco.nombre; }
   const remitente = { email: env.REMITENTE_EMAIL, name: env.REMITENTE_NOMBRE || 'Oceanic' };
 
   // Suscripción sola a Puerto: no hay solicitud que avisar a ventas, y el contacto lo crea Brevo
@@ -154,6 +157,11 @@ function origenPermitido(request, env) {
 
 export function correoVentas(d, barco) {
   if (d.tipo === 'cotizacion') return cotizacionVentas(d, barco);
+  return genericoVentas(d, barco);
+}
+
+// Versión anterior (texto simple), se conserva como referencia de los campos.
+export function correoVentasSimple(d) {
   const t = TIPOS[d.tipo];
   const bloques = [
     ['Solicitud', [
@@ -235,6 +243,10 @@ const AGRADECIMIENTO = {
 
 export function correoConfirmacion(d, barco) {
   if (d.tipo === 'cotizacion') return cotizacionCliente(d, barco);
+  return genericoCliente(d, barco);
+}
+
+export function correoConfirmacionSimple(d) {
   const t = AGRADECIMIENTO[d.tipo](d);
   const saludo = d.nombre ? 'Hola ' + d.nombre.split(' ')[0] + ',' : 'Hola,';
   const copia = [

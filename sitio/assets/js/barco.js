@@ -133,7 +133,7 @@
         '<span class="talk-or">o déjanos tus datos y te escribimos →</span>' +
       '</div>' +
       '<div>' +
-        '<form data-form="usado" data-modelo="' + cAttr(nombreFicha) + '" data-marca="' + cAttr('Usado' + (R.marca && R.marca !== '·' ? ' · ' + R.marca : '')) + '" data-ok="#cokUsado" novalidate>' + HP +
+        '<form data-form="usado" data-ficha="' + cAttr(U.id || '') + '" data-modelo="' + cAttr(nombreFicha) + '" data-marca="' + cAttr('Usado' + (R.marca && R.marca !== '·' ? ' · ' + R.marca : '')) + '" data-ok="#cokUsado" novalidate>' + HP +
           '<div class="row">' +
             '<div><label for="cz-n">Nombre</label><input id="cz-n" name="nombre" required autocomplete="name"></div>' +
             '<div><label for="cz-e">Correo</label><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email"></div>' +
