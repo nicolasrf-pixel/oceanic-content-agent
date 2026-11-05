@@ -3,14 +3,14 @@
    ============================================================
    El cotizador arma una solicitud por pasos. Estos datos
    alimentan los selectores de continente → destino.
-   Editar aquí para agregar destinos.
+   Editar aquí para agregar destinos. Fotos de destino: las de oceanic.cl/charter (Oceanic), en assets/img/destino-*.webp.
    ============================================================ */
 window.OCEANIC_CHARTER={
  "continentes": [
   {
    "id": "mediterraneo",
    "nombre": "Mediterráneo",
-   "img": "ch-mediterraneo",
+   "img": "destino-mediterraneo",
    "lede": "Islas griegas, costa croata, Baleares, Cerdeña y la Riviera.",
    "destinos": [
     "Islas Griegas (Cícladas)",
@@ -24,7 +24,7 @@ window.OCEANIC_CHARTER={
   {
    "id": "caribe",
    "nombre": "Caribe",
-   "img": "ch-caribe",
+   "img": "destino-caribe",
    "lede": "Aguas cálidas todo el año: BVI, Granadinas, Bahamas.",
    "destinos": [
     "Islas Vírgenes (BVI)",
@@ -37,7 +37,7 @@ window.OCEANIC_CHARTER={
   {
    "id": "pacifico",
    "nombre": "Pacífico Sur",
-   "img": "ch-pacifico",
+   "img": "destino-pacifico",
    "lede": "Polinesia, y la costa que conocemos como nadie: Chile.",
    "destinos": [
     "Polinesia Francesa",
@@ -49,7 +49,7 @@ window.OCEANIC_CHARTER={
   {
    "id": "otros",
    "nombre": "Otros destinos",
-   "img": "ch-patagonia",
+   "img": "destino-otros",
    "lede": "Sudeste asiático, Seychelles o donde quieras navegar.",
    "destinos": [
     "Tailandia (Phuket)",

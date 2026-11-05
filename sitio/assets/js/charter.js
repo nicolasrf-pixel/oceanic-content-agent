@@ -9,6 +9,7 @@
   var STEPS = ['continente','destino','fechas','personas','embarcacion','tripulacion','resumen'];
   var cur = 0;
 
+  function AB(){ return document.body.dataset.assetBase || '../assets/img/'; }
   var stepsEl = document.getElementById('cotzSteps');
   var progEl  = document.getElementById('cotzProg');
 
@@ -28,8 +29,11 @@
 
     if (s === 'continente') {
       h = head('¿Hacia dónde?', 'Elige la región del mundo donde sueñas navegar.') +
-        '<div class="cotz-cards">' + D.continentes.map(function (c) {
-          return card(c.id, 'continente', c.nombre, c.lede, 'ch-img-' + c.img);
+        '<div class="cz-dests">' + D.continentes.map(function (c) {
+          return '<button type="button" class="cz-dest' + (state.continente === c.id ? ' on' : '') + '" data-act="continente" data-v="' + c.id + '">' +
+            '<span class="cz-dest-img"><img src="' + AB() + c.img + '.webp" alt="" loading="lazy"></span>' +
+            '<span class="cz-dest-body"><span class="cz-dest-t">' + c.nombre + '</span><span class="cz-dest-d">' + c.lede + '</span>' +
+            '<span class="cz-dest-go">Elegir <span aria-hidden="true">→</span></span></span></button>';
         }).join('') + '</div>';
     }
     else if (s === 'destino') {
@@ -83,15 +87,10 @@
     return '<div class="cotz-nav">' + back +
       '<button class="btn cotz-next" data-act="next"' + (canNext ? '' : ' disabled') + '>Continuar</button></div>';
   }
-  function card(id, act, t, d, imgClass){
-    return '<button class="cotz-card ' + imgClass + '" data-act="' + act + '" data-v="' + id + '">' +
-      '<span class="cotz-card-in"><span class="cotz-card-t">' + t + '</span>' +
-      '<span class="cotz-card-d">' + d + '</span></span></button>';
-  }
   function cardSimple(id, act, t, d){
     var on = state[act] === id ? ' on' : '';
-    return '<button class="cotz-card cotz-card-simple' + on + '" data-act="' + act + '" data-v="' + id + '">' +
-      '<span class="cotz-card-t">' + t + '</span><span class="cotz-card-d">' + d + '</span></button>';
+    return '<button type="button" class="cotz-card cotz-card-simple' + on + '" data-act="' + act + '" data-v="' + id + '">' +
+      '<span class="cotz-radio" aria-hidden="true"></span><span class="cotz-card-t">' + t + '</span><span class="cotz-card-d">' + d + '</span></button>';
   }
 
   function renderResumen(){
@@ -210,18 +209,20 @@
   // ---------- destinos (grilla informativa) ----------
   var grid = document.getElementById('cdestGrid');
   if (grid) grid.innerHTML = D.continentes.map(function (c) {
-    return '<article class="cd"><div class="cd-img"><img src="' + AB() + c.img + '.webp" alt="' + c.nombre + '" loading="lazy"></div>' +
-      '<div class="cd-body"><h3>' + c.nombre + '</h3><p>' + c.lede + '</p>' +
-      '<span class="cd-list">' + c.destinos.slice(0,3).join(' · ') + '</span></div></article>';
+    var lista = c.destinos.filter(function (d) { return !/^otro/i.test(d); });
+    return '<article class="cd2"><div class="cd2-img"><img src="' + AB() + c.img + '.webp" alt="' + c.nombre + '" loading="lazy"></div>' +
+      '<div class="cd2-body"><span class="cd2-n">' + lista.length + ' destinos</span><h3>' + c.nombre + '</h3><p>' + c.lede + '</p>' +
+      '<ul class="cd2-list">' + lista.map(function (d) { return '<li>' + d + '</li>'; }).join('') + '</ul>' +
+      '<button type="button" class="cd2-cta" data-region="' + c.id + '">Cotizar en ' + c.nombre + ' <span aria-hidden="true">→</span></button></div></article>';
   }).join('');
-  function AB(){ return document.body.dataset.assetBase || '../assets/img/'; }
-
-  // inyectar imágenes de fondo a las cards de continente (paso 1)
-  var style = document.createElement('style');
-  style.textContent = D.continentes.map(function(c){
-    return '.ch-img-' + c.img + '{background-image:linear-gradient(to top,rgba(20,33,43,.85),rgba(20,33,43,.35)),url(../assets/img/' + c.img + '.webp)}';
-  }).join('');
-  document.head.appendChild(style);
+  // «Cotizar en …»: elige la región en el cotizador y lo muestra en el paso del destino
+  if (grid) grid.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-region]');
+    if (!b) return;
+    state.continente = b.getAttribute('data-region'); state.destino = null; cur = 1; render();
+    var box = document.getElementById('cotzBox'); if (box) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  
 
   // menú móvil
   var bt = document.getElementById('burger'), dr = document.getElementById('drawer');

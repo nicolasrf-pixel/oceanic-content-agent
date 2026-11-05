@@ -163,3 +163,50 @@
 .cfg-precio i{font-style:normal;opacity:.7;margin-left:1px;color:var(--boya)}
 .cfg-nota{margin-top:clamp(20px,2vw,30px);font-family:var(--texto);font-size:13px;
   line-height:1.5;color:var(--niebla);max-width:64ch;font-style:italic}
+
+/* ===== Rediseño 2026-11-05: destinos con foto real del lugar ===== */
+/* paso 1 del cotizador: tarjetas con la foto completa arriba y el texto abajo */
+.cz-dests{display:grid;grid-template-columns:1fr;gap:clamp(14px,1.4vw,20px)}
+@media(min-width:620px){.cz-dests{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1080px){.cz-dests{grid-template-columns:repeat(4,1fr)}}
+.cz-dest{display:flex;flex-direction:column;text-align:left;padding:0;cursor:pointer;background:var(--papel);
+  border:1px solid var(--linea);color:var(--tinta);transition:border-color .3s,box-shadow .4s,transform .5s cubic-bezier(.16,.84,.34,1)}
+.cz-dest:hover{border-color:rgba(203,92,60,.6);box-shadow:0 18px 40px -22px rgba(20,33,43,.35);transform:translateY(-3px)}
+.cz-dest:focus-visible{outline:2px solid var(--boya);outline-offset:3px}
+.cz-dest.on{border-color:var(--boya);box-shadow:0 0 0 1px var(--boya)}
+.cz-dest-img{display:block;aspect-ratio:4/3;overflow:hidden;background:var(--arena)}
+.cz-dest-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.16,.84,.34,1)}
+.cz-dest:hover .cz-dest-img img{transform:scale(1.05)}
+.cz-dest-body{display:flex;flex-direction:column;gap:6px;padding:16px 18px 18px;flex:1}
+.cz-dest-t{font-family:var(--display);font-weight:600;font-size:19px;letter-spacing:-.01em;color:var(--tinta)}
+.cz-dest-d{font-family:var(--texto);font-size:14px;line-height:1.5;color:var(--trabajo);flex:1}
+.cz-dest-go{margin-top:8px;font-family:var(--display);font-weight:600;font-size:14px;color:var(--boya)}
+
+/* tarjetas simples (barco, tripulación): con marca de selección */
+.cotz-card-simple{position:relative;padding-right:48px;transition:border-color .25s,background .25s}
+.cotz-radio{position:absolute;top:20px;right:18px;width:18px;height:18px;border-radius:50%;border:1.5px solid rgba(20,33,43,.3);transition:all .25s}
+.cotz-card-simple:hover .cotz-radio{border-color:var(--boya)}
+.cotz-card-simple.on .cotz-radio{border-color:var(--boya);background:radial-gradient(circle,var(--boya) 0 4.5px,transparent 5px)}
+.cotz-card-simple .cotz-card-t{font-size:17px}
+
+/* contenedor y progreso más finos */
+.cotz-box{border-top:3px solid var(--boya)}
+.cotz-prog{gap:6px}
+.cotz-dot{height:2px}
+
+/* sección Destinos: tarjetas editoriales, todos los destinos y acceso directo al cotizador */
+.cdest-grid{gap:clamp(16px,1.8vw,26px)}
+.cd2{display:flex;flex-direction:column;background:#1E2E3A;color:#fff;overflow:hidden}
+.cd2-img{aspect-ratio:16/11;overflow:hidden;background:#1a2b38}
+.cd2-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.3s cubic-bezier(.16,.84,.34,1)}
+.cd2:hover .cd2-img img{transform:scale(1.05)}
+.cd2-body{display:flex;flex-direction:column;flex:1;padding:clamp(20px,1.8vw,26px);border-top:2px solid var(--boya)}
+.cd2-n{font-family:var(--dato);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#E8A08B}
+.cd2-body h3{font-family:var(--display);font-weight:600;font-size:clamp(21px,.8vw + 15px,26px);letter-spacing:-.01em;margin:8px 0 6px;color:#fff}
+.cd2-body p{font-family:var(--texto);font-weight:300;font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.78);margin:0 0 16px}
+.cd2-list{list-style:none;margin:0 0 20px;padding:0;flex:1}
+.cd2-list li{font-family:var(--texto);font-size:14px;line-height:1.4;color:rgba(255,255,255,.9);padding:9px 0;border-top:1px solid rgba(255,255,255,.1)}
+.cd2-list li:last-child{border-bottom:1px solid rgba(255,255,255,.1)}
+.cd2-cta{align-self:flex-start;background:none;border:0;padding:0 0 3px;cursor:pointer;font-family:var(--display);font-weight:600;font-size:14.5px;
+  color:#fff;border-bottom:1px solid var(--boya);transition:color .25s}
+.cd2-cta:hover{color:#E8A08B}
