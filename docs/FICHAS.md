@@ -89,3 +89,12 @@ Reglas vigentes (decisión Oceanic 2026-11-04):
 
 `sitio/assets/js/publicacion.js › destacados` lista los 3 modelos de la portada, en orden (`"<marca>/<slug>"`). Foto,
 nombre y descripción salen del catálogo. Un modelo apagado no se muestra. Lo elegirá el administrador.
+
+
+## Videos y premios (decisión Oceanic 2026-11-05)
+
+`python3 tools/sitio_medios.py` lee cada paquete de la biblioteca y escribe `sitio/assets/data/medios/<marca>/<modelo>.json` (+ `index.json`), que la ficha pide en paralelo:
+
+- **Videos:** los de `05_MULTIMEDIA/VIDEOS/videos.json` con `scope: THIS_MODEL` y sin `third_party`, sin duplicados, máximo 6 (recorridos primero, tomas en navegación al final). Los títulos oficiales vienen en inglés o son nombres de archivo, así que cada video lleva una etiqueta en español (Recorrido del barco / Video oficial / En navegación). No se descargan: la ficha muestra una foto del modelo con botón de reproducir y recién al apretarlo carga YouTube (`youtube-nocookie.com`), Vimeo (`dnt=1`) o el MP4 del CDN del fabricante. Antes de eso no hay ninguna conexión externa (política de privacidad, sección 4).
+- **Premios:** la lista `awards` del extract de la página oficial. El nombre del premio es nombre propio y no se traduce; lo descriptivo (ganador, finalista, nominado, categoría) sí. Un premio que no se puede presentar sin inventar queda fuera y el script lo avisa. Axopar publica sus premios solo como imagen (sin texto): por eso sus fichas no muestran el bloque.
+- En la ficha, los bloques de texto y foto alternan de lado (clase `two-inv`).

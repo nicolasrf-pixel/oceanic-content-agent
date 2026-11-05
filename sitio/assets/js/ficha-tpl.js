@@ -116,13 +116,24 @@
         '</div>' + (foto ? '<figure class="story-fig">' + img(foto, mo.nombre) + '</figure>' : '') + '</section>');
     }
 
-    // 3 · Bloques oficiales (maqueta "A bordo": título, texto y foto)
-    var cuerpo = [];
+    // 2b · Premios que publica la página oficial del modelo (tools/sitio_medios.py)
+    var MD = P.medios || {};
+    if (MD.premios && MD.premios.length) {
+      html.push('<section class="premios-sec" id="premios"><div class="wrap">' + cabeza('Reconocimientos') +
+        '<ul class="premios">' + MD.premios.map(function (x) {
+          return '<li><svg class="premio-ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l3.1 6.6 7.2.9-5.3 5 1.4 7.1L16 20.1 9.6 23.6 11 16.5l-5.3-5 7.2-.9z"/></svg>' +
+            '<b>' + esc(x.nombre) + '</b>' + (x.detalle ? '<span>' + esc(x.detalle) + '</span>' : '') + '</li>';
+        }).join('') + '</ul><p class="spec-fuente">Premios publicados en la página oficial de ' + esc(info.nombre) + '.</p></div></section>');
+    }
+
+    // 3 · Bloques oficiales (maqueta "A bordo": título, texto y foto). Texto y foto alternan de lado bloque a bloque.
+    var cuerpo = [], lado = 0;
+    function dos() { return '<div class="two' + (lado++ % 2 ? ' two-inv' : '') + '">'; }
     (P.bloques || []).forEach(function (b, i) {
       if (!b.texto || !b.texto.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'abordo' : '',
-        cabeza(b.titulo) + '<div class="two"><div><h2>' + h2(b.titulo) + '</h2>' +
+        cabeza(b.titulo) + dos() + '<div><h2>' + h2(b.titulo) + '</h2>' +
         '<p class="lede" style="margin-top:22px">' + esc(b.texto[0]) + '</p>' + parr(b.texto.slice(1)) + '</div>' +
         '<div>' + img(f, mo.nombre + ' · ' + b.titulo) + '</div></div>'));
     });
@@ -133,7 +144,7 @@
       if (!g.items || !g.items.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'destacados' : '',
-        cabeza(g.grupo) + '<div class="two"><div><h2>' + h2(g.grupo) + '</h2>' +
+        cabeza(g.grupo) + dos() + '<div><h2>' + h2(g.grupo) + '</h2>' +
         (g.intro ? '<p class="lede" style="margin-top:22px">' + esc(g.intro) + '</p>' : '') + img(f, mo.nombre + ' · ' + g.grupo) + '</div>' +
         '<div><dl style="margin:0">' + g.items.map(function (it) {
           return '<div class="tr"><dt>' + esc(it.titulo) + '</dt><dd>' + esc(it.texto || '') + '</dd></div>';
@@ -141,11 +152,26 @@
       if (i === 0) nav.push(['destacados', 'Destacados']);
     });
 
-    // 5 · Galería (maqueta: grilla de 3)
+    // 5 · Galería (maqueta: grilla de 3). Antes se reservan las fotos de portada de los videos.
+    var vids = (MD.videos || []).map(function (v) { return { v: v, foto: F.sig() || F.hero }; });
     var galeria = F.resto(6);
     if (galeria.length) {
       cuerpo.push(seccion('galeria', cabeza('Galería') + '<div class="gal">' +
         galeria.map(function (g) { return '<div class="gal-item">' + img(g, mo.nombre) + '</div>'; }).join('') + '</div>'));
+    }
+
+    // 5b · Videos oficiales: se llaman desde donde están alojados (YouTube, Vimeo o el CDN del fabricante) y solo al
+    // apretar reproducir; antes no se conecta nada externo (sin cookies de terceros hasta que el visitante lo pide).
+    if (vids.length) {
+      cuerpo.push(seccion('videos', cabeza('Videos') + '<div class="vids' + (vids.length === 1 ? ' vids-1' : '') + '">' +
+        vids.map(function (x) {
+          var v = x.v;
+          return '<button type="button" class="vid" data-tipo="' + esc(v.tipo) + '" data-v="' + esc(v.id || v.src) + '" aria-label="Reproducir video: ' + esc(v.etiqueta) + '">' +
+            (x.foto ? img(x.foto, mo.nombre) : '') + '<span class="vid-play" aria-hidden="true"></span>' +
+            '<span class="vid-et">' + esc(v.etiqueta) + '</span></button>';
+        }).join('') + '</div><p class="spec-fuente">Videos oficiales de ' + esc(info.nombre) + '. Se reproducen desde ' +
+        'su plataforma de origen.</p>'));
+      nav.push(['videos', 'Videos']);
     }
 
     // 6 · Configuración oficial (maqueta "Versiones y configuración": tarjetas)
@@ -322,6 +348,12 @@
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
     var base = (document.body.dataset.assetBase || '../assets/img/').replace(/img\/$/, '') + 'data/fichas/';
     function json(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+    // videos y premios oficiales (data/medios/, tools/sitio_medios.py), en paralelo con la ficha
+    var mbase = base.replace(/fichas\/$/, 'medios/');
+    var medios = json(mbase + 'index.json')
+      .then(function (l) { return l.indexOf(marca + '/' + mslug) < 0 ? {} : json(mbase + marca + '/' + mslug + '.json'); })
+      .catch(function () { return {}; });
+    function pintar(P) { medios.then(function (MD) { P.medios = MD; render(marca, mslug, P); }); }
     // index.json lista las fichas con traducción completa; las demás usan el borrador del catálogo
     json(base + 'index.json')
       .then(function (lista) { if (lista.indexOf(marca + '/' + mslug) < 0) throw 0; return json(base + marca + '/' + mslug + '.json'); })
@@ -331,9 +363,33 @@
         if (!P.bloques || !P.bloques.length) P.bloques = B.bloques;
         if (!P.equipamiento && B.equipamiento) P.equipamiento = B.equipamiento;
         if (!P.intro || !P.intro.length) P.intro = B.intro;
-        render(marca, mslug, P);
-      }, function () { render(marca, mslug, desdeCatalogo(mo, CC)); });
+        pintar(P);
+      }, function () { pintar(desdeCatalogo(mo, CC)); });
   };
+
+  // Reproducir un video: recién aquí se llama a la plataforma donde está alojado
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('button.vid');
+    if (!b) return;
+    var t = b.getAttribute('data-tipo'), v = b.getAttribute('data-v'), el;
+    if (t === 'mp4') {
+      el = document.createElement('video');
+      el.src = v; el.controls = true; el.autoplay = true; el.playsInline = true;
+    } else {
+      el = document.createElement('iframe');
+      el.src = t === 'youtube'
+        ? 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v) + '?autoplay=1&rel=0&modestbranding=1'
+        : 'https://player.vimeo.com/video/' + encodeURIComponent(v) + '?autoplay=1&dnt=1';
+      el.allow = 'autoplay; fullscreen; picture-in-picture; encrypted-media';
+      el.allowFullscreen = true;
+      el.title = b.getAttribute('aria-label') || 'Video';
+    }
+    el.className = 'vid-player';
+    var marco = document.createElement('div');
+    marco.className = 'vid vid-on';
+    marco.appendChild(el);
+    b.replaceWith(marco);
+  });
 
   var q = new URLSearchParams(location.search);
   if (q.get('modelo')) window.OCEANIC_RENDER_MODELO(q.get('m') || 'beneteau', q.get('modelo'));
