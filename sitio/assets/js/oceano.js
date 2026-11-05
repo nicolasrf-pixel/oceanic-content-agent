@@ -34,7 +34,7 @@
   }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
 
   function preparar(scope) {
-    [[TEXTO, 'o-sube'], [TARJETAS, 'o-sube'], [FOTOS, 'o-foto']].forEach(function (par) {
+    [[TEXTO, 'o-texto'], [TARJETAS, 'o-sube'], [FOTOS, 'o-foto']].forEach(function (par) {
       [].forEach.call(scope.querySelectorAll(par[0]), function (el) {
         if (el.dataset.o || el.closest('.rv, header.hero, .hhero, .bar, .drawer, .ft, form, .form-ok, [hidden]')) return;
         el.dataset.o = '1';

@@ -2,15 +2,15 @@
    Se carga al final de cada página: para volver atrás basta con quitar esta hoja. */
 
 /* 1 · Un solo ritmo vertical entre secciones (antes hasta 280 px: páginas de 14.000 px) */
-:root{--rhythm:clamp(48px,4.5vw,80px)}
-.stmt{padding:clamp(40px,4vw,64px) 0}
+:root{--rhythm:clamp(40px,3.6vw,64px)}
+.stmt{padding:clamp(32px,3vw,48px) 0}
 
 /* 2 · Una sola escala de títulos de sección (antes 40 / 80 / 84 / 88 px según la sección) */
 h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-height:1.08;letter-spacing:-.02em}
 .port-h2{margin-bottom:clamp(24px,2.4vw,40px)}
-.sec-head{margin-bottom:clamp(20px,2vw,32px)}
-.sec-head+h2,.sec-head+.dest-h2{margin-bottom:clamp(28px,3vw,48px)}
-.dest-h2{margin:0 0 clamp(28px,3vw,48px)}
+.sec-head{margin-bottom:clamp(12px,1.2vw,18px)}
+.sec-head+h2,.sec-head+.dest-h2{margin-bottom:clamp(20px,2vw,32px)}
+.dest-h2{margin:0 0 clamp(20px,2vw,32px)}
 
 /* 3 · Frase de portada: centrada y contenida, no un renglón suelto a la izquierda */
 .stmt p{text-align:center;max-width:28ch;margin-left:auto;margin-right:auto}
@@ -24,7 +24,7 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .es-ficha .tr dt{font-family:var(--display);font-weight:600;letter-spacing:-.005em;color:var(--tinta)}
 .es-ficha .two>div>img,.es-ficha .two>div>picture{margin-top:clamp(20px,2vw,32px)}
 /* secciones de la ficha con el mismo aire arriba y abajo */
-.es-ficha section{padding-top:clamp(44px,4vw,72px);padding-bottom:clamp(44px,4vw,72px)}
+.es-ficha section{padding-top:clamp(36px,3.4vw,60px);padding-bottom:clamp(36px,3.4vw,60px)}
 .es-ficha .story{padding-bottom:0}
 
 /* 5 · Encabezados de marca: el texto no queda en una columna angosta */
@@ -38,12 +38,12 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .es-ficha .story-fig{margin-top:clamp(32px,3vw,56px)}
 /* bloques que traían su propio margen grande (equipamiento y charter en portada, relato de la ficha) */
 .equip,.chome{padding-top:var(--rhythm)!important;padding-bottom:var(--rhythm)!important;min-height:0!important}
-.es-ficha .story{padding-top:clamp(44px,4vw,72px)!important}
+.es-ficha .story{padding-top:clamp(36px,3.4vw,60px)!important}
 
 /* 8 · Cotizador: sin márgenes apilados entre el título, la línea y el formulario */
 .talk .sec-head{margin-bottom:16px}
 .talk-h,.talk h2{margin-bottom:0}
-.talk-form{margin-top:clamp(24px,2.4vw,36px);padding-top:clamp(24px,2.4vw,36px)}
+.talk-form{margin-top:clamp(20px,2vw,28px);padding-top:clamp(20px,2vw,28px)}
 
 /* ===== 9 · Movimiento (oceano.js). Solo si el JS está activo y el sistema no pide reducir movimiento ===== */
 .o-avance{position:fixed;top:0;left:0;right:0;height:2px;background:var(--boya);transform-origin:0 50%;transform:scaleX(0);z-index:200;pointer-events:none}
@@ -83,3 +83,9 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 #grid:empty,#destacados:empty,#puertoEd:empty{min-height:420px;
   background:linear-gradient(100deg,var(--arena) 30%,var(--papel) 50%,var(--arena) 70%);background-size:200% 100%;animation:o-brillo 1.6s linear infinite}
 @media (prefers-reduced-motion:reduce){#marca:empty::before,#barco:empty::before,#edicion:empty::before,#grid:empty,#destacados:empty,#puertoEd:empty{animation:none}}
+
+/* 11 · Títulos y textos siempre legibles: se mueven al entrar pero nunca quedan transparentes */
+.o-anim .o-texto{transform:translate3d(0,16px,0);transition:transform .9s cubic-bezier(.16,.84,.34,1)}
+.o-anim .o-texto.o-visto{transform:none}
+.brands-h2{margin-bottom:clamp(20px,2vw,32px)}
+.cot{padding:clamp(40px,4vw,72px) 0}
