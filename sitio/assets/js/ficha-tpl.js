@@ -119,11 +119,15 @@
     // 2b · Premios que publica la página oficial del modelo (tools/sitio_medios.py)
     var MD = P.medios || {};
     if (MD.premios && MD.premios.length) {
+      var conLogo = MD.premios.filter(function (x) { return x.logo; }), sinLogo = MD.premios.filter(function (x) { return !x.logo; });
+      var nombreP = function (x) { return x.nombre + (x.detalle ? ' · ' + x.detalle : ''); };
       html.push('<section class="premios-sec" id="premios"><div class="wrap">' + cabeza('Reconocimientos') +
-        '<ul class="premios">' + MD.premios.map(function (x) {
-          return '<li><svg class="premio-ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l3.1 6.6 7.2.9-5.3 5 1.4 7.1L16 20.1 9.6 23.6 11 16.5l-5.3-5 7.2-.9z"/></svg>' +
-            '<b>' + esc(x.nombre) + '</b>' + (x.detalle ? '<span>' + esc(x.detalle) + '</span>' : '') + '</li>';
-        }).join('') + '</ul><p class="spec-fuente">Premios publicados en la página oficial de ' + esc(info.nombre) + '.</p></div></section>');
+        (conLogo.length ? '<ul class="premios-logos">' + conLogo.map(function (x) {
+          return '<li title="' + esc(nombreP(x)) + '"><img src="' + esc(AB + x.logo) + '" alt="' + esc(nombreP(x)) + '" loading="lazy"></li>';
+        }).join('') + '</ul>' : '') +
+        (sinLogo.length ? '<p class="premios-texto">' + (conLogo.length ? 'Además: ' : '') +
+          sinLogo.map(function (x) { return '<span>' + esc(nombreP(x)) + '</span>'; }).join('') + '</p>' : '') +
+        '<p class="spec-fuente">Premios publicados en la página oficial de ' + esc(info.nombre) + '.</p></div></section>');
     }
 
     // 3 · Bloques oficiales (maqueta "A bordo": título, texto y foto). Texto y foto alternan de lado bloque a bloque.

@@ -230,6 +230,8 @@ def pulir(p):
 
 
 EXTRA = json.loads((RAIZ / 'tools' / 'premios-extra.json').read_text())
+_LP = RAIZ / 'tools' / 'premios-logos.json'
+LOGOS_PREMIOS = json.loads(_LP.read_text()) if _LP.exists() else {}
 
 
 def premios(carpeta, modelo_nombre):
@@ -245,13 +247,28 @@ def premios(carpeta, modelo_nombre):
             continue
         extra.append(e)
     reemplazados = {e['reemplaza'].lower() for e in extra if e.get('reemplaza')}
-    for ex in sorted((carpeta / '07_FUENTES' / 'extract').glob('*.json')):
+    # logos oficiales (tools/sitio_premios_logos.py): esos premios van primero, con su logo
+    L = LOGOS_PREMIOS.get(f'{carpeta.parent.name}/{carpeta.name}')
+    crudos_fuera = set()
+    if L:
+        for e in L['premios']:
+            item = {'nombre': e['nombre'], 'detalle': e.get('detalle', '')}
+            if e.get('logo'):
+                item['logo'] = e['logo']
+            clave = (item['nombre'].lower(), item['detalle'])
+            if clave not in vistos:
+                vistos.add(clave)
+                out.append(item)
+        crudos_fuera = {re.sub(r'\s+', ' ', r).strip().lower() for r in L.get('reemplaza', [])}
+    for ex in ([] if L and L.get('reemplaza_todo') else sorted((carpeta / '07_FUENTES' / 'extract').glob('*.json'))):
         try:
             j = json.loads(ex.read_text())
         except ValueError:
             continue
         for a in j.get('awards') or []:
             if not isinstance(a, str):
+                continue
+            if re.sub(r'\s+', ' ', a).strip().lower() in crudos_fuera:
                 continue
             p = premio(a, modelo_nombre)
             if not p:

@@ -1,0 +1,145 @@
+{
+ "_doc": "Logos de premios que la página oficial publica sin un nombre que los enlace solos (Lagoon: tabla de logos aparte de la lista de premios; XO: insignia dentro de una foto; Axopar AX/E 22: tres logos en una sola imagen). Emparejados a la vista el 2026-11-05. 'premio' = texto exacto de la lista 'awards' de la página al que corresponde el logo (se reemplaza por esta entrada); sin 'premio', el logo es un premio que la página publica solo como imagen. 'recorte' = [izq, arriba, der, abajo] en píxeles de la imagen original. tools/sitio_premios_logos.py verifica que la imagen siga en la página.",
+ "lagoon/lagoon-42-millenium": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-07/Sailing%20Today%202016%20-%20lagoon%2042.png",
+   "premio": "Sailing Today Awards 2016 - Multicoque",
+   "nombre": "Sailing Today Awards 2016",
+   "detalle": "Multicasco"
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-07/Asia%20Boating%20Awards%202016%20-%20lagoon%2042.png",
+   "premio": "Asia Boating Award 2016 - Meilleur voilier multicoque",
+   "nombre": "Asia Boating Awards 2016",
+   "detalle": "Ganador · Mejor velero multicasco"
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-07/Best%20Boats%20awards%202017%20-%20lagoon%2042.png",
+   "nombre": "Best Boats 2017",
+   "detalle": "Ganador"
+  }
+ ],
+ "lagoon/lagoon-43": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Boat%20of%20the%20Year%202024.png",
+   "premio": "Boat of the Year - Cruising World",
+   "nombre": "Boat of the Year 2024",
+   "detalle": "Cruising World"
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Yacht%20of%20the%20Year%202025_0.png",
+   "premio": "European Yacht of the Year 2025",
+   "nombre": "European Yacht of the Year 2025",
+   "detalle": ""
+  }
+ ],
+ "lagoon/lagoon-46-iconic": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Asia%20Boating%20Awards%202019.png",
+   "premio": "Asia Boating Award 2019 - Best Multihull Sailing Yacht",
+   "nombre": "Asia Boating Awards 2019",
+   "detalle": "Nominado · Mejor velero multicasco"
+  }
+ ],
+ "lagoon/lagoon-51-iconic": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo-British-Yachting-Awards-2022_0.png",
+   "premio": "British Yachting Awards 2022 - Multicoque de l'année",
+   "nombre": "British Yachting Awards 2022",
+   "detalle": "Ganador · Multicasco del año"
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo%20China%20Yacht%20Awards%202022.png",
+   "premio": "Oceanway China Yacht Awards 2022 - Meilleur catamaran à voile de l'année",
+   "nombre": "Oceanway China Yacht Awards 2022",
+   "detalle": "Mejor catamarán a vela del año"
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo%20Multihull%20of%20the%20Year%202023.png",
+   "nombre": "Multihull of the Year 2023",
+   "detalle": "Nominado"
+  }
+ ],
+ "lagoon/lagoon-60": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo%20Design%20Innovation%20Award%202024.png",
+   "premio": "Design Innovation Awards 2024",
+   "nombre": "Design & Innovation Award 2024",
+   "detalle": ""
+  },
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo-British-Yachting-Awards-2024.png",
+   "premio": "British Yachting Awards 2024",
+   "nombre": "British Yachting Awards 2024",
+   "detalle": "Ganador"
+  }
+ ],
+ "lagoon/sixty-7": [
+  {
+   "logo": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Logo%20China%20Yacht%20Awards%202022_0.png",
+   "premio": "Oceanway China Yacht Awards 2022 - Best Power Catamaran of the year",
+   "nombre": "Oceanway China Yacht Awards 2022",
+   "detalle": "Mejor catamarán a motor del año · Mejor diseño interior"
+  },
+  {
+   "premio": "Oceanway China Yacht Awards 2022 - Best Interior design-Power Catamaran of the year",
+   "omitir": true
+  }
+ ],
+ "xo/xo-dfndr-9": [
+  {
+   "logo": "https://xoboats.com/wp-content/uploads/2022/02/XO_Boats-DFNDR9-winner.jpg",
+   "recorte": [
+    212,
+    112,
+    362,
+    254
+   ],
+   "premio": "THE ADVENTURE BOAT OF THE YEAR 2023",
+   "nombre": "Motor Boat Awards 2023",
+   "detalle": "Ganador · Barco de aventura del año"
+  }
+ ],
+ "axopar/ax-e-22": [
+  {
+   "logo": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png",
+   "recorte": [
+    160,
+    272,
+    625,
+    442
+   ],
+   "nombre": "The Gussies 2025 · Electric Boat Awards",
+   "detalle": ""
+  },
+  {
+   "logo": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png",
+   "recorte": [
+    735,
+    212,
+    945,
+    508
+   ],
+   "nombre": "European Powerboat of the Year 2025",
+   "detalle": "Finalista"
+  },
+  {
+   "logo": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png",
+   "recorte": [
+    1055,
+    272,
+    1520,
+    442
+   ],
+   "nombre": "The Gussies 2023 · Electric Boat Awards",
+   "detalle": ""
+  }
+ ],
+ "beneteau/gran-turismo-50": [
+  {
+   "premio": "World Yachts Trophies",
+   "nombre": "World Yachts Trophies 2026",
+   "detalle": "Mejor diseño exterior"
+  }
+ ]
+}
