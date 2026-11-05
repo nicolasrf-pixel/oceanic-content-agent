@@ -1,21 +1,8 @@
 /* OCEANIC, Usados reales (oceanic.cl, cap. 2026-10-09). Fuente: repo oceanic-content-agent/usados.
    Lo administra el CMS (/admin/ › Usados). Formato: window.OCEANIC_USADOS=<JSON>;. fotos[]: {url, local} (se
-   descargan en el build) o rutas /media/... subidas desde el CMS. El listado ordena por "fecha" (más nuevo primero). */
+   descargan en el build) o rutas /media/... subidas desde el CMS. "portada": foto de la tarjeta (la misma de oceanic.cl).
+   Precios y estados tal como los publica oceanic.cl/usados (sincronizado 2026-11-05). El listado ordena por "fecha". */
 window.OCEANIC_USADOS=[
- {
-  "id": "xo-dfndr-8",
-  "nombre": "XO DFNDR 8",
-  "marca": "XO Boats",
-  "tipo": "motor",
-  "anio": "2024",
-  "precio": "Consultar",
-  "estado": "disponible",
-  "fecha": "2026-10-09",
-  "resumen": "Cabinada de aluminio, uso intensivo y mar abierto. Año 2024, revisada por Oceanic.",
-  "texto": "",
-  "fotos": [],
-  "docs": []
- },
  {
   "id": "beneteau-antares-8",
   "nombre": "Beneteau Antares 8",
@@ -77,7 +64,29 @@ window.OCEANIC_USADOS=[
     "local": "u-beneteau-antares-8-12.jpeg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2025/05/anatares8-usado.jpg",
+   "local": "u-beneteau-antares-8-portada.jpg"
+  }
+ },
+ {
+  "id": "xo-dfndr-8",
+  "nombre": "XO DFNDR 8",
+  "marca": "XO Boats",
+  "tipo": "motor",
+  "anio": "2024",
+  "precio": "",
+  "estado": "vendido",
+  "fecha": "2026-10-09",
+  "resumen": "Cabinada de aluminio, uso intensivo y mar abierto. Año 2024, revisada por Oceanic.",
+  "texto": "",
+  "fotos": [],
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/07/DEFENDER-VENDIDO.jpg",
+   "local": "u-xo-dfndr-8-portada.jpg"
+  }
  },
  {
   "id": "beneteau-oceanis-41",
@@ -86,7 +95,7 @@ window.OCEANIC_USADOS=[
   "tipo": "vela",
   "anio": "2012",
   "precio": "$200.000.000",
-  "estado": "disponible",
+  "estado": "vendido",
   "fecha": "2026-10-09",
   "resumen": "Velero de crucero 2012, versión 3 cabinas / 2 baños, mástil y jarcia nuevos (2023) y electrónica Simrad completa.",
   "texto": "Modelo Oceanis 41\n$200.000.000\n2012\nCARACTERÍSTICAS\nVersión 3 cabinas, 2 baños\nMotor Yanmar 3JH5C3 de 40 HP con sistema de pod ZF\nMantención general al sistema ZF realizada en 2023\nMástil y jarcia nuevos, año 2023\nAparejo de trinquetilla completo\nAparejo de spinnaker asimétrico completo\nAparejo de Code 0 con enrollador completo\nElectrónica completa Simrad\nRadar + pantallas NSS 7”–12” + piloto automático\nVeleta, corredera y ecosonda\nDesalinizador Dessalator 12V, 30 l/h\nCalefacción Webasto, mantención general 2023, ductos principales cambiados en 2023\nPlataforma de popa abatible eléctricamente\nDinghy Plastimo 2,7 m con motor Mercury 2,5 HP\nBalsa Plastimo para 8 pax, mantención 2023\nCocina completa con horno + grill, 2 quemadores\nRefrigerador y congelador\nWinche de maniobra eléctrico\nWinche de ancla eléctrico con mando a distancia\nBow thruster",
@@ -108,7 +117,54 @@ window.OCEANIC_USADOS=[
     "local": "u-beneteau-oceanis-41-4.jpg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/10/VENDIDO-OCEANIS41.jpg",
+   "local": "u-beneteau-oceanis-41-portada.jpg"
+  }
+ },
+ {
+  "id": "oceanis-47-3",
+  "nombre": "Beneteau Oceanis 47.3",
+  "marca": "Beneteau",
+  "tipo": "vela",
+  "anio": "2004",
+  "precio": "195.000 USD",
+  "estado": "disponible",
+  "fecha": "2026-10-09",
+  "resumen": "Crucero 2004, 4 camarotes, instrumentos y jarcia renovados (2017), paneles solares y baterías nuevas (2026).",
+  "texto": "Oceanis 47.3\nBeneteau\nPrecio US$195.000\nCARACTERISTICAS\nAño 2004\n4 camarotes dobles\n3 Baños\nMotor Yanmar 100 HP\nWinche eléctrico ancla con ancla y 80 mts cadena\n1 velas Mayor de enrollar\n2 Genoa de enrollar\nGenerador 2HP\nCalefacción\nWatermaker 60 lts (2017)\nChubasquero completo (2020)\nCocina con Horno\nRefigerador y Frezer\nAgua Fría y caliente\nInstrumentos Cambiados Año 2017\nRadar+GPS+Chart Plotter+Piloto automático+Ais\nCorredera ecosonda Anemómetro\nRadio VHF interior y exterior\nEpirb\nBalsa salvavidas 10 Personas\nJarcias cambiadas Año 2017\nBote inflable piso solido (2020)\nMotor Suzuki 4 tiempos  6 HP  ( 2020)\nBaterias nuevas (2026)\nKit Panel Solar 600w (2026)\nCables Acero Cambiados Año 2017\nSistema\nDetalle\nMolinete de ancla\nEléctrico\nAncla\nIncluida\nCadena de fondeo\n80 m\nVela mayor\nEnrollable\nGenoa\n2 velas enrollables\nGenerador\n2 HP\nCalefacción\nSí\nWatermaker\n60 l/h (instalado 2017)\nChubasquero completo\nRenovado 2020\nCocina\nCon horno\nRefrigeración\nRefrigerador y freezer\nAgua caliente\nSí\nAgua fría\nSí",
+  "fotos": [
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.19.34.jpeg",
+    "local": "u-oceanis-47-3-1.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.19.jpeg",
+    "local": "u-oceanis-47-3-2.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.05.jpeg",
+    "local": "u-oceanis-47-3-3.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.20.jpeg",
+    "local": "u-oceanis-47-3-4.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.21.jpeg",
+    "local": "u-oceanis-47-3-5.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.20-1.jpeg",
+    "local": "u-oceanis-47-3-6.jpeg"
+   }
+  ],
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/06/oceanis473-usado.jpg",
+   "local": "u-oceanis-47-3-portada.jpg"
+  }
  },
  {
   "id": "oceanis-30-1",
@@ -116,13 +172,17 @@ window.OCEANIC_USADOS=[
   "marca": "Beneteau",
   "tipo": "vela",
   "anio": "2021",
-  "precio": "Consultar",
+  "precio": "",
   "estado": "vendido",
   "fecha": "2026-10-09",
   "resumen": "Crucero compacto Beneteau, año 2021. Unidad vendida, tenemos modelos parecidos entrando.",
   "texto": "",
   "fotos": [],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/07/VENDIDO301-oceanis.jpg",
+   "local": "u-oceanis-30-1-portada.jpg"
+  }
  },
  {
   "id": "lagoon-39",
@@ -130,7 +190,7 @@ window.OCEANIC_USADOS=[
   "marca": "Lagoon",
   "tipo": "catamaran",
   "anio": "2016",
-  "precio": "USD 315.000",
+  "precio": "350.000 USD",
   "estado": "disponible",
   "fecha": "2026-10-09",
   "resumen": "Catamarán 2016, 3 cabinas, electrónica B&G completa, watermaker y generador. Listo para travesía.",
@@ -157,66 +217,29 @@ window.OCEANIC_USADOS=[
     "local": "u-lagoon-39-5.jpeg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2025/12/lega-main.jpg",
+   "local": "u-lagoon-39-portada.jpg"
+  }
  },
  {
-  "id": "oceanis-58",
-  "nombre": "Beneteau Oceanis 58",
-  "marca": "Beneteau",
-  "tipo": "vela",
-  "anio": "2013",
-  "precio": "Consultar",
-  "estado": "vendido",
-  "fecha": "2026-10-09",
-  "resumen": "Crucero mayor Beneteau, año 2013. Unidad vendida, consúltanos por unidades equivalentes.",
-  "texto": "",
-  "fotos": [],
-  "docs": []
- },
- {
-  "id": "yate-isla-jechica-ii",
-  "nombre": "Yate «Isla Jéchica II» · Lagoon 40",
+  "id": "sin-fin",
+  "nombre": "Sin Fin · Lagoon 39",
   "marca": "Lagoon",
   "tipo": "catamaran",
-  "anio": "2017",
-  "precio": "Consultar",
+  "anio": "2016",
+  "precio": "€315.000",
   "estado": "disponible",
   "fecha": "2026-10-09",
-  "resumen": "Lagoon 40 (2017) con bandera chilena, base en Puerto Aguirre. 4+1 cabinas, muy buen estado.",
-  "texto": "Yate \"Isla Jéchica II\"\nMarca y modelo:\nLagoon 40\nAño de fabricación:\n2017\nBandera:\nChile\nPuerto de registro:\nValparaíso\nMatrícula:\n5178\nSeñal de llamada:\nCA 6664\nISMM:\n725 000 153\nUbicación actual:\nPuerto Aguirre. En Marina Austral.\nNúmero de serie (HIN):\n40052\nEslora:\n11.97 mts.\nManga:\n7.25 mts.\nCalado:\n1.21 mts.\nPuntal:\n1.90 mts.\nDesplazamiento:\n10.615 kgs.\nSuperficie vélica:\n84 m2\nMaterial de construcción:\nFibra de vidrio.\nCapacidad:\n8 + 1\nCabinas:\n4 + 1\nBaños:\n2 + 1\nEstado general:\nBueno\nVer más información",
-  "fotos": [
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-2.jpeg",
-    "local": "u-yate-isla-jechica-ii-1.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-3.jpeg",
-    "local": "u-yate-isla-jechica-ii-2.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.03.jpeg",
-    "local": "u-yate-isla-jechica-ii-3.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-1.jpeg",
-    "local": "u-yate-isla-jechica-ii-4.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-4.jpeg",
-    "local": "u-yate-isla-jechica-ii-5.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04.jpeg",
-    "local": "u-yate-isla-jechica-ii-6.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.05-1.jpeg",
-    "local": "u-yate-isla-jechica-ii-7.jpeg"
-   }
-  ],
-  "docs": [
-   "https://oceanic.cl/wp-content/uploads/2025/09/Informacion-yate-isla-Jechica-II-agosto-2025.pdf"
-  ]
+  "resumen": "Lagoon 39 (2016). Consúltanos por ficha completa y fotos.",
+  "texto": "Lagoon 39\nCARACTERÍSTICAS\nMarca: Lagoon\nModelo: Lagoon 39\nAño: 2016\nLugar: Mediterráneo\n€315.000\n3 Cabinas + 1 crew\nMotor 2 x 45 HP Yanmar Diesel\nControl Remoto Windlass y contador de cadena\nBimini + Chubasquera\nPiso de Teka en cockpit\nHélices 3 Palas\nGenerador\nInverter\nPaneles Solares\nDesalinizador\nBaños Manual / Eléctrico\nFreezer 90L\nMicroondas\nCalefacción\nPosibilidad de hacer cama el salón\nEquipos VHF+Radar+Piloto Automático+ Plotter+AIS+ Receiver+ Compass+Display multi color\nTV Led 32”\nDinghy Telemex 2,5 Motor 6HP\nMooring Kit",
+  "fotos": [],
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2024/03/lagoon-39.jpg",
+   "local": "u-sin-fin-portada.jpg"
+  }
  },
  {
   "id": "jeanneau-sun-odyssey-349",
@@ -224,7 +247,7 @@ window.OCEANIC_USADOS=[
   "marca": "Jeanneau",
   "tipo": "vela",
   "anio": "2018",
-  "precio": "USD 170.000",
+  "precio": "170.000 USD",
   "estado": "disponible",
   "fecha": "2026-10-09",
   "resumen": "Crucero 2017/2018, quilla corta, 3 cabinas, mástil enrollador y paneles solares. Impecable.",
@@ -259,7 +282,11 @@ window.OCEANIC_USADOS=[
     "local": "u-jeanneau-sun-odyssey-349-7.jpg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2025/05/Jeanneau-usado-2018.jpg",
+   "local": "u-jeanneau-sun-odyssey-349-portada.jpg"
+  }
  },
  {
   "id": "barco-20",
@@ -268,7 +295,7 @@ window.OCEANIC_USADOS=[
   "tipo": "vela",
   "anio": "2012",
   "precio": "$13.000.000",
-  "estado": "disponible",
+  "estado": "vendido",
   "fecha": "2026-10-09",
   "resumen": "Velero deportivo de dos dueños, guardado en galpón. Velas North Sails nuevas (2023) y trailer incluido.",
   "texto": "Barco 20\nAño 2012\n$13.000.000\nDos dueños, cuidado maniático, guardado en galpón, velas Mayor y Foque North Sails año 2023 nuevas. Cuenta con maniobra de spinaker completa. Trailer, impecable estado!!! Se entrega en lago Colico donde actualmente está guardado. Sin motor.",
@@ -326,7 +353,11 @@ window.OCEANIC_USADOS=[
     "local": "u-barco-20-13.jpg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/10/VENDIDO-BARCO20.jpg",
+   "local": "u-barco-20-portada.jpg"
+  }
  },
  {
   "id": "nauticat-44",
@@ -361,7 +392,11 @@ window.OCEANIC_USADOS=[
     "local": "u-nauticat-44-5.png"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/01/Nauticat-44-usado.jpg",
+   "local": "u-nauticat-44-portada.jpg"
+  }
  },
  {
   "id": "skeeta",
@@ -440,7 +475,11 @@ window.OCEANIC_USADOS=[
     "local": "u-skeeta-16.jpeg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2025/12/skeeta-main.jpg",
+   "local": "u-skeeta-portada.jpg"
+  }
  },
  {
   "id": "oyster-56",
@@ -495,7 +534,11 @@ window.OCEANIC_USADOS=[
     "local": "u-oyster-56-10.jpg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2024/12/oyster-56.jpg",
+   "local": "u-oyster-56-portada.jpg"
+  }
  },
  {
   "id": "aguantao",
@@ -562,59 +605,77 @@ window.OCEANIC_USADOS=[
     "local": "u-aguantao-13.jpeg"
    }
   ],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/05/AGUANTAO-USADO.jpg",
+   "local": "u-aguantao-portada.jpg"
+  }
  },
  {
-  "id": "oceanis-47-3",
-  "nombre": "Beneteau Oceanis 47.3",
-  "marca": "Beneteau",
-  "tipo": "vela",
-  "anio": "2004",
-  "precio": "USD 195.000",
-  "estado": "disponible",
-  "fecha": "2026-10-09",
-  "resumen": "Crucero 2004, 4 camarotes, instrumentos y jarcia renovados (2017), paneles solares y baterías nuevas (2026).",
-  "texto": "Oceanis 47.3\nBeneteau\nPrecio US$195.000\nCARACTERISTICAS\nAño 2004\n4 camarotes dobles\n3 Baños\nMotor Yanmar 100 HP\nWinche eléctrico ancla con ancla y 80 mts cadena\n1 velas Mayor de enrollar\n2 Genoa de enrollar\nGenerador 2HP\nCalefacción\nWatermaker 60 lts (2017)\nChubasquero completo (2020)\nCocina con Horno\nRefigerador y Frezer\nAgua Fría y caliente\nInstrumentos Cambiados Año 2017\nRadar+GPS+Chart Plotter+Piloto automático+Ais\nCorredera ecosonda Anemómetro\nRadio VHF interior y exterior\nEpirb\nBalsa salvavidas 10 Personas\nJarcias cambiadas Año 2017\nBote inflable piso solido (2020)\nMotor Suzuki 4 tiempos  6 HP  ( 2020)\nBaterias nuevas (2026)\nKit Panel Solar 600w (2026)\nCables Acero Cambiados Año 2017\nSistema\nDetalle\nMolinete de ancla\nEléctrico\nAncla\nIncluida\nCadena de fondeo\n80 m\nVela mayor\nEnrollable\nGenoa\n2 velas enrollables\nGenerador\n2 HP\nCalefacción\nSí\nWatermaker\n60 l/h (instalado 2017)\nChubasquero completo\nRenovado 2020\nCocina\nCon horno\nRefrigeración\nRefrigerador y freezer\nAgua caliente\nSí\nAgua fría\nSí",
-  "fotos": [
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.19.34.jpeg",
-    "local": "u-oceanis-47-3-1.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.19.jpeg",
-    "local": "u-oceanis-47-3-2.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.05.jpeg",
-    "local": "u-oceanis-47-3-3.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.20.jpeg",
-    "local": "u-oceanis-47-3-4.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.21.jpeg",
-    "local": "u-oceanis-47-3-5.jpeg"
-   },
-   {
-    "url": "https://oceanic.cl/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-11.18.20-1.jpeg",
-    "local": "u-oceanis-47-3-6.jpeg"
-   }
-  ],
-  "docs": []
- },
- {
-  "id": "sin-fin",
-  "nombre": "Sin Fin · Lagoon 39",
+  "id": "yate-isla-jechica-ii",
+  "nombre": "Yate «Isla Jéchica II» · Lagoon 40",
   "marca": "Lagoon",
   "tipo": "catamaran",
-  "anio": "2016",
-  "precio": "€ 315.000",
-  "estado": "disponible",
+  "anio": "2017",
+  "precio": "",
+  "estado": "vendido",
   "fecha": "2026-10-09",
-  "resumen": "Lagoon 39 (2016). Consúltanos por ficha completa y fotos.",
+  "resumen": "Lagoon 40 (2017) con bandera chilena, base en Puerto Aguirre. 4+1 cabinas, muy buen estado.",
+  "texto": "Yate \"Isla Jéchica II\"\nMarca y modelo:\nLagoon 40\nAño de fabricación:\n2017\nBandera:\nChile\nPuerto de registro:\nValparaíso\nMatrícula:\n5178\nSeñal de llamada:\nCA 6664\nISMM:\n725 000 153\nUbicación actual:\nPuerto Aguirre. En Marina Austral.\nNúmero de serie (HIN):\n40052\nEslora:\n11.97 mts.\nManga:\n7.25 mts.\nCalado:\n1.21 mts.\nPuntal:\n1.90 mts.\nDesplazamiento:\n10.615 kgs.\nSuperficie vélica:\n84 m2\nMaterial de construcción:\nFibra de vidrio.\nCapacidad:\n8 + 1\nCabinas:\n4 + 1\nBaños:\n2 + 1\nEstado general:\nBueno\nVer más información",
+  "fotos": [
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-2.jpeg",
+    "local": "u-yate-isla-jechica-ii-1.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-3.jpeg",
+    "local": "u-yate-isla-jechica-ii-2.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.03.jpeg",
+    "local": "u-yate-isla-jechica-ii-3.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-1.jpeg",
+    "local": "u-yate-isla-jechica-ii-4.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04-4.jpeg",
+    "local": "u-yate-isla-jechica-ii-5.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.04.jpeg",
+    "local": "u-yate-isla-jechica-ii-6.jpeg"
+   },
+   {
+    "url": "https://oceanic.cl/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-10.14.05-1.jpeg",
+    "local": "u-yate-isla-jechica-ii-7.jpeg"
+   }
+  ],
+  "docs": [
+   "https://oceanic.cl/wp-content/uploads/2025/09/Informacion-yate-isla-Jechica-II-agosto-2025.pdf"
+  ],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/10/VENDIDO-YECHICA.jpg",
+   "local": "u-yate-isla-jechica-ii-portada.jpg"
+  }
+ },
+ {
+  "id": "oceanis-58",
+  "nombre": "Beneteau Oceanis 58",
+  "marca": "Beneteau",
+  "tipo": "vela",
+  "anio": "2013",
+  "precio": "",
+  "estado": "vendido",
+  "fecha": "2026-10-09",
+  "resumen": "Crucero mayor Beneteau, año 2013. Unidad vendida, consúltanos por unidades equivalentes.",
   "texto": "",
   "fotos": [],
-  "docs": []
+  "docs": [],
+  "portada": {
+   "url": "https://oceanic.cl/wp-content/uploads/2026/04/oceanis58-VENDIDO.jpg",
+   "local": "u-oceanis-58-portada.jpg"
+  }
  }
 ];

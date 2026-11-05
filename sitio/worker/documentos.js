@@ -100,6 +100,8 @@ function usados(L, err, aviso) {
     if (!['disponible', 'vendido', 'reservado'].includes(u.estado)) err(r + '.estado', 'estado: disponible o vendido');
     if (!FECHA.test(u.fecha || '')) err(r + '.fecha', 'fecha AAAA-MM-DD (ordena el listado)');
     for (const k of ['marca', 'anio', 'precio', 'resumen', 'texto']) if (u[k] != null && typeof u[k] !== 'string') err(r + '.' + k, k + ' debe ser texto');
+    if (u.portada != null && u.portada !== '' && !(rutaImagen(u.portada) || (typeof u.portada === 'object' && rutaImagen(u.portada.url || '') && rutaImagen(u.portada.local || ''))))
+      err(r + '.portada', 'Foto de la tarjeta inválida');
     if (!Array.isArray(u.fotos)) err(r + '.fotos', 'fotos debe ser una lista');
     else u.fotos.forEach((f, j) => { if (!(rutaImagen(f) || (f && typeof f === 'object' && (rutaImagen(f.local || '') && rutaImagen(f.url || ''))))) err(`${r}.fotos[${j}]`, 'Ruta de foto inválida'); });
     if (!Array.isArray(u.docs)) err(r + '.docs', 'docs debe ser una lista');

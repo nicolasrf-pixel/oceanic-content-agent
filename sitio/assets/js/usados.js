@@ -12,13 +12,14 @@
   }
 
   function foto(u){
-    var f=(u.fotos&&u.fotos.length)?src(u.fotos[0]):null;
+    // foto de la tarjeta: la misma que publica oceanic.cl (portada); si no hay, la primera de la galería
+    var f=u.portada?src(u.portada):(u.fotos&&u.fotos.length)?src(u.fotos[0]):null;
     if(f) return '<img src="'+esc(f)+'" alt="'+esc(u.nombre)+'" loading="lazy" onerror="this.closest(\'.uc-img\').classList.add(\'is-noimg\')">';
     return '';
   }
   function card(u){
     var vend=u.estado==='vendido';
-    var tiene=u.fotos&&u.fotos.length;
+    var tiene=u.portada||(u.fotos&&u.fotos.length);
     return '<a class="uc'+(vend?' e-vendido':'')+'" href="barco/index.html?id='+encodeURIComponent(u.id)+'">'+
       '<div class="uc-img'+(tiene?'':' is-noimg')+'">'+(vend?'<span class="uc-estado uc-vendido">Vendido</span>':'')+
       foto(u)+
@@ -27,7 +28,7 @@
       (u.anio?'<span class="uc-anio">'+esc(u.anio)+'</span>':'')+'</div>'+
       (u.marca&&u.marca!=='·'?'<span class="uc-meta">'+esc(u.marca)+'</span>':'')+
       '<span class="uc-resumen">'+esc(u.resumen)+'</span>'+
-      '<span class="uc-precio">'+esc(u.precio)+'</span></div></a>';
+      (u.precio?'<span class="uc-precio">'+esc(u.precio)+'</span>':'')+'</div></a>';
   }
 
   function render(){

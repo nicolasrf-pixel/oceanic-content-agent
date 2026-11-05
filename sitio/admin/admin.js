@@ -257,7 +257,8 @@
   function campoImagen(doc, obj, k, carpeta, op) {  // una sola imagen (portada, hero)
     op = op || {};
     var img = h('img', { alt: '', style: 'width:200px;aspect-ratio:4/3;object-fit:cover;background:var(--natural);display:block;margin-bottom:6px' });
-    var inp = h('input', { type: 'text', value: obj[k] || '', oninput: function () { obj[k] = inp.value.trim(); marcar(doc); img.src = src(obj[k], op.base); } });
+    var v0 = obj[k] && typeof obj[k] === 'object' ? (obj[k].url || '') : (obj[k] || '');
+    var inp = h('input', { type: 'text', value: v0, oninput: function () { obj[k] = inp.value.trim(); marcar(doc); img.src = src(obj[k], op.base); } });
     img.src = src(obj[k], op.base);
     return h('div', null, img, h('div', { class: 'filtros' }, inp, botonSubir('Subir', carpeta, function (u) { obj[k] = u; inp.value = u; img.src = u; marcar(doc); }, { lado: 2560 })));
   }
@@ -553,7 +554,8 @@
             h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Estado' }), h('label', null, vend, ' Marcar como vendido'))),
           campo('Bajada de la tarjeta', texto(doc, u, 'resumen', { largo: true, filas: 2 })),
           campo('Texto del aviso', texto(doc, u, 'texto', { largo: true, filas: 12 }), 'Una línea por dato. «Etiqueta: valor» se muestra en la ficha; las líneas cortas, como equipamiento.')),
-        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Fotos' }), h('small', { text: 'La primera es la portada. Se optimizan solas al subir (WebP, 1600 px).' }), editorFotos(doc, u.fotos = u.fotos || [], 'usados', { base: 'usados/' })),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Foto de la tarjeta' }), h('small', { text: 'La que se ve en el listado de usados. Si queda vacía, se usa la primera de la galería.' }), campoImagen(doc, u, 'portada', 'usados', { base: 'usados/' })),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Galería' }), h('small', { text: 'Fotos de la ficha del aviso. Se optimizan solas al subir (WebP, 1600 px).' }), editorFotos(doc, u.fotos = u.fotos || [], 'usados', { base: 'usados/' })),
         h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Documentos' }), listaTextos(doc, u.docs = u.docs || [], { agregar: 'Enlace (https://…)' }),
           h('div', { style: 'margin-top:8px' }, botonSubir('Subir PDF', 'documentos', function (url) { u.docs.push(url); marcar(doc); router(); }, { accept: 'application/pdf' }))));
     });

@@ -31,7 +31,7 @@
   }[U.estado] || '';
 
   /* ---------- galería ---------- */
-  var fotos = (U.fotos || []).map(fotoSrc).filter(Boolean).map(esc);
+  var fotos = (U.fotos && U.fotos.length ? U.fotos : (R.portada ? [R.portada] : [])).map(fotoSrc).filter(Boolean).map(esc);
   var galeria;
   if (fotos.length) {
     galeria = '<div class="b-gal">' +
@@ -81,7 +81,7 @@
     prosa.push(l);
   }
 
-  var precioTxt = U.precio || 'Consultar';
+  var precioTxt = U.precio || (vendido ? '' : 'Consultar');
 
   var galSec = '<div class="wrap-wide">' + galeria + '</div>';
 
