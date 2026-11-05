@@ -156,3 +156,36 @@ label.consent a{color:var(--tinta)}
 }
 .es-ficha .story-intro .story-line.story-larga{font-weight:400;font-size:clamp(18px,.7vw + 13px,23px);line-height:1.6;max-width:62ch;letter-spacing:-.005em;text-wrap:pretty}
 @media(min-width:761px){.spec2-largas .sp2{grid-template-columns:minmax(160px,260px) 1fr}}
+
+/* 18 · Fichas con fotos de estudio (barco recortado sobre blanco, p. ej. Oceanic Power): foto completa sobre fondo claro */
+.hero.hero-estudio{background:linear-gradient(180deg,#F2F3F4 0%,#E2E6E9 100%);color:var(--tinta);align-items:center}
+.hero-estudio::after,.hero-estudio .hero-img::after{display:none}
+.hero-estudio .hero-img{left:50%;right:0;width:auto;display:flex;align-items:center;justify-content:center;padding:clamp(60px,5vw,100px) var(--gut) clamp(30px,3vw,50px) clamp(10px,2vw,30px)}
+.hero-estudio .hero-img img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;animation:none!important;transform:none!important}
+.hero-estudio .hero-in{padding-top:clamp(60px,5vw,90px)}
+.hero-estudio .hero-in>*{max-width:46%}
+.hero-estudio h1{font-size:clamp(32px,2.8vw,52px)}
+.hero-estudio .hero-purpose{font-size:clamp(22px,2vw,38px)}
+.hero-estudio .hero-brand a,.hero-estudio .hero-brand{color:var(--trabajo)}
+.hero-estudio h1{color:var(--tinta)}
+.hero-estudio .hero-purpose{color:var(--tinta)}
+.hero-estudio .hero-sub{color:var(--trabajo)}
+.hero-estudio .btn-line{color:var(--tinta);border-color:rgba(20,33,43,.45)}
+.hero-estudio .hero-photo-note,.hero-estudio .hero-scroll{display:none}
+@media(max-width:820px){
+  .hero.hero-estudio{flex-direction:column;align-items:stretch;aspect-ratio:auto}
+  .hero-estudio .hero-img{position:relative;width:100%;height:82vw;padding:64px 4px 0}
+  .hero-estudio .hero-img{left:0}
+  .hero-estudio .hero-in{padding-top:10px}
+  .hero-estudio .hero-in>*{max-width:none}
+}
+/* el relato y la galería: la foto de estudio completa, sin estirarla */
+.ficha-estudio .story-fig{background:linear-gradient(180deg,#F2F3F4,#E2E6E9);padding:clamp(20px,3vw,48px) var(--gut)}
+.ficha-estudio .story-fig img{max-width:760px;max-height:min(60vh,520px);margin:0 auto;object-fit:contain;mix-blend-mode:multiply;transform:none!important}
+.ficha-estudio .gal-item{background:#EEF0F1}
+.ficha-estudio .gal-item img{object-fit:contain;mix-blend-mode:multiply}
+.ficha-estudio .two img,.ficha-estudio .cot-foto img,.ficha-estudio .mcard-img img{object-fit:contain;background:#EEF0F1;mix-blend-mode:multiply}
+.ficha-estudio .cot-foto,.ficha-estudio .mcard-img{background:#EEF0F1}
+
+/* datos del cotizador: con un número impar de datos, el último ocupa el ancho (sin celda gris vacía) */
+.cot-datos div:last-child:nth-child(odd){grid-column:1 / -1}

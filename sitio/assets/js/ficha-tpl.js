@@ -13,6 +13,9 @@
   // en euros y hoy solo existe para la gama 38, así que la lista está vacía hasta que Axopar entregue una versión
   // sin precios (p. ej. de distribuidor). Formato: 'slug': 'https://…'.
   var CONFIGURADOR_AXOPAR = {};
+  // Marcas cuyas fotos oficiales son recortes del barco sobre fondo blanco (estudio): se muestran completas, sin
+  // agrandar ni recortar, sobre un fondo claro.
+  var ESTUDIO = ['oceanic-power'];
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function parr(arr, cls) { return (arr || []).map(function (p) { return '<p' + (cls ? ' class="' + cls + '"' : '') + '>' + esc(p) + '</p>'; }).join(''); }
@@ -95,7 +98,9 @@
 
     // 1 · Portada
     var portada = P.portada || {};
-    html.push('<header class="hero">' +
+    var estudio = ESTUDIO.indexOf(marca) >= 0;
+    if (estudio) document.body.classList.add('ficha-estudio');
+    html.push('<header class="hero' + (estudio ? ' hero-estudio' : '') + '">' +
       (F.hero ? '<picture class="hero-img">' + img(F.hero, mo.nombre) + '</picture><p class="hero-photo-note">Fotografía · ' + esc(info.nombre) + '</p>' : '') +
       '<div class="wrap hero-in">' +
         '<p class="hero-brand"><a href="' + gama + '">' + esc(info.nombre) + '</a>' + (info.pais ? ' · ' + esc(info.pais) : '') + '</p>' +
@@ -108,7 +113,7 @@
 
     // 2 · Relato: introducción oficial
     if (P.intro && P.intro.length) {
-      var foto = F.sig();
+      var foto = estudio ? null : F.sig();
       html.push('<section class="story" id="historia"><div class="wrap"><div class="story-intro">' +
         '<span class="story-marca" aria-hidden="true"></span>' +
         '<p class="story-line story-em' + (P.intro[0].length > 90 ? ' story-larga' : '') + '">' + esc(P.intro[0]) + '</p>' +
@@ -132,14 +137,15 @@
 
     // 3 · Bloques oficiales (maqueta "A bordo": título, texto y foto). Texto y foto alternan de lado bloque a bloque.
     var cuerpo = [], lado = 0;
-    function dos() { return '<div class="two' + (lado++ % 2 ? ' two-inv' : '') + '">'; }
+    // sin foto: el texto ocupa el bloque (sin columna vacía) y no cuenta para alternar lados
+    function dos(f) { return '<div class="two' + (f ? (lado++ % 2 ? ' two-inv' : '') : ' sin-foto') + '">'; }
     (P.bloques || []).forEach(function (b, i) {
       if (!b.texto || !b.texto.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'abordo' : '',
-        cabeza(b.titulo) + dos() + '<div><h2>' + h2(b.titulo) + '</h2>' +
+        cabeza(b.titulo) + dos(f) + '<div><h2>' + h2(b.titulo) + '</h2>' +
         '<p class="lede" style="margin-top:22px">' + esc(b.texto[0]) + '</p>' + parr(b.texto.slice(1)) + '</div>' +
-        '<div>' + img(f, mo.nombre + ' · ' + b.titulo) + '</div></div>'));
+        (f ? '<div>' + img(f, mo.nombre + ' · ' + b.titulo) + '</div>' : '') + '</div>'));
     });
     if (cuerpo.length) nav.push(['abordo', 'El barco']);
 
@@ -148,7 +154,7 @@
       if (!g.items || !g.items.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'destacados' : '',
-        cabeza(g.grupo) + dos() + '<div><h2>' + h2(g.grupo) + '</h2>' +
+        cabeza(g.grupo) + dos(f) + '<div><h2>' + h2(g.grupo) + '</h2>' +
         (g.intro ? '<p class="lede" style="margin-top:22px">' + esc(g.intro) + '</p>' : '') + img(f, mo.nombre + ' · ' + g.grupo) + '</div>' +
         '<div><dl style="margin:0">' + g.items.map(function (it) {
           return '<div class="tr"><dt>' + esc(it.titulo) + '</dt><dd>' + esc(it.texto || '') + '</dd></div>';
