@@ -93,7 +93,12 @@ export async function onRequestPost({ request, env }) {
     textContent: aviso.texto,
     htmlContent: aviso.html,
   });
-  if (!enviado.ok) return json({ ok: false, error: 'envio' }, 502);
+  if (!enviado.ok) {
+    // código y mensaje de Brevo (nunca datos personales) para diagnosticar la configuración
+    const brevoError = { status: enviado.status, code: enviado.datos && enviado.datos.code, message: enviado.datos && String(enviado.datos.message || '').slice(0, 160) };
+    console.log('formulario: Brevo rechazó el envío', JSON.stringify(brevoError));
+    return json({ ok: false, error: 'envio', brevo: brevoError }, 502);
+  }
 
   const conf = correoConfirmacion(d, barco);
   const tareas = [
