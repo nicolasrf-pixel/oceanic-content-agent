@@ -61,7 +61,7 @@
 @media(max-width:520px){.bgrid{grid-template-columns:1fr;gap:44px}}
 
 .bc{display:block;text-decoration:none;color:inherit;position:relative}
-.bc-img{display:block;overflow:hidden;aspect-ratio:4/5;background:var(--trabajo)}
+.bc-img{display:block;overflow:hidden;aspect-ratio:3/2;background:var(--trabajo)}
 .bc-img img{width:100%;height:100%;object-fit:cover;
   transition:transform 1.5s cubic-bezier(.16,.84,.34,1),filter 1s ease;filter:saturate(.9)}
 .bc:hover .bc-img img{transform:scale(1.04);filter:saturate(1.02)}

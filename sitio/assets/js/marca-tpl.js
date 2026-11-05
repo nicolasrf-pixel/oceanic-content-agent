@@ -21,7 +21,8 @@
 
   // hero
   var heroImg=/^(https?:)?\/\/|^\//.test(info.hero)?info.hero:AB+info.hero+(/\.\w{3,4}$/.test(info.hero)?'':'.webp');
-  var hero='<header class="mk-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.92),rgba(20,33,43,.35)),url('+heroImg+')">'+
+  heroImg=new URL(heroImg,location.href).href; // absoluta: una url() dentro de una variable CSS se resolvería desde la hoja de estilos
+  var hero='<header class="mk-hero" style="--mk-img:url('+heroImg+')">'+
     '<div class="wrap-wide">'+
     '<nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>'+info.universo+'</span></nav>'+
     '<p class="mk-eyebrow">Representación oficial en Chile · '+info.pais+'</p>'+
