@@ -25,6 +25,7 @@
 <div class="wrap-wide phero-in">
 <nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Puerto</span></nav>
 <h1 class="phero-h1">Puerto</h1>
+<p class="puerto-ok" id="puertoOk" hidden role="status"><b>¡Listo, ya eres parte de Puerto!</b> Confirmaste tu suscripción: te escribiremos cuando haya algo que contar.</p>
 <p class="phero-sub">Siempre volvemos a Puerto. Aquí el mar se vuelve relato: las entregas que ya navegan, la agenda que asoma con viento nuevo, los premios y la técnica que un barco bien equipado necesita.</p>
 </div>
 </header>
@@ -57,5 +58,8 @@
 <script src="../assets/js/puerto-data.js"></script>
 <script src="../assets/js/puerto.js"></script>
 <script src="../assets/js/oceano.js"></script>
+<script>/* llegada desde el correo de doble confirmación de Brevo (PUERTO_URL_CONFIRMADO) */
+if (/[?&]confirmado=1/.test(location.search)) { var po = document.getElementById("puertoOk"); if (po) po.hidden = false; }
+</script>
 </body>
 </html>

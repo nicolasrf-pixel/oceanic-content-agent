@@ -37,14 +37,14 @@ Cloudflare → Workers & Pages → Worker **oceanic** → Settings → Variables
 | Variable | Tipo | Quién | Valor |
 |---|---|---|---|
 | `BREVO_API_KEY` | **Secreto** | Nico | Clave de API de Brevo (ver abajo). Nunca por chat, correo ni repositorio. |
-| `REMITENTE_EMAIL` | Texto | Johnny | Dirección verificada en Brevo, p. ej. `no-responder@oceanic.cl` |
-| `REMITENTE_NOMBRE` | Texto | Johnny | `Oceanic` |
-| `VENTAS_EMAIL` | Texto | Johnny | `ventas@oceanic.cl` (es el valor por defecto) |
-| `POLITICA_VERSION` | Texto | Johnny | Versión vigente de la política de privacidad, p. ej. `2026-12-01`. Cambiarla cada vez que cambie el texto. |
+| `REMITENTE_EMAIL` | Texto (en `wrangler.jsonc`) | — | `contacto@oceanic.cl` (verificado en Brevo, DKIM y DMARC en verde, 2026-11-05) |
+| `REMITENTE_NOMBRE` | Texto (en `wrangler.jsonc`) | — | `Oceanic` |
+| `VENTAS_EMAIL` | Texto (en `wrangler.jsonc`) | — | `ventasweb@oceanic.cl` |
+| `POLITICA_VERSION` | Texto (en `wrangler.jsonc`) | — | `2026-11-borrador`. Cambiarla cada vez que cambie el texto de la política. |
 | `BREVO_LISTA_CONTACTOS` | Texto | Nico | Opcional. ID de una lista para todos los que escriben (no es marketing). |
 | `BREVO_LISTA_PUERTO` | Texto | Nico | ID de la lista de Puerto |
 | `BREVO_PLANTILLA_DOI` | Texto | Nico | ID de la plantilla de doble confirmación |
-| `PUERTO_URL_CONFIRMADO` | Texto | Johnny | Página a la que llega quien confirma, p. ej. `https://oceanic.cl/puerto/` |
+| `PUERTO_URL_CONFIRMADO` | Texto (en `wrangler.jsonc`) | — | `https://oceanic.narf.workers.dev/puerto/?confirmado=1` (muestra el aviso de suscripción confirmada). Cambiar al dominio definitivo. |
 | `BREVO_PIPELINE_ID` | Texto | Nico | Opcional. ID del pipeline "Cotizaciones" |
 | `BREVO_ETAPA_INICIAL` | Texto | Nico | Opcional. ID de la primera etapa del pipeline |
 | `ORIGENES_PERMITIDOS` | Texto | Johnny | Opcional. Dominios separados por coma si el sitio responde en más de uno. |
@@ -85,7 +85,7 @@ newsletter de Oceanic. Si no la pediste, ignora este correo." Activarla y anotar
 "Nueva".
 
 **5. Remitente** (Configuración → Remitentes, dominios e IP dedicadas): verificar que el dominio `oceanic.cl` sigue
-autenticado (DKIM y DMARC en verde) y crear el remitente `no-responder@oceanic.cl` con nombre "Oceanic".
+autenticado (DKIM y DMARC en verde) y crear el remitente `contacto@oceanic.cl` con nombre "Oceanic" (hecho el 2026-11-05).
 
 **6. Clave de API** (Configuración → SMTP y API → Claves API → Generar una nueva clave): nombre
 "sitio-oceanic". Nico la copia y la pega **él mismo** en Cloudflare como secreto `BREVO_API_KEY`

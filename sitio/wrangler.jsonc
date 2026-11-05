@@ -44,7 +44,12 @@
   "vars": {
     "REMITENTE_EMAIL": "contacto@oceanic.cl",
     "REMITENTE_NOMBRE": "Oceanic",
-    "VENTAS_EMAIL": "ventasweb@oceanic.cl"
+    "VENTAS_EMAIL": "ventasweb@oceanic.cl",
+    // Versión de la política de privacidad que acepta cada persona (se guarda con su consentimiento).
+    // Cambiarla cada vez que cambie el texto de sitio/privacidad/.
+    "POLITICA_VERSION": "2026-11-borrador",
+    // Adonde llega quien confirma su suscripción a Puerto. Cambiar al dominio definitivo (oceanic.cl) al migrar.
+    "PUERTO_URL_CONFIRMADO": "https://oceanic.narf.workers.dev/puerto/?confirmado=1"
   },
   "observability": { "enabled": true }
 }

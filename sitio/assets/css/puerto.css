@@ -114,3 +114,5 @@
 .pguia-n{font-family:var(--dato);font-size:22px;color:var(--boya)}
 .pguia-pasos b{font-family:var(--display);font-size:20px;color:var(--tinta)}
 .pguia-pasos ul{margin:8px 0 0;padding-left:18px;font-weight:300;line-height:1.55;color:var(--trabajo)}
+.puerto-ok{margin:18px 0 6px;padding:14px 18px;border-left:3px solid var(--boya);background:rgba(255,255,255,.08);color:#fff;font-size:16px;line-height:1.5;max-width:56ch}
+.puerto-ok b{font-weight:600}
