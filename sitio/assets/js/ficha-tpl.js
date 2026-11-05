@@ -84,11 +84,10 @@
     var gama = 'index.html?m=' + marca + (info.lineas && info.lineas[lineaMo] ? '&u=' + lineaMo : '');
     if (info.lineas && info.lineas[lineaMo]) info = Object.assign({}, info, info.lineas[lineaMo]);
     var html = [], nav = [];
-    var fondo = false; // alterna fondo claro / arena entre bloques, como la maqueta
+    // el fondo alterno (blanco / gris muy claro) lo pone oceano.js en todo el sitio
     function seccion(id, contenido, clase) {
-      fondo = !fondo;
       return '<section' + (id ? ' id="' + id + '"' : '') + (clase ? ' class="' + clase + '"' : '') +
-        (fondo || clase ? '' : ' style="background:var(--arena)"') + '><div class="wrap">' + contenido + '</div></section>';
+        '><div class="wrap">' + contenido + '</div></section>';
     }
     function cabeza(t) { return '<div class="sec-head"><span class="eyebrow">' + esc(t) + '</span><span class="rule"></span></div>'; }
 

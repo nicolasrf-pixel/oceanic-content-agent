@@ -493,3 +493,7 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 /* casilla de consentimiento en formularios sobre fondo claro */
 .consent span{font-size:14px}
 .consent a{color:inherit;text-decoration:underline}
+
+/* Bandas: gris muy claro uno por medio entre bloques blancos (lo asigna assets/js/oceano.js) */
+:root{--banda:#F4F4F2}
+section.o-banda{background-color:var(--banda)!important}

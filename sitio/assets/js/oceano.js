@@ -16,6 +16,28 @@
     barra.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, scrollY / max) : 0) + ')';
   }
   addEventListener('scroll', avance, { passive: true }); addEventListener('resize', avance);
+  // ---------- bandas: dos bloques blancos seguidos → el segundo va en gris muy claro (uno por medio) ----------
+  // Solo toca bloques de fondo blanco o transparente; los que tienen fondo propio (oscuro, foto, arena) quedan igual.
+  function bandas() {
+    var papel = getComputedStyle(document.body).backgroundColor, previoBlanco = false;
+    [].forEach.call(document.querySelectorAll('section, header, footer, .bar, .subbar'), function (el) {
+      if (el.parentElement && el.parentElement.closest('section, header, footer, .drawer, form')) return;
+      if (el.closest('.drawer, [hidden]') || el.offsetHeight < 40 || el.offsetWidth < document.documentElement.clientWidth * .95) return;
+      el.classList.remove('o-banda');
+      var c = getComputedStyle(el), bg = c.backgroundColor;
+      var blanco = el.tagName === 'SECTION' && c.backgroundImage === 'none' &&
+        (bg === papel || bg === 'rgba(0, 0, 0, 0)' || bg === 'transparent') &&
+        !el.querySelector(':scope > img, :scope > picture, :scope > video, [class*="-bg"]');
+      if (blanco && previoBlanco) { el.classList.add('o-banda'); previoBlanco = false; }
+      else previoBlanco = blanco;
+    });
+  }
+  window.OCEANIC_BANDAS = bandas;
+  var tb; function pedirBandas() { clearTimeout(tb); tb = setTimeout(bandas, 60); }
+  new MutationObserver(function (ms) { if (ms.some(function (m) { return m.addedNodes.length; })) pedirBandas(); })
+    .observe(document.body, { childList: true, subtree: true });
+  addEventListener('load', pedirBandas);
+  pedirBandas();
   if (reduce) return;
   root.classList.add('o-anim');
 

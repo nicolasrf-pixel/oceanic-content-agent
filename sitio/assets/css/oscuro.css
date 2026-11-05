@@ -1,12 +1,12 @@
 /* OCEANIC · Modo oscuro. Automático según el sistema del visitante; el botón del menú lo fija en claro u oscuro
    (html[data-tema]). Solo redefine superficies y texto: las secciones que ya eran oscuras quedan igual. */
 @media (prefers-color-scheme: dark){html:not([data-tema="claro"]){
-  --papel:#0E1820; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
+  --papel:#0E1820; --banda:#121F29; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
   --linea:rgba(255,255,255,.13); --linea-med:rgba(255,255,255,.28);
   color-scheme:dark;
 }}
 html[data-tema="oscuro"]{
-  --papel:#0E1820; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
+  --papel:#0E1820; --banda:#121F29; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
   --linea:rgba(255,255,255,.13); --linea-med:rgba(255,255,255,.28);
   color-scheme:dark;
 }
