@@ -1,10 +1,14 @@
 """Publica en el sitio los videos y premios oficiales de cada modelo.
 
 Lee de la biblioteca:
-  - 05_MULTIMEDIA/VIDEOS/videos.json  → videos incrustados en la página oficial del modelo (scope THIS_MODEL y sin
-    marca de terceros). No se descarga nada: el sitio los llama desde donde están alojados (YouTube, Vimeo o el CDN
-    del fabricante) y solo cuando el visitante aprieta reproducir.
-  - 07_FUENTES/extract/*.json › awards → premios que la página oficial del modelo publica.
+  - 05_MULTIMEDIA/VIDEOS/videos.json  → todos los videos incrustados en la página oficial del modelo que corresponden
+    a ese barco (decisión Oceanic 2026-11-05): los del modelo, los de su variante hermana del mismo casco, los de su
+    gama y la animación técnica del casco que la marca pone en cada modelo, más las pruebas y opiniones de terceros
+    que la página oficial incrusta (con su etiqueta). Queda fuera solo lo genérico de la marca (newsletter).
+    No se descarga nada: el sitio los llama desde donde están alojados (YouTube, Vimeo o el CDN del fabricante) y solo
+    cuando el visitante aprieta reproducir.
+  - 07_FUENTES/extract/*.json › awards → premios que la página oficial del modelo publica, más tools/premios-extra.json
+    (premios citados en el texto o publicados solo como imagen, verificados contra el extract).
 y escribe sitio/assets/data/medios/<marca>/<modelo>.json + index.json, que lee sitio/assets/js/ficha-tpl.js.
 
 Los títulos de los videos vienen en inglés (o son nombres de archivo): el sitio no publica inglés, así que cada video
@@ -21,7 +25,6 @@ from urllib.parse import urlparse, parse_qs
 RAIZ = Path(__file__).resolve().parent.parent
 BIBLIOTECA = RAIZ / 'biblioteca'
 SALIDA = RAIZ / 'sitio' / 'assets' / 'data' / 'medios'
-MAX_VIDEOS = 6
 
 # ---------------------------------------------------------------- videos
 
@@ -53,6 +56,15 @@ def etiqueta(v):
     return 'Video oficial', 1
 
 
+def hermanas(a, b):
+    """Variantes del mismo casco: mismo nombre hasta la eslora (swift-trawler-37-fly / -sedan)."""
+    pa, pb = a.split('-'), b.split('-')
+    for i, (x, y) in enumerate(zip(pa, pb)):
+        if x != y:
+            return any(re.fullmatch(r'\d+', t) for t in pa[:i])
+    return True
+
+
 def videos(carpeta):
     f = carpeta / '05_MULTIMEDIA' / 'VIDEOS' / 'videos.json'
     if not f.exists():
@@ -61,21 +73,33 @@ def videos(carpeta):
     lista = d.get('videos', []) if isinstance(d, dict) else d
     vistos, out = set(), []
     for v in lista:
-        if v.get('scope') != 'THIS_MODEL' or v.get('third_party'):
-            continue
         t = (v.get('title') or '').lower()
-        if 'community_newsletter' in t:  # pieza genérica de la marca, no del modelo
+        if 'community_newsletter' in t:  # pieza genérica de la marca, no del barco
             continue
         x = video_de(v.get('url') or '')
         if not x or x in vistos:
             continue
-        vistos.add(x)
         et, orden = etiqueta(v)
+        alcance = v.get('scope')
+        if alcance == 'NOT_MODEL_SPECIFIC':
+            et, orden = 'Tecnología del casco', 4
+        elif alcance == 'REQUIRES_REVIEW':
+            otra = re.search(r'También en: ([\w-]+)', v.get('notes') or '')
+            if not otra:
+                continue
+            if not hermanas(carpeta.name, otra.group(1)):
+                et, orden = 'Video de la gama', 3
+        elif alcance != 'THIS_MODEL':
+            continue
+        if v.get('third_party'):
+            et = 'Opinión de propietarios' if re.search(r'owner|propietari', t) else 'Prueba independiente'
+            orden = 5
+        vistos.add(x)
         item = {'tipo': x[0], 'etiqueta': et, 'fuente': v.get('source_page') or ''}
         item['id' if x[0] != 'mp4' else 'src'] = x[1]
         out.append((orden, len(out), item))
     out.sort(key=lambda o: (o[0], o[1]))
-    return [o[2] for o in out[:MAX_VIDEOS]]
+    return [o[2] for o in out]
 
 # ---------------------------------------------------------------- premios
 
@@ -205,8 +229,22 @@ def pulir(p):
     return p
 
 
+EXTRA = json.loads((RAIZ / 'tools' / 'premios-extra.json').read_text())
+
+
 def premios(carpeta, modelo_nombre):
     out, vistos = [], set()
+    textos_ex = ''
+    for ex in sorted((carpeta / '07_FUENTES' / 'extract').glob('*.json')):
+        textos_ex += ex.read_text()
+    extra = []
+    for e in EXTRA.get(f'{carpeta.parent.name}/{carpeta.name}', []):
+        prueba = e.get('cita') or e.get('imagen') or ''
+        if not prueba or prueba not in textos_ex.replace('\\/', '/'):
+            print(f'  aviso: premio extra sin respaldo en la página oficial, no se publica: {carpeta.name}: {e["nombre"]}')
+            continue
+        extra.append(e)
+    reemplazados = {e['reemplaza'].lower() for e in extra if e.get('reemplaza')}
     for ex in sorted((carpeta / '07_FUENTES' / 'extract').glob('*.json')):
         try:
             j = json.loads(ex.read_text())
@@ -220,10 +258,14 @@ def premios(carpeta, modelo_nombre):
                 print(f'  aviso: premio sin traducción, no se publica: {carpeta.parent.name}/{carpeta.name}: {a!r}')
                 continue
             p = pulir(p)
+            if p['nombre'].lower() in reemplazados:
+                continue
             clave = (p['nombre'].lower(), p['detalle'])
             if clave not in vistos:
                 vistos.add(clave)
                 out.append(p)
+    for e in extra:
+        out.append({'nombre': e['nombre'], 'detalle': e.get('detalle', '')})
     return out
 
 

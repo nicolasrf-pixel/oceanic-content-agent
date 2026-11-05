@@ -1,0 +1,12 @@
+{
+ "_doc": "Premios que la página oficial del modelo publica fuera de la lista 'awards' del extract: en el texto (cita literal) o solo en una imagen oficial (URL de la imagen, transcrita a la vista). tools/sitio_medios.py verifica que la cita o la imagen sigan en el extract; si desaparecen, el premio no se publica. Revisión 2026-11-05.",
+ "saffier/saffier-se-24-lite": [
+  {"nombre": "European Yacht of the Year 2024", "detalle": "Ganador", "cita": "this sailboat won European Yacht of the Year 2024", "reemplaza": "European Yacht of the Year"},
+  {"nombre": "HISWA Boot van het Jaar", "detalle": "Ganador", "cita": "has won both the HISWA Boot van het Jaar"}
+ ],
+ "axopar/ax-e-22": [
+  {"nombre": "The Gussies 2025 · Electric Boat Awards", "detalle": "", "imagen": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png"},
+  {"nombre": "European Powerboat of the Year 2025", "detalle": "Finalista", "imagen": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png"},
+  {"nombre": "The Gussies 2023 · Electric Boat Awards", "detalle": "", "imagen": "https://media.ffycdn.net/eu/axopar/SLH6gZu2bVkacYKAKhwM.png"}
+ ]
+}

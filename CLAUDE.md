@@ -201,7 +201,7 @@ Publicar con `python3 tools/sitio_fichas.py`. Un modelo nuevo entra al catálogo
 `python3 tools/sitio_catalogo.py <marca> <slug>...` (ficha técnica, galería y fotos). Marcas con vela y motor tienen una
 página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor`). Foto de tarjeta (3:2, barco completo) y
 portadas inservibles (verticales, interiores): `python3 tools/sitio_tarjetas.py` + revisión visual en `tools/tarjetas-revision.json`.
-Videos y premios oficiales (decisión Oceanic 2026-11-05): `python3 tools/sitio_medios.py` publica en `sitio/assets/data/medios/` los videos de la página oficial (`videos.json`, solo `THIS_MODEL` y sin terceros, máx. 6, etiqueta en español) y los premios (`awards` del extract; nombre propio + detalle traducido). Los videos no se descargan: se llaman desde YouTube (modo sin cookies), Vimeo o el CDN del fabricante solo al apretar reproducir. Detalle en `docs/FICHAS.md`.
+Videos y premios oficiales (decisión Oceanic 2026-11-05): `python3 tools/sitio_medios.py` publica en `sitio/assets/data/medios/` los videos de la página oficial que corresponden al barco (modelo, variante hermana, gama, tecnología del casco y terceros incrustados, con etiqueta en español) y los premios (`awards` del extract + `tools/premios-extra.json` con cita o imagen verificada; nombre propio + detalle traducido). Los videos no se descargan: se llaman desde YouTube (modo sin cookies), Vimeo o el CDN del fabricante solo al apretar reproducir. Detalle en `docs/FICHAS.md`.
 
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV

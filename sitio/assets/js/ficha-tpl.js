@@ -169,8 +169,9 @@
           return '<button type="button" class="vid" data-tipo="' + esc(v.tipo) + '" data-v="' + esc(v.id || v.src) + '" aria-label="Reproducir video: ' + esc(v.etiqueta) + '">' +
             (x.foto ? img(x.foto, mo.nombre) : '') + '<span class="vid-play" aria-hidden="true"></span>' +
             '<span class="vid-et">' + esc(v.etiqueta) + '</span></button>';
-        }).join('') + '</div><p class="spec-fuente">Videos oficiales de ' + esc(info.nombre) + '. Se reproducen desde ' +
-        'su plataforma de origen.</p>'));
+        }).join('') + '</div>' +
+        (vids.length > 6 ? '<p class="vids-mas"><button type="button" class="btn btn-line btn-line-dark" data-vids-mas>Ver más videos (' + (vids.length - 6) + ')</button></p>' : '') +
+        '<p class="spec-fuente">Videos publicados en la página oficial de ' + esc(info.nombre) + '. Se reproducen desde su plataforma de origen.</p>'));
       nav.push(['videos', 'Videos']);
     }
 
@@ -369,6 +370,8 @@
 
   // Reproducir un video: recién aquí se llama a la plataforma donde está alojado
   document.addEventListener('click', function (e) {
+    var mas = e.target.closest && e.target.closest('[data-vids-mas]');
+    if (mas) { var g = document.querySelector('.vids'); if (g) g.classList.add('vids-todos'); mas.parentNode.remove(); return; }
     var b = e.target.closest && e.target.closest('button.vid');
     if (!b) return;
     var t = b.getAttribute('data-tipo'), v = b.getAttribute('data-v'), el;

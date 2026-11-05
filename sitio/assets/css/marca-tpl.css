@@ -272,3 +272,5 @@
 .vid-on{cursor:default}
 .vid-on::after{display:none}
 .vid-player{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+.vids:not(.vids-todos)>.vid:nth-child(n+7){display:none}
+.vids-mas{margin:clamp(18px,2vw,28px) 0 0}
