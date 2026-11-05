@@ -72,6 +72,7 @@
 (function () {
   'use strict';
   var send = document.getElementById('efSend');
+  if (window.OCEANIC_CONSENTIMIENTO && send) OCEANIC_CONSENTIMIENTO(send.parentNode, send);  // Ley 21.719
   if (!send) return;
 
   function val(id){ var el=document.getElementById(id); return el ? el.value.trim() : ''; }
@@ -97,6 +98,7 @@
     var nombre = val('ef-nombre'), correo = val('ef-email');
     if (!cats.length) { alert('Marca al menos una categoría que te interese.'); return; }
     if (!nombre || !correo) { alert('Déjanos tu nombre y correo para enviarte la información.'); return; }
+    if (!OCEANIC_ACEPTO(send.parentNode)) { alert('Para enviar, acepta la política de privacidad.'); return; }
     var tel = val('ef-tel'), barco = val('ef-barco'), msg = val('ef-msg');
     var cuerpo = 'Hola Oceanic, quiero información de equipamiento.\n\n' +
       'Me interesa:\n• ' + cats.join('\n• ') +
@@ -108,7 +110,7 @@
     var estado = document.getElementById('efEstado');
     send.disabled = true; send.textContent = 'Enviando…';
     window.OCEANIC_ENVIAR({
-      tipo: 'equipamiento', nombre: nombre, email: correo, telefono: tel,
+      tipo: 'equipamiento', nombre: nombre, email: correo, telefono: tel, acepta: true,
       categorias: cats, detalle: barco ? 'Embarcación: ' + barco : '', mensaje: msg,
       web: val('ef-web')
     }, { asunto: 'Solicitud de equipamiento, ' + nombre, cuerpo: cuerpo }).then(function (r) {

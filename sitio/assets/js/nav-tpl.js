@@ -36,6 +36,7 @@
     items.map(function(x){return '<a href="'+x[1]+'" class="nav-a">'+x[0]+'</a>';}).join('')+
     '</nav><div class="bar-act">'+
     '<a href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." target="_blank" rel="noopener" class="btn">Habla con un especialista</a>'+
+    '<button class="tema-btn" id="temaBtn" type="button" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="t-luna" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="t-sol" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></svg></button>'+
     '<button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>'+
     '</div></div></div>';
   var n=document.getElementById('nav'); if(n) n.outerHTML=nav;
@@ -56,8 +57,36 @@
     '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
     '<div><span class="eyebrow">Explorar</span><a href="'+pre+'usados/index.html">Usados</a><a href="'+pre+'equipamiento/index.html">Equipamiento</a><a href="'+pre+'puerto/index.html">Puerto</a></div>'+
     '<div><span class="eyebrow">Contacto</span><a href="'+pre+'contacto/index.html">Conversemos</a><a href="mailto:ventas@oceanic.cl">ventas@oceanic.cl</a></div>'+
-    '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span>Santiago · Chile</span></div></div></footer>';
+    '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · Santiago · Chile</span></div></div></footer>';
   var f=document.getElementById('foot'); if(f) f.outerHTML=foot;
+
+  // ---------- modo oscuro: automático según el sistema; el botón lo fija y se recuerda ----------
+  var html=document.documentElement, mq=window.matchMedia('(prefers-color-scheme: dark)');
+  function oscuro(){ var t=html.getAttribute('data-tema'); return t ? t==='oscuro' : mq.matches; }
+  function pintarTema(){ var b=document.getElementById('temaBtn'); if(!b) return; var o=oscuro();
+    b.classList.toggle('es-oscuro',o); b.setAttribute('aria-label',o?'Cambiar a modo claro':'Cambiar a modo oscuro'); }
+  setTimeout(function(){
+    var b=document.getElementById('temaBtn'); if(!b) return;
+    b.addEventListener('click',function(){
+      var nuevo=oscuro()?'claro':'oscuro'; html.setAttribute('data-tema',nuevo);
+      try{ localStorage.setItem('oceanic-tema',nuevo); }catch(e){}
+      pintarTema();
+    });
+    pintarTema();
+  },0);
+  if(mq.addEventListener) mq.addEventListener('change',pintarTema);
+
+  // ---------- aviso de privacidad (Ley 21.719): informativo, el sitio no usa cookies de seguimiento ----------
+  setTimeout(function(){
+    var visto=false; try{ visto=localStorage.getItem('oceanic-aviso')==='2026-11'; }catch(e){}
+    if(visto||/privacidad\//.test(location.pathname)) return;
+    var a=document.createElement('div'); a.className='aviso-priv'; a.setAttribute('role','region'); a.setAttribute('aria-label','Aviso de privacidad');
+    a.innerHTML='<p>Este sitio no usa cookies de seguimiento ni publicidad. Solo guardamos en tu navegador tus preferencias, como el modo oscuro. '+
+      'Los datos que nos envías por formularios se tratan según nuestra <a href="'+pre+'privacidad/index.html">política de privacidad</a>.</p>'+
+      '<button type="button" class="btn">Entendido</button>';
+    a.querySelector('button').addEventListener('click',function(){ try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e){} a.remove(); });
+    document.body.appendChild(a);
+  },400);
 
   // burger
   setTimeout(function(){

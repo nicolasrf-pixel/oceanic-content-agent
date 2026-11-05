@@ -19,6 +19,35 @@
     setTimeout(function () { a.remove(); }, 100);
   }
 
+  /* ---------- Ley 21.719: consentimiento en todos los formularios ----------
+     Inserta en cada formulario la casilla obligatoria de aceptación de la política de privacidad (separada de la de
+     Puerto, que es opcional). Raíz de la ruta para el enlace: la misma que usan las imágenes. */
+  var PRE = ((document.body && document.body.dataset.assetBase) || 'assets/img/').replace('assets/img/', '');
+  var n = 0;
+  window.OCEANIC_CONSENTIMIENTO = function (contenedor, antesDe) {
+    if (!contenedor || contenedor.querySelector('[name="acepta"]')) return;
+    var id = 'acepta-' + (++n);
+    var l = document.createElement('label');
+    l.className = 'check consent';
+    l.innerHTML = '<input type="checkbox" name="acepta" id="' + id + '" required>' +
+      '<span>Acepto la <a href="' + PRE + 'privacidad/index.html" target="_blank" rel="noopener">política de privacidad</a>. ' +
+      'Usamos tus datos solo para responder esta solicitud.</span>';
+    contenedor.insertBefore(l, antesDe && antesDe.parentNode === contenedor ? antesDe : null);
+  };
+  window.OCEANIC_ACEPTO = function (contenedor) {
+    var c = contenedor && contenedor.querySelector('[name="acepta"]');
+    return !!(c && c.checked);
+  };
+  function prepararFormularios() {
+    [].forEach.call(document.querySelectorAll('form[data-form], form[data-puerto]'), function (f) {
+      var pie = f.querySelector('.form-foot') || f.querySelector('button[type="submit"]');
+      OCEANIC_CONSENTIMIENTO(f, pie);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', prepararFormularios);
+  else prepararFormularios();
+  new MutationObserver(function () { prepararFormularios(); }).observe(document.documentElement, { childList: true, subtree: true });
+
   window.OCEANIC_ENVIAR = function (datos, respaldo) {
     datos = datos || {};
     datos.origen = datos.origen || location.href.split('#')[0];
@@ -79,6 +108,12 @@
       (d.nombre ? f.elements.email : f.elements.nombre).focus();
       return;
     }
+    d.acepta = OCEANIC_ACEPTO(f);
+    if (!d.acepta) {
+      fallo('Para enviar, acepta la política de privacidad.');
+      f.elements.acepta.focus();
+      return;
+    }
     if (err) err.hidden = true;
     var lineas = ['Hola Oceanic,', ''];
     if (d.modelo) lineas.push('Quiero cotizar el ' + d.modelo + '.', '');
@@ -119,8 +154,9 @@
       msg.textContent = txt; msg.className = ok ? 'puerto-ok' : 'puerto-err';
     }
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { aviso('Escribe un correo válido.', false); f.email.focus(); return; }
+    if (!OCEANIC_ACEPTO(f)) { aviso('Para suscribirte, acepta la política de privacidad.', false); f.elements.acepta.focus(); return; }
     if (btn) btn.disabled = true;
-    window.OCEANIC_ENVIAR({ tipo: 'puerto', email: email, puerto: true, web: f.web ? f.web.value : '' }, null)
+    window.OCEANIC_ENVIAR({ tipo: 'puerto', email: email, puerto: true, acepta: true, web: f.web ? f.web.value : '' }, null)
       .then(function () {
         f.innerHTML = '<p class="' + (f.getAttribute('data-ok-class') || 'puerto-ok') + '" role="status">' +
           'Te enviamos un correo para confirmar tu suscripción. Revisa tu bandeja de entrada.</p>';

@@ -36,7 +36,7 @@ function simularBrevo(fallar = () => false) {
   return llamadas;
 }
 
-const COTIZACION = { tipo: 'cotizacion', nombre: 'Persona Prueba', email: 'Prueba@Ejemplo.cl', modelo: 'Axopar 37 XC', marca: 'Axopar', mensaje: 'Hola' };
+const COTIZACION = { tipo: 'cotizacion', nombre: 'Persona Prueba', email: 'Prueba@Ejemplo.cl', modelo: 'Axopar 37 XC', marca: 'Axopar', mensaje: 'Hola', acepta: true };
 
 test('cotización: avisa a ventas, confirma al cliente y guarda el contacto', async () => {
   const llamadas = simularBrevo();
@@ -84,7 +84,7 @@ test('casilla Puerto marcada: pide doble confirmación con la lista y la plantil
 
 test('suscripción sola a Puerto: no avisa a ventas ni crea el contacto antes de confirmar', async () => {
   const llamadas = simularBrevo();
-  const r = await onRequestPost({ request: pedido({ tipo: 'puerto', email: 'a@b.cl', puerto: true }), env: ENV });
+  const r = await onRequestPost({ request: pedido({ tipo: 'puerto', email: 'a@b.cl', puerto: true, acepta: true }), env: ENV });
   assert.equal(r.status, 200);
   assert.deepEqual(llamadas.map((l) => l.ruta), ['/contacts/doubleOptinConfirmation']);
 });
@@ -92,7 +92,7 @@ test('suscripción sola a Puerto: no avisa a ventas ni crea el contacto antes de
 test('Puerto sin configurar en Brevo responde error en vez de fingir', async () => {
   simularBrevo();
   const env = { ...ENV, BREVO_PLANTILLA_DOI: '' };
-  const r = await onRequestPost({ request: pedido({ tipo: 'puerto', email: 'a@b.cl', puerto: true }), env });
+  const r = await onRequestPost({ request: pedido({ tipo: 'puerto', email: 'a@b.cl', puerto: true, acepta: true }), env });
   assert.equal(r.status, 502);
 });
 
@@ -139,7 +139,7 @@ test('limpia y recorta los campos', () => {
   assert.equal(d.email, 'a@b.cl');
   assert.equal(d.mensaje.length, 3000);
   assert.equal(d.puerto, false, 'solo true booleano cuenta como casilla marcada');
-  assert.equal(validar(limpiar({ tipo: 'equipamiento', nombre: 'A', email: 'a@b.cl' })), 'categorias');
+  assert.equal(validar(limpiar({ tipo: 'equipamiento', nombre: 'A', email: 'a@b.cl', acepta: true })), 'categorias');
 });
 
 test('el correo a ventas escapa el HTML', () => {
@@ -155,10 +155,11 @@ test('cada tipo de solicitud recibe su agradecimiento (no solo las cotizaciones)
     [{ tipo: 'contacto', motivo: 'Otro' }, /Gracias por escribirnos/],
     [{ tipo: 'charter', detalle: '• Destino: Cícladas' }, /solicitud de charter/],
     [{ tipo: 'equipamiento', categorias: ['Velas'] }, /solicitud de equipamiento/],
+    [{ tipo: 'privacidad', motivo: 'Supresión' }, /solicitud de supresión de datos personales/],
   ];
   for (const [extra, asunto] of casos) {
     const llamadas = simularBrevo();
-    const r = await onRequestPost({ request: pedido({ nombre: 'Persona Prueba', email: 'a@b.cl', ...extra }), env: ENV });
+    const r = await onRequestPost({ request: pedido({ nombre: 'Persona Prueba', email: 'a@b.cl', acepta: true, ...extra }), env: ENV });
     assert.equal(r.status, 200, extra.tipo);
     const alCliente = llamadas.filter((l) => l.ruta === '/smtp/email' && l.cuerpo.to[0].email === 'a@b.cl');
     assert.equal(alCliente.length, 1, extra.tipo + ': un agradecimiento');
@@ -171,4 +172,11 @@ test('el agradecimiento incluye la copia de lo enviado, escapada', () => {
   const c = correoConfirmacion(d);
   assert.match(c.texto, /Intereses: Velas, Propulsión/);
   assert.ok(c.html.includes('&lt;b&gt;hola&lt;/b&gt;'));
+});
+
+test('Ley 21.719: sin aceptar la política no se procesa la solicitud', async () => {
+  assert.equal(validar(limpiar({ tipo: 'contacto', nombre: 'A', email: 'a@b.cl' })), 'acepta');
+  assert.equal(validar(limpiar({ tipo: 'contacto', nombre: 'A', email: 'a@b.cl', acepta: 'true' })), 'acepta');
+  assert.equal(validar(limpiar({ tipo: 'contacto', nombre: 'A', email: 'a@b.cl', acepta: true })), null);
+  assert.equal(validar(limpiar({ tipo: 'privacidad', nombre: 'A', email: 'a@b.cl', motivo: 'Supresión', acepta: true })), null);
 });

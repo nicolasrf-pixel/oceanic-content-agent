@@ -229,25 +229,40 @@
 
     // 10 · Formulario de cotización (el mismo en todas las fichas)
     var HP = '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
-    var cierre = '<section class="talk" id="cotizar">' + img(AB + 'talk.webp', '', 'talk-bg') +
-      '<div class="wrap"><div class="sec-head"><span class="eyebrow" style="color:var(--boya)">Conversemos</span></div>' +
-      '<h2 class="talk-h">¿Te interesa<br>este modelo?</h2>' +
-      '<div class="two talk-form"><div>' +
-        '<h3 class="talk-h3">Cotiza el ' + esc(mo.nombre) + '</h3>' +
-        '<p class="lede" style="margin-top:18px">Te preparamos una propuesta con precio, configuración y plazos según cómo navegas. Sin presión y sin secuencias automáticas.</p>' +
-        '<a class="btn talk-wa" href="' + wa + '" target="_blank" rel="noopener">Cotizar por WhatsApp</a>' +
-        '<span class="talk-or">o déjanos tus datos y te escribimos →</span></div><div>' +
-        '<form data-form="cotizacion" data-modelo="' + esc(mo.nombre) + '" data-marca="' + esc(info.nombre) + '" data-universo="' + esc(famLabel(mo.tipo)) + '" data-ok="#cokModelo" novalidate>' + HP +
-          '<div class="row"><div><label for="cz-n">Nombre</label><input id="cz-n" name="nombre" required autocomplete="name"></div>' +
-          '<div><label for="cz-e">Correo</label><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email"></div></div>' +
-          '<div class="row"><div><label for="cz-t">Teléfono <span style="text-transform:none;letter-spacing:0">(opcional)</span></label><input id="cz-t" name="telefono" type="tel" autocomplete="tel" inputmode="tel"></div><div></div></div>' +
-          '<div><label for="cz-m">Cómo navegas o cómo te gustaría navegar</label><textarea id="cz-m" name="mensaje" placeholder="Dónde navegas, con quién, qué configuración te interesa y cuándo lo necesitas."></textarea></div>' +
-          '<label class="check"><input name="puerto" type="checkbox"><span>Quiero recibir <b>Puerto</b>, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario.</span></label>' +
-          '<div class="form-foot"><button class="btn" type="submit">Enviar solicitud</button><span class="form-note">Te respondemos dentro de un día hábil.</span></div>' +
+    var fCot = mo.tarjeta || mo.hero;
+    var datosCot = [['Marca', info.nombre], ['Eslora', mo.eslora], ['Camarotes', mo.camarotes], ['Tipo', famLabel(mo.tipo)]]
+      .map(function (d) { var L = window.OCEANIC_SIN_OPCIONALES; return [d[0], L ? L.spec(d[1]) : d[1]]; })  // sin opcionales (decisión Oceanic)
+      .filter(function (d) { return d[1]; });
+    var cierre = '<section class="cot" id="cotizar"><div class="wrap cot-in">' +
+      '<aside class="cot-barco">' +
+        (fCot ? '<div class="cot-foto">' + img(IMG(AB, fCot), mo.nombre) + '</div>' : '') +
+        '<span class="eyebrow cot-eti">Cotización personalizada</span>' +
+        '<h2 class="cot-h">Cotiza el ' + esc(mo.nombre) + '</h2>' +
+        '<dl class="cot-datos">' + datosCot.map(function (d) { return '<div><dt>' + d[0] + '</dt><dd>' + esc(d[1]) + '</dd></div>'; }).join('') + '</dl>' +
+        '<ul class="cot-recibes">' +
+          '<li>Precio y plazos de entrega en Chile</li><li>Configuración a la medida de cómo navegas</li><li>Respuesta de un especialista en un día hábil</li>' +
+        '</ul>' +
+        '<a class="cot-wa" href="' + wa + '" target="_blank" rel="noopener">Prefiero conversar por WhatsApp →</a>' +
+      '</aside>' +
+      '<div class="cot-panel">' +
+        '<form class="cot-form" data-form="cotizacion" data-modelo="' + esc(mo.nombre) + '" data-marca="' + esc(info.nombre) + '" data-universo="' + esc(famLabel(mo.tipo)) + '" data-ok="#cokModelo" novalidate>' + HP +
+          '<fieldset class="cot-cuando"><legend>¿Cuándo te gustaría navegar?</legend>' +
+            ['Esta temporada', 'En 6 a 12 meses', 'Estoy explorando'].map(function (t, k) {
+              return '<label class="cot-chip"><input type="radio" name="intencion" value="' + t + '"' + (k === 0 ? ' checked' : '') + '><span>' + t + '</span></label>';
+            }).join('') +
+          '</fieldset>' +
+          '<div class="cot-fila">' +
+            '<div class="cot-campo"><input id="cz-n" name="nombre" required autocomplete="name" placeholder=" "><label for="cz-n">Nombre</label></div>' +
+            '<div class="cot-campo"><input id="cz-e" name="email" type="email" required autocomplete="email" inputmode="email" placeholder=" "><label for="cz-e">Correo</label></div>' +
+          '</div>' +
+          '<div class="cot-campo"><input id="cz-t" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder=" "><label for="cz-t">Teléfono, si prefieres que te llamemos</label></div>' +
+          '<div class="cot-campo"><textarea id="cz-m" name="mensaje" rows="3" placeholder=" "></textarea><label for="cz-m">Dónde navegas, con quién y qué configuración te interesa</label></div>' +
+          '<label class="check"><input name="puerto" type="checkbox"><span>Quiero recibir <b>Puerto</b>: lanzamientos, premios y técnica útil, solo cuando hay algo que contar.</span></label>' +
+          '<div class="form-foot"><button class="btn cot-enviar" type="submit">Solicitar cotización</button></div>' +
         '</form>' +
-        '<div class="form-ok" hidden id="cokModelo" role="status" tabindex="-1"><h3 class="talk-h3">Gracias por tu solicitud</h3>' +
-          '<p class="lede" style="margin-top:12px">Un especialista de Oceanic te escribe dentro de un día hábil con precio, configuración y plazos del ' + esc(mo.nombre) + '. <span data-via></span></p></div>' +
-      '</div></div></div></section>';
+        '<div class="form-ok cot-ok" hidden id="cokModelo" role="status" tabindex="-1"><span class="cot-ok-ic" aria-hidden="true">✓</span><h3>Recibimos tu solicitud</h3>' +
+          '<p>Un especialista de Oceanic te escribe dentro de un día hábil con precio, configuración y plazos del ' + esc(mo.nombre) + '. <span data-via></span></p></div>' +
+      '</div></div></section>';
 
     cont.innerHTML = html.join('') + subbar + cuerpo.join('') + cierre;
     document.body.classList.add('es-ficha');

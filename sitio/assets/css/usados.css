@@ -19,19 +19,19 @@
   max-width:60ch;margin:clamp(14px,1.4vw,22px) 0 0}
 
 /* BARRA DE FILTROS */
-.repo{padding:clamp(40px,5vw,88px) 0 var(--rhythm);background:#FFFFFF}
+.repo{padding:clamp(40px,5vw,88px) 0 var(--rhythm);background:var(--papel)}
 .repo-bar{display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;justify-content:space-between;
   margin-bottom:clamp(30px,3.4vw,52px);padding-bottom:clamp(20px,2vw,28px);border-bottom:1px solid var(--linea)}
 .repo-count{font-family:var(--dato);font-size:13px;letter-spacing:.06em;color:var(--trabajo)}
-.repo-count span{color:var(--noche);font-weight:500}
+.repo-count span{color:var(--tinta);font-weight:500}
 .filters{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
 .fgroup{display:flex;gap:6px;flex-wrap:wrap}
 .fbtn{font-family:var(--display);font-weight:500;font-size:clamp(13px,.24vw + 11px,15px);
   color:var(--trabajo);background:transparent;border:1px solid rgba(20,33,43,.18);
   padding:9px 16px;cursor:pointer;transition:all .25s}
-.fbtn:hover{border-color:var(--noche);color:var(--noche)}
+.fbtn:hover{border-color:var(--noche);color:var(--tinta)}
 .fbtn.is-on{background:var(--noche);border-color:var(--noche);color:#fff}
-.fsel{font-family:var(--display);font-size:14px;color:var(--noche);background:#fff;
+.fsel{font-family:var(--display);font-size:14px;color:var(--tinta);background:var(--papel);
   border:1px solid rgba(20,33,43,.18);padding:9px 14px;cursor:pointer}
 
 /* GRILLA */
@@ -61,7 +61,7 @@
 .uc-body{padding-top:clamp(15px,1.3vw,22px);display:flex;flex-direction:column;flex:1 1 auto}
 .uc-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
 .uc-name{font-family:var(--display);font-weight:600;letter-spacing:-.01em;
-  font-size:clamp(19px,.7vw + 15px,27px);color:var(--noche);line-height:1.05}
+  font-size:clamp(19px,.7vw + 15px,27px);color:var(--tinta);line-height:1.05}
 .uc-lg .uc-name{font-size:clamp(24px,1vw + 18px,34px)}
 .uc-anio{font-family:var(--dato);font-size:13px;color:var(--niebla);flex:0 0 auto}
 .uc-meta{display:block;font-family:var(--dato);font-size:12px;letter-spacing:.03em;
@@ -69,7 +69,7 @@
 .uc-resumen{display:block;font-family:var(--texto);font-weight:300;line-height:1.45;
   font-size:clamp(14px,.3vw + 12px,16px);color:var(--trabajo);margin-top:10px;max-width:44ch}
 .uc-precio{display:block;font-family:var(--display);font-weight:600;
-  font-size:clamp(17px,.5vw + 14px,22px);color:var(--noche);margin-top:12px}
+  font-size:clamp(17px,.5vw + 14px,22px);color:var(--tinta);margin-top:12px}
 
 .repo-empty{margin-top:40px;font-family:var(--texto);font-size:18px;color:var(--trabajo)}
 .linkbtn{background:none;border:0;color:var(--boya);font:inherit;cursor:pointer;
@@ -107,9 +107,9 @@
   font-size:clamp(15px,.3vw+13px,17px);max-width:56ch;margin:0 0 clamp(24px,2.6vw,34px)}
 .b-fin-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--linea);border:1px solid var(--linea)}
 @media(min-width:560px){.b-fin-grid{grid-template-columns:repeat(3,1fr)}}
-.b-fin-cell{background:#fff;padding:clamp(22px,2.4vw,34px)}
+.b-fin-cell{background:var(--papel);padding:clamp(22px,2.4vw,34px)}
 .b-fin-n{display:block;font-family:var(--display);font-weight:700;letter-spacing:-.02em;
-  font-size:clamp(24px,2vw+14px,38px);color:var(--noche);margin-bottom:6px}
+  font-size:clamp(24px,2vw+14px,38px);color:var(--tinta);margin-bottom:6px}
 .b-fin-l{font-family:var(--dato);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--niebla)}
 .b-fin-note{font-family:var(--texto);font-size:13px;color:var(--niebla);margin:16px 0 0;font-style:italic}
 
@@ -121,7 +121,7 @@
 .b-como-list li:last-child{border-bottom:0}
 .b-como-list li::before{content:counter(como,decimal-leading-zero);font-family:var(--dato);
   font-size:13px;color:var(--boya);letter-spacing:.05em}
-.b-como-list b{font-family:var(--display);font-weight:600;font-size:clamp(17px,.6vw+14px,21px);color:var(--noche)}
+.b-como-list b{font-family:var(--display);font-weight:600;font-size:clamp(17px,.6vw+14px,21px);color:var(--tinta)}
 .b-como-list span{grid-column:2;font-family:var(--texto);font-weight:300;line-height:1.5;
   font-size:clamp(14px,.3vw+12px,16px);color:var(--trabajo)}
 

@@ -132,6 +132,7 @@
           '<label>Comentario (opcional)<input id="r-msg"></label>' +
         '</div>' +
         '<input id="r-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
+        '<label class="check consent"><input type="checkbox" name="acepta" id="r-acepta" required><span>Acepto la <a href="../privacidad/index.html" target="_blank" rel="noopener">política de privacidad</a>. Usamos tus datos solo para responder esta solicitud.</span></label>' +
         '<p class="cotz-estado" id="r-estado" role="status" hidden></p>' +
         '<div class="cotz-res-cta">' +
           '<a class="btn" id="cotz-send-mail" href="#" data-act="mail" data-lineas="' + encodeURIComponent(lineas) + '">Enviar solicitud</a>' +
@@ -166,6 +167,7 @@
             alert('Déjanos tu nombre y correo para enviarte la propuesta.');
             return;
           }
+          if (!(document.getElementById('r-acepta') || {}).checked) { alert('Para enviar, acepta la política de privacidad.'); return; }
           var lineas = decodeURIComponent(el.dataset.lineas || '');
           var cuerpo = 'Hola Oceanic, quiero cotizar un charter.\n\n' + lineas +
             '\n\nDatos de contacto:\n• Nombre: ' + nombre +
@@ -176,7 +178,7 @@
           if (el.getAttribute('aria-disabled') === 'true') return;
           el.setAttribute('aria-disabled', 'true'); el.textContent = 'Enviando…';
           window.OCEANIC_ENVIAR({
-            tipo: 'charter', nombre: nombre.trim(), email: correo.trim(), telefono: tel.trim(),
+            tipo: 'charter', nombre: nombre.trim(), email: correo.trim(), telefono: tel.trim(), acepta: true,
             mensaje: com.trim(), detalle: lineas,
             web: (document.getElementById('r-web') || {}).value || ''
           }, { asunto: 'Solicitud de charter, ' + nombre, cuerpo: cuerpo }).then(function (r) {

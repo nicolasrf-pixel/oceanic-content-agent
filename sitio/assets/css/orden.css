@@ -21,7 +21,7 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .es-ficha .story-line,.es-ficha .story-line.story-larga{max-width:none;margin-left:0;margin-right:0}
 .es-ficha .story .lede{margin-left:0!important;max-width:none!important}
 /* listas de destacados: título en la tipografía de títulos, no en la de datos */
-.es-ficha .tr dt{font-family:var(--display);font-weight:600;letter-spacing:-.005em;color:var(--noche)}
+.es-ficha .tr dt{font-family:var(--display);font-weight:600;letter-spacing:-.005em;color:var(--tinta)}
 .es-ficha .two>div>img,.es-ficha .two>div>picture{margin-top:clamp(20px,2vw,32px)}
 /* secciones de la ficha con el mismo aire arriba y abajo */
 .es-ficha section{padding-top:clamp(44px,4vw,72px);padding-bottom:clamp(44px,4vw,72px)}
@@ -68,3 +68,18 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .gal-item img{transition:transform 1.2s cubic-bezier(.16,.84,.34,1)}
 .gal-item:hover img{transform:scale(1.05)}
 @media (prefers-reduced-motion:reduce){.o-avance{display:none}}
+
+/* ===== 10 · Carga dinámica ===== */
+/* fotos: aparecen con un fundido al terminar de cargar */
+.o-anim .o-img{opacity:0;transition:opacity .7s cubic-bezier(.16,.84,.34,1)}
+.o-anim .o-img.o-ok{opacity:1}
+/* mientras llegan los datos: marcadores con un brillo que recorre, en la forma de lo que viene */
+@keyframes o-brillo{from{background-position:-200% 0}to{background-position:200% 0}}
+#marca:empty,#barco:empty,#edicion:empty,#grid:empty,#puertoEd:empty,#destacados:empty{display:block;position:relative}
+#marca:empty::before,#barco:empty::before,#edicion:empty::before{content:"";display:block;height:min(70vh,640px);
+  background:linear-gradient(100deg,var(--arena) 30%,var(--papel) 50%,var(--arena) 70%);background-size:200% 100%;animation:o-brillo 1.6s linear infinite}
+#marca:empty::after,#barco:empty::after,#edicion:empty::after{content:"";display:block;max-width:var(--max);height:220px;margin:40px auto;
+  background:repeating-linear-gradient(to bottom,var(--arena) 0 18px,transparent 18px 34px);opacity:.8;border-left:var(--gut) solid transparent;border-right:var(--gut) solid transparent;background-clip:content-box}
+#grid:empty,#destacados:empty,#puertoEd:empty{min-height:420px;
+  background:linear-gradient(100deg,var(--arena) 30%,var(--papel) 50%,var(--arena) 70%);background-size:200% 100%;animation:o-brillo 1.6s linear infinite}
+@media (prefers-reduced-motion:reduce){#marca:empty::before,#barco:empty::before,#edicion:empty::before,#grid:empty,#destacados:empty,#puertoEd:empty{animation:none}}

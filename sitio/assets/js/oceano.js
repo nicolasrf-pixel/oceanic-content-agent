@@ -49,8 +49,22 @@
         else io.observe(el);
       });
     });
+    fotos(scope);
     portada(scope);
     parallax(scope);
+  }
+
+  // ---------- fotos que aparecen suave al terminar de cargar (sin saltos ni recuadros en blanco) ----------
+  function fotos(scope) {
+    [].forEach.call(scope.querySelectorAll('img'), function (img) {
+      if (img.dataset.of || img.closest('.bar, .ft, .asis-panel')) return;
+      img.dataset.of = '1';
+      if (img.complete && img.naturalWidth) return;
+      img.classList.add('o-img');
+      function listo() { img.classList.add('o-ok'); }
+      img.addEventListener('load', listo, { once: true });
+      img.addEventListener('error', listo, { once: true });
+    });
   }
 
   // ---------- portada: la foto respira y el texto entra en capas ----------

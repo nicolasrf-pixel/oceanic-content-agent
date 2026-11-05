@@ -211,6 +211,13 @@ Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=
 superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
 Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
 
+**Ley 21.719 y experiencia (decisión Oceanic 2026-11-05):** `sitio/privacidad/` es la política (BORRADOR con [RAZÓN SOCIAL],
+[RUT], [DOMICILIO], [CORREO DE PRIVACIDAD] y plazos por completar, revisión legal pendiente) con formulario de derechos
+(tipo `privacidad`). Todo formulario lleva la casilla obligatoria de aceptación (`acepta`, separada de Puerto, que es
+opcional) y el servidor rechaza sin ella. Aviso informativo de privacidad (el sitio no usa cookies de seguimiento).
+Modo oscuro automático + botón (`assets/css/oscuro.css`; superficies y texto en variables `--papel`, `--arena`, `--tinta`).
+Movimiento y carga: `assets/js/oceano.js` + `assets/css/orden.css`. Chatbot con IA: pendiente (lo decide y paga el cliente).
+
 `check` debe terminar sin errores antes de hacer commit.
 
 ## Captura con Firecrawl

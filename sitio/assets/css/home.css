@@ -28,7 +28,7 @@
   background:rgba(20,33,43,.35);backdrop-filter:blur(6px);cursor:pointer;
   display:flex;align-items:center;justify-content:center;gap:3px}
 .vid-toggle:hover{border-color:#fff;background:rgba(20,33,43,.6)}
-.vt-bar{width:2.5px;height:11px;background:#fff;display:block}
+.vt-bar{width:2.5px;height:11px;background:var(--papel);display:block}
 .vid-toggle[aria-pressed="true"] .vt-bar:first-child{width:0;height:0;background:transparent;
   border-left:8px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent}
 .vid-toggle[aria-pressed="true"] .vt-bar:last-child{display:none}
@@ -44,13 +44,13 @@
 }
 
 /* ---------- STATEMENT ---------- */
-.stmt{padding:clamp(80px,11vw,190px) 0 clamp(70px,9vw,150px);background:#FFFFFF}
+.stmt{padding:clamp(80px,11vw,190px) 0 clamp(70px,9vw,150px);background:var(--papel)}
 .stmt p{font-family:var(--display);font-weight:400;letter-spacing:-.025em;
-  font-size:clamp(24px,3.1vw,60px);line-height:1.14;color:var(--noche);
+  font-size:clamp(24px,3.1vw,60px);line-height:1.14;color:var(--tinta);
   max-width:24ch;margin:0}
 
 /* ---------- 2 · MARCAS REPRESENTADAS ---------- */
-.brands{padding:var(--rhythm) 0;background:#FFFFFF}
+.brands{padding:var(--rhythm) 0;background:var(--papel)}
 .brands-h2{font-size:clamp(32px,4vw,88px);line-height:1.02;letter-spacing:-.03em;
   max-width:16ch;margin-bottom:clamp(48px,6vw,104px)}
 
@@ -69,7 +69,7 @@
 .bc-body{display:flex;flex-direction:column;padding-top:clamp(18px,1.6vw,28px)}
 .bc-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .bc-name{font-family:var(--display);font-weight:700;letter-spacing:-.01em;
-  font-size:clamp(24px,1.4vw + 17px,44px);line-height:1;color:var(--noche);
+  font-size:clamp(24px,1.4vw + 17px,44px);line-height:1;color:var(--tinta);
   transition:color .4s ease}
 .bc:hover .bc-name{color:var(--boya)}
 .bc-cat{display:flex;align-items:baseline;gap:10px;margin-top:clamp(8px,.7vw,12px);
@@ -85,7 +85,7 @@
 .bc-own:hover .bc-badge{background:var(--boya);color:#fff;border-color:var(--boya)}
 
 /* ---------- 3 · UNIVERSOS (navegación secundaria) ---------- */
-.port{padding:clamp(48px,5.5vw,92px) 0;background:var(--gris,#E3E1DC)}
+.port{padding:clamp(48px,5.5vw,92px) 0;background:var(--arena)}
 .port-h2{font-size:clamp(24px,2vw,40px);line-height:1.05;margin-bottom:clamp(24px,2.6vw,44px)}
 .port-lede{max-width:52ch;margin-bottom:clamp(34px,4vw,64px)}
 .uni{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(18px,2vw,38px)}
@@ -102,7 +102,7 @@
 .u-brands a{font-family:var(--dato);font-size:clamp(11px,.2vw + 10px,13px);letter-spacing:.1em;
   text-transform:uppercase;color:var(--trabajo);text-decoration:none;
   border-bottom:1px solid transparent;padding-bottom:2px;transition:color .2s,border-color .2s}
-.u-brands a:hover{color:var(--noche);border-color:var(--boya)}
+.u-brands a:hover{color:var(--tinta);border-color:var(--boya)}
 .u-txt p{font-size:clamp(15px,.3vw + 13px,18px);line-height:1.5;color:var(--trabajo);margin:0}
 .u-cta{display:inline-block;margin-top:clamp(10px,1vw,16px);font-family:var(--display);
   font-weight:500;font-size:clamp(14px,.24vw + 12px,16px);color:var(--boya);text-decoration:none;
@@ -112,14 +112,14 @@
 .u-cta:hover span{transform:translateX(4px)}
 .port-foot,.puerto-foot,.why-link{margin-top:clamp(30px,3vw,52px);font-family:var(--display);
   font-size:clamp(15px,.3vw + 13px,18px)}
-.port-foot a,.puerto-foot a,.why-link a{color:var(--noche);text-decoration:none;
+.port-foot a,.puerto-foot a,.why-link a{color:var(--tinta);text-decoration:none;
   border-bottom:1px solid var(--boya);padding-bottom:2px}
 
 /* ---------- 3 · MODELOS DESTACADOS ---------- */
-.dest{padding:var(--rhythm) 0;background:#FFFFFF}
+.dest{padding:var(--rhythm) 0;background:var(--papel)}
 .dest-grid{display:grid;grid-template-columns:1fr;gap:clamp(18px,2vw,36px)}
 @media(min-width:820px){.dest-grid{grid-template-columns:repeat(3,1fr)}}
-.d{text-decoration:none;color:inherit;display:block;background:var(--gris,#E3E1DC);
+.d{text-decoration:none;color:inherit;display:block;background:var(--arena);
   transition:transform .7s cubic-bezier(.16,.84,.34,1),box-shadow .7s ease}
 .d:hover{transform:translateY(-6px);box-shadow:0 26px 60px -28px rgba(20,33,43,.34)}
 .d-img{overflow:hidden;aspect-ratio:3/2}
@@ -159,7 +159,7 @@
 .why-link a{color:var(--boya);border-color:rgba(203,92,60,.4)}
 
 /* ---------- 5 · USADOS ---------- */
-.used{padding:var(--rhythm) 0;background:#FFFFFF}
+.used{padding:var(--rhythm) 0;background:var(--papel)}
 .used-grid{display:grid;gap:clamp(34px,4vw,76px)}
 @media(min-width:1100px){.used-grid{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);align-items:center}}
 .used-txt h2{font-size:clamp(32px,3.8vw,72px);line-height:1.02;margin-bottom:.4em}
@@ -169,7 +169,7 @@
   color:var(--boya);text-decoration:none;border-bottom:1px solid rgba(203,92,60,.4);padding-bottom:2px}
 .used-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(14px,1.6vw,28px)}
 @media(max-width:560px){.used-cards{grid-template-columns:1fr}}
-.uc{text-decoration:none;color:inherit;display:block;background:var(--gris,#E3E1DC);
+.uc{text-decoration:none;color:inherit;display:block;background:var(--arena);
   transition:transform .45s cubic-bezier(.2,.7,.3,1)}
 .uc:hover{transform:translateY(-5px)}
 .uc-img{overflow:hidden;aspect-ratio:3/2}
@@ -202,7 +202,7 @@
 .equip-cats a:hover{background:rgba(203,92,60,.9);color:#fff}
 
 /* ---------- 7 · PUERTO ---------- */
-.puerto{padding:var(--rhythm) 0;background:var(--gris,#E3E1DC)}
+.puerto{padding:var(--rhythm) 0;background:var(--arena)}
 .puerto-h2{font-size:clamp(34px,4.2vw,80px);line-height:1;margin-bottom:.22em}
 .puerto-lede{max-width:48ch;margin-bottom:clamp(30px,3.4vw,54px)}
 .pz{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.2vw,40px)}
@@ -245,7 +245,7 @@
 .chome-p{font-family:var(--texto);font-weight:400;line-height:1.55;
   font-size:clamp(16px,.5vw+13px,22px);color:rgba(255,255,255,.92);max-width:54ch;margin:clamp(16px,1.6vw,24px) 0 0}
 .chome-cta{margin-top:clamp(24px,2.6vw,38px)}
-.chome .btn{background:#fff;color:var(--boya)}
+.chome .btn{background:var(--papel);color:var(--boya)}
 .chome .btn:hover{background:rgba(255,255,255,.9)}
 
 /* PUERTAS DE ENTRADA — "por dónde empezar" */

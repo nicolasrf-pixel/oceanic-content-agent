@@ -106,3 +106,12 @@ en Brevo y se genera otra.
 
 - La política de privacidad todavía no existe (fase 5). Hasta entonces `POLITICA_VERSION` no apunta a un texto real.
 - Contratos de encargo firmados y validación del abogado antes de recibir datos reales.
+
+
+## Consentimiento (Ley 21.719, desde 2026-11-05)
+
+Toda solicitud debe traer `acepta: true` (casilla «Acepto la política de privacidad», obligatoria y separada de la
+casilla opcional de Puerto). Sin ella el endpoint responde 422 `acepta`. `formularios.js` inserta la casilla en todo
+`form[data-form]` y `form[data-puerto]`; charter y equipamiento la tienen en su propio formulario. Nuevo tipo
+`privacidad` (solicitudes de acceso, rectificación, supresión, oposición, portabilidad, bloqueo) desde `/privacidad/`.
+Cada solicitud guarda la versión de la política (`POLITICA_VERSION`) y la fecha.

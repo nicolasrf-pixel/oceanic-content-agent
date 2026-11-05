@@ -19,6 +19,7 @@ const TIPOS = {
   charter:      { linea: 'Charter',              asunto: 'Solicitud de charter' },
   equipamiento: { linea: 'Equipamiento',         asunto: 'Solicitud de equipamiento' },
   puerto:       { linea: 'Puerto',               asunto: 'Suscripción a Puerto' },
+  privacidad:   { linea: 'Privacidad',           asunto: 'Solicitud de derechos (Ley 21.719)' },
 };
 
 const LIMITES = { nombre: 120, email: 160, telefono: 40, via: 20, motivo: 120, marca: 120, modelo: 160,
@@ -119,6 +120,7 @@ export function limpiar(e) {
   }
   d.email = d.email.toLowerCase();
   d.puerto = e.puerto === true;
+  d.acepta = e.acepta === true;  // aceptación de la política de privacidad (Ley 21.719): obligatoria en todo formulario
   d.categorias = Array.isArray(e.categorias)
     ? e.categorias.filter((c) => typeof c === 'string').map((c) => c.trim().slice(0, 80)).filter(Boolean).slice(0, 20)
     : [];
@@ -127,6 +129,7 @@ export function limpiar(e) {
 
 export function validar(d) {
   if (!d.tipo) return 'tipo';
+  if (!d.acepta) return 'acepta';
   if (!EMAIL_RE.test(d.email)) return 'email';
   if (d.tipo !== 'puerto' && !d.nombre) return 'nombre';
   if (d.tipo === 'equipamiento' && !d.categorias.length) return 'categorias';
@@ -215,6 +218,11 @@ const AGRADECIMIENTO = {
     asunto: 'Gracias por tu solicitud de equipamiento',
     cuerpo: 'Gracias por tu solicitud de información de equipamiento. Un especialista te escribe dentro de un día ' +
       'hábil con alternativas y precios.',
+  }),
+  privacidad: (d) => ({
+    asunto: 'Recibimos tu solicitud de ' + (d.motivo ? d.motivo.toLowerCase() : 'derechos') + ' de datos personales',
+    cuerpo: 'Recibimos tu solicitud sobre tus datos personales (' + (d.motivo || 'derechos') + '). Te responderemos dentro ' +
+      'del plazo legal de 30 días corridos. Para proteger tus datos, podemos pedirte que confirmes tu identidad.',
   }),
 };
 

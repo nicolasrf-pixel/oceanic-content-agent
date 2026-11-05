@@ -13,12 +13,12 @@
 .uni-lede{font-family:var(--texto);font-weight:300;line-height:1.5;color:rgba(255,255,255,.85);
   font-size:clamp(16px,.6vw+14px,22px);max-width:56ch;margin:clamp(16px,1.8vw,24px) 0 0}
 
-.uni-marcas{padding:clamp(48px,6vw,96px) 0 var(--rhythm);background:#fff}
+.uni-marcas{padding:clamp(48px,6vw,96px) 0 var(--rhythm);background:var(--papel)}
 .um-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.4vw,36px);margin-top:clamp(28px,3vw,44px)}
 @media(min-width:720px){.um-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1180px){.um-grid{grid-template-columns:repeat(3,1fr)}}
 
-.um{display:flex;flex-direction:column;text-decoration:none;color:inherit;background:#fff;
+.um{display:flex;flex-direction:column;text-decoration:none;color:inherit;background:var(--papel);
   border:1px solid var(--linea);transition:transform .5s cubic-bezier(.16,.84,.34,1),box-shadow .5s,border-color .3s}
 .um:hover{transform:translateY(-5px);box-shadow:0 24px 54px -24px rgba(20,33,43,.4);border-color:transparent}
 .um-img{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--trabajo);display:block}
@@ -27,13 +27,13 @@
 .um-body{padding:clamp(18px,1.8vw,26px);display:flex;flex-direction:column;flex:1}
 .um-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
 .um-name{font-family:var(--display);font-weight:600;letter-spacing:-.01em;
-  font-size:clamp(20px,.9vw+15px,26px);color:var(--noche)}
+  font-size:clamp(20px,.9vw+15px,26px);color:var(--tinta)}
 .um-pais{font-family:var(--dato);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--niebla);flex:0 0 auto}
 .um-claim{font-family:var(--texto);font-weight:300;line-height:1.45;color:var(--trabajo);
   font-size:clamp(14px,.3vw+12px,16px);margin-top:8px}
 .um-cta{font-family:var(--display);font-weight:500;font-size:13px;color:var(--boya);margin-top:clamp(16px,1.6vw,22px);padding-top:clamp(12px,1.2vw,16px);border-top:1px solid var(--linea)}
 
 .uni-foot{margin-top:clamp(36px,4vw,60px)}
-.uni-foot a{font-family:var(--display);font-weight:500;color:var(--noche);text-decoration:none;
+.uni-foot a{font-family:var(--display);font-weight:500;color:var(--tinta);text-decoration:none;
   border-bottom:1px solid var(--boya);padding-bottom:3px}
 .uni-foot a:hover{color:var(--boya)}

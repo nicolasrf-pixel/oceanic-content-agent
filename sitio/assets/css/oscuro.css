@@ -1,0 +1,41 @@
+/* OCEANIC · Modo oscuro. Automático según el sistema del visitante; el botón del menú lo fija en claro u oscuro
+   (html[data-tema]). Solo redefine superficies y texto: las secciones que ya eran oscuras quedan igual. */
+@media (prefers-color-scheme: dark){html:not([data-tema="claro"]){
+  --papel:#0E1820; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
+  --linea:rgba(255,255,255,.13); --linea-med:rgba(255,255,255,.28);
+  color-scheme:dark;
+}}
+html[data-tema="oscuro"]{
+  --papel:#0E1820; --arena:#15232D; --tinta:#E8EBED; --trabajo:#B4BFC6; --niebla:#8E9BA4;
+  --linea:rgba(255,255,255,.13); --linea-med:rgba(255,255,255,.28);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: dark){
+html:not([data-tema="claro"]) body{background:var(--papel);color:var(--tinta)}
+html:not([data-tema="claro"]) .mcard-cta{background:var(--boya)}
+html:not([data-tema="claro"]) .mcard{border-color:var(--linea)}
+html:not([data-tema="claro"]) input,html:not([data-tema="claro"]) textarea,html:not([data-tema="claro"]) select{border-bottom-color:rgba(255,255,255,.3)}
+html:not([data-tema="claro"]) .priv-form input,html:not([data-tema="claro"]) .priv-form textarea,html:not([data-tema="claro"]) .priv-form select{border-bottom-color:rgba(255,255,255,.3)}
+html:not([data-tema="claro"]) .btn-line{border-color:rgba(255,255,255,.4);color:var(--tinta)}
+html:not([data-tema="claro"]) .subbar{background:rgba(14,24,32,.92);border-color:var(--linea)}
+html:not([data-tema="claro"]) .subbar a,html:not([data-tema="claro"]) .sub-model{color:var(--tinta)}
+html:not([data-tema="claro"]) .chip,html:not([data-tema="claro"]) .fbtn{border-color:var(--linea-med);color:var(--tinta)}
+html:not([data-tema="claro"]) .fbtn.is-on{background:var(--tinta);color:var(--papel)}
+html:not([data-tema="claro"]) .em-mail{color:var(--tinta)}
+html:not([data-tema="claro"]) img{filter:brightness(.94)}
+html:not([data-tema="claro"]) .o-avance{background:var(--boya)}
+}
+
+html[data-tema="oscuro"] body{background:var(--papel);color:var(--tinta)}
+html[data-tema="oscuro"] .mcard-cta{background:var(--boya)}
+html[data-tema="oscuro"] .mcard{border-color:var(--linea)}
+html[data-tema="oscuro"] input,html[data-tema="oscuro"] textarea,html[data-tema="oscuro"] select{border-bottom-color:rgba(255,255,255,.3)}
+html[data-tema="oscuro"] .priv-form input,html[data-tema="oscuro"] .priv-form textarea,html[data-tema="oscuro"] .priv-form select{border-bottom-color:rgba(255,255,255,.3)}
+html[data-tema="oscuro"] .btn-line{border-color:rgba(255,255,255,.4);color:var(--tinta)}
+html[data-tema="oscuro"] .subbar{background:rgba(14,24,32,.92);border-color:var(--linea)}
+html[data-tema="oscuro"] .subbar a,html[data-tema="oscuro"] .sub-model{color:var(--tinta)}
+html[data-tema="oscuro"] .chip,html[data-tema="oscuro"] .fbtn{border-color:var(--linea-med);color:var(--tinta)}
+html[data-tema="oscuro"] .fbtn.is-on{background:var(--tinta);color:var(--papel)}
+html[data-tema="oscuro"] .em-mail{color:var(--tinta)}
+html[data-tema="oscuro"] img{filter:brightness(.94)}
+html[data-tema="oscuro"] .o-avance{background:var(--boya)}

@@ -15,7 +15,7 @@
 .nhero-sub{font-family:var(--texto);font-weight:300;line-height:1.5;
   font-size:clamp(17px,.6vw+13px,24px);color:rgba(255,255,255,.82);max-width:52ch;margin:clamp(14px,1.4vw,22px) 0 0}
 
-.nintro{padding:var(--rhythm) 0;background:#FFFFFF}
+.nintro{padding:var(--rhythm) 0;background:var(--papel)}
 .nintro-grid{display:grid;gap:clamp(28px,3vw,56px)}
 @media(min-width:960px){.nintro-grid{grid-template-columns:minmax(0,.5fr) minmax(0,1fr)}}
 .nintro-body p{max-width:62ch}
@@ -28,14 +28,14 @@
 .nfig span{display:block;margin-top:8px;font-family:var(--dato);font-size:clamp(10px,.2vw+9px,12px);
   letter-spacing:.14em;text-transform:uppercase;color:var(--niebla)}
 
-.nwork{padding:var(--rhythm) 0;background:#FFFFFF}
+.nwork{padding:var(--rhythm) 0;background:var(--papel)}
 .nwork-h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;
   font-size:clamp(32px,3.8vw,72px);line-height:1.02;margin:12px 0 .3em}
 .nwork-lede{max-width:54ch;margin-bottom:clamp(40px,5vw,72px)}
 .nwork-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2vw,1px)}
 @media(min-width:760px){.nwork-grid{grid-template-columns:repeat(2,1fr);gap:1px;
   background:var(--linea);border:1px solid var(--linea)}}
-.nw{background:#fff;padding:clamp(26px,2.8vw,46px)}
+.nw{background:var(--papel);padding:clamp(26px,2.8vw,46px)}
 .nw-n{font-family:var(--dato);font-size:12px;letter-spacing:.12em;color:var(--boya);display:block;margin-bottom:14px}
 .nw h3{font-family:var(--display);font-weight:600;letter-spacing:-.01em;
   font-size:clamp(20px,.9vw+15px,28px);margin:0 0 .4em}
@@ -58,7 +58,7 @@
 .nw-more p{font-family:var(--texto);font-weight:300;line-height:1.55;
   font-size:clamp(13px,.25vw+12px,15px);color:var(--trabajo);margin:0;
   padding-top:16px;border-top:1px solid var(--linea)}
-.nw:hover{background:var(--gris,#E3E1DC)}
+.nw:hover{background:var(--arena)}
 .nw:hover .nw-more{max-height:320px;opacity:1;margin-top:16px}
 /* en táctil (sin hover) se muestra siempre para no ocultar contenido */
 @media(hover:none){.nw-more{max-height:none;opacity:1;margin-top:16px}
