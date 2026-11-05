@@ -57,7 +57,8 @@
   // ---------- fotos que aparecen suave al terminar de cargar (sin saltos ni recuadros en blanco) ----------
   function fotos(scope) {
     [].forEach.call(scope.querySelectorAll('img'), function (img) {
-      if (img.dataset.of || img.closest('.bar, .ft, .asis-panel')) return;
+      // las fotos de fondo tienen su propia opacidad tenue: no se tocan
+      if (img.dataset.of || img.closest('.bar, .ft, .asis-panel, .hhero-media') || /(^|\s)[\w-]+-bg(\s|$)/.test(img.className)) return;
       img.dataset.of = '1';
       if (img.complete && img.naturalWidth) return;
       img.classList.add('o-img');

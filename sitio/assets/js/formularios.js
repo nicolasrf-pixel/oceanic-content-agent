@@ -40,7 +40,7 @@
   };
   function prepararFormularios() {
     [].forEach.call(document.querySelectorAll('form[data-form], form[data-puerto]'), function (f) {
-      var pie = f.querySelector('.form-foot') || f.querySelector('button[type="submit"]');
+      var pie = f.querySelector('.form-foot, .cfoot') || f.querySelector('button[type="submit"]');
       OCEANIC_CONSENTIMIENTO(f, pie);
     });
   }

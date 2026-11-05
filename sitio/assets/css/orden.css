@@ -89,3 +89,33 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .o-anim .o-texto.o-visto{transform:none}
 .brands-h2{margin-bottom:clamp(20px,2vw,32px)}
 .cot{padding:clamp(40px,4vw,72px) 0}
+
+/* 12 · Sistema antiguo de aparición (.rv): títulos y textos nunca transparentes, solo se deslizan */
+h1.rv,h2.rv,h3.rv,p.rv,[class*="-h2"].rv,[class*="-txt"].rv,[class*="-head"].rv,[class*="lede"].rv,.talk-h.rv{opacity:1}
+
+/* 13 · Foto grande de la ficha: nunca más alta que la pantalla (las fotos verticales quedaban de dos pantallas) */
+.story-fig{overflow:hidden}
+.story-fig img{max-height:min(80vh,820px);object-fit:cover}
+
+/* 14 · Casilla de privacidad en el formulario de Puerto (fondo claro, formulario en fila) */
+.psub-form .consent{flex:1 1 100%;order:3;border-top:0;padding-top:0;margin:4px 0 0}
+.psub-form .consent input{flex:0 0 16px!important;width:16px;height:16px;padding:0;border:0}
+.psub-form .consent span{color:var(--trabajo);font-size:14px}
+.psub-form button{order:2}
+.cnews-form .consent{flex:1 1 100%;order:3;border-top:0;padding-top:0;margin:4px 0 0}
+.cnews-form .consent input{flex:0 0 16px!important;width:16px;height:16px;padding:0;border:0}
+.cnews-form .consent span{color:rgba(255,255,255,.75);font-size:14px}
+.cnews-form button{order:2}
+/* formulario de contacto (fondo claro): la casilla va antes del botón Enviar, con texto legible */
+.cform .consent{border-top:0;padding-top:0;margin:14px 0 22px}
+.cform .consent span{color:var(--trabajo);font-size:14px}
+.cform .consent a{color:var(--tinta)}
+/* por defecto la casilla de privacidad va sobre fondo claro (equipamiento, charter); los fondos oscuros la sobrescriben */
+label.consent span{color:var(--trabajo)}
+label.consent a{color:var(--tinta)}
+.cnews-form label.consent a{color:#fff}
+
+/* 15 · Contraste: etiquetas pequeñas legibles sobre blanco, arena y fondos oscuros; tarjetas que siempre son oscuras */
+.eyebrow{color:#6E7C86}
+.cd{background:#1E2E3A}
+.uc-vendido{background:#3A4A56}

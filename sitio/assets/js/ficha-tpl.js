@@ -88,7 +88,7 @@
     function seccion(id, contenido, clase) {
       fondo = !fondo;
       return '<section' + (id ? ' id="' + id + '"' : '') + (clase ? ' class="' + clase + '"' : '') +
-        (fondo || clase ? '' : ' style="background:#E3E1DC"') + '><div class="wrap">' + contenido + '</div></section>';
+        (fondo || clase ? '' : ' style="background:var(--arena)"') + '><div class="wrap">' + contenido + '</div></section>';
     }
     function cabeza(t) { return '<div class="sec-head"><span class="eyebrow">' + esc(t) + '</span><span class="rule"></span></div>'; }
 

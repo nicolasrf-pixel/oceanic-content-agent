@@ -215,7 +215,8 @@
 .cot-form{display:grid;gap:18px}
 .cot-cuando{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .cot-cuando legend{font-family:var(--display);font-weight:600;font-size:17px;color:var(--tinta);margin-bottom:12px;padding:0}
-.cot-chip input{position:absolute;opacity:0;pointer-events:none}
+.cot-chip{position:relative}
+.cot-chip input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;pointer-events:none}
 .cot-chip span{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--linea-med,rgba(20,33,43,.25));border-radius:999px;font-family:var(--display);font-weight:500;font-size:15px;color:var(--tinta);cursor:pointer;transition:all .2s}
 .cot-chip input:checked+span{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
 .cot-chip input:focus-visible+span{outline:2px solid var(--boya);outline-offset:2px}
