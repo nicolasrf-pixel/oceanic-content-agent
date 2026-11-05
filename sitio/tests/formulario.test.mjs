@@ -213,3 +213,17 @@ test('si Brevo rechaza campos del contacto, lo guarda igual con nombre y correo'
   assert.equal(contactos[0].cuerpo.attributes.NOMBRE, 'Persona Prueba');
   assert.deepEqual(contactos[1].cuerpo.attributes, { NOMBRE: 'Persona Prueba' });
 });
+
+test('antispam: mensajes con muchos enlaces no se envían y hay límite por conexión', async () => {
+  let llamadas = simularBrevo();
+  const spam = await onRequestPost({ request: pedido({ ...COTIZACION, mensaje: 'http://a.x http://b.x www.c.x' }), env: ENV });
+  assert.equal(spam.status, 200);
+  assert.equal(llamadas.length, 0, 'no envía nada');
+  const kv = new Map();
+  const env = { ...ENV, MEDIA: { get: async (k) => kv.get(k) || null, put: async (k, v) => { kv.set(k, v); } } };
+  const pedidoIp = () => { const r = pedido(COTIZACION); const h = new Headers(r.headers); h.set('CF-Connecting-IP', '203.0.113.9');
+    return new Request(r.url, { method: 'POST', headers: h, body: JSON.stringify(COTIZACION) }); };
+  const estados = [];
+  for (let i = 0; i < 6; i++) { llamadas = simularBrevo(); estados.push((await onRequestPost({ request: pedidoIp(), env })).status); }
+  assert.deepEqual(estados, [200, 200, 200, 200, 200, 429]);
+});

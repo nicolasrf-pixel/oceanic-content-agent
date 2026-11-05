@@ -57,7 +57,7 @@
     '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
     '<div><span class="eyebrow">Explorar</span><a href="'+pre+'usados/index.html">Usados</a><a href="'+pre+'equipamiento/index.html">Equipamiento</a><a href="'+pre+'puerto/index.html">Puerto</a></div>'+
     '<div><span class="eyebrow">Contacto</span><a href="'+pre+'contacto/index.html">Conversemos</a><a href="mailto:ventas@oceanic.cl">ventas@oceanic.cl</a></div>'+
-    '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · Santiago · Chile</span></div></div></footer>';
+    '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · <a href="'+pre+'terminos/index.html">Términos y condiciones</a> · <a href="#" data-cookies>Preferencias de cookies</a> · Santiago · Chile</span></div></div></footer>';
   var f=document.getElementById('foot'); if(f) f.outerHTML=foot;
 
   // ---------- modo oscuro: automático según el sistema; el botón lo fija y se recuerda ----------
@@ -76,17 +76,67 @@
   },0);
   if(mq.addEventListener) mq.addEventListener('change',pintarTema);
 
-  // ---------- aviso de privacidad (Ley 21.719): informativo, el sitio no usa cookies de seguimiento ----------
-  setTimeout(function(){
-    var visto=false; try{ visto=localStorage.getItem('oceanic-aviso')==='2026-11'; }catch(e){}
-    if(visto||/privacidad\//.test(location.pathname)) return;
-    var a=document.createElement('div'); a.className='aviso-priv'; a.setAttribute('role','region'); a.setAttribute('aria-label','Aviso de privacidad');
-    a.innerHTML='<p>Este sitio no usa cookies de seguimiento ni publicidad. Solo guardamos en tu navegador tus preferencias, como el modo oscuro. '+
-      'Los datos que nos envías por formularios se tratan según nuestra <a href="'+pre+'privacidad/index.html">política de privacidad</a>.</p>'+
-      '<button type="button" class="btn">Entendido</button>';
-    a.querySelector('button').addEventListener('click',function(){ try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e){} a.remove(); });
+  // ---------- barra sólida en páginas sin portada oscura (si no, el menú blanco queda sobre fondo claro) ----------
+  function barraSegunPortada(){
+    var bar=document.querySelector('.bar'); if(!bar) return;
+    var el=bar.nextElementSibling; while(el&&(el.offsetHeight<40||/^(SCRIPT|STYLE)$/.test(el.tagName))) el=el.nextElementSibling;
+    if(el&&el.id==='marca') el=el.querySelector('header, section')||el;
+    if(!el) return;
+    var c=getComputedStyle(el), m=(c.backgroundColor.match(/[\d.]+/g)||[]).map(Number);
+    var transparente=!m.length||m[3]===0, lum=m.length?(m[0]*.3+m[1]*.59+m[2]*.11):255;
+    var conFoto=c.backgroundImage!=='none'||el.querySelector(':scope > img, :scope > picture, [class*="media"], .hero-img');
+    bar.classList.toggle('bar-solida', !conFoto&&(transparente||lum>140));
+  }
+  setTimeout(barraSegunPortada,0); setTimeout(barraSegunPortada,900); addEventListener('load',barraSegunPortada);
+
+  // ---------- cookies y analítica (Ley 21.719) ----------
+  // Sin GA4 configurado: aviso informativo (el sitio no usa cookies de seguimiento).
+  // Con GA4 (OCEANIC_GA4 abajo): banner de consentimiento. Analytics solo se carga si la persona acepta; sin respuesta
+  // o con rechazo no se carga nada (Google Consent Mode v2 en «denegado» por defecto). La elección se puede cambiar
+  // desde «Preferencias de cookies» en el pie.
+  var GA4 = (window.OCEANIC_GA4 || 'G-XXXXXXXXXX').trim();  // ID de medición de Google Analytics 4 (lo entrega Oceanic)
+  if (!/^G-[A-Z0-9]{6,}$/.test(GA4) || GA4 === 'G-XXXXXXXXXX') GA4 = '';
+  var CLAVE_C = 'oceanic-consentimiento', VERSION_C = '2026-11';
+  function leerC(){ try{ var v=JSON.parse(localStorage.getItem(CLAVE_C)||'null'); return v&&v.v===VERSION_C?v:null; }catch(e){ return null; } }
+  function guardarC(ok){ try{ localStorage.setItem(CLAVE_C, JSON.stringify({v:VERSION_C, analitica:!!ok, fecha:new Date().toISOString().slice(0,10)})); }catch(e){} }
+  function cargarGA(){
+    if (!GA4 || window.__gaCargado) return; window.__gaCargado = true;
+    window.dataLayer = window.dataLayer || []; window.gtag = function(){ dataLayer.push(arguments); };
+    gtag('consent', 'default', { ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'granted' });
+    gtag('js', new Date()); gtag('config', GA4, { anonymize_ip: true });
+    var sc=document.createElement('script'); sc.async=true; sc.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(GA4); document.head.appendChild(sc);
+  }
+  function borrarGA(){  // al retirar el consentimiento: borra las cookies de Analytics de este dominio
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim(); if(/^_ga/.test(n)){
+      var d=location.hostname.split('.'); for(var k=0;k<d.length;k++){ document.cookie=n+'=; Max-Age=0; path=/; domain=.'+d.slice(k).join('.'); } document.cookie=n+'=; Max-Age=0; path=/'; } });
+  }
+  function banner(){
+    var prev=document.querySelector('.aviso-priv'); if(prev) prev.remove();
+    var a=document.createElement('div'); a.className='aviso-priv'; a.setAttribute('role','region'); a.setAttribute('aria-label','Cookies y privacidad');
+    if (GA4) {
+      a.innerHTML='<p>Usamos cookies de analítica (Google Analytics) para saber cómo se usa el sitio y mejorarlo. Solo se activan si las aceptas. '+
+        'Más detalle en la <a href="'+pre+'privacidad/index.html#almacenamiento">política de privacidad</a>.</p>'+
+        '<div class="aviso-bt"><button type="button" class="btn" data-c="si">Aceptar</button><button type="button" class="btn btn-line aviso-no" data-c="no">Rechazar</button></div>';
+    } else {
+      a.innerHTML='<p>Este sitio no usa cookies de seguimiento ni publicidad. Solo guardamos en tu navegador tus preferencias, como el modo oscuro. '+
+        'Los datos que nos envías por formularios se tratan según nuestra <a href="'+pre+'privacidad/index.html">política de privacidad</a>.</p>'+
+        '<button type="button" class="btn" data-c="ok">Entendido</button>';
+    }
+    a.addEventListener('click',function(e){ var b=e.target.closest('[data-c]'); if(!b) return;
+      var c=b.getAttribute('data-c');
+      if (c==='ok') { try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e2){} }
+      else { guardarC(c==='si'); if(c==='si') cargarGA(); else borrarGA(); }
+      a.remove(); });
     document.body.appendChild(a);
+  }
+  window.OCEANIC_COOKIES = banner;  // «Preferencias de cookies» del pie
+  setTimeout(function(){
+    if (/privacidad\/|terminos\//.test(location.pathname)) return;
+    if (GA4) { var c=leerC(); if(c){ if(c.analitica) cargarGA(); } else banner(); return; }
+    var visto=false; try{ visto=localStorage.getItem('oceanic-aviso')==='2026-11'; }catch(e){}
+    if(!visto) banner();
   },400);
+  document.addEventListener('click',function(e){ var l=e.target.closest&&e.target.closest('[data-cookies]'); if(l){ e.preventDefault(); banner(); } });
 
   // burger
   setTimeout(function(){

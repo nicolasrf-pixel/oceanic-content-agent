@@ -503,3 +503,7 @@ section.o-banda{background-color:var(--banda)!important}
 .bar-brand img{display:block;height:clamp(16px,1.15vw,19px);width:auto}
 .ft-logo{display:inline-block;line-height:0}
 .ft-logo img{display:block;width:170px;height:auto}
+.aviso-bt{display:flex;gap:8px;flex:0 0 auto}
+.aviso-priv .aviso-no{color:#fff;border-color:rgba(255,255,255,.5);background:transparent}
+@media(max-width:600px){.aviso-bt{width:100%}.aviso-bt .btn{flex:1}}
+.bar.bar-solida{background:rgba(20,33,43,.97)}

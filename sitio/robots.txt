@@ -1,6 +1,7 @@
-# VISTA PREVIA: el sitio aún no se lanza. Al lanzar, reemplazar por:
+# VISTA PREVIA: el sitio aún no se lanza, nadie indexa. Al lanzar, el build (LANZADO=1) deja:
 #   User-agent: *
 #   Allow: /
-#   Sitemap: https://<dominio>/sitemap.xml
+#   Disallow: /admin/
+#   Sitemap: <dominio>/sitemap.xml
 User-agent: *
 Disallow: /

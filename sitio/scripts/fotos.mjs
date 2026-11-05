@@ -47,11 +47,18 @@ async function procesar([destino, url]) {
   try {
     const datos = await bajar(url);
     const lado = destino.endsWith('-hero.webp') ? 2560 : 1600;
-    let img = sharp(datos, { failOn: 'none' }).rotate()
-      .resize({ width: lado, height: lado, fit: 'inside', withoutEnlargement: true });
-    img = /\.jpe?g$/i.test(destino) ? img.jpeg({ quality: 75, mozjpeg: true }) : img.webp({ quality: 75 });
+    // Tope de peso (velocidad de carga): si la foto pasa del máximo, se recomprime con menos calidad, sin achicarla.
+    const tope = lado === 2560 ? 420 * 1024 : 300 * 1024;
+    let buf;
+    for (const q of [75, 68, 60, 54]) {
+      let img = sharp(datos, { failOn: 'none' }).rotate()
+        .resize({ width: lado, height: lado, fit: 'inside', withoutEnlargement: true });
+      img = /\.jpe?g$/i.test(destino) ? img.jpeg({ quality: q, mozjpeg: true }) : img.webp({ quality: q, effort: 5 });
+      buf = await img.toBuffer();
+      if (buf.length <= tope) break;
+    }
     await mkdir(path.dirname(salida), { recursive: true });
-    await writeFile(salida, await img.toBuffer());
+    await writeFile(salida, buf);
     stats.ok++;
   } catch (e) {
     stats.fallidas++;

@@ -6,6 +6,7 @@
    - archivos de datos del sitio   si el CMS publicó una versión, se sirve desde D1; si no, el archivo del repo
    - /media/<clave>                imágenes y documentos subidos desde el CMS (KV)
    - /puerto-<mes>-<año>           301 a la página de la edición de Puerto (si existe)
+   - /marca/, /usados/barco/       vista previa al compartir de cada barco (worker/compartir.js)
 
    El repo es la base: con D1 vacío el sitio se ve igual que el repo. Lo que se publica desde el CMS se superpone. */
 import { onRequestPost as formulario } from '../functions/api/formulario.js';
@@ -13,8 +14,10 @@ import { usuarioAdmin } from './acceso.js';
 import { claveConfigurada, entrar, salir } from './clave.js';
 import { DOCS, definicion, renderArchivo, claveDeRuta } from './documentos.js';
 import { api } from './api.js';
+import { paginaCompartible } from './compartir.js';
 
 const SEGURIDAD = {
+  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
   'X-Frame-Options': 'SAMEORIGIN',
@@ -24,6 +27,10 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const p = url.pathname;
+    if (url.protocol === 'http:' && !/^(localhost|127\.0\.0\.1)$/.test(url.hostname)) {
+      url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
     try {
       if (p === '/api/formulario') {
         if (request.method !== 'POST') return texto('Método no permitido', 405, { Allow: 'POST' });
@@ -32,6 +39,12 @@ export default {
       if (p === '/admin' || p.startsWith('/admin/') || p.startsWith('/api/admin/')) return await admin(request, env, url, ctx);
       if (p.startsWith('/media/')) return await media(request, env, decodeURIComponent(p.slice(7)));
       if (/^\/puerto-[a-z0-9-]+\/?$/.test(p)) return await redireccionPuerto(request, env, url);
+      // fichas y usados: vista previa al compartir con el nombre y la foto de cada barco (worker/compartir.js)
+      if ((p === '/marca/' || p === '/marca/index.html' || p === '/usados/barco/' || p === '/usados/barco/index.html') &&
+          (request.method === 'GET' || request.method === 'HEAD')) return await paginaCompartible(request, env, (req) => {
+            const c = claveDeRuta(new URL(req.url).pathname);
+            return c ? datos(req, env, c) : env.ASSETS.fetch(req);
+          });
       const clave = claveDeRuta(p);
       if (clave && (request.method === 'GET' || request.method === 'HEAD')) return await datos(request, env, clave);
       return env.ASSETS.fetch(request);

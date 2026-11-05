@@ -49,6 +49,11 @@ export async function onRequestPost({ request, env }) {
   const error = validar(d);
   if (error) return json({ ok: false, error }, 422);
 
+  // Antispam: mensajes con muchos enlaces (típico de spam) se aceptan en silencio sin enviar nada,
+  // y cada conexión puede enviar hasta LIMITE formularios cada 10 minutos.
+  if (enlaces(d) > 2) return json({ ok: true });
+  if (!(await dentroDelLimite(request, env))) return json({ ok: false, error: 'limite' }, 429);
+
   d.fecha = new Date().toISOString();
   d.sitio = new URL(request.url).origin;  // para el logo y los enlaces de los correos
   d.politica = env.POLITICA_VERSION || 'sin-version';
@@ -347,6 +352,25 @@ async function crearNegocio(brevo, d, env) {
   const c = await brevo('GET', '/contacts/' + encodeURIComponent(d.email));
   if (!c.ok || !c.datos || !c.datos.id) return c;
   return brevo('PATCH', '/crm/deals/link-unlink/' + r.datos.id, { linkContactIds: [c.datos.id] });
+}
+
+/* ---------- antispam ---------- */
+
+const LIMITE = 5;
+function enlaces(d) {
+  return ((d.mensaje + ' ' + d.detalle + ' ' + d.nombre).match(/https?:\/\/|www\./gi) || []).length;
+}
+// Cuenta por conexión (IP con hash, nunca la IP en claro) en KV, ventana de 10 minutos. Sin KV, no limita.
+async function dentroDelLimite(request, env) {
+  if (!env.MEDIA || env.MODO_PRUEBA === '1') return true;
+  const ip = request.headers.get('CF-Connecting-IP') || '';
+  if (!ip) return true;
+  const h = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('oceanic-form:' + ip));
+  const clave = 'limite-form:' + [...new Uint8Array(h)].slice(0, 12).map((b) => b.toString(16).padStart(2, '0')).join('');
+  const n = parseInt(await env.MEDIA.get(clave) || '0', 10);
+  if (n >= LIMITE) return false;
+  await env.MEDIA.put(clave, String(n + 1), { expirationTtl: 600 });
+  return true;
 }
 
 /* ---------- utilidades ---------- */

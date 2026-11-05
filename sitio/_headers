@@ -7,6 +7,8 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+  # Fuerza https en las visitas siguientes (la primera la redirige Cloudflare con «Always Use HTTPS» en el dominio)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 # Fotos: cache larga (cambian poco)
 /assets/img/*
