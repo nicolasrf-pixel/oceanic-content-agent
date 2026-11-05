@@ -42,9 +42,9 @@
   root.classList.add('o-anim');
 
   // ---------- qué entra al hacer scroll ----------
-  var TEXTO = '.sec-head, section h2, .lede, .two > div > p, .story-line, .tr, .spec > *, .cards-foot, .mk-fam-head, ' +
+  var TEXTO = '.cierre-lede, .cierre-vias, .sec-head, section h2, .lede, .two > div > p, .story-line, .tr, .spec > *, .cards-foot, .mk-fam-head, ' +
     '.talk-h, .talk-lede, .ecat-head, .em, .steps5 li, .why p, .puerto-h2, .port-h2, .brands-h2, .stmt p, .b-hist p, .b-h2';
-  var TARJETAS = '.mcard, .um, .uc, .bc, .d, .ped2, .pfeat2-grid, .u, .gal-item, .door, .chd, .dest-grid > *, .vid, .premios-logos li';
+  var TARJETAS = '.mcard, .um, .uc, .bc, .d, .ped2, .pfeat2-grid, .u, .gal-item, .door, .chd, .dest-grid > *, .vid, .premios-logos li, .cierre-foto';
   var FOTOS = '.two img, .mk-rel img, .pfeat2-img img, .b-gal-main img';
 
   var io = new IntersectionObserver(function (es) {
