@@ -4,207 +4,93 @@
   var D = window.OCEANIC_CHARTER;
   if (!D) return;
 
-  // ---------- estado ----------
-  var state = { continente:null, destino:null, desde:'', hasta:'', personas:4, embarcacion:null, tripulacion:null };
-  var STEPS = ['continente','destino','fechas','personas','embarcacion','tripulacion','resumen'];
-  var cur = 0;
-
   function AB(){ return document.body.dataset.assetBase || '../assets/img/'; }
-  var stepsEl = document.getElementById('cotzSteps');
-  var progEl  = document.getElementById('cotzProg');
+  function esc(v){ return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]; }); }
+  function contById(id){ return D.continentes.filter(function(c){ return c.id === id; })[0]; }
 
-  function progress() {
-    progEl.innerHTML = STEPS.slice(0, 6).map(function (s, i) {
-      return '<span class="cotz-dot' + (i <= cur ? ' on' : '') + '"></span>';
-    }).join('');
+  // ---------- cotizador en un solo bloque: desplegables y campos obligatorios ----------
+  var box = document.getElementById('cotzBox');
+  var hoy = new Date().toISOString().slice(0, 10);
+  var opciones = function (lista, ph) { return '<option value="">' + ph + '</option>' + lista.map(function (x) { return '<option value="' + esc(x.id) + '">' + esc(x.nombre) + '</option>'; }).join(''); };
+  var personas = ''; for (var k = 1; k <= 20; k++) personas += '<option value="' + k + '"' + (k === 4 ? ' selected' : '') + '>' + k + (k === 1 ? ' persona' : ' personas') + '</option>';
+  personas += '<option value="Más de 20">Más de 20</option>';
+  var campo = function (id, etiqueta, control, obligatorio, ancho) {
+    return '<div class="cz-f' + (ancho ? ' cz-f-' + ancho : '') + '"><label for="' + id + '">' + etiqueta + (obligatorio ? ' <span class="cz-req" aria-hidden="true">*</span>' : '') + '</label>' + control + '</div>';
+  };
+  box.innerHTML =
+    '<form class="cz" id="czForm" novalidate>' +
+      '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
+      '<fieldset class="cz-grupo"><legend><span>01</span>Tu travesía</legend><div class="cz-grid">' +
+        campo('cz-region', 'Región', '<select id="cz-region" required>' + opciones(D.continentes, 'Elige una región') + '</select>', true) +
+        campo('cz-destino', 'Destino', '<select id="cz-destino" required disabled><option value="">Primero elige la región</option></select>', true) +
+        campo('cz-desde', 'Desde', '<input type="date" id="cz-desde" min="' + hoy + '" required>', true) +
+        campo('cz-hasta', 'Hasta', '<input type="date" id="cz-hasta" min="' + hoy + '" required>', true) +
+        campo('cz-personas', 'Personas', '<select id="cz-personas" required>' + personas + '</select>', true) +
+        campo('cz-barco', 'Tipo de embarcación', '<select id="cz-barco">' + opciones(D.embarcaciones, 'Sin preferencia') + '</select>') +
+        campo('cz-trip', 'Tripulación', '<select id="cz-trip">' + opciones(D.tripulacion, 'Aún no lo sé') + '</select>', false, 'ancho') +
+        '<label class="cz-flex"><input type="checkbox" id="cz-flex"> Mis fechas son flexibles</label>' +
+      '</div></fieldset>' +
+      '<fieldset class="cz-grupo"><legend><span>02</span>Tus datos</legend><div class="cz-grid">' +
+        campo('cz-nombre', 'Nombre', '<input id="cz-nombre" autocomplete="name" required>', true) +
+        campo('cz-email', 'Correo', '<input id="cz-email" type="email" autocomplete="email" inputmode="email" required>', true) +
+        campo('cz-tel', 'Teléfono', '<input id="cz-tel" type="tel" autocomplete="tel" placeholder="+56 9 …">') +
+        campo('cz-msg', 'Comentario', '<input id="cz-msg" placeholder="Celebración, experiencia navegando, ideas…">') +
+      '</div></fieldset>' +
+      '<label class="check consent"><input type="checkbox" name="acepta" id="r-acepta" required><span>Acepto la <a href="../privacidad/index.html" target="_blank" rel="noopener">política de privacidad</a>. Usamos tus datos solo para responder esta solicitud.</span></label>' +
+      '<p class="cz-err" id="czErr" role="alert" hidden></p>' +
+      '<div class="cz-pie"><button type="submit" class="btn cz-enviar">Solicitar propuesta</button>' +
+        '<a class="cotz-wa-alt" id="czWa" href="https://wa.me/56229537322?text=' + encodeURIComponent('Hola Oceanic, quiero cotizar un charter.') + '" target="_blank" rel="noopener">o escríbenos por WhatsApp →</a>' +
+        '<span class="cz-nota"><span class="cz-req">*</span> Obligatorio · Sin costo ni compromiso</span></div>' +
+    '</form>' +
+    '<div class="cz-ok" id="czOk" hidden role="status"></div>';
+
+  var f = document.getElementById('czForm'), $ = function (id) { return document.getElementById(id); };
+  function llenarDestinos(regionId, elegido) {
+    var c = contById(regionId), sel = $('cz-destino');
+    sel.innerHTML = c ? '<option value="">Elige un destino</option>' + c.destinos.map(function (d) { return '<option' + (d === elegido ? ' selected' : '') + '>' + esc(d) + '</option>'; }).join('')
+      : '<option value="">Primero elige la región</option>';
+    sel.disabled = !c;
   }
+  $('cz-region').addEventListener('change', function () { llenarDestinos(this.value); });
+  ['input', 'change'].forEach(function (ev) { f.addEventListener(ev, function (e) { var w = e.target.closest && e.target.closest('.cz-f'); if (w && String(e.target.value).trim()) w.classList.remove('cz-mal'); }); });
+  $('cz-desde').addEventListener('change', function () { $('cz-hasta').min = this.value || hoy; if ($('cz-hasta').value && $('cz-hasta').value < this.value) $('cz-hasta').value = ''; });
+  $('cz-flex').addEventListener('change', function () { ['cz-desde', 'cz-hasta'].forEach(function (id) { $(id).required = !$('cz-flex').checked; }); });
+  window.OCEANIC_CHARTER_REGION = function (id) { $('cz-region').value = id; llenarDestinos(id); $('cz-destino').focus({ preventScroll: true }); };
 
-  function contById(id){ return D.continentes.filter(function(c){return c.id===id;})[0]; }
-
-  // ---------- render de cada paso ----------
-  function render() {
-    progress();
-    var s = STEPS[cur], h = '';
-    var back = cur > 0 ? '<button class="cotz-back" data-act="back">← Atrás</button>' : '';
-
-    if (s === 'continente') {
-      h = head('¿Hacia dónde?', 'Elige la región del mundo donde sueñas navegar.') +
-        '<div class="cz-dests">' + D.continentes.map(function (c) {
-          return '<button type="button" class="cz-dest' + (state.continente === c.id ? ' on' : '') + '" data-act="continente" data-v="' + c.id + '">' +
-            '<span class="cz-dest-img"><img src="' + AB() + c.img + '.webp" alt="" loading="lazy"></span>' +
-            '<span class="cz-dest-body"><span class="cz-dest-t">' + c.nombre + '</span><span class="cz-dest-d">' + c.lede + '</span>' +
-            '<span class="cz-dest-go">Elegir <span aria-hidden="true">→</span></span></span></button>';
-        }).join('') + '</div>';
-    }
-    else if (s === 'destino') {
-      var c = contById(state.continente);
-      h = head('¿Qué destino?', 'Dentro de ' + c.nombre + '. Si no sabes aún, elige el que más te tiente.') +
-        '<div class="cotz-pills">' + c.destinos.map(function (d) {
-          return '<button class="cotz-pill' + (state.destino === d ? ' on' : '') + '" data-act="destino" data-v="' + d + '">' + d + '</button>';
-        }).join('') + '</div>' + nav(back, !!state.destino);
-    }
-    else if (s === 'fechas') {
-      h = head('¿Cuándo?', 'Aproximado está bien. Lo ajustamos después.') +
-        '<div class="cotz-dates">' +
-          '<label>Desde<input type="date" id="f-desde" value="' + state.desde + '"></label>' +
-          '<label>Hasta<input type="date" id="f-hasta" value="' + state.hasta + '"></label>' +
-        '</div>' +
-        '<p class="cotz-hint">¿Fechas flexibles? Déjalas en blanco y lo vemos juntos.</p>' +
-        nav(back, true);
-    }
-    else if (s === 'personas') {
-      h = head('¿Cuántos van?', 'Incluye a todos los que navegarán, adultos y niños.') +
-        '<div class="cotz-count">' +
-          '<button class="cotz-cbtn" data-act="menos">–</button>' +
-          '<span class="cotz-cnum" id="cnum">' + state.personas + '</span>' +
-          '<button class="cotz-cbtn" data-act="mas">+</button>' +
-        '</div>' +
-        '<p class="cotz-hint">Desde 2 hasta grupos grandes. El número define el tamaño del barco.</p>' +
-        nav(back, true);
-    }
-    else if (s === 'embarcacion') {
-      h = head('¿Qué tipo de barco?', 'Si no tienes preferencia, lo recomendamos según destino y grupo.') +
-        '<div class="cotz-cards cotz-cards-sm">' + D.embarcaciones.map(function (e) {
-          return cardSimple(e.id, 'embarcacion', e.nombre, e.desc);
-        }).join('') + '</div>';
-    }
-    else if (s === 'tripulacion') {
-      h = head('¿Con o sin tripulación?', 'Con patrón profesional, o tú al mando si tienes experiencia.') +
-        '<div class="cotz-cards cotz-cards-sm">' + D.tripulacion.map(function (t) {
-          return cardSimple(t.id, 'tripulacion', t.nombre, t.desc);
-        }).join('') + '</div>';
-    }
-    else if (s === 'resumen') {
-      h = renderResumen();
-    }
-    stepsEl.innerHTML = h;
-    stepsEl.classList.remove('fade'); void stepsEl.offsetWidth; stepsEl.classList.add('fade');
-    wire();
-  }
-
-  function head(t, p){ return '<div class="cotz-hd"><h3>' + t + '</h3><p>' + p + '</p></div>'; }
-  function nav(back, canNext){
-    return '<div class="cotz-nav">' + back +
-      '<button class="btn cotz-next" data-act="next"' + (canNext ? '' : ' disabled') + '>Continuar</button></div>';
-  }
-  function cardSimple(id, act, t, d){
-    var on = state[act] === id ? ' on' : '';
-    return '<button type="button" class="cotz-card cotz-card-simple' + on + '" data-act="' + act + '" data-v="' + id + '">' +
-      '<span class="cotz-radio" aria-hidden="true"></span><span class="cotz-card-t">' + t + '</span><span class="cotz-card-d">' + d + '</span></button>';
-  }
-
-  function renderResumen(){
-    var c = contById(state.continente);
-    var emb = D.embarcaciones.filter(function(e){return e.id===state.embarcacion;})[0];
-    var tri = D.tripulacion.filter(function(t){return t.id===state.tripulacion;})[0];
-    var fechas = (state.desde || state.hasta) ? fmt(state.desde) + ' → ' + fmt(state.hasta) : 'Flexibles';
-    var rows = [
-      ['Destino', state.destino + ' · ' + c.nombre],
-      ['Fechas', fechas],
-      ['Personas', state.personas],
-      ['Embarcación', emb ? emb.nombre : '·'],
-      ['Tripulación', tri ? tri.nombre : '·']
-    ];
-    // cuerpo compartido de la solicitud
-    var lineas =
-      '• Destino: ' + state.destino + ' (' + c.nombre + ')\n' +
-      '• Fechas: ' + fechas + '\n' +
-      '• Personas: ' + state.personas + '\n' +
-      '• Embarcación: ' + (emb ? emb.nombre : 'A definir') + '\n' +
-      '• Tripulación: ' + (tri ? tri.nombre : 'A definir');
-    var waMsg = encodeURIComponent('Hola Oceanic, quiero cotizar un charter.\n\n' + lineas);
-    var wa = 'https://wa.me/56229537322?text=' + waMsg;
-
-    return '<div class="cotz-res">' +
-      '<div class="cotz-res-hd"><span class="cotz-check">✓</span><h3>Tu travesía, en resumen</h3>' +
-      '<p>Déjanos tus datos y te enviamos la propuesta a medida por correo. Si prefieres, también puedes escribirnos directo por WhatsApp.</p></div>' +
-      '<dl class="cotz-res-list">' + rows.map(function(r){
-        return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
-      }).join('') + '</dl>' +
-      '<div class="cotz-res-form">' +
-        '<div class="cotz-res-row">' +
-          '<label>Nombre<input id="r-nombre" required></label>' +
-          '<label>Correo<input id="r-email" type="email" required></label>' +
-        '</div>' +
-        '<div class="cotz-res-row">' +
-          '<label>Teléfono (opcional)<input id="r-tel"></label>' +
-          '<label>Comentario (opcional)<input id="r-msg"></label>' +
-        '</div>' +
-        '<input id="r-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
-        '<label class="check consent"><input type="checkbox" name="acepta" id="r-acepta" required><span>Acepto la <a href="../privacidad/index.html" target="_blank" rel="noopener">política de privacidad</a>. Usamos tus datos solo para responder esta solicitud.</span></label>' +
-        '<p class="cotz-estado" id="r-estado" role="status" hidden></p>' +
-        '<div class="cotz-res-cta">' +
-          '<a class="btn" id="cotz-send-mail" href="#" data-act="mail" data-lineas="' + encodeURIComponent(lineas) + '">Enviar solicitud</a>' +
-          '<a class="cotz-wa-alt" href="' + wa + '" target="_blank" rel="noopener">o por WhatsApp →</a>' +
-        '</div>' +
-        '<div class="cotz-nav" style="margin-top:18px"><button class="cotz-back" data-act="back">← Ajustar</button></div>' +
-      '</div></div>';
-  }
-
-  function fmt(d){ if(!d) return '·'; var p=d.split('-'); return p.length===3 ? p[2]+'/'+p[1]+'/'+p[0] : d; }
-
-  // ---------- eventos ----------
-  function wire() {
-    [].slice.call(stepsEl.querySelectorAll('[data-act]')).forEach(function (el) {
-      el.addEventListener('click', function (e) {
-        var act = el.dataset.act, v = el.dataset.v;
-        if (act === 'continente') { state.continente = v; state.destino = null; next(); }
-        else if (act === 'destino') { state.destino = v; markPill(el); enableNext(); }
-        else if (act === 'embarcacion') { state.embarcacion = v; next(); }
-        else if (act === 'tripulacion') { state.tripulacion = v; next(); }
-        else if (act === 'mas') { state.personas++; document.getElementById('cnum').textContent = state.personas; }
-        else if (act === 'menos') { if (state.personas > 1) state.personas--; document.getElementById('cnum').textContent = state.personas; }
-        else if (act === 'next') { saveFechas(); next(); }
-        else if (act === 'back') { prev(); }
-        else if (act === 'mail') {
-          e.preventDefault();
-          var nombre = (document.getElementById('r-nombre')||{}).value || '';
-          var correo = (document.getElementById('r-email')||{}).value || '';
-          var tel = (document.getElementById('r-tel')||{}).value || '';
-          var com = (document.getElementById('r-msg')||{}).value || '';
-          if (!nombre.trim() || !correo.trim()) {
-            alert('Déjanos tu nombre y correo para enviarte la propuesta.');
-            return;
-          }
-          if (!(document.getElementById('r-acepta') || {}).checked) { alert('Para enviar, acepta la política de privacidad.'); return; }
-          var lineas = decodeURIComponent(el.dataset.lineas || '');
-          var cuerpo = 'Hola Oceanic, quiero cotizar un charter.\n\n' + lineas +
-            '\n\nDatos de contacto:\n• Nombre: ' + nombre +
-            '\n• Correo: ' + correo +
-            (tel ? '\n• Teléfono: ' + tel : '') +
-            (com ? '\n\nComentario:\n' + com : '');
-          var estado = document.getElementById('r-estado');
-          if (el.getAttribute('aria-disabled') === 'true') return;
-          el.setAttribute('aria-disabled', 'true'); el.textContent = 'Enviando…';
-          window.OCEANIC_ENVIAR({
-            tipo: 'charter', nombre: nombre.trim(), email: correo.trim(), telefono: tel.trim(), acepta: true,
-            mensaje: com.trim(), detalle: lineas,
-            web: (document.getElementById('r-web') || {}).value || ''
-          }, { asunto: 'Solicitud de charter, ' + nombre, cuerpo: cuerpo }).then(function (r) {
-            var box = el.closest('.cotz-res-form');
-            box.innerHTML = '<p class="cotz-estado" role="status"><b>Hemos recibido tu solicitud.</b> ' +
-              'Te enviamos la propuesta a medida por correo dentro de un día hábil. ' +
-              (r.via === 'servidor' ? 'Te llegó una copia a tu correo.' : 'Se abrió tu correo con la solicitud escrita: envíala para que nos llegue.') + '</p>';
-          }, function () {
-            el.removeAttribute('aria-disabled'); el.textContent = 'Enviar solicitud';
-            estado.textContent = 'Revisa tu nombre y correo, y vuelve a enviar.'; estado.hidden = false;
-          });
-        }
-      });
+  function fmt(d){ if(!d) return ''; var p=d.split('-'); return p.length===3 ? p[2]+'/'+p[1]+'/'+p[0] : d; }
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var err = $('czErr'), malo = null;
+    [].forEach.call(f.querySelectorAll('.cz-f'), function (x) { x.classList.remove('cz-mal'); });
+    [].forEach.call(f.querySelectorAll('[required]'), function (el) {
+      if (el.type === 'checkbox' ? !el.checked : !String(el.value).trim() || (el.type === 'email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value))) {
+        var w = el.closest('.cz-f'); if (w) w.classList.add('cz-mal'); malo = malo || el;
+      }
     });
-    var fd = document.getElementById('f-desde'), fh = document.getElementById('f-hasta');
-    if (fd) fd.addEventListener('change', function(){ state.desde = fd.value; });
-    if (fh) fh.addEventListener('change', function(){ state.hasta = fh.value; });
-  }
-  function markPill(el){ [].slice.call(stepsEl.querySelectorAll('.cotz-pill')).forEach(function(p){p.classList.remove('on');}); el.classList.add('on'); }
-  function enableNext(){ var n=stepsEl.querySelector('.cotz-next'); if(n) n.removeAttribute('disabled'); }
-  function saveFechas(){ var fd=document.getElementById('f-desde'), fh=document.getElementById('f-hasta'); if(fd)state.desde=fd.value; if(fh)state.hasta=fh.value; }
-
-  function next(){ if (cur < STEPS.length - 1) { cur++; render(); scrollTop(); } }
-  function prev(){ if (cur > 0) { cur--; render(); scrollTop(); } }
-  function scrollTop(){ var b=document.getElementById('cotzBox'); if(b && b.getBoundingClientRect().top<0) b.scrollIntoView({behavior:'smooth',block:'start'}); }
-
-  render();
+    if (malo) {
+      err.textContent = malo.id === 'r-acepta' ? 'Para enviar, acepta la política de privacidad.' : 'Completa los campos marcados para preparar tu propuesta.';
+      err.hidden = false; malo.focus(); return;
+    }
+    err.hidden = true;
+    var c = contById($('cz-region').value), emb = D.embarcaciones.filter(function (x) { return x.id === $('cz-barco').value; })[0];
+    var tri = D.tripulacion.filter(function (x) { return x.id === $('cz-trip').value; })[0];
+    var fechas = $('cz-desde').value ? fmt($('cz-desde').value) + ' → ' + (fmt($('cz-hasta').value) || 'a definir') : 'Flexibles';
+    if ($('cz-flex').checked && $('cz-desde').value) fechas += ' (flexibles)';
+    var lineas = '• Destino: ' + $('cz-destino').value + ' (' + c.nombre + ')\n• Fechas: ' + fechas + '\n• Personas: ' + $('cz-personas').value +
+      '\n• Embarcación: ' + (emb ? emb.nombre : 'Sin preferencia') + '\n• Tripulación: ' + (tri ? tri.nombre : 'A definir');
+    var nombre = $('cz-nombre').value.trim(), correo = $('cz-email').value.trim(), tel = $('cz-tel').value.trim(), com = $('cz-msg').value.trim();
+    var btn = f.querySelector('.cz-enviar'); btn.disabled = true; btn.textContent = 'Enviando…';
+    window.OCEANIC_ENVIAR({ tipo: 'charter', nombre: nombre, email: correo, telefono: tel, acepta: true, mensaje: com, detalle: lineas, web: f.elements.web.value },
+      { asunto: 'Solicitud de charter, ' + nombre, cuerpo: 'Hola Oceanic, quiero cotizar un charter.\n\n' + lineas + '\n\nDatos de contacto:\n• Nombre: ' + nombre + '\n• Correo: ' + correo + (tel ? '\n• Teléfono: ' + tel : '') + (com ? '\n\nComentario:\n' + com : '') })
+      .then(function (r) {
+        f.hidden = true; var ok = $('czOk');
+        ok.innerHTML = '<span class="cz-ok-ic" aria-hidden="true">✓</span><h3>¡Gracias, ' + esc(nombre.split(' ')[0]) + '!</h3>' +
+          '<p>Recibimos tu solicitud para navegar en <b>' + esc($('cz-destino').value) + '</b>. Te enviamos una propuesta a medida por correo dentro de un día hábil. ' +
+          (r.via === 'servidor' ? 'Te llegó una copia a tu correo.' : 'Se abrió tu correo con la solicitud escrita: envíala para que nos llegue.') + '</p>' +
+          '<a class="btn" href="../index.html">Volver al home</a>';
+        ok.hidden = false; ok.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, function () { btn.disabled = false; btn.textContent = 'Solicitar propuesta'; err.textContent = 'Revisa tu nombre y correo, y vuelve a enviar.'; err.hidden = false; });
+  });
 
   // ---------- destinos (grilla informativa) ----------
   var grid = document.getElementById('cdestGrid');
@@ -219,8 +105,8 @@
   if (grid) grid.addEventListener('click', function (e) {
     var b = e.target.closest && e.target.closest('[data-region]');
     if (!b) return;
-    state.continente = b.getAttribute('data-region'); state.destino = null; cur = 1; render();
-    var box = document.getElementById('cotzBox'); if (box) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.OCEANIC_CHARTER_REGION(b.getAttribute('data-region'));
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
   
 
