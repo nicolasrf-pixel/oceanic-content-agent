@@ -153,7 +153,7 @@ body.locked{overflow:hidden}
 @media(max-width:860px){.ft-top{grid-template-columns:1fr}.ft-cols,.ft-mid{grid-template-columns:repeat(2,1fr)}}
 
 /* ---------- BLOQUE 1 · apertura ---------- */
-.hero{position:relative;background:var(--noche);color:var(--natural);aspect-ratio:16/9;min-height:520px;max-height:min(88vh,860px);display:flex;align-items:flex-end;overflow:hidden}
+.hero{position:relative;width:100%;background:var(--noche);color:var(--natural);aspect-ratio:16/9;min-height:520px;max-height:min(88vh,860px);display:flex;align-items:flex-end;overflow:hidden}
 @media(min-width:1600px){.hero{max-height:min(90vh,1000px)}}
 @media(min-width:2000px){.hero{aspect-ratio:2.2/1;max-height:min(92vh,1180px)}}
 @media(min-width:2800px){.hero{aspect-ratio:2.5/1;max-height:1280px}}

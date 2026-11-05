@@ -15,7 +15,7 @@
   // Todo el texto viene del CMS: se escapa una vez aquí (R conserva el original para atributos y WhatsApp).
   function esc(v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function fotoSrc(f) {  // {url, local} del build, o ruta/URL subida desde el CMS
-    if (f && typeof f === 'object') return f.local ? AB + f.local : (f.url || '');
+    if (f && typeof f === 'object') return f.local ? AB + f.local + '?v=2' : (f.url || '');  // ?v=2: ver usados.js
     f = String(f || ''); return /^(https?:)?\/\//.test(f) || f.charAt(0) === '/' ? f : AB + f.replace(/^usados\//, '');
   }
   function enlace(h) { h = String(h || '').trim(); return /^https?:\/\//i.test(h) || (/^[\/#?.\w]/.test(h) && !/^[a-z][a-z0-9+.-]*:/i.test(h) && !/^\/\//.test(h)) ? h : ''; }

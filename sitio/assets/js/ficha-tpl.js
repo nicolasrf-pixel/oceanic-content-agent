@@ -249,7 +249,18 @@
       '</div></div></div></section>';
 
     cont.innerHTML = html.join('') + subbar + cuerpo.join('') + cierre;
+    document.body.classList.add('es-ficha');
     window.scrollTo(0, 0);
+
+    // Portada: la foto es la cabecera oficial del modelo. En escritorio la portada toma la proporción de la foto
+    // (entre 16:9 y 3:1) para mostrarla entera, sin recortes forzados.
+    var heroImg = cont.querySelector('.hero-img img'), heroEl = cont.querySelector('.hero');
+    function proporcion() {
+      if (!heroImg || !heroImg.naturalWidth || innerWidth <= 820) { if (heroEl) heroEl.style.aspectRatio = ''; return; }
+      var r = heroImg.naturalWidth / heroImg.naturalHeight;
+      heroEl.style.aspectRatio = String(Math.max(16 / 9, Math.min(3, r)));
+    }
+    if (heroImg) { if (heroImg.complete) proporcion(); else heroImg.addEventListener('load', proporcion); addEventListener('resize', proporcion); }
 
     // fotos que no existen: se oculta su contenedor para no dejar huecos
     [].forEach.call(cont.querySelectorAll('img[data-ocultar]'), function (im) {

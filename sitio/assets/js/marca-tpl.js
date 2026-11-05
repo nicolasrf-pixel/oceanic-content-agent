@@ -69,13 +69,20 @@
            motor:{t:'Motor',sub:'Del day cruiser al yate a motor.'},
            electrico:{t:'Eléctricos',sub:'Propulsión eléctrica, cero emisiones.'}};
   var grupos={}; cat.modelos.forEach(function(m){ (grupos[familia(m.tipo)]=grupos[familia(m.tipo)]||[]).push(m); });
+  // subtítulo según lo que la marca realmente tiene (Beneteau vela: solo monocascos; Lagoon: solo catamaranes)
+  function sub(f,lista){
+    var cata=lista.some(function(m){return /catamaran/.test(m.tipo);}), mono=lista.some(function(m){return !/catamaran/.test(m.tipo);});
+    if(f==='vela') return cata&&mono?'Monocascos y catamaranes a vela.':cata?'Catamaranes a vela.':'Monocascos a vela.';
+    if(f==='motor') return cata&&!mono?'Catamaranes a motor.':cata?'Lanchas, yates y catamaranes a motor.':FAM.motor.sub;
+    return FAM[f].sub;
+  }
   var orden=['vela','motor','electrico'].filter(function(f){return grupos[f]&&grupos[f].length;});
   var variasFamilias=orden.length>1;
 
   var bloques=orden.map(function(f){
     var lista=grupos[f];
     var titulo=variasFamilias
-      ? '<div class="mk-fam-head"><h3 class="mk-fam-h">'+FAM[f].t+'</h3><span class="mk-fam-sub">'+FAM[f].sub+'</span><span class="mk-fam-n">'+lista.length+(lista.length===1?' modelo':' modelos')+'</span></div>'
+      ? '<div class="mk-fam-head"><h3 class="mk-fam-h">'+FAM[f].t+'</h3><span class="mk-fam-sub">'+sub(f,lista)+'</span><span class="mk-fam-n">'+lista.length+(lista.length===1?' modelo':' modelos')+'</span></div>'
       : '';
     return '<div class="mk-fam" id="gama-'+f+'">'+titulo+'<div class="mk-grid">'+lista.map(tarjeta).join('')+'</div></div>';
   }).join('');

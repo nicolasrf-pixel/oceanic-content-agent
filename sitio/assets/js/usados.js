@@ -7,7 +7,7 @@
   var filtro='';
   function esc(v){ return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
   function src(f){  // {url, local} del build, o ruta/URL subida desde el CMS
-    if(f&&typeof f==='object') return f.local?AB+f.local:(f.url||'');
+    if(f&&typeof f==='object') return f.local?AB+f.local+'?v=2':(f.url||'');  // ?v=2: no reusar 404 guardados de la versión anterior
     f=String(f||''); return /^(https?:)?\/\//.test(f)||f.charAt(0)==='/'?f:AB+f.replace(/^usados\//,'');
   }
 
