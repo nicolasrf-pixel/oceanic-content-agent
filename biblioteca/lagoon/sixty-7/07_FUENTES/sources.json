@@ -1,0 +1,36 @@
+{
+  "model": "SIXTY 7",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · SIXTY 7",
+      "title": "SIXTY 7",
+      "type": "official_product_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/boats/sixty-7",
+      "accessed_at": "2026-11-04",
+      "retrieved_via": "Firecrawl rawHtml + adapters/lagoon.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-sixty-7.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "Our motor catamarans",
+      "type": "official_range_page",
+      "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)",
+      "url": "https://www.catamarans-lagoon.com/ranges/power-catamarans",
+      "accessed_at": "2026-11-04",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Lagoon",
+      "url": "https://configurator.catamarans-lagoon.com/",
+      "reason": "Herramienta interactiva; no se leyó. No aporta datos."
+    }
+  ]
+}

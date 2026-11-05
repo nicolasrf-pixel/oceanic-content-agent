@@ -6,8 +6,8 @@
 
   // marcas por universo, cada una a su página /marca/?m=slug
   var MARCAS={
-    'Vela':[['beneteau&u=vela','Beneteau'],['solaris','Solaris'],['saffier','Saffier'],['lagoon','Lagoon'],['excess','Excess'],['aquila&u=vela','Aquila Sail']],
-    'Motor':[['axopar','Axopar'],['beneteau&u=motor','Beneteau Motor'],['xo','XO Boats'],['aquila&u=motor','Aquila'],['oceanic-power','Oceanic Power']],
+    'Vela':[['beneteau&u=vela','Beneteau'],['solaris','Solaris'],['saffier','Saffier'],['lagoon&u=vela','Lagoon'],['excess','Excess'],['aquila&u=vela','Aquila Sail']],
+    'Motor':[['axopar','Axopar'],['beneteau&u=motor','Beneteau Motor'],['xo','XO Boats'],['aquila&u=motor','Aquila'],['lagoon&u=motor','Lagoon Motor'],['oceanic-power','Oceanic Power']],
     'Vela deportiva':[['vx-one','VX One'],['switch','Switch']]
   };
   function marcaHref(slug){

@@ -17,7 +17,7 @@
       nombre:'Motor', hero:'u-motor.webp',
       kicker:'Universo Motor',
       lede:'Del semirrígido al yate. Lanchas, cruceros y catamaranes a motor para navegar todo el año.',
-      marcas:['axopar','beneteau','xo','aquila','oceanic-power']
+      marcas:['axopar','beneteau','xo','aquila','lagoon','oceanic-power']
     },
     deportiva:{
       nombre:'Vela deportiva', hero:'u-sport.webp',

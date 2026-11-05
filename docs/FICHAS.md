@@ -55,6 +55,20 @@ escenarios de navegación (fiordos, lagos, mar adentro) y "Cómo se adquiere".
 
 Mientras un modelo no tenga `pagina-es.json`, su ficha usa el borrador corto del catálogo con el mismo diseño.
 
+## Agregar un modelo nuevo al sitio
+
+1. Paquete en la biblioteca (`python -m oceanic build <marca> <extract>`), con `drafts/<marca>/<slug>.json`
+   (textos cortos y revisión visual de imágenes).
+2. `python3 tools/sitio_catalogo.py <marca> <slug>`: entrada del catálogo (ficha técnica verificada, sin opcionales ni
+   precios), galería por categoría y fotos en `sitio/scripts/fotos.tsv`.
+3. `pagina-es.json` (traducción) y `python3 tools/sitio_fichas.py`.
+
+## Marcas con vela y motor
+
+Beneteau, Lagoon y Aquila tienen una página por línea: `/marca/?m=<marca>&u=vela` y `&u=motor`, con nombre, imagen y
+textos propios (`sitio/assets/js/marcas-info.js › lineas`). El menú, la portada y los universos enlazan a la línea; la
+ficha de un modelo vuelve a su línea. Sin `u`, la página de la marca muestra ambas gamas agrupadas.
+
 ## Fotos
 
 Las fotos se descargan y optimizan al publicar (`sitio/scripts/build.sh`, lista en `sitio/scripts/fotos.tsv`). Si una foto no existe, la plantilla retira

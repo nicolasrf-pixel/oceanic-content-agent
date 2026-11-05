@@ -29,7 +29,7 @@ window.OCEANIC_PUBLICACION = /*DATOS*/{
   'use strict';
   // Opcionales y ediciones: no se publican en ningún barco (decisión Oceanic 2026-11-04). Los datos de la biblioteca
   // quedan completos; aquí se limpian solo para mostrarlos.
-  var OPC = /opcional|optional|Pilot Edition|edici[oó]n limitada|Riders.? Edition|\bAlpine\b|\bpack\b/i;
+  var OPC = /opcional|optional|\bopci[oó]n(es)?\b|Pilot Edition|edici[oó]n limitada|Riders.? Edition|\bAlpine\b|\bpack\b/i;
   function texto(t) {
     if (!t || !OPC.test(t)) return t;
     return t.split(/(?<=[.!?])\s+/).filter(function (f) { return !OPC.test(f); }).join(' ').trim();

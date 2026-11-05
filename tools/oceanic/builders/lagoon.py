@@ -18,14 +18,25 @@ from .axopar import _field, _fmt
 ROOT = B.ROOT
 MODEL_YEAR = B.MODEL_YEAR
 
+# Gama a motor: la lista la publica la página oficial de la gama "OUR MOTOR CATAMARANS" (official_range_page),
+# capturada 2026-11-04. La miga de pan de cada modelo dice "Sailing catamarans" también en estos (error de la web),
+# por eso el tipo se toma de la página de gama y no de la miga.
+POWER_RANGE_URL = "https://www.catamarans-lagoon.com/ranges/power-catamarans"
+POWER = {"sixty-7", "eighty-3"}
+
+
+def _slug_url(ext: dict) -> str:
+    return ext["source_url"].rstrip("/").rsplit("/", 1)[-1]
+
+
 CFG = dict(B.CFG)
 CFG.update({
     "brand": "Lagoon", "brand_dir": ROOT / "biblioteca" / "lagoon",
     "site": "catamarans-lagoon.com", "original_path": "admin.catamarans-lagoon.com (back office Drupal)",
     "publisher": "Lagoon (CNB / Groupe Beneteau, Francia)", "origin": "Lagoon · Francia",
     "builder": "lagoon", "adapter": "adapters/lagoon.py",
-    "boat_type": lambda ext: "catamaran_vela",
-    "type_label": {"catamaran_vela": "Catamarán a vela"},
+    "boat_type": lambda ext: "catamaran_motor" if _slug_url(ext) in POWER else "catamaran_vela",
+    "type_label": {"catamaran_vela": "Catamarán a vela", "catamaran_motor": "Catamarán a motor"},
     "excluded_sources": [{"title": "Configurador Lagoon", "url": "https://configurator.catamarans-lagoon.com/",
                           "reason": "Herramienta interactiva; no se leyó. No aporta datos."}],
     "video_platform": "YouTube (canal Lagoon Catamarans)",
@@ -102,10 +113,15 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
             vals = [v.replace(" t", " t") for v in s["values"]]
             if kind == "kg":  # "13,9 t" -> kg
                 metric = vals[0]
-                m = re.match(r"([\d.,]+)\s*t\b", metric)
+                m = re.match(r"([\d.,]+)\s*t\b", metric, re.I)
                 if m:
                     kg = float(m.group(1).replace(",", ".")) * 1000
                     vals = [f"{kg:.0f} kg (publicado: {metric})"] + vals[1:]
+            if kind == "l":  # "2 x 800 l" / "4 x 1375 L" → capacidad total publicada (configuración anotada)
+                m = re.match(r"(\d+)\s*x\s*([\d .,]+?)\s*l\b", vals[0], re.I)
+                if m:
+                    tot = int(m.group(1)) * float(m.group(2).replace(" ", "").replace(",", "."))
+                    vals = [f"{tot:.0f} L (publicado: {vals[0]})"] + vals[1:]
             if kind in ("m", "kg", "l"):
                 f = B._quantity_field(key, labels[key], _row(s["label"], vals), kind, src, XREF.get(key), loa)
                 for r in f["records"]:
@@ -158,15 +174,18 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                       (std, "Motorización estándar publicada (no hay opción más potente)")
         n, hp = _power(chosen["values"][0]) or (None, None)
         disp = (f"{n} x {hp} hp" if n and n > 1 else f"{hp} hp") if hp else chosen["values"][0]
+        motor = boat == "catamaran_motor"
+        pkey = "potencia_motor_maxima" if motor else "potencia_motor_auxiliar"
+        mkey = "motorizacion" if motor else "motor_auxiliar"
         rec = B._row_record(src, chosen, n * hp if hp else chosen["values"][0], "hp" if hp else None,
-                            f"{why} → potencia del motor auxiliar.")
-        fields["potencia_motor_auxiliar"] = _field("potencia_motor_auxiliar", labels["potencia_motor_auxiliar"],
+                            f"{why} → " + ("potencia máxima." if motor else "potencia del motor auxiliar."))
+        fields[pkey] = _field(pkey, labels[pkey],
                                                    "VERIFIED", [rec], display=disp,
                                                    notes=f"Estándar: {std['values'][0]}" + (f"; opción: {opt['values'][0]}" if opt else ""))
         named = rows.get("engine power") if rows.get("engine power") and re.search(r"[A-Za-z]{3,}.*\d", rows["engine power"]["values"][0]) \
             and rows.get("engine power") is not std else None
         src_row = named or std
-        fields["motor_auxiliar"] = _field("motor_auxiliar", labels["motor_auxiliar"], "VERIFIED",
+        fields[mkey] = _field(mkey, labels[mkey], "VERIFIED",
                                           [dict(B._row_record(src, src_row, src_row["values"][0], None),
                                                 cross_reference="Motorización del bloque técnico"
                                                                 + (" ('Engine power', con marca y modelo)." if named else " (estándar)."))],
@@ -181,6 +200,17 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
                              "El bloque técnico no publica número de cabinas: se toma de las versiones oficiales.")
         fields["camarotes"] = _field("camarotes", labels["camarotes"], "VERIFIED", [rec], display=disp,
                                      note="según versión" if len(lay_cabins) > 1 else None)
+    if "camarotes" not in fields:  # cifra destacada de la portada: "from 4 to 6 cabins" (sin cabinas en las versiones)
+        for st in ext.get("headline_stats", []):
+            q = next((v for v in st.get("values", []) if re.search(r"cabins?", v, re.I)), None)
+            nums = re.findall(r"\d+", q or "")
+            if nums:
+                disp = f"{nums[0]} a {nums[1]}" if len(nums) == 2 else nums[0]
+                rec = B._text_record(src, "Portada (cifras destacadas)", q, disp, None, st["label"],
+                                     "Las versiones no traen número de cabinas: la portada publica el rango oficial.")
+                fields["camarotes"] = _field("camarotes", labels["camarotes"], "VERIFIED", [rec], display=disp,
+                                             note="según versión" if len(nums) == 2 else None)
+                break
     heads = sorted({int(m) for l in ext["layouts"] for m in re.findall(r"(\d+)\s*heads?", l["title"] or "", re.I)})
     if heads:
         fields["banos"] = _field("banos", labels["banos"], "VERIFIED",
@@ -208,7 +238,7 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
     return {
         "model": {"brand": "Lagoon", "model": ident["model"], "model_year": MODEL_YEAR, "variant": ident["model"],
                   "configuration": "según versiones oficiales (ver 04_EQUIPAMIENTO/configurations.md)",
-                  "engine_option": fields.get("motor_auxiliar", {}).get("display_value") or "-",
+                  "engine_option": (fields.get("motor_auxiliar") or fields.get("motorizacion") or {}).get("display_value") or "-",
                   "boat_type": boat, "range": ident["range"]},
         "policy": "Solo web oficial del producto (S1). El bloque 'Specifications' prevalece. Valores métrico e "
                   "imperial del mismo campo que no coinciden → CONFLICT.",
@@ -217,6 +247,15 @@ def build_specs(ext: dict, ident: dict, src: dict) -> dict:
 
 
 CFG["build_specs"] = build_specs
+
+
+def identity_fix(ext: dict, ident: dict) -> dict:
+    if _slug_url(ext) in POWER:
+        ident.update(family="Motor catamarans", range="Our motor catamarans", range_url=POWER_RANGE_URL)
+    return ident
+
+
+CFG["identity_fix"] = identity_fix
 
 
 def _with_cfg(fn, *a, **k):

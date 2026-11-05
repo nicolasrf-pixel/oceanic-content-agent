@@ -40,7 +40,20 @@ window.OCEANIC_MARCAS={
   "universo": "Vela y Motor",
   "hero": "b-lagoon",
   "claim": "El catamarán de crucero, perfeccionado.",
-  "intro": "El referente mundial del catamarán de crucero. Espacio, estabilidad y vida a bordo sin escora, del 38 a los grandes multicascos."
+  "intro": "El referente mundial del catamarán de crucero. Espacio, estabilidad y vida a bordo sin escora, del 38 a los grandes multicascos.",
+  "lineas": {
+   "vela": {
+    "nombre": "Lagoon",
+    "universo": "Vela"
+   },
+   "motor": {
+    "nombre": "Lagoon Motor",
+    "universo": "Motor",
+    "hero": "modelos/sixty-7-hero.webp",
+    "claim": "Catamaranes a motor de 67 a 83 pies.",
+    "intro": "Catamaranes de lujo que combinan libertad, elegancia y confort, sin concesiones: SIXTY 7 y EIGHTY 3."
+   }
+  }
  },
  "solaris": {
   "nombre": "Solaris",

@@ -1,0 +1,57 @@
+{
+ "hero": {
+  "headlines": [
+   "A la medida de tu sueño.",
+   "Un yate forjado por la excelencia.",
+   "3.500 millas de autonomía."
+  ],
+  "descripcion": "Catamarán a motor de 24,4 m: 300 m² de espacio exterior, suite del armador con terraza privada y 3.500 millas náuticas de autonomía."
+ },
+ "introduccion": "Diseñado para espíritus audaces y aventureros, el EIGHTY 3 se distingue por su carácter propio y su capacidad de adaptarse a cada preferencia.",
+ "diseno": "Arquitectura naval y diseño exterior de VPLP Design (exterior con Patrick Le Quément) e interiores de Nauta Design.",
+ "ingenieria": "3.500 millas náuticas de autonomía de combustible y cubierta principal a un mismo nivel.",
+ "experiencia": "300 m² de espacio exterior, plataforma de baño de hasta 22 m² y camarote del armador con terraza privada.",
+ "performance": "Dos motores John Deere N13 de 580 HP, según la ficha oficial.",
+ "image_overrides": {
+  "Lagoon_Icon_Motor.webp": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "category": "OTHER",
+   "evidence": "Ícono genérico de la gama a motor. Revisión visual 2026-11-05."
+  },
+  "catamaran-lagoon-eighty-3-introduction-800x1096.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo. Navegando: categoría UNDERWAY por revisión visual (2026-11-05)."
+  },
+  "Vignettes%20YouTube%20Eighty%203.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo. Vista aérea (miniatura del video, con el nombre EIGHTY 3): categoría EXTERIOR por revisión visual (2026-11-05)."
+  },
+  "Lagoon-EIGHTY-3-highlight-01-1440x810.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo. Salón principal: categoría INTERIOR por revisión visual (2026-11-05)."
+  },
+  "Lagoon-EIGHTY-3-highlight-02-1440x810.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo. Cubierta de proa con solárium: categoría EXTERIOR por revisión visual (2026-11-05)."
+  },
+  "Lagoon-EIGHTY-3-highlight-03-1440x810.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "INTERIOR",
+   "evidence": "Solo en la página del modelo. Salón y comedor: categoría INTERIOR por revisión visual (2026-11-05)."
+  },
+  "Lagoon-EIGHTY-3-highlight-04-1440x810.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo. Camarote del armador: categoría CABIN por revisión visual (2026-11-05)."
+  },
+  "catamaran-lagoon-eighty-3-illustration-bloc-premium.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "DETAIL",
+   "evidence": "Solo en la página del modelo. Casco en el astillero (construcción): categoría DETAIL por revisión visual (2026-11-05)."
+  }
+ }
+}

@@ -118,6 +118,10 @@ depósitos, CE, literas); camarotes y baños salen de las pestañas "Versions" (
 dos veces en la ficha con valores distintos → `CONFLICT`. La galería no trae categorías: se clasifican a la vista (hojas de contacto) y quedan en
 `drafts/lagoon/<slug>.json › image_overrides`. Los buques insignia se nombran en palabras (SIXTY 5 = 65, EIGHTY 2 = 82).
 El brochure se pide por formulario (sin enlace directo). Las citas de prensa van a `excluded_sources`.
+Gama a motor (decisión Oceanic 2026-11-05): SIXTY 7 y EIGHTY 3, listados en la página oficial de gama "Our motor
+catamarans" (`/ranges/power-catamarans`, fuente S2). Tipo `catamaran_motor` por esa página (la miga de pan de los modelos
+dice "Sailing catamarans", error de la web; `POWER` en `builders/lagoon.py`). Camarotes del SIXTY 7 desde la cifra
+destacada de la portada ("from 4 to 6 cabins"). Depósitos "N x V L" → total publicado, anotado.
 
 **Generación masiva (Aquila):** web HubSpot; `adapters/aquila.py` (mismo extract que Beneteau) y `builders/aquila.py`
 (reutiliza el builder de Beneteau con su `CFG`). Tipos `catamaran_motor` / `catamaran_vela` (gama Sail). Las etiquetas de
@@ -193,7 +197,9 @@ maqueta del Axopar 37 XC, lleno con la página oficial traducida fiel al españo
 `01_CONTENIDO/pagina-es.json` (BORRADOR hasta revisión). Bloques de la maqueta sin dato oficial no se muestran. Los opcionales (equipamiento opcional, opciones destacadas,
 ediciones y paquetes) no se publican: se conversan en persona. **Ningún barco nuevo publica
 precio** (solo los usados).
-Publicar con `python3 tools/sitio_fichas.py`. Detalle en `docs/FICHAS.md`.
+Publicar con `python3 tools/sitio_fichas.py`. Un modelo nuevo entra al catálogo del sitio con
+`python3 tools/sitio_catalogo.py <marca> <slug>...` (ficha técnica, galería y fotos). Marcas con vela y motor tienen una
+página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor`). Detalle en `docs/FICHAS.md`.
 
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV

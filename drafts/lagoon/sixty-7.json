@@ -1,0 +1,62 @@
+{
+ "hero": {
+  "headlines": [
+   "Un catamarán para tus cruceros más bellos.",
+   "Un santuario privado en el océano.",
+   "Diseñado para el océano."
+  ],
+  "descripcion": "Catamarán a motor de 20,15 m: flybridge abierto, suite del armador y gran autonomía para travesías largas."
+ },
+ "introduccion": "Concebido como un remanso de paz para la reflexión, el descanso y el viaje, el SIXTY 7 es un santuario privado en el océano.",
+ "diseno": "Espacios de vida contiguos que conectan interior y exterior y aprovechan al máximo la luz natural.",
+ "ingenieria": "Gran autonomía para planificar travesías más largas. Puesto de gobierno diseñado para facilitar la maniobra.",
+ "experiencia": "Flybridge abierto al entorno con distribución versátil, y suite del armador con gran vestidor y amplio baño.",
+ "performance": "Dos motores de 340 CV de serie, según la ficha oficial.",
+ "image_overrides": {
+  "Lagoon_Icon_Motor.webp": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "category": "OTHER",
+   "evidence": "Ícono genérico de la gama a motor. Revisión visual 2026-11-05."
+  },
+  "Lagoon-82-bloc-premium-1920x1280-03.jpg": {
+   "scope": "NOT_MODEL_SPECIFIC",
+   "category": "OTHER",
+   "evidence": "Foto de ambiente (persona afinando un piano), no muestra el barco; archivo con nombre de otro modelo (82). Revisión visual 2026-11-05."
+  },
+  "SEVENTY_8.webp": {
+   "scope": "OTHER_MODEL",
+   "category": "PLANS",
+   "evidence": "Perfil del Seventy 8 (título y archivo), publicado en la página del Sixty 7. Revisión visual 2026-11-05."
+  },
+  "Mouillage_Heli_SIXTY7_NCZ3227_web-Export%20Web%202000%20px%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Título 'Seventy 7' en la web, pero el archivo dice SIXTY7 y la foto muestra un catamarán a motor de casco rojo fondeado, coherente con el Sixty 7. Revisión visual 2026-11-05."
+  },
+  "Mouillage_Heli_SIXTY7_NCK1698_web-Export%20Web%202000%20px%20%281%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "UNDERWAY",
+   "evidence": "Solo en la página del modelo. Vista aérea del catamarán fondeado: categoría UNDERWAY por revisión visual (2026-11-05)."
+  },
+  "Catamaran-Sixty_7_vignette_video_youtube.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo. Vista aérea de la cubierta (miniatura del video, con el nombre SIXTY 7): categoría EXTERIOR por revisión visual (2026-11-05)."
+  },
+  "Catamaran-Sixty_7_highlight-01.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "COCKPIT",
+   "evidence": "Solo en la página del modelo. Bañera de popa con salón exterior: categoría COCKPIT por revisión visual (2026-11-05)."
+  },
+  "Catamaran-Sixty_7_highlight-02.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "EXTERIOR",
+   "evidence": "Solo en la página del modelo. Flybridge con salón y puesto de gobierno: categoría EXTERIOR por revisión visual (2026-11-05)."
+  },
+  "Cab_Prop_SIXTY7_NCZ3966_web-Export%20Web%202000%20px%20%282%29.jpg": {
+   "scope": "THIS_MODEL",
+   "category": "CABIN",
+   "evidence": "Solo en la página del modelo. Suite del armador (zona de estar y vestidor): categoría CABIN por revisión visual (2026-11-05)."
+  }
+ }
+}

@@ -75,10 +75,12 @@ def identity(ext: dict) -> dict:
     rng = crumbs[2] if len(crumbs) > 2 else ""
     sail = bool(re.search(r"sail", family, re.I))
     name = re.sub(r"\bBENETEAU\b", "Beneteau", ext["page_title"])
-    return {"slug": model_slug(ext), "model": name, "family": family, "range": rng,
-            "range_url": ext["breadcrumb"][2]["url"] if len(ext["breadcrumb"]) > 2 else None,
-            "boat_type": CFG["boat_type"](ext) if CFG["boat_type"] else ("vela" if sail else "motor"),
-            "tokens": _model_tokens(name)}
+    ident = {"slug": model_slug(ext), "model": name, "family": family, "range": rng,
+             "range_url": ext["breadcrumb"][2]["url"] if len(ext["breadcrumb"]) > 2 else None,
+             "boat_type": CFG["boat_type"](ext) if CFG["boat_type"] else ("vela" if sail else "motor"),
+             "tokens": _model_tokens(name)}
+    fix = CFG.get("identity_fix")  # hook por marca (p. ej. Lagoon: gama a motor con miga de pan errada en la web)
+    return fix(ext, ident) if fix else ident
 
 
 RANGE_ALIASES = {"swift trawler": ["swift-trawler", "st"], "grand trawler": ["grand-trawler", "gt"],
