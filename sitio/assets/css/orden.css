@@ -189,3 +189,5 @@ label.consent a{color:var(--tinta)}
 
 /* datos del cotizador: con un número impar de datos, el último ocupa el ancho (sin celda gris vacía) */
 .cot-datos div:last-child:nth-child(odd){grid-column:1 / -1}
+/* foto de estudio: nunca más grande que su tamaño real */
+.hero-estudio .hero-img img,.ficha-estudio .story-fig img{width:auto;height:auto;max-width:100%;max-height:100%}

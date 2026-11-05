@@ -35,16 +35,31 @@
   }
 
   // Fotos del modelo: se reparten entre los bloques sin repetirse. Si una no existe, su contenedor se oculta.
-  function Fotos(AB, mo, galCat) {
+  // Cada espacio pide un ancho mínimo (nunca se muestra una foto agrandada): si ninguna alcanza, queda sin foto.
+  // RES = assets/data/resolucion.json (medidas de las fotos de menos de 1600 px; las demás sirven en todo).
+  function Fotos(AB, mo, galCat, RES, sinMinimo) {
     var orden = ['Exterior', 'Navegando', 'Interior', 'Timonera', 'Cubierta', 'Camarotes', 'Detalle', 'Galería'];
     var lista = [];
     orden.forEach(function (c) { (galCat[c] || []).forEach(function (f) { if (lista.indexOf(f) < 0) lista.push(f); }); });
     Object.keys(galCat).forEach(function (c) { (galCat[c] || []).forEach(function (f) { if (lista.indexOf(f) < 0) lista.push(f); }); });
-    var i = 0;
+    RES = RES || {};
+    function medida(f) { var r = RES[String(f || '').split('/').pop()]; return r || [9999, 9999]; }
+    function alcanza(f, min) { return sinMinimo || medida(f)[0] >= min; }
+    var usadas = {};
+    var hero = mo.hero;
+    if (hero && !alcanza(hero, 1500)) {  // portada chica: la primera foto horizontal grande de la galería, o ninguna
+      hero = lista.filter(function (f) { var m = medida(f); return m[0] >= 1500 && m[0] > m[1]; })[0] || null;
+      if (hero) usadas[hero] = 1;
+    }
+    if (mo.hero) usadas[mo.hero] = 1;
+    function tomar(min) {
+      for (var k = 0; k < lista.length; k++) { var f = lista[k]; if (!usadas[f] && alcanza(f, min)) { usadas[f] = 1; return IMG(AB, f); } }
+      return null;
+    }
     return {
-      hero: mo.hero ? IMG(AB, mo.hero) : null,
-      sig: function () { return i < lista.length ? IMG(AB, lista[i++]) : null; },
-      resto: function (n) { var r = lista.slice(i, i + n).map(function (f) { return IMG(AB, f); }); i += r.length; return r; }
+      hero: hero ? IMG(AB, hero) : null,
+      sig: function (min) { return tomar(min || 1000); },
+      resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700))) r.push(f); return r; }
     };
   }
   function img(src, alt, cls) {
@@ -80,7 +95,7 @@
     var cat = C[marca], info = M[marca];
     var mo = cat.modelos.filter(function (x) { return x.slug === mslug; })[0];
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
-    var F = Fotos(AB, mo, CC.galeria || {});
+    var F = Fotos(AB, mo, CC.galeria || {}, P.resolucion, ESTUDIO.indexOf(marca) >= 0);
     var wa = 'https://wa.me/56229537322?text=' + encodeURIComponent('Hola Oceanic, quiero cotizar el ' + mo.nombre + ' (' + info.nombre + ').');
     // marcas con línea vela y motor: volver a la línea del modelo
     var lineaMo = /electric|eléctric/i.test(mo.tipo) ? 'electrico' : /vela/i.test(mo.tipo) ? 'vela' : 'motor';
@@ -113,7 +128,7 @@
 
     // 2 · Relato: introducción oficial
     if (P.intro && P.intro.length) {
-      var foto = estudio ? null : F.sig();
+      var foto = estudio ? null : F.sig(1400);
       html.push('<section class="story" id="historia"><div class="wrap"><div class="story-intro">' +
         '<span class="story-marca" aria-hidden="true"></span>' +
         '<p class="story-line story-em' + (P.intro[0].length > 90 ? ' story-larga' : '') + '">' + esc(P.intro[0]) + '</p>' +
@@ -163,8 +178,8 @@
     });
 
     // 5 · Galería (maqueta: grilla de 3). Antes se reservan las fotos de portada de los videos.
-    var vids = (MD.videos || []).map(function (v) { return { v: v, foto: F.sig() || F.hero }; });
-    var galeria = F.resto(6);
+    var vids = (MD.videos || []).map(function (v, k, t) { return { v: v, foto: F.sig(t.length === 1 ? 1000 : 700) || F.hero }; });
+    var galeria = F.resto(6, 700);
     if (galeria.length) {
       cuerpo.push(seccion('galeria', cabeza('Galería') + '<div class="gal">' +
         galeria.map(function (g) { return '<div class="gal-item">' + img(g, mo.nombre) + '</div>'; }).join('') + '</div>'));
@@ -376,7 +391,8 @@
     var medios = json(mbase + 'index.json')
       .then(function (l) { return l.indexOf(marca + '/' + mslug) < 0 ? {} : json(mbase + marca + '/' + mslug + '.json'); })
       .catch(function () { return {}; });
-    function pintar(P) { medios.then(function (MD) { P.medios = MD; render(marca, mslug, P); }); }
+    var resolucion = json(base.replace(/fichas\/$/, 'resolucion.json')).catch(function () { return {}; });
+    function pintar(P) { Promise.all([medios, resolucion]).then(function (r) { P.medios = r[0]; P.resolucion = r[1]; render(marca, mslug, P); }); }
     // index.json lista las fichas con traducción completa; las demás usan el borrador del catálogo
     json(base + 'index.json')
       .then(function (lista) { if (lista.indexOf(marca + '/' + mslug) < 0) throw 0; return json(base + marca + '/' + mslug + '.json'); })

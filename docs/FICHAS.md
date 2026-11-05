@@ -113,3 +113,13 @@ Cada premio se muestra con el logo que publica la página oficial del modelo. `p
   quita la etiqueta repetida al inicio del valor ("Motor auxiliar hasta 14 hp" → "Hasta 14 hp").
 - El texto principal de la ficha va en un bloque centrado con una raya naranja y una entrada suave (sube y se enfoca; nunca
   parte invisible).
+
+### Resolución de las fotos (decisión Oceanic 2026-11-05: nunca una foto borrosa)
+
+`python3 tools/sitio_resolucion.py` escribe `sitio/assets/data/resolucion.json` con las medidas de las fotos de menos de 1600 px
+de ancho (correrlo tras bajar fotos nuevas). La ficha pide un ancho mínimo por espacio: portada 1500 px (si la oficial es
+chica, toma la primera horizontal grande de la galería; si no hay, sin foto), foto grande del relato 1400, bloques 1000, video
+único 1000, galería y videos 700. Si ninguna alcanza, el espacio queda sin foto. Las marcas con fotos de estudio (Oceanic
+Power) se muestran a su tamaño real. En las portadas de marca, si la foto no llena el espacio sin agrandarse, se muestra
+completa a su tamaño real a la derecha (`mk-hero-real`). Al bajar fotos, `scripts/fotos.mjs` aplica un tope de peso
+(420 KB portadas, 300 KB el resto) recomprimiendo sin achicar.

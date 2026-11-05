@@ -33,6 +33,19 @@
     '<a href="#gama" class="btn btn-line">Ver la gama</a></div>'+
     '</div></header>';
 
+  // Foto de portada que no alcanza a llenar el espacio sin agrandarse: se muestra completa a su tamaño real (nunca borrosa)
+  (function () {
+    var im = new Image();
+    im.onload = function () {
+      var h = cont.querySelector('.mk-hero'); if (!h) return;
+      var caja = h.getBoundingClientRect(), anchoFoto = innerWidth <= 820 ? caja.width : caja.width * 0.66;
+      var alto = innerWidth <= 820 ? Math.min(caja.width * 0.64, caja.height) : caja.height;
+      var dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      if (Math.max(anchoFoto / im.naturalWidth, alto / im.naturalHeight) * dpr > 1.05) h.classList.add('mk-hero-real');
+    };
+    im.src = heroImg;
+  })();
+
   // bloque editorial de marca (texto real de la web oficial)
   var CB=(window.OCEANIC_MARCA_CONTENIDO||{})[slug], relato='';
   if(CB){

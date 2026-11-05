@@ -68,14 +68,14 @@ window.OCEANIC_MARCAS={
   "nombre": "Aquila",
   "pais": "EE.UU.",
   "universo": "Motor",
-  "hero": "modelos/aquila-42-coupe-g15.webp",
+  "hero": "modelos/aquila-32-sport-g9.webp",
   "claim": "El catamarán a motor, pensado desde cero.",
   "intro": "Power catamarans diseñados específicamente como multicasco a motor. Espacio de yate, estabilidad y autonomía para la costa y la travesía.",
   "lineas": {
    "motor": {
     "nombre": "Aquila",
     "universo": "Motor",
-    "hero": "modelos/aquila-42-coupe-g15.webp"
+    "hero": "modelos/aquila-32-sport-g9.webp"
    },
    "vela": {
     "nombre": "Aquila Sail",

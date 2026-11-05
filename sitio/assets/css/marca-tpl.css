@@ -281,3 +281,7 @@
 .premios-texto{margin:clamp(16px,1.8vw,24px) 0 0;font-family:var(--texto);font-size:14px;line-height:1.6;color:var(--trabajo)}
 .premios-texto span+span::before{content:" · "}
 @media(max-width:520px){.premios-logos{grid-template-columns:repeat(2,1fr)}}
+/* foto de portada chica: completa, a su tamaño real, centrada en su mitad (sin agrandarla) */
+.mk-hero.mk-hero-real::before{width:46%;background-size:contain;background-position:right center;background-color:transparent;right:var(--gut)}
+@media(max-width:820px){.mk-hero.mk-hero-real::before{width:auto;left:16px;right:16px;background-position:center}}
+@media(min-width:821px){.mk-hero.mk-hero-real .wrap-wide>*{max-width:46%}}
