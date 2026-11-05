@@ -39,5 +39,12 @@
   // BREVO_API_KEY se cargan en el panel de Cloudflare (Worker › Settings › Variables and Secrets). keep_vars evita
   // que cada despliegue las borre.
   "keep_vars": true,
+  // Correos de los formularios (no son secretos): sale de contacto@ y llega a ventasweb@ (decisión Oceanic 2026-11-05).
+  // El remitente debe estar verificado en Brevo (dominio oceanic.cl autenticado).
+  "vars": {
+    "REMITENTE_EMAIL": "contacto@oceanic.cl",
+    "REMITENTE_NOMBRE": "Oceanic",
+    "VENTAS_EMAIL": "ventasweb@oceanic.cl"
+  },
   "observability": { "enabled": true }
 }

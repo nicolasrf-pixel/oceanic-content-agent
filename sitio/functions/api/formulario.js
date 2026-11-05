@@ -3,7 +3,7 @@
 
    Qué hace, en orden:
    1. Valida y limpia los datos (y descarta bots con el campo trampa "web").
-   2. Envía el aviso a ventas@ (salvo la suscripción sola a Puerto, que solo pide la doble confirmación). Si esto falla responde 502 y el navegador abre el correo del
+   2. Envía el aviso a ventas (VENTAS_EMAIL, ventasweb@oceanic.cl) (salvo la suscripción sola a Puerto, que solo pide la doble confirmación). Si esto falla responde 502 y el navegador abre el correo del
       visitante como respaldo: así nunca se pierde una solicitud.
    3. Mejor esfuerzo (si falla no bloquea): agradecimiento al cliente (con cada solicitud, texto según el tipo), contacto en Brevo con el
       consentimiento (fecha y versión de la política), negocio en el pipeline y, si el visitante
@@ -11,6 +11,8 @@
 
    Variables (Cloudflare → Worker oceanic → Settings → Variables and secrets): ver docs/FORMULARIOS.md en la raíz del repo.
    La clave de Brevo la guarda Nico como secreto: nunca va en el código, el chat ni el correo. */
+
+import { cotizacionVentas, cotizacionCliente, barcoDelCatalogo } from './correos.js';
 
 const TIPOS = {
   cotizacion:   { linea: 'Embarcaciones nuevas', asunto: 'Cotización' },
@@ -23,7 +25,7 @@ const TIPOS = {
 };
 
 const LIMITES = { nombre: 120, email: 160, telefono: 40, via: 20, motivo: 120, marca: 120, modelo: 160,
-  universo: 60, resumen: 400, href: 300, origen: 300, mensaje: 3000, detalle: 3000 };
+  universo: 60, resumen: 400, href: 300, origen: 300, mensaje: 3000, detalle: 3000, ficha: 120, intencion: 80 };
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const BREVO = 'https://api.brevo.com/v3';
@@ -56,7 +58,10 @@ export async function onRequestPost({ request, env }) {
   if (!env.BREVO_API_KEY || !env.REMITENTE_EMAIL) return json({ ok: false, error: 'sin-configurar' }, 503);
 
   const brevo = clienteBrevo(env.BREVO_API_KEY);
-  const ventas = env.VENTAS_EMAIL || 'ventas@oceanic.cl';
+  const ventas = env.VENTAS_EMAIL || 'ventasweb@oceanic.cl';
+  // Cotización desde una ficha: los datos del barco salen del catálogo del sitio, no de lo que mande el navegador
+  const barco = d.tipo === 'cotizacion' && d.ficha ? await barcoDelCatalogo(env, new URL(request.url).origin, d.ficha) : null;
+  if (barco) { d.marca = barco.marca; d.modelo = barco.nombre; }
   const remitente = { email: env.REMITENTE_EMAIL, name: env.REMITENTE_NOMBRE || 'Oceanic' };
 
   // Suscripción sola a Puerto: no hay solicitud que avisar a ventas, y el contacto lo crea Brevo
@@ -66,7 +71,7 @@ export async function onRequestPost({ request, env }) {
     return r.ok ? json({ ok: true }) : json({ ok: false, error: 'puerto' }, 502);
   }
 
-  const aviso = correoVentas(d);
+  const aviso = correoVentas(d, barco);
   const enviado = await brevo('POST', '/smtp/email', {
     sender: remitente,
     to: [{ email: ventas }],
@@ -77,7 +82,7 @@ export async function onRequestPost({ request, env }) {
   });
   if (!enviado.ok) return json({ ok: false, error: 'envio' }, 502);
 
-  const conf = correoConfirmacion(d);
+  const conf = correoConfirmacion(d, barco);
   const tareas = [
     guardarContacto(brevo, d, env),
     brevo('POST', '/smtp/email', {
@@ -146,7 +151,8 @@ function origenPermitido(request, env) {
 
 /* ---------- correos ---------- */
 
-export function correoVentas(d) {
+export function correoVentas(d, barco) {
+  if (d.tipo === 'cotizacion') return cotizacionVentas(d, barco);
   const t = TIPOS[d.tipo];
   const bloques = [
     ['Solicitud', [
@@ -226,7 +232,8 @@ const AGRADECIMIENTO = {
   }),
 };
 
-export function correoConfirmacion(d) {
+export function correoConfirmacion(d, barco) {
+  if (d.tipo === 'cotizacion') return cotizacionCliente(d, barco);
   const t = AGRADECIMIENTO[d.tipo](d);
   const saludo = d.nombre ? 'Hola ' + d.nombre.split(' ')[0] + ',' : 'Hola,';
   const copia = [

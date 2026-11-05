@@ -47,11 +47,13 @@ test('cotización: avisa a ventas, confirma al cliente y guarda el contacto', as
   assert.equal(correos.length, 2);
   assert.equal(correos[0].cuerpo.to[0].email, 'ventas@oceanic.example');
   assert.equal(correos[0].cuerpo.replyTo.email, 'prueba@ejemplo.cl');
-  assert.match(correos[0].cuerpo.subject, /Axopar 37 XC/);
+  assert.equal(correos[0].cuerpo.subject, 'Tienes una cotización web, Axopar 37 XC');
+  assert.match(correos[0].cuerpo.htmlContent, /Persona Prueba ha cotizado un Axopar 37 XC/);
   assert.equal(correos[1].cuerpo.to[0].email, 'prueba@ejemplo.cl');
-  assert.equal(correos[1].cuerpo.subject, 'Gracias por tu solicitud de cotización del Axopar 37 XC');
+  assert.equal(correos[1].cuerpo.subject, 'Hemos recibido tu cotización de un Axopar 37 XC');
   assert.match(correos[1].cuerpo.textContent, /^Hola Persona,/);
   assert.match(correos[1].cuerpo.textContent, /Tu mensaje: Hola/);
+  assert.match(correos[1].cuerpo.textContent, /Gracias por cotizar en Oceanic/);
   const contacto = llamadas.find((l) => l.ruta === '/contacts' && l.metodo === 'POST');
   assert.equal(contacto.cuerpo.attributes.POLITICA_VERSION, '2026-11-borrador');
   assert.equal(contacto.cuerpo.attributes.MODELO, 'Axopar 37 XC');
@@ -179,4 +181,23 @@ test('Ley 21.719: sin aceptar la política no se procesa la solicitud', async ()
   assert.equal(validar(limpiar({ tipo: 'contacto', nombre: 'A', email: 'a@b.cl', acepta: 'true' })), 'acepta');
   assert.equal(validar(limpiar({ tipo: 'contacto', nombre: 'A', email: 'a@b.cl', acepta: true })), null);
   assert.equal(validar(limpiar({ tipo: 'privacidad', nombre: 'A', email: 'a@b.cl', motivo: 'Supresión', acepta: true })), null);
+});
+
+test('cotización desde la ficha: los datos del barco salen del catálogo del sitio, no del navegador', async () => {
+  const llamadas = simularBrevo();
+  const catalogo = '/* catálogo */\nwindow.OCEANIC_CATALOGO={"beneteau":{"nombre":"Beneteau","pais":"Francia","modelos":[' +
+    '{"slug":"first-30","nombre":"First 30","tipo":"vela","eslora":"9,35 m","manga":"2,99 m","camarotes":"2 (+1 opcional)","peso":"3.040 kg","tarjeta":"modelos/first-30-g2.webp"}]}};';
+  const env = { ...ENV, ASSETS: { fetch: async (req) => new URL(req.url).pathname === '/assets/js/catalogo-data.js' ? new Response(catalogo) : new Response('', { status: 404 }) } };
+  const r = await onRequestPost({ request: pedido({ ...COTIZACION, marca: 'Otra', modelo: 'Falso', ficha: 'beneteau/first-30', intencion: 'Esta temporada', telefono: '+56 9 1234 5678' }), env });
+  assert.equal(r.status, 200);
+  const [ventas, cliente] = llamadas.filter((l) => l.ruta === '/smtp/email').map((l) => l.cuerpo);
+  assert.equal(ventas.subject, 'Tienes una cotización web, Beneteau First 30');
+  assert.match(ventas.htmlContent, /Persona Prueba ha cotizado un Beneteau First 30/);
+  assert.match(ventas.htmlContent, /Esta temporada/);
+  assert.match(ventas.htmlContent, /https:\/\/wa\.me\/56912345678/);
+  assert.match(ventas.htmlContent, /https:\/\/oceanic\.example\/assets\/img\/modelos\/first-30-g2\.webp/);
+  assert.equal(cliente.subject, 'Hemos recibido tu cotización de un Beneteau First 30');
+  assert.match(cliente.htmlContent, /9,35 m/);
+  assert.ok(!/opcional/i.test(cliente.htmlContent), 'la ficha corta no muestra opcionales');
+  assert.ok(!/Falso/.test(ventas.htmlContent + cliente.htmlContent), 'ignora el modelo que manda el navegador');
 });

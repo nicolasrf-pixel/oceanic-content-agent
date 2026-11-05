@@ -283,7 +283,12 @@
         '<a class="cot-wa" href="' + wa + '" target="_blank" rel="noopener">Prefiero conversar por WhatsApp →</a>' +
       '</aside>' +
       '<div class="cot-panel">' +
-        '<form class="cot-form" data-form="cotizacion" data-modelo="' + esc(mo.nombre) + '" data-marca="' + esc(info.nombre) + '" data-universo="' + esc(famLabel(mo.tipo)) + '" data-ok="#cokModelo" novalidate>' + HP +
+        '<form class="cot-form" data-form="cotizacion" data-modelo="' + esc(mo.nombre) + '" data-marca="' + esc(info.nombre) + '" data-universo="' + esc(famLabel(mo.tipo)) + '"' +
+          ' data-ficha="' + esc(marca + '/' + mslug) + '" data-gracias="' + esc(JSON.stringify({
+            barco: mo.nombre.toLowerCase().indexOf(info.nombre.toLowerCase()) === 0 ? mo.nombre : info.nombre + ' ' + mo.nombre,
+            marca: info.nombre, foto: fCot ? new URL(IMG(AB, fCot), location.href).href : '', url: location.href.split('#')[0],
+            gama: new URL(gama, location.href).href, dato: [mo.eslora ? 'Eslora ' + mo.eslora : '', famLabel(mo.tipo)].filter(Boolean).join(' · ')
+          })) + '" data-ok="#cokModelo" novalidate>' + HP +
           '<fieldset class="cot-cuando"><legend>¿Cuándo te gustaría navegar?</legend>' +
             ['Esta temporada', 'En 6 a 12 meses', 'Estoy explorando'].map(function (t, k) {
               return '<label class="cot-chip"><input type="radio" name="intencion" value="' + t + '"' + (k === 0 ? ' checked' : '') + '><span>' + t + '</span></label>';

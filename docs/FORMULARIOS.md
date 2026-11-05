@@ -115,3 +115,13 @@ casilla opcional de Puerto). Sin ella el endpoint responde 422 `acepta`. `formul
 `form[data-form]` y `form[data-puerto]`; charter y equipamiento la tienen en su propio formulario. Nuevo tipo
 `privacidad` (solicitudes de acceso, rectificación, supresión, oposición, portabilidad, bloqueo) desde `/privacidad/`.
 Cada solicitud guarda la versión de la política (`POLITICA_VERSION`) y la fecha.
+
+
+## Correos de cotización y página de gracias (decisión Oceanic 2026-11-05)
+
+- **Casillas:** salen de `contacto@oceanic.cl` (REMITENTE_EMAIL, verificado en Brevo) y llegan a `ventasweb@oceanic.cl` (VENTAS_EMAIL). Quedan en `sitio/wrangler.jsonc › vars` (no son secretos). El respaldo por correo del navegador también apunta a ventasweb@.
+- **Cotización desde una ficha:** el formulario manda `ficha` (`marca/slug`) e `intencion`. El servidor toma los datos del barco del catálogo del propio sitio (`assets/js/catalogo-data.js`), no de lo que mande el navegador. Plantillas en `sitio/functions/api/correos.js`:
+  - A ventas: «Tienes una cotización web, Beneteau First 30». «[Nombre] ha cotizado un Beneteau First 30», botones Responder / WhatsApp / Llamar, datos del cotizante ordenados (nombre, correo, teléfono, cuándo quiere navegar, mensaje, Puerto) y ficha corta del barco (foto, eslora, manga, camarotes, desplazamiento, enlace). Responder el correo le escribe directo al cliente.
+  - Al cliente: «Hemos recibido tu cotización de un Beneteau First 30». Saludo, ficha corta del barco con foto, «Lo que nos contaste», cierre («Nos pondremos en contacto contigo lo antes posible. Gracias por cotizar en Oceanic. Saludos, Equipo Oceanic») y pie con dirección, teléfono y nota de privacidad.
+  - HTML de tablas con estilos en línea (Gmail, Outlook, Apple Mail), 600 px, sin opcionales. Las fotos son WebP: Outlook de escritorio no las muestra (queda el texto alternativo); el resto sí.
+- **Página de gracias:** `sitio/gracias/` se abre cuando el servidor recibe la cotización (si falla y se usa el respaldo por correo, se queda el aviso en la ficha). Muestra «¡Gracias, [Nombre]!», el barco y los pasos siguientes, con los botones «Volver al home» y «Seguir viendo [marca]». Los datos pasan por `sessionStorage`, nunca por la URL. No se indexa.

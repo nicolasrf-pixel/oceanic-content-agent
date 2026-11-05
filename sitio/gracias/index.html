@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Gracias por cotizar | Oceanic</title>
+<meta name="robots" content="noindex"/>
+<link href="../assets/img/favicon-32.png" rel="icon" type="image/png"/>
+<link href="../assets/img/favicon-180.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/oceanic.css" rel="stylesheet"/>
+<link href="../assets/css/orden.css" rel="stylesheet"/>
+<link href="../assets/css/gracias.css" rel="stylesheet"/>
+<link href="../assets/css/oscuro.css" rel="stylesheet"/>
+<script>try{var t=localStorage.getItem("oceanic-tema");if(t)document.documentElement.setAttribute("data-tema",t)}catch(e){}</script>
+</head>
+<body data-asset-base="../assets/img/">
+<div id="nav"></div>
+
+<main class="gr">
+<div class="wrap gr-in">
+<div class="gr-txt">
+<span class="gr-check" aria-hidden="true"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-16"/></svg></span>
+<p class="eyebrow gr-eti">Cotización recibida</p>
+<h1 class="gr-h1" id="grTitulo">¡Gracias por cotizar!</h1>
+<p class="gr-lede" id="grTexto">Recibimos tu cotización. Te enviamos una copia a tu correo y un especialista de Oceanic te escribirá lo antes posible con precio, configuración y plazos.</p>
+<ol class="gr-pasos">
+<li><b>Revisamos tu solicitud</b><span>Un especialista mira el barco y lo que nos contaste.</span></li>
+<li><b>Te escribimos</b><span>Con precio, configuración y plazos de entrega en Chile.</span></li>
+<li><b>Lo conversamos</b><span>Por correo, teléfono o WhatsApp, como prefieras.</span></li>
+</ol>
+<div class="gr-cta">
+<a class="btn" href="../index.html">Volver al home</a>
+<a class="btn btn-line btn-line-dark" href="../index.html#marcas" id="grGama">Seguir viendo barcos</a>
+</div>
+</div>
+<a class="gr-barco" id="grBarco" hidden href="#"><span class="gr-foto"><img alt="" id="grFoto"/></span><span class="gr-nombre" id="grNombre"></span><span class="gr-dato" id="grDato"></span></a>
+</div>
+</main>
+
+<div id="foot"></div>
+<div class="drawer" hidden="" id="drawer"></div>
+<script src="../assets/js/nav-tpl.js"></script>
+<script src="../assets/js/catalogo-data.js"></script>
+<script src="../assets/js/publicacion.js"></script>
+<script>
+/* Datos de la cotización recién enviada: los deja formularios.js en sessionStorage (nunca en la URL). */
+(function () {
+  var g = null;
+  try { g = JSON.parse(sessionStorage.getItem('oceanic-gracias') || 'null'); } catch (e) {}
+  if (!g) return;
+  var nombre = (g.nombre || '').split(' ')[0];
+  if (nombre) document.getElementById('grTitulo').textContent = '¡Gracias, ' + nombre + '!';
+  if (g.barco) document.getElementById('grTexto').textContent = 'Recibimos tu cotización del ' + g.barco + '. Te enviamos una copia a tu correo y un especialista de Oceanic te escribirá lo antes posible con precio, configuración y plazos.';
+  if (g.gama) { var gm = document.getElementById('grGama'); gm.href = g.gama; gm.textContent = 'Seguir viendo ' + (g.marca || 'barcos'); }
+  if (g.foto && g.url) {
+    var a = document.getElementById('grBarco');
+    a.href = g.url; a.hidden = false;
+    document.getElementById('grFoto').src = g.foto;
+    document.getElementById('grFoto').alt = g.barco || '';
+    document.getElementById('grNombre').textContent = g.barco || '';
+    document.getElementById('grDato').textContent = g.dato || '';
+  }
+})();
+</script>
+<script src="../assets/js/oceano.js"></script>
+</body>
+</html>

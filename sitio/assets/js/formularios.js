@@ -7,7 +7,7 @@
 (function () {
   'use strict';
   var ENDPOINT = '/api/formulario';
-  var VENTAS = 'ventas@oceanic.cl';
+  var VENTAS = 'ventasweb@oceanic.cl';  // casilla que recibe los formularios (respaldo por correo)
   var ESPERA_MS = 15000;
 
   function abrirCorreo(r) {
@@ -95,7 +95,8 @@
       nombre: v('nombre'), email: v('email'), telefono: v('telefono'),
       motivo: v('motivo'), mensaje: v('mensaje'),
       puerto: !!(f.elements.puerto && f.elements.puerto.checked),
-      detalle: v('intencion') ? 'Intención elegida: ' + v('intencion') : '',
+      intencion: v('intencion'),
+      ficha: f.getAttribute('data-ficha') || '',
       web: v('web')
     };
     var err = f.querySelector('[data-form-err]');
@@ -120,12 +121,20 @@
     lineas.push('Datos de contacto:', '• Nombre: ' + d.nombre, '• Correo: ' + d.email);
     if (d.telefono) lineas.push('• Teléfono: ' + d.telefono);
     if (d.motivo) lineas.push('• Motivo: ' + d.motivo);
+    if (d.intencion) lineas.push('• ¿Cuándo quiero navegar?: ' + d.intencion);
     if (d.mensaje) lineas.push('', 'Mensaje:', d.mensaje);
     var asunto = (d.modelo ? 'Cotización ' + d.modelo : 'Contacto web') + ', ' + d.nombre + (d.motivo ? ' (' + d.motivo + ')' : '');
     var btn = f.querySelector('button[type=submit]');
     var txtBtn = btn ? btn.textContent : '';
     if (btn) { btn.disabled = true; btn.textContent = 'Enviando…'; }
     window.OCEANIC_ENVIAR(d, { asunto: asunto, cuerpo: lineas.join('\n') }).then(function (r) {
+      // Cotización recibida por el servidor: página de gracias (los datos van en sessionStorage, nunca en la URL)
+      var gr = f.getAttribute('data-gracias');
+      if (r.via === 'servidor' && gr) {
+        try { var g = JSON.parse(gr); g.nombre = d.nombre; sessionStorage.setItem('oceanic-gracias', JSON.stringify(g)); } catch (e2) {}
+        location.href = PRE + 'gracias/index.html';
+        return;
+      }
       var ok = document.querySelector(f.getAttribute('data-ok') || '');
       if (ok) {
         var via = ok.querySelector('[data-via]');
