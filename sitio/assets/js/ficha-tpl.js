@@ -109,10 +109,11 @@
     // 2 · Relato: introducción oficial
     if (P.intro && P.intro.length) {
       var foto = F.sig();
-      html.push('<section class="story" id="historia"><div class="wrap">' +
+      html.push('<section class="story" id="historia"><div class="wrap"><div class="story-intro">' +
+        '<span class="story-marca" aria-hidden="true"></span>' +
         '<p class="story-line story-em' + (P.intro[0].length > 90 ? ' story-larga' : '') + '">' + esc(P.intro[0]) + '</p>' +
-        (P.intro.length > 1 ? '<div class="lede narrow" style="margin:28px auto 0;text-align:left;max-width:62ch">' + parr(P.intro.slice(1)) + '</div>' : '') +
-        '</div>' + (foto ? '<figure class="story-fig">' + img(foto, mo.nombre) + '</figure>' : '') + '</section>');
+        (P.intro.length > 1 ? '<div class="story-mas">' + parr(P.intro.slice(1)) + '</div>' : '') +
+        '</div></div>' + (foto ? '<figure class="story-fig">' + img(foto, mo.nombre) + '</figure>' : '') + '</section>');
     }
 
     // 2b · Premios que publica la página oficial del modelo (tools/sitio_medios.py)
@@ -229,12 +230,19 @@
 
     // 8 · Ficha técnica (datos verificados de la biblioteca)
     if (mo.specs && mo.specs.length) {
-      var mid = Math.ceil(mo.specs.length / 2);
-      var cols = function (a) { return a.map(function (s) { return '<div class="sp"><span>' + esc(s.label) + '</span><span>' + esc(s.value) + (s.note ? ' <i>' + esc(s.note) + '</i>' : '') + '</span></div>'; }).join(''); };
+      var fila = function (x) {
+        return '<div class="sp2"><span class="sp2-l">' + esc(x.label) + '</span><span class="sp2-v">' + esc(x.value) +
+          (x.note ? '<i>' + esc(x.note) + '</i>' : '') + '</span></div>';
+      };
+      var larga = function (x) { return x.value.length > 34; };
+      var cortas = mo.specs.filter(function (x) { return !larga(x); }), largas = mo.specs.filter(larga);
+      var mid = Math.ceil(cortas.length / 2);
       cuerpo.push(seccion('ficha', cabeza('Ficha técnica') +
-        '<div class="spec"><div>' + cols(mo.specs.slice(0, mid)) + '</div><div>' + cols(mo.specs.slice(mid)) + '</div></div>' +
+        '<div class="spec2"><div class="spec2-cols"><div>' + cortas.slice(0, mid).map(fila).join('') + '</div><div>' +
+        cortas.slice(mid).map(fila).join('') + '</div></div>' +
+        (largas.length ? '<div class="spec2-largas">' + largas.map(fila).join('') + '</div>' : '') +
         '<p class="spec-fuente">Especificaciones según la ficha oficial de ' + esc(info.nombre) + (mo.anio ? ' (modelo ' + esc(mo.anio) + ')' : '') +
-        '. Los valores finales pueden variar según configuración y motorización.</p>'));
+        '. Los valores finales pueden variar según configuración y motorización.</p></div>'));
       nav.push(['ficha', 'Ficha técnica']);
     }
 

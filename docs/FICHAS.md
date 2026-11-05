@@ -102,3 +102,14 @@ nombre y descripción salen del catálogo. Un modelo apagado no se muestra. Lo e
 ### Logos de los premios (decisión Oceanic 2026-11-05)
 
 Cada premio se muestra con el logo que publica la página oficial del modelo. `python3 tools/sitio_premios_logos.py` lee la página en vivo, toma los logos (Beneteau: bloque «Awards», título = premio; Aquila: imagen del premio; Lagoon, XO y Axopar AX/E 22: emparejados a la vista en `tools/premios-logos-manual.json`, con recorte cuando la insignia viene dentro de otra imagen), guarda una copia web en `sitio/assets/img/premios/` (no se enlaza al fabricante) y escribe `tools/premios-logos.json`. En Beneteau y Aquila la lista de logos de la página es la lista vigente de premios (reemplaza la captura). Después se corre `tools/sitio_medios.py`. Los premios sin logo publicado (algunos Lagoon y Saffier, cuya web además bloquea lectores automáticos) quedan como una línea de texto bajo los logos. Los logos van siempre sobre fondo blanco, también en modo oscuro.
+
+### Ficha técnica y texto principal (2026-11-05)
+
+- La tabla se muestra centrada (máx. 960 px), con línea naranja arriba y separadores naranjos finos; las filas de valor largo
+  (p. ej. arquitectura naval) van a todo el ancho bajo las dos columnas.
+- `assets/js/publicacion.js` limpia los valores solo para mostrarlos (la biblioteca queda literal): saca los opcionales
+  (también "optional", "opt.", "OPZ", "; opción …"), traduce los términos técnicos en inglés (Naval architect → Arquitecto naval,
+  Interior design → Diseño interior, knots → nudos, según layout → según distribución, etc.; los nombres propios no se tocan) y
+  quita la etiqueta repetida al inicio del valor ("Motor auxiliar hasta 14 hp" → "Hasta 14 hp").
+- El texto principal de la ficha va en un bloque centrado con una raya naranja y una entrada suave (sube y se enfoca; nunca
+  parte invisible).
