@@ -50,6 +50,7 @@ export async function onRequestPost({ request, env }) {
   if (error) return json({ ok: false, error }, 422);
 
   d.fecha = new Date().toISOString();
+  d.sitio = new URL(request.url).origin;  // para el logo y los enlaces de los correos
   d.politica = env.POLITICA_VERSION || 'sin-version';
 
   // Modo prueba: valida todo pero no envía nada (para probar sin datos reales ni Brevo).

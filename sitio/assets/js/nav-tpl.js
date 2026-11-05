@@ -31,7 +31,7 @@
     ['Charter',pre+'charter/index.html'],['Puerto',pre+'puerto/index.html'],['Oceanic',pre+'nosotros/index.html']
   ];
   var nav='<div class="bar"><div class="bar-in">'+
-    '<a href="'+pre+'index.html" class="bar-brand">OCEANIC<i></i></a>'+
+    '<a href="'+pre+'index.html" class="bar-brand" aria-label="Oceanic, ir al inicio"><img src="'+pre+'assets/img/marca/logo-blanco.svg" alt="Oceanic" width="110" height="18"></a>'+
     '<nav class="nav" aria-label="Principal">'+drop+
     items.map(function(x){return '<a href="'+x[1]+'" class="nav-a">'+x[0]+'</a>';}).join('')+
     '</nav><div class="bar-act">'+
@@ -51,7 +51,7 @@
 
   // footer
   var foot='<footer class="ft"><div class="wrap-wide"><div class="ft-top">'+
-    '<div class="ft-brand"><span class="ft-logo">OCEANIC<i></i></span><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
+    '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
     '<div class="ft-cols">'+
     '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
     '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+

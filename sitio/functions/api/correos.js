@@ -42,10 +42,18 @@ function marco(contenido, preencabezado) {
     contenido + '</table></td></tr></table></body></html>';
 }
 
-function cabecera(etiqueta) {
-  return '<tr><td style="background:' + C.noche + ';padding:22px 32px">' +
+// Logo oficial en PNG (Gmail y Outlook no muestran SVG), al doble de tamaño para pantallas retina.
+function logo(sitio, est, ancho) {
+  if (!sitio) return 'OCEANIC<span style="color:' + C.boya + '">&#9679;</span>';
+  return '<img src="' + esc(sitio) + '/assets/img/marca/' + (est ? 'logo-blanco-est-correo.png' : 'logo-blanco-correo.png') +
+    '" width="' + ancho + '" alt="Oceanic' + (est ? ', est. 1994' : '') + '" style="display:block;width:' + ancho + 'px;height:auto;border:0;' +
+    FUENTE + ';font-size:15px;font-weight:700;letter-spacing:4px;color:#ffffff">';
+}
+
+function cabecera(etiqueta, sitio) {
+  return '<tr><td style="background:' + C.noche + ';padding:24px 32px">' +
     '<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>' +
-    '<td style="' + FUENTE + ';font-size:15px;font-weight:700;letter-spacing:4px;color:#ffffff">OCEANIC<span style="color:' + C.boya + '">&#9679;</span></td>' +
+    '<td style="' + FUENTE + ';font-size:15px;font-weight:700;letter-spacing:4px;color:#ffffff">' + logo(sitio, true, 160) + '</td>' +
     (etiqueta ? '<td align="right" style="' + FUENTE + ';font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#AAB4BC">' + esc(etiqueta) + '</td>' : '') +
     '</tr></table></td></tr>';
 }
@@ -86,9 +94,9 @@ function fichaBarco(b, grande) {
     '</td></tr></table>';
 }
 
-function pie(nota) {
+function pie(nota, sitio) {
   return '<tr><td style="background:' + C.noche + ';padding:24px 32px">' +
-    '<p style="margin:0 0 6px;' + FUENTE + ';font-size:13px;font-weight:700;letter-spacing:3px;color:#ffffff">OCEANIC<span style="color:' + C.boya + '">&#9679;</span></p>' +
+    '<div style="margin:0 0 10px;' + FUENTE + ';font-size:13px;font-weight:700;letter-spacing:3px;color:#ffffff">' + logo(sitio, false, 96) + '</div>' +
     '<p style="margin:0;' + FUENTE + ';font-size:12px;line-height:1.6;color:#AAB4BC">' + esc(OFICINA) + ' · ' + esc(TELEFONO) + '</p>' +
     (nota ? '<p style="margin:12px 0 0;' + FUENTE + ';font-size:11px;line-height:1.5;color:#7F8C96">' + nota + '</p>' : '') +
     '</td></tr>';
@@ -114,7 +122,7 @@ export function cotizacionVentas(d, b) {
     ['Newsletter Puerto', d.puerto ? 'Sí, pidió recibirlo (pendiente de confirmar su correo)' : 'No'],
   ];
   const html = marco(
-    cabecera('Cotización web') +
+    cabecera('Cotización web', d.sitio) +
     '<tr><td style="padding:30px 32px 6px">' +
     '<h1 style="margin:0 0 6px;' + FUENTE + ';font-size:24px;line-height:1.3;font-weight:700;color:' + C.noche + '">' + esc(quien) + ' ha cotizado un ' + esc(barco) + '</h1>' +
     '<p style="margin:0 0 20px;' + FUENTE + ';font-size:14px;color:' + C.trabajo + '">Recibida el ' + esc(fechaChile(d.fecha)) + '</p>' +
@@ -127,7 +135,7 @@ export function cotizacionVentas(d, b) {
     '<tr><td style="padding:18px 32px 28px;' + FUENTE + ';font-size:12px;line-height:1.6;color:' + C.trabajo + '">' +
     'Página: <a href="' + esc(d.href || d.origen) + '" style="color:' + C.trabajo + '">' + esc(d.href || d.origen) + '</a><br>' +
     'Aceptó la política de privacidad (versión ' + esc(d.politica) + '). Responde este correo para escribirle directo a ' + esc(quien) + '.</td></tr>' +
-    pie(''),
+    pie('', d.sitio),
     quien + (d.intencion ? ' · ' + d.intencion : '') + ' · ' + d.email);
   const txt = texto([
     quien + ' ha cotizado un ' + barco + ':', '',
@@ -154,7 +162,7 @@ export function cotizacionCliente(d, b) {
   ];
   const p = (t, extra) => '<p style="margin:0 0 14px;' + FUENTE + ';font-size:16px;line-height:1.65;color:' + C.noche + (extra || '') + '">' + t + '</p>';
   const html = marco(
-    cabecera('') +
+    cabecera('', d.sitio) +
     '<tr><td style="padding:34px 32px 10px">' +
     p('Hola ' + esc(nombre || '') + ',', ';font-size:20px;font-weight:700') +
     p('Hemos recibido tu cotización del <b>' + esc(barco) + '</b>. Un especialista de Oceanic la está revisando para ' +
@@ -169,7 +177,7 @@ export function cotizacionCliente(d, b) {
     '<p style="margin:18px 0 0;' + FUENTE + ';font-size:13px;line-height:1.6;color:' + C.trabajo + '">¿Quieres agregar algo? Responde este correo y le llega directo a nuestro equipo de ventas.</p>' +
     '</td></tr>' +
     pie('Recibes este correo porque solicitaste una cotización en el sitio de Oceanic. Tus datos se usan solo para responder ' +
-      'esta solicitud, según nuestra política de privacidad.'),
+      'esta solicitud, según nuestra política de privacidad.', d.sitio),
     'Un especialista de Oceanic te escribirá pronto con precio, configuración y plazos.');
   const txt = texto([
     'Hola ' + (nombre || '') + ',', '',

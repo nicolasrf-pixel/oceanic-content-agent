@@ -497,3 +497,9 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 /* Bandas: gris muy claro uno por medio entre bloques blancos (lo asigna assets/js/oceano.js) */
 :root{--banda:#F4F4F2}
 section.o-banda{background-color:var(--banda)!important}
+
+/* Marca: logos oficiales (assets/img/marca/). Blanco sobre azul en barra y pie. */
+.bar-brand{display:inline-flex;align-items:center;line-height:0}
+.bar-brand img{display:block;height:clamp(16px,1.15vw,19px);width:auto}
+.ft-logo{display:inline-block;line-height:0}
+.ft-logo img{display:block;width:170px;height:auto}

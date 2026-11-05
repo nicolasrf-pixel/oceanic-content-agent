@@ -211,6 +211,8 @@ Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=
 superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
 Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
 
+**Marca (decisión Oceanic 2026-11-05):** logos oficiales en `sitio/assets/img/marca/`: `logo.svg` / `logo-blanco.svg` (sin «EST. 1994», para tamaños chicos: barra superior), `logo-est.svg` / `logo-blanco-est.svg` (completo, donde se lea: pie, página 404, correos), `iso.svg` / `iso-blanco.svg` (isotipo: íconos de pestaña). Blanco siempre sobre azul (barra y pie). Los correos usan PNG (`logo-blanco-est-correo.png`, `logo-blanco-correo.png`) porque Gmail y Outlook no muestran SVG. No se escribe «OCEANIC» como texto en lugar del logo.
+
 **Ley 21.719 y experiencia (decisión Oceanic 2026-11-05):** `sitio/privacidad/` es la política (BORRADOR con [RAZÓN SOCIAL],
 [RUT], [DOMICILIO], [CORREO DE PRIVACIDAD] y plazos por completar, revisión legal pendiente) con formulario de derechos
 (tipo `privacidad`). Todo formulario lleva la casilla obligatoria de aceptación (`acepta`, separada de Puerto, que es
