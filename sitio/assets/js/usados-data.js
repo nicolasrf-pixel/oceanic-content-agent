@@ -81,12 +81,24 @@ window.OCEANIC_USADOS=[
   "fecha": "2026-10-09",
   "resumen": "Cabinada de aluminio, uso intensivo y mar abierto. Año 2024, revisada por Oceanic.",
   "texto": "",
-  "fotos": [],
+  "fotos": [
+   "/assets/img/modelos/xo-dfndr-8-hero.webp",
+   "/assets/img/modelos/xo-dfndr-8-g1.webp",
+   "/assets/img/modelos/xo-dfndr-8-g2.webp",
+   "/assets/img/modelos/xo-dfndr-8-g3.webp",
+   "/assets/img/modelos/xo-dfndr-8-g4.webp",
+   "/assets/img/modelos/xo-dfndr-8-g5.webp",
+   "/assets/img/modelos/xo-dfndr-8-g6.webp",
+   "/assets/img/modelos/xo-dfndr-8-g7.webp",
+   "/assets/img/modelos/xo-dfndr-8-g8.webp",
+   "/assets/img/modelos/xo-dfndr-8-g9.webp"
+  ],
   "docs": [],
   "portada": {
    "url": "https://oceanic.cl/wp-content/uploads/2026/07/DEFENDER-VENDIDO.jpg",
    "local": "u-xo-dfndr-8-portada.jpg"
-  }
+  },
+  "nota_fotos": "Fotos oficiales de XO Boats (xoboats.com), las de la ficha del modelo: unidad prácticamente nueva."
  },
  {
   "id": "beneteau-oceanis-41",
