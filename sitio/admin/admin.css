@@ -7,7 +7,8 @@ body{margin:0;background:var(--fondo);color:var(--noche);font:15px/1.5 var(--tex
 a{color:var(--trabajo)}
 button,input,select,textarea{font:inherit;color:inherit}
 .top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:16px;background:var(--noche);color:#fff;padding:10px 16px;min-height:56px}
-.logo{font-family:var(--display);font-weight:700;font-size:19px;color:#fff;text-decoration:none;letter-spacing:-.01em}
+.logo{display:inline-flex;align-items:center;gap:4px;font-family:var(--display);font-weight:700;font-size:19px;color:#fff;text-decoration:none;letter-spacing:-.01em}
+.logo img{display:block;height:17px;width:auto}
 .logo span{font-family:var(--dato);font-weight:400;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-left:8px}
 .top-der{margin-left:auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
 .yo{font-family:var(--dato);font-size:12px;color:var(--niebla)}
