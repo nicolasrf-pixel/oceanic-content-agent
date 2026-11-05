@@ -2,8 +2,8 @@
    Se carga al final de cada página: para volver atrás basta con quitar esta hoja. */
 
 /* 1 · Un solo ritmo vertical entre secciones (antes hasta 280 px: páginas de 14.000 px) */
-:root{--rhythm:clamp(72px,7vw,128px)}
-.stmt{padding:clamp(64px,6vw,104px) 0}
+:root{--rhythm:clamp(48px,4.5vw,80px)}
+.stmt{padding:clamp(40px,4vw,64px) 0}
 
 /* 2 · Una sola escala de títulos de sección (antes 40 / 80 / 84 / 88 px según la sección) */
 h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-height:1.08;letter-spacing:-.02em}
@@ -24,7 +24,7 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 .es-ficha .tr dt{font-family:var(--display);font-weight:600;letter-spacing:-.005em;color:var(--noche)}
 .es-ficha .two>div>img,.es-ficha .two>div>picture{margin-top:clamp(20px,2vw,32px)}
 /* secciones de la ficha con el mismo aire arriba y abajo */
-.es-ficha section{padding-top:clamp(64px,6vw,112px);padding-bottom:clamp(64px,6vw,112px)}
+.es-ficha section{padding-top:clamp(44px,4vw,72px);padding-bottom:clamp(44px,4vw,72px)}
 .es-ficha .story{padding-bottom:0}
 
 /* 5 · Encabezados de marca: el texto no queda en una columna angosta */
@@ -33,3 +33,9 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 /* 6 · Equipamiento: sin casillero gris vacío cuando una categoría tiene un número impar de marcas */
 .em-grid{background:transparent;border:0;gap:16px}
 .em{border:1px solid var(--linea);padding-top:clamp(20px,2vw,28px)}
+
+/* 7 · Foto del relato más cerca del texto */
+.es-ficha .story-fig{margin-top:clamp(32px,3vw,56px)}
+/* bloques que traían su propio margen grande (equipamiento y charter en portada, relato de la ficha) */
+.equip,.chome{padding-top:var(--rhythm)!important;padding-bottom:var(--rhythm)!important;min-height:0!important}
+.es-ficha .story{padding-top:clamp(44px,4vw,72px)!important}
