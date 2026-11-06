@@ -60,7 +60,7 @@
   }
 
   // footer
-  var foot='<footer class="ft"><div class="wrap-wide"><div class="ft-top">'+
+  var foot='<footer class="ft"><div class="o-olas" aria-hidden="true"><i></i><i></i></div><div class="wrap-wide"><div class="ft-top">'+
     '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
     '<div class="ft-cols">'+
     '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+

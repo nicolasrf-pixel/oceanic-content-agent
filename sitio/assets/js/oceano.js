@@ -60,6 +60,13 @@
       [].forEach.call(scope.querySelectorAll(par[0]), function (el) {
         if (el.dataset.o || el.closest('.rv, header.hero, .hhero, .bar, .drawer, .ft, form, .form-ok, [hidden]')) return;
         el.dataset.o = '1';
+        // títulos: cada línea entra por separado, como la marea (ver marea())
+        if (par[1] === 'o-texto' && /^H[12]$/.test(el.tagName) && marea(el)) {
+          var r0 = el.getBoundingClientRect();
+          if (r0.top < innerHeight * 0.92 && r0.bottom > 0) requestAnimationFrame(function () { el.classList.add('o-visto'); });
+          else io.observe(el);
+          return;
+        }
         // escalonado entre hermanos (máximo 6 pasos) para que las grillas entren como una ola
         var hermanos = el.parentElement ? [].filter.call(el.parentElement.children, function (x) { return x.matches(par[0]); }) : [el];
         var i = Math.min(hermanos.indexOf(el), 5);
@@ -74,6 +81,19 @@
     fotos(scope);
     portada(scope);
     parallax(scope);
+  }
+
+  // ---------- marea: un título se separa en sus líneas (los <br> que ya trae) y cada una sube con un vaivén ----------
+  function marea(el, base) {
+    if (el.dataset.om) return true;
+    var partes = el.innerHTML.split(/<br\s*\/?>/i);
+    if (partes.length > 6 || /<(div|p|ul|ol|img|svg|section)\b/i.test(el.innerHTML)) return false;
+    el.dataset.om = '1';
+    el.innerHTML = partes.map(function (t, i) {
+      return '<span class="o-linea" style="--i:' + i + (base ? ';--d:' + base + 'ms' : '') + '">' + t + '</span>';
+    }).join('<br>');
+    el.classList.add('o-titulo');
+    return true;
   }
 
   // ---------- fotos que aparecen suave al terminar de cargar (sin saltos ni recuadros en blanco) ----------
@@ -96,7 +116,13 @@
       if (h.dataset.oh) return; h.dataset.oh = '1';
       h.classList.add('o-portada');
       var capas = h.querySelectorAll('.hero-brand, h1, .hero-purpose, .hero-sub, .hero-cta, .crumb, .mk-claim, .mk-intro, .mk-cta, p, .btn');
-      [].forEach.call(capas, function (c, i) { if (i < 8) { c.classList.add('o-capa'); c.style.animationDelay = (120 + i * 110) + 'ms'; } });
+      [].forEach.call(capas, function (c, i) {
+        if (i >= 8) return;
+        var d = 120 + i * 110;
+        // el título principal de la portada entra línea a línea (marea); el resto en capas
+        if (c.tagName === 'H1' && marea(c, d)) { requestAnimationFrame(function () { c.classList.add('o-visto'); }); return; }
+        c.classList.add('o-capa'); c.style.animationDelay = d + 'ms';
+      });
     });
   }
 
