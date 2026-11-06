@@ -37,7 +37,7 @@ h2,.brands-h2,.puerto-h2,.talk-h,.port-h2{font-size:clamp(30px,2.9vw,50px);line-
 /* 7 · Foto del relato más cerca del texto */
 .es-ficha .story-fig{margin-top:clamp(32px,3vw,56px)}
 /* bloques que traían su propio margen grande (equipamiento y charter en portada, relato de la ficha) */
-.equip,.chome{padding-top:var(--rhythm)!important;padding-bottom:var(--rhythm)!important;min-height:0!important}
+.chome{padding-top:var(--rhythm)!important;padding-bottom:var(--rhythm)!important;min-height:0!important}
 .es-ficha .story{padding-top:clamp(36px,3.4vw,60px)!important}
 
 /* 8 · Cotizador: sin márgenes apilados entre el título, la línea y el formulario */
