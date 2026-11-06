@@ -144,3 +144,46 @@
     });
   })();
 })();
+
+/* Usados del inicio: los 2 disponibles más recientes del repositorio real (usados-data.js, editable en el CMS). */
+(function () {
+  'use strict';
+  var U = window.OCEANIC_USADOS, box = document.getElementById('usadosHome');
+  if (!U || !box) return;
+  var L = U.filter(function (u) { return !u.oculto && u.estado !== 'vendido' && (u.portada || (u.fotos && u.fotos.length)); })
+    .sort(function (a, b) { return String(b.fecha || '').localeCompare(String(a.fecha || '')); }).slice(0, 2);
+  if (!L.length) return;
+  function esc(v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function src(f) {
+    if (f && typeof f === 'object') return f.local ? 'assets/img/usados/' + f.local : (f.url || '');
+    f = String(f || ''); return /^(https?:)?\/\//.test(f) || f.charAt(0) === '/' ? f : 'assets/img/usados/' + f.replace(/^usados\//, '');
+  }
+  var TIPO = { motor: 'Motor', vela: 'Vela', catamaran: 'Catamarán' };
+  box.innerHTML = L.map(function (u) {
+    var meta = [TIPO[u.tipo] || '', u.precio || ''].filter(Boolean).join(' · ');
+    return '<a class="uc" href="usados/barco/index.html?id=' + encodeURIComponent(u.id) + '">' +
+      '<div class="uc-img"><img alt="' + esc(u.nombre) + '" loading="lazy" src="' + esc(src(u.portada || u.fotos[0])) + '"/></div>' +
+      '<div class="uc-txt">' + (u.anio ? '<span class="uc-year">' + esc(u.anio) + '</span>' : '') + '<h3>' + esc(u.nombre) + '</h3>' +
+      (meta ? '<p>' + esc(meta) + '</p>' : '') + '</div></a>';
+  }).join('');
+})();
+
+/* Puerto en el inicio: las 3 ediciones visibles más recientes (puerto-data.js, editable en el CMS). */
+(function () {
+  'use strict';
+  var P = window.OCEANIC_PUERTO, box = document.getElementById('puertoHome');
+  if (!P || !box) return;
+  var L = P.filter(function (e) { return e && !e.oculto && e.slug; })
+    .sort(function (a, b) { return String(b.fecha || '').localeCompare(String(a.fecha || '')); }).slice(0, 3);
+  if (!L.length) return;
+  function esc(v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function src(f) { f = String(f || ''); return /^(https?:)?\/\//.test(f) || f.charAt(0) === '/' ? f : 'assets/img/' + f; }
+  function frase(t) { t = String(t || ''); var m = t.match(/^.{20,140}?[.:](\s|$)/); return m ? m[0].trim().replace(/:$/, '.') : t.slice(0, 120); }
+  box.innerHTML = L.map(function (e, i) {
+    var foto = e.portada || e.tapa;
+    return '<a class="pz-i" href="puerto/edicion/index.html?ed=' + encodeURIComponent(e.slug) + '">' +
+      (foto ? '<div class="pz-img"><img alt="Puerto ' + esc(e.mes) + '" loading="lazy" src="' + esc(src(foto)) + '"/></div>' : '') +
+      '<span class="pz-kind">' + (i ? esc(e.mes) : 'Última edición') + '</span><h3>' + esc(e.mes) + '</h3>' +
+      (e.resumen ? '<p>' + esc(frase(e.resumen)) + '</p>' : '') + '</a>';
+  }).join('');
+})();
