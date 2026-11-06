@@ -680,7 +680,11 @@
           h('div', { class: 'fila' }, campo('Mes', texto(doc, e, 'mes', { ph: 'Octubre 2026' })), campo('Fecha', texto(doc, e, 'fecha', { tipo: 'date' }), 'Ordena el índice'), campo('Slug (URL)', slug, 'puerto-<mes>-<año>')),
           h('small', null, 'Redirección automática: '), redir,
           campo('Intro corta', texto(doc, e, 'resumen', { largo: true, filas: 2 })),
-          h('div', { class: 'fila' }, h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Portada' }), campoImagen(doc, e, 'portada', 'puerto')),
+          (function () { var v = h('input', { type: 'checkbox', checked: !e.oculto, onchange: function () { if (v.checked) delete e.oculto; else e.oculto = true; marcar(doc); } });
+            return h('div', { class: 'interruptor-fila' }, h('label', { class: 'interruptor' }, v, h('span')), ' Visible en el sitio (una edición oculta no aparece en el índice ni se abre por su dirección)'); })(),
+          h('div', { class: 'fila' }, h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Portada del newsletter' }), campoImagen(doc, e, 'tapa', 'puerto')),
+            h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Foto grande de la edición (opcional, 1600 px o más)' }), campoImagen(doc, e, 'portada', 'puerto'))),
+          h('div', { class: 'fila' },
             campo('PDF (opcional)', h('div', null, texto(doc, e, 'pdf', { ph: 'https://…' }), h('div', { style: 'margin-top:6px' }, botonSubir('Subir PDF', 'documentos', function (u) { e.pdf = u; marcar(doc); router(); }, { accept: 'application/pdf' })))))),
         bloques);
     });

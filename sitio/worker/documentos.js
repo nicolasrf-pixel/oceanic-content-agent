@@ -125,6 +125,8 @@ function puerto(L, err, aviso) {
     if (!str(e.mes)) err(r + '.mes', 'Falta el mes (ej. Octubre 2026)');
     if (!FECHA.test(e.fecha || '')) err(r + '.fecha', 'fecha AAAA-MM-DD (ordena el índice)');
     if (e.portada && !rutaImagen(e.portada)) err(r + '.portada', 'Portada inválida');
+    if (e.tapa && !rutaImagen(e.tapa)) err(r + '.tapa', 'Portada del newsletter inválida');
+    if (e.oculto != null && typeof e.oculto !== 'boolean') err(r + '.oculto', 'oculto: verdadero o falso');
     if (e.pdf && !enlaceSeguro(e.pdf)) err(r + '.pdf', 'Enlace del PDF inválido');
     if (!Array.isArray(e.bloques)) return err(r + '.bloques', 'bloques debe ser una lista');
     if (!e.bloques.length) aviso(r + '.bloques', 'Edición sin bloques');
@@ -132,6 +134,8 @@ function puerto(L, err, aviso) {
       const rb = `${r}.bloques[${j}]`;
       if (!b || typeof b !== 'object') return err(rb, 'Bloque inválido');
       for (const k of ['foto', 'logo']) if (b[k] != null && b[k] !== '' && !rutaImagen(b[k])) err(rb + '.' + k, 'Ruta de imagen inválida');
+      if (b.fichas != null && (!Array.isArray(b.fichas) || b.fichas.some((f) => !f || !str(f.nombre) || !enlaceSeguro(f.href)))) err(rb + '.fichas', 'Fichas: lista de {nombre, href} con enlace seguro');
+      if (b.videos != null && (!Array.isArray(b.videos) || b.videos.some((v) => !v || !['youtube', 'vimeo', 'mp4'].includes(v.tipo) || !(v.id || (v.src && /^https:\/\//.test(v.src)))))) err(rb + '.videos', 'Videos: youtube/vimeo con id, o mp4 con enlace https');
       if (b.type === 'noticia') {
         if (!str(b.titular)) err(rb + '.titular', 'Falta el titular');
         if (b.etiqueta != null && typeof b.etiqueta !== 'string') err(rb + '.etiqueta', 'Texto');
@@ -210,7 +214,7 @@ function recorrer(v, f, ruta = '') {
   if (typeof v === 'string') f(v, ruta);
   else if (Array.isArray(v)) v.forEach((x, i) => recorrer(x, f, `${ruta}[${i}]`));
   else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) {
-    if (k === 'fotos' || k === 'galeria' || k === 'hero' || k === 'portada' || k === 'foto' || k === 'logo' || k === 'href' || k === 'fuente' || k === 'docs' || k === 'pdf' || k === 'url' || k === 'local') continue;
+    if (k === 'fotos' || k === 'galeria' || k === 'hero' || k === 'portada' || k === 'foto' || k === 'logo' || k === 'tapa' || k === 'videos' || k === 'fichas' || k === 'href' || k === 'fuente' || k === 'docs' || k === 'pdf' || k === 'url' || k === 'local') continue;
     recorrer(x, f, ruta ? ruta + '.' + k : k);
   }
 }

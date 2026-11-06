@@ -2,7 +2,7 @@
    Ordena por fecha (la más nueva es la destacada). Todo el texto se escapa antes de insertarlo. */
 (function () {
   'use strict';
-  var P = (window.OCEANIC_PUERTO || []).slice(), cont = document.getElementById('puertoEd');
+  var P = (window.OCEANIC_PUERTO || []).filter(function (e) { return !e.oculto; }), cont = document.getElementById('puertoEd');
   if (!cont) return;
   var AB = document.body.dataset.assetBase || '../assets/img/';
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
@@ -19,7 +19,7 @@
   var feat = '<section class="pfeat2"><div class="wrap-wide">' +
     '<div class="sec-head"><span class="eyebrow">Última edición</span><span class="rule"></span></div>' +
     '<a class="pfeat2-grid" href="' + url(d) + '" style="text-decoration:none;color:inherit">' +
-      '<div class="pfeat2-img">' + (d.portada ? '<img src="' + esc(img(d.portada)) + '" alt="Puerto ' + esc(d.mes) + '">' : '') + '</div>' +
+      '<div class="pfeat2-img pfeat2-tapa">' + (tapa(d) ? '<img src="' + esc(img(tapa(d))) + '" alt="Portada de ' + esc(nombre(d)) + '">' : '') + '</div>' +
       '<div class="pfeat2-body"><span class="pfeat2-mes">' + esc(nombre(d)) + '</span>' +
       '<p class="pfeat2-res">' + esc(d.resumen) + '</p>' +
       '<ul class="ped-notas">' + titulares(d).map(function (b) {
@@ -34,7 +34,7 @@
         '<div class="ped2-img' + (ed.tapa ? ' ped2-tapa' : '') + '">' + (tapa(ed) ? '<img src="' + esc(img(tapa(ed))) + '" alt="Portada de ' + esc(nombre(ed)) + '" loading="lazy">' : '') + '</div>' +
         '<div class="ped2-body"><span class="ped2-mes">' + esc(nombre(ed)) + '</span>' +
         '<p class="ped2-res">' + esc(ed.resumen) + '</p>' +
-        '<ul class="ped2-notas">' + titulares(ed).map(function (b) { return '<li>' + esc(b.titular) + '</li>'; }).join('') + '</ul>' +
+        '<span class="ped2-n">' + titulares(ed).length + ' notas · Leer →</span>' +
         '</div></a>';
     }).join('') + '</div></div></section>' : '';
   cont.innerHTML = feat + arch;

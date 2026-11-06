@@ -5,7 +5,7 @@
   var main = document.getElementById('edicion'); if (!main) return;
   var AB = document.body.dataset.assetBase || '../../assets/img/';
   var slug = new URLSearchParams(location.search).get('ed') || '';
-  var ed = (window.OCEANIC_PUERTO || []).filter(function (e) { return e.slug === slug; })[0];
+  var ed = (window.OCEANIC_PUERTO || []).filter(function (e) { return e.slug === slug && !e.oculto; })[0];  // oculta: como si no existiera
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function img(p) { p = String(p || ''); if (!p) return ''; if (/^(https?:)?\/\//.test(p) || p.charAt(0) === '/') return p; return AB + p + (/\.\w{3,4}$/.test(p) ? '' : '.webp'); }
   function href(h) {
@@ -45,9 +45,36 @@
       (b.evento && (b.evento.fecha || b.evento.lugar || b.evento.texto) ? '<div class="pnot-ev">' +
         (b.evento.fecha ? '<b>' + esc(b.evento.fecha) + '</b>' : '') + (b.evento.lugar ? '<span>' + esc(b.evento.lugar) + '</span>' : '') +
         (b.evento.texto ? '<p>' + esc(b.evento.texto) + '</p>' : '') + '</div>' : '') +
+      videos(b) + fichas(b) +
       (b.cta && b.cta.texto && href(b.cta.href) ? '<a class="btn pnot-cta" href="' + esc(href(b.cta.href)) + '">' + esc(b.cta.texto) + '</a>' : '') +
     '</div></article>';
   }
+  // Videos: se llaman desde YouTube (sin cookies), Vimeo o el archivo MP4 solo al apretar reproducir
+  function videos(b) {
+    var V = (b.videos || []).filter(function (v) { return v && (v.id || v.src); });
+    if (!V.length) return '';
+    var poster = b.foto || (b.galeria || [])[0] || '';
+    return '<div class="pnot-vids">' + V.map(function (v) {
+      return '<button type="button" class="pnot-vid" data-tipo="' + esc(v.tipo) + '" data-v="' + esc(v.id || v.src) + '" aria-label="Reproducir video">' +
+        (poster ? '<img src="' + esc(img(poster)) + '" alt="" loading="lazy">' : '') + '<span class="pnot-play" aria-hidden="true"></span><span class="pnot-vid-et">Ver video</span></button>';
+    }).join('') + '</div>';
+  }
+  // Enlaces a las fichas de los barcos que menciona la nota (sitio nuevo)
+  function fichas(b) {
+    var F = (b.fichas || []).filter(function (f) { return f && f.nombre && href(f.href); });
+    return F.length ? '<p class="pnot-fichas"><span>Ver ficha</span>' + F.map(function (f) {
+      return '<a href="' + esc(href(f.href)) + '">' + esc(f.nombre) + ' →</a>'; }).join('') + '</p>' : '';
+  }
+  document.addEventListener('click', function (e) {
+    var bt = e.target.closest && e.target.closest('.pnot-vid'); if (!bt) return;
+    var t = bt.getAttribute('data-tipo'), v = bt.getAttribute('data-v'), el;
+    if (t === 'youtube' && /^[\w-]{11}$/.test(v)) { el = document.createElement('iframe'); el.src = 'https://www.youtube-nocookie.com/embed/' + v + '?autoplay=1&rel=0'; }
+    else if (t === 'vimeo' && /^\d+$/.test(v)) { el = document.createElement('iframe'); el.src = 'https://player.vimeo.com/video/' + v + '?autoplay=1&dnt=1'; }
+    else if (t === 'mp4' && /^https:\/\//.test(v)) { el = document.createElement('video'); el.src = v; el.controls = true; el.autoplay = true; el.playsInline = true; }
+    else return;
+    if (el.tagName === 'IFRAME') { el.allow = 'autoplay; fullscreen; picture-in-picture'; el.allowFullscreen = true; el.title = 'Video'; }
+    el.className = 'pnot-vid-on'; bt.replaceWith(el);
+  });
   // «Etiqueta: texto» → etiqueta en negrita
   function punto(x) { var m = /^([^:]{2,40}):\s+(.+)$/.exec(String(x)); return m ? '<b>' + esc(m[1]) + '</b> ' + esc(m[2]) : esc(x); }
   function guia(b, i) {
@@ -64,7 +91,7 @@
   main.innerHTML =
     '<header class="phero"><div class="wrap-wide phero-in"><nav aria-label="Ruta" class="crumb"><a href="../../index.html">Oceanic</a><span>·</span><a href="../">Puerto</a><span>·</span><span>' + esc(ed.mes) + '</span></nav>' +
     '<div class="phero-ed">' + (ed.tapa ? '<img class="phero-tapa" src="' + esc(img(ed.tapa)) + '" alt="Portada de ' + esc(nombreEd) + '">' : '') + '<div>' +
-    '<h1 class="phero-h1" style="font-size:clamp(40px,5.4vw,100px)">' + esc(nombreEd) + '</h1>' +
+    '<h1 class="phero-h1 ped-h1">' + esc(nombreEd) + '</h1>' +
     (ed.resumen ? '<p class="phero-sub">' + esc(ed.resumen) + '</p>' : '') +
     (href(ed.pdf) ? '<p style="margin-top:22px"><a class="pfeat-link" href="' + esc(href(ed.pdf)) + '" target="_blank" rel="noopener">Descargar la edición en PDF ↗</a></p>' : '') +
     '</div></div></div></header>' +

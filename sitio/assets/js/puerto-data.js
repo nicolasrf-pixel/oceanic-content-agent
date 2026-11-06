@@ -32,7 +32,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "vlzxpdEfENg"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Oceanis 52",
+      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -56,7 +68,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=antares-8"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "2Lvdst2f1ZM"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -154,7 +178,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=saffier&modelo=saffier-se-38-leader"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "21DyiikzbEY"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Saffier SE 38 Leader",
+      "href": "../../marca/?m=saffier&modelo=saffier-se-38-leader"
+     }
+    ]
    },
    {
     "type": "guia",
@@ -226,7 +262,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=first-60"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "First 60",
+      "href": "../../marca/?m=beneteau&modelo=first-60"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -250,7 +292,20 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=lagoon&modelo=lagoon-47"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "3TVWXZW1XuU"
+     }
+    ],
+    "foto_lado": true,
+    "fichas": [
+     {
+      "nombre": "Lagoon 47",
+      "href": "../../marca/?m=lagoon&modelo=lagoon-47"
+     }
+    ]
    }
   ],
   "serie": "Puerto",
@@ -309,7 +364,20 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "vlzxpdEfENg"
+     }
+    ],
+    "foto_lado": true,
+    "fichas": [
+     {
+      "nombre": "Oceanis 52",
+      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -339,7 +407,17 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&u=motor"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Gran Turismo 35",
+      "href": "../../marca/?m=beneteau&modelo=gran-turismo-35"
+     },
+     {
+      "nombre": "Gran Turismo 50",
+      "href": "../../marca/?m=beneteau&modelo=gran-turismo-50"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -393,7 +471,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=first-30"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "First 30",
+      "href": "../../marca/?m=beneteau&modelo=first-30"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -407,7 +491,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=axopar&modelo=axopar-38-xc-cross-cabin"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2023/11/26bba2b7.mp4"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Axopar 38 XC Cross Cabin",
+      "href": "../../marca/?m=axopar&modelo=axopar-38-xc-cross-cabin"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -422,7 +518,14 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=aquila&modelo=aquila-46-yacht"
-    }
+    },
+    "foto_lado": true,
+    "fichas": [
+     {
+      "nombre": "Aquila 46 Yacht",
+      "href": "../../marca/?m=aquila&modelo=aquila-46-yacht"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -473,7 +576,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=axopar&modelo=axopar-38-sun-top"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Axopar 38 Sun Top",
+      "href": "../../marca/?m=axopar&modelo=axopar-38-sun-top"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -499,7 +608,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Oceanis 52",
+      "href": "../../marca/?m=beneteau&modelo=oceanis-52"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -509,6 +624,18 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "MCG Yachts acaba de confirmar la representación de XO Boats en el mercado estadounidense, con el EXPLR 44 como modelo estrella. No sorprende: el barco es finalista del MBY Awards 2025 y candidato al BoB Awards. El mercado más competitivo del mundo llegó a la misma conclusión que nosotros.",
      "El EXPLR 44 es lo que pasa cuando el diseño escandinavo se construye en aluminio grado militar y se optimiza para el mar abierto. 44 pies de autonomía offshore, casco deep-V que come olas, y una estética que no necesita justificarse. Un barco que va donde otros prefieren no ir."
+    ],
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "NRLzjHQHx7Q"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "XO EXPLR 44",
+      "href": "../../marca/?m=xo&modelo=xo-explr-44"
+     }
     ]
    },
    {
@@ -535,7 +662,14 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=switch"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://video.wixstatic.com/video/812873_1cf5bc9083984895aafc6431b91c023d/1080p/mp4/file.mp4"
+     }
+    ],
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -644,7 +778,8 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Solicitar información",
      "href": "../../contacto/"
-    }
+    },
+    "foto_lado": true
    }
   ],
   "tapa": "puerto/archivo/2f82eddf1bcb.webp",
@@ -668,7 +803,6 @@ window.OCEANIC_PUERTO=[
      "Nuestras marcas estarán presentes. Y este año, Oceanic invita a sus clientes a vivir el festival de primera mano, en el corazón de la Riviera francesa.",
      "Si tienes interés en asistir o en conocer los modelos que se presentarán, este es el momento de anotarse."
     ],
-    "foto": "puerto/archivo/564467b1c8c5.webp",
     "cta": {
      "texto": "Mas información",
      "href": "../../contacto/"
@@ -709,7 +843,14 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/bc599a6c384b.webp",
      "puerto/archivo/952f907efd03.webp"
     ],
-    "foto": "puerto/archivo/fbd77c97ac57.webp"
+    "foto": "puerto/archivo/fbd77c97ac57.webp",
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2023/11/26bba2b7.mp4"
+     }
+    ],
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -722,7 +863,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/ac74c6366a72.webp",
-  "portada": "puerto/archivo/564467b1c8c5.webp"
+  "portada": ""
  },
  {
   "slug": "puerto-marzo-2026",
@@ -782,6 +923,12 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/d464b87e2070.webp",
      "puerto/archivo/cc12a1455464.webp",
      "puerto/archivo/bc8a006b3e3d.webp"
+    ],
+    "fichas": [
+     {
+      "nombre": "First 30",
+      "href": "../../marca/?m=beneteau&modelo=first-30"
+     }
     ]
    },
    {
@@ -795,6 +942,12 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/39c1406a676b.webp"
+    ],
+    "fichas": [
+     {
+      "nombre": "First 30",
+      "href": "../../marca/?m=beneteau&modelo=first-30"
+     }
     ]
    },
    {
@@ -878,7 +1031,8 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Conoce aquí nuestras marcas y cotiza.",
      "href": "../../index.html"
-    }
+    },
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -912,7 +1066,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/bfc850567247.webp",
-  "portada": "puerto/archivo/800d827d7243.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-bitacora-mayo-2025",
@@ -953,7 +1108,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=aquila&modelo=aquila-32-sport"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2025/05/bitacora-hd-mayo.mp4"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Aquila 32 Sport",
+      "href": "../../marca/?m=aquila&modelo=aquila-32-sport"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -964,7 +1131,6 @@ window.OCEANIC_PUERTO=[
      "El casco semiplanante garantiza un comportamiento estable, incluso en condiciones variables, y su plataforma de baño sumergible facilita el acceso al agua. Ideal para quienes quieren explorar la costa chilena con total autonomía y elegancia."
     ],
     "galeria": [
-     "puerto/archivo/d7119cc14b6e.webp",
      "puerto/archivo/f617f3ee93fb.webp",
      "puerto/archivo/0331c690ce08.webp",
      "puerto/archivo/b2f896dd3214.webp",
@@ -978,7 +1144,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-48"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "a7WKJfZkM5Q"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Swift Trawler 48",
+      "href": "../../marca/?m=beneteau&modelo=swift-trawler-48"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -989,9 +1167,6 @@ window.OCEANIC_PUERTO=[
      "El First 24 SE es ideal para navegantes activos que buscan rendimiento en navegación y agilidad fuera del agua. Perfecto para competir, explorar caletas o pasar la noche bajo las estrellas sin complicaciones."
     ],
     "galeria": [
-     "puerto/archivo/bf67a36f7fbe.webp",
-     "puerto/archivo/acecee60e443.webp",
-     "puerto/archivo/04eb1adb46a9.webp",
      "puerto/archivo/7a5112b6f1f6.webp",
      "puerto/archivo/71593ec577c3.webp",
      "puerto/archivo/f7596c6b9056.webp",
@@ -1003,7 +1178,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-48"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "First 24 SE",
+      "href": "../../marca/?m=beneteau&modelo=first-24-se"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1029,7 +1210,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=oceanis-yacht-54"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "t9ODs93HEHU"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Oceanis Yacht 54",
+      "href": "../../marca/?m=beneteau&modelo=oceanis-yacht-54"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1045,7 +1238,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/739cec208bb0.webp",
-  "portada": "puerto/archivo/82b9ab803bb9.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-bitacora-abril-2025",
@@ -1074,7 +1268,17 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/152ff42f72e6.webp",
      "puerto/archivo/6f5d39b6e8d4.webp"
     ],
-    "foto": "puerto/archivo/e4b606dfd638.webp"
+    "foto": "puerto/archivo/e4b606dfd638.webp",
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2025/04/bitacora-hd.mp4"
+     },
+     {
+      "tipo": "youtube",
+      "id": "2Lvdst2f1ZM"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1088,6 +1292,18 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/46861b929ff2.webp",
      "puerto/archivo/48c6eb195bdd.webp"
+    ],
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "wjtDFq0-4KA"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
     ]
    },
    {
@@ -1139,7 +1355,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/4c0202f8a1ea.webp",
-  "portada": "puerto/archivo/e4b606dfd638.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-aquila-50-recorrido",
@@ -1154,11 +1371,24 @@ window.OCEANIC_PUERTO=[
     "titular": "Recorramos juntos el nuevo Aquila 50 yachT",
     "cuerpo": [
      "Únase a nosotros para un recorrido por el nuevo yate Aquila 50, que presenta una estética “Explorer” completamente nueva con un francobordo alto que lo distingue del resto. Con 52 pies y una manga de 25 pies, este catamarán a motor maximiza cada centímetro de espacio. Descubra características innovadoras como el diseño de francobordo elevado que permite una suite principal de un solo nivel y manga completa. El diseño asimétrico de puente a proa lleva el timón hacia adelante para obtener líneas de visión claras al tiempo que crea un impresionante espacio de entretenimiento en el flybridge. Debajo de la cubierta, tanto las cabinas de invitados como las VIP cuentan con camas tipo isla orientadas hacia el exterior, lo que le permite conciliar el sueño y despertarse con vistas panorámicas al agua a través de grandes ventanas laterales del casco. En este modelo, estamos recorriendo una configuración con un lavadero exclusivo completo con almacenamiento de vinos, aunque los propietarios pueden optar por una cuarta cabina con literas sobre/debajo en este espacio. La cocina totalmente equipada y el espacioso salón ofrecen todas las comodidades del hogar. Disponible con múltiples configuraciones de motor, incluida la opción Aquila Hydro Glide Foil System™ y un próximo sistema híbrido. Ya sea que esté planeando viajes de fin de semana o cruceros prolongados, el Aquila 50 Yacht ofrece la combinación perfecta de lujo y funcionalidad."
+    ],
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "26h__22Jpdg"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Aquila 50 Yacht",
+      "href": "../../marca/?m=aquila&modelo=aquila-50-yacht"
+     }
     ]
    }
   ],
   "tapa": "puerto/archivo/95c52e2ef661.webp",
-  "portada": ""
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-noviembre-2024",
@@ -1213,7 +1443,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Conoce aquí la axopar 29 ccx",
      "href": "../../marca/?m=axopar&modelo=axopar-29-ccx"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2024/11/23a2ece8-59a7f923.mp4"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "Axopar 29 CCX",
+      "href": "../../marca/?m=axopar&modelo=axopar-29-ccx"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1238,9 +1480,6 @@ window.OCEANIC_PUERTO=[
      "Eslora Total: 11,74 M",
      "Ancho: 6,76 M"
     ],
-    "galeria": [
-     "puerto/archivo/e8a66279b154.webp"
-    ],
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=lagoon&u=vela"
@@ -1253,11 +1492,16 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 7,7 M"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2023/09/LAGOON-42.jpg",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=lagoon&modelo=lagoon-42-millenium"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Lagoon 42 Millenium",
+      "href": "../../marca/?m=lagoon&modelo=lagoon-42-millenium"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1266,7 +1510,6 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 7,96 M"
     ],
-    "foto": "puerto/archivo/fc8ca811ba00.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=lagoon&modelo=lagoon-46-iconic"
@@ -1279,7 +1522,6 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 8,1 M"
     ],
-    "foto": "puerto/archivo/e2feea1e6da3.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=lagoon&modelo=lagoon-51-iconic"
@@ -1295,11 +1537,18 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/1c64fe8df1c6.webp"
+    ],
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
     ]
    }
   ],
   "tapa": "puerto/archivo/4ba394c37220.webp",
-  "portada": "puerto/archivo/8954c9e8b664.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-octubre-2024",
@@ -1316,8 +1565,7 @@ window.OCEANIC_PUERTO=[
      "En Oceanic, nos llena de orgullo anunciar la entrega de un increíble Axopar 37 Sun Top a su nuevo propietario. Este modelo, conocido por su versatilidad, elegancia y rendimiento sin igual, ha encontrado un nuevo destino donde seguramente acompañará más de una aventura..",
      "Este Axopar 37 Sun Top es mucho más que una embarcación. Su diseño de vanguardia, tecnología avanzada y confort en navegación lo convierten en la elección ideal para quienes buscan una gran experiencia náutica.",
      "Felicitamos a su propietario por esta gran adquisición y le deseamos muchas aventuras memorables a bordo."
-    ],
-    "foto": "puerto/archivo/291d5726c234.webp"
+    ]
    },
    {
     "type": "noticia",
@@ -1329,8 +1577,13 @@ window.OCEANIC_PUERTO=[
      "Te presentamos la selección exclusiva de unidades para entrega inmediata . Estas embarcaciones están listas para zarpar y ofrecerte una experiencia única en el agua. ¡No pierdas la oportunidad de llevarte una de estas maravillas a casa! Contáctanos para más detalles y asegura la tuya."
     ],
     "galeria": [
-     "puerto/archivo/89ecd9d229ef.webp",
-     "puerto/archivo/5f2d3ce2d3e2.webp"
+     "puerto/archivo/89ecd9d229ef.webp"
+    ],
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
     ]
    },
    {
@@ -1343,7 +1596,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=axopar&modelo=axopar-22-t-top"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Axopar 22 T-Top",
+      "href": "../../marca/?m=axopar&modelo=axopar-22-t-top"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1352,11 +1611,16 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 2,98 M"
     ],
-    "foto": "puerto/archivo/112899b0843d.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Axopar 29 XC Cross Cabin",
+      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1365,11 +1629,16 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 2,53 M"
     ],
-    "foto": "puerto/archivo/19547e7608fc.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=xo&modelo=xo-dfndr-8"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "XO DFNDR 8",
+      "href": "../../marca/?m=xo&modelo=xo-dfndr-8"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1378,11 +1647,16 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 2,8 M"
     ],
-    "foto": "puerto/archivo/703e151b3756.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=beneteau&modelo=antares-8"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1401,11 +1675,18 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza tu beneteau st 54",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-54"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Swift Trawler 54",
+      "href": "../../marca/?m=beneteau&modelo=swift-trawler-54"
+     }
+    ]
    }
   ],
   "tapa": "puerto/archivo/ff4927cf2787.webp",
-  "portada": "puerto/archivo/291d5726c234.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-agosto-2024",
@@ -1425,7 +1706,13 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/a56b434f2046.webp"
     ],
-    "foto": "puerto/archivo/97a1ad624468.webp"
+    "foto": "puerto/archivo/97a1ad624468.webp",
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "2Lvdst2f1ZM"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1435,7 +1722,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza tu antares 8 haciendo clic",
      "href": "../../marca/?m=beneteau&modelo=antares-8"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Antares 8",
+      "href": "../../marca/?m=beneteau&modelo=antares-8"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1469,7 +1762,19 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza aquí tu xo dfndr 8",
      "href": "../../marca/?m=xo&modelo=xo-dfndr-8"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2024/08/0-xo-boats-dfndr_8-premiere-1080p.mp4"
+     }
+    ],
+    "fichas": [
+     {
+      "nombre": "XO DFNDR 8",
+      "href": "../../marca/?m=xo&modelo=xo-dfndr-8"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1513,7 +1818,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/a9fc44ca941c.webp",
-  "portada": "puerto/archivo/97a1ad624468.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-julio-2024",
@@ -1545,7 +1851,14 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza la tuya",
      "href": "../../marca/?m=xo&modelo=xo-explr-44"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "youtube",
+      "id": "NRLzjHQHx7Q"
+     }
+    ],
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -1570,7 +1883,20 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza la tuya",
      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
-    }
+    },
+    "videos": [
+     {
+      "tipo": "mp4",
+      "src": "https://oceanic.cl/wp-content/uploads/2024/07/c21c6bf9-69dbdf23.mp4"
+     }
+    ],
+    "foto_lado": true,
+    "fichas": [
+     {
+      "nombre": "Axopar 29 XC Cross Cabin",
+      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1589,7 +1915,8 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Para mas detalles haz clic",
      "href": "../../marca/?m=oceanic-power"
-    }
+    },
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -1640,7 +1967,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/5ae57f4696de.webp",
-  "portada": "puerto/archivo/6d9508f40c8c.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-junio-2024",
@@ -1664,7 +1992,8 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../index.html"
-    }
+    },
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -1680,7 +2009,8 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=lagoon&modelo=lagoon-42-millenium"
-    }
+    },
+    "foto_lado": true
    },
    {
     "type": "noticia",
@@ -1715,7 +2045,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/7b4d25110237.webp",
-  "portada": "puerto/archivo/431be515cefb.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-mayo-2024",
@@ -1735,7 +2066,13 @@ window.OCEANIC_PUERTO=[
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=lagoon&modelo=lagoon-43"
-    }
+    },
+    "fichas": [
+     {
+      "nombre": "Lagoon 43",
+      "href": "../../marca/?m=lagoon&modelo=lagoon-43"
+     }
+    ]
    },
    {
     "type": "noticia",
@@ -1746,7 +2083,6 @@ window.OCEANIC_PUERTO=[
      "Descubre la versatilidad y seguridad de Oceanic Power, una embarcación semirrígida diseñada para aventuras en el agua. Con características únicas como válvulas de seguridad y tubos de Hypalon y PVC, ofrece gran flotabilidad y resistencia. Desde modelos de 2,4 metros hasta impresionantes embarcaciones de 7,5 metros, con casco de aluminio y fibra, Oceanic Power se adapta a tus necesidades. Además, es eco-amigable y eficiente en el consumo de combustible. ¡Visita nuestra página web para obtener más información sobre nuestros modelos disponibles!"
     ],
     "galeria": [
-     "puerto/archivo/a46cff0a0d21.webp",
      "puerto/archivo/dae5740ec16d.webp"
     ],
     "cta": {
@@ -1770,7 +2106,8 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/d1d3dfef06e4.webp",
-  "portada": "puerto/archivo/430abf1c3573.webp"
+  "portada": "",
+  "oculto": true
  },
  {
   "slug": "puerto-news-abril-2024",
@@ -1846,6 +2183,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/9644c3bd8039.webp",
-  "portada": ""
+  "portada": "",
+  "oculto": true
  }
 ];
