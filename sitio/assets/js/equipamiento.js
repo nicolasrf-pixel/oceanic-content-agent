@@ -5,38 +5,57 @@
   var D = window.OCEANIC_EQUIPAMIENTO;
   if (!D) return;
 
-  // tira de logos (wordmarks tipográficos)
-  document.getElementById('elogos').innerHTML =
-    '<div class="wrap-wide"><div class="elogos-row">' +
-    D.logos.map(function (n) { return '<span class="elogo">' + n + '</span>'; }).join('') +
-    '</div></div>';
+  var AB = document.body.dataset.assetBase || '../assets/img/';
+  var esc = function (v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]; }); };
+  var todas = [];
+  D.categorias.forEach(function (c) { c.marcas.forEach(function (m) { todas.push(m); }); });
 
-  // categorías, compacto, cada ítem con WhatsApp + cotizador por correo
+  // franja de logos oficiales (se desliza en bucle; cada logo lleva a su marca en la página)
+  var fila = todas.filter(function (m) { return m.logo; }).map(function (m) {
+    return '<a class="elogo2" href="#marca-' + esc(m.id) + '" title="' + esc(m.nombre) + '"><img src="' + AB + esc(m.logo) + '" alt="' + esc(m.nombre) + '" loading="lazy"></a>';
+  }).join('');
+  document.getElementById('elogos').innerHTML =
+    '<div class="elogos2" aria-label="Marcas de equipamiento"><div class="elogos2-pista">' + fila + '<span aria-hidden="true" class="elogos2-copia">' + fila + '</span></div></div>';
+
+  // categorías con tarjetas: foto, logo, descripción y desplegable con las líneas de producto oficiales
   document.getElementById('ecats').innerHTML = D.categorias.map(function (c, i) {
     var marcas = c.marcas.map(function (m) {
-      var wa = 'https://wa.me/56229537322?text=' +
-        encodeURIComponent('Hola Oceanic, quiero información sobre ' + m.nombre + ' (' + c.titulo + ').');
-      var mailto = 'mailto:ventas@oceanic.cl?subject=' +
-        encodeURIComponent('Consulta equipamiento, ' + m.nombre) +
-        '&body=' + encodeURIComponent('Hola Oceanic, quiero cotizar / recibir información sobre ' + m.nombre + ' (' + c.titulo + ').\n\nMi embarcación: \nLo que necesito: ');
-      return '<div class="em">' +
-        '<div class="em-txt"><h3 class="em-name">' + m.nombre + '</h3>' +
-        '<p class="em-desc">' + m.desc + '</p></div>' +
-        '<div class="em-acts">' +
-          '<a class="em-wa" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a>' +
-          '<a class="em-mail" href="' + mailto + '">Cotizar por correo</a>' +
-        '</div></div>';
+      var wa = 'https://wa.me/56229537322?text=' + encodeURIComponent('Hola Oceanic, quiero información sobre ' + m.nombre + ' (' + c.titulo + ').');
+      var lineas = (m.lineas || []).map(function (l) {
+        return '<div class="em2-linea"><h4>' + esc(l.titulo) + '</h4><ul>' + l.items.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></div>';
+      }).join('');
+      return '<article class="em2" id="marca-' + esc(m.id) + '">' +
+        '<div class="em2-foto">' + (m.foto ? '<img src="' + AB + esc(m.foto) + '" alt="' + esc(m.nombre) + '" loading="lazy">' : '') +
+          (m.logo ? '<img class="em2-logo" src="' + AB + esc(m.logo) + '" alt="' + esc(m.nombre) + '">' : '') + '</div>' +
+        '<div class="em2-cuerpo">' +
+          (m.origen ? '<span class="em2-origen">' + esc(m.origen) + '</span>' : '') +
+          '<h3 class="em2-nombre">' + esc(m.nombre) + '</h3>' +
+          '<p class="em2-desc">' + esc(m.desc) + '</p>' +
+          (lineas ? '<details class="em2-mas"><summary>Líneas de producto</summary><div class="em2-lineas">' + lineas +
+            (m.web ? '<p class="em2-fuente">Según la web oficial de ' + esc(m.nombre) + '. <a href="' + esc(m.web) + '" target="_blank" rel="noopener">Ver sitio oficial ↗</a></p>' : '') + '</div></details>' : '') +
+          '<div class="em2-acts"><a class="btn em2-pedir" href="#solicitar" data-cat="' + esc(c.titulo) + '">Solicitar información</a>' +
+          '<a class="em2-wa" href="' + wa + '" target="_blank" rel="noopener">WhatsApp →</a></div>' +
+        '</div></article>';
     }).join('');
     return '<section class="ecat">' +
       '<div class="wrap-wide">' +
         '<div class="ecat-head">' +
-          '<span class="ecat-n">0' + (i + 1) + '</span>' +
-          '<div><h2 class="ecat-h2">' + c.titulo + '</h2>' +
-          '<p class="ecat-lede">' + c.lede + '</p></div>' +
+          '<span class="ecat-n">' + (i < 9 ? '0' : '') + (i + 1) + '</span>' +
+          '<div><h2 class="ecat-h2">' + esc(c.titulo) + '</h2>' +
+          '<p class="ecat-lede">' + esc(c.lede) + '</p></div>' +
         '</div>' +
-        '<div class="em-grid">' + marcas + '</div>' +
+        '<div class="em2-grid' + (c.marcas.length === 1 ? ' em2-grid-1' : '') + '">' + marcas + '</div>' +
       '</div></section>';
   }).join('');
+
+  // «Solicitar información»: marca la categoría en el formulario de abajo
+  document.getElementById('ecats').addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-cat]'); if (!b) return;
+    var cat = b.getAttribute('data-cat');
+    [].forEach.call(document.querySelectorAll('#solicitar input[type=checkbox]'), function (x) {
+      if (x.value === cat) x.checked = true;
+    });
+  });
 
   // revelado
   if (!reduce && 'IntersectionObserver' in window) {
@@ -48,8 +67,8 @@
         io.unobserve(e.target);
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
-    var sel = '.ecat-head, .em, .elogo';
-    [].slice.call(document.querySelectorAll('.em')).forEach(function (el, i) { el.dataset.i = i; });
+    var sel = '.ecat-head';
+    
     [].slice.call(document.querySelectorAll(sel)).forEach(function (el) { el.classList.add('rv'); io.observe(el); });
   }
 
