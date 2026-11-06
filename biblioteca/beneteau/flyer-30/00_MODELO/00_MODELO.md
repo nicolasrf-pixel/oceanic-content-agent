@@ -17,12 +17,12 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Flyer 10 Sport Top, Flyer 7 SPACEdeck, Flyer 7 SUNdeck, Flyer 8 SUNdeck, Flyer 8 SPACEdeck, Flyer 9 SPACEdeck, Flyer 9 SUNdeck, Flyer 10).
-- Imágenes: 43 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 43 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 69% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 75% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -41,7 +41,7 @@
 | MULTIMEDIA | exterior | OK | 15 en inventario (mín. 3) · descargadas 43/43 |
 | MULTIMEDIA | interior | OK | 20 en inventario (mín. 2) · descargadas 43/43 |
 | MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 43/43 |
-| MULTIMEDIA | video | MISSING | 0 videos del modelo |
+| MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | manual | PARTIAL | 1 identificado(s) · requiere revisión |

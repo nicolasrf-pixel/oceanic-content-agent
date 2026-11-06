@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/axopar.py`.
 - No se mezclan otras variantes de la gama (Axopar 45 Cross Top, Axopar 45 XC Cross Cabin).
-- Imágenes: 28 del modelo, 18 de otro modelo (excluidas), 9 por revisar, 0 no son del barco.
+- Imágenes: 28 del modelo, 23 de otro modelo (excluidas), 11 por revisar, 0 no son del barco.
 
 ## Content readiness
 

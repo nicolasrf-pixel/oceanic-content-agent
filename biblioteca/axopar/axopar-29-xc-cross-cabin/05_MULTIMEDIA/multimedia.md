@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -37,7 +37,7 @@
 | [`axopar-29-xc-0v9a0335-edit`](https://media.ffycdn.net/eu/axopar/aPDUuuv8Kb1pNhFGyeWD.jpg) | CABIN | media |  | 8033x5358 jpg | WEB_COPY | Título del modelo: 'Axopar 29 XC_0V9A0335-Edit'. |
 | [`axopar-29-xc-0v9a0064-edit`](https://media.ffycdn.net/eu/axopar/pA6ESKcJwmBWvQxCGqjc.jpg) | CABIN | media |  | 8041x5367 jpg | WEB_COPY | Título del modelo: 'Axopar 29 XC_0V9A0064-Edit'. |
 | [`axopar-29-xc-0v9a0038-edit`](https://media.ffycdn.net/eu/axopar/oCaMFsQUEd3RQfPjhPqf.jpg) | HELM | media |  | 7977x5321 jpg | WEB_COPY | Título del modelo: 'Axopar 29 XC_0V9A0038-Edit'. |
-| [`axopar-29-xc-0v9a0174-edit-axedit-2`](https://media.ffycdn.net/eu/axopar/26UuDTXC5nqnmzmA66yk.jpg) | HELM | media |  | 8112x5411 jpg | DUPLICATE_OF axopar-29-xc-0v9a0174-edit-axedit | Título del modelo: 'Axopar-29-XC_0V9A0174-Edit_Axedit'. |
+| [`axopar-29-xc-0v9a0174-edit-axedit-2`](https://media.ffycdn.net/eu/axopar/26UuDTXC5nqnmzmA66yk.jpg) | HELM | media |  | 8112x5411 jpg | PENDING | Título del modelo: 'Axopar-29-XC_0V9A0174-Edit_Axedit'. |
 | [`axopar-29-xc-brabus-line-color-edition-platinum-grey`](https://media.ffycdn.net/eu/axopar/ZJFSwm1EFMcrfmvEiANy.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_29_XC_BRABUS_Line_Color_Edition_Platinum_Grey'. |
 | [`axopar-29-xc-glacier-blue`](https://media.ffycdn.net/eu/axopar/uFhrWHWxXL2YnpEkzEem.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_29_XC_Glacier_Blue'. |
 | [`axopar-29-xc-pearl-white`](https://media.ffycdn.net/eu/axopar/aJZcHbfoYBpLBaNFwRUQ.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'Axopar_29_XC_Pearl_White'. |

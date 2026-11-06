@@ -588,6 +588,18 @@
    "section": "layouts",
    "section_title": "Silent boat - Optional",
    "role": "plan"
+  },
+  {
+   "src": "https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp",
+   "original": "https://www.beneteau.com/sites/default/files/2025-06/logo-seanapps2.jpg",
+   "file_name": "logo-seanapps2.jpg",
+   "alt": "",
+   "width": 1090,
+   "height": 1050,
+   "ext": "jpg",
+   "section": "block",
+   "section_title": "A connected boat",
+   "role": "image"
   }
  ],
  "videos": [
@@ -615,5 +627,13 @@
   "Swift Trawler 37 Sedan",
   "Swift Trawler 48",
   "Swift Trawler 54"
- ]
+ ],
+ "media_recheck": {
+  "accessed_at": "2026-11-06",
+  "added": [
+   1,
+   0,
+   0
+  ]
+ }
 }

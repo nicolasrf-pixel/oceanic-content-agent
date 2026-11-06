@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de catamarans-lagoon.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Lagoon o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `lagoon-60-slider-09-1920x720-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-09-1920x720_0.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-07/lagoon-60-slider-09-1920x720_0.jpg) |
 | 3 | `lagoon-60-slider-27-1920x1280` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'lagoon-60-slider-27-1920x1280.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). | [original](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/lagoon-60-slider-27-1920x1280.jpg) |
 
-## Imágenes del modelo (45)
+## Imágenes del modelo (46)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -61,6 +61,7 @@
 | [`layout-lagoon-60-5-cabins-galley-down-crew-cabin`](https://admin.catamarans-lagoon.com/sites/default/files/2026-05/layout%20Lagoon%2060%20-%205%20cabins%20-%20galley%20down%20-%20crew%20cabin.png) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'layout Lagoon 60 - 5 cabins - galley down - crew cabin.png' con el nombre del modelo. |
 | [`layout-l5xa-5c5t-galleyup-a`](https://admin.catamarans-lagoon.com/sites/default/files/2024-06/Layout-L5xa-5c5t-galleyUp-A.webp) | PLANS | alta |  | NonexNone webp | WEB_COPY | Solo en la página del modelo (sección '5 cabins / Galley up'). |
 | [`lagoon-60-flybridge-standard`](https://admin.catamarans-lagoon.com/sites/default/files/2026-09/Lagoon%2060%20-%20flybridge%20standard.png) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'Lagoon 60 - flybridge standard.png' con el nombre del modelo. |
+| [`layout-lagoon-60-6-cabines-cuisine-en-haut`](https://admin.catamarans-lagoon.com/sites/default/files/2026-10/layout%20Lagoon%2060%20-%206%20cabines%20%20cuisine%20en%20haut.png) | PLANS | alta |  | NonexNone png | PENDING | Solo en la página del modelo; archivo 'layout Lagoon 60 - 6 cabines  cuisine en haut.png' con el nombre del modelo. |
 | [`2`](https://admin.catamarans-lagoon.com/sites/default/files/2025-11/2.jpg) | OTHER | revisión visual |  | 1920x1080 jpg | WEB_COPY | Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30). |
 | [`1`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/1.jpg) | OTHER | revisión visual |  | 1920x1080 jpg | WEB_COPY | Solo en la página del modelo (sección 'Portada de video / parallax'). Categoría OTHER por revisión visual (2026-09-30). |
 

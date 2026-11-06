@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Gran Turismo 40 Open, Gran Turismo 35, Gran Turismo 50).
-- Imágenes: 33 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 40 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -39,9 +39,9 @@ Conflictos sin resolver: Motorización
 | EDITORIAL | experiencia | OK | 180 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 176 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 17 en inventario (mín. 3) · descargadas 33/33 |
-| MULTIMEDIA | interior | OK | 6 en inventario (mín. 2) · descargadas 33/33 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 33/33 |
+| MULTIMEDIA | exterior | OK | 24 en inventario (mín. 3) · descargadas 33/40 |
+| MULTIMEDIA | interior | OK | 6 en inventario (mín. 2) · descargadas 33/40 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 33/40 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

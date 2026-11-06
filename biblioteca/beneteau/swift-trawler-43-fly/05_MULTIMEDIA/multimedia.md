@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `st43fly-exterieur1-full-option` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'ST43FLY-exterieur1-full-option.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/ST43FLY-exterieur1-full-option.jpg.webp?itok=7rp_VFqC) |
 | 3 | `st43fly-exterieur2-full-option` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'ST43FLY-exterieur2-full-option.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/ST43FLY-exterieur2-full-option.jpg.webp?itok=uFItg6Av) |
 
-## Imágenes del modelo (26)
+## Imágenes del modelo (32)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -25,6 +25,12 @@
 | [`st43fly-exterieur5-full-option`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/ST43FLY-exterieur5-full-option.jpg.webp?itok=CTp1uUjz) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-exterieur5-full-option.jpg' con el nombre del modelo. |
 | [`st43fly-exterieur6-full-option`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/ST43FLY-exterieur6-full-option.jpg.webp?itok=CoIbQef_) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-exterieur6-full-option.jpg' con el nombre del modelo. |
 | [`st43fly-exterieur7-full-option`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/ST43FLY-exterieur7-full-option.jpg.webp?itok=p45_hbPA) | EXTERIOR | media |  | 1440x810 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-exterieur7-full-option.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur1`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur1.jpg.webp?itok=hOgUMG7H) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur1.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur2`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur2.jpg.webp?itok=R4rZNice) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur2.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur3`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur3.jpg.webp?itok=XC33PnaD) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur3.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur4`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur4.jpg.webp?itok=01z9-GAC) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur4.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur5`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur5.jpg.webp?itok=xAIRFlVG) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur5.jpg' con el nombre del modelo. |
+| [`st43fly-exterieur7`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/ST43FLY-exterieur7.jpg.webp?itok=9lYp9m-S) | EXTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'ST43FLY-exterieur7.jpg' con el nombre del modelo. |
 | [`st43fly-interieur1-full-option`](https://www.beneteau.com/sites/default/files/styles/big_internal_design_large/public/2026-06/ST43FLY-interieur1-full-option.jpg.webp?itok=E5lMSMkd) | INTERIOR | media |  | 1468x1238 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-interieur1-full-option.jpg' con el nombre del modelo. |
 | [`st43fly-interieur2-full-option`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-06/ST43FLY-interieur2-full-option.jpg.webp?itok=en8J2DK4) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-interieur2-full-option.jpg' con el nombre del modelo. |
 | [`st43fly-interieur4-full-option`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-06/ST43FLY-interieur4-full-option.jpg.webp?itok=xZF-VVq-) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-interieur4-full-option.jpg' con el nombre del modelo. |
@@ -44,3 +50,9 @@
 | [`st43fly-layout-pont-inferieur-ok`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-06/ST43FLY-Layout-Pont-inferieur-ok.png.webp?itok=nieJ0IlU) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-Layout-Pont-inferieur-ok.png' con el nombre del modelo. |
 | [`st43fly-layout-panneaux-ouvrants-optionnel-ok`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-06/ST43FLY-Layout-panneaux-ouvrants-optionnel-ok.png.webp?itok=7wYSe2At) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-Layout-panneaux-ouvrants-optionnel-ok.png' con el nombre del modelo. |
 | [`st43fly-layout-silent-boat-optionnel-ok`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-06/ST43FLY-Layout-silent-boat-optionnel-ok.png.webp?itok=6CsSzUCR) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'ST43FLY-Layout-silent-boat-optionnel-ok.png' con el nombre del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |

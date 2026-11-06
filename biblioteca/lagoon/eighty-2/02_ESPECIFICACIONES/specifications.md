@@ -37,25 +37,23 @@ Valor Oceanic: **4 / 5** (según versión)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Versions | Versions (pestañas de layouts) | Loose Furniture; Galley up; Galley down; 5 cabins / galley down; 5 cabins / Galley up; 4 cabins / galley down |  | 4 / 5  | El bloque técnico no publica número de cabinas: se toma de las versiones oficiales. | NO DECLARADO | 2026-09-30 |
 
-## Capacidad Combustible · `capacidad_combustible` · VERIFIED
-
-Valor Oceanic: **2 x 1.400 l**
+## Capacidad Combustible · `capacidad_combustible` · CONFLICT
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fuel tank capacity | 2 x 1400 L | l | 1400.0 l | literal | NO DECLARADO | 2026-09-30 |
-| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fuel capacity | 2 x 1,400 l | l | 1400.0 l | literal | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fuel tank capacity | 2800 L (publicado: 2 x 1400 L) | l | 2800.0 l | literal | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fuel capacity | 3 L (publicado: 2 x 1,400 l) | l | 1400.0 l | literal | NO DECLARADO | 2026-09-30 |
 
-Nota: Publicado dos veces en el bloque técnico, mismo valor.
+Nota: El bloque técnico publica este campo más de una vez con valores distintos.
 
 ## Capacidad Agua Dulce · `capacidad_agua_dulce` · VERIFIED
 
-Valor Oceanic: **2 x 800 l**
+Valor Oceanic: **1.600 l (publicado: 2 x 800 l)**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Water tank capacity | 2 x 800 L | l | 800.0 l | literal | NO DECLARADO | 2026-09-30 |
-| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fresh water capacity | 2 x 800 l | l | 800.0 l | literal | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Water tank capacity | 1600 L (publicado: 2 x 800 L) | l | 1600.0 l | literal | NO DECLARADO | 2026-09-30 |
+| [S1](https://www.catamarans-lagoon.com/boats/eighty-2) Web oficial · EIGHTY 2 | Specifications (bloque técnico) | Fresh water capacity | 1600 L (publicado: 2 x 800 l) | l | 1600.0 l | literal | NO DECLARADO | 2026-09-30 |
 
 Nota: Publicado dos veces en el bloque técnico, mismo valor.
 

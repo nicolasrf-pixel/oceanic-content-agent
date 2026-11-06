@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -41,6 +41,12 @@
 | [`st-37-pont-inf-rieur-0`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/ST%2037%20pont%20inf%C3%A9rieur_0.jpg.webp?itok=M2Vd_0tc) | PLANS | alta |  | NonexNone jpg | WEB_COPY | En la galería oficial del modelo y también en la variante hermana swift-trawler-37-fly (mismo casco): decisión Oceanic, se acepta en ambas. |
 | [`st-37-sedan-option-panneaux-ouvrants`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/ST%2037%20Sedan%20option%20panneaux%20ouvrants.jpg.webp?itok=s0TUdNAY) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST 37 Sedan option panneaux ouvrants.jpg' con el nombre del modelo. |
 | [`st-37-sedan-option-silent-boat`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/ST%2037%20sedan%20option%20silent%20boat.jpg.webp?itok=LrMbnX9y) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'ST 37 sedan option silent boat.jpg' con el nombre del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
 
 ## Videos (2)
 

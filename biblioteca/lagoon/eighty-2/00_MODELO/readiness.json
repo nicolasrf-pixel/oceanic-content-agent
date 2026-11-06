@@ -3,13 +3,14 @@
   "completeness_pct": 75,
   "critical_missing": [],
   "unresolved_conflicts": [
+    "Capacidad Combustible",
     "Superficie vélica"
   ],
   "items": {
     "tabla_tecnica": {
       "group": "DATOS",
       "status": "PARTIAL",
-      "detail": "tabla base 7/9 verificada · faltan: desplazamiento · en conflicto: superficie_velica"
+      "detail": "tabla base 6/9 verificada · faltan: desplazamiento · en conflicto: capacidad_combustible, superficie_velica"
     },
     "especificaciones": {
       "group": "DATOS",

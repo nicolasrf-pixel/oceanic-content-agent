@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -46,6 +46,12 @@
 | [`swift-trawler-54-layout-2-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/2024-06/swift-trawler-54-layout-2%20%281%29.png.webp?itok=VLH784Q8) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'swift-trawler-54-layout-2 (1).png' con el nombre del modelo. |
 | [`swift-trawler-54-layout-3-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/2024-06/swift-trawler-54-layout-3%20%281%29.png.webp?itok=FBx19lzq) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'swift-trawler-54-layout-3 (1).png' con el nombre del modelo. |
 | [`swift-trawler-54-layout-4-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/2024-06/swift-trawler-54-layout-4%20%281%29.png.webp?itok=lO9frduQ) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'swift-trawler-54-layout-4 (1).png' con el nombre del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |
 
 ## Videos (2)
 

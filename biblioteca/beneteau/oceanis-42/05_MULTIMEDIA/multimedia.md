@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `oceanis-exterieur-1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior Design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/oceanis-exterieur-1.jpg.webp?itok=JUWS9j9I) |
 | 3 | `oceanis-exterieur-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior Design'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-06/oceanis-exterieur-2.jpg.webp?itok=5aIX8SPK) |
 
-## Imágenes del modelo (20)
+## Imágenes del modelo (21)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,7 @@
 | [`usp-1-oceanis-42`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2026-07/usp-1-oceanis-42.jpg.webp?itok=-7If8vZf) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'usp-1-oceanis-42.jpg' con el nombre del modelo. |
 | [`usp-2-oceanis-42`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2026-07/usp-2-oceanis-42.jpg.webp?itok=9gSKrpXP) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'usp-2-oceanis-42.jpg' con el nombre del modelo. |
 | [`usp-3-oceanis-42`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2026-07/usp-3-oceanis-42.jpg.webp?itok=LZQntYIy) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'usp-3-oceanis-42.jpg' con el nombre del modelo. |
+| [`usp-1-oceanis-42-2`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2026-10/usp-1-oceanis-42.jpg.webp?itok=uAnAlK6T) | DETAIL | baja |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'usp-1-oceanis-42.jpg' con el nombre del modelo. |
 | [`oceanis-42-profil`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2026-06/oceanis-42-profil.png.webp?itok=8cy4Dgn0) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-42-profil.png' con el nombre del modelo. |
 | [`oceanis-42-plan-de-pont`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-06/oceanis-42-plan-de-pont.png.webp?itok=utHOFkkY) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-42-plan-de-pont.png' con el nombre del modelo. |
 | [`oceanis-42-2-cabines-1-salle-deau`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-06/oceanis-42-2-cabines-1-salle-deau.png.webp?itok=Mtoja-dv) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-42-2-cabines-1-salle-deau.png' con el nombre del modelo. |

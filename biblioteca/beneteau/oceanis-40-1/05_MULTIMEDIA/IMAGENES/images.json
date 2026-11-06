@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/oceanis/oceanis-401",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "oc40-1-header",
@@ -46,8 +46,7 @@
         "bytes": 565471,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-header.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-header.jpg"
     },
     {
       "id": "oceanis-40-1-offer-illu-12",
@@ -89,8 +88,7 @@
         "bytes": 485586,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/oceanis-40-1-offer-illu-12.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-03/oceanis-40-1-offer-illu-12.jpg"
     },
     {
       "id": "oc40-1-exterior1-1",
@@ -133,8 +131,7 @@
         "bytes": 857249,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior1_1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior1_1.jpg"
     },
     {
       "id": "oc40-1-exterior2",
@@ -177,8 +174,7 @@
         "bytes": 512786,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior2.jpg"
     },
     {
       "id": "oc40-1-exterior3",
@@ -220,8 +216,7 @@
         "bytes": 814728,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior3.jpg"
     },
     {
       "id": "oc40-1-exterior5",
@@ -263,8 +258,7 @@
         "bytes": 477292,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior5.jpg"
     },
     {
       "id": "oc40-1-exterior6",
@@ -306,8 +300,7 @@
         "bytes": 340480,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior6.jpg"
     },
     {
       "id": "oc40-1-exterior7",
@@ -349,8 +342,7 @@
         "bytes": 482582,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior7.jpg"
     },
     {
       "id": "oc40-1-exterior8",
@@ -392,8 +384,7 @@
         "bytes": 774870,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior8.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-exterior8.jpg"
     },
     {
       "id": "oc40-1-interior7",
@@ -435,8 +426,7 @@
         "bytes": 388224,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior7.jpg"
     },
     {
       "id": "oc40-1-interior1",
@@ -478,8 +468,7 @@
         "bytes": 449482,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior1.jpg"
     },
     {
       "id": "oc40-1-interior2",
@@ -521,8 +510,7 @@
         "bytes": 456311,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior2.jpg"
     },
     {
       "id": "oc40-1-interior3",
@@ -564,8 +552,7 @@
         "bytes": 441324,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior3.jpg"
     },
     {
       "id": "oc40-1-interior4-pg",
@@ -607,8 +594,7 @@
         "bytes": 396151,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior4.pg_.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior4.pg_.jpg"
     },
     {
       "id": "oc40-1-interior5",
@@ -650,8 +636,7 @@
         "bytes": 385918,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior5.jpg"
     },
     {
       "id": "oc40-1-interior6",
@@ -693,8 +678,7 @@
         "bytes": 391635,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-interior6.jpg"
     },
     {
       "id": "vie-au-mouillage",
@@ -736,8 +720,7 @@
         "bytes": 620779,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/vie_au_mouillage.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/vie_au_mouillage.jpg"
     },
     {
       "id": "sensations-sous-voiles",
@@ -779,8 +762,7 @@
         "bytes": 986404,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/sensations_sous_voiles.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/sensations_sous_voiles.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -852,8 +834,7 @@
         "bytes": 6919,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc40.1-profil.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/oc40.1-profil.jpg"
     },
     {
       "id": "oc40-1-deck",
@@ -895,8 +876,7 @@
         "bytes": 76220,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-deck.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-deck.jpg"
     },
     {
       "id": "oc40-1-2cab1t",
@@ -938,8 +918,7 @@
         "bytes": 58860,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-2cab1t.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-2cab1t.jpg"
     },
     {
       "id": "oc40-1-3cab1t",
@@ -981,8 +960,7 @@
         "bytes": 63341,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-3cab1t.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-3cab1t.jpg"
     },
     {
       "id": "oc40-1-3cab2t",
@@ -1024,8 +1002,7 @@
         "bytes": 63229,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-3cab2t.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/oc40.1-3cab2t.jpg"
     },
     {
       "id": "oc40-layout-4c2t",
@@ -1067,8 +1044,7 @@
         "bytes": 80531,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/OC40-layout-4c2t.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-04/OC40-layout-4c2t.jpg"
     }
   ]
 }

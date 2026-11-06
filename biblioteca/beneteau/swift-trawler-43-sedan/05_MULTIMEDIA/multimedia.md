@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -38,3 +38,9 @@
 | [`layout-swift-trawler-43-sedan-2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-08/layout-swift-trawler-43-sedan-2.png.webp?itok=hHtGGRBh) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'layout-swift-trawler-43-sedan-2.png' con el nombre del modelo. |
 | [`layout-swift-trawler-43-sedan-main-bridge`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-08/layout-swift-trawler-43-sedan-main-bridge.png.webp?itok=zOm0WjcC) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'layout-swift-trawler-43-sedan-main-bridge.png' con el nombre del modelo. |
 | [`layout-swift-trawler-43-sedan-lower-deck`](https://www.beneteau.com/sites/default/files/styles/wide/public/2026-08/layout-swift-trawler-43-sedan-lower-deck.png.webp?itok=Bz0FWCrE) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'layout-swift-trawler-43-sedan-lower-deck.png' con el nombre del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |

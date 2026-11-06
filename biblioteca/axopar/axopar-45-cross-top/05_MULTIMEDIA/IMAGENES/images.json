@@ -3,7 +3,7 @@
   "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
   "usage_terms": "Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.",
   "classification_note": "Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.",
   "images": [
     {
       "id": "axopar-45-cross-top-11",
@@ -45,6 +45,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 86588,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExOSwidGltZXN0YW1wIjoxNzY1MjY5NjI3LCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:reVuewLficC-bLcRbWjEqJqmv0HkJw3M5ytO8fhVnCQ/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExOSwidGltZXN0YW1wIjoxNzY1MjY5NjI3LCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:reVuewLficC-bLcRbWjEqJqmv0HkJw3M5ytO8fhVnCQ/download",
@@ -55,9 +56,7 @@
         "bytes": 10293611,
         "full_resolution": true
       },
-      "bytes": 86588,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExOSwidGltZXN0YW1wIjoxNzY1MjY5NjI3LCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:reVuewLficC-bLcRbWjEqJqmv0HkJw3M5ytO8fhVnCQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExOSwidGltZXN0YW1wIjoxNzY1MjY5NjI3LCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:reVuewLficC-bLcRbWjEqJqmv0HkJw3M5ytO8fhVnCQ/download"
     },
     {
       "id": "ax45-xt-efoil-k0a8252-m",
@@ -90,6 +89,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 81560,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NDcsInRpbWVzdGFtcCI6MTc3MzQwODMyNCwidmVyc2lvbiI6MTc3MzQwODI1OX0:axopar:HStYUDYNnX9pmT5-9eQhK3wAdqpC9ns3logJ-KzZg98/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NDcsInRpbWVzdGFtcCI6MTc3MzQwODMyNCwidmVyc2lvbiI6MTc3MzQwODI1OX0:axopar:HStYUDYNnX9pmT5-9eQhK3wAdqpC9ns3logJ-KzZg98/download",
@@ -100,9 +100,7 @@
         "bytes": 344204,
         "full_resolution": true
       },
-      "bytes": 81560,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NDcsInRpbWVzdGFtcCI6MTc3MzQwODMyNCwidmVyc2lvbiI6MTc3MzQwODI1OX0:axopar:HStYUDYNnX9pmT5-9eQhK3wAdqpC9ns3logJ-KzZg98/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NDcsInRpbWVzdGFtcCI6MTc3MzQwODMyNCwidmVyc2lvbiI6MTc3MzQwODI1OX0:axopar:HStYUDYNnX9pmT5-9eQhK3wAdqpC9ns3logJ-KzZg98/download"
     },
     {
       "id": "axopar-45-cross-top-a1209778",
@@ -141,7 +139,8 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2027",
       "copyright_notice": "© 2026 Axopar Boats Oy",
-      "hero_rank": 1,
+      "hero_rank": 2,
+      "bytes": 405840,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzgsInRpbWVzdGFtcCI6MTc5MDEzOTQ3MSwidmVyc2lvbiI6MTc5MDEzOTQzNH0:axopar:_XoZ_-PD7C30BDAcNAsC1VkRXwh81CYmbtvYlrnsfTg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzgsInRpbWVzdGFtcCI6MTc5MDEzOTQ3MSwidmVyc2lvbiI6MTc5MDEzOTQzNH0:axopar:_XoZ_-PD7C30BDAcNAsC1VkRXwh81CYmbtvYlrnsfTg/download",
@@ -152,9 +151,7 @@
         "bytes": 29630094,
         "full_resolution": true
       },
-      "bytes": 405840,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzgsInRpbWVzdGFtcCI6MTc5MDEzOTQ3MSwidmVyc2lvbiI6MTc5MDEzOTQzNH0:axopar:_XoZ_-PD7C30BDAcNAsC1VkRXwh81CYmbtvYlrnsfTg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzgsInRpbWVzdGFtcCI6MTc5MDEzOTQ3MSwidmVyc2lvbiI6MTc5MDEzOTQzNH0:axopar:_XoZ_-PD7C30BDAcNAsC1VkRXwh81CYmbtvYlrnsfTg/download"
     },
     {
       "id": "axopar-45-xc-c4a8660",
@@ -275,6 +272,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": null,
+      "bytes": 129774,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjAsInRpbWVzdGFtcCI6MTc2NzU5NTgxNSwidmVyc2lvbiI6MTc2NTg3MDU1M30:axopar:9I4PaBrPqjECYI3hxOwV8VY9YsxdRaz7x2Zusnib1KQ/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjAsInRpbWVzdGFtcCI6MTc2NzU5NTgxNSwidmVyc2lvbiI6MTc2NTg3MDU1M30:axopar:9I4PaBrPqjECYI3hxOwV8VY9YsxdRaz7x2Zusnib1KQ/download",
@@ -285,9 +283,7 @@
         "bytes": 30786827,
         "full_resolution": true
       },
-      "bytes": 129774,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjAsInRpbWVzdGFtcCI6MTc2NzU5NTgxNSwidmVyc2lvbiI6MTc2NTg3MDU1M30:axopar:9I4PaBrPqjECYI3hxOwV8VY9YsxdRaz7x2Zusnib1KQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTE1MjAsInRpbWVzdGFtcCI6MTc2NzU5NTgxNSwidmVyc2lvbiI6MTc2NTg3MDU1M30:axopar:9I4PaBrPqjECYI3hxOwV8VY9YsxdRaz7x2Zusnib1KQ/download"
     },
     {
       "id": "axopar-45-cross-top-5",
@@ -328,6 +324,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 104428,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEzMCwidGltZXN0YW1wIjoxNzY3NjAxMDQ3LCJ2ZXJzaW9uIjoxNzYwNjE0OTg4fQ:axopar:GyKapZMxZxfU2RekFhsSmrzeK4qvcl1vOcNgfLdUAaI/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEzMCwidGltZXN0YW1wIjoxNzY3NjAxMDQ3LCJ2ZXJzaW9uIjoxNzYwNjE0OTg4fQ:axopar:GyKapZMxZxfU2RekFhsSmrzeK4qvcl1vOcNgfLdUAaI/download",
@@ -338,9 +335,7 @@
         "bytes": 19358523,
         "full_resolution": true
       },
-      "bytes": 104428,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEzMCwidGltZXN0YW1wIjoxNzY3NjAxMDQ3LCJ2ZXJzaW9uIjoxNzYwNjE0OTg4fQ:axopar:GyKapZMxZxfU2RekFhsSmrzeK4qvcl1vOcNgfLdUAaI/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEzMCwidGltZXN0YW1wIjoxNzY3NjAxMDQ3LCJ2ZXJzaW9uIjoxNzYwNjE0OTg4fQ:axopar:GyKapZMxZxfU2RekFhsSmrzeK4qvcl1vOcNgfLdUAaI/download"
     },
     {
       "id": "axopar-45-sun-top-my24-dscf5560",
@@ -502,6 +497,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 171762,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExNywidGltZXN0YW1wIjoxNzY3NjAyMzkxLCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:EsiStNwdjuI-WBLJS7Rh1ED1E7_4ag6mK8lmHHkTuBM/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExNywidGltZXN0YW1wIjoxNzY3NjAyMzkxLCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:EsiStNwdjuI-WBLJS7Rh1ED1E7_4ag6mK8lmHHkTuBM/download",
@@ -512,9 +508,7 @@
         "bytes": 14811083,
         "full_resolution": true
       },
-      "bytes": 171762,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExNywidGltZXN0YW1wIjoxNzY3NjAyMzkxLCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:EsiStNwdjuI-WBLJS7Rh1ED1E7_4ag6mK8lmHHkTuBM/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzExNywidGltZXN0YW1wIjoxNzY3NjAyMzkxLCJ2ZXJzaW9uIjoxNzYwNjE0OTc5fQ:axopar:EsiStNwdjuI-WBLJS7Rh1ED1E7_4ag6mK8lmHHkTuBM/download"
     },
     {
       "id": "axopar-45-st-q9a1101",
@@ -594,6 +588,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 162976,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyNiwidGltZXN0YW1wIjoxNzY0OTM1NjcxLCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:DMtN-Z_mtmO5D6WRabo0PQgybO5z07WT9z1f7b2nlaE/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyNiwidGltZXN0YW1wIjoxNzY0OTM1NjcxLCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:DMtN-Z_mtmO5D6WRabo0PQgybO5z07WT9z1f7b2nlaE/download",
@@ -604,9 +599,7 @@
         "bytes": 14871090,
         "full_resolution": true
       },
-      "bytes": 162976,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyNiwidGltZXN0YW1wIjoxNzY0OTM1NjcxLCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:DMtN-Z_mtmO5D6WRabo0PQgybO5z07WT9z1f7b2nlaE/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyNiwidGltZXN0YW1wIjoxNzY0OTM1NjcxLCJ2ZXJzaW9uIjoxNzYwNjE0OTg1fQ:axopar:DMtN-Z_mtmO5D6WRabo0PQgybO5z07WT9z1f7b2nlaE/download"
     },
     {
       "id": "axopar-45-travel-edition-0929",
@@ -685,6 +678,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2027",
       "copyright_notice": null,
+      "bytes": 49252,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzYsInRpbWVzdGFtcCI6MTc5MDEzODE2MSwidmVyc2lvbiI6MTc5MDEzODA1NH0:axopar:fpwAqhfG_-gL3qN8NEbKki1AwqNa0F6Tx7vlSsK_oiM/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzYsInRpbWVzdGFtcCI6MTc5MDEzODE2MSwidmVyc2lvbiI6MTc5MDEzODA1NH0:axopar:fpwAqhfG_-gL3qN8NEbKki1AwqNa0F6Tx7vlSsK_oiM/download",
@@ -695,9 +689,7 @@
         "bytes": 10956610,
         "full_resolution": true
       },
-      "bytes": 49252,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzYsInRpbWVzdGFtcCI6MTc5MDEzODE2MSwidmVyc2lvbiI6MTc5MDEzODA1NH0:axopar:fpwAqhfG_-gL3qN8NEbKki1AwqNa0F6Tx7vlSsK_oiM/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzYsInRpbWVzdGFtcCI6MTc5MDEzODE2MSwidmVyc2lvbiI6MTc5MDEzODA1NH0:axopar:fpwAqhfG_-gL3qN8NEbKki1AwqNa0F6Tx7vlSsK_oiM/download"
     },
     {
       "id": "axopar-45-travel-edition-0934",
@@ -815,6 +807,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 144556,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyMiwidGltZXN0YW1wIjoxNzY3NjAzMDM0LCJ2ZXJzaW9uIjoxNzYwNjE0OTgyfQ:axopar:9Fwf_Pt9ZaMk8z9GC0kJ2KT_JV5n-y3aRusZzIzTJEg/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyMiwidGltZXN0YW1wIjoxNzY3NjAzMDM0LCJ2ZXJzaW9uIjoxNzYwNjE0OTgyfQ:axopar:9Fwf_Pt9ZaMk8z9GC0kJ2KT_JV5n-y3aRusZzIzTJEg/download",
@@ -825,9 +818,7 @@
         "bytes": 17487098,
         "full_resolution": true
       },
-      "bytes": 144556,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyMiwidGltZXN0YW1wIjoxNzY3NjAzMDM0LCJ2ZXJzaW9uIjoxNzYwNjE0OTgyfQ:axopar:9Fwf_Pt9ZaMk8z9GC0kJ2KT_JV5n-y3aRusZzIzTJEg/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEyMiwidGltZXN0YW1wIjoxNzY3NjAzMDM0LCJ2ZXJzaW9uIjoxNzYwNjE0OTgyfQ:axopar:9Fwf_Pt9ZaMk8z9GC0kJ2KT_JV5n-y3aRusZzIzTJEg/download"
     },
     {
       "id": "ax45-xt-efoil-q9a8337",
@@ -860,6 +851,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 120206,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDYsInRpbWVzdGFtcCI6MTc3MzEzOTQ1OCwidmVyc2lvbiI6MTc3MzEzODM4N30:axopar:xOQfKLt00WU_hcJTnj08DTNvMzJsyH1VnlTiGxh7yD4/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDYsInRpbWVzdGFtcCI6MTc3MzEzOTQ1OCwidmVyc2lvbiI6MTc3MzEzODM4N30:axopar:xOQfKLt00WU_hcJTnj08DTNvMzJsyH1VnlTiGxh7yD4/download",
@@ -870,9 +862,7 @@
         "bytes": 14534660,
         "full_resolution": true
       },
-      "bytes": 120206,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDYsInRpbWVzdGFtcCI6MTc3MzEzOTQ1OCwidmVyc2lvbiI6MTc3MzEzODM4N30:axopar:xOQfKLt00WU_hcJTnj08DTNvMzJsyH1VnlTiGxh7yD4/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDYsInRpbWVzdGFtcCI6MTc3MzEzOTQ1OCwidmVyc2lvbiI6MTc3MzEzODM4N30:axopar:xOQfKLt00WU_hcJTnj08DTNvMzJsyH1VnlTiGxh7yD4/download"
     },
     {
       "id": "ax45-xt-efoil-q6a8384",
@@ -905,6 +895,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 189854,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDEsInRpbWVzdGFtcCI6MTc3MzEzNzgyMywidmVyc2lvbiI6MTc3MzEzNzI2OX0:axopar:DCrwJd2iZY6SrnYV-Fuvx4G8gbMW9_JIgPBsPXMPfY0/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDEsInRpbWVzdGFtcCI6MTc3MzEzNzgyMywidmVyc2lvbiI6MTc3MzEzNzI2OX0:axopar:DCrwJd2iZY6SrnYV-Fuvx4G8gbMW9_JIgPBsPXMPfY0/download",
@@ -915,9 +906,7 @@
         "bytes": 17591755,
         "full_resolution": true
       },
-      "bytes": 189854,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDEsInRpbWVzdGFtcCI6MTc3MzEzNzgyMywidmVyc2lvbiI6MTc3MzEzNzI2OX0:axopar:DCrwJd2iZY6SrnYV-Fuvx4G8gbMW9_JIgPBsPXMPfY0/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDEsInRpbWVzdGFtcCI6MTc3MzEzNzgyMywidmVyc2lvbiI6MTc3MzEzNzI2OX0:axopar:DCrwJd2iZY6SrnYV-Fuvx4G8gbMW9_JIgPBsPXMPfY0/download"
     },
     {
       "id": "ax45-xt-efoil-q9a8400",
@@ -950,6 +939,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 68522,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDIsInRpbWVzdGFtcCI6MTc3MzEzNzkwMywidmVyc2lvbiI6MTc3MzEzNzMzNn0:axopar:3eO9cDLViLzR77RJVe1XNbwTEN0EcemKy6rlrLlJD6U/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDIsInRpbWVzdGFtcCI6MTc3MzEzNzkwMywidmVyc2lvbiI6MTc3MzEzNzMzNn0:axopar:3eO9cDLViLzR77RJVe1XNbwTEN0EcemKy6rlrLlJD6U/download",
@@ -960,9 +950,7 @@
         "bytes": 14368897,
         "full_resolution": true
       },
-      "bytes": 68522,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDIsInRpbWVzdGFtcCI6MTc3MzEzNzkwMywidmVyc2lvbiI6MTc3MzEzNzMzNn0:axopar:3eO9cDLViLzR77RJVe1XNbwTEN0EcemKy6rlrLlJD6U/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDIsInRpbWVzdGFtcCI6MTc3MzEzNzkwMywidmVyc2lvbiI6MTc3MzEzNzMzNn0:axopar:3eO9cDLViLzR77RJVe1XNbwTEN0EcemKy6rlrLlJD6U/download"
     },
     {
       "id": "ax45-xt-efoil-q6a8829",
@@ -995,6 +983,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 142548,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDMsInRpbWVzdGFtcCI6MTc3MzEzNzk2OSwidmVyc2lvbiI6MTc3MzEzNzM4NH0:axopar:DRUBdOJqIOB6t1W0vUb5Kzx-vY_Ipk7pjrEq3JRy4-o/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDMsInRpbWVzdGFtcCI6MTc3MzEzNzk2OSwidmVyc2lvbiI6MTc3MzEzNzM4NH0:axopar:DRUBdOJqIOB6t1W0vUb5Kzx-vY_Ipk7pjrEq3JRy4-o/download",
@@ -1005,9 +994,7 @@
         "bytes": 13806268,
         "full_resolution": true
       },
-      "bytes": 142548,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDMsInRpbWVzdGFtcCI6MTc3MzEzNzk2OSwidmVyc2lvbiI6MTc3MzEzNzM4NH0:axopar:DRUBdOJqIOB6t1W0vUb5Kzx-vY_Ipk7pjrEq3JRy4-o/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDMsInRpbWVzdGFtcCI6MTc3MzEzNzk2OSwidmVyc2lvbiI6MTc3MzEzNzM4NH0:axopar:DRUBdOJqIOB6t1W0vUb5Kzx-vY_Ipk7pjrEq3JRy4-o/download"
     },
     {
       "id": "ax45-xt-efoil-dji-0182",
@@ -1040,6 +1027,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 256784,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDgsInRpbWVzdGFtcCI6MTc3MzEzOTQ4MSwidmVyc2lvbiI6MTc3MzEzODU0OX0:axopar:ZUfz1izXF78DQjVvLOztxUBr0WvyW5XHIGubaDnJwNE/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDgsInRpbWVzdGFtcCI6MTc3MzEzOTQ4MSwidmVyc2lvbiI6MTc3MzEzODU0OX0:axopar:ZUfz1izXF78DQjVvLOztxUBr0WvyW5XHIGubaDnJwNE/download",
@@ -1050,9 +1038,7 @@
         "bytes": 9526750,
         "full_resolution": true
       },
-      "bytes": 256784,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDgsInRpbWVzdGFtcCI6MTc3MzEzOTQ4MSwidmVyc2lvbiI6MTc3MzEzODU0OX0:axopar:ZUfz1izXF78DQjVvLOztxUBr0WvyW5XHIGubaDnJwNE/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM5NDgsInRpbWVzdGFtcCI6MTc3MzEzOTQ4MSwidmVyc2lvbiI6MTc3MzEzODU0OX0:axopar:ZUfz1izXF78DQjVvLOztxUBr0WvyW5XHIGubaDnJwNE/download"
     },
     {
       "id": "axopar-45-xt-cross-top-brabus-line-10",
@@ -1092,6 +1078,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": null,
+      "bytes": 75720,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzIsInRpbWVzdGFtcCI6MTc4NzEyMzIzOCwidmVyc2lvbiI6MTc4Njk1OTY3MX0:axopar:C9nhQeY-qQB56Ssgjd4iAnRwYfJ-iCfxEBePhODPTlU/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzIsInRpbWVzdGFtcCI6MTc4NzEyMzIzOCwidmVyc2lvbiI6MTc4Njk1OTY3MX0:axopar:C9nhQeY-qQB56Ssgjd4iAnRwYfJ-iCfxEBePhODPTlU/download",
@@ -1102,9 +1089,7 @@
         "bytes": 13442127,
         "full_resolution": true
       },
-      "bytes": 75720,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzIsInRpbWVzdGFtcCI6MTc4NzEyMzIzOCwidmVyc2lvbiI6MTc4Njk1OTY3MX0:axopar:C9nhQeY-qQB56Ssgjd4iAnRwYfJ-iCfxEBePhODPTlU/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzIsInRpbWVzdGFtcCI6MTc4NzEyMzIzOCwidmVyc2lvbiI6MTc4Njk1OTY3MX0:axopar:C9nhQeY-qQB56Ssgjd4iAnRwYfJ-iCfxEBePhODPTlU/download"
     },
     {
       "id": "ax45-xt-efoil-q9a8308",
@@ -1138,6 +1123,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 106190,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTEwMjgsInRpbWVzdGFtcCI6MTc2NzYwNjM1NSwidmVyc2lvbiI6MTc2NDU3NDI1Nn0:axopar:NCMd3HozclCtnD_1xsgLrlvukMxNisq_DMsSQ3OpJ4M/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTEwMjgsInRpbWVzdGFtcCI6MTc2NzYwNjM1NSwidmVyc2lvbiI6MTc2NDU3NDI1Nn0:axopar:NCMd3HozclCtnD_1xsgLrlvukMxNisq_DMsSQ3OpJ4M/download",
@@ -1148,9 +1134,7 @@
         "bytes": 19176301,
         "full_resolution": true
       },
-      "bytes": 106190,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTEwMjgsInRpbWVzdGFtcCI6MTc2NzYwNjM1NSwidmVyc2lvbiI6MTc2NDU3NDI1Nn0:axopar:NCMd3HozclCtnD_1xsgLrlvukMxNisq_DMsSQ3OpJ4M/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTEwMjgsInRpbWVzdGFtcCI6MTc2NzYwNjM1NSwidmVyc2lvbiI6MTc2NDU3NDI1Nn0:axopar:NCMd3HozclCtnD_1xsgLrlvukMxNisq_DMsSQ3OpJ4M/download"
     },
     {
       "id": "axopar-45-cross-top-2",
@@ -1189,6 +1173,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 315106,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzEsInRpbWVzdGFtcCI6MTc4Njk2NjY3NiwidmVyc2lvbiI6MTc4Njk1ODI2NH0:axopar:zFLpNvGUWkddnjkPkwt5E4a28AG-vfPjNz_5iF9IgTs/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzEsInRpbWVzdGFtcCI6MTc4Njk2NjY3NiwidmVyc2lvbiI6MTc4Njk1ODI2NH0:axopar:zFLpNvGUWkddnjkPkwt5E4a28AG-vfPjNz_5iF9IgTs/download",
@@ -1199,9 +1184,7 @@
         "bytes": 11938903,
         "full_resolution": true
       },
-      "bytes": 315106,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzEsInRpbWVzdGFtcCI6MTc4Njk2NjY3NiwidmVyc2lvbiI6MTc4Njk1ODI2NH0:axopar:zFLpNvGUWkddnjkPkwt5E4a28AG-vfPjNz_5iF9IgTs/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzEsInRpbWVzdGFtcCI6MTc4Njk2NjY3NiwidmVyc2lvbiI6MTc4Njk1ODI2NH0:axopar:zFLpNvGUWkddnjkPkwt5E4a28AG-vfPjNz_5iF9IgTs/download"
     },
     {
       "id": "axopar-45-dsc02381",
@@ -1241,6 +1224,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2027",
       "copyright_notice": null,
+      "bytes": 45144,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzUsInRpbWVzdGFtcCI6MTc5MDEzODc0NiwidmVyc2lvbiI6MTc5MDEzNzQ2MX0:axopar:OmPx6n5AzEjHN8yhVoaVw5pGcVltkBXdTW4tg-LnvMw/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzUsInRpbWVzdGFtcCI6MTc5MDEzODc0NiwidmVyc2lvbiI6MTc5MDEzNzQ2MX0:axopar:OmPx6n5AzEjHN8yhVoaVw5pGcVltkBXdTW4tg-LnvMw/download",
@@ -1251,9 +1235,7 @@
         "bytes": 15827608,
         "full_resolution": true
       },
-      "bytes": 45144,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzUsInRpbWVzdGFtcCI6MTc5MDEzODc0NiwidmVyc2lvbiI6MTc5MDEzNzQ2MX0:axopar:OmPx6n5AzEjHN8yhVoaVw5pGcVltkBXdTW4tg-LnvMw/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzUsInRpbWVzdGFtcCI6MTc5MDEzODc0NiwidmVyc2lvbiI6MTc5MDEzNzQ2MX0:axopar:OmPx6n5AzEjHN8yhVoaVw5pGcVltkBXdTW4tg-LnvMw/download"
     },
     {
       "id": "45ft-4",
@@ -1324,6 +1306,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2027",
       "copyright_notice": null,
+      "bytes": 62106,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzQsInRpbWVzdGFtcCI6MTc5MDEzODc4NSwidmVyc2lvbiI6MTc5MDEzNzQ1OH0:axopar:jrOA4tdoBrVOu-fnp8usck_oQTqT3cHxOs_52uh24NQ/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzQsInRpbWVzdGFtcCI6MTc5MDEzODc4NSwidmVyc2lvbiI6MTc5MDEzNzQ1OH0:axopar:jrOA4tdoBrVOu-fnp8usck_oQTqT3cHxOs_52uh24NQ/download",
@@ -1334,9 +1317,7 @@
         "bytes": 12834164,
         "full_resolution": true
       },
-      "bytes": 62106,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzQsInRpbWVzdGFtcCI6MTc5MDEzODc4NSwidmVyc2lvbiI6MTc5MDEzNzQ1OH0:axopar:jrOA4tdoBrVOu-fnp8usck_oQTqT3cHxOs_52uh24NQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzNzQsInRpbWVzdGFtcCI6MTc5MDEzODc4NSwidmVyc2lvbiI6MTc5MDEzNzQ1OH0:axopar:jrOA4tdoBrVOu-fnp8usck_oQTqT3cHxOs_52uh24NQ/download"
     },
     {
       "id": "2026-08-06-axopar45-182",
@@ -1523,6 +1504,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 60780,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTQsInRpbWVzdGFtcCI6MTc3NDQyNjgyNiwidmVyc2lvbiI6MTc3MzY0NzI3NX0:axopar:vG7rstahI7UQ6V1xh6qOQu2D5cIKUmtX7amO-pWizno/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTQsInRpbWVzdGFtcCI6MTc3NDQyNjgyNiwidmVyc2lvbiI6MTc3MzY0NzI3NX0:axopar:vG7rstahI7UQ6V1xh6qOQu2D5cIKUmtX7amO-pWizno/download",
@@ -1533,9 +1515,7 @@
         "bytes": 549001,
         "full_resolution": true
       },
-      "bytes": 60780,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTQsInRpbWVzdGFtcCI6MTc3NDQyNjgyNiwidmVyc2lvbiI6MTc3MzY0NzI3NX0:axopar:vG7rstahI7UQ6V1xh6qOQu2D5cIKUmtX7amO-pWizno/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0NTQsInRpbWVzdGFtcCI6MTc3NDQyNjgyNiwidmVyc2lvbiI6MTc3MzY0NzI3NX0:axopar:vG7rstahI7UQ6V1xh6qOQu2D5cIKUmtX7amO-pWizno/download"
     },
     {
       "id": "axopar-45-cross-top-platinum-grey-2160x2160",
@@ -1567,6 +1547,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 55280,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ3NjgsInRpbWVzdGFtcCI6MTc3NDQyNjcyOSwidmVyc2lvbiI6MTc3NDQyNjUzMX0:axopar:1upQSxiYbaqZT_IU9ZaQhADfHG2kBe1GWRCBrIteI80/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ3NjgsInRpbWVzdGFtcCI6MTc3NDQyNjcyOSwidmVyc2lvbiI6MTc3NDQyNjUzMX0:axopar:1upQSxiYbaqZT_IU9ZaQhADfHG2kBe1GWRCBrIteI80/download",
@@ -1577,9 +1558,7 @@
         "bytes": 538288,
         "full_resolution": true
       },
-      "bytes": 55280,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ3NjgsInRpbWVzdGFtcCI6MTc3NDQyNjcyOSwidmVyc2lvbiI6MTc3NDQyNjUzMX0:axopar:1upQSxiYbaqZT_IU9ZaQhADfHG2kBe1GWRCBrIteI80/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ3NjgsInRpbWVzdGFtcCI6MTc3NDQyNjcyOSwidmVyc2lvbiI6MTc3NDQyNjUzMX0:axopar:1upQSxiYbaqZT_IU9ZaQhADfHG2kBe1GWRCBrIteI80/download"
     },
     {
       "id": "axopar-45-cross-top-glacier-blue",
@@ -1611,6 +1590,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 58178,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzMsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:DVXYJu5CXu4vp6xSyaHm98JSLvkSH2uONNHPwlilpUs/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzMsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:DVXYJu5CXu4vp6xSyaHm98JSLvkSH2uONNHPwlilpUs/download",
@@ -1621,9 +1601,7 @@
         "bytes": 526111,
         "full_resolution": true
       },
-      "bytes": 58178,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzMsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:DVXYJu5CXu4vp6xSyaHm98JSLvkSH2uONNHPwlilpUs/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzMsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:DVXYJu5CXu4vp6xSyaHm98JSLvkSH2uONNHPwlilpUs/download"
     },
     {
       "id": "axopar-45-cross-top-pearl-white",
@@ -1655,6 +1633,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 57386,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzIsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:YkO1K5BfKuedkS22-YpUDedd5oT0YBB_cRYMxCjb7fg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzIsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:YkO1K5BfKuedkS22-YpUDedd5oT0YBB_cRYMxCjb7fg/download",
@@ -1665,9 +1644,7 @@
         "bytes": 530981,
         "full_resolution": true
       },
-      "bytes": 57386,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzIsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:YkO1K5BfKuedkS22-YpUDedd5oT0YBB_cRYMxCjb7fg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc0NzIsInRpbWVzdGFtcCI6MTc4NjUyMDc3MywidmVyc2lvbiI6MTc4NjUxOTI2OH0:axopar:YkO1K5BfKuedkS22-YpUDedd5oT0YBB_cRYMxCjb7fg/download"
     },
     {
       "id": "axopar-45-cross-top-brabus-performance-line-099a2832",
@@ -1707,7 +1684,8 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2025",
       "copyright_notice": "© 2025 Axopar Boats Oy",
-      "hero_rank": 2,
+      "hero_rank": 3,
+      "bytes": 152878,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwNiwidGltZXN0YW1wIjoxNzY1MjAwMzA5LCJ2ZXJzaW9uIjoxNzYwNjE0OTY4fQ:axopar:uwAaFH_nvEnQ-HWe-M3vxK_QpafmjXVGwZ9Up3WWmHM/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwNiwidGltZXN0YW1wIjoxNzY1MjAwMzA5LCJ2ZXJzaW9uIjoxNzYwNjE0OTY4fQ:axopar:uwAaFH_nvEnQ-HWe-M3vxK_QpafmjXVGwZ9Up3WWmHM/download",
@@ -1718,9 +1696,7 @@
         "bytes": 19923692,
         "full_resolution": true
       },
-      "bytes": 152878,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwNiwidGltZXN0YW1wIjoxNzY1MjAwMzA5LCJ2ZXJzaW9uIjoxNzYwNjE0OTY4fQ:axopar:uwAaFH_nvEnQ-HWe-M3vxK_QpafmjXVGwZ9Up3WWmHM/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwNiwidGltZXN0YW1wIjoxNzY1MjAwMzA5LCJ2ZXJzaW9uIjoxNzYwNjE0OTY4fQ:axopar:uwAaFH_nvEnQ-HWe-M3vxK_QpafmjXVGwZ9Up3WWmHM/download"
     },
     {
       "id": "axopar-45-cross-top-brabus-performance-line-099a2774",
@@ -1728,8 +1704,8 @@
       "category": "EXTERIOR",
       "scope": "THIS_MODEL",
       "scope_evidence": "Tag DAM del modelo (ax45, ax45perfline, ax45xt, axopar, germany, my25).",
-      "hero_candidate": true,
-      "hero_reason": "Exterior MY2025 del modelo, horizontal 8192x5464; Tag DAM del modelo (ax45, ax45perfline, ax45xt, axopar, germany, my25).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download",
       "cdn_url": "https://media.ffycdn.net/eu/axopar/hD38gFM6fhxgux9sfR45.jpg",
       "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
@@ -1760,7 +1736,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2025",
       "copyright_notice": "© 2025 Axopar Boats Oy",
-      "hero_rank": 3,
+      "bytes": 89276,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download",
@@ -1771,9 +1747,7 @@
         "bytes": 28046225,
         "full_resolution": true
       },
-      "bytes": 89276,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzEwOCwidGltZXN0YW1wIjoxNzc0OTcxMTY5LCJ2ZXJzaW9uIjoxNzYwNjE0OTcyfQ:axopar:7VJmuDp0vtnuq0UDcNuHFcElyZqNOiNdnjoMo2rG3U4/download"
     },
     {
       "id": "axopar-45-st-q9a2127",
@@ -1921,6 +1895,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 86350,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTQsInRpbWVzdGFtcCI6MTc4ODE1ODE2NSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:-yZXb6U-3u8SqdA5OC9w7lMSbj9pzo0HCSNIBBEgyVw/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTQsInRpbWVzdGFtcCI6MTc4ODE1ODE2NSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:-yZXb6U-3u8SqdA5OC9w7lMSbj9pzo0HCSNIBBEgyVw/download",
@@ -1931,9 +1906,7 @@
         "bytes": 917160,
         "full_resolution": true
       },
-      "bytes": 86350,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTQsInRpbWVzdGFtcCI6MTc4ODE1ODE2NSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:-yZXb6U-3u8SqdA5OC9w7lMSbj9pzo0HCSNIBBEgyVw/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTQsInRpbWVzdGFtcCI6MTc4ODE1ODE2NSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:-yZXb6U-3u8SqdA5OC9w7lMSbj9pzo0HCSNIBBEgyVw/download"
     },
     {
       "id": "ax45stxt-u-sofa",
@@ -1966,6 +1939,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 94356,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTYsInRpbWVzdGFtcCI6MTc4ODE1ODIxNSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:NrwceQ9hipaq7S-U7EvRKaKYDtipFiFIHlILZSCPJ7w/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTYsInRpbWVzdGFtcCI6MTc4ODE1ODIxNSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:NrwceQ9hipaq7S-U7EvRKaKYDtipFiFIHlILZSCPJ7w/download",
@@ -1976,9 +1950,7 @@
         "bytes": 987133,
         "full_resolution": true
       },
-      "bytes": 94356,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTYsInRpbWVzdGFtcCI6MTc4ODE1ODIxNSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:NrwceQ9hipaq7S-U7EvRKaKYDtipFiFIHlILZSCPJ7w/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTYsInRpbWVzdGFtcCI6MTc4ODE1ODIxNSwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:NrwceQ9hipaq7S-U7EvRKaKYDtipFiFIHlILZSCPJ7w/download"
     },
     {
       "id": "ax45stxt-aft-cabin",
@@ -2011,6 +1983,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 90340,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTUsInRpbWVzdGFtcCI6MTc4ODE1ODI1NiwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:is_jD3UAnam0dHyGURWmRoE6udVp2ek8DDkJo8_N484/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTUsInRpbWVzdGFtcCI6MTc4ODE1ODI1NiwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:is_jD3UAnam0dHyGURWmRoE6udVp2ek8DDkJo8_N484/download",
@@ -2021,9 +1994,7 @@
         "bytes": 1472287,
         "full_resolution": true
       },
-      "bytes": 90340,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTUsInRpbWVzdGFtcCI6MTc4ODE1ODI1NiwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:is_jD3UAnam0dHyGURWmRoE6udVp2ek8DDkJo8_N484/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc2MTUsInRpbWVzdGFtcCI6MTc4ODE1ODI1NiwidmVyc2lvbiI6MTc4ODE1ODEwMX0:axopar:is_jD3UAnam0dHyGURWmRoE6udVp2ek8DDkJo8_N484/download"
     },
     {
       "id": "axopar-45-cross-top-5-2",
@@ -2064,6 +2035,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2024",
       "copyright_notice": "Niklas Frank",
+      "bytes": 119188,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE0NCwidGltZXN0YW1wIjoxNzY3NjA3MzIyLCJ2ZXJzaW9uIjoxNzYwNjE0OTk0fQ:axopar:QewV3lsVZNF4JnfoOeAVXkmVdAOhouPzlP_gT_Z_2CI/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE0NCwidGltZXN0YW1wIjoxNzY3NjA3MzIyLCJ2ZXJzaW9uIjoxNzYwNjE0OTk0fQ:axopar:QewV3lsVZNF4JnfoOeAVXkmVdAOhouPzlP_gT_Z_2CI/download",
@@ -2074,9 +2046,7 @@
         "bytes": 7312240,
         "full_resolution": true
       },
-      "bytes": 119188,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE0NCwidGltZXN0YW1wIjoxNzY3NjA3MzIyLCJ2ZXJzaW9uIjoxNzYwNjE0OTk0fQ:axopar:QewV3lsVZNF4JnfoOeAVXkmVdAOhouPzlP_gT_Z_2CI/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MzE0NCwidGltZXN0YW1wIjoxNzY3NjA3MzIyLCJ2ZXJzaW9uIjoxNzYwNjE0OTk0fQ:axopar:QewV3lsVZNF4JnfoOeAVXkmVdAOhouPzlP_gT_Z_2CI/download"
     },
     {
       "id": "silvertex-petrol",
@@ -2109,6 +2079,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 275750,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
@@ -2119,9 +2090,7 @@
         "bytes": 12820486,
         "full_resolution": true
       },
-      "bytes": 275750,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download"
     },
     {
       "id": "silvertex-squash",
@@ -2154,6 +2123,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 290708,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
@@ -2164,9 +2134,7 @@
         "bytes": 19540155,
         "full_resolution": true
       },
-      "bytes": 290708,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download"
     },
     {
       "id": "silvertex-hunter",
@@ -2199,6 +2167,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 251796,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
@@ -2209,9 +2178,7 @@
         "bytes": 11241616,
         "full_resolution": true
       },
-      "bytes": 251796,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download"
     },
     {
       "id": "linetex-sphere",
@@ -2244,6 +2211,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 48708,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
@@ -2254,9 +2222,7 @@
         "bytes": 13232241,
         "full_resolution": true
       },
-      "bytes": 48708,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download"
     },
     {
       "id": "linetex-dust",
@@ -2289,6 +2255,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 44784,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
@@ -2299,9 +2266,7 @@
         "bytes": 22504590,
         "full_resolution": true
       },
-      "bytes": 44784,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download"
     },
     {
       "id": "linetex-chalk",
@@ -2334,6 +2299,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 24080,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
@@ -2344,9 +2310,7 @@
         "bytes": 15614575,
         "full_resolution": true
       },
-      "bytes": 24080,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download"
     },
     {
       "id": "taupe",
@@ -2379,6 +2343,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 281730,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
@@ -2389,9 +2354,7 @@
         "bytes": 246702,
         "full_resolution": true
       },
-      "bytes": 281730,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download"
     },
     {
       "id": "natural",
@@ -2424,6 +2387,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 107538,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download",
@@ -2434,9 +2398,7 @@
         "bytes": 150427,
         "full_resolution": true
       },
-      "bytes": 107538,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download"
     },
     {
       "id": "antracite",
@@ -2469,6 +2431,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 195804,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
@@ -2479,9 +2442,7 @@
         "bytes": 238934,
         "full_resolution": true
       },
-      "bytes": 195804,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download"
     },
     {
       "id": "ax45-xt-efoil-q9a8325",
@@ -2514,6 +2475,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "Henrik Ljungqvist",
+      "bytes": 97444,
       "original": {
         "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTUsInRpbWVzdGFtcCI6MTc3MzkxMDA0MSwidmVyc2lvbiI6MTc3Mzc0NTUwOX0:axopar:0EKmSvJ2Sa7sxPAwgaUbPdKYOC-_bjjQPniSZgxOb5s/download",
         "fetched_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTUsInRpbWVzdGFtcCI6MTc3MzkxMDA0MSwidmVyc2lvbiI6MTc3Mzc0NTUwOX0:axopar:0EKmSvJ2Sa7sxPAwgaUbPdKYOC-_bjjQPniSZgxOb5s/download",
@@ -2524,9 +2486,7 @@
         "bytes": 15449031,
         "full_resolution": true
       },
-      "bytes": 97444,
-      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTUsInRpbWVzdGFtcCI6MTc3MzkxMDA0MSwidmVyc2lvbiI6MTc3Mzc0NTUwOX0:axopar:0EKmSvJ2Sa7sxPAwgaUbPdKYOC-_bjjQPniSZgxOb5s/download",
-      "web_quality": 75
+      "downloaded_from": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTQ0OTUsInRpbWVzdGFtcCI6MTc3MzkxMDA0MSwidmVyc2lvbiI6MTc3Mzc0NTUwOX0:axopar:0EKmSvJ2Sa7sxPAwgaUbPdKYOC-_bjjQPniSZgxOb5s/download"
     },
     {
       "id": "axopar-dealer-map",
@@ -2658,6 +2618,376 @@
       "downloaded_at": null,
       "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
       "category_confidence": "media",
+      "model_year_tag": null,
+      "copyright_notice": null
+    },
+    {
+      "id": "axopar-45-cross-top-a1200140-edit",
+      "title": "Axopar 45 Cross Top_A1200140-Edit",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, my27, out).",
+      "hero_candidate": true,
+      "hero_reason": "Exterior MY2027 del modelo, horizontal 8573x4960; Tag DAM del modelo (ax45, ax45xt, axopar, france, my27, out).",
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg3MDcsInRpbWVzdGFtcCI6MTc5MDkyMDA2MywidmVyc2lvbiI6MTc5MDkxODMzMX0:axopar:MWVnoGUgILVOcBZ-1Vvhim9qpPbhSmEvH8YvhZxwFYY/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/nsw3nfcs3NCmue8qJ8Tv.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "HeroBlock",
+        "block_title": "hero",
+        "item_title": "Axopar 45 Cross Top_A1200140-Edit"
+      },
+      "declared_width": 8573,
+      "declared_height": 4960,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "my27",
+        "out"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy",
+      "hero_rank": 1
+    },
+    {
+      "id": "axopar-45-cross-top-dsc04528",
+      "title": "Axopar 45 Cross Top_DSC04528",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, ins, my27).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzOTUsInRpbWVzdGFtcCI6MTc5MDIzNDYxNywidmVyc2lvbiI6MTc5MDIzNDI3Mn0:axopar:RXUeP75biVwJRispurcUpbyDL5K3t47U6KH7FOM1JPA/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/jgZ2PS6RSDVgW2ru5S6r.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Gullwing Doors",
+        "item_title": "Gullwing Doors"
+      },
+      "declared_width": 6918,
+      "declared_height": 4612,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-45-cross-top-dsc02449",
+      "title": "Axopar 45 Cross Top_DSC02449",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, ins, my27).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg5NTUsInRpbWVzdGFtcCI6MTc5MTM3MDY1NiwidmVyc2lvbiI6MTc5MTM3MDI5OX0:axopar:kJiIcl41F4zfKc5GZ9skg-v1IcYGf3bWJvN2B5uapN8/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/cekTNJ9YLX1rWdWP4prK.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Gullwing Doors",
+        "item_title": "Gullwing Doors"
+      },
+      "declared_width": 6319,
+      "declared_height": 4213,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-45-cross-top-dsc02152",
+      "title": "Axopar 45 Cross Top_DSC02152",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, ins, my27).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg3MDQsInRpbWVzdGFtcCI6MTc5MDkxNjAzNiwidmVyc2lvbiI6MTc5MDkxNTg4OH0:axopar:b5Wstiaz2fe_oscWHrH5FE9JP9qWp40r9L7q3qxzmf8/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/xDx1iXpCtF4KiNrTLbwB.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Navigation Upgrade Package",
+        "item_title": "Navigation Upgrade Package"
+      },
+      "declared_width": 6735,
+      "declared_height": 4490,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-45-cross-top-dsc02393",
+      "title": "Axopar 45 Cross Top_DSC02393",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, ins, my27).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTgzOTksInRpbWVzdGFtcCI6MTc5MDIzNTI1NCwidmVyc2lvbiI6MTc5MDIzNTEyMX0:axopar:0HnjqieVNaTaCY5D8e65FjOeay7gimqXJop01WakyH0/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/cFSwcSpPpGHaR2RqaVZ3.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Extend your adventures with the Aft Cabin",
+        "item_title": "Extend your adventures with the Aft Cabin"
+      },
+      "declared_width": 6972,
+      "declared_height": 4648,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "2026-08-06-axopar45-464",
+      "title": "2026_08_06_axopar45_464",
+      "category": "COCKPIT",
+      "scope": "REQUIRES_REVIEW",
+      "scope_evidence": "Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_464').",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg3MDUsInRpbWVzdGFtcCI6MTc5MDkxNzMzNiwidmVyc2lvbiI6MTc5MDkxNjQ0N30:axopar:PI7ibbY69ffWM62TI0waFyBs2zPi8XLNvGRcSLF6UyA/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/qA5UP1SaJyVu48feP9JV.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Integrated Wet Bar in fenderbox",
+        "item_title": "Integrated Wet Bar in fenderbox"
+      },
+      "declared_width": 11656,
+      "declared_height": 8742,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)",
+      "category_confidence": "baja",
+      "model_year_tag": null,
+      "copyright_notice": null
+    },
+    {
+      "id": "axopar-45-xc-mediterrana-c4a6144-2",
+      "title": "Axopar 45 XC Mediterrana_C4A6144",
+      "category": "COCKPIT",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Título de otra variante: 'Axopar 45 XC Mediterrana_C4A6144'.",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg3MDYsInRpbWVzdGFtcCI6MTc5MDkxNzU5OCwidmVyc2lvbiI6MTc5MDkxNzUyNX0:axopar:uX7DVxrMlXHJWY-m4IzVtwSQqeIzZurHLcnkFdZlN8A/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/qTCyxkKTALQ6MQE9du5S.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "TabContentBlock",
+        "block_title": "Integrated Wet Bar in fenderbox",
+        "item_title": "Integrated Wet Bar in fenderbox"
+      },
+      "declared_width": 8192,
+      "declared_height": 5464,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "media",
+      "model_year_tag": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-45-cross-top-dsc04193",
+      "title": "Axopar_45_Cross_Top-DSC04193",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, cannes, france, ins).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg0MDIsInRpbWVzdGFtcCI6MTc5MDIzNjM3OSwidmVyc2lvbiI6MTc5MDIzNjI3N30:axopar:wdX12FNF8oORUKHSgbGgQEsqDXO40XDHtaMT5-UC-3o/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/8nFkZW5djVBAtSg5etcy.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "ImageGalleryBlock",
+        "block_title": null,
+        "item_title": "The Cross Top creates a protected driving environment with its wrap‑around, negative‑angle windscreen. It cuts wind chill and spray, improves visibility, and reduces glare and droplet buildup for a clearer view in all conditions."
+      },
+      "declared_width": 6853,
+      "declared_height": 4569,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "cannes",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "Axopar Boats"
+    },
+    {
+      "id": "axopar-45-cross-top-dsc04606",
+      "title": "Axopar 45 Cross Top_DSC04606",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Tag DAM del modelo (ax45, ax45xt, axopar, france, ins, my27).",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTg0MDMsInRpbWVzdGFtcCI6MTc5MDIzNjc1MiwidmVyc2lvbiI6MTc5MDIzNjUxMX0:axopar:McVN4o6ngN-xOptjiEpN_-cLcrFoT1rYpRNgLK3ipwE/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/wepzpChh2hvrBGDpGxUb.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "ImageGalleryBlock",
+        "block_title": null,
+        "item_title": "Every space on the Cross Top is designed to feel bright, spacious, and calm. High-quality materials, refined ergonomics, and smart storage solutions create a practical and comfortable environment for longer adventures."
+      },
+      "declared_width": 6565,
+      "declared_height": 4377,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax45",
+        "ax45xt",
+        "axopar",
+        "france",
+        "ins",
+        "my27"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2027",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "2026-08-06-axopar45-243",
+      "title": "2026_08_06_axopar45_243",
+      "category": "OTHER",
+      "scope": "REQUIRES_REVIEW",
+      "scope_evidence": "Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_243').",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1MzUsInRpbWVzdGFtcCI6MTc5MDMxMDMwNCwidmVyc2lvbiI6MTc4Njk2ODM0NH0:axopar:IUkO5jbN1QSApAaAMwruXPyLxPFzQj35WAwo-KkVUSY/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/Dq4Np1UK74rMaRkxUyoP.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-45/axopar-45-cross-top/",
+      "source_context": {
+        "block_type": "ImageGalleryBlock",
+        "block_title": "Image Gallery"
+      },
+      "declared_width": 11656,
+      "declared_height": 8742,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW)",
+      "category_confidence": "baja",
       "model_year_tag": null,
       "copyright_notice": null
     }

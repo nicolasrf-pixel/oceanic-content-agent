@@ -12,8 +12,8 @@ Model year: **NO DECLARADO** · Variante: **EIGHTY 2** · Configuración: **seg�
 | Manga Casco | 11 m | VERIFIED |
 | Desplazamiento en rosca | - | NOT_FOUND |
 | Camarotes | 4 / 5 (según versión) | VERIFIED |
-| Capacidad Combustible | 2 x 1.400 l | VERIFIED |
-| Capacidad Agua Dulce | 2 x 800 l | VERIFIED |
+| Capacidad Combustible | CONFLICT: 2800 L (publicado: 2 x 1400 L) (S1) / 3 L (publicado: 2 x 1,400 l) (S1) | CONFLICT |
+| Capacidad Agua Dulce | 1.600 l (publicado: 2 x 800 l) | VERIFIED |
 | Certificación | A14 / B18 / C24 / D40 | VERIFIED |
 | Superficie vélica | CONFLICT: 337m² | 3,627'4''sq.ft (S1) / 338 m² | 3,638’2’’ (S1) | CONFLICT |
 | Potencia motor auxiliar | 2 x 230 hp | VERIFIED |
@@ -35,4 +35,5 @@ Model year: **NO DECLARADO** · Variante: **EIGHTY 2** · Configuración: **seg�
 
 ## Pendiente de decisión humana
 
+- **Capacidad Combustible** (CONFLICT): El bloque técnico publica este campo más de una vez con valores distintos.
 - **Superficie vélica** (CONFLICT): El bloque técnico publica este campo más de una vez con valores distintos.

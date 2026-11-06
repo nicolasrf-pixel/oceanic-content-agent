@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `lagoon-47-mobile-cover` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'lagoon-47-mobile-cover.jpg' con el nombre del modelo. |
-| 2 | `catamaran-lagoon-47-01-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-Lagoon-47-01_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |
-| 3 | `catamaran-lagoon-47-02` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-Lagoon-47-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30). |
+| 2 | `lagoon-47-mobile-cover-2` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'lagoon-47-mobile-cover.jpg' con el nombre del modelo. |
+| 3 | `catamaran-lagoon-47-01-0` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-Lagoon-47-01_0.jpg' con el nombre del modelo. Categoría UNDERWAY por revisión visual (2026-09-30). |

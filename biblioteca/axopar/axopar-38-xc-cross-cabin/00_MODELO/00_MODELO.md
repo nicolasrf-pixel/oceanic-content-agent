@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/axopar.py`.
 - No se mezclan otras variantes de la gama (Axopar 38 Cross Top, Axopar 38 Sun Top).
-- Imágenes: 71 del modelo, 1 de otro modelo (excluidas), 1 por revisar, 0 no son del barco.
+- Imágenes: 76 del modelo, 1 de otro modelo (excluidas), 1 por revisar, 0 no son del barco.
 
 ## Content readiness
 
@@ -38,10 +38,10 @@
 | EDITORIAL | experiencia | OK | 927 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 416 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 18 en inventario (mín. 3) · descargadas 69/71 |
-| MULTIMEDIA | interior | OK | 15 en inventario (mín. 2) · descargadas 69/71 |
-| MULTIMEDIA | detail | OK | 14 en inventario (mín. 2) · descargadas 69/71 |
-| MULTIMEDIA | video | OK | 14 videos del modelo |
+| MULTIMEDIA | exterior | OK | 19 en inventario (mín. 3) · descargadas 69/76 |
+| MULTIMEDIA | interior | OK | 18 en inventario (mín. 2) · descargadas 69/76 |
+| MULTIMEDIA | detail | OK | 15 en inventario (mín. 2) · descargadas 69/76 |
+| MULTIMEDIA | video | OK | 15 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | manual | PARTIAL | 1 identificado(s) · requiere revisión |

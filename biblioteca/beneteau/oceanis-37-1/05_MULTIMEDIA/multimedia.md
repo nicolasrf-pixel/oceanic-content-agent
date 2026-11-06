@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `exterieur-oceanis37-1-1-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'exterieur-oceanis37.1-1_1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2023-08/exterieur-oceanis37.1-1_1.jpg.webp?itok=gbeWX_Of) |
 | 3 | `exterieur-oceanis37-1-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'exterieur-oceanis37.1-2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2023-08/exterieur-oceanis37.1-2.jpg.webp?itok=2t1ScoUc) |
 
-## Imágenes del modelo (21)
+## Imágenes del modelo (25)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -34,6 +34,10 @@
 | [`oceanis-37-1-8123-jpg-1900px`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2024-04/Oceanis-37.1-8123.jpg-1900px.jpg.webp?itok=uYEAgKSo) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'Oceanis-37.1-8123.jpg-1900px.jpg' con el nombre del modelo. |
 | [`oceanis-37-1-8026-jpg-1900px`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2024-04/Oceanis-37.1-8026.jpg-1900px.jpg.webp?itok=Bh0o6yHy) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'Oceanis-37.1-8026.jpg-1900px.jpg' con el nombre del modelo. |
 | [`oceanis-37-1-8042-jpg-1900px`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2024-04/Oceanis-37.1-8042.jpg-1900px.jpg.webp?itok=ZpDhG4T0) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'Oceanis-37.1-8042.jpg-1900px.jpg' con el nombre del modelo. |
+| [`oceanis-37-1-interior-pacific-design-03`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-37-1-interior-pacific-design-03.jpg.webp?itok=V3OtKono) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-37-1-interior-pacific-design-03.jpg' con el nombre del modelo. |
+| [`oceanis-37-1-interior-pacific-design-04`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-37-1-interior-pacific-design-04.jpg.webp?itok=ru7qET0U) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-37-1-interior-pacific-design-04.jpg' con el nombre del modelo. |
+| [`oceanis-37-1-interior-pacific-design-01`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-37-1-interior-pacific-design-01.jpg.webp?itok=w5qtiTJu) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-37-1-interior-pacific-design-01.jpg' con el nombre del modelo. |
+| [`oceanis-37-1-interior-pacific-design-02`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-37-1-interior-pacific-design-02.jpg.webp?itok=dvZ103_t) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-37-1-interior-pacific-design-02.jpg' con el nombre del modelo. |
 | [`iroko-f44`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2023-06/iroko-f44.jpg.webp?itok=2ph74ryr) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Intelligent Sustainable Design'). |
 | [`plan-oceanis37-1-4`](https://www.beneteau.com/sites/default/files/styles/wide/public/2023-06/plan-oceanis37.1-4.jpg.webp?itok=ObZQI656) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'plan-oceanis37.1-4.jpg' con el nombre del modelo. |
 | [`plan-oceanis37-1-1`](https://www.beneteau.com/sites/default/files/styles/wide/public/2023-06/plan-oceanis37.1-1.jpg.webp?itok=9g_V6LTW) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'plan-oceanis37.1-1.jpg' con el nombre del modelo. |

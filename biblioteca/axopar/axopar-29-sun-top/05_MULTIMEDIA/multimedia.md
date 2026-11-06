@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -24,7 +24,7 @@
 | [`axopar-29-sun-top-dsc02891`](https://media.ffycdn.net/eu/axopar/hS8UnehsjqhLunh3sEVi.jpg) | EXTERIOR | alta | MY2024 | 6711x4474 jpg | WEB_COPY | Tag DAM del modelo (ax29, ax29st, axopar, mallorca, my24, out). |
 | [`axopar-29-st-dsc05103`](https://media.ffycdn.net/eu/axopar/a2ym5ZfEPUrYMhpQAc8V.jpg) | EXTERIOR | alta | MY2024 | 7008x4672 jpg | WEB_COPY | Tag DAM del modelo (ax29, ax29st, axopar, mallorca, my24, out). |
 | [`axopar29-25-media-25`](https://media.ffycdn.net/eu/axopar/9qrZp6po8kd6jJ3M158F.jpg) | EXTERIOR | alta | MY2024 | 5272x3948 jpg | WEB_COPY | Tag DAM del modelo (2024, ax29, ax29st, axopar, lifestyle, mallorca). |
-| [`axopar-29-sun-top-my24-4t4a5962-enhanced-nr-edited-i-2`](https://media.ffycdn.net/eu/axopar/HLjZqNnHZnPMgQr7LmHM.jpg) | EXTERIOR | alta | MY2024 | 6174x4116 jpg | DUPLICATE_OF axopar-29-sun-top-my24-4t4a5962-enhanced-nr-edited-i | Tag DAM del modelo (ax29, ax29st, axopar, germany, my24, out). |
+| [`axopar-29-sun-top-my24-4t4a5962-enhanced-nr-edited-i-2`](https://media.ffycdn.net/eu/axopar/HLjZqNnHZnPMgQr7LmHM.jpg) | EXTERIOR | alta | MY2024 | 6174x4116 jpg | PENDING | Tag DAM del modelo (ax29, ax29st, axopar, germany, my24, out). |
 | [`axopar-29-sun-top-dsc03294`](https://media.ffycdn.net/eu/axopar/hdqZSAqjv26xW3NuABbW.jpg) | EXTERIOR | alta | MY2024 | 6456x4304 jpg | WEB_COPY | Tag DAM del modelo (2024, ax29, ax29st, axopar, mallorca, my24). |
 | [`axopar-29-sun-top-axopar-shoot-16-may-mallorca-dng-dscf7059-raf`](https://media.ffycdn.net/eu/axopar/JXrFsRy2B5rFUnm3eGJG.jpg) | INTERIOR | alta | MY2024 | 6023x4015 jpg | WEB_COPY | Tag DAM del modelo (2024, ax29, ax29st, ax29xc, axopar, ins). |
 | [`axopar-29-st-dsc00241`](https://media.ffycdn.net/eu/axopar/KSKhmPz38XUjtJoD6aY3.jpg) | INTERIOR | alta | MY2024 | 4156x2776 jpg | WEB_COPY | Tag DAM del modelo (ax29, ax29st, axopar, ins, my24, spain). |
@@ -38,7 +38,7 @@
 | [`axopar-29-st-dsc00555`](https://media.ffycdn.net/eu/axopar/VoDw1TVrhbsECJMMPg3m.jpg) | INTERIOR | alta | MY2024 | 4240x2832 jpg | WEB_COPY | Tag DAM del modelo (ax29, ax29st, axopar, ins, my24, spain). |
 | [`axopar-29-sun-top-axopar-shoot-16-may-mallorca-dng-dscf6185-raf-redigera-axedit`](https://media.ffycdn.net/eu/axopar/fhbxJuGPLn9Hn85JYrcu.png) | COCKPIT | media |  | 5786x3857 png | WEB_COPY | Título del modelo: 'Axopar-29-Sun-Top_Axopar-shoot-16-May-Mallorca-DNG_DSCF6185-RAF-Redigera_Axedit'. |
 | [`ax29st-gallery-0002-axopar-29-sun-top-3`](https://media.ffycdn.net/eu/axopar/imBSVH9hMr1cXYXGo2rf.jpg) | CABIN | media |  | 6000x4000 jpg | WEB_COPY | Título del modelo: 'AX29ST_Gallery__0002_Axopar_29_Sun-Top--3'. |
-| [`ax29st-gallery-0002-axopar-29-sun-top-3-2`](https://media.ffycdn.net/eu/axopar/zCYq25hCGkq5KCdfRckc.jpg) | CABIN | media |  | 6000x4000 jpg | DUPLICATE_OF ax29st-gallery-0002-axopar-29-sun-top-3 | Título del modelo: 'AX29ST_Gallery__0002_Axopar_29_Sun-Top--3'. |
+| [`ax29st-gallery-0002-axopar-29-sun-top-3-2`](https://media.ffycdn.net/eu/axopar/zCYq25hCGkq5KCdfRckc.jpg) | CABIN | media |  | 6000x4000 jpg | PENDING | Título del modelo: 'AX29ST_Gallery__0002_Axopar_29_Sun-Top--3'. |
 | [`ax29st-mediterrana-u-sofa-platinum-grey-side-square`](https://media.ffycdn.net/eu/axopar/HzqYSuR6eSmgE275QpJj.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'AX29ST_Mediterrana_U-sofa_Platinum_Grey_Side_Square'. |
 | [`ax29st-glacier-blue`](https://media.ffycdn.net/eu/axopar/adwr9AMzSJ7FwyZu9j5a.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'AX29ST_Glacier_Blue'. |
 | [`ax29st-pearl-white`](https://media.ffycdn.net/eu/axopar/b2a64NxSFjeSHWasHXuf.png) | DETAIL | media |  | 2160x2160 png | WEB_COPY | Título del modelo: 'AX29ST_Pearl_White'. |

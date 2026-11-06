@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `axopar-38-cross-top-brabus-performance-line-glacier-blue-d1-drone-photo-dji-2026-4` | Exterior MY2027 del modelo, horizontal 12288x8192; Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Performance_Line_Glacier_Blue-D1 DRONE PHOTO_DJI_20260905190758_0401_D'. | [original](https://media.ffycdn.net/eu/axopar/EP65yfTqv27WTiYyoGJN.jpg) |
 | 3 | `axopar-38-cross-top-brabus-performance-line-glacier-blue-d1-drone-photo-dji-2026-5` | Exterior MY2027 del modelo, horizontal 12288x8192; Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Performance_Line_Glacier_Blue-D1 DRONE PHOTO_DJI_20260905110217_0037_D'. | [original](https://media.ffycdn.net/eu/axopar/VoUMZghyEj8s8Qo89J9W.jpg) |
 
-## Imágenes del modelo (56)
+## Imágenes del modelo (57)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -60,6 +60,7 @@
 | [`axopar-38-cross-top-brabus-line-color-edition-glacier-blue`](https://media.ffycdn.net/eu/axopar/QRGeZJ88uCGf9kYjn8dB.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Line_Color_Edition_Glacier_Blue'. |
 | [`axopar-38-cross-top-brabus-line-color-edition-pearl-white`](https://media.ffycdn.net/eu/axopar/zyUtRJknm1xWWuN91Z4U.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Line_Color_Edition_Pearl_White'. |
 | [`axopar-38-cross-top-brabus-line-color-edition-platinum-grey`](https://media.ffycdn.net/eu/axopar/VtYwZwNKpWakWDMseFxz.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Line_Color_Edition_Platinum_Grey'. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Exterior Upholstery Colors' del modelo. |
 | [`axopar-38-cross-top-brabus-performance-line-glacier-blue-a1208798-4x5`](https://media.ffycdn.net/eu/axopar/WxJQ5woibdTrkoZ9j6xY.jpg) | UNDERWAY | media |  | 1080x1350 jpg | WEB_COPY | Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Performance_Line_Glacier_Blue-A1208798_4x5'. |
 | [`axopar-38-cross-top-brabus-performance-line-1`](https://media.ffycdn.net/eu/axopar/yfvuxUWxHFuBvJm6XLUK.png) | UNDERWAY | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_Cross_Top_BRABUS_Performance_Line_1'. |
 | [`38-xt-openaft`](https://media.ffycdn.net/eu/axopar/Nm78PFkX8CEX25gfN8rx.png) | OTHER | media |  | 7000x4083 png | WEB_COPY | Render/muestra publicada en la sección 'Aft Deck Alternatives & Configurations' del modelo. |

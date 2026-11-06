@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/flyer/flyer-9-spacedeck",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "flyer-9-spacedeck-header",
@@ -46,8 +46,7 @@
         "bytes": 504363,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-9-spacedeck-header.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-9-spacedeck-header.jpg"
     },
     {
       "id": "flyer9space-ext1",
@@ -90,8 +89,7 @@
         "bytes": 534358,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer9space-ext1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer9space-ext1.jpg"
     },
     {
       "id": "flyer9space-ext2-2",
@@ -134,8 +132,7 @@
         "bytes": 559845,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/Flyer9space-ext2-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/Flyer9space-ext2-2.jpg"
     },
     {
       "id": "dji-0102-jpg-1900px-1",
@@ -177,8 +174,7 @@
         "bytes": 121907,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/DJI_0102.jpg-1900px%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-07/DJI_0102.jpg-1900px%20%281%29.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-2-jpg-1900px-1",
@@ -220,8 +216,7 @@
         "bytes": 435457,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-2.jpg-1900px%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-2.jpg-1900px%20%281%29.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-6-jpg-1900px-logo-removed",
@@ -263,8 +258,7 @@
         "bytes": 307097,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-6.jpg-1900px%20logo%20removed.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-6.jpg-1900px%20logo%20removed.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-4-jpg-1900px-logo-removed",
@@ -306,8 +300,7 @@
         "bytes": 242767,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-4.jpg-1900px%20logo%20removed.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-4.jpg-1900px%20logo%20removed.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-3-jpg-1900px-logo-removed",
@@ -349,8 +342,7 @@
         "bytes": 444866,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-3.jpg-1900px%20logo%20removed.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-3.jpg-1900px%20logo%20removed.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-11-jpg-1900px-logo-removed",
@@ -392,8 +384,7 @@
         "bytes": 168469,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-11.jpg-1900px%20logo%20removed.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-11.jpg-1900px%20logo%20removed.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-8-jpg-1900px",
@@ -435,8 +426,7 @@
         "bytes": 787371,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/bnt_flyer9_spacedeck-8.jpg-1900px.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/bnt_flyer9_spacedeck-8.jpg-1900px.jpg"
     },
     {
       "id": "bnt-flyer9-spacedeck-9-jpg-1900px-1",
@@ -478,8 +468,7 @@
         "bytes": 191724,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-9.jpg-1900px%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-09/BNT_FLYER9_SPACEDECK-9.jpg-1900px%20%281%29.jpg"
     },
     {
       "id": "flyer-9-spacedeck-int1",
@@ -521,8 +510,7 @@
         "bytes": 277946,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int1.jpg"
     },
     {
       "id": "flyer-9-spacedeck-int2",
@@ -564,8 +552,7 @@
         "bytes": 354568,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int2.jpg"
     },
     {
       "id": "flyer-9-spacedeck-int3",
@@ -607,8 +594,7 @@
         "bytes": 367713,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-int3.jpg"
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
@@ -680,8 +666,7 @@
         "bytes": 433997,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer9-spacedeck-pilotedition-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer9-spacedeck-pilotedition-1.jpg"
     },
     {
       "id": "flyer9-spacedeck-pilotedition-2",
@@ -723,8 +708,7 @@
         "bytes": 506438,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer9-spacedeck-pilotedition-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer9-spacedeck-pilotedition-2.jpg"
     },
     {
       "id": "flyer-9-spacedeck-pointfort-terasse",
@@ -766,8 +750,7 @@
         "bytes": 441534,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-terasse.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-terasse.jpg"
     },
     {
       "id": "flyer-9-spacedeck-pointfort-cabine",
@@ -809,8 +792,7 @@
         "bytes": 364368,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-cabine.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-cabine.jpg"
     },
     {
       "id": "flyer-9-spacedeck-pointfort-confort",
@@ -852,8 +834,7 @@
         "bytes": 786507,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-confort.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-pointfort-confort.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -925,8 +906,7 @@
         "bytes": 18428,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer9SPACEdeck.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer9SPACEdeck.jpg"
     },
     {
       "id": "profile-flyer9spacedeck-t-top",
@@ -968,8 +948,7 @@
         "bytes": 20513,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer9SPACEdeck-t-top.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer9SPACEdeck-t-top.jpg"
     },
     {
       "id": "profile-flyer-9-spacedeck-gris-perle",
@@ -1011,8 +990,7 @@
         "bytes": 62404,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-9-spacedeck-gris-perle.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-9-spacedeck-gris-perle.jpg"
     },
     {
       "id": "flyer-9-spacedeck-topview",
@@ -1054,8 +1032,7 @@
         "bytes": 42144,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-topview.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-topview.jpg"
     },
     {
       "id": "flyer-9-spacedeck-interior",
@@ -1097,8 +1074,7 @@
         "bytes": 34696,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-interior.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/flyer-9-spacedeck-interior.jpg"
     }
   ]
 }

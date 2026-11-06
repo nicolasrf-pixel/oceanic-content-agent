@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `axopar-38-xc-cross-cabin-dji-20251208123749-0048-d` | Exterior MY2026 del modelo, horizontal 12161x8107; Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). | [original](https://media.ffycdn.net/eu/axopar/N6g2p9cqqrhqchrfLhQC.jpg) |
 | 3 | `axopar-38-xc-cross-cabin-dji-20251208123352-0024-d` | Exterior MY2026 del modelo, horizontal 11811x7874; Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). | [original](https://media.ffycdn.net/eu/axopar/3JJmoyJDwdCHJmSmuAfv.jpg) |
 
-## Imágenes del modelo (71)
+## Imágenes del modelo (76)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -30,11 +30,12 @@
 | [`axopar-38-xc-cross-cabin-dji-20251121143819-0012-d`](https://media.ffycdn.net/eu/axopar/53AM9T4KbfwbYZZDZNnf.jpg) | EXTERIOR | alta | MY2026 | 11704x7803 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). |
 | [`axopar-38-xc-cross-cabin-dji-20260306095039-0815-d`](https://media.ffycdn.net/eu/axopar/EPUHBcT8781D8zTKBPw1.jpg) | EXTERIOR | alta | MY2026 | 6076x4051 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, my26, out, turkey). |
 | [`axopar-38-xc-cross-cabin-a1206636`](https://media.ffycdn.net/eu/axopar/dMHqm5Ea8KzVdNtfbtVj.jpg) | EXTERIOR | alta | MY2026 | 8595x5730 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, my26, out, turkey). |
-| [`axopar-38-xc-cross-cabin-dji-20260306095039-0815-d-2`](https://media.ffycdn.net/eu/axopar/QHZwdg78U8sPrJ3UtdgH.jpg) | EXTERIOR | alta | MY2026 | 6076x4051 jpg | DUPLICATE_OF axopar-38-xc-cross-cabin-dji-20260306095039-0815-d | Tag DAM del modelo (ax38, ax38xc, axopar, my26, out, turkey). |
+| [`axopar-38-xc-cross-cabin-dji-20260306095039-0815-d-2`](https://media.ffycdn.net/eu/axopar/QHZwdg78U8sPrJ3UtdgH.jpg) | EXTERIOR | alta | MY2026 | 6076x4051 jpg | PENDING | Tag DAM del modelo (ax38, ax38xc, axopar, my26, out, turkey). |
 | [`axopar-38-xc-cross-cabin-099a3627`](https://media.ffycdn.net/eu/axopar/7wQxw1Dyvyijio6mFNZo.jpg) | EXTERIOR | alta | MY2026 | 8146x5433 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). |
 | [`axopar-38-xc-cross-cabin-dji-20251208123749-0048-d`](https://media.ffycdn.net/eu/axopar/N6g2p9cqqrhqchrfLhQC.jpg) | EXTERIOR | alta | MY2026 | 12161x8107 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). |
 | [`axopar-38-xc-cross-cabin-a1206234`](https://media.ffycdn.net/eu/axopar/7ZVs193GkfFZSzaenHiG.jpg) | EXTERIOR | alta | MY2026 | 8434x5623 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, my26, out, turkey). |
 | [`axopar-38-xc-cross-cabin-099a1517`](https://media.ffycdn.net/eu/axopar/PdbRQcocQKb8MSi5MwyR.jpg) | EXTERIOR | alta | MY2026 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, my26, out). |
+| [`axopar-38-xc-cross-cabin-dji-20260505141555-0111-d-axedit`](https://media.ffycdn.net/eu/axopar/bVXnSyoGJ874MgyKS9oA.png) | EXTERIOR | media |  | 12288x8192 png | PENDING | Título del modelo: 'Axopar-38-XC-Cross-Cabin_DJI_20260505141555_0111_D_Axedit'. |
 | [`axopar-38-xc-cross-cabin-a7501056`](https://media.ffycdn.net/eu/axopar/k7sFECQqKvYsx8JfRbvv.jpg) | INTERIOR | alta | MY2026 | 6972x4648 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
 | [`axopar-38-xc-cross-cabin-a7502905`](https://media.ffycdn.net/eu/axopar/psGsfzy1VZLTVDwAaf8R.jpg) | INTERIOR | alta | MY2026 | 6777x4518 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, ins, lifestyle, my26). |
 | [`axopar-38-xc-cross-cabin-099a6627`](https://media.ffycdn.net/eu/axopar/Q1biSatxS8WH4XXK6haL.jpg) | INTERIOR | alta | MY2026 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, ins, my26). |
@@ -46,8 +47,11 @@
 | [`axopar-38-xc-cross-cabin-099a6521`](https://media.ffycdn.net/eu/axopar/Rg4egzdminxp1WotcCgK.jpg) | INTERIOR | alta | MY2026 | 7944x5299 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, ins, my26). |
 | [`axopar-38-xc-cross-cabin-099a6864`](https://media.ffycdn.net/eu/axopar/iw3hzrM5BHBLYz1Kf6QF.jpg) | INTERIOR | alta | MY2026 | 8025x5353 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, finland, ins, my26). |
 | [`axopar-38-xc-cross-cabin-a1205263`](https://media.ffycdn.net/eu/axopar/EgpQ9wacZ15iQvNtUaW9.jpg) | INTERIOR | alta | MY2026 | 8457x5638 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, ins, lifestyle, my26). |
-| [`axopar-38-xc-cross-cabin-a7501056-2`](https://media.ffycdn.net/eu/axopar/UE31YFbkdTVwsiHrC5sN.jpg) | INTERIOR | alta | MY2026 | 6972x4648 jpg | DUPLICATE_OF axopar-38-xc-cross-cabin-a7501056 | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
+| [`axopar-38-xc-cross-cabin-a7501056-2`](https://media.ffycdn.net/eu/axopar/UE31YFbkdTVwsiHrC5sN.jpg) | INTERIOR | alta | MY2026 | 6972x4648 jpg | PENDING | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
 | [`axopar-38-xc-cross-cabin-a1204058`](https://media.ffycdn.net/eu/axopar/Le9s82jCo3veeKFZX8Fy.jpg) | INTERIOR | alta | MY2026 | 8573x5715 jpg | WEB_COPY | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
+| [`axopar-38-xc-cross-cabin-a1204133`](https://media.ffycdn.net/eu/axopar/J9XgPyemWc7ftfAS9dCN.jpg) | INTERIOR | alta | MY2026 | 8640x5760 jpg | PENDING | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
+| [`axopar-38-xc-cross-cabin-a1206625`](https://media.ffycdn.net/eu/axopar/XQgFWaWGLmwJWksC9oRF.jpg) | INTERIOR | alta | MY2026 | 8640x5760 jpg | PENDING | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
+| [`axopar-38-xc-cross-cabin-a1204054`](https://media.ffycdn.net/eu/axopar/GeX4wt35DKC5D1qNrmXt.jpg) | INTERIOR | alta | MY2026 | 8398x5599 jpg | PENDING | Tag DAM del modelo (ax38, ax38xc, axopar, ins, my26, turkey). |
 | [`axopar-38-xc-cross-cabin-099a2002-square`](https://media.ffycdn.net/eu/axopar/EBoaekiuS2C6yM19KuPR.jpg) | CABIN | media |  | 1600x1600 jpg | WEB_COPY | Título del modelo: 'Axopar-38-XC-Cross-Cabin_099A2002_square'. |
 | [`axopar-38-xc-cross-cabin-a7504752-square`](https://media.ffycdn.net/eu/axopar/MxjTq7MeodirUKwpHK6a.jpg) | CABIN | media |  | 1600x1600 jpg | WEB_COPY | Título del modelo: 'Axopar-38-XC-Cross-Cabin_A7504752_square'. |
 | [`axopar-38-xc-cross-cabin-099a6393-axedit`](https://media.ffycdn.net/eu/axopar/U7SQfw2vqasLJcxxoCfN.jpg) | DETAIL | media |  | 8004x5339 jpg | WEB_COPY | Título del modelo: 'Axopar-38-XC-Cross-Cabin_099A6393_Axedit'. |
@@ -64,6 +68,7 @@
 | [`axopar-38-xc-cross-cabin-brabus-line-color-edition-pearl-white`](https://media.ffycdn.net/eu/axopar/Gvn7srtAN5S8nMA3ksVf.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_XC_Cross_Cabin_BRABUS_Line_Color_Edition_Pearl_White'. |
 | [`axopar-38-xc-cross-cabin-brabus-line-color-edition-glacier-blue`](https://media.ffycdn.net/eu/axopar/swhKk9FJyp5wnWK43jvd.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_XC_Cross_Cabin_BRABUS_Line_Color_Edition_Glacier_Blue'. |
 | [`axopar-38-xc-cross-cabin-brabus-line-color-edition-platinum-grey`](https://media.ffycdn.net/eu/axopar/UmwdD9P1ayJpry7y1mq5.png) | DETAIL | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'Axopar_38_XC_Cross_Cabin_BRABUS_Line_Color_Edition_Platinum_Grey'. |
+| [`natural`](https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg) | DETAIL | media |  | 1233x1233 jpg | PENDING | Render/muestra publicada en la sección 'Exterior Upholstery Colors' del modelo. |
 | [`ax38xc-bpl`](https://media.ffycdn.net/eu/axopar/VpcLBK3JrBzH8m4GgAE1.png) | UNDERWAY | media |  | 2440x1820 png | WEB_COPY | Título del modelo: 'AX38XC_BPL'. |
 | [`wbg-0000-axopar-38xc-cross-cabin-open-aft`](https://media.ffycdn.net/eu/axopar/2sjRHTdn9U4d87X3csgN.png) | OTHER | media |  | 3936x5000 png | WEB_COPY | Título del modelo: 'WBG__0000_Axopar_38XC_Cross_Cabin_Open_Aft'. |
 | [`wbg-0003-axopar-38-xc-cross-cabin-aft-deck-bench`](https://media.ffycdn.net/eu/axopar/VdYcKwdLBZopQcPnMnCX.png) | OTHER | media |  | 3936x5000 png | WEB_COPY | Título del modelo: 'WBG__0003_Axopar_38_XC_Cross_Cabin_Aft_Deck_Bench'. |
@@ -102,7 +107,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [`axopar-38-sun-top-dsc09315`](https://media.ffycdn.net/eu/axopar/5AdewXrXzxezRSRD6j78.jpg) | EXTERIOR | alta | MY2026 | 7008x4672 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('38', 'sunto')]. |
 
-## Videos (15)
+## Videos (16)
 
 | Título | Alcance | Resolución | Fecha DAM | Nota |
 | --- | --- | --- | --- | --- |
@@ -121,3 +126,4 @@
 | [Merry Christmas from Axopar | A Peek Into Santa Claus' Mind](https://www.youtube.com/watch?v=v-qJtJeHumA) | THIS_MODEL |  |  |  |
 | [Full Speed Into The Next Chapter of Axopar history | The upcoming Axopar 38 Range](https://www.youtube.com/watch?v=vY9bhXwR5vA) | THIS_MODEL |  |  |  |
 | [The Next Big Thing in the Boating Industry | Axopar 38 Range](https://www.youtube.com/watch?v=V8PF1-qmcbY) | THIS_MODEL |  |  |  |
+| [This is The Adventure Boating Company. This is Axopar.​](https://www.youtube.com/watch?v=hLDA3DVmE4k) | THIS_MODEL |  |  |  |

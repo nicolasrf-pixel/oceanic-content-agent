@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `oceanis-47-exterior-1` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'oceanis-47-exterior-1.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/oceanis-47-exterior-1.jpg.webp?itok=tDqU-aSm) |
 | 3 | `oceanis-47-exterior-2` | Exterior horizontal del modelo; Solo en la página del modelo; archivo 'oceanis-47-exterior-2.jpg' con el nombre del modelo. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2025-11/oceanis-47-exterior-2.jpg.webp?itok=NyzB-Hwb) |
 
-## Imágenes del modelo (29)
+## Imágenes del modelo (34)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -38,6 +38,11 @@
 | [`oceanis-47-interior-8`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-11/oceanis-47-interior-8.jpg.webp?itok=qYGcbIKi) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-47-interior-8.jpg' con el nombre del modelo. |
 | [`oceanis-47-interior-9`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2025-11/oceanis-47-interior-9.jpg.webp?itok=BIQbyrRo) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-47-interior-9.jpg' con el nombre del modelo. |
 | [`oceanis-47-interior-10`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-09/oceanis-47-interior-10.jpg.webp?itok=qXk7Wmit) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-47-interior-10.jpg' con el nombre del modelo. |
+| [`oceanis-47-interior-design-01`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/oceanis-47-interior-design-01.jpg.webp?itok=z-qhdcdG) | INTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-47-interior-design-01.jpg' con el nombre del modelo. |
+| [`oceanis-47-interior-design-02`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2026-10/oceanis-47-interior-design-02.jpg.webp?itok=T_eZQxxE) | INTERIOR | media |  | 1440x810 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-47-interior-design-02.jpg' con el nombre del modelo. |
+| [`oceanis-47-interior-pacific-upholstery-design-02`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-47-interior-pacific-upholstery-design-02.jpg.webp?itok=m_Yqigr1) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-47-interior-pacific-upholstery-design-02.jpg' con el nombre del modelo. |
+| [`oceanis-47-interior-pacific-upholstery-design-03`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-47-interior-pacific-upholstery-design-03.jpg.webp?itok=fIaEMcZB) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-47-interior-pacific-upholstery-design-03.jpg' con el nombre del modelo. |
+| [`oceanis-47-interior-pacific-upholstery-design-01`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-47-interior-pacific-upholstery-design-01.jpg.webp?itok=AjDSE1Fn) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-47-interior-pacific-upholstery-design-01.jpg' con el nombre del modelo. |
 | [`oceanis-47-usp-1`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-11/oceanis-47-usp-1.jpg.webp?itok=ZmJeNAwG) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-47-usp-1.jpg' con el nombre del modelo. |
 | [`oceanis-47-usp-2-0`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/2025-11/oceanis-47-usp-2_0.jpg.webp?itok=rNX3U8Ta) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis-47-usp-2_0.jpg' con el nombre del modelo. |
 | [`oceanis47-profil-gte`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2025-06/oceanis47-profil-GTE.jpg.webp?itok=U4QwEW56) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis47-profil-GTE.jpg' con el nombre del modelo. |

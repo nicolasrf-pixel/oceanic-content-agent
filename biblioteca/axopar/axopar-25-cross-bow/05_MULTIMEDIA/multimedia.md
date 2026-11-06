@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -23,7 +23,7 @@
 | [`axopar-25-cross-bow-dji-0249`](https://media.ffycdn.net/eu/axopar/1ZhYCkB3Qc2XJAVQfiUZ.jpg) | EXTERIOR | alta | MY2022 | 5464x3640 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
 | [`axopar-25-cross-bow-0x0a4999`](https://media.ffycdn.net/eu/axopar/jTRYD5XHoc9tpCySq6KH.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, finland, my22, out). |
 | [`axopar-25-cross-bow-c4a8113`](https://media.ffycdn.net/eu/axopar/9ZmGPKHT5kNGAV3cG5eg.jpg) | EXTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax25, ax25cb, axopar, lifestyle, my22, out). |
-| [`axopar-25-cross-bow-c4a0129-2`](https://media.ffycdn.net/eu/axopar/WW9JccntUsLrD8udF8x6.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | DUPLICATE_OF axopar-25-cross-bow-c4a0129 | Tag DAM del modelo (ax25, ax25cb, axopar, ins, my22, spain). |
+| [`axopar-25-cross-bow-c4a0129-2`](https://media.ffycdn.net/eu/axopar/WW9JccntUsLrD8udF8x6.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (ax25, ax25cb, axopar, ins, my22, spain). |
 | [`axopar-25-cross-bow-c4a0325`](https://media.ffycdn.net/eu/axopar/4DpbrkmMRGz6mBJ462PR.jpg) | INTERIOR | media | MY2022 | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A0325'. |
 | [`axopar-25-cross-bow-c4a2812`](https://media.ffycdn.net/eu/axopar/F1VYZSKrEi78R8FCtsYX.jpg) | CABIN | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A2812'. |
 | [`axopar-25-cross-bow-c4a0129`](https://media.ffycdn.net/eu/axopar/KY3M8QZyTD5Ta4PoHGEB.jpg) | HELM | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 25 Cross Bow_C4A0129'. |

@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/antares/antares-9",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "antares-9-new-header",
@@ -46,8 +46,7 @@
         "bytes": 506605,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-9-new-header.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/antares-9-new-header.jpg"
     },
     {
       "id": "antares-9-exterior-design-02",
@@ -90,8 +89,7 @@
         "bytes": 482974,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-02.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-02.jpg"
     },
     {
       "id": "antares-9-exterior-design-03",
@@ -134,8 +132,7 @@
         "bytes": 498695,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-03.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-03.jpg"
     },
     {
       "id": "antares-9-exterior-design-01",
@@ -177,8 +174,7 @@
         "bytes": 508445,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-01.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-01.jpg"
     },
     {
       "id": "antares-9-exterior-design-04",
@@ -220,8 +216,7 @@
         "bytes": 480366,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04.jpg"
     },
     {
       "id": "antares-9-exterior-design-05",
@@ -263,8 +258,7 @@
         "bytes": 358995,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-05.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-05.jpg"
     },
     {
       "id": "antares-9-exterior-design-06-0",
@@ -306,8 +300,7 @@
         "bytes": 486538,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-06_0.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-06_0.jpg"
     },
     {
       "id": "antares-9-exterior-design-07",
@@ -349,8 +342,7 @@
         "bytes": 462228,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-07.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-07.jpg"
     },
     {
       "id": "antares-9-exterior-design-04-0",
@@ -380,17 +372,7 @@
       "sha256": null,
       "collected_at": "2026-09-27",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF antares-9-exterior-design-04",
-      "original": {
-        "url": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04_0.jpg",
-        "fetched_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-04_0.jpg",
-        "sha256": "8c5f34f8fe20a9f4541b3ac46f60338a05de740e099bd49b427ab479d2c7c6a0",
-        "width": 2880,
-        "height": 1572,
-        "format": "jpeg",
-        "bytes": 480366,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "241105-mxhpics-beneteau-d-0021",
@@ -432,8 +414,7 @@
         "bytes": 311710,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_D_0021.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_D_0021.jpg"
     },
     {
       "id": "antares-9-exterior-design-08",
@@ -475,8 +456,7 @@
         "bytes": 485669,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-08.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-08.jpg"
     },
     {
       "id": "antares-9-exterior-design-09",
@@ -518,8 +498,7 @@
         "bytes": 508779,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-09.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-exterior-design-09.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0600",
@@ -561,8 +540,7 @@
         "bytes": 161681,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0600.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0600.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0941",
@@ -604,8 +582,7 @@
         "bytes": 186492,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0941.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0941.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-1032",
@@ -647,8 +624,7 @@
         "bytes": 173040,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_1032.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_1032.jpg"
     },
     {
       "id": "241104-mxhpics-beneteau-a-0040",
@@ -690,8 +666,7 @@
         "bytes": 201402,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0040.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0040.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-d-0173",
@@ -733,8 +708,7 @@
         "bytes": 187069,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_D_0173.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_D_0173.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0847",
@@ -776,8 +750,7 @@
         "bytes": 273563,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0847.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0847.jpg"
     },
     {
       "id": "antares-9-interior-design-01",
@@ -819,8 +792,7 @@
         "bytes": 454483,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-interior-design-01.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-interior-design-01.jpg"
     },
     {
       "id": "antares-9-new-slider-02",
@@ -862,8 +834,7 @@
         "bytes": 408434,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-new-slider-02.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-11/antares-9-new-slider-02.jpg"
     },
     {
       "id": "241104-mxhpics-beneteau-a-0085",
@@ -905,8 +876,7 @@
         "bytes": 162525,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0085.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0085.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0925",
@@ -948,8 +918,7 @@
         "bytes": 154403,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0925.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0925.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0892",
@@ -991,8 +960,7 @@
         "bytes": 194123,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0892.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0892.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0802",
@@ -1034,8 +1002,7 @@
         "bytes": 190790,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0802.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0802.jpg"
     },
     {
       "id": "241105-mxhpics-beneteau-a-0738",
@@ -1077,8 +1044,7 @@
         "bytes": 262672,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0738.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241105_MxHpics_Beneteau_A_0738.jpg"
     },
     {
       "id": "241104-mxhpics-beneteau-a-0115",
@@ -1120,8 +1086,7 @@
         "bytes": 196401,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0115.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/241104_MxHpics_Beneteau_A_0115.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -1193,8 +1158,7 @@
         "bytes": 66550,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Profil--2024-11-06.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Profil--2024-11-06.png"
     },
     {
       "id": "a9-serie-2-cabines-2024-11-19",
@@ -1236,8 +1200,7 @@
         "bytes": 86448,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Cabines---2024-11-19.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Cabines---2024-11-19.png"
     },
     {
       "id": "a9-serie-2-timonerie-2024-11-19",
@@ -1279,8 +1242,7 @@
         "bytes": 91264,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Timonerie---2024-11-19.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Timonerie---2024-11-19.png"
     },
     {
       "id": "a9-serie-2-dessus-n-e-2024-11-19",
@@ -1322,8 +1284,7 @@
         "bytes": 79196,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Dessus-N%C2%B0E--2024-11-19.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Dessus-N%C2%B0E--2024-11-19.png"
     },
     {
       "id": "a9-serie-2-dessus-n-c-2024-11-19",
@@ -1365,8 +1326,7 @@
         "bytes": 85482,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Dessus-N%C2%B0C--2024-11-19.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-12/A9-Serie-2---Dessus-N%C2%B0C--2024-11-19.png"
     }
   ]
 }

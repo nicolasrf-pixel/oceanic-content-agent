@@ -534,7 +534,16 @@
    "role": "plan"
   }
  ],
- "videos": [],
+ "videos": [
+  {
+   "youtube_id": "77j3YiVrzdI",
+   "url": "https://www.youtube.com/watch?v=77j3YiVrzdI",
+   "embed_url": "https://www.youtube.com/embed/77j3YiVrzdI",
+   "thumbnail": "https://i.ytimg.com/vi/77j3YiVrzdI/hqdefault.jpg",
+   "section": "module-video",
+   "section_title": null
+  }
+ ],
  "range_models": [
   "Gran Turismo 35",
   "Gran Turismo 40 Coupe",
@@ -595,5 +604,13 @@
     }
    ]
   }
- ]
+ ],
+ "media_recheck": {
+  "accessed_at": "2026-11-06",
+  "added": [
+   0,
+   1,
+   0
+  ]
+ }
 }

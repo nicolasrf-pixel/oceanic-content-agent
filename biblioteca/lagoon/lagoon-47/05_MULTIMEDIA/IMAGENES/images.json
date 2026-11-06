@@ -3,7 +3,7 @@
   "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
   "usage_terms": "Imágenes de catamarans-lagoon.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Lagoon o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.",
   "images": [
     {
       "id": "lagoon-47-mobile-cover",
@@ -46,8 +46,7 @@
         "bytes": 435683,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-mobile-cover.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-mobile-cover.jpg"
     },
     {
       "id": "intro-lagoon-43-800x1096",
@@ -119,8 +118,7 @@
         "bytes": 182046,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-video-cover.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-video-cover.jpg"
     },
     {
       "id": "catamaran-lagoon-47-01-0",
@@ -151,7 +149,7 @@
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
-      "hero_rank": 2,
+      "hero_rank": 3,
       "bytes": 171456,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-01_0.jpg",
@@ -163,8 +161,7 @@
         "bytes": 339432,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-01_0.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-01_0.jpg"
     },
     {
       "id": "catamaran-lagoon-47-02",
@@ -173,8 +170,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo; archivo 'catamaran-Lagoon-47-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo; archivo 'catamaran-Lagoon-47-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-02.jpg",
       "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-02.jpg",
       "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
@@ -195,7 +192,6 @@
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
-      "hero_rank": 3,
       "bytes": 72960,
       "original": {
         "url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-02.jpg",
@@ -207,8 +203,7 @@
         "bytes": 455906,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-02.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-02.jpg"
     },
     {
       "id": "catamaran-lagoon-47-03",
@@ -250,8 +245,7 @@
         "bytes": 404861,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-03.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-03.jpg"
     },
     {
       "id": "catamaran-lagoon-47-04",
@@ -293,8 +287,7 @@
         "bytes": 475974,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-04.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-04.jpg"
     },
     {
       "id": "catamaran-lagoon-47-05",
@@ -336,8 +329,7 @@
         "bytes": 428136,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-05.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-05.jpg"
     },
     {
       "id": "catamaran-lagoon-47-06",
@@ -379,8 +371,7 @@
         "bytes": 388903,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-06.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-06.jpg"
     },
     {
       "id": "catamaran-lagoon-47-07",
@@ -422,8 +413,7 @@
         "bytes": 381775,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-07.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-07.jpg"
     },
     {
       "id": "catamaran-lagoon-47-08",
@@ -465,8 +455,7 @@
         "bytes": 410438,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-08.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-08.jpg"
     },
     {
       "id": "catamaran-lagoon-47-09",
@@ -508,8 +497,7 @@
         "bytes": 368825,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-09.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-09.jpg"
     },
     {
       "id": "catamaran-lagoon-47-10",
@@ -551,8 +539,7 @@
         "bytes": 363390,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-10.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-10.jpg"
     },
     {
       "id": "catamaran-lagoon-47-11",
@@ -594,8 +581,7 @@
         "bytes": 353816,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-11.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-11.jpg"
     },
     {
       "id": "catamaran-lagoon-47-12",
@@ -637,8 +623,7 @@
         "bytes": 487929,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-12.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-12.jpg"
     },
     {
       "id": "catamaran-lagoon-47-13",
@@ -680,8 +665,7 @@
         "bytes": 475087,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-13.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-13.jpg"
     },
     {
       "id": "catamaran-lagoon-47-14",
@@ -723,8 +707,7 @@
         "bytes": 371207,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-14.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-14.jpg"
     },
     {
       "id": "catamaran-lagoon-47-15",
@@ -766,8 +749,7 @@
         "bytes": 414385,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-15.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-15.jpg"
     },
     {
       "id": "catamaran-lagoon-47-16",
@@ -809,8 +791,7 @@
         "bytes": 364881,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-16.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-16.jpg"
     },
     {
       "id": "catamaran-lagoon-47-17",
@@ -852,8 +833,7 @@
         "bytes": 368364,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-17.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-17.jpg"
     },
     {
       "id": "catamaran-lagoon-47-18",
@@ -895,8 +875,7 @@
         "bytes": 466958,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-18.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-18.jpg"
     },
     {
       "id": "catamaran-lagoon-47-20",
@@ -938,8 +917,7 @@
         "bytes": 387014,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-20.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-20.jpg"
     },
     {
       "id": "catamaran-lagoon-47-19",
@@ -981,8 +959,7 @@
         "bytes": 325866,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-19.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/catamaran-Lagoon-47-19.jpg"
     },
     {
       "id": "lagoon-47-highlight-01",
@@ -1024,8 +1001,7 @@
         "bytes": 465671,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-01.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-01.jpg"
     },
     {
       "id": "lagoon-47-highlight-02",
@@ -1067,8 +1043,7 @@
         "bytes": 427782,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-02.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-02.jpg"
     },
     {
       "id": "lagoon-47-highlight-03",
@@ -1110,8 +1085,7 @@
         "bytes": 449810,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-03.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-03.jpg"
     },
     {
       "id": "lagoon-47-highlight-04",
@@ -1153,8 +1127,7 @@
         "bytes": 472254,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-04.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-09/lagoon-47-highlight-04.jpg"
     },
     {
       "id": "highilight-ambiance-illustration",
@@ -1256,8 +1229,7 @@
         "bytes": 87273,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-06/lagoon-47-360-cover.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-06/lagoon-47-360-cover.jpg"
     },
     {
       "id": "trefil-lagoon-47",
@@ -1299,8 +1271,7 @@
         "bytes": 134041,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/trefil-lagoon-47.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-05/trefil-lagoon-47.png"
     },
     {
       "id": "catamaran-lagoon-47-layout-flybridge-bimini",
@@ -1342,8 +1313,7 @@
         "bytes": 322385,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-flybridge-bimini.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-flybridge-bimini.jpg"
     },
     {
       "id": "catamaran-lagoon-47-layout-carre-cockpit",
@@ -1385,8 +1355,7 @@
         "bytes": 375695,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-carre-cockpit.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-carre-cockpit.jpg"
     },
     {
       "id": "catamaran-lagoon-47-layout-3-cabines",
@@ -1428,8 +1397,7 @@
         "bytes": 305483,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-3-cabines.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-3-cabines.jpg"
     },
     {
       "id": "catamaran-lagoon-47-layout-5-cabines",
@@ -1471,8 +1439,7 @@
         "bytes": 312245,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-5-cabines.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-5-cabines.jpg"
     },
     {
       "id": "catamaran-lagoon-47-layout-smartroom",
@@ -1514,8 +1481,158 @@
         "bytes": 304347,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-smartroom.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2026-04/catamaran-lagoon-47-layout-smartroom.jpg"
+    },
+    {
+      "id": "lagoon-47-mobile-cover-2",
+      "title": "lagoon-47-mobile-cover.jpg",
+      "category": "HERO",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo; archivo 'lagoon-47-mobile-cover.jpg' con el nombre del modelo.",
+      "category_confidence": "alta",
+      "hero_candidate": true,
+      "hero_reason": "Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo; archivo 'lagoon-47-mobile-cover.jpg' con el nombre del modelo.",
+      "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-mobile-cover.jpg",
+      "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-mobile-cover.jpg",
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+      "source_context": {
+        "section": "hero",
+        "section_title": "hero"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-30",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "hero_rank": 2
+    },
+    {
+      "id": "intro-lagoon-47-800x1096",
+      "title": "intro-lagoon-47-800x1096.jpg",
+      "category": "OTHER",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo; archivo 'intro-lagoon-47-800x1096.jpg' con el nombre del modelo.",
+      "category_confidence": "baja",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/intro-lagoon-47-800x1096.jpg",
+      "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/intro-lagoon-47-800x1096.jpg",
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+      "source_context": {
+        "section": "block",
+        "section_title": "Introduction"
+      },
+      "declared_width": 800,
+      "declared_height": 1096,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-30",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "catamaran-lagoon-47-video-cover-3",
+      "title": "catamaran-lagoon-47-video-cover-3.jpg",
+      "category": "OTHER",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo; archivo 'catamaran-lagoon-47-video-cover-3.jpg' con el nombre del modelo.",
+      "category_confidence": "baja",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/catamaran-lagoon-47-video-cover-3.jpg",
+      "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/catamaran-lagoon-47-video-cover-3.jpg",
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+      "source_context": {
+        "section": "block",
+        "section_title": "Portada de video / parallax"
+      },
+      "declared_width": 1920,
+      "declared_height": 1080,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-30",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "lagoon-47-highlight-02-2",
+      "title": "OVERLOOKING THE OCEAN",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo; archivo 'lagoon-47-highlight-02.jpg' con el nombre del modelo. Categoría EXTERIOR por revisión visual (2026-09-30).",
+      "category_confidence": "revisión visual",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-02.jpg",
+      "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-02.jpg",
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+      "source_context": {
+        "section": "highlight",
+        "section_title": "OVERLOOKING THE OCEAN"
+      },
+      "declared_width": 1440,
+      "declared_height": 810,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-30",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "lagoon-47-highlight-04-2",
+      "title": "AT SEA, JUST LIKE AT HOME",
+      "category": "CABIN",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo; archivo 'lagoon-47-highlight-04.jpg' con el nombre del modelo. Categoría CABIN por revisión visual (2026-09-30).",
+      "category_confidence": "revisión visual",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-04.jpg",
+      "cdn_url": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-04.jpg",
+      "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+      "source_context": {
+        "section": "highlight",
+        "section_title": "AT SEA, JUST LIKE AT HOME"
+      },
+      "declared_width": 1440,
+      "declared_height": 810,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-30",
+      "downloaded_at": null,
+      "download_status": "PENDING"
     }
   ]
 }

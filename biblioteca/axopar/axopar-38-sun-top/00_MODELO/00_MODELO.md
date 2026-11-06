@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/axopar.py`.
 - No se mezclan otras variantes de la gama (Axopar 38 Cross Top, Axopar 38 XC Cross Cabin).
-- Imágenes: 53 del modelo, 10 de otro modelo (excluidas), 1 por revisar, 0 no son del barco.
+- Imágenes: 54 del modelo, 15 de otro modelo (excluidas), 1 por revisar, 0 no son del barco.
 
 ## Content readiness
 
@@ -38,10 +38,10 @@
 | EDITORIAL | experiencia | OK | 1059 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 219 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 50/53 |
-| MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 50/53 |
-| MULTIMEDIA | detail | OK | 14 en inventario (mín. 2) · descargadas 50/53 |
-| MULTIMEDIA | video | OK | 1 videos del modelo |
+| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 50/54 |
+| MULTIMEDIA | interior | PARTIAL | 1 en inventario (mín. 2) · descargadas 50/54 |
+| MULTIMEDIA | detail | OK | 15 en inventario (mín. 2) · descargadas 50/54 |
+| MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | manual | PARTIAL | 1 identificado(s) · requiere revisión |

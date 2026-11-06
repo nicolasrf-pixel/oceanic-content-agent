@@ -3,7 +3,7 @@
   "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
   "usage_terms": "Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.",
   "classification_note": "Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.",
   "images": [
     {
       "id": "axopar-38-sun-top-dsc05301-axedit",
@@ -36,6 +36,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 96224,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTEsInRpbWVzdGFtcCI6MTc3Nzk5NjI5OCwidmVyc2lvbiI6MTc3Nzk5NjIyOX0:axopar:nZ65UQiNakoR7-FdwmG6pwxDVd0_M84ulXTY0b2HqrE/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTEsInRpbWVzdGFtcCI6MTc3Nzk5NjI5OCwidmVyc2lvbiI6MTc3Nzk5NjIyOX0:axopar:nZ65UQiNakoR7-FdwmG6pwxDVd0_M84ulXTY0b2HqrE/download",
@@ -46,9 +47,7 @@
         "bytes": 16333440,
         "full_resolution": true
       },
-      "bytes": 96224,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTEsInRpbWVzdGFtcCI6MTc3Nzk5NjI5OCwidmVyc2lvbiI6MTc3Nzk5NjIyOX0:axopar:nZ65UQiNakoR7-FdwmG6pwxDVd0_M84ulXTY0b2HqrE/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTEsInRpbWVzdGFtcCI6MTc3Nzk5NjI5OCwidmVyc2lvbiI6MTc3Nzk5NjIyOX0:axopar:nZ65UQiNakoR7-FdwmG6pwxDVd0_M84ulXTY0b2HqrE/download"
     },
     {
       "id": "axopar-38-sun-top-dsc05301-axedit-2",
@@ -81,6 +80,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 86984,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTIsInRpbWVzdGFtcCI6MTc3Nzk5NjMyNiwidmVyc2lvbiI6MTc3Nzk5NjIzM30:axopar:KDscb7Zaw3-XhkcjhxE-z-31x0bI6Da5SUJMA8zcy4g/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTIsInRpbWVzdGFtcCI6MTc3Nzk5NjMyNiwidmVyc2lvbiI6MTc3Nzk5NjIzM30:axopar:KDscb7Zaw3-XhkcjhxE-z-31x0bI6Da5SUJMA8zcy4g/download",
@@ -91,9 +91,7 @@
         "bytes": 864727,
         "full_resolution": true
       },
-      "bytes": 86984,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTIsInRpbWVzdGFtcCI6MTc3Nzk5NjMyNiwidmVyc2lvbiI6MTc3Nzk5NjIzM30:axopar:KDscb7Zaw3-XhkcjhxE-z-31x0bI6Da5SUJMA8zcy4g/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MTIsInRpbWVzdGFtcCI6MTc3Nzk5NjMyNiwidmVyc2lvbiI6MTc3Nzk5NjIzM30:axopar:KDscb7Zaw3-XhkcjhxE-z-31x0bI6Da5SUJMA8zcy4g/download"
     },
     {
       "id": "axopar-38-sun-top-dsc08618",
@@ -133,6 +131,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 87072,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NjksInRpbWVzdGFtcCI6MTc3NzkxNjAyOSwidmVyc2lvbiI6MTc3NzkxMDQ0Mn0:axopar:-Ojekbus4t6tpb1ymK2QCN0F3l0VqN2jvYUtkxa95Wk/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NjksInRpbWVzdGFtcCI6MTc3NzkxNjAyOSwidmVyc2lvbiI6MTc3NzkxMDQ0Mn0:axopar:-Ojekbus4t6tpb1ymK2QCN0F3l0VqN2jvYUtkxa95Wk/download",
@@ -143,9 +142,7 @@
         "bytes": 15121229,
         "full_resolution": true
       },
-      "bytes": 87072,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NjksInRpbWVzdGFtcCI6MTc3NzkxNjAyOSwidmVyc2lvbiI6MTc3NzkxMDQ0Mn0:axopar:-Ojekbus4t6tpb1ymK2QCN0F3l0VqN2jvYUtkxa95Wk/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NjksInRpbWVzdGFtcCI6MTc3NzkxNjAyOSwidmVyc2lvbiI6MTc3NzkxMDQ0Mn0:axopar:-Ojekbus4t6tpb1ymK2QCN0F3l0VqN2jvYUtkxa95Wk/download"
     },
     {
       "id": "axopar-38-sun-top-dsc08604-mobile",
@@ -178,6 +175,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 115966,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzUsInRpbWVzdGFtcCI6MTc3NzkxNjMxMiwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:r5PL7cuMRkTwa8I427MlGNKfmJFchS-WTH_QVt6GEYo/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzUsInRpbWVzdGFtcCI6MTc3NzkxNjMxMiwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:r5PL7cuMRkTwa8I427MlGNKfmJFchS-WTH_QVt6GEYo/download",
@@ -188,9 +186,7 @@
         "bytes": 2520915,
         "full_resolution": true
       },
-      "bytes": 115966,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzUsInRpbWVzdGFtcCI6MTc3NzkxNjMxMiwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:r5PL7cuMRkTwa8I427MlGNKfmJFchS-WTH_QVt6GEYo/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzUsInRpbWVzdGFtcCI6MTc3NzkxNjMxMiwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:r5PL7cuMRkTwa8I427MlGNKfmJFchS-WTH_QVt6GEYo/download"
     },
     {
       "id": "axopar-38-sun-top-dsc07924",
@@ -230,6 +226,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 66484,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzAsInRpbWVzdGFtcCI6MTc3NzkxNjM2NSwidmVyc2lvbiI6MTc3NzkxMDQ2Nn0:axopar:vhQJ60wqLITMcB7SmDpAxV-9vXf1Aun_Oad1hm7y8q4/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzAsInRpbWVzdGFtcCI6MTc3NzkxNjM2NSwidmVyc2lvbiI6MTc3NzkxMDQ2Nn0:axopar:vhQJ60wqLITMcB7SmDpAxV-9vXf1Aun_Oad1hm7y8q4/download",
@@ -240,9 +237,7 @@
         "bytes": 15146121,
         "full_resolution": true
       },
-      "bytes": 66484,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzAsInRpbWVzdGFtcCI6MTc3NzkxNjM2NSwidmVyc2lvbiI6MTc3NzkxMDQ2Nn0:axopar:vhQJ60wqLITMcB7SmDpAxV-9vXf1Aun_Oad1hm7y8q4/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzAsInRpbWVzdGFtcCI6MTc3NzkxNjM2NSwidmVyc2lvbiI6MTc3NzkxMDQ2Nn0:axopar:vhQJ60wqLITMcB7SmDpAxV-9vXf1Aun_Oad1hm7y8q4/download"
     },
     {
       "id": "axopar-38-sun-top-dsc07924-mobile",
@@ -275,6 +270,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 87548,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzcsInRpbWVzdGFtcCI6MTc3NzkxNjQxNSwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:k6UQ0qxOwYn1TtfiXSrVd_9Y_vK9gTzksp2_beZe0oY/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzcsInRpbWVzdGFtcCI6MTc3NzkxNjQxNSwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:k6UQ0qxOwYn1TtfiXSrVd_9Y_vK9gTzksp2_beZe0oY/download",
@@ -285,9 +281,7 @@
         "bytes": 2509059,
         "full_resolution": true
       },
-      "bytes": 87548,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzcsInRpbWVzdGFtcCI6MTc3NzkxNjQxNSwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:k6UQ0qxOwYn1TtfiXSrVd_9Y_vK9gTzksp2_beZe0oY/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzcsInRpbWVzdGFtcCI6MTc3NzkxNjQxNSwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:k6UQ0qxOwYn1TtfiXSrVd_9Y_vK9gTzksp2_beZe0oY/download"
     },
     {
       "id": "axopar-38-sun-top-dsc05754",
@@ -327,6 +321,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 128198,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzEsInRpbWVzdGFtcCI6MTc3NzkxNjQ0NSwidmVyc2lvbiI6MTc3NzkxMDUxM30:axopar:1djhnGYv8ToMMyUC9pyWmaJI7N1rubibQcR5Jlptb0I/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzEsInRpbWVzdGFtcCI6MTc3NzkxNjQ0NSwidmVyc2lvbiI6MTc3NzkxMDUxM30:axopar:1djhnGYv8ToMMyUC9pyWmaJI7N1rubibQcR5Jlptb0I/download",
@@ -337,9 +332,7 @@
         "bytes": 18813001,
         "full_resolution": true
       },
-      "bytes": 128198,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzEsInRpbWVzdGFtcCI6MTc3NzkxNjQ0NSwidmVyc2lvbiI6MTc3NzkxMDUxM30:axopar:1djhnGYv8ToMMyUC9pyWmaJI7N1rubibQcR5Jlptb0I/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzEsInRpbWVzdGFtcCI6MTc3NzkxNjQ0NSwidmVyc2lvbiI6MTc3NzkxMDUxM30:axopar:1djhnGYv8ToMMyUC9pyWmaJI7N1rubibQcR5Jlptb0I/download"
     },
     {
       "id": "axopar-38-sun-top-dsc05754-mobile",
@@ -372,6 +365,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 179426,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzYsInRpbWVzdGFtcCI6MTc3NzkxNjQ2NCwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:M7CUZEbaqUJjI5lkgmI1nNa3ggnMYP5a0qxqY0cuMxE/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzYsInRpbWVzdGFtcCI6MTc3NzkxNjQ2NCwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:M7CUZEbaqUJjI5lkgmI1nNa3ggnMYP5a0qxqY0cuMxE/download",
@@ -382,9 +376,7 @@
         "bytes": 3118558,
         "full_resolution": true
       },
-      "bytes": 179426,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzYsInRpbWVzdGFtcCI6MTc3NzkxNjQ2NCwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:M7CUZEbaqUJjI5lkgmI1nNa3ggnMYP5a0qxqY0cuMxE/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzYsInRpbWVzdGFtcCI6MTc3NzkxNjQ2NCwidmVyc2lvbiI6MTc3NzkxNjI1M30:axopar:M7CUZEbaqUJjI5lkgmI1nNa3ggnMYP5a0qxqY0cuMxE/download"
     },
     {
       "id": "open-aft-standard-fore-deck",
@@ -417,6 +409,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 89302,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTUsInRpbWVzdGFtcCI6MTc3Nzk4MjAzMSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:0sy0QsSgxSoFcVKS4-cONIjrE7NDmTV8nfD6UZ7zhCw/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTUsInRpbWVzdGFtcCI6MTc3Nzk4MjAzMSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:0sy0QsSgxSoFcVKS4-cONIjrE7NDmTV8nfD6UZ7zhCw/download",
@@ -427,9 +420,7 @@
         "bytes": 1279112,
         "full_resolution": true
       },
-      "bytes": 89302,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTUsInRpbWVzdGFtcCI6MTc3Nzk4MjAzMSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:0sy0QsSgxSoFcVKS4-cONIjrE7NDmTV8nfD6UZ7zhCw/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTUsInRpbWVzdGFtcCI6MTc3Nzk4MjAzMSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:0sy0QsSgxSoFcVKS4-cONIjrE7NDmTV8nfD6UZ7zhCw/download"
     },
     {
       "id": "38-st-aftbench-aft",
@@ -462,6 +453,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 87926,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzQsInRpbWVzdGFtcCI6MTc4ODUyNDAwMCwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:HtM-HIFyhSKHSzXHrnqA8K_y0k2Ln2KZPFnnKmW5SIg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzQsInRpbWVzdGFtcCI6MTc4ODUyNDAwMCwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:HtM-HIFyhSKHSzXHrnqA8K_y0k2Ln2KZPFnnKmW5SIg/download",
@@ -472,9 +464,7 @@
         "bytes": 1070685,
         "full_resolution": true
       },
-      "bytes": 87926,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzQsInRpbWVzdGFtcCI6MTc4ODUyNDAwMCwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:HtM-HIFyhSKHSzXHrnqA8K_y0k2Ln2KZPFnnKmW5SIg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzQsInRpbWVzdGFtcCI6MTc4ODUyNDAwMCwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:HtM-HIFyhSKHSzXHrnqA8K_y0k2Ln2KZPFnnKmW5SIg/download"
     },
     {
       "id": "centerline-wet-bar-port-b-seat-sofa-bow-u-sofa",
@@ -507,6 +497,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 93000,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTYsInRpbWVzdGFtcCI6MTc3Nzk4MjM2NiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:k9pc4xyv5ySqjxz8mt0WPa4hVTaBbIJhefejNEbSWvA/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTYsInRpbWVzdGFtcCI6MTc3Nzk4MjM2NiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:k9pc4xyv5ySqjxz8mt0WPa4hVTaBbIJhefejNEbSWvA/download",
@@ -517,9 +508,7 @@
         "bytes": 1340250,
         "full_resolution": true
       },
-      "bytes": 93000,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTYsInRpbWVzdGFtcCI6MTc3Nzk4MjM2NiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:k9pc4xyv5ySqjxz8mt0WPa4hVTaBbIJhefejNEbSWvA/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTYsInRpbWVzdGFtcCI6MTc3Nzk4MjM2NiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:k9pc4xyv5ySqjxz8mt0WPa4hVTaBbIJhefejNEbSWvA/download"
     },
     {
       "id": "cockpit-u-sofa-b-seats-bow-u-sofa",
@@ -552,6 +541,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 100448,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTQsInRpbWVzdGFtcCI6MTc3Nzk4MjE2MywidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:uGHO_hYP35kakteU0S7lpDThlU7zlLoPJzSR1j0Exds/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTQsInRpbWVzdGFtcCI6MTc3Nzk4MjE2MywidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:uGHO_hYP35kakteU0S7lpDThlU7zlLoPJzSR1j0Exds/download",
@@ -562,9 +552,7 @@
         "bytes": 1353722,
         "full_resolution": true
       },
-      "bytes": 100448,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTQsInRpbWVzdGFtcCI6MTc3Nzk4MjE2MywidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:uGHO_hYP35kakteU0S7lpDThlU7zlLoPJzSR1j0Exds/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTQsInRpbWVzdGFtcCI6MTc3Nzk4MjE2MywidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:uGHO_hYP35kakteU0S7lpDThlU7zlLoPJzSR1j0Exds/download"
     },
     {
       "id": "u-sofa-sunbed-stbd-b-seat-fbox-wet-bar-bow-u-sofa",
@@ -597,6 +585,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 94414,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTcsInRpbWVzdGFtcCI6MTc3Nzk4MjIyOSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:vUGEMEgX1OF1YVMdcnPYOZ5BPfevldAYSqjUxoJdmk0/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTcsInRpbWVzdGFtcCI6MTc3Nzk4MjIyOSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:vUGEMEgX1OF1YVMdcnPYOZ5BPfevldAYSqjUxoJdmk0/download",
@@ -607,9 +596,7 @@
         "bytes": 1356145,
         "full_resolution": true
       },
-      "bytes": 94414,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTcsInRpbWVzdGFtcCI6MTc3Nzk4MjIyOSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:vUGEMEgX1OF1YVMdcnPYOZ5BPfevldAYSqjUxoJdmk0/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTcsInRpbWVzdGFtcCI6MTc3Nzk4MjIyOSwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:vUGEMEgX1OF1YVMdcnPYOZ5BPfevldAYSqjUxoJdmk0/download"
     },
     {
       "id": "38-st-sunbedtable-aft",
@@ -642,6 +629,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 88802,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzYsInRpbWVzdGFtcCI6MTc4ODUyNDA2MSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:6l2Nr5MCm1NmALJvoHSKM2wIuWtE3p0ns8599_AHg2c/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzYsInRpbWVzdGFtcCI6MTc4ODUyNDA2MSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:6l2Nr5MCm1NmALJvoHSKM2wIuWtE3p0ns8599_AHg2c/download",
@@ -652,9 +640,7 @@
         "bytes": 1073697,
         "full_resolution": true
       },
-      "bytes": 88802,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzYsInRpbWVzdGFtcCI6MTc4ODUyNDA2MSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:6l2Nr5MCm1NmALJvoHSKM2wIuWtE3p0ns8599_AHg2c/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzYsInRpbWVzdGFtcCI6MTc4ODUyNDA2MSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:6l2Nr5MCm1NmALJvoHSKM2wIuWtE3p0ns8599_AHg2c/download"
     },
     {
       "id": "38-st-sunbedcushion-aft",
@@ -687,6 +673,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 87572,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzUsInRpbWVzdGFtcCI6MTc4ODUyNDA5OSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:01Ej8dYqqQHfbLp0DxI_xdpzou_gGjedDBWxEa0sMk8/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzUsInRpbWVzdGFtcCI6MTc4ODUyNDA5OSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:01Ej8dYqqQHfbLp0DxI_xdpzou_gGjedDBWxEa0sMk8/download",
@@ -697,9 +684,7 @@
         "bytes": 1080065,
         "full_resolution": true
       },
-      "bytes": 87572,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzUsInRpbWVzdGFtcCI6MTc4ODUyNDA5OSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:01Ej8dYqqQHfbLp0DxI_xdpzou_gGjedDBWxEa0sMk8/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc3NzUsInRpbWVzdGFtcCI6MTc4ODUyNDA5OSwidmVyc2lvbiI6MTc4ODUyMzg4NH0:axopar:01Ej8dYqqQHfbLp0DxI_xdpzou_gGjedDBWxEa0sMk8/download"
     },
     {
       "id": "aft-cabin-starboard-b-seat-fbox-wet-bar-cockpit-sofa-bow-sun-lounge-in-bow",
@@ -732,6 +717,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 92946,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTgsInRpbWVzdGFtcCI6MTc3Nzk4MjMxMiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:LknFOy43ms1iv38nELlvCc4i730z1XUd6g80hw_gkI4/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTgsInRpbWVzdGFtcCI6MTc3Nzk4MjMxMiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:LknFOy43ms1iv38nELlvCc4i730z1XUd6g80hw_gkI4/download",
@@ -742,9 +728,7 @@
         "bytes": 1311884,
         "full_resolution": true
       },
-      "bytes": 92946,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTgsInRpbWVzdGFtcCI6MTc3Nzk4MjMxMiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:LknFOy43ms1iv38nELlvCc4i730z1XUd6g80hw_gkI4/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MTgsInRpbWVzdGFtcCI6MTc3Nzk4MjMxMiwidmVyc2lvbiI6MTc3Nzk4MTg4NX0:axopar:LknFOy43ms1iv38nELlvCc4i730z1XUd6g80hw_gkI4/download"
     },
     {
       "id": "axopar-38-sun-top-dsc09664",
@@ -784,6 +768,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 84292,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NjYsInRpbWVzdGFtcCI6MTc3Nzk5NTEwMCwidmVyc2lvbiI6MTc3Nzk5NTA1NH0:axopar:EPaGzM25LN71fyzzctIplX3dyFQxCX_EzxtnbQ3hIr4/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NjYsInRpbWVzdGFtcCI6MTc3Nzk5NTEwMCwidmVyc2lvbiI6MTc3Nzk5NTA1NH0:axopar:EPaGzM25LN71fyzzctIplX3dyFQxCX_EzxtnbQ3hIr4/download",
@@ -794,9 +779,7 @@
         "bytes": 14713579,
         "full_resolution": true
       },
-      "bytes": 84292,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NjYsInRpbWVzdGFtcCI6MTc3Nzk5NTEwMCwidmVyc2lvbiI6MTc3Nzk5NTA1NH0:axopar:EPaGzM25LN71fyzzctIplX3dyFQxCX_EzxtnbQ3hIr4/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NjYsInRpbWVzdGFtcCI6MTc3Nzk5NTEwMCwidmVyc2lvbiI6MTc3Nzk5NTA1NH0:axopar:EPaGzM25LN71fyzzctIplX3dyFQxCX_EzxtnbQ3hIr4/download"
     },
     {
       "id": "axopar-38-xc-cross-cabin-a7504659",
@@ -914,6 +897,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 280094,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTQsInRpbWVzdGFtcCI6MTc3Nzk5MzI0NywidmVyc2lvbiI6MTc3Nzk5MzE1Nn0:axopar:RvrTwWNCvThYj9QLgk1aMyW29AajOEpZ9eDx8R4NVqk/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTQsInRpbWVzdGFtcCI6MTc3Nzk5MzI0NywidmVyc2lvbiI6MTc3Nzk5MzE1Nn0:axopar:RvrTwWNCvThYj9QLgk1aMyW29AajOEpZ9eDx8R4NVqk/download",
@@ -924,9 +908,7 @@
         "bytes": 15491111,
         "full_resolution": true
       },
-      "bytes": 280094,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTQsInRpbWVzdGFtcCI6MTc3Nzk5MzI0NywidmVyc2lvbiI6MTc3Nzk5MzE1Nn0:axopar:RvrTwWNCvThYj9QLgk1aMyW29AajOEpZ9eDx8R4NVqk/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTQsInRpbWVzdGFtcCI6MTc3Nzk5MzI0NywidmVyc2lvbiI6MTc3Nzk5MzE1Nn0:axopar:RvrTwWNCvThYj9QLgk1aMyW29AajOEpZ9eDx8R4NVqk/download"
     },
     {
       "id": "basecamp",
@@ -959,6 +941,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 122016,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NTAsInRpbWVzdGFtcCI6MTc3NzUyMzU1OCwidmVyc2lvbiI6MTc3NzUyMzM5OX0:axopar:Q30BSPvq25x72g4y_9CktqOAJeQSpuu0jqNZ-mZCoPA/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NTAsInRpbWVzdGFtcCI6MTc3NzUyMzU1OCwidmVyc2lvbiI6MTc3NzUyMzM5OX0:axopar:Q30BSPvq25x72g4y_9CktqOAJeQSpuu0jqNZ-mZCoPA/download",
@@ -969,9 +952,7 @@
         "bytes": 6616973,
         "full_resolution": true
       },
-      "bytes": 122016,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NTAsInRpbWVzdGFtcCI6MTc3NzUyMzU1OCwidmVyc2lvbiI6MTc3NzUyMzM5OX0:axopar:Q30BSPvq25x72g4y_9CktqOAJeQSpuu0jqNZ-mZCoPA/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NTAsInRpbWVzdGFtcCI6MTc3NzUyMzU1OCwidmVyc2lvbiI6MTc3NzUyMzM5OX0:axopar:Q30BSPvq25x72g4y_9CktqOAJeQSpuu0jqNZ-mZCoPA/download"
     },
     {
       "id": "monterra",
@@ -1004,6 +985,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 600396,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTI5NDgsInRpbWVzdGFtcCI6MTc3NzUyMzU5NiwidmVyc2lvbiI6MTc3MjEwODUxM30:axopar:5It_jYX3rCIg01JMdgZVdrc5TUIOSXKY8PuOpvXDztg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTI5NDgsInRpbWVzdGFtcCI6MTc3NzUyMzU5NiwidmVyc2lvbiI6MTc3MjEwODUxM30:axopar:5It_jYX3rCIg01JMdgZVdrc5TUIOSXKY8PuOpvXDztg/download",
@@ -1014,9 +996,7 @@
         "bytes": 11209872,
         "full_resolution": true
       },
-      "bytes": 600396,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTI5NDgsInRpbWVzdGFtcCI6MTc3NzUyMzU5NiwidmVyc2lvbiI6MTc3MjEwODUxM30:axopar:5It_jYX3rCIg01JMdgZVdrc5TUIOSXKY8PuOpvXDztg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTI5NDgsInRpbWVzdGFtcCI6MTc3NzUyMzU5NiwidmVyc2lvbiI6MTc3MjEwODUxM30:axopar:5It_jYX3rCIg01JMdgZVdrc5TUIOSXKY8PuOpvXDztg/download"
     },
     {
       "id": "silvertex-petrol",
@@ -1049,6 +1029,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 275750,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
@@ -1059,9 +1040,7 @@
         "bytes": 12820486,
         "full_resolution": true
       },
-      "bytes": 275750,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjgsInRpbWVzdGFtcCI6MTc4MDkxNTQ5NywidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:KvLJP99p1nl1kaZ4exuloh49N-dBiDsiTx1ajrzFZqI/download"
     },
     {
       "id": "silvertex-squash",
@@ -1094,6 +1073,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 290708,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
@@ -1104,9 +1084,7 @@
         "bytes": 19540155,
         "full_resolution": true
       },
-      "bytes": 290708,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjksInRpbWVzdGFtcCI6MTc4MDkxMTY2OSwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:OceT0h5w36avp_BQveUsSxc_wtIhtv3tLeaVcE--_VY/download"
     },
     {
       "id": "silvertex-hunter",
@@ -1139,6 +1117,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 251796,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
@@ -1149,9 +1128,7 @@
         "bytes": 11241616,
         "full_resolution": true
       },
-      "bytes": 251796,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMzAsInRpbWVzdGFtcCI6MTc4MDkxMTcxOCwidmVyc2lvbiI6MTc4MDkwMzI1MH0:axopar:39nvMAek-NQEXXVvlukSzQgEeWGIvJNYJOO221Nx59A/download"
     },
     {
       "id": "linetex-sphere",
@@ -1184,6 +1161,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 48708,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
@@ -1194,9 +1172,7 @@
         "bytes": 13232241,
         "full_resolution": true
       },
-      "bytes": 48708,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0NzksInRpbWVzdGFtcCI6MTc4MDkxMTc2MSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:jlwbeqdnDgAKebKGsqyFv6hEK9Riw8OSTnOvkPb4iMk/download"
     },
     {
       "id": "linetex-dust",
@@ -1229,6 +1205,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 44784,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
@@ -1239,9 +1216,7 @@
         "bytes": 22504590,
         "full_resolution": true
       },
-      "bytes": 44784,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTczMjQsInRpbWVzdGFtcCI6MTc4MDkxMTgwOSwidmVyc2lvbiI6MTc4MDkwMTg4Nn0:axopar:RC5thwzoeM-FY4gFLUWtGrKGFqa8P3nD7Wp_ukBs2yM/download"
     },
     {
       "id": "linetex-chalk",
@@ -1274,6 +1249,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 24080,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
@@ -1284,9 +1260,7 @@
         "bytes": 15614575,
         "full_resolution": true
       },
-      "bytes": 24080,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODEsInRpbWVzdGFtcCI6MTc4MDkxMTg4OSwidmVyc2lvbiI6MTc3NzkxODIzN30:axopar:_1fXgFiq0z7JdSqwBRBS_62-eQgAQ4Idwz1_mzq1VFE/download"
     },
     {
       "id": "taupe",
@@ -1319,6 +1293,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 281730,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
@@ -1329,9 +1304,7 @@
         "bytes": 246702,
         "full_resolution": true
       },
-      "bytes": 281730,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc4MDkxNTI1OSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:PnjiiqRZGiJ41WZcxKVpogFtiQ6mA1oAA4FyNEDBHOQ/download"
     },
     {
       "id": "antracite",
@@ -1364,6 +1337,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 195804,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
@@ -1374,9 +1348,7 @@
         "bytes": 238934,
         "full_resolution": true
       },
-      "bytes": 195804,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc4MDkxNTM1MywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:7spEg16L_Uj51all3kEebIOSIlClqD8ZWvu22PLY3ZA/download"
     },
     {
       "id": "axopar-38-sun-top-dsc08618-2",
@@ -1411,21 +1383,10 @@
       "sha256": null,
       "collected_at": "2026-09-25",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF axopar-38-sun-top-dsc08618",
+      "download_status": "PENDING",
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
-      "copyright_notice": "© 2026 Axopar Boats Oy",
-      "original": {
-        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzYsInRpbWVzdGFtcCI6MTc3Nzk5MDExMCwidmVyc2lvbiI6MTc3Nzk4OTU2MH0:axopar:PczY_nZ4gYVDd0zlTigRgRaUHCj7V6C2U7tS7SgL_B0/download",
-        "fetched_from": null,
-        "sha256": null,
-        "width": 6921,
-        "height": 4614,
-        "format": "jpg",
-        "bytes": null,
-        "full_resolution": null,
-        "source_copy_sha256": "2aa9f4069e5a911d06d8fd6dea2bed573a67c8e9aa0575571c3b86dec534483e"
-      }
+      "copyright_notice": "© 2026 Axopar Boats Oy"
     },
     {
       "id": "axopar-38-sun-top-dji-20260501101521-0332-d",
@@ -1464,6 +1425,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 168742,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzcsInRpbWVzdGFtcCI6MTc3Nzk5MDEzOSwidmVyc2lvbiI6MTc3Nzk4OTU4MH0:axopar:JEnp5e1MVLxOPKqCQ9QrHEXl68B2N1J-wVBt5HdBLNk/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzcsInRpbWVzdGFtcCI6MTc3Nzk5MDEzOSwidmVyc2lvbiI6MTc3Nzk4OTU4MH0:axopar:JEnp5e1MVLxOPKqCQ9QrHEXl68B2N1J-wVBt5HdBLNk/download",
@@ -1474,9 +1436,7 @@
         "bytes": 16424245,
         "full_resolution": true
       },
-      "bytes": 168742,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzcsInRpbWVzdGFtcCI6MTc3Nzk5MDEzOSwidmVyc2lvbiI6MTc3Nzk4OTU4MH0:axopar:JEnp5e1MVLxOPKqCQ9QrHEXl68B2N1J-wVBt5HdBLNk/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzcsInRpbWVzdGFtcCI6MTc3Nzk5MDEzOSwidmVyc2lvbiI6MTc3Nzk4OTU4MH0:axopar:JEnp5e1MVLxOPKqCQ9QrHEXl68B2N1J-wVBt5HdBLNk/download"
     },
     {
       "id": "axopar-38-sun-top-dsc01020",
@@ -1515,6 +1475,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 66794,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzgsInRpbWVzdGFtcCI6MTc3Nzk5MDE4OSwidmVyc2lvbiI6MTc3Nzk4OTY5Mn0:axopar:HitmsnBjPo5X1FerquNQtKWPDiKAnRaf6VtKD-esias/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzgsInRpbWVzdGFtcCI6MTc3Nzk5MDE4OSwidmVyc2lvbiI6MTc3Nzk4OTY5Mn0:axopar:HitmsnBjPo5X1FerquNQtKWPDiKAnRaf6VtKD-esias/download",
@@ -1525,9 +1486,7 @@
         "bytes": 15426760,
         "full_resolution": true
       },
-      "bytes": 66794,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzgsInRpbWVzdGFtcCI6MTc3Nzk5MDE4OSwidmVyc2lvbiI6MTc3Nzk4OTY5Mn0:axopar:HitmsnBjPo5X1FerquNQtKWPDiKAnRaf6VtKD-esias/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzgsInRpbWVzdGFtcCI6MTc3Nzk5MDE4OSwidmVyc2lvbiI6MTc3Nzk4OTY5Mn0:axopar:HitmsnBjPo5X1FerquNQtKWPDiKAnRaf6VtKD-esias/download"
     },
     {
       "id": "axopar-38-sun-top-dsc05301-axedit-3",
@@ -1555,21 +1514,10 @@
       "sha256": null,
       "collected_at": "2026-09-25",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF axopar-38-sun-top-dsc05301-axedit",
+      "download_status": "PENDING",
       "category_confidence": "media",
       "model_year_tag": null,
-      "copyright_notice": "© 2026 Axopar Boats Oy",
-      "original": {
-        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1MzksInRpbWVzdGFtcCI6MTc3Nzk5MDIxMCwidmVyc2lvbiI6MTc3Nzk4OTY5N30:axopar:pv3Gt7cKgss60ECnPUSmcYO48mDeSZ1EEcigVJfRMiE/download",
-        "fetched_from": null,
-        "sha256": null,
-        "width": 6912,
-        "height": 4608,
-        "format": "jpg",
-        "bytes": null,
-        "full_resolution": null,
-        "source_copy_sha256": "4920fa23d0e814bcf3b05b519305c64947cded34d37e2f8b1ee6a808562b7b26"
-      }
+      "copyright_notice": "© 2026 Axopar Boats Oy"
     },
     {
       "id": "axopar-38-xc-cross-cabin-099a6622",
@@ -1648,6 +1596,7 @@
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
       "hero_rank": 1,
+      "bytes": 539096,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDQsInRpbWVzdGFtcCI6MTc3Nzk5MDI3NywidmVyc2lvbiI6MTc3Nzk4OTg0NX0:axopar:Z6l6XY6J7zCKtaUC-gMMy26e9vhTd2jcSeNsHQsrVM8/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDQsInRpbWVzdGFtcCI6MTc3Nzk5MDI3NywidmVyc2lvbiI6MTc3Nzk4OTg0NX0:axopar:Z6l6XY6J7zCKtaUC-gMMy26e9vhTd2jcSeNsHQsrVM8/download",
@@ -1658,9 +1607,7 @@
         "bytes": 66031044,
         "full_resolution": true
       },
-      "bytes": 539096,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDQsInRpbWVzdGFtcCI6MTc3Nzk5MDI3NywidmVyc2lvbiI6MTc3Nzk4OTg0NX0:axopar:Z6l6XY6J7zCKtaUC-gMMy26e9vhTd2jcSeNsHQsrVM8/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDQsInRpbWVzdGFtcCI6MTc3Nzk5MDI3NywidmVyc2lvbiI6MTc3Nzk4OTg0NX0:axopar:Z6l6XY6J7zCKtaUC-gMMy26e9vhTd2jcSeNsHQsrVM8/download"
     },
     {
       "id": "axopar-38-sun-top-dsc01563",
@@ -1699,6 +1646,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 184582,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDUsInRpbWVzdGFtcCI6MTc3Nzk5MDMwMCwidmVyc2lvbiI6MTc3Nzk4OTg4MH0:axopar:UfARY45sgp7r5rbO_2clIMGgGOVDOT1dwhIJeWKQv4A/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDUsInRpbWVzdGFtcCI6MTc3Nzk5MDMwMCwidmVyc2lvbiI6MTc3Nzk4OTg4MH0:axopar:UfARY45sgp7r5rbO_2clIMGgGOVDOT1dwhIJeWKQv4A/download",
@@ -1709,9 +1657,7 @@
         "bytes": 21840421,
         "full_resolution": true
       },
-      "bytes": 184582,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDUsInRpbWVzdGFtcCI6MTc3Nzk5MDMwMCwidmVyc2lvbiI6MTc3Nzk4OTg4MH0:axopar:UfARY45sgp7r5rbO_2clIMGgGOVDOT1dwhIJeWKQv4A/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDUsInRpbWVzdGFtcCI6MTc3Nzk5MDMwMCwidmVyc2lvbiI6MTc3Nzk4OTg4MH0:axopar:UfARY45sgp7r5rbO_2clIMGgGOVDOT1dwhIJeWKQv4A/download"
     },
     {
       "id": "axopar-38-sun-top-dji-20260501101521-0332-d-2",
@@ -1744,6 +1690,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 126260,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTYsInRpbWVzdGFtcCI6MTc3Nzk5MzYzOCwidmVyc2lvbiI6MTc3Nzk5MzYwMn0:axopar:QMTY4zf18LK0E9qXGNWzjogjNJoiOrDCgWfF8mUF3Aw/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTYsInRpbWVzdGFtcCI6MTc3Nzk5MzYzOCwidmVyc2lvbiI6MTc3Nzk5MzYwMn0:axopar:QMTY4zf18LK0E9qXGNWzjogjNJoiOrDCgWfF8mUF3Aw/download",
@@ -1754,9 +1701,7 @@
         "bytes": 1884467,
         "full_resolution": true
       },
-      "bytes": 126260,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTYsInRpbWVzdGFtcCI6MTc3Nzk5MzYzOCwidmVyc2lvbiI6MTc3Nzk5MzYwMn0:axopar:QMTY4zf18LK0E9qXGNWzjogjNJoiOrDCgWfF8mUF3Aw/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTYsInRpbWVzdGFtcCI6MTc3Nzk5MzYzOCwidmVyc2lvbiI6MTc3Nzk5MzYwMn0:axopar:QMTY4zf18LK0E9qXGNWzjogjNJoiOrDCgWfF8mUF3Aw/download"
     },
     {
       "id": "axopar-38-sun-top-dsc07587",
@@ -1796,6 +1741,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 112954,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDcsInRpbWVzdGFtcCI6MTc3Nzk5MTExNSwidmVyc2lvbiI6MTc3Nzk5MDUwNH0:axopar:XDOzHEvH1tC1yYKQ8I2LYDjT0eLmnVdJ0b9-m8v3H3w/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDcsInRpbWVzdGFtcCI6MTc3Nzk5MTExNSwidmVyc2lvbiI6MTc3Nzk5MDUwNH0:axopar:XDOzHEvH1tC1yYKQ8I2LYDjT0eLmnVdJ0b9-m8v3H3w/download",
@@ -1806,9 +1752,7 @@
         "bytes": 15176388,
         "full_resolution": true
       },
-      "bytes": 112954,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDcsInRpbWVzdGFtcCI6MTc3Nzk5MTExNSwidmVyc2lvbiI6MTc3Nzk5MDUwNH0:axopar:XDOzHEvH1tC1yYKQ8I2LYDjT0eLmnVdJ0b9-m8v3H3w/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NDcsInRpbWVzdGFtcCI6MTc3Nzk5MTExNSwidmVyc2lvbiI6MTc3Nzk5MDUwNH0:axopar:XDOzHEvH1tC1yYKQ8I2LYDjT0eLmnVdJ0b9-m8v3H3w/download"
     },
     {
       "id": "axopar-38-sun-top-dsc00693-axedit",
@@ -1841,6 +1785,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 70188,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTUsInRpbWVzdGFtcCI6MTc3Nzk5MzQ5OSwidmVyc2lvbiI6MTc3Nzk5MzQ1OX0:axopar:MNQ9w0yu2cnHkrSxLxWFQmKk_kY0-u2kRK3uxXbOev8/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTUsInRpbWVzdGFtcCI6MTc3Nzk5MzQ5OSwidmVyc2lvbiI6MTc3Nzk5MzQ1OX0:axopar:MNQ9w0yu2cnHkrSxLxWFQmKk_kY0-u2kRK3uxXbOev8/download",
@@ -1851,9 +1796,7 @@
         "bytes": 1138120,
         "full_resolution": true
       },
-      "bytes": 70188,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTUsInRpbWVzdGFtcCI6MTc3Nzk5MzQ5OSwidmVyc2lvbiI6MTc3Nzk5MzQ1OX0:axopar:MNQ9w0yu2cnHkrSxLxWFQmKk_kY0-u2kRK3uxXbOev8/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTUsInRpbWVzdGFtcCI6MTc3Nzk5MzQ5OSwidmVyc2lvbiI6MTc3Nzk5MzQ1OX0:axopar:MNQ9w0yu2cnHkrSxLxWFQmKk_kY0-u2kRK3uxXbOev8/download"
     },
     {
       "id": "axopar-38-sun-top-dji-20260503141702-0011-d",
@@ -1894,6 +1837,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 203376,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2NDIsInRpbWVzdGFtcCI6MTc3ODAwMjIwOCwidmVyc2lvbiI6MTc3ODAwMjA4Nn0:axopar:F6iSewtM4ipwivYnLJYKFBEE-ubpBTdlmA4BuKUWrIg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2NDIsInRpbWVzdGFtcCI6MTc3ODAwMjIwOCwidmVyc2lvbiI6MTc3ODAwMjA4Nn0:axopar:F6iSewtM4ipwivYnLJYKFBEE-ubpBTdlmA4BuKUWrIg/download",
@@ -1904,9 +1848,7 @@
         "bytes": 13675351,
         "full_resolution": true
       },
-      "bytes": 203376,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2NDIsInRpbWVzdGFtcCI6MTc3ODAwMjIwOCwidmVyc2lvbiI6MTc3ODAwMjA4Nn0:axopar:F6iSewtM4ipwivYnLJYKFBEE-ubpBTdlmA4BuKUWrIg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2NDIsInRpbWVzdGFtcCI6MTc3ODAwMjIwOCwidmVyc2lvbiI6MTc3ODAwMjA4Nn0:axopar:F6iSewtM4ipwivYnLJYKFBEE-ubpBTdlmA4BuKUWrIg/download"
     },
     {
       "id": "axopar-38-sun-top-dsc05335",
@@ -1946,6 +1888,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 95466,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTAsInRpbWVzdGFtcCI6MTc3Nzk5MTIwMCwidmVyc2lvbiI6MTc3Nzk5MDcyM30:axopar:uMAjcuGts9eAJVOBHiN64qT91hBwwuZ0iSsNlN2nMnQ/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTAsInRpbWVzdGFtcCI6MTc3Nzk5MTIwMCwidmVyc2lvbiI6MTc3Nzk5MDcyM30:axopar:uMAjcuGts9eAJVOBHiN64qT91hBwwuZ0iSsNlN2nMnQ/download",
@@ -1956,9 +1899,7 @@
         "bytes": 14385013,
         "full_resolution": true
       },
-      "bytes": 95466,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTAsInRpbWVzdGFtcCI6MTc3Nzk5MTIwMCwidmVyc2lvbiI6MTc3Nzk5MDcyM30:axopar:uMAjcuGts9eAJVOBHiN64qT91hBwwuZ0iSsNlN2nMnQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTAsInRpbWVzdGFtcCI6MTc3Nzk5MTIwMCwidmVyc2lvbiI6MTc3Nzk5MDcyM30:axopar:uMAjcuGts9eAJVOBHiN64qT91hBwwuZ0iSsNlN2nMnQ/download"
     },
     {
       "id": "axopar-38-sun-top-dsc03967",
@@ -1998,6 +1939,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 64524,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODYsInRpbWVzdGFtcCI6MTc3Nzk5NDQxOCwidmVyc2lvbiI6MTc3NzkxOTQyOX0:axopar:yRRfzcMA02oHsldPw1nyKXA1tHoD9j28Vb_kzoB10Og/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODYsInRpbWVzdGFtcCI6MTc3Nzk5NDQxOCwidmVyc2lvbiI6MTc3NzkxOTQyOX0:axopar:yRRfzcMA02oHsldPw1nyKXA1tHoD9j28Vb_kzoB10Og/download",
@@ -2008,9 +1950,7 @@
         "bytes": 5767649,
         "full_resolution": true
       },
-      "bytes": 64524,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODYsInRpbWVzdGFtcCI6MTc3Nzk5NDQxOCwidmVyc2lvbiI6MTc3NzkxOTQyOX0:axopar:yRRfzcMA02oHsldPw1nyKXA1tHoD9j28Vb_kzoB10Og/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODYsInRpbWVzdGFtcCI6MTc3Nzk5NDQxOCwidmVyc2lvbiI6MTc3NzkxOTQyOX0:axopar:yRRfzcMA02oHsldPw1nyKXA1tHoD9j28Vb_kzoB10Og/download"
     },
     {
       "id": "axopar-38-sun-top-dji-20260504124910-0077-d-2",
@@ -2047,22 +1987,11 @@
       "sha256": null,
       "collected_at": "2026-09-25",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF axopar-38-sun-top-dji-20260504124910-0077-d",
+      "download_status": "PENDING",
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
-      "hero_rank": 2,
-      "original": {
-        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU1NTEsInRpbWVzdGFtcCI6MTc3Nzk5NTE0MSwidmVyc2lvbiI6MTc3Nzk5MTI5NX0:axopar:hrbKFWvwrBct0rW72MASBCyOEyG4UrrHioDIul_Px0w/download",
-        "fetched_from": null,
-        "sha256": null,
-        "width": 12288,
-        "height": 8192,
-        "format": "jpg",
-        "bytes": null,
-        "full_resolution": null,
-        "source_copy_sha256": "f0ea8c208d76b636cafa0ce9de42631393272b41cf90c4f06fd9efec74926e9f"
-      }
+      "hero_rank": 2
     },
     {
       "id": "axopar-38-sun-top-dsc09315",
@@ -2104,6 +2033,7 @@
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
       "hero_rank": 3,
+      "bytes": 124794,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTYxODUsInRpbWVzdGFtcCI6MTc3ODg0MjUwMCwidmVyc2lvbiI6MTc3ODg0MDE3NH0:axopar:sfTnVbPyeePr1S6zt1anf23z_A9hhwe7ypPfoFWJcBc/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTYxODUsInRpbWVzdGFtcCI6MTc3ODg0MjUwMCwidmVyc2lvbiI6MTc3ODg0MDE3NH0:axopar:sfTnVbPyeePr1S6zt1anf23z_A9hhwe7ypPfoFWJcBc/download",
@@ -2114,9 +2044,7 @@
         "bytes": 15193426,
         "full_resolution": true
       },
-      "bytes": 124794,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTYxODUsInRpbWVzdGFtcCI6MTc3ODg0MjUwMCwidmVyc2lvbiI6MTc3ODg0MDE3NH0:axopar:sfTnVbPyeePr1S6zt1anf23z_A9hhwe7ypPfoFWJcBc/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTYxODUsInRpbWVzdGFtcCI6MTc3ODg0MjUwMCwidmVyc2lvbiI6MTc3ODg0MDE3NH0:axopar:sfTnVbPyeePr1S6zt1anf23z_A9hhwe7ypPfoFWJcBc/download"
     },
     {
       "id": "axopar-38-xc-cross-cabin-099a6609",
@@ -2266,6 +2194,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 156882,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU3MDYsInRpbWVzdGFtcCI6MTc3ODEzOTk4OCwidmVyc2lvbiI6MTc3ODEzOTgwMX0:axopar:tsQFcGBLKYAQ0hF-i-DSC6CypWW1a60tucyipBmQDw4/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU3MDYsInRpbWVzdGFtcCI6MTc3ODEzOTk4OCwidmVyc2lvbiI6MTc3ODEzOTgwMX0:axopar:tsQFcGBLKYAQ0hF-i-DSC6CypWW1a60tucyipBmQDw4/download",
@@ -2276,9 +2205,7 @@
         "bytes": 1721328,
         "full_resolution": true
       },
-      "bytes": 156882,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU3MDYsInRpbWVzdGFtcCI6MTc3ODEzOTk4OCwidmVyc2lvbiI6MTc3ODEzOTgwMX0:axopar:tsQFcGBLKYAQ0hF-i-DSC6CypWW1a60tucyipBmQDw4/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU3MDYsInRpbWVzdGFtcCI6MTc3ODEzOTk4OCwidmVyc2lvbiI6MTc3ODEzOTgwMX0:axopar:tsQFcGBLKYAQ0hF-i-DSC6CypWW1a60tucyipBmQDw4/download"
     },
     {
       "id": "bulwark-seats",
@@ -2342,6 +2269,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 105282,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODUsInRpbWVzdGFtcCI6MTc4NzU3MTY0MywidmVyc2lvbiI6MTc3NzkxOTI3MX0:axopar:CmMavOYEDwLZTEYbAzHf53t_artPEtCwGwuCj2rCB3g/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODUsInRpbWVzdGFtcCI6MTc4NzU3MTY0MywidmVyc2lvbiI6MTc3NzkxOTI3MX0:axopar:CmMavOYEDwLZTEYbAzHf53t_artPEtCwGwuCj2rCB3g/download",
@@ -2352,9 +2280,7 @@
         "bytes": 2041444,
         "full_resolution": true
       },
-      "bytes": 105282,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODUsInRpbWVzdGFtcCI6MTc4NzU3MTY0MywidmVyc2lvbiI6MTc3NzkxOTI3MX0:axopar:CmMavOYEDwLZTEYbAzHf53t_artPEtCwGwuCj2rCB3g/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU0ODUsInRpbWVzdGFtcCI6MTc4NzU3MTY0MywidmVyc2lvbiI6MTc3NzkxOTI3MX0:axopar:CmMavOYEDwLZTEYbAzHf53t_artPEtCwGwuCj2rCB3g/download"
     },
     {
       "id": "axopar-38-sun-top-dsc07711",
@@ -2393,6 +2319,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 60520,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDQsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAyMH0:axopar:QSfXDrBGiH21GBjkG9q4KayL5OHM_hL5Lqiov10CaNs/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDQsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAyMH0:axopar:QSfXDrBGiH21GBjkG9q4KayL5OHM_hL5Lqiov10CaNs/download",
@@ -2403,9 +2330,7 @@
         "bytes": 16942113,
         "full_resolution": true
       },
-      "bytes": 60520,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDQsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAyMH0:axopar:QSfXDrBGiH21GBjkG9q4KayL5OHM_hL5Lqiov10CaNs/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDQsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAyMH0:axopar:QSfXDrBGiH21GBjkG9q4KayL5OHM_hL5Lqiov10CaNs/download"
     },
     {
       "id": "axopar-38-sun-top-dsc03912",
@@ -2444,6 +2369,7 @@
       "category_confidence": "alta",
       "model_year_tag": "MY2026",
       "copyright_notice": "© 2026 Axopar Boats Oy",
+      "bytes": 39738,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDYsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAzMX0:axopar:9S49-pgSPYRYkKoJ2sofNfhBezQqJD0i-bSDpSnOsXI/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDYsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAzMX0:axopar:9S49-pgSPYRYkKoJ2sofNfhBezQqJD0i-bSDpSnOsXI/download",
@@ -2454,9 +2380,7 @@
         "bytes": 5886740,
         "full_resolution": true
       },
-      "bytes": 39738,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDYsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAzMX0:axopar:9S49-pgSPYRYkKoJ2sofNfhBezQqJD0i-bSDpSnOsXI/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTU2MDYsInRpbWVzdGFtcCI6MTc3Nzk5NjEzMywidmVyc2lvbiI6MTc3Nzk5NjAzMX0:axopar:9S49-pgSPYRYkKoJ2sofNfhBezQqJD0i-bSDpSnOsXI/download"
     },
     {
       "id": "axopar-38-xc-cross-cabin-a7500940",
@@ -2638,6 +2562,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 62650,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTQsInRpbWVzdGFtcCI6MTc4NzU3MTY5NCwidmVyc2lvbiI6MTc4NzU3MTYxMH0:axopar:8IoTLVMJoQGccanyNyVsYUJBXTG-s8kH5ZE1dxFIeQc/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTQsInRpbWVzdGFtcCI6MTc4NzU3MTY5NCwidmVyc2lvbiI6MTc4NzU3MTYxMH0:axopar:8IoTLVMJoQGccanyNyVsYUJBXTG-s8kH5ZE1dxFIeQc/download",
@@ -2648,9 +2573,7 @@
         "bytes": 651668,
         "full_resolution": true
       },
-      "bytes": 62650,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTQsInRpbWVzdGFtcCI6MTc4NzU3MTY5NCwidmVyc2lvbiI6MTc4NzU3MTYxMH0:axopar:8IoTLVMJoQGccanyNyVsYUJBXTG-s8kH5ZE1dxFIeQc/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTQsInRpbWVzdGFtcCI6MTc4NzU3MTY5NCwidmVyc2lvbiI6MTc4NzU3MTYxMH0:axopar:8IoTLVMJoQGccanyNyVsYUJBXTG-s8kH5ZE1dxFIeQc/download"
     },
     {
       "id": "axopar-38-sun-top-brabus-line-color-edition-miami-blue",
@@ -2682,6 +2605,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 63854,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTcsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yc2c_JB-8VGTD8-HW2hgrk9wwUYJcXUv5ASjIJnyS-0/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTcsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yc2c_JB-8VGTD8-HW2hgrk9wwUYJcXUv5ASjIJnyS-0/download",
@@ -2692,9 +2616,7 @@
         "bytes": 884415,
         "full_resolution": true
       },
-      "bytes": 63854,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTcsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yc2c_JB-8VGTD8-HW2hgrk9wwUYJcXUv5ASjIJnyS-0/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTcsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yc2c_JB-8VGTD8-HW2hgrk9wwUYJcXUv5ASjIJnyS-0/download"
     },
     {
       "id": "axopar-38-sun-top-brabus-line-color-edition-platinum-grey",
@@ -2726,6 +2648,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 58936,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTYsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:JnQFl6DprPdVNvNjbZ8mFpqSnK5Y7OGbbs_u4smo9IQ/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTYsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:JnQFl6DprPdVNvNjbZ8mFpqSnK5Y7OGbbs_u4smo9IQ/download",
@@ -2736,9 +2659,7 @@
         "bytes": 854079,
         "full_resolution": true
       },
-      "bytes": 58936,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTYsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:JnQFl6DprPdVNvNjbZ8mFpqSnK5Y7OGbbs_u4smo9IQ/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTYsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:JnQFl6DprPdVNvNjbZ8mFpqSnK5Y7OGbbs_u4smo9IQ/download"
     },
     {
       "id": "axopar-38-sun-top-brabus-line-color-edition-glacier-blue",
@@ -2770,6 +2691,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 60612,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTUsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yw2B0sTPZXW4zIj2WAYzdmYK_ysAGyvpIWojB17k-Sg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTUsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yw2B0sTPZXW4zIj2WAYzdmYK_ysAGyvpIWojB17k-Sg/download",
@@ -2780,9 +2702,7 @@
         "bytes": 861038,
         "full_resolution": true
       },
-      "bytes": 60612,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTUsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yw2B0sTPZXW4zIj2WAYzdmYK_ysAGyvpIWojB17k-Sg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTUsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:yw2B0sTPZXW4zIj2WAYzdmYK_ysAGyvpIWojB17k-Sg/download"
     },
     {
       "id": "axopar-38-sun-top-brabus-line-color-edition-pearl-white",
@@ -2814,6 +2734,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 60814,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTgsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:gOyTo8o52v4Yqo6iE1sP8S67kg67HPhOFNyoagIcmeg/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTgsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:gOyTo8o52v4Yqo6iE1sP8S67kg67HPhOFNyoagIcmeg/download",
@@ -2824,9 +2745,7 @@
         "bytes": 870286,
         "full_resolution": true
       },
-      "bytes": 60814,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTgsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:gOyTo8o52v4Yqo6iE1sP8S67kg67HPhOFNyoagIcmeg/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NTgsInRpbWVzdGFtcCI6MTc4NzU3MjEwMiwidmVyc2lvbiI6MTc4NzU3MjA0N30:axopar:gOyTo8o52v4Yqo6iE1sP8S67kg67HPhOFNyoagIcmeg/download"
     },
     {
       "id": "axopar-38-sun-top-brabus-performance-line",
@@ -2858,6 +2777,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 59188,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjcsInRpbWVzdGFtcCI6MTc4NzY1MzM0NSwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:ZGcgzF7F5HJ8Lo3DAVg7y3WUIRUF2IT8LfPD4YW0HeM/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjcsInRpbWVzdGFtcCI6MTc4NzY1MzM0NSwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:ZGcgzF7F5HJ8Lo3DAVg7y3WUIRUF2IT8LfPD4YW0HeM/download",
@@ -2868,9 +2788,7 @@
         "bytes": 582611,
         "full_resolution": true
       },
-      "bytes": 59188,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjcsInRpbWVzdGFtcCI6MTc4NzY1MzM0NSwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:ZGcgzF7F5HJ8Lo3DAVg7y3WUIRUF2IT8LfPD4YW0HeM/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjcsInRpbWVzdGFtcCI6MTc4NzY1MzM0NSwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:ZGcgzF7F5HJ8Lo3DAVg7y3WUIRUF2IT8LfPD4YW0HeM/download"
     },
     {
       "id": "axopar-38-st-bpl",
@@ -2902,6 +2820,7 @@
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
+      "bytes": 54932,
       "original": {
         "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjYsInRpbWVzdGFtcCI6MTc4NzY1MzUyMiwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:InWKgGqBeLv9B6U1SEmDEeM7rpUjhczHRwbleBRIxHI/download",
         "fetched_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjYsInRpbWVzdGFtcCI6MTc4NzY1MzUyMiwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:InWKgGqBeLv9B6U1SEmDEeM7rpUjhczHRwbleBRIxHI/download",
@@ -2912,9 +2831,229 @@
         "bytes": 659132,
         "full_resolution": true
       },
-      "bytes": 54932,
-      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjYsInRpbWVzdGFtcCI6MTc4NzY1MzUyMiwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:InWKgGqBeLv9B6U1SEmDEeM7rpUjhczHRwbleBRIxHI/download",
-      "web_quality": 75
+      "downloaded_from": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1NjYsInRpbWVzdGFtcCI6MTc4NzY1MzUyMiwidmVyc2lvbiI6MTc4NzY1MzIxNH0:axopar:InWKgGqBeLv9B6U1SEmDEeM7rpUjhczHRwbleBRIxHI/download"
+    },
+    {
+      "id": "natural",
+      "title": "Natural",
+      "category": "DETAIL",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Render/muestra publicada en la sección 'Exterior Upholstery Colors' del modelo.",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc4MDkxNTMwOCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:tnfoM1LGlhm3M0q0Cpui0N2djzULSpI3GrH1QY-22m4/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/8pXacQiTUWBj99sbpvUX.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "CardListBlock",
+        "block_title": "Exterior Upholstery Colors",
+        "item_title": "Seine Pe Natural"
+      },
+      "declared_width": 1233,
+      "declared_height": 1233,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "category_confidence": "media",
+      "model_year_tag": null,
+      "copyright_notice": null
+    },
+    {
+      "id": "axopar-38-xc-cross-cabin-a1206615",
+      "title": "Axopar 38 XC Cross Cabin_A1206615",
+      "category": "INTERIOR",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Tags DAM de otro modelo: [('38', 'xc')].",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc5MzcsInRpbWVzdGFtcCI6MTc5MDMxNDM2OCwidmVyc2lvbiI6MTc4ODg2NDU4NH0:axopar:85EQlAnIrhqUilStxXgSKPX_d9aSiWmEvTfkEnOBlUo/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/Rg11kKnmWwuRD4MTJ9VW.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "PresentationBlock",
+        "block_title": "The Mediterrana Edition"
+      },
+      "declared_width": 8640,
+      "declared_height": 5760,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax38",
+        "ax38xc",
+        "axopar",
+        "ins",
+        "my26",
+        "turkey"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2026",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-38-xc-cross-cabin-a7500940-2",
+      "title": "Axopar 38 XC Cross Cabin_A7500940",
+      "category": "INTERIOR",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Tags DAM de otro modelo: [('38', 'xc')].",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc5MzgsInRpbWVzdGFtcCI6MTc5MDMxNDM2OCwidmVyc2lvbiI6MTc4ODg2NDU5Nn0:axopar:CilkAaCSyGU_7i1P_yoCw5xuXekW0_SqoHcHB8IPJg8/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/gWyewQm4g3xn7XwR88tj.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "PresentationBlock",
+        "block_title": "The Mediterrana Edition"
+      },
+      "declared_width": 6786,
+      "declared_height": 4524,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax38",
+        "ax38xc",
+        "axopar",
+        "ins",
+        "my26",
+        "turkey"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2026",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-38-xc-cross-cabin-a1204058-2",
+      "title": "Axopar 38 XC Cross Cabin_A1204058",
+      "category": "INTERIOR",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Tags DAM de otro modelo: [('38', 'xc')].",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc5MzksInRpbWVzdGFtcCI6MTc5MDMxNDM2OCwidmVyc2lvbiI6MTc4ODg2NDYxOH0:axopar:G8RVak8FP7TuaZY-pQttxYhjqt46_1roz2rKh8NPtak/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/C6SZBjm9h8au8qbPjCjU.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "PresentationBlock",
+        "block_title": "The Mediterrana Edition"
+      },
+      "declared_width": 8573,
+      "declared_height": 5715,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax38",
+        "ax38xc",
+        "axopar",
+        "ins",
+        "my26",
+        "turkey"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2026",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-38-xc-cross-cabin-a1204117",
+      "title": "Axopar 38 XC Cross Cabin_A1204117",
+      "category": "INTERIOR",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Tags DAM de otro modelo: [('38', 'xc')].",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc5NDAsInRpbWVzdGFtcCI6MTc5MDMxNDM2OCwidmVyc2lvbiI6MTc4ODg2NDYyN30:axopar:GPVMIIAfKDQTRMf4pkgqsRV7XNaF1IjE_b8-q9N0Pms/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/W5HUdCxc2YT2cXsveWMu.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "PresentationBlock",
+        "block_title": "The Mediterrana Edition"
+      },
+      "declared_width": 5760,
+      "declared_height": 8640,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax38",
+        "ax38xc",
+        "axopar",
+        "ins",
+        "my26",
+        "turkey"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2026",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
+    },
+    {
+      "id": "axopar-38-xc-cross-cabin-a7500971",
+      "title": "Axopar 38 XC Cross Cabin_A7500971",
+      "category": "INTERIOR",
+      "scope": "OTHER_MODEL",
+      "scope_evidence": "Tags DAM de otro modelo: [('38', 'xc')].",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc5NDEsInRpbWVzdGFtcCI6MTc5MDMxNDM2OCwidmVyc2lvbiI6MTc4ODg2NDYzNX0:axopar:wMe3vu5PdtNJTPOcBbsFjD9X9kiZEpguo96Xy6t6qcw/download",
+      "cdn_url": "https://media.ffycdn.net/eu/axopar/KittSPpnU9eaetZCQ1HP.jpg",
+      "source_page": "https://www.axopar.com/boat-models/axopar-38/axopar-38-sun-top/",
+      "source_context": {
+        "block_type": "PresentationBlock",
+        "block_title": "The Mediterrana Edition"
+      },
+      "declared_width": 7008,
+      "declared_height": 4672,
+      "declared_format": "jpg",
+      "dam_tags": [
+        "ax38",
+        "ax38xc",
+        "axopar",
+        "ins",
+        "my26",
+        "turkey"
+      ],
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-25",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL)",
+      "category_confidence": "alta",
+      "model_year_tag": "MY2026",
+      "copyright_notice": "© 2026 Axopar Boats Oy"
     }
   ]
 }

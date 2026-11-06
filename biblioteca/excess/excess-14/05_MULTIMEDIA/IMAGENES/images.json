@@ -3,7 +3,7 @@
   "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
   "usage_terms": "Imágenes de excess-catamarans.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Excess o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /media/ (originales; copias en /media/cache/<filtro>/). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /media/ (originales; copias en /media/cache/<filtro>/). El original se referencia en `original`.",
   "images": [
     {
       "id": "4608-excess-14-nav",
@@ -46,8 +46,7 @@
         "bytes": 2529435,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/4608-excess-14-nav.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/4608-excess-14-nav.png"
     },
     {
       "id": "0882-excess-14-nav",
@@ -77,18 +76,8 @@
       "sha256": null,
       "collected_at": "2026-10-05",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF 4608-excess-14-nav",
-      "hero_rank": 2,
-      "original": {
-        "url": "https://www.excess-catamarans.com/media/2026/09/0882-excess-14-nav.png",
-        "fetched_from": "https://www.excess-catamarans.com/media/2026/09/0882-excess-14-nav.png",
-        "sha256": "83fe187b40e3271e3c941cd589e64f2863f3f2fc08ae969c4c934f88a338a1a9",
-        "width": 1920,
-        "height": 1080,
-        "format": "png",
-        "bytes": 2529435,
-        "full_resolution": true
-      }
+      "download_status": "PENDING",
+      "hero_rank": 2
     },
     {
       "id": "5318-catamaran-excess-14-video-cover",
@@ -97,8 +86,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'content'). Categoría EXTERIOR por revisión visual (2026-10-06).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'content'). Categoría EXTERIOR por revisión visual (2026-10-06).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://www.excess-catamarans.com/media/2026/04/5318-catamaran-excess-14-video-cover.jpg",
       "cdn_url": "https://www.excess-catamarans.com/media/cache/public_cover/2026/04/5318-catamaran-excess-14-video-cover.jpg",
       "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
@@ -119,7 +108,6 @@
       "collected_at": "2026-10-05",
       "downloaded_at": "2026-10-27",
       "download_status": "WEB_COPY",
-      "hero_rank": 3,
       "bytes": 67728,
       "original": {
         "url": "https://www.excess-catamarans.com/media/2026/04/5318-catamaran-excess-14-video-cover.jpg",
@@ -131,8 +119,7 @@
         "bytes": 373202,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/04/5318-catamaran-excess-14-video-cover.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/04/5318-catamaran-excess-14-video-cover.jpg"
     },
     {
       "id": "3707-design-sans-titre-2",
@@ -204,8 +191,7 @@
         "bytes": 7897123,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/7731-410-films-excess-14-catamaran-photography-2023-0751.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/7731-410-films-excess-14-catamaran-photography-2023-0751.jpg"
     },
     {
       "id": "0104-410-films-excess-14-catamaran-photography-2023-0445",
@@ -247,8 +233,7 @@
         "bytes": 6954551,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/0104-410-films-excess-14-catamaran-photography-2023-0445.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/0104-410-films-excess-14-catamaran-photography-2023-0445.jpg"
     },
     {
       "id": "8442-excess-14-0294",
@@ -290,8 +275,7 @@
         "bytes": 245660,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2024/10/8442-excess-14-0294.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2024/10/8442-excess-14-0294.jpg"
     },
     {
       "id": "8252-excess-14-1014",
@@ -333,8 +317,7 @@
         "bytes": 194355,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2024/10/8252-excess-14-1014.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2024/10/8252-excess-14-1014.jpg"
     },
     {
       "id": "2774-excess-14-0178",
@@ -376,8 +359,7 @@
         "bytes": 254641,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2774-excess-14-0178.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2774-excess-14-0178.jpg"
     },
     {
       "id": "6028-excess-14-0447",
@@ -419,8 +401,7 @@
         "bytes": 345883,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/6028-excess-14-0447.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/6028-excess-14-0447.jpg"
     },
     {
       "id": "3292-excess-14-0485",
@@ -462,8 +443,7 @@
         "bytes": 368754,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3292-excess-14-0485.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3292-excess-14-0485.jpg"
     },
     {
       "id": "2750-excess-14-1887",
@@ -505,8 +485,7 @@
         "bytes": 184914,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2750-excess-14-1887.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2750-excess-14-1887.jpg"
     },
     {
       "id": "3578-excess-14-0878",
@@ -548,8 +527,7 @@
         "bytes": 253785,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3578-excess-14-0878.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3578-excess-14-0878.jpg"
     },
     {
       "id": "1803-excess-14-0157",
@@ -591,8 +569,7 @@
         "bytes": 434856,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/1803-excess-14-0157.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/1803-excess-14-0157.jpg"
     },
     {
       "id": "6828-excess-14-0547",
@@ -634,8 +611,7 @@
         "bytes": 272208,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6828-excess-14-0547.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6828-excess-14-0547.jpg"
     },
     {
       "id": "5804-excess-14-0838",
@@ -677,8 +653,7 @@
         "bytes": 220576,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/5804-excess-14-0838.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/5804-excess-14-0838.jpg"
     },
     {
       "id": "6544-excess-14-0894",
@@ -720,8 +695,7 @@
         "bytes": 263675,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6544-excess-14-0894.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6544-excess-14-0894.jpg"
     },
     {
       "id": "9289-excess-14-1874",
@@ -763,8 +737,7 @@
         "bytes": 183423,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/9289-excess-14-1874.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/9289-excess-14-1874.jpg"
     },
     {
       "id": "6120-excess-14-1884",
@@ -806,8 +779,7 @@
         "bytes": 183883,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6120-excess-14-1884.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6120-excess-14-1884.jpg"
     },
     {
       "id": "8333-excess-14-2029",
@@ -849,8 +821,7 @@
         "bytes": 108699,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/8333-excess-14-2029.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/8333-excess-14-2029.jpg"
     },
     {
       "id": "3877-410-films-excess-14-catamaran-photography-2023",
@@ -892,8 +863,7 @@
         "bytes": 8228637,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3877-410-films-excess-14-catamaran-photography-2023.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3877-410-films-excess-14-catamaran-photography-2023.jpg"
     },
     {
       "id": "7705-410-films-excess-14-catamaran-photography-2023-2",
@@ -935,8 +905,7 @@
         "bytes": 7129029,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7705-410-films-excess-14-catamaran-photography-2023-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7705-410-films-excess-14-catamaran-photography-2023-2.jpg"
     },
     {
       "id": "5265-410-films-excess-14-catamaran-photography-2023-3",
@@ -978,8 +947,7 @@
         "bytes": 7324834,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5265-410-films-excess-14-catamaran-photography-2023-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5265-410-films-excess-14-catamaran-photography-2023-3.jpg"
     },
     {
       "id": "3334-410-films-excess-14-catamaran-photography-2023-4",
@@ -1021,8 +989,7 @@
         "bytes": 6638760,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3334-410-films-excess-14-catamaran-photography-2023-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3334-410-films-excess-14-catamaran-photography-2023-4.jpg"
     },
     {
       "id": "6196-410-films-excess-14-catamaran-photography-2023-5",
@@ -1064,8 +1031,7 @@
         "bytes": 9074290,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/6196-410-films-excess-14-catamaran-photography-2023-5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/6196-410-films-excess-14-catamaran-photography-2023-5.jpg"
     },
     {
       "id": "7854-410-films-excess-14-catamaran-photography-2023-6",
@@ -1107,8 +1073,7 @@
         "bytes": 7633277,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7854-410-films-excess-14-catamaran-photography-2023-6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7854-410-films-excess-14-catamaran-photography-2023-6.jpg"
     },
     {
       "id": "1555-410-films-excess-14-catamaran-photography-2023-7",
@@ -1150,8 +1115,7 @@
         "bytes": 8437525,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1555-410-films-excess-14-catamaran-photography-2023-7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1555-410-films-excess-14-catamaran-photography-2023-7.jpg"
     },
     {
       "id": "8220-410-films-excess-14-catamaran-photography-2023-0435",
@@ -1193,8 +1157,7 @@
         "bytes": 7780132,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8220-410-films-excess-14-catamaran-photography-2023-0435.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8220-410-films-excess-14-catamaran-photography-2023-0435.jpg"
     },
     {
       "id": "5886-410-films-excess-14-catamaran-photography-2023-0513",
@@ -1236,8 +1199,7 @@
         "bytes": 8317504,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5886-410-films-excess-14-catamaran-photography-2023-0513.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5886-410-films-excess-14-catamaran-photography-2023-0513.jpg"
     },
     {
       "id": "4008-410-films-excess-14-catamaran-photography-2023-0534",
@@ -1279,8 +1241,7 @@
         "bytes": 7385572,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4008-410-films-excess-14-catamaran-photography-2023-0534.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4008-410-films-excess-14-catamaran-photography-2023-0534.jpg"
     },
     {
       "id": "8823-410-films-excess-14-catamaran-photography-2023-0536",
@@ -1322,8 +1283,7 @@
         "bytes": 6766506,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8823-410-films-excess-14-catamaran-photography-2023-0536.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8823-410-films-excess-14-catamaran-photography-2023-0536.jpg"
     },
     {
       "id": "8860-410-films-excess-14-catamaran-photography-2023-0583",
@@ -1365,8 +1325,7 @@
         "bytes": 9114328,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8860-410-films-excess-14-catamaran-photography-2023-0583.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8860-410-films-excess-14-catamaran-photography-2023-0583.jpg"
     },
     {
       "id": "7267-410-films-excess-14-catamaran-photography-2023-0600",
@@ -1408,8 +1367,7 @@
         "bytes": 10238703,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7267-410-films-excess-14-catamaran-photography-2023-0600.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7267-410-films-excess-14-catamaran-photography-2023-0600.jpg"
     },
     {
       "id": "1203-410-films-excess-14-catamaran-photography-2023-0636",
@@ -1451,8 +1409,7 @@
         "bytes": 6306592,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1203-410-films-excess-14-catamaran-photography-2023-0636.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1203-410-films-excess-14-catamaran-photography-2023-0636.jpg"
     },
     {
       "id": "0592-410-films-excess-14-catamaran-photography-2023-0728",
@@ -1494,8 +1451,7 @@
         "bytes": 9129973,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0592-410-films-excess-14-catamaran-photography-2023-0728.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0592-410-films-excess-14-catamaran-photography-2023-0728.jpg"
     },
     {
       "id": "6958-410-films-excess-14-catamaran-photography-2023-0751",
@@ -1525,17 +1481,7 @@
       "sha256": null,
       "collected_at": "2026-10-05",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF 7731-410-films-excess-14-catamaran-photography-2023-0751",
-      "original": {
-        "url": "https://www.excess-catamarans.com/media/2023/03/6958-410-films-excess-14-catamaran-photography-2023-0751.jpg",
-        "fetched_from": "https://www.excess-catamarans.com/media/2023/03/6958-410-films-excess-14-catamaran-photography-2023-0751.jpg",
-        "sha256": "8d0470fb57017104ba14f686be31e5ece99ef3824432654092a2615e144cd223",
-        "width": 5464,
-        "height": 3640,
-        "format": "jpeg",
-        "bytes": 7897123,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "4791-410-films-excess-14-catamaran-photography-2023-0757",
@@ -1577,8 +1523,7 @@
         "bytes": 5413583,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4791-410-films-excess-14-catamaran-photography-2023-0757.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4791-410-films-excess-14-catamaran-photography-2023-0757.jpg"
     },
     {
       "id": "0540-410-films-excess-14-catamaran-photography-2023-0766",
@@ -1620,8 +1565,7 @@
         "bytes": 9977614,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0540-410-films-excess-14-catamaran-photography-2023-0766.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0540-410-films-excess-14-catamaran-photography-2023-0766.jpg"
     },
     {
       "id": "1569-410-films-excess-14-catamaran-photography-2023-0825",
@@ -1663,8 +1607,7 @@
         "bytes": 9826640,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1569-410-films-excess-14-catamaran-photography-2023-0825.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1569-410-films-excess-14-catamaran-photography-2023-0825.jpg"
     },
     {
       "id": "4162-410-films-excess-14-catamaran-photography-2023-06675",
@@ -1706,8 +1649,7 @@
         "bytes": 6001651,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4162-410-films-excess-14-catamaran-photography-2023-06675.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4162-410-films-excess-14-catamaran-photography-2023-06675.jpg"
     },
     {
       "id": "0915-410-films-excess-14-catamaran-photography-2023-06700",
@@ -1749,8 +1691,7 @@
         "bytes": 10010571,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0915-410-films-excess-14-catamaran-photography-2023-06700.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0915-410-films-excess-14-catamaran-photography-2023-06700.jpg"
     },
     {
       "id": "4675-410-films-excess-14-catamaran-photography-2023-06721-1",
@@ -1792,8 +1733,7 @@
         "bytes": 5295979,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4675-410-films-excess-14-catamaran-photography-2023-06721-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4675-410-films-excess-14-catamaran-photography-2023-06721-1.jpg"
     },
     {
       "id": "4077-410-films-excess-14-catamaran-photography-2023-06901",
@@ -1835,8 +1775,7 @@
         "bytes": 9861300,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4077-410-films-excess-14-catamaran-photography-2023-06901.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4077-410-films-excess-14-catamaran-photography-2023-06901.jpg"
     },
     {
       "id": "7803-410-films-excess-14-catamaran-photography-2023-06915",
@@ -1878,8 +1817,7 @@
         "bytes": 7400914,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7803-410-films-excess-14-catamaran-photography-2023-06915.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/7803-410-films-excess-14-catamaran-photography-2023-06915.jpg"
     },
     {
       "id": "4281-410-films-excess-14-catamaran-photography-2023-07620",
@@ -1921,8 +1859,7 @@
         "bytes": 7171139,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4281-410-films-excess-14-catamaran-photography-2023-07620.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/4281-410-films-excess-14-catamaran-photography-2023-07620.jpg"
     },
     {
       "id": "3203-410-films-excess-14-catamaran-photography-2023-07766",
@@ -1964,8 +1901,7 @@
         "bytes": 7697898,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3203-410-films-excess-14-catamaran-photography-2023-07766.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/3203-410-films-excess-14-catamaran-photography-2023-07766.jpg"
     },
     {
       "id": "6197-410-films-excess-14-catamaran-photography-2023-07260",
@@ -2007,8 +1943,7 @@
         "bytes": 6714473,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/6197-410-films-excess-14-catamaran-photography-2023-07260.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/6197-410-films-excess-14-catamaran-photography-2023-07260.jpg"
     },
     {
       "id": "5111-410-films-excess-14-catamaran-photography-2023-07857",
@@ -2050,8 +1985,7 @@
         "bytes": 7005850,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5111-410-films-excess-14-catamaran-photography-2023-07857.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/5111-410-films-excess-14-catamaran-photography-2023-07857.jpg"
     },
     {
       "id": "1082-410-films-excess-14-catamaran-photography-2023-07899",
@@ -2093,8 +2027,7 @@
         "bytes": 9574090,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1082-410-films-excess-14-catamaran-photography-2023-07899.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/1082-410-films-excess-14-catamaran-photography-2023-07899.jpg"
     },
     {
       "id": "0783-410-films-excess-14-catamaran-photography-2023-07916",
@@ -2136,8 +2069,7 @@
         "bytes": 10198774,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0783-410-films-excess-14-catamaran-photography-2023-07916.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/0783-410-films-excess-14-catamaran-photography-2023-07916.jpg"
     },
     {
       "id": "8692-excess-14-crop",
@@ -2179,8 +2111,7 @@
         "bytes": 10621715,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8692-excess-14-crop.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2023/03/8692-excess-14-crop.png"
     },
     {
       "id": "3121-excess-14-0269",
@@ -2222,8 +2153,7 @@
         "bytes": 232306,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3121-excess-14-0269.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/3121-excess-14-0269.jpg"
     },
     {
       "id": "5010-excess-14-0309",
@@ -2265,8 +2195,7 @@
         "bytes": 300972,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/5010-excess-14-0309.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/5010-excess-14-0309.jpg"
     },
     {
       "id": "4090-excess-14-0965",
@@ -2308,8 +2237,7 @@
         "bytes": 211298,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/4090-excess-14-0965.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/4090-excess-14-0965.jpg"
     },
     {
       "id": "9904-excess-14-1030",
@@ -2351,8 +2279,7 @@
         "bytes": 150964,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/9904-excess-14-1030.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/9904-excess-14-1030.jpg"
     },
     {
       "id": "2575-excess-14-1997",
@@ -2394,8 +2321,7 @@
         "bytes": 143578,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2575-excess-14-1997.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/08/2575-excess-14-1997.jpg"
     },
     {
       "id": "5914-excess-14-1014",
@@ -2425,17 +2351,7 @@
       "sha256": null,
       "collected_at": "2026-10-05",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF 8252-excess-14-1014",
-      "original": {
-        "url": "https://www.excess-catamarans.com/media/2022/10/5914-excess-14-1014.jpg",
-        "fetched_from": "https://www.excess-catamarans.com/media/2022/10/5914-excess-14-1014.jpg",
-        "sha256": "ca3feb15d8aca9a84f24a36bbd59479690be64a611d8bf14e98a5823d4472e1c",
-        "width": 933,
-        "height": 1400,
-        "format": "jpeg",
-        "bytes": 194355,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "7211-excess-14-0392-trailblazer",
@@ -2477,8 +2393,7 @@
         "bytes": 200719,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/7211-excess-14-0392-trailblazer.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/7211-excess-14-0392-trailblazer.jpg"
     },
     {
       "id": "9934-excess-14-0392-divine",
@@ -2520,8 +2435,7 @@
         "bytes": 173702,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/9934-excess-14-0392-divine.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/9934-excess-14-0392-divine.jpg"
     },
     {
       "id": "6224-excess-14-0392",
@@ -2563,8 +2477,7 @@
         "bytes": 249949,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6224-excess-14-0392.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/10/6224-excess-14-0392.jpg"
     },
     {
       "id": "1316-excess-14-0294",
@@ -2594,17 +2507,7 @@
       "sha256": null,
       "collected_at": "2026-10-05",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF 8442-excess-14-0294",
-      "original": {
-        "url": "https://www.excess-catamarans.com/media/2022/10/1316-excess-14-0294.jpg",
-        "fetched_from": "https://www.excess-catamarans.com/media/2022/10/1316-excess-14-0294.jpg",
-        "sha256": "a6ad80d12766722a2edcd2eee35e5dfb68fb6ebcb800e7ab083569fb7969b445",
-        "width": 1400,
-        "height": 933,
-        "format": "jpeg",
-        "bytes": 245660,
-        "full_resolution": true
-      }
+      "download_status": "PENDING"
     },
     {
       "id": "1875-excess-14-cockpit-and-salon",
@@ -2646,8 +2549,7 @@
         "bytes": 1129394,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/1875-excess-14-cockpit-and-salon.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/1875-excess-14-cockpit-and-salon.png"
     },
     {
       "id": "5826-excess-14-3-cabin-version",
@@ -2689,8 +2591,7 @@
         "bytes": 1419937,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/5826-excess-14-3-cabin-version.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/5826-excess-14-3-cabin-version.png"
     },
     {
       "id": "5257-excess-14-3-cabin-transformer-version",
@@ -2732,8 +2633,7 @@
         "bytes": 1551280,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/5257-excess-14-3-cabin-transformer-version.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/5257-excess-14-3-cabin-transformer-version.png"
     },
     {
       "id": "5530-excess-14-new-version",
@@ -2775,8 +2675,7 @@
         "bytes": 3600168,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5530-excess-14-new-version.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2026/09/5530-excess-14-new-version.png"
     },
     {
       "id": "1050-excess-14-4-cabin-version",
@@ -2818,8 +2717,488 @@
         "bytes": 1600407,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/1050-excess-14-4-cabin-version.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.excess-catamarans.com/media/2022/02/1050-excess-14-4-cabin-version.png"
+    },
+    {
+      "id": "1095-410-films-excess-14-catamaran-photography-2023-0445",
+      "title": "Excess 14",
+      "category": "HERO",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'hero').",
+      "category_confidence": "alta",
+      "hero_candidate": true,
+      "hero_reason": "Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero').",
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/1095-410-films-excess-14-catamaran-photography-2023-0445.jpg",
+      "cdn_url": "https://www.excess-catamarans.com/media/cache/public_cover/2026/10/1095-410-films-excess-14-catamaran-photography-2023-0445.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "hero",
+        "section_title": "hero"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING",
+      "hero_rank": 3
+    },
+    {
+      "id": "8898-410-films-excess-14-catamaran-photography-2023-0445",
+      "title": "Excess 14",
+      "category": "HERO",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'hero').",
+      "category_confidence": "alta",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/8898-410-films-excess-14-catamaran-photography-2023-0445.jpg",
+      "cdn_url": "https://www.excess-catamarans.com/media/cache/public_cover/2026/10/8898-410-films-excess-14-catamaran-photography-2023-0445.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "hero",
+        "section_title": "hero"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "2490-catamaran-excess-14-interior-06",
+      "title": "2490-catamaran-excess-14-interior-06.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/2490-catamaran-excess-14-interior-06.jpg",
+      "cdn_url": "/media/2026/10/2490-catamaran-excess-14-interior-06.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "3035-catamaran-excess-14-interior-14",
+      "title": "3035-catamaran-excess-14-interior-14.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/3035-catamaran-excess-14-interior-14.jpg",
+      "cdn_url": "/media/2026/10/3035-catamaran-excess-14-interior-14.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "9098-catamaran-excess-14-interior-09",
+      "title": "9098-catamaran-excess-14-interior-09.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/9098-catamaran-excess-14-interior-09.jpg",
+      "cdn_url": "/media/2026/10/9098-catamaran-excess-14-interior-09.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "0595-catamaran-excess-14-interior-07",
+      "title": "0595-catamaran-excess-14-interior-07.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/0595-catamaran-excess-14-interior-07.jpg",
+      "cdn_url": "/media/2026/10/0595-catamaran-excess-14-interior-07.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "5758-catamaran-excess-14-interior-08",
+      "title": "5758-catamaran-excess-14-interior-08.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/5758-catamaran-excess-14-interior-08.jpg",
+      "cdn_url": "/media/2026/10/5758-catamaran-excess-14-interior-08.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "3755-catamaran-excess-14-interior-10",
+      "title": "3755-catamaran-excess-14-interior-10.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/3755-catamaran-excess-14-interior-10.jpg",
+      "cdn_url": "/media/2026/10/3755-catamaran-excess-14-interior-10.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "2955-catamaran-excess-14-interior-11",
+      "title": "2955-catamaran-excess-14-interior-11.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/2955-catamaran-excess-14-interior-11.jpg",
+      "cdn_url": "/media/2026/10/2955-catamaran-excess-14-interior-11.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "4964-catamaran-excess-14-interior-12",
+      "title": "4964-catamaran-excess-14-interior-12.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/4964-catamaran-excess-14-interior-12.jpg",
+      "cdn_url": "/media/2026/10/4964-catamaran-excess-14-interior-12.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "9649-catamaran-excess-14-interior-13",
+      "title": "9649-catamaran-excess-14-interior-13.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/9649-catamaran-excess-14-interior-13.jpg",
+      "cdn_url": "/media/2026/10/9649-catamaran-excess-14-interior-13.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "3402-catamaran-excess-14-interior-03",
+      "title": "3402-catamaran-excess-14-interior-03.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/3402-catamaran-excess-14-interior-03.jpg",
+      "cdn_url": "/media/2026/10/3402-catamaran-excess-14-interior-03.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "5601-catamaran-excess-14-interior-02",
+      "title": "5601-catamaran-excess-14-interior-02.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/5601-catamaran-excess-14-interior-02.jpg",
+      "cdn_url": "/media/2026/10/5601-catamaran-excess-14-interior-02.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "9498-catamaran-excess-14-interior-05",
+      "title": "9498-catamaran-excess-14-interior-05.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/9498-catamaran-excess-14-interior-05.jpg",
+      "cdn_url": "/media/2026/10/9498-catamaran-excess-14-interior-05.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "3245-catamaran-excess-14-interior-01",
+      "title": "3245-catamaran-excess-14-interior-01.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/3245-catamaran-excess-14-interior-01.jpg",
+      "cdn_url": "/media/2026/10/3245-catamaran-excess-14-interior-01.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
+    },
+    {
+      "id": "4391-catamaran-excess-14-interior-04",
+      "title": "4391-catamaran-excess-14-interior-04.jpg",
+      "category": "INTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Solo en la página del modelo (sección 'Interior').",
+      "category_confidence": "media",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.excess-catamarans.com/media/2026/10/4391-catamaran-excess-14-interior-04.jpg",
+      "cdn_url": "/media/2026/10/4391-catamaran-excess-14-interior-04.jpg",
+      "source_page": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+      "source_context": {
+        "section": "gallery",
+        "section_title": "Interior"
+      },
+      "declared_width": null,
+      "declared_height": null,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-10-05",
+      "downloaded_at": null,
+      "download_status": "PENDING"
     }
   ]
 }
