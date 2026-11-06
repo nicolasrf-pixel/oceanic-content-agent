@@ -32,6 +32,8 @@
   "_doc": "Portada de la ficha reemplazada por la foto de la tarjeta: la portada oficial capturada es un interior o no muestra el barco. Las verticales (proporción < 1,3) se reemplazan solas.",
   "saffier/saffier-se-24-lite": "interior",
   "solaris/solaris-40": "interior",
-  "solaris/solaris-60": "cúpulas de Venecia, no muestra el barco"
- }
+  "solaris/solaris-60": "cúpulas de Venecia, no muestra el barco",
+  "solaris/solaris-64-rs": "portada oficial solo en la web de Solaris (bloquea la descarga): va la foto del barco completo navegando"
+ },
+ "solaris/solaris-64-rs": "modelos/solaris-64-rs-g4.webp"
 }
