@@ -24,7 +24,8 @@
 
   // Foto principal del bloque: ancha sobre el texto, o al lado (foto_lado) cuando es vertical o pequeña
   function foto(b) {
-    return b.foto && b.foto !== ed.portada ?  // si es la misma foto de la portada de la edición, no se repite '<figure class="pnot-foto' + (b.foto_lado ? ' pnot-foto-lado' : '') + '"><img src="' + esc(img(b.foto)) + '" alt="" loading="lazy"></figure>' : '';
+    // si es la misma foto de la portada de la edición, no se repite
+    return b.foto && b.foto !== ed.portada ? '<figure class="pnot-foto' + (b.foto_lado ? ' pnot-foto-lado' : '') + '"><img src="' + esc(img(b.foto)) + '" alt="" loading="lazy"></figure>' : '';
   }
   function cabeza(b) {
     return (b.logo ? '<img class="pnot-logo" src="' + esc(img(b.logo)) + '" alt="" loading="lazy">' : '') +
