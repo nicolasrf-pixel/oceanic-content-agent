@@ -116,7 +116,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "serie": "Puerto",
-  "tapa": "https://oceanic.cl/wp-content/uploads/2026/10/portada-puerto-oct-2026.jpg"
+  "tapa": "puerto/archivo/0dd8588d2b25.webp"
  },
  {
   "slug": "puerto-septiembre-2026",
@@ -254,7 +254,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "serie": "Puerto",
-  "tapa": "https://oceanic.cl/wp-content/uploads/2026/09/portada-puerto-SEPT-2026.jpg"
+  "tapa": "puerto/archivo/0b264b70cff4.webp"
  },
  {
   "slug": "puerto-agosto-2026",
@@ -363,7 +363,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "serie": "Puerto",
-  "tapa": "https://oceanic.cl/wp-content/uploads/2026/08/portada-puerto-AGOSTO-2026.jpg"
+  "tapa": "puerto/archivo/4135aba96e3e.webp"
  },
  {
   "slug": "puerto-julio-2026",
@@ -433,7 +433,7 @@ window.OCEANIC_PUERTO=[
      "VELO es el fabricante líder de cabos náuticos de Latinoamérica y el único en la región licenciado por Dyneema, la fibra de referencia mundial para líneas de alto rendimiento. Su fábrica está dedicada al desarrollo y producción de cabos, cubriendo desde crucero hasta regata de alta competencia.",
      "Le damos la bienvenida a esta nueva marca a nuestro portafolio."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2026/07/TOPO-ARTIGO.png",
+    "foto": "puerto/archivo/4ddaa368e320.webp",
     "cta": {
      "texto": "Conoce como elegir tu línea de cabos v.elo.",
      "href": "https://oceanic.cl/wp-content/uploads/2026/07/Oceanic-Guia-Cabos-Velo.pdf"
@@ -463,13 +463,13 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/44dbc67226a4.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/06/iJQs9oAuaGLu1q4E188Z.webp",
+     "puerto/archivo/81d5b4cad54b.webp",
      "puerto/archivo/f1dda61dc44a.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/06/wiCi9pAzTauBfBfmKn5z.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/06/baQkVn1qVTBGAC2BaTjS.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/06/QUFhAgUrhXjbnynt1r7o-scaled.webp"
+     "puerto/archivo/72c223df9186.webp",
+     "puerto/archivo/866995514849.webp",
+     "puerto/archivo/8f5a91bcd3d2.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2026/06/Axopar-38-header.webp",
+    "foto": "puerto/archivo/0940a1ab7f0f.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=axopar&modelo=axopar-38-sun-top"
@@ -531,7 +531,7 @@ window.OCEANIC_PUERTO=[
      "Switch One Design llega al portfolio de Oceanic. Un velero foiling one-design de carbono puro: 3,9 metros, 25 kilos de plataforma, tres rigs intercambiables y más de 30 nudos cuesta abajo. Despega sobre sus foils desde los 6 nudos de viento.",
      "Tres categorías: Youth, Women y Men. Una sola plataforma que crece con el navegante. Solo 4 controles, fácil de transportar, rápido de armar. La historia completa, en el próximo número."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2026/06/Boat-Render-1.png",
+    "foto": "puerto/archivo/e7eceb0a8aab.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=switch"
@@ -565,7 +565,7 @@ window.OCEANIC_PUERTO=[
    }
   ],
   "tapa": "puerto/archivo/5e59a04862c9.webp",
-  "portada": "https://oceanic.cl/wp-content/uploads/2026/06/Axopar-38-header.webp"
+  "portada": "puerto/archivo/0940a1ab7f0f.webp"
  },
  {
   "slug": "puerto-mayo-2026",
@@ -600,7 +600,7 @@ window.OCEANIC_PUERTO=[
      "Plataformas de actividades rediseñadas, ventana trasera de apertura, salón convertible y cientos de mejoras que elevan el estándar de lo que una lancha de alta performance puede ofrecer.",
      "“Superar al bote más vendido de su categoría no es tarea fácil, pero Axopar hizo un profundo trabajo para mejorar el icónico 37. El 38 es un triunfo en todos los niveles, incluida la relación calidad-precio.” Jurado, Yacht Style Awards 2026"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2026/05/Axopar-38-Cross-Cabin-wins-Motoryacht.webp",
+    "foto": "puerto/archivo/af1b69847429.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=axopar&modelo=axopar-38-xc-cross-cabin"
@@ -640,15 +640,15 @@ window.OCEANIC_PUERTO=[
      "Te invitamos a ser parte de una edición que promete ser especial. Este año Cannes será el escenario del lanzamiento mundial del Lagoon 47, que llega al agua por primera vez ante el mundo. Además de otras grandes novedades de la industria que no querrás perderte.",
      "Organizarse con anticipación hace la diferencia. Estamos para ayudarte a planificarlo bien."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2026/05/L42-millenium-img-intro-produit-880x1177-1.jpg",
+    "foto": "puerto/archivo/18a726c11b9d.webp",
     "cta": {
      "texto": "Solicitar información",
      "href": "../../contacto/"
     }
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2026/05/portada-puerto-mayo-2026.jpg",
-  "portada": "https://oceanic.cl/wp-content/uploads/2026/05/Axopar-38-Cross-Cabin-wins-Motoryacht.webp"
+  "tapa": "puerto/archivo/2f82eddf1bcb.webp",
+  "portada": "puerto/archivo/af1b69847429.webp"
  },
  {
   "slug": "puerto-abril-2026",
@@ -701,13 +701,13 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/eaaedf020ce6.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-25-at-9.37.55-AM.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-25-at-9.38.25-AM.jpeg",
+     "puerto/archivo/8b2a543683b0.webp",
+     "puerto/archivo/2f4c8bfd3299.webp",
      "puerto/archivo/0b31ed03a0d6.webp",
      "puerto/archivo/b0b1971b7744.webp",
      "puerto/archivo/20e35a9ecdf3.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/04/CARRUSEL_GANADORES_8.jpg-scaled.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2026/04/CARRUSEL_GANADORES_13.jpg.jpeg"
+     "puerto/archivo/bc599a6c384b.webp",
+     "puerto/archivo/952f907efd03.webp"
     ],
     "foto": "puerto/archivo/fbd77c97ac57.webp"
    },
@@ -778,9 +778,9 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/91780f1bdb34.webp",
      "puerto/archivo/8a5cc59b5350.webp",
      "puerto/archivo/3335990d4314.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/03/WhatsApp-Image-2026-02-18-at-12.38.49-PM.jpeg",
+     "puerto/archivo/8cc1367ca1f3.webp",
      "puerto/archivo/d464b87e2070.webp",
-     "https://oceanic.cl/wp-content/uploads/2026/03/WhatsApp-Image-2026-02-18-at-12.37.33-PM-4.jpeg",
+     "puerto/archivo/cc12a1455464.webp",
      "puerto/archivo/bc8a006b3e3d.webp"
     ]
    },
@@ -823,7 +823,7 @@ window.OCEANIC_PUERTO=[
      "Industria · Temporada 2026"
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2026/03/2019-02-Aquila-0886_EDIT.jpg"
+     "puerto/archivo/b61d95ebac3f.webp"
     ]
    },
    {
@@ -901,17 +901,17 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/c1771d5a92eb.webp",
      "puerto/archivo/8f516c951f7e.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/12/196592f3-eae6-496f-a01a-30e6007bcb69-1.jpg",
-     "https://oceanic.cl/wp-content/uploads/2025/12/281bbefc-7c58-4246-8660-c155584fb160.jpg",
+     "puerto/archivo/1463315578ef.webp",
+     "puerto/archivo/446a1b1786f9.webp",
      "puerto/archivo/c3291cfe4412.webp",
      "puerto/archivo/83a1742bbb77.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/12/IMG_3967-scaled.jpg",
+     "puerto/archivo/52efa8866df3.webp",
      "puerto/archivo/280953c54f08.webp",
      "puerto/archivo/ab634db5b6a3.webp"
     ]
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2025/11/portada-puerto-home.jpg",
+  "tapa": "puerto/archivo/bfc850567247.webp",
   "portada": "puerto/archivo/800d827d7243.webp"
  },
  {
@@ -941,8 +941,8 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/7f6afc620371.webp",
      "puerto/archivo/97dcee352a21.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/01/57204808.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/01/57204033.jpg",
+     "puerto/archivo/3f9898d0196c.webp",
+     "puerto/archivo/278f67579856.webp",
      "puerto/archivo/ef121a0088e6.webp",
      "puerto/archivo/e2d118c5af9d.webp",
      "puerto/archivo/a091708d86f3.webp",
@@ -964,17 +964,17 @@ window.OCEANIC_PUERTO=[
      "El casco semiplanante garantiza un comportamiento estable, incluso en condiciones variables, y su plataforma de baño sumergible facilita el acceso al agua. Ideal para quienes quieren explorar la costa chilena con total autonomía y elegancia."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2023/12/BOB_Finalist_2022.jpg-1.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/05/7b695964-f65e-4697-8fa9-1f953040b4de.jpeg-1900px.jpg",
+     "puerto/archivo/d7119cc14b6e.webp",
+     "puerto/archivo/f617f3ee93fb.webp",
      "puerto/archivo/0331c690ce08.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/05/32e28bc0-1865-4384-a48c-c2575d2ccef9.jpeg-1900px.jpg",
+     "puerto/archivo/b2f896dd3214.webp",
      "puerto/archivo/74203685c9b9.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/05/swift-trawler-48-beneteau-_12.jpeg",
+     "puerto/archivo/f8803f83cb7c.webp",
      "puerto/archivo/7dd8754c88fb.webp",
      "puerto/archivo/c217978b55dc.webp",
      "puerto/archivo/aeb07ce911ef.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2025/05/prinicipales-Bitacora-st48.jpg",
+    "foto": "puerto/archivo/c045bb1439a1.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-48"
@@ -990,16 +990,16 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/bf67a36f7fbe.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/boat-of-the-year-2017.png.webp",
+     "puerto/archivo/acecee60e443.webp",
      "puerto/archivo/04eb1adb46a9.webp",
      "puerto/archivo/7a5112b6f1f6.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/first24-se-sailing-exp3.jpeg",
+     "puerto/archivo/71593ec577c3.webp",
      "puerto/archivo/f7596c6b9056.webp",
      "puerto/archivo/16db35f423ec.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/first24-se-onboard2.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/first24-se-onboard3.jpeg"
+     "puerto/archivo/cf792c891247.webp",
+     "puerto/archivo/9c3b930db0f0.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2025/05/fist24se.jpg",
+    "foto": "puerto/archivo/509232c15452.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-48"
@@ -1017,15 +1017,15 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/2c9d466868fe.webp",
      "puerto/archivo/a46a88115eac.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/ocy54-exterior1.jpeg",
+     "puerto/archivo/3550e632104d.webp",
      "puerto/archivo/b84d20a639fd.webp",
      "puerto/archivo/d50b2689a585.webp",
      "puerto/archivo/e56318b32f29.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/ocy54-exterior3.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/ocy54-interior6.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/ocy54-exterior2.jpeg"
+     "puerto/archivo/2da8f2f3a80d.webp",
+     "puerto/archivo/4b84847094c8.webp",
+     "puerto/archivo/e8f38a67d04c.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2025/05/prinicipales-Bitacora-oceanis-yacht54.jpg",
+    "foto": "puerto/archivo/73542ddcfd92.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=beneteau&modelo=oceanis-yacht-54"
@@ -1044,7 +1044,7 @@ window.OCEANIC_PUERTO=[
     }
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2025/05/portada-bitacora-01-05-25.jpg",
+  "tapa": "puerto/archivo/739cec208bb0.webp",
   "portada": "puerto/archivo/82b9ab803bb9.webp"
  },
  {
@@ -1064,11 +1064,11 @@ window.OCEANIC_PUERTO=[
      "Gracias a quienes han sido parte de estos 30 años. La navegación nos une, y la mejor travesía siempre es la que viene."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2025/04/photo0024.png",
-     "https://oceanic.cl/wp-content/uploads/2025/04/photo007.png",
-     "https://oceanic.cl/wp-content/uploads/2025/04/photo0020.png",
+     "puerto/archivo/5f02e7d9f06d.webp",
+     "puerto/archivo/3a64be6d3b28.webp",
+     "puerto/archivo/5900ee4abfa2.webp",
      "puerto/archivo/a579a2ed7a44.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/04/photo009.png",
+     "puerto/archivo/d0496cc272ba.webp",
      "puerto/archivo/0db384f86a99.webp",
      "puerto/archivo/2a788355f662.webp",
      "puerto/archivo/152ff42f72e6.webp",
@@ -1086,8 +1086,8 @@ window.OCEANIC_PUERTO=[
      "Consulta por unidad Antares 8 con entrega inmediata , y la posibilidad de adquirirlo en 10 cuotas sin interés."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2025/04/antares-8-ext16_1.jpg.webp",
-     "https://oceanic.cl/wp-content/uploads/2025/04/antares-8-interior_lf_0390-ludovic-fruchaud-v4.jpeg"
+     "puerto/archivo/46861b929ff2.webp",
+     "puerto/archivo/48c6eb195bdd.webp"
     ]
    },
    {
@@ -1111,14 +1111,14 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/782a3fd49687.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/Lagoon-42-vu-de-haut.jpg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/0773_NCZ8200_web_reduit.jpg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/1046_NCZ8473_web_reduit.jpg",
-     "https://oceanic.cl/wp-content/uploads/2023/12/Lagoon-42-navigation-voile_0.jpg",
+     "puerto/archivo/8aa6d97b72c4.webp",
+     "puerto/archivo/f64111869945.webp",
+     "puerto/archivo/3c5ea6d0ff5a.webp",
+     "puerto/archivo/d5152fce3e6b.webp",
      "puerto/archivo/2ef3fa184bd9.webp",
      "puerto/archivo/c17297d2edd2.webp",
      "puerto/archivo/703759d00274.webp",
-     "https://oceanic.cl/wp-content/uploads/2023/12/NCF2377-HDR_web_2.jpg"
+     "puerto/archivo/35be246bbc9b.webp"
     ],
     "cta": {
      "texto": "Para cotizar el tuyo haz clic",
@@ -1201,14 +1201,14 @@ window.OCEANIC_PUERTO=[
     ],
     "galeria": [
      "puerto/archivo/8e67c37fb1cc.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/11/IMG_1240-1-scaled.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/11/IMG_1205-1-scaled.jpg",
+     "puerto/archivo/301de2e79468.webp",
+     "puerto/archivo/58ca6e612aed.webp",
      "puerto/archivo/9f1334986260.webp",
      "puerto/archivo/05b194862659.webp",
      "puerto/archivo/773e78aa2b81.webp",
      "puerto/archivo/f0ba2339d24c.webp",
      "puerto/archivo/9f19591e726a.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/11/IMG_1257-1-scaled.jpg"
+     "puerto/archivo/746b530a319f.webp"
     ],
     "cta": {
      "texto": "Conoce aquí la axopar 29 ccx",
@@ -1279,7 +1279,7 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 8,1 M"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2023/09/LAGOON-51.jpg",
+    "foto": "puerto/archivo/e2feea1e6da3.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=lagoon&modelo=lagoon-51-iconic"
@@ -1317,7 +1317,7 @@ window.OCEANIC_PUERTO=[
      "Este Axopar 37 Sun Top es mucho más que una embarcación. Su diseño de vanguardia, tecnología avanzada y confort en navegación lo convierten en la elección ideal para quienes buscan una gran experiencia náutica.",
      "Felicitamos a su propietario por esta gran adquisición y le deseamos muchas aventuras memorables a bordo."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/10/MAIL-082024-axopar37-2.png"
+    "foto": "puerto/archivo/291d5726c234.webp"
    },
    {
     "type": "noticia",
@@ -1329,8 +1329,8 @@ window.OCEANIC_PUERTO=[
      "Te presentamos la selección exclusiva de unidades para entrega inmediata . Estas embarcaciones están listas para zarpar y ofrecerte una experiencia única en el agua. ¡No pierdas la oportunidad de llevarte una de estas maravillas a casa! Contáctanos para más detalles y asegura la tuya."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/10/MAIL-092024-antares8.jpg",
-     "https://oceanic.cl/wp-content/uploads/2023/09/Axopar-22-Top.jpg"
+     "puerto/archivo/89ecd9d229ef.webp",
+     "puerto/archivo/5f2d3ce2d3e2.webp"
     ]
    },
    {
@@ -1352,7 +1352,7 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "Ancho: 2,98 M"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/03/Axopar-29-XC-Cross-Cabin.jpg",
+    "foto": "puerto/archivo/112899b0843d.webp",
     "cta": {
      "texto": "Ver más",
      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
@@ -1396,7 +1396,7 @@ window.OCEANIC_PUERTO=[
      "Mantente al tanto de más novedades sobre esta impresionante embarcación y no pierdas la oportunidad de conocerla de cerca."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/10/MAIL-082024-ST54.jpg"
+     "puerto/archivo/7edb77f78df5.webp"
     ],
     "cta": {
      "texto": "Cotiza tu beneteau st 54",
@@ -1404,8 +1404,8 @@ window.OCEANIC_PUERTO=[
     }
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2024/10/MAIL-102024.jpg",
-  "portada": "https://oceanic.cl/wp-content/uploads/2024/10/MAIL-082024-axopar37-2.png"
+  "tapa": "puerto/archivo/ff4927cf2787.webp",
+  "portada": "puerto/archivo/291d5726c234.webp"
  },
  {
   "slug": "puerto-news-agosto-2024",
@@ -1448,7 +1448,7 @@ window.OCEANIC_PUERTO=[
      "Espacios amplios : Ofrece áreas generosas tanto para socializar como para el almacenamiento.",
      "La Axopar 29 XC es ideal para quienes desean explorar las costas y lagos con estilo y seguridad. ¡No pierdas la oportunidad de asegurar la tuya! Cotiza hoy y prepárate para zarpar en octubre."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/08/axopar29xc-082024.jpg",
+    "foto": "puerto/archivo/00c47734835f.webp",
     "cta": {
      "texto": "Cotiza tu axopar 29xc",
      "href": "../../marca/?m=axopar&modelo=axopar-29-xc-cross-cabin"
@@ -1465,7 +1465,7 @@ window.OCEANIC_PUERTO=[
      "Diseño Versátil: Opciones de configuración abiertas o cerradas para diferentes condiciones climáticas.",
      "Cabina Ergonómica: Asientos con mitigación de impactos y un techo solar de acordeón que aporta luminosidad."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/08/MAIL-082024-xodfndr8.jpg",
+    "foto": "puerto/archivo/d6c48b404e07.webp",
     "cta": {
      "texto": "Cotiza aquí tu xo dfndr 8",
      "href": "../../marca/?m=xo&modelo=xo-dfndr-8"
@@ -1477,7 +1477,7 @@ window.OCEANIC_PUERTO=[
     "cuerpo": [
      "¡No pierdas la oportunidad de experimentar la potencia y maniobrabilidad del XO DFNDR 8 en el agua!"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/08/MAIL-082024-seatrial-1.jpg",
+    "foto": "puerto/archivo/d6fb279fab96.webp",
     "cta": {
      "texto": "Inscríbete",
      "href": "../../contacto/"
@@ -1534,12 +1534,12 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/d4138654f29d.webp",
      "puerto/archivo/83a8cd513bd7.webp",
      "puerto/archivo/26778090a85a.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/07/X1A8234.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/07/X1A8616.jpg",
+     "puerto/archivo/b8afcf62519b.webp",
+     "puerto/archivo/28b3bb59f608.webp",
      "puerto/archivo/7ccfdcea97ea.webp",
      "puerto/archivo/2204dd238471.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/07/X1A8392.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/07/X1A8561.jpg"
+     "puerto/archivo/405533571d90.webp",
+     "puerto/archivo/e1d46d0a4e85.webp"
     ],
     "foto": "puerto/archivo/6d9508f40c8c.webp",
     "cta": {
@@ -1559,11 +1559,11 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/46a4075cb63e.webp",
      "puerto/archivo/f70a992a1c69.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/03/Gallery_Axopar_29_XC_Cross_Cabin-17-scaled.jpg",
+     "puerto/archivo/d0fe087b55c4.webp",
      "puerto/archivo/eb1722b5adb2.webp",
      "puerto/archivo/0e10021b55dd.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/03/29_XC_Gallery_0008_Axopar_29_XC_Cross_Cabin-0559-scaled.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/03/29_XC_Gallery_0002_Axopar_29_XC_Cross_Cabin-9306-scaled.jpg",
+     "puerto/archivo/2bc4d293a894.webp",
+     "puerto/archivo/9ba4e652f7b0.webp",
      "puerto/archivo/b1c73668ba94.webp"
     ],
     "foto": "puerto/archivo/4540b92f7361.webp",
@@ -1583,7 +1583,7 @@ window.OCEANIC_PUERTO=[
      "Contamos con modelos que parten en los 2,4 metros de largo hasta los más grandes que alcanzan 8,3 metros."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/07/MAIL-072024-gomones.jpg"
+     "puerto/archivo/aeafd7138508.webp"
     ],
     "foto": "puerto/archivo/cb56e15a6edc.webp",
     "cta": {
@@ -1603,11 +1603,11 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/4e293fc714bc.webp",
      "puerto/archivo/b5eef06fde7f.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/04/Lagoon-60-3360.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2024/04/Lagoon-60-3341.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2024/04/Lagoon-60-3330.jpeg",
+     "puerto/archivo/6aeed2490899.webp",
+     "puerto/archivo/dcb2274fbf63.webp",
+     "puerto/archivo/c2b60318bd5d.webp",
      "puerto/archivo/f5e9c9177003.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/04/Lagoon_60_exterior_1.webp"
+     "puerto/archivo/350b5c26c130.webp"
     ],
     "foto": "puerto/archivo/625ab2e024c2.webp",
     "cta": {
@@ -1629,10 +1629,10 @@ window.OCEANIC_PUERTO=[
      "El Swift Trawler 54 de BENETEAU será presentado al público por primera vez en el Salón Náutico de Cannes en el próximo setiembre, si quieres conocerlo ahí, no dudes en escribirnos para gestionar tu entrada."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/07/st54-3.jpg",
-     "https://oceanic.cl/wp-content/uploads/2024/07/st54-2.jpg"
+     "puerto/archivo/542eea1727e4.webp",
+     "puerto/archivo/e5284872e338.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/07/st54.jpg",
+    "foto": "puerto/archivo/c5df961de38a.webp",
     "cta": {
      "texto": "Para más información haz clic",
      "href": "../../marca/?m=beneteau&modelo=swift-trawler-54"
@@ -1660,7 +1660,7 @@ window.OCEANIC_PUERTO=[
      "La oportunidad perfecta de hacer su sueño realidad y navegar cómodamente por todo el mundo.",
      "Aproveche esta oferta excepcional para equipar y personalizar su catamarán según sus necesidades y deseos."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/06/news-junio-lagoon40years.jpg",
+    "foto": "puerto/archivo/431be515cefb.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../index.html"
@@ -1674,7 +1674,7 @@ window.OCEANIC_PUERTO=[
      "Disponible en versión de cuatro camarotes y con una gama de equipamiento única, el Lagoon 42 Millenium se ha diseñado para satisfacer todos sus deseos de navegación."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/06/666340d14607691c62ad8e40.jpg"
+     "puerto/archivo/a1eaa0c9d081.webp"
     ],
     "foto": "puerto/archivo/3469faddbf15.webp",
     "cta": {
@@ -1707,15 +1707,15 @@ window.OCEANIC_PUERTO=[
     "galeria": [
      "puerto/archivo/88b361bc9be8.webp"
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/06/MAIL-062024-axopar.jpg",
+    "foto": "puerto/archivo/665359f0df54.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=oceanic-power"
     }
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2024/06/NOTICIAS-062024.jpg",
-  "portada": "https://oceanic.cl/wp-content/uploads/2024/06/news-junio-lagoon40years.jpg"
+  "tapa": "puerto/archivo/7b4d25110237.webp",
+  "portada": "puerto/archivo/431be515cefb.webp"
  },
  {
   "slug": "puerto-news-mayo-2024",
@@ -1746,7 +1746,7 @@ window.OCEANIC_PUERTO=[
      "Descubre la versatilidad y seguridad de Oceanic Power, una embarcación semirrígida diseñada para aventuras en el agua. Con características únicas como válvulas de seguridad y tubos de Hypalon y PVC, ofrece gran flotabilidad y resistencia. Desde modelos de 2,4 metros hasta impresionantes embarcaciones de 7,5 metros, con casco de aluminio y fibra, Oceanic Power se adapta a tus necesidades. Además, es eco-amigable y eficiente en el consumo de combustible. ¡Visita nuestra página web para obtener más información sobre nuestros modelos disponibles!"
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/05/ANTARTICA.jpg",
+     "puerto/archivo/a46cff0a0d21.webp",
      "puerto/archivo/dae5740ec16d.webp"
     ],
     "cta": {
@@ -1762,15 +1762,15 @@ window.OCEANIC_PUERTO=[
      "El pasado 6 de abril, en la hermosa Bahía de Valparaíso, se hizo la entrega de esta increíble Axopar 28. Una embarcación con capacidad para albergar hasta siete personas en un entorno amplio, luminoso y protegido contra las inclemencias del tiempo. Una semana después formaba parte de la despedida del Buque escuela Esmeralda.",
      "Cotiza tu Axopar con nosotros y deja la aventura comience."
     ],
-    "foto": "https://oceanic.cl/wp-content/uploads/2024/05/esmeralda.jpg",
+    "foto": "puerto/archivo/430abf1c3573.webp",
     "cta": {
      "texto": "Cotiza el tuyo",
      "href": "../../marca/?m=axopar"
     }
    }
   ],
-  "tapa": "https://oceanic.cl/wp-content/uploads/2024/05/NOTICIAS-052024.jpg",
-  "portada": "https://oceanic.cl/wp-content/uploads/2024/05/esmeralda.jpg"
+  "tapa": "puerto/archivo/d1d3dfef06e4.webp",
+  "portada": "puerto/archivo/430abf1c3573.webp"
  },
  {
   "slug": "puerto-news-abril-2024",
@@ -1817,11 +1817,11 @@ window.OCEANIC_PUERTO=[
      "puerto/archivo/5136fcede8f1.webp",
      "puerto/archivo/3d9a512bd96e.webp",
      "puerto/archivo/3348cadb9b40.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/04/WhatsApp-Image-2024-03-18-at-08.41.30.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2024/04/WhatsApp-Image-2024-03-18-at-08.41.31-2.jpeg",
-     "https://oceanic.cl/wp-content/uploads/2024/04/WhatsApp-Image-2024-03-18-at-08.41.33-2.jpeg",
+     "puerto/archivo/497ad639c963.webp",
+     "puerto/archivo/ee99d01b0d78.webp",
+     "puerto/archivo/67368ea75a47.webp",
      "puerto/archivo/2a13350c5456.webp",
-     "https://oceanic.cl/wp-content/uploads/2024/04/WhatsApp-Image-2024-03-18-at-08.41.32-2.jpeg",
+     "puerto/archivo/448f6b4fbb6d.webp",
      "puerto/archivo/470b642dd4cf.webp"
     ],
     "cta": {
@@ -1837,7 +1837,7 @@ window.OCEANIC_PUERTO=[
      "La gama Antares es una invitación al viaje, y cada viaje es una aventura a medida. Los apasionados de la pesca, apreciarán los porta cañas y la bañera despejada para pasar las horas esperando capturas récord. Los adeptos al deslizamiento aprovecharán la galería sobre el techo para embarcar sus paddles sin estorbar en la cubierta. Todos saludarán la ingeniosa puerta lateral estribor de serie para embarcar en el barco sin esfuerzo. Las opciones bien pensadas tendrán siempre un espacio de elección sobre los Antares para proponer una experiencia generosa y personalizada para todos los pasajeros."
     ],
     "galeria": [
-     "https://oceanic.cl/wp-content/uploads/2024/04/660b2e0424a5d29cfb733638.jpg"
+     "puerto/archivo/dbd56993010a.webp"
     ],
     "cta": {
      "texto": "Cotiza",
