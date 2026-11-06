@@ -301,3 +301,18 @@
 .cierre-foto{margin:0;position:relative}
 .cierre-foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
 .cierre-foto figcaption{margin-top:10px;font-family:var(--dato);font-size:11px;letter-spacing:.06em;color:var(--trabajo)}
+/* Franja de logos de las marcas: desliza sin fin, se detiene al pasar el cursor */
+.hlogos{background:var(--noche);padding:clamp(34px,4.5vw,60px) 0;overflow:hidden;border-top:1px solid rgba(255,255,255,.06);position:relative}
+.hlogos::before,.hlogos::after{content:"";position:absolute;top:0;bottom:0;width:12%;z-index:1;pointer-events:none}
+.hlogos::before{left:0;background:linear-gradient(90deg,var(--noche),transparent)}
+.hlogos::after{right:0;background:linear-gradient(270deg,var(--noche),transparent)}
+.hlogos-pista{display:flex;width:max-content;animation:hlogos-desliza 60s linear infinite}
+.hlogos:hover .hlogos-pista,.hlogos:focus-within .hlogos-pista{animation-play-state:paused}
+.hlogos-grupo{display:flex;align-items:center}
+.hlogo{display:flex;align-items:center;justify-content:center;height:64px;padding:0 clamp(28px,3.6vw,56px);opacity:.62;transition:opacity .35s ease,transform .35s ease}
+.hlogo:hover,.hlogo:focus-visible{opacity:1;transform:translateY(-2px)}
+.hlogo img{display:block;width:auto;height:auto;max-height:30px;max-width:190px}
+.hlogo img[data-forma="alto"]{max-height:58px}
+@keyframes hlogos-desliza{to{transform:translateX(-50%)}}
+@media(max-width:820px){.hlogo{height:52px}.hlogo img{max-height:24px;max-width:150px}.hlogo img[data-forma="alto"]{max-height:46px}}
+@media (prefers-reduced-motion:reduce){.hlogos-pista{animation:none;width:auto;flex-wrap:wrap;justify-content:center}.hlogos-grupo[aria-hidden]{display:none}.hlogos-grupo{flex-wrap:wrap;justify-content:center;row-gap:18px}}
