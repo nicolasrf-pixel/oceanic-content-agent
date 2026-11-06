@@ -37,6 +37,32 @@
   // Fotos del modelo: se reparten entre los bloques sin repetirse. Si una no existe, su contenedor se oculta.
   // Cada espacio pide un ancho mínimo (nunca se muestra una foto agrandada): si ninguna alcanza, queda sin foto.
   // RES = assets/data/resolucion.json (medidas de las fotos de menos de 1600 px; las demás sirven en todo).
+  // Tema de un bloque de texto → categorías de foto que lo ilustran (en orden de preferencia).
+  var FOTOS_TEMA = {
+    interior: ['Interior', 'Camarotes'],
+    timonera: ['Timonera', 'Interior', 'Detalle'],
+    cubierta: ['Cubierta', 'Exterior', 'Navegando'],
+    navegando: ['Navegando', 'Exterior', 'Cubierta', 'Detalle'],
+    exterior: ['Exterior', 'Navegando', 'Cubierta', 'Detalle'],
+    general: ['Exterior', 'Navegando', 'Cubierta', 'Detalle', 'Galería']
+  };
+  var TEMAS = [
+    ['interior', /\b(interior(es)?|sal[oó]n|cocina|camarotes?|cabinas?|ba[nñ]os?|dormitorios?|camas?|literas?|bajo cubierta|hogar|vida a bordo|tapicer[ií]a|madera|cuddy|habitab\w*|descans\w*|ducha|nevera|refrigerador)\b/gi],
+    ['timonera', /\b(tim[oó]n|timonel|timonera|puesto de mando|consola|conductor|piloto|mandos?|instrumentos|pantallas?|al volante)\b/gi],
+    ['cubierta', /\b(cubierta|cockpit|ba[nñ]era|sol[aá]rium|popa|proa|plataforma de ba[nñ]o|terraza|aire libre|fondeo|ancla|asientos|t-top|toldo|pasillos?)\b/gi],
+    ['navegando', /\b(rendimiento|velocidad\w*|nudos|casco|navega\w*|manejo|potencia|motor(es)?|maniobra\w*|a vela|ce[nñ]ida|planeo|mar agitado|agilidad|hidrodin[aá]mic\w*|conducci[oó]n)\b/gi],
+    ['exterior', /\b(exterior|l[ií]neas|silueta|perfil|estilo)\b/gi]
+  ];
+  function temaDe(titulo, textos) {
+    var mejor = null, max = 0, cuerpo = (textos || []).join(' ');
+    TEMAS.forEach(function (t) {
+      var n = ((titulo || '').match(t[1]) || []).length * 3 + (cuerpo.match(t[1]) || []).length;
+      if (n > max) { max = n; mejor = t[0]; }
+    });
+    return max >= 2 ? mejor : null;
+  }
+  window.OCEANIC_TEMA_FOTO = temaDe;  // para las pruebas y auditorías
+
   function Fotos(AB, mo, galCat, RES, sinMinimo, REC) {
     var orden = ['Exterior', 'Navegando', 'Interior', 'Timonera', 'Cubierta', 'Camarotes', 'Detalle', 'Galería'];
     var lista = [];
@@ -59,9 +85,21 @@
       for (var k = 0; k < lista.length; k++) { var f = lista[k]; if (!usadas[f] && alcanza(f, min) && (conRecortes || !esRecorte(f))) { usadas[f] = 1; return IMG(AB, f); } }
       return null;
     }
+    // foto según el tema del bloque: solo de las categorías que corresponden (un texto sobre el interior nunca lleva
+    // una foto exterior). Sin foto adecuada, el bloque queda sin foto.
+    function tomarDe(cats, min) {
+      for (var c = 0; c < cats.length; c++) {
+        var fs = galCat[cats[c]] || [];
+        for (var k = 0; k < fs.length; k++) { var f = fs[k]; if (!usadas[f] && alcanza(f, min) && !esRecorte(f)) { usadas[f] = 1; return IMG(AB, f); } }
+      }
+      return null;
+    }
     return {
       hero: hero ? IMG(AB, hero) : null,
-      sig: function (min) { return tomar(min || 1000); },
+      sig: function (min, tema) {
+        if (tema && FOTOS_TEMA[tema]) return tomarDe(FOTOS_TEMA[tema], min || 1000);
+        return tomarDe(FOTOS_TEMA.general, min || 1000) || (Object.keys(galCat).length ? null : tomar(min || 1000));
+      },
       resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700, true))) r.push(f); return r; }
     };
   }
@@ -167,7 +205,7 @@
     function dos(f) { return '<div class="two' + (f ? (lado++ % 2 ? ' two-inv' : '') : ' sin-foto') + '">'; }
     (P.bloques || []).forEach(function (b, i) {
       if (!b.texto || !b.texto.length) return;
-      var f = F.sig();
+      var f = F.sig(1000, temaDe(b.titulo, b.texto));
       cuerpo.push(seccion(i === 0 ? 'abordo' : '',
         cabeza(numero() + mo.nombre) + dos(f) + '<div><h2>' + h2(b.titulo) + '</h2>' +
         '<p class="lede" style="margin-top:22px">' + esc(b.texto[0]) + '</p>' + parr(b.texto.slice(1)) + '</div>' +
@@ -178,7 +216,7 @@
     // 4 · Destacados oficiales (maqueta "Diseño e ingeniería": lista de puntos con foto)
     (P.destacados || []).forEach(function (g, i) {
       if (!g.items || !g.items.length) return;
-      var f = F.sig();
+      var f = F.sig(1000, temaDe(g.grupo, [g.intro || ''].concat(g.items.map(function (it) { return it.titulo + ' ' + (it.texto || ''); }))));
       cuerpo.push(seccion(i === 0 ? 'destacados' : '',
         cabeza(numero() + 'Destacados') + dos(f) + '<div><h2>' + h2(g.grupo) + '</h2>' +
         (g.intro ? '<p class="lede" style="margin-top:22px">' + esc(g.intro) + '</p>' : '') + img(f, mo.nombre + ' · ' + g.grupo) + '</div>' +
