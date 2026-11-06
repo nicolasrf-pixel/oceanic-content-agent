@@ -15,21 +15,21 @@ window.OCEANIC_MARCAS={
   "nombre": "Beneteau",
   "pais": "Francia",
   "universo": "Vela y Motor",
-  "hero": "modelos/oceanis-40-1-g3.webp",
+  "hero": "marcas-hero/beneteau-vela.webp",
   "claim": "El astillero que definió el crucero moderno.",
   "intro": "Más de 140 años construyendo veleros y lanchas a motor. De los Oceanis y First a los Gran Turismo y Antares: la referencia mundial en volumen y fiabilidad.",
   "lineas": {
    "vela": {
     "nombre": "Beneteau",
     "universo": "Vela",
-    "hero": "modelos/oceanis-40-1-g3.webp",
+    "hero": "marcas-hero/beneteau-vela.webp",
     "claim": "El astillero que definió el crucero moderno.",
     "intro": "Veleros de crucero y de regata: Oceanis, Oceanis Yacht, First y Figaro Beneteau."
    },
    "motor": {
     "nombre": "Beneteau Motor",
     "universo": "Motor",
-    "hero": "modelos/gran-turismo-40-open-g4.webp",
+    "hero": "marcas-hero/beneteau-motor.webp",
     "claim": "Lanchas y cruceros a motor con el sello Beneteau.",
     "intro": "Antares, Flyer, Gran Turismo, Swift Trawler y Grand Trawler: del day boat al trawler de travesía."
    }
@@ -63,7 +63,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Solaris",
   "pais": "Italia",
   "universo": "Vela",
-  "hero": "modelos/solaris-55-g5.webp",
+  "hero": "modelos/solaris-55-hero.webp",
   "claim": "Carpintería italiana, líneas rápidas.",
   "intro": "Veleros italianos de alto rendimiento y acabado artesanal. Cruceros rápidos diseñados por Javier Soto Acebal, con teca y carbono.",
   "logo": "marcas-logo/solaris.png"
@@ -72,14 +72,14 @@ window.OCEANIC_MARCAS={
   "nombre": "Aquila",
   "pais": "EE.UU.",
   "universo": "Motor",
-  "hero": "modelos/aquila-32-sport-g9.webp",
+  "hero": "modelos/aquila-36-sport-g16.webp",
   "claim": "El catamarán a motor, pensado desde cero.",
   "intro": "Power catamarans diseñados específicamente como multicasco a motor. Espacio de yate, estabilidad y autonomía para la costa y la travesía.",
   "lineas": {
    "motor": {
     "nombre": "Aquila",
     "universo": "Motor",
-    "hero": "modelos/aquila-32-sport-g9.webp"
+    "hero": "modelos/aquila-36-sport-g16.webp"
    },
    "vela": {
     "nombre": "Aquila Sail",
@@ -95,7 +95,7 @@ window.OCEANIC_MARCAS={
   "nombre": "XO Boats",
   "pais": "Finlandia",
   "universo": "Motor",
-  "hero": "modelos/xo-explr-9-hero.webp",
+  "hero": "modelos/xo-explr-44-hero.webp",
   "claim": "Aluminio para el agua fría.",
   "intro": "Lanchas de aluminio finlandesas para costa expuesta y aguas frías. Casco robusto, sin concesiones, para navegar donde otros no.",
   "logo": "marcas-logo/xo.png"
@@ -113,7 +113,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Excess",
   "pais": "Francia",
   "universo": "Vela",
-  "hero": "modelos/excess-14-g8.webp",
+  "hero": "modelos/excess-11-hero.webp",
   "claim": "El catamarán que rompe los códigos.",
   "intro": "Catamaranes de crucero de estilo refinado y diseño ingenioso, pensados para los navegantes que buscan emoción y sensaciones de vela sin renunciar al confort a bordo.",
   "logo": "marcas-logo/excess.svg"
@@ -131,7 +131,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Switch",
   "pais": "Tailandia",
   "universo": "Vela deportiva",
-  "hero": "modelos/switch-one-design-g2.webp",
+  "hero": "modelos/switch-one-design-hero.webp",
   "claim": "La revolución del foiling.",
   "intro": "Un dinghy de foils íntegramente de carbono de ElementSIX Evolution. Clase monotipo de alto rendimiento, fácil de transportar y rápido de armar: más tiempo en el agua.",
   "logo": "marcas-logo/switch.png"
