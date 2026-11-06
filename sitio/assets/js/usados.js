@@ -1,6 +1,7 @@
 /* OCEANIC, Repositorio de usados (datos reales de usados-data.js) */
 (function(){
   var U=window.OCEANIC_USADOS; if(!U) return;
+  U=U.filter(function(u){ return !u.oculto; });  // ocultos desde el administrador: no se listan
   var grid=document.getElementById('grid'), cont=document.getElementById('count');
   var empty=document.getElementById('empty');
   var AB=(document.body.dataset.assetBase||'../assets/img/')+'usados/';

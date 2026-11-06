@@ -127,6 +127,8 @@ def sitemap():
             if f'{marca}/{mo["slug"]}' not in ocultos:
                 urls.append((f'{SITIO}/marca/?m={marca}&modelo={mo["slug"]}', '0.7'))
     for u in js_json('usados-data.js', 'OCEANIC_USADOS', '['):
+        if u.get('oculto'):
+            continue
         urls.append((f'{SITIO}/usados/barco/?id={u["id"]}', '0.5' if u.get('estado') == 'vendido' else '0.6'))
     x = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     x += [f'  <url><loc>{escape(u)}</loc><priority>{pr}</priority></url>' for u, pr in urls]

@@ -7,7 +7,7 @@
   min-height:660px;height:90vh;max-height:920px;display:flex;align-items:flex-end}
 @media(min-width:1600px){.hhero{height:92vh;max-height:1060px}}
 @media(min-width:2000px){.hhero{max-height:1260px}}
-.hhero-media{position:absolute;inset:0;z-index:0;background:var(--noche) url(../img/home-hero.webp) center 56%/cover no-repeat}
+.hhero-media{position:absolute;inset:0;z-index:0;background:var(--noche) var(--hh-img,url(../img/home-hero.webp)) center 56%/cover no-repeat}
 .hhero-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
   object-position:center 56%;opacity:0;transition:opacity 1.2s ease}
 .hhero.playing .hhero-vid{opacity:1}
@@ -281,7 +281,7 @@
 .d-txt p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 /* celular: sin video; la foto del barco arriba, despejada del texto */
 @media(max-width:700px){.hhero-media{background:linear-gradient(to bottom,rgba(20,33,43,0) 36vw,var(--noche) 85vw),
-  var(--noche) url(../img/home-hero.webp) 64% 0/128% auto no-repeat}}
+  var(--noche) var(--hh-img,url(../img/home-hero.webp)) 64% 0/128% auto no-repeat}}
 
 /* ---------- cierre: claro, en dos columnas, para no fundirse con el pie oscuro ---------- */
 .cierre{background:var(--papel);padding:var(--rhythm) 0}

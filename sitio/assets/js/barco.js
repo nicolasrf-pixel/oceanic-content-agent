@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var id = new URLSearchParams(location.search).get('id') || document.body.dataset.id;
-  var U = (window.OCEANIC_USADOS || []).filter(function (x) { return x.id === id; })[0];
+  var U = (window.OCEANIC_USADOS || []).filter(function (x) { return x.id === id && !x.oculto; })[0];  // oculto: como si no existiera
   var main = document.getElementById('barco');
   var AB = (document.body.dataset.assetBase || '../../assets/img/') + 'usados/';
   if (!main) return;

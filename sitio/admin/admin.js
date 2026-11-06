@@ -265,7 +265,7 @@
 
   /* Editor genérico de JSON (para catálogo, marcas, charter, equipamiento, fichas): recorre la estructura y
      ofrece un campo por valor. Los niveles anidados se abren a pedido para que los documentos grandes vayan fluidos. */
-  var IMG_K = /^(hero|img|imagen|portada|foto|logo)$|-img$/;
+  var IMG_K = /^(hero|img|imagen|portada|foto|logo|tarjeta|poster)$|-img$/;
   function generico(doc, valor, abierto) {
     function nodo(padre, k, etq, nivel) {
       var v = padre[k];
@@ -333,12 +333,14 @@
       function nombre(clave) { return r.tipos[clave] || clave.replace(/^ficha:/, 'Ficha '); }
       function enlace(clave) {
         if (clave.indexOf('ficha:') === 0) return '#ficha/' + clave.slice(6);
-        return { publicacion: '#barcos', usados: '#usados', puerto: '#puerto', catalogo: '#catalogo', contenido: '#catalogo', patrones: '#patrones' }[clave] || '#contenido/' + clave;
+        return { inicio: '#portada', publicacion: '#barcos', usados: '#usados', puerto: '#puerto', catalogo: '#catalogo', contenido: '#catalogo', patrones: '#patrones' }[clave] || '#contenido/' + clave;
       }
       return h('div', null, h('h1', { text: 'Administrador del sitio' }),
         h('p', { class: 'lede', text: 'Edita, guarda como borrador y publica. Lo publicado aquí se superpone al contenido del repo; con «Vista previa de borradores» (arriba) ves los borradores en el sitio antes de publicarlos.' }),
         h('div', { class: 'tarjetas' }, [
+          ['#portada', 'Portada del sitio', 'Video principal del inicio y sus textos'],
           ['#barcos', 'Publicación y destacados', 'Prender o apagar barcos y elegir los 3 de la portada'],
+          ['#nuevo-modelo', 'Nuevo modelo', 'Cargar a mano un barco nuevo, con ficha, textos y fotos'],
           ['#traducciones', 'Revisión de traducciones', 'Revisar las fichas traducidas y marcarlas REVISADO'],
           ['#usados', 'Usados', 'Avisos, precio, fotos y «vendido»'],
           ['#puerto', 'Puerto', 'Ediciones del newsletter con bloques'],
@@ -484,10 +486,11 @@
       if (!arg) {
         return h('div', null, h('h1', { text: 'Catálogo de modelos' }),
           h('p', { class: 'lede', text: 'Datos técnicos, descripción, imagen principal y galería de cada modelo. La página del modelo usa la traducción oficial (Revisión de traducciones) y completa con esto lo que falte.' }),
+          h('p', null, h('a', { class: 'btn', href: '#nuevo-modelo', text: '+ Nuevo modelo (carga manual)' })),
           Object.keys(C).map(function (m) {
             return h('div', null, h('div', { class: 'marca-h' }, h('h2', { text: C[m].nombre })),
               h('div', { class: 'tarjetas' }, C[m].modelos.map(function (mo) {
-                return h('a', { class: 'tarjeta', href: '#catalogo/' + m + '/' + mo.slug }, h('b', { text: mo.nombre }), h('span', { text: [mo.tipo, mo.anio].filter(Boolean).join(' · ') }));
+                return h('a', { class: 'tarjeta', href: (mo.manual ? '#modelo/' : '#catalogo/') + m + '/' + mo.slug }, h('b', { text: mo.nombre }), h('span', { text: [mo.manual ? 'carga manual' : '', mo.tipo, mo.anio].filter(Boolean).join(' · ') }));
               })));
           }));
       }
@@ -513,7 +516,7 @@
     return cargar('usados').then(function (doc) {
       var U = doc.contenido;
       return h('div', null, h('h1', { text: 'Usados' }),
-        h('p', { class: 'lede', text: 'El listado muestra primero los disponibles, del más nuevo al más antiguo (por fecha de publicación); los vendidos van al final.' }),
+        h('p', { class: 'lede', text: 'El listado muestra primero los disponibles, del más nuevo al más antiguo (por fecha de publicación); los vendidos van al final. Un aviso oculto no aparece en el sitio ni se puede abrir por su dirección.' }),
         barra(doc, h('button', { class: 'btn sec', text: '+ Nuevo aviso', onclick: function () {
           U.unshift({ id: '', nombre: '', marca: '', tipo: 'motor', anio: '', precio: 'Consultar', estado: 'disponible', fecha: hoy(), resumen: '', texto: '', fotos: [], docs: [] });
           marcar(doc); location.hash = '#usado/0';
@@ -521,11 +524,11 @@
         h('div', { class: 'tabla-wrap' }, h('table', { class: 'tabla' }, h('tr', null, h('th'), h('th', { text: 'Aviso' }), h('th', { text: 'Precio' }), h('th', { text: 'Publicado' }), h('th', { text: 'Estado' }), h('th')),
           ordenUsados(U).map(function (x) {
             var u = x.u, f = (u.fotos || [])[0];
-            return h('tr', { class: u.estado === 'vendido' ? 'apagado' : '' },
+            return h('tr', { class: u.estado === 'vendido' || u.oculto ? 'apagado' : '' },
               h('td', null, f ? h('img', { src: src(f, 'usados/'), alt: '', style: 'width:72px;height:54px;object-fit:cover;display:block' }) : ''),
               h('td', null, h('b', { text: u.nombre || '(sin nombre)' }), h('br'), h('small', { text: [u.marca, TIPOS[u.tipo], u.anio].filter(Boolean).join(' · ') })),
               h('td', { text: u.precio }), h('td', { text: u.fecha || '' }),
-              h('td', null, h('span', { class: 'chip ' + (u.estado === 'vendido' ? 'err' : 'ok'), text: u.estado })),
+              h('td', null, h('span', { class: 'chip ' + (u.estado === 'vendido' ? 'err' : 'ok'), text: u.estado }), u.oculto ? [' ', h('span', { class: 'chip err', text: 'oculto' })] : null),
               h('td', { class: 'acc' }, h('a', { class: 'btn-sm', href: '#usado/' + x.i, text: 'Editar' })));
           }))));
     });
@@ -535,6 +538,7 @@
       var i = parseInt(arg, 10), u = doc.contenido[i];
       if (!u) return h('p', null, 'Aviso no encontrado. ', h('a', { href: '#usados', text: 'Volver' }));
       var vend = h('input', { type: 'checkbox', checked: u.estado === 'vendido', onchange: function () { u.estado = vend.checked ? 'vendido' : 'disponible'; marcar(doc); } });
+      var vis = h('input', { type: 'checkbox', checked: !u.oculto, onchange: function () { if (vis.checked) delete u.oculto; else u.oculto = true; marcar(doc); } });
       var tipo = h('select', { onchange: function () { u.tipo = tipo.value; marcar(doc); } }, Object.keys(TIPOS).map(function (k) { return h('option', { value: k, text: TIPOS[k] }); }));
       tipo.value = u.tipo;
       var id = texto(doc, u, 'id', { ph: 'lagoon-39' });
@@ -551,7 +555,8 @@
           h('div', { class: 'fila' }, campo('Nombre', nombre), campo('Identificador (URL)', id, 'Único y estable: no cambiarlo una vez publicado.')),
           h('div', { class: 'fila' }, campo('Marca', texto(doc, u, 'marca'), 'Vacío o «·» si se desconoce'), campo('Tipo', tipo), campo('Año', texto(doc, u, 'anio'))),
           h('div', { class: 'fila' }, campo('Precio', texto(doc, u, 'precio', { ph: 'USD 315.000 · $160.000.000 · Consultar' })), campo('Fecha de publicación', texto(doc, u, 'fecha', { tipo: 'date' }), 'Ordena el listado: más nuevo primero'),
-            h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Estado' }), h('label', null, vend, ' Marcar como vendido'))),
+            h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Estado' }), h('label', null, vend, ' Marcar como vendido'),
+              h('div', { class: 'interruptor-fila' }, h('label', { class: 'interruptor' }, vis, h('span')), ' Visible en el sitio'))),
           campo('Bajada de la tarjeta', texto(doc, u, 'resumen', { largo: true, filas: 2 })),
           campo('Texto del aviso', texto(doc, u, 'texto', { largo: true, filas: 12 }), 'Una línea por dato. «Etiqueta: valor» se muestra en la ficha; las líneas cortas, como equipamiento.')),
         h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Foto de la tarjeta' }), h('small', { text: 'La que se ve en el listado de usados. Si queda vacía, se usa la primera de la galería.' }), campoImagen(doc, u, 'portada', 'usados', { base: 'usados/' })),
@@ -739,12 +744,128 @@
 
   /* ================= navegación ================= */
   var yo = '';
+
+  /* --- Barco nuevo con carga manual: crear y editar (ficha técnica, textos, fotos y visible/oculto) --- */
+  var TIPOS_BARCO = { motor: 'Motor', vela: 'Vela', catamaran_vela: 'Catamarán a vela', catamaran_motor: 'Catamarán a motor', motor_electrico: 'Motor eléctrico' };
+  var BASE_FICHA = [['eslora', 'Eslora Total'], ['manga', 'Manga Casco'], ['calado', 'Calado'], ['peso', 'Desplazamiento en rosca'],
+    ['camarotes', 'Camarotes'], ['banos', 'Baños'], ['literas', 'Literas'], ['combustible', 'Capacidad Combustible'],
+    ['agua', 'Capacidad Agua Dulce'], ['motor', 'Motorización'], ['velocidad', 'Velocidad máxima'], ['certificacion', 'Certificación'], ['construccion', 'Construcción']];
+  function selector(opciones, valor, alCambiar) {
+    var s = h('select', { onchange: function () { alCambiar(s.value); } }, Object.keys(opciones).map(function (k) { return h('option', { value: k, text: opciones[k] }); }));
+    s.value = valor; return s;
+  }
+  S['nuevo-modelo'] = function () {
+    return Promise.all([cargar('catalogo'), cargar('contenido'), cargar('publicacion'), cargar('marcas')]).then(function (x) {
+      var C = x[0].contenido, marcas = {};
+      Object.keys(C).forEach(function (m) { marcas[m] = C[m].nombre; });
+      var datos = { marca: Object.keys(C)[0], nombre: '', tipo: 'motor' };
+      var nombre = h('input', { placeholder: 'Ej. Oceanis 46.1', oninput: function () { datos.nombre = nombre.value; } });
+      return h('div', null, h('p', null, h('a', { href: '#catalogo', text: '← Catálogo' })), h('h1', { text: 'Nuevo modelo' }),
+        h('p', { class: 'lede', text: 'Crea un barco con carga manual. Queda oculto hasta que lo prendas y publiques: así puedes completar ficha, textos y fotos antes de mostrarlo.' }),
+        h('div', { class: 'panel' },
+          h('div', { class: 'fila' }, campo('Marca', selector(marcas, datos.marca, function (v) { datos.marca = v; })), campo('Nombre del modelo', nombre),
+            campo('Tipo', selector(TIPOS_BARCO, datos.tipo, function (v) { datos.tipo = v; }))),
+          h('button', { class: 'btn', text: 'Crear modelo', onclick: function () {
+            var n = datos.nombre.trim(); if (!n) return avisar('Escribe el nombre del modelo', true);
+            var slug = slugify(n), M = C[datos.marca];
+            if (M.modelos.some(function (z) { return z.slug === slug; })) return avisar('Ya existe un modelo con ese nombre en ' + M.nombre, true);
+            var mo = { slug: slug, nombre: n, anio: '', tipo: datos.tipo, desc: '', desc_larga: '', specs: [], hero: '', tarjeta: '', manual: true };
+            BASE_FICHA.forEach(function (b) { mo[b[0]] = ''; });
+            M.modelos.push(mo); marcar(x[0]);
+            x[1].contenido[datos.marca + '/' + slug] = { secciones: [{ t: 'Introducción', p: [''] }], galeria: { 'Galería': [] } }; marcar(x[1]);
+            x[2].contenido.ocultos[datos.marca + '/' + slug] = 'Nuevo, en preparación'; marcar(x[2]);
+            avisar('Modelo creado. Completa los datos y guarda: hay tres documentos (catálogo, textos y publicación).');
+            location.hash = '#modelo/' + datos.marca + '/' + slug;
+          } })));
+    });
+  };
+  S.modelo = function (arg) {
+    return Promise.all([cargar('catalogo'), cargar('contenido'), cargar('publicacion')]).then(function (x) {
+      var cat = x[0], con = x[1], pub = x[2], p = arg.split('/'), M = cat.contenido[p[0]];
+      var mo = M && M.modelos.filter(function (z) { return z.slug === p[1]; })[0];
+      if (!mo) return h('p', null, 'Modelo no encontrado. ', h('a', { href: '#catalogo', text: 'Volver' }));
+      var CC = con.contenido[arg] = con.contenido[arg] || { secciones: [{ t: 'Introducción', p: [''] }], galeria: { 'Galería': [] } };
+      CC.secciones = CC.secciones || []; CC.galeria = CC.galeria || {}; CC.galeria['Galería'] = CC.galeria['Galería'] || [];
+      mo.specs = mo.specs || [];
+      // ficha técnica: los datos base se reflejan en la tabla (specs), que es lo que muestra la página
+      function sincronizar() {
+        var otras = mo.specs.filter(function (s) { return !BASE_FICHA.some(function (b) { return b[1] === s.label; }); });
+        mo.specs = BASE_FICHA.filter(function (b) { return String(mo[b[0]] || '').trim(); }).map(function (b) { return { label: b[1], value: String(mo[b[0]]).trim(), note: '' }; }).concat(otras);
+      }
+      var visible = h('input', { type: 'checkbox', checked: !pub.contenido.ocultos[arg], onchange: function () {
+        if (visible.checked) delete pub.contenido.ocultos[arg]; else pub.contenido.ocultos[arg] = 'Apagado desde el administrador';
+        marcar(pub); } });
+      var tablaExtra = h('div');
+      function pintarExtra() {
+        vaciar(tablaExtra);
+        mo.specs.forEach(function (s, i) {
+          if (BASE_FICHA.some(function (b) { return b[1] === s.label; })) return;
+          tablaExtra.appendChild(h('div', { class: 'fila' }, campo('Dato', texto(cat, s, 'label')), campo('Valor', texto(cat, s, 'value')),
+            h('button', { class: 'mini x', text: '✕', title: 'Quitar', onclick: function () { mo.specs.splice(i, 1); marcar(cat); pintarExtra(); } })));
+        });
+        tablaExtra.appendChild(h('button', { class: 'mini', text: '+ Otro dato técnico', onclick: function () { mo.specs.push({ label: '', value: '', note: '' }); marcar(cat); pintarExtra(); } }));
+      }
+      pintarExtra();
+      var secs = h('div');
+      function pintarSecs() {
+        vaciar(secs);
+        CC.secciones.forEach(function (s, i) {
+          s.p = s.p || [''];
+          secs.appendChild(h('div', { class: 'panel' },
+            h('div', { class: 'fila' }, campo('Título del bloque', texto(con, s, 't', { ph: 'Diseño, A bordo, Navegación…' }), i === 0 ? 'El bloque «Introducción» es el texto principal de la página.' : null),
+              h('button', { class: 'mini x', text: 'Quitar bloque', onclick: function () { if (confirm('¿Quitar el bloque «' + (s.t || '') + '»?')) { CC.secciones.splice(i, 1); marcar(con); pintarSecs(); } } })),
+            listaTextos(con, s.p, { agregar: 'Párrafo' })));
+        });
+        secs.appendChild(h('button', { class: 'mini', text: '+ Bloque de texto', onclick: function () { CC.secciones.push({ t: '', p: [''] }); marcar(con); pintarSecs(); } }));
+      }
+      pintarSecs();
+      var base = BASE_FICHA.map(function (b) { return campo(b[1], texto(cat, mo, b[0], { alCambiar: function () { sincronizar(); } })); });
+      return h('div', null, h('p', null, h('a', { href: '#catalogo', text: '← Catálogo' })), h('h1', { text: mo.nombre }),
+        h('p', { class: 'lede' }, 'Barco de carga manual. Sin opcionales ni precios (no se publican en barcos nuevos). ',
+          h('a', { href: verModelo(arg), target: '_blank', rel: 'noopener', text: 'Ver en el sitio ↗' })),
+        h('h2', { text: '1 · Visible en el sitio' }), barra(pub), h('div', { class: 'panel' },
+          h('div', { class: 'interruptor-fila' }, h('label', { class: 'interruptor' }, visible, h('span')), ' Mostrar este modelo en el sitio (gama de la marca, menús y ficha)')),
+        h('h2', { text: '2 · Ficha técnica, fotos principales y descripción' }), barra(cat),
+        h('div', { class: 'panel' },
+          h('div', { class: 'fila' }, campo('Nombre', texto(cat, mo, 'nombre')), campo('Tipo', selector(TIPOS_BARCO, mo.tipo, function (v) { mo.tipo = v; marcar(cat); })), campo('Año', texto(cat, mo, 'anio'))),
+          campo('Descripción corta (tarjeta)', texto(cat, mo, 'desc', { largo: true, filas: 2 })),
+          campo('Descripción larga', texto(cat, mo, 'desc_larga', { largo: true, filas: 4 }), 'Se usa si no hay texto en el bloque «Introducción».')),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Ficha técnica' }), h('div', { class: 'grilla-campos' }, base),
+          h('h3', { text: 'Otros datos técnicos' }), tablaExtra),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Foto de portada' }), h('small', { text: 'Horizontal, barco completo. Se optimiza sola al subir.' }), campoImagen(cat, mo, 'hero', 'modelos'),
+          h('h3', { text: 'Foto de la tarjeta (3:2)' }), h('small', { text: 'La que se ve en la gama de la marca. Si queda vacía se usa la portada.' }), campoImagen(cat, mo, 'tarjeta', 'modelos')),
+        h('h2', { text: '3 · Textos y galería' }), barra(con),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Galería' }), h('small', { text: 'Fotos de la ficha (WebP, 1600 px, se optimizan al subir).' }), editorFotos(con, CC.galeria['Galería'], 'modelos')),
+        secs);
+    });
+  };
+
+  /* --- Portada del inicio: video principal y textos --- */
+  S.portada = function () {
+    return cargar('inicio').then(function (doc) {
+      var I = doc.contenido;
+      var vid = h('video', { muted: true, loop: true, playsinline: true, controls: true, style: 'width:100%;max-width:640px;display:block;background:#000', src: I.video || null, poster: I.poster ? src(I.poster) : null });
+      var url = texto(doc, I, 'video', { ph: 'https://…/video.mp4 o /media/…', alCambiar: function (v) { vid.src = v; } });
+      return h('div', null, h('h1', { text: 'Portada del inicio' }),
+        h('p', { class: 'lede', text: 'El video de fondo de la portada y sus textos. En celulares, con ahorro de datos o movimiento reducido se muestra la imagen de respaldo.' }),
+        barra(doc),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Video principal' }), vid,
+          campo('Dirección del video (MP4)', url, 'Video horizontal, sin sonido, de 10 a 30 segundos y menos de 20 MB. Puedes subirlo o pegar el enlace de la web oficial de la marca.'),
+          h('div', { style: 'margin-top:8px' }, botonSubir('Subir video MP4', 'videos', function (u) { I.video = u; url.value = u; vid.src = u; marcar(doc); }, { accept: 'video/mp4,video/webm' })),
+          h('h3', { text: 'Imagen de respaldo' }), h('small', { text: 'Se ve mientras carga el video y en celulares. Horizontal, 2560 px.' }), campoImagen(doc, I, 'poster', 'portada')),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Textos' }),
+          campo('Antetítulo', texto(doc, I, 'antetitulo')),
+          campo('Titular', texto(doc, I, 'titular', { largo: true, filas: 3 }), 'Cada salto de línea se respeta en la portada.'),
+          campo('Bajada', texto(doc, I, 'bajada', { largo: true, filas: 3 }))));
+    });
+  };
+
   function router() {
     var hash = (location.hash || '#inicio').slice(1), p = hash.split('/'), sec = p[0], arg = p.slice(1).join('/');
     var fn = S[sec] || S.inicio;
     [].forEach.call(document.querySelectorAll('.lateral a'), function (a) {
       var s = a.getAttribute('data-sec');
-      a.classList.toggle('on', s === hash || s === sec || (sec === 'ficha' && s === 'traducciones') || (sec === 'usado' && s === 'usados') || (sec === 'edicion' && s === 'puerto'));
+      a.classList.toggle('on', s === hash || s === sec || (sec === 'ficha' && s === 'traducciones') || (sec === 'usado' && s === 'usados') || ((sec === 'modelo' || sec === 'nuevo-modelo') && s === 'catalogo') || (sec === 'edicion' && s === 'puerto'));
     });
     document.getElementById('lateral').classList.remove('abierto');
     var h0 = document.querySelector('.hist'); if (h0) h0.remove();

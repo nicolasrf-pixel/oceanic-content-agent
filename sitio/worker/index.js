@@ -117,10 +117,19 @@ async function enVistaPrevia(request, env) {
 /* ---------- medios subidos desde el CMS ---------- */
 async function media(request, env, clave) {
   if (!env.MEDIA || !/^[a-z0-9-]+\/[\w.-]+$/i.test(clave)) return texto('No encontrado', 404);
-  const { value, metadata } = await env.MEDIA.getWithMetadata('m:' + clave, { type: 'stream' });
+  const rango = /^bytes=(\d*)-(\d*)$/.exec(request.headers.get('Range') || '');
+  const { value, metadata } = await env.MEDIA.getWithMetadata('m:' + clave, { type: rango ? 'arrayBuffer' : 'stream' });
   if (!value) return texto('No encontrado', 404);
   const tipo = (metadata && metadata.tipo) || 'application/octet-stream';
-  return new Response(value, { headers: { ...SEGURIDAD, 'Content-Type': tipo,
+  if (rango) {  // videos: Safari y los reproductores piden el archivo por partes
+    const total = value.byteLength;
+    let ini = rango[1] === '' ? Math.max(0, total - Number(rango[2] || 0)) : Number(rango[1]);
+    let fin = rango[1] !== '' && rango[2] !== '' ? Math.min(Number(rango[2]), total - 1) : total - 1;
+    if (ini >= total || ini > fin) return new Response(null, { status: 416, headers: { 'Content-Range': `bytes */${total}` } });
+    return new Response(value.slice(ini, fin + 1), { status: 206, headers: { ...SEGURIDAD, 'Content-Type': tipo, 'Accept-Ranges': 'bytes',
+      'Content-Range': `bytes ${ini}-${fin}/${total}`, 'Content-Length': String(fin - ini + 1), 'Cache-Control': 'public, max-age=31536000, immutable' } });
+  }
+  return new Response(value, { headers: { ...SEGURIDAD, 'Content-Type': tipo, 'Accept-Ranges': 'bytes',
     // la clave lleva fecha y sufijo aleatorio: el archivo nunca cambia bajo la misma URL
     'Cache-Control': 'public, max-age=31536000, immutable',
     ...(tipo === 'application/pdf' ? {} : { 'Content-Security-Policy': "default-src 'none'; img-src 'self'; style-src 'unsafe-inline'" }) } });

@@ -5,8 +5,8 @@ import { DOCS, definicion, validar } from './documentos.js';
 
 const MAX_DOC = 1_800_000;          // D1: 2 MB por fila
 const MAX_MEDIO = 20 * 1024 * 1024; // KV: 25 MB por valor
-const TIPOS_MEDIO = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/avif': 'avif', 'image/gif': 'gif', 'application/pdf': 'pdf' };
-const CARPETAS = ['usados', 'puerto', 'modelos', 'marcas', 'documentos', 'otros'];
+const TIPOS_MEDIO = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/avif': 'avif', 'image/gif': 'gif', 'application/pdf': 'pdf', 'video/mp4': 'mp4', 'video/webm': 'webm' };
+const CARPETAS = ['videos', 'portada', 'usados', 'puerto', 'modelos', 'marcas', 'documentos', 'otros'];
 
 export async function api(request, env, url, email) {
   const ruta = url.pathname.slice('/api/admin/'.length).replace(/\/$/, '');
@@ -117,7 +117,7 @@ export async function api(request, env, url, email) {
       const carpeta = CARPETAS.includes(fd.get('carpeta')) ? fd.get('carpeta') : 'otros';
       if (!archivo || typeof archivo === 'string') return json({ ok: false, error: 'Falta el archivo' }, 400);
       const ext = TIPOS_MEDIO[archivo.type];
-      if (!ext) return json({ ok: false, error: 'Formato no permitido (WebP, JPG, PNG, AVIF, GIF o PDF)' }, 415);
+      if (!ext) return json({ ok: false, error: 'Formato no permitido (WebP, JPG, PNG, AVIF, GIF, PDF, MP4 o WebM)' }, 415);
       if (archivo.size > MAX_MEDIO) return json({ ok: false, error: 'Máximo 20 MB por archivo' }, 413);
       const datos = await archivo.arrayBuffer();
       if (!firmaValida(new Uint8Array(datos.slice(0, 16)), ext)) return json({ ok: false, error: 'El archivo no coincide con su formato' }, 415);
@@ -201,7 +201,7 @@ function firmaValida(b, ext) {
   const hex = [...b].map((x) => x.toString(16).padStart(2, '0')).join('');
   const txt = String.fromCharCode(...b);
   return { webp: txt.startsWith('RIFF') && txt.slice(8, 12) === 'WEBP', jpg: hex.startsWith('ffd8ff'), png: hex.startsWith('89504e47'),
-    gif: txt.startsWith('GIF8'), pdf: txt.startsWith('%PDF'), avif: txt.slice(4, 8) === 'ftyp' }[ext] === true;
+    gif: txt.startsWith('GIF8'), pdf: txt.startsWith('%PDF'), avif: txt.slice(4, 8) === 'ftyp', mp4: txt.slice(4, 8) === 'ftyp', webm: hex.startsWith('1a45dfa3') }[ext] === true;
 }
 
 function json(obj, status = 200, extra = {}) {

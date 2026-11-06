@@ -62,7 +62,7 @@ async function metadatos(env, url) {
   }
   if (url.pathname.startsWith('/usados/barco')) {
     const lista = await datosJS(env, o, 'usados-data.js', 'OCEANIC_USADOS', '[');
-    const u = lista && lista.find((x) => x.id === q.get('id'));
+    const u = lista && lista.find((x) => x.id === q.get('id') && !x.oculto);
     if (!u) return null;
     const f = u.portada || (u.fotos && u.fotos[0]);
     const foto = !f ? '' : typeof f === 'object' ? (f.local ? o + '/assets/img/usados/' + f.local : f.url) : abs(o, f, '/assets/img/usados/');

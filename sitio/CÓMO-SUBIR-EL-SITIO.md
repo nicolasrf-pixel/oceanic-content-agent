@@ -52,6 +52,11 @@ Mientras no esté configurado, el formulario abre el correo del visitante con la
 
 ## Qué hace el administrador
 
+- **Portada del sitio:** video principal del inicio (subir un MP4 de hasta 20 MB o pegar un enlace https), imagen de respaldo y textos.
+- **Catálogo y modelos nuevos › + Nuevo modelo:** carga manual de un barco (ficha técnica, descripción, portada, tarjeta, galería y
+  bloques de texto). Nace **oculto**; se muestra con el interruptor «Visible en el sitio» y publicando los tres documentos.
+- **Usados:** cada aviso tiene «Visible en el sitio»; un aviso oculto no aparece en el listado ni se puede abrir por su dirección.
+
 | Sección | Qué se edita | Archivo del sitio que reemplaza |
 |---|---|---|
 | Publicación y destacados | Prender/apagar cada barco (con motivo) y los 3 destacados de la portada | `assets/js/publicacion.js` |

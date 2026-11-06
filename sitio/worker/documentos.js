@@ -6,6 +6,7 @@
 const js = (archivo, global, extra = {}) => ({ archivo, global, leer: (t) => leerGlobal(t, global), ...extra });
 
 export const DOCS = {
+  inicio:             js('/assets/js/inicio-data.js', 'OCEANIC_INICIO', { titulo: 'Portada del inicio' }),
   publicacion:        js('/assets/js/publicacion.js', 'OCEANIC_PUBLICACION', { titulo: 'Publicación de modelos', empalme: true,
                         leer: (t) => JSON.parse(t.slice(t.indexOf('/*DATOS*/') + 9, t.indexOf('/*FIN*/'))) }),
   usados:             js('/assets/js/usados-data.js', 'OCEANIC_USADOS', { titulo: 'Usados' }),
@@ -81,6 +82,8 @@ export function validar(clave, d, patrones = []) {
   else if (clave === 'usados') usados(d, err, aviso);
   else if (clave === 'puerto') puerto(d, err, aviso);
   else if (clave === 'publicacion') publicacion(d, err);
+  else if (clave === 'inicio') inicio(d, err);
+  else if (clave === 'catalogo' || clave === 'contenido') ficha(d, err, aviso);
   else if (clave === 'patrones') listaPatrones(d, err);
   else if (FICHA.test(clave)) ficha(d, err, aviso);
   if (clave !== 'patrones') prohibidos(d, normalizarPatrones(patrones), err);
@@ -100,6 +103,7 @@ function usados(L, err, aviso) {
     if (!['disponible', 'vendido', 'reservado'].includes(u.estado)) err(r + '.estado', 'estado: disponible o vendido');
     if (!FECHA.test(u.fecha || '')) err(r + '.fecha', 'fecha AAAA-MM-DD (ordena el listado)');
     for (const k of ['marca', 'anio', 'precio', 'resumen', 'texto']) if (u[k] != null && typeof u[k] !== 'string') err(r + '.' + k, k + ' debe ser texto');
+    if (u.oculto != null && typeof u.oculto !== 'boolean') err(r + '.oculto', 'oculto: verdadero o falso');
     if (u.portada != null && u.portada !== '' && !(rutaImagen(u.portada) || (typeof u.portada === 'object' && rutaImagen(u.portada.url || '') && rutaImagen(u.portada.local || ''))))
       err(r + '.portada', 'Foto de la tarjeta inválida');
     if (!Array.isArray(u.fotos)) err(r + '.fotos', 'fotos debe ser una lista');
@@ -146,6 +150,13 @@ function puerto(L, err, aviso) {
       } else err(rb + '.type', 'Tipo de bloque desconocido: ' + b.type);
     });
   });
+}
+
+function inicio(d, err) {
+  if (Array.isArray(d)) return err('', 'La portada es un objeto');
+  if (d.video && (!enlaceSeguro(d.video) || !/^(https:\/\/|\/media\/)/.test(d.video))) err('video', 'Video: enlace https:// o archivo subido (/media/…)');
+  if (d.poster && !rutaImagen(d.poster)) err('poster', 'Imagen de respaldo inválida');
+  for (const k of ['antetitulo', 'titular', 'bajada']) if (d[k] != null && typeof d[k] !== 'string') err(k, k + ' debe ser texto');
 }
 
 function publicacion(d, err) {

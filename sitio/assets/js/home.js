@@ -13,6 +13,23 @@
         hero = document.querySelector('.hhero');
     if (!v || !hero) return;
 
+    // Portada editable desde el administrador (inicio-data.js): video, imagen de respaldo y textos
+    var I = window.OCEANIC_INICIO || {};
+    var q0 = function (s) { return hero.querySelector(s) || hero; };
+    function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+    if (I.video) v.dataset.src = I.video;
+    if (I.poster) {
+      // ruta como en el resto de los datos: relativa a assets/img/ (o /media/… del CMS, o URL completa)
+      var ruta = /^(https?:)?\/\/|^\//.test(I.poster) ? I.poster : 'assets/img/' + I.poster;
+      v.poster = ruta;
+      var abs = new URL(ruta, location.href).href;  // absoluta: una url() en variable CSS se resolvería desde la hoja de estilos
+      if (!/home-hero\.webp$/.test(abs)) q0('.hhero-media').style.setProperty('--hh-img', 'url("' + abs.replace(/"/g, '%22') + '")');
+    }
+    var q = function (s) { return hero.querySelector(s); };
+    if (I.antetitulo && q('.hhero-eyebrow')) q('.hhero-eyebrow').textContent = I.antetitulo;
+    if (I.titular && q('.hhero-h1')) q('.hhero-h1').innerHTML = esc(I.titular).replace(/\n/g, '<br/>');
+    if (I.bajada && q('.hhero-sub')) q('.hhero-sub').textContent = I.bajada;
+
     var conn = navigator.connection || {},
         slow = conn.saveData === true || /(^|-)2g$/.test(conn.effectiveType || ''),
         small = window.matchMedia('(max-width: 700px)').matches;

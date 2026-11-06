@@ -114,3 +114,6 @@ details.nodo>summary .res{color:var(--niebla);margin-left:6px;font-family:var(--
 .medio div{padding:6px;word-break:break-all}
 .ayuda{font-size:13px;color:var(--trabajo);background:#fff;border:1px dashed var(--linea);padding:10px 14px;margin:0 0 14px}
 .redir{font-family:var(--dato);font-size:12px;background:var(--natural);padding:6px 10px;display:inline-block;margin-top:4px}
+.interruptor-fila{display:flex;align-items:center;gap:10px;margin-top:8px}
+.grilla-campos{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:4px 16px}
+img[src=""],img:not([src]){visibility:hidden}
