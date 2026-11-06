@@ -507,3 +507,27 @@ section.o-banda{background-color:var(--banda)!important}
 .aviso-priv .aviso-no{color:#fff;border-color:rgba(255,255,255,.5);background:transparent}
 @media(max-width:600px){.aviso-bt{width:100%}.aviso-bt .btn{flex:1}}
 .bar.bar-solida{background:rgba(20,33,43,.97)}
+/* Asistente: respuestas de quien escribe, texto libre y resumen final */
+.asis-yo{align-self:flex-end;background:var(--noche);color:#fff;border-left:0;font-size:14px;line-height:1.45;padding:10px 14px;max-width:85%}
+.asis-msg.asis-bot+.asis-msg.asis-bot{margin-top:-4px}
+.asis-in{display:flex;gap:8px}
+.asis-in input{flex:1;min-width:0;height:44px;padding:0 12px;font:inherit;font-size:15px;color:var(--tinta);background:var(--papel);border:1px solid rgba(20,33,43,.2)}
+.asis-in input:focus{outline:0;border-color:var(--boya)}
+.asis-ok{height:44px;padding:0 16px;border:0;background:var(--boya);color:#fff;font-family:var(--display);font-weight:600;cursor:pointer}
+.asis-skip{align-self:flex-start;background:none;border:0;color:var(--trabajo);font-size:13px;text-decoration:underline;cursor:pointer;padding:0}
+.asis-res{background:var(--papel);border:1px solid rgba(20,33,43,.12);padding:14px 16px}
+.asis-res b{display:block;font-family:var(--display);font-size:15px;color:var(--tinta);margin-bottom:8px}
+.asis-res dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px}
+.asis-res dt{color:var(--niebla)}.asis-res dd{margin:0;color:var(--tinta)}
+.asis-otra{background:none;cursor:pointer;font:inherit;font-size:14px;width:100%}
+/* Ficha: «Cotízalo aquí» fijo en la subbarra (bajo el menú) y llamados a cotizar intercalados */
+.sub-cta{margin-left:auto;flex:none;display:inline-flex;align-items:center;height:36px;padding:0 16px;background:var(--boya);color:#fff!important;
+  font-family:var(--display);font-weight:600;font-size:14px;text-decoration:none;transition:opacity .25s,transform .25s}
+.sub-cta:hover{background:#b64e30}
+.sub-cta.oculto{opacity:0;pointer-events:none;transform:translateY(-4px)}
+.sub-links+.sub-cta{margin-left:18px}
+@media(max-width:960px){.sub-links+.sub-cta{margin-left:auto}.sub-crumb{display:none}.sub-model{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.cta-mini{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 24px;margin-top:clamp(28px,3vw,44px);
+  padding:clamp(18px,2vw,26px) clamp(18px,2vw,28px);border:1px solid var(--linea);background:var(--papel)}
+.cta-mini p{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(16px,.4vw + 14px,20px);color:var(--tinta)}
+.cta-mini div{display:flex;flex-wrap:wrap;gap:10px}

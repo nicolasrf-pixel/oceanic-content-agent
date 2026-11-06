@@ -177,12 +177,17 @@
       if (i === 0) nav.push(['destacados', 'Destacados']);
     });
 
+    // Llamado a cotizar intercalado (la ficha es larga: el formulario no debe quedar lejos, sobre todo en celular)
+    function otroCta(texto) {
+      return '<div class="cta-mini"><p>' + esc(texto) + '</p><div><a class="btn" href="#cotizar" data-ir-form>Cotizar el ' + esc(mo.nombre) + '</a>' +
+        '<a class="btn btn-line btn-line-dark" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a></div></div>';
+    }
     // 5 · Galería (maqueta: grilla de 3). Antes se reservan las fotos de portada de los videos.
     var vids = (MD.videos || []).map(function (v, k, t) { return { v: v, foto: F.sig(t.length === 1 ? 1000 : 700) || F.hero }; });
     var galeria = F.resto(6, 700);
     if (galeria.length) {
       cuerpo.push(seccion('galeria', cabeza('Galería') + '<div class="gal">' +
-        galeria.map(function (g) { return '<div class="gal-item">' + img(g, mo.nombre) + '</div>'; }).join('') + '</div>'));
+        galeria.map(function (g) { return '<div class="gal-item">' + img(g, mo.nombre) + '</div>'; }).join('') + '</div>' + otroCta('¿Te imaginas a bordo?')));
     }
 
     // 5b · Videos oficiales: se llaman desde donde están alojados (YouTube, Vimeo o el CDN del fabricante) y solo al
@@ -263,7 +268,7 @@
         cortas.slice(mid).map(fila).join('') + '</div></div>' +
         (largas.length ? '<div class="spec2-largas">' + largas.map(fila).join('') + '</div>' : '') +
         '<p class="spec-fuente">Especificaciones según la ficha oficial de ' + esc(info.nombre) + (mo.anio ? ' (modelo ' + esc(mo.anio) + ')' : '') +
-        '. Los valores finales pueden variar según configuración y motorización.</p></div>'));
+        '. Los valores finales pueden variar según configuración y motorización.</p></div>' + otroCta('Precio, configuración y plazo de entrega, por correo o WhatsApp.')));
       nav.push(['ficha', 'Ficha técnica']);
     }
 
@@ -284,7 +289,8 @@
     // Barra de secciones (maqueta: subbar)
     var subbar = '<div class="subbar" id="subbar"><div class="subbar-in"><a class="sub-crumb" href="' + gama + '">' + esc(info.nombre) + '</a>' +
       '<span class="sub-model">' + esc(mo.nombre.replace(info.nombre + ' ', '')) + '</span><div class="sub-links">' +
-      nav.map(function (n) { return '<a href="#' + n[0] + '">' + n[1] + '</a>'; }).join('') + '<a href="#cotizar">Cotizar</a></div></div></div>';
+      nav.map(function (n) { return '<a href="#' + n[0] + '">' + n[1] + '</a>'; }).join('') + '<a href="#cotizar">Cotizar</a></div>' +
+      '<a class="sub-cta" href="#cotizar" data-ir-form>Cotízalo aquí</a></div></div>';
 
     // 10 · Formulario de cotización (el mismo en todas las fichas)
     var HP = '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
@@ -368,6 +374,12 @@
       sec.hidden = false; bConf.textContent = 'Ver el configurador';
       sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
+    // «Cotízalo aquí» fijo bajo el menú: se esconde mientras el formulario está en pantalla
+    (function () {
+      var sc = cont.querySelector('.sub-cta'), fo = document.getElementById('cotizar');
+      if (!sc || !fo || !('IntersectionObserver' in window)) return;
+      new IntersectionObserver(function (es) { es.forEach(function (x) { sc.classList.toggle('oculto', x.isIntersecting); }); }, { threshold: 0.15 }).observe(fo);
+    })();
     // botones "Cotizar" bajan al formulario
     [].forEach.call(cont.querySelectorAll('[data-ir-form]'), function (a) {
       a.addEventListener('click', function (e) {
