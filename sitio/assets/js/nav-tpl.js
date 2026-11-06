@@ -161,21 +161,4 @@
       if(ps.some(function(x){return x&&x.activo;})){ var se=document.createElement('script'); se.src=pre+'assets/js/eventos.js'; se.async=true; document.body.appendChild(se); } };
     document.body.appendChild(sd);
   }
-  // Preloader: la animación del logo en la primera entrada de cada visita (el fondo azul ya lo puso el <head>).
-  // Se salta con un clic; si el video no parte en 1,5 s o falla, se abre el sitio de inmediato.
-  (function(){
-    var html=document.documentElement; if(!html.classList.contains('pre-on')) return;
-    var capa=document.createElement('div'); capa.className='pre'; capa.setAttribute('aria-hidden','true');
-    capa.innerHTML='<video muted playsinline autoplay preload="auto" src="'+pre+'assets/video/intro.mp4"></video>';
-    document.body.appendChild(capa);
-    var v=capa.querySelector('video'), fin=false, partio=false;
-    function cerrar(){ if(fin) return; fin=true; try{ sessionStorage.setItem('oceanic-intro','1'); }catch(e){}
-      html.classList.remove('pre-on'); capa.classList.add('pre-fuera'); setTimeout(function(){ capa.remove(); },700); }
-    v.addEventListener('playing',function(){ partio=true; },{once:true});
-    v.addEventListener('ended',cerrar); v.addEventListener('error',cerrar);
-    capa.addEventListener('click',cerrar);
-    setTimeout(function(){ if(!partio) cerrar(); },1500);
-    setTimeout(cerrar,4200);
-    var p=v.play(); if(p&&p.catch) p.catch(cerrar);
-  })();
 })();
