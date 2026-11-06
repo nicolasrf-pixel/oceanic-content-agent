@@ -346,8 +346,10 @@ async function listaDeMarca(brevo, d) {
     const r = await brevo('GET', '/contacts/lists?limit=50&offset=0');
     listas = r.ok && r.datos && r.datos.lists ? r.datos.lists : []; listasT = Date.now();
   }
-  const quiero = [marca && 'web · ' + marca, tipo && 'web · ' + tipo].filter(Boolean);
-  return listas.filter((l) => quiero.includes(String(l.name).trim().toLowerCase())).map((l) => l.id);
+  // el nombre se compara sin mayúsculas, tildes ni separadores: «Web · Axopar», «Web - Axopar» y «web axopar» valen igual
+  const norma = (t) => String(t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+  const quiero = [marca && 'web' + marca, tipo && 'web' + tipo].filter(Boolean).map(norma);
+  return listas.filter((l) => quiero.includes(norma(l.name))).map((l) => l.id);
 }
 
 async function guardarContacto(brevo, d, env) {
