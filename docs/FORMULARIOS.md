@@ -73,7 +73,27 @@ exactos, en mayúsculas:
 | `CONSENTIMIENTO_FECHA` | Fecha |
 | `POLITICA_VERSION` | Texto |
 
-`NOMBRE` ya existe en la cuenta de Oceanic y guarda el nombre (no se usa FIRSTNAME). Si falta algún campo, el sitio guarda igual el contacto con nombre y correo.
+`NOMBRE` ya existe en la cuenta de Oceanic y guarda el nombre (no se usa FIRSTNAME). El sitio consulta qué campos
+existen y manda solo esos: si falta alguno, el contacto se guarda igual con los demás y el campo se empieza a llenar
+apenas se crea (revisado el 2026-11-06: en la cuenta solo existía `NOMBRE`).
+
+**1b. Listas del sitio** (Contactos → Listas → Crear una lista; conviene una carpeta «Sitio web»). Cada contacto entra
+solo a la lista de su marca y a la de su tipo de solicitud. El nombre se reconoce sin importar mayúsculas, tildes ni
+el separador («Web · Axopar» o «Web - Axopar»). Si una lista no existe, el contacto se guarda igual, sin esa lista.
+
+| Por marca (cotizaciones y usados de esa marca) | Por tipo de solicitud |
+|---|---|
+| Web · Axopar | Web · Usados |
+| Web · Beneteau | Web · Charter |
+| Web · Lagoon | Web · Equipamiento |
+| Web · Aquila | Web · Arriendo de boyas |
+| Web · Solaris | Web · Eventos |
+| Web · Saffier | |
+| Web · XO Boats | |
+| Web · Excess | |
+| Web · VX One | |
+| Web · Switch | |
+| Web · Oceanic Power | |
 
 **2. Lista de Puerto** (Contactos → Listas → Crear una lista): llamarla "Puerto". Anotar su ID (número).
 
@@ -141,4 +161,4 @@ Configuración (una vez):
 
 Opcionales: `SMTP_USUARIO` (si se autentica con otra cuenta que tenga contacto@ como alias), `SMTP_HOST`, `SMTP_PUERTO`.
 
-**CRM en Brevo (opcional, con `BREVO_API_KEY` como Secret):** cada contacto se guarda con sus datos y entra a la lista de su marca, que se busca por nombre: crear en Brevo listas llamadas `Web · Beneteau`, `Web · Lagoon`, `Web · Axopar`, … y `Web · Charter`, `Web · Equipamiento`, `Web · Usados`. Si una lista no existe, el contacto se guarda igual (sin esa lista).
+**CRM en Brevo (opcional, con `BREVO_API_KEY` como Secret):** cada contacto se guarda con sus datos y entra a la lista de su marca, que se busca por nombre: crear en Brevo las listas de la tabla «1b. Listas del sitio» (por marca y por tipo, incluidas `Web · Arriendo de boyas` y `Web · Eventos`). Si una lista no existe, el contacto se guarda igual (sin esa lista).

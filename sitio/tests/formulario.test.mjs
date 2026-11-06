@@ -100,7 +100,8 @@ test('suscripción sola a Puerto: no avisa a ventas ni crea el contacto antes de
   const llamadas = simularBrevo();
   const r = await onRequestPost({ request: pedido({ tipo: 'puerto', email: 'a@b.cl', puerto: true, acepta: true }), env: ENV });
   assert.equal(r.status, 200);
-  assert.deepEqual(llamadas.map((l) => l.ruta), ['/contacts/doubleOptinConfirmation']);
+  // (la consulta de los campos que existen en Brevo es solo lectura)
+  assert.deepEqual(llamadas.filter((l) => l.ruta !== '/contacts/attributes').map((l) => l.ruta), ['/contacts/doubleOptinConfirmation']);
 });
 
 test('Puerto sin configurar en Brevo responde error en vez de fingir', async () => {

@@ -380,9 +380,12 @@ async function guardarContacto(brevo, d, env) {
   return r;
 }
 
-function suscribirPuerto(brevo, d, env) {
+async function suscribirPuerto(brevo, d, env) {
   const lista = num(env.BREVO_LISTA_PUERTO), plantilla = num(env.BREVO_PLANTILLA_DOI);
-  if (!lista || !plantilla || !env.PUERTO_URL_CONFIRMADO) return Promise.resolve({ ok: false, status: 'puerto-sin-configurar' });
+  if (!lista || !plantilla || !env.PUERTO_URL_CONFIRMADO) return { ok: false, status: 'puerto-sin-configurar' };
+  const hay = await camposBrevo(brevo).catch(() => null);
+  const attrs = { CONSENTIMIENTO_MARKETING: true, CONSENTIMIENTO_FECHA: d.fecha.slice(0, 10), POLITICA_VERSION: d.politica };
+  const attributes = hay ? Object.fromEntries(Object.entries(attrs).filter(([k]) => hay.has(k))) : attrs;
   // Brevo envía el correo de confirmación y solo suma a la lista (y guarda estos atributos) cuando
   // la persona hace clic. La prueba del consentimiento es estar en la lista de Puerto.
   return brevo('POST', '/contacts/doubleOptinConfirmation', {
@@ -390,7 +393,7 @@ function suscribirPuerto(brevo, d, env) {
     includeListIds: [lista],
     templateId: plantilla,
     redirectionUrl: env.PUERTO_URL_CONFIRMADO,
-    attributes: { CONSENTIMIENTO_MARKETING: true, CONSENTIMIENTO_FECHA: d.fecha.slice(0, 10), POLITICA_VERSION: d.politica },
+    attributes,
   });
 }
 
