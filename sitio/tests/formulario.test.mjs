@@ -287,3 +287,23 @@ test('inscripción a evento: tipo válido, correos con el nombre del evento', as
   assert.match(correoVentas(d, null).asunto, /Lanzamiento Axopar 28/);
   assert.match(correoConfirmacion(d, null).asunto, /inscripción/);
 });
+
+test('CRM: solo manda los campos que existen en Brevo y entra a la lista de su marca aunque el nombre use guion', async () => {
+  const llamadas = [];
+  registro = llamadas; fallarCorreo = () => false;
+  globalThis.fetch = async (url, opts) => {
+    const ruta = url.replace('https://api.brevo.com/v3', '');
+    const cuerpo = opts.body ? JSON.parse(opts.body) : null;
+    llamadas.push({ ruta, metodo: opts.method, cuerpo });
+    if (ruta === '/contacts/attributes') return Response.json({ attributes: [{ name: 'NOMBRE' }, { name: 'MARCA' }] });
+    if (ruta.startsWith('/contacts/lists')) return Response.json({ lists: [{ id: 31, name: 'Web - Axopar' }, { id: 32, name: 'Web · Lagoon' }] });
+    if (ruta === '/crm/deals') return Response.json({ id: 'neg1' }, { status: 201 });
+    if (ruta.startsWith('/contacts/') && opts.method === 'GET') return Response.json({ id: 42 });
+    return Response.json({ id: 1 }, { status: 201 });
+  };
+  const r = await onRequestPost({ request: pedido({ ...COTIZACION, telefono: '+56 9 1234 5678' }), env: ENV });
+  assert.equal(r.status, 200);
+  const c = llamadas.find((l) => l.ruta === '/contacts' && l.metodo === 'POST');
+  assert.deepEqual(Object.keys(c.cuerpo.attributes).sort(), ['MARCA', 'NOMBRE']);
+  assert.deepEqual(c.cuerpo.listIds, [31]);
+});

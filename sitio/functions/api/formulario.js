@@ -342,7 +342,7 @@ async function listaDeMarca(brevo, d) {
   const marca = String(d.marca || '').replace(/^Usado\s*·\s*/i, '').replace(/\s+(Motor|Sail)$/i, '').trim().toLowerCase();
   const tipo = { charter: 'charter', equipamiento: 'equipamiento', usado: 'usados', boyas: 'arriendo de boyas', evento: 'eventos' }[d.tipo];
   if (!marca && !tipo) return 0;
-  if (!listas || Date.now() - listasT > 600000) {
+  if (!listas || !listas.length || Date.now() - listasT > 600000) {  // sin listas aún: se vuelve a preguntar
     const r = await brevo('GET', '/contacts/lists?limit=50&offset=0');
     listas = r.ok && r.datos && r.datos.lists ? r.datos.lists : []; listasT = Date.now();
   }
@@ -352,13 +352,27 @@ async function listaDeMarca(brevo, d) {
   return listas.filter((l) => quiero.includes(norma(l.name))).map((l) => l.id);
 }
 
+// Campos de contacto que existen en la cuenta de Brevo (memoria de 10 minutos). El sitio manda solo esos: si falta
+// alguno, Brevo rechazaría el contacto completo. Los que se creen después en Brevo se empiezan a llenar solos.
+let campos = null, camposT = 0;
+async function camposBrevo(brevo) {
+  if (!campos || Date.now() - camposT > 600000) {
+    const r = await brevo('GET', '/contacts/attributes');
+    campos = r.ok && r.datos && r.datos.attributes ? new Set(r.datos.attributes.map((x) => x.name)) : null;
+    camposT = Date.now();
+  }
+  return campos;
+}
+
 async function guardarContacto(brevo, d, env) {
-  const cuerpo = { email: d.email, attributes: atributos(d), updateEnabled: true };
+  const todos = atributos(d), hay = await camposBrevo(brevo).catch(() => null);
+  const attributes = hay ? Object.fromEntries(Object.entries(todos).filter(([k]) => hay.has(k))) : todos;
+  if (hay) { const faltan = Object.keys(todos).filter((k) => !hay.has(k)); if (faltan.length) console.log('formulario: faltan campos en Brevo: ' + faltan.join(', ')); }
+  const cuerpo = { email: d.email, attributes, updateEnabled: true };
   const ids = [num(env.BREVO_LISTA_CONTACTOS)].filter(Boolean).concat(await listaDeMarca(brevo, d).catch(() => []) || []);
   if (ids.length) cuerpo.listIds = ids;
   const r = await brevo('POST', '/contacts', cuerpo);
-  // Si a la cuenta le falta algún campo propio del sitio, Brevo rechaza todo: se guarda igual el contacto con
-  // nombre y correo (y la lista), para no perderlo. Los campos se crean en Brevo una sola vez (docs/FORMULARIOS.md).
+  // Respaldo: si Brevo igual rechaza los campos, se guarda el contacto con nombre y correo (y la lista), para no perderlo.
   if (!r.ok && r.status === 400) {
     console.log('formulario: Brevo rechazó campos del contacto; se guarda solo con nombre y correo');
     return brevo('POST', '/contacts', { ...cuerpo, attributes: d.nombre ? { NOMBRE: d.nombre } : {} });
