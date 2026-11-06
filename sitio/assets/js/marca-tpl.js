@@ -25,6 +25,7 @@
   var hero='<header class="mk-hero" style="--mk-img:url('+heroImg+')">'+
     '<div class="wrap-wide">'+
     '<nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>'+info.universo+'</span></nav>'+
+    (info.logo?'<img class="mk-logo" src="'+AB+info.logo+'" alt="'+(M[slug].nombre||info.nombre)+'" decoding="async">':'')+
     '<p class="mk-eyebrow">Representación oficial en Chile · '+info.pais+'</p>'+
     '<h1 class="mk-h1">'+info.nombre+'</h1>'+
     '<p class="mk-claim">'+info.claim+'</p>'+

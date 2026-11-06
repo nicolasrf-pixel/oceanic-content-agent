@@ -8,7 +8,8 @@ window.OCEANIC_MARCAS={
   "universo": "Motor",
   "hero": "modelos/axopar-38-xc-cross-cabin-hero.webp",
   "claim": "Diseñados donde el mar no perdona.",
-  "intro": "Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año."
+  "intro": "Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año.",
+  "logo": "marcas-logo/axopar.svg"
  },
  "beneteau": {
   "nombre": "Beneteau",
@@ -32,7 +33,8 @@ window.OCEANIC_MARCAS={
     "claim": "Lanchas y cruceros a motor con el sello Beneteau.",
     "intro": "Antares, Flyer, Gran Turismo, Swift Trawler y Grand Trawler: del day boat al trawler de travesía."
    }
-  }
+  },
+  "logo": "marcas-logo/beneteau.png"
  },
  "lagoon": {
   "nombre": "Lagoon",
@@ -54,7 +56,8 @@ window.OCEANIC_MARCAS={
     "claim": "Catamaranes a motor de 67 a 83 pies.",
     "intro": "Catamaranes de lujo que combinan libertad, elegancia y confort, sin concesiones: SIXTY 7 y EIGHTY 3."
    }
-  }
+  },
+  "logo": "marcas-logo/lagoon.png"
  },
  "solaris": {
   "nombre": "Solaris",
@@ -62,7 +65,8 @@ window.OCEANIC_MARCAS={
   "universo": "Vela",
   "hero": "modelos/solaris-55-g5.webp",
   "claim": "Carpintería italiana, líneas rápidas.",
-  "intro": "Veleros italianos de alto rendimiento y acabado artesanal. Cruceros rápidos diseñados por Javier Soto Acebal, con teca y carbono."
+  "intro": "Veleros italianos de alto rendimiento y acabado artesanal. Cruceros rápidos diseñados por Javier Soto Acebal, con teca y carbono.",
+  "logo": "marcas-logo/solaris.png"
  },
  "aquila": {
   "nombre": "Aquila",
@@ -84,7 +88,8 @@ window.OCEANIC_MARCAS={
     "claim": "El catamarán Aquila, ahora a vela.",
     "intro": "Aquila 45 Sail y Aquila 50 Sail: catamaranes a vela de la gama Aquila."
    }
-  }
+  },
+  "logo": "marcas-logo/aquila.svg"
  },
  "xo": {
   "nombre": "XO Boats",
@@ -92,7 +97,8 @@ window.OCEANIC_MARCAS={
   "universo": "Motor",
   "hero": "modelos/xo-explr-9-hero.webp",
   "claim": "Aluminio para el agua fría.",
-  "intro": "Lanchas de aluminio finlandesas para costa expuesta y aguas frías. Casco robusto, sin concesiones, para navegar donde otros no."
+  "intro": "Lanchas de aluminio finlandesas para costa expuesta y aguas frías. Casco robusto, sin concesiones, para navegar donde otros no.",
+  "logo": "marcas-logo/xo.png"
  },
  "saffier": {
   "nombre": "Saffier",
@@ -100,7 +106,8 @@ window.OCEANIC_MARCAS={
   "universo": "Vela",
   "hero": "modelos/saffier-se-33-life-hero.webp",
   "claim": "Vela pura, sin tripulación.",
-  "intro": "Day sailers holandeses construidos a mano. Veleros que se arman y se navegan solo, pensados para disfrutar el acto de navegar."
+  "intro": "Day sailers holandeses construidos a mano. Veleros que se arman y se navegan solo, pensados para disfrutar el acto de navegar.",
+  "logo": "marcas-logo/saffier.svg"
  },
  "excess": {
   "nombre": "Excess",
@@ -108,7 +115,8 @@ window.OCEANIC_MARCAS={
   "universo": "Vela",
   "hero": "modelos/excess-14-g8.webp",
   "claim": "El catamarán que rompe los códigos.",
-  "intro": "Catamaranes de crucero de estilo refinado y diseño ingenioso, pensados para los navegantes que buscan emoción y sensaciones de vela sin renunciar al confort a bordo."
+  "intro": "Catamaranes de crucero de estilo refinado y diseño ingenioso, pensados para los navegantes que buscan emoción y sensaciones de vela sin renunciar al confort a bordo.",
+  "logo": "marcas-logo/excess.svg"
  },
  "vx-one": {
   "nombre": "VX One",
@@ -116,7 +124,8 @@ window.OCEANIC_MARCAS={
   "universo": "Vela deportiva",
   "hero": "modelos/vx-one-hero.webp",
   "claim": "One design, evolucionado.",
-  "intro": "Desde 2012, un sportboat monotipo para regatistas de primer nivel y para familias. Alto rendimiento asequible, sin tripulantes profesionales, con diversión en todas las condiciones."
+  "intro": "Desde 2012, un sportboat monotipo para regatistas de primer nivel y para familias. Alto rendimiento asequible, sin tripulantes profesionales, con diversión en todas las condiciones.",
+  "logo": "marcas-logo/vx-one.png"
  },
  "switch": {
   "nombre": "Switch",
@@ -124,7 +133,8 @@ window.OCEANIC_MARCAS={
   "universo": "Vela deportiva",
   "hero": "modelos/switch-one-design-g2.webp",
   "claim": "La revolución del foiling.",
-  "intro": "Un dinghy de foils íntegramente de carbono de ElementSIX Evolution. Clase monotipo de alto rendimiento, fácil de transportar y rápido de armar: más tiempo en el agua."
+  "intro": "Un dinghy de foils íntegramente de carbono de ElementSIX Evolution. Clase monotipo de alto rendimiento, fácil de transportar y rápido de armar: más tiempo en el agua.",
+  "logo": "marcas-logo/switch.png"
  },
  "oceanic-power": {
   "nombre": "Oceanic Power",
@@ -132,6 +142,7 @@ window.OCEANIC_MARCAS={
   "universo": "Motor",
   "hero": "b-power-op",
   "claim": "Nuestra propia línea de semirrígidos.",
-  "intro": "La marca propia de Oceanic: semirrígidos RIB en aluminio y versión Lux, fabricados para la costa chilena. Del tender al day boat, listos para la aventura."
+  "intro": "La marca propia de Oceanic: semirrígidos RIB en aluminio y versión Lux, fabricados para la costa chilena. Del tender al day boat, listos para la aventura.",
+  "logo": "marcas-logo/oceanic-power.png"
  }
 };
