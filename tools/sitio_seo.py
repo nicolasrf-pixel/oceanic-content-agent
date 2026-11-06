@@ -20,7 +20,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / 'sitio'
 SITIO = 'https://oceanic.narf.workers.dev'
-IMAGEN = '/assets/img/compartir.jpg'
+IMAGEN = '/assets/img/compartir.jpg?v=2'
 NOMBRE = 'Oceanic'
 
 # Descripción para las páginas que no tienen una propia (las que sí tienen, se respetan).
