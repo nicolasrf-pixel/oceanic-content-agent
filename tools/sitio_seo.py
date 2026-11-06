@@ -31,6 +31,7 @@ DESCRIPCIONES = {
     '404.html': 'La página que buscas no existe o cambió de lugar.',
     'gracias/index.html': 'Recibimos tu cotización. Un especialista de Oceanic te escribirá pronto.',
     'terminos/index.html': 'Términos y condiciones de uso del sitio de Oceanic.',
+    'arriendo-boyas/index.html': 'Arriendo de boyas robóticas MarkSetBot para regatas en Chile: marcas autopropulsadas con GPS que se mantienen en posición sin anclas.',
 }
 SIN_INDICE = {'404.html', 'gracias/index.html'}
 EXCLUIR = ('admin/', 'marcas/', 'node_modules/', '.wrangler/')

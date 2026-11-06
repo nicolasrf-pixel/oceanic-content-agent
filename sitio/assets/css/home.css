@@ -320,3 +320,15 @@
 @media (prefers-reduced-motion:reduce){.hlogos-pista{animation:none;width:auto;flex-wrap:wrap;justify-content:center}.hlogos-grupo[aria-hidden]{display:none}.hlogos-grupo{flex-wrap:wrap;justify-content:center;row-gap:18px}}
 .equip-marcas img[data-forma="alto"]{max-height:34px}
 .equip-fotos .equip-logo[src*="north-sails"],.equip-fotos .equip-logo[src*="lancelin"]{max-height:40px}
+
+/* ---------- Arriendo de boyas MarkSetBot (banner) ---------- */
+.hboyas{padding:clamp(28px,3vw,44px) 0;background:var(--arena)}
+.hboyas-in{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(18px,3vw,48px);align-items:center;background:var(--papel);
+  padding:clamp(14px,1.4vw,20px);box-shadow:0 22px 60px -34px rgba(20,33,43,.35)}
+.hboyas-fotos{display:flex;gap:8px}
+.hboyas-fotos img{display:block;width:clamp(78px,9vw,150px);aspect-ratio:1;object-fit:cover}
+.hboyas-txt{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 28px}
+.hboyas-txt .eyebrow{color:var(--boya)}
+.hboyas-txt h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(20px,1.6vw,30px);line-height:1.12;margin:6px 0 4px;color:var(--tinta)}
+.hboyas-txt p{margin:0;color:var(--trabajo);font-size:15px;max-width:52ch}
+@media(max-width:700px){.hboyas-in{grid-template-columns:1fr}.hboyas-fotos img{width:calc((100% - 16px)/3)}.hboyas-fotos{width:100%}}

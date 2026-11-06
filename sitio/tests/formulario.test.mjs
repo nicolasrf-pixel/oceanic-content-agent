@@ -270,3 +270,10 @@ test('sin motor de correo configurado responde 503 indicando SMTP_CLAVE', async 
   assert.equal(r.status, 503);
   assert.deepEqual((await r.json()).falta, ['SMTP_CLAVE']);
 });
+
+test('arriendo de boyas: tipo válido con su línea de negocio', async () => {
+  const { limpiar, validar } = await import('../functions/api/formulario.js');
+  const d = limpiar({ tipo: 'boyas', nombre: 'Ana', email: 'ana@ejemplo.cl', acepta: true, detalle: '• Boyas: 4 boyas' });
+  assert.equal(d.tipo, 'boyas');
+  assert.equal(validar(d), null);
+});

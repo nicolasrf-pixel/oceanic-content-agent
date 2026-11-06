@@ -11,6 +11,7 @@ Todos los formularios del sitio envían a un solo endpoint, `POST /api/formulari
 | Contacto | `contacto/` | `contacto` |
 | Charter | `charter/` | `charter` |
 | Equipamiento | `equipamiento/` | `equipamiento` |
+| Arriendo de boyas MarkSetBot | `arriendo-boyas/` | `boyas` (lista Brevo «Web · Arriendo de boyas») |
 | Suscripción a Puerto | `puerto/` y `contacto/` | `puerto` |
 
 ## Qué pasa al enviar

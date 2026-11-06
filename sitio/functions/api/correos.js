@@ -230,7 +230,7 @@ export async function barcoDelCatalogo(env, origen, ficha) {
   } catch { return null; }
 }
 
-/* ---------- demás formularios: contacto, usado, charter, equipamiento, privacidad ---------- */
+/* ---------- demás formularios: contacto, usado, charter, equipamiento, arriendo de boyas, privacidad ---------- */
 
 const GENERICO = {
   contacto: {
@@ -255,6 +255,11 @@ const GENERICO = {
     etiqueta: 'Equipamiento',
     ventas: (d) => ['Tienes una solicitud de equipamiento de ' + (d.nombre || d.email), (d.nombre || d.email) + ' pidió información de equipamiento'],
     cliente: () => ['Hemos recibido tu solicitud de equipamiento', 'Hemos recibido tu solicitud de equipamiento. Un especialista te escribe con alternativas y precios.'],
+  },
+  boyas: {
+    etiqueta: 'Arriendo de boyas',
+    ventas: (d) => ['Tienes una solicitud de arriendo de boyas de ' + (d.nombre || d.email), (d.nombre || d.email) + ' quiere arrendar boyas MarkSetBot'],
+    cliente: () => ['Hemos recibido tu solicitud de arriendo de boyas', 'Hemos recibido tu solicitud de arriendo de boyas MarkSetBot. Te escribimos con disponibilidad y una propuesta para tu regata.'],
   },
   privacidad: {
     etiqueta: 'Privacidad',

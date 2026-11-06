@@ -33,7 +33,8 @@
           '<p class="em2-desc">' + esc(m.desc) + '</p>' +
           (lineas ? '<details class="em2-mas"><summary>Líneas de producto</summary><div class="em2-lineas">' + lineas +
             (m.web ? '<p class="em2-fuente">Según la web oficial de ' + esc(m.nombre) + '. <a href="' + esc(m.web) + '" target="_blank" rel="noopener">Ver sitio oficial ↗</a></p>' : '') + '</div></details>' : '') +
-          '<div class="em2-acts"><a class="btn em2-pedir" href="#solicitar" data-cat="' + esc(c.titulo) + '">Solicitar información</a>' +
+          '<div class="em2-acts">' + (m.id === 'marksetbot' ? '<a class="btn em2-pedir" href="../arriendo-boyas/index.html">Arriendo de boyas</a>' :
+            '<a class="btn em2-pedir" href="#solicitar" data-cat="' + esc(c.titulo) + '">Solicitar información</a>') +
           '<a class="em2-wa" href="' + wa + '" target="_blank" rel="noopener">WhatsApp →</a></div>' +
         '</div></article>';
     }).join('');

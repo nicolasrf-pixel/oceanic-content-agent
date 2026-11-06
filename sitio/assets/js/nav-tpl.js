@@ -55,7 +55,7 @@
     '<div class="ft-cols">'+
     '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
     '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
-    '<div><span class="eyebrow">Explorar</span><a href="'+pre+'usados/index.html">Usados</a><a href="'+pre+'equipamiento/index.html">Equipamiento</a><a href="'+pre+'puerto/index.html">Puerto</a></div>'+
+    '<div><span class="eyebrow">Explorar</span><a href="'+pre+'usados/index.html">Usados</a><a href="'+pre+'equipamiento/index.html">Equipamiento</a><a href="'+pre+'arriendo-boyas/index.html">Arriendo de boyas</a><a href="'+pre+'puerto/index.html">Puerto</a></div>'+
     '<div><span class="eyebrow">Contacto</span><a href="'+pre+'contacto/index.html">Conversemos</a><a href="mailto:ventas@oceanic.cl">ventas@oceanic.cl</a></div>'+
     '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · <a href="'+pre+'terminos/index.html">Términos y condiciones</a> · <a href="#" data-cookies>Preferencias de cookies</a> · Santiago · Chile</span></div></div></footer>';
   var f=document.getElementById('foot'); if(f) f.outerHTML=foot;
