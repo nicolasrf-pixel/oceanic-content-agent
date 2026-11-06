@@ -60,9 +60,7 @@
   }
 
   // footer
-  var foot='<footer class="ft"><div class="o-olas" aria-hidden="true"><i></i><i></i></div>'+
-    '<div class="ft-video" aria-hidden="true"><video muted loop playsinline preload="none" poster="'+pre+'assets/img/pie-olas.webp" data-src="'+pre+'assets/video/pie-olas.mp4"></video></div>'+
-    '<div class="wrap-wide"><div class="ft-top">'+
+  var foot='<footer class="ft"><div class="wrap-wide"><div class="ft-top">'+
     '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
     '<div class="ft-cols">'+
     '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
@@ -71,17 +69,6 @@
     '<div><span class="eyebrow">Contacto</span><a href="'+pre+'contacto/index.html">Conversemos</a><a href="mailto:ventas@oceanic.cl">ventas@oceanic.cl</a>'+REDES.map(function(r){return '<a href="'+r[1]+'" target="_blank" rel="noopener">'+r[0]+'</a>';}).join('')+'</div>'+
     '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · <a href="'+pre+'terminos/index.html">Términos y condiciones</a> · <a href="#" data-cookies>Preferencias de cookies</a> · Santiago · Chile</span></div></div></footer>';
   var f=document.getElementById('foot'); if(f) f.outerHTML=foot;
-  // video del mar en el pie (Pixabay, licencia de contenido: uso libre sin atribución). Carga solo cuando el pie se acerca,
-  // se pausa al salir de pantalla; en celular, con ahorro de datos o con «reducir movimiento» queda la imagen fija.
-  (function(){
-    var v=document.querySelector('.ft-video video'); if(!v) return;
-    var cn=navigator.connection||{};
-    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||cn.saveData||window.matchMedia('(max-width: 700px)').matches||!('IntersectionObserver' in window)) return;
-    new IntersectionObserver(function(es){ es.forEach(function(e){
-      if(e.isIntersecting){ if(!v.src){ v.src=v.getAttribute('data-src'); } var pr=v.play(); if(pr&&pr.catch) pr.catch(function(){}); }
-      else if(v.src) v.pause();
-    }); },{rootMargin:'300px 0px'}).observe(v.parentNode);
-  })();
 
   // ---------- modo oscuro: automático según el sistema; el botón lo fija y se recuerda ----------
   var html=document.documentElement, mq=window.matchMedia('(prefers-color-scheme: dark)');
