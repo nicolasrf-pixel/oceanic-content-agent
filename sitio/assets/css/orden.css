@@ -210,3 +210,9 @@ label.consent a{color:var(--tinta)}
 @keyframes o-olas1{to{background-position-x:720px}}
 @keyframes o-olas2{to{background-position-x:980px}}
 @media (prefers-reduced-motion:reduce){.o-olas i{animation:none}}
+/* video del mar de fondo en el pie, bajo un velo azul (el borde superior se funde con las olas) */
+.ft-video{position:absolute;inset:0;overflow:hidden;z-index:0;background:var(--noche)}
+.ft-video video{width:100%;height:100%;object-fit:cover;display:block}
+.ft-video::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--noche) 0,rgba(20,33,43,.78) 140px,rgba(20,33,43,.62) 55%,rgba(20,33,43,.86) 100%)}
+.ft>.wrap-wide{position:relative;z-index:1}
+.o-olas{z-index:2}
