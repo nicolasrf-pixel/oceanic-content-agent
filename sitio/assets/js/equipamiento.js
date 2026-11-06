@@ -74,7 +74,7 @@
   }
 
   // menú móvil
-  var bt = document.getElementById('burger'), dr = document.getElementById('drawer');
+  var bt = (window.OCEANIC_MENU ? null : document.getElementById('burger')), dr = document.getElementById('drawer');
   if (bt && dr) {
     bt.addEventListener('click', function () {
       var open = dr.hasAttribute('hidden');

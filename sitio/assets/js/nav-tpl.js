@@ -148,12 +148,20 @@
   },400);
   document.addEventListener('click',function(e){ var l=e.target.closest&&e.target.closest('[data-cookies]'); if(l){ e.preventDefault(); banner(); } });
 
-  // burger
-  setTimeout(function(){
-    var bt=document.getElementById('burger'), d=document.getElementById('drawer');
-    if(bt&&d){bt.addEventListener('click',function(){var o=d.hasAttribute('hidden');if(o){d.removeAttribute('hidden');document.body.classList.add('locked');}else{d.setAttribute('hidden','');document.body.classList.remove('locked');}bt.classList.toggle('on',o);});
-      d.addEventListener('click',function(e){if(e.target.tagName==='A'){d.setAttribute('hidden','');document.body.classList.remove('locked');bt.classList.remove('on');}});}
-  },50);
+  // menú móvil: un solo control para todo el sitio (los scripts de cada página ya no agregan el suyo)
+  window.OCEANIC_MENU=true;
+  (function(){
+    var bt=document.getElementById('burger'), d=document.getElementById('drawer'), bar=document.querySelector('.bar');
+    if(!bt||!d) return;
+    function abrir(si){
+      if(si){ d.style.top=Math.max(0,Math.round(bar?bar.getBoundingClientRect().bottom:52))+'px'; d.removeAttribute('hidden'); }
+      else d.setAttribute('hidden','');
+      document.body.classList.toggle('locked',si); bt.classList.toggle('on',si); bt.setAttribute('aria-expanded',si?'true':'false');
+    }
+    bt.addEventListener('click',function(){ abrir(d.hasAttribute('hidden')); });
+    d.addEventListener('click',function(e){ if(e.target.closest('a')) abrir(false); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!d.hasAttribute('hidden')) abrir(false); });
+  })();
   // Eventos: pop-ups de invitación administrados en el CMS (eventos-data.js). El código del pop-up solo se descarga si hay uno activo.
   if(!document.querySelector('script[src*="eventos.js"]')){
     var sd=document.createElement('script'); sd.src=pre+'assets/js/eventos-data.js'; sd.async=true;

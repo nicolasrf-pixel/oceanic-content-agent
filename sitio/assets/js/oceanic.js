@@ -38,7 +38,7 @@
 })();
 
 (function(){
-  var b=document.getElementById('burger'),d=document.getElementById('drawer');
+  var b=(window.OCEANIC_MENU ? null : document.getElementById('burger')),d=document.getElementById('drawer');
   if(!b||!d) return;
   b.addEventListener('click',function(){
     var open=d.hasAttribute('hidden');

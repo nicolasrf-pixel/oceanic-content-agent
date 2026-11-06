@@ -571,3 +571,4 @@ section.o-banda{background-color:var(--banda)!important}
 .tb-redes svg{width:16px;height:16px}
 @media(max-width:700px){.tb-dir{display:none}.topbar-in{gap:12px}}
 .bar,.bar.bar-solida{background:var(--noche)}
+body.locked .mob,body.locked .aviso-priv,body.locked .asis-btn,body.locked .asis-panel,body.locked .sub-cta{display:none!important}
