@@ -174,3 +174,11 @@
 .pnot-fichas a:hover{border-bottom-color:var(--boya)}
 .pfeat2-img.pfeat2-tapa{aspect-ratio:auto;overflow:visible;box-shadow:none}
 @media(min-width:860px){.pfeat2-grid:has(.pfeat2-tapa){grid-template-columns:minmax(0,380px) 1fr}}
+
+/* Notas en bandas alternas (blanco / gris claro) y portada del newsletter en su proporción */
+.pbanda{padding:clamp(48px,6vw,96px) 0!important;background:var(--papel)}
+.pbanda-alt{background:var(--banda)}
+.pbanda .pnot{margin-bottom:0;padding-bottom:0;border-bottom:0}
+.pbanda-alt .pnot-specs div{background:var(--papel)}
+.phero-tapa{width:clamp(150px,18vw,260px)!important;height:auto!important;aspect-ratio:455/362;object-fit:contain}
+@media(max-width:640px){.phero-tapa{width:min(240px,70vw)!important}}

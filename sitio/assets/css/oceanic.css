@@ -495,7 +495,7 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 .consent a{color:inherit;text-decoration:underline}
 
 /* Bandas: gris muy claro uno por medio entre bloques blancos (lo asigna assets/js/oceano.js) */
-:root{--banda:#F4F4F2}
+:root{--banda:#ECEAE5}
 section.o-banda{background-color:var(--banda)!important}
 
 /* Marca: logos oficiales (assets/img/marca/). Blanco sobre azul en barra y pie. */

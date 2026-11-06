@@ -75,10 +75,19 @@ def modelo(marca, slug, previas=None):
     usados = {f[0] for f in previas.values()}
     n_max = max([int(m.group(1)) for d in usados for m in [re.search(r'-g(\d+)\.webp$', d)] if m] or [0])
     fotos, galeria, n = [], {}, 0
+    vistas = set()  # la misma foto publicada dos veces (cabecera y galería, o en dos tamaños) entra una sola vez
+    def clave_foto(u):
+        u = re.sub(r'/styles/[^/]+/public/', '/', (u or '').split('?')[0])
+        u = re.sub(r'/media/cache/[^/]+/', '/media/', u)
+        return re.sub(r'-\d+x\d+(?=\.\w+$)', '', re.sub(r'\.(jpe?g|png)\.webp$', r'.\1', u)).lower()
     for i in sorted(propias, key=lambda i: (i['category'] != 'HERO', not i.get('hero_candidate'))):
         url = i.get('cdn_url') or (i.get('original') or {}).get('url')
         if not url:
             continue
+        k = clave_foto((i.get('original') or {}).get('url') or url)
+        if k in vistas:
+            continue
+        vistas.add(k)
         if 'hero' not in entrada:
             destino = f'modelos/{slug}-hero.webp'
             entrada['hero'] = destino

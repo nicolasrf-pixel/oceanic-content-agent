@@ -37,12 +37,15 @@
   // Fotos del modelo: se reparten entre los bloques sin repetirse. Si una no existe, su contenedor se oculta.
   // Cada espacio pide un ancho mínimo (nunca se muestra una foto agrandada): si ninguna alcanza, queda sin foto.
   // RES = assets/data/resolucion.json (medidas de las fotos de menos de 1600 px; las demás sirven en todo).
-  function Fotos(AB, mo, galCat, RES, sinMinimo) {
+  function Fotos(AB, mo, galCat, RES, sinMinimo, REC) {
     var orden = ['Exterior', 'Navegando', 'Interior', 'Timonera', 'Cubierta', 'Camarotes', 'Detalle', 'Galería'];
     var lista = [];
     orden.forEach(function (c) { (galCat[c] || []).forEach(function (f) { if (lista.indexOf(f) < 0) lista.push(f); }); });
     Object.keys(galCat).forEach(function (c) { (galCat[c] || []).forEach(function (f) { if (lista.indexOf(f) < 0) lista.push(f); }); });
     RES = RES || {};
+    // fotos de estudio (recorte sobre fondo liso): al final de la galería y nunca en los bloques grandes
+    var esRecorte = function (f) { return (REC || []).indexOf(String(f || '').split('/').pop()) >= 0; };
+    lista = lista.filter(function (f) { return !esRecorte(f); }).concat(lista.filter(esRecorte));
     function medida(f) { var r = RES[String(f || '').split('/').pop()]; return r || [9999, 9999]; }
     function alcanza(f, min) { return sinMinimo || medida(f)[0] >= min; }
     var usadas = {};
@@ -52,14 +55,14 @@
       if (hero) usadas[hero] = 1;
     }
     if (mo.hero) usadas[mo.hero] = 1;
-    function tomar(min) {
-      for (var k = 0; k < lista.length; k++) { var f = lista[k]; if (!usadas[f] && alcanza(f, min)) { usadas[f] = 1; return IMG(AB, f); } }
+    function tomar(min, conRecortes) {
+      for (var k = 0; k < lista.length; k++) { var f = lista[k]; if (!usadas[f] && alcanza(f, min) && (conRecortes || !esRecorte(f))) { usadas[f] = 1; return IMG(AB, f); } }
       return null;
     }
     return {
       hero: hero ? IMG(AB, hero) : null,
       sig: function (min) { return tomar(min || 1000); },
-      resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700))) r.push(f); return r; }
+      resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700, true))) r.push(f); return r; }
     };
   }
   function img(src, alt, cls) {
@@ -95,7 +98,7 @@
     var cat = C[marca], info = M[marca];
     var mo = cat.modelos.filter(function (x) { return x.slug === mslug; })[0];
     var CC = (window.OCEANIC_CONTENIDO || {})[marca + '/' + mslug] || {};
-    var F = Fotos(AB, mo, CC.galeria || {}, P.resolucion, ESTUDIO.indexOf(marca) >= 0);
+    var F = Fotos(AB, mo, CC.galeria || {}, P.resolucion, ESTUDIO.indexOf(marca) >= 0, P.recortes);
     var wa = 'https://wa.me/56229537322?text=' + encodeURIComponent('Hola Oceanic, quiero cotizar el ' + mo.nombre + ' (' + info.nombre + ').');
     // marcas con línea vela y motor: volver a la línea del modelo
     var lineaMo = /electric|eléctric/i.test(mo.tipo) ? 'electrico' : /vela/i.test(mo.tipo) ? 'vela' : 'motor';
@@ -111,6 +114,12 @@
 
     document.title = mo.nombre + ' · ' + info.nombre + ' | Oceanic';
 
+    // textos que solo repiten el nombre del barco no se muestran dos veces
+    function mismoTexto(a, b) { var n = function (s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }; return n(a) === n(b) || (n(a).length > 3 && n(b).indexOf(n(a)) >= 0); }
+    // la frase de portada no se muestra si repite el nombre o el título de un bloque de más abajo
+    var titulosAbajo = (P.bloques || []).map(function (b) { return b.titulo; }).concat((P.destacados || []).map(function (g) { return g.grupo; }));
+    var tit0 = (P.portada || {}).titular;
+    var verTitular = tit0 && !mismoTexto(tit0, mo.nombre) && !titulosAbajo.some(function (x) { return mismoTexto(x, tit0); });
     // 1 · Portada
     var portada = P.portada || {};
     var estudio = ESTUDIO.indexOf(marca) >= 0;
@@ -120,8 +129,8 @@
       '<div class="wrap hero-in">' +
         '<p class="hero-brand"><a href="' + gama + '">' + esc(info.nombre) + '</a>' + (info.pais ? ' · ' + esc(info.pais) : '') + '</p>' +
         '<h1>' + esc(mo.nombre) + '</h1>' +
-        (portada.titular ? '<p class="hero-purpose">' + esc(portada.titular) + '</p>' : '') +
-        (portada.bajada ? '<p class="hero-sub">' + esc(portada.bajada) + '</p>' : '') +
+        (verTitular ? '<p class="hero-purpose">' + esc(portada.titular) + '</p>' : '') +
+        (portada.bajada && !mismoTexto(portada.bajada, portada.titular) && !mismoTexto(portada.bajada, mo.nombre) ? '<p class="hero-sub">' + esc(portada.bajada) + '</p>' : '') +
         '<div class="hero-cta"><a class="btn" href="#cotizar" data-ir-form>Cotizar este modelo</a>' +
         '<a class="btn btn-line" href="' + wa + '" target="_blank" rel="noopener">Cotizar por WhatsApp</a></div>' +
       '</div><a aria-label="Continuar" class="hero-scroll" href="#historia"><span></span></a></header>');
@@ -151,14 +160,16 @@
     }
 
     // 3 · Bloques oficiales (maqueta "A bordo": título, texto y foto). Texto y foto alternan de lado bloque a bloque.
-    var cuerpo = [], lado = 0;
+    var cuerpo = [], lado = 0, nBloque = 0;
+    // antetítulo numerado («01 · Oceanis 52»): no repite el título del bloque
+    function numero() { nBloque++; return (nBloque < 10 ? '0' : '') + nBloque + ' · '; }
     // sin foto: el texto ocupa el bloque (sin columna vacía) y no cuenta para alternar lados
     function dos(f) { return '<div class="two' + (f ? (lado++ % 2 ? ' two-inv' : '') : ' sin-foto') + '">'; }
     (P.bloques || []).forEach(function (b, i) {
       if (!b.texto || !b.texto.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'abordo' : '',
-        cabeza(b.titulo) + dos(f) + '<div><h2>' + h2(b.titulo) + '</h2>' +
+        cabeza(numero() + mo.nombre) + dos(f) + '<div><h2>' + h2(b.titulo) + '</h2>' +
         '<p class="lede" style="margin-top:22px">' + esc(b.texto[0]) + '</p>' + parr(b.texto.slice(1)) + '</div>' +
         (f ? '<div>' + img(f, mo.nombre + ' · ' + b.titulo) + '</div>' : '') + '</div>'));
     });
@@ -169,7 +180,7 @@
       if (!g.items || !g.items.length) return;
       var f = F.sig();
       cuerpo.push(seccion(i === 0 ? 'destacados' : '',
-        cabeza(g.grupo) + dos(f) + '<div><h2>' + h2(g.grupo) + '</h2>' +
+        cabeza(numero() + 'Destacados') + dos(f) + '<div><h2>' + h2(g.grupo) + '</h2>' +
         (g.intro ? '<p class="lede" style="margin-top:22px">' + esc(g.intro) + '</p>' : '') + img(f, mo.nombre + ' · ' + g.grupo) + '</div>' +
         '<div><dl style="margin:0">' + g.items.map(function (it) {
           return '<div class="tr"><dt>' + esc(it.titulo) + '</dt><dd>' + esc(it.texto || '') + '</dd></div>';
@@ -183,11 +194,19 @@
         '<a class="btn btn-line btn-line-dark" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a></div></div>';
     }
     // 5 · Galería (maqueta: grilla de 3). Antes se reservan las fotos de portada de los videos.
-    var vids = (MD.videos || []).map(function (v, k, t) { return { v: v, foto: F.sig(t.length === 1 ? 1000 : 700) || F.hero }; });
-    var galeria = F.resto(6, 700);
+    // portada de cada video: una foto que no se haya usado antes en la página (sin repetir la de la portada)
+    var vids = (MD.videos || []).map(function (v, k, t) { return { v: v, foto: F.sig(t.length === 1 ? 1000 : 700) }; });
+    var galeria = F.resto(48, 700);
     if (galeria.length) {
-      cuerpo.push(seccion('galeria', cabeza('Galería') + '<div class="gal">' +
-        galeria.map(function (g) { return '<div class="gal-item">' + img(g, mo.nombre) + '</div>'; }).join('') + '</div>' + otroCta('¿Te imaginas a bordo?')));
+      // visor compacto: una foto grande y una tira de miniaturas; entran todas las fotos sin alargar la página
+      cuerpo.push(seccion('galeria', cabeza('Galería · ' + galeria.length + ' fotos') +
+        '<div class="gv" data-gv>' +
+          '<div class="gv-main"><img src="' + esc(galeria[0]) + '" alt="' + esc(mo.nombre) + '" data-ocultar>' +
+            (galeria.length > 1 ? '<button type="button" class="gv-nav gv-prev" aria-label="Foto anterior">‹</button><button type="button" class="gv-nav gv-next" aria-label="Foto siguiente">›</button>' : '') +
+            '<button type="button" class="gv-full" aria-label="Ver en pantalla completa">⤢</button><span class="gv-n">1 / ' + galeria.length + '</span></div>' +
+          (galeria.length > 1 ? '<div class="gv-tira">' + galeria.map(function (g, k) {
+            return '<button type="button" class="gv-th' + (k ? '' : ' on') + '" data-k="' + k + '" aria-label="Foto ' + (k + 1) + '"><img src="' + esc(g) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>' : '') +
+        '</div>' + otroCta('¿Te imaginas a bordo?')));
     }
 
     // 5b · Videos oficiales: se llaman desde donde están alojados (YouTube, Vimeo o el CDN del fabricante) y solo al
@@ -294,13 +313,14 @@
 
     // 10 · Formulario de cotización (el mismo en todas las fichas)
     var HP = '<input name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">';
-    var fCot = mo.tarjeta || mo.hero;
+    var fCot = mo.tarjeta || mo.hero;  // la del correo de cotización
+    var fCotPag = F.sig(700);  // en la página, una foto que no se haya mostrado antes (si no queda ninguna, sin foto)
     var datosCot = [['Marca', info.nombre], ['Eslora', mo.eslora], ['Camarotes', mo.camarotes], ['Tipo', famLabel(mo.tipo)]]
       .map(function (d) { var L = window.OCEANIC_SIN_OPCIONALES; return [d[0], L ? L.spec(d[1]) : d[1]]; })  // sin opcionales (decisión Oceanic)
       .filter(function (d) { return d[1]; });
     var cierre = '<section class="cot" id="cotizar"><div class="wrap cot-in">' +
       '<aside class="cot-barco">' +
-        (fCot ? '<div class="cot-foto">' + img(IMG(AB, fCot), mo.nombre) + '</div>' : '') +
+        (fCotPag ? '<div class="cot-foto">' + img(fCotPag, mo.nombre) + '</div>' : '') +
         '<span class="eyebrow cot-eti">Cotización personalizada</span>' +
         '<h2 class="cot-h">Cotiza el ' + esc(mo.nombre) + '</h2>' +
         '<dl class="cot-datos">' + datosCot.map(function (d) { return '<div><dt>' + d[0] + '</dt><dd>' + esc(d[1]) + '</dd></div>'; }).join('') + '</dl>' +
@@ -374,6 +394,38 @@
       sec.hidden = false; bConf.textContent = 'Ver el configurador';
       sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
+    // Galería: miniaturas, flechas, teclado y pantalla completa
+    [].forEach.call(cont.querySelectorAll('[data-gv]'), function (gv) {
+      var ths = [].slice.call(gv.querySelectorAll('.gv-th')), main = gv.querySelector('.gv-main img'), num = gv.querySelector('.gv-n'), k = 0;
+      var srcs = ths.length ? ths.map(function (b) { return b.querySelector('img').getAttribute('src'); }) : [main.getAttribute('src')];
+      function ver(i) {
+        k = (i + srcs.length) % srcs.length; main.src = srcs[k]; num.textContent = (k + 1) + ' / ' + srcs.length;
+        ths.forEach(function (b, j) { b.classList.toggle('on', j === k); });
+        if (ths[k]) ths[k].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+      ths.forEach(function (b, j) { b.addEventListener('click', function () { ver(j); }); });
+      var pv = gv.querySelector('.gv-prev'), nx = gv.querySelector('.gv-next');
+      if (pv) pv.addEventListener('click', function () { ver(k - 1); });
+      if (nx) nx.addEventListener('click', function () { ver(k + 1); });
+      // deslizar con el dedo en celular
+      var x0 = null; main.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+      main.addEventListener('touchend', function (e) { if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) ver(k + (dx < 0 ? 1 : -1)); x0 = null; });
+      gv.querySelector('.gv-full').addEventListener('click', function () {
+        var capa = document.createElement('div'); capa.className = 'gv-capa'; capa.setAttribute('role', 'dialog'); capa.setAttribute('aria-label', 'Galería ' + mo.nombre);
+        capa.innerHTML = '<img alt="' + esc(mo.nombre) + '"><button type="button" class="gv-x" aria-label="Cerrar">×</button>' +
+          (srcs.length > 1 ? '<button type="button" class="gv-nav gv-prev" aria-label="Anterior">‹</button><button type="button" class="gv-nav gv-next" aria-label="Siguiente">›</button>' : '') + '<span class="gv-n"></span>';
+        var ci = capa.querySelector('img'), cn = capa.querySelector('.gv-n');
+        function pon() { ci.src = srcs[k]; cn.textContent = (k + 1) + ' / ' + srcs.length; }
+        function mover(d) { ver(k + d); pon(); }
+        function tecla(e) { if (e.key === 'Escape') cerrar(); if (e.key === 'ArrowRight') mover(1); if (e.key === 'ArrowLeft') mover(-1); }
+        function cerrar() { capa.remove(); document.removeEventListener('keydown', tecla); document.body.style.overflow = ''; }
+        capa.addEventListener('click', function (e) {
+          if (e.target.closest('.gv-x') || e.target === capa) cerrar();
+          else if (e.target.closest('.gv-prev')) mover(-1); else if (e.target.closest('.gv-next')) mover(1);
+        });
+        document.addEventListener('keydown', tecla); document.body.appendChild(capa); document.body.style.overflow = 'hidden'; pon();
+      });
+    });
     // «Cotízalo aquí» fijo bajo el menú: se esconde mientras el formulario está en pantalla
     (function () {
       var sc = cont.querySelector('.sub-cta'), fo = document.getElementById('cotizar');
@@ -404,7 +456,8 @@
       .then(function (l) { return l.indexOf(marca + '/' + mslug) < 0 ? {} : json(mbase + marca + '/' + mslug + '.json'); })
       .catch(function () { return {}; });
     var resolucion = json(base.replace(/fichas\/$/, 'resolucion.json')).catch(function () { return {}; });
-    function pintar(P) { Promise.all([medios, resolucion]).then(function (r) { P.medios = r[0]; P.resolucion = r[1]; render(marca, mslug, P); }); }
+    var recortes = json(base.replace(/fichas\/$/, 'recortes.json')).catch(function () { return []; });
+    function pintar(P) { Promise.all([medios, resolucion, recortes]).then(function (r) { P.medios = r[0]; P.resolucion = r[1]; P.recortes = r[2]; render(marca, mslug, P); }); }
     // index.json lista las fichas con traducción completa; las demás usan el borrador del catálogo
     json(base + 'index.json')
       .then(function (lista) { if (lista.indexOf(marca + '/' + mslug) < 0) throw 0; return json(base + marca + '/' + mslug + '.json'); })

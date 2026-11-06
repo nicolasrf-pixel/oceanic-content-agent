@@ -26,7 +26,7 @@
   // Foto principal del bloque: ancha sobre el texto, o al lado (foto_lado) cuando es vertical o pequeña
   function foto(b) {
     // si es la misma foto de la portada de la edición, no se repite
-    return b.foto && b.foto !== ed.portada ? '<figure class="pnot-foto' + (b.foto_lado ? ' pnot-foto-lado' : '') + '"><img src="' + esc(img(b.foto)) + '" alt="" loading="lazy"></figure>' : '';
+    return b.foto ? '<figure class="pnot-foto' + (b.foto_lado ? ' pnot-foto-lado' : '') + '"><img src="' + esc(img(b.foto)) + '" alt="" loading="lazy"></figure>' : '';
   }
   function cabeza(b) {
     return (b.logo ? '<img class="pnot-logo" src="' + esc(img(b.logo)) + '" alt="" loading="lazy">' : '') +
@@ -95,9 +95,10 @@
     (ed.resumen ? '<p class="phero-sub">' + esc(ed.resumen) + '</p>' : '') +
     (href(ed.pdf) ? '<p style="margin-top:22px"><a class="pfeat-link" href="' + esc(href(ed.pdf)) + '" target="_blank" rel="noopener">Descargar la edición en PDF ↗</a></p>' : '') +
     '</div></div></div></header>' +
-    (ed.portada ? '<div class="ped-portada wrap-wide"><img src="' + esc(img(ed.portada)) + '" alt="Puerto ' + esc(ed.mes) + '"></div>' : '') +
+
     ((ed.bloques || []).length > 1 ? '<nav class="ped-indice wrap-wide" aria-label="En esta edición"><span>En esta edición</span>' +
       ed.bloques.map(function (b, i) { return '<a href="#tema-' + (i + 1) + '">' + esc(b.titular) + '</a>'; }).join('') + '</nav>' : '') +
-    '<section class="pbloques"><div class="wrap-wide">' + (ed.bloques || []).map(function (b, i) { return R[b.type] ? R[b.type](b, i) : ''; }).join('') +
-    '<p class="parch-more"><a href="../">← Todas las ediciones</a></p></div></section>';
+    // cada nota en su propia banda, alternando blanco y gris claro, para que la edición no se lea como un solo bloque
+    (ed.bloques || []).map(function (b, i) { return R[b.type] ? '<section class="pbloques pbanda' + (i % 2 ? ' pbanda-alt' : '') + '"><div class="wrap-wide">' + R[b.type](b, i) + '</div></section>' : ''; }).join('') +
+    '<section class="pbloques"><div class="wrap-wide"><p class="parch-more"><a href="../">← Todas las ediciones</a></p></div></section>';
 })();
