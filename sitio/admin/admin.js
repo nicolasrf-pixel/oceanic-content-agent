@@ -854,6 +854,46 @@
   };
 
   /* --- Portada del inicio: video principal y textos --- */
+  // Portada en carrusel: diapositivas de imagen o video. Las imágenes duran «intervalo» segundos; los videos pasan
+  // a la siguiente al terminar (uno tras otro).
+  function panelCarrusel(doc, I) {
+    if (!Array.isArray(I.diapositivas)) I.diapositivas = [];
+    var lista = h('div');
+    function pintar() {
+      vaciar(lista);
+      I.diapositivas.forEach(function (d, i) {
+        var tipo = h('select', { onchange: function () { d.tipo = tipo.value; marcar(doc); pintar(); } },
+          h('option', { value: 'imagen', text: 'Imagen' }), h('option', { value: 'video', text: 'Video' }));
+        tipo.value = d.tipo === 'video' ? 'video' : 'imagen';
+        var cuerpo;
+        if (tipo.value === 'video') {
+          var url = texto(doc, d, 'src', { ph: 'https://…/video.mp4 o /media/…' });
+          cuerpo = h('div', null,
+            campo('Dirección del video (MP4)', url, 'Sin sonido, horizontal, menos de 20 MB. Pasa a la siguiente diapositiva al terminar.'),
+            h('div', { style: 'margin:6px 0 10px' }, botonSubir('Subir video MP4', 'videos', function (u) { d.src = u; url.value = u; marcar(doc); }, { accept: 'video/mp4,video/webm' })),
+            h('small', { text: 'Imagen del video (se ve mientras carga y en celulares):' }), campoImagen(doc, d, 'poster', 'portada'));
+        } else cuerpo = campoImagen(doc, d, 'src', 'portada');
+        lista.appendChild(h('div', { class: 'panel', style: 'background:var(--natural,#f4f2ee)' },
+          h('div', { class: 'filtros' }, h('b', { text: 'Diapositiva ' + (i + 1) }), tipo,
+            h('button', { class: 'mini', title: 'Antes', text: '↑', onclick: function () { if (i) { I.diapositivas.splice(i - 1, 0, I.diapositivas.splice(i, 1)[0]); marcar(doc); pintar(); } } }),
+            h('button', { class: 'mini x', title: 'Quitar', text: '✕', onclick: function () { I.diapositivas.splice(i, 1); marcar(doc); pintar(); } })),
+          cuerpo));
+      });
+      lista.appendChild(h('div', { class: 'filtros' },
+        h('button', { class: 'mini', text: '+ Imagen', onclick: function () { I.diapositivas.push({ tipo: 'imagen', src: '' }); marcar(doc); pintar(); } }),
+        h('button', { class: 'mini', text: '+ Video', onclick: function () { I.diapositivas.push({ tipo: 'video', src: '', poster: '' }); marcar(doc); pintar(); } })));
+    }
+    var modo = selector({ video: 'Video único (el de arriba)', carrusel: 'Carrusel de imágenes y/o videos' }, I.modo || 'video', function (v) { I.modo = v; marcar(doc); });
+    var seg = texto(doc, I, 'intervalo', { tipo: 'number', ph: '6' });
+    seg.min = 3; seg.max = 30; seg.style.maxWidth = '120px';
+    seg.addEventListener('input', function () { I.intervalo = seg.value === '' ? undefined : Number(seg.value); marcar(doc); });
+    pintar();
+    return h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Tipo de portada' }),
+      campo('Modo', modo, 'En carrusel se necesitan al menos 2 diapositivas; con menos, se muestra el video único.'),
+      campo('Segundos por imagen', seg, 'Entre 3 y 30 (6 si se deja vacío). Los videos duran lo que dura el video.'),
+      lista);
+  }
+
   S.portada = function () {
     return cargar('inicio').then(function (doc) {
       var I = doc.contenido;
@@ -866,6 +906,7 @@
           campo('Dirección del video (MP4)', url, 'Video horizontal, sin sonido, de 10 a 30 segundos y menos de 20 MB. Puedes subirlo o pegar el enlace de la web oficial de la marca.'),
           h('div', { style: 'margin-top:8px' }, botonSubir('Subir video MP4', 'videos', function (u) { I.video = u; url.value = u; vid.src = u; marcar(doc); }, { accept: 'video/mp4,video/webm' })),
           h('h3', { text: 'Imagen de respaldo' }), h('small', { text: 'Se ve mientras carga el video y en celulares. Horizontal, 2560 px.' }), campoImagen(doc, I, 'poster', 'portada')),
+        panelCarrusel(doc, I),
         h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Textos' }),
           campo('Antetítulo', texto(doc, I, 'antetitulo')),
           campo('Titular', texto(doc, I, 'titular', { largo: true, filas: 3 }), 'Cada salto de línea se respeta en la portada.'),

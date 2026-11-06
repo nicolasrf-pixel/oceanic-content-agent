@@ -162,6 +162,20 @@ function inicio(d, err) {
   if (d.video && (!enlaceSeguro(d.video) || !/^(https:\/\/|\/media\/)/.test(d.video))) err('video', 'Video: enlace https:// o archivo subido (/media/…)');
   if (d.poster && !rutaImagen(d.poster)) err('poster', 'Imagen de respaldo inválida');
   for (const k of ['antetitulo', 'titular', 'bajada']) if (d[k] != null && typeof d[k] !== 'string') err(k, k + ' debe ser texto');
+  if (d.modo != null && !['video', 'carrusel'].includes(d.modo)) err('modo', 'Modo: video o carrusel');
+  if (d.intervalo != null && (typeof d.intervalo !== 'number' || d.intervalo < 3 || d.intervalo > 30)) err('intervalo', 'Segundos por imagen: entre 3 y 30');
+  if (d.diapositivas != null) {
+    if (!Array.isArray(d.diapositivas)) err('diapositivas', 'Diapositivas: lista');
+    else d.diapositivas.forEach((x, i) => {
+      const r = `diapositivas[${i}]`;
+      if (!x || typeof x !== 'object' || !['imagen', 'video'].includes(x.tipo)) return err(r, 'Cada diapositiva es imagen o video');
+      if (!x.src) return err(r, `Diapositiva ${i + 1}: falta el archivo`);
+      if (x.tipo === 'video' && (!enlaceSeguro(x.src) || !/^(https:\/\/|\/media\/)/.test(x.src))) err(r + '.src', `Diapositiva ${i + 1}: video https:// o subido (/media/…)`);
+      if (x.tipo === 'imagen' && !rutaImagen(x.src)) err(r + '.src', `Diapositiva ${i + 1}: imagen inválida`);
+      if (x.poster && !rutaImagen(x.poster)) err(r + '.poster', `Diapositiva ${i + 1}: imagen del video inválida`);
+    });
+  }
+  if (d.modo === 'carrusel' && !(Array.isArray(d.diapositivas) && d.diapositivas.length >= 2)) err('diapositivas', 'El carrusel necesita al menos 2 diapositivas');
 }
 
 function publicacion(d, err) {

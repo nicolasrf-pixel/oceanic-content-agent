@@ -26,6 +26,50 @@
       if (!/home-hero\.webp$/.test(abs)) q0('.hhero-media').style.setProperty('--hh-img', 'url("' + abs.replace(/"/g, '%22') + '")');
     }
     var q = function (s) { return hero.querySelector(s); };
+    function rutaImg(p) { return /^(https?:)?\/\/|^\//.test(p) ? p : 'assets/img/' + p; }
+    function carrusel(DS) {
+      var media = hero.querySelector('.hhero-media'), espera = Math.max(3, +I.intervalo || 6) * 1000, k = 0, timer;
+      var sinVideo = reduce || slow || small;
+      v.remove();
+      var capas = DS.map(function (d, i) {
+        var el;
+        if (d.tipo === 'video' && !sinVideo) {
+          el = document.createElement('video'); el.muted = true; el.loop = false; el.playsInline = true; el.preload = 'none';
+          el.setAttribute('muted', ''); el.setAttribute('playsinline', ''); el.dataset.src = d.src;
+          if (d.poster) el.poster = rutaImg(d.poster);
+        } else {
+          el = document.createElement('div');
+          var fondo = d.tipo === 'video' ? d.poster : d.src;  // en celular o con ahorro de datos, el video muestra su imagen
+          if (fondo) el.style.backgroundImage = 'url("' + new URL(rutaImg(fondo), location.href).href.replace(/"/g, '%22') + '")';
+        }
+        el.className = 'hhero-slide' + (i ? '' : ' on'); media.appendChild(el); return el;
+      });
+      var puntos = document.createElement('div'); puntos.className = 'hhero-dots';
+      puntos.innerHTML = DS.map(function (d, i) { return '<button type="button" aria-label="Diapositiva ' + (i + 1) + '"' + (i ? '' : ' class="on"') + '></button>'; }).join('');
+      hero.appendChild(puntos);
+      // Las imágenes duran «intervalo» segundos; un video pasa a la siguiente diapositiva al terminar (uno tras otro).
+      function activar(i) {
+        clearTimeout(timer);
+        capas[k].classList.remove('on'); if (capas[k].tagName === 'VIDEO') capas[k].pause();
+        puntos.children[k].classList.remove('on');
+        k = (i + capas.length) % capas.length; var c = capas[k];
+        c.classList.add('on'); puntos.children[k].classList.add('on');
+        if (c.tagName === 'VIDEO') {
+          if (!c.src) c.src = c.dataset.src;
+          try { c.currentTime = 0; } catch (e) { /* aún sin datos */ }
+          var pr = c.play(); if (pr && pr.catch) pr.catch(function () { if (capas[k] === c) seguir(); });
+        } else seguir();
+      }
+      function seguir() { clearTimeout(timer); if (!reduce) timer = setTimeout(function () { activar(k + 1); }, espera); }
+      capas.forEach(function (c) {
+        if (c.tagName !== 'VIDEO') return;
+        c.addEventListener('ended', function () { if (capas[k] === c) activar(k + 1); });
+        c.addEventListener('error', function () { if (capas[k] === c) seguir(); });
+      });
+      [].forEach.call(puntos.children, function (b, i) { b.addEventListener('click', function () { activar(i); }); });
+      k = 0; capas[0].classList.remove('on'); puntos.children[0].classList.remove('on'); activar(0);
+      hero.classList.add('playing');
+    }
     if (I.antetitulo && q('.hhero-eyebrow')) q('.hhero-eyebrow').textContent = I.antetitulo;
     if (I.titular && q('.hhero-h1')) q('.hhero-h1').innerHTML = esc(I.titular).replace(/\n/g, '<br/>');
     if (I.bajada && q('.hhero-sub')) q('.hhero-sub').textContent = I.bajada;
@@ -33,6 +77,10 @@
     var conn = navigator.connection || {},
         slow = conn.saveData === true || /(^|-)2g$/.test(conn.effectiveType || ''),
         small = window.matchMedia('(max-width: 700px)').matches;
+
+    // Carrusel (modo «carrusel» en el administrador): diapositivas de imagen o video que se van fundiendo
+    var DS = (I.modo === 'carrusel' ? (I.diapositivas || []) : []).filter(function (d) { return d && d.src; });
+    if (DS.length > 1) { carrusel(DS); return; }
 
     if (reduce || slow || small) return;   // queda el poster
 
