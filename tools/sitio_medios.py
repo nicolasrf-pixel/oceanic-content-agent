@@ -232,6 +232,7 @@ def pulir(p):
 EXTRA = json.loads((RAIZ / 'tools' / 'premios-extra.json').read_text())
 _LP = RAIZ / 'tools' / 'premios-logos.json'
 LOGOS_PREMIOS = json.loads(_LP.read_text()) if _LP.exists() else {}
+CERTAMEN = {k: v for k, v in json.loads((RAIZ / 'tools' / 'premios-logos-certamen.json').read_text()).items() if not k.startswith('_')}
 
 
 def premios(carpeta, modelo_nombre):
@@ -283,6 +284,11 @@ def premios(carpeta, modelo_nombre):
                 out.append(p)
     for e in extra:
         out.append({'nombre': e['nombre'], 'detalle': e.get('detalle', '')})
+    # premio sin logo en la página del fabricante: logo oficial del certamen (tools/premios-logos-certamen.json)
+    for p in out:
+        c = CERTAMEN.get(p['nombre'])
+        if not p.get('logo') and c:
+            p['logo'] = c['logo']
     return out
 
 
