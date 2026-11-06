@@ -180,9 +180,9 @@
   function src(f) { f = String(f || ''); return /^(https?:)?\/\//.test(f) || f.charAt(0) === '/' ? f : 'assets/img/' + f; }
   function frase(t) { t = String(t || ''); var m = t.match(/^.{20,140}?[.:](\s|$)/); return m ? m[0].trim().replace(/:$/, '.') : t.slice(0, 120); }
   box.innerHTML = L.map(function (e, i) {
-    var foto = e.portada || e.tapa;
+    var foto = e.tapa || e.portada;  // la portada oficial de cada edición (la de oceanic.cl), en su proporción
     return '<a class="pz-i" href="puerto/edicion/index.html?ed=' + encodeURIComponent(e.slug) + '">' +
-      (foto ? '<div class="pz-img"><img alt="Puerto ' + esc(e.mes) + '" loading="lazy" src="' + esc(src(foto)) + '"/></div>' : '') +
+      (foto ? '<div class="pz-img' + (e.tapa ? ' pz-tapa' : '') + '"><img alt="Puerto ' + esc(e.mes) + '" loading="lazy" src="' + esc(src(foto)) + '"/></div>' : '') +
       '<span class="pz-kind">' + (i ? esc(e.mes) : 'Última edición') + '</span><h3>' + esc(e.mes) + '</h3>' +
       (e.resumen ? '<p>' + esc(frase(e.resumen)) + '</p>' : '') + '</a>';
   }).join('');

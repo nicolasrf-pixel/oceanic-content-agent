@@ -360,3 +360,4 @@
 .hhero-dots button{width:28px;height:3px;border:0;padding:0;background:rgba(255,255,255,.4);cursor:pointer;transition:background .3s}
 .hhero-dots button.on{background:#fff}
 @media(prefers-reduced-motion:reduce){.hhero-slide{transition:none}}
+.pz-img.pz-tapa{aspect-ratio:455/362}
