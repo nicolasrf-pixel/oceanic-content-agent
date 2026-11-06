@@ -101,7 +101,7 @@
 .pnot-gal{display:grid;gap:10px;margin:24px 0;grid-template-columns:1fr}
 @media(min-width:640px){.pnot-gal-2{grid-template-columns:1fr 1fr}.pnot-gal-3{grid-template-columns:repeat(3,1fr)}}
 .pnot-gal img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.pnot-specs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1px;background:rgba(20,33,43,.12);margin:24px 0}
+.pnot-specs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1px;background:rgba(20,33,43,.12);margin:24px 0}
 .pnot-specs div{background:var(--papel);padding:14px 16px}
 .pnot-specs dt{font-family:var(--dato);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--niebla)}
 .pnot-specs dd{margin:4px 0 0;font-family:var(--display);font-weight:600;font-size:20px;color:var(--tinta)}
@@ -116,3 +116,23 @@
 .pguia-pasos ul{margin:8px 0 0;padding-left:18px;font-weight:300;line-height:1.55;color:var(--trabajo)}
 .puerto-ok{margin:18px 0 6px;padding:14px 18px;border-left:3px solid var(--boya);background:rgba(255,255,255,.08);color:#fff;font-size:16px;line-height:1.5;max-width:56ch}
 .puerto-ok b{font-weight:600}
+
+/* Ediciones completas: foto principal, logo, índice y guía con subtítulos */
+.ped-indice{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:clamp(28px,3vw,44px);margin-bottom:clamp(8px,1vw,16px)}
+.ped-indice span{font-family:var(--dato);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-right:6px}
+.ped-indice a{font-family:var(--display);font-weight:500;font-size:14px;color:var(--tinta);text-decoration:none;padding:8px 14px;border:1px solid var(--linea);background:var(--papel);transition:border-color .2s,color .2s}
+.ped-indice a:hover{border-color:var(--boya);color:var(--boya)}
+.pnot{scroll-margin-top:96px}
+.pnot-foto{margin:0 0 clamp(24px,2.6vw,36px)}
+.pnot-foto img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+@media(min-width:1100px){.pnot:not(.pnot-con-lado) .pnot-foto{margin-left:-120px;margin-right:-120px}}
+.pnot-con-lado{max-width:1040px}
+@media(min-width:900px){.pnot-con-lado{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(28px,3.4vw,56px);align-items:start}
+  .pnot-con-lado .pnot-foto{position:sticky;top:110px;margin:0}}
+.pnot-foto-lado img{aspect-ratio:auto;max-height:620px;object-fit:contain;background:var(--arena)}
+.pnot-logo{display:block;height:auto;width:auto;max-height:30px;max-width:180px;margin-bottom:16px}
+.pguia-t{display:block}
+.pguia-sub{display:block;font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--niebla);margin-top:4px}
+.pguia-pasos ul li{margin:6px 0}
+.pguia-pasos ul b{color:var(--tinta);font-weight:600}
+.pnot-specs dd{font-size:16px;line-height:1.4}

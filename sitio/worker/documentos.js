@@ -131,6 +131,7 @@ function puerto(L, err, aviso) {
     e.bloques.forEach((b, j) => {
       const rb = `${r}.bloques[${j}]`;
       if (!b || typeof b !== 'object') return err(rb, 'Bloque inválido');
+      for (const k of ['foto', 'logo']) if (b[k] != null && b[k] !== '' && !rutaImagen(b[k])) err(rb + '.' + k, 'Ruta de imagen inválida');
       if (b.type === 'noticia') {
         if (!str(b.titular)) err(rb + '.titular', 'Falta el titular');
         if (b.etiqueta != null && typeof b.etiqueta !== 'string') err(rb + '.etiqueta', 'Texto');
@@ -209,7 +210,7 @@ function recorrer(v, f, ruta = '') {
   if (typeof v === 'string') f(v, ruta);
   else if (Array.isArray(v)) v.forEach((x, i) => recorrer(x, f, `${ruta}[${i}]`));
   else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) {
-    if (k === 'fotos' || k === 'galeria' || k === 'hero' || k === 'portada' || k === 'href' || k === 'fuente' || k === 'docs' || k === 'pdf' || k === 'url' || k === 'local') continue;
+    if (k === 'fotos' || k === 'galeria' || k === 'hero' || k === 'portada' || k === 'foto' || k === 'logo' || k === 'href' || k === 'fuente' || k === 'docs' || k === 'pdf' || k === 'url' || k === 'local') continue;
     recorrer(x, f, ruta ? ruta + '.' + k : k);
   }
 }

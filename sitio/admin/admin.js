@@ -605,6 +605,11 @@
             h('button', { class: 'mini', text: '↑', onclick: function () { mover(-1); } }), h('button', { class: 'mini', text: '↓', onclick: function () { mover(1); } }),
             h('button', { class: 'mini x', text: 'Borrar', onclick: function () { if (confirm('¿Borrar este bloque?')) { e.bloques.splice(j, 1); marcar(doc); pintar(); } } }));
           var caja = h('div', { class: 'bloque' + (b.type === 'guia' ? ' guia' : '') }, cab);
+          // foto principal del bloque (y logo de la marca, opcional)
+          var lado = h('input', { type: 'checkbox', checked: !!b.foto_lado, onchange: function () { if (lado.checked) b.foto_lado = true; else delete b.foto_lado; marcar(doc); } });
+          caja.appendChild(h('div', { class: 'panel' }, h('b', { text: 'Foto principal' }), h('small', { text: ' · arriba del texto; marca «al lado» si es vertical o chica' }),
+            campoImagen(doc, b, 'foto', 'puerto'), h('label', null, lado, ' Mostrar la foto al lado del texto'),
+            h('b', { style: 'display:block;margin-top:10px', text: 'Logo (opcional)' }), campoImagen(doc, b, 'logo', 'puerto')));
           if (b.type === 'guia') {
             b.pasos = b.pasos || [];
             var pasos = h('div');
@@ -612,13 +617,17 @@
               vaciar(pasos);
               b.pasos.forEach(function (p, k) {
                 p.puntos = p.puntos || [];
-                pasos.appendChild(h('div', { class: 'panel' }, h('div', { class: 'fila' }, campo('N°', texto(doc, p, 'n')), campo('Título del paso', texto(doc, p, 'titulo'))),
+                pasos.appendChild(h('div', { class: 'panel' }, h('div', { class: 'fila' }, campo('N°', texto(doc, p, 'n')), campo('Título del paso', texto(doc, p, 'titulo')), campo('Subtítulo', texto(doc, p, 'sub'))),
                   h('span', { class: 'etq', text: 'Puntos' }), listaTextos(doc, p.puntos, { agregar: 'Punto' }),
                   h('button', { class: 'mini x', style: 'margin-top:6px', text: 'Quitar paso', onclick: function () { b.pasos.splice(k, 1); marcar(doc); pintarPasos(); } })));
               });
               pasos.appendChild(h('button', { class: 'mini', text: '+ Paso', onclick: function () { b.pasos.push({ n: String(b.pasos.length + 1).padStart(2, '0'), titulo: '', puntos: [] }); marcar(doc); pintarPasos(); } }));
             })();
-            caja.appendChild(campo('Titular', texto(doc, b, 'titular'))); caja.appendChild(pasos);
+            b.cuerpo = b.cuerpo || [];
+            caja.appendChild(h('div', { class: 'fila' }, campo('Etiqueta', texto(doc, b, 'etiqueta', { ph: 'Mantenimiento · Guía técnica' })), campo('Titular', texto(doc, b, 'titular'))));
+            caja.appendChild(campo('Bajada', texto(doc, b, 'bajada', { largo: true, filas: 2 })));
+            caja.appendChild(h('div', { class: 'campo' }, h('span', { class: 'etq', text: 'Introducción (párrafos)' }), listaTextos(doc, b.cuerpo, { largo: true, agregar: 'Párrafo' })));
+            caja.appendChild(h('small', { text: 'Puntos con «Etiqueta: texto» muestran la etiqueta en negrita.' })); caja.appendChild(pasos);
           } else {
             b.cuerpo = b.cuerpo || [];
             caja.appendChild(h('div', { class: 'fila' }, campo('Etiqueta', texto(doc, b, 'etiqueta', { ph: 'Beneteau · Entrega en Chile' })), campo('Titular', texto(doc, b, 'titular'))));

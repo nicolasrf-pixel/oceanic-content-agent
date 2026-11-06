@@ -22,13 +22,20 @@
   }
   document.title = 'Puerto ' + ed.mes + ' · El newsletter de Oceanic';
 
-  function noticia(b) {
-    var gal = (b.galeria || []).slice(0, 9);
-    return '<article class="pnot">' +
+  // Foto principal del bloque: ancha sobre el texto, o al lado (foto_lado) cuando es vertical o pequeña
+  function foto(b) {
+    return b.foto && b.foto !== ed.portada ?  // si es la misma foto de la portada de la edición, no se repite '<figure class="pnot-foto' + (b.foto_lado ? ' pnot-foto-lado' : '') + '"><img src="' + esc(img(b.foto)) + '" alt="" loading="lazy"></figure>' : '';
+  }
+  function cabeza(b) {
+    return (b.logo ? '<img class="pnot-logo" src="' + esc(img(b.logo)) + '" alt="" loading="lazy">' : '') +
       (b.etiqueta ? '<span class="pnot-tag">' + esc(b.etiqueta) + '</span>' : '') +
       '<h2 class="pnot-h">' + esc(b.titular) + '</h2>' +
       (b.bajada ? '<p class="pnot-baj">' + esc(b.bajada) + '</p>' : '') +
-      (b.cuerpo || []).map(function (p) { return '<p class="pnot-p">' + esc(p) + '</p>'; }).join('') +
+      (b.cuerpo || []).map(function (p) { return '<p class="pnot-p">' + esc(p) + '</p>'; }).join('');
+  }
+  function noticia(b, i) {
+    var gal = (b.galeria || []).slice(0, 9);
+    return '<article class="pnot' + (b.foto_lado ? ' pnot-con-lado' : '') + '" id="tema-' + (i + 1) + '">' + foto(b) + '<div class="pnot-cuerpo">' + cabeza(b) +
       (gal.length ? '<div class="pnot-gal pnot-gal-' + Math.min(gal.length, 3) + '">' + gal.map(function (g) {
         return '<img src="' + esc(img(g)) + '" alt="" loading="lazy">'; }).join('') + '</div>' : '') +
       ((b.specs || []).length ? '<dl class="pnot-specs">' + b.specs.map(function (s) {
@@ -37,14 +44,18 @@
         (b.evento.fecha ? '<b>' + esc(b.evento.fecha) + '</b>' : '') + (b.evento.lugar ? '<span>' + esc(b.evento.lugar) + '</span>' : '') +
         (b.evento.texto ? '<p>' + esc(b.evento.texto) + '</p>' : '') + '</div>' : '') +
       (b.cta && b.cta.texto && href(b.cta.href) ? '<a class="btn pnot-cta" href="' + esc(href(b.cta.href)) + '">' + esc(b.cta.texto) + '</a>' : '') +
-    '</article>';
+    '</div></article>';
   }
-  function guia(b) {
-    return '<article class="pnot pguia"><span class="pnot-tag">Guía técnica</span><h2 class="pnot-h">' + esc(b.titular) + '</h2>' +
-      '<ol class="pguia-pasos">' + (b.pasos || []).map(function (p, i) {
-        return '<li><span class="pguia-n">' + esc(p.n || String(i + 1).padStart(2, '0')) + '</span><div><b>' + esc(p.titulo) + '</b>' +
-          ((p.puntos || []).length ? '<ul>' + p.puntos.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') + '</div></li>';
-      }).join('') + '</ol></article>';
+  // «Etiqueta: texto» → etiqueta en negrita
+  function punto(x) { var m = /^([^:]{2,40}):\s+(.+)$/.exec(String(x)); return m ? '<b>' + esc(m[1]) + '</b> ' + esc(m[2]) : esc(x); }
+  function guia(b, i) {
+    if (!b.etiqueta) b = Object.assign({ etiqueta: 'Guía técnica' }, b);
+    return '<article class="pnot pguia' + (b.foto_lado ? ' pnot-con-lado' : '') + '" id="tema-' + (i + 1) + '">' + foto(b) + '<div class="pnot-cuerpo">' + cabeza(b) +
+      '<ol class="pguia-pasos">' + (b.pasos || []).map(function (p, k) {
+        return '<li><span class="pguia-n">' + esc(p.n || String(k + 1).padStart(2, '0')) + '</span><div><b class="pguia-t">' + esc(p.titulo) + '</b>' +
+          (p.sub ? '<span class="pguia-sub">' + esc(p.sub) + '</span>' : '') +
+          ((p.puntos || []).length ? '<ul>' + p.puntos.map(function (x) { return '<li>' + punto(x) + '</li>'; }).join('') + '</ul>' : '') + '</div></li>';
+      }).join('') + '</ol></div></article>';
   }
   var R = { noticia: noticia, guia: guia };
 
@@ -55,6 +66,8 @@
     (href(ed.pdf) ? '<p style="margin-top:22px"><a class="pfeat-link" href="' + esc(href(ed.pdf)) + '" target="_blank" rel="noopener">Descargar la edición en PDF ↗</a></p>' : '') +
     '</div></header>' +
     (ed.portada ? '<div class="ped-portada wrap-wide"><img src="' + esc(img(ed.portada)) + '" alt="Puerto ' + esc(ed.mes) + '"></div>' : '') +
-    '<section class="pbloques"><div class="wrap-wide">' + (ed.bloques || []).map(function (b) { return R[b.type] ? R[b.type](b) : ''; }).join('') +
+    ((ed.bloques || []).length > 1 ? '<nav class="ped-indice wrap-wide" aria-label="En esta edición"><span>En esta edición</span>' +
+      ed.bloques.map(function (b, i) { return '<a href="#tema-' + (i + 1) + '">' + esc(b.titular) + '</a>'; }).join('') + '</nav>' : '') +
+    '<section class="pbloques"><div class="wrap-wide">' + (ed.bloques || []).map(function (b, i) { return R[b.type] ? R[b.type](b, i) : ''; }).join('') +
     '<p class="parch-more"><a href="../">← Todas las ediciones</a></p></div></section>';
 })();
