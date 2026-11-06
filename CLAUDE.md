@@ -211,6 +211,12 @@ Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=
 superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
 Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
 
+**Eventos (decisión Oceanic 2026-11-06):** el CMS (`/admin/` › Eventos, documento `eventos` = `assets/js/eventos-data.js`) crea
+landings de invitación (`/evento/?e=<slug>`: portada, texto, detalles, programa, galería y formulario de inscripción tipo
+`evento`, que va a ventas y a la lista Brevo «Web · Eventos») y pop-ups (fechas desde/hasta, páginas, frecuencia, retraso).
+`nav-tpl.js` carga el pop-up en todas las páginas solo si hay uno activo; pasada la fecha la landing queda sin formulario.
+La portada del inicio también admite carrusel de imágenes y videos (`inicio-data.js › modo: carrusel`).
+
 **Correo de formularios (decisión Oceanic 2026-11-05):** motor propio por SMTP de Google Workspace (`sitio/functions/api/smtp.js`, secreto `SMTP_CLAVE` = contraseña de aplicación de contacto@oceanic.cl). Brevo solo guarda el CRM (listas «Web · <Marca>») y Puerto; no envía cotizaciones. Detalle en `docs/FORMULARIOS.md`.
 
 **Marca (decisión Oceanic 2026-11-05):** logos oficiales en `sitio/assets/img/marca/`: `logo.svg` / `logo-blanco.svg` (sin «EST. 1994», para tamaños chicos: barra superior), `logo-est.svg` / `logo-blanco-est.svg` (completo, donde se lea: pie, página 404, correos), `iso.svg` / `iso-blanco.svg` (isotipo: íconos de pestaña). Blanco siempre sobre azul (barra y pie). Los correos usan PNG (`logo-blanco-est-correo.png`, `logo-blanco-correo.png`) porque Gmail y Outlook no muestran SVG. No se escribe «OCEANIC» como texto en lugar del logo.

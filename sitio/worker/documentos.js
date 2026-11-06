@@ -17,6 +17,7 @@ export const DOCS = {
   'marcas-contenido': js('/assets/js/marcas-contenido.js', 'OCEANIC_MARCA_CONTENIDO', { titulo: 'Contenido de marcas' }),
   charter:            js('/assets/js/charter-data.js', 'OCEANIC_CHARTER', { titulo: 'Charter' }),
   equipamiento:       js('/assets/js/equipamiento-data.js', 'OCEANIC_EQUIPAMIENTO', { titulo: 'Equipamiento' }),
+  eventos:            js('/assets/js/eventos-data.js', 'OCEANIC_EVENTOS', { titulo: 'Eventos: pop-ups y landings' }),
   // Solo en el CMS (no hay archivo en el sitio): patrones prohibidos del Brand OS, se validan al guardar texto.
   patrones:           { titulo: 'Patrones prohibidos', soloCms: true, base: [] },
 };
@@ -83,6 +84,7 @@ export function validar(clave, d, patrones = []) {
   else if (clave === 'puerto') puerto(d, err, aviso);
   else if (clave === 'publicacion') publicacion(d, err);
   else if (clave === 'inicio') inicio(d, err);
+  else if (clave === 'eventos') eventos(d, err, aviso);
   else if (clave === 'catalogo' || clave === 'contenido') ficha(d, err, aviso);
   else if (clave === 'patrones') listaPatrones(d, err);
   else if (FICHA.test(clave)) ficha(d, err, aviso);
@@ -176,6 +178,51 @@ function inicio(d, err) {
     });
   }
   if (d.modo === 'carrusel' && !(Array.isArray(d.diapositivas) && d.diapositivas.length >= 2)) err('diapositivas', 'El carrusel necesita al menos 2 diapositivas');
+}
+
+function eventos(d, err, aviso) {
+  if (!d || typeof d !== 'object' || Array.isArray(d)) return err('', 'Eventos: objeto { popups, landings }');
+  const texto = (v) => v == null || typeof v === 'string';
+  const fecha = (v) => !v || FECHA.test(v);
+  const slugs = new Set();
+  if (!Array.isArray(d.landings)) err('landings', 'landings: lista');
+  else d.landings.forEach((l, i) => {
+    const r = `landings[${i}]`, n = (l && l.titulo) || 'Landing ' + (i + 1);
+    if (!l || typeof l !== 'object') return err(r, 'Cada landing es un objeto');
+    if (!SLUG.test(l.slug || '')) err(r + '.slug', `${n}: dirección en minúsculas con guiones (ej. lanzamiento-axopar-28)`);
+    else if (slugs.has(l.slug)) err(r + '.slug', `${n}: dirección repetida`); else slugs.add(l.slug);
+    if (!l.titulo) err(r + '.titulo', `Landing ${i + 1}: falta el título`);
+    for (const k of ['antetitulo', 'titulo', 'bajada', 'hora', 'lugar', 'boton', 'gracias']) if (!texto(l[k])) err(r + '.' + k, `${n}: ${k} debe ser texto`);
+    for (const k of ['fecha', 'inscripcion_hasta']) if (!fecha(l[k])) err(r + '.' + k, `${n}: fecha AAAA-MM-DD`);
+    if (l.imagen && !rutaImagen(l.imagen)) err(r + '.imagen', `${n}: imagen inválida`);
+    if (l.mapa && (!enlaceSeguro(l.mapa) || !/^https:\/\//.test(l.mapa))) err(r + '.mapa', `${n}: el mapa es un enlace https://`);
+    if (l.cuerpo != null && (!Array.isArray(l.cuerpo) || !l.cuerpo.every((x) => typeof x === 'string'))) err(r + '.cuerpo', `${n}: párrafos de texto`);
+    if (l.programa != null && (!Array.isArray(l.programa) || !l.programa.every((x) => x && texto(x.hora) && texto(x.texto)))) err(r + '.programa', `${n}: programa [{hora, texto}]`);
+    if (l.galeria != null && (!Array.isArray(l.galeria) || !l.galeria.every(rutaImagen))) err(r + '.galeria', `${n}: fotos inválidas`);
+    if (l.visible && !l.fecha) aviso(r + '.fecha', `${n}: sin fecha, la landing nunca se marca como realizada`);
+  });
+  if (!Array.isArray(d.popups)) err('popups', 'popups: lista');
+  else {
+    const ids = new Set();
+    d.popups.forEach((p, i) => {
+      const r = `popups[${i}]`, n = (p && p.titulo) || 'Pop-up ' + (i + 1);
+      if (!p || typeof p !== 'object') return err(r, 'Cada pop-up es un objeto');
+      if (!SLUG.test(p.id || '')) err(r + '.id', `${n}: identificador en minúsculas con guiones`);
+      else if (ids.has(p.id)) err(r + '.id', `${n}: identificador repetido`); else ids.add(p.id);
+      if (p.activo && !p.titulo) err(r + '.titulo', `Pop-up ${i + 1}: falta el título`);
+      for (const k of ['antetitulo', 'titulo', 'texto', 'boton']) if (!texto(p[k])) err(r + '.' + k, `${n}: ${k} debe ser texto`);
+      for (const k of ['desde', 'hasta']) if (!fecha(p[k])) err(r + '.' + k, `${n}: fecha AAAA-MM-DD`);
+      if (p.desde && p.hasta && p.desde > p.hasta) err(r + '.hasta', `${n}: «hasta» es anterior a «desde»`);
+      if (p.imagen && !rutaImagen(p.imagen)) err(r + '.imagen', `${n}: imagen inválida`);
+      if (p.enlace && !enlaceSeguro(p.enlace)) err(r + '.enlace', `${n}: enlace inseguro`);
+      if (p.paginas != null && !['todas', 'inicio', 'marcas'].includes(p.paginas)) err(r + '.paginas', `${n}: páginas: todas, inicio o marcas`);
+      if (p.frecuencia != null && !['una-vez', 'sesion', 'siempre'].includes(p.frecuencia)) err(r + '.frecuencia', `${n}: frecuencia: una-vez, sesion o siempre`);
+      if (p.retraso != null && (typeof p.retraso !== 'number' || p.retraso < 0 || p.retraso > 60)) err(r + '.retraso', `${n}: segundos de espera entre 0 y 60`);
+      const m = /evento\/(?:index\.html)?\?e=([a-z0-9-]+)/.exec(p.enlace || '');
+      if (p.activo && m && Array.isArray(d.landings) && !d.landings.some((l) => l && l.slug === m[1] && l.visible)) aviso(r + '.enlace', `${n}: lleva a una landing que no existe o está oculta`);
+    });
+    if (d.popups.filter((p) => p && p.activo).length > 1) aviso('popups', 'Hay más de un pop-up activo: se muestra solo el primero vigente');
+  }
 }
 
 function publicacion(d, err) {

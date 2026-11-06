@@ -277,3 +277,13 @@ test('arriendo de boyas: tipo válido con su línea de negocio', async () => {
   assert.equal(d.tipo, 'boyas');
   assert.equal(validar(d), null);
 });
+
+test('inscripción a evento: tipo válido, correos con el nombre del evento', async () => {
+  const { limpiar, validar, correoVentas, correoConfirmacion } = await import('../functions/api/formulario.js');
+  const d = limpiar({ tipo: 'evento', nombre: 'Ana Pérez', email: 'ana@ejemplo.cl', acepta: true, motivo: 'Lanzamiento Axopar 28', detalle: '• Evento: Lanzamiento Axopar 28' });
+  assert.equal(d.tipo, 'evento');
+  assert.equal(validar(d), null);
+  d.fecha = '2026-11-06T12:00:00Z'; d.sitio = 'https://oceanic.cl'; d.politica = 'v1';
+  assert.match(correoVentas(d, null).asunto, /Lanzamiento Axopar 28/);
+  assert.match(correoConfirmacion(d, null).asunto, /inscripción/);
+});

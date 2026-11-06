@@ -914,6 +914,133 @@
     });
   };
 
+  /* --- Eventos: pop-ups de invitación y landings de eventos (eventos-data.js) --- */
+  function slugDe(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); }
+  function interruptor(obj, k, etq, alCambiar) {
+    var c = h('input', { type: 'checkbox', checked: !!obj[k], onchange: function () { obj[k] = c.checked; alCambiar(); } });
+    return h('div', { class: 'interruptor-fila' }, h('label', { class: 'interruptor' }, c, h('span')), ' ' + etq);
+  }
+  function campoFecha(doc, obj, k) {
+    return h('input', { type: 'date', value: obj[k] || '', style: 'max-width:200px', onchange: function (e) { obj[k] = e.target.value; marcar(doc); } });
+  }
+  S.eventos = function () {
+    return cargar('eventos').then(function (doc) {
+      var E = doc.contenido;
+      if (!Array.isArray(E.popups)) E.popups = [];
+      if (!Array.isArray(E.landings)) E.landings = [];
+      var abiertoP = -1, abiertoL = -1;
+      var cajaP = h('div'), cajaL = h('div');
+      function urlLanding(l) { return '/evento/?e=' + l.slug; }
+      function pintarP() {
+        vaciar(cajaP);
+        E.popups.forEach(function (p, i) {
+          var opcionesL = { '': '— Otro enlace —' };
+          E.landings.forEach(function (l) { if (l.slug) opcionesL['evento/index.html?e=' + l.slug] = 'Landing: ' + (l.titulo || l.slug) + (l.visible ? '' : ' (oculta)'); });
+          var enlace = texto(doc, p, 'enlace', { ph: 'evento/index.html?e=… o https://…' });
+          var elegir = selector(opcionesL, opcionesL[p.enlace] ? p.enlace : '', function (v) { if (v) { p.enlace = v; enlace.value = v; marcar(doc); } });
+          var seg = h('input', { type: 'number', min: 0, max: 60, value: p.retraso == null ? 4 : p.retraso, style: 'max-width:100px',
+            oninput: function (e) { p.retraso = e.target.value === '' ? 4 : Number(e.target.value); marcar(doc); } });
+          var det = h('details', { class: 'panel', open: i === abiertoP },
+            h('summary', null, h('b', { text: (p.activo ? '● ' : '○ ') + (p.titulo || 'Pop-up sin título') }),
+              h('small', { text: '  ' + (p.activo ? 'Activo' : 'Apagado') + (p.desde || p.hasta ? ' · ' + (p.desde || '…') + ' → ' + (p.hasta || '…') : '') })),
+            interruptor(p, 'activo', 'Mostrar este pop-up en el sitio', function () { marcar(doc); abiertoP = i; pintarP(); }),
+            campo('Antetítulo', texto(doc, p, 'antetitulo', { ph: 'Invitación' })),
+            campo('Título', texto(doc, p, 'titulo')),
+            campo('Texto', texto(doc, p, 'texto', { largo: true, filas: 3 })),
+            campo('Imagen (opcional)', campoImagen(doc, p, 'imagen', 'eventos'), 'Horizontal o cuadrada. Sin imagen, el pop-up sale solo con texto.'),
+            campo('Texto del botón', texto(doc, p, 'boton', { ph: 'Ver invitación' })),
+            campo('El botón lleva a', h('div', null, elegir, h('div', { style: 'margin-top:6px' }, enlace)), 'Elige una landing de abajo o pega cualquier enlace.'),
+            h('div', { class: 'filtros' },
+              campo('Mostrar desde', campoFecha(doc, p, 'desde')), campo('Hasta', campoFecha(doc, p, 'hasta'))),
+            h('div', { class: 'filtros' },
+              campo('Dónde aparece', selector({ todas: 'Todas las páginas', inicio: 'Solo el inicio', marcas: 'Marcas y fichas de barcos' }, p.paginas || 'todas', function (v) { p.paginas = v; marcar(doc); })),
+              campo('Cada cuánto', selector({ 'una-vez': 'Una vez por persona', sesion: 'Una vez por visita', siempre: 'En cada página' }, p.frecuencia || 'una-vez', function (v) { p.frecuencia = v; marcar(doc); })),
+              campo('Aparece a los (segundos)', seg)),
+            h('div', { class: 'filtros' },
+              h('button', { class: 'mini', text: '↑ Subir', onclick: function () { if (i) { E.popups.splice(i - 1, 0, E.popups.splice(i, 1)[0]); marcar(doc); abiertoP = i - 1; pintarP(); } } }),
+              h('button', { class: 'mini x', text: '✕ Eliminar pop-up', onclick: function () { if (confirm('¿Eliminar este pop-up?')) { E.popups.splice(i, 1); marcar(doc); abiertoP = -1; pintarP(); } } })));
+          cajaP.appendChild(det);
+        });
+        cajaP.appendChild(h('button', { class: 'btn-sm', text: '+ Nuevo pop-up', onclick: function () {
+          E.popups.push({ id: 'popup-' + Date.now().toString(36), activo: false, antetitulo: 'Invitación', titulo: '', texto: '', imagen: '', boton: 'Ver invitación', enlace: '', desde: '', hasta: '', paginas: 'todas', frecuencia: 'una-vez', retraso: 4 });
+          marcar(doc); abiertoP = E.popups.length - 1; pintarP();
+        } }));
+      }
+      function pintarL() {
+        vaciar(cajaL);
+        E.landings.forEach(function (l, i) {
+          if (!Array.isArray(l.cuerpo)) l.cuerpo = [];
+          if (!Array.isArray(l.programa)) l.programa = [];
+          if (!Array.isArray(l.galeria)) l.galeria = [];
+          var prog = h('div');
+          (function pintarProg() {
+            vaciar(prog);
+            l.programa.forEach(function (x, j) {
+              prog.appendChild(h('div', { class: 'item filtros' },
+                h('input', { type: 'text', value: x.hora || '', placeholder: '18:00', style: 'max-width:90px', oninput: function (e) { x.hora = e.target.value; marcar(doc); } }),
+                h('input', { type: 'text', value: x.texto || '', placeholder: 'Qué pasa', oninput: function (e) { x.texto = e.target.value; marcar(doc); } }),
+                h('button', { class: 'mini x', text: '✕', onclick: function () { l.programa.splice(j, 1); marcar(doc); pintarProg(); } })));
+            });
+            prog.appendChild(h('button', { class: 'mini', text: '+ Hito del programa', onclick: function () { l.programa.push({ hora: '', texto: '' }); marcar(doc); pintarProg(); } }));
+          })();
+          var manual = !!l.titulo;
+          var dir = texto(doc, l, 'slug', { ph: 'lanzamiento-axopar-28', alCambiar: function () { ver.href = urlLanding(l); ver.textContent = location.origin + urlLanding(l); } });
+          var ver = h('a', { href: urlLanding(l), target: '_blank', rel: 'noopener', text: location.origin + urlLanding(l) });
+          var tit = texto(doc, l, 'titulo', { alCambiar: function (v) { if (!manual && !l.visible) { l.slug = slugDe(v); dir.value = l.slug; ver.href = urlLanding(l); ver.textContent = location.origin + urlLanding(l); } } });
+          dir.addEventListener('input', function () { manual = true; });
+          var det = h('details', { class: 'panel', open: i === abiertoL },
+            h('summary', null, h('b', { text: (l.visible ? '● ' : '○ ') + (l.titulo || 'Landing sin título') }),
+              h('small', { text: '  ' + (l.visible ? 'Publicada' : 'Oculta') + (l.fecha ? ' · ' + l.fecha : '') })),
+            interruptor(l, 'visible', 'Publicar esta landing (oculta solo se ve con la vista previa activada)', function () { marcar(doc); abiertoL = i; pintarL(); }),
+            campo('Título del evento', tit),
+            campo('Dirección de la página', dir, 'Minúsculas y guiones. Para compartir: '), h('div', { style: 'margin:-6px 0 14px' }, ver),
+            campo('Antetítulo', texto(doc, l, 'antetitulo', { ph: 'Invitación' })),
+            campo('Bajada', texto(doc, l, 'bajada', { largo: true, filas: 2 }), 'Una o dos frases. También es el texto de la vista previa al compartir por WhatsApp.'),
+            campo('Imagen de portada', campoImagen(doc, l, 'imagen', 'eventos'), 'Horizontal, 2560 px. También es la imagen al compartir.'),
+            h('div', { class: 'filtros' },
+              campo('Fecha', campoFecha(doc, l, 'fecha')),
+              campo('Hora', texto(doc, l, 'hora', { ph: '18:00 a 21:00 h' })),
+              campo('Lugar', texto(doc, l, 'lugar', { ph: 'Marina, club o dirección' }))),
+            campo('Enlace al mapa (opcional)', texto(doc, l, 'mapa', { ph: 'https://maps.google.com/…' })),
+            campo('Texto de la invitación', listaTextos(doc, l.cuerpo, { largo: true, agregar: 'Párrafo' }), 'El primer párrafo se destaca.'),
+            campo('Programa (opcional)', prog),
+            campo('Galería (opcional)', editorFotos(doc, l.galeria, 'eventos')),
+            h('h3', { text: 'Inscripción' }),
+            interruptor(l, 'inscripcion', 'Con formulario de inscripción (llega a ventas y queda en el CRM, lista «Web · Eventos»)', function () { marcar(doc); }),
+            interruptor(l, 'acompanantes', 'Preguntar cuántos acompañantes vienen', function () { marcar(doc); }),
+            h('div', { class: 'filtros' },
+              campo('Inscripción abierta hasta', campoFecha(doc, l, 'inscripcion_hasta'), 'Vacío: hasta el día del evento.'),
+              campo('Texto del botón', texto(doc, l, 'boton', { ph: 'Confirmar asistencia' }))),
+            campo('Mensaje después de inscribirse', texto(doc, l, 'gracias', { largo: true, filas: 2 })),
+            h('small', { text: 'Pasada la fecha del evento, la landing muestra «Este evento ya se realizó» y oculta el formulario.' }),
+            h('div', { class: 'filtros', style: 'margin-top:12px' },
+              h('button', { class: 'mini', text: '+ Pop-up que invite a esta landing', onclick: function () {
+                E.popups.push({ id: 'popup-' + (l.slug || Date.now().toString(36)), activo: false, antetitulo: l.antetitulo || 'Invitación', titulo: l.titulo || '', texto: l.bajada || '', imagen: l.imagen || '', boton: 'Ver invitación', enlace: 'evento/index.html?e=' + l.slug, desde: '', hasta: l.fecha || '', paginas: 'todas', frecuencia: 'una-vez', retraso: 4 });
+                marcar(doc); abiertoP = E.popups.length - 1; pintarP(); avisar('Pop-up creado arriba (apagado): revísalo y actívalo.');
+              } }),
+              h('button', { class: 'mini', text: 'Duplicar', onclick: function () {
+                var c = JSON.parse(JSON.stringify(l)); c.slug = (l.slug || 'evento') + '-copia'; c.visible = false; c.titulo = (l.titulo || '') + ' (copia)';
+                E.landings.splice(i + 1, 0, c); marcar(doc); abiertoL = i + 1; pintarL();
+              } }),
+              h('button', { class: 'mini x', text: '✕ Eliminar landing', onclick: function () { if (confirm('¿Eliminar esta landing?')) { E.landings.splice(i, 1); marcar(doc); abiertoL = -1; pintarL(); pintarP(); } } })));
+          cajaL.appendChild(det);
+        });
+        cajaL.appendChild(h('button', { class: 'btn-sm', text: '+ Nueva landing de evento', onclick: function () {
+          E.landings.unshift({ slug: 'evento-' + Date.now().toString(36), visible: false, antetitulo: 'Invitación', titulo: '', bajada: '', imagen: '', fecha: '', hora: '', lugar: '', mapa: '', cuerpo: [''], programa: [], galeria: [], inscripcion: true, inscripcion_hasta: '', acompanantes: true, boton: 'Confirmar asistencia', gracias: 'Te esperamos. Te enviamos la confirmación a tu correo.' });
+          marcar(doc); abiertoL = 0; pintarL(); pintarP();
+        } }));
+      }
+      pintarP(); pintarL();
+      return h('div', null, h('h1', { text: 'Eventos: pop-ups y landings' }),
+        h('p', { class: 'lede', text: 'Crea la invitación a un evento: una landing con la información y el formulario de inscripción, y un pop-up que invite a verla desde el sitio. Todo queda en borrador hasta que publiques.' }),
+        barra(doc),
+        h('h2', { text: 'Pop-ups' }),
+        h('p', { text: 'Se muestra el primer pop-up activo dentro de sus fechas. Cada persona lo ve según la frecuencia elegida y lo puede cerrar.' }),
+        cajaP,
+        h('h2', { text: 'Landings de eventos' }), cajaL);
+    });
+  };
+
   function router() {
     var hash = (location.hash || '#inicio').slice(1), p = hash.split('/'), sec = p[0], arg = p.slice(1).join('/');
     var fn = S[sec] || S.inicio;

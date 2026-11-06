@@ -4,6 +4,7 @@
    /marca/?m=<marca>&modelo=<slug>   → nombre y foto del modelo (catálogo)
    /marca/?m=<marca>[&u=vela|motor]  → nombre de la marca y su portada
    /usados/barco/?id=<id>            → nombre, año, precio y foto del aviso
+   /evento/?e=<slug>                 → título, fecha y foto de la invitación
    Si algo no se encuentra, la página sale con los metadatos generales del sitio. */
 
 // Memoria de 5 minutos por archivo (lo publicado desde el administrador aparece a más tardar en ese plazo).
@@ -70,6 +71,17 @@ async function metadatos(env, url) {
       titulo: u.nombre + (u.anio ? ' (' + u.anio + ')' : '') + ' · Usado | Oceanic',
       desc: (u.estado === 'vendido' ? 'Vendido. ' : (u.precio ? u.precio + '. ' : '')) + (u.resumen || 'Embarcación usada revisada por Oceanic.'),
       imagen: foto,
+    };
+  }
+  if (url.pathname.startsWith('/evento')) {
+    const ev = await datosJS(env, o, 'eventos-data.js', 'OCEANIC_EVENTOS', '{');
+    const l = ev && (ev.landings || []).find((x) => x.slug === q.get('e') && x.visible);
+    if (!l) return null;
+    const cuando = /^\d{4}-\d{2}-\d{2}$/.test(l.fecha || '') ? l.fecha.split('-').reverse().join('-') : '';
+    return {
+      titulo: l.titulo + ' | Oceanic',
+      desc: [cuando, l.hora, l.lugar].filter(Boolean).join(' · ') + (l.bajada ? (cuando || l.lugar ? '. ' : '') + l.bajada : ''),
+      imagen: abs(o, l.imagen, '/assets/img/'),
     };
   }
   return null;

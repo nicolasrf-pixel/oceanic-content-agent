@@ -40,7 +40,7 @@ export default {
       if (p.startsWith('/media/')) return await media(request, env, decodeURIComponent(p.slice(7)));
       if (/^\/puerto-[a-z0-9-]+\/?$/.test(p)) return await redireccionPuerto(request, env, url);
       // fichas y usados: vista previa al compartir con el nombre y la foto de cada barco (worker/compartir.js)
-      if ((p === '/marca/' || p === '/marca/index.html' || p === '/usados/barco/' || p === '/usados/barco/index.html') &&
+      if ((p === '/marca/' || p === '/marca/index.html' || p === '/usados/barco/' || p === '/usados/barco/index.html' || p === '/evento/' || p === '/evento/index.html') &&
           (request.method === 'GET' || request.method === 'HEAD')) return await paginaCompartible(request, env, (req) => {
             const c = claveDeRuta(new URL(req.url).pathname);
             return c ? datos(req, env, c) : env.ASSETS.fetch(req);

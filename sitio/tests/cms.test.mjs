@@ -113,3 +113,23 @@ test('contraseña: sin secreto o sin cookie válida no hay sesión', async () =>
   assert.equal(await usuarioPorSesion(req('oceanic_admin=corto'), env), null);
   assert.equal(await usuarioPorSesion(req(null), env), null);
 });
+
+test('eventos: valida landings y pop-ups', async () => {
+  const { validar } = await import('../worker/documentos.js');
+  const ok = { popups: [{ id: 'p1', activo: true, titulo: 'Te invitamos', enlace: 'evento/index.html?e=lanzamiento', desde: '2026-11-01', hasta: '2026-11-30', paginas: 'todas', frecuencia: 'una-vez', retraso: 4 }],
+    landings: [{ slug: 'lanzamiento', visible: true, titulo: 'Lanzamiento', fecha: '2026-11-30', cuerpo: ['Hola'], programa: [{ hora: '18:00', texto: 'Recepción' }], galeria: [] }] };
+  assert.deepEqual(validar('eventos', ok).errores, []);
+  const mal = { popups: [{ id: 'P 1', activo: true, titulo: 'x', enlace: 'javascript:alert(1)', desde: '2026-12-01', hasta: '2026-11-01', frecuencia: 'nunca' }],
+    landings: [{ slug: 'a', titulo: 'A' }, { slug: 'a', titulo: '', mapa: 'http://x' }] };
+  const e = validar('eventos', mal).errores.map((x) => x.ruta);
+  for (const r of ['popups[0].id', 'popups[0].enlace', 'popups[0].hasta', 'popups[0].frecuencia', 'landings[1].slug', 'landings[1].titulo', 'landings[1].mapa']) assert.ok(e.includes(r), r);
+  const aviso = validar('eventos', { popups: [{ id: 'p', activo: true, titulo: 'x', enlace: 'evento/?e=no-existe' }], landings: [] }).avisos;
+  assert.ok(aviso.some((a) => /no existe/.test(a.msg)));
+});
+
+test('eventos: el archivo del repo pasa la validación', async () => {
+  const { validar, DOCS } = await import('../worker/documentos.js');
+  const fs = await import('node:fs');
+  const d = DOCS.eventos.leer(fs.readFileSync(new URL('../assets/js/eventos-data.js', import.meta.url), 'utf8'));
+  assert.deepEqual(validar('eventos', d).errores, []);
+});

@@ -6,7 +6,7 @@ import { DOCS, definicion, validar } from './documentos.js';
 const MAX_DOC = 1_800_000;          // D1: 2 MB por fila
 const MAX_MEDIO = 20 * 1024 * 1024; // KV: 25 MB por valor
 const TIPOS_MEDIO = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/avif': 'avif', 'image/gif': 'gif', 'application/pdf': 'pdf', 'video/mp4': 'mp4', 'video/webm': 'webm' };
-const CARPETAS = ['videos', 'portada', 'usados', 'puerto', 'modelos', 'marcas', 'documentos', 'otros'];
+const CARPETAS = ['videos', 'portada', 'eventos', 'usados', 'puerto', 'modelos', 'marcas', 'documentos', 'otros'];
 
 export async function api(request, env, url, email) {
   const ruta = url.pathname.slice('/api/admin/'.length).replace(/\/$/, '');

@@ -261,6 +261,12 @@ const GENERICO = {
     ventas: (d) => ['Tienes una solicitud de arriendo de boyas de ' + (d.nombre || d.email), (d.nombre || d.email) + ' quiere arrendar boyas MarkSetBot'],
     cliente: () => ['Hemos recibido tu solicitud de arriendo de boyas', 'Hemos recibido tu solicitud de arriendo de boyas MarkSetBot. Te escribimos con disponibilidad y una propuesta para tu regata.'],
   },
+  evento: {
+    etiqueta: 'Inscripción a evento',
+    ventas: (d) => ['Nueva inscripción' + (d.motivo ? ' a ' + d.motivo : '') + ': ' + (d.nombre || d.email), (d.nombre || d.email) + ' confirmó su asistencia' + (d.motivo ? ' a ' + d.motivo : '')],
+    cliente: (d) => ['Recibimos tu inscripción' + (d.motivo ? ' a ' + d.motivo : ''),
+      'Recibimos tu inscripción' + (d.motivo ? ' a <b>' + esc(d.motivo) + '</b>' : '') + '. Te esperamos; si hay cambios, te avisamos por este medio.'],
+  },
   privacidad: {
     etiqueta: 'Privacidad',
     ventas: (d) => ['Solicitud de derechos de datos personales (Ley 21.719): ' + (d.motivo || 'sin motivo'), (d.nombre || d.email) + ' ejerce un derecho sobre sus datos personales'],

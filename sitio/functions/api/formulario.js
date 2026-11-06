@@ -22,6 +22,7 @@ const TIPOS = {
   charter:      { linea: 'Charter',              asunto: 'Solicitud de charter' },
   equipamiento: { linea: 'Equipamiento',         asunto: 'Solicitud de equipamiento' },
   boyas:        { linea: 'Arriendo de boyas',    asunto: 'Solicitud de arriendo de boyas' },
+  evento:       { linea: 'Eventos',              asunto: 'Inscripción a evento' },
   puerto:       { linea: 'Puerto',               asunto: 'Suscripción a Puerto' },
   privacidad:   { linea: 'Privacidad',           asunto: 'Solicitud de derechos (Ley 21.719)' },
 };
@@ -259,6 +260,10 @@ const AGRADECIMIENTO = {
     cuerpo: 'Gracias por tu solicitud de arriendo de boyas MarkSetBot. Te escribimos dentro de un día hábil con ' +
       'disponibilidad y una propuesta para tu regata.',
   }),
+  evento: (d) => ({
+    asunto: 'Recibimos tu inscripción' + (d.motivo ? ' a ' + d.motivo : ''),
+    cuerpo: 'Gracias por inscribirte' + (d.motivo ? ' a ' + d.motivo : '') + '. Te esperamos; si hay cambios, te avisamos por este medio.',
+  }),
   privacidad: (d) => ({
     asunto: 'Recibimos tu solicitud de ' + (d.motivo ? d.motivo.toLowerCase() : 'derechos') + ' de datos personales',
     cuerpo: 'Recibimos tu solicitud sobre tus datos personales (' + (d.motivo || 'derechos') + '). Te responderemos dentro ' +
@@ -335,7 +340,7 @@ export function atributos(d) {
 let listas = null, listasT = 0;
 async function listaDeMarca(brevo, d) {
   const marca = String(d.marca || '').replace(/^Usado\s*·\s*/i, '').replace(/\s+(Motor|Sail)$/i, '').trim().toLowerCase();
-  const tipo = { charter: 'charter', equipamiento: 'equipamiento', usado: 'usados', boyas: 'arriendo de boyas' }[d.tipo];
+  const tipo = { charter: 'charter', equipamiento: 'equipamiento', usado: 'usados', boyas: 'arriendo de boyas', evento: 'eventos' }[d.tipo];
   if (!marca && !tipo) return 0;
   if (!listas || Date.now() - listasT > 600000) {
     const r = await brevo('GET', '/contacts/lists?limit=50&offset=0');

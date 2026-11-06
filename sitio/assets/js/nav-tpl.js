@@ -144,4 +144,11 @@
     if(bt&&d){bt.addEventListener('click',function(){var o=d.hasAttribute('hidden');if(o){d.removeAttribute('hidden');document.body.classList.add('locked');}else{d.setAttribute('hidden','');document.body.classList.remove('locked');}bt.classList.toggle('on',o);});
       d.addEventListener('click',function(e){if(e.target.tagName==='A'){d.setAttribute('hidden','');document.body.classList.remove('locked');bt.classList.remove('on');}});}
   },50);
+  // Eventos: pop-ups de invitación administrados en el CMS (eventos-data.js). El código del pop-up solo se descarga si hay uno activo.
+  if(!document.querySelector('script[src*="eventos.js"]')){
+    var sd=document.createElement('script'); sd.src=pre+'assets/js/eventos-data.js'; sd.async=true;
+    sd.onload=function(){ var ps=(window.OCEANIC_EVENTOS||{}).popups||[];
+      if(ps.some(function(x){return x&&x.activo;})){ var se=document.createElement('script'); se.src=pre+'assets/js/eventos.js'; se.async=true; document.body.appendChild(se); } };
+    document.body.appendChild(sd);
+  }
 })();
