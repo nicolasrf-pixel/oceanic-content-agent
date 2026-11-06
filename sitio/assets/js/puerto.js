@@ -8,6 +8,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function img(p) { p = String(p || ''); if (!p) return ''; if (/^(https?:)?\/\//.test(p) || p.charAt(0) === '/') return p; return AB + p + (/\.\w{3,4}$/.test(p) ? '' : '.webp'); }
   function url(ed) { return 'edicion/?ed=' + encodeURIComponent(ed.slug); }
+  function nombre(ed) { return ed.serie === '' ? ed.mes : (ed.serie && ed.serie !== 'Puerto' ? ed.serie + ' · ' : '') + ed.mes; }
+  function tapa(ed) { return ed.tapa || ed.portada; }
   function titulares(ed) { return (ed.bloques || []).filter(function (b) { return b.titular; }); }
 
   P.sort(function (a, b) { return String(b.fecha || '').localeCompare(String(a.fecha || '')); });
@@ -18,7 +20,7 @@
     '<div class="sec-head"><span class="eyebrow">Última edición</span><span class="rule"></span></div>' +
     '<a class="pfeat2-grid" href="' + url(d) + '" style="text-decoration:none;color:inherit">' +
       '<div class="pfeat2-img">' + (d.portada ? '<img src="' + esc(img(d.portada)) + '" alt="Puerto ' + esc(d.mes) + '">' : '') + '</div>' +
-      '<div class="pfeat2-body"><span class="pfeat2-mes">' + esc(d.mes) + '</span>' +
+      '<div class="pfeat2-body"><span class="pfeat2-mes">' + esc(nombre(d)) + '</span>' +
       '<p class="pfeat2-res">' + esc(d.resumen) + '</p>' +
       '<ul class="ped-notas">' + titulares(d).map(function (b) {
         return '<li><b>' + esc(b.titular) + '</b>' + (b.bajada ? '<span>' + esc(b.bajada) + '</span>' : '') + '</li>';
@@ -29,8 +31,8 @@
     '<div class="sec-head"><span class="eyebrow">El archivo</span><span class="rule"></span></div>' +
     '<h2 class="parch2-h2">Ediciones anteriores</h2><div class="parch2-grid">' + resto.map(function (ed) {
       return '<a class="ped2" href="' + url(ed) + '" style="text-decoration:none;color:inherit">' +
-        '<div class="ped2-img">' + (ed.portada ? '<img src="' + esc(img(ed.portada)) + '" alt="Puerto ' + esc(ed.mes) + '" loading="lazy">' : '') + '</div>' +
-        '<div class="ped2-body"><span class="ped2-mes">' + esc(ed.mes) + '</span>' +
+        '<div class="ped2-img' + (ed.tapa ? ' ped2-tapa' : '') + '">' + (tapa(ed) ? '<img src="' + esc(img(tapa(ed))) + '" alt="Portada de ' + esc(nombre(ed)) + '" loading="lazy">' : '') + '</div>' +
+        '<div class="ped2-body"><span class="ped2-mes">' + esc(nombre(ed)) + '</span>' +
         '<p class="ped2-res">' + esc(ed.resumen) + '</p>' +
         '<ul class="ped2-notas">' + titulares(ed).map(function (b) { return '<li>' + esc(b.titular) + '</li>'; }).join('') + '</ul>' +
         '</div></a>';

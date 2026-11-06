@@ -20,7 +20,8 @@
       '<h1 class="phero-h1" style="font-size:clamp(40px,5vw,90px)">Edición no encontrada</h1><p class="phero-sub">Puede que el enlace esté incompleto. <a href="../" style="color:#fff">Ver todas las ediciones</a>.</p></div></header>';
     return;
   }
-  document.title = 'Puerto ' + ed.mes + ' · El newsletter de Oceanic';
+  var nombreEd = ed.serie === '' ? ed.mes : (ed.serie || 'Puerto') + ' · ' + ed.mes;  // Puerto, Bitácora o News (archivo)
+  document.title = nombreEd + ' · El newsletter de Oceanic';
 
   // Foto principal del bloque: ancha sobre el texto, o al lado (foto_lado) cuando es vertical o pequeña
   function foto(b) {
@@ -62,10 +63,11 @@
 
   main.innerHTML =
     '<header class="phero"><div class="wrap-wide phero-in"><nav aria-label="Ruta" class="crumb"><a href="../../index.html">Oceanic</a><span>·</span><a href="../">Puerto</a><span>·</span><span>' + esc(ed.mes) + '</span></nav>' +
-    '<h1 class="phero-h1" style="font-size:clamp(44px,6vw,110px)">Puerto · ' + esc(ed.mes) + '</h1>' +
+    '<div class="phero-ed">' + (ed.tapa ? '<img class="phero-tapa" src="' + esc(img(ed.tapa)) + '" alt="Portada de ' + esc(nombreEd) + '">' : '') + '<div>' +
+    '<h1 class="phero-h1" style="font-size:clamp(40px,5.4vw,100px)">' + esc(nombreEd) + '</h1>' +
     (ed.resumen ? '<p class="phero-sub">' + esc(ed.resumen) + '</p>' : '') +
     (href(ed.pdf) ? '<p style="margin-top:22px"><a class="pfeat-link" href="' + esc(href(ed.pdf)) + '" target="_blank" rel="noopener">Descargar la edición en PDF ↗</a></p>' : '') +
-    '</div></header>' +
+    '</div></div></div></header>' +
     (ed.portada ? '<div class="ped-portada wrap-wide"><img src="' + esc(img(ed.portada)) + '" alt="Puerto ' + esc(ed.mes) + '"></div>' : '') +
     ((ed.bloques || []).length > 1 ? '<nav class="ped-indice wrap-wide" aria-label="En esta edición"><span>En esta edición</span>' +
       ed.bloques.map(function (b, i) { return '<a href="#tema-' + (i + 1) + '">' + esc(b.titular) + '</a>'; }).join('') + '</nav>' : '') +
