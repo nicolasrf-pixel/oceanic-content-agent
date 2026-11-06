@@ -11,7 +11,7 @@
 const C = { noche: '#14212B', boya: '#CB5C3C', arena: '#E3E1DC', banda: '#F4F4F2', trabajo: '#52616E', linea: '#E5E2DC' };
 const FUENTE = "font-family:Helvetica,Arial,sans-serif";
 const OFICINA = 'Alonso de Córdova 2653, of. 302, Vitacura, Santiago';
-const TELEFONO = '+56 2 2953 7322';
+const TELEFONO = '+56 2 2953 7321';
 
 export function esc(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

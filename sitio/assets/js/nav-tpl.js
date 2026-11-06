@@ -36,13 +36,16 @@
     ['Usados',pre+'usados/index.html'],['Equipamiento',pre+'equipamiento/index.html'],
     ['Charter',pre+'charter/index.html'],['Puerto',pre+'puerto/index.html'],['Oceanic',pre+'nosotros/index.html']
   ];
-  var nav='<div class="bar"><div class="bar-in">'+
+  var topbar='<div class="topbar"><div class="topbar-in">'+
+    '<a class="tb-dir" href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('Alonso de Córdova 2653, Vitacura, Santiago')+'" target="_blank" rel="noopener">Alonso de Córdova 2653, of. 302, Vitacura</a>'+
+    '<a class="tb-tel" href="tel:+56229537321">+56 2 2953 7321</a>'+
+    redesHtml('tb-redes')+'</div></div>';
+  var nav=topbar+'<div class="bar"><div class="bar-in">'+
     '<a href="'+pre+'index.html" class="bar-brand" aria-label="Oceanic, ir al inicio"><img src="'+pre+'assets/img/marca/logo-blanco.svg" alt="Oceanic" width="110" height="18"></a>'+
     '<nav class="nav" aria-label="Principal">'+drop+
     items.map(function(x){return '<a href="'+x[1]+'" class="nav-a">'+x[0]+'</a>';}).join('')+
     '</nav><div class="bar-act">'+
     '<a href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." target="_blank" rel="noopener" class="btn">Habla con un especialista</a>'+
-    redesHtml('bar-redes')+
     '<button class="tema-btn" id="temaBtn" type="button" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="t-luna" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="t-sol" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></svg></button>'+
     '<button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>'+
     '</div></div></div>';
@@ -53,12 +56,12 @@
   if(dr){
     dr.innerHTML='<a href="'+pre+'index.html#marcas">Marcas</a>'+
       items.map(function(x){return '<a href="'+x[1]+'">'+x[0]+'</a>';}).join('')+
-      '<a href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." target="_blank" rel="noopener" class="drawer-cta">Habla con un especialista</a>'+redesHtml('drawer-redes');
+      '<a href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." target="_blank" rel="noopener" class="drawer-cta">Habla con un especialista</a>';
   }
 
   // footer
   var foot='<footer class="ft"><div class="wrap-wide"><div class="ft-top">'+
-    '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p>'+redesHtml('ft-redes')+'</div>'+
+    '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
     '<div class="ft-cols">'+
     '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
     '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
@@ -127,11 +130,11 @@
     } else {
       a.innerHTML='<p>Este sitio no usa cookies de seguimiento ni publicidad. Solo guardamos en tu navegador tus preferencias, como el modo oscuro. '+
         'Los datos que nos envías por formularios se tratan según nuestra <a href="'+pre+'privacidad/index.html">política de privacidad</a>.</p>'+
-        '<button type="button" class="btn" data-c="ok">Entendido</button>';
+        '<div class="aviso-bt"><button type="button" class="btn" data-c="ok">Aceptar</button><button type="button" class="btn btn-line aviso-no" data-c="rechazo">Rechazar</button></div>';
     }
     a.addEventListener('click',function(e){ var b=e.target.closest('[data-c]'); if(!b) return;
       var c=b.getAttribute('data-c');
-      if (c==='ok') { try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e2){} }
+      if (c==='ok' || c==='rechazo') { try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e2){} guardarC(c==='ok'); }
       else { guardarC(c==='si'); if(c==='si') cargarGA(); else borrarGA(); }
       a.remove(); });
     document.body.appendChild(a);
