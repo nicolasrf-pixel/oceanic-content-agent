@@ -2,6 +2,7 @@
    Cada guardado es atómico (un batch de D1 = una transacción) y con control de versión: si otra persona guardó
    antes, responde 409 y no pisa su trabajo. Publicar copia el borrador validado a "publicado" en una sola operación. */
 import { DOCS, definicion, validar } from './documentos.js';
+import { estadoRevision, iniciarRevision, aprobarRevision } from './revision.js';
 
 const MAX_DOC = 1_800_000;          // D1: 2 MB por fila
 const MAX_MEDIO = 20 * 1024 * 1024; // KV: 25 MB por valor
@@ -27,6 +28,11 @@ export async function api(request, env, url, email) {
       return json({ ok: true, email, docs: results.map((r) => ({ ...r, pendiente: r.sin_publicar === 1 || r.version !== r.pub_version })),
         tipos: Object.fromEntries(Object.entries(DOCS).map(([k, d]) => [k, d.titulo])) });
     }
+
+    // Revisión de marcas (scraping en GitHub Actions + aprobación): ver worker/revision.js
+    if (ruta === 'revision' && m === 'GET') return json(await estadoRevision(env));
+    if (ruta === 'revision/iniciar' && m === 'POST') return json(await iniciarRevision(env));
+    if (ruta === 'revision/aprobar' && m === 'POST') return json(await aprobarRevision(env, await request.json().catch(() => null), email));
 
     if (ruta === 'doc' && m === 'GET') {
       const clave = url.searchParams.get('clave') || '';

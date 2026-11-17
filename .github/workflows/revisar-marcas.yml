@@ -1,0 +1,42 @@
+# Revisión de marcas: compara las webs oficiales con el catálogo y publica un informe (no cambia el sitio).
+# Se lanza desde el administrador (/admin/ › Revisar marcas) o a mano desde la pestaña Actions.
+# Este archivo tiene que estar en la rama principal (main) para poder lanzarse desde el administrador.
+#
+# Secretos del repositorio (Settings › Secrets and variables › Actions):
+#   FIRECRAWL_API_KEY  opcional; solo se usa cuando una web bloquea la lectura directa (por ejemplo Saffier).
+name: Revisar marcas
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: revisar-marcas
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: sitio-web   # el catálogo vigente vive en esta rama
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Revisar las webs oficiales
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: python tools/revisar_marcas.py --salida revision/informe.json
+      - name: Publicar el informe en la rama revision-informes
+        run: |
+          git config user.name "revision-marcas"
+          git config user.email "revision-marcas@users.noreply.github.com"
+          git checkout --orphan revision-informes
+          git rm -rf -q --cached . > /dev/null 2>&1 || true
+          git add -f revision/informe.json
+          git commit -q -m "Informe de revisión de marcas $(date -u +%Y-%m-%d)"
+          git push --force origin revision-informes

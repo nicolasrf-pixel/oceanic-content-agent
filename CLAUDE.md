@@ -217,6 +217,13 @@ landings de invitación (`/evento/?e=<slug>`: portada, texto, detalles, programa
 `nav-tpl.js` carga el pop-up en todas las páginas solo si hay uno activo; pasada la fecha la landing queda sin formulario.
 La portada del inicio también admite carrusel de imágenes y videos (`inicio-data.js › modo: carrusel`).
 
+**Revisión de marcas (decisión Oceanic 2026-11-17):** botón del administrador (`#revision`) que lanza en GitHub Actions
+(`.github/workflows/revisar-marcas.yml`, debe estar en `main`) el detector `tools/revisar_marcas.py`: compara las webs
+oficiales con `biblioteca/*/07_FUENTES/sources.json` y el catálogo, y entrega un informe de modelos nuevos, movidos de
+dirección y retirados. Con aprobación en pantalla, lo retirado se oculta (documento `publicacion`, reversible) y lo demás
+sale como pull request; el contenido nuevo se sigue cargando con el proceso de la biblioteca. Secreto `GH_TOKEN` en el
+Worker. Detalle en `docs/REVISION-MARCAS.md`.
+
 **Correo de formularios (decisión Oceanic 2026-11-05):** motor propio por SMTP de Google Workspace (`sitio/functions/api/smtp.js`, secreto `SMTP_CLAVE` = contraseña de aplicación de contacto@oceanic.cl). Brevo solo guarda el CRM (listas «Web · <Marca>») y Puerto; no envía cotizaciones. Detalle en `docs/FORMULARIOS.md`.
 
 **Marca (decisión Oceanic 2026-11-05):** logos oficiales en `sitio/assets/img/marca/`: `logo.svg` / `logo-blanco.svg` (sin «EST. 1994», para tamaños chicos: barra superior), `logo-est.svg` / `logo-blanco-est.svg` (completo, donde se lea: pie, página 404, correos), `iso.svg` / `iso-blanco.svg` (isotipo: íconos de pestaña). Blanco siempre sobre azul (barra y pie). Los correos usan PNG (`logo-blanco-est-correo.png`, `logo-blanco-correo.png`) porque Gmail y Outlook no muestran SVG. No se escribe «OCEANIC» como texto en lugar del logo.

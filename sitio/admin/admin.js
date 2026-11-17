@@ -1041,6 +1041,159 @@
     });
   };
 
+  /* --- Revisar marcas: scraping de las webs oficiales (GitHub Actions) → informe → aprobación ---
+     Nada se aplica sin marcar y confirmar. «Ocultar del sitio» usa el documento «publicacion» (con historial y
+     reversible); lo nuevo y los cambios de dirección salen como pull request para cargarlos con el proceso de la biblioteca. */
+  S.revision = function () {
+    var raiz = h('div'), reloj = null;
+    function parar() { if (reloj) { clearInterval(reloj); reloj = null; } }
+    function chip(txt, clase) { return h('span', { class: 'chip ' + (clase || ''), text: txt }); }
+    var ESTADO = { ok: ['al día', ''], unica: ['página única', ''], parcial: ['parcial', 'err'], bloqueada: ['bloqueada', 'err'] };
+
+    function pintar(e) {
+      vaciar(raiz);
+      raiz.appendChild(h('h1', { text: 'Revisar marcas' }));
+      raiz.appendChild(h('p', { class: 'lede', text: 'Compara las webs oficiales de cada marca con el catálogo del sitio y te muestra qué modelos son nuevos, cuáles cambiaron de dirección y cuáles ya no existen. Tú decides qué aplicar: no se cambia nada sin tu aprobación.' }));
+
+      if (!e.configurado) {
+        raiz.appendChild(h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Falta conectar con GitHub' }),
+          h('p', { text: e.error }),
+          h('ol', null, [
+            'En GitHub, crear un token de acceso fino solo para este repositorio, con permiso de lectura y escritura en Actions, Contents y Pull requests.',
+            'En Cloudflare (Worker oceanic › Settings › Variables and Secrets), guardarlo como secreto con el nombre GH_TOKEN.',
+            'Dejar el archivo .github/workflows/revisar-marcas.yml en la rama main del repositorio.',
+            'Opcional: guardar FIRECRAWL_API_KEY como secreto del repositorio en GitHub, para las webs que bloquean la lectura directa (Saffier).'
+          ].map(function (t) { return h('li', { text: t }); })),
+          h('p', null, h('small', { text: 'Las claves nunca se pegan en el chat ni en correos. Detalle en docs/REVISION-MARCAS.md.' }))));
+        return;
+      }
+
+      if (e.ok === false) {  // GitHub respondió con un error (token vencido, permisos, repositorio)
+        raiz.appendChild(h('div', { class: 'errores', text: e.error || 'No se pudo consultar GitHub.' }));
+        raiz.appendChild(h('button', { class: 'btn-sm', text: 'Reintentar', onclick: cargarEstado }));
+        return;
+      }
+      var ej = e.ejecucion, enCurso = ej && (ej.estado === 'queued' || ej.estado === 'in_progress');
+      var btn = h('button', { class: 'btn boya', text: enCurso ? 'Revisando…' : 'Revisar marcas ahora', disabled: enCurso ? true : null, onclick: function () {
+        btn.disabled = true; btn.textContent = 'Lanzando…';
+        api('revision/iniciar', { method: 'POST' }).then(function (r) {
+          if (!r.ok) { avisar(r.error, true); btn.disabled = false; btn.textContent = 'Revisar marcas ahora'; return; }
+          avisar('Revisión lanzada. Tarda unos minutos.'); setTimeout(cargarEstado, 4000);
+        });
+      } });
+      var linea = ej ? 'Última revisión: ' + fecha(ej.creada) + ' · ' + (enCurso ? 'en curso' : ej.conclusion === 'success' ? 'terminada' : 'terminó con error (' + (ej.conclusion || ej.estado) + ')') : 'Todavía no se ha hecho ninguna revisión.';
+      raiz.appendChild(h('div', { class: 'barra' }, btn, h('span', { class: 'esp' }),
+        h('span', { class: 'estado ' + (enCurso ? 'pend' : ej && ej.conclusion === 'failure' ? 'sucio' : 'pub'), text: linea }),
+        ej && ej.url ? h('a', { class: 'btn-sm', href: ej.url, target: '_blank', rel: 'noopener', text: 'Ver en GitHub' }) : null));
+      if (e.flujo_encontrado === false) raiz.appendChild(h('div', { class: 'errores', text: 'GitHub no encuentra el flujo «Revisar marcas». Hay que dejar .github/workflows/revisar-marcas.yml en la rama main.' }));
+
+      if (enCurso) { if (!reloj) reloj = setInterval(function () { if (!document.body.contains(raiz)) return parar(); cargarEstado(); }, 15000); }
+      else parar();
+      if (!e.informe) return;
+      informe(e.informe);
+    }
+
+    function informe(inf) {
+      var res = inf.resumen || {};
+      raiz.appendChild(h('h2', { text: 'Resultado · ' + fecha(inf.generado) }));
+      var tab = h('table', { class: 'tabla' }, h('tr', null, ['Marca', 'Estado', 'Conocidos', 'Nuevos', 'Cambiaron de dirección', 'Ya no existen'].map(function (t) { return h('th', { text: t }); })));
+      inf.marcas.forEach(function (m) {
+        var est = ESTADO[m.estado] || [m.estado, 'err'];
+        tab.appendChild(h('tr', null, h('td', { text: m.marca }), h('td', null, chip(est[0], est[1]), m.nota ? h('div', null, h('small', { text: m.nota })) : null),
+          h('td', { text: String(m.conocidos) }), h('td', { text: String(m.nuevos.length) }), h('td', { text: String(m.movidos.length) }), h('td', { text: String(m.retirados.length) })));
+      });
+      raiz.appendChild(tab);
+      if ((res.marcas_con_problemas || []).length) raiz.appendChild(h('p', null, h('small', { text: 'De ' + res.marcas_con_problemas.join(', ') + ' no se pudo leer toda la web: no se sacan conclusiones de ahí. Si es Saffier, falta la clave de Firecrawl en GitHub.' })));
+
+      var items = [];  // { tipo, marca, ...dato, caja }
+      function caja(etq, activo) { var c = h('input', { type: 'checkbox', disabled: activo === false ? true : null }); return { c: c, el: h('label', { class: 'gen-campo', style: 'display:block;margin:2px 0' }, c, ' ' + etq) }; }
+      function bloque(titulo, ayuda, filas) {
+        if (!filas.length) return;
+        raiz.appendChild(h('h3', { text: titulo + ' (' + filas.length + ')' }));
+        raiz.appendChild(h('p', null, h('small', { text: ayuda })));
+        filas.forEach(function (f) { raiz.appendChild(f); });
+      }
+      var nuevos = [], movidos = [], retirados = [];
+      inf.marcas.forEach(function (m) {
+        m.nuevos.forEach(function (x) {
+          var cj = caja('Cargar este modelo'); items.push({ tipo: 'cargar', marca: m.marca, url: x.url, titulo: x.titulo, c: cj.c });
+          nuevos.push(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · ' + (x.titulo || x.url) }), ' ', x.posible_anterior ? chip('parece de una gama anterior', 'err') : null,
+            h('div', null, h('a', { href: x.url, target: '_blank', rel: 'noopener', text: x.url })), cj.el));
+        });
+        m.movidos.forEach(function (x) {
+          var a = caja('Actualizar la dirección oficial registrada'); items.push({ tipo: 'actualizar', marca: m.marca, slug: x.slug, url: x.url, destino: x.destino, c: a.c });
+          var o = x.posible_anterior ? caja('Ocultar del sitio (pasó a una gama anterior)', x.en_catalogo) : null;
+          if (o) items.push({ tipo: 'ocultar', marca: m.marca, slug: x.slug, motivo: 'Pasó a una gama anterior en la web oficial', c: o.c });
+          movidos.push(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · ' + x.slug }), ' ', x.posible_anterior ? chip('posible descatalogado', 'err') : null,
+            h('div', null, h('small', { text: 'antes: ' + x.url })), h('div', null, h('small', { text: 'ahora: ' }), h('a', { href: x.destino, target: '_blank', rel: 'noopener', text: x.destino })), a.el, o ? o.el : null));
+        });
+        m.retirados.forEach(function (x) {
+          var cj = caja(x.en_catalogo ? 'Ocultar del sitio' : 'No está publicado en el sitio', x.en_catalogo); if (x.en_catalogo) items.push({ tipo: 'ocultar', marca: m.marca, slug: x.slug, motivo: 'Retirado de la web oficial', c: cj.c });
+          retirados.push(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · ' + x.slug }), ' ', chip(x.motivo, 'err'), h('div', null, h('small', { text: x.url })), cj.el));
+        });
+        (m.sin_verificar || []).forEach(function (x) { retirados.push(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · ' + x.slug }), ' ', chip('sin verificar', 'err'), h('div', null, h('small', { text: x.motivo + ' · la web no respondió, no se saca ninguna conclusión' })))); });
+      });
+      bloque('Modelos nuevos en la web oficial', 'Aprobar deja el modelo en una lista de pendientes (pull request en GitHub) para cargarlo con su traducción y fotos revisadas. No se publica nada solo.', nuevos);
+      bloque('Cambiaron de dirección', 'Casi siempre es un cambio interno de la web del fabricante. «Actualizar la dirección» solo corrige la fuente registrada; no cambia el sitio.', movidos);
+      bloque('Ya no existen en la web oficial', '«Ocultar del sitio» apaga el modelo en el sitio (gamas, menús, asistente y ficha). Se puede volver a mostrar desde Publicación y destacados; no se borra nada.', retirados);
+      if (!items.length) { raiz.appendChild(h('p', { class: 'lede', text: nuevos.length + movidos.length + retirados.length ? 'No hay nada que se pueda aprobar automáticamente.' : 'Todo al día: el catálogo coincide con las webs oficiales.' })); return; }
+
+      var salida = h('div');
+      var aplicar = h('button', { class: 'btn boya', text: 'Aprobar lo marcado', onclick: function () {
+        var sel = items.filter(function (i) { return i.c.checked; });
+        if (!sel.length) return avisar('No marcaste nada.', true);
+        var oc = sel.filter(function (i) { return i.tipo === 'ocultar'; }), ca = sel.filter(function (i) { return i.tipo === 'cargar'; }), ac = sel.filter(function (i) { return i.tipo === 'actualizar'; });
+        if (!confirm('Vas a aprobar:\n\n· Ocultar del sitio ahora: ' + oc.length + '\n· Modelos nuevos por cargar: ' + ca.length + '\n· Direcciones por actualizar: ' + ac.length + '\n\nLo que se oculta se publica de inmediato (reversible). Lo demás queda en un pull request en GitHub. ¿Continuar?')) return;
+        aplicar.disabled = true; vaciar(salida);
+        var pasos = Promise.resolve();
+        if (oc.length) pasos = pasos.then(function () { return ocultar(oc, inf.generado, salida); });
+        pasos.then(function (ok) {
+          if (ok === false) { aplicar.disabled = false; return; }
+          if (!ca.length && !ac.length) { aplicar.disabled = false; return; }
+          return api('revision/aprobar', { method: 'POST', body: { cargar: ca.map(function (i) { return { marca: i.marca, url: i.url, titulo: i.titulo }; }),
+            actualizar: ac.map(function (i) { return { marca: i.marca, slug: i.slug, url: i.url, destino: i.destino }; }) } }).then(function (r) {
+            aplicar.disabled = false;
+            if (!r.ok) { salida.appendChild(h('div', { class: 'errores', text: r.error })); return avisar(r.error, true); }
+            salida.appendChild(h('p', null, 'Pull request abierto en GitHub: ', h('a', { href: r.pr, target: '_blank', rel: 'noopener', text: r.pr })));
+            avisar('Aprobado. Quedó en un pull request.');
+          });
+        });
+      } });
+      raiz.appendChild(h('div', { class: 'barra' }, h('span', { class: 'esp' }), aplicar));
+      raiz.appendChild(salida);
+    }
+
+    // Oculta modelos del sitio con el mismo camino que el interruptor de «Publicación y destacados»: guarda y publica.
+    function ocultar(lista, generado, salida) {
+      return cargar('publicacion', true).then(function (doc) {
+        var P = doc.contenido; P.ocultos = P.ocultos || {};
+        var motivo = ' (revisión ' + String(generado).slice(0, 10) + ')';
+        lista.forEach(function (i) { P.ocultos[i.marca + '/' + i.slug] = i.motivo + motivo; });
+        // un destacado apagado no puede seguir como destacado: se avisa en vez de dejar el documento inválido
+        var dest = (P.destacados || []).filter(function (k) { return P.ocultos[k]; });
+        if (dest.length) { var m = 'No se puede ocultar ' + dest.join(', ') + ': es un modelo destacado de la portada. Cámbialo en Publicación y destacados y vuelve a aprobar.'; salida.appendChild(h('div', { class: 'errores', text: m })); avisar(m, true); return false; }
+        return api('doc', { method: 'PUT', body: { clave: 'publicacion', version: doc.version, contenido: limpio(P) } }).then(function (r) {
+          if (!r.ok) { salida.appendChild(h('div', { class: 'errores', text: r.error || 'No se pudo guardar' })); avisar(r.error || 'No se pudo guardar', true); return false; }
+          return api('publicar', { method: 'POST', body: { clave: 'publicacion', version: r.version } }).then(function (p) {
+            if (!p.ok) { salida.appendChild(h('div', { class: 'errores', text: p.error || 'No se pudo publicar' })); avisar(p.error || 'No se pudo publicar', true); return false; }
+            salida.appendChild(h('p', { text: 'Ocultos del sitio: ' + lista.map(function (i) { return i.marca + '/' + i.slug; }).join(', ') + '. Ya no se ven en el sitio.' }));
+            avisar('Modelos ocultos del sitio'); return cargar('publicacion', true).then(function () { return true; });
+          });
+        });
+      });
+    }
+
+    function cargarEstado() {
+      return api('revision').then(function (e) {
+        if (!document.body.contains(raiz) && reloj) return parar();
+        pintar(e);
+      });
+    }
+    raiz.appendChild(h('p', { class: 'cargando', text: 'Consultando GitHub…' }));
+    cargarEstado();
+    return raiz;
+  };
+
   function router() {
     var hash = (location.hash || '#inicio').slice(1), p = hash.split('/'), sec = p[0], arg = p.slice(1).join('/');
     var fn = S[sec] || S.inicio;
