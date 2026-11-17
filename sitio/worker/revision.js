@@ -41,9 +41,16 @@ export function nombresVisibles(env) {
 }
 const sinConfigurar = (env) => ({ ok: false, configurado: false, error: 'Falta el secreto GH_TOKEN en el Worker (ver docs/REVISION-MARCAS.md).', variables: nombresVisibles(env) });
 
+// Permiso que necesita cada acción (token de acceso fino de GitHub), para decir exactamente cuál falta.
+const PERMISO = { 'lanzar la revisión': 'Actions: Read and write', 'leer las ejecuciones': 'Actions: Read and write',
+  'leer la rama del sitio': 'Contents: Read and write', 'crear la rama de la aprobación': 'Contents: Read and write',
+  'guardar la lista aprobada': 'Contents: Read and write', 'abrir el pull request': 'Pull requests: Read and write' };
+
 function errorGitHub(r, que) {
   const detalle = r.datos && r.datos.message ? String(r.datos.message).slice(0, 160) : 'HTTP ' + r.estado;
-  const pista = r.estado === 401 || r.estado === 403 ? ' Revisa que el token siga vigente y tenga los permisos pedidos.'
+  const sinPermiso = /not accessible|permission/i.test(detalle) || r.estado === 403;
+  const pista = sinPermiso && PERMISO[que] ? ` Al token le faltan permisos: en GitHub, edita el token y pon «${PERMISO[que]}» (y confirma que el repositorio elegido sea el correcto). No hace falta cambiarlo en Cloudflare.`
+    : r.estado === 401 ? ' Revisa que el token siga vigente y esté bien pegado en Cloudflare.'
     : r.estado === 404 ? ' Revisa el nombre del repositorio y que el archivo del flujo esté en la rama principal.' : '';
   return { ok: false, configurado: true, error: `GitHub no permitió ${que} (${detalle}).${pista}` };
 }

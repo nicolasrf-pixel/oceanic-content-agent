@@ -140,3 +140,14 @@ test('sin GH_TOKEN, el estado muestra los nombres de las claves del Worker pero 
   const texto = JSON.stringify(e);
   assert.ok(!texto.includes('super-secreta') && !texto.includes('ghp_valor'), 'nunca devuelve valores');
 });
+
+test('si el token no tiene permiso para lanzar el flujo, el mensaje dice cuál permiso falta', async () => {
+  github({
+    'GET /repos/org/repo/actions/workflows/revisar-marcas.yml/runs': { cuerpo: { workflow_runs: [] } },
+    'POST /repos/org/repo/actions/workflows/revisar-marcas.yml/dispatches': { estado: 403, cuerpo: { message: 'Resource not accessible by personal access token' } },
+  });
+  const r = await iniciarRevision(ENV);
+  assert.equal(r.ok, false);
+  assert.match(r.error, /Actions: Read and write/);
+  assert.match(r.error, /No hace falta cambiarlo en Cloudflare/);
+});
