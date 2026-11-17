@@ -17,10 +17,11 @@ import { api } from './api.js';
 import { paginaCompartible } from './compartir.js';
 
 const SEGURIDAD = {
-  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+  'Strict-Transport-Security': 'max-age=31536000',
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
   'X-Frame-Options': 'SAMEORIGIN',
+  'Content-Security-Policy': "frame-ancestors 'self'; base-uri 'self'; object-src 'none'",
 };
 
 export default {
