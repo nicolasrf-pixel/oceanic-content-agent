@@ -33,7 +33,13 @@ async function gh(env, ruta, { metodo = 'GET', cuerpo } = {}) {
   return { ok: r.ok, estado: r.status, datos };
 }
 
-const sinConfigurar = () => ({ ok: false, configurado: false, error: 'Falta el secreto GH_TOKEN en el Worker (ver docs/REVISION-MARCAS.md).' });
+// Solo los NOMBRES de las variables y secretos que el Worker ve (nunca sus valores): sirve para encontrar un nombre mal escrito
+// o un secreto guardado en otro lugar. Los bindings (base de datos, almacenamiento) no son texto y quedan fuera.
+export function nombresVisibles(env) {
+  const todos = Object.keys(env || {}).filter((k) => /^[A-Za-z0-9_ .-]{1,60}$/.test(k) && typeof env[k] === 'string').sort();
+  return { todos, parecidos: todos.filter((k) => /git|token|^gh/i.test(k)) };
+}
+const sinConfigurar = (env) => ({ ok: false, configurado: false, error: 'Falta el secreto GH_TOKEN en el Worker (ver docs/REVISION-MARCAS.md).', variables: nombresVisibles(env) });
 
 function errorGitHub(r, que) {
   const detalle = r.datos && r.datos.message ? String(r.datos.message).slice(0, 160) : 'HTTP ' + r.estado;
@@ -45,7 +51,7 @@ function errorGitHub(r, que) {
 const resumirEjecucion = (x) => x && ({ id: x.id, estado: x.status, conclusion: x.conclusion, creada: x.created_at, actualizada: x.updated_at, url: x.html_url });
 
 export async function estadoRevision(env) {
-  if (!env.GH_TOKEN) return { ...sinConfigurar(), ejecucion: null, informe: null };
+  if (!env.GH_TOKEN) return { ...sinConfigurar(env), ejecucion: null, informe: null };
   const R = repo(env);
   const [corridas, informe] = await Promise.all([
     gh(env, `/repos/${R}/actions/workflows/${FLUJO}/runs?per_page=1`),
@@ -61,7 +67,7 @@ export async function estadoRevision(env) {
 }
 
 export async function iniciarRevision(env) {
-  if (!env.GH_TOKEN) return sinConfigurar();
+  if (!env.GH_TOKEN) return sinConfigurar(env);
   const R = repo(env);
   const en = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/runs?per_page=1`);
   const ult = en.ok && en.datos && en.datos.workflow_runs && en.datos.workflow_runs[0];
@@ -111,7 +117,7 @@ export function cuerpoPR(a, email, fecha) {
 }
 
 export async function aprobarRevision(env, entrada, email) {
-  if (!env.GH_TOKEN) return sinConfigurar();
+  if (!env.GH_TOKEN) return sinConfigurar(env);
   const a = validarAprobacion(entrada);
   if (a.error) return { ok: false, configurado: true, error: a.error };
   const R = repo(env), B = base(env);

@@ -1064,6 +1064,11 @@
             'Dejar el archivo .github/workflows/revisar-marcas.yml en la rama main del repositorio.',
             'Opcional: guardar FIRECRAWL_API_KEY como secreto del repositorio en GitHub, para las webs que bloquean la lectura directa (Saffier).'
           ].map(function (t) { return h('li', { text: t }); })),
+          e.variables ? h('div', { class: 'panel', style: 'background:var(--natural,#f4f2ee)' }, h('b', { text: 'Qué ve el Worker ahora' }),
+            h('p', { style: 'margin:6px 0' }, e.variables.parecidos.length
+              ? ['Hay claves con un nombre parecido: ', h('b', { text: e.variables.parecidos.join(', ') }), '. El nombre tiene que ser exactamente GH_TOKEN (mayúsculas, guion bajo, sin espacios).']
+              : 'No hay ninguna clave con nombre parecido a GH_TOKEN: el secreto no está guardado en el Worker, o se guardó en otro lugar (por ejemplo, en las variables de Build) o falta apretar Deploy.'),
+            h('small', { text: 'Nombres que ve el Worker (nunca los valores): ' + (e.variables.todos.join(', ') || 'ninguno') })) : null,
           h('p', null, h('small', { text: 'Las claves nunca se pegan en el chat ni en correos. Detalle en docs/REVISION-MARCAS.md.' }))));
         return;
       }

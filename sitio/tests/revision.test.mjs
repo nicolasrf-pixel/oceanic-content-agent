@@ -130,3 +130,13 @@ test('aprobar: si falla la rama no sigue y no abre pull request', async () => {
   assert.match(r.error, /permisos/);
   assert.ok(!llamadas.some((l) => l.metodo === 'POST'));
 });
+
+test('sin GH_TOKEN, el estado muestra los nombres de las claves del Worker pero nunca sus valores', async () => {
+  const env = { ADMIN_PASSWORD: 'super-secreta', GITHUB_TOKEN: 'ghp_valor_que_no_debe_salir', GH_TOKEN_: 'x', DB: {}, MEDIA: {} };
+  const e = await estadoRevision(env);
+  assert.equal(e.configurado, false);
+  assert.deepEqual(e.variables.todos, ['ADMIN_PASSWORD', 'GH_TOKEN_', 'GITHUB_TOKEN']);
+  assert.deepEqual(e.variables.parecidos, ['GH_TOKEN_', 'GITHUB_TOKEN']);
+  const texto = JSON.stringify(e);
+  assert.ok(!texto.includes('super-secreta') && !texto.includes('ghp_valor'), 'nunca devuelve valores');
+});
