@@ -136,3 +136,27 @@ class MarcaNuevaConExtra(unittest.TestCase):
     def test_sin_extra_una_marca_sin_modelos_queda_bloqueada(self):
         r = rm.revisar_marca("delta", [], web({}), pausa=0)
         self.assertEqual(r["estado"], "bloqueada")
+
+
+CATALOGOS = ''.join(f'<a href="https://solariscatalogues.com/{c}_en/">x</a>' for c in
+                    ["40-40st-44-50-55-60", "64rs", "74rs", "74fd", "80rs", "111", "90rs"])
+BERTHON = ''.join(f'<a href="https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/solaris-{s}/">x</a>'
+                  for s in ["40", "40-st", "44", "50", "55", "60", "64-rs", "74", "74-rs", "80-rs", "111-rs"])
+SOLARIS = {"solaris-40", "solaris-40-st", "solaris-44", "solaris-50", "solaris-55", "solaris-60", "solaris-64-rs",
+           "solaris-74", "solaris-74-rs", "solaris-80-rs", "solaris-111-rs"}
+
+
+class SenalesExternas(unittest.TestCase):
+    def test_modelo_nuevo_en_catalogo_se_avisa_y_los_conocidos_no(self):
+        leer = web({"https://solariscatalogues.com/": CATALOGOS,
+                    "https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/": BERTHON})
+        s = rm.senales("solaris", SOLARIS, leer, pausa=0)
+        self.assertEqual(s[0]["nuevos"], ["solaris-90-rs"])  # 74 FD = solaris-74 y 111 = 111 RS no son nuevos
+        self.assertEqual(s[1]["nuevos"], [])
+        self.assertTrue(all(not x["oficial"] for x in s))
+
+    def test_fuente_caida_o_sin_formato_se_informa(self):
+        leer = web({"https://solariscatalogues.com/": "<html>vacío</html>"})
+        s = rm.senales("solaris", SOLARIS, leer, pausa=0)
+        self.assertFalse(s[0]["ok"])
+        self.assertFalse(s[1]["ok"])

@@ -1309,6 +1309,18 @@
       raiz.appendChild(tab);
       if ((res.marcas_con_problemas || []).length) raiz.appendChild(h('p', null, h('small', { text: 'De ' + res.marcas_con_problemas.join(', ') + ' no se pudo leer toda la web: no se sacan conclusiones de ahí. Saffier necesita la clave de Firecrawl en GitHub. Solaris protege su web con un captcha anti-bots: el sistema no lo elude, así que sus modelos se revisan a mano (o Solaris autoriza el acceso del servidor).' })));
 
+      // señales externas (no oficiales): avisos de modelos que la biblioteca no tiene, para marcas cuya web bloquea la lectura
+      inf.marcas.forEach(function (m) {
+        (m.senales || []).forEach(function (s) {
+          var hay = (s.nuevos || []).length;
+          raiz.appendChild(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · aviso externo' }), ' ', chip('no oficial', 'err'), ' ',
+            chip(!s.ok ? 'no se pudo leer' : hay ? hay + ' posible(s) nuevo(s)' : 'sin novedades', !s.ok || hay ? 'err' : ''),
+            h('div', null, h('small', { text: s.fuente + ' · ' }), h('a', { href: s.url, target: '_blank', rel: 'noopener', text: s.url })),
+            !s.ok ? h('div', null, h('small', { text: s.error || '' })) : null,
+            hay ? h('div', null, h('b', { text: 'No están en nuestra biblioteca: ' + s.nuevos.join(', ') }), h('br'), h('small', { text: 'Es solo un aviso. Revisa la ficha en la web oficial de la marca desde tu navegador antes de cargar nada.' })) : null));
+        });
+      });
+
       var items = [];  // { tipo, marca, ...dato, caja }
       function caja(etq, activo) { var c = h('input', { type: 'checkbox', disabled: activo === false ? true : null }); return { c: c, el: h('label', { class: 'gen-campo', style: 'display:block;margin:2px 0' }, c, ' ' + etq) }; }
       function bloque(titulo, ayuda, filas) {

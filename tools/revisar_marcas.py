@@ -55,6 +55,15 @@ EXTRA = {
     "switch": {"unica": True},
     "vx-one": {"unica": True},
 }
+# Señales externas (NO oficiales, solo avisos): marcas cuya web oficial no se puede leer (captcha anti-bots, que no se
+# elude). Se mira un catálogo publicado por el propio fabricante en otro dominio y un distribuidor; si aparece un modelo
+# que la biblioteca no tiene, se avisa. No se saca ningún dato de ahí: el modelo se carga después desde la web oficial.
+SENALES = {
+    "solaris": [
+        {"nombre": "Catálogos Solaris (solariscatalogues.com)", "url": "https://solariscatalogues.com/", "tipo": "catalogo"},
+        {"nombre": "Berthon International (distribuidor)", "url": "https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/", "tipo": "berthon"},
+    ],
+}
 # Direcciones que delatan una gama anterior o histórica: el modelo sigue en la web, pero ya no es de la gama vigente.
 ANTERIOR = re.compile(r"(former|heritage|legacy|archive|anterior|\b20\d\d[-_]20\d\d\b)", re.I)
 IGNORAR = {"configurator", "configurador", "gallery", "galeria", "brochure", "compare", "comparar", "contact",
@@ -149,6 +158,50 @@ def enlaces(texto: str, base: str) -> set[str]:
 def titulo(texto: str) -> str:
     m = re.search(r"<title[^>]*>(.*?)</title>", texto, re.I | re.S)
     return re.sub(r"\s+", " ", _html.unescape(m.group(1))).strip()[:140] if m else ""
+
+
+# ---------- señales externas ----------
+
+def _slug_catalogo(carpeta: str) -> list[str]:
+    """'64rs_en' → ['solaris-64-rs']; '40-40st-44-50-55-60_en' → varios; '74fd_en' → ['solaris-74'] (flush deck)."""
+    base = carpeta.rsplit("_", 1)[0]
+    salida = []
+    for t in base.split("-"):
+        m = re.fullmatch(r"(\d{2,3})(rs|st|fd)?", t)
+        if not m:
+            continue
+        n, suf = m.group(1), m.group(2)
+        salida.append(f"solaris-{n}" if suf in (None, "fd") else f"solaris-{n}-{suf}")
+    return [{"solaris-111": "solaris-111-rs"}.get(s, s) for s in salida]  # el catálogo llama «111» al 111 RS
+
+
+def modelos_de_senal(tipo: str, html: str) -> set[str]:
+    out: set[str] = set()
+    if tipo == "catalogo":
+        for c in re.findall(r"solariscatalogues\.com/([a-z0-9-]+_[a-z]{2})/", html, re.I):
+            out.update(_slug_catalogo(c.lower()))
+    elif tipo == "berthon":
+        out.update(re.findall(r"/new-yacht-sales/solaris-yachts/(solaris-[a-z0-9-]+)/", html, re.I))
+    return {s.lower() for s in out}
+
+
+def senales(marca: str, conocidos_slugs: set[str], leer=traer, pausa=0.4) -> list[dict]:
+    res = []
+    for f in SENALES.get(marca, []):
+        r = leer(f["url"])
+        time.sleep(pausa)
+        item = {"fuente": f["nombre"], "url": f["url"], "ok": r.ok, "oficial": False}
+        if not r.ok:
+            item["error"] = r.error or f"HTTP {r.estado}"
+        else:
+            vistos = modelos_de_senal(f["tipo"], r.texto)
+            item["vistos"] = len(vistos)
+            item["nuevos"] = sorted(vistos - conocidos_slugs)
+            if not vistos:
+                item["ok"] = False
+                item["error"] = "La página respondió pero no se reconoció ningún modelo (¿cambió su formato?)"
+        res.append(item)
+    return res
 
 
 # ---------- conocidos ----------
@@ -266,12 +319,15 @@ def revisar(raiz: Path = ROOT, marcas: list[str] | None = None, leer=traer, paus
         if marcas and marca not in marcas:
             continue
         r = revisar_marca(marca, modelos, leer, pausa, extra)
+        if marca in SENALES:
+            r["senales"] = senales(marca, {m["slug"] for m in modelos}, leer, pausa)
         en_cat = cat.get(marca, set())
         for x in r["retirados"] + r["movidos"]:
             x["en_catalogo"] = x["slug"] in en_cat  # solo se puede ocultar lo que está en el sitio
         informe["marcas"].append(r)
     informe["resumen"] = {
         "nuevos": sum(len(m["nuevos"]) for m in informe["marcas"]),
+        "senales_nuevas": sum(len(s.get("nuevos", [])) for m in informe["marcas"] for s in m.get("senales", [])),
         "movidos": sum(len(m["movidos"]) for m in informe["marcas"]),
         "retirados": sum(len(m["retirados"]) for m in informe["marcas"]),
         "marcas_ok": sum(1 for m in informe["marcas"] if m["estado"] in ("ok", "unica")),

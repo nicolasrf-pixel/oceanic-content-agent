@@ -78,3 +78,10 @@ destacados (el servidor lo rechazaría).
 
 `tools/revisar_marcas.py` (detector) · `tools/tests/test_revisar.py` · `.github/workflows/revisar-marcas.yml` ·
 `sitio/worker/revision.js` (GitHub desde el Worker) · `sitio/tests/revision.test.mjs` · `sitio/admin/admin.js › S.revision`.
+
+
+## Avisos externos (marcas con web protegida por captcha)
+Solaris protege su web con un captcha anti-bots (SiteGround) que **no se elude**. En su lugar el informe trae un «aviso externo» (no oficial,
+`SENALES` en `tools/revisar_marcas.py`): lee `solariscatalogues.com` (catálogos que publica el propio fabricante) y la lista de Berthon
+International (distribuidor) y avisa si aparece un modelo que la biblioteca no tiene. No se saca ningún dato: el modelo se carga después
+desde la web oficial, mirada a mano en el navegador (regla 1 de CLAUDE.md).
