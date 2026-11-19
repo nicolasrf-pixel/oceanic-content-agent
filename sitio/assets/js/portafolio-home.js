@@ -55,6 +55,8 @@
   if (cont && us.length) {
     cont.innerHTML = us.map(function (u) {
       var marcas = (u.marcas || []).filter(function (x) { return x && SLUG.test(x.marca || '') && M[x.marca] && !ocultas[x.marca]; });
+      var pos = function (mk) { for (var i = 0; i < P.inicio.length; i++) if (P.inicio[i] && P.inicio[i].marca === mk) return i; return 999; };
+      marcas = marcas.map(function (x, i) { return { x: x, i: i, p: pos(x.marca) }; }).sort(function (a, b) { return a.p - b.p || a.i - b.i; }).map(function (o) { return o.x; });
       var link = 'universo/index.html?u=' + u.slug, foto = img(u.hero);
       return '<article class="u">' +
         '<a class="u-img" href="' + link + '">' + (foto ? '<img alt="' + esc(u.alt || u.nombre) + '" loading="lazy" src="' + esc(foto) + '"/>' : '') + '</a>' +

@@ -600,3 +600,7 @@ body.locked .mob,body.locked .aviso-priv,body.locked .asis-btn,body.locked .asis
 .nav-menu-wide .nav-col a[role=menuitem]{justify-content:flex-start}
 .nav-nm{font-size:12.5px;letter-spacing:.02em;color:rgba(255,255,255,.55)}
 .nav-lg{flex-basis:112px}.nav-lg img{max-width:104px;max-height:28px}
+
+/* sin logos: solo el nombre de la marca */
+.nav-menu-wide .nav-col a[role=menuitem]{padding:11px 8px 11px 12px}
+.nav-menu-wide .nav-nm{font-size:15px;letter-spacing:0;color:rgba(255,255,255,.88)}

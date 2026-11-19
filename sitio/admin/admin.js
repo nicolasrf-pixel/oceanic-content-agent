@@ -1060,6 +1060,7 @@
         return [h('button', { class: 'mini', title: 'Subir', text: '↑', onclick: function () { mover(arr, i, -1, vuelta); } }),
                 h('button', { class: 'mini', title: 'Bajar', text: '↓', onclick: function () { mover(arr, i, 1, vuelta); } })];
       }
+      function ordenIni(mk) { for (var i = 0; i < P.inicio.length; i++) if (P.inicio[i].marca === mk) return i; return -1; }
       function opcionesMarcas(excluir) {
         var o = { '': '— Elige una marca —' };
         Object.keys(MI).forEach(function (m) { if (!excluir || excluir.indexOf(m) < 0) o[m] = nombreMarca(m); });
@@ -1112,7 +1113,7 @@
             u.marcas.forEach(function (m, j) {
               var lineas = (MI[m.marca] && MI[m.marca].lineas) || null, ops = { '': 'Toda la marca' };
               if (lineas) Object.keys(lineas).forEach(function (k) { ops[k] = (lineas[k].nombre || k) + ' (línea)'; });
-              lista.appendChild(h('div', { class: 'item filtros' }, flechas(u.marcas, j, function () { pintarUni(); }),
+              lista.appendChild(h('div', { class: 'item filtros' }, h('span', { style: 'min-width:22px;opacity:.6', text: (ordenIni(m.marca) + 1 || '–') + '°', title: 'Lugar en la prioridad interna (Orden en el inicio)' }),
                 h('b', { text: nombreMarca(m.marca), style: 'min-width:120px' }),
                 lineas ? selector(ops, m.linea || '', function (v) { m.linea = v; marcar(doc); }) : null,
                 h('input', { type: 'text', value: m.etiqueta || '', placeholder: 'Texto del enlace', oninput: function (e) { m.etiqueta = e.target.value; marcar(doc); } }),
@@ -1229,9 +1230,9 @@
         h('p', { class: 'lede', text: 'Decide en qué orden se ven las marcas en el inicio y en el menú, crea categorías nuevas (hoy: Vela, Motor y Vela deportiva) y agrega marcas nuevas. Todo queda en borrador hasta que publiques.' }),
         barra(doc),
         h('h2', { text: 'Orden en el inicio' }),
-        h('p', null, h('small', { text: 'Es el orden de la grilla «El portafolio» y del carrusel de logos. Usa las flechas para mover; abre una marca para editar su tarjeta.' })), cajaIni,
+        h('p', null, h('small', { text: 'Es la prioridad interna de las marcas: manda el orden de la grilla «El portafolio», del carrusel de logos y también el de cada categoría, el menú y el pie (en toda categoría, la marca de más arriba va primero). Usa las flechas para mover; abre una marca para editar su tarjeta.' })), cajaIni,
         h('h2', { text: 'Categorías' }),
-        h('p', null, h('small', { text: 'Cada categoría es una columna del menú, una del pie y una página propia. El orden de las marcas dentro de cada una es el del menú.' })), cajaUni,
+        h('p', null, h('small', { text: 'Cada categoría es una columna del menú, una del pie y una página propia. Las marcas de cada categoría siguen la prioridad interna de «Orden en el inicio» (el número a la izquierda es su lugar).' })), cajaUni,
         h('h2', { text: 'Marca nueva' }), cajaNueva, msg);
     });
   };

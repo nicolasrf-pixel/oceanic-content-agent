@@ -48,6 +48,11 @@
   var entradas=(u.marcas||[]).map(function(x){
     return typeof x==='string'?{marca:x,linea:((M[x]||{}).lineas||{})[slug]?slug:''}:x;
   }).filter(function(x){ return x&&/^[a-z0-9-]+$/.test(x.marca||'')&&M[x.marca]&&!(PF&&Array.isArray(PF.inicio)&&PF.inicio.some(function(i){ return i&&i.marca===x.marca&&i.visible===false; })); });
+  (function(){  // prioridad interna: el orden de las marcas del inicio manda en toda categoría
+    var ini=(PF&&Array.isArray(PF.inicio))?PF.inicio:[];
+    function prio(mk){ for(var i=0;i<ini.length;i++){ if(ini[i]&&ini[i].marca===mk) return i; } return 999; }
+    entradas=entradas.map(function(x,i){ return {x:x,i:i,p:prio(x.marca)}; }).sort(function(a,b){ return a.p-b.p||a.i-b.i; }).map(function(o){ return o.x; });
+  })();
   function marcaHref(e){ return pre+'marca/index.html?m='+e.marca+(e.linea?'&u='+e.linea:''); }
 
   // hero
