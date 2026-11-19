@@ -60,7 +60,7 @@ test('iniciar: lanza el flujo en main y no lanza otro si ya hay uno en curso', a
   const r = await iniciarRevision(ENV);
   assert.equal(r.ok, true);
   const d = llamadas.find((l) => l.metodo === 'POST');
-  assert.deepEqual(d.cuerpo, { ref: 'main', inputs: { extra: '{}' } });
+  assert.deepEqual(d.cuerpo, { ref: 'main' });
   assert.equal(d.auth, 'Bearer token-de-prueba');
 
   llamadas = github({ 'GET /repos/org/repo/actions/workflows/revisar-marcas.yml/runs': { cuerpo: { workflow_runs: [{ status: 'in_progress' }] } } });

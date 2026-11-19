@@ -91,7 +91,9 @@ export async function iniciarRevision(env, cuerpo) {
   const en = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/runs?per_page=1`);
   const ult = en.ok && en.datos && en.datos.workflow_runs && en.datos.workflow_runs[0];
   if (ult && (ult.status === 'queued' || ult.status === 'in_progress')) return { ok: false, configurado: true, enCurso: true, error: 'Ya hay una revisión en curso.' };
-  const r = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/dispatches`, { metodo: 'POST', cuerpo: { ref: env.GH_FLUJO_RAMA || 'main', inputs: { extra: JSON.stringify(limpiarExtra(cuerpo && cuerpo.extra)) } } });
+  // sin marcas nuevas no se manda ninguna entrada: así sigue funcionando aunque main aún tenga la versión anterior del flujo
+  const extra = limpiarExtra(cuerpo && cuerpo.extra);
+  const r = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/dispatches`, { metodo: 'POST', cuerpo: { ref: env.GH_FLUJO_RAMA || 'main', ...(Object.keys(extra).length ? { inputs: { extra: JSON.stringify(extra) } } : {}) } });
   if (!r.ok) return errorGitHub(r, 'lanzar la revisión');
   return { ok: true, configurado: true };
 }
