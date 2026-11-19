@@ -47,7 +47,15 @@
     'Eliminar aviso': 'Elimina este aviso de usados. Pide confirmación.',
     'Eliminar edición': 'Elimina esta edición de Puerto. Pide confirmación.',
     'REVISADO': 'Marca esta traducción como revisada por una persona.',
-    'Revisar': 'Abre esta ficha para revisar su traducción.'
+    'Revisar': 'Abre esta ficha para revisar su traducción.',
+    'Guardar etapa': 'Guarda la etapa del lead directo en Brevo (campo ETAPA del contacto).',
+    '+ Agregar a la lista': 'Agrega este contacto a la lista de Brevo elegida.',
+    'Buscar': 'Busca en los contactos más recientes de Brevo. Para un contacto antiguo, escribe su correo exacto.',
+    'Abrir Brevo ↗': 'Abre Brevo en una pestaña nueva, para automatizaciones y campañas.',
+    'Abrir en Brevo ↗': 'Abre este contacto directamente en Brevo.',
+    'WhatsApp ↗': 'Abre una conversación de WhatsApp con este contacto.',
+    'Escribir correo': 'Abre tu programa de correo con este contacto como destinatario.',
+    '✕ Cerrar': 'Cierra la ficha del contacto.'
   };
   // ---- patrones (por orden): texto del botón → explicación ----
   var PATRON = [

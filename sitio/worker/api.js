@@ -3,6 +3,7 @@
    antes, responde 409 y no pisa su trabajo. Publicar copia el borrador validado a "publicado" en una sola operación. */
 import { DOCS, definicion, validar } from './documentos.js';
 import { estadoRevision, iniciarRevision, aprobarRevision } from './revision.js';
+import { crm } from './crm.js';
 
 const MAX_DOC = 1_800_000;          // D1: 2 MB por fila
 const MAX_MEDIO = 20 * 1024 * 1024; // KV: 25 MB por valor
@@ -33,6 +34,13 @@ export async function api(request, env, url, email) {
     if (ruta === 'revision' && m === 'GET') return json(await estadoRevision(env));
     if (ruta === 'revision/iniciar' && m === 'POST') return json(await iniciarRevision(env, await request.json().catch(() => null)));
     if (ruta === 'revision/aprobar' && m === 'POST') return json(await aprobarRevision(env, await request.json().catch(() => null), email));
+
+    // CRM: lee y ordena contactos en Brevo (ver worker/crm.js); no guarda copia de los datos
+    if (ruta.startsWith('crm/')) {
+      const r = await crm(env, ruta, m, url, m === 'POST' ? await request.json().catch(() => null) : null, email);
+      const { _status, ...resto } = r;
+      return json(resto, _status || 200);
+    }
 
     if (ruta === 'doc' && m === 'GET') {
       const clave = url.searchParams.get('clave') || '';
