@@ -217,6 +217,11 @@ landings de invitación (`/evento/?e=<slug>`: portada, texto, detalles, programa
 `nav-tpl.js` carga el pop-up en todas las páginas solo si hay uno activo; pasada la fecha la landing queda sin formulario.
 La portada del inicio también admite carrusel de imágenes y videos (`inicio-data.js › modo: carrusel`).
 
+**Orden, categorías y marcas (decisión Oceanic 2026-11-19):** el documento `portafolio` (`sitio/assets/js/portafolio-data.js`, CMS
+› «Orden, categorías y marcas») guarda el orden de las marcas en el inicio y las categorías (universos Vela, Motor, Vela deportiva…)
+con sus marcas en orden; lo leen el menú, el pie, el inicio (`portafolio-home.js`), `universo-tpl.js` y el asistente. Permite crear
+categorías y marcas nuevas (la marca nace oculta, sin modelos). Detalle y límites en `docs/PORTAFOLIO.md`.
+
 **Revisión de marcas (decisión Oceanic 2026-11-17):** botón del administrador (`#revision`) que lanza en GitHub Actions
 (`.github/workflows/revisar-marcas.yml`, debe estar en `main`) el detector `tools/revisar_marcas.py`: compara las webs
 oficiales con `biblioteca/*/07_FUENTES/sources.json` y el catálogo, y entrega un informe de modelos nuevos, movidos de

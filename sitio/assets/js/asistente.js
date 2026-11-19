@@ -7,7 +7,15 @@
   var C = window.OCEANIC_CATALOGO || {};
   var WA = '56229537322';
   var base = document.body.dataset.assetBase || ''; var pre = base.replace('assets/img/', '');
+  // orden de las marcas: el del inicio (portafolio, administrable en el CMS); lo que no aparezca allí va al final
   var ORDEN = ['axopar', 'beneteau', 'lagoon', 'solaris', 'saffier', 'aquila', 'xo', 'excess', 'vx-one', 'switch', 'oceanic-power'];
+  (function () {
+    var PF = window.OCEANIC_PORTAFOLIO, C0 = window.OCEANIC_CATALOGO;
+    if (!PF || !Array.isArray(PF.inicio) || !C0) return;
+    var o = PF.inicio.filter(function (x) { return x && x.visible !== false && C0[x.marca]; }).map(function (x) { return x.marca; });
+    Object.keys(C0).forEach(function (k) { if (o.indexOf(k) < 0 && ORDEN.indexOf(k) < 0) o.push(k); });
+    if (o.length) ORDEN = o;
+  })();
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function nombreMarca(mk) { return (C[mk] && C[mk].nombre) || mk; }

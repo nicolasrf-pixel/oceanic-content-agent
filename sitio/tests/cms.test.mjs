@@ -133,3 +133,25 @@ test('eventos: el archivo del repo pasa la validación', async () => {
   const d = DOCS.eventos.leer(fs.readFileSync(new URL('../assets/js/eventos-data.js', import.meta.url), 'utf8'));
   assert.deepEqual(validar('eventos', d).errores, []);
 });
+
+test('portafolio: el archivo del repo pasa la validación y la leída coincide con la forma esperada', async () => {
+  const { validar, DOCS } = await import('../worker/documentos.js');
+  const fs = await import('node:fs');
+  const d = DOCS.portafolio.leer(fs.readFileSync(new URL('../assets/js/portafolio-data.js', import.meta.url), 'utf8'));
+  assert.deepEqual(validar('portafolio', d).errores, []);
+  assert.equal(d.inicio.length, 11);
+  assert.deepEqual(d.universos.map((u) => u.slug), ['vela', 'motor', 'deportiva']);
+});
+
+test('portafolio: rechaza duplicados, direcciones inseguras y listas enormes; avisa si no queda nada visible', async () => {
+  const { validar } = await import('../worker/documentos.js');
+  const ok = { inicio: [{ marca: 'axopar', visible: true, foto: 'modelos/x.webp', forma: 'ancho' }], universos: [{ slug: 'vela-clasica', nombre: 'Vela clásica', visible: true, marcas: [{ marca: 'axopar', etiqueta: 'Axopar' }] }] };
+  assert.deepEqual(validar('portafolio', ok).errores, []);
+  const mal = { inicio: [{ marca: 'Axopar' }, { marca: 'a' }, { marca: 'a' }, { marca: 'b', foto: 'javascript:alert(1)', forma: 'redondo' }],
+    universos: [{ slug: 'x', nombre: '', marcas: [{ marca: 'a' }, { marca: 'a' }] }, { slug: 'x', nombre: 'Otra', marcas: 'no' }, { slug: 'UPPER', nombre: 'N', hero: 'javascript:alert(1)', marcas: [] }] };
+  const e = validar('portafolio', mal).errores.map((x) => x.ruta);
+  for (const r of ['inicio[0].marca', 'inicio[2].marca', 'inicio[3].foto', 'inicio[3].forma', 'universos[0].nombre', 'universos[0].marcas[1]', 'universos[1].slug', 'universos[1].marcas', 'universos[2].slug', 'universos[2].hero']) assert.ok(e.includes(r), r);
+  assert.ok(validar('portafolio', { inicio: Array(61).fill({ marca: 'a' }), universos: [] }).errores.some((x) => x.ruta === 'inicio'));
+  const av = validar('portafolio', { inicio: [{ marca: 'a', visible: false }], universos: [{ slug: 'v', nombre: 'V', visible: false, marcas: [] }] }).avisos.map((x) => x.ruta);
+  assert.deepEqual(av.sort(), ['inicio', 'universos']);
+});

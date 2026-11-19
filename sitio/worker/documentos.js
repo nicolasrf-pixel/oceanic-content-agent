@@ -17,6 +17,7 @@ export const DOCS = {
   'marcas-contenido': js('/assets/js/marcas-contenido.js', 'OCEANIC_MARCA_CONTENIDO', { titulo: 'Contenido de marcas' }),
   charter:            js('/assets/js/charter-data.js', 'OCEANIC_CHARTER', { titulo: 'Charter' }),
   equipamiento:       js('/assets/js/equipamiento-data.js', 'OCEANIC_EQUIPAMIENTO', { titulo: 'Equipamiento' }),
+  portafolio:         js('/assets/js/portafolio-data.js', 'OCEANIC_PORTAFOLIO', { titulo: 'Portafolio: orden, categorías y marcas' }),
   eventos:            js('/assets/js/eventos-data.js', 'OCEANIC_EVENTOS', { titulo: 'Eventos: pop-ups y landings' }),
   // Solo en el CMS (no hay archivo en el sitio): patrones prohibidos del Brand OS, se validan al guardar texto.
   patrones:           { titulo: 'Patrones prohibidos', soloCms: true, base: [] },
@@ -85,6 +86,7 @@ export function validar(clave, d, patrones = []) {
   else if (clave === 'publicacion') publicacion(d, err);
   else if (clave === 'inicio') inicio(d, err);
   else if (clave === 'eventos') eventos(d, err, aviso);
+  else if (clave === 'portafolio') portafolio(d, err, aviso);
   else if (clave === 'catalogo' || clave === 'contenido') ficha(d, err, aviso);
   else if (clave === 'patrones') listaPatrones(d, err);
   else if (FICHA.test(clave)) ficha(d, err, aviso);
@@ -178,6 +180,61 @@ function inicio(d, err) {
     });
   }
   if (d.modo === 'carrusel' && !(Array.isArray(d.diapositivas) && d.diapositivas.length >= 2)) err('diapositivas', 'El carrusel necesita al menos 2 diapositivas');
+}
+
+/* Portafolio: orden de las marcas en el inicio y categorías (universos) con sus marcas en orden. */
+function portafolio(d, err, aviso) {
+  if (!d || typeof d !== 'object' || Array.isArray(d)) return err('', 'Portafolio: objeto { inicio, universos }');
+  const texto = (v, max) => v == null || (typeof v === 'string' && v.length <= max);
+  const marcaOk = (v) => typeof v === 'string' && SLUG.test(v) && v.length <= 40;
+
+  if (!Array.isArray(d.inicio)) err('inicio', 'inicio: lista de marcas');
+  else {
+    if (d.inicio.length > 60) err('inicio', 'Demasiadas marcas en el inicio (máximo 60)');
+    const vistas = new Set();
+    d.inicio.forEach((x, i) => {
+      const r = `inicio[${i}]`;
+      if (!x || typeof x !== 'object') return err(r, 'Cada marca es un objeto');
+      if (!marcaOk(x.marca)) return err(r + '.marca', `Marca ${i + 1}: identificador en minúsculas con guiones`);
+      if (vistas.has(x.marca)) err(r + '.marca', `${x.marca} está repetida en el inicio`); else vistas.add(x.marca);
+      if (x.visible != null && typeof x.visible !== 'boolean') err(r + '.visible', `${x.marca}: visible debe ser sí o no`);
+      if (!texto(x.subtitulo, 80)) err(r + '.subtitulo', `${x.marca}: subtítulo de hasta 80 letras`);
+      for (const k of ['foto', 'logo']) if (x[k] && !rutaImagen(x[k])) err(r + '.' + k, `${x.marca}: imagen inválida`);
+      if (x.forma != null && !['ancho', 'alto'].includes(x.forma)) err(r + '.forma', `${x.marca}: forma del logo: ancho o alto`);
+    });
+    if (!d.inicio.some((x) => x && x.visible !== false)) aviso('inicio', 'Ninguna marca visible: el inicio mostrará su lista de respaldo');
+  }
+
+  if (!Array.isArray(d.universos)) err('universos', 'universos: lista de categorías');
+  else {
+    if (d.universos.length > 12) err('universos', 'Demasiadas categorías (máximo 12)');
+    const slugs = new Set();
+    d.universos.forEach((u, i) => {
+      const r = `universos[${i}]`;
+      if (!u || typeof u !== 'object') return err(r, 'Cada categoría es un objeto');
+      const n = u.nombre || 'Categoría ' + (i + 1);
+      if (typeof u.slug !== 'string' || !SLUG.test(u.slug) || u.slug.length > 40) err(r + '.slug', `${n}: dirección en minúsculas con guiones (ej. vela-clasica)`);
+      else if (slugs.has(u.slug)) err(r + '.slug', `${n}: dirección repetida`); else slugs.add(u.slug);
+      if (typeof u.nombre !== 'string' || !u.nombre.trim() || u.nombre.length > 40) err(r + '.nombre', `Categoría ${i + 1}: nombre de 1 a 40 letras`);
+      if (!texto(u.kicker, 80)) err(r + '.kicker', `${n}: antetítulo de hasta 80 letras`);
+      if (!texto(u.lede, 500)) err(r + '.lede', `${n}: descripción de hasta 500 letras`);
+      if (!texto(u.alt, 120)) err(r + '.alt', `${n}: texto alternativo de hasta 120 letras`);
+      if (u.hero && !rutaImagen(u.hero)) err(r + '.hero', `${n}: imagen inválida`);
+      if (u.visible != null && typeof u.visible !== 'boolean') err(r + '.visible', `${n}: visible debe ser sí o no`);
+      if (!Array.isArray(u.marcas)) return err(r + '.marcas', `${n}: lista de marcas`);
+      if (u.marcas.length > 40) err(r + '.marcas', `${n}: demasiadas marcas (máximo 40)`);
+      const par = new Set();
+      u.marcas.forEach((m, j) => {
+        const rm = `${r}.marcas[${j}]`;
+        if (!m || typeof m !== 'object' || !marcaOk(m.marca)) return err(rm, `${n}: marca ${j + 1} inválida`);
+        if (m.linea != null && m.linea !== '' && !marcaOk(m.linea)) err(rm + '.linea', `${n}: línea de ${m.marca} inválida`);
+        if (!texto(m.etiqueta, 60)) err(rm + '.etiqueta', `${n}: texto del enlace de ${m.marca} de hasta 60 letras`);
+        const k = m.marca + '|' + (m.linea || '');
+        if (par.has(k)) err(rm, `${n}: ${m.marca}${m.linea ? ' (' + m.linea + ')' : ''} está repetida`); else par.add(k);
+      });
+    });
+    if (!d.universos.some((u) => u && u.visible !== false)) aviso('universos', 'Ninguna categoría visible: el menú usará su lista de respaldo');
+  }
 }
 
 function eventos(d, err, aviso) {

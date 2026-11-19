@@ -1041,6 +1041,190 @@
     });
   };
 
+  /* --- Orden, categorías y marcas (documento «portafolio») ---
+     Orden de las marcas en el inicio y en el carrusel, categorías (universos) con sus marcas en orden, categorías nuevas
+     y marcas nuevas. Lo leen el menú, el pie, el inicio, las páginas de universo y el asistente (assets/js/portafolio-data.js). */
+  S.portafolio = function () {
+    return Promise.all([cargar('portafolio'), cargar('marcas')]).then(function (x) {
+      var doc = x[0], P = doc.contenido, MI = x[1].contenido;
+      if (!Array.isArray(P.inicio)) P.inicio = [];
+      if (!Array.isArray(P.universos)) P.universos = [];
+      var raiz = h('div'), cajaIni = h('div'), cajaUni = h('div'), abierto = -1;
+
+      function nombreMarca(m) { return (MI[m] && MI[m].nombre) || m; }
+      function mover(arr, i, d, vuelta) {
+        var j = i + d; if (j < 0 || j >= arr.length) return;
+        arr.splice(j, 0, arr.splice(i, 1)[0]); marcar(doc); vuelta();
+      }
+      function flechas(arr, i, vuelta) {
+        return [h('button', { class: 'mini', title: 'Subir', text: '↑', onclick: function () { mover(arr, i, -1, vuelta); } }),
+                h('button', { class: 'mini', title: 'Bajar', text: '↓', onclick: function () { mover(arr, i, 1, vuelta); } })];
+      }
+      function opcionesMarcas(excluir) {
+        var o = { '': '— Elige una marca —' };
+        Object.keys(MI).forEach(function (m) { if (!excluir || excluir.indexOf(m) < 0) o[m] = nombreMarca(m); });
+        return o;
+      }
+
+      /* ---------- orden en el inicio ---------- */
+      function pintarIni() {
+        vaciar(cajaIni);
+        P.inicio.forEach(function (x, i) {
+          var det = h('details', { class: 'panel', style: 'margin:6px 0' },
+            h('summary', null, h('b', { text: (i + 1) + '. ' + nombreMarca(x.marca) }), h('small', { text: '  ' + (x.visible === false ? 'oculta en el inicio' : (x.subtitulo || '')) })),
+            h('div', { class: 'filtros' }, flechas(P.inicio, i, pintarIni),
+              interruptor(x, 'visible', 'Mostrar en el inicio y en el carrusel', function () { if (x.visible == null) x.visible = true; marcar(doc); pintarIni(); }),
+              h('button', { class: 'mini x', text: '✕ Quitar', onclick: function () { if (confirm('¿Quitar ' + nombreMarca(x.marca) + ' del inicio? La marca sigue existiendo en el sitio.')) { P.inicio.splice(i, 1); marcar(doc); pintarIni(); } } })),
+            campo('Texto bajo el nombre (tarjeta del inicio)', texto(doc, x, 'subtitulo', { ph: 'Ej. Vela y motor' })),
+            campo('Foto de la tarjeta', campoImagen(doc, x, 'foto', 'marcas'), 'Si se deja vacía, se usa la foto de portada de la marca.'),
+            campo('Logo del carrusel', campoImagen(doc, x, 'logo', 'marcas'), 'PNG o WebP con fondo transparente. Vacío: se usa el logo de la marca, o su nombre en texto.'),
+            campo('Forma del logo', selector({ ancho: 'Ancho (logotipo horizontal)', alto: 'Alto (logo cuadrado o vertical)' }, x.forma || 'ancho', function (v) { x.forma = v; marcar(doc); })));
+          cajaIni.appendChild(det);
+        });
+        var libres = Object.keys(MI).filter(function (m) { return !P.inicio.some(function (x) { return x.marca === m; }); });
+        if (libres.length) {
+          var el = selector(opcionesMarcas(Object.keys(MI).filter(function (m) { return libres.indexOf(m) < 0; })), '', function () {});
+          cajaIni.appendChild(h('div', { class: 'filtros' }, el, h('button', { class: 'btn-sm', text: '+ Agregar al inicio', onclick: function () {
+            if (!el.value) return avisar('Elige una marca', true);
+            P.inicio.push({ marca: el.value, visible: true, foto: '', subtitulo: '', logo: '', forma: 'ancho' }); marcar(doc); pintarIni();
+          } })));
+        }
+      }
+
+      /* ---------- categorías ---------- */
+      function pintarUni() {
+        vaciar(cajaUni);
+        P.universos.forEach(function (u, i) {
+          if (!Array.isArray(u.marcas)) u.marcas = [];
+          var url = '/universo/?u=' + u.slug;
+          var nombre = texto(doc, u, 'nombre', { alCambiar: function (v) { if (u._nuevo) { u.slug = slugDe(v); dirEl.value = u.slug; } } });
+          var dirEl = texto(doc, u, 'slug', { ph: 'vela-clasica' });
+          nombre.addEventListener('change', pintarCats);
+          if (!u._nuevo) dirEl.disabled = true;
+          var lista = h('div');
+          (function pintarMarcas() {
+            vaciar(lista);
+            u.marcas.forEach(function (m, j) {
+              var lineas = (MI[m.marca] && MI[m.marca].lineas) || null, ops = { '': 'Toda la marca' };
+              if (lineas) Object.keys(lineas).forEach(function (k) { ops[k] = (lineas[k].nombre || k) + ' (línea)'; });
+              lista.appendChild(h('div', { class: 'item filtros' }, flechas(u.marcas, j, function () { pintarUni(); }),
+                h('b', { text: nombreMarca(m.marca), style: 'min-width:120px' }),
+                lineas ? selector(ops, m.linea || '', function (v) { m.linea = v; marcar(doc); }) : null,
+                h('input', { type: 'text', value: m.etiqueta || '', placeholder: 'Texto del enlace', oninput: function (e) { m.etiqueta = e.target.value; marcar(doc); } }),
+                h('button', { class: 'mini x', text: '✕', title: 'Quitar de esta categoría', onclick: function () { u.marcas.splice(j, 1); marcar(doc); abierto = i; pintarUni(); } })));
+            });
+            var el = selector(opcionesMarcas(), '', function () {});
+            lista.appendChild(h('div', { class: 'filtros' }, el, h('button', { class: 'mini', text: '+ Agregar marca a esta categoría', onclick: function () {
+              if (!el.value) return avisar('Elige una marca', true);
+              var linea = ''; if (MI[el.value] && MI[el.value].lineas && MI[el.value].lineas[u.slug]) linea = u.slug;
+              u.marcas.push({ marca: el.value, linea: linea, etiqueta: nombreMarca(el.value) }); marcar(doc); abierto = i; pintarUni();
+            } })));
+          })();
+          cajaUni.appendChild(h('details', { class: 'panel', open: i === abierto, style: 'margin:8px 0' },
+            h('summary', null, h('b', { text: (i + 1) + '. ' + (u.nombre || 'Categoría sin nombre') }), h('small', { text: '  ' + (u.visible === false ? 'oculta' : 'visible') + ' · ' + u.marcas.length + ' marca(s)' })),
+            h('div', { class: 'filtros' }, flechas(P.universos, i, function () { abierto = -1; pintarUni(); }),
+              interruptor(u, 'visible', 'Mostrar esta categoría en el menú, el pie y el inicio', function () { marcar(doc); abierto = i; pintarUni(); }),
+              h('button', { class: 'mini x', text: '✕ Eliminar categoría', onclick: function () { if (confirm('¿Eliminar la categoría «' + (u.nombre || u.slug) + '»? Las marcas no se borran.')) { P.universos.splice(i, 1); marcar(doc); abierto = -1; pintarUni(); } } })),
+            campo('Nombre', nombre, 'Es el título de la columna del menú y de la página de la categoría.'),
+            campo('Dirección de la página', dirEl, u._nuevo ? 'Se arma sola con el nombre. Después de publicar ya no se puede cambiar.' : 'Página: ' + url),
+            campo('Antetítulo', texto(doc, u, 'kicker', { ph: 'Universo ' + (u.nombre || '') })),
+            campo('Descripción', texto(doc, u, 'lede', { largo: true, filas: 3 }), 'Una o dos frases bajo el título de la página.'),
+            campo('Foto de la categoría', campoImagen(doc, u, 'hero', 'portada'), 'Horizontal, 2560 px. Se ve en el inicio y en la portada de la categoría.'),
+            campo('Descripción de la foto', texto(doc, u, 'alt', { ph: 'Velero navegando' })),
+            h('h4', { text: 'Marcas, en orden' }), lista));
+        });
+        pintarCats();
+        cajaUni.appendChild(h('button', { class: 'btn-sm', text: '+ Nueva categoría', onclick: function () {
+          P.universos.push({ slug: 'categoria-' + (P.universos.length + 1), nombre: '', kicker: '', lede: '', hero: '', alt: '', visible: false, marcas: [], _nuevo: true });
+          marcar(doc); abierto = P.universos.length - 1; pintarUni();
+        } }));
+      }
+
+      /* ---------- marca nueva ---------- */
+      var F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', cats: {} };
+      var cajaNueva = h('div'), msg = h('div'), cajaCats = h('div');
+      function pintarCats() {  // se vuelve a armar cada vez que cambian las categorías, para que las nuevas aparezcan aquí
+        vaciar(cajaCats);
+        if (!P.universos.length) return cajaCats.appendChild(h('small', { text: 'Primero crea una categoría arriba.' }));
+        P.universos.forEach(function (u) {
+          cajaCats.appendChild(h('label', { style: 'display:block' }, h('input', { type: 'checkbox', checked: !!F.cats[u.slug], onchange: function (e) { F.cats[u.slug] = e.target.checked; } }), ' ' + (u.nombre || u.slug)));
+        });
+      }
+      function pintarNueva() {
+        vaciar(cajaNueva); pintarCats();
+        var nd = { sucio: false };  // el formulario de marca nueva no ensucia el borrador del portafolio
+        var slugEl = texto(nd, F, 'slug', { ph: 'ej. delta-yachts' });
+        cajaNueva.appendChild(h('div', { class: 'panel' },
+          h('div', { class: 'fila' },
+            campo('Nombre de la marca *', h('input', { type: 'text', value: F.nombre, oninput: function (e) { F.nombre = e.target.value; F.slug = slugDe(F.nombre); slugEl.value = F.slug; } })),
+            campo('Dirección *', slugEl, 'Minúsculas y guiones. No se puede cambiar después.'),
+            campo('País *', h('input', { type: 'text', value: F.pais, placeholder: 'Ej. Italia', oninput: function (e) { F.pais = e.target.value; } }))),
+          campo('Foto de portada *', campoImagen(nd, F, 'hero', 'marcas'), 'Horizontal, de buena calidad (2560 px). Se ve en la página de la marca y en el inicio.'),
+          campo('Logo (opcional)', campoImagen(nd, F, 'logo', 'marcas'), 'PNG o WebP con fondo transparente. El sitio no admite SVG subido desde aquí.'),
+          campo('Frase corta de la marca', h('input', { type: 'text', value: F.claim, oninput: function (e) { F.claim = e.target.value; } })),
+          campo('Presentación', h('textarea', { rows: 3, oninput: function (e) { F.intro = e.target.value; } }, F.intro), 'Dos o tres frases tomadas de la web oficial de la marca.'),
+          campo('Texto bajo el nombre en el inicio', h('input', { type: 'text', value: F.subtitulo, placeholder: 'Ej. Yates a motor', oninput: function (e) { F.subtitulo = e.target.value; } })),
+          h('div', { class: 'campo' }, h('label', { text: 'Categorías donde aparece' }), cajaCats),
+          h('p', null, h('small', { text: 'La marca se crea oculta: no aparece en el inicio hasta que le agregues sus modelos (en «Catálogo y modelos nuevos») y actives «Mostrar en el inicio».' })),
+          h('button', { class: 'btn boya', text: 'Crear marca', onclick: crearMarca })));
+      }
+      function paso(doc2, mutar, titulo) {  // guarda y publica un documento: mismo camino que el botón Publicar
+        return cargar(doc2, true).then(function (d) {
+          var yaEsta = mutar(d.contenido); if (yaEsta === 'existe') return true;
+          return api('doc', { method: 'PUT', body: { clave: doc2, version: d.version, contenido: limpio(d.contenido) } }).then(function (r) {
+            if (!r.ok) throw new Error(titulo + ': ' + (r.error || 'no se pudo guardar'));
+            return api('publicar', { method: 'POST', body: { clave: doc2, version: r.version } }).then(function (q) {
+              if (!q.ok) throw new Error(titulo + ': ' + (q.error || 'no se pudo publicar'));
+              return cargar(doc2, true).then(function () { return true; });
+            });
+          });
+        });
+      }
+      function crearMarca() {
+        var slug = slugDe(F.slug || F.nombre), nombre = F.nombre.trim(), pais = F.pais.trim();
+        if (!nombre || !pais) return avisar('Faltan el nombre y el país', true);
+        if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) return avisar('La dirección solo lleva minúsculas, números y guiones', true);
+        if (!F.hero) return avisar('Sube la foto de portada: la página de la marca la necesita', true);
+        if (MI[slug]) return avisar('Ya existe una marca con esa dirección', true);
+        if ((docs.catalogo && docs.catalogo.sucio) || (docs.marcas && docs.marcas.sucio)) return avisar('Hay cambios sin guardar en el catálogo o en las marcas. Guárdalos o descártalos antes de crear una marca.', true);
+        if (!confirm('¿Crear la marca «' + nombre + '»? Se guarda en el catálogo y en la información de marcas; queda oculta hasta que la actives.')) return;
+        var cats = P.universos.filter(function (u) { return F.cats[u.slug]; });
+        vaciar(msg); avisar('Creando la marca…');
+        paso('catalogo', function (C) { if (C[slug]) return 'existe'; C[slug] = { nombre: nombre, pais: pais, modelos: [] }; }, 'Catálogo')
+          .then(function () {
+            return paso('marcas', function (M) {
+              if (M[slug]) return 'existe';
+              M[slug] = { nombre: nombre, pais: pais, universo: cats.length ? cats.map(function (u) { return u.nombre; }).join(' y ') : 'Por clasificar', hero: F.hero, claim: F.claim.trim(), intro: F.intro.trim() };
+              if (F.logo) M[slug].logo = F.logo;
+            }, 'Información de marcas');
+          }).then(function () {
+            return cargar('marcas', true).then(function (m) { MI = m.contenido; });
+          }).then(function () {
+            P.inicio.push({ marca: slug, visible: false, foto: F.hero, subtitulo: F.subtitulo.trim(), logo: F.logo || '', forma: 'ancho' });
+            cats.forEach(function (u) { u.marcas.push({ marca: slug, linea: '', etiqueta: nombre }); });
+            marcar(doc); pintarIni(); pintarUni();
+            msg.appendChild(h('div', { class: 'panel' }, h('b', { text: '«' + nombre + '» creada.' }),
+              h('p', null, 'Siguiente: agrégale modelos en ', h('a', { href: '#nuevo-modelo', text: 'Nuevo modelo' }), ', activa «Mostrar en el inicio» en la lista de arriba y publica este documento. La marca ya quedó en el orden del inicio y en las categorías que elegiste (aún sin publicar).')));
+            F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', cats: {} }; pintarNueva();
+            avisar('Marca creada (oculta). Falta publicar el orden cuando esté lista.');
+          }).catch(function (e) {
+            msg.appendChild(h('div', { class: 'errores', text: (e && e.message) || 'No se pudo crear la marca. Puedes reintentar: lo que ya se guardó no se duplica.' }));
+            avisar((e && e.message) || 'No se pudo crear la marca', true);
+          });
+      }
+
+      pintarIni(); pintarNueva(); pintarUni();
+      return h('div', null, h('h1', { text: 'Orden, categorías y marcas' }),
+        h('p', { class: 'lede', text: 'Decide en qué orden se ven las marcas en el inicio y en el menú, crea categorías nuevas (hoy: Vela, Motor y Vela deportiva) y agrega marcas nuevas. Todo queda en borrador hasta que publiques.' }),
+        barra(doc),
+        h('h2', { text: 'Orden en el inicio' }),
+        h('p', null, h('small', { text: 'Es el orden de la grilla «El portafolio» y del carrusel de logos. Usa las flechas para mover; abre una marca para editar su tarjeta.' })), cajaIni,
+        h('h2', { text: 'Categorías' }),
+        h('p', null, h('small', { text: 'Cada categoría es una columna del menú, una del pie y una página propia. El orden de las marcas dentro de cada una es el del menú.' })), cajaUni,
+        h('h2', { text: 'Marca nueva' }), cajaNueva, msg);
+    });
+  };
+
   /* --- Revisar marcas: scraping de las webs oficiales (GitHub Actions) → informe → aprobación ---
      Nada se aplica sin marcar y confirmar. «Ocultar del sitio» usa el documento «publicacion» (con historial y
      reversible); lo nuevo y los cambios de dirección salen como pull request para cargarlos con el proceso de la biblioteca. */

@@ -6,7 +6,7 @@
   var AB=document.body.dataset.assetBase||'../assets/img/';
   var pre=AB.replace('assets/img/','');
 
-  var U={
+  var RESPALDO={
     vela:{
       nombre:'Vela', hero:'u-vela.webp',
       kicker:'Universo Vela',
@@ -27,15 +27,31 @@
     }
   };
 
-  var slug=new URLSearchParams(location.search).get('u')||'vela';
-  var u=U[slug];
+  // Universos del portafolio (CMS: /admin/ › Orden, categorías y marcas); si no están, la lista de respaldo de arriba.
+  var U=RESPALDO, primero='vela', PF=window.OCEANIC_PORTAFOLIO;
+  if(PF&&Array.isArray(PF.universos)){
+    var mapa={}, orden=[];
+    PF.universos.forEach(function(x){
+      if(!x||x.visible===false||!/^[a-z0-9-]+$/.test(x.slug||'')||!x.nombre) return;
+      mapa[x.slug]={nombre:x.nombre,hero:x.hero||'',kicker:x.kicker||('Universo '+x.nombre),lede:x.lede||'',marcas:x.marcas||[]}; orden.push(x.slug);
+    });
+    if(orden.length){ U=mapa; primero=orden[0]; }
+  }
+  function ruta(p){ return /^(https?:)?\/\/|^\//.test(p)?p:AB+p+(/\.\w{3,4}$/.test(p)?'':'.webp'); }
+
+  var slug=new URLSearchParams(location.search).get('u')||primero;
+  var u=Object.prototype.hasOwnProperty.call(U,slug)?U[slug]:null;
   if(!u){ cont.innerHTML='<section class="uni-hero"><div class="wrap-wide"><h1 class="uni-h1">Universo no encontrado</h1><p><a href="'+pre+'index.html#universos" style="color:var(--boya)">Ver los universos</a></p></div></section>'; return; }
   document.title=u.nombre+' — Oceanic';
 
-  function marcaHref(mk){ var L=(M[mk].lineas||{})[slug]; return pre+'marca/index.html?m='+mk+(L?'&u='+slug:''); }
+  // cada marca del universo: {marca, linea} (el respaldo trae solo el nombre; la línea es la del universo si la marca la tiene)
+  var entradas=(u.marcas||[]).map(function(x){
+    return typeof x==='string'?{marca:x,linea:((M[x]||{}).lineas||{})[slug]?slug:''}:x;
+  }).filter(function(x){ return x&&/^[a-z0-9-]+$/.test(x.marca||'')&&M[x.marca]; });
+  function marcaHref(e){ return pre+'marca/index.html?m='+e.marca+(e.linea?'&u='+e.linea:''); }
 
   // hero
-  var hero='<header class="uni-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.9),rgba(20,33,43,.35)),url('+AB+u.hero+')">'+
+  var hero='<header class="uni-hero" style="background-image:linear-gradient(to top,rgba(20,33,43,.9),rgba(20,33,43,.35)),url('+(u.hero?ruta(u.hero):'')+')">'+
     '<div class="wrap-wide">'+
       '<nav class="crumb"><a href="'+pre+'index.html">Oceanic</a><span>·</span><a href="'+pre+'index.html#universos">Universos</a><span>·</span><span>'+u.nombre+'</span></nav>'+
       '<p class="uni-kicker">'+u.kicker+'</p>'+
@@ -44,11 +60,11 @@
     '</div></header>';
 
   // tarjetas de marca (no productos)
-  var cards=u.marcas.filter(function(mk){return M[mk];}).map(function(mk){
-    var info=Object.assign({},M[mk],(M[mk].lineas||{})[slug]||{});  // línea vela / motor de la marca, si la tiene
+  var cards=entradas.map(function(e){
+    var mk=e.marca, info=Object.assign({},M[mk],(M[mk].lineas||{})[e.linea]||{});  // línea vela / motor de la marca, si se eligió
     var etiqueta=info.nombre;
-    var foto=/\.\w{3,4}$/.test(info.hero)?AB+info.hero:AB+info.hero+'.webp';
-    return '<a class="um" href="'+marcaHref(mk)+'">'+
+    var foto=ruta(info.hero);
+    return '<a class="um" href="'+marcaHref(e)+'">'+
       '<span class="um-img"><img src="'+foto+'" alt="'+etiqueta+'" loading="lazy" onerror="this.style.opacity=0"></span>'+
       '<span class="um-body">'+
         '<span class="um-top"><span class="um-name">'+etiqueta+'</span><span class="um-pais">'+info.pais+'</span></span>'+

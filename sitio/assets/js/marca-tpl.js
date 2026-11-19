@@ -25,7 +25,7 @@
   var hero='<header class="mk-hero" style="--mk-img:url('+heroImg+')">'+
     '<div class="wrap-wide">'+
     '<nav class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>'+info.universo+'</span></nav>'+
-    (info.logo?'<img class="mk-logo" src="'+AB+info.logo+'" alt="'+(M[slug].nombre||info.nombre)+'" decoding="async">':'')+
+    (info.logo?'<img class="mk-logo" src="'+(/^(https?:)?\/\/|^\//.test(info.logo)?info.logo:AB+info.logo)+'" alt="'+(M[slug].nombre||info.nombre)+'" decoding="async">':'')+
     '<p class="mk-eyebrow">Representación oficial en Chile · '+info.pais+'</p>'+
     '<h1 class="mk-h1">'+info.nombre+'</h1>'+
     '<p class="mk-claim">'+info.claim+'</p>'+
@@ -94,6 +94,11 @@
     ? cat.modelos.length+' modelos: '+orden.map(function(f){return FAM[f].t.toLowerCase();}).join(' y ')+'. Cada uno se configura y se encarga a medida: especificamos contigo, seguimos la fabricación y lo entregamos nacionalizado en Chile.'
     : cat.modelos.length+' modelos. Cada uno se configura y se encarga a medida: especificamos contigo, seguimos la fabricación y lo entregamos nacionalizado en Chile.';
 
+  // marca recién agregada, sin modelos cargados todavía: se dice con claridad y se invita a consultar
+  if(!cat.modelos.length){
+    introGama='Estamos preparando la gama de '+info.nombre+' para este sitio. Escríbenos y te contamos los modelos disponibles, precios y plazos de entrega.';
+    bloques='';
+  }
   var gama='<section class="mk-gama" id="gama"><div class="wrap-wide">'+
     '<div class="sec-head"><span class="eyebrow">La gama</span><span class="rule"></span></div>'+
     '<h2 class="mk-gama-h2">Modelos '+info.nombre+'</h2>'+
