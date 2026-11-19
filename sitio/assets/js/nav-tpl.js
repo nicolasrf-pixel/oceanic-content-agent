@@ -16,9 +16,15 @@
   function universos(){
     var P=window.OCEANIC_PORTAFOLIO;
     if(!P||!Array.isArray(P.universos)||!P.universos.length) return RESPALDO;
+    // prioridad interna: en toda categoría las marcas van en el orden en que están en el inicio (administrable en el CMS)
+    var ini=Array.isArray(P.inicio)?P.inicio:[];
+    function prio(mk){ for(var i=0;i<ini.length;i++){ if(ini[i]&&ini[i].marca===mk) return i; } return 999; }
+    function logo(mk){ for(var i=0;i<ini.length;i++){ if(ini[i]&&ini[i].marca===mk&&ini[i].logo) return ini[i].logo; } return ''; }
     var lista=P.universos.filter(function(u){ return u&&u.visible!==false&&/^[a-z0-9-]+$/.test(u.slug||'')&&u.nombre; }).map(function(u){
-      return {slug:u.slug,nombre:u.nombre,marcas:(u.marcas||[]).filter(function(m){ return m&&/^[a-z0-9-]+$/.test(m.marca||'')&&!oculta(m.marca); })
-        .map(function(m){ return [m.marca,/^[a-z0-9-]+$/.test(m.linea||'')?m.linea:'',m.etiqueta||m.marca]; })};
+      var ms=(u.marcas||[]).filter(function(m){ return m&&/^[a-z0-9-]+$/.test(m.marca||'')&&!oculta(m.marca); })
+        .map(function(m,i){ return {i:i,p:prio(m.marca),v:[m.marca,/^[a-z0-9-]+$/.test(m.linea||'')?m.linea:'',m.etiqueta||m.marca,logo(m.marca)]}; });
+      ms.sort(function(a,b){ return a.p-b.p||a.i-b.i; });
+      return {slug:u.slug,nombre:u.nombre,marcas:ms.map(function(x){ return x.v; })};
     });
     return lista.length?lista:RESPALDO;
   }
@@ -28,10 +34,13 @@
     return pre+'marca/index.html?m='+slug+(linea?'&u='+linea:'');
   }
   function enlaces(u,rol){
-    return u.marcas.map(function(x){return '<a href="'+marcaHref(x[0],x[1])+'"'+(rol?' role="menuitem"':'')+'>'+esc(x[2])+'</a>';}).join('');
+    return u.marcas.map(function(x){
+      var lg=rol&&x[3]?'<span class="nav-lg"><img src="'+pre+'assets/img/'+esc(x[3])+'" alt="" loading="lazy" decoding="async"></span>':'';
+      return '<a href="'+marcaHref(x[0],x[1])+'"'+(rol?' role="menuitem"':'')+'>'+lg+'<span class="nav-nm">'+esc(x[2])+'</span></a>';
+    }).join('');
   }
   function col(u){
-    return '<div class="nav-col"><a class="nav-col-h nav-col-h-link" href="'+pre+'universo/index.html?u='+u.slug+'" role="menuitem">'+esc(u.nombre)+'</a>'+enlaces(u,true)+'</div>';
+    return '<div class="nav-col"><a class="nav-col-h nav-col-h-link" href="'+pre+'universo/index.html?u='+u.slug+'" role="menuitem"><span>'+esc(u.nombre)+'</span><i aria-hidden="true">Ver todo →</i></a><div class="nav-list">'+enlaces(u,true)+'</div></div>';
   }
   var drop='<div class="nav-drop">'+
     '<a href="'+pre+'index.html#universos" class="nav-a nav-a-drop">Marcas <span class="nav-caret">▾</span></a>'+

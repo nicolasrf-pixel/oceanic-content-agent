@@ -577,3 +577,26 @@ body.locked .mob,body.locked .aviso-priv,body.locked .asis-btn,body.locked .asis
 .nav-menu-wide{max-width:min(940px,94vw)}
 .ft-cols{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
 @media(max-width:860px){.ft-cols{grid-template-columns:repeat(2,1fr)}}
+
+/* Menú de marcas: panel oscuro con el logo de cada marca (las marcas siguen la prioridad interna del inicio) */
+.nav-menu-wide{background:var(--noche);color:#fff;min-width:min(860px,94vw);max-width:min(1040px,94vw);left:-24px;top:calc(100% + 18px);
+  padding:10px 12px 14px;gap:6px;border-top:2px solid var(--boya);box-shadow:0 30px 70px -20px rgba(0,0,0,.6)}
+.nav-menu-wide .nav-col{flex:1 1 0;min-width:0;padding:14px 12px 4px;border-right:0}
+.nav-menu-wide .nav-col+.nav-col{border-left:1px solid rgba(255,255,255,.08)}
+.nav-menu-wide .nav-col-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;white-space:nowrap;
+  margin:0 0 10px;padding:0 6px 12px;border-bottom:1px solid rgba(255,255,255,.1);color:#fff;font-size:12px;letter-spacing:.18em}
+.nav-menu-wide .nav-col-h::after{content:none}
+.nav-menu-wide .nav-col-h i{font-style:normal;font-family:var(--display);font-size:12px;letter-spacing:.02em;text-transform:none;color:var(--boya);opacity:.0;transform:translateX(-4px);transition:opacity .2s,transform .2s}
+.nav-menu-wide .nav-col-h:hover i,.nav-menu-wide .nav-col:hover .nav-col-h i{opacity:1;transform:none}
+.nav-menu-wide .nav-col-h:hover{color:#fff}
+.nav-list{display:flex;flex-direction:column;gap:2px}
+.nav-menu-wide .nav-col a[role=menuitem]{display:flex;align-items:center;gap:14px;padding:9px 8px 9px 6px;color:#fff;border-left:2px solid transparent;border-radius:2px;
+  transition:background .2s,border-color .2s}
+.nav-menu-wide .nav-col a[role=menuitem]:hover{background:rgba(255,255,255,.07);border-left-color:var(--boya);color:#fff;padding-left:6px}
+.nav-lg{flex:0 0 92px;height:30px;display:flex;align-items:center;justify-content:flex-start}
+.nav-lg img{display:block;max-width:92px;max-height:26px;width:auto;height:auto;opacity:.92}
+.nav-nm{font-family:var(--display);font-size:14px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap}
+.nav-menu-wide a[role=menuitem]:hover .nav-nm{color:#fff}
+.nav-menu-wide .nav-col a[role=menuitem]{justify-content:flex-start}
+.nav-nm{font-size:12.5px;letter-spacing:.02em;color:rgba(255,255,255,.55)}
+.nav-lg{flex-basis:112px}.nav-lg img{max-width:104px;max-height:28px}
