@@ -572,3 +572,8 @@ section.o-banda{background-color:var(--banda)!important}
 @media(max-width:700px){.tb-dir{display:none}.topbar-in{gap:12px}}
 .bar,.bar.bar-solida{background:var(--noche)}
 body.locked .mob,body.locked .aviso-priv,body.locked .asis-btn,body.locked .asis-panel,body.locked .sub-cta{display:none!important}
+
+/* Portafolio administrable: más categorías en el menú y en el pie */
+.nav-menu-wide{max-width:min(940px,94vw)}
+.ft-cols{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+@media(max-width:860px){.ft-cols{grid-template-columns:repeat(2,1fr)}}

@@ -4,27 +4,37 @@
   var AB=document.body.dataset.assetBase||'assets/img/';
   var pre=AB.replace('assets/img/',''); // '../' según profundidad
 
-  // marcas por universo, cada una a su página /marca/?m=slug
-  var MARCAS={
-    'Vela':[['beneteau&u=vela','Beneteau'],['solaris','Solaris'],['saffier','Saffier'],['lagoon&u=vela','Lagoon'],['excess','Excess'],['aquila&u=vela','Aquila Sail']],
-    'Motor':[['axopar','Axopar'],['beneteau&u=motor','Beneteau Motor'],['xo','XO Boats'],['aquila&u=motor','Aquila'],['lagoon&u=motor','Lagoon Motor'],['oceanic-power','Oceanic Power']],
-    'Vela deportiva':[['vx-one','VX One'],['switch','Switch']]
-  };
-  function marcaHref(slug){
-    return pre+'marca/index.html?m='+slug;
+  // Universos (categorías) y sus marcas, en el orden del portafolio que se administra en el CMS (assets/js/portafolio-data.js).
+  // Si ese archivo no cargó, se usa esta lista de respaldo. Cada marca: [slug, línea (vela|motor|''), texto del enlace].
+  var RESPALDO=[
+    {slug:'vela',nombre:'Vela',marcas:[['beneteau','vela','Beneteau'],['solaris','','Solaris'],['saffier','','Saffier'],['lagoon','vela','Lagoon'],['excess','','Excess'],['aquila','vela','Aquila Sail']]},
+    {slug:'motor',nombre:'Motor',marcas:[['axopar','','Axopar'],['beneteau','motor','Beneteau Motor'],['xo','','XO Boats'],['aquila','motor','Aquila'],['lagoon','motor','Lagoon Motor'],['oceanic-power','','Oceanic Power']]},
+    {slug:'deportiva',nombre:'Vela deportiva',marcas:[['vx-one','','VX One'],['switch','','Switch']]}
+  ];
+  function esc(t){ return String(t==null?'':t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  function universos(){
+    var P=window.OCEANIC_PORTAFOLIO;
+    if(!P||!Array.isArray(P.universos)||!P.universos.length) return RESPALDO;
+    var lista=P.universos.filter(function(u){ return u&&u.visible!==false&&/^[a-z0-9-]+$/.test(u.slug||'')&&u.nombre; }).map(function(u){
+      return {slug:u.slug,nombre:u.nombre,marcas:(u.marcas||[]).filter(function(m){ return m&&/^[a-z0-9-]+$/.test(m.marca||''); })
+        .map(function(m){ return [m.marca,/^[a-z0-9-]+$/.test(m.linea||'')?m.linea:'',m.etiqueta||m.marca]; })};
+    });
+    return lista.length?lista:RESPALDO;
   }
-  var UNIV={'Vela':'vela','Motor':'motor','Vela deportiva':'deportiva'};
-  function col(titulo,items){
-    var uslug=UNIV[titulo];
-    var head=uslug
-      ? '<a class="nav-col-h nav-col-h-link" href="'+pre+'universo/index.html?u='+uslug+'" role="menuitem">'+titulo+'</a>'
-      : '<span class="nav-col-h">'+titulo+'</span>';
-    return '<div class="nav-col">'+head+
-      items.map(function(x){return '<a href="'+marcaHref(x[0])+'" role="menuitem">'+x[1]+'</a>';}).join('')+'</div>';
+  var UNIVERSOS=universos();
+  // cada marca va a su página /marca/?m=slug (con &u=línea cuando la marca tiene línea de vela y de motor)
+  function marcaHref(slug,linea){
+    return pre+'marca/index.html?m='+slug+(linea?'&u='+linea:'');
+  }
+  function enlaces(u,rol){
+    return u.marcas.map(function(x){return '<a href="'+marcaHref(x[0],x[1])+'"'+(rol?' role="menuitem"':'')+'>'+esc(x[2])+'</a>';}).join('');
+  }
+  function col(u){
+    return '<div class="nav-col"><a class="nav-col-h nav-col-h-link" href="'+pre+'universo/index.html?u='+u.slug+'" role="menuitem">'+esc(u.nombre)+'</a>'+enlaces(u,true)+'</div>';
   }
   var drop='<div class="nav-drop">'+
     '<a href="'+pre+'index.html#universos" class="nav-a nav-a-drop">Marcas <span class="nav-caret">▾</span></a>'+
-    '<div class="nav-menu nav-menu-wide" role="menu">'+col('Vela',MARCAS.Vela)+col('Motor',MARCAS.Motor)+col('Vela deportiva',MARCAS['Vela deportiva'])+'</div></div>';
+    '<div class="nav-menu nav-menu-wide" role="menu">'+UNIVERSOS.map(col).join('')+'</div></div>';
 
   // redes sociales oficiales (las mismas que publica oceanic.cl)
   var REDES=[
@@ -63,8 +73,7 @@
   var foot='<footer class="ft"><div class="wrap-wide"><div class="ft-top">'+
     '<div class="ft-brand"><a class="ft-logo" href="'+pre+'index.html"><img src="'+pre+'assets/img/marca/logo-blanco-est.svg" alt="Oceanic, est. 1994" width="170" height="47"></a><p>Representamos y vendemos marcas de referencia mundial en Chile. Desde 1994.</p></div>'+
     '<div class="ft-cols">'+
-    '<div><span class="eyebrow">Vela</span>'+MARCAS.Vela.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
-    '<div><span class="eyebrow">Motor</span>'+MARCAS.Motor.map(function(x){return '<a href="'+marcaHref(x[0])+'">'+x[1]+'</a>';}).join('')+'</div>'+
+    UNIVERSOS.map(function(u){return '<div><span class="eyebrow">'+esc(u.nombre)+'</span>'+enlaces(u,false)+'</div>';}).join('')+
     '<div><span class="eyebrow">Explorar</span><a href="'+pre+'usados/index.html">Usados</a><a href="'+pre+'equipamiento/index.html">Equipamiento</a><a href="'+pre+'arriendo-boyas/index.html">Arriendo de boyas</a><a href="'+pre+'puerto/index.html">Puerto</a></div>'+
     '<div><span class="eyebrow">Contacto</span><a href="'+pre+'contacto/index.html">Conversemos</a><a href="mailto:ventas@oceanic.cl">ventas@oceanic.cl</a>'+REDES.map(function(r){return '<a href="'+r[1]+'" target="_blank" rel="noopener">'+r[0]+'</a>';}).join('')+'</div>'+
     '</div></div><div class="ft-base"><span>&copy; 2026 Oceanic. Todos los derechos reservados.</span><span><a href="'+pre+'privacidad/index.html">Política de privacidad</a> · <a href="'+pre+'terminos/index.html">Términos y condiciones</a> · <a href="#" data-cookies>Preferencias de cookies</a> · Santiago · Chile</span></div></div></footer>';
