@@ -1,76 +1,129 @@
-// CRM del administrador: Brevo simulado (sin red). Comprueba lo que sale al navegador y lo que se permite escribir.
+// CRM propio: leads en D1 (simulada con node:sqlite) y Brevo simulado. Sin red.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { crm, validarAccion, resumirContacto, ETAPAS } from '../worker/crm.js';
+import { DatabaseSync } from 'node:sqlite';
+import { crm, ETAPAS } from '../worker/crm.js';
+import { esLead, guardarLead, LEADS_DESDE, desde } from '../functions/api/leads.js';
+import { onRequestPost as formulario } from '../functions/api/formulario.js';
 
-const U = (p) => new URL('https://x.cl/api/admin/' + p);
-function simular(respuestas) {
-  const llamadas = [];
-  globalThis.fetch = async (url, init = {}) => {
-    const clave = (init.method || 'GET') + ' ' + String(url).replace('https://api.brevo.com/v3', '');
-    llamadas.push({ clave, cuerpo: init.body ? JSON.parse(init.body) : null, key: init.headers && init.headers['api-key'] });
-    const hit = Object.entries(respuestas).find(([k]) => clave.startsWith(k));
-    const [status, datos] = hit ? hit[1] : [404, { message: 'no' }];
-    return new Response(datos == null ? null : JSON.stringify(datos), { status });
-  };
-  return llamadas;
+function d1() {
+  const db = new DatabaseSync(':memory:');
+  const st = (sql, p = []) => ({
+    bind: (...x) => st(sql, x),
+    run: async () => { const r = db.prepare(sql).run(...p); return { meta: { last_row_id: Number(r.lastInsertRowid), changes: Number(r.changes) } }; },
+    first: async () => db.prepare(sql).get(...p) || null,
+    all: async () => ({ results: db.prepare(sql).all(...p).map((x) => ({ ...x })) }),
+  });
+  return { prepare: (s) => st(s), batch: async (a) => { for (const s of a) await s.run(); return []; }, db };
 }
-const ENV = { BREVO_API_KEY: 'k-secreta' };
-const CONTACTO = { id: 7, email: 'ana@correo.cl', emailBlacklisted: false, createdAt: '2026-11-18T10:00:00Z', modifiedAt: '2026-11-19T10:00:00Z', listIds: [4, 8],
-  attributes: { NOMBRE: 'Ana', APELLIDOS: 'Soto', MARCA: 'Beneteau', MODELO: 'Oceanis 34.1', ETAPA: 'Nuevo', SECRETO_INTERNO: 'no debe salir', EXT_ID: 'x' } };
+const U = (p) => new URL('https://x.cl/api/admin/' + p);
+const DESPUES = '2026-12-01T03:00:00Z', ANTES = '2026-11-30T23:59:59Z';
+const lead = (o = {}) => ({ tipo: 'cotizacion', nombre: 'Ana Soto', email: 'ana@correo.cl', telefono: '+56912345678', marca: 'Beneteau', modelo: 'Oceanis 34.1', categorias: [], puerto: false, fecha: DESPUES, politica: 'v1', ...o });
 
-test('sin BREVO_API_KEY responde configurado:false y no llama a Brevo', async () => {
-  const l = simular({});
-  const r = await crm({}, 'crm/resumen', 'GET', U('crm/resumen'), null, 'a@b.cl');
-  assert.equal(r.ok, false); assert.equal(r.configurado, false); assert.equal(l.length, 0);
+test('el lanzamiento es el 1 de diciembre 00:00 de Chile (03:00 UTC) y Puerto/privacidad nunca son leads', () => {
+  assert.equal(LEADS_DESDE, '2026-12-01T03:00:00Z');
+  assert.equal(esLead(lead(), {}, ANTES), false);
+  assert.equal(esLead(lead(), {}, DESPUES), true);
+  assert.equal(esLead(lead({ tipo: 'puerto' }), {}, DESPUES), false);
+  assert.equal(esLead(lead({ tipo: 'privacidad' }), {}, DESPUES), false);
+  assert.equal(desde({ CRM_DESDE: '2020-01-01T00:00:00Z' }), '2020-01-01T00:00:00Z');
 });
 
-test('resumirContacto: solo los campos permitidos', () => {
-  const c = resumirContacto(CONTACTO);
-  assert.equal(c.nombre, 'Ana Soto');
-  assert.deepEqual(Object.keys(c.atributos).sort(), ['APELLIDOS', 'ETAPA', 'MARCA', 'MODELO', 'NOMBRE']);
-  assert.equal(JSON.stringify(c).includes('SECRETO_INTERNO'), false);
+test('antes del lanzamiento no se guarda nada; después, sí', async () => {
+  const env = { DB: d1() };
+  assert.equal(await guardarLead(env, lead({ fecha: ANTES }), 'Embarcaciones nuevas'), null);
+  const id = await guardarLead(env, lead(), 'Embarcaciones nuevas');
+  assert.ok(id > 0);
+  assert.equal(env.DB.db.prepare('SELECT COUNT(*) AS n FROM leads').get().n, 1);
 });
 
-test('resumen: listas, total y nuevos de 7 días; la clave viaja solo hacia Brevo', async () => {
-  const l = simular({ 'GET /contacts/lists': [200, { lists: [{ id: 4, name: 'Web · Beneteau', uniqueSubscribers: 12 }] }], 'GET /contacts?limit=1&createdSince': [200, { count: 3 }], 'GET /contacts?limit=1': [200, { count: 99 }] });
-  const r = await crm(ENV, 'crm/resumen', 'GET', U('crm/resumen'), null, 'a@b.cl');
-  assert.equal(r.ok, true); assert.equal(r.total, 99); assert.equal(r.nuevos7, 3);
-  assert.deepEqual(r.listas, [{ id: 4, nombre: 'Web · Beneteau', contactos: 12 }]);
-  assert.ok(l.every((x) => x.key === 'k-secreta')); assert.equal(JSON.stringify(r).includes('k-secreta'), false);
+test('formulario: el lead queda en D1 y en Brevo, con el estado de cada lado', async () => {
+  const env = { DB: d1(), CRM_DESDE: '2020-01-01T00:00:00Z', BREVO_API_KEY: 'k', REMITENTE_EMAIL: 'no@x.cl', VENTAS_EMAIL: 'v@x.cl', ORIGENES_PERMITIDOS: 'https://x.cl' };
+  const llamadas = [];
+  globalThis.fetch = async (url, init = {}) => { llamadas.push((init.method || 'GET') + ' ' + String(url).replace('https://api.brevo.com/v3', '')); return new Response('{}', { status: 200 }); };
+  const req = new Request('https://x.cl/api/formulario', { method: 'POST', headers: { 'content-type': 'application/json', Origin: 'https://x.cl' },
+    body: JSON.stringify({ tipo: 'contacto', nombre: 'Luis Pérez', email: 'luis@correo.cl', mensaje: 'Quiero información', acepta: true }) });
+  const r = await formulario({ request: req, env, enviar: async () => ({ ok: true, status: 250 }) });
+  assert.equal(r.status, 200);
+  const fila = env.DB.db.prepare('SELECT * FROM leads').get();
+  assert.equal(fila.email, 'luis@correo.cl'); assert.equal(fila.etapa, 'Nuevo'); assert.equal(fila.aviso_ok, 1); assert.equal(fila.brevo, 'ok');
+  assert.ok(llamadas.some((l) => l.startsWith('POST /contacts')), 'Brevo sigue recibiendo el contacto');
 });
 
-test('contactos: filtra por texto y por lista; un correo exacto se pide directo', async () => {
-  const l = simular({ 'GET /contacts?limit=500': [200, { count: 2, contacts: [CONTACTO, { ...CONTACTO, id: 8, email: 'luis@correo.cl', attributes: { NOMBRE: 'Luis', MARCA: 'Axopar' } }] }], 'GET /contacts/ana%40correo.cl': [200, CONTACTO] });
-  let r = await crm(ENV, 'crm/contactos', 'GET', U('crm/contactos?q=axopar&lista=4'), null, 'a@b.cl');
-  assert.equal(r.contactos.length, 1); assert.equal(r.contactos[0].email, 'luis@correo.cl'); assert.ok(l[0].clave.includes('listIds=4'));
-  r = await crm(ENV, 'crm/contactos', 'GET', U('crm/contactos?q=ana@correo.cl'), null, 'a@b.cl');
-  assert.equal(r.contactos[0].nombre, 'Ana Soto');
+test('formulario: si el correo falla, el lead igual queda guardado (marcado sin aviso)', async () => {
+  const env = { DB: d1(), CRM_DESDE: '2020-01-01T00:00:00Z', REMITENTE_EMAIL: 'no@x.cl', ORIGENES_PERMITIDOS: 'https://x.cl' };
+  const req = new Request('https://x.cl/api/formulario', { method: 'POST', headers: { 'content-type': 'application/json', Origin: 'https://x.cl' },
+    body: JSON.stringify({ tipo: 'contacto', nombre: 'Eva', email: 'eva@correo.cl', acepta: true }) });
+  const r = await formulario({ request: req, env, enviar: async () => ({ ok: false, status: 'smtp' }) });
+  assert.equal(r.status, 502);
+  const fila = env.DB.db.prepare('SELECT * FROM leads').get();
+  assert.equal(fila.aviso_ok, 0);
 });
 
-test('validarAccion: solo etapas conocidas, listas enteras y correos válidos', () => {
-  assert.ok(validarAccion({ email: 'a@b.cl', accion: 'etapa', valor: 'Cotizado' }).ok === undefined && !validarAccion({ email: 'a@b.cl', accion: 'etapa', valor: 'Cotizado' }).error);
-  for (const mal of [null, { email: 'no', accion: 'etapa', valor: 'Nuevo' }, { email: 'a@b.cl', accion: 'etapa', valor: 'Inventada' },
-    { email: 'a@b.cl', accion: 'lista-agregar', valor: '4; DROP' }, { email: 'a@b.cl', accion: 'borrar', valor: 1 }, { email: 'a@b.cl', accion: 'lista-quitar', valor: 0 }])
-    assert.ok(validarAccion(mal).error, JSON.stringify(mal));
-  assert.equal(validarAccion({ email: ' ANA@Correo.cl ', accion: 'lista-agregar', valor: '4' }).valor, 4);
-  assert.ok(ETAPAS.includes('Cerrado'));
+test('formulario antes del lanzamiento: no guarda leads', async () => {
+  const env = { DB: d1(), CRM_DESDE: '2999-01-01T00:00:00Z', REMITENTE_EMAIL: 'no@x.cl', ORIGENES_PERMITIDOS: 'https://x.cl' };
+  const req = new Request('https://x.cl/api/formulario', { method: 'POST', headers: { 'content-type': 'application/json', Origin: 'https://x.cl' },
+    body: JSON.stringify({ tipo: 'contacto', nombre: 'Eva', email: 'eva@correo.cl', acepta: true }) });
+  const r = await formulario({ request: req, env, enviar: async () => ({ ok: true, status: 250 }) });
+  assert.equal(r.status, 200);
+  assert.equal(env.DB.db.prepare("SELECT COUNT(*) AS n FROM sqlite_master WHERE name = 'leads'").get().n, 0);
 });
 
-test('accion etapa: PUT solo con ETAPA; accion de lista solo si la lista existe', async () => {
-  let l = simular({ 'PUT /contacts/ana%40correo.cl': [204, null] });
-  let r = await crm(ENV, 'crm/accion', 'POST', U('crm/accion'), { email: 'ana@correo.cl', accion: 'etapa', valor: 'Cotizado' }, 'a@b.cl');
-  assert.equal(r.ok, true); assert.deepEqual(l[0].cuerpo, { attributes: { ETAPA: 'Cotizado' } });
-  l = simular({ 'GET /contacts/lists': [200, { lists: [{ id: 4, name: 'x' }] }], 'POST /contacts/lists/4/contacts/add': [201, {}] });
-  r = await crm(ENV, 'crm/accion', 'POST', U('crm/accion'), { email: 'ana@correo.cl', accion: 'lista-agregar', valor: 4 }, 'a@b.cl');
-  assert.equal(r.ok, true); assert.deepEqual(l[1].cuerpo, { emails: ['ana@correo.cl'] });
-  l = simular({ 'GET /contacts/lists': [200, { lists: [{ id: 4, name: 'x' }] }] });
-  r = await crm(ENV, 'crm/accion', 'POST', U('crm/accion'), { email: 'ana@correo.cl', accion: 'lista-agregar', valor: 99 }, 'a@b.cl');
-  assert.equal(r.ok, false); assert.equal(l.length, 1);  // no escribió nada
+async function conLeads() {
+  const env = { DB: d1() };
+  await guardarLead(env, lead(), 'Embarcaciones nuevas');
+  await guardarLead(env, lead({ nombre: 'Luis', email: 'luis@correo.cl', marca: 'Axopar', modelo: 'Axopar 37 XC', tipo: 'contacto', fecha: '2026-12-02T10:00:00Z' }), 'Contacto');
+  return env;
+}
+
+test('API: resumen, listado con filtros y ficha con notas', async () => {
+  const env = await conLeads();
+  let r = await crm(env, 'crm/resumen', 'GET', U('crm/resumen'), null, 'a@b.cl');
+  assert.equal(r.total, 2); assert.equal(r.porEtapa.Nuevo, 2); assert.equal(r.etapas.length, ETAPAS.length);
+  r = await crm(env, 'crm/leads', 'GET', U('crm/leads?q=axopar'), null, 'a@b.cl');
+  assert.equal(r.leads.length, 1); assert.equal(r.leads[0].email, 'luis@correo.cl');
+  r = await crm(env, 'crm/leads', 'GET', U('crm/leads?tipo=cotizacion'), null, 'a@b.cl');
+  assert.equal(r.leads[0].nombre, 'Ana Soto');
+  r = await crm(env, 'crm/leads', 'GET', U("crm/leads?q=' OR 1=1 --"), null, 'a@b.cl');  // no es inyección: es solo un texto sin resultados
+  assert.equal(r.leads.length, 0);
+  await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'nota', valor: 'Llamar el lunes' }, 'a@b.cl');
+  r = await crm(env, 'crm/lead', 'GET', U('crm/lead?id=1'), null, 'a@b.cl');
+  assert.equal(r.lead.notas[0].texto, 'Llamar el lunes'); assert.equal(r.lead.notas[0].quien, 'a@b.cl');
 });
 
-test('error de Brevo: mensaje claro con pista, sin filtrar la respuesta cruda', async () => {
-  simular({ 'GET /contacts/lists': [401, { message: 'Key not found' }], 'GET /contacts?limit=1': [200, { count: 0 }] });
-  const r = await crm(ENV, 'crm/resumen', 'GET', U('crm/resumen'), null, 'a@b.cl');
-  assert.equal(r.ok, false); assert.match(r.error, /no es válida o venció/); assert.equal(r._status, 502);
+test('API: cambiar etapa actualiza D1 y avisa a Brevo (ETAPA); etapa inventada se rechaza', async () => {
+  const env = { ...(await conLeads()), BREVO_API_KEY: 'k' };
+  const llamadas = [];
+  globalThis.fetch = async (url, init = {}) => { llamadas.push({ m: init.method, url: String(url), cuerpo: init.body && JSON.parse(init.body) }); return new Response(null, { status: 204 }); };
+  let r = await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'etapa', valor: 'Cotizado' }, 'a@b.cl');
+  assert.equal(r.ok, true); assert.equal(r.brevo, 'ok');
+  assert.equal(env.DB.db.prepare('SELECT etapa FROM leads WHERE id = 1').get().etapa, 'Cotizado');
+  assert.deepEqual(llamadas[0].cuerpo, { attributes: { ETAPA: 'Cotizado' } }); assert.match(llamadas[0].url, /contacts\/ana%40correo\.cl$/);
+  r = await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'etapa', valor: 'Inventada' }, 'a@b.cl');
+  assert.equal(r.ok, false); assert.equal(r._status, 400);
+  // sin clave de Brevo: la orden vale igual y lo dice
+  r = await crm({ DB: env.DB }, 'crm/accion', 'POST', U('crm/accion'), { id: 2, accion: 'etapa', valor: 'Cerrado' }, 'a@b.cl');
+  assert.equal(r.ok, true); assert.equal(r.brevo, 'sin-clave');
+});
+
+test('API: eliminar borra el lead y sus notas (derecho de supresión) y lo anota sin datos personales', async () => {
+  const env = await conLeads();
+  await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'nota', valor: 'x' }, 'a@b.cl');
+  const r = await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'eliminar' }, 'a@b.cl');
+  assert.equal(r.ok, true);
+  assert.equal(env.DB.db.prepare('SELECT COUNT(*) AS n FROM leads WHERE id = 1').get().n, 0);
+  assert.equal(env.DB.db.prepare('SELECT COUNT(*) AS n FROM lead_notas WHERE lead_id = 1').get().n, 0);
+  const reg = env.DB.db.prepare("SELECT * FROM crm_acciones WHERE accion = 'eliminar'").get();
+  assert.equal(reg.contacto, 'lead:1'); assert.equal(JSON.stringify(reg).includes('ana@correo.cl'), false);
+});
+
+test('API: sin base D1 responde 503, y las acciones raras se rechazan', async () => {
+  let r = await crm({}, 'crm/resumen', 'GET', U('crm/resumen'), null, 'a@b.cl');
+  assert.equal(r._status, 503);
+  const env = await conLeads();
+  r = await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: 1, accion: 'borrar-todo' }, 'a@b.cl');
+  assert.equal(r.ok, false);
+  r = await crm(env, 'crm/accion', 'POST', U('crm/accion'), { id: '1; DROP TABLE leads', accion: 'eliminar' }, 'a@b.cl');
+  assert.equal(r.ok, false);
+  assert.equal(env.DB.db.prepare('SELECT COUNT(*) AS n FROM leads').get().n, 2);
 });

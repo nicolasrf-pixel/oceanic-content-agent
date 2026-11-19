@@ -13,6 +13,7 @@
    La clave de Brevo la guarda Nico como secreto: nunca va en el código, el chat ni el correo. */
 
 import { enviarSMTP } from './smtp.js';
+import { guardarLead, marcarLead } from './leads.js';
 import { cotizacionVentas, cotizacionCliente, barcoDelCatalogo, genericoVentas, genericoCliente, usadoDelCatalogo, destinoCharter } from './correos.js';
 
 const TIPOS = {
@@ -90,6 +91,10 @@ export async function onRequestPost({ request, env, enviar }) {
     return r.ok ? json({ ok: true }) : json({ ok: false, error: 'puerto' }, 502);
   }
 
+  // CRM propio: el lead queda guardado aquí (D1) y en Brevo. Solo desde el lanzamiento (2026-12-01 00:00, hora de Chile; ver functions/api/leads.js).
+  // Se guarda antes de enviar el aviso, para que un fallo del correo no pierda la solicitud.
+  const leadId = await guardarLead(env, d, TIPOS[d.tipo].linea);
+
   const aviso = correoVentas(d, barco);
   const enviado = await enviarCorreo({
     from: remitente,
@@ -99,6 +104,7 @@ export async function onRequestPost({ request, env, enviar }) {
     text: aviso.texto,
     html: aviso.html,
   });
+  await marcarLead(env, leadId, { aviso_ok: enviado.ok ? 1 : 0 });
   if (!enviado.ok) {
     // código del servidor de correo (nunca datos personales) para diagnosticar la configuración
     console.log('formulario: no se pudo enviar el aviso', enviado.status, enviado.error || '');
@@ -117,11 +123,12 @@ export async function onRequestPost({ request, env, enviar }) {
     }),
   ];
   if (brevo) {
-    tareas.push(guardarContacto(brevo, d, env));
+    tareas.push(guardarContacto(brevo, d, env).then(async (r) => { await marcarLead(env, leadId, { brevo: r && r.ok ? 'ok' : 'error' }); return r; }));
     if (d.puerto) tareas.push(suscribirPuerto(brevo, d, env));
     if (d.tipo === 'cotizacion' || d.tipo === 'usado') tareas.push(crearNegocio(brevo, d, env));
   }
 
+  if (!brevo) await marcarLead(env, leadId, { brevo: 'sin-clave' });
   const resultados = await Promise.allSettled(tareas);
   // Solo códigos de error en el registro, nunca datos personales.
   resultados.forEach((r, i) => {
