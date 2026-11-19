@@ -31,6 +31,6 @@
 
 | Rank | id | Motivo |
 | --- | --- | --- |
-| 1 | `axopar-45-cross-top-a1209778` | Exterior MY2027 del modelo, horizontal 8208x5472; Tag DAM del modelo (ax45, ax45xt, axopar, france, my27, out). |
-| 2 | `axopar-45-cross-top-brabus-performance-line-099a2832` | Exterior MY2025 del modelo, horizontal 8192x5464; Tag DAM del modelo (ax45, ax45perfline, ax45xt, axopar, germany, my25). |
-| 3 | `axopar-45-cross-top-brabus-performance-line-099a2774` | Exterior MY2025 del modelo, horizontal 8192x5464; Tag DAM del modelo (ax45, ax45perfline, ax45xt, axopar, germany, my25). |
+| 1 | `axopar-45-cross-top-a1200140-edit` | Exterior MY2027 del modelo, horizontal 8573x4960; Tag DAM del modelo (ax45, ax45xt, axopar, france, my27, out). |
+| 2 | `axopar-45-cross-top-a1209778` | Exterior MY2027 del modelo, horizontal 8208x5472; Tag DAM del modelo (ax45, ax45xt, axopar, france, my27, out). |
+| 3 | `axopar-45-cross-top-brabus-performance-line-099a2832` | Exterior MY2025 del modelo, horizontal 8192x5464; Tag DAM del modelo (ax45, ax45perfline, ax45xt, axopar, germany, my25). |

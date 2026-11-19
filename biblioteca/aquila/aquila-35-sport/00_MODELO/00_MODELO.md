@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/aquila.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 15 del modelo, 1 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 28 del modelo, 1 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
@@ -38,10 +38,10 @@
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | OK | 2063 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 7 en inventario (mín. 3) · descargadas 15/15 |
-| MULTIMEDIA | interior | OK | 5 en inventario (mín. 2) · descargadas 15/15 |
-| MULTIMEDIA | detail | PARTIAL | 1 en inventario (mín. 2) · descargadas 15/15 |
-| MULTIMEDIA | video | OK | 1 videos del modelo |
+| MULTIMEDIA | exterior | OK | 11 en inventario (mín. 3) · descargadas 28/28 |
+| MULTIMEDIA | interior | OK | 9 en inventario (mín. 2) · descargadas 28/28 |
+| MULTIMEDIA | detail | PARTIAL | 1 en inventario (mín. 2) · descargadas 28/28 |
+| MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | manual | PARTIAL | 1 identificado(s) · requiere revisión |

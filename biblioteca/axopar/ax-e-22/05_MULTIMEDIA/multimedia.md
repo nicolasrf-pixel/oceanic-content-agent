@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -32,7 +32,7 @@
 | [`ax-e-22-t-top-099a3884`](https://media.ffycdn.net/eu/axopar/toFZxZx461VAGiTNWr2D.jpg) | INTERIOR | alta | MY2025 | 7962x5311 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
 | [`ax-e-22-t-top-099a4187`](https://media.ffycdn.net/eu/axopar/8wFHcCEm8VYdE1KEap8X.jpg) | INTERIOR | alta | MY2025 | 8080x5389 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
 | [`ax-e-22-t-top-0x0a1576`](https://media.ffycdn.net/eu/axopar/89jEH2mUZRpP1CE28b9x.jpg) | INTERIOR | alta | MY2025 | 7489x4995 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
-| [`ax-e-22-t-top-099a3903-2`](https://media.ffycdn.net/eu/axopar/yQmFyAAAPwBVQDDEYorV.jpg) | INTERIOR | alta | MY2025 | 8078x5388 jpg | DUPLICATE_OF ax-e-22-t-top-099a3903 | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
+| [`ax-e-22-t-top-099a3903-2`](https://media.ffycdn.net/eu/axopar/yQmFyAAAPwBVQDDEYorV.jpg) | INTERIOR | alta | MY2025 | 8078x5388 jpg | PENDING | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
 | [`ax-e-22-t-top-0x0a0902`](https://media.ffycdn.net/eu/axopar/ixaK8cR7vSNkGjwo5wLk.jpg) | INTERIOR | alta | MY2025 | 7555x5039 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
 | [`ax-e-22-t-top-0x0a1790`](https://media.ffycdn.net/eu/axopar/EGGYn5R2qcjWmn5kZ8Ez.jpg) | INTERIOR | alta | MY2025 | 7854x5239 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |
 | [`ax-e-22-t-top-099a4191`](https://media.ffycdn.net/eu/axopar/4M2NerXVNkcebjavjicN.jpg) | INTERIOR | alta | MY2025 | 8079x5389 jpg | WEB_COPY | Tag DAM del modelo (axe22, axe22ttop, axelaunch, axopar, france, ins). |

@@ -1,0 +1,49 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/flyer/flyer-8-sundeck-v2",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-flyer-8-sundeck.page.json",
+ "intro": [
+  "Elegante y cómodo, el Flyer 8 SUNdeck muestra el carácter y la elegancia típicos de esta nueva generación de day boats de BENETEAU. Con gran habitabilidad y vistas panorámicas, aprovecha toda la experiencia de BENETEAU en equipamiento. El anfitrión ideal para salidas de día, con una cabina cómoda y dos soláriums: una hazaña excepcional para un fueraborda de 8 metros."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Flyer 8 SUNdeck tiene un perfil de cubierta más largo que le da líneas más tensas y una silueta estilizada. Sus ventanas inclinadas en el casco acentúan su carácter deportivo, con promesa de velocidad y emociones. El ancho pasillo Smart Walkaround da un excelente acceso a la amplia cubierta de proa por babor y al cómodo solárium con respaldos reclinables. El gran cockpit destaca por su modularidad excepcional y su calidez."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El Flyer 8 SUNdeck tiene una cabina muy cómoda con todo el equipamiento necesario para disfrutar las salidas de día. Con una banca y una mesa que se convierte en una gran cama, inodoro separado y un refrigerador de fácil acceso, ofrece a sus pasajeros un alto nivel de comodidad."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "2 soláriums",
+     "texto": "La banca de popa convertible y el solárium de proa con dos asientos reclinables dan al Flyer 8 SUNdeck zonas de descanso poco comunes en una lancha de 8 metros."
+    },
+    {
+     "titulo": "Smart Walkaround",
+     "texto": "A babor, el pasillo Smart Walkaround permite un paso seguro y fácil por la cubierta."
+    },
+    {
+     "titulo": "Cabina cómoda",
+     "texto": "Bien equipado y bien ventilado gracias a sus aberturas, el Flyer 8 SUNdeck ofrece un espacio cómodo y de gran habitabilidad, ideal para descansar a cualquier hora del día."
+    }
+   ]
+  }
+ ]
+}

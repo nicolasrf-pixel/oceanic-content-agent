@@ -3,7 +3,7 @@
   "source_page": "https://www.catamarans-lagoon.com/boats/lagoon-38",
   "usage_terms": "Imágenes de catamarans-lagoon.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Lagoon o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.",
   "images": [
     {
       "id": "catamaran-lagoon-38-cover-1920x891",
@@ -46,8 +46,7 @@
         "bytes": 363540,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-cover-1920x891.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-cover-1920x891.jpg"
     },
     {
       "id": "catamaran-lagoon-38-intro-800x1096",
@@ -89,8 +88,7 @@
         "bytes": 370938,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-intro-800x1096.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-intro-800x1096.jpg"
     },
     {
       "id": "thumbnail-lagoon-38-walkthrough",
@@ -132,8 +130,7 @@
         "bytes": 399925,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/thumbnail-Lagoon-38-Walkthrough.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-10/thumbnail-Lagoon-38-Walkthrough.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-29-0",
@@ -176,8 +173,7 @@
         "bytes": 350894,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-29_0.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-29_0.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-25",
@@ -220,8 +216,7 @@
         "bytes": 311251,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-25.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-25.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-52",
@@ -263,8 +258,7 @@
         "bytes": 409762,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-52.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-52.png"
     },
     {
       "id": "catamaran-lagoon-38-slider-48",
@@ -306,8 +300,7 @@
         "bytes": 401280,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-48.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-48.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-30-0",
@@ -349,8 +342,7 @@
         "bytes": 354024,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-slider-30_0.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-slider-30_0.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-31",
@@ -392,8 +384,7 @@
         "bytes": 381551,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-31.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-31.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-51",
@@ -435,8 +426,7 @@
         "bytes": 405938,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-51.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-51.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-22",
@@ -478,8 +468,7 @@
         "bytes": 371729,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-22.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-22.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-20",
@@ -521,8 +510,7 @@
         "bytes": 359246,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-20.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-20.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-36",
@@ -564,8 +552,7 @@
         "bytes": 321400,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-36.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-36.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-26-0",
@@ -607,8 +594,7 @@
         "bytes": 283524,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-slider-26_0.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-slider-26_0.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-27",
@@ -650,8 +636,7 @@
         "bytes": 404716,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-27.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-27.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-32",
@@ -693,8 +678,7 @@
         "bytes": 379336,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-32.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-32.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-35",
@@ -736,8 +720,7 @@
         "bytes": 294213,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-35.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-35.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-37",
@@ -779,8 +762,7 @@
         "bytes": 336856,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-37.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-37.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-21",
@@ -822,8 +804,7 @@
         "bytes": 402538,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-21.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-21.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-23",
@@ -865,8 +846,7 @@
         "bytes": 387560,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-23.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-23.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-24",
@@ -908,8 +888,7 @@
         "bytes": 377831,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-24.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-24.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-49",
@@ -951,8 +930,7 @@
         "bytes": 377368,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-49.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-49.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-33",
@@ -994,8 +972,7 @@
         "bytes": 318489,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-33.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-33.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-47",
@@ -1037,8 +1014,7 @@
         "bytes": 305063,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-47.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-47.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-34",
@@ -1080,8 +1056,7 @@
         "bytes": 337013,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-34.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-34.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-38",
@@ -1123,8 +1098,7 @@
         "bytes": 377105,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-38.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-38.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-43",
@@ -1166,8 +1140,7 @@
         "bytes": 307445,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-43.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-43.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-40",
@@ -1209,8 +1182,7 @@
         "bytes": 297548,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-40.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-40.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-46",
@@ -1252,8 +1224,7 @@
         "bytes": 407601,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-46.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-46.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-44",
@@ -1295,8 +1266,7 @@
         "bytes": 309763,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-44.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-44.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-50",
@@ -1338,8 +1308,7 @@
         "bytes": 314645,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-50.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-50.jpg"
     },
     {
       "id": "catamaran-lagoon-38-slider-45",
@@ -1381,8 +1350,7 @@
         "bytes": 335728,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-45.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-09/catamaran-lagoon-38-slider-45.jpg"
     },
     {
       "id": "vignettes-youtube-lagoon-38",
@@ -1424,8 +1392,7 @@
         "bytes": 379258,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/Vignettes%20YouTube%20Lagoon%2038.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/Vignettes%20YouTube%20Lagoon%2038.jpg"
     },
     {
       "id": "lagoon-38-8739-bd",
@@ -1467,8 +1434,7 @@
         "bytes": 494375,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-03/Lagoon-38-8739-bd.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-03/Lagoon-38-8739-bd.jpg"
     },
     {
       "id": "catamaran-lagoon-38-highlight-02-1449x810",
@@ -1510,8 +1476,7 @@
         "bytes": 383007,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-highlight-02-1449x810.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-highlight-02-1449x810.jpg"
     },
     {
       "id": "catamaran-lagoon-38-highlight-03-1449x810",
@@ -1553,8 +1518,7 @@
         "bytes": 341239,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-highlight-03-1449x810.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-07/catamaran-lagoon-38-highlight-03-1449x810.jpg"
     },
     {
       "id": "lagoon-38-8629",
@@ -1596,8 +1560,7 @@
         "bytes": 322702,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-03/Lagoon-38-8629.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-03/Lagoon-38-8629.jpg"
     },
     {
       "id": "highilight-ambiance-illustration",
@@ -1699,8 +1662,7 @@
         "bytes": 99853,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-Lagoon%2038_trefil-%20MAJ.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-Lagoon%2038_trefil-%20MAJ.png"
     },
     {
       "id": "catamaran-lagoon-38-exterior-flybridge-layout",
@@ -1742,8 +1704,7 @@
         "bytes": 342998,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-exterior-flybridge-layout.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-exterior-flybridge-layout.png"
     },
     {
       "id": "catamaran-lagoon-38-salon-configuration-grande-table-layout",
@@ -1785,8 +1746,7 @@
         "bytes": 350973,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-salon-configuration-grande-table-layout.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-salon-configuration-grande-table-layout.png"
     },
     {
       "id": "catamaran-lagoon-38-salon-configuration-deux-tables-layout",
@@ -1828,8 +1788,7 @@
         "bytes": 352392,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-salon-configuration-deux-tables-layout.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-salon-configuration-deux-tables-layout.png"
     },
     {
       "id": "catamaran-lagoon-38-3-cabins-layout",
@@ -1871,8 +1830,7 @@
         "bytes": 336439,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-3-cabins-layout.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/catamaran-lagoon-38-3-cabins-layout.png"
     },
     {
       "id": "l38-layoutlowerdeck4c",
@@ -1914,8 +1872,7 @@
         "bytes": 333051,
         "full_resolution": true
       },
-      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/L38-layoutLowerDeck4c.png",
-      "web_quality": 75
+      "downloaded_from": "https://admin.catamarans-lagoon.com/sites/default/files/2025-01/L38-layoutLowerDeck4c.png"
     }
   ]
 }

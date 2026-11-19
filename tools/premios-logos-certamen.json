@@ -1,0 +1,21 @@
+{
+ "_doc": "Logo oficial del certamen para premios cuya página del fabricante no muestra logo (decisión Oceanic 2026-11-06: todo premio con su logo). Solo se usa cuando el nombre publicado coincide exactamente y el logo no lleva un año o resultado distinto al del premio. 'fuente' = web oficial del certamen o página oficial de un fabricante que publica ese mismo logo.",
+ "European Yacht of the Year": {
+  "logo": "premios/32511bdcde9f23.webp",
+  "logo_url": "https://static.wixstatic.com/media/f3b675_34728768ac2948f1951d4d9af5b275f1~mv2.png",
+  "fuente": "https://www.europeanyachtoftheyear.com/",
+  "consultada": "2026-11-06"
+ },
+ "European Yacht of the Year 2024": {
+  "logo": "premios/32511bdcde9f23.webp",
+  "logo_url": "https://static.wixstatic.com/media/f3b675_34728768ac2948f1951d4d9af5b275f1~mv2.png",
+  "fuente": "https://www.europeanyachtoftheyear.com/",
+  "consultada": "2026-11-06",
+  "nota": "logo del certamen sin año (la insignia 2024 que publican los fabricantes dice «Nominated», y este barco ganó)"
+ },
+ "British Yachting Awards 2025": {
+  "logo": "premios/ca283d1f8d37dc.webp",
+  "fuente": "logo publicado por la página oficial de otro modelo del mismo grupo (tools/premios-logos.json)",
+  "consultada": "2026-11-06"
+ }
+}

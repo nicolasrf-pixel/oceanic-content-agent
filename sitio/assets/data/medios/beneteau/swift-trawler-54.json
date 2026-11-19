@@ -1,0 +1,38 @@
+{
+ "videos": [
+  {
+   "tipo": "youtube",
+   "etiqueta": "Recorrido del barco",
+   "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+   "id": "xESgAOaIMtQ"
+  },
+  {
+   "tipo": "youtube",
+   "etiqueta": "Video oficial",
+   "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-54",
+   "id": "aq0aa3EG7No"
+  }
+ ],
+ "premios": [
+  {
+   "nombre": "European Powerboat of the Year 2025",
+   "detalle": "Nominado",
+   "logo": "premios/ee0aeb40da8a1c.webp"
+  },
+  {
+   "nombre": "Motorboat Award 2025",
+   "detalle": "Finalista",
+   "logo": "premios/968884ed4db038.webp"
+  },
+  {
+   "nombre": "Motor Boat Award 2025",
+   "detalle": "Ganador",
+   "logo": "premios/0af5d7c374b341.webp"
+  },
+  {
+   "nombre": "BOB Awards 2025",
+   "detalle": "",
+   "logo": "premios/ae4bb6440da6a5.webp"
+  }
+ ]
+}

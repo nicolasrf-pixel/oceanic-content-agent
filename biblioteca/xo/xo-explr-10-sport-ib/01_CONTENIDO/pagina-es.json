@@ -1,0 +1,21 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/explr-10-sport-ib-2/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-explr-10-sport-ib.page.json",
+ "portada": {
+  "titular": "Vuela sobre las olas"
+ },
+ "intro": [
+  "Esa sensación inexplicable cuando el mundo de pronto se abre. Cuando puedes seguir, no debería haber razón para volver, al menos no todavía. Unas cuantas cosas más por hacer, unos cuantos rincones más del mar por explorar, unos cuantos sueños más por cumplir. Porque puedes.\nÁgil y con respuesta, sobre todo considerando su eslora, el EXPLR 10 Sport IB rinde como el verdadero vehículo deportivo que es, con mucha potencia y una eficiencia de motor extrema. Para una salida perfecta al mar, solo tienes que acelerar y disfrutar.\nSimplemente no hay otro barco tan divertido de conducir. Aunque la estructura de casco en V profunda define a todos los modelos XO, en el XO EXPLR 10 Sport IB es excepcionalmente agresiva.\nExplora lugares que ni sabías que existían. Este modelo es la joya de diseño de su categoría. Cualquiera sea el desafío que el mar le ponga al XO EXPLR 10 Sport IB, el barco saldrá victorioso. Te llevará segura y firmemente a tu destino, cuando otros se quedan en puerto.\nInspirado en el entorno y las condiciones nórdicas, con su capacidad de alojamiento y su cubierta a prueba de clima, el XO EXPLR 10 Sport es el barco perfecto para el aventurero que quiere vivir la experiencia de conducción definitiva.\nEl EXPLR 10 Sport IB es ideal para familias y amigos que disfrutan un día mar adentro. Equipado con comodidad extra, se adapta a las necesidades de cada aventurero, en aventuras cortas y largas."
+ ],
+ "bloques": [
+  {
+   "titulo": "Mucho más que un barco",
+   "texto": [
+    "Para quienes quieren disfrutar la experiencia de conducción definitiva, el XO DFNDR 10 Sport es la elección de un pionero."
+   ]
+  }
+ ]
+}

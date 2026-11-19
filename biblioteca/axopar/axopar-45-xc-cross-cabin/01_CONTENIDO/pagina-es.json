@@ -1,0 +1,143 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/axopar-45/axopar-45-xc-cross-cabin/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-axopar-45-xc-cross-cabin.page.json",
+ "portada": {
+  "bajada": "El gran aventurero"
+ },
+ "intro": [
+  "Diseñado para una experiencia sobresaliente en el agua, desde aventuras en días de lluvia hasta escapadas a pleno sol. Trae a tu familia, invita a tus amigos; en el 45 hay espacio para que todos disfruten cómodamente la escapada.",
+  "El primer barco del mundo de cabina walk-around totalmente cerrable con motores fueraborda en su clase de tamaño ofrece una navegación para cualquier clima sin igual. Con una cabina totalmente cerrada y potentes motores fueraborda, el 45 te lleva del muelle a mar abierto en un instante."
+ ],
+ "bloques": [
+  {
+   "titulo": "Bienvenido al Hull of Fame",
+   "texto": [
+    "Todo Axopar comienza donde realmente comienza la experiencia de navegar: bajo la línea de flotación. Muchos navegantes han aprendido a aceptar ciertas concesiones como algo normal. Nuestro enfoque, que parte por el casco, resuelve lo fundamental desde el inicio. Desde el lanzamiento del primer Axopar 28 en 2014, esta filosofía ha dado forma a nuestra gama multipremiada, ha ayudado a crear la categoría de barcos de aventura y ha contribuido a que se vendan más de 7.600 Axopar en el mundo.",
+    "Descubre el Hull of Fame y la ingeniería detrás de la experiencia de conducción distintiva de Axopar."
+   ]
+  },
+  {
+   "titulo": "Recorrido por el Axopar 45 XC Cross Cabin",
+   "texto": [
+    "Recorre el barco con Jan-Erik Viitala, cofundador de Axopar, que te muestra cada zona a bordo."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Del refugio al sol en segundos",
+   "items": [
+    {
+     "titulo": "Puertas de ala de gaviota",
+     "texto": "Los íconos modernos vienen de serie en la gama 45. Olvídate de las cabinas de proa estrechas y con poca luz; transforma tu ya luminosa cabina de proa abriendo las puertas de ala de gaviota y dejando entrar el exterior."
+    },
+    {
+     "titulo": "Puertas balcón",
+     "texto": "Pensando en la facilidad de uso y la seguridad, ubicamos una solución nueva e innovadora, nuestras puertas balcón elevadas, en el centro del barco, donde se concentra toda la actividad social, para ampliar el espacio útil para sentarse sin sacrificar la seguridad ni la comodidad a bordo."
+    },
+    {
+     "titulo": "Dos techos solares eléctricos",
+     "texto": "Lleva el exterior al interior abriendo los dos techos solares eléctricos, que dejan entrar mucha luz y brisa cuando quieras, por supuesto."
+    },
+    {
+     "titulo": "Dobles puertas correderas",
+     "texto": "La gran solución de dobles puertas correderas abre nuevas posibilidades para aprovechar una timonera totalmente cerrable junto con su entorno: las nuevas aberturas laterales integradas difuminan la sensación de estar adentro o afuera, como nuestras puertas de ala de gaviota."
+    }
+   ]
+  },
+  {
+   "grupo": "La mejor experiencia al timón",
+   "items": [
+    {
+     "titulo": "Experiencia al timón",
+     "texto": "La hélice de proa, los flaps de trimado y el sistema de audio nunca habían estado tan cerca. El módulo de dirección inteligente te permite controlarlos todos desde el volante."
+    }
+   ]
+  },
+  {
+   "grupo": "Comodidad para familia y amigos",
+   "items": [
+    {
+     "titulo": "Mesa regulable y giratoria",
+     "texto": "La mesa de la timonera se pliega, gira y se desliza, para que la uses de la mejor forma cuando la necesitas y nunca ocupe espacio de más cuando no."
+    },
+    {
+     "titulo": "Wet bar móvil",
+     "texto": "Para aprovechar al máximo la distribución de la timonera del 45, decidimos crear un wet bar con un sofá central y un apoyo para reclinarse, también regulable en largo, que se convierte en el nuevo centro innovador y funcional de la timonera."
+    },
+    {
+     "titulo": "Baño y ducha cerrados con altura completa para estar de pie",
+     "texto": "Una distribución rediseñada crea un baño un 60% más grande, con una zona de ducha separada para más comodidad y practicidad. Una mayor altura interior, gracias al nuevo diseño en GRP, mejora aún más la experiencia a bordo, mientras amplias soluciones de almacenamiento mantienen las pertenencias personales ordenadas y fuera de la vista."
+    },
+    {
+     "titulo": "Clóset en la cabina de proa",
+     "texto": "Cuelga tu ropa y guarda ordenadamente tus pertenencias en el clóset de la cabina de proa, como en casa."
+    }
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Timonera / Cockpit",
+    "items": [
+     "Cabina totalmente cerrada con dobles puertas correderas que se abren en dos direcciones a ambos lados, y dos techos de lona de accionamiento eléctrico con fundas de puerto.",
+     "Tapicería en Silvertex Petrol con ribete Seine.",
+     "Mástil de luces plegable en aluminio pintado blanco, con luz de fondeo.",
+     "Asiento de piloto y 2 asientos de copiloto con apoyos abatibles, cajones y desconectadores de batería remotos en la base.",
+     "Sofá lounge en U con mesa plegable, giratoria y desplazable.",
+     "Wet bar deslizante con apoyo tapizado para reclinarse, lavaplatos con grifería y refrigerador de 65 l.",
+     "Luces LED empotradas en el techo, luces LED ambientales y 4 parlantes ocultos.",
+     "Puesto de mando despejado con panel de interruptores de vidrio con botones iluminados.",
+     "Dos pantallas Simrad Glass Bridge de 12”.",
+     "Volante de cuero con módulo de dirección inteligente (ISM) y mandos integrados de audio, flaps de trimado y hélice de proa.",
+     "Limpiaparabrisas integrados con depósito independiente.",
+     "Escotilla de acceso a la cabina de proa con llave y pasamanos de cuero.",
+     "Alarmas de incendio y CO2."
+    ]
+   },
+   {
+    "grupo": "Casco y cubierta",
+    "items": [
+     "Casco laminado a mano en GRP, con la primera capa en resina viniléster para prevenir la osmosis",
+     "Largueros infusionados al vacío y casco de 45” de doble step con proa de entrada fina, hélice de proa y soportes de motor integrados para tres motores fueraborda Mercury Verado V8 de 300 hp.",
+     "Flaps de trimado y luces subacuáticas en el espejo de popa.",
+     "Logo Axopar 3D cromado y puertas balcón que se abren a ambos lados del casco.",
+     "Cubierta walk-around autodrenante laminada a mano, con terminación antideslizante y luces de cubierta.",
+     "Toda la herrajería, púlpitos, barandas laterales, escalera de baño con manillas altas, escalera de baño telescópica, cerraduras, bisagras, tapas de llenado, 8 cornamusas y pasamanos del cockpit en acero inoxidable 316.",
+     "Puntos de enganche para arnés de seguridad y dos grandes cofres para defensas en la cubierta de popa abierta, con compartimento de baterías / electricidad debajo.",
+     "Ducha en la cubierta de popa.",
+     "Luces de navegación LED en la proa.",
+     "Escotilla de ancla con toma de conexión a tierra conectada al cargador de baterías.",
+     "Sofá en la cubierta de proa con tapicería Silvertex Petrol con ribete Seine y funda de puerto.",
+     "Barco completo en gelcoat blanco Axopar."
+    ]
+   },
+   {
+    "grupo": "General",
+    "items": [
+     "Sistema de agua dulce.",
+     "Alarmas de incendio y CO2."
+    ]
+   },
+   {
+    "grupo": "Cabina de proa",
+    "items": [
+     "Colchones y cojines tapizados en Wish, elegantes; paneles interiores en roble claro y cubiertas de mesa en madera color wengué.",
+     "Cama queen que, al levantarse, transforma los sofás separados en un sofá en U.",
+     "Paneles de techo y paredes tapizados en un material de fieltro moderno.",
+     "2 parlantes en el techo.",
+     "Puertas de ala de gaviota.",
+     "Lavamanos y grifería, clóset, luces LED empotradas en el techo, luces de lectura e iluminación ambiental en el techo y el piso.",
+     "Alarmas de incendio y CO2.",
+     "Alfombra en los peldaños y el piso de la cabina.",
+     "Baño separado con inodoro, espejo, mueble, ducha y lavamanos.",
+     "Incluye sistema de agua dulce."
+    ]
+   }
+  ]
+ }
+}

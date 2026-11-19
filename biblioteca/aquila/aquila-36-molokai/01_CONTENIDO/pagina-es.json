@@ -1,0 +1,15 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/aquila.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.aquilaboats.com/models/offshore/36-molokai-power-catamaran",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-aquila-36-molokai.page.json",
+ "bloques": [
+  {
+   "titulo": "Allá afuera, la aventura llama.",
+   "texto": [
+    "La pesca del día es la adrenalina. Cada amanecer trae otra dosis. Cada lance promete esa emoción. El catamarán a motor 36 Molokai no solo te lleva mar adentro. Te lleva a ese momento en que el corazón late fuerte, el carrete grita y nada más en el mundo importa."
+   ]
+  }
+ ]
+}

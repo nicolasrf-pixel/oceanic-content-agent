@@ -1,0 +1,42 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-50",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-gran-turismo-50.page.json",
+ "portada": {
+  "titular": "La fortuna favorece a los audaces"
+ },
+ "intro": [
+  "Tras el anuncio de su innovadora nueva gama de express cruisers crossover, BENETEAU levanta el telón y presenta su lujoso nuevo buque insignia: el Gran Turismo 50.\nDiseñado en torno a un enfoque revolucionario de la distribución, la estética y la ergonomía, y nacido del profundo conocimiento de la marca sobre la evolución de las necesidades y expectativas de los navegantes en todo el mundo, este nuevo yate ofrece una plataforma realmente versátil, que conserva el emocionante espíritu de ir a cualquier parte del concepto Gran Turismo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Detrás de la estética agresivamente elegante del Gran Turismo 50 se esconde una plataforma de una versatilidad única, con una distribución segura en navegación que se convierte sin esfuerzo en un espacio de villa una vez amarrado el yate. Amplias zonas de descanso se conectan con la cubierta principal, de circulación libre, que se reúne naturalmente en un cómodo pasillo hacia el hermoso puesto de mando de tres estaciones. Sea cual sea el ánimo o la misión, el Gran Turismo 50 es un maestro de la adaptación."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Si el diseño exterior de este buque insignia satisface cualquier ánimo, su majestuoso interior es claramente un lugar de paz, que combina colores y materiales serenos con un estudio exquisito de la comodidad física. Los más de 140 años de experiencia de la marca en la construcción de barcos están a la vista, ya sea que tu atención se detenga en la iluminación, los volúmenes, la ergonomía o simplemente el ajuste y la terminación general. Vivir a bordo se vuelve simplemente vivir, y así es como debe ser."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Descubre la (r)evolución",
+   "items": [
+    {
+     "titulo": "Una filosofía de diseño inspirada en Japón",
+     "texto": "Guiado por los principios del Kanso (simplicidad) y el Yugen (gracia), el Gran Turismo 50 tiene un exterior armonioso y un interior sereno. Desde las elegantes líneas del casco hasta la iluminación ambiental de los camarotes, cada detalle está pensado para evocar equilibrio, claridad y elegancia."
+    },
+    {
+     "titulo": "Una experiencia de conducción óptima",
+     "texto": "Con control por joystick Volvo y un sistema de conducción eco, el Gran Turismo 50 ofrece una autonomía excepcional de hasta 250 millas a 22 nudos (provisional). Su interfaz de usuario a medida asegura una conducción fluida e intuitiva en todas las condiciones."
+    }
+   ]
+  }
+ ]
+}

@@ -104,8 +104,8 @@
     {
       "oceanic_field": "capacidad_combustible",
       "label": "Capacidad Combustible",
-      "status": "VERIFIED",
-      "display_value": "2 x 1.400 l",
+      "status": "CONFLICT",
+      "display_value": null,
       "records": [
         {
           "source_id": "S1",
@@ -113,9 +113,9 @@
           "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
           "accessed_at": "2026-09-30",
           "source_field": "Fuel tank capacity",
-          "source_value": "2 x 1400 L",
+          "source_value": "2800 L (publicado: 2 x 1400 L)",
           "source_unit": "l",
-          "normalized_value": 1400.0,
+          "normalized_value": 2800.0,
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
@@ -126,7 +126,7 @@
           "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
           "accessed_at": "2026-09-30",
           "source_field": "Fuel capacity",
-          "source_value": "2 x 1,400 l",
+          "source_value": "3 L (publicado: 2 x 1,400 l)",
           "source_unit": "l",
           "normalized_value": 1400.0,
           "normalized_unit": "l",
@@ -134,13 +134,13 @@
           "location": "Specifications (bloque técnico)"
         }
       ],
-      "notes": "Publicado dos veces en el bloque técnico, mismo valor."
+      "notes": "El bloque técnico publica este campo más de una vez con valores distintos."
     },
     {
       "oceanic_field": "capacidad_agua_dulce",
       "label": "Capacidad Agua Dulce",
       "status": "VERIFIED",
-      "display_value": "2 x 800 l",
+      "display_value": "1.600 l (publicado: 2 x 800 l)",
       "records": [
         {
           "source_id": "S1",
@@ -148,9 +148,9 @@
           "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
           "accessed_at": "2026-09-30",
           "source_field": "Water tank capacity",
-          "source_value": "2 x 800 L",
+          "source_value": "1600 L (publicado: 2 x 800 L)",
           "source_unit": "l",
-          "normalized_value": 800.0,
+          "normalized_value": 1600.0,
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"
@@ -161,9 +161,9 @@
           "url": "https://www.catamarans-lagoon.com/boats/eighty-2",
           "accessed_at": "2026-09-30",
           "source_field": "Fresh water capacity",
-          "source_value": "2 x 800 l",
+          "source_value": "1600 L (publicado: 2 x 800 l)",
           "source_unit": "l",
-          "normalized_value": 800.0,
+          "normalized_value": 1600.0,
           "normalized_unit": "l",
           "model_year": "NO DECLARADO",
           "location": "Specifications (bloque técnico)"

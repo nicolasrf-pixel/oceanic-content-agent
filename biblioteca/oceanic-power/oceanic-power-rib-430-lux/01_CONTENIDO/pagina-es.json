@@ -1,0 +1,34 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/oceanic-power.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://oceanic.cl/oceanic-power-boats/rib-lux-430/",
+ "capturada": "2026-10-02",
+ "extract": "07_FUENTES/extract/S1-oceanic-power-rib-430-lux.page.json",
+ "portada": {
+  "titular": "Listo para la aventura"
+ },
+ "intro": [
+  "Oceanic Power es una embarcación de casco semirrígido, muy segura, gracias a las válvulas y estanqueidad que posee, gran flotabilidad y muy resistente por sus tubos de Hypalon y PVC. Su peso le permite una operación de bajo consumo."
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Esta embarcación incluye",
+    "items": [
+     "Consola con cojín y parabrisas.",
+     "Almacenamiento en asiento de popa con cojines con respaldo",
+     "Caja de almacenamiento del asiento de proa con cojines",
+     "Mangos duros o blandos de Hypalon o PVC",
+     "Traca nervada de Hypalon o PVC",
+     "Válvulas de aire del Reino Unido",
+     "Asas de acero inoxidable en la traca trasera.",
+     "Tanque de combustible de 70 litros, puerto de llenado de aceite, ventilación de gas, medidores de combustible, sensor de nivel de líquido",
+     "Caja de batería e interruptor para 60 A",
+     "Bomba de pie y bomba de achique",
+     "Kits de reparación",
+     "Gel Ashland estándar – capa: GE 1000 s"
+    ]
+   }
+  ]
+ }
+}

@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/excess.py`.
 - No se mezclan otros modelos de la gama (Excess 11, Excess 13, Excess 14).
-- Imágenes: 65 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 81 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 198 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 32 en inventario (mín. 3) · descargadas 61/65 |
-| MULTIMEDIA | interior | OK | 19 en inventario (mín. 2) · descargadas 61/65 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 61/65 |
+| MULTIMEDIA | exterior | OK | 32 en inventario (mín. 3) · descargadas 61/81 |
+| MULTIMEDIA | interior | OK | 33 en inventario (mín. 2) · descargadas 61/81 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 61/81 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

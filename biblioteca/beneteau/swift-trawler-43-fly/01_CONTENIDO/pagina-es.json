@@ -1,0 +1,28 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-43-fly",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-swift-trawler-43-fly.page.json",
+ "portada": {
+  "titular": "El barco de travesía moderno"
+ },
+ "intro": [
+  "El nuevo Swift Trawler 43 Fly encarna una nueva forma de vivir el crucero: más suave, más cómoda y más conectada con el exterior. Fiel al ADN Swift Trawler, combina autonomía, seguridad y comodidad a bordo en un barco pensado para prolongar cada momento en el agua."
+ ],
+ "destacados": [
+  {
+   "grupo": "El viaje como experiencia",
+   "items": [
+    {
+     "titulo": "Una nueva dimensión del crucero",
+     "texto": "Diseñado para quienes quieren pasar más tiempo en el agua, el Swift Trawler 43 Fly combina autonomía, habitabilidad y facilidad de uso para transformar cada viaje en una verdadera experiencia de crucero."
+    },
+    {
+     "titulo": "Vida a bordo, pensada para durar",
+     "texto": "Con abundante almacenamiento, generosos espacios para recibir y un equipamiento pensado para cruceros de larga distancia, el Swift Trawler 43 Fly se convierte en un verdadero refugio flotante, hecho para acompañar cada aventura con comodidad y tranquilidad."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/gran-turismo-new/gran-turismo-35",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-gran-turismo-35.page.json",
+ "portada": {
+  "titular": "La perla del gran turismo"
+ },
+ "intro": [
+  "El BENETEAU Gran Turismo 35 es tu puerta de entrada a nuevas aventuras en el agua, sin concesiones en rendimiento, comodidad y estilo. Con lo último y lo mejor en arquitectura naval y ergonomía, este hermoso crucero también se beneficia de los 140 años de historia de la marca, para una experiencia de propiedad simplemente sin igual."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Gran Turismo 35 destaca por su casco ultramoderno y sus características franjas de luz, que equilibran a la perfección capacidad y estilo atemporal. Inspirada en la vida de villa, la distribución modular del cockpit ofrece un espacio versátil, ideal para recibir, relajarse o lanzarse a toda velocidad hacia el horizonte. Los balcones abatibles amplían la cubierta de popa y refuerzan tu conexión con el agua, mientras las zonas de asientos convertibles se transforman en amplios soláriums, un refugio perfecto al aire libre. Ya sea navegando a fondo o recibiendo invitados en el muelle, el Gran Turismo 35 redefine la experiencia de navegar con una integración perfecta a su entorno natural."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Con terminaciones de madera clara, abundante luz y elementos de diseño moderno, el interior del Gran Turismo 35 es tan hermoso como funcional. La cama de proa convertible ofrece tanto un salón cómodo como una amplia cama doble. Una cabina central con litera completa el interior con refinamiento. Un baño amplio y totalmente cerrado con ducha y una cocina bien equipada lo hacen perfecto para escapadas de fin de semana y noches a bordo. Con soluciones de almacenamiento inteligentes, iluminación integrada y detalles bien pensados, el interior del Gran Turismo 35 eleva tu experiencia de vida en el agua."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Donde el rendimiento se une al lujo",
+   "items": [
+    {
+     "titulo": "Vida de villa al aire libre, sobre el agua",
+     "texto": "Vive la sensación de una villa a bordo del Gran Turismo 35, con balcones abatibles, una distribución de cockpit modular y soláriums convertibles. Perfecto para recibir, relajarse, tomar sol o hacer una carrera a toda velocidad hasta tu fondeadero cercano, este amplio espacio exterior te conecta con el agua y crea la experiencia de crucero al aire libre definitiva."
+    },
+    {
+     "titulo": "Diseño interior sofisticado y funcional",
+     "texto": "Entra a una distribución luminosa y abierta, con terminaciones de madera clara y la agradable sensación de una belleza minimalista. El Gran Turismo 35 ofrece dos camas dobles, un enorme baño totalmente cerrado con ducha y una cocina bien equipada, todo pensado para escapadas de fin de semana y noches a bordo perfectas."
+    },
+    {
+     "titulo": "Velocidad y maniobrabilidad excepcionales",
+     "texto": "Impulsado por dos fueraborda Mercury Verado, el Gran Turismo 35 supera los 41 nudos, con una velocidad emocionante y un manejo de precisión. El atraque y las maniobras en espacios reducidos son muy fáciles con el control por joystick, y la ergonomía impecable del puesto de mando hace de este un barco que pide ser conducido."
+    }
+   ]
+  }
+ ]
+}

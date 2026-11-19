@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/figaro/figaro-beneteau-3",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "figaro-3-desktop",
@@ -46,8 +46,7 @@
         "bytes": 479832,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/figaro-3-desktop.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-09/figaro-3-desktop.jpg"
     },
     {
       "id": "0032web",
@@ -90,8 +89,7 @@
         "bytes": 674017,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/0032web.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/0032web.jpg"
     },
     {
       "id": "0608web",
@@ -134,8 +132,7 @@
         "bytes": 900745,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/0608web.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/0608web.jpg"
     },
     {
       "id": "0780web",
@@ -177,8 +174,7 @@
         "bytes": 1054366,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/0780web.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/0780web.jpg"
     },
     {
       "id": "1542",
@@ -220,8 +216,7 @@
         "bytes": 1202028,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/1542.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/1542.jpg"
     },
     {
       "id": "figaro3-2",
@@ -263,8 +258,7 @@
         "bytes": 852119,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_2.jpg"
     },
     {
       "id": "figaro3-1",
@@ -306,8 +300,7 @@
         "bytes": 977513,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_1.jpg"
     },
     {
       "id": "figaro3-4",
@@ -349,8 +342,7 @@
         "bytes": 917959,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_4.jpg"
     },
     {
       "id": "figaro3-foils",
@@ -392,8 +384,7 @@
         "bytes": 1130077,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_foils.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_foils.jpg"
     },
     {
       "id": "figaro3-quille",
@@ -435,8 +426,7 @@
         "bytes": 972445,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_quille.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_quille.jpg"
     },
     {
       "id": "figaro3-carene",
@@ -478,8 +468,7 @@
         "bytes": 797258,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_carene.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_carene.jpg"
     },
     {
       "id": "figaro3-mat",
@@ -521,8 +510,7 @@
         "bytes": 652858,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_mat.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/figaro3_mat.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -594,8 +582,7 @@
         "bytes": 11212,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-figaro.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/profil-figaro.jpg"
     },
     {
       "id": "maquette-13",
@@ -637,8 +624,7 @@
         "bytes": 64888,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/maquette_13.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/maquette_13.jpg"
     }
   ]
 }

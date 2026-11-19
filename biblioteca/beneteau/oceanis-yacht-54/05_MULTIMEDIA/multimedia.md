@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `ocy54-exterior1` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'EXTERIOR DESIGN'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/ocy54-exterior1.jpg.webp?itok=zKwvcuyW) |
 | 3 | `ocy54-exterior2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'EXTERIOR DESIGN'). | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/ocy54-exterior2.jpg.webp?itok=RUZFmB8R) |
 
-## Imágenes del modelo (24)
+## Imágenes del modelo (28)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,10 @@
 | [`ocy54-interior5`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/ocy54-interior5.jpg.webp?itok=jT-bqg1N) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo (sección 'Interior Design'). |
 | [`ocy54-interior6`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/ocy54-interior6.jpg.webp?itok=rPGLHw5y) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo (sección 'Interior Design'). |
 | [`ocy54-interior7`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/ocy54-interior7_.jpg.webp?itok=VV_nn0bX) | INTERIOR | media |  | 990x540 jpg | WEB_COPY | Solo en la página del modelo (sección 'Interior Design'). |
+| [`oceanis-yacht-54-interior-design-01`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-yacht-54-interior-design-01.jpg.webp?itok=4w3lU2z3) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-yacht-54-interior-design-01.jpg' con el nombre del modelo. |
+| [`oceanis-yacht-54-interior-design-02`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-yacht-54-interior-design-02.jpg.webp?itok=RadoNbtP) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-yacht-54-interior-design-02.jpg' con el nombre del modelo. |
+| [`oceanis-yacht-54-interior-design-03`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-yacht-54-interior-design-03.jpg.webp?itok=pXpZi1z-) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-yacht-54-interior-design-03.jpg' con el nombre del modelo. |
+| [`oceanis-yacht-54-interior-design-04`](https://www.beneteau.com/sites/default/files/styles/small_internal_design/public/2026-10/oceanis-yacht-54-interior-design-04.jpg.webp?itok=VOasdoyp) | INTERIOR | media |  | 990x540 jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-yacht-54-interior-design-04.jpg' con el nombre del modelo. |
 | [`ocy54-deplacement`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/ocy54_deplacement.jpg.webp?itok=e3MzgG-b) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Every detail of the Oceanis Yacht 54 has been meticulously examined to become one with the crew and the sea.'). |
 | [`ocy54-finitionmathautdegamme`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/ocy54_finitionmathautdegamme.jpg.webp?itok=WW_GwQ2n) | DETAIL | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Every detail of the Oceanis Yacht 54 has been meticulously examined to become one with the crew and the sea.'). |
 | [`ocy54-easysailing`](https://www.beneteau.com/sites/default/files/styles/meet_desktop/public/ocy54_easysailing.jpg.webp?itok=hWxiGHmr) | UNDERWAY | media |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Every detail of the Oceanis Yacht 54 has been meticulously examined to become one with the crew and the sea.'). |

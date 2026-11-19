@@ -660,6 +660,66 @@
    "section": "layouts",
    "section_title": "Smart room",
    "role": "plan"
+  },
+  {
+   "src": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-mobile-cover.jpg",
+   "original": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-mobile-cover.jpg",
+   "file_name": "lagoon-47-mobile-cover.jpg",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "ext": "jpg",
+   "section": "hero",
+   "section_title": "hero",
+   "role": "hero"
+  },
+  {
+   "src": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/intro-lagoon-47-800x1096.jpg",
+   "original": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/intro-lagoon-47-800x1096.jpg",
+   "file_name": "intro-lagoon-47-800x1096.jpg",
+   "alt": "",
+   "width": 800,
+   "height": 1096,
+   "ext": "jpg",
+   "section": "block",
+   "section_title": "Introduction",
+   "role": "image"
+  },
+  {
+   "src": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/catamaran-lagoon-47-video-cover-3.jpg",
+   "original": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/catamaran-lagoon-47-video-cover-3.jpg",
+   "file_name": "catamaran-lagoon-47-video-cover-3.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1080,
+   "ext": "jpg",
+   "section": "block",
+   "section_title": "Portada de video / parallax",
+   "role": "image"
+  },
+  {
+   "src": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-02.jpg",
+   "original": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-02.jpg",
+   "file_name": "lagoon-47-highlight-02.jpg",
+   "alt": "OVERLOOKING THE OCEAN",
+   "width": 1440,
+   "height": 810,
+   "ext": "jpg",
+   "section": "highlight",
+   "section_title": "OVERLOOKING THE OCEAN",
+   "role": "image"
+  },
+  {
+   "src": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-04.jpg",
+   "original": "https://admin.catamarans-lagoon.com/sites/default/files/2026-11/lagoon-47-highlight-04.jpg",
+   "file_name": "lagoon-47-highlight-04.jpg",
+   "alt": "AT SEA, JUST LIKE AT HOME",
+   "width": 1440,
+   "height": 810,
+   "ext": "jpg",
+   "section": "highlight",
+   "section_title": "AT SEA, JUST LIKE AT HOME",
+   "role": "image"
   }
  ],
  "videos": [
@@ -702,5 +762,13 @@
    "quote": "Lagoon had the idea of asking 2,000 of its owners how they envisioned this new catamaran!",
    "source": "SKIPPERS"
   }
- ]
+ ],
+ "media_recheck": {
+  "accessed_at": "2026-11-06",
+  "added": [
+   5,
+   0,
+   0
+  ]
+ }
 }

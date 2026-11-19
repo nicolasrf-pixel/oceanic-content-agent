@@ -1,0 +1,87 @@
+# Revisión de marcas (administrador › Revisar marcas)
+
+Botón del administrador que compara las webs oficiales de cada marca con el catálogo del sitio y propone, con
+aprobación, qué cargar, qué actualizar y qué ocultar. **No cambia nada sin que alguien lo apruebe.**
+
+## Cómo funciona
+
+```
+Administrador (botón «Revisar marcas ahora»)
+   → Worker llama a GitHub y lanza el flujo .github/workflows/revisar-marcas.yml
+   → GitHub Actions corre tools/revisar_marcas.py (lee las webs oficiales, compara con biblioteca/ y el catálogo)
+   → el informe queda en la rama revision-informes (revision/informe.json)
+   → el administrador muestra el informe: modelos nuevos, cambiaron de dirección, ya no existen
+   → se marcan las casillas y se aprueba:
+        · «Ocultar del sitio»  → se guarda y publica el documento «publicacion» (con historial, reversible)
+        · «Cargar» / «Actualizar dirección» → pull request en GitHub con la lista aprobada (no cambia el sitio)
+```
+
+El contenido de un modelo nuevo (extracción, traducción, fotos revisadas) **no se automatiza**: se carga después
+con el proceso de `docs/PROCESO.md`, a partir de la lista del pull request.
+
+## Qué detecta
+
+| Caso | Cómo se decide |
+| --- | --- |
+| **Nuevo** | Enlace en la gama oficial que apunta a una ficha de modelo (misma carpeta que las fichas conocidas) y que el catálogo no tiene. Se descartan los enlaces que redirigen a otra página y palabras como configurador o galería. |
+| **Cambió de dirección** | Ficha conocida que ya no está en la gama y cuya página redirige a otra dirección del mismo sitio. Se marca «posible descatalogado» si el destino parece una gama anterior (`former`, `heritage`, `2015-2022`…). |
+| **Ya no existe** | Ficha conocida que no está en la gama y cuya página responde 404 o 410. |
+| **Sin verificar** | La página no respondió (bloqueo, caída): no se saca ninguna conclusión. |
+
+Una marca cuyas páginas de gama no se pudieron leer queda «bloqueada» o «parcial» y se avisa. Switch y VX One
+son un solo modelo en una página única: no hay lista que comparar.
+
+**No cubre** (a propósito, fase 1): cambios en los datos de un modelo ya cargado (eslora, peso, fotos). Eso sigue
+siendo una revisión por modelo con el proceso de la biblioteca.
+
+## Puesta en marcha (una sola vez)
+
+1. **Dejar el flujo en `main`.** GitHub solo deja lanzar un flujo desde el administrador si su archivo está en la
+   rama principal: mezclar a `main` el archivo `.github/workflows/revisar-marcas.yml`.
+2. **Crear el token de GitHub** (lo hace el dueño del repositorio, en GitHub › Settings › Developer settings ›
+   Personal access tokens › Fine-grained tokens):
+   - Repositorio: solo `oceanic-content-agent`.
+   - Permisos: *Actions* lectura y escritura · *Contents* lectura y escritura · *Pull requests* lectura y escritura.
+   - Vencimiento: el más largo que acepte la política de Oceanic (anotar la fecha para renovarlo).
+3. **Guardarlo en Cloudflare** como secreto del Worker `oceanic`, con el nombre `GH_TOKEN`
+   (Workers › oceanic › Settings › Variables and Secrets › Add › Type: Secret). Nunca por chat ni correo.
+4. **Opcional, para Saffier:** su web bloquea la lectura directa. En GitHub › Settings › Secrets and variables ›
+   Actions, crear el secreto `FIRECRAWL_API_KEY`. Sin él, Saffier aparece «bloqueada» y no se revisa.
+   Solo se usa como respaldo, en las páginas que bloquean la lectura directa (hoy Saffier y, a veces, Solaris): son
+   unas pocas decenas de créditos por revisión. Conviene mirar el consumo real en Firecrawl tras las primeras revisiones.
+5. Variables opcionales del Worker (no son secretos): `GH_REPO` (por defecto `nicolasrf-pixel/oceanic-content-agent`),
+   `GH_BASE` (rama del sitio, `sitio-web`), `GH_FLUJO_RAMA` (rama del flujo, `main`).
+
+Mientras falte `GH_TOKEN`, la pantalla lo dice y explica estos pasos; no se rompe nada.
+
+## Uso
+
+1. Administrador › Herramientas › **Revisar marcas (scraping)** › «Revisar marcas ahora». Tarda unos minutos; la
+   pantalla se actualiza sola.
+2. Revisar el informe. Las casillas parten desmarcadas.
+3. «Aprobar lo marcado»: pide confirmación con el resumen. Lo que se oculta se publica de inmediato; lo demás queda
+   en un pull request.
+4. Para volver a mostrar un modelo oculto: Publicación y destacados › interruptor del modelo.
+
+Un modelo destacado de la portada no se puede ocultar desde aquí: primero hay que cambiarlo en Publicación y
+destacados (el servidor lo rechazaría).
+
+## Seguridad
+
+- El token vive solo como secreto del Worker y solo toca este repositorio. Quien entra al administrador no lo ve.
+- Las acciones de aprobar exigen la sesión del administrador y la cabecera anti-CSRF, como el resto del CMS.
+- El pull request solo agrega un archivo en `revision/aprobados/`; no toca el sitio. Los textos que vienen de las
+  webs se limpian y no mencionan usuarios de GitHub.
+- El detector solo lee páginas públicas, con pausas entre peticiones, y no elude captchas.
+
+## Archivos
+
+`tools/revisar_marcas.py` (detector) · `tools/tests/test_revisar.py` · `.github/workflows/revisar-marcas.yml` ·
+`sitio/worker/revision.js` (GitHub desde el Worker) · `sitio/tests/revision.test.mjs` · `sitio/admin/admin.js › S.revision`.
+
+
+## Avisos externos (marcas con web protegida por captcha)
+Solaris protege su web con un captcha anti-bots (SiteGround) que **no se elude**. En su lugar el informe trae un «aviso externo» (no oficial,
+`SENALES` en `tools/revisar_marcas.py`): lee `solariscatalogues.com` (catálogos que publica el propio fabricante) y la lista de Berthon
+International (distribuidor) y avisa si aparece un modelo que la biblioteca no tiene. No se saca ningún dato: el modelo se carga después
+desde la web oficial, mirada a mano en el navegador (regla 1 de CLAUDE.md).

@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -22,7 +22,7 @@
 | [`axopar-37-spyder-my2023-a7-08105`](https://media.ffycdn.net/eu/axopar/PdAmrdhvVQDu3ovm59oQ.jpg) | EXTERIOR | alta | MY2023 | 7008x4672 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
 | [`axopar-37-spyder-my2023-a7-08143`](https://media.ffycdn.net/eu/axopar/NGrPzmUxLKtJGtzXUSJ5.jpg) | EXTERIOR | alta | MY2023 | 6918x4612 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
 | [`axopar-37-spyder-my2020-r7a6791`](https://media.ffycdn.net/eu/axopar/9U6o24qEG3nk53dick6R.jpg) | EXTERIOR | alta | MY2020 | 6720x4480 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, finland, helsinki, my20). |
-| [`axopar-37-spyder-my2023-a7-08096-2`](https://media.ffycdn.net/eu/axopar/ngsziuYz8zteSmHftm8e.jpg) | EXTERIOR | alta | MY2023 | 6106x4071 jpg | DUPLICATE_OF axopar-37-spyder-my2023-a7-08096 | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
+| [`axopar-37-spyder-my2023-a7-08096-2`](https://media.ffycdn.net/eu/axopar/ngsziuYz8zteSmHftm8e.jpg) | EXTERIOR | alta | MY2023 | 6106x4071 jpg | PENDING | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
 | [`axopar-37-spyder-my2023-a7-08083`](https://media.ffycdn.net/eu/axopar/e5TNwm9mtGX7K2j5JvuK.jpg) | EXTERIOR | alta | MY2023 | 4401x6601 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
 | [`axopar-37-spyder-my2020-img-0665x`](https://media.ffycdn.net/eu/axopar/GNUr3XL4zZ2GxHgU76bz.jpg) | EXTERIOR | alta | MY2020 | 4032x3024 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, finland, helsinki, my20). |
 | [`axopar-37-spyder-my2023-a7-08098`](https://media.ffycdn.net/eu/axopar/mYxFiYaMmvwWbcM8NUhx.jpg) | EXTERIOR | alta | MY2023 | 7008x4672 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, my23). |
@@ -30,11 +30,11 @@
 | [`axopar-37-spyder-my2023-a7-08009`](https://media.ffycdn.net/eu/axopar/nLiNqQSWkwfCs3vsnMbk.jpg) | INTERIOR | alta | MY2023 | 6865x4577 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
 | [`axopar-37-spyder-my2023-a7-07779`](https://media.ffycdn.net/eu/axopar/LWGDrBc8LDXBg2SYGJNt.jpg) | INTERIOR | alta | MY2023 | 5906x3937 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
 | [`axopar-37-spyder-my2023-a7-07815`](https://media.ffycdn.net/eu/axopar/M3UTbvXJ9BTDZYmfQZSG.jpg) | INTERIOR | alta | MY2023 | 6927x4618 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
-| [`axopar-37-spyder-my2023-a7-07779-2`](https://media.ffycdn.net/eu/axopar/rXRfUc5rcVwvsJgTs4wN.jpg) | INTERIOR | alta | MY2023 | 5906x3937 jpg | DUPLICATE_OF axopar-37-spyder-my2023-a7-07779 | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
+| [`axopar-37-spyder-my2023-a7-07779-2`](https://media.ffycdn.net/eu/axopar/rXRfUc5rcVwvsJgTs4wN.jpg) | INTERIOR | alta | MY2023 | 5906x3937 jpg | PENDING | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
 | [`axopar-37-spyder-my2021-r7a0794`](https://media.ffycdn.net/eu/axopar/XHC167uS3rjnnJkV7FHM.jpg) | INTERIOR | alta | MY2021 | 6242x4161 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, germany, ins, my21). |
 | [`axopar-37-spyder-my2023-a7-07873`](https://media.ffycdn.net/eu/axopar/gCkbTnoUTSiyK6MTFnX7.jpg) | INTERIOR | alta | MY2023 | 6932x4621 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
 | [`axopar-37-spyder-my2023-a7-07804`](https://media.ffycdn.net/eu/axopar/Vj69Rx5FjFHn5UJ9xR3j.jpg) | INTERIOR | alta | MY2023 | 6455x4303 jpg | WEB_COPY | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
-| [`axopar-37-spyder-my2023-a7-07779-3`](https://media.ffycdn.net/eu/axopar/vWrRyaoTTu9HbayrksNn.jpg) | INTERIOR | alta | MY2023 | 5906x3937 jpg | DUPLICATE_OF axopar-37-spyder-my2023-a7-07779 | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
+| [`axopar-37-spyder-my2023-a7-07779-3`](https://media.ffycdn.net/eu/axopar/vWrRyaoTTu9HbayrksNn.jpg) | INTERIOR | alta | MY2023 | 5906x3937 jpg | PENDING | Tag DAM del modelo (ax37, ax37s, axopar, cannes, france, ins). |
 | [`petrol-front`](https://media.ffycdn.net/eu/axopar/WKoFAUEf65TBFwwokesk.jpg) | DETAIL | media |  | 5472x3648 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
 | [`cobre-front`](https://media.ffycdn.net/eu/axopar/6vuP9Rggw8g5js7BDWJH.jpg) | DETAIL | media |  | 5472x3648 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |
 | [`baltic-front`](https://media.ffycdn.net/eu/axopar/HgrmyEumVxWLSCWQxBzj.jpg) | DETAIL | media |  | 5472x3648 jpg | WEB_COPY | Render/muestra publicada en la sección 'Upholstery Colors' del modelo. |

@@ -1,0 +1,42 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/gran-turismo-new/gran-turismo-40-coupe",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-gran-turismo-40-coupe.page.json",
+ "portada": {
+  "titular": "Déjalo todo atrás"
+ },
+ "intro": [
+  "Nacido tanto de datos modernos como de más de un siglo de experiencia en la construcción de barcos, el nuevo Gran Turismo 40 redefine con belleza el mundo de los express cruisers, dejando atrás las restricciones, concesiones e imperfecciones del pasado. Ideal tanto para salidas de día como para escapadas de fin de semana, ofrece una comodidad asombrosa, tecnología de vanguardia y una estética estilizada inspirada en el automóvil. Verlo y conducirlo es comprobarlo: navegar a motor nunca volverá a ser lo mismo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Espacios interiores serenos con iluminación ambiental reflejan la filosofía de diseño del nuevo Gran Turismo: la simplicidad o «Kanso». La sección de proa lleva a una cama tipo isla con amplio almacenamiento, mientras la cama central convertible ofrece un espacio versátil para una noche de películas, para guardar cosas, para una siesta o lo que quieras.\nEl baño y la ducha de tamaño completo te recordarán las comodidades de casa. Detalles bien pensados, como la iluminación ambiental, las luces de lectura integradas y los cajones de cierre suave, muestran la atención al detalle del barco y hacen del Gran Turismo 40 una combinación perfecta de sofisticación y practicidad para los navegantes de hoy."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Las claves de una revolución crossover",
+   "items": [
+    {
+     "titulo": "Rendimiento y velocidad sin igual",
+     "texto": "Con dos fueraborda Mercury Verado de 400 hp o motores intraborda Yanmar de 320 hp, el Gran Turismo 40 ofrece velocidades emocionantes junto con una consola de mando de una ergonomía magistral. Ya sea a fondo hacia tu lugar favorito o en un tranquilo paseo al atardecer, la navegación suave y la distribución perfecta nunca dejarán de sorprender al patrón y a los invitados."
+    },
+    {
+     "titulo": "Diseño interior elegante y amplio",
+     "texto": "El interior del Gran Turismo 40 tiene un elegante camarote principal a proa junto con una sección central tan versátil como cómoda. El baño y la ducha de tamaño completo no hacen concesiones en comodidad y permiten alargar las estadías cortas cuando se quiera. La luz se aprovecha con cuidado y se integra a la perfección con el diseño minimalista, creando un espacio de una paz inconfundible."
+    }
+   ]
+  }
+ ]
+}

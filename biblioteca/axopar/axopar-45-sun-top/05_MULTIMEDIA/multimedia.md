@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -47,21 +47,23 @@
 | [`axopar-45-st-q9a0912`](https://media.ffycdn.net/eu/axopar/ayjxLUxRDKAJCfxT4aLk.jpg) | OTHER | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar_45_ST_Q9A0912'. |
 | [`axopar-45-st-xt-manual`](https://media.ffycdn.net/eu/axopar/E7EEGN4GrDP6eLMDBvRr.png) | OTHER | media |  | 2000x1500 png | WEB_COPY | Título del modelo: 'Axopar_45_ST&XT_Manual'. |
 
-## REQUIRES REVIEW: modelo no confirmado (9)
+## REQUIRES REVIEW: modelo no confirmado (11)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
 | [`axopar-45-stdji-0473-axedit`](https://media.ffycdn.net/eu/axopar/kz7cwMff5FQM4rtK5eg2.png) | EXTERIOR | baja |  | 5464x8192 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_45_STDJI_0473_Axedit'). |
 | [`axopar-45-stdji-0444`](https://media.ffycdn.net/eu/axopar/BQ6fdddJB6N7tcRP46BV.jpg) | EXTERIOR | baja |  | 5272x3948 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_45_STDJI_0444'). |
 | [`axopar-45-stdji-0468`](https://media.ffycdn.net/eu/axopar/b4PfkmJc48iq3eoeKCTx.jpg) | EXTERIOR | baja |  | 5272x3948 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_45_STDJI_0468'). |
+| [`2026-08-06-axopar45-464`](https://media.ffycdn.net/eu/axopar/qA5UP1SaJyVu48feP9JV.jpg) | COCKPIT | baja |  | 11656x8742 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_464'). |
 | [`ax45bl-sw-1`](https://media.ffycdn.net/eu/axopar/jCpRbQV2yZhToGUxnQY9.webp) | OTHER | baja |  | 960x803 webp | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('AX45BL_SW_1'). |
 | [`45bl-0002-axopar-45-4435`](https://media.ffycdn.net/eu/axopar/s249qLcg9Xqx78RPXUfL.webp) | OTHER | baja |  | 960x803 webp | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('45BL_0002_Axopar_45-4435'). |
 | [`45bl-0001-brabus-line-5770`](https://media.ffycdn.net/eu/axopar/7UqZEHvqiVkH37ukgWuL.webp) | OTHER | baja |  | 960x803 webp | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('45BL_0001_BRABUS_Line-5770'). |
 | [`28-gallery-4`](https://media.ffycdn.net/eu/axopar/tfEoJZkTV1Au2UotPKuW.jpg) | OTHER | baja |  | 960x402 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('28-gallery-4'). |
 | [`axopar-dealer-map`](https://media.ffycdn.net/eu/axopar/zQVZ326T1jTr5EXczyu7.png) | OTHER | baja |  | 1440x1080 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_Dealer_Map'). |
 | [`axopar-brochure-mockup-2`](https://media.ffycdn.net/eu/axopar/jgTBzf9kEuJ6QoBkztsb.png) | OTHER | baja |  | 2048x1536 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_Brochure_Mockup_2'). |
+| [`2026-08-06-axopar45-243`](https://media.ffycdn.net/eu/axopar/JA5aQGX8ZpVUcBVtM5GN.jpg) | OTHER | baja |  | 11656x8742 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_243'). |
 
-## Excluidas: otro modelo (18)
+## Excluidas: otro modelo (23)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -80,6 +82,11 @@
 | [`axopar-45-cross-top-20`](https://media.ffycdn.net/eu/axopar/7ag6BgnLB2JC2pWPk8LA.jpg) | INTERIOR | alta | MY2024 | 8076x5387 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
 | [`axopar-45-xc-c4a9764`](https://media.ffycdn.net/eu/axopar/L2sDeqwH74yg5UDYkoCV.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'xc')]. |
 | [`axopar-45-xc-mediterrana-c4a5937`](https://media.ffycdn.net/eu/axopar/6dGYEfEErizZQy34HhPY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'xc')]. |
+| [`axopar-45-cross-top-dsc02152`](https://media.ffycdn.net/eu/axopar/xDx1iXpCtF4KiNrTLbwB.jpg) | INTERIOR | alta | MY2027 | 6735x4490 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-cross-top-dsc02393`](https://media.ffycdn.net/eu/axopar/cFSwcSpPpGHaR2RqaVZ3.jpg) | INTERIOR | alta | MY2027 | 6972x4648 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-dsc02389`](https://media.ffycdn.net/eu/axopar/h5Fasg9GR1p5TJn7CbnB.jpg) | INTERIOR | alta | MY2027 | 6740x4493 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-cross-top-dsc04607`](https://media.ffycdn.net/eu/axopar/xbVEyFdff9nFxDJLu27k.jpg) | INTERIOR | alta | MY2027 | 6673x4449 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-xc-mediterrana-c4a6144-2`](https://media.ffycdn.net/eu/axopar/qTCyxkKTALQ6MQE9du5S.jpg) | COCKPIT | media |  | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Título de otra variante: 'Axopar 45 XC Mediterrana_C4A6144'. |
 | [`45-hl-0005-axopar-45-xc-c4a8686`](https://media.ffycdn.net/eu/axopar/4KqY1f5DQqYnHBnF3tMN.jpg) | CABIN | media |  | 1200x800 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Título de otra variante: '45_HL_0005_Axopar-45-XC_C4A8686'. |
 | [`45-hl-0009-axopar-45-xc-c4a8974`](https://media.ffycdn.net/eu/axopar/pPi6uQ49p3HJeBje43fk.jpg) | OTHER | media |  | 1200x800 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Título de otra variante: '45_HL_0009_Axopar-45-XC_C4A8974'. |
 | [`ax45-xt-efoil-q9a9077`](https://media.ffycdn.net/eu/axopar/b7Mu38NMz9i1V7QA9jRY.jpg) | OTHER | media |  | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Título de otra variante: 'AX45_XT_Efoil_Q9A9077'. |

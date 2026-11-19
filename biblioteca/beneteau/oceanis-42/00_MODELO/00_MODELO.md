@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Oceanis 30.1, Oceanis 34.1, Oceanis 37.1, Oceanis 40.1, Oceanis 47, Oceanis 52).
-- Imágenes: 20 del modelo, 1 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 21 del modelo, 1 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 270 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 136 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 4 en inventario (mín. 3) · descargadas 20/20 |
-| MULTIMEDIA | interior | OK | 5 en inventario (mín. 2) · descargadas 20/20 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 20/20 |
+| MULTIMEDIA | exterior | OK | 4 en inventario (mín. 3) · descargadas 20/21 |
+| MULTIMEDIA | interior | OK | 5 en inventario (mín. 2) · descargadas 20/21 |
+| MULTIMEDIA | detail | OK | 4 en inventario (mín. 2) · descargadas 20/21 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

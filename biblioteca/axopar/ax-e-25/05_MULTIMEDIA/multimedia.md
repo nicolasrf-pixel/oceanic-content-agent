@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -35,7 +35,7 @@
 | [`ax-e-25-cross-top-0x0a2037`](https://media.ffycdn.net/eu/axopar/qQw6Ban25SfZGPkmEkEk.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |
 | [`ax-e-25-cross-top-e29a2820`](https://media.ffycdn.net/eu/axopar/ECLtq4ESE5eDoFDtVkAw.jpg) | INTERIOR | alta | MY2025 | 4986x3324 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
 | [`ax-e-25-cross-top-099a8107`](https://media.ffycdn.net/eu/axopar/LTVjnM5d5iLhzFSyJnfd.jpg) | INTERIOR | alta | MY2025 | 7865x5246 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
-| [`ax-e-25-cross-top-e29a2806-2`](https://media.ffycdn.net/eu/axopar/mhNeNaV6sc19HJGcLEWP.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | DUPLICATE_OF ax-e-25-cross-top-e29a2806 | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
+| [`ax-e-25-cross-top-e29a2806-2`](https://media.ffycdn.net/eu/axopar/mhNeNaV6sc19HJGcLEWP.jpg) | INTERIOR | alta | MY2025 | 5254x3503 jpg | PENDING | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
 | [`ax-e-25-cross-top-099a8072`](https://media.ffycdn.net/eu/axopar/ZqBH6VQUXuPq3cXSao1z.jpg) | INTERIOR | alta | MY2025 | 6955x4639 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
 | [`ax-e-25-cross-top-e29a2952`](https://media.ffycdn.net/eu/axopar/6CPEEMhASGL9AGhGcNSk.jpg) | INTERIOR | alta | MY2025 | 5472x3648 jpg | WEB_COPY | Tag DAM del modelo (axe, axe25, axe25crosstop, hungary, ins, my25). |
 | [`ax-e-25-cross-top-0x0a2056-enhanced-nr-edit`](https://media.ffycdn.net/eu/axopar/HGJfD1hmxo2VCsd6HkWN.jpg) | INTERIOR | alta | MY2025 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (axe25, axe25crosstop, axelaunch, axopar, france, ins). |

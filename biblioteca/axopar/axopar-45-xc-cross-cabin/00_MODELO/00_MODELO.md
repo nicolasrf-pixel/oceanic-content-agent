@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/axopar.py`.
 - No se mezclan otras variantes de la gama (Axopar 45 Cross Top, Axopar 45 Sun Top).
-- Imágenes: 43 del modelo, 6 de otro modelo (excluidas), 13 por revisar, 0 no son del barco.
+- Imágenes: 44 del modelo, 10 de otro modelo (excluidas), 15 por revisar, 0 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 651 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 5 en inventario (mín. 3) · descargadas 42/43 |
-| MULTIMEDIA | interior | OK | 18 en inventario (mín. 2) · descargadas 42/43 |
-| MULTIMEDIA | detail | OK | 12 en inventario (mín. 2) · descargadas 42/43 |
+| MULTIMEDIA | exterior | OK | 5 en inventario (mín. 3) · descargadas 42/44 |
+| MULTIMEDIA | interior | OK | 19 en inventario (mín. 2) · descargadas 42/44 |
+| MULTIMEDIA | detail | OK | 12 en inventario (mín. 2) · descargadas 42/44 |
 | MULTIMEDIA | video | OK | 5 videos del modelo |
 | DOCUMENTOS | brochure | MISSING | no encontrado en fuentes oficiales |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

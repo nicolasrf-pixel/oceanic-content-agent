@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04). Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/sixty-7",
+ "capturada": "2026-11-04",
+ "extract": "07_FUENTES/extract/S1-sixty-7.page.json",
+ "portada": {
+  "titular": "Un catamarán para tus cruceros más bellos"
+ },
+ "intro": [
+  "Concebido como un remanso de paz, un lugar para la reflexión, el descanso y el viaje, el SIXTY 7 es un santuario privado en el océano. Cada espacio de vida, cada ambiente, hace únicos tus momentos a bordo y te permite recargar energías por completo."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Diseñado para el océano",
+     "texto": "La gran autonomía del SIXTY 7 te permite planificar travesías más largas y ofrece el equilibrio perfecto para recorrer el mundo."
+    },
+    {
+     "titulo": "La elegancia del espacio",
+     "texto": "Los espacios de vida contiguos conectan el interior con el exterior, reúnen lo mejor de ambos mundos y aprovechan al máximo la luz natural."
+    },
+    {
+     "titulo": "La libertad del flybridge",
+     "texto": "Descubre el flybridge, donde todo se diseñó para que te sientas libre. Abierto al entorno natural para una vista impresionante, su distribución versátil cumple todas tus expectativas. Para el capitán y la tripulación, el puesto de gobierno se diseñó para facilitar la maniobra."
+    },
+    {
+     "titulo": "Como en casa",
+     "texto": "Uno de los grandes puntos fuertes del SIXTY 7 es la suite del armador. El gran vestidor, el amplio baño y el dormitorio están a la altura de los mejores hoteles."
+    }
+   ]
+  }
+ ]
+}

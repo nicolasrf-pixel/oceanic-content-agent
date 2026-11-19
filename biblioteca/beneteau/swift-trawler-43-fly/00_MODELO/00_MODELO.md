@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Grand Trawler 63, Swift Trawler 43 Sedan, Swift Trawler 37 Sedan, Swift Trawler 37 Fly, Swift Trawler 48, Swift Trawler 54).
-- Imágenes: 26 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 32 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 163 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 6 en inventario (mín. 3) · descargadas 26/26 |
-| MULTIMEDIA | interior | OK | 9 en inventario (mín. 2) · descargadas 26/26 |
-| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 26/26 |
+| MULTIMEDIA | exterior | OK | 12 en inventario (mín. 3) · descargadas 26/32 |
+| MULTIMEDIA | interior | OK | 9 en inventario (mín. 2) · descargadas 26/32 |
+| MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 26/32 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

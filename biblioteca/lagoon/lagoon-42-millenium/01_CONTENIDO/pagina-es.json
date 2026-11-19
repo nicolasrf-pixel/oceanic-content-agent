@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-42-millenium",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-lagoon-42-millenium.page.json",
+ "portada": {
+  "titular": "El catamarán más vendido del mundo"
+ },
+ "intro": [
+  "Un logro arquitectónico, el Lagoon 42 es una referencia en facilidad de manejo y confiabilidad. Con más de 1.000 catamaranes construidos, ¡es el catamarán más vendido del mundo! Para continuar esta aventura, Lagoon lanza el Lagoon 42 Millennium."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Rico y versátil",
+     "texto": "Conexión entre el interior y el océano, el cockpit de popa del Lagoon 42 Millennium tiene múltiples zonas de descanso. Su versatilidad permite una gran mesa para hasta diez personas, manteniendo una circulación fácil en el cockpit."
+    },
+    {
+     "titulo": "Espacio y circulación fluida a bordo",
+     "texto": "El cockpit se prolonga en una gran terraza, a ras del salón, que crea una zona de vida a la vez amplia y acogedora. Bien protegida y ventilada, es una invitación permanente a relajarse."
+    },
+    {
+     "titulo": "Un mundo de elegancia y facilidad",
+     "texto": "La distribución interior está en perfecta armonía con las líneas exteriores del catamarán. Fiel a los estándares de Lagoon, el inmenso salón ofrece una vista panorámica del exterior, una iluminación atractiva, circulación fluida a bordo y materiales sostenibles de gran calidad."
+    },
+    {
+     "titulo": "Barco inteligente",
+     "texto": "Con Seanapps, tu Lagoon también te acompaña en tu smartphone.\nGracias a la aplicación móvil y su unidad a bordo, puedes monitorear a distancia el estado de los principales sistemas: carga de baterías, niveles de los estanques de combustible y agua, o incluso la planificación del mantenimiento.\nPara ayudarte a planificar tu viaje y aprovechar al máximo cada salida, Seanapps también te permite planificar tus rutas y seguir tu navegación directamente desde tu celular."
+    }
+   ]
+  }
+ ]
+}

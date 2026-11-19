@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-43-sedan",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-swift-trawler-43-sedan.page.json",
+ "portada": {
+  "titular": "El barco de travesía moderno"
+ },
+ "intro": [
+  "El nuevo Swift Trawler 43 Sedan propone un enfoque fresco del crucero familiar, con más espacio, más comodidad y más oportunidades de disfrutar la vida en el agua. Fiel al ADN Swift Trawler, combina autonomía, seguridad y una comodidad excepcional a bordo en un crucero bien pensado que invita a sus dueños a prolongar cada momento en el mar."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "A bordo, el Swift Trawler 43 Sedan adopta un enfoque más residencial del crucero, combinando generosos espacios de vida, materiales premium y una ergonomía pensada para estadías largas en el agua.\nLa cocina ampliada, con encimera de Corian®, ofrece más funcionalidad y más capacidad de almacenamiento, mientras el salón crea un ambiente cálido y contemporáneo para compartir. Los amplios ventanales del salón refuerzan la sensación de apertura y la conexión con el paisaje marino.\nLos espacios de alojamiento se diseñaron pensando en la privacidad y el bienestar, con un acogedor camarote del armador, un cómodo camarote de invitados y baños con verdaderas duchas separadas. El camarote de invitados de babor también tiene acceso directo al baño de día mediante una práctica disposición Jack & Jill, que mejora la comodidad a bordo."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Diseño",
+   "items": [
+    {
+     "titulo": "Una nueva dimensión del crucero",
+     "texto": "Diseñado para quienes quieren pasar más tiempo en el agua, el Swift Trawler 43 Sedan combina autonomía, versatilidad y facilidad de uso para transformar cada viaje en una experiencia de crucero realmente gratificante."
+    },
+    {
+     "titulo": "Vida a bordo, pensada para durar",
+     "texto": "Pensado para pasar mucho tiempo en el agua, el Swift Trawler 43 Sedan une abundante almacenamiento con espacios de vida flexibles y un equipamiento enfocado en el crucero, para crear un refugio acogedor dondequiera que lleve la aventura."
+    }
+   ]
+  }
+ ]
+}

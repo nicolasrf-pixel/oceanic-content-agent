@@ -1,0 +1,13 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/aquila.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.aquilaboats.com/models/offshore/28-molokai-cuddy-power-catamaran",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-aquila-28-molokai-cuddy.page.json",
+ "portada": {
+  "titular": "Porque allá afuera, la libertad llama."
+ },
+ "intro": [
+  "Nacido en el Pacífico. Hecho para dondequiera que te lleve \"allá afuera\". Protección para cualquier clima. Rendimiento mar adentro. Capacidad profesional. El Aquila 28 Molokai Cuddy une inteligencia y construcción premium, y amplía tus horizontes con protección de los elementos y una confianza inquebrantable en condiciones exigentes.\nCon una cabina cuddy de proa que da refugio sin perder su gran capacidad mar adentro, este versátil catamarán se destaca en múltiples funciones. Su generoso cockpit lo hace ideal para llevar pasajeros o para la pesca seria.\nCon el espíritu hawaiano en su ADN, el 28 Molokai Cuddy domina el oleaje del Pacífico y el picado del Atlántico con el mismo aplomo.\nCuando el clima cambia pero la misión debe seguir, el puesto de mando protegido te mantiene cómodo y al mando.\nPorque allá afuera, la libertad llama."
+ ]
+}

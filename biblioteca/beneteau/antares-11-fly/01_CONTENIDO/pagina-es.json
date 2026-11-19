@@ -1,0 +1,52 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/antares-outboard/antares-11-fly",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-antares-11-fly.page.json",
+ "portada": {
+  "titular": "Un weekender que da en el tono justo"
+ },
+ "intro": [
+  "Con una eslora total de 11 metros, el buque insignia de la línea Antares es la ilustración perfecta de un crucero familiar. Elegante y contemporáneo, este barco a motor se centra en el espacio, la comodidad y la seguridad.\nEl flybridge del Antares 11 FLY se integra perfectamente al perfil del barco y es la manera ideal de disfrutar la emoción de navegar al aire libre."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Fruto de una nueva colaboración entre BENETEAU y Sarrazin Design, su silueta moderna y enérgica se realza con las amplias superficies vidriadas de la timonera, que dan una luz óptima a bordo. Muchas soluciones modulares inteligentes hacen muy agradable la vida a bordo."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "La luz y la comodidad de crucero caracterizan a este gran weekender. El camarote principal doble, con baño y ducha en suite, está muy por sobre los estándares habituales. El camarote de popa ocupa toda la manga y tiene tres literas. El Antares 11 tiene un salón convertible y puede acoger hasta 7 personas en excelentes condiciones. Los amplios ventanales de la timonera ofrecen una vista impresionante en todas direcciones."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Más que un weekender",
+   "items": [
+    {
+     "titulo": "Innovaciones",
+     "texto": "Sus muchas soluciones innovadoras aseguran un alto nivel de comodidad: solárium de popa, plataforma de baño lateral que crea una terraza con vista al mar y cubierta a ras que conecta casi sin transición con el cockpit y la timonera."
+    },
+    {
+     "titulo": "Seguridad",
+     "texto": "Francobordos altos, pasillos amplios, circulación fácil y un excelente comportamiento en el mar aseguran la máxima seguridad en este gran crucero familiar a motor."
+    },
+    {
+     "titulo": "Rendimiento",
+     "texto": "Potentes motores fueraborda de hasta 2 x 300 hp y un casco bien protegido aseguran un excelente rendimiento."
+    }
+   ]
+  }
+ ]
+}

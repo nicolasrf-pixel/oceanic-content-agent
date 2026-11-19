@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `oceanis-31-1-navigation0-2` | Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation0_2.jpg.webp?itok=s4s-QaPn) |
 | 3 | `oceanis-31-1-navigation01` | Exterior horizontal del modelo; Revisión visual (2026-09-30): mismo barco que la cabecera del Oceanis 30.1 (casco gris, cubierta, doble rueda); publicadas solo en la galería 'Exterior design' de su página. El nombre '31.1' del archivo no corresponde a ningún modelo de la web. | [original](https://www.beneteau.com/sites/default/files/styles/standard_large/public/oceanis-31.1_navigation01.jpg.webp?itok=u85j-TPJ) |
 
-## Imágenes del modelo (29)
+## Imágenes del modelo (30)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -46,6 +46,7 @@
 | [`oc30-1-swing-keel`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-07/oc30.1_swing-keel.jpg.webp?itok=ymW0l4dC) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'oc30.1_swing-keel.jpg' con el nombre del modelo. |
 | [`oc30-1-top-view-jpg-1832px`](https://www.beneteau.com/sites/default/files/styles/wide/public/oc30.1-top-view.jpg-1832px.png.webp?itok=e_dLqoBD) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo; archivo 'oc30.1-top-view.jpg-1832px.png' con el nombre del modelo. |
 | [`layout-30-1-jpg-1832px`](https://www.beneteau.com/sites/default/files/styles/wide/public/layout-30.1.jpg-1832px.png.webp?itok=HESJXmp3) | PLANS | alta |  | NonexNone png | WEB_COPY | Solo en la página del modelo (sección '2 CABINS & 1 HEAD'). |
+| [`oceanis-30-1-profile-shallow-draft`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2026-10/oceanis-30-1-profile-shallow-draft.jpg.webp?itok=It9PwbDd) | PLANS | alta |  | NonexNone jpg | PENDING | Solo en la página del modelo; archivo 'oceanis-30-1-profile-shallow-draft.jpg' con el nombre del modelo. |
 | [`oceanis30-1electrique`](https://www.beneteau.com/sites/default/files/styles/image_text_desktop/public/2022-11/oceanis30-1electrique.jpg.webp?itok=jG914iSh) | OTHER | baja |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'oceanis30-1electrique.jpg' con el nombre del modelo. |
 
 ## REQUIRES REVIEW: modelo no confirmado (1)

@@ -1,0 +1,55 @@
+{
+ "portada": {
+  "titular": "Cada estación tiene su propia luz, y cada momento un recuerdo especial"
+ },
+ "intro": [
+  "Fiel a la gama Antares, el Antares 12 Coupe afirma su lugar como un crucero familiar versátil, diseñado para navegar largas distancias en todas las latitudes. Con una experiencia probada y como complemento del Antares 12 Fly, combina comodidad, elegancia e innovación con un espíritu de placer compartido y serenidad."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Con su diseño único y su forma moderna, el Antares 12 Coupe encarna los códigos estéticos que han sido la firma de la gama por 45 años. Las ventanas del casco y la borda crean una línea estilizada, mientras el techo de popa, protector y aerodinámico, realza el equilibrio general del barco.\nLa plataforma eléctrica de estribor prolonga naturalmente el espacio exterior y facilita el acceso al agua para hacer paddle o nadar."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El Antares 12 Coupe, ideal para cruceros en familia o escapadas cortas con amigos, es la combinación perfecta de modularidad y espacio. El camarote principal, amplio, luminoso y elegante, tiene su propio baño, al igual que los invitados, que cuentan con un camarote completamente equipado. Una tercera zona modular se puede transformar según se necesite en una litera extra o en espacio de almacenamiento. Junto con el salón convertible de la timonera, el Antares 12 Coupe puede acoger hasta ocho personas a bordo para una noche maravillosa fondeados frente a la costa."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Comodidad sobresaliente para cruceros largos",
+   "items": [
+    {
+     "titulo": "Luminosidad y facilidad de movimiento a bordo",
+     "texto": "La serie Antares 12 Coupe viene equipada con un gran techo de vidrio eléctrico que llena de luz natural la zona de estar. Adentro, los paneles de vidrio desaparecen para crear una transición continua entre el cockpit y la timonera, con un paso fluido entre los espacios."
+    },
+    {
+     "titulo": "Sofisticación hasta el último detalle",
+     "texto": "A bordo, cada detalle refleja un gran sentido del refinamiento. La timonera, amplia y luminosa, combina generosos espacios de almacenamiento, un salón en U y una cocina completamente equipada. El uso de materiales nobles, el juego de luces y las terminaciones meticulosas crean un ambiente elegante, ideal para saborear cada momento."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/antares-outboard/antares-12-coupe",
+ "gama": [
+  "Antares 7",
+  "Antares 7 Fishing",
+  "Antares 8",
+  "Antares 8 Fishing",
+  "Antares 9",
+  "Antares 11 Coupe",
+  "Antares 11 Fly",
+  "Antares 12 Fly"
+ ]
+}

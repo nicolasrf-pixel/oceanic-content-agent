@@ -1,0 +1,49 @@
+{
+ "portada": {
+  "titular": "¡Pequeño, pero tan grande!"
+ },
+ "intro": [
+  "El Oceanis 30.1 es fácil de navegar pero vivo al timón, y promete nuevas experiencias y emociones. Este pequeño y robusto crucero inteligente es lo bastante chico para remolcarse, lo que abre infinitas posibilidades para navegar en lagos y ríos, además de la navegación costera y las aventuras en alta mar"
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "Con roda recta, casco con pantoque vivo y costados y techo de cabina bien proporcionados, el Oceanis 30.1 tiene sin complejos el aspecto de un pequeño yate. El plano de Finot-Conq cumplió el doble desafío de potencia y navegación simple.\nCon su proa esbelta, su peso optimizado, un velamen rígido y una mayor de cabeza cuadrada, rinde bien en todos los rumbos. Para principiantes o para navegar con poca tripulación, el foque autovirante y un solo winche lo hacen fácil de manejar. A popa, un peldaño da acceso al mar."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Con algunos centímetros extra ganados en lugares estratégicos, el Oceanis 30.1 se diferencia de otros barcos con una altura interior de 1,98 m en todos los lugares donde es cómodo estar de pie.\nLos dos amplios camarotes dobles tienen camas longitudinales y una entrada abierta que los hace sentir especialmente espaciosos. Las dos bancas del salón suman lugar para dos literas extra.\nEl gran baño se divide en un inodoro marino a un lado y ducha y lavamanos al otro. Al pie de una bajada de pendiente suave, la cocina en L tiene almacenamiento arriba y abajo, un refrigerador de 75 litros y un verdadero horno bajo el anafe a gas."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Para todos",
+   "items": [
+    {
+     "titulo": "Remolcable",
+     "texto": "Con un tamaño total de menos de 9 x 3 metros y un peso de menos de 4 toneladas, el Oceanis 30.1 puede ser remolcado por carretera por un profesional, sin los problemas de una carga extra ancha."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/oceanis/oceanis-301",
+ "gama": [
+  "Oceanis 42",
+  "Oceanis 34.1",
+  "Oceanis 37.1",
+  "Oceanis 40.1",
+  "Oceanis 47",
+  "Oceanis 52"
+ ]
+}

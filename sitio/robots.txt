@@ -1,0 +1,7 @@
+# VISTA PREVIA: el sitio aún no se lanza, nadie indexa. Al lanzar, el build (LANZADO=1) deja:
+#   User-agent: *
+#   Allow: /
+#   Disallow: /admin/
+#   Sitemap: <dominio>/sitemap.xml
+User-agent: *
+Disallow: /

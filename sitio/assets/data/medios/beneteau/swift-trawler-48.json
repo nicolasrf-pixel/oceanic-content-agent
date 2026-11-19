@@ -1,0 +1,33 @@
+{
+ "videos": [
+  {
+   "tipo": "youtube",
+   "etiqueta": "Recorrido del barco",
+   "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+   "id": "FvIUy9ce6Zg"
+  },
+  {
+   "tipo": "youtube",
+   "etiqueta": "Video oficial",
+   "fuente": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+   "id": "a7WKJfZkM5Q"
+  }
+ ],
+ "premios": [
+  {
+   "nombre": "European Powerboat of the Year 2023",
+   "detalle": "",
+   "logo": "premios/0c74556931d3e5.webp"
+  },
+  {
+   "nombre": "Bob Award 2022",
+   "detalle": "Finalista",
+   "logo": "premios/cbe68c4e29dbc2.webp"
+  },
+  {
+   "nombre": "Motorboat Award 2023",
+   "detalle": "Finalista",
+   "logo": "premios/7575f89f1d6d57.webp"
+  }
+ ]
+}

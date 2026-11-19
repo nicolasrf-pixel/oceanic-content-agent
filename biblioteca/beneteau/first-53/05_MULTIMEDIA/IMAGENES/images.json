@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/first/first-53",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "header-first-yacht-53",
@@ -46,8 +46,7 @@
         "bytes": 502705,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-12/header-first-yacht-53.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-12/header-first-yacht-53.jpg"
     },
     {
       "id": "first-yacht-53-exterieur-6",
@@ -90,8 +89,7 @@
         "bytes": 916774,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_exterieur_6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_exterieur_6.jpg"
     },
     {
       "id": "first-yacht-53-exterieur-2",
@@ -134,8 +132,7 @@
         "bytes": 714066,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_exterieur_2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_exterieur_2.jpg"
     },
     {
       "id": "exterieur-3-3",
@@ -177,8 +174,7 @@
         "bytes": 1100016,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_3_3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_3_3.jpg"
     },
     {
       "id": "first-yacht-53-ext10",
@@ -220,8 +216,7 @@
         "bytes": 1139117,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_ext10.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first-yacht-53_ext10.jpg"
     },
     {
       "id": "fy53-exterieur-2",
@@ -263,8 +258,7 @@
         "bytes": 841103,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/fy53_exterieur_2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/fy53_exterieur_2.jpg"
     },
     {
       "id": "exterieur-6",
@@ -306,8 +300,7 @@
         "bytes": 740356,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_6.jpg"
     },
     {
       "id": "fy53-exterior2-1",
@@ -349,8 +342,7 @@
         "bytes": 197294,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior2%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior2%20%281%29.jpg"
     },
     {
       "id": "fy53-exterior-1",
@@ -392,8 +384,7 @@
         "bytes": 247842,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior%20%281%29.jpg"
     },
     {
       "id": "fy53-exterior1-1",
@@ -435,8 +426,7 @@
         "bytes": 288181,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior1%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior1%20%281%29.jpg"
     },
     {
       "id": "fy53-exterior3-1",
@@ -478,8 +468,7 @@
         "bytes": 232909,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior3%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-exterior3%20%281%29.jpg"
     },
     {
       "id": "interieur-8",
@@ -521,8 +510,7 @@
         "bytes": 729947,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_8.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_8.jpg"
     },
     {
       "id": "interieur-7",
@@ -564,8 +552,7 @@
         "bytes": 747467,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_7.jpg"
     },
     {
       "id": "interieur-6",
@@ -607,8 +594,7 @@
         "bytes": 805889,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_6.jpg"
     },
     {
       "id": "fy53-interior2-1",
@@ -650,8 +636,7 @@
         "bytes": 172659,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior2%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior2%20%281%29.jpg"
     },
     {
       "id": "interieur-1-1",
@@ -693,8 +678,7 @@
         "bytes": 749273,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_1_1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_1_1.jpg"
     },
     {
       "id": "fy53-interior1-1",
@@ -736,8 +720,7 @@
         "bytes": 175624,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior1%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior1%20%281%29.jpg"
     },
     {
       "id": "fy53-interior-1",
@@ -779,8 +762,7 @@
         "bytes": 192929,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior%20%281%29.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-07/FY53-interior%20%281%29.jpg"
     },
     {
       "id": "interieur-4-2",
@@ -822,8 +804,7 @@
         "bytes": 775347,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_4_2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/interieur_4_2.jpg"
     },
     {
       "id": "exterieur-1-2",
@@ -865,8 +846,7 @@
         "bytes": 872235,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_1_2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/exterieur_1_2.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -938,8 +918,7 @@
         "bytes": 12913,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-53-blue-no-sail.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2025-10/profile-FIRST-53-blue-no-sail.png"
     },
     {
       "id": "fy53-profil-white",
@@ -981,8 +960,7 @@
         "bytes": 17344,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/fy53-profil-white.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/fy53-profil-white.jpg"
     },
     {
       "id": "desck",
@@ -1024,8 +1002,7 @@
         "bytes": 262319,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/desck.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/desck.png"
     },
     {
       "id": "plan-2-0",
@@ -1067,8 +1044,7 @@
         "bytes": 213939,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/plan-2_0.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/plan-2_0.png"
     },
     {
       "id": "plan-1",
@@ -1110,8 +1086,7 @@
         "bytes": 217121,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/plan-1.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/plan-1.png"
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de catamarans-lagoon.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Lagoon o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de admin.catamarans-lagoon.com (back office Drupal). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -71,7 +71,7 @@
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`lagoon-82-bloc-premium-1920x1280-03`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg) | OTHER | baja |  | 1920x1080 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Publicada también en eighty-2 y el nombre de archivo 'Lagoon-82-bloc-premium-1920x1280-03.jpg' nombra otro modelo. |
+| [`lagoon-82-bloc-premium-1920x1280-03`](https://admin.catamarans-lagoon.com/sites/default/files/2024-09/Lagoon-82-bloc-premium-1920x1280-03.jpg) | OTHER | baja |  | 1920x1080 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Publicada también en eighty-2, sixty-7 y el nombre de archivo 'Lagoon-82-bloc-premium-1920x1280-03.jpg' nombra otro modelo. |
 
 ## Videos (3)
 

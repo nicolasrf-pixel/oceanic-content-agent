@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -31,3 +31,9 @@
 | [`first14-sailing-exp4`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first14-sailing-exp4.jpg.webp?itok=9sQRWtUK) | UNDERWAY | media |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'first14-sailing-exp4.jpg' con el nombre del modelo. |
 | [`first14-sailing-exp5`](https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/first14-sailing-exp5.jpg.webp?itok=Q5-oAtnf) | UNDERWAY | media |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'first14-sailing-exp5.jpg' con el nombre del modelo. |
 | [`first14-profil`](https://www.beneteau.com/sites/default/files/styles/profile_image/public/2022-09/first14-profil.jpg.webp?itok=wCjvH5tu) | PLANS | alta |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo; archivo 'first14-profil.jpg' con el nombre del modelo. |
+
+## Excluidas: no son del barco (1)
+
+| id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| [`logo-seanapps2`](https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp) | OTHER | baja |  | 1090x1050 jpg | NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC) | Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco. |

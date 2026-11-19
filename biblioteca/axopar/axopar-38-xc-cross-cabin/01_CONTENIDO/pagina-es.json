@@ -1,0 +1,188 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/axopar-38/axopar-38-xc-cross-cabin/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-axopar-38-xc-cross-cabin.page.json",
+ "intro": [
+  "El Axopar 38 XC Cross Cabin marca un nuevo estándar en la navegación para cualquier clima. Pasa en segundos de una cabina totalmente cerrada y protegida a un espacio abierto y social, sin cortar la conexión con el entorno. Cada detalle tiene un propósito, desde el casco refinado hasta la distribución flexible, y entrega un manejo seguro, eficiencia y comodidad cuando cambian las condiciones. Construido sin concesiones, se adapta a cómo usas tu tiempo en el agua, para que cada travesía se sienta fácil y cada momento más accesible."
+ ],
+ "bloques": [
+  {
+   "titulo": "Una conducción sin igual",
+   "texto": [
+    "Descubre la nueva geometría de proa, una mejor distribución del peso y un perfil de casco rediseñado."
+   ]
+  },
+  {
+   "titulo": "El barco seguro e inteligente",
+   "texto": [
+    "Pasillos anchos, un cockpit profundo, navegación inteligente y funciones de diagnóstico del barco dan tranquilidad."
+   ]
+  },
+  {
+   "titulo": "Hidrodinámica y equilibrio rediseñados para un control y una agilidad sin esfuerzo",
+   "texto": [
+    "Las mejoras en hidrodinámica y distribución del peso dan aún más confianza al timón, donde la relación resistencia-peso optimizada mediante sistemas de largueros sobredimensionados asegura una estructura rígida. Esto da a los navegantes la seguridad de que el 38 se comporta exactamente como se espera, tranquilo y preciso, sin importar quién esté al timón ni las condiciones que vengan, y lo hace igual de disfrutable para patrones experimentados que para quienes recién empiezan a navegar."
+   ]
+  },
+  {
+   "titulo": "Amplias soluciones de reducción de ruido para más comodidad a bordo",
+   "texto": [
+    "Mantener el casco más rígido evita flexiones no deseadas que pueden transmitir sonido por todo el barco. Así se logra una navegación más silenciosa y refinada, con la resonancia del casco al mínimo y conversaciones claras incluso a velocidad. El resultado es una experiencia notablemente más suave y cómoda para todos a bordo."
+   ]
+  },
+  {
+   "titulo": "Diseño refinado y funcional, con gran atención al detalle e innovaciones con sentido",
+   "texto": [
+    "Cada elemento a bordo sigue el principio de diseño inteligente de Axopar, donde nada se agrega sin un propósito. Líneas limpias, uso eficiente del espacio y distribuciones modulares aseguran que todo funcione en conjunto para una mejor experiencia en el agua."
+   ]
+  },
+  {
+   "titulo": "Bienvenido al Hull of Fame",
+   "texto": [
+    "Todo Axopar comienza donde realmente comienza la experiencia de navegar: bajo la línea de flotación. Muchos navegantes han aprendido a aceptar ciertas concesiones como algo normal. Nuestro enfoque, que parte por el casco, resuelve lo fundamental desde el inicio. Desde el lanzamiento del primer Axopar 28 en 2014, esta filosofía ha dado forma a nuestra gama multipremiada, ha ayudado a crear la categoría de barcos de aventura y ha contribuido a que se vendan más de 7.600 Axopar en el mundo.",
+    "Descubre el Hull of Fame y la ingeniería detrás de la experiencia de conducción distintiva de Axopar."
+   ]
+  },
+  {
+   "titulo": "Pensado para usarse todo el año, alargando la temporada y el tiempo en el agua",
+   "texto": [
+    "Diseñado para enfrentar con confianza el clima cambiante y las estaciones frías, el barco es una plataforma confiable cada vez que cambian las condiciones. Los espacios protegidos y el rendimiento eficiente del casco te permiten salir a explorar antes en primavera, quedarte hasta más tarde en otoño y disfrutar más días en el agua en total. Este enfoque refleja la filosofía de Axopar de construir barcos para entornos reales y navegantes reales que quieren capacidad durante todo el año."
+   ]
+  },
+  {
+   "titulo": "Axopar 38 XC Cross Cabin | Recorrido detallado",
+   "texto": [
+    "Acompáñanos en un recorrido completo por el nuevo Axopar 38 XC Cross Cabin, un modelo de nueva generación hecho para la aventura, el rendimiento y el uso durante todo el año."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Equipamiento destacado",
+   "items": [
+    {
+     "titulo": "El barco más modular",
+     "texto": "El Axopar 38 ofrece la mayor variedad de configuraciones de su clase. Cada zona se puede ajustar mejor a las preferencias de cada cliente, mientras la competencia ofrece solo las concesiones de siempre. Con amplias opciones de distribución, esta flexibilidad da más libertad y menos concesiones, con un nivel de adaptabilidad nunca antes disponible."
+    },
+    {
+     "titulo": "Control total",
+     "texto": "Con un afán innovador sin concesiones, el nuevo Axopar 38 redefine la comodidad y la habitabilidad a bordo, y entrega una experiencia de conducción excepcional sobre uno de los cascos de mejor manejo del mundo. Es la gama Axopar más ambiciosa e influyente hasta hoy, creada para que navegar sea más fácil, seguro y disfrutable tanto para navegantes experimentados como para quienes recién empiezan."
+    },
+    {
+     "titulo": "Resistencia rígida y liviana",
+     "texto": "Al minimizar la flexión y la vibración, los largueros crean una plataforma sólida y estable que mejora el manejo, la comodidad y la seguridad a cualquier velocidad. La rigidez adicional distribuye mejor los impactos con mar agitado, reduce la fatiga del casco a largo plazo y protege otros componentes de esfuerzos innecesarios. El resultado es un barco más fuerte, silencioso y durable, con un rendimiento constante temporada tras temporada."
+    },
+    {
+     "titulo": "Sin concesiones",
+     "texto": "Axopar cree que un barco debe adaptarse a distintos usos con el mínimo de concesiones, sobre todo porque hoy la navegación es más amplia, más social y más versátil que nunca. Las personas pasan días más largos en el agua y usan su barco para una variedad mayor de actividades. El nuevo Axopar 38 está hecho exactamente para eso. Es el resultado de la mayor inversión en I+D de Axopar hasta hoy, y continúa el compromiso de la marca con un diseño nórdico funcional, flexible y atemporal que permite experiencias reales sin complejidad innecesaria."
+    },
+    {
+     "titulo": "Pura función",
+     "texto": "El barco está diseñado para un uso frecuente y real, con un mantenimiento simple, que asegura una durabilidad práctica y una funcionalidad pura sin la distracción de artificios ni complejidades superficiales."
+    },
+    {
+     "titulo": "Hecho por navegantes",
+     "texto": "El diseño, la distribución y la funcionalidad nacen de la experiencia real en el agua. Cada detalle refleja lo que los navegantes de verdad necesitan, desde el almacenamiento inteligente y el movimiento seguro a bordo hasta un manejo predecible y confiable en cualquier condición. Cada característica tiene un propósito, y cada decisión apunta a un tiempo mejor y más disfrutable en el agua."
+    }
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Timonera / Cockpit",
+    "items": [
+     "Distribución del puesto de mando y ergonomía inspiradas en el automóvil.",
+     "Vista panorámica de 360 grados.",
+     "Tablero en negro y paneles de la consola en terminación metalizada gris verdoso.",
+     "Panel del tablero en negro de alto brillo.",
+     "Panel de interruptores de vidrio con botones iluminados.",
+     "Panel de control principal con desconectadores de batería a control remoto.",
+     "Dos limpiaparabrisas integrados y unidos mecánicamente.",
+     "Volante de cuero con logo Axopar.",
+     "Escotilla con llave hacia la cabina de proa, con pasamanos de cuero.",
+     "Puerta corredera a la cabina de proa con diseño Adventure.",
+     "Cargador inalámbrico para teléfono con sujeción magnética.",
+     "Bolsillo para documentos en la pared de la consola.",
+     "Asientos delanteros giratorios con apoyo abatible.",
+     "Reposapiés con cubierta EVA.",
+     "Parabrisas y ventanas laterales de vidrio templado con tinte verde claro.",
+     "Cabina totalmente cerrada con puertas correderas extra anchas y con llave.",
+     "Techo con gran techo de lona que se abre y funda de puerto.",
+     "Gran sofá de popa con mesa fija de nogal y cubierta plegable con manilla integrada.",
+     "Sofá central mirando hacia adelante y hacia atrás, con respaldo removible en la mesa.",
+     "Piso elevado alrededor del comedor, con almacenamiento.",
+     "Reposapiés plegable de nogal para el sofá de popa, que permite el paso a la sección de popa.",
+     "Respaldos del sofá que se abren, con almacenamiento.",
+     "Gran compartimento de almacenamiento bajo el sofá de popa y la base del asiento central.",
+     "Compartimento para zapatos bajo la puerta corredera de babor.",
+     "Bolsillos de almacenamiento en las puertas correderas, pintados en terminación metalizada gris verdoso.",
+     "Manilla de nogal en el pilar B de babor.",
+     "Cuatro luces LED empotradas.",
+     "Dos tomas USB.",
+     "Alarmas de incendio y CO2.",
+     "Tela Basecamp en todos los asientos y la tapicería.",
+     "Alfombra gris en la timonera."
+    ]
+   },
+   {
+    "grupo": "General",
+    "items": [
+     "Tercera generación del casco de doble step con proa de entrada fina, en GRP.",
+     "Soporte de motores integrado al casco para dos motores fueraborda.",
+     "Compartimento de motores con escotilla plegable para aprovechar mejor el espacio.",
+     "Estanque de combustible fijo de aluminio de 830 l.",
+     "Defensa perimetral reforzada con remates de goma grises, también alrededor de las plataformas de baño.",
+     "Logo Axopar 3D cromado en el casco.",
+     "Túnel preparado para hélice de proa en el casco.",
+     "Cubierta walk-around de 360 grados con cubierta de popa abierta autodrenante.",
+     "Terminación antideslizante en zonas de trabajo de cubierta y escotillas.",
+     "Toda la herrajería, púlpitos, cerraduras, bisagras, tapas de llenado y pasamanos del cockpit en acero inoxidable 316.",
+     "6 cornamusas en popa, centro y proa.",
+     "Puntos de enganche adicionales para arnés de seguridad.",
+     "Púlpitos en la cubierta de proa.",
+     "Pasamanos laterales integrados.",
+     "Luces de navegación LED en el techo.",
+     "Amplio cofre de ancla con drenaje en la proa.",
+     "Compartimento de almacenamiento en la cubierta de proa con cojín y funda de puerto.",
+     "Sofá con respaldo en la cubierta de proa, con portavasos y funda de puerto.",
+     "Tres bombas de achique eléctricas con función automática.",
+     "Flaps de trimado con mando joystick.",
+     "Soluciones de aislamiento acústico y reducción de ruido.",
+     "Peldaños de abordaje integrados / acceso de mantenimiento a ambos lados del puesto de mando.",
+     "Mástil de luces abatible 180 grados en aluminio pintado blanco, con luz de fondeo.",
+     "Bocina.",
+     "Dos grandes cofres para defensas en la cubierta de popa.",
+     "Cubierta de popa abierta con gran compartimento de almacenamiento bajo cubierta.",
+     "Compartimento de baterías / electricidad bajo el almacenamiento de la cubierta de popa.",
+     "Bomba de achique manual para la sección de popa.",
+     "Plataformas de baño integradas y escalera de baño telescópica.",
+     "Pasamanos bajo la ventana trasera.",
+     "Asta de bandera."
+    ]
+   },
+   {
+    "grupo": "Cabina de proa",
+    "items": [
+     "Sofá lounge en L y asientos.",
+     "Gran cama queen con laterales acolchados.",
+     "Toda la tapicería en tela Basecamp.",
+     "Paneles del techo.",
+     "Ventana hacia la cubierta de proa.",
+     "Espejo en el mamparo de proa.",
+     "Repisas plegables junto a la cama.",
+     "Módulo de cocina con lavaplatos y grifería, con 5 cajones.",
+     "Módulo superior de cocina con espacio reservado para microondas y dos repisas.",
+     "Inodoro eléctrico bajo el sofá en L, con tanque séptico de 70 l.",
+     "Panel principal de fusibles de 12 V integrado, con fusibles automáticos.",
+     "Tomas USB en la cabina de proa.",
+     "Alarmas de incendio y CO2.",
+     "Focos LED y tira de luz entre las claraboyas.",
+     "Alfombra gris en la cabina de proa."
+    ]
+   }
+  ]
+ }
+}

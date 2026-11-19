@@ -24,11 +24,11 @@
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
 **CONTENT_STATUS = YELLOW** · completitud 75% (informativa; el estado lo deciden las reglas)
 
-Conflictos sin resolver: Superficie vélica
+Conflictos sin resolver: Capacidad Combustible, Superficie vélica
 
 | Grupo | Ítem | Estado | Detalle |
 | --- | --- | --- | --- |
-| DATOS | tabla_tecnica | PARTIAL | tabla base 7/9 verificada · faltan: desplazamiento · en conflicto: superficie_velica |
+| DATOS | tabla_tecnica | PARTIAL | tabla base 6/9 verificada · faltan: desplazamiento · en conflicto: capacidad_combustible, superficie_velica |
 | DATOS | especificaciones | OK | 14 campos con fuente |
 | DATOS | caracteristicas | OK | presente |
 | DATOS | equipamiento | MISSING | sin standard/optional |
@@ -61,6 +61,7 @@ Conflictos sin resolver: Superficie vélica
 ## Información faltante o por revisar
 
 - **Desplazamiento en rosca** (NOT_FOUND): No publicado en el bloque técnico.
+- **Capacidad Combustible** (CONFLICT): El bloque técnico publica este campo más de una vez con valores distintos.
 - **Superficie vélica** (CONFLICT): El bloque técnico publica este campo más de una vez con valores distintos.
 - Equipamiento: la web no publica lista standard ni optional; la web del producto no publica lista de equipamiento (el brochure se pide por formulario).
 - Traducción al español del equipamiento: pendiente.

@@ -1,0 +1,52 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/oceanis/oceanis-341",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-oceanis-34-1.page.json",
+ "portada": {
+  "titular": "El crucero de última generación"
+ },
+ "intro": [
+  "Más estilizado, más liviano, con más superficie vélica y más espacio a proa para el camarote del armador que su predecesor, el Oceanis 34.1 promete días inolvidables en el agua. Una vez más, Marc Lombard y NAUTA Design unieron fuerzas para crear un concepto de diseño único, fiel al espíritu de la 7ª generación de la gama Oceanis."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "La distribución de cubierta se rediseñó para asegurar la máxima comodidad y seguridad al moverse por el barco, al timón y en la vida a bordo fondeado. Los cabos de las drizas y del enrollador están a proa del cockpit, mientras hay un winche a cada lado para que el timonel cace las velas de proa. El resultado es un cockpit despejado, ideal para relajarse, con fácil acceso a la plataforma de baño de popa."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "Los diseñadores de Nauta crearon un interior chic y contemporáneo, con una elegante terminación en nogal o roble claro. Las escotillas de cubierta y los múltiples portillos de casco y techo llevan luz natural al barco y dan una excelente ventilación. En el salón, la ingeniosa mesa de cartas con cubierta plegable suma dos literas individuales extra.\nUn estilo característico, reconocible al instante hasta en los detalles más pequeños, con distribuciones que priorizan la comodidad, la facilidad de uso, los interiores luminosos y amplios y la facilidad de movimiento."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Donde el diseño se une al placer",
+   "items": [
+    {
+     "titulo": "Equipamiento a medida y comodidad a bordo",
+     "texto": "Por dentro, el barco tiene camarotes dobles y un baño. Los interiores son luminosos y amplios. El barco tiene cuatro escotillas de cubierta, cuatro portillos en el casco y largas ventanas en las brazolas, para vivir plenamente la experiencia de crucero desde el salón del Oceanis."
+    },
+    {
+     "titulo": "Un cockpit amplio y de estilo contemporáneo",
+     "texto": "La distribución despejada y la escota de mayor sobre el techo dan un cockpit amplio, ideal para relajarse navegando o fondeado. Una elegante plataforma de baño da un acceso fácil al mar."
+    },
+    {
+     "titulo": "Un barco de alto rendimiento",
+     "texto": "El equipo de Marc Lombard llevó un paso más allá el diseño de los cascos de nueva generación, agregando ancho en un tercio de la proa para un mejor control del cabeceo en ceñida y un timón más estable al escorar. Una menor superficie sumergida mejora el rendimiento y asegura una navegación agradable con viento suave y medio."
+    }
+   ]
+  }
+ ]
+}
