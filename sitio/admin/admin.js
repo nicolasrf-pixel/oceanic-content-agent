@@ -337,6 +337,16 @@
       }
       return h('div', null, h('h1', { text: 'Administrador del sitio' }),
         h('p', { class: 'lede', text: 'Edita, guarda como borrador y publica. Lo publicado aquí se superpone al contenido del repo; con «Vista previa de borradores» (arriba) ves los borradores en el sitio antes de publicarlos.' }),
+        h('div', { class: 'kpis' },
+          [['Borradores sin publicar', String(pend.length), pend.length ? 'Cambios guardados que aún no se ven en el sitio' : 'Todo lo guardado ya está publicado', pend.length ? 'alerta' : 'bien',
+            'Cantidad de documentos con cambios guardados como borrador que todavía no se publican. Si es 0, el sitio muestra todo lo que editaste.'],
+           ['Publicados desde el CMS', String(r.docs.filter(function (d) { return d.pub_version; }).length), 'Documentos que el sitio lee desde el administrador', '',
+            'Documentos cuyo contenido publicado aquí reemplaza al archivo del repositorio. El resto del sitio sigue leyendo el repositorio.'],
+           ['Documentos editables', String(r.docs.length), 'Entre textos, catálogo, fichas y configuración', '',
+            'Total de documentos que se pueden editar desde este administrador.'],
+           ['Último cambio', r.docs.length ? fecha(r.docs.map(function (d) { return d.actualizado || ''; }).sort().pop()) : '—', 'Fecha de la edición más reciente', 'chico',
+            'Cuándo se guardó por última vez cualquier documento del administrador.']
+          ].map(function (k) { return h('div', { class: 'kpi ' + k[3], 'data-tip': k[4] }, h('small', { text: k[0] }), h('b', { text: k[1] }), h('span', { text: k[2] })); })),
         h('div', { class: 'tarjetas' }, [
           ['#portada', 'Portada del sitio', 'Video principal del inicio y sus textos'],
           ['#barcos', 'Publicación y destacados', 'Prender o apagar barcos y elegir los 3 de la portada'],
