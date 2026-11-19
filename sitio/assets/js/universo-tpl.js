@@ -47,7 +47,7 @@
   // cada marca del universo: {marca, linea} (el respaldo trae solo el nombre; la línea es la del universo si la marca la tiene)
   var entradas=(u.marcas||[]).map(function(x){
     return typeof x==='string'?{marca:x,linea:((M[x]||{}).lineas||{})[slug]?slug:''}:x;
-  }).filter(function(x){ return x&&/^[a-z0-9-]+$/.test(x.marca||'')&&M[x.marca]; });
+  }).filter(function(x){ return x&&/^[a-z0-9-]+$/.test(x.marca||'')&&M[x.marca]&&!(PF&&Array.isArray(PF.inicio)&&PF.inicio.some(function(i){ return i&&i.marca===x.marca&&i.visible===false; })); });
   function marcaHref(e){ return pre+'marca/index.html?m='+e.marca+(e.linea?'&u='+e.linea:''); }
 
   // hero

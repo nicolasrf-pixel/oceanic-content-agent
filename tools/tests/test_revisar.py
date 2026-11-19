@@ -122,3 +122,17 @@ class DatosReales(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class MarcaNuevaConExtra(unittest.TestCase):
+    def test_marca_sin_modelos_cargados_lista_sus_fichas(self):
+        gama = '<a href="/boats/uno">U</a> <a href="/boats/dos/">D</a> <a href="/contact">c</a>'
+        leer = web({"https://delta.example/boats": gama, "https://delta.example/boats/uno": "<title>Uno</title>",
+                    "https://delta.example/boats/dos/": "<title>Dos</title>"})
+        r = rm.revisar_marca("delta", [], leer, pausa=0, indices_extra={"delta": ["https://delta.example/boats"]})
+        self.assertEqual(r["estado"], "ok")
+        self.assertEqual(sorted(x["titulo"] for x in r["nuevos"]), ["Dos", "Uno"])
+
+    def test_sin_extra_una_marca_sin_modelos_queda_bloqueada(self):
+        r = rm.revisar_marca("delta", [], web({}), pausa=0)
+        self.assertEqual(r["estado"], "bloqueada")

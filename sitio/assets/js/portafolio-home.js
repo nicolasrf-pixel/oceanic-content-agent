@@ -17,6 +17,9 @@
   }
   function href(mk, linea) { return 'marca/index.html?m=' + mk + (linea ? '&u=' + linea : ''); }
 
+  var ocultas = {};  // marcas sin autorizar: no se muestran en ninguna parte
+  P.inicio.forEach(function (x) { if (x && x.visible === false) ocultas[x.marca] = true; });
+
   // marcas del inicio, en el orden del portafolio, solo las visibles y que existen en la información de marcas
   var lista = P.inicio.filter(function (x) { return x && x.visible !== false && SLUG.test(x.marca || '') && M[x.marca]; });
 
@@ -51,7 +54,7 @@
   var us = (P.universos || []).filter(function (u) { return u && u.visible !== false && SLUG.test(u.slug || '') && u.nombre; });
   if (cont && us.length) {
     cont.innerHTML = us.map(function (u) {
-      var marcas = (u.marcas || []).filter(function (x) { return x && SLUG.test(x.marca || '') && M[x.marca]; });
+      var marcas = (u.marcas || []).filter(function (x) { return x && SLUG.test(x.marca || '') && M[x.marca] && !ocultas[x.marca]; });
       var link = 'universo/index.html?u=' + u.slug, foto = img(u.hero);
       return '<article class="u">' +
         '<a class="u-img" href="' + link + '">' + (foto ? '<img alt="' + esc(u.alt || u.nombre) + '" loading="lazy" src="' + esc(foto) + '"/>' : '') + '</a>' +

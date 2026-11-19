@@ -73,13 +73,25 @@ export async function estadoRevision(env) {
   return { ok: true, configurado: true, ejecucion: ult || null, informe: inf, flujo_encontrado: corridas.ok };
 }
 
-export async function iniciarRevision(env) {
+/** Marcas nuevas sumadas desde el administrador: {marca: [https…]}. Solo direcciones https y nombres válidos. */
+export function limpiarExtra(x) {
+  const salida = {};
+  if (!x || typeof x !== 'object' || Array.isArray(x)) return salida;
+  for (const [k, v] of Object.entries(x).slice(0, 20)) {
+    if (!/^[a-z0-9-]{1,40}$/.test(k) || !Array.isArray(v)) continue;
+    const l = v.filter((u) => urlSegura(u)).slice(0, 5);
+    if (l.length) salida[k] = l;
+  }
+  return salida;
+}
+
+export async function iniciarRevision(env, cuerpo) {
   if (!env.GH_TOKEN) return sinConfigurar(env);
   const R = repo(env);
   const en = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/runs?per_page=1`);
   const ult = en.ok && en.datos && en.datos.workflow_runs && en.datos.workflow_runs[0];
   if (ult && (ult.status === 'queued' || ult.status === 'in_progress')) return { ok: false, configurado: true, enCurso: true, error: 'Ya hay una revisión en curso.' };
-  const r = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/dispatches`, { metodo: 'POST', cuerpo: { ref: env.GH_FLUJO_RAMA || 'main' } });
+  const r = await gh(env, `/repos/${R}/actions/workflows/${FLUJO}/dispatches`, { metodo: 'POST', cuerpo: { ref: env.GH_FLUJO_RAMA || 'main', inputs: { extra: JSON.stringify(limpiarExtra(cuerpo && cuerpo.extra)) } } });
   if (!r.ok) return errorGitHub(r, 'lanzar la revisión');
   return { ok: true, configurado: true };
 }

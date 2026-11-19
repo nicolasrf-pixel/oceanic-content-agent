@@ -24,6 +24,14 @@ window.OCEANIC_PUBLICACION = /*DATOS*/{
 
 (function () {
   'use strict';
+  // Marca sin autorizar (portafolio › inicio › visible:false): no existe en ninguna parte del sitio. Se retira del
+  // catálogo antes de que lo lea cualquier otra pieza (gamas, ficha, asistente, destacados). Se vuelve a mostrar
+  // con «Autorizar y mostrar» en el administrador.
+  (function () {
+    var P = window.OCEANIC_PORTAFOLIO, C0 = window.OCEANIC_CATALOGO;
+    if (!P || !Array.isArray(P.inicio) || !C0) return;
+    P.inicio.forEach(function (x) { if (x && x.visible === false && C0[x.marca]) delete C0[x.marca]; });
+  })();
   // Opcionales y ediciones: no se publican en ningún barco (decisión Oceanic 2026-11-04). Los datos de la biblioteca
   // quedan completos; aquí se limpian solo para mostrarlos.
   var OPC = /opcional|optional|\bopci[oó]n(es)?\b|\bopt\.|\bopc\.|\bOPZ\b|Pilot Edition|edici[oó]n limitada|Riders.? Edition|\bAlpine\b|\bpack\b/i;

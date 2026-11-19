@@ -199,6 +199,7 @@ function portafolio(d, err, aviso) {
       if (vistas.has(x.marca)) err(r + '.marca', `${x.marca} está repetida en el inicio`); else vistas.add(x.marca);
       if (x.visible != null && typeof x.visible !== 'boolean') err(r + '.visible', `${x.marca}: visible debe ser sí o no`);
       if (!texto(x.subtitulo, 80)) err(r + '.subtitulo', `${x.marca}: subtítulo de hasta 80 letras`);
+      if (x.web != null && x.web !== '' && !/^https:\/\/[^\s"'<>]{4,300}$/.test(String(x.web))) err(r + '.web', `${x.marca}: la web oficial debe ser una dirección https`);
       for (const k of ['foto', 'logo']) if (x[k] && !rutaImagen(x[k])) err(r + '.' + k, `${x.marca}: imagen inválida`);
       if (x.forma != null && !['ancho', 'alto'].includes(x.forma)) err(r + '.forma', `${x.marca}: forma del logo: ancho o alto`);
     });

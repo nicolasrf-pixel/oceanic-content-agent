@@ -18,6 +18,17 @@ de marcas del asistente (`asistente.js`). Cada uno trae su lista de respaldo y l
    marca **oculta** en el inicio. Después se le agregan modelos en «Catálogo y modelos nuevos», se activa «Mostrar en el inicio» y se
    publica el portafolio. Una marca sin modelos muestra «Estamos preparando la gama…» en vez de una gama vacía.
 
+## Autorización: lo que no está autorizado no existe
+Una marca con `visible:false` en `inicio` (así nacen las marcas nuevas) y una categoría con `visible:false` (así nacen las nuevas, p. ej.
+«Rescate») **no se muestran en ninguna parte**: ni inicio, menú, pie, categorías, asistente, gamas, destacados ni su propia página
+(`/marca/?m=…` responde «Marca no encontrada»; `publicacion.js` la saca del catálogo antes de que otra pieza la lea). El botón
+**«Autorizar y mostrar»** (en la marca o en la categoría) la activa; después se publica el documento.
+
+## Revisar marcas para marcas nuevas
+El campo «Web oficial» de una marca (`inicio[].web`) la suma a «Revisar marcas» desde el día uno, aunque no esté autorizada: el botón envía
+esas direcciones al flujo de GitHub (entrada `extra`) y el informe lista sus modelos como «nuevos» para cargarlos con el proceso de la
+biblioteca. Las webs con captcha anti-bots (Solaris) no se eluden: quedan «bloqueadas» y se revisan a mano.
+
 ## Reglas (las valida el servidor, `worker/documentos.js › portafolio`)
 Direcciones en minúsculas con guiones y sin repetir; hasta 60 marcas en el inicio, 12 categorías y 40 marcas por categoría; imágenes
 solo rutas del sitio, subidas (`/media/…`) o https; textos con largo máximo. Sin categorías o marcas visibles, avisa y el sitio usa

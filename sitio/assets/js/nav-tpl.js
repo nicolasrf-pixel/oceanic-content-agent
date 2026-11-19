@@ -12,11 +12,12 @@
     {slug:'deportiva',nombre:'Vela deportiva',marcas:[['vx-one','','VX One'],['switch','','Switch']]}
   ];
   function esc(t){ return String(t==null?'':t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  function oculta(mk){ var P=window.OCEANIC_PORTAFOLIO; return !!(P&&Array.isArray(P.inicio)&&P.inicio.some(function(x){ return x&&x.marca===mk&&x.visible===false; })); }
   function universos(){
     var P=window.OCEANIC_PORTAFOLIO;
     if(!P||!Array.isArray(P.universos)||!P.universos.length) return RESPALDO;
     var lista=P.universos.filter(function(u){ return u&&u.visible!==false&&/^[a-z0-9-]+$/.test(u.slug||'')&&u.nombre; }).map(function(u){
-      return {slug:u.slug,nombre:u.nombre,marcas:(u.marcas||[]).filter(function(m){ return m&&/^[a-z0-9-]+$/.test(m.marca||''); })
+      return {slug:u.slug,nombre:u.nombre,marcas:(u.marcas||[]).filter(function(m){ return m&&/^[a-z0-9-]+$/.test(m.marca||'')&&!oculta(m.marca); })
         .map(function(m){ return [m.marca,/^[a-z0-9-]+$/.test(m.linea||'')?m.linea:'',m.etiqueta||m.marca]; })};
     });
     return lista.length?lista:RESPALDO;

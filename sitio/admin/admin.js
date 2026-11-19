@@ -1071,10 +1071,15 @@
         vaciar(cajaIni);
         P.inicio.forEach(function (x, i) {
           var det = h('details', { class: 'panel', style: 'margin:6px 0' },
-            h('summary', null, h('b', { text: (i + 1) + '. ' + nombreMarca(x.marca) }), h('small', { text: '  ' + (x.visible === false ? 'oculta en el inicio' : (x.subtitulo || '')) })),
+            h('summary', null, h('b', { text: (i + 1) + '. ' + nombreMarca(x.marca) }), h('small', { text: '  ' + (x.visible === false ? '· SIN AUTORIZAR: no se muestra en ninguna parte' : (x.subtitulo || '')) })),
+            x.visible === false ? h('div', { class: 'filtros' }, h('button', { class: 'btn boya', text: 'Autorizar y mostrar ' + nombreMarca(x.marca), onclick: function () {
+              if (!confirm('¿Autorizar «' + nombreMarca(x.marca) + '»? Cuando publiques este documento aparecerá en el inicio, el menú, las categorías, el asistente y su propia página. Asegúrate de que sus modelos y textos estén listos.')) return;
+              x.visible = true; marcar(doc); pintarIni(); avisar('Autorizada. Publica este documento para que se vea en el sitio.');
+            } }), h('small', { text: ' Mientras no la autorices, la marca no se ve en ninguna parte del sitio.' })) : null,
             h('div', { class: 'filtros' }, flechas(P.inicio, i, pintarIni),
               interruptor(x, 'visible', 'Mostrar en el inicio y en el carrusel', function () { if (x.visible == null) x.visible = true; marcar(doc); pintarIni(); }),
               h('button', { class: 'mini x', text: '✕ Quitar', onclick: function () { if (confirm('¿Quitar ' + nombreMarca(x.marca) + ' del inicio? La marca sigue existiendo en el sitio.')) { P.inicio.splice(i, 1); marcar(doc); pintarIni(); } } })),
+            campo('Web oficial para «Revisar marcas»', texto(doc, x, 'web', { ph: 'https://… (página con la lista de modelos)' }), 'Si la completas, la marca entra al scraping de «Revisar marcas», aunque aún no esté autorizada. Vacío: no se revisa.'),
             campo('Texto bajo el nombre (tarjeta del inicio)', texto(doc, x, 'subtitulo', { ph: 'Ej. Vela y motor' })),
             campo('Foto de la tarjeta', campoImagen(doc, x, 'foto', 'marcas'), 'Si se deja vacía, se usa la foto de portada de la marca.'),
             campo('Logo del carrusel', campoImagen(doc, x, 'logo', 'marcas'), 'PNG o WebP con fondo transparente. Vacío: se usa el logo de la marca, o su nombre en texto.'),
@@ -1121,7 +1126,12 @@
             } })));
           })();
           cajaUni.appendChild(h('details', { class: 'panel', open: i === abierto, style: 'margin:8px 0' },
-            h('summary', null, h('b', { text: (i + 1) + '. ' + (u.nombre || 'Categoría sin nombre') }), h('small', { text: '  ' + (u.visible === false ? 'oculta' : 'visible') + ' · ' + u.marcas.length + ' marca(s)' })),
+            h('summary', null, h('b', { text: (i + 1) + '. ' + (u.nombre || 'Categoría sin nombre') }), h('small', { text: '  ' + (u.visible === false ? '· SIN AUTORIZAR: no se muestra en ninguna parte' : 'visible') + ' · ' + u.marcas.length + ' marca(s)' })),
+            u.visible === false ? h('div', { class: 'filtros' }, h('button', { class: 'btn boya', text: 'Autorizar y mostrar esta categoría', onclick: function () {
+              if (!u.nombre || !u.hero) return avisar('Completa el nombre y la foto antes de autorizarla', true);
+              if (!confirm('¿Autorizar la categoría «' + u.nombre + '»? Cuando publiques este documento aparecerá en el menú, el pie, el inicio y como página propia.')) return;
+              u.visible = true; marcar(doc); abierto = i; pintarUni(); avisar('Autorizada. Publica este documento para que se vea en el sitio.');
+            } }), h('small', { text: ' Sin autorizar, no aparece en el menú, el pie, el inicio ni como página.' })) : null,
             h('div', { class: 'filtros' }, flechas(P.universos, i, function () { abierto = -1; pintarUni(); }),
               interruptor(u, 'visible', 'Mostrar esta categoría en el menú, el pie y el inicio', function () { marcar(doc); abierto = i; pintarUni(); }),
               h('button', { class: 'mini x', text: '✕ Eliminar categoría', onclick: function () { if (confirm('¿Eliminar la categoría «' + (u.nombre || u.slug) + '»? Las marcas no se borran.')) { P.universos.splice(i, 1); marcar(doc); abierto = -1; pintarUni(); } } })),
@@ -1141,7 +1151,7 @@
       }
 
       /* ---------- marca nueva ---------- */
-      var F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', cats: {} };
+      var F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', web: '', cats: {} };
       var cajaNueva = h('div'), msg = h('div'), cajaCats = h('div');
       function pintarCats() {  // se vuelve a armar cada vez que cambian las categorías, para que las nuevas aparezcan aquí
         vaciar(cajaCats);
@@ -1161,11 +1171,12 @@
             campo('País *', h('input', { type: 'text', value: F.pais, placeholder: 'Ej. Italia', oninput: function (e) { F.pais = e.target.value; } }))),
           campo('Foto de portada *', campoImagen(nd, F, 'hero', 'marcas'), 'Horizontal, de buena calidad (2560 px). Se ve en la página de la marca y en el inicio.'),
           campo('Logo (opcional)', campoImagen(nd, F, 'logo', 'marcas'), 'PNG o WebP con fondo transparente. El sitio no admite SVG subido desde aquí.'),
+          campo('Web oficial de la marca (para el scraping)', texto(nd, F, 'web', { ph: 'https://…/boats' }), 'Página con la lista de modelos. Se suma a «Revisar marcas» desde ya, para ir encontrando sus modelos antes de autorizarla.'),
           campo('Frase corta de la marca', h('input', { type: 'text', value: F.claim, oninput: function (e) { F.claim = e.target.value; } })),
           campo('Presentación', h('textarea', { rows: 3, oninput: function (e) { F.intro = e.target.value; } }, F.intro), 'Dos o tres frases tomadas de la web oficial de la marca.'),
           campo('Texto bajo el nombre en el inicio', h('input', { type: 'text', value: F.subtitulo, placeholder: 'Ej. Yates a motor', oninput: function (e) { F.subtitulo = e.target.value; } })),
           h('div', { class: 'campo' }, h('label', { text: 'Categorías donde aparece' }), cajaCats),
-          h('p', null, h('small', { text: 'La marca se crea oculta: no aparece en el inicio hasta que le agregues sus modelos (en «Catálogo y modelos nuevos») y actives «Mostrar en el inicio».' })),
+          h('p', null, h('small', { text: 'La marca nace SIN AUTORIZAR: no se muestra en ninguna parte del sitio (ni su página). Cuando esté lista, usa el botón «Autorizar y mostrar» en la lista de arriba y publica.' })),
           h('button', { class: 'btn boya', text: 'Crear marca', onclick: crearMarca })));
       }
       function paso(doc2, mutar, titulo) {  // guarda y publica un documento: mismo camino que el botón Publicar
@@ -1200,12 +1211,12 @@
           }).then(function () {
             return cargar('marcas', true).then(function (m) { MI = m.contenido; });
           }).then(function () {
-            P.inicio.push({ marca: slug, visible: false, foto: F.hero, subtitulo: F.subtitulo.trim(), logo: F.logo || '', forma: 'ancho' });
+            P.inicio.push({ marca: slug, visible: false, foto: F.hero, subtitulo: F.subtitulo.trim(), logo: F.logo || '', forma: 'ancho', web: (F.web || '').trim() });
             cats.forEach(function (u) { u.marcas.push({ marca: slug, linea: '', etiqueta: nombre }); });
             marcar(doc); pintarIni(); pintarUni();
             msg.appendChild(h('div', { class: 'panel' }, h('b', { text: '«' + nombre + '» creada.' }),
               h('p', null, 'Siguiente: agrégale modelos en ', h('a', { href: '#nuevo-modelo', text: 'Nuevo modelo' }), ', activa «Mostrar en el inicio» en la lista de arriba y publica este documento. La marca ya quedó en el orden del inicio y en las categorías que elegiste (aún sin publicar).')));
-            F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', cats: {} }; pintarNueva();
+            F = { nombre: '', slug: '', pais: '', claim: '', intro: '', hero: '', logo: '', subtitulo: '', web: '', cats: {} }; pintarNueva();
             avisar('Marca creada (oculta). Falta publicar el orden cuando esté lista.');
           }).catch(function (e) {
             msg.appendChild(h('div', { class: 'errores', text: (e && e.message) || 'No se pudo crear la marca. Puedes reintentar: lo que ya se guardó no se duplica.' }));
@@ -1265,7 +1276,11 @@
       var ej = e.ejecucion, enCurso = ej && (ej.estado === 'queued' || ej.estado === 'in_progress');
       var btn = h('button', { class: 'btn boya', text: enCurso ? 'Revisando…' : 'Revisar marcas ahora', disabled: enCurso ? true : null, onclick: function () {
         btn.disabled = true; btn.textContent = 'Lanzando…';
-        api('revision/iniciar', { method: 'POST' }).then(function (r) {
+        cargar('portafolio', true).then(function (pf) {  // las marcas nuevas con web oficial entran a la revisión aunque aún no estén autorizadas
+          var extra = {};
+          ((pf && pf.contenido && pf.contenido.inicio) || []).forEach(function (x) { if (x && x.web) extra[x.marca] = [x.web]; });
+          return api('revision/iniciar', { method: 'POST', body: { extra: extra } });
+        }).then(function (r) {
           if (!r.ok) { avisar(r.error, true); btn.disabled = false; btn.textContent = 'Revisar marcas ahora'; return; }
           avisar('Revisión lanzada. Tarda unos minutos.'); setTimeout(cargarEstado, 4000);
         });
@@ -1292,7 +1307,7 @@
           h('td', { text: String(m.conocidos) }), h('td', { text: String(m.nuevos.length) }), h('td', { text: String(m.movidos.length) }), h('td', { text: String(m.retirados.length) })));
       });
       raiz.appendChild(tab);
-      if ((res.marcas_con_problemas || []).length) raiz.appendChild(h('p', null, h('small', { text: 'De ' + res.marcas_con_problemas.join(', ') + ' no se pudo leer toda la web: no se sacan conclusiones de ahí. Si es Saffier, falta la clave de Firecrawl en GitHub.' })));
+      if ((res.marcas_con_problemas || []).length) raiz.appendChild(h('p', null, h('small', { text: 'De ' + res.marcas_con_problemas.join(', ') + ' no se pudo leer toda la web: no se sacan conclusiones de ahí. Saffier necesita la clave de Firecrawl en GitHub. Solaris protege su web con un captcha anti-bots: el sistema no lo elude, así que sus modelos se revisan a mano (o Solaris autoriza el acceso del servidor).' })));
 
       var items = [];  // { tipo, marca, ...dato, caja }
       function caja(etq, activo) { var c = h('input', { type: 'checkbox', disabled: activo === false ? true : null }); return { c: c, el: h('label', { class: 'gen-campo', style: 'display:block;margin:2px 0' }, c, ' ' + etq) }; }

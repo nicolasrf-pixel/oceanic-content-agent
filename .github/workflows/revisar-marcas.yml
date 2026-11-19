@@ -8,6 +8,11 @@ name: Revisar marcas
 
 on:
   workflow_dispatch:
+    inputs:
+      extra:
+        description: 'Marcas nuevas sumadas desde el administrador (JSON {marca: [páginas de gama]})'
+        required: false
+        default: ''
 
 concurrency:
   group: revisar-marcas
@@ -30,7 +35,8 @@ jobs:
       - name: Revisar las webs oficiales
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-        run: python tools/revisar_marcas.py --salida revision/informe.json
+          EXTRA: ${{ github.event.inputs.extra }}
+        run: python tools/revisar_marcas.py --salida revision/informe.json --extra "$EXTRA"
       - name: Publicar el informe en la rama revision-informes
         run: |
           git config user.name "revision-marcas"

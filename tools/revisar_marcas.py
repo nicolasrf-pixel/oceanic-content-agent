@@ -178,9 +178,11 @@ def catalogo_slugs(raiz: Path = ROOT) -> dict[str, set[str]]:
 
 # ---------- revisión ----------
 
-def revisar_marca(marca: str, modelos: list[dict], leer=traer, pausa=0.4) -> dict:
+def revisar_marca(marca: str, modelos: list[dict], leer=traer, pausa=0.4, indices_extra: dict | None = None) -> dict:
+    indices_extra = indices_extra or {}
     cfg = EXTRA.get(marca, {})
     res = {"marca": marca, "conocidos": len(modelos), "indices": [], "nuevos": [], "movidos": [], "retirados": [], "sin_verificar": []}
+    cfg = {**cfg, "indices": list(cfg.get("indices", [])) + list(indices_extra.get(marca, []))} if indices_extra.get(marca) else cfg
     if cfg.get("unica"):
         res["estado"] = "unica"
         res["nota"] = "Un solo modelo en una página única: no hay lista de modelos que comparar."
@@ -189,6 +191,12 @@ def revisar_marca(marca: str, modelos: list[dict], leer=traer, pausa=0.4) -> dic
     conocidas = {norm(m["url"]): m for m in modelos}
     carpetas = {padre(n) for n in conocidas}
     hosts = {n.split("/", 1)[0] for n in conocidas}
+    if not conocidas:  # marca nueva, sin modelos cargados: las fichas cuelgan de la misma carpeta que su página de gama
+        for u in indices_extra.get(marca, []):
+            n = norm(u)
+            hosts.add(n.split("/", 1)[0])
+            carpetas.add(n)
+            carpetas.add(padre(n))
     indices = list(dict.fromkeys(cfg.get("indices", []) + [u for m in modelos for u in m["indices"]]))
 
     vistos: dict[str, str] = {}  # dirección normalizada → dirección tal como aparece en la gama
@@ -246,14 +254,18 @@ def revisar_marca(marca: str, modelos: list[dict], leer=traer, pausa=0.4) -> dic
     return res
 
 
-def revisar(raiz: Path = ROOT, marcas: list[str] | None = None, leer=traer, pausa=0.4) -> dict:
-    todo = conocidos(raiz)
+def revisar(raiz: Path = ROOT, marcas: list[str] | None = None, leer=traer, pausa=0.4, extra: dict | None = None) -> dict:
+    """extra: {marca: [páginas de gama]} de marcas nuevas sumadas desde el administrador (aún sin modelos cargados)."""
+    extra = extra or {}
+    todo = dict(conocidos(raiz))
+    for m in extra:
+        todo.setdefault(m, [])
     cat = catalogo_slugs(raiz)
     informe = {"generado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "marcas": []}
     for marca, modelos in todo.items():
         if marcas and marca not in marcas:
             continue
-        r = revisar_marca(marca, modelos, leer, pausa)
+        r = revisar_marca(marca, modelos, leer, pausa, extra)
         en_cat = cat.get(marca, set())
         for x in r["retirados"] + r["movidos"]:
             x["en_catalogo"] = x["slug"] in en_cat  # solo se puede ocultar lo que está en el sitio
@@ -272,8 +284,14 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--salida", default=str(ROOT / "revision" / "informe.json"))
     ap.add_argument("--marcas", default="", help="lista separada por comas; vacío = todas")
+    ap.add_argument("--extra", default="", help='JSON {"marca": ["https://…"]}: marcas nuevas con su página de gama')
     a = ap.parse_args(argv)
-    inf = revisar(marcas=[m for m in a.marcas.split(",") if m] or None)
+    extra = {}
+    if a.extra.strip():
+        for k, v in json.loads(a.extra).items():
+            if re.fullmatch(r"[a-z0-9-]{1,40}", k) and isinstance(v, list):
+                extra[k] = [u for u in v if isinstance(u, str) and u.startswith("https://")][:5]
+    inf = revisar(marcas=[m for m in a.marcas.split(",") if m] or None, extra=extra)
     out = Path(a.salida)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(inf, ensure_ascii=False, indent=1) + "\n", encoding="utf8")

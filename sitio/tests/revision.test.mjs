@@ -60,7 +60,7 @@ test('iniciar: lanza el flujo en main y no lanza otro si ya hay uno en curso', a
   const r = await iniciarRevision(ENV);
   assert.equal(r.ok, true);
   const d = llamadas.find((l) => l.metodo === 'POST');
-  assert.deepEqual(d.cuerpo, { ref: 'main' });
+  assert.deepEqual(d.cuerpo, { ref: 'main', inputs: { extra: '{}' } });
   assert.equal(d.auth, 'Bearer token-de-prueba');
 
   llamadas = github({ 'GET /repos/org/repo/actions/workflows/revisar-marcas.yml/runs': { cuerpo: { workflow_runs: [{ status: 'in_progress' }] } } });
@@ -150,4 +150,11 @@ test('si el token no tiene permiso para lanzar el flujo, el mensaje dice cuál p
   assert.equal(r.ok, false);
   assert.match(r.error, /Actions: Read and write/);
   assert.match(r.error, /No hace falta cambiarlo en Cloudflare/);
+});
+
+test('limpiarExtra: solo marcas válidas con direcciones https', async () => {
+  const { limpiarExtra } = await import('../worker/revision.js');
+  assert.deepEqual(limpiarExtra({ 'delta-yachts': ['https://delta.example/boats', 'http://x', 'javascript:1'], 'MALA': ['https://a.b/cc'], rescate: 'x' }), { 'delta-yachts': ['https://delta.example/boats'] });
+  assert.deepEqual(limpiarExtra(null), {});
+  assert.deepEqual(limpiarExtra([1]), {});
 });

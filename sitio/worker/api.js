@@ -31,7 +31,7 @@ export async function api(request, env, url, email) {
 
     // Revisión de marcas (scraping en GitHub Actions + aprobación): ver worker/revision.js
     if (ruta === 'revision' && m === 'GET') return json(await estadoRevision(env));
-    if (ruta === 'revision/iniciar' && m === 'POST') return json(await iniciarRevision(env));
+    if (ruta === 'revision/iniciar' && m === 'POST') return json(await iniciarRevision(env, await request.json().catch(() => null)));
     if (ruta === 'revision/aprobar' && m === 'POST') return json(await aprobarRevision(env, await request.json().catch(() => null), email));
 
     if (ruta === 'doc' && m === 'GET') {
