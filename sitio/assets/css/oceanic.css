@@ -500,7 +500,7 @@ section.o-banda{background-color:var(--banda)!important}
 
 /* Marca: logos oficiales (assets/img/marca/). Blanco sobre azul en barra y pie. */
 .bar-brand{display:inline-flex;align-items:center;line-height:0}
-.bar-brand img{display:block;height:clamp(36px,2.6vw,42.75px);width:auto}
+.bar-brand img{display:block;height:30px;width:auto}
 .ft-logo{display:inline-block;line-height:0}
 .ft-logo img{display:block;width:170px;height:auto}
 .aviso-bt{display:flex;gap:8px;flex:0 0 auto}
