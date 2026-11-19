@@ -1247,114 +1247,114 @@
     });
   };
 
-  /* --- CRM: los leads viven en Brevo; aquí se ven y se ordenan sin entrar a Brevo (worker/crm.js) --- */
+  /* --- CRM propio: leads guardados en D1 desde el lanzamiento; cada lead queda también en Brevo (worker/crm.js) --- */
   S.crm = function () {
-    var raiz = h('div'), estado = { listas: [], etapas: [], total: null, nuevos7: null }, lista = '', texto = '', ficha = null;
-    var cuerpo = h('div'), tabla = h('div'), panel = h('div');
+    var raiz = h('div'), est = { etapas: [], porEtapa: {}, total: 0, nuevos7: 0, activo: true, desde: '' }, filtro = { q: '', etapa: '', tipo: '', pagina: 0 };
+    var cuerpo = h('div'), tabla = h('div'), ficha = null;
+    var TIPOS = { '': 'Todos los tipos', cotizacion: 'Cotización', usado: 'Usados', contacto: 'Contacto', charter: 'Charter', equipamiento: 'Equipamiento', boyas: 'Arriendo de boyas', evento: 'Eventos' };
     function chip(t, c) { return h('span', { class: 'chip ' + (c || ''), text: t }); }
     function cerrarFicha() { if (ficha) { ficha.remove(); ficha = null; } }
-    function nombreLista(id) { var l = estado.listas.filter(function (x) { return x.id === id; })[0]; return l ? l.nombre : 'Lista ' + id; }
-    function digitos(c) { var a = c.atributos, t = a.WHATSAPP || a.SMS || a.TELEFONO || ''; return t.replace(/\D/g, ''); }
-    function etapaChip(e) { return e ? chip(e, e === 'Cerrado' ? 'ok' : e === 'Perdido' ? 'err' : e === 'Nuevo' ? 'warn' : '') : chip('sin etapa'); }
+    function etapaChip(e) { return chip(e, e === 'Cerrado' ? 'ok' : e === 'Perdido' ? 'err' : e === 'Nuevo' ? 'warn' : ''); }
+    function brevoChip(b) { return b === 'ok' ? chip('en Brevo', 'ok') : b === 'error' ? chip('Brevo falló', 'err') : b === 'sin-clave' ? chip('sin Brevo', 'warn') : chip('Brevo pendiente', 'warn'); }
+    function digitos(t) { return String(t || '').replace(/\D/g, ''); }
 
-    function abrirFicha(email) {
+    function abrirFicha(id) {
       cerrarFicha();
-      ficha = h('aside', { class: 'hist crm-ficha' }, h('p', { class: 'cargando', text: 'Leyendo desde Brevo…' }));
+      ficha = h('aside', { class: 'hist crm-ficha' }, h('p', { class: 'cargando', text: 'Cargando…' }));
       document.body.appendChild(ficha);
-      api('crm/contacto?email=' + encodeURIComponent(email)).then(function (r) {
+      api('crm/lead?id=' + id).then(function (r) {
         if (!ficha) return;
         vaciar(ficha);
         ficha.appendChild(h('div', { class: 'filtros' }, h('button', { class: 'btn-sm', text: '✕ Cerrar', onclick: cerrarFicha })));
         if (!r.ok) return ficha.appendChild(h('div', { class: 'errores', text: r.error }));
-        var c = r.contacto, a = c.atributos;
-        ficha.appendChild(h('h2', { style: 'margin-top:4px', text: c.nombre || c.email }));
-        ficha.appendChild(h('p', null, h('a', { href: 'mailto:' + c.email, text: c.email }), ' ', c.bloqueado ? chip('bloqueado en Brevo', 'err') : null));
-        var dato = [['Marca', a.MARCA], ['Modelo', a.MODELO], ['Origen', a.ORIGEN], ['Canal', a.CANAL], ['Momento', a.MOMENTUM], ['Formulario', a.TIPO_FORMULARIO],
-          ['Línea', a.LINEA_NEGOCIO], ['Teléfono', a.WHATSAPP || a.SMS || a.TELEFONO], ['Creado', fecha(c.creado)], ['Última modificación', fecha(c.modificado)]].filter(function (x) { return x[1]; });
+        var l = r.lead;
+        ficha.appendChild(h('h2', { style: 'margin-top:4px', text: l.nombre || l.email }));
+        ficha.appendChild(h('p', null, h('a', { href: 'mailto:' + l.email, text: l.email }), ' ', etapaChip(l.etapa), ' ', brevoChip(l.brevo), ' ', l.aviso_ok ? null : chip('el aviso a ventas no salió', 'err')));
+        var dato = [['Tipo', l.linea || l.tipo], ['Marca', l.marca], ['Modelo', l.modelo], ['Categoría', l.universo], ['Teléfono', l.telefono], ['Contacto preferido', l.via], ['Motivo', l.motivo],
+          ['Equipamiento', (l.categorias || []).join(', ')], ['Página de origen', l.origen], ['Llegó', fecha(l.creado)], ['Política aceptada', l.politica]].filter(function (x) { return x[1]; });
         ficha.appendChild(h('table', { class: 'tabla' }, dato.map(function (x) { return h('tr', null, h('th', { text: x[0] }), h('td', { text: x[1] })); })));
-        var tel = digitos(c);
-        ficha.appendChild(h('div', { class: 'filtros', style: 'margin-top:14px' },
-          h('a', { class: 'btn-sm', href: 'mailto:' + c.email, text: 'Escribir correo' }),
+        if (l.mensaje || l.detalle) ficha.appendChild(h('div', { class: 'panel', style: 'margin-top:12px;white-space:pre-wrap' }, h('b', { text: 'Lo que escribió' }), h('br'), l.mensaje || '', l.mensaje && l.detalle ? '\n\n' : '', l.detalle || ''));
+        var tel = digitos(l.telefono);
+        ficha.appendChild(h('div', { class: 'filtros', style: 'margin-top:14px' }, h('a', { class: 'btn-sm', href: 'mailto:' + l.email, text: 'Escribir correo' }),
           tel ? h('a', { class: 'btn-sm', href: 'https://wa.me/' + tel, target: '_blank', rel: 'noopener', text: 'WhatsApp ↗' }) : null,
-          h('a', { class: 'btn-sm', href: 'https://app.brevo.com/contact/index/' + encodeURIComponent(c.id), target: '_blank', rel: 'noopener', text: 'Abrir en Brevo ↗' })));
-        // etapa del lead (atributo ETAPA en Brevo)
-        var ops = { '': '— Sin etapa —' }; estado.etapas.forEach(function (e) { ops[e] = e; }); if (a.ETAPA && !ops[a.ETAPA]) ops[a.ETAPA] = a.ETAPA;
-        var sel = selector(ops, a.ETAPA || '', function () {});
+          h('a', { class: 'btn-sm', href: 'https://app.brevo.com/contact/list', target: '_blank', rel: 'noopener', text: 'Abrir Brevo ↗' })));
+        var ops = {}; est.etapas.forEach(function (e) { ops[e] = e; });
+        var sel = selector(ops, l.etapa, function () {});
         ficha.appendChild(h('h3', { text: 'Etapa del lead' }));
         ficha.appendChild(h('div', { class: 'filtros' }, sel, h('button', { class: 'btn boya', text: 'Guardar etapa', onclick: function () {
-          if (!sel.value) return avisar('Elige una etapa', true);
-          orden(c.email, 'etapa', sel.value, 'Etapa actualizada en Brevo');
+          api('crm/accion', { method: 'POST', body: { id: l.id, accion: 'etapa', valor: sel.value } }).then(function (q) {
+            if (!q.ok) return avisar(q.error, true);
+            avisar('Etapa guardada' + (q.brevo === 'ok' ? ' aquí y en Brevo' : q.brevo === 'sin-clave' ? ' (Brevo no está conectado)' : ' (no se pudo avisar a Brevo)'), q.brevo === 'error');
+            abrirFicha(l.id); cargarTodo();
+          });
         } })));
-        // listas
-        ficha.appendChild(h('h3', { text: 'Listas de Brevo' }));
-        ficha.appendChild(h('div', { class: 'filtros' }, c.listas.length ? c.listas.map(function (id) {
-          return h('span', { class: 'chip' }, nombreLista(id) + ' ', h('button', { class: 'mini x', text: '✕', title: 'Quitar de esta lista', onclick: function () {
-            if (confirm('¿Quitar a ' + c.email + ' de «' + nombreLista(id) + '»?')) orden(c.email, 'lista-quitar', id, 'Quitado de la lista');
-          } }));
-        }) : h('small', { text: 'No está en ninguna lista.' })));
-        var libres = {}; estado.listas.forEach(function (l) { if (c.listas.indexOf(l.id) < 0) libres['l' + l.id] = l.nombre; });
-        if (Object.keys(libres).length) {
-          var sl = selector(Object.assign({ '': '— Agregar a una lista —' }, libres), '', function () {});
-          ficha.appendChild(h('div', { class: 'filtros' }, sl, h('button', { class: 'btn-sm', text: '+ Agregar a la lista', onclick: function () {
-            if (!sl.value) return avisar('Elige una lista', true);
-            orden(c.email, 'lista-agregar', Number(sl.value.slice(1)), 'Agregado a la lista');
-          } })));
-        }
-        ficha.appendChild(h('p', null, h('small', { text: 'Los cambios se guardan directo en Brevo. Aquí no se guarda ninguna copia de los contactos.' })));
-      });
-    }
-    function orden(email, accion, valor, ok) {
-      api('crm/accion', { method: 'POST', body: { email: email, accion: accion, valor: valor } }).then(function (r) {
-        if (!r.ok) return avisar(r.error, true);
-        avisar(ok); abrirFicha(email); buscar();
+        ficha.appendChild(h('h3', { text: 'Notas internas' }));
+        (l.notas || []).forEach(function (n) { ficha.appendChild(h('div', { class: 'ayuda', style: 'white-space:pre-wrap' }, n.texto, h('br'), h('small', { text: fecha(n.fecha) + ' · ' + n.quien }))); });
+        var tx = h('textarea', { rows: 2, placeholder: 'Ej. Llamar el lunes; pidió propuesta con motor 150 hp.' });
+        ficha.appendChild(h('div', { class: 'campo' }, tx));
+        ficha.appendChild(h('button', { class: 'btn-sm', text: '+ Agregar nota', onclick: function () {
+          api('crm/accion', { method: 'POST', body: { id: l.id, accion: 'nota', valor: tx.value } }).then(function (q) { if (!q.ok) return avisar(q.error, true); avisar('Nota guardada'); abrirFicha(l.id); });
+        } }));
+        ficha.appendChild(h('hr'));
+        ficha.appendChild(h('button', { class: 'btn peligro', text: 'Eliminar lead', onclick: function () {
+          if (!confirm('¿Eliminar a ' + (l.nombre || l.email) + '? Se borra de este CRM con sus notas (derecho de supresión, Ley 21.719). En Brevo no se borra nada: si corresponde, bórralo allá también.')) return;
+          api('crm/accion', { method: 'POST', body: { id: l.id, accion: 'eliminar' } }).then(function (q) { if (!q.ok) return avisar(q.error, true); avisar('Lead eliminado'); cerrarFicha(); cargarTodo(); });
+        } }));
+        ficha.appendChild(h('p', null, h('small', { text: 'Cada lead queda guardado aquí y también en Brevo (lista de su marca). Cambiar la etapa actualiza los dos lados.' })));
       });
     }
     function buscar() {
-      vaciar(tabla).appendChild(h('p', { class: 'cargando', text: 'Leyendo desde Brevo…' }));
-      api('crm/contactos?q=' + encodeURIComponent(texto) + (lista ? '&lista=' + lista : '')).then(function (r) {
+      vaciar(tabla).appendChild(h('p', { class: 'cargando', text: 'Cargando…' }));
+      var qs = 'q=' + encodeURIComponent(filtro.q) + '&etapa=' + encodeURIComponent(filtro.etapa) + '&tipo=' + encodeURIComponent(filtro.tipo) + '&pagina=' + filtro.pagina;
+      api('crm/leads?' + qs).then(function (r) {
         vaciar(tabla);
         if (!r.ok) return tabla.appendChild(h('div', { class: 'errores', text: r.error }));
-        if (!r.contactos.length) return tabla.appendChild(h('p', { class: 'ayuda', text: 'No hay contactos con ese filtro.' }));
-        tabla.appendChild(h('p', null, h('small', { text: (r.mostrados != null ? r.mostrados + ' de ' + r.total + ' contactos' : r.contactos.length + ' contacto') + (r.limitado ? ' · se leyeron los 500 más recientes; usa la búsqueda por correo para encontrar uno antiguo' : '') })));
+        if (!r.leads.length) return tabla.appendChild(h('p', { class: 'ayuda', text: est.total ? 'No hay leads con ese filtro.' : (est.activo ? 'Todavía no ha llegado ningún lead.' : 'Todavía no hay leads: el CRM empieza a guardarlos el 1 de diciembre a las 00:00.') }));
+        tabla.appendChild(h('p', null, h('small', { text: r.total + ' lead(s)' })));
         tabla.appendChild(h('div', { class: 'tabla-wrap' }, h('table', { class: 'tabla' },
-          h('tr', null, ['Contacto', 'Marca · Modelo', 'Etapa', 'Origen', 'Creado', ''].map(function (t) { return h('th', { text: t }); })),
-          r.contactos.map(function (c) {
-            var a = c.atributos;
-            return h('tr', null, h('td', null, h('b', { text: c.nombre || c.email }), c.nombre ? h('br') : null, c.nombre ? h('small', { text: c.email }) : null),
-              h('td', { text: [a.MARCA, a.MODELO].filter(Boolean).join(' · ') }), h('td', null, etapaChip(a.ETAPA)),
-              h('td', null, h('small', { text: a.ORIGEN ? a.ORIGEN.replace(/^https?:\/\/[^/]+/, '').slice(0, 40) : (a.CANAL || '') })),
-              h('td', null, h('small', { text: fecha(c.creado) })),
-              h('td', { class: 'acc' }, h('button', { class: 'btn-sm', text: 'Abrir', onclick: function () { abrirFicha(c.email); } })));
+          h('tr', null, ['Llegó', 'Contacto', 'Interés', 'Tipo', 'Etapa', 'Brevo', ''].map(function (t) { return h('th', { text: t }); })),
+          r.leads.map(function (l) {
+            return h('tr', null, h('td', null, h('small', { text: fecha(l.creado) })),
+              h('td', null, h('b', { text: l.nombre || l.email }), l.nombre ? h('br') : null, l.nombre ? h('small', { text: l.email }) : null),
+              h('td', { text: [l.marca, l.modelo].filter(Boolean).join(' · ') || l.universo || '' }), h('td', null, h('small', { text: l.linea || l.tipo })),
+              h('td', null, etapaChip(l.etapa)), h('td', null, brevoChip(l.brevo), l.aviso_ok ? null : chip('sin aviso', 'err')),
+              h('td', { class: 'acc' }, h('button', { class: 'btn-sm', text: 'Abrir', onclick: function () { abrirFicha(l.id); } })));
           }))));
+        var pags = Math.ceil(r.total / 100);
+        if (pags > 1) tabla.appendChild(h('div', { class: 'filtros', style: 'margin-top:10px' },
+          h('button', { class: 'btn-sm', text: '← Anterior', disabled: filtro.pagina ? null : true, onclick: function () { filtro.pagina--; buscar(); } }),
+          h('small', { text: 'Página ' + (filtro.pagina + 1) + ' de ' + pags }),
+          h('button', { class: 'btn-sm', text: 'Siguiente →', disabled: filtro.pagina + 1 < pags ? null : true, onclick: function () { filtro.pagina++; buscar(); } })));
       });
     }
     function pintarBase() {
       vaciar(cuerpo);
+      if (!est.activo) cuerpo.appendChild(h('div', { class: 'avisos', text: 'El CRM empieza a guardar leads el 1 de diciembre a las 00:00 (hora de Chile). Hasta entonces los formularios siguen funcionando igual y enviando a Brevo, pero aquí no se guarda nada.' }));
       cuerpo.appendChild(h('div', { class: 'kpis' }, [
-        ['Contactos en Brevo', estado.total == null ? '—' : String(estado.total), 'Total de la cuenta', '', 'Cantidad total de contactos guardados en Brevo, de todas las listas.'],
-        ['Nuevos en 7 días', estado.nuevos7 == null ? '—' : String(estado.nuevos7), 'Leads que llegaron esta semana', estado.nuevos7 ? 'bien' : '', 'Contactos creados en los últimos 7 días, por formularios, chat o importaciones.'],
-        ['Listas', String(estado.listas.length), 'Segmentos de Brevo', '', 'Listas de contactos de la cuenta de Brevo. Cada formulario del sitio agrega a la lista de su marca si existe.']
+        ['Leads', String(est.total), 'Guardados desde el lanzamiento', '', 'Total de leads guardados en este CRM. Cada uno también quedó en Brevo.'],
+        ['Nuevos en 7 días', String(est.nuevos7), 'Llegaron esta semana', est.nuevos7 ? 'bien' : '', 'Leads que llegaron por los formularios en los últimos 7 días.'],
+        ['Sin atender', String(est.porEtapa.Nuevo || 0), 'En etapa «Nuevo»', est.porEtapa.Nuevo ? 'alerta' : '', 'Leads que todavía nadie contactó (etapa Nuevo). Conviene responderlos primero.'],
+        ['Cerrados', String(est.porEtapa.Cerrado || 0), 'Ventas concretadas', '', 'Leads en etapa Cerrado.']
       ].map(function (k) { return h('div', { class: 'kpi ' + k[3], 'data-tip': k[4] }, h('small', { text: k[0] }), h('b', { text: k[1] }), h('span', { text: k[2] })); })));
-      var ops = { '': 'Todas las listas' }; estado.listas.forEach(function (l) { ops['l' + l.id] = l.nombre + ' (' + l.contactos + ')'; });
-      var q = h('input', { type: 'search', placeholder: 'Buscar por correo, nombre, marca o modelo…', value: texto, onkeydown: function (e) { if (e.key === 'Enter') { texto = q.value; buscar(); } } });
-      var sl = selector(ops, lista ? 'l' + lista : '', function (v) { lista = v ? v.slice(1) : ''; buscar(); });
-      cuerpo.appendChild(h('div', { class: 'filtros' }, q, sl, h('button', { class: 'btn boya', text: 'Buscar', onclick: function () { texto = q.value; buscar(); } }),
+      var eops = { '': 'Todas las etapas' }; est.etapas.forEach(function (e) { eops[e] = e + ' (' + (est.porEtapa[e] || 0) + ')'; });
+      var q = h('input', { type: 'search', placeholder: 'Buscar por correo, nombre, marca, modelo o teléfono…', value: filtro.q, onkeydown: function (e) { if (e.key === 'Enter') { filtro.q = q.value; filtro.pagina = 0; buscar(); } } });
+      cuerpo.appendChild(h('div', { class: 'filtros' }, q, selector(eops, filtro.etapa, function (v) { filtro.etapa = v; filtro.pagina = 0; buscar(); }),
+        selector(TIPOS, filtro.tipo, function (v) { filtro.tipo = v; filtro.pagina = 0; buscar(); }),
+        h('button', { class: 'btn boya', text: 'Buscar', onclick: function () { filtro.q = q.value; filtro.pagina = 0; buscar(); } }),
         h('a', { class: 'btn-sm', href: 'https://app.brevo.com/contact/list', target: '_blank', rel: 'noopener', text: 'Abrir Brevo ↗' })));
       cuerpo.appendChild(tabla); buscar();
     }
+    function cargarTodo() {
+      api('crm/resumen').then(function (r) {
+        if (!r.ok) { vaciar(cuerpo).appendChild(h('div', { class: 'errores', text: r.error })); return; }
+        est = r; pintarBase();
+      });
+    }
     raiz.appendChild(h('h1', { text: 'CRM · Leads' }));
-    raiz.appendChild(h('p', { class: 'lede', text: 'Los leads viven en Brevo: aquí los ves, los buscas y les cambias la etapa o la lista sin entrar a Brevo. Lo que ordenes se guarda directo en Brevo; no se guarda ninguna copia en el sitio.' }));
+    raiz.appendChild(h('p', { class: 'lede', text: 'Los leads que llegan por los formularios desde el 1 de diciembre quedan guardados aquí y también en Brevo. Acá los ves, les cambias la etapa y les dejas notas; Brevo sigue recibiendo todo como hasta ahora.' }));
     raiz.appendChild(cuerpo);
-    vaciar(cuerpo).appendChild(h('p', { class: 'cargando', text: 'Conectando con Brevo…' }));
-    api('crm/resumen').then(function (r) {
-      if (!r.ok) {
-        vaciar(cuerpo).appendChild(h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: r.configurado === false ? 'Falta conectar con Brevo' : 'No se pudo leer Brevo' }), h('p', { text: r.error }),
-          r.configurado === false ? h('p', { text: 'En Cloudflare (Worker oceanic › Settings › Variables and Secrets) guarda la clave de Brevo con el nombre BREVO_API_KEY. Es la misma que usan los formularios del sitio.' }) : null,
-          h('button', { class: 'btn-sm', text: 'Reintentar', onclick: function () { router(); } })));
-        return;
-      }
-      estado = r; pintarBase();
-    });
+    vaciar(cuerpo).appendChild(h('p', { class: 'cargando', text: 'Cargando…' }));
+    cargarTodo();
     window.addEventListener('hashchange', cerrarFicha, { once: true });
     return Promise.resolve(raiz);
   };

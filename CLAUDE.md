@@ -222,8 +222,8 @@ La portada del inicio también admite carrusel de imágenes y videos (`inicio-da
 con sus marcas en orden; lo leen el menú, el pie, el inicio (`portafolio-home.js`), `universo-tpl.js` y el asistente. Permite crear
 categorías y marcas nuevas (la marca nace oculta, sin modelos). Detalle y límites en `docs/PORTAFOLIO.md`.
 
-**CRM en el administrador (decisión Oceanic 2026-11-19):** `/admin/#crm` muestra los leads de Brevo y permite cambiar su etapa (`ETAPA`) o su lista, sin
-copia local de los contactos y con `BREVO_API_KEY` solo en el Worker. Detalle en `docs/CRM.md`.
+**CRM propio (decisión Oceanic 2026-11-19):** `/admin/#crm` guarda en D1 los leads que llegan por los formularios **desde el 2026-12-01 00:00 (Chile)**; cada lead queda
+en ambos lados (D1 y Brevo). No se leen los contactos antiguos de Brevo. Etapas, notas y supresión en el administrador. Detalle en `docs/CRM.md`.
 
 **Lanzamiento y actualizaciones (decisión Oceanic 2026-11-19):** el sitio sale a su dominio definitivo el **2026-12-01 00:00 (hora de Chile)**. Desde
 entonces todo ajuste está permitido si es una mejora y **cada actualización lleva un informe** (`python3 tools/informe_actualizacion.py`,

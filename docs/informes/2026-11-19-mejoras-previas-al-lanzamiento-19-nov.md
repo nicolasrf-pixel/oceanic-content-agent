@@ -7,7 +7,7 @@
 
 ## Qué se mejoró y por qué
 
-- **Administrador:** rediseño con barra lateral azul noche, íconos, métricas en el inicio, botones y acentos de la marca y ayudas al pasar el mouse en cada elemento; nueva sección **CRM · Leads** que muestra los leads de Brevo y deja cambiar su etapa o su lista sin entrar a Brevo.
+- **Administrador:** rediseño con barra lateral azul noche, íconos, métricas en el inicio, botones y acentos de la marca y ayudas al pasar el mouse en cada elemento; nueva sección **CRM · Leads** propia: guarda los leads que llegan por los formularios desde el 1 de diciembre 00:00 (también quedan en Brevo), con etapas, notas y eliminación (Ley 21.719).
 - **Portafolio:** el orden de las marcas (prioridad interna: Beneteau, Lagoon, Axopar…) y las categorías se manejan desde el administrador; una marca o categoría sin autorizar no aparece en ninguna parte del sitio.
 - **Menú de marcas:** panel más ancho y moderno, con la prioridad interna en todas las categorías. Logo de la barra principal más grande.
 - **Revisar marcas:** las marcas nuevas se suman al scraping con su web oficial y Solaris tiene un aviso externo de modelos nuevos (sin eludir su captcha).
