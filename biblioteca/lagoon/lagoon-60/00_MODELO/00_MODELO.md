@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/lagoon.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 45 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 46 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 163 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 56 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 14 en inventario (mín. 3) · descargadas 45/45 |
-| MULTIMEDIA | interior | OK | 19 en inventario (mín. 2) · descargadas 45/45 |
-| MULTIMEDIA | detail | PARTIAL | 1 en inventario (mín. 2) · descargadas 45/45 |
+| MULTIMEDIA | exterior | OK | 14 en inventario (mín. 3) · descargadas 45/46 |
+| MULTIMEDIA | interior | OK | 19 en inventario (mín. 2) · descargadas 45/46 |
+| MULTIMEDIA | detail | PARTIAL | 1 en inventario (mín. 2) · descargadas 45/46 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

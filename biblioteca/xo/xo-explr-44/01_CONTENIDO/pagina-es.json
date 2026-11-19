@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/explr-44/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-explr-44.page.json",
+ "portada": {
+  "titular": "Conoce el XO EXPLR 44: una verdadera joya de la arquitectura naval."
+ },
+ "bloques": [
+  {
+   "titulo": "Todo se trata de viajar, y el próximo XO EXPLR 44 está hecho para eso.",
+   "texto": [
+    "Aprovechar todas las ventajas de un casco y superestructuras íntegramente de aluminio, y buscar nuevas formas de crear el yate de aventura definitivo y a la vez compacto, dio como resultado un estilo sorprendentemente moderno, donde la forma sigue a la función. Elegante y con clase, el XO EXPLR 44 mantiene su seguridad y sus altos estándares de navegabilidad para llegar al fin del mundo.\nYa sea como refugio acogedor o con ambiente al aire libre, vayas hacia el calor o hacia el frío, el aire acondicionado y la calefacción del EXPLR 44 aseguran la comodidad. Hay espacio para paneles solares en el techo, junto con rieles para portaequipajes donde llevar tus bicicletas y equipo deportivo. Los soláriums de proa y popa se transforman en zonas perfectas para descansar cuando quieres relajarte y disfrutar un cóctel después de explorar."
+   ]
+  }
+ ]
+}

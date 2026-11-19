@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/aquila.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 15 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 25 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | PARTIAL | 10 palabras fuente |
 | EDITORIAL | performance | PARTIAL | 10 palabras fuente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 5 en inventario (mín. 3) · descargadas 15/15 |
-| MULTIMEDIA | interior | OK | 7 en inventario (mín. 2) · descargadas 15/15 |
-| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 15/15 |
+| MULTIMEDIA | exterior | OK | 13 en inventario (mín. 3) · descargadas 25/25 |
+| MULTIMEDIA | interior | OK | 8 en inventario (mín. 2) · descargadas 25/25 |
+| MULTIMEDIA | detail | MISSING | 0 en inventario (mín. 2) · descargadas 25/25 |
 | MULTIMEDIA | video | MISSING | 0 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

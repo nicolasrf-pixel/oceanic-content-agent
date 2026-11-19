@@ -1,0 +1,78 @@
+{
+  "estado": "BORRADOR",
+  "manual": true,
+  "criterio": "Traducción fiel al español neutro (tuteo) de las páginas oficiales Home, Technology, Formula Switch y Switch is Smart, ordenada en bloques a mano porque la captura es el texto corrido de la web. No agrega afirmaciones. Se omite la caja de transporte de aluminio (marcada como extra). Nombres de productos y materiales sin traducir.",
+  "fuente": "https://www.switchonedesign.com/",
+  "capturada": "2026-10-04",
+  "extract": "07_FUENTES/extract/S1-switch-one-design.page.json",
+  "portada": {
+    "titular": "Únete a la revolución del foiling"
+  },
+  "intro": [
+    "Cualquier regatista tendrá la oportunidad de vivir la emoción del foiling en un dinghy de última generación, íntegramente en compuesto de carbono. SWITCH ofrece la emoción de competir en una clase one design de foiling de alto rendimiento."
+  ],
+  "bloques": [
+    {
+      "titulo": "Menos tiempo en tierra, más tiempo en el agua",
+      "texto": [
+        "Fácil de transportar, rápido de armar.",
+        "Solo 4 controles (Cunningham, vang, altura y cabeceo): el objetivo es que los regatistas pasen el mayor tiempo posible en el agua."
+      ]
+    },
+    {
+      "titulo": "Una plataforma, tres aparejos",
+      "texto": [
+        "Uno de nuestros principales objetivos fue asegurar que regatistas de todas las edades y tamaños puedan competir en el Switch.",
+        "Basta con cambiar la base inferior del mástil para pasar de la vela de 6,5 m a la de 7,5 u 8,5 m, ya que las secciones superior y media del mástil son comunes a los tres aparejos. Así, un regatista juvenil también puede pasar a los aparejos siguientes manteniendo la misma plataforma (casco, foils, botavara, jarcia y buena parte del mástil).",
+        "El Switch tiene tres aparejos para sus tres categorías principales (juveniles, mujeres y hombres): Switch 6.5 (grátil rojo), Switch 7.5 (grátil blanco) y Switch 8.5 (grátil negro)."
+      ]
+    },
+    {
+      "titulo": "La tecnología con que se construye",
+      "texto": [
+        "Casco: el laminado de carbono-epoxi con núcleo de PVC da una estructura liviana y robusta, hecha para durar. Una capa delgada de gelcoat deja una superficie fácil de mantener y reparar: pequeños rayones o daños se reparan sin esfuerzo para mantener el casco en perfecto estado. Los rodamientos de Delrin del foil principal y del timón, mecanizados por CNC, aseguran un ajuste firme y constante entre los foils y el barco.",
+        "Alas: se componen de tres conjuntos (viga de proa, viga de popa y 2 vigas exteriores). Dos piezas centrales de prepreg moldeadas al vacío y cuatro piezas de esquina se moldean en utillaje de aluminio y se unen con tubos bobinados CST usando plantillas mecanizadas por CNC, para que el conjunto sea liviano, rígido y uniforme.",
+        "Palos: se eligió un sistema de 3 piezas con tubos de mástil de carbono CST por su repetibilidad y uniformidad. Botavara curva de carbono de 15 grados con palanca de vang de aluminio anodizado fresado.",
+        "Foil: sin concesiones en rendimiento. El laminado de los foils combina prepreg de alto módulo y de módulo intermedio, con una excelente rigidez, resistencia y precisión según nuestros estrictos estándares one design."
+      ]
+    },
+    {
+      "titulo": "One design estricto",
+      "texto": [
+        "Cada pieza del Switch se construye con los más altos estándares de calidad. Con moldes y utillaje mecanizados por CNC, máquinas de corte de control numérico y un riguroso control de calidad, Element6Evolution asegura la tolerancia más estrecha posible en cada componente.",
+        "Los moldes de casco y cubierta son 100% carbono/epoxi, hechos a partir de un modelo maestro fabricado por CNC, y todas las piezas de alas y foils se hacen con utillaje de aluminio mecanizado por CNC. Todos los tejidos, prepregs y núcleos se cortan en máquinas de control numérico, lo que garantiza precisión y repetibilidad.",
+        "Todos los componentes y materiales pasan por un sistema de control de calidad diseñado para ese fin, que revisa geometría, peso y rigidez. Element6 entregará a los medidores de la clase Switch plantillas que se usarán en eventos nacionales e internacionales para asegurar la conformidad de todos los componentes y una competencia justa."
+      ]
+    },
+    {
+      "titulo": "Listo para navegar",
+      "texto": [
+        "Cuando recibes tu Switch, está listo para salir. Listo para regatear desde el primer día: cabos empalmados y sistemas de control preajustados. Controles intuitivos y simples: vang, Cunningham y altura de navegación. Trampolines de las alas fáciles de quitar y poner, sin trabajo de cabos.",
+        "Cuando tienes que viajar o guardar tu Switch, no hay mucho de qué preocuparse: con las alas y los trampolines desarmados, el barco se guarda fácilmente. El mástil de carbono de tres piezas, la botavara y la vela se pueden llevar en avión a eventos en todo el mundo, donde solo tendrás que arrendar el casco."
+      ]
+    }
+  ],
+  "destacados": [
+    {
+      "grupo": "Rendimiento",
+      "items": [
+        {
+          "titulo": "Velocidad en ceñida",
+          "texto": "Más de 19 nudos."
+        },
+        {
+          "titulo": "Velocidad en popa",
+          "texto": "Más de 30 nudos."
+        },
+        {
+          "titulo": "Despegue",
+          "texto": "Con unos 6 nudos de viento."
+        },
+        {
+          "titulo": "Controles",
+          "texto": "Cunningham 1:24, vang 1:48, escota mayor 5:1 y un solo regulador de altura."
+        }
+      ]
+    }
+  ]
+}

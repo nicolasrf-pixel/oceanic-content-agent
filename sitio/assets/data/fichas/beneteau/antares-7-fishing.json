@@ -1,0 +1,51 @@
+{
+ "portada": {
+  "titular": "La máxima versatilidad"
+ },
+ "intro": [
+  "Heredero directo del Antares 8, la versión Fishing del Antares 7 tiene los mismos ingredientes. Modular y fácil de remolcar, rápido y enérgico, permite que toda la familia disfrute de una gran variedad de actividades."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El Antares 7 tiene líneas fuertes y deportivas que prometen energía y temperamento.\nUna cubierta completamente abierta facilita el movimiento al pescar. Con todo su equipamiento, el Antares 7 Fishing es el barco ideal para los aficionados más exigentes."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "El salón modular puede tener distintas disposiciones: salón, banca para el copiloto o una litera adicional.\nCon una cocina completamente equipada y una cabina con inodoro separado, puedes alargar cómodamente tus salidas de fin de semana.\nEn la versión estándar, la cabina ofrece amplio espacio de almacenamiento, ideal para guardar todo el equipo que necesitas para tus actividades costeras."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Puntos fuertes",
+   "items": [
+    {
+     "titulo": "Puerta de acceso lateral de estribor",
+     "texto": "La puerta de acceso lateral facilita el atraque y subir y soltar peces."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/antares/antares-7-fishing",
+ "gama": [
+  "Antares 12 Coupe",
+  "Antares 7",
+  "Antares 8",
+  "Antares 8 Fishing",
+  "Antares 9",
+  "Antares 11 Coupe",
+  "Antares 11 Fly",
+  "Antares 12 Fly"
+ ]
+}

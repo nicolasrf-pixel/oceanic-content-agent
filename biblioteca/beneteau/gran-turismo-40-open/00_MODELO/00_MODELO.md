@@ -22,7 +22,7 @@
 ## Content readiness
 
 <!-- READINESS:START (generado por `python -m oceanic readiness`, no editar) -->
-**CONTENT_STATUS = YELLOW** · completitud 81% (informativa; el estado lo deciden las reglas)
+**CONTENT_STATUS = YELLOW** · completitud 86% (informativa; el estado lo deciden las reglas)
 
 
 | Grupo | Ítem | Estado | Detalle |
@@ -41,7 +41,7 @@
 | MULTIMEDIA | exterior | OK | 8 en inventario (mín. 3) · descargadas 25/25 |
 | MULTIMEDIA | interior | OK | 5 en inventario (mín. 2) · descargadas 25/25 |
 | MULTIMEDIA | detail | OK | 3 en inventario (mín. 2) · descargadas 25/25 |
-| MULTIMEDIA | video | MISSING | 0 videos del modelo |
+| MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | manual | PARTIAL | 1 identificado(s) · requiere revisión |

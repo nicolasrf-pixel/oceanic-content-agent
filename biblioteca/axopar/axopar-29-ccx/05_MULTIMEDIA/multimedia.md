@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -56,7 +56,7 @@
 | [`ccx-platinum-grey`](https://media.ffycdn.net/eu/axopar/5mc563YN1Tbak9faFpqr.png) | DETAIL | media |  | 1360x1060 png | WEB_COPY | Render/muestra publicada en la sección 'The BRABUS Line Color Edition' del modelo. |
 | [`ccx-glacier-blue`](https://media.ffycdn.net/eu/axopar/yd8VFyLPFqchfroE2PfQ.png) | DETAIL | media |  | 1360x1060 png | WEB_COPY | Render/muestra publicada en la sección 'The BRABUS Line Color Edition' del modelo. |
 | [`ccx-pearl-white`](https://media.ffycdn.net/eu/axopar/8j7jtzGdpH1WoZ31N81j.png) | DETAIL | media |  | 1360x1060 png | WEB_COPY | Render/muestra publicada en la sección 'The BRABUS Line Color Edition' del modelo. |
-| [`axopar-29-ccx-underwater-5`](https://media.ffycdn.net/eu/axopar/ATS1S3wsdqT5t1Dgx487.jpg) | UNDERWAY | media |  | 8192x4687 jpg | DUPLICATE_OF axopar-29-ccx-5 | Título del modelo: 'Axopar_29_CCX_Underwater-5'. |
+| [`axopar-29-ccx-underwater-5`](https://media.ffycdn.net/eu/axopar/ATS1S3wsdqT5t1Dgx487.jpg) | UNDERWAY | media |  | 8192x4687 jpg | PENDING | Título del modelo: 'Axopar_29_CCX_Underwater-5'. |
 | [`axopar-29ccx-0287-axedit-1-1`](https://media.ffycdn.net/eu/axopar/wDKKQuH2k36EvFjrtfCM.png) | OTHER | media |  | 4360x2907 png | WEB_COPY | Título del modelo: 'Axopar_29CCX-0287_Axedit_1.1'. |
 | [`axopar-29ccx-0287-axedit-1-m`](https://media.ffycdn.net/eu/axopar/yR2mPzs2XosYyQr5XgQg.jpg) | OTHER | media |  | 1080x1920 jpg | WEB_COPY | Título del modelo: 'Axopar_29CCX-0287_Axedit_1_M'. |
 | [`axopar-29-ccx-099a5294-mobile`](https://media.ffycdn.net/eu/axopar/Qk9aHvY3PLP6adrXUgMx.jpg) | OTHER | media |  | 2160x2160 jpg | WEB_COPY | Título del modelo: 'Axopar-29-CCX_099A5294_Mobile'. |

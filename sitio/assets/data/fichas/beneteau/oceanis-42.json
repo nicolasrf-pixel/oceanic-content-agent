@@ -1,0 +1,56 @@
+{
+ "portada": {
+  "titular": "Herencia francesa a vela"
+ },
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El estudio de diseño Nauta pensó las proporciones y la circulación para crear un verdadero espacio de vida al aire libre, estructurado y fluido a la vez.\nLos puestos de timón cuentan con las funciones avanzadas introducidas en el Oceanis 47 y el Oceanis 52: asientos y respaldos integrados, consolas ergonómicas que reúnen todos los mandos y un acelerador del motor integrado en la consola. Cada maniobra se vuelve intuitiva; cada ajuste, instintivo."
+   ]
+  },
+  {
+   "titulo": "Diseño interior",
+   "texto": [
+    "La luz natural atrae la mirada. Volúmenes generosos. El ambiente es elegante, contemporáneo y sofisticado.\nSiempre con atención al detalle, las terminaciones de roble color arena aportan un toque de calidez y modernidad. Los cantos de madera de 2 mm de espesor refuerzan al tacto la sensación de calidad y sofisticación. Cada detalle se trabajó con cuidado para crear un ambiente sofisticado y atemporal.\nEl salón es amplio, luminoso y pensado para recibir. Frente a él, un escritorio de tamaño completo estructura la zona del armador. También incorporamos una biblioteca en el mamparo del pie de mástil y un mueble al pie de la bajada con todos los controles eléctricos del barco, para una organización clara y eficiente de los sistemas a bordo.\nEl Oceanis 42 está diseñado para un estilo de vida cómodo a bordo."
+   ]
+  },
+  {
+   "titulo": "40 años de íconos hechos en Francia",
+   "texto": [
+    "Para celebrar su 40º aniversario, la gama Oceanis reafirma su compromiso con el saber hacer francés, que ha formado su identidad desde la creación de la marca. Este nuevo modelo continúa ese compromiso, impulsado por el conocimiento de nuestros equipos y por la fabricación con mano de obra francesa. Cuarenta años después del lanzamiento del primer Oceanis, la mayor parte de la gama se sigue fabricando en Francia. Esto refleja nuestro compromiso duradero con la experiencia industrial francesa y la construcción de barcos."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Diseño",
+   "items": [
+    {
+     "titulo": "Alto rendimiento y control, por Lombard",
+     "texto": "Para mejorar aún más el rendimiento a vela, aumentamos la superficie vélica, lo que da más potencia sin sacrificar la accesibilidad ni el control."
+    },
+    {
+     "titulo": "Una verdadera cocina marinera",
+     "texto": "Ubicada al pie de la bajada, la cocina en L afirma su estilo náutico. Estable al escorar, da una sensación de seguridad navegando y se mantiene conectada con el cockpit.\nCon una capacidad de frío de 215 litros, ofrece el mayor volumen de refrigeración del segmento de 40 pies."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/oceanis/oceanis-42",
+ "gama": [
+  "Oceanis 30.1",
+  "Oceanis 34.1",
+  "Oceanis 37.1",
+  "Oceanis 40.1",
+  "Oceanis 47",
+  "Oceanis 52"
+ ]
+}

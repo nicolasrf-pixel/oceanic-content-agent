@@ -1,0 +1,31 @@
+# Cabeceras de los archivos estáticos (Cloudflare Workers static assets; el Worker agrega las suyas a lo que sirve)
+
+/*
+  # VISTA PREVIA: quitar esta línea al lanzar (puerta legal). Evita que Google indexe borradores.
+  X-Robots-Tag: noindex, nofollow
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  # Fuerza https en las visitas siguientes (la primera la redirige Cloudflare con «Always Use HTTPS» en el dominio).
+  # Sin includeSubDomains a propósito: oceanic.cl tiene webmail, cpanel y ftp en el hosting anterior y no deben quedar forzados a https.
+  Strict-Transport-Security: max-age=31536000
+  # Política de contenido mínima: nadie puede enmarcar el sitio, ni cambiar su base, ni cargar objetos, ni enviar formularios a otro sitio.
+  # (Sin restringir scripts a propósito: el sitio usa guiones en línea y, con consentimiento, Google Analytics.)
+  Content-Security-Policy: frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self'
+
+# Fotos: cache larga (cambian poco)
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+
+# Scripts, estilos y contenido: cambian con cada avance, el navegador revalida siempre
+/assets/js/*
+  Cache-Control: public, max-age=0, must-revalidate
+/assets/css/*
+  Cache-Control: public, max-age=0, must-revalidate
+/assets/data/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# HTML sin cache agresiva (para ver cambios al deployar)
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

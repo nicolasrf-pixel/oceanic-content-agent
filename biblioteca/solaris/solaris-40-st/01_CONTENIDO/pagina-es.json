@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/solaris.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.solarisyachts.com/en/yachts/40-st/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-solaris-40-st.page.json",
+ "intro": [
+  "Un paso hacia el futuro."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño y casco",
+   "texto": [
+    "Un paso hacia el futuro.\nEl plano vélico de un yate siempre ha determinado cómo rinde el barco en el mar; es una piedra angular de la investigación y la evolución, la búsqueda de ventajas técnicas que mejoren el rendimiento y la facilidad de maniobra. Y así, mirando hacia el futuro, la mayor, tradicionalmente triangular, evolucionó hacia una forma más cuadrada. Así nació el 40 ST (Square Top), que trae estas ventajas:\n– Mayor de cabeza cuadrada, más eficiente, con más potencia en la parte alta de la vela\n– La mayor es más manejable, con una medida E de botavara más corta, casi tan larga como la medida J del foque\n– Por lo tanto, el rendimiento es aerodinámico además de hidrodinámico\n– Mejor aprovechamiento del espacio en el cockpit, más adecuado para un bimini"
+   ]
+  }
+ ]
+}

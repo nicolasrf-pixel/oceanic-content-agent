@@ -1,0 +1,52 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/saffier.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://saffieryachts.com/models/saffier-sc-6-50-cruise/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-saffier-sc-6-50-cruise.page.json",
+ "portada": {
+  "titular": "El clásico moderno, con ingeniería y tecnología actualizadas."
+ },
+ "intro": [
+  "El Saffier SC 6.50 Cruise es un verdadero daysailer clásico, que combina líneas atemporales con ingeniería moderna y equipamiento avanzado. Su diseño elegante ha resistido el paso del tiempo, y las actualizaciones recientes lo ponen completamente al día. Compacto pero marinero, acoge cómodamente hasta seis personas y navega con precisión y facilidad."
+ ],
+ "bloques": [
+  {
+   "titulo": "Líneas clásicas, tecnología moderna",
+   "texto": [
+    "Con su estética atemporal y su diseño actualizado, el SC 6.50 Cruise combina tradición e innovación. El nuevo aparejo tiene una mayor grande y un foque autovirante, con excelentes capacidades en ceñida.\nJunto con una quilla de bulbo que baja el centro de gravedad, un timón suspendido profundo y un plano vélico optimizado, este daysailer compacto ofrece un rendimiento sorprendente y un control preciso en distintas condiciones."
+   ]
+  },
+  {
+   "titulo": "Para navegar solo o en compañía",
+   "texto": [
+    "El SC 6.50 Cruise está hecho para la libertad en el agua, ya sea navegando solo o en compañía. El cockpit es muy cómodo, con detalles inteligentes como portavasos integrados y almacenamiento oculto para drizas y cabos de control.\nTodos los cabos llegan al timón, así que puedes navegarlo solo con facilidad y con el control total. La distribución se siente abierta y práctica, con espacio suficiente para moverse con facilidad. Para salidas más largas, incluso tiene una pequeña cabina con espacio suficiente para pasar la noche."
+   ]
+  },
+  {
+   "titulo": "Muy marinero",
+   "texto": [
+    "El Saffier SC 6.50 Cruise está construido pensando en la confianza en el mar. Una relación de lastre del 50% da gran estabilidad y una sensación de control cuando cambian las condiciones, sumando seguridad y confianza cuando sube el viento.\nUn diseño de aparejo moderno, junto con una quilla de bulbo y un timón suspendido profundo, crea equilibrio y un control directo. El resultado es un daysailer estable y predecible, que responde bien a cada movimiento del timón.",
+    "Se siente como en casa tanto en lagos como en aguas costeras."
+   ]
+  },
+  {
+   "titulo": "Cubierta Esthec",
+   "texto": [
+    "Esthec ofrece la estética atemporal de la teca natural sin nada de su mantenimiento. Durable y resistente al desgaste, mantiene tu cubierta impecable sin esfuerzo extra."
+   ]
+  },
+  {
+   "titulo": "Navegación en solitario sin esfuerzo",
+   "texto": [
+    "Pensado para la simplicidad, el SC 6.50 Cruise es fácil de navegar solo. Con un foque autovirante y un Code Zero enrollable, tienes el control total desde el timón."
+   ]
+  },
+  {
+   "titulo": "Cockpit amplio",
+   "texto": [
+    "Con espacio para hasta seis personas, el cockpit es perfecto para compartir la experiencia con amigos o familia, o simplemente para disfrutar la vista por tu cuenta navegando en paz."
+   ]
+  }
+ ]
+}

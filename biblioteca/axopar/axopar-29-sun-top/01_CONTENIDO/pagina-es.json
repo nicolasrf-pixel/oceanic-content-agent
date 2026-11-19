@@ -1,0 +1,122 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/axopar.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.axopar.com/boat-models/axopar-29/axopar-29-sun-top/",
+ "capturada": "2026-09-25",
+ "extract": "07_FUENTES/extract/S1-axopar-29-sun-top.page.json",
+ "intro": [
+  "Creado para llevar más lejos el género de los barcos de aventura, el Axopar 29 Sun Top responde a las necesidades reales de los navegantes de hoy, que buscan un uso más inteligente, más comodidad y mejoras con sentido en cada detalle."
+ ],
+ "bloques": [
+  {
+   "titulo": "Más eficiente en combustible",
+   "texto": [
+    "Con una hidrodinámica renovada, aumentamos la eficiencia de combustible del 29 hasta en un 30% respecto de su predecesor. Eso, sumado a un estanque de combustible más grande, da una autonomía de más de 200 millas náuticas."
+   ]
+  },
+  {
+   "titulo": "Diseño seguro de sí mismo, con más funcionalidad",
+   "texto": [
+    "Se nota que el Axopar 29 está hecho con el mismo ADN Axopar; pero al mirarlo de cerca se revelan de a poco su nuevo lenguaje de diseño, más audaz y aventurero, y una ola de ideas innovadoras y soluciones nuevas."
+   ]
+  },
+  {
+   "titulo": "Bienvenido al Hull of Fame",
+   "texto": [
+    "Todo Axopar comienza donde realmente comienza la experiencia de navegar: bajo la línea de flotación. Muchos navegantes han aprendido a aceptar ciertas concesiones como algo normal. Nuestro enfoque, que parte por el casco, resuelve lo fundamental desde el inicio. Desde el lanzamiento del primer Axopar 28 en 2014, esta filosofía ha dado forma a nuestra gama multipremiada, ha ayudado a crear la categoría de barcos de aventura y ha contribuido a que se vendan más de 7.600 Axopar en el mundo.",
+    "Descubre el Hull of Fame y la ingeniería detrás de la experiencia de conducción distintiva de Axopar."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Equipamiento destacado",
+   "items": [
+    {
+     "titulo": "Techo Sun Top",
+     "texto": "Tras el gran éxito del Axopar 37 Sun Top con su techo corredizo de lona, esta característica llega ahora al Axopar 29 Sun Top, para dar protección del sol sin perder la sensación de aire libre y dejando entrar el sol al cockpit cuando quieras. El techo corredizo de lona viene de serie con accionamiento manual."
+    },
+    {
+     "titulo": "Multi-cabina en la proa",
+     "texto": "De serie, la multi-cabina funciona como una gran zona de almacenamiento bajo cubierta para equipo y equipaje."
+    },
+    {
+     "titulo": "Experiencia de conducción",
+     "texto": "Funcional, acogedor y sociable, el Axopar 29 se siente como un auto deportivo, pero también es muy estable y seguro de conducir, con un casco probado y más que capaz de enfrentar condiciones duras cuando hace falta."
+    },
+    {
+     "titulo": "Cockpit acogedor",
+     "texto": "El parabrisas curvo te protege de los elementos, mientras el piso rebajado da una excelente visibilidad y una mejor sensación de conducción. Los asientos de piloto y copiloto reubicados permiten un acceso fácil por babor y por estribor."
+    },
+    {
+     "titulo": "Seguro para moverse a bordo",
+     "texto": "El acceso fácil y el abordaje seguro gracias a los peldaños integrados, junto con pasamanos en todo el barco, una cubierta walk-around sin escalones y zonas antideslizantes estratégicamente ubicadas en las bordas, dan seguridad extra al moverse por el barco."
+    },
+    {
+     "titulo": "Amplias plataformas de baño",
+     "texto": "Las amplias plataformas de baño permiten subir a bordo con facilidad, ya sea después de un chapuzón o desde el muelle."
+    }
+   ]
+  }
+ ],
+ "equipamiento": {
+  "serie": [
+   {
+    "grupo": "Timonera / Cockpit",
+    "items": [
+     "Zona de asientos para 6 personas en Silvertex Petrol.",
+     "Asientos de piloto y copiloto con apoyos abatibles, sobre bases giratorias y deslizantes.",
+     "Compartimento de almacenamiento bajo los asientos de popa.",
+     "Luces LED empotradas en el techo.",
+     "Fundas de puerto para los asientos y la consola.",
+     "Limpiaparabrisas y lavaparabrisas integrados con depósito independiente.",
+     "Mástil de luces, luz de fondeo y bocina en el techo.",
+     "Puesto de mando despejado con panel de interruptores de vidrio y botones iluminados.",
+     "Toma USB en el puesto de mando.",
+     "Volante de cuero con logo Axopar.",
+     "Techo de lona de apertura manual con funda de puerto."
+    ]
+   },
+   {
+    "grupo": "General",
+    "items": [
+     "Casco de doble step laminado a mano, con la primera capa en resina viniléster para prevenir la osmosis.",
+     "Construcción más firme y rígida que en los modelos anteriores",
+     "Menor peso gracias a una disposición optimizada de la fibra de vidrio.",
+     "Todo el material sándwich de PVC se reemplaza por materiales PET reciclados",
+     "No se usa contrachapado con fines estructurales.",
+     "Diseño de casco con proa de entrada fina (“sharp entry bow”) y soportes de motor integrados.",
+     "Casco con aislamiento acústico.",
+     "Defensa perimetral gris con remates de goma",
+     "Logo Axopar 3D cromado a ambos lados del casco.",
+     "Preparación de túnel para hélice de proa.",
+     "Distribución de cubierta walk-around con cubierta de popa abierta",
+     "Terminación antideslizante en la cubierta de trabajo autodrenante.",
+     "Banca en L en la zona de proa con almacenamiento debajo.",
+     "Todos los púlpitos, barandas laterales, cerraduras, bisagras, tapas de llenado y pasamanos del cockpit en acero inoxidable 316",
+     "6 cornamusas alrededor de la cubierta.",
+     "Luces de navegación LED.",
+     "Puntos de enganche para arnés de seguridad en los pasillos laterales",
+     "Púlpitos en la cubierta de proa.",
+     "Cofre de ancla.",
+     "Dos grandes cofres para defensas en la cubierta de popa",
+     "Compartimento de baterías / electricidad bajo el almacenamiento de la cubierta de popa.",
+     "Asta de bandera.",
+     "Estanque de combustible fijo de 400 l con sensor de nivel.",
+     "2 bombas de achique eléctricas automáticas y 2 bombas de achique manuales."
+    ]
+   },
+   {
+    "grupo": "Cabina de proa",
+    "items": [
+     "Espacio de almacenamiento con claraboya y espejo.",
+     "Panel principal de fusibles con fusibles automáticos.",
+     "Toma USB de 12 V.",
+     "Alarmas de incendio y CO.",
+     "2 focos en el techo.",
+     "Rejillas de ventilación."
+    ]
+   }
+  ]
+ }
+}

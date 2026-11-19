@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-47",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-lagoon-47.page.json",
+ "portada": {
+  "titular": "La primera pieza de tu sueño"
+ },
+ "intro": [
+  "El Lagoon 47 une la visión de los usuarios con la experiencia de nuestro equipo, y crea un catamarán cómodo, innovador y verdaderamente hecho para el mar."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Espacios interconectados",
+     "texto": "De proa a popa, el movimiento a bordo del Lagoon 47 es fluido y sin obstáculos. Esta facilidad de movimiento es posible en especial gracias a una característica totalmente nueva: una puerta que conecta directamente el cockpit de proa con el salón. Con sus 12 m², el cockpit de proa se convierte en un verdadero espacio de vida, como una habitación extra a bordo."
+    },
+    {
+     "titulo": "Mirando al océano",
+     "texto": "Equipado con una gran banca, una mesa de centro y tumbonas, el flybridge del Lagoon 47 ofrece un espacio de vida totalmente nuevo a bordo.\nMires donde mires, ves el océano, lo que aumenta la sensación de bienestar."
+    },
+    {
+     "titulo": "La libertad de crear tu propio espacio",
+     "texto": "Un espacio de trabajo, un camarote extra, un espacio convertible… El smart room del Lagoon 47 se adapta a tu forma de navegar y a quienes viajan contigo."
+    },
+    {
+     "titulo": "Barco inteligente",
+     "texto": "Con Seanapps, tu Lagoon también te acompaña en tu smartphone.\nGracias a la aplicación móvil y su unidad a bordo, puedes monitorear a distancia el estado de los principales sistemas: carga de baterías, niveles de los estanques de combustible y agua, o incluso la planificación del mantenimiento.\nPara ayudarte a planificar tu viaje y aprovechar al máximo cada salida, Seanapps también te permite planificar tus rutas y seguir tu navegación directamente desde tu celular."
+    }
+   ]
+  }
+ ]
+}

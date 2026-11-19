@@ -1,6 +1,6 @@
 {
   "CONTENT_STATUS": "YELLOW",
-  "completeness_pct": 81,
+  "completeness_pct": 86,
   "critical_missing": [],
   "unresolved_conflicts": [],
   "items": {
@@ -76,8 +76,8 @@
     },
     "video": {
       "group": "MULTIMEDIA",
-      "status": "MISSING",
-      "detail": "0 videos del modelo"
+      "status": "OK",
+      "detail": "1 videos del modelo"
     },
     "brochure": {
       "group": "DOCUMENTOS",

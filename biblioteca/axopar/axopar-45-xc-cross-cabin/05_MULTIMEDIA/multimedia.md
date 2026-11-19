@@ -4,7 +4,7 @@
 
 - Uso: Media Library Axopar: uso libre editorial y para distribuidores autorizados en comunicación comercial; acreditar a Axopar; no alterar logos.
 - Clasificación: Clasificación automática con tags del DAM, títulos y bloque de la página. Las de confianza 'baja' y las REQUIRES_REVIEW requieren revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -14,7 +14,7 @@
 | 2 | `axopar-45-xc-cross-cabin-099a3735` | Exterior MY2026 del modelo, horizontal 8048x5368; Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). | [original](https://media.ffycdn.net/eu/axopar/M65uJvUw3RD8CpYJVtS1.jpg) |
 | 3 | `axopar-45-xc-cross-cabin-099a2090` | Exterior MY2026 del modelo, horizontal 8024x5352; Tag DAM del modelo (ax45, ax45xc, axopar, france, my26, out). | [original](https://media.ffycdn.net/eu/axopar/UwmBsVitUp6fwKNBcD2r.jpg) |
 
-## Imágenes del modelo (43)
+## Imágenes del modelo (44)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,10 +35,11 @@
 | [`axopar-45-xc-mediterrana-c4a6128`](https://media.ffycdn.net/eu/axopar/XKxXRmpNYay9n4BidgR2.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
 | [`axopar-45-q6a4422`](https://media.ffycdn.net/eu/axopar/5sh8gvQdYJJogKroAN3Y.jpg) | INTERIOR | alta | MY2022 | 7806x5207 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, lifestyle, mallorca). |
 | [`axopar-45-xc-c4a9764`](https://media.ffycdn.net/eu/axopar/L2sDeqwH74yg5UDYkoCV.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, ins, mallorca, my22). |
-| [`axopar-45-xc-mediterrana-c4a6054-2`](https://media.ffycdn.net/eu/axopar/dKtSLUea44rUZq5qfeAP.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | DUPLICATE_OF axopar-45-xc-mediterrana-c4a6054 | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
+| [`axopar-45-xc-mediterrana-c4a6054-2`](https://media.ffycdn.net/eu/axopar/dKtSLUea44rUZq5qfeAP.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | PENDING | Tag DAM del modelo (45xcusofalaunchcyf22, ax45, ax45xc, axopar, france, ins). |
 | [`axopar-45-xc-mediterrana-c4a5937`](https://media.ffycdn.net/eu/axopar/6dGYEfEErizZQy34HhPY.jpg) | INTERIOR | alta | MY2022 | 8192x5464 jpg | WEB_COPY | Tag DAM del modelo (ax45, ax45xc, axopar, france, ins, my22). |
 | [`axopar-45-xc-c4a9293`](https://media.ffycdn.net/eu/axopar/m2aTwajrGQv3AapCbciS.jpg) | COCKPIT | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC_C4A9293'. |
 | [`axopar-45-xc-mediterrana-c4a6054`](https://media.ffycdn.net/eu/axopar/zZwnUNs2rnm1N4HeXaEr.jpg) | COCKPIT | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC Mediterrana_C4A6054'. |
+| [`axopar-45-xc-mediterrana-c4a6144-2`](https://media.ffycdn.net/eu/axopar/qTCyxkKTALQ6MQE9du5S.jpg) | COCKPIT | media |  | 8192x5464 jpg | PENDING | Título del modelo: 'Axopar 45 XC Mediterrana_C4A6144'. |
 | [`45-hl-0005-axopar-45-xc-c4a8686`](https://media.ffycdn.net/eu/axopar/4KqY1f5DQqYnHBnF3tMN.jpg) | CABIN | media |  | 1200x800 jpg | WEB_COPY | Título del modelo: '45_HL_0005_Axopar-45-XC_C4A8686'. |
 | [`axopar-45-xc-cross-cabin-manual`](https://media.ffycdn.net/eu/axopar/F2VSnZwzTed13RX1R9Ma.png) | CABIN | media |  | 2000x1500 png | WEB_COPY | Título del modelo: 'Axopar_45_XC_Cross_Cabin_manual'. |
 | [`axopar-45-xc-c4a9416`](https://media.ffycdn.net/eu/axopar/Lpdbu5m47CateHLyzvi8.jpg) | HELM | media |  | 8192x5464 jpg | WEB_COPY | Título del modelo: 'Axopar 45 XC_C4A9416'. |
@@ -62,12 +63,13 @@
 | [`wbg-0001-45xc-u-sofa`](https://media.ffycdn.net/eu/axopar/jrHN7FoxMjEsMSfxQLvn.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
 | [`wbg-0000-45xc-aft-cabin`](https://media.ffycdn.net/eu/axopar/c2zafvSWtskYn9qcZmLq.png) | OTHER | media |  | 1476x1875 png | WEB_COPY | Render/muestra publicada en la sección 'Alternatives for Aft Deck' del modelo. |
 
-## REQUIRES REVIEW: modelo no confirmado (13)
+## REQUIRES REVIEW: modelo no confirmado (15)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
 | [`axopar-45-stdji-0468`](https://media.ffycdn.net/eu/axopar/b4PfkmJc48iq3eoeKCTx.jpg) | EXTERIOR | baja |  | 5272x3948 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_45_STDJI_0468'). |
 | [`axopar-45-q6a4384`](https://media.ffycdn.net/eu/axopar/LDHWe9cwJpDy3n2fBEiH.jpg) | COCKPIT | baja |  | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar 45_Q6A4384'). |
+| [`2026-08-06-axopar45-464`](https://media.ffycdn.net/eu/axopar/qA5UP1SaJyVu48feP9JV.jpg) | COCKPIT | baja |  | 11656x8742 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_464'). |
 | [`axopar-printable-16`](https://media.ffycdn.net/eu/axopar/7xgRoK8QDzGFZyh9DpP3.jpg) | OTHER | baja |  | 6000x3750 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar-Printable-16'). |
 | [`2023-ax45-sd-sep0485`](https://media.ffycdn.net/eu/axopar/Qger6ECHfbDXhQXmzmg5.jpg) | OTHER | baja |  | 1920x1281 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('2023_Ax45_SD_Sep0485'). |
 | [`axopar-45-q6a4294`](https://media.ffycdn.net/eu/axopar/6dikBeGgi9xU8NdKBAwe.jpg) | OTHER | baja |  | 5464x8192 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar 45_Q6A4294'). |
@@ -79,8 +81,9 @@
 | [`axopar-45-q6a3870`](https://media.ffycdn.net/eu/axopar/LUcnc8Srybyf8EYsqTEU.jpg) | OTHER | baja |  | 8192x5464 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar 45_Q6A3870'). |
 | [`axopar-dealer-map`](https://media.ffycdn.net/eu/axopar/zQVZ326T1jTr5EXczyu7.png) | OTHER | baja |  | 1440x1080 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_Dealer_Map'). |
 | [`axopar-brochure-mockup-2`](https://media.ffycdn.net/eu/axopar/jgTBzf9kEuJ6QoBkztsb.png) | OTHER | baja |  | 2048x1536 png | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('Axopar_Brochure_Mockup_2'). |
+| [`2026-08-06-axopar45-035`](https://media.ffycdn.net/eu/axopar/A6HyYS5SiaPxGTuQZ27L.jpg) | OTHER | baja |  | 11656x8742 jpg | NOT_DOWNLOADED (fuera de alcance: REQUIRES_REVIEW) | Sin tag ni título que identifiquen el modelo ('2026_08_06_axopar45_035'). |
 
-## Excluidas: otro modelo (6)
+## Excluidas: otro modelo (10)
 
 | id | Categoría | Conf. | MY | Declarado | Descarga | Evidencia |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -90,6 +93,10 @@
 | [`axopar-45-cross-top-dsc02392`](https://media.ffycdn.net/eu/axopar/6ZtPJKKN3k1fxWJ17Xex.jpg) | INTERIOR | alta | MY2027 | 6718x4479 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
 | [`axopar-45-dsc02368`](https://media.ffycdn.net/eu/axopar/BCnPVuuYYFNzZirLnqKH.jpg) | INTERIOR | alta | MY2027 | 6776x4517 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
 | [`axopar-45-dsc02381`](https://media.ffycdn.net/eu/axopar/JewNhVx65XpADtoxVpHz.jpg) | INTERIOR | alta | MY2027 | 4672x7008 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-cross-top-dsc02449`](https://media.ffycdn.net/eu/axopar/cekTNJ9YLX1rWdWP4prK.jpg) | INTERIOR | alta | MY2027 | 6319x4213 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-cross-top-dsc02152`](https://media.ffycdn.net/eu/axopar/xDx1iXpCtF4KiNrTLbwB.jpg) | INTERIOR | alta | MY2027 | 6735x4490 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-dsc02389`](https://media.ffycdn.net/eu/axopar/h5Fasg9GR1p5TJn7CbnB.jpg) | INTERIOR | alta | MY2027 | 6740x4493 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
+| [`axopar-45-cross-top-dsc02393`](https://media.ffycdn.net/eu/axopar/cFSwcSpPpGHaR2RqaVZ3.jpg) | INTERIOR | alta | MY2027 | 6972x4648 jpg | NOT_DOWNLOADED (fuera de alcance: OTHER_MODEL) | Tags DAM de otro modelo: [('45', 'crosstop')]. |
 
 ## Videos (6)
 

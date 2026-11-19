@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/solaris.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.solarisyachts.com/en/yachts/50/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-solaris-50.page.json",
+ "intro": [
+  "Solaris Yachts sigue evolucionando y reinventándose: nos entusiasma presentar nuestro nuevo Solaris 50."
+ ],
+ "bloques": [
+  {
+   "titulo": "Interiores",
+   "texto": [
+    "El resultado de las innovadoras líneas de agua es la prolongación de las secciones de popa. Esta solución permite usar dos palas de timón. Además, logramos diseñar un garaje para el bote auxiliar con acceso longitudinal, una solución única en yates de este tamaño. Esta mejora simplifica el uso del bote, que queda asegurado en su propio garaje estanco. En cubierta, un amplio cockpit, ya probado en el Solaris 40 y el Solaris 60, garantiza libertad de movimiento."
+   ]
+  }
+ ]
+}

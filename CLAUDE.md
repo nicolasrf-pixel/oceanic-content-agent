@@ -118,6 +118,10 @@ depósitos, CE, literas); camarotes y baños salen de las pestañas "Versions" (
 dos veces en la ficha con valores distintos → `CONFLICT`. La galería no trae categorías: se clasifican a la vista (hojas de contacto) y quedan en
 `drafts/lagoon/<slug>.json › image_overrides`. Los buques insignia se nombran en palabras (SIXTY 5 = 65, EIGHTY 2 = 82).
 El brochure se pide por formulario (sin enlace directo). Las citas de prensa van a `excluded_sources`.
+Gama a motor (decisión Oceanic 2026-11-05): SIXTY 7 y EIGHTY 3, listados en la página oficial de gama "Our motor
+catamarans" (`/ranges/power-catamarans`, fuente S2). Tipo `catamaran_motor` por esa página (la miga de pan de los modelos
+dice "Sailing catamarans", error de la web; `POWER` en `builders/lagoon.py`). Camarotes del SIXTY 7 desde la cifra
+destacada de la portada ("from 4 to 6 cabins"). Depósitos "N x V L" → total publicado, anotado.
 
 **Generación masiva (Aquila):** web HubSpot; `adapters/aquila.py` (mismo extract que Beneteau) y `builders/aquila.py`
 (reutiliza el builder de Beneteau con su `CFG`). Tipos `catamaran_motor` / `catamaran_vela` (gama Sail). Las etiquetas de
@@ -190,6 +194,64 @@ tarjetas sin ficha) y `usados/OBSERVACIONES.txt` anota lo que hay que corregir e
 cada marca (historia, ADN, valores) para las páginas de marca de la nueva web: `original.md` (literal, con URL y fecha) y
 `es.md` (traducción fiel al español, BORRADOR, sin agregar ni quitar afirmaciones; las dudas van como «Nota para la web»).
 `marcas/TODAS-es.md` las reúne. Se omiten equipos directivos, contactos, cookies, testimonios y condiciones legales.
+
+**Fichas del sitio (decisión Oceanic 2026-11-04):** cada modelo se publica en `sitio/` con el diseño único de la
+maqueta del Axopar 37 XC, lleno con la página oficial traducida fiel al español neutro en
+`01_CONTENIDO/pagina-es.json` (BORRADOR hasta revisión). Bloques de la maqueta sin dato oficial no se muestran. Los opcionales (equipamiento opcional, opciones destacadas,
+ediciones y paquetes) no se publican: se conversan en persona. **Ningún barco nuevo publica
+precio** (solo los usados).
+Publicar con `python3 tools/sitio_fichas.py`. Un modelo nuevo entra al catálogo del sitio con
+`python3 tools/sitio_catalogo.py <marca> <slug>...` (ficha técnica, galería y fotos). Marcas con vela y motor tienen una
+página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor`). Foto de tarjeta (3:2, barco completo) y
+portadas inservibles (verticales, interiores): `python3 tools/sitio_tarjetas.py` + revisión visual en `tools/tarjetas-revision.json`.
+Videos y premios oficiales (decisión Oceanic 2026-11-05): `python3 tools/sitio_medios.py` publica en `sitio/assets/data/medios/` los videos de la página oficial que corresponden al barco (modelo, variante hermana, gama, tecnología del casco y terceros incrustados, con etiqueta en español) y los premios (`awards` del extract + `tools/premios-extra.json` con cita o imagen verificada; nombre propio + detalle traducido), cada premio con su logo oficial (`tools/sitio_premios_logos.py`, copias en `sitio/assets/img/premios/`). Los videos no se descargan: se llaman desde YouTube (modo sin cookies), Vimeo o el CDN del fabricante solo al apretar reproducir. Detalle en `docs/FICHAS.md`.
+
+**Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
+(`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
+`oceanic-imagenes` (archivos subidos, servidos en `/media/`). Acceso cerrado por defecto: contraseña `ADMIN_PASSWORD`
+(secreto del Worker, sesión 8 h, bloqueo por intentos) o Cloudflare Access si se activa.
+Los archivos de datos del sitio están en JSON estricto (`window.OCEANIC_<TIPO>=<JSON>;`); lo publicado en el CMS se
+superpone al archivo del repo. Valida esquema, enlaces seguros, sin precios en barcos nuevos y patrones prohibidos.
+Despliegue y Access: `sitio/CÓMO-SUBIR-EL-SITIO.md`. Pruebas: `cd sitio && node --test tests/*.test.mjs`.
+
+**Eventos (decisión Oceanic 2026-11-06):** el CMS (`/admin/` › Eventos, documento `eventos` = `assets/js/eventos-data.js`) crea
+landings de invitación (`/evento/?e=<slug>`: portada, texto, detalles, programa, galería y formulario de inscripción tipo
+`evento`, que va a ventas y a la lista Brevo «Web · Eventos») y pop-ups (fechas desde/hasta, páginas, frecuencia, retraso).
+`nav-tpl.js` carga el pop-up en todas las páginas solo si hay uno activo; pasada la fecha la landing queda sin formulario.
+La portada del inicio también admite carrusel de imágenes y videos (`inicio-data.js › modo: carrusel`).
+
+**Orden, categorías y marcas (decisión Oceanic 2026-11-19):** el documento `portafolio` (`sitio/assets/js/portafolio-data.js`, CMS
+› «Orden, categorías y marcas») guarda el orden de las marcas en el inicio y las categorías (universos Vela, Motor, Vela deportiva…)
+con sus marcas en orden; lo leen el menú, el pie, el inicio (`portafolio-home.js`), `universo-tpl.js` y el asistente. Permite crear
+categorías y marcas nuevas (la marca nace oculta, sin modelos). Detalle y límites en `docs/PORTAFOLIO.md`.
+
+**CRM en el administrador (decisión Oceanic 2026-11-19):** `/admin/#crm` muestra los leads de Brevo y permite cambiar su etapa (`ETAPA`) o su lista, sin
+copia local de los contactos y con `BREVO_API_KEY` solo en el Worker. Detalle en `docs/CRM.md`.
+
+**Lanzamiento y actualizaciones (decisión Oceanic 2026-11-19):** el sitio sale a su dominio definitivo el **2026-12-01 00:00 (hora de Chile)**. Desde
+entonces todo ajuste está permitido si es una mejora y **cada actualización lleva un informe** (`python3 tools/informe_actualizacion.py`,
+proceso en `docs/ACTUALIZACIONES.md`, informes en `docs/informes/`).
+
+**Administrador rediseñado (2026-11-19):** barra lateral azul noche con íconos, métricas en el inicio y ayudas al pasar el mouse en cada elemento
+(`sitio/admin/ayuda.js`; los botones nuevos se explican agregándolos a su diccionario o con `data-tip`).
+
+**Revisión de marcas (decisión Oceanic 2026-11-17):** botón del administrador (`#revision`) que lanza en GitHub Actions
+(`.github/workflows/revisar-marcas.yml`, debe estar en `main`) el detector `tools/revisar_marcas.py`: compara las webs
+oficiales con `biblioteca/*/07_FUENTES/sources.json` y el catálogo, y entrega un informe de modelos nuevos, movidos de
+dirección y retirados. Con aprobación en pantalla, lo retirado se oculta (documento `publicacion`, reversible) y lo demás
+sale como pull request; el contenido nuevo se sigue cargando con el proceso de la biblioteca. Secreto `GH_TOKEN` en el
+Worker. Detalle en `docs/REVISION-MARCAS.md`.
+
+**Correo de formularios (decisión Oceanic 2026-11-05):** motor propio por SMTP de Google Workspace (`sitio/functions/api/smtp.js`, secreto `SMTP_CLAVE` = contraseña de aplicación de contacto@oceanic.cl). Brevo solo guarda el CRM (listas «Web · <Marca>») y Puerto; no envía cotizaciones. Detalle en `docs/FORMULARIOS.md`.
+
+**Marca (decisión Oceanic 2026-11-05):** logos oficiales en `sitio/assets/img/marca/`: `logo.svg` / `logo-blanco.svg` (sin «EST. 1994», para tamaños chicos: barra superior), `logo-est.svg` / `logo-blanco-est.svg` (completo, donde se lea: pie, página 404, correos), `iso.svg` / `iso-blanco.svg` (isotipo: íconos de pestaña). Blanco siempre sobre azul (barra y pie). Los correos usan PNG (`logo-blanco-est-correo.png`, `logo-blanco-correo.png`) porque Gmail y Outlook no muestran SVG. No se escribe «OCEANIC» como texto en lugar del logo.
+
+**Ley 21.719 y experiencia (decisión Oceanic 2026-11-05):** `sitio/privacidad/` es la política (BORRADOR con [RAZÓN SOCIAL],
+[RUT], [DOMICILIO], [CORREO DE PRIVACIDAD] y plazos por completar, revisión legal pendiente) con formulario de derechos
+(tipo `privacidad`). Todo formulario lleva la casilla obligatoria de aceptación (`acepta`, separada de Puerto, que es
+opcional) y el servidor rechaza sin ella. Aviso informativo de privacidad (el sitio no usa cookies de seguimiento).
+Modo oscuro automático + botón (`assets/css/oscuro.css`; superficies y texto en variables `--papel`, `--arena`, `--tinta`).
+Movimiento y carga: `assets/js/oceano.js` + `assets/css/orden.css`. Chatbot con IA: pendiente (lo decide y paga el cliente).
 
 `check` debe terminar sin errores antes de hacer commit.
 

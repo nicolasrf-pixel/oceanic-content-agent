@@ -672,6 +672,18 @@
    "section": "layouts",
    "section_title": "2 CABINS & 1 HEAD",
    "role": "plan"
+  },
+  {
+   "src": "https://www.beneteau.com/sites/default/files/styles/profile_image/public/2026-10/oceanis-30-1-profile-shallow-draft.jpg.webp?itok=It9PwbDd",
+   "original": "https://www.beneteau.com/sites/default/files/2026-10/oceanis-30-1-profile-shallow-draft.jpg",
+   "file_name": "oceanis-30-1-profile-shallow-draft.jpg",
+   "alt": "oceanis-30-1-profile-shallow-draft",
+   "width": null,
+   "height": null,
+   "ext": "jpg",
+   "section": "profiles",
+   "section_title": "Profiles",
+   "role": "plan"
   }
  ],
  "videos": [
@@ -774,5 +786,13 @@
     }
    ]
   }
- ]
+ ],
+ "media_recheck": {
+  "accessed_at": "2026-11-06",
+  "added": [
+   1,
+   0,
+   0
+  ]
+ }
 }

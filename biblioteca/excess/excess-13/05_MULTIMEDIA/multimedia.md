@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de excess-catamarans.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Excess o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /media/ (originales; copias en /media/cache/<filtro>/). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /media/ (originales; copias en /media/cache/<filtro>/). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -61,8 +61,8 @@
 | [`8442-250525-polaryse-excess-04208`](https://www.excess-catamarans.com/media/2026/09/8442-250525-polaryse-excess-04208.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |
 | [`2549-250524-polaryse-excess-78`](https://www.excess-catamarans.com/media/2025/07/2549-250524-polaryse-excess-78.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |
 | [`0365-250524-polaryse-excess-100`](https://www.excess-catamarans.com/media/2025/07/0365-250524-polaryse-excess-100.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |
-| [`2106-250524-polaryse-excess-78`](https://www.excess-catamarans.com/media/2025/07/2106-250524-polaryse-excess-78.jpg) | UNDERWAY | media |  | NonexNone jpg | DUPLICATE_OF 2549-250524-polaryse-excess-78 | Solo en la página del modelo (sección 'Under sail'). |
-| [`5534-250524-polaryse-excess-100`](https://www.excess-catamarans.com/media/2025/07/5534-250524-polaryse-excess-100.jpg) | UNDERWAY | media |  | NonexNone jpg | DUPLICATE_OF 0365-250524-polaryse-excess-100 | Solo en la página del modelo (sección 'Under sail'). |
+| [`2106-250524-polaryse-excess-78`](https://www.excess-catamarans.com/media/2025/07/2106-250524-polaryse-excess-78.jpg) | UNDERWAY | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Under sail'). |
+| [`5534-250524-polaryse-excess-100`](https://www.excess-catamarans.com/media/2025/07/5534-250524-polaryse-excess-100.jpg) | UNDERWAY | media |  | NonexNone jpg | PENDING | Solo en la página del modelo (sección 'Under sail'). |
 | [`8810-250525-polaryse-excess-04264`](https://www.excess-catamarans.com/media/2025/07/8810-250525-polaryse-excess-04264.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |
 | [`0611-excess-13-slider-sous-voile-01`](https://www.excess-catamarans.com/media/2025/07/0611-excess-13-slider-sous-voile-01.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |
 | [`5584-excess-13-slider-sous-voile-02`](https://www.excess-catamarans.com/media/2025/07/5584-excess-13-slider-sous-voile-02.jpg) | UNDERWAY | revisión visual |  | NonexNone jpg | WEB_COPY | Solo en la página del modelo (sección 'Under sail'). Categoría UNDERWAY por revisión visual (2026-10-06). |

@@ -1,0 +1,46 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/antares/antares-9",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-antares-9.page.json",
+ "portada": {
+  "titular": "El referente de los weekenders"
+ },
+ "intro": [
+  "El Antares 9 es un barco moderno y estilizado, reinventado con innovaciones y mejoras tomadas de modelos más grandes. Hecho para fines de semana llenos de diversión en el agua, esta nueva versión ofrece aún más formas de disfrutar el mar. Es más fácil de recorrer y de manejar, y aún mejor en buena compañía, fondeado o navegando."
+ ],
+ "bloques": [
+  {
+   "titulo": "Diseño exterior",
+   "texto": [
+    "El nuevo Antares 9 tiene un perfil elegante y luce líneas estilizadas y potentes, realzadas por una defensa perimetral plateada y largas ventanas en el casco. El arco de la timonera, un verdadero sello de la línea, forma una curva levemente quebrada. Se une al amplio techo de cabina que protege el generoso cockpit de popa (1,7 m por 2,4 m). Sumando un asiento extra, la banca en L se puede convertir en un salón en U, la distribución ideal para muchos invitados. Este salón modular se convierte fácilmente en un solárium cuando quieres relajarte y tomar sol."
+   ]
+  },
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "El placer de navegar relajado",
+   "items": [
+    {
+     "titulo": "Diseño continuo y seguridad sin igual",
+     "texto": "La puerta de acceso lateral facilita subir y bajar del barco, mientras la escalera de baño ofrece un acceso cómodo al agua. El pasillo de estribor, más ancho y profundo y con púlpitos altos, asegura un paso seguro a la cubierta de proa para abrir el cofre de ancla, acceder al pontón o disfrutar un descanso al sol en los muy cómodos soláriums, con respaldos regulables. Cada innovación está pensada para facilitar el movimiento y dar un acceso continuo al mar, para que tus salidas sean más cómodas, relajadas y agradables."
+    },
+    {
+     "titulo": "Tecnología y rendimiento",
+     "texto": "Fiel al ADN de la línea, el Antares 9 es un barco robusto diseñado para cortar las olas sin esfuerzo. Equipado con motorización fueraborda de 500 HP (potencia máxima) y estanques de combustible de buen tamaño, tiene una autonomía de 130 millas náuticas a velocidad de crucero, para que vayas más lejos por más tiempo. El casco moldeado por inyección es más liviano pero igual de resistente, con una rigidez mayor que mejora la estabilidad y la comodidad navegando, minimizando vibraciones y ruido."
+    },
+    {
+     "titulo": "Calidad y elegancia a bordo",
+     "texto": "Este nuevo modelo tiene códigos y materiales del más alto nivel. La tapicería del cockpit se hizo más cómoda, mientras los respaldos de poliéster ofrecen mayor durabilidad. Los interiores se realzan con muebles lacados y paneles de nogal. El forro acolchado crea un ambiente acogedor y relajante."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/explr-9/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-explr-9.page.json",
+ "portada": {
+  "titular": "Inspirado en el entorno nórdico."
+ },
+ "bloques": [
+  {
+   "titulo": "La vida en el mar no puede ser mejor que esto.",
+   "texto": [
+    "El totalmente renovado EXPLR 9 te lleva a dimensiones completamente nuevas en comodidad de conducción, uso multipropósito y diseño."
+   ]
+  }
+ ]
+}

@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/beneteau.py`.
 - No se mezclan otros modelos de la gama (Oceanis Yacht 60).
-- Imágenes: 24 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
+- Imágenes: 28 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 1 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 377 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 121 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 24/24 |
-| MULTIMEDIA | interior | OK | 7 en inventario (mín. 2) · descargadas 24/24 |
-| MULTIMEDIA | detail | OK | 2 en inventario (mín. 2) · descargadas 24/24 |
+| MULTIMEDIA | exterior | OK | 10 en inventario (mín. 3) · descargadas 24/28 |
+| MULTIMEDIA | interior | OK | 11 en inventario (mín. 2) · descargadas 24/28 |
+| MULTIMEDIA | detail | OK | 2 en inventario (mín. 2) · descargadas 24/28 |
 | MULTIMEDIA | video | OK | 1 videos del modelo |
 | DOCUMENTOS | brochure | OK | 1 documento(s) con enlace oficial |
 | DOCUMENTOS | technical | OK | 1 documento(s) con enlace oficial |

@@ -1,0 +1,50 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/first-2016-2026/first-36-spirit",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-first-36-spirit.page.json",
+ "portada": {
+  "titular": "Simplemente navegar"
+ },
+ "intro": [
+  "Siempre ha existido un tipo de navegante que valora la claridad por sobre todo: un barco que se sienta directo, intuitivo, honesto y vivo, dejando que la conexión entre el navegante, el viento y el mar ocupe el centro.\nHace más de 30 años, BENETEAU First le dio un nombre a esta filosofía: Spirit. Hoy, el First 36 Spirit la lleva a una nueva generación de cruceros planeadores: refinada con liviandad, simplicidad y propósito, hasta que casi nada queda entre el navegante y la experiencia misma.\nPorque a veces, menos crea más.\nMás sensación. Más conexión. Más navegación. Solo la alegría de navegar.\nConcepto e I+D: equipo SEASCAPE y BENETEAU"
+ ],
+ "bloques": [
+  {
+   "titulo": "Experiencia a vela",
+   "texto": [
+    "Como crucero planeador de pura raza, el First 36 Spirit lleva la alegría de navegar a una amplia variedad de condiciones. Con brisa suave, su liviandad excepcional hace que cada cambio del viento se sienta de inmediato como una aceleración rápida. Cuando la brisa aumenta, su casco rígido pero liviano acelera sin esfuerzo y empieza a planear cuando el viento llega a 15 nudos, y sientes cómo el barco cobra vida bajo tus pies. E incluso cuando la velocidad llega a dos dígitos, se mantiene perfectamente equilibrado y bajo control, gracias a su casco moderno y estable y a una dirección de dos timones precisa y con respuesta, que te permite sentir y surfear cada ola.\nDirecto, intuitivo y honesto, se convierte en una extensión de ti mismo, dejando solo el viento, el mar y la sensación de libertad. Ya sea para una tarde de navegación o una travesía más larga, el First 36 Spirit te da lo que buscas: una conexión profunda con el mar y el viento, y la alegría pura de navegar."
+   ]
+  },
+  {
+   "titulo": "La vida a bordo",
+   "texto": [
+    "Baja y siente la diferencia. El interior del First 36 Spirit es luminoso, abierto y acogedor, un espacio que te da todo lo que necesitas sin rodearte de lo que no. La probada distribución de tres camarotes, el amplio salón y un baño ofrecen toda la comodidad necesaria para la vida a bordo, mientras una reducción bien pensada mantiene el espacio limpio y despejado. Cubiertas de trabajo durables, puertas magnéticas fáciles de quitar y un práctico concepto de almacenamiento abierto hacen que el día a día sea simple, funcional y sin esfuerzo. Incluso el baño compacto aprovecha el espacio con su lavamanos plegable.\nEl resultado es un interior que se siente menos como un conjunto de cosas y más como un espacio para respirar, relajarse y simplemente estar. Bajo cubierta nada sobra, pero nada esencial falta, porque el buen diseño es saber qué conservar."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "¿Por qué el First 36 Spirit?",
+   "items": [
+    {
+     "titulo": "La alegría de planear, para todos",
+     "texto": "El First 36 Spirit lleva la alegría de planear al público más amplio. Combina la facilidad de manejo de un verdadero crucero planeador con un precio muy competitivo, y hace esta experiencia moderna más accesible que nunca."
+    },
+    {
+     "titulo": "Cockpit modular",
+     "texto": "Las características del cockpit giran en torno al navegante: puesto de timón con todos los controles de la mayor al alcance y una posición del winche principal muy ergonómica e intuitiva. A la vez, extensiones de banca removibles y una mesa de cockpit transforman el cockpit abierto en un cómodo salón de crucero cuando llega la hora de relajarse."
+    },
+    {
+     "titulo": "Un equipo de diseño de navegantes apasionados",
+     "texto": "El First 36 Spirit fue creado por un equipo de navegantes de toda la vida que además son algunos de los diseñadores más emblemáticos de la industria: Samuel Manuard, reconocido arquitecto naval; Lorenzo Argento, diseñador de yates; y un equipo joven pero muy experimentado en Sito."
+    },
+    {
+     "titulo": "Un concepto probado de crucero planeador",
+     "texto": "Desde el lanzamiento de la categoría de cruceros planeadores con el First 36, el concepto se ha probado entre los profesionales de la industria y en el mercado. El First 36 y el First 30 han ganado todos los grandes premios de la industria, y ambos ya superan las 100 unidades construidas."
+    }
+   ]
+  }
+ ]
+}

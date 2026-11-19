@@ -1,5 +1,22 @@
 {
   "model": "Gran Turismo 40 Open",
   "policy": "Solo registro; no se descargan.",
-  "videos": []
+  "videos": [
+    {
+      "title": "Video",
+      "url": "https://www.youtube.com/watch?v=77j3YiVrzdI",
+      "platform": "YouTube (canal BENETEAU)",
+      "format": null,
+      "resolution": null,
+      "description": null,
+      "cover_image": "https://i.ytimg.com/vi/77j3YiVrzdI/hqdefault.jpg",
+      "source_page": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-40-open",
+      "date": null,
+      "date_note": "YouTube no expone fecha en la página",
+      "scope": "THIS_MODEL",
+      "third_party": false,
+      "notes": "Incrustado en la página del modelo.",
+      "downloaded": false
+    }
+  ]
 }

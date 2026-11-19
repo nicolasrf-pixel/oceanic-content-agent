@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/first/first-14",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "first14-header",
@@ -46,8 +46,7 @@
         "bytes": 1064005,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/first14-header.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/first14-header.jpg"
     },
     {
       "id": "first14-sailing-exp1",
@@ -90,8 +89,7 @@
         "bytes": 232203,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp1.jpg"
     },
     {
       "id": "first14-sailing-exp2",
@@ -134,8 +132,7 @@
         "bytes": 209156,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp2.jpg"
     },
     {
       "id": "first14-sailing-exp3",
@@ -177,8 +174,7 @@
         "bytes": 209002,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp3.jpg"
     },
     {
       "id": "first14-sailing-exp4",
@@ -220,8 +216,7 @@
         "bytes": 165820,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp4.jpg"
     },
     {
       "id": "first14-sailing-exp5",
@@ -263,8 +258,7 @@
         "bytes": 214726,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-sailing-exp5.jpg"
     },
     {
       "id": "first14-mobility",
@@ -306,8 +300,7 @@
         "bytes": 273037,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-mobility.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-mobility.jpg"
     },
     {
       "id": "first14-mobility2-1",
@@ -349,8 +342,7 @@
         "bytes": 315517,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-mobility2_1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-mobility2_1.jpg"
     },
     {
       "id": "first14-usp1-v2",
@@ -392,8 +384,7 @@
         "bytes": 259986,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp1-v2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp1-v2.jpg"
     },
     {
       "id": "first14-usp2-v2",
@@ -435,8 +426,7 @@
         "bytes": 39375,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp2-v2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp2-v2.jpg"
     },
     {
       "id": "first14-usp3-v2",
@@ -478,8 +468,7 @@
         "bytes": 202692,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp3-v2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp3-v2.jpg"
     },
     {
       "id": "first14-usp4-v2",
@@ -521,8 +510,7 @@
         "bytes": 297565,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp4-v2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-usp4-v2.jpg"
     },
     {
       "id": "first14-profil",
@@ -564,8 +552,37 @@
         "bytes": 6735,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-profil.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/first14-profil.jpg"
+    },
+    {
+      "id": "logo-seanapps2",
+      "title": "logo-seanapps2.jpg",
+      "category": "OTHER",
+      "scope": "NOT_MODEL_SPECIFIC",
+      "scope_evidence": "Logo o bloque genérico de la marca (Seanapps / socios / edición), no es el barco.",
+      "category_confidence": "baja",
+      "hero_candidate": false,
+      "hero_reason": null,
+      "source_url": "https://www.beneteau.com/sites/default/files/2025-06/logo-seanapps2.jpg",
+      "cdn_url": "https://www.beneteau.com/sites/default/files/styles/wide/public/2025-06/logo-seanapps2.jpg.webp?itok=hqVF6ZJp",
+      "source_page": "https://www.beneteau.com/first/first-14",
+      "source_context": {
+        "section": "block",
+        "section_title": "A connected boat"
+      },
+      "declared_width": 1090,
+      "declared_height": 1050,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": null,
+      "width": null,
+      "height": null,
+      "format": null,
+      "sha256": null,
+      "collected_at": "2026-09-27",
+      "downloaded_at": null,
+      "download_status": "NOT_DOWNLOADED (fuera de alcance: NOT_MODEL_SPECIFIC)"
     }
   ]
 }

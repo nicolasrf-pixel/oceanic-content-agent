@@ -3,7 +3,7 @@
   "source_page": "https://www.beneteau.com/flyer/flyer-8-spacedeck-v2",
   "usage_terms": "Imágenes de beneteau.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Beneteau o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /sites/default/files/. El original se referencia en `original`.",
   "images": [
     {
       "id": "flyer-8-spacedeck-header",
@@ -46,8 +46,7 @@
         "bytes": 496921,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2026-04/flyer-8-spacedeck-header.jpg"
     },
     {
       "id": "flyer8space-1",
@@ -90,8 +89,7 @@
         "bytes": 168483,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-1.jpg"
     },
     {
       "id": "flyer8space-2",
@@ -134,8 +132,7 @@
         "bytes": 154053,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-2.jpg"
     },
     {
       "id": "flyer8space3",
@@ -177,8 +174,7 @@
         "bytes": 106706,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/flyer8space3.jpg.webp?itok=bFjliPCK",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/styles/standard_large/public/2022-09/flyer8space3.jpg.webp?itok=bFjliPCK"
     },
     {
       "id": "flyer8space4",
@@ -220,8 +216,7 @@
         "bytes": 185101,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space4.jpg"
     },
     {
       "id": "flyer8space5",
@@ -263,8 +258,7 @@
         "bytes": 234542,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space5.jpg"
     },
     {
       "id": "flyer8space6",
@@ -306,8 +300,7 @@
         "bytes": 223951,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space6.jpg"
     },
     {
       "id": "flyer8space-int1",
@@ -349,8 +342,7 @@
         "bytes": 78487,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-int1.jpg"
     },
     {
       "id": "logo-flyer-pilot-edition-petit",
@@ -422,8 +414,7 @@
         "bytes": 501779,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-4.jpg"
     },
     {
       "id": "flyer8-pilot-edition-3",
@@ -465,8 +456,7 @@
         "bytes": 508516,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-3.jpg"
     },
     {
       "id": "flyer8-pilot-edition-2",
@@ -508,8 +498,7 @@
         "bytes": 490851,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-2.jpg"
     },
     {
       "id": "flyer8-pilot-edition-1",
@@ -551,8 +540,7 @@
         "bytes": 483101,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8-pilot-edition-1.jpg"
     },
     {
       "id": "flyer-8-spaceeck-flyer-edition-1-1500x819",
@@ -594,8 +582,7 @@
         "bytes": 511301,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-1-1500x819.jpg"
     },
     {
       "id": "flyer-8-spaceeck-flyer-edition-2-1500x819",
@@ -637,8 +624,7 @@
         "bytes": 495609,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-10/Flyer-8-SPACEeck-Flyer-edition-2-1500x819.jpg"
     },
     {
       "id": "flyer8space-usp1",
@@ -680,8 +666,7 @@
         "bytes": 253543,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp1.jpg"
     },
     {
       "id": "flyer8space-usp2",
@@ -723,8 +708,7 @@
         "bytes": 193727,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp2.jpg"
     },
     {
       "id": "flyer8space-usp3",
@@ -766,8 +750,7 @@
         "bytes": 214274,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8SPACE-usp3.jpg"
     },
     {
       "id": "flyer8space-usp4-1",
@@ -809,8 +792,7 @@
         "bytes": 262897,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2023-08/flyer8space-usp4-1.jpg"
     },
     {
       "id": "logo-seanapps2",
@@ -882,8 +864,7 @@
         "bytes": 21792,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-12/profile-flyer8spacedeck.jpg"
     },
     {
       "id": "profile-flyer-8-spacedeck-gris-perle",
@@ -925,8 +906,7 @@
         "bytes": 58396,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2024-01/profile-flyer-8-spacedeck-gris-perle.jpg"
     },
     {
       "id": "flyer8space-plan",
@@ -968,8 +948,7 @@
         "bytes": 137510,
         "full_resolution": true
       },
-      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png",
-      "web_quality": 75
+      "downloaded_from": "https://www.beneteau.com/sites/default/files/2022-09/flyer8space-plan.png"
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 - Uso: Imágenes de aquilaboats.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Aquila o el importador antes de publicar.
 - Clasificación: Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.
-- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /hubfs/ (HubSpot). El original se referencia en `original`.
+- Descarga: Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /hubfs/ (HubSpot). El original se referencia en `original`.
 
 ## HERO_CANDIDATE
 
@@ -25,7 +25,7 @@
 | [`aquila-36-fishing-large-image-3-07302019`](https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-fishing-large-image-3-07302019.jpg) | EXTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY (original no disponible; desde CDN) | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría EXTERIOR por revisión visual (2026-10-01). |
 | [`aquila36cruiser-flexleft-07162020-3`](https://www.aquilaboats.com/hubfs/36%20Sport/aquila36cruiser-flexleft-07162020-3.jpg) | INTERIOR | media |  | NonexNone jpg | WEB_COPY | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). |
 | [`aquila-36-model-gallery-3b-0706`](https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-model-gallery-3b-0706.jpg) | INTERIOR | revisión visual |  | NonexNone jpg | WEB_COPY (original no disponible; desde CDN) | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría INTERIOR por revisión visual (2026-10-01). |
-| [`aquila-36-interior-hero-3-07302019`](https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg) | INTERIOR | media |  | NonexNone jpg | DUPLICATE_OF aquila-36-interior-hero-3-07302019-2 | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). |
+| [`aquila-36-interior-hero-3-07302019`](https://www.aquilaboats.com/hubfs/36%20Sport/aquila-36-interior-hero-3-07302019.jpg) | INTERIOR | media |  | NonexNone jpg | PENDING | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). |
 | [`36-gallery-07302019-7`](https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(7).jpg) | COCKPIT | revisión visual |  | NonexNone jpg | WEB_COPY (original no disponible; desde CDN) | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01). |
 | [`36-gallery-07302019-8`](https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(8).jpg) | COCKPIT | revisión visual |  | NonexNone jpg | WEB_COPY (original no disponible; desde CDN) | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01). |
 | [`36-gallery-07302019-1`](https://www.aquilaboats.com/hubfs/36%20Sport/36-gallery-07302019-(1).jpg) | COCKPIT | revisión visual |  | NonexNone jpg | WEB_COPY (original no disponible; desde CDN) | Archivo en la carpeta del modelo en el CMS de Aquila ('36 Sport'). Categoría COCKPIT por revisión visual (2026-10-01). |

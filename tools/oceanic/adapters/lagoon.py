@@ -145,7 +145,9 @@ def extract(raw_html: str, url: str, accessed_at: str) -> dict:
                 sec["intro"] = (sec["intro"] + "\n" + t).strip()
             elif section == "hero":
                 if re.fullmatch(r"(Length Overall|Upwind sail area|Number of berths)", t):
-                    out["headline_stats"].append({"label": t})
+                    val = el.find_next_sibling()  # cifra destacada debajo de la etiqueta (líneas separadas por <br>)
+                    vals = [x.strip() for x in val.get_text("\n").split("\n") if x.strip()] if val else []
+                    out["headline_stats"].append({"label": t, "values": vals})
                 elif re.search(r"Yacht of the Year|Boat of the Year|Award", t):
                     out["awards"].append(t)
                 elif len(t) > 60 and not out["description"]:

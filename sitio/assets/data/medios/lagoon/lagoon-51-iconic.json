@@ -1,0 +1,43 @@
+{
+ "videos": [
+  {
+   "tipo": "youtube",
+   "etiqueta": "Video oficial",
+   "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-51-iconic",
+   "id": "5hJrYwQ3qIk"
+  },
+  {
+   "tipo": "youtube",
+   "etiqueta": "Video de la gama",
+   "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-51-iconic",
+   "id": "nHwb5eR6uzU"
+  },
+  {
+   "tipo": "youtube",
+   "etiqueta": "Video de la gama",
+   "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-51-iconic",
+   "id": "JOEEpo-vLEo"
+  }
+ ],
+ "premios": [
+  {
+   "nombre": "British Yachting Awards 2022",
+   "detalle": "Ganador · Multicasco del año",
+   "logo": "premios/6221e44518d7c1.webp"
+  },
+  {
+   "nombre": "Oceanway China Yacht Awards 2022",
+   "detalle": "Mejor catamarán a vela del año",
+   "logo": "premios/808f41d7eb2a27.webp"
+  },
+  {
+   "nombre": "Multihull of the Year 2023",
+   "detalle": "Nominado",
+   "logo": "premios/27f6af4161e240.webp"
+  },
+  {
+   "nombre": "Asia Marine & Boating Awards 2022",
+   "detalle": "Premio anual al pionero ambiental"
+  }
+ ]
+}

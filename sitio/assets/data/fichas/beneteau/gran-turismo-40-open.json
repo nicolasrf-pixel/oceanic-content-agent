@@ -1,0 +1,34 @@
+{
+ "portada": {
+  "titular": "El mar. El horizonte. Las posibilidades."
+ },
+ "intro": [
+  "Con más de 140 años de excelencia en la construcción de barcos y una inspiración en el principio japonés del Yūgen, el Gran Turismo 40 Open encarna un lujo discreto, una versatilidad sin esfuerzo y una sensación duradera de libertad en el agua."
+ ],
+ "bloques": [
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Diseñado para salidas de día y fines de semana",
+     "texto": "Espacios de vida convertibles, alojamiento cómodo para pasar la noche y comodidades a bordo bien pensadas hacen que el Gran Turismo 40 Open sea igual de adecuado para escapadas espontáneas y cruceros largos."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-40-open",
+ "gama": [
+  "Gran Turismo 35",
+  "Gran Turismo 40 Coupe",
+  "Gran Turismo 50"
+ ]
+}

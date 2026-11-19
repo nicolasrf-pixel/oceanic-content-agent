@@ -1,0 +1,24 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/xo.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://xoboats.com/xo-fleet/explr-10plus-sport/",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-xo-explr-10-sport-plus.page.json",
+ "portada": {
+  "titular": "El gran éxito de ventas de XO"
+ },
+ "bloques": [
+  {
+   "titulo": "¡Reúne a tu grupo y sal!",
+   "texto": [
+    "Entre 8 y 10 personas pueden viajar contra el viento y navegar con firmeza y comodidad. La cabina de proa acoge a dos personas para una buena noche de descanso, así que la noche inevitable después de un día no es obstáculo para seguir la aventura."
+   ]
+  },
+  {
+   "titulo": "Para familias y amigos",
+   "texto": [
+    "El EXPLR 10 Sport+ es ideal para familias y amigos que disfrutan un día mar adentro. Pasar tiempo de calidad con los más cercanos es importante, por eso este barco está equipado para dar comodidad también en las aventuras más cortas.\nInspirado en el entorno y las condiciones nórdicas, con su capacidad de alojamiento y su cubierta a prueba de clima, el EXPLR 10 S+ está lleno de velocidad y estilo para aventureros y familias que viajan por el planeta. Como todos nuestros barcos, tiene nuestro reconocido casco de aluminio en V profunda."
+   ]
+  }
+ ]
+}

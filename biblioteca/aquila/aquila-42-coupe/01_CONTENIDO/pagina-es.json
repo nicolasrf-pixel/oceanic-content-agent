@@ -1,0 +1,13 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/aquila.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.aquilaboats.com/models/coupes/42",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-aquila-42-coupe.page.json",
+ "portada": {
+  "titular": "Porque allá afuera, todo es posible."
+ },
+ "intro": [
+  "¿Quién dice que tienes que elegir? El nuevo catamarán a motor Aquila 42 Coupe ofrece la emoción de un sport boat y la comodidad de un yate.\nSube a bordo y apreciarás de inmediato cómo este barco se niega a hacer concesiones. Su generosa manga crea un espacio notable para recibir, mientras la distribución en un solo nivel fluye de forma intuitiva del salón al cockpit. Este diseño fresco captura toda la emoción de un sport boat con cascos de doble step y ofrece características premium: dos camarotes privados con baño en suite y ducha separada.\nEl innovador sistema de foil de fibra de carbono Aquila Hydro Glide®, que distingue a Aquila, asegura una navegación suave y eficiente, ya sea con dos fueraborda Mercury o intraborda Volvo Penta. De caletas escondidas a pueblos costeros, de paseos de tarde a escapadas de fin de semana, el 42 Coupe transforma cada travesía.\nTan refinado como listo para todo, este catamarán a motor está hecho para quienes lo quieren todo.\nPorque allá afuera, todo es posible."
+ ]
+}

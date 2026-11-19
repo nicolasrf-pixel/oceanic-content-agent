@@ -1,0 +1,18 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/solaris.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.solarisyachts.com/en/yachts/55/",
+ "capturada": "2026-10-01",
+ "extract": "07_FUENTES/extract/S1-solaris-55.page.json",
+ "intro": [
+  "El nuevo Solaris 55 es la culminación de una experiencia y un conocimiento sin igual: los 50 años de historia del astillero Solaris Yachts confluyen en el Solaris 55, que reúne todas las cualidades de un barco pensado para dar la vuelta al mundo o para un agradable día de navegación."
+ ],
+ "bloques": [
+  {
+   "titulo": "Interiores",
+   "texto": [
+    "Bajo cubierta notarás de inmediato la simetría perfecta, resultado de un análisis profundo de la distribución del espacio y la luz: la distribución interior tradicional contempla una amplia suite del armador a proa, con un baño con una gran ducha. El salón transmite luz y simetría. La cocina en L está a babor.\nLos dos camarotes de popa tienen su propio baño con ducha separada.\nEl nuevo Solaris 55 es nuestra última innovación. Es un yate construido según los criterios de un barco de altura y, al mismo tiempo, se navega con facilidad en un día de navegación inolvidable."
+   ]
+  }
+ ]
+}

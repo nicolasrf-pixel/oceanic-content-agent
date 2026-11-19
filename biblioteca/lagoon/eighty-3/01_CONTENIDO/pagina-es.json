@@ -1,0 +1,36 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04). Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/eighty-3",
+ "capturada": "2026-11-04",
+ "extract": "07_FUENTES/extract/S1-eighty-3.page.json",
+ "portada": {
+  "titular": "A la medida de tu sueño"
+ },
+ "intro": [
+  "Diseñado para espíritus audaces y aventureros, el EIGHTY 3 se distingue por su carácter propio y su capacidad de adaptarse a cada preferencia. Cada detalle está pensado para personalizarse, de modo que puedas crear tu propio yate, único."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "Un yate forjado por la excelencia",
+     "texto": "Diseñado por y para espíritus audaces y aventureros, el EIGHTY 3 es fruto de talentos combinados: el encuentro de brillantes arquitectos navales con uno de los constructores de superyates más respetados del mundo. Su diseño ofrece 300 m² de espacio exterior dedicado al descanso, con una plataforma de baño en popa que se extiende hasta 22 m²."
+    },
+    {
+     "titulo": "Tiempo valioso para navegar con suavidad",
+     "texto": "Ágil en la navegación costera, el EIGHTY 3 ofrece además 3.500 millas náuticas de autonomía de combustible, para que recorras el mundo con total tranquilidad. A bordo, la cubierta principal a un mismo nivel ofrece una conexión perfecta con el entorno. El equipamiento para actividades náuticas, como una moto de agua o un bote auxiliar, es ideal para aprovechar una tarde fondeado, con un espacio dedicado en la popa del yate."
+    },
+    {
+     "titulo": "Un homenaje al savoir-faire",
+     "texto": "El EIGHTY 3 tiene el espíritu de un yate a motor con la personalidad distintiva de un Lagoon. A bordo, los materiales nobles incluyen una mesa de mármol, sillones con respaldos de cuero trenzado, paneles de vidrio decorativo, encimeras de piedra natural y muebles de madera con acabado cepillado."
+    },
+    {
+     "titulo": "Una suite de autor para sueños a medida",
+     "texto": "Inspirado en los códigos de la arquitectura contemporánea, cada espacio de vida a bordo te invita a aprovechar al máximo la luz natural y las impresionantes vistas de 360° al océano. El camarote del armador tiene una cama king con vista al mar, una terraza privada y un espacio para relajarse, pensado para ofrecer un confort excepcional."
+    }
+   ]
+  }
+ ]
+}

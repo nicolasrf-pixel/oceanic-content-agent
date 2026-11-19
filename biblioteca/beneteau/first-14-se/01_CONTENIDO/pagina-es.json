@@ -1,0 +1,56 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.beneteau.com/first-se/first-14-se",
+ "capturada": "2026-09-27",
+ "extract": "07_FUENTES/extract/S1-first-14-se.page.json",
+ "portada": {
+  "titular": "Skiffs de regata de alto rendimiento en un dinghy deportivo moderno"
+ },
+ "intro": [
+  "El First 14 SE – Seascape Edition ofrece la emoción, la velocidad y la diversión de los skiffs de regata de alto rendimiento en un dinghy deportivo moderno, accesible, seguro y realmente fácil de manejar. La calidad de construcción y los materiales de alta tecnología te permiten exigir el barco con vientos fuertes, mientras su amplia superficie vélica da potencia con viento suave. Con sus ingeniosas ruedas removibles y su fácil transporte en el techo del auto, es la respuesta perfecta para un estilo de vida activo.\nConcepto e I+D: Seascape"
+ ],
+ "bloques": [
+  {
+   "titulo": "Experiencia a vela",
+   "texto": [
+    "El First 14 SE acerca el mundo de los skiffs de regata modernos a los navegantes recreativos, en un dinghy deportivo accesible, estable y fácil de manejar. Está diseñado para navegarse sin trapecio, y puedes ajustar fácilmente la superficie vélica según la fuerza del viento o el tamaño de la tripulación, sin perder la experiencia a vela, gracias a dos posiciones de orza. Este velero de alto rendimiento, rápido y emocionante te conecta directamente con los elementos: el mar y el viento. Además, su clase One Design en desarrollo te permite sumarte a la mayor comunidad de navegantes recreativos afines, poner a prueba tus habilidades en la cancha de regatas y disfrutar de buena compañía en tierra."
+   ]
+  },
+  {
+   "titulo": "Movilidad 2.0",
+   "texto": [
+    "La libertad en el agua aumenta con unas ruedas removibles únicas, que te permiten explorar costas lejanas sin necesidad de volver al punto de partida. Las playas más escondidas, salvajes y hermosas ahora son accesibles como nunca antes.\nEn tierra, es lo bastante liviano para transportarse en el techo del auto, así que podrás llevarlo a todas partes. Gracias al diseño de bancas planas, se transporta fácilmente, y el mástil de dos piezas y el equipo caben fácilmente en el casco, así que el maletero del auto queda libre para las cosas de tu familia."
+   ]
+  },
+  {
+   "titulo": "Comunidad",
+   "texto": [
+    "La comunidad internacional de dueños y su calendario de eventos permiten a los dueños desafiarse en distancias largas.\nDesafíos One Design en todo el continente, en buena compañía de navegantes afines y solidarios."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "¿Por qué el First 14 SE?",
+   "items": [
+    {
+     "titulo": "Manejo fácil",
+     "texto": "El First 14 SE es un dinghy deportivo muy fácil de manejar gracias a su ingenioso diseño: casco ancho y estable; cockpit grande, despejado y ergonómico; cabos de control simplificados; foque enrollable y autovirante; sistema de recogida del gennaker y sin trapecio."
+    },
+    {
+     "titulo": "Comunidad",
+     "texto": "El First 14 SE promete una conexión pura con el viento y el mar. Pero también abre las puertas a la mayor comunidad de navegantes recreativos, donde te desafiarás en las crecientes regatas y eventos One Design."
+    },
+    {
+     "titulo": "Rendimiento",
+     "texto": "El First 14 SE es un dinghy muy rápido y estable gracias a su moderno casco planeador muy liviano pero rígido, ancho y plano; proa penetrante; pantoques marcados; tecnología de construcción en sándwich al vacío de alta calidad y un robusto aparejo de carbono."
+    },
+    {
+     "titulo": "Dos en uno",
+     "texto": "El First 14 SE se adapta sobre la marcha a tripulaciones de una o dos personas sin perder la experiencia a vela, gracias a dos posiciones de orza y un foque enrollable."
+    }
+   ]
+  }
+ ]
+}

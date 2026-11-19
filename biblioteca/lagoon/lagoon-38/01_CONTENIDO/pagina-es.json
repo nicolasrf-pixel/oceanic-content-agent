@@ -1,0 +1,40 @@
+{
+ "estado": "BORRADOR",
+ "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/lagoon.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
+ "fuente": "https://www.catamarans-lagoon.com/boats/lagoon-38",
+ "capturada": "2026-09-30",
+ "extract": "07_FUENTES/extract/S1-lagoon-38.page.json",
+ "portada": {
+  "titular": "¡Sueña siempre en grande!"
+ },
+ "intro": [
+  "Con el nuevo Lagoon 38, cada momento en el mar es un escape de lo cotidiano, un viaje donde los destinos soñados se hacen realidad y donde se crean recuerdos en un ambiente cómodo, sereno y acogedor."
+ ],
+ "destacados": [
+  {
+   "grupo": "Lo destacado",
+   "items": [
+    {
+     "titulo": "El ambiente de un gran catamarán",
+     "texto": "El Lagoon 38 ofrece una calidad de vida a bordo excepcional, gracias a su nueva forma de casco.\nSus espacios interiores optimizados invitan a relajarse, ideales para reunir a la familia en un salón generoso.\nDisfruta también compartir momentos especiales con amigos, sentados alrededor de una gran mesa."
+    },
+    {
+     "titulo": "Sube a bordo con total tranquilidad",
+     "texto": "Las plataformas de popa extendidas y especialmente adaptadas del Lagoon 38 permiten un acceso seguro y fácil.\nLa distribución está pensada para simplificar la vida a bordo. Este catamarán ofrece libertad de movimiento, para que aproveches al máximo cada momento del viaje."
+    },
+    {
+     "titulo": "Espacio habitable “in & out”",
+     "texto": "Diseñado para conectar el interior y el exterior, el Lagoon 38 tiene una puerta corredera de vidrio que se abre para crear un espacio continuo entre el salón y el cockpit.\nEste diseño modular acoge hasta diez personas a la mesa, en un ambiente cálido y acogedor."
+    },
+    {
+     "titulo": "La calma, un bien preciado",
+     "texto": "Y cuando llega el momento de descansar, recupera energías en un camarote del armador luminoso y tranquilo.\nSu gran cama a proa, con baño y ducha en suite a popa, asegura un espacio generoso y abundante almacenamiento."
+    },
+    {
+     "titulo": "Barco inteligente",
+     "texto": "Con Seanapps, tu Lagoon también te acompaña en tu smartphone.\nGracias a la aplicación móvil y su unidad a bordo, puedes monitorear a distancia el estado de los principales sistemas: carga de baterías, niveles de los estanques de combustible y agua, o incluso la planificación del mantenimiento.\nPara ayudarte a planificar tu viaje y aprovechar al máximo cada salida, Seanapps también te permite planificar tus rutas y seguir tu navegación directamente desde tu celular."
+    }
+   ]
+  }
+ ]
+}
