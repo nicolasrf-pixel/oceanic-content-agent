@@ -12,6 +12,7 @@
 - **Menú de marcas:** panel más ancho y moderno, con la prioridad interna en todas las categorías. Logo de la barra principal más grande.
 - **Revisar marcas:** las marcas nuevas se suman al scraping con su web oficial y Solaris tiene un aviso externo de modelos nuevos (sin eludir su captcha).
 - **Inicio:** bloque «¿Dónde estás en tu decisión?» con las 4 tarjetas alineadas y más diseño.
+- **Puerto:** se trajo del sitio viejo la edición de **noviembre 2026** (4 notas con sus fotos y enlaces a las fichas).
 - **Por qué:** dejar el sitio y su administrador listos para operar solos desde el lanzamiento (1 dic 00:00), con menos pasos manuales y sin entrar a Brevo para ver leads.
 
 ## Dónde se tocó

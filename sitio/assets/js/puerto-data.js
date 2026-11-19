@@ -3,6 +3,139 @@
    (type "noticia" o "guia"). El índice ordena por fecha; la más nueva es la destacada. */
 window.OCEANIC_PUERTO=[
  {
+  "slug": "puerto-noviembre-2026",
+  "mes": "Noviembre 2026",
+  "fecha": "2026-11-10",
+  "portada": "puerto/nov-swift-trawler-54-g1.webp",
+  "pdf": "",
+  "resumen": "En noviembre las novedades que marcan el rumbo de la náutica en la región provienen desde el viejo continente. Cuatro historias, nuevos destinos y un reconocimiento internacional.",
+  "serie": "Puerto",
+  "tapa": "puerto/archivo/58b614ea0e5f.webp",
+  "bloques": [
+   {
+    "type": "noticia",
+    "etiqueta": "Beneteau · Swift Trawler 54, de camino al Pacífico",
+    "titular": "Una nueva Swift Trawler 54 comienza su viaje hacia Chile",
+    "bajada": "Desde La Rochelle, los detalles de una entrega que ya comienza a navegar.",
+    "foto": "puerto/nov-swift-trawler-54-g1.webp",
+    "cuerpo": [
+     "Desde el astillero de BENETEAU en La Rochelle, Francia, comienza una nueva travesía: una Swift Trawler 54 que pronto llegará a Chile para encontrarse con su próximo propietario.",
+     "La Swift Trawler 54 representa una de las expresiones más completas de la navegación de crucero de BENETEAU. Con casi 17 metros de eslora, combina autonomía, confort y excelentes condiciones de navegación, en un diseño concebido para disfrutar largas travesías con total comodidad.",
+     "Sus amplios espacios exteriores, la generosa cubierta de flybridge y un interior luminoso y cuidadosamente distribuido crean distintos ambientes para compartir, descansar y disfrutar de la vida a bordo. Su filosofía de navegación privilegia la libertad de explorar nuevos destinos, con la comodidad y seguridad que exige recorrer mayores distancias.",
+     "Una embarcación pensada para quienes entienden la navegación como mucho más que llegar a destino.",
+     "La próxima Swift Trawler 54 ya está en camino a Chile."
+    ],
+    "galeria": [
+     "puerto/nov-swift-trawler-54-g3.webp",
+     "puerto/nov-swift-trawler-54-g4.webp",
+     "puerto/nov-swift-trawler-54-g5.webp",
+     "puerto/nov-swift-trawler-54-g6.webp",
+     "puerto/nov-swift-trawler-54-g7.webp",
+     "puerto/nov-swift-trawler-54-g8.webp"
+    ],
+    "cta": {
+     "texto": "Cotiza el tuyo aquí",
+     "href": "../../marca/?m=beneteau&modelo=swift-trawler-54"
+    },
+    "fichas": [
+     {
+      "nombre": "Swift Trawler 54",
+      "href": "../../marca/?m=beneteau&modelo=swift-trawler-54"
+     }
+    ]
+   },
+   {
+    "type": "noticia",
+    "etiqueta": "Axopar · Entrega en Chile",
+    "titular": "2 Axopar 29 se suman a la flota en Chile para diciembre 2026",
+    "bajada": "Del espíritu de los fiordos nórdicos a las aguas del sur del mundo.",
+    "foto": "puerto/nov-axopar-29.webp",
+    "foto_lado": true,
+    "cuerpo": [
+     "La nueva generación de adventure boating llega en diciembre para encontrarse con sus próximos propietarios y comenzar nuevas historias de navegación en aguas chilenas.",
+     "Este diciembre recibiremos en Chile dos nuevas Axopar 29, que se incorporan a la flota de embarcaciones de la marca en nuestro país a través de Oceanic.",
+     "Fiel al concepto de adventure boating, la Axopar 29 combina funcionalidad, velocidad y versatilidad en una propuesta diseñada para quienes buscan explorar el mar sin renunciar al confort. Su diseño de inspiración nórdica, reconocido por sus líneas minimalistas y soluciones inteligentes, aprovecha cada espacio para ofrecer una experiencia de navegación dinámica y adaptable a distintos planes.",
+     "La plataforma Axopar 29 destaca por su capacidad de combinar prestaciones deportivas con una configuración práctica y espacios pensados para disfrutar tanto de salidas cortas como de jornadas completas en el agua.",
+     "Embarcaciones que pronto estarán navegando en Chile y que reflejan el creciente interés por propuestas que combinan aventura, diseño y libertad.",
+     "Las Axopar 29 ya vienen en camino."
+    ],
+    "cta": {
+     "texto": "Cotiza el tuyo aquí",
+     "href": "../../marca/?m=axopar&modelo=axopar-29-sun-top"
+    },
+    "fichas": [
+     {
+      "nombre": "Axopar 29 Sun-Top",
+      "href": "../../marca/?m=axopar&modelo=axopar-29-sun-top"
+     }
+    ]
+   },
+   {
+    "type": "noticia",
+    "etiqueta": "Beneteau · Flyer 9 SUNdeck",
+    "titular": "La Flyer 9 SUNdeck prepara su llegada a Perú",
+    "bajada": "El diseño francés de BENETEAU pone rumbo al Pacífico peruano.",
+    "foto": "puerto/nov-flyer-9-sundeck.webp",
+    "foto_lado": true,
+    "cuerpo": [
+     "La familia BENETEAU continúa ampliando su presencia en la región. A fines de diciembre llegará a Perú una nueva Flyer 9 SUNdeck, en una entrega que estará a cargo de Oceanic.",
+     "Diseñada para disfrutar intensamente del mar, la Flyer 9 SUNdeck combina un carácter deportivo con espacios pensados para compartir. Su distribución privilegia la vida al aire libre, con una amplia zona de solárium en proa, cómodos espacios de descanso y una configuración que permite pasar con facilidad de una jornada de navegación a un día completo junto al mar.",
+     "Su propuesta reúne velocidad, confort y versatilidad, convirtiéndola en una excelente alternativa para disfrutar en familia o con amigos, ya sea en una salida costera, una escapada de fin de semana o una jornada de recreación en el agua.",
+     "Con esta nueva entrega, Oceanic continúa acercando la experiencia BENETEAU a más navegantes de Sudamérica.",
+     "La Flyer 9 SUNdeck llegará a Perú a fines de diciembre."
+    ],
+    "cta": {
+     "texto": "Cotiza la tuya aquí",
+     "href": "../../marca/?m=beneteau&modelo=flyer-9-sundeck"
+    },
+    "fichas": [
+     {
+      "nombre": "Flyer 9 SUNdeck",
+      "href": "../../marca/?m=beneteau&modelo=flyer-9-sundeck"
+     }
+    ]
+   },
+   {
+    "type": "noticia",
+    "etiqueta": "Beneteau · Gran Turismo 50 · Una nueva distinción internacional",
+    "titular": "Gran Turismo 50: el diseño que conquista nuevos reconocimientos",
+    "bajada": "Líneas contemporáneas, espacios cuidadosamente concebidos y una nueva distinción internacional para la propuesta de diseño de BENETEAU.",
+    "foto": "modelos/gran-turismo-50-hero.webp",
+    "cuerpo": [
+     "El BENETEAU Gran Turismo 50 suma un nuevo reconocimiento a su propuesta de diseño tras ser premiado en los World Yacht Trophies 2026, uno de los encuentros internacionales que distinguen la excelencia y la innovación en la industria náutica.",
+     "Este galardón pone en valor sus modernas y elegantes líneas exteriores, donde el carácter deportivo de la gama Gran Turismo se combina con una arquitectura contemporánea y proporciones cuidadosamente estudiadas.",
+     "Uno de los aspectos más destacados del modelo es la ingeniosa distribución de sus espacios exteriores, concebidos para aprovechar al máximo la vida a bordo. Sus diferentes ambientes permiten disfrutar de la navegación, compartir momentos al aire libre y encontrar espacios de descanso, integrando diseño y funcionalidad en una misma propuesta.",
+     "El reconocimiento reafirma la apuesta de BENETEAU por desarrollar embarcaciones donde la estética, la innovación y la experiencia de navegación conviven de manera natural.",
+     "Un nuevo reconocimiento para una embarcación que entiende el diseño como parte esencial de la experiencia en el mar."
+    ],
+    "specs": [
+     {
+      "label": "World Yacht Trophies 2026",
+      "value": "Premiado"
+     },
+     {
+      "label": "Boat of the Year 2026",
+      "value": "Finalista"
+     },
+     {
+      "label": "European Powerboat of the Year 2027",
+      "value": "Nominado"
+     }
+    ],
+    "cta": {
+     "texto": "Cotiza aquí el tuyo",
+     "href": "../../marca/?m=beneteau&modelo=gran-turismo-50"
+    },
+    "fichas": [
+     {
+      "nombre": "Gran Turismo 50",
+      "href": "../../marca/?m=beneteau&modelo=gran-turismo-50"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "slug": "puerto-octubre-2026",
   "mes": "Octubre 2026",
   "fecha": "2026-10-01",
