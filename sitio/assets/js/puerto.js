@@ -1,5 +1,14 @@
 /* OCEANIC · Puerto: índice de ediciones (puerto-data.js, lo administra el CMS).
    Ordena por fecha (la más nueva es la destacada). Todo el texto se escapa antes de insertarlo. */
+(function () {  // video de mar de la portada: solo si conviene (pantalla grande, sin ahorro de datos ni «reducir movimiento»)
+  var v = document.getElementById('pheroVideo');
+  if (!v || !window.matchMedia) return;
+  var c = navigator.connection || {};
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(max-width: 700px)').matches || c.saveData) return;
+  v.src = v.getAttribute('data-src');
+  v.addEventListener('canplay', function () { v.classList.add('on'); var p = v.play(); if (p && p.catch) p.catch(function () { v.classList.remove('on'); }); }, { once: true });
+  document.addEventListener('visibilitychange', function () { if (document.hidden) v.pause(); else if (v.classList.contains('on')) v.play().catch(function () {}); });
+})();
 (function () {
   'use strict';
   var P = (window.OCEANIC_PUERTO || []).filter(function (e) { return !e.oculto; }), cont = document.getElementById('puertoEd');
