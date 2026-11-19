@@ -222,6 +222,16 @@ La portada del inicio también admite carrusel de imágenes y videos (`inicio-da
 con sus marcas en orden; lo leen el menú, el pie, el inicio (`portafolio-home.js`), `universo-tpl.js` y el asistente. Permite crear
 categorías y marcas nuevas (la marca nace oculta, sin modelos). Detalle y límites en `docs/PORTAFOLIO.md`.
 
+**CRM en el administrador (decisión Oceanic 2026-11-19):** `/admin/#crm` muestra los leads de Brevo y permite cambiar su etapa (`ETAPA`) o su lista, sin
+copia local de los contactos y con `BREVO_API_KEY` solo en el Worker. Detalle en `docs/CRM.md`.
+
+**Lanzamiento y actualizaciones (decisión Oceanic 2026-11-19):** el sitio sale a su dominio definitivo el **2026-12-01 00:00 (hora de Chile)**. Desde
+entonces todo ajuste está permitido si es una mejora y **cada actualización lleva un informe** (`python3 tools/informe_actualizacion.py`,
+proceso en `docs/ACTUALIZACIONES.md`, informes en `docs/informes/`).
+
+**Administrador rediseñado (2026-11-19):** barra lateral azul noche con íconos, métricas en el inicio y ayudas al pasar el mouse en cada elemento
+(`sitio/admin/ayuda.js`; los botones nuevos se explican agregándolos a su diccionario o con `data-tip`).
+
 **Revisión de marcas (decisión Oceanic 2026-11-17):** botón del administrador (`#revision`) que lanza en GitHub Actions
 (`.github/workflows/revisar-marcas.yml`, debe estar en `main`) el detector `tools/revisar_marcas.py`: compara las webs
 oficiales con `biblioteca/*/07_FUENTES/sources.json` y el catálogo, y entrega un informe de modelos nuevos, movidos de
