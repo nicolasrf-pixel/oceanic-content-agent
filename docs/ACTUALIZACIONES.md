@@ -20,3 +20,4 @@ Fecha y versión publicada · qué se mejoró y por qué · áreas tocadas · co
 ## Informes
 | Fecha | Informe |
 |---|---|
+| 2026-11-19 | [Mejoras previas al lanzamiento (19 nov)](informes/2026-11-19-mejoras-previas-al-lanzamiento-19-nov.md) |
