@@ -11,7 +11,7 @@
 | VARIANT | First 36 Spirit | S1 |
 | TIPO | Velero monocasco | S1 |
 | PRECIO | From 200,000 € (excl. VAT) | S1 |
-| URL OFICIAL | https://www.beneteau.com/first-2016-2026/first-36-spirit | S1 |
+| URL OFICIAL | https://www.beneteau.com/first/first-36-spirit | S1 |
 
 ## Reglas de alcance aplicadas
 

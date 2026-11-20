@@ -8,7 +8,7 @@ Valor Oceanic: **11,98 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Length Overall | 11.98 m | m | 11.98 m | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Length Overall | 11.98 m | m | 11.98 m | literal | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 39'4" (coherente).
 
@@ -18,7 +18,7 @@ Valor Oceanic: **3,8 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Beam overall | 3.8 m | m | 3.8 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Beam overall | 3.8 m | m | 3.8 m | 'Beam overall' (manga máxima) es la manga publicada del casco. | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 12'6" (coherente).
 
@@ -28,7 +28,7 @@ Valor Oceanic: **4.620 kg**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Lightship Displacement | 4620 kg | kg | 4620.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Lightship Displacement | 4620 kg | kg | 4620.0 kg | 'Lightship Displacement' = desplazamiento en rosca. | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 10158 lbs (coherente).
 
@@ -38,7 +38,7 @@ Valor Oceanic: **3**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Cabin Number | 3 |  | 3  | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Cabin Number | 3 |  | 3  | literal | NO DECLARADO | 2026-09-27 |
 
 ## Capacidad Combustible · `capacidad_combustible` · VERIFIED
 
@@ -46,7 +46,7 @@ Valor Oceanic: **70 l**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Fuel Capacity | 70 L | l | 70.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Fuel Capacity | 70 L | l | 70.0 l | literal | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 18,5 US Gal (coherente).
 
@@ -56,7 +56,7 @@ Valor Oceanic: **160 l**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Water Capacity | 160 L | l | 160.0 l | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Water Capacity | 160 L | l | 160.0 l | literal | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 42 US Gal (coherente).
 
@@ -66,7 +66,7 @@ Valor Oceanic: **A6 / B8 / C10**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | CE Certification | A6/B8/C10 |  | A6 / B8 / C10  | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | CE Certification | A6/B8/C10 |  | A6 / B8 / C10  | literal | NO DECLARADO | 2026-09-27 |
 
 Nota: Formato: categoría CE + número máximo de personas, tal como lo publica la web.
 
@@ -82,7 +82,7 @@ Valor Oceanic: **1 x 29 hp**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Max. engine power | 1 x 29 CV | hp | 28.6 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Max. engine power | 1 x 29 CV | hp | 28.6 hp | 'Max. engine power' de un velero = potencia máxima del motor auxiliar. | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 1 x 29 HP (coherente).
 
@@ -92,7 +92,7 @@ Valor Oceanic: **17,8 m**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Air Draught Max | 17.8 m | m | 17.8 m | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Air Draught Max | 17.8 m | m | 17.8 m | literal | NO DECLARADO | 2026-09-27 |
 
 Nota: Valor imperial publicado: 58'5" (coherente).
 
@@ -102,7 +102,7 @@ Valor Oceanic: **1,95 m – 2,25 m** (mín. – máx. según quilla/versión)
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Draught Min / Draught Max | 1.95 m | 2.25 m |  | [1.95, 2.25] m | literal | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Draught Min / Draught Max | 1.95 m | 2.25 m |  | [1.95, 2.25] m | literal | NO DECLARADO | 2026-09-27 |
 
 ## Arquitectura naval · `arquitecto_naval` · VERIFIED
 
@@ -110,7 +110,7 @@ Valor Oceanic: **Naval architect: Samuel MANUARD · Exterior designer: Lorenzo A
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Descripción | Créditos (descripción) | Naval architect: Samuel MANUARD · Exterior designer: Lorenzo ARGENTO · Structural engineering: PURE DESIGN & ENGINEERING · Interior designers: Lorenzo ARGENTO & SITO design |  | Naval architect: Samuel MANUARD · Exterior designer: Lorenzo ARGENTO · Structural engineering: PURE DESIGN & ENGINEERING · Interior designers: Lorenzo ARGENTO & SITO design  | Créditos de arquitectura naval y diseño publicados junto a la descripción. | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Descripción | Créditos (descripción) | Naval architect: Samuel MANUARD · Exterior designer: Lorenzo ARGENTO · Structural engineering: PURE DESIGN & ENGINEERING · Interior designers: Lorenzo ARGENTO & SITO design |  | Naval architect: Samuel MANUARD · Exterior designer: Lorenzo ARGENTO · Structural engineering: PURE DESIGN & ENGINEERING · Interior designers: Lorenzo ARGENTO & SITO design  | Créditos de arquitectura naval y diseño publicados junto a la descripción. | NO DECLARADO | 2026-09-27 |
 
 ## Motor auxiliar · `motor_auxiliar` · VERIFIED
 
@@ -118,6 +118,6 @@ Valor Oceanic: **Motor auxiliar hasta 1 x 29 hp**
 
 | Fuente | Sección | Campo original | Valor original | Unidad orig. | Normalizado | Cruce | MY | Acceso |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [S1](https://www.beneteau.com/first-2016-2026/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Max. engine power | 1 x 29 CV | hp | 28.6 hp | Motor auxiliar = 'Max. engine power' del bloque técnico (la web no publica marca ni modelo). | NO DECLARADO | 2026-09-27 |
+| [S1](https://www.beneteau.com/first/first-36-spirit) Web oficial · First 36 Spirit | Specifications (bloque técnico) | Max. engine power | 1 x 29 CV | hp | 28.6 hp | Motor auxiliar = 'Max. engine power' del bloque técnico (la web no publica marca ni modelo). | NO DECLARADO | 2026-09-27 |
 
 Nota: Marca y modelo de motor: no publicados en la web.

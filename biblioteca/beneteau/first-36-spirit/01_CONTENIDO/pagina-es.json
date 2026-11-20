@@ -1,7 +1,7 @@
 {
  "estado": "BORRADOR",
  "criterio": "Traducción fiel al español neutro (tuteo) de la página oficial, con el glosario traducciones/beneteau.json. No agrega afirmaciones. Se omiten los opcionales, ediciones, configuraciones, precios y llamados a distribuidores (decisiones Oceanic 2026-11-04), y las frases cortadas por la captura. Nombres de productos, telas, motores y marcas sin traducir.",
- "fuente": "https://www.beneteau.com/first-2016-2026/first-36-spirit",
+ "fuente": "https://www.beneteau.com/first/first-36-spirit",
  "capturada": "2026-09-27",
  "extract": "07_FUENTES/extract/S1-first-36-spirit.page.json",
  "portada": {

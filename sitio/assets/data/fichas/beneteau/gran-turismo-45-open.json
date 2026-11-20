@@ -1,0 +1,39 @@
+{
+ "portada": {
+  "titular": "Siempre más lejos"
+ },
+ "intro": [
+  "El BENETEAU Gran Turismo 45 Open combina una vida al aire libre dinámica con un confort refinado bajo cubierta.\nDisponible con propulsión intraborda o fueraborda, se adapta con facilidad a distintos estilos de navegación, ya sea para salidas de un día emocionantes, escapadas de fin de semana o estadías prolongadas a bordo."
+ ],
+ "bloques": [
+  {
+   "titulo": "Un barco conectado",
+   "texto": [
+    "La aplicación móvil Seanapps y su unidad a bordo te permiten ver el estado de los distintos sistemas del barco (carga de baterías, niveles de los estanques de combustible o agua, planificación del mantenimiento) desde tu smartphone, además de planificar tu ruta o revisar tu navegación con tu celular."
+   ]
+  }
+ ],
+ "destacados": [
+  {
+   "grupo": "Libertad para navegar a tu manera",
+   "items": [
+    {
+     "titulo": "Elección de propulsión",
+     "texto": "La libertad empieza con la elección. Elige entre dos motores intraborda Volvo Penta de 440 u 480 hp, o tres fueraborda Mercury de 350 o 425 hp.\nEl joystick está disponible en toda la gama y asegura una maniobra suave e intuitiva en cada configuración."
+    },
+    {
+     "titulo": "Una plataforma de baño hidráulica",
+     "texto": "Disponible en la versión intraborda, la plataforma de baño hidráulica crea una conexión fluida con el agua y hace que subir a bordo, nadar y manejar el equipo de deportes acuáticos sea muy fácil."
+    }
+   ]
+  }
+ ],
+ "estado": "BORRADOR",
+ "fuente": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-45-open",
+ "gama": [
+  "Gran Turismo 40 Open",
+  "Gran Turismo 35",
+  "Gran Turismo 40 Coupe",
+  "Gran Turismo 50"
+ ]
+}
