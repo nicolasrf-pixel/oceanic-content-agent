@@ -1,0 +1,75 @@
+/* OCEANIC · Teléfono con selector de país (assets/js/telefono.js).
+   Idea: un instrumento de a bordo. A la izquierda el país (código en mono + prefijo), a la derecha el número
+   con sus dígitos agrupados, y debajo una regla de 9 marcas que se llena de naranja al escribir y se cierra
+   en verde cuando el número chileno está completo. Todo con las variables del sitio (claro y oscuro). */
+.tel{position:relative;width:100%;--tel-linea:var(--linea-med,rgba(20,33,43,.25));--tel-ok:#2E7D5B;--tel-mal:#B42318}
+.tel-caja{display:flex;align-items:stretch;height:52px;background:var(--papel,#fff);border:1px solid var(--tel-linea);border-radius:4px;
+  transition:border-color .2s,box-shadow .2s}
+.tel-foco .tel-caja{border-color:var(--boya);box-shadow:0 0 0 3px rgba(203,92,60,.15)}
+.tel-mal .tel-caja{border-color:var(--tel-mal);box-shadow:0 0 0 3px rgba(180,35,24,.1)}
+
+.tel .tel-pais{display:inline-flex;align-items:center;gap:9px;flex:0 0 auto;padding:0 12px 0 14px;margin:0;border:0;border-right:1px solid var(--tel-linea);
+  border-radius:3px 0 0 3px;background:rgba(20,33,43,.045);color:var(--tinta,#14212B);cursor:pointer;font:inherit;transition:background .2s}
+.tel .tel-pais:hover{background:rgba(203,92,60,.08)}
+.tel .tel-pais:focus-visible{outline:2px solid var(--boya);outline-offset:-2px}
+.tel-iso{font-family:var(--dato,'IBM Plex Mono',monospace);font-size:11px;font-weight:500;letter-spacing:.12em;color:var(--tenue,#566570)}
+.tel-pais .tel-dial{font-family:var(--display,'Archivo',sans-serif);font-weight:600;font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:0;color:var(--tinta,#14212B)}
+.tel-flecha{color:var(--tenue,#566570);transition:transform .25s cubic-bezier(.16,.84,.34,1)}
+.tel-abierto .tel-flecha{transform:rotate(180deg)}
+
+.tel .tel-num{flex:1 1 auto;min-width:0;width:auto!important;height:100%!important;margin:0;padding:0 14px!important;border:0!important;border-radius:0!important;
+  background:transparent!important;box-shadow:none!important;outline:0!important;color:var(--tinta,#14212B);font-family:var(--texto,'Inter',sans-serif);
+  font-size:17px;font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.tel .tel-num::placeholder{color:var(--niebla,#8D9AA3);letter-spacing:.04em;opacity:1}
+
+/* regla de 9 marcas: 9 | 8765 | 4321, como se agrupa el número */
+.tel-regla{display:none;gap:3px;height:3px;margin:9px 1px 0}
+.tel-cl .tel-regla{display:flex}
+.tel-regla i{flex:1;border-radius:2px;background:var(--tel-linea);opacity:.7;transition:background .25s,opacity .25s,transform .25s}
+.tel-regla i:nth-child(1),.tel-regla i:nth-child(5){margin-right:7px}
+.tel-regla i.on{background:var(--boya);opacity:1;transform:scaleY(1.5)}
+.tel-lleno .tel-regla i.on{background:var(--tel-ok)}
+.tel-mal .tel-regla i.on{background:var(--tel-mal)}
+
+.tel-aviso{min-height:18px;margin:6px 1px 0;font-family:var(--dato,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.06em;line-height:1.5;color:var(--tenue,#566570);text-transform:none}
+.tel-aviso-ok{color:var(--tel-ok)}
+.tel-aviso-ok::before{content:"✓ "}
+.tel-mal .tel-aviso{color:var(--tel-mal)}
+
+/* lista de países */
+.tel .tel-lista{position:absolute;z-index:40;left:0;top:56px;width:min(100%,360px);min-width:min(100%,280px);max-height:268px;overflow:auto;margin:0;padding:6px;list-style:none;
+  background:var(--papel,#fff);border:1px solid var(--tel-linea);border-radius:8px;box-shadow:0 22px 44px -14px rgba(20,33,43,.38);
+  animation:tel-entra .18s cubic-bezier(.16,.84,.34,1);overscroll-behavior:contain}
+.tel .tel-lista[hidden]{display:none}
+@keyframes tel-entra{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.tel-lista li{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:10px 12px;border-radius:5px;cursor:pointer;
+  font-family:var(--texto,'Inter',sans-serif);font-size:15px;color:var(--tinta,#14212B);margin:0}
+.tel-lista li:hover,.tel-lista li:focus{background:rgba(203,92,60,.09);outline:0}
+.tel-lista li[aria-selected="true"]{background:rgba(203,92,60,.06);box-shadow:inset 3px 0 0 var(--boya);font-weight:600}
+.tel-lista .tel-dial{font-family:var(--dato,'IBM Plex Mono',monospace);font-size:12px;color:var(--tenue,#566570)}
+
+/* en la cotización de cada barco la etiqueta va arriba, como en el resto de los campos */
+.cot-campo.tel-on{display:flex;flex-direction:column}
+.cot-campo.tel-on label{position:static;order:-1;margin:0 0 8px;font-family:var(--dato,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tenue,#566570);pointer-events:auto}
+
+/* contacto: campos de línea inferior */
+.cfield .tel-caja{border:0;border-bottom:1px solid rgba(20,33,43,.25);border-radius:0;background:transparent;box-shadow:none}
+.cfield .tel-foco .tel-caja{border-bottom-color:var(--boya);box-shadow:none}
+.cfield .tel-mal .tel-caja{border-bottom-color:var(--tel-mal);box-shadow:none}
+.cfield .tel .tel-pais{background:transparent;border-radius:0;padding-left:0}
+.cfield .tel-lista{top:54px}
+
+@media (max-width:520px){
+  .tel .tel-lista{width:100%;max-height:240px}
+  .tel .tel-pais{padding:0 10px 0 12px;gap:7px}
+}
+
+/* campos obligatorios (assets/js/campos.js) */
+label[data-req]::after{content:" *";color:var(--boya-txt,#A94526);font-weight:600}
+.req-nota{margin:2px 0 0;font-family:var(--dato,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.06em;color:var(--tenue,#566570)}
+.req-nota span{color:var(--boya-txt,#A94526);font-weight:600}
+.campo-err{margin:6px 1px 0;font-family:var(--dato,'IBM Plex Mono',monospace);font-size:11.5px;letter-spacing:.04em;line-height:1.45;color:#B42318;text-transform:none}
+.campo-err::before{content:"! ";font-weight:700}
+input[aria-invalid="true"]{border-color:#B42318!important;box-shadow:0 0 0 3px rgba(180,35,24,.1)!important}
+@media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .campo-err{color:#F4978E}}
+html[data-tema="oscuro"] .campo-err{color:#F4978E}

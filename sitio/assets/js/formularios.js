@@ -1,3 +1,12 @@
+/* El campo de teléfono con selector de país (+56) se carga junto a los formularios. */
+(function () {
+  var s = document.currentScript; if (!s || !s.src) return;
+  var base = s.src.replace(/formularios\.js.*$/, '');
+  var css = document.createElement('link'); css.rel = 'stylesheet'; css.href = base.replace(/\/js\/$/, '/css/') + 'telefono.css';
+  document.head.appendChild(css);
+  var js = document.createElement('script'); js.src = base + 'telefono.js'; document.head.appendChild(js);
+  var js2 = document.createElement('script'); js2.src = base + 'campos.js'; document.head.appendChild(js2);
+})();
 /* OCEANIC · Envío de formularios.
    OCEANIC_ENVIAR(datos, respaldo) manda la solicitud a /api/formulario (Cloudflare).
    Si el servidor no está disponible (sitio estático, sin configurar o caído) abre el correo del
