@@ -76,7 +76,7 @@
     function alcanza(f, min) { return sinMinimo || medida(f)[0] >= min; }
     var usadas = {};
     var hero = mo.hero;
-    if (hero && !alcanza(hero, 1500)) {  // portada chica: la primera foto horizontal grande de la galería, o ninguna
+    if (hero && !alcanza(hero, 1400)) {  // portada chica (el banner oficial de Aquila mide 1440 px y alcanza): la primera foto horizontal grande de la galería, o ninguna
       hero = lista.filter(function (f) { var m = medida(f); return m[0] >= 1500 && m[0] > m[1]; })[0] || null;
       if (hero) usadas[hero] = 1;
     }
@@ -103,8 +103,8 @@
       resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700, true))) r.push(f); return r; }
     };
   }
-  function img(src, alt, cls) {
-    return src ? '<img' + (cls ? ' class="' + cls + '"' : '') + ' src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy" data-ocultar>' : '';
+  function img(src, alt, cls, urgente) {  // el héroe (urgente) se pide de inmediato y con prioridad: lazy lo dejaba en blanco unos segundos
+    return src ? '<img' + (cls ? ' class="' + cls + '"' : '') + ' src="' + esc(src) + '" alt="' + esc(alt) + '"' + (urgente ? ' loading="eager" fetchpriority="high" decoding="async"' : ' loading="lazy"') + ' data-ocultar>' : '';
   }
 
   // Borrador del catálogo con la misma forma que pagina-es.json (para modelos aún sin traducción completa).
@@ -163,7 +163,7 @@
     var estudio = ESTUDIO.indexOf(marca) >= 0;
     if (estudio) document.body.classList.add('ficha-estudio');
     html.push('<header class="hero' + (estudio ? ' hero-estudio' : '') + '">' +
-      (F.hero ? '<picture class="hero-img">' + img(F.hero, mo.nombre) + '</picture><p class="hero-photo-note">Fotografía · ' + esc(info.nombre) + '</p>' : '') +
+      (F.hero ? '<picture class="hero-img">' + img(F.hero, mo.nombre, '', true) + '</picture><p class="hero-photo-note">Fotografía · ' + esc(info.nombre) + '</p>' : '') +
       '<div class="wrap hero-in">' +
         '<p class="hero-brand"><a href="' + gama + '">' + esc(info.nombre) + '</a>' + (info.pais ? ' · ' + esc(info.pais) : '') + '</p>' +
         '<h1>' + esc(mo.nombre) + '</h1>' +
