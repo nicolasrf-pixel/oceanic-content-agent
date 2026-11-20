@@ -5,7 +5,9 @@
   if (!v || !window.matchMedia) return;
   var c = navigator.connection || {};
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(max-width: 700px)').matches || c.saveData) return;
+  v.preload = 'auto';  // con preload="none" el navegador no empieza a bajar el archivo ni avisa que está listo
   v.src = v.getAttribute('data-src');
+  v.load();
   v.addEventListener('canplay', function () { v.classList.add('on'); var p = v.play(); if (p && p.catch) p.catch(function () { v.classList.remove('on'); }); }, { once: true });
   document.addEventListener('visibilitychange', function () { if (document.hidden) v.pause(); else if (v.classList.contains('on')) v.play().catch(function () {}); });
 })();
