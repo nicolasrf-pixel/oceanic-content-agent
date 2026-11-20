@@ -64,7 +64,9 @@
     items.map(function(x){return '<a href="'+x[1]+'" class="nav-a">'+x[0]+'</a>';}).join('')+
     '</nav><div class="bar-act">'+
     '<a href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." target="_blank" rel="noopener" class="btn">Habla con un especialista</a>'+
-    '<button class="tema-btn" id="temaBtn" type="button" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="t-luna" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="t-sol" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></svg></button>'+
+    '<button class="tema-btn tema-sw" id="temaBtn" type="button" role="switch" aria-checked="false" aria-label="Navegación nocturna">'+
+      '<span class="tsw-fondo" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></span>'+
+      '<span class="tsw-thumb" aria-hidden="true"><span class="t-sol"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></span><span class="t-luna"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></span></span></button>'+
     '<button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>'+
     '</div></div></div>';
   var n=document.getElementById('nav'); if(n) n.outerHTML=nav;
@@ -91,7 +93,8 @@
   var html=document.documentElement, mq=window.matchMedia('(prefers-color-scheme: dark)');
   function oscuro(){ var t=html.getAttribute('data-tema'); return t ? t==='oscuro' : mq.matches; }
   function pintarTema(){ var b=document.getElementById('temaBtn'); if(!b) return; var o=oscuro();
-    b.classList.toggle('es-oscuro',o); b.setAttribute('aria-label',o?'Cambiar a modo claro':'Cambiar a modo oscuro'); }
+    b.classList.toggle('es-oscuro',o); b.setAttribute('aria-checked',o?'true':'false');
+    b.setAttribute('data-modo',o?'Navegación nocturna':'Navegación de día'); b.title=o?'Navegación nocturna · cambiar a día':'Navegación de día · cambiar a nocturna'; }  // interruptor: apagado = modo claro, encendido = modo oscuro
   setTimeout(function(){
     var b=document.getElementById('temaBtn'); if(!b) return;
     b.addEventListener('click',function(){

@@ -482,10 +482,25 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 .mcard:hover .mcard-cta::after{transform:translateX(3px)}
 
 /* botón de modo oscuro (nav) */
-.tema-btn{background:none;border:1px solid var(--linea-osc);color:var(--natural);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:border-color .25s,transform .25s}
-.tema-btn:hover{border-color:var(--natural);transform:rotate(-12deg)}
-.tema-btn:focus-visible{outline:2px solid var(--boya);outline-offset:2px}
-.tema-btn .t-sol{display:none}.tema-btn.es-oscuro .t-sol{display:inline}.tema-btn.es-oscuro .t-luna{display:none}
+/* Interruptor claro / oscuro: sol a la izquierda, luna a la derecha; la perilla lleva el ícono del modo activo */
+.tema-btn{position:relative;display:block;width:60px;height:32px;padding:0;border-radius:999px;border:1px solid var(--linea-osc);background:rgba(255,255,255,.07);color:var(--natural);cursor:pointer;
+  transition:border-color .25s,background .25s;flex:0 0 auto}
+.tema-btn:hover{border-color:var(--natural)}
+.tema-btn:focus-visible{outline:2px solid var(--boya);outline-offset:3px}
+.tsw-fondo{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 9px;color:rgba(232,235,237,.5)}
+.tsw-fondo svg{display:block}
+.tsw-thumb{position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--natural);color:var(--noche);
+  box-shadow:0 1px 4px rgba(0,0,0,.35);transition:transform .32s cubic-bezier(.16,.84,.34,1),background .25s}
+.tsw-thumb svg{display:block}
+.tema-btn .t-sol,.tema-btn .t-luna{display:grid;place-items:center}
+.tema-btn .t-luna{display:none}
+.tema-btn.es-oscuro .tsw-thumb{transform:translateX(28px)}
+.tema-btn.es-oscuro .t-sol{display:none}.tema-btn.es-oscuro .t-luna{display:grid}
+/* nombre del modo activo al pasar el mouse o enfocar: «Navegación de día» / «Navegación nocturna» */
+.tema-btn[data-modo]::after{content:attr(data-modo);position:absolute;top:calc(100% + 10px);right:0;white-space:nowrap;padding:6px 10px;border-radius:4px;background:var(--noche);color:#fff;
+  border:1px solid var(--linea-osc);font-family:var(--dato);font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:0;transform:translateY(-4px);pointer-events:none;transition:opacity .2s,transform .2s;z-index:70}
+.tema-btn[data-modo]:hover::after,.tema-btn[data-modo]:focus-visible::after{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.tsw-thumb{transition:none}}
 /* aviso de privacidad */
 .aviso-priv{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:120;max-width:520px;background:var(--noche);color:#E8EBED;
   padding:16px 18px;display:flex;gap:16px;align-items:center;box-shadow:0 20px 40px -20px rgba(0,0,0,.5);border:1px solid var(--linea-osc)}
