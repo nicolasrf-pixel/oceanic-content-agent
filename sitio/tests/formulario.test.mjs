@@ -308,3 +308,14 @@ test('CRM: solo manda los campos que existen en Brevo y entra a la lista de su m
   assert.deepEqual(Object.keys(c.cuerpo.attributes).sort(), ['MARCA', 'NOMBRE']);
   assert.deepEqual(c.cuerpo.listIds, [31]);
 });
+
+test('teléfono: va a Brevo como SMS y WHATSAPP en formato internacional, solo si es válido', async () => {
+  const { atributos } = await import('../functions/api/formulario.js');
+  const base = { tipo: 'cotizacion', nombre: 'Ana', email: 'ana@dominio.cl', fecha: '2026-11-20T10:00:00Z', politica: 'v1' };
+  const ok = atributos({ ...base, telefono: '+56 9 8765 4321' });
+  assert.equal(ok.SMS, '+56987654321');
+  assert.equal(ok.WHATSAPP, '+56987654321');
+  const mal = atributos({ ...base, telefono: '9876' });
+  assert.equal(mal.SMS, undefined);          // un número a medias no se manda: Brevo rechazaría el contacto completo
+  assert.equal(atributos({ ...base }).SMS, undefined);
+});
