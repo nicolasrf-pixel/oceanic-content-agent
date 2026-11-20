@@ -482,25 +482,48 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
 .mcard:hover .mcard-cta::after{transform:translateX(3px)}
 
 /* botón de modo oscuro (nav) */
-/* Interruptor claro / oscuro: sol a la izquierda, luna a la derecha; la perilla lleva el ícono del modo activo */
-.tema-btn{position:relative;display:block;width:60px;height:32px;padding:0;border-radius:999px;border:1px solid var(--linea-osc);background:rgba(255,255,255,.07);color:var(--natural);cursor:pointer;
-  transition:border-color .25s,background .25s;flex:0 0 auto}
-.tema-btn:hover{border-color:var(--natural)}
-.tema-btn:focus-visible{outline:2px solid var(--boya);outline-offset:3px}
-.tsw-fondo{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 9px;color:rgba(232,235,237,.5)}
-.tsw-fondo svg{display:block}
-.tsw-thumb{position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--natural);color:var(--noche);
-  box-shadow:0 1px 4px rgba(0,0,0,.35);transition:transform .32s cubic-bezier(.16,.84,.34,1),background .25s}
-.tsw-thumb svg{display:block}
+/* Interruptor «Navegación de día / nocturna»: canal hundido con una perilla grande que se corre de lado a lado.
+   Al encender (noche) el canal se llena de naranja; las etiquetas Día y Noche se iluminan según el modo activo. */
+.tema-btn{display:inline-flex;align-items:center;gap:10px;position:relative;margin:0;padding:2px 0;border:0;background:none;color:var(--natural);cursor:pointer;flex:0 0 auto;-webkit-tap-highlight-color:transparent}
+.tema-btn:focus-visible{outline:2px solid var(--boya);outline-offset:4px;border-radius:999px}
+.tsw-eti{display:none;font-family:var(--dato);font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(232,235,237,.4);transition:color .3s}
+@media (min-width:1500px){.tsw-eti{display:inline}}
+.tema-btn:not(.es-oscuro) .tsw-dia,.tema-btn.es-oscuro .tsw-noche{color:#fff}
+.tsw-pista{position:relative;display:block;width:68px;height:34px;border-radius:999px;background:linear-gradient(#222f39,#161f27);border:1px solid rgba(255,255,255,.2);
+  box-shadow:0 1px 0 rgba(255,255,255,.06) inset,0 3px 8px rgba(0,0,0,.35);transition:box-shadow .35s,border-color .35s}
+.tsw-canal{position:absolute;z-index:0;inset:4px;border-radius:999px;overflow:hidden;background:linear-gradient(#0a1218,#141f27);box-shadow:inset 0 2px 5px rgba(0,0,0,.7)}
+.tsw-canal::after{content:"";position:absolute;inset:0;background:linear-gradient(#e0724f,#b8502f);transform:translateX(-101%);transition:transform .38s cubic-bezier(.16,.84,.34,1)}
+.tsw-ic{position:absolute;top:50%;transform:translateY(-50%);z-index:2;display:grid;place-items:center;color:rgba(232,235,237,.7)}
+.tsw-ic svg{display:block;width:15px;height:15px}
+.tsw-ic-sol{left:8px}.tsw-ic-luna{right:8px}
+.tema-btn.es-oscuro .tsw-ic{color:rgba(255,255,255,.95)}
+.tsw-perilla{position:absolute;z-index:1;top:2px;left:2px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:#14212B;
+  background:radial-gradient(circle at 35% 28%,#f4f6f7,#b9c2c8 72%);box-shadow:0 2px 6px rgba(0,0,0,.55),inset 0 -2px 3px rgba(20,33,43,.25),0 0 0 1px rgba(255,255,255,.35) inset;
+  transition:transform .38s cubic-bezier(.16,.84,.34,1)}
+.tema-btn:hover .tsw-perilla{box-shadow:0 3px 8px rgba(0,0,0,.6),inset 0 -2px 3px rgba(20,33,43,.25),0 0 0 1px rgba(255,255,255,.5) inset}
+.tema-btn:active .tsw-perilla{transform:scale(.94)}
+.tema-btn.es-oscuro:active .tsw-perilla{transform:translateX(34px) scale(.94)}
+.tsw-perilla svg{display:block}
 .tema-btn .t-sol,.tema-btn .t-luna{display:grid;place-items:center}
 .tema-btn .t-luna{display:none}
-.tema-btn.es-oscuro .tsw-thumb{transform:translateX(28px)}
+.tema-btn.es-oscuro .tsw-perilla{transform:translateX(34px)}
+.tema-btn.es-oscuro .tsw-canal::after{transform:none}
+.tema-btn.es-oscuro .tsw-pista{border-color:rgba(224,114,79,.55);box-shadow:0 0 14px rgba(203,92,60,.38),0 3px 8px rgba(0,0,0,.35)}
 .tema-btn.es-oscuro .t-sol{display:none}.tema-btn.es-oscuro .t-luna{display:grid}
+/* en pantallas medianas el interruptor es más chico para que el menú no pase a más líneas */
+@media (max-width:1100px){
+  .tsw-pista{width:58px;height:30px}.tsw-canal{inset:3px}
+  .tsw-perilla{width:24px;height:24px;top:2px;left:2px}.tsw-perilla svg{width:14px;height:14px}
+  .tema-btn.es-oscuro .tsw-perilla,.tema-btn.es-oscuro:active .tsw-perilla{transform:translateX(28px)}
+  .tema-btn.es-oscuro:active .tsw-perilla{transform:translateX(28px) scale(.94)}
+}
+/* entre 821 y 1100 px el botón de contacto no se parte en 4 líneas: quienes se acomodan son los enlaces del menú */
+@media (min-width:821px) and (max-width:1100px){.bar-act .btn{white-space:nowrap;font-size:14px;padding-left:16px;padding-right:16px}.nav{flex-wrap:wrap;gap:8px 22px;min-width:0}}
 /* nombre del modo activo al pasar el mouse o enfocar: «Navegación de día» / «Navegación nocturna» */
 .tema-btn[data-modo]::after{content:attr(data-modo);position:absolute;top:calc(100% + 10px);right:0;white-space:nowrap;padding:6px 10px;border-radius:4px;background:var(--noche);color:#fff;
   border:1px solid var(--linea-osc);font-family:var(--dato);font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:0;transform:translateY(-4px);pointer-events:none;transition:opacity .2s,transform .2s;z-index:70}
 .tema-btn[data-modo]:hover::after,.tema-btn[data-modo]:focus-visible::after{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.tsw-thumb{transition:none}}
+@media (prefers-reduced-motion:reduce){.tsw-perilla,.tsw-canal::after,.tsw-pista,.tsw-eti{transition:none}}
 /* aviso de privacidad */
 .aviso-priv{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:120;max-width:520px;background:var(--noche);color:#E8EBED;
   padding:16px 18px;display:flex;gap:16px;align-items:center;box-shadow:0 20px 40px -20px rgba(0,0,0,.5);border:1px solid var(--linea-osc)}

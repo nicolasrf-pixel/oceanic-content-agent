@@ -210,5 +210,5 @@ label.consent a{color:var(--tinta)}
 /* El menú se arma con JavaScript después de pintar: se reserva su altura para que la página no salte (CLS).
    Mide lo mismo que topbar + barra en cada ancho; al insertarse el menú, el marcador desaparece. */
 #nav{min-height:109px}
-@media(min-width:821px){#nav{min-height:138px}}
+@media(min-width:821px){#nav{min-height:144px}}
 @media(min-width:1200px){#nav{min-height:clamp(116px,calc(70px + 3.9vw),147px)}}
