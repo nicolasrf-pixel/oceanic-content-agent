@@ -35,8 +35,8 @@ def indice_biblioteca():
 # Sitios que bloquean las descargas automáticas (captcha / anti-bots). No se eluden: si la biblioteca tiene una copia
 # oficial en otro origen (p. ej. la misma foto publicada en oceanic.cl, decisión Oceanic 2026-10-04), se usa esa.
 BLOQUEADOS = ('saffieryachts.com', 'www.solarisyachts.com')
-# De esos, el que también falla en el build de Cloudflare (403 desde 2026-11): sus fotos no se construyen nunca.
-# solarisyachts.com sí responde al build (las fotos que apuntan allí existen en el sitio publicado).
+# Fotos que el build de Cloudflare no puede descargar (403 desde 2026-11) y que no están versionadas en
+# sitio/assets/img/: no se construyen nunca. Las de Solaris sí están en el repo (ver .gitignore).
 SIN_DESCARGA = ('saffieryachts.com',)
 
 

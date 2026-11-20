@@ -154,7 +154,9 @@ canales de terceros se marcan; reseñas de revistas (PDF) a `excluded_sources`. 
 mismo modelo (un paquete). Desde 2026-11 saffieryachts.com bloquea las descargas automáticas (Cloudflare 403; no se elude). Decisión Oceanic
 2026-11-19: se usan las copias que oceanic.cl publica con el **mismo nombre de archivo** que una imagen oficial, revisadas a la vista
 (misma mecánica que Solaris: `media --from-dir` + `mirror.json`; categoría visual en `drafts/saffier/<slug>.json › image_overrides`).
-El distribuidor Bluenose Yachts (EE. UU.) se comparó y casi no comparte archivos con la galería oficial: no se usa.
+El distribuidor Bluenose Yachts (EE. UU.) se comparó y casi no comparte archivos con la galería oficial: no se usa. Fotos bajadas a mano
+por Oceanic en el navegador (SE 28 Leopard, 2026-11-20): `media --from-dir` en la biblioteca y copias web versionadas en
+`sitio/assets/img/modelos/saffier-*` (el build no puede bajarlas); `tools/sitio_fotos.py` saca de las galerías las fotos sin fuente.
 
 **VX One:** un solo modelo (sportboat one-design) en vxone.com (Wix). `adapters/vxone.py`: `extract()` por página y
 `merge(home, specs)` arma el extract del modelo (S1 = página Specifications, S3 = portada con el mismo bloque "THE BOAT" y el
