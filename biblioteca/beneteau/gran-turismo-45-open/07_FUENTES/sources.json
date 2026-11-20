@@ -1,0 +1,48 @@
+{
+  "model": "Gran Turismo 45 Open",
+  "policy": "Datos solo de la web oficial del producto. PDF (lista de equipamiento, brochure) solo como documentos.",
+  "sources": [
+    {
+      "id": "S1",
+      "short": "Web oficial · Gran Turismo 45 Open",
+      "title": "Gran Turismo 45 Open",
+      "type": "official_product_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-45-open",
+      "accessed_at": "2026-11-20",
+      "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+      "model_year_scope": "NO DECLARADO",
+      "extract": "07_FUENTES/extract/S1-gran-turismo-45-open.page.json"
+    },
+    {
+      "id": "S2",
+      "short": "Web oficial · gama",
+      "title": "The new Gran Turismo range",
+      "type": "official_range_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/yachts-motorboats/gran-turismo-new",
+      "accessed_at": "2026-11-20",
+      "retrieved_via": "referencia",
+      "model_year_scope": "gama"
+    },
+    {
+      "id": "S3",
+      "short": "Web oficial · versión EE. UU.",
+      "title": "Gran Turismo 45 Open",
+      "type": "official_product_page",
+      "publisher": "BENETEAU (Groupe Beneteau, Francia)",
+      "url": "https://www.beneteau.com/en-us/new-gran-turismo-range/gran-turismo-45-open",
+      "accessed_at": "2026-11-20",
+      "retrieved_via": "Firecrawl rawHtml + adapters/beneteau.py",
+      "model_year_scope": "NO DECLARADO",
+      "note": "Misma página en su versión en inglés para EE. UU."
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Configurador Beneteau",
+      "url": "https://configurator.beneteau.com/",
+      "reason": "Requiere sesión de navegador; no se pudo leer. No aporta datos."
+    }
+  ]
+}

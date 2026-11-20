@@ -337,6 +337,10 @@ export function atributos(d) {
   };
   if (d.nombre) a.NOMBRE = d.nombre;  // la cuenta Brevo de Oceanic usa NOMBRE (en español), no FIRSTNAME
   if (d.telefono) a.TELEFONO = d.telefono;
+  // En Brevo el teléfono vive en SMS y WHATSAPP (texto) y exige formato internacional («+56987654321»): si no lo cumple
+  // no se manda, porque Brevo rechazaría el contacto entero. El sitio lo guarda como «+56 9 8765 4321».
+  const e164 = String(d.telefono || '').replace(/[^\d+]/g, '');
+  if (/^\+\d{8,15}$/.test(e164)) { a.SMS = e164; a.WHATSAPP = e164; }
   // CONSENTIMIENTO_MARKETING no va aquí: solo se guarda vía la doble confirmación de Puerto.
   for (const k of Object.keys(a)) if (a[k] === '') delete a[k];
   return a;

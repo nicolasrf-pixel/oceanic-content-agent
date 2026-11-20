@@ -10,18 +10,19 @@
 <meta content="Representamos a Beneteau, Lagoon, Axopar, Solaris y otras marcas de referencia mundial en Chile. Venta de embarcaciones nuevas, usados y equipamiento náutico." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
-<link as="image" fetchpriority="high" href="assets/img/home-hero.webp" rel="preload"/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
+<link as="image" fetchpriority="high" href="assets/img/home-hero-s.webp" media="(max-width:700px)" rel="preload"/>
+<link as="image" fetchpriority="high" href="assets/img/home-hero.webp" media="(min-width:701px)" rel="preload"/>
 <link href="assets/css/oceanic.css" rel="stylesheet"/>
 <link href="assets/css/home.css" rel="stylesheet"/>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Oceanic","url":"https://oceanic.cl","foundingDate":"1994","areaServed":"CL","description":"Representación de marcas náuticas internacionales en Chile.","brand":[{"@type":"Brand","name":"Beneteau"},{"@type":"Brand","name":"Lagoon"},{"@type":"Brand","name":"Axopar"},{"@type":"Brand","name":"Solaris"},{"@type":"Brand","name":"Saffier"},{"@type":"Brand","name":"Aquila"},{"@type":"Brand","name":"XO Boats"},{"@type":"Brand","name":"Excess Catamarans"},{"@type":"Brand","name":"VX One"},{"@type":"Brand","name":"Switch"},{"@type":"Brand","name":"Oceanic Power"}]}
-</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","LocalBusiness"],"name":"Oceanic","url":"https://oceanic.cl","foundingDate":"1994","areaServed":"CL","description":"Representación de marcas náuticas internacionales en Chile.","brand":[{"@type":"Brand","name":"Beneteau"},{"@type":"Brand","name":"Lagoon"},{"@type":"Brand","name":"Axopar"},{"@type":"Brand","name":"Solaris"},{"@type":"Brand","name":"Saffier"},{"@type":"Brand","name":"Aquila"},{"@type":"Brand","name":"XO Boats"},{"@type":"Brand","name":"Excess Catamarans"},{"@type":"Brand","name":"VX One"},{"@type":"Brand","name":"Switch"},{"@type":"Brand","name":"Oceanic Power"}],"@id":"https://oceanic.cl/#empresa","logo":"https://oceanic.cl/assets/img/marca/logo-est.svg","image":"https://oceanic.cl/assets/img/compartir.jpg","telephone":"+56 2 2953 7321","email":"ventas@oceanic.cl","address":{"@type":"PostalAddress","streetAddress":"Alonso de Córdova 2653, of. 302","addressLocality":"Vitacura","addressRegion":"Región Metropolitana","addressCountry":"CL"},"sameAs":["https://www.instagram.com/oceanic_chile/","https://www.facebook.com/oceanic.chile"],"slogan":"Marcas náuticas de referencia mundial en Chile"},{"@type":"WebSite","@id":"https://oceanic.cl/#sitio","url":"https://oceanic.cl/","name":"Oceanic","inLanguage":"es-CL","publisher":{"@id":"https://oceanic.cl/#empresa"}}]}</script>
 <link href="assets/css/orden.css" rel="stylesheet"/>
 <link href="assets/css/oscuro.css" rel="stylesheet"/>
 <script>try{var t=localStorage.getItem("oceanic-tema");if(t)document.documentElement.setAttribute("data-tema",t)}catch(e){}</script>
 <!--SEO-->
 <link rel="canonical" href="https://oceanic.narf.workers.dev/"/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
 <meta property="og:site_name" content="Oceanic"/>
 <meta property="og:locale" content="es_CL"/>
 <meta property="og:type" content="website"/>
@@ -42,11 +43,12 @@
 <body data-asset-base="assets/img/">
 <!-- NAV -->
 <div id="nav"></div>
+<main id="contenido">
 
 <!-- 1 · HERO -->
 <header class="hhero">
 <div class="hhero-media">
-<video autoplay="" class="hhero-vid" data-src="https://media.ffycdn.net/eu/axopar/eYNU74JR7qVLocUpXse4.mp4" loop="" muted="" playsinline="" poster="assets/img/home-hero.webp" preload="none">
+<video autoplay="" class="hhero-vid" data-src="https://media.ffycdn.net/eu/axopar/eYNU74JR7qVLocUpXse4.mp4" loop="" muted="" playsinline="" preload="none">
 </video>
 </div>
 <div class="wrap-wide hhero-in">
@@ -325,7 +327,7 @@
 <p>Velas, jarcia, cabos, electrónica y propulsión, elegidos por el mismo equipo que representa las marcas.</p>
 <a class="btn equip-cta" href="equipamiento/index.html">Ver equipamiento</a>
 </div>
-<div aria-hidden="true" class="equip-fotos"><figure><img alt="" loading="lazy" src="assets/img/equipamiento/north-sails.webp"/><img alt="" class="equip-logo" loading="lazy" src="assets/img/equipamiento/north-sails-logo.png"/></figure><figure><img alt="" loading="lazy" src="assets/img/equipamiento/lancelin.webp"/><img alt="" class="equip-logo" loading="lazy" src="assets/img/equipamiento/lancelin-logo.png"/></figure><figure><img alt="" loading="lazy" src="assets/img/equipamiento/simrad.webp"/><img alt="" class="equip-logo" loading="lazy" src="assets/img/equipamiento/simrad-logo.png"/></figure></div>
+<div aria-hidden="true" class="equip-fotos"><figure><img alt="Equipamiento North Sails" loading="lazy" src="assets/img/equipamiento/north-sails.webp"/><img alt="Logo de North Sails" class="equip-logo" loading="lazy" src="assets/img/equipamiento/north-sails-logo.png"/></figure><figure><img alt="Equipamiento Lancelin" loading="lazy" src="assets/img/equipamiento/lancelin.webp"/><img alt="Logo de Lancelin" class="equip-logo" loading="lazy" src="assets/img/equipamiento/lancelin-logo.png"/></figure><figure><img alt="Equipamiento Simrad" loading="lazy" src="assets/img/equipamiento/simrad.webp"/><img alt="Logo de Simrad" class="equip-logo" loading="lazy" src="assets/img/equipamiento/simrad-logo.png"/></figure></div>
 </div>
 <div class="wrap-wide"><ul aria-label="Marcas de equipamiento" class="equip-marcas"><li><img alt="North Sails" data-forma="alto" loading="lazy" src="assets/img/equipamiento/north-sails-logo.png"/></li><li><img alt="Lancelin" data-forma="alto" loading="lazy" src="assets/img/equipamiento/lancelin-logo.png"/></li><li><img alt="Seldén" loading="lazy" src="assets/img/equipamiento/selden-logo.png"/></li><li><img alt="Lewmar" loading="lazy" src="assets/img/equipamiento/lewmar-logo.png"/></li><li><img alt="Simrad" loading="lazy" src="assets/img/equipamiento/simrad-logo.png"/></li><li><img alt="B&G" loading="lazy" src="assets/img/equipamiento/bg-logo.png"/></li><li><img alt="Vakaros" loading="lazy" src="assets/img/equipamiento/vakaros-logo.png"/></li><li><img alt="Flexofold" loading="lazy" src="assets/img/equipamiento/flexofold-logo.png"/></li></ul></div>
 </section>
@@ -390,6 +392,7 @@
 </div>
 </section>
 <!-- FOOTER -->
+</main>
 <div id="foot"></div>
 <div class="drawer" hidden="" id="drawer"></div>
 <div class="mob"><a class="btn" href="https://wa.me/56229537322?text=Hola%20Oceanic%2C%20quiero%20hablar%20con%20un%20especialista." rel="noopener" target="_blank">Habla con un especialista</a></div>

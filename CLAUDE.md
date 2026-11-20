@@ -242,7 +242,8 @@ proceso en `docs/ACTUALIZACIONES.md`, informes en `docs/informes/`).
 oficiales con `biblioteca/*/07_FUENTES/sources.json` y el catálogo, y entrega un informe de modelos nuevos, movidos de
 dirección y retirados. Con aprobación en pantalla, lo retirado se oculta (documento `publicacion`, reversible) y lo demás
 sale como pull request; el contenido nuevo se sigue cargando con el proceso de la biblioteca. Secreto `GH_TOKEN` en el
-Worker. Detalle en `docs/REVISION-MARCAS.md`.
+Worker. **Aprobar es automático (2026-11-20):** el flujo `aplicar-revision.yml` + `tools/aplicar_revision.py` corrige direcciones y carga los modelos nuevos de punta a punta
+(traducción con el secreto `ANTHROPIC_API_KEY`) y fusiona el pull request solo si todo sale bien. Detalle en `docs/REVISION-MARCAS.md`.
 
 **Correo de formularios (decisión Oceanic 2026-11-05):** motor propio por SMTP de Google Workspace (`sitio/functions/api/smtp.js`, secreto `SMTP_CLAVE` = contraseña de aplicación de contacto@oceanic.cl). Brevo solo guarda el CRM (listas «Web · <Marca>») y Puerto; no envía cotizaciones. Detalle en `docs/FORMULARIOS.md`.
 

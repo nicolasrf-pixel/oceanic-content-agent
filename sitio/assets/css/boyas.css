@@ -49,7 +49,7 @@
 .bcita{margin:0;border-left:3px solid var(--boya);padding-left:clamp(18px,2vw,30px)}
 .bcita p{font-family:var(--display);font-weight:500;font-size:clamp(22px,2vw,36px);line-height:1.25;letter-spacing:-.015em;margin:0 0 14px;color:#fff}
 .bcita cite{font-style:normal;font-family:var(--dato);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--niebla)}
-.bconf-txt .eyebrow{color:var(--boya)}
+.bconf-txt .eyebrow{color:var(--boya-osc)}
 .bconf-txt p{color:rgba(255,255,255,.78);line-height:1.6;margin:12px 0 0}
 .bconf-txt .spec-fuente{color:rgba(255,255,255,.5);font-size:13px}
 

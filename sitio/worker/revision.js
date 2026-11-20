@@ -1,7 +1,7 @@
 /* OCEANIC · Revisión de marcas desde el administrador.
    El Worker no corre Python ni lee las webs de los fabricantes: lanza el flujo «Revisar marcas» de GitHub Actions
    (.github/workflows/revisar-marcas.yml), que deja un informe en la rama revision-informes, y aquí se lee ese informe.
-   Al aprobar, se abre un pull request con lo aprobado (nada se publica solo). Lo que se oculta del sitio se aplica
+   Al aprobar, se abre un pull request y el flujo «Aplicar revisión aprobada» lo aplica y lo fusiona solo si todo sale bien. Lo que se oculta del sitio se aplica
    desde el administrador con el mecanismo de publicación de siempre (documento «publicacion», con historial).
 
    Secreto del Worker:   GH_TOKEN  (token de GitHub de acceso fino, solo para este repositorio:
@@ -126,7 +126,7 @@ export function validarAprobacion(e) {
 
 export function cuerpoPR(a, email, fecha) {
   const l = [`Aprobado desde el administrador por ${texto(email, 80)} el ${fecha}.`, '',
-    'Este pull request no cambia el sitio: deja la lista de lo aprobado para cargarlo con el proceso de la biblioteca (extraer, traducir, revisar fotos).', ''];
+    'Este pull request se aplica solo: el flujo «Aplicar revisión aprobada» corrige las direcciones, carga los modelos nuevos (extraer, traducir, fotos, catálogo) y, si todo sale bien y pasan las pruebas, lo fusiona. Si algo falla, queda abierto con el aviso.', ''];
   if (a.cargar.length) {
     l.push('## Modelos nuevos para cargar', '', ...a.cargar.map((x) => `- ${x.marca}: ${x.titulo || x.url}\n  ${x.url}`), '');
   }

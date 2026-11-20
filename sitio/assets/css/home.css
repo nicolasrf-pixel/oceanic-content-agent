@@ -166,7 +166,7 @@
 .used-txt p{max-width:52ch}
 .used-cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:clamp(20px,2vw,32px)}
 .used-link{font-family:var(--display);font-size:clamp(15px,.3vw + 13px,17px);
-  color:var(--boya);text-decoration:none;border-bottom:1px solid rgba(203,92,60,.4);padding-bottom:2px}
+  color:var(--boya-txt);text-decoration:none;border-bottom:1px solid rgba(169,69,38,.4);padding-bottom:2px}
 .used-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(14px,1.6vw,28px)}
 @media(max-width:560px){.used-cards{grid-template-columns:1fr}}
 .uc{text-decoration:none;color:inherit;display:block;background:var(--arena);
@@ -186,7 +186,7 @@
 .equip{background:var(--noche);color:#fff;padding:clamp(56px,6vw,104px) 0 clamp(36px,4vw,60px)}
 .equip-in{display:grid;gap:clamp(28px,4vw,72px);align-items:center}
 @media(min-width:900px){.equip-in{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}}
-.equip-txt .eyebrow{color:var(--boya)}
+.equip-txt .eyebrow{color:var(--boya-osc)}
 .equip-txt h2{color:#fff;font-size:clamp(28px,2.6vw,48px);line-height:1.06;margin:14px 0 .5em}
 .equip-txt p{color:rgba(255,255,255,.76);font-weight:300;max-width:46ch;margin-bottom:clamp(22px,2.4vw,34px)}
 .equip-fotos{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(8px,.8vw,14px);margin:0}
@@ -337,7 +337,7 @@
 .used-txt p{max-width:52ch}
 .used-cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:clamp(20px,2vw,32px)}
 .used-link{font-family:var(--display);font-size:clamp(15px,.3vw + 13px,17px);
-  color:var(--boya);text-decoration:none;border-bottom:1px solid rgba(203,92,60,.4);padding-bottom:2px}
+  color:var(--boya-txt);text-decoration:none;border-bottom:1px solid rgba(169,69,38,.4);padding-bottom:2px}
 .used-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(14px,1.6vw,28px)}
 @media(max-width:560px){.used-cards{grid-template-columns:1fr}}
 .uc{text-decoration:none;color:inherit;display:block;background:var(--arena);
@@ -357,7 +357,7 @@
 .equip{background:var(--noche);color:#fff;padding:clamp(56px,6vw,104px) 0 clamp(36px,4vw,60px)}
 .equip-in{display:grid;gap:clamp(28px,4vw,72px);align-items:center}
 @media(min-width:900px){.equip-in{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}}
-.equip-txt .eyebrow{color:var(--boya)}
+.equip-txt .eyebrow{color:var(--boya-osc)}
 .equip-txt h2{color:#fff;font-size:clamp(28px,2.6vw,48px);line-height:1.06;margin:14px 0 .5em}
 .equip-txt p{color:rgba(255,255,255,.76);font-weight:300;max-width:46ch;margin-bottom:clamp(22px,2.4vw,34px)}
 .equip-fotos{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(8px,.8vw,14px);margin:0}
@@ -430,7 +430,7 @@
 .d-txt p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 /* celular: sin video; la foto del barco arriba, despejada del texto */
 @media(max-width:700px){.hhero-media{background:linear-gradient(to bottom,rgba(20,33,43,0) 36vw,var(--noche) 85vw),
-  var(--noche) var(--hh-img,url(../img/home-hero.webp)) 64% 0/128% auto no-repeat}}
+  var(--noche) var(--hh-img,url(../img/home-hero-s.webp)) 64% 0/128% auto no-repeat}}
 
 /* ---------- cierre: claro, en dos columnas, para no fundirse con el pie oscuro ---------- */
 .cierre{background:var(--papel);padding:var(--rhythm) 0}
@@ -478,7 +478,7 @@
 .hboyas-in{position:relative;z-index:2;display:grid;gap:clamp(32px,4vw,64px);align-items:end;width:100%}
 @media(min-width:1000px){.hboyas-in{grid-template-columns:minmax(0,6fr) minmax(0,5fr)}}
 .hboyas-logo{display:block;height:auto;width:auto;max-height:30px;max-width:220px;margin-bottom:clamp(22px,2.4vw,34px)}
-.hboyas-txt .eyebrow{color:var(--boya)}
+.hboyas-txt .eyebrow{color:var(--boya-osc)}
 .hboyas-txt h2{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1;font-size:clamp(38px,5vw,86px);margin:14px 0 .4em;color:#fff}
 .hboyas-txt p{color:rgba(255,255,255,.82);font-weight:300;font-size:clamp(17px,.5vw + 14px,21px);line-height:1.55;max-width:46ch;margin:0}
 .hboyas-cifras{list-style:none;margin:clamp(26px,3vw,44px) 0;padding:clamp(18px,2vw,26px) 0 0;border-top:1px solid rgba(255,255,255,.18);

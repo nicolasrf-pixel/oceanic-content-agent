@@ -1,0 +1,87 @@
+# Aplicar lo aprobado en «Revisar marcas»: corrige direcciones, carga los modelos nuevos de punta a punta y, si todo salió bien
+# y pasan las pruebas, fusiona el pull request solo (al fusionar, Cloudflare publica el sitio).
+# Se dispara solo cuando el administrador deja la lista aprobada (revision/aprobados/*.json) en una rama revision-aprobada-*.
+#
+# Secretos del repositorio (Settings › Secrets and variables › Actions):
+#   ANTHROPIC_API_KEY  traduce lo que falta y redacta los textos cortos. Sin ella, el modelo queda cargado en la biblioteca,
+#                      el pull request queda abierto con el aviso «falta traducir» y NO se publica nada en inglés.
+#   FIRECRAWL_API_KEY  opcional; solo para webs que bloquean la lectura directa.
+name: Aplicar revisión aprobada
+
+on:
+  push:
+    branches: ['revision-aprobada-*']
+    paths: ['revision/aprobados/*.json']
+
+concurrency:
+  group: aplicar-revision
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RAMA: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar herramientas
+        run: |
+          pip install -r tools/requirements.txt
+          npm install --prefix /tmp/oceanic-build --no-audit --no-fund --loglevel=error sharp@0.33.5
+      - name: Aplicar lo aprobado
+        id: aplicar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          SHARP_DIR: /tmp/oceanic-build
+        run: |
+          lista=$(git log -1 --name-only --pretty=format: -- revision/aprobados | head -1)
+          echo "Lista aprobada: $lista"
+          python tools/aplicar_revision.py "$lista" --salida=/tmp/resumen.json | tee /tmp/resumen.txt
+          echo "completo=$(python -c "import json;print(str(json.load(open('/tmp/resumen.json'))['completo']).lower())")" >> "$GITHUB_OUTPUT"
+      - name: Pruebas del sitio y de las herramientas
+        id: pruebas
+        run: |
+          (cd sitio && node --test tests/*.test.mjs) && (cd tools && python -m unittest discover -s tests)
+      - name: Guardar los cambios en la rama
+        run: |
+          git config user.name "revision-marcas"
+          git config user.email "revision-marcas@users.noreply.github.com"
+          git add -A -- biblioteca drafts traducciones sitio
+          if git diff --cached --quiet; then echo "Sin cambios que guardar"; else
+            git commit -q -m "Revisión de marcas: cambios aplicados automáticamente"
+            git push origin "HEAD:${RAMA}"
+          fi
+      - name: Avisar y, si todo salió bien, fusionar
+        if: always()
+        run: |
+          for i in $(seq 1 24); do gh pr view "$RAMA" >/dev/null 2>&1 && break; sleep 5; done   # el PR lo abre el administrador justo después
+          {
+            echo "### Resultado automático"
+            echo '```'
+            cat /tmp/resumen.txt 2>/dev/null || echo "No se pudo aplicar (revisar el registro de la ejecución)"
+            echo '```'
+            [ "${{ steps.pruebas.outcome }}" = "failure" ] && echo "**Fallaron las pruebas: no se fusiona.**"
+          } > /tmp/comentario.md
+          gh pr comment "$RAMA" --body-file /tmp/comentario.md || true
+          if [ "${{ steps.aplicar.outputs.completo }}" = "true" ] && [ "${{ steps.pruebas.outcome }}" = "success" ]; then
+            gh pr merge "$RAMA" --squash --delete-branch
+            echo "Fusionado: Cloudflare publica el sitio solo."
+          else
+            echo "No se fusiona sola: queda abierta para revisar."
+          fi
