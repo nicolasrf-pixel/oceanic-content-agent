@@ -33,7 +33,7 @@ DESCRIPCIONES = {
     'terminos/index.html': 'Términos y condiciones de uso del sitio de Oceanic.',
     'arriendo-boyas/index.html': 'Arriendo de boyas robóticas MarkSetBot para regatas en Chile: marcas autopropulsadas con GPS que se mantienen en posición sin anclas.',
 }
-SIN_INDICE = {'404.html', 'gracias/index.html'}
+SIN_INDICE = {'404.html', 'gracias/index.html', 'evento/index.html'}
 EXCLUIR = ('admin/', 'marcas/', 'node_modules/', '.wrangler/')
 
 
@@ -71,6 +71,8 @@ def bloque(rel, html):
         l.append('<meta name="robots" content="noindex"/>')
     else:
         l.append(f'<link rel="canonical" href="{url}"/>')
+        # vistas previas grandes en buscadores y asistentes (mientras el sitio es vista previa, manda el noindex de la cabecera)
+        l.append('<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>')
     l += [
         f'<meta property="og:site_name" content="{NOMBRE}"/>',
         '<meta property="og:locale" content="es_CL"/>',
@@ -113,25 +115,59 @@ def js_json(archivo, variable, abre):
     return json.loads(t[i:t.rindex(cierra) + 1])
 
 
+# Páginas que se arman con datos: sin parámetro no son una página real (noindex o sin contenido propio), así que no van al mapa.
+SOLO_CON_PARAMETRO = {'evento/index.html', 'marca/index.html', 'puerto/edicion/index.html', 'usados/barco/index.html', 'universo/index.html'}
+
+
+def fecha_git(*archivos):
+    """Fecha (AAAA-MM-DD) del último cambio guardado de esos archivos; si no hay historial, hoy."""
+    import subprocess
+    from datetime import date
+    for a in archivos:
+        try:
+            f = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', str(a)], cwd=RAIZ, capture_output=True, text=True).stdout.strip()
+        except OSError:
+            f = ''
+        if f:
+            return f
+    return date.today().isoformat()
+
+
 def sitemap():
-    urls = [(url_de(rel), '1.0' if rel == 'index.html' else '0.8') for rel, _ in paginas() if rel not in SIN_INDICE]
+    js = WEB / 'assets' / 'js'
+    pf = js_json('portafolio-data.js', 'OCEANIC_PORTAFOLIO', '{')
+    sin_autorizar = {x['marca'] for x in pf.get('inicio', []) if x.get('visible') is False}
+    d_cat = fecha_git(js / 'catalogo-data.js')
+    d_usa = fecha_git(js / 'usados-data.js')
+    d_pue = fecha_git(js / 'puerto-data.js')
+    d_pf = fecha_git(js / 'portafolio-data.js')
+    urls = [(url_de(rel), '1.0' if rel == 'index.html' else '0.8', fecha_git(WEB / rel))
+            for rel, _ in paginas() if rel not in SIN_INDICE and rel not in SOLO_CON_PARAMETRO]
     cat = js_json('catalogo-data.js', 'OCEANIC_CATALOGO', '{')
     info = js_json('marcas-info.js', 'OCEANIC_MARCAS', '{')
-    pub = (WEB / 'assets' / 'js' / 'publicacion.js').read_text()
+    pub = (js / 'publicacion.js').read_text()
     ocultos = set(re.findall(r'"([a-z0-9-]+/[a-z0-9-]+)":', pub[pub.index('"ocultos"'):pub.index('/*FIN*/')]))
+    for u in pf.get('universos', []):
+        if u.get('visible') is not False and u.get('nombre'):
+            urls.append((f'{SITIO}/universo/?u={u["slug"]}', '0.8', d_pf))
     for marca, d in cat.items():
-        urls.append((f'{SITIO}/marca/?m={marca}', '0.8'))
+        if marca in sin_autorizar:
+            continue
+        urls.append((f'{SITIO}/marca/?m={marca}', '0.8', d_cat))
         for linea in (info.get(marca, {}).get('lineas') or {}):
-            urls.append((f'{SITIO}/marca/?m={marca}&u={linea}', '0.7'))
+            urls.append((f'{SITIO}/marca/?m={marca}&u={linea}', '0.7', d_cat))
         for mo in d['modelos']:
             if f'{marca}/{mo["slug"]}' not in ocultos:
-                urls.append((f'{SITIO}/marca/?m={marca}&modelo={mo["slug"]}', '0.7'))
+                urls.append((f'{SITIO}/marca/?m={marca}&modelo={mo["slug"]}', '0.7', d_cat))
     for u in js_json('usados-data.js', 'OCEANIC_USADOS', '['):
         if u.get('oculto'):
             continue
-        urls.append((f'{SITIO}/usados/barco/?id={u["id"]}', '0.5' if u.get('estado') == 'vendido' else '0.6'))
+        urls.append((f'{SITIO}/usados/barco/?id={u["id"]}', '0.5' if u.get('estado') == 'vendido' else '0.6', d_usa))
+    for e in js_json('puerto-data.js', 'OCEANIC_PUERTO', '['):
+        if not e.get('oculto'):
+            urls.append((f'{SITIO}/puerto/edicion/?ed={e["slug"]}', '0.6', e.get('fecha') or d_pue))
     x = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    x += [f'  <url><loc>{escape(u)}</loc><priority>{pr}</priority></url>' for u, pr in urls]
+    x += [f'  <url><loc>{escape(u)}</loc><lastmod>{lm}</lastmod><priority>{pr}</priority></url>' for u, pr, lm in urls]
     x.append('</urlset>')
     (WEB / 'sitemap.xml').write_text('\n'.join(x) + '\n')
     return len(urls)

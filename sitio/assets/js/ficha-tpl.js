@@ -243,7 +243,7 @@
             (galeria.length > 1 ? '<button type="button" class="gv-nav gv-prev" aria-label="Foto anterior">‹</button><button type="button" class="gv-nav gv-next" aria-label="Foto siguiente">›</button>' : '') +
             '<button type="button" class="gv-full" aria-label="Ver en pantalla completa">⤢</button><span class="gv-n">1 / ' + galeria.length + '</span></div>' +
           (galeria.length > 1 ? '<div class="gv-tira">' + galeria.map(function (g, k) {
-            return '<button type="button" class="gv-th' + (k ? '' : ' on') + '" data-k="' + k + '" aria-label="Foto ' + (k + 1) + '"><img src="' + esc(g) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>' : '') +
+            return '<button type="button" class="gv-th' + (k ? '' : ' on') + '" data-k="' + k + '" aria-label="Foto ' + (k + 1) + '"><img src="' + esc(g) + '" alt="' + esc(mo.nombre + ' · foto ' + (k + 1)) + '" loading="lazy"></button>'; }).join('') + '</div>' : '') +
         '</div>' + otroCta('¿Te imaginas a bordo?')));
     }
 
