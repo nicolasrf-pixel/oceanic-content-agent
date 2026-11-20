@@ -15,6 +15,7 @@ import { claveConfigurada, entrar, salir } from './clave.js';
 import { DOCS, definicion, renderArchivo, claveDeRuta } from './documentos.js';
 import { api } from './api.js';
 import { paginaCompartible } from './compartir.js';
+import { avisoSemanal } from './aviso.js';
 
 const SEGURIDAD = {
   'Strict-Transport-Security': 'max-age=31536000',
@@ -25,6 +26,11 @@ const SEGURIDAD = {
 };
 
 export default {
+  // Aviso semanal de «Revisar marcas» (cron en wrangler.jsonc): lanza la revisión y avisa por correo solo si hay novedades.
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(avisoSemanal(env, event.cron).then((r) => console.log('aviso-revision', JSON.stringify(r)), (e) => console.log('aviso-revision: error', String(e && e.message || e).slice(0, 160))));
+  },
+
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const p = url.pathname;

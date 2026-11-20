@@ -99,3 +99,20 @@ Al apretar «Aprobar» el administrador deja la lista en una rama `revision-apro
   la biblioteca y el aviso dice «falta traducir»; no se publica nada en inglés. Las direcciones se corrigen igual.
 - Webs con captcha (Solaris) no se leen: el paso se informa y esa marca se carga a mano.
 - Lo que no se carga solo: marcas sin adaptador, modelos de gamas anteriores que conviene revisar a la vista (se oculta o se ignora desde el informe).
+
+## Aviso semanal por correo (decisión Oceanic 2026-11-20)
+
+Nadie tiene que acordarse de revisar: **cada lunes** el Worker lanza solo la revisión (11:00 UTC) y, cuando termina
+(12:00 UTC; respaldo a las 14:00 UTC), manda **un correo solo si hay novedades** (modelos nuevos, cambios de dirección
+o modelos que ya no existen). El correo no cambia nada: lleva a `/admin/#revision`, donde se marca lo que corresponde y
+se aprueba con OK. Una misma novedad no se vuelve a avisar. Si no hay novedades, no llega nada.
+
+- Código: `sitio/worker/aviso.js` (cron en `sitio/wrangler.jsonc › triggers`, manejador `scheduled` en `worker/index.js`),
+  pruebas en `sitio/tests/aviso.test.mjs`. La huella de lo ya avisado vive en la tabla `avisos` de D1 (se crea sola).
+- Destinatario: variable `AVISO_EMAIL` del Worker (no es secreto). Si falta, el primer correo de `ADMIN_EMAILS`; si
+  falta, `VENTAS_EMAIL`. Usa el mismo SMTP que los formularios (`SMTP_CLAVE`).
+- Para probar sin esperar al lunes: Cloudflare › Worker › Settings › Triggers › Cron Triggers, o `wrangler triggers`.
+
+**Después del OK se montan igual que todos los demás modelos** (decisión Oceanic 2026-11-20): se avisa a Claude con
+«monta lo aprobado» y se carga con el proceso de la biblioteca (`docs/PROCESO.md`: extraer, construir, traducir fiel,
+fotos revisadas, catálogo, ficha del sitio, pruebas) y se publica. No se necesita cuenta de Anthropic para Oceanic.
