@@ -37,11 +37,14 @@
     pista.innerHTML = grupo(false) + grupo(true);
   }
 
+  // Fotos que tienen miniatura en assets/img/cards/ (720 px, ~30 KB). Las demás (por ejemplo una elegida después en el administrador) usan la original.
+  var MINIATURAS = {"modelos/oceanis-40-1-g3.webp":1,"modelos/lagoon-46-iconic-hero.webp":1,"modelos/axopar-38-xc-cross-cabin-hero.webp":1,"modelos/solaris-55-g5.webp":1,"modelos/aquila-42-coupe-g15.webp":1,"modelos/xo-explr-9-hero.webp":1,"modelos/saffier-se-33-life-hero.webp":1,"modelos/excess-14-g8.webp":1,"modelos/vx-one-hero.webp":1,"modelos/switch-one-design-g2.webp":1,"b-power-op.webp":1};
+
   /* ---------- grilla del portafolio ---------- */
   var grilla = document.querySelector('#marcas .bgrid');
   if (grilla && lista.length) {
     grilla.innerHTML = lista.map(function (x) {
-      var m = M[x.marca], foto = img(x.foto || m.hero);
+      var m = M[x.marca], f0 = x.foto || m.hero, foto = img(MINIATURAS[f0] ? 'cards/' + f0.split('/').pop() : f0);   // miniatura de 720 px si existe: la portada pesa ~5 veces menos
       return '<a class="bc" href="' + href(x.marca) + '">' +
         '<span class="bc-img">' + (foto ? '<img alt="' + esc(m.nombre) + '" loading="lazy" src="' + esc(foto) + '"/>' : '') + '</span>' +
         '<span class="bc-body"><span class="bc-top"><span class="bc-name">' + esc(m.nombre) + '</span></span>' +
