@@ -1472,8 +1472,8 @@
         });
         (m.sin_verificar || []).forEach(function (x) { retirados.push(h('div', { class: 'panel' }, h('b', { text: m.marca + ' · ' + x.slug }), ' ', chip('sin verificar', 'err'), h('div', null, h('small', { text: x.motivo + ' · la web no respondió, no se saca ninguna conclusión' })))); });
       });
-      bloque('Modelos nuevos en la web oficial', 'Aprobar deja el modelo en una lista de pendientes (pull request en GitHub) para cargarlo con su traducción y fotos revisadas. No se publica nada solo.', nuevos);
-      bloque('Cambiaron de dirección', 'Casi siempre es un cambio interno de la web del fabricante. «Actualizar la dirección» solo corrige la fuente registrada; no cambia el sitio.', movidos);
+      bloque('Modelos nuevos en la web oficial', 'Aprobar carga el modelo solo: se baja su ficha oficial, se arma el paquete, se traduce y se publica en el sitio (tarda unos minutos). Si algo falla, queda un pull request abierto con el aviso.', nuevos);
+      bloque('Cambiaron de dirección', 'Casi siempre es un cambio interno de la web del fabricante. «Actualizar la dirección» corrige solo la fuente registrada en el paquete; no cambia lo que ve el público.', movidos);
       bloque('Ya no existen en la web oficial', '«Ocultar del sitio» apaga el modelo en el sitio (gamas, menús, asistente y ficha). Se puede volver a mostrar desde Publicación y destacados; no se borra nada.', retirados);
       if (!items.length) { raiz.appendChild(h('p', { class: 'lede', text: nuevos.length + movidos.length + retirados.length ? 'No hay nada que se pueda aprobar automáticamente.' : 'Todo al día: el catálogo coincide con las webs oficiales.' })); return; }
 
@@ -1482,7 +1482,7 @@
         var sel = items.filter(function (i) { return i.c.checked; });
         if (!sel.length) return avisar('No marcaste nada.', true);
         var oc = sel.filter(function (i) { return i.tipo === 'ocultar'; }), ca = sel.filter(function (i) { return i.tipo === 'cargar'; }), ac = sel.filter(function (i) { return i.tipo === 'actualizar'; });
-        if (!confirm('Vas a aprobar:\n\n· Ocultar del sitio ahora: ' + oc.length + '\n· Modelos nuevos por cargar: ' + ca.length + '\n· Direcciones por actualizar: ' + ac.length + '\n\nLo que se oculta se publica de inmediato (reversible). Lo demás queda en un pull request en GitHub. ¿Continuar?')) return;
+        if (!confirm('Vas a aprobar:\n\n· Ocultar del sitio ahora: ' + oc.length + '\n· Modelos nuevos por cargar: ' + ca.length + '\n· Direcciones por actualizar: ' + ac.length + '\n\nLo que se oculta se publica de inmediato (reversible). Lo demás se aplica solo en unos minutos y, si sale bien, se publica. ¿Continuar?')) return;
         aplicar.disabled = true; vaciar(salida);
         var pasos = Promise.resolve();
         if (oc.length) pasos = pasos.then(function () { return ocultar(oc, inf.generado, salida); });
@@ -1493,8 +1493,8 @@
             actualizar: ac.map(function (i) { return { marca: i.marca, slug: i.slug, url: i.url, destino: i.destino }; }) } }).then(function (r) {
             aplicar.disabled = false;
             if (!r.ok) { salida.appendChild(h('div', { class: 'errores', text: r.error })); return avisar(r.error, true); }
-            salida.appendChild(h('p', null, 'Pull request abierto en GitHub: ', h('a', { href: r.pr, target: '_blank', rel: 'noopener', text: r.pr })));
-            avisar('Aprobado. Quedó en un pull request.');
+            salida.appendChild(h('p', null, 'Se está aplicando solo (se fusiona y publica si todo sale bien). Seguimiento en GitHub: ', h('a', { href: r.pr, target: '_blank', rel: 'noopener', text: r.pr })));
+            avisar('Aprobado. Se está aplicando solo; en unos minutos queda publicado.');
           });
         });
       } });

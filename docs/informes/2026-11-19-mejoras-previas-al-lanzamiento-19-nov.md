@@ -15,6 +15,7 @@
 - **Puerto:** se trajo del sitio viejo la edición de **noviembre 2026** (4 notas con sus fotos y enlaces a las fichas).
 - **Héroes de las fichas:** 17 fichas (15 Aquila, Lagoon 47 y XO DSCVR 9 T-Top) quedaban con la portada en blanco porque su mejor foto oficial no llegaba a 1500 px; ahora el héroe acepta desde 1400 px (el banner oficial de Aquila mide 1440) y XO DSCVR 9 T-Top usa una foto oficial de 1920 px. La foto del héroe además se pide de inmediato (antes era diferida y tardaba en aparecer).
 - **Portada de Puerto:** video de mar de fondo (Pixabay, loop de 12 s, 2,5 MB) solo en computador; en celular, con ahorro de datos o «reducir movimiento» queda la imagen fija.
+- **Revisar marcas automático:** aprobar ahora aplica solo lo aprobado (corrige direcciones, carga modelos nuevos con ficha traducida, fotos y catálogo) y fusiona si todo sale bien. Se cargó Beneteau Gran Turismo 45 Open y se corrigió la dirección de First 36 Spirit.
 - **Por qué:** dejar el sitio y su administrador listos para operar solos desde el lanzamiento (1 dic 00:00), con menos pasos manuales y sin entrar a Brevo para ver leads.
 
 ## Dónde se tocó

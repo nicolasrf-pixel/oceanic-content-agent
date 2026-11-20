@@ -85,3 +85,17 @@ Solaris protege su web con un captcha anti-bots (SiteGround) que **no se elude**
 `SENALES` en `tools/revisar_marcas.py`): lee `solariscatalogues.com` (catálogos que publica el propio fabricante) y la lista de Berthon
 International (distribuidor) y avisa si aparece un modelo que la biblioteca no tiene. No se saca ningún dato: el modelo se carga después
 desde la web oficial, mirada a mano en el navegador (regla 1 de CLAUDE.md).
+
+
+## Aprobar es automático (decisión Oceanic 2026-11-20)
+Al apretar «Aprobar» el administrador deja la lista en una rama `revision-aprobada-*` y abre un pull request. Ahí corre solo el flujo
+`.github/workflows/aplicar-revision.yml`, que ejecuta `tools/aplicar_revision.py`:
+- **Actualizar dirección:** corrige la fuente oficial registrada en el paquete (la captura original no se toca).
+- **Cargar modelo nuevo:** baja la ficha oficial (y la versión EE. UU. en Beneteau), extrae, arma el paquete de la biblioteca, traduce las frases
+  nuevas al español y redacta los textos cortos (IA, solo con lo que dice la web, borrador), y lo publica: catálogo, fotos, tarjeta, ficha y mapa del sitio.
+- Corre las pruebas; si todo salió bien (`completo`) **fusiona el pull request solo** y Cloudflare publica. Si algo falla o falta algo, el pull request
+  queda abierto con un comentario que dice qué pasó.
+- **Secreto `ANTHROPIC_API_KEY` (GitHub › Settings › Secrets › Actions):** lo usa solo la traducción y los textos cortos. Sin él, el modelo queda cargado en
+  la biblioteca y el aviso dice «falta traducir»; no se publica nada en inglés. Las direcciones se corrigen igual.
+- Webs con captcha (Solaris) no se leen: el paso se informa y esa marca se carga a mano.
+- Lo que no se carga solo: marcas sin adaptador, modelos de gamas anteriores que conviene revisar a la vista (se oculta o se ignora desde el informe).
