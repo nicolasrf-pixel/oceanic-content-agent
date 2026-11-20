@@ -21,7 +21,8 @@
     if (I.poster) {
       // ruta como en el resto de los datos: relativa a assets/img/ (o /media/… del CMS, o URL completa)
       var ruta = /^(https?:)?\/\/|^\//.test(I.poster) ? I.poster : 'assets/img/' + I.poster;
-      v.poster = ruta;
+      var chica = window.matchMedia('(max-width: 700px)').matches;
+      if (!(chica && /home-hero\.webp$/.test(ruta))) v.poster = ruta;   // en celular la foto liviana ya va de fondo: no se baja la grande
       var abs = new URL(ruta, location.href).href;  // absoluta: una url() en variable CSS se resolvería desde la hoja de estilos
       if (!/home-hero\.webp$/.test(abs)) q0('.hhero-media').style.setProperty('--hh-img', 'url("' + abs.replace(/"/g, '%22') + '")');
     }
