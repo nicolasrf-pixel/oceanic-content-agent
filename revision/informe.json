@@ -1,0 +1,372 @@
+{
+ "generado": "2026-11-20T03:21:44Z",
+ "marcas": [
+  {
+   "marca": "aquila",
+   "conocidos": 17,
+   "indices": [
+    {
+     "url": "https://www.aquilaboats.com/models",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "axopar",
+   "conocidos": 18,
+   "indices": [
+    {
+     "url": "https://www.axopar.com/boat-models/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/ax-e-100-electric/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-22/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-25/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-29/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-37/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-38/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.axopar.com/boat-models/axopar-45/",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "beneteau",
+   "conocidos": 52,
+   "indices": [
+    {
+     "url": "https://www.beneteau.com/motorboats",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailboats",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/motor-yachts",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/motorboats/antares-outboard",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailing-yachts/figaro",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailing-yachts/first",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailing-yachts/first-se",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/former-beneteau-sailboats/first-2016-2026",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/motorboats/flyer",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/yachts-motorboats/gran-turismo-new",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/motor-yachts/swift-trawler",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailing-yachts/oceanis",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.beneteau.com/sailing-yachts/oceanis-yacht",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [
+    {
+     "url": "https://www.beneteau.com/first-2016-2026/first-27",
+     "titulo": "First 27 | BENETEAU",
+     "carpeta": "first-2016-2026",
+     "posible_anterior": true
+    },
+    {
+     "url": "https://www.beneteau.com/new-gran-turismo-range/gran-turismo-45-open",
+     "titulo": "Gran Turismo 45 Open | BENETEAU",
+     "carpeta": "new-gran-turismo-range",
+     "posible_anterior": false
+    }
+   ],
+   "movidos": [
+    {
+     "slug": "first-27-se",
+     "url": "https://www.beneteau.com/first-se/first-27-se",
+     "destino": "https://www.beneteau.com/first-se-heritage/first-27-se",
+     "motivo": "La página oficial ahora está en otra dirección",
+     "posible_anterior": true,
+     "en_catalogo": true
+    },
+    {
+     "slug": "first-36-spirit",
+     "url": "https://www.beneteau.com/first-2016-2026/first-36-spirit",
+     "destino": "https://www.beneteau.com/first/first-36-spirit",
+     "motivo": "La página oficial ahora está en otra dirección",
+     "posible_anterior": false,
+     "en_catalogo": true
+    },
+    {
+     "slug": "oceanis-40-1",
+     "url": "https://www.beneteau.com/oceanis/oceanis-401",
+     "destino": "https://www.beneteau.com/oceanis-2015-2022/oceanis-401",
+     "motivo": "La página oficial ahora está en otra dirección",
+     "posible_anterior": true,
+     "en_catalogo": true
+    }
+   ],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "excess",
+   "conocidos": 3,
+   "indices": [
+    {
+     "url": "https://www.excess-catamarans.com/our-catamarans",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.excess-catamarans.com/our-catamarans/excess-11",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.excess-catamarans.com/our-catamarans/excess-13",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.excess-catamarans.com/our-catamarans/excess-14",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "lagoon",
+   "conocidos": 12,
+   "indices": [
+    {
+     "url": "https://www.catamarans-lagoon.com/ranges/sailing-catamarans",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://www.catamarans-lagoon.com/ranges/power-catamarans",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "oceanic-power",
+   "conocidos": 18,
+   "indices": [
+    {
+     "url": "https://oceanic.cl/oceanic-power-boats/",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "saffier",
+   "conocidos": 7,
+   "indices": [
+    {
+     "url": "https://saffieryachts.com/classic-range/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://saffieryachts.com/elegance-range/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://saffieryachts.com/luxury-range/",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  },
+  {
+   "marca": "solaris",
+   "conocidos": 11,
+   "indices": [
+    {
+     "url": "https://www.solarisyachts.com/en/yachts/",
+     "ok": false,
+     "estado": 202
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "bloqueada",
+   "nota": "No se pudo leer ninguna página de gama: no se saca ninguna conclusión.",
+   "senales": [
+    {
+     "fuente": "Catálogos Solaris (solariscatalogues.com)",
+     "url": "https://solariscatalogues.com/",
+     "ok": false,
+     "oficial": false,
+     "error": "HTTP 202"
+    },
+    {
+     "fuente": "Berthon International (distribuidor)",
+     "url": "https://www.berthoninternational.com/new-yacht-sales/solaris-yachts/",
+     "ok": true,
+     "oficial": false,
+     "vistos": 11,
+     "nuevos": []
+    }
+   ]
+  },
+  {
+   "marca": "switch",
+   "conocidos": 1,
+   "indices": [],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "unica",
+   "nota": "Un solo modelo en una página única: no hay lista de modelos que comparar."
+  },
+  {
+   "marca": "vx-one",
+   "conocidos": 1,
+   "indices": [],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "unica",
+   "nota": "Un solo modelo en una página única: no hay lista de modelos que comparar."
+  },
+  {
+   "marca": "xo",
+   "conocidos": 10,
+   "indices": [
+    {
+     "url": "https://xoboats.com/fleet/dfndr/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://xoboats.com/fleet/dscvr/",
+     "ok": true,
+     "estado": 200
+    },
+    {
+     "url": "https://xoboats.com/fleet/explr/",
+     "ok": true,
+     "estado": 200
+    }
+   ],
+   "nuevos": [],
+   "movidos": [],
+   "retirados": [],
+   "sin_verificar": [],
+   "estado": "ok"
+  }
+ ],
+ "resumen": {
+  "nuevos": 2,
+  "senales_nuevas": 0,
+  "movidos": 3,
+  "retirados": 0,
+  "marcas_ok": 10,
+  "marcas_con_problemas": [
+   "solaris"
+  ]
+ }
+}
