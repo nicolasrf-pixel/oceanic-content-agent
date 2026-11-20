@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-classic-line-138` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-2` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
-| 3 | `saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-5` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-11` | Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría EXTERIOR por revisión visual. |
+| 3 | `saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-14` | Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría UNDERWAY por revisión visual. |
