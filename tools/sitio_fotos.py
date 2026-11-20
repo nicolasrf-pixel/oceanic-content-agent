@@ -35,6 +35,9 @@ def indice_biblioteca():
 # Sitios que bloquean las descargas automáticas (captcha / anti-bots). No se eluden: si la biblioteca tiene una copia
 # oficial en otro origen (p. ej. la misma foto publicada en oceanic.cl, decisión Oceanic 2026-10-04), se usa esa.
 BLOQUEADOS = ('saffieryachts.com', 'www.solarisyachts.com')
+# De esos, el que también falla en el build de Cloudflare (403 desde 2026-11): sus fotos no se construyen nunca.
+# solarisyachts.com sí responde al build (las fotos que apuntan allí existen en el sitio publicado).
+SIN_DESCARGA = ('saffieryachts.com',)
 
 
 def url_web(im, original, destino):
@@ -70,8 +73,35 @@ def main():
         w.writerow(cab)
         w.writerows(salida)
     bloqueadas = sum(1 for _, u, _ in salida if u.split('/')[2] in BLOQUEADOS)
+    podadas = podar_galerias(salida)
     print(f'{len(salida)} fotos; {sin} sin registro en la biblioteca (se usa su URL tal cual); '
-          f'{asignadas} desde fotos-oceanic.json; {bloqueadas} siguen sin fuente')
+          f'{asignadas} desde fotos-oceanic.json; {bloqueadas} siguen sin fuente '
+          f'({podadas} fuera de las galerías hasta que se carguen a mano)')
+
+
+def podar_galerias(salida):
+    """Las galerías del sitio solo listan fotos que existen: una foto que sigue apuntando a un sitio que el build no puede
+    descargar (SIN_DESCARGA) y que
+    no se cargó a mano en sitio/assets/img/ nunca se construye, y si la galería la pide, los bloques de la ficha se
+    llevan las fotos reales y la galería queda vacía. Esas fotos salen de catalogo-contenido.js (siguen en fotos.tsv:
+    al cargarlas a mano y volver a correr sitio_catalogo.py, reaparecen)."""
+    img = RAIZ / 'sitio' / 'assets' / 'img'
+    sin_fuente = {d for d, u, _ in salida if u.split('/')[2] in SIN_DESCARGA and not (img / d).exists()}
+    js = RAIZ / 'sitio' / 'assets' / 'js' / 'catalogo-contenido.js'
+    s = js.read_text()
+    i = s.rindex('window.OCEANIC_CONTENIDO=')
+    con = json.loads(s[i + len('window.OCEANIC_CONTENIDO='):].rstrip().rstrip(';'))
+    n = 0
+    for c in con.values():
+        gal = c.get('galeria') or {}
+        for cat in list(gal):
+            antes = len(gal[cat])
+            gal[cat] = [f for f in gal[cat] if f not in sin_fuente]
+            n += antes - len(gal[cat])
+            if not gal[cat]:
+                del gal[cat]
+    js.write_text(s[:i] + 'window.OCEANIC_CONTENIDO=' + json.dumps(con, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    return n
 
 
 def asignar_oceanic(salida):
