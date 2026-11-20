@@ -182,3 +182,12 @@
 .pbanda-alt .pnot-specs div{background:var(--papel)}
 .phero-tapa{width:clamp(150px,18vw,260px)!important;height:auto!important;aspect-ratio:455/362;object-fit:contain}
 @media(max-width:640px){.phero-tapa{width:min(240px,70vw)!important}}
+
+/* Portada de Puerto con video de mar de fondo (Pixabay, licencia de contenido; loop sin salto de 12 s, 2,5 MB).
+   Solo en pantallas grandes, sin ahorro de datos y sin «reducir movimiento»: si no, queda la imagen fija. */
+.phero-mar{position:relative;overflow:hidden;isolation:isolate}
+.phero-fondo{position:absolute;inset:0;z-index:-1;background:var(--noche) url(../img/puerto/hero-mar.webp) center/cover no-repeat}
+.phero-fondo video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease}
+.phero-fondo video.on{opacity:1}
+.phero-fondo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,33,43,.62) 0%,rgba(20,33,43,.5) 40%,rgba(20,33,43,.88) 100%)}
+.phero-mar .phero-h1,.phero-mar .phero-sub{text-shadow:0 2px 24px rgba(20,33,43,.55)}
