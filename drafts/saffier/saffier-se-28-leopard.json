@@ -263,5 +263,25 @@
    "category": "COCKPIT",
    "evidence": "Solo en la página del modelo (sección 'Powerful rig- and sailplan'). Categoría COCKPIT por revisión visual (2026-10-01)."
   }
- }
+ },
+ "extra_images": [
+  {
+   "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-4.jpg",
+   "page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+   "category": "UNDERWAY",
+   "evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+   "width": 4897,
+   "height": 3269,
+   "collected_at": "2026-11-20"
+  },
+  {
+   "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-10.jpg",
+   "page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+   "category": "UNDERWAY",
+   "evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+   "width": 5390,
+   "height": 3586,
+   "collected_at": "2026-11-20"
+  }
+ ]
 }

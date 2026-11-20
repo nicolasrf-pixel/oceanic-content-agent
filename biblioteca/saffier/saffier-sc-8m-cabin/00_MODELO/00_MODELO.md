@@ -17,7 +17,7 @@
 
 - Datos solo de la web oficial del producto (S1). Paquete generado por `tools/oceanic/builders/saffier.py`.
 - No se mezclan otros modelos de la gama (-).
-- Imágenes: 43 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
+- Imágenes: 45 del modelo, 0 de otro modelo (excluidas), 0 por revisar (compartidas con otras páginas), 0 no son del barco.
 
 ## Content readiness
 
@@ -38,9 +38,9 @@
 | EDITORIAL | experiencia | OK | 316 palabras fuente · candidato Oceanic presente |
 | EDITORIAL | performance | OK | 44 palabras fuente · candidato Oceanic presente |
 | MULTIMEDIA | hero_image | OK | 3 candidatas |
-| MULTIMEDIA | exterior | OK | 27 en inventario (mín. 3) · descargadas 42/43 |
-| MULTIMEDIA | interior | OK | 10 en inventario (mín. 2) · descargadas 42/43 |
-| MULTIMEDIA | detail | OK | 5 en inventario (mín. 2) · descargadas 42/43 |
+| MULTIMEDIA | exterior | OK | 29 en inventario (mín. 3) · descargadas 44/45 |
+| MULTIMEDIA | interior | OK | 10 en inventario (mín. 2) · descargadas 44/45 |
+| MULTIMEDIA | detail | OK | 5 en inventario (mín. 2) · descargadas 44/45 |
 | MULTIMEDIA | video | OK | 2 videos del modelo |
 | DOCUMENTOS | brochure | PARTIAL | 1 identificado(s) · sin enlace directo |
 | DOCUMENTOS | technical | MISSING | no encontrado en fuentes oficiales |

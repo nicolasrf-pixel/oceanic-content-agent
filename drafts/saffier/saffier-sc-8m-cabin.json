@@ -198,5 +198,25 @@
    "category": "INTERIOR",
    "evidence": "Solo en la página del modelo (sección 'Interior'). Categoría INTERIOR por revisión visual (2026-10-01)."
   }
- }
+ },
+ "extra_images": [
+  {
+   "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg",
+   "page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+   "category": "EXTERIOR",
+   "evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría EXTERIOR por revisión visual.",
+   "width": 4000,
+   "height": 3025,
+   "collected_at": "2026-11-20"
+  },
+  {
+   "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-14.jpg",
+   "page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+   "category": "UNDERWAY",
+   "evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría UNDERWAY por revisión visual.",
+   "width": 4000,
+   "height": 2667,
+   "collected_at": "2026-11-20"
+  }
+ ]
 }

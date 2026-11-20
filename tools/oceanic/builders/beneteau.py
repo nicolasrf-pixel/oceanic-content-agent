@@ -652,10 +652,12 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None, extra
                 r["download_status"] = "PENDING" if ov["scope"] == "THIS_MODEL" else \
                     f"NOT_DOWNLOADED (fuera de alcance: {ov['scope']})"
     # Copies of official images published by Oceanic on another page (e.g. oceanic.cl), with no same-named file in
-    # the official gallery: added only when Oceanic confirms them (drafts › extra_images, visual category).
+    # the official gallery, or official-site photos the adapter did not capture (Oceanic saved them from the page):
+    # added only when Oceanic confirms them (drafts › extra_images, visual category).
     for ex in extra or []:
         name = unquote(ex["url"].rsplit("/", 1)[-1])
-        rid = base = "oceanic-" + media._slug(re.sub(r"\.\w+$", "", name))
+        oficial = CFG["site"] in ex["url"].split("/")[2]  # foto de la web oficial que no capturó el adaptador
+        rid = base = ("" if oficial else "oceanic-") + media._slug(re.sub(r"\.\w+$", "", name))
         n = 2
         while rid in ids:
             rid, n = f"{base}-{n}", n + 1
@@ -664,7 +666,8 @@ def classify_images(ext: dict, ident: dict, overrides: dict | None = None, extra
             "id": rid, "title": name, "category": ex["category"], "scope": "THIS_MODEL",
             "scope_evidence": ex["evidence"], "category_confidence": "revisión visual", "hero_candidate": False,
             "hero_reason": None, "source_url": ex["url"], "cdn_url": ex["url"], "source_page": ex["page"],
-            "source_context": {"section": "copia publicada por Oceanic", "section_title": ex["page"]},
+            "source_context": {"section": "galería oficial (confirmada por Oceanic)" if oficial else "copia publicada por Oceanic",
+                               "section_title": ex["page"]},
             "declared_width": ex.get("width"), "declared_height": ex.get("height"),
             "declared_format": name.rsplit(".", 1)[-1].lower(), "dam_tags": [], "model_year_tag": None,
             "file": None, "width": None, "height": None, "format": None, "sha256": None,

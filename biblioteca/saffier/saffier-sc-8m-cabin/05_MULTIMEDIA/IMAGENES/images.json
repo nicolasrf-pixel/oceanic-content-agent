@@ -3,7 +3,7 @@
   "source_page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
   "usage_terms": "Imágenes de saffieryachts.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Saffier o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /wp-content/uploads/ (WordPress). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /wp-content/uploads/ (WordPress). El original se referencia en `original`.",
   "images": [
     {
       "id": "saffier-classic-line-138",
@@ -33,7 +33,7 @@
       "sha256": "800cdf085fa774b4807c74612f11f25f8c2e85de4b5d4134d1703303670a90e5",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "hero_rank": 1,
       "bytes": 261220,
       "original": {
@@ -46,8 +46,7 @@
         "bytes": 659104,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-138.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-138.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-2",
@@ -56,8 +55,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-2.jpg",
       "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-2.jpg",
       "source_page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
@@ -71,18 +70,17 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-2.webp",
-      "width": 2560,
-      "height": 1707,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "ee6e13d5c6760cfac67190ddae85f366106f024f2be1ed4735d13413c609ea75",
+      "sha256": "a4fa9aa31effc66ca2d3de5d77b02e6e2797916016eaa69a13f78d92c98fdc8a",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "hero_rank": 2,
-      "bytes": 197756,
+      "bytes": 90374,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-2.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-2.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "731dd9cd5e0920442bfefcede9864029e38896fcf766005bf29631223dbee7d6",
         "width": 4000,
         "height": 2667,
@@ -90,7 +88,7 @@
         "bytes": 570369,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-2.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -100,8 +98,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg",
       "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg",
       "source_page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
@@ -115,18 +113,17 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-5.webp",
-      "width": 2560,
-      "height": 1707,
+      "width": 1600,
+      "height": 1067,
       "format": "webp",
-      "sha256": "98d0303ba60334161a00b66cff7d00b3d68824461a967e03e0160dd79ebff11c",
+      "sha256": "0d261d6174296f424c1083557e2e5cda624234dbba51ba8bb5280a31b1e31e2a",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "hero_rank": 3,
-      "bytes": 251628,
+      "bytes": 126478,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "a0670cda00ea03963cd733e4a67f52d0d6ffc826637f9df25563760c049a0903",
         "width": 4000,
         "height": 2667,
@@ -134,7 +131,7 @@
         "bytes": 645470,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-5.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -159,25 +156,25 @@
       "dam_tags": [],
       "model_year_tag": null,
       "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-3-e1753352693363.webp",
-      "width": 1080,
+      "width": 929,
       "height": 1600,
       "format": "webp",
-      "sha256": "3ff09b4a949e462efe91e8d797c79edabecd4b098574eb71c97ca81aef6ce991",
+      "sha256": "5d6d0258aba70d27cb5b14a7c5a5c90272935151d5ca1a77725b90fcd5b5e102",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 97894,
+      "bytes": 97134,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-3-e1753352693363.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-3-e1753352693363.jpg",
-        "sha256": "946fdbcb66f0a64011426345bebc2cd18096fab458d8c66f24f227104c3565ee",
-        "width": 1733,
-        "height": 2567,
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "5b01398135920c069f4e88d4d236e5f4ea19f3f9b019535805f3261207546cde",
+        "width": 2323,
+        "height": 4000,
         "format": "jpeg",
-        "bytes": 550641,
+        "bytes": 547585,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-3-e1753352693363.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -205,14 +202,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "5394eeb821c37c7308800d9c2c3e8ee4c77b7d7412a3160ea327092b68ab15f3",
+      "sha256": "56462a7cb25e71a4072735b7f40e23a2602b5213a73c3cf924cec509f4da51ab",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 152634,
+      "bytes": 160012,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-1.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-1.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "f4810b8b3350e0934bb6354e7325baa608ff5528a029c892c59d48301d939344",
         "width": 4000,
         "height": 2667,
@@ -220,7 +217,7 @@
         "bytes": 818900,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-1.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -248,14 +245,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "5d903025fa36ad7e8bec58b066f90d5df1a8195eb7d60eb75b21756ef6fb4394",
+      "sha256": "b8aaf0d5d5f2edfce59b6a63e661f93f875d4cfc4e0ea7984d42f47000c8010d",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 101106,
+      "bytes": 105578,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-4.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-4.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "687393761fd9413d23c9ada545cfc5654b5c3d5d361a968d9422ba1a2c0fe83c",
         "width": 4000,
         "height": 2667,
@@ -263,7 +260,7 @@
         "bytes": 609205,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-4.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -291,14 +288,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "76eddc4dc64e69b4c7ac7b92146308649311c8d732721f9dc39d9aee7185548e",
+      "sha256": "9b7d43096651ac9e1604ad2ddaf20db0cf012bfb6ddc580a10245d5674a68ec9",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 150970,
+      "bytes": 160634,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-15.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-15.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "555fe8ae4229e7c9e0b99c66043542d32ce1cfb1ffadf6e9a1a75054c5ce6474",
         "width": 4000,
         "height": 2667,
@@ -306,7 +303,7 @@
         "bytes": 823993,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-15.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -334,14 +331,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "48f994833c27a931f91467ddaf44ce5483b9b74e395f5e24e737423fc58b0bee",
+      "sha256": "8a4156975a33748ef34074bf3bf1caa871b12bb3135ccbfd3abe52abf5fa9171",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 97636,
+      "bytes": 103336,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-8.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-8.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "a73a00351aac34a9618df36afea180a2fc85e30bc653e294fe0491ee71fa62da",
         "width": 4000,
         "height": 2667,
@@ -349,7 +346,7 @@
         "bytes": 699018,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-8.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -377,14 +374,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "8a5106cc3977630585ec45398b341ea1e2b9905e8bdc235051d7502f8db1582a",
+      "sha256": "ababb0425dfb159a94ab72a37908bf2b3aaa6947eb31fefd6c06f9373004d4a6",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 287304,
+      "bytes": 298196,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-12.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-12.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "dfbc5d5dd2bccd533a5b3c8b694116d65dfe16b213ea2af39fd2045d9a2fea82",
         "width": 4000,
         "height": 2667,
@@ -392,7 +389,7 @@
         "bytes": 1491860,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-12.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -420,14 +417,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "85bc18802dfe49e412e1b4d674ad9309ba2b9cc4e50be6c31eb7f585ab723d6c",
+      "sha256": "6e3244edd42ec450e914ffc2b67a2a1f43ed0c0bf14c82b08cca4b69ed0f8845",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 188454,
+      "bytes": 197362,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-13.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-13.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "6a00d770f1f4ffb96dbdc6e2b815c85acba1205c870407412ac21260c63992e0",
         "width": 4000,
         "height": 2667,
@@ -435,7 +432,7 @@
         "bytes": 1026752,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-13.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -466,7 +463,7 @@
       "sha256": "842fd43a6f6168a2284999f524b3c5547b85469da01c14448e98d84b161eef20",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 132890,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-16.jpg",
@@ -478,8 +475,7 @@
         "bytes": 799999,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-16.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-16.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-18",
@@ -509,7 +505,7 @@
       "sha256": "ca0bff932032d4386e179addbd02b757881ca969c7452efed0733727b0619145",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 84062,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-18.jpg",
@@ -521,8 +517,7 @@
         "bytes": 696032,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-18.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-18.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-6",
@@ -549,14 +544,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "df9f54ad2253fa18780b1f427758d9a481575032e949870d7981017d8529978a",
+      "sha256": "30653c841ec201f7908889df13acaa23a51491e14c4777fa24d1ec8aaece4fa9",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 47750,
+      "bytes": 50422,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-6.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-6.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "cca5bb59e506320708d4053d28da1e2d945b09fd124ccb91f0f7ccf813f9c962",
         "width": 4000,
         "height": 2667,
@@ -564,7 +559,7 @@
         "bytes": 295428,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-6.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -592,14 +587,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "b30334cc7a8cdb2b16b498f75f8c0787ae28e72ebe2e8d705bd272628694568f",
+      "sha256": "af743ac0453da939b1c774efcad66985c25dc958ed8537d15b810984a73c5209",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 76268,
+      "bytes": 79358,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-7.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-7.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "2505986e8f14a755ea13230f2662691795cf34ae5fae90c66c35ddee3ccd3c63",
         "width": 4000,
         "height": 2667,
@@ -607,7 +602,7 @@
         "bytes": 408880,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-7.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -635,14 +630,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "88d6862a8c5d327f989e4db2c6ef153aca45693b2bd9776012e27c3ed19f672e",
+      "sha256": "c7f3d6128134ba187326258bb1440f803ef0ce5f4dde1a1c332768058da382fd",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 51248,
+      "bytes": 55376,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-9.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-9.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "8c0b8e17a0f06f245bc0b9138d77e38aee9d7f9742d0a08db309176ca02fbc4c",
         "width": 4000,
         "height": 2667,
@@ -650,7 +645,7 @@
         "bytes": 445835,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-9.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -678,14 +673,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "a9d811855e16f6b685c6ab5c7352d2ef596ce169b6e654fdffb3790ea1b0ab1b",
+      "sha256": "89a450b37955ab56d80643418ee3a776cb9e83ce92c1d171ae455f93d601f005",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 49820,
+      "bytes": 51422,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-10.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-10.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "1601df2e502c43eb6e907ad7ea1d0b55681ed1f0ed33aa60cc01b1b0dd60a232",
         "width": 4000,
         "height": 2667,
@@ -693,7 +688,7 @@
         "bytes": 316773,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-10.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -724,7 +719,7 @@
       "sha256": "55b66909b6626b72c0096917013c468eb16fe20eda0e3f70c5b2c0cecca01938",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 98442,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-6.jpg",
@@ -736,8 +731,7 @@
         "bytes": 725321,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-6.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-3",
@@ -767,7 +761,7 @@
       "sha256": "5e6b16a0948718132bd195a312fb5ef8c17f25a38c0d87381635fa8266ee4aca",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 114646,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-3.jpg",
@@ -779,8 +773,7 @@
         "bytes": 772675,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-3.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-5",
@@ -810,7 +803,7 @@
       "sha256": "d79c8a73da2fe74d4ec88da16a714cc2875b1ff362d4e2b7880c9ad9ff8af220",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 120610,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-5.jpg",
@@ -822,8 +815,7 @@
         "bytes": 437233,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-5.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-1",
@@ -853,7 +845,7 @@
       "sha256": "c8144e1861abd78d48e5c4e496f69e589a60d5abe8cdcca52d29c626b2d838a9",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 117996,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-1.jpg",
@@ -865,8 +857,7 @@
         "bytes": 741176,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-1.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-2",
@@ -896,7 +887,7 @@
       "sha256": "0f2e665e040d29ba646ebdc68bfc3af678fe7a44198d86efa289797dd4730cea",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 76972,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-2.jpg",
@@ -908,8 +899,7 @@
         "bytes": 540701,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-2.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-4",
@@ -939,7 +929,7 @@
       "sha256": "67c81bca020918d0ba658f6f709cd62d61da59faee3b201e1caefc0896553557",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 66938,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-4.jpg",
@@ -951,8 +941,7 @@
         "bytes": 538333,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-4.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-7",
@@ -982,7 +971,7 @@
       "sha256": "6966de1dc79e8d9c154776fc728eae2a9e12f8ef5560e799bc46649e658d1700",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 184792,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-7.jpg",
@@ -994,8 +983,7 @@
         "bytes": 1178091,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-7.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-8",
@@ -1025,7 +1013,7 @@
       "sha256": "dec456de1574bcd412449e2b406767b95291f4b6ffd009daf139e25a0ba17b7f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 194406,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-8.jpg",
@@ -1037,8 +1025,7 @@
         "bytes": 463477,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-8.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-8.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-9",
@@ -1068,7 +1055,7 @@
       "sha256": "75e2ff83c03a04fbdb0095b8dd4a9435c15bb7c9e16771e4d090e5ede1f6b978",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 196754,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-9.jpg",
@@ -1080,8 +1067,7 @@
         "bytes": 449056,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-9.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-9.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-10",
@@ -1111,7 +1097,7 @@
       "sha256": "4e9c9a46bc82ff16a72331478f42fcb80bbb94be9187b5670c028b1e1a730db6",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 91850,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-10.jpg",
@@ -1123,8 +1109,7 @@
         "bytes": 248649,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-10.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-10.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-12",
@@ -1154,7 +1139,7 @@
       "sha256": "eb2ef079b3a3e93c06fddeb648173f5164dc314f352f724564bc553ad5093ee1",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 234336,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-12.jpg",
@@ -1166,8 +1151,7 @@
         "bytes": 1330541,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-12.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-12.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-13",
@@ -1197,7 +1181,7 @@
       "sha256": "87948751f33d245a75b1ce6118a926ec0a7852be6c9019fbce829870d09f74a3",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 131866,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-13.jpg",
@@ -1209,8 +1193,7 @@
         "bytes": 891405,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-13.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-13.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-14",
@@ -1240,7 +1223,7 @@
       "sha256": "32cf9789333864fdf451c2f4a1176baa490d492fd7de172101b2e1cbcd960ba4",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 86106,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-14.jpg",
@@ -1252,8 +1235,7 @@
         "bytes": 371493,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-14.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-14.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-15",
@@ -1283,7 +1265,7 @@
       "sha256": "3fe28ed6414e7d33e5b281c070c738e3ec70815f4403d0144c06000a2e361419",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 153248,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-15.jpg",
@@ -1295,8 +1277,7 @@
         "bytes": 1045228,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-15.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-15.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-16",
@@ -1326,7 +1307,7 @@
       "sha256": "5aa79e1698acfae927bcfcbd14a1450531a6a6690a022c54ca7676e7584d241e",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 170034,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-16.jpg",
@@ -1338,8 +1319,7 @@
         "bytes": 429948,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-16.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-16.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-17",
@@ -1369,7 +1349,7 @@
       "sha256": "f0714fa65511f902e55c36c0244b9b038e6b9c6a20c2c5cbbc0596353b6c30e3",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 93150,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-17.jpg",
@@ -1381,8 +1361,7 @@
         "bytes": 622201,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-17.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-17.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-18",
@@ -1412,7 +1391,7 @@
       "sha256": "264c70db1b4eba717bf050a5b344310517a31fa5b1bf8be785f5e9b8bff2a9b2",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 98424,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-18.jpg",
@@ -1424,8 +1403,7 @@
         "bytes": 857807,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-18.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-18.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-exterior-image-saffier-yachts-19",
@@ -1455,7 +1433,7 @@
       "sha256": "3817d314cab815c5cc9561ecf45f3adf6ebc2767dae938be82f34bc4aa35980b",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 41640,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-19.jpg",
@@ -1467,8 +1445,7 @@
         "bytes": 382537,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-19.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-exterior-image-Saffier-Yachts-19.jpg"
     },
     {
       "id": "saffier-sc-8m-cabin-interior-image-saffier-yachts-1",
@@ -1495,14 +1472,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "82904b6898cd0613c35a14a2952140f25b0b402f2ab4deb475038555979a1121",
+      "sha256": "f7451b21069c4048d490cf1474f5ac300702d666c94e9b790a1fa8d6a6652173",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 57876,
+      "bytes": 62412,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-1.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-1.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "9c4bc6f68e25560f17e1ea1ead68b73e1853ac790d95e27c1b0ddda391caff2a",
         "width": 4724,
         "height": 3150,
@@ -1510,7 +1487,7 @@
         "bytes": 515015,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-1.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -1538,14 +1515,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "839706f397f59e39d572a4ebea886584bfcbfaebd7a26465c28809c286f3caa6",
+      "sha256": "e656bbd479fd1d01f2756d57f2f5e441f721d2fe0351f6a1b9026c1a898ccd30",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 61386,
+      "bytes": 67954,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-3.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-3.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "66b92057f8d69786b5ead1c7b8b6c8611e72b689171f8a6b522f5b0560506c64",
         "width": 4724,
         "height": 3150,
@@ -1553,7 +1530,7 @@
         "bytes": 569806,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-3.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -1581,22 +1558,22 @@
       "width": 1067,
       "height": 1600,
       "format": "webp",
-      "sha256": "1e5850ddf7bf33d8d35dc2da87395da53a1b66d935561d9fcd943bcdc9ac1311",
+      "sha256": "0c6da0eb22382696872a1cec65a11f6188897b07fb4a7adb469c3cef9e84b5ce",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 45614,
+      "bytes": 48368,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-2.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-2.jpg",
-        "sha256": "35e2e816a6c3c09a75858b66a4c131380b513b4f12138276fc114ff9a17a1668",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "c19be0d339ecfc5223e71847f1a8fcf447c008bcccd079ba8ca789a2dabce810",
         "width": 3150,
         "height": 4724,
         "format": "jpeg",
-        "bytes": 393696,
+        "bytes": 393704,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-2.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -1624,14 +1601,14 @@
       "width": 1067,
       "height": 1600,
       "format": "webp",
-      "sha256": "e911ae20940c210ab3a5daa05d17d334b3f5f549572cfe48281f3d08aae55c5a",
+      "sha256": "34fd5bec331efbb562f30fa9b2d81c20c04b5c98d26ea83f0c416ba5633c7b2c",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 55004,
+      "bytes": 59028,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-4.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-4.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "133cf86c0cb384fce3a4826e79bfc0778f493c701cdb18f5dfd6d1c0eed040ec",
         "width": 3150,
         "height": 4724,
@@ -1639,7 +1616,7 @@
         "bytes": 506665,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8M-Cabin-interior-image-Saffier-Yachts-4.jpg",
+      "downloaded_from": "descarga manual en navegador",
       "web_quality": 75
     },
     {
@@ -1670,17 +1647,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-13",
-      "original": {
-        "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-One-with-the-elements-Saffier-Yachts.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-One-with-the-elements-Saffier-Yachts.jpg",
-        "sha256": "6a00d770f1f4ffb96dbdc6e2b815c85acba1205c870407412ac21260c63992e0",
-        "width": 4000,
-        "height": 2667,
-        "format": "jpeg",
-        "bytes": 1026752,
-        "full_resolution": true
-      }
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "saffier-classic-line-sc-8m-cabin-comforting-and-relaxing-saffier-yachts",
@@ -1710,7 +1677,7 @@
       "sha256": "506086b6944f544f46fcdae8803cc48fe1f6397c67931fa36e941de7d3c139c8",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 78114,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-comforting-and-relaxing-Saffier-Yachts.jpg",
@@ -1722,8 +1689,7 @@
         "bytes": 463774,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-comforting-and-relaxing-Saffier-Yachts.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-comforting-and-relaxing-Saffier-Yachts.jpg"
     },
     {
       "id": "saffier-classic-line-sc-8m-cabin-esthec-decking-saffier-yachts",
@@ -1753,7 +1719,7 @@
       "sha256": "5e89354929ac94853583e8e8258b43fe8f4560e663578f435541a3a45a7e5660",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 79498,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Esthec-Decking-Saffier-Yachts.jpg",
@@ -1765,8 +1731,7 @@
         "bytes": 610727,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Esthec-Decking-Saffier-Yachts.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Esthec-Decking-Saffier-Yachts.jpg"
     },
     {
       "id": "saffier-classic-line-sc-8m-cabin-timeless-beauty-saffier-yachts",
@@ -1796,7 +1761,7 @@
       "sha256": "261838cb28494cfb6179db8ffbd2e4f30d5fac84377c52123079bb2577eaead9",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 75222,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-line-SC-8m-Cabin-Timeless-Beauty-Saffier-Yachts.jpg",
@@ -1808,8 +1773,7 @@
         "bytes": 540454,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-line-SC-8m-Cabin-Timeless-Beauty-Saffier-Yachts.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-line-SC-8m-Cabin-Timeless-Beauty-Saffier-Yachts.jpg"
     },
     {
       "id": "saffier-classic-line-sc-8m-cabin-effortless-sailing",
@@ -1839,7 +1803,7 @@
       "sha256": "32debde8e27b69bbea472273e00c5b790b2bf38acdc34bf0cd7fba9aaacb52be",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 90602,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Effortless-Sailing.jpg",
@@ -1851,8 +1815,95 @@
         "bytes": 547532,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Effortless-Sailing.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-Classic-Line-SC-8m-Cabin-Effortless-Sailing.jpg"
+    },
+    {
+      "id": "saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-11",
+      "title": "Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg",
+      "category": "EXTERIOR",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría EXTERIOR por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría EXTERIOR por revisión visual.",
+      "source_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg",
+      "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+      "source_context": {
+        "section": "galería oficial (confirmada por Oceanic)",
+        "section_title": "https://saffieryachts.com/models/saffier-sc-8m-cabin/"
+      },
+      "declared_width": 4000,
+      "declared_height": 3025,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-11.webp",
+      "width": 2560,
+      "height": 1936,
+      "format": "webp",
+      "sha256": "ce754ed2608c47d25bfaa60feb9e2d2014ee48f3b3c3a48e53e02b6f1a635c24",
+      "collected_at": "2026-11-20",
+      "downloaded_at": "2026-11-20",
+      "download_status": "WEB_COPY",
+      "hero_rank": 2,
+      "original": {
+        "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-11.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "9cb2cd8600ab6a4cb9f82d17fda3ecd64c19d3056d5ab1772411a07d3edc6b9a",
+        "width": 4000,
+        "height": 3025,
+        "format": "jpeg",
+        "bytes": 420208,
+        "full_resolution": true
+      },
+      "bytes": 142304,
+      "web_quality": 75,
+      "downloaded_from": "descarga manual en navegador"
+    },
+    {
+      "id": "saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-14",
+      "title": "Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-14.jpg",
+      "category": "UNDERWAY",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría UNDERWAY por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial; URL en la carpeta de subida del resto de la serie (2025/03). Categoría UNDERWAY por revisión visual.",
+      "source_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-14.jpg",
+      "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-14.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-sc-8m-cabin/",
+      "source_context": {
+        "section": "galería oficial (confirmada por Oceanic)",
+        "section_title": "https://saffieryachts.com/models/saffier-sc-8m-cabin/"
+      },
+      "declared_width": 4000,
+      "declared_height": 2667,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-sc-8m-cabin-classic-sailing-yacht-saffier-yachts-14.webp",
+      "width": 2560,
+      "height": 1707,
+      "format": "webp",
+      "sha256": "e6bb3f1cfd68c9ed2cfa409e7fb11aae38b672bbd429b0769160dffedbb5f49a",
+      "collected_at": "2026-11-20",
+      "downloaded_at": "2026-11-20",
+      "download_status": "WEB_COPY",
+      "hero_rank": 3,
+      "original": {
+        "url": "https://saffieryachts.com/wp-content/uploads/2025/03/Saffier-SC-8m-Cabin-Classic-Sailing-Yacht-Saffier-Yachts-14.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "0a0eedcceb1f865799888544dd5f74603649002a0c8450a1fdee51ab8c3b4203",
+        "width": 4000,
+        "height": 2667,
+        "format": "jpeg",
+        "bytes": 872954,
+        "full_resolution": true
+      },
+      "bytes": 341680,
+      "web_quality": 75,
+      "downloaded_from": "descarga manual en navegador"
     }
   ]
 }

@@ -100,7 +100,13 @@
         if (tema && FOTOS_TEMA[tema]) return tomarDe(FOTOS_TEMA[tema], min || 1000);
         return tomarDe(FOTOS_TEMA.general, min || 1000) || (Object.keys(galCat).length ? null : tomar(min || 1000));
       },
-      resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700, true))) r.push(f); return r; }
+      resto: function (n, min) { var r = [], f; while (r.length < n && (f = tomar(min || 700, true))) r.push(f); return r; },
+      // todas las fotos del modelo menos la portada (aunque ya estén en un bloque): para que un modelo con pocas fotos
+      // no quede sin galería porque los bloques se las llevaron
+      todas: function (min) {
+        return lista.filter(function (f) { return f !== hero && f !== mo.hero && alcanza(f, min || 700); })
+          .map(function (f) { return IMG(AB, f); });
+      }
     };
   }
   function img(src, alt, cls, urgente) {  // el héroe (urgente) se pide de inmediato y con prioridad: lazy lo dejaba en blanco unos segundos
@@ -235,6 +241,7 @@
     // portada de cada video: una foto que no se haya usado antes en la página (sin repetir la de la portada)
     var vids = (MD.videos || []).map(function (v, k, t) { return { v: v, foto: F.sig(t.length === 1 ? 1000 : 700) }; });
     var galeria = F.resto(48, 700);
+    if (galeria.length < 4) { var todas = F.todas(700); if (todas.length > galeria.length) galeria = todas.slice(0, 48); }
     if (galeria.length) {
       // visor compacto: una foto grande y una tira de miniaturas; entran todas las fotos sin alargar la página
       cuerpo.push(seccion('galeria', cabeza('Galería · ' + galeria.length + ' fotos') +

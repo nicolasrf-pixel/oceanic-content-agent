@@ -8,7 +8,8 @@
    Reglas vigentes:
    - Saffier y Solaris bloquean la descarga automática de sus fotos: solo se publican los modelos con fotos oficiales
      disponibles (oceanic.cl o copias versionadas en el repo). Los demás quedan para carga manual vía CMS
-     (decisión Oceanic 2026-11-04; Solaris RS publicados el 2026-11-06 con sus fotos oficiales).
+     (decisión Oceanic 2026-11-04; Solaris RS publicados el 2026-11-06 con sus fotos oficiales; Saffier SE 28 Leopard
+     y SC 8m Cabin el 2026-11-20 con las fotos oficiales que Oceanic bajó a mano en el navegador).
    - Cualquier modelo que el cliente no quiera publicar se agrega aquí con su motivo. */
 window.OCEANIC_PUBLICACION = /*DATOS*/{
   "destacados": [
@@ -16,10 +17,7 @@ window.OCEANIC_PUBLICACION = /*DATOS*/{
     "beneteau/oceanis-34-1",
     "lagoon/lagoon-42-millenium"
   ],
-  "ocultos": {
-    "saffier/saffier-sc-8m-cabin": "Sin material: no está en oceanic.cl (Saffier bloquea la descarga automática)",
-    "saffier/saffier-se-28-leopard": "Sin material: no está en oceanic.cl (Saffier bloquea la descarga automática)"
-  }
+  "ocultos": {}
 }/*FIN*/;
 
 (function () {

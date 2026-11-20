@@ -3,7 +3,7 @@
   "source_page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
   "usage_terms": "Imágenes de saffieryachts.com: uso sujeto a las condiciones del fabricante (Legal Notices); confirmar con Saffier o el importador antes de publicar.",
   "classification_note": "Alcance: una imagen publicada en varias páginas de modelo queda REQUIRES_REVIEW; un nombre de archivo que nombra otro modelo/variante → OTHER_MODEL. Categoría por nombre de archivo y sección; confianza 'baja' requiere revisión visual.",
-  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1920 px el resto) generadas desde el original de /wp-content/uploads/ (WordPress). El original se referencia en `original`.",
+  "download_note": "Copias web WebP (2560 px HERO_CANDIDATE, 1600 px el resto, calidad 75) generadas desde el original de /wp-content/uploads/ (WordPress). El original se referencia en `original`.",
   "images": [
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-9",
@@ -30,15 +30,15 @@
       "width": 2560,
       "height": 1703,
       "format": "webp",
-      "sha256": "5a0220979bbdc67dc1888e1cb5126e650ad04eefdcf6dbe50e0e8219b56af9ac",
+      "sha256": "9f5e1655e2bead1797c2663a72c1963487fb6a72286f0f6eb59b033e3d7cf189",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
       "hero_rank": 1,
-      "bytes": 299406,
+      "bytes": 296002,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-9.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-9.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "1fc1f31892be2dbf942629ff31ae048a3f304b442a8bdfc97d337c1c44ea873c",
         "width": 5389,
         "height": 3586,
@@ -46,8 +46,7 @@
         "bytes": 1307007,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-9.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-12",
@@ -56,8 +55,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-12.jpg",
       "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-12.jpg",
       "source_page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
@@ -77,8 +76,7 @@
       "sha256": "7914487d16666859afae4cfe0d0a692abe63e6856725638aa2fc71025a4a17f4",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
-      "hero_rank": 2,
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 295328,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-12.jpg",
@@ -90,8 +88,7 @@
         "bytes": 1246221,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-12.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-12.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-16",
@@ -100,8 +97,8 @@
       "scope": "THIS_MODEL",
       "scope_evidence": "Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
       "category_confidence": "revisión visual",
-      "hero_candidate": true,
-      "hero_reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+      "hero_candidate": false,
+      "hero_reason": null,
       "source_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-16.jpg",
       "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-16.jpg",
       "source_page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
@@ -121,8 +118,7 @@
       "sha256": "7a6325a8490772d910db47211840089a3496270152b7693145ed14045d3ec512",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
-      "hero_rank": 3,
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 413018,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-16.jpg",
@@ -134,8 +130,7 @@
         "bytes": 1765390,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-16.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-16.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-5",
@@ -165,7 +160,7 @@
       "sha256": "63f5cafec1a58d22680a6ba5a135199c5ef4aebc94a26c83233dc4ae5eba73d0",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 142708,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-5.jpg",
@@ -177,8 +172,7 @@
         "bytes": 1312521,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-5.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-8",
@@ -205,14 +199,14 @@
       "width": 1200,
       "height": 1600,
       "format": "webp",
-      "sha256": "2f268d551464861f5eb3759ec5658b31042fb8eeb017ce14f853e87c285221bd",
+      "sha256": "4d22986191f1e2c58891c1b9bf58cb58ce3487d505efbe711405433e9933316a",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 161988,
+      "bytes": 168630,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-8.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-8.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "c78e1af041924ba02456c0ae7ce635d5351b16ac239cbd91e334a786482d5612",
         "width": 3054,
         "height": 4072,
@@ -220,8 +214,7 @@
         "bytes": 904418,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-8.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-11",
@@ -248,14 +241,14 @@
       "width": 1200,
       "height": 1600,
       "format": "webp",
-      "sha256": "a52baf5148ff2af0ff2657d89b8c71c912f1c77f5eb1a299f9b523a92897d834",
+      "sha256": "e269ac3f8e05a70730c0803cf6714c64915401f77801c385ed4cb26a5be23e50",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 105610,
+      "bytes": 114816,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-11.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-11.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "84842be8ca741c7d8ed4292fb964ac5430198a7a2982e74dff1f100bfd42cdd5",
         "width": 3134,
         "height": 4179,
@@ -263,8 +256,7 @@
         "bytes": 746855,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-11.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-3",
@@ -291,14 +283,14 @@
       "width": 1200,
       "height": 1600,
       "format": "webp",
-      "sha256": "1943aba3a004a3902283193c102371a83451cdfc602330fe19504bbc32b504f2",
+      "sha256": "59032730235075db022ceea9b7c650fdd5e0a16d254f8edf51810a86de4f9639",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 124314,
+      "bytes": 131304,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-3.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-3.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "b78c875a059ddc6caa502aceaeb18793e2014a1a236188cdb0b6d244649a8c8d",
         "width": 4016,
         "height": 5355,
@@ -306,8 +298,7 @@
         "bytes": 1192185,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-14",
@@ -337,7 +328,7 @@
       "sha256": "fd3d87f0219ca42b477194976dcfc0725f129ad027002bc9e322fdf9a9ddb4fc",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 109898,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-14.jpg",
@@ -349,8 +340,7 @@
         "bytes": 753164,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-14.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-14.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-2",
@@ -377,14 +367,14 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "0bca35222120b4605ed5ad4c6a0b89f5ebb9c83a0606b31eaa6807f6bb2db468",
+      "sha256": "fda52a756db4195258cd08552f877cec2531fa8c3e71df9f5ac61f8ed02c9bd7",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 186328,
+      "bytes": 197290,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-2.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-2.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "84ce7153b219539757ad1ff2921e8c9a2603c732483186daace831b9d60dbf76",
         "width": 5929,
         "height": 3958,
@@ -392,8 +382,7 @@
         "bytes": 1786608,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se28-leopard-leisure-47",
@@ -423,7 +412,7 @@
       "sha256": "6223f30a8ab6ca31aac3be5910e4b80cde6c06a1a4a81fb84d4fbf1e468e5e65",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 50870,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-47.jpg",
@@ -435,8 +424,7 @@
         "bytes": 408042,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-47.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-47.jpg"
     },
     {
       "id": "saffier-se28-leopard-sailing-extra-selection-1-1-1",
@@ -466,7 +454,7 @@
       "sha256": "f1377294006a706100878a14e6ba1610dd6838e527ee3a36d7b59c3f57359a73",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 59572,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_SAILING_EXTRA_SELECTION-1-1-1.jpg",
@@ -478,8 +466,7 @@
         "bytes": 404379,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_SAILING_EXTRA_SELECTION-1-1-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_SAILING_EXTRA_SELECTION-1-1-1.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-23",
@@ -509,7 +496,7 @@
       "sha256": "3bdc9cc43898424c157f3d49fb4a0544389a4b487cbbf3f34d7b1e0fdfa49dd3",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 113078,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-23.jpg",
@@ -521,8 +508,7 @@
         "bytes": 666882,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-23.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-23.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-with-tiller-exterior-image-saffier",
@@ -552,7 +538,7 @@
       "sha256": "382aacb0c47c7239b4d0248a9ee1497dd94e980475e7978d1c4f48cd419dc2e0",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 49612,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-2.jpg",
@@ -564,8 +550,7 @@
         "bytes": 242496,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-2.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-11",
@@ -595,7 +580,7 @@
       "sha256": "73a81d465987e109ebe207b4240c8fa9428bb8f8283789ff2e30f641b9278ca8",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 93740,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-11.jpg",
@@ -607,8 +592,7 @@
         "bytes": 540897,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-11.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-11.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-5",
@@ -638,7 +622,7 @@
       "sha256": "d69da2162eaf4b4fef3399f1dc4829180ff12e93a45918c6a7821e9d23f94bf3",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 58610,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-5.jpg",
@@ -650,8 +634,7 @@
         "bytes": 317973,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-5.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-4",
@@ -681,7 +664,7 @@
       "sha256": "4b57299059e5520f49af21ca31aa3682664f28a43f654a7588f60cd382a4d47c",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 41718,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-4.jpg",
@@ -693,8 +676,7 @@
         "bytes": 305107,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-4.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-15",
@@ -724,17 +706,7 @@
       "sha256": null,
       "collected_at": "2026-10-01",
       "downloaded_at": null,
-      "download_status": "DUPLICATE_OF saffier-se28-leopard-sailing-extra-selection-1-1-1",
-      "original": {
-        "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-15.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-15.jpg",
-        "sha256": "8b89e0e2034607400544b41706dc230538202dbddd7bc1ea5250f6c7cb6896e2",
-        "width": 2254,
-        "height": 4000,
-        "format": "jpeg",
-        "bytes": 404379,
-        "full_resolution": true
-      }
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-13",
@@ -764,7 +736,7 @@
       "sha256": "258e26a1eb88b460acc473c4e1a7e68ece95b79cc9339f29116f3a27ac025acc",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 19532,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-13.jpg",
@@ -776,8 +748,7 @@
         "bytes": 170716,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-13.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-13.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-10",
@@ -807,7 +778,7 @@
       "sha256": "a7cf2f739bcbaac0fb3419b9441cca0daae87d82f833a21eb29194595bf6168c",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 97024,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-10.jpg",
@@ -819,8 +790,7 @@
         "bytes": 595547,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-10.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-10.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-2",
@@ -850,7 +820,7 @@
       "sha256": "453f70d83a3eecf11a9045f724c05760ebfe0eb306f0c01c9ff1ac3fc846f1f4",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 75748,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-2.jpg",
@@ -862,8 +832,7 @@
         "bytes": 443133,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-2.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-22",
@@ -893,7 +862,7 @@
       "sha256": "dc14719414868693cb3e6936518dc2e2ad7ede1124bc05c4e19420ddd06035c4",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 71344,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-22.jpg",
@@ -905,8 +874,7 @@
         "bytes": 446354,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-22.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-22.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-21",
@@ -936,7 +904,7 @@
       "sha256": "5ed8c0c3f34254f5c66820b90dd6b03b4e24ff5cb147bf4a21aeb18c8c02b6ed",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 113436,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-21.jpg",
@@ -948,8 +916,7 @@
         "bytes": 714498,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-21.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-21.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-20",
@@ -979,7 +946,7 @@
       "sha256": "cba13bf02fa65313ba30ea7958501b86edaf10ed0a5cca54c3d1a029ff913919",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 184574,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-20.jpg",
@@ -991,8 +958,7 @@
         "bytes": 1060119,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-20.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-20.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-6",
@@ -1022,7 +988,7 @@
       "sha256": "4490386a184c969185673d84a08747c40a72199753c52dc5a11557423e7e52ad",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 39382,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-6.jpg",
@@ -1034,8 +1000,7 @@
         "bytes": 252617,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-6.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-7",
@@ -1065,7 +1030,7 @@
       "sha256": "847286fa7b5df9a7b5b4e6d82cf8423b8b8501a0a78af13ce0e3725fe1fce1c6",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 47672,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-7.jpg",
@@ -1077,8 +1042,7 @@
         "bytes": 350378,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-7.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-17",
@@ -1108,7 +1072,7 @@
       "sha256": "80deeed73b78dd57a63e4ae0809695d0878b07e9e84a32fe8edeeae75071a801",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 54998,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-17.jpg",
@@ -1120,8 +1084,7 @@
         "bytes": 328148,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-17.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-17.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-3",
@@ -1151,7 +1114,7 @@
       "sha256": "f90b93a48b2c31a6b7ec87bb1966d2c5034ce84fc868f92a4a2e18e7023ac5cf",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 89180,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-3.jpg",
@@ -1163,8 +1126,7 @@
         "bytes": 484636,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-3.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-with-tiller-exterior-image-saffier-2",
@@ -1194,7 +1156,7 @@
       "sha256": "a0cac771d025abce9c6dbba80228259ce6b46f99cd3988954fb6f309d835ef83",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 101204,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-1.jpg",
@@ -1206,8 +1168,7 @@
         "bytes": 533206,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-1.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-with-tiller-exterior-image-saffier-3",
@@ -1237,7 +1198,7 @@
       "sha256": "75c085e29dbdd5cb44fe8c711c4faf7839abb41357727c01ace691514526986c",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 88566,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-3.jpg",
@@ -1249,8 +1210,7 @@
         "bytes": 465066,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-3.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-with-tiller-exterior-image-saffier-4",
@@ -1280,7 +1240,7 @@
       "sha256": "5496f9eea6b35158da3b9cb022668a18696dcfb0400fafcde7690c495703a531",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 96486,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-4.jpg",
@@ -1292,8 +1252,7 @@
         "bytes": 527458,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-with-tiller-exterior-image-Saffier-Yachts-4.jpg"
     },
     {
       "id": "saffier-se28-leopard-25knts-4-2",
@@ -1323,7 +1282,7 @@
       "sha256": "30047fa18b6ed68fff3e8ef2824b576fc4c7e49c37e9946aea534d65c2e8215f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 50962,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-4-2.jpg",
@@ -1335,8 +1294,7 @@
         "bytes": 340677,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-4-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-4-2.jpg"
     },
     {
       "id": "saffier-se28-leopard-25knts-11",
@@ -1366,7 +1324,7 @@
       "sha256": "d3de136c16d8079fa05d02c80105f1f4b88b352ed3434046f3b8a2e741ad6e54",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 61028,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-11.jpg",
@@ -1378,8 +1336,7 @@
         "bytes": 391233,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-11.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-11.jpg"
     },
     {
       "id": "saffier-se28-leopard-25knts-28",
@@ -1409,7 +1366,7 @@
       "sha256": "ca53965b2914d3e354fb11744360c19c51787071f89fc95a7bd9f4db0635c635",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 81888,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-28.jpg",
@@ -1421,8 +1378,7 @@
         "bytes": 484834,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-28.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-28.jpg"
     },
     {
       "id": "saffier-se28-leopard-25knts-42",
@@ -1452,7 +1408,7 @@
       "sha256": "79f43705097497262a775b8d987009092451e1fe19052e37047d066142787a68",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 85712,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-42.jpg",
@@ -1464,8 +1420,7 @@
         "bytes": 547452,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-42.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-42.jpg"
     },
     {
       "id": "saffier-se28-leopard-25knts-44",
@@ -1495,7 +1450,7 @@
       "sha256": "4fd8cbfe622112794c956303ee5d1d9c31ded6fae4a3e0a7d81d93e3472b9a8f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 116420,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-44.jpg",
@@ -1507,8 +1462,7 @@
         "bytes": 660704,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-44.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_25KNTS-44.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-1",
@@ -1535,14 +1489,14 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "1fd92235dba3866e0137d2e2d7117cabdd5aa0f5ccd73fa22a2540f1d988d42a",
+      "sha256": "cda1effa9bd250851eecc9f2d22b485e9ed6886b40f42e6ab6635ab919cdcbd8",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 136684,
+      "bytes": 151298,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-1.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-1.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "8330979b70f05fbdd066b0d49206ad1192571c733964685982f21e048e068e40",
         "width": 5157,
         "height": 3443,
@@ -1550,8 +1504,7 @@
         "bytes": 1288190,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-7",
@@ -1581,7 +1534,7 @@
       "sha256": "2c5cadb2ccc7cd88ce41dc070fd7ec2275e45ed0784f3ca1dc3e661ff19d0a6d",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 102410,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-7.jpg",
@@ -1593,8 +1546,7 @@
         "bytes": 1136059,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-7.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-7.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-13",
@@ -1621,14 +1573,14 @@
       "width": 1600,
       "height": 1068,
       "format": "webp",
-      "sha256": "04dc6471b20e3b5623876baf105b4d3169336f24fe04d478c586167ff9311917",
+      "sha256": "326e7a811cc1c05befda7437fb41a9d3d33251f2a643da89298e331ad5e2dec1",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 118986,
+      "bytes": 124958,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-13.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-13.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "11bd95a667327f6c763e9593411f986d1765ca057dbc12d20d3f1f7389ebbb2b",
         "width": 5357,
         "height": 3576,
@@ -1636,8 +1588,7 @@
         "bytes": 991188,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-13.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-17",
@@ -1667,7 +1618,7 @@
       "sha256": "54a5348a7c596bb60d6a4850e434bca47ac6d6c7cc16beaf8e6a73407049ee6a",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 117962,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-17.jpg",
@@ -1679,8 +1630,7 @@
         "bytes": 1145731,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-17.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-17.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-20",
@@ -1710,7 +1660,7 @@
       "sha256": "aac032b8869585cb6b2706f194444f493f8455540771c41c0aa980870705969c",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 130260,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-20.jpg",
@@ -1722,8 +1672,7 @@
         "bytes": 1148516,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-20.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-20.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-21",
@@ -1753,7 +1702,7 @@
       "sha256": "64397a415fa8c7d13b07dbde9e69c7d1f489da29807634fec81bcd721f844991",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 90988,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-21.jpg",
@@ -1765,8 +1714,7 @@
         "bytes": 726616,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-21.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-21.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-8",
@@ -1793,14 +1741,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "bdbc1ef986e2e2dfd431d9516ad29850be5db89b8c17ffa16c55deec2d43f13a",
+      "sha256": "90f26b43e56f1b564bda9732bb0d46209197dcac4d2f4cf56c0ebeb974d63f96",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 54756,
+      "bytes": 59178,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-8.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-8.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "bb89698b864c5db6b885bd1736c8dce3175b8c513b12e629b8bbaed0839ad7e8",
         "width": 4000,
         "height": 2667,
@@ -1808,8 +1756,7 @@
         "bytes": 470871,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-8.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-1",
@@ -1836,14 +1783,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "0cc2eed0428d13a1910cc447b5c7aa433bae1c49dded4def1f9d941cf3ba59f0",
+      "sha256": "a9a8af550bf507abad4a94972cf6e938bf5b820ed443ed90d3dbbd9a087f70e8",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 44744,
+      "bytes": 47994,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-1.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-1.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "39d9cc5ce7ead8da3950cf6451084dc2531b8a0ce5d852f07dc7dfbdaed3e8cc",
         "width": 4000,
         "height": 2667,
@@ -1851,8 +1798,7 @@
         "bytes": 391096,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-1.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-3",
@@ -1879,14 +1825,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "080c90c50ff10b4f4097eb1d2f00b0fabc3115ff65f650f54e020f18982d4133",
+      "sha256": "770f0301d544f64f151d81b62d0a215450647676cff9c6240bbcf12339462194",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 59744,
+      "bytes": 65636,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-3.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-3.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "b2e38cc3f6ead39c3835aa02ff27561065379837d8164d0bd79d32b4203ba2fd",
         "width": 4000,
         "height": 2667,
@@ -1894,8 +1840,7 @@
         "bytes": 456133,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-3.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-4",
@@ -1922,14 +1867,14 @@
       "width": 1067,
       "height": 1600,
       "format": "webp",
-      "sha256": "001948c6c3824528c3738b7f89a42a876303a1f116bdf236053013facf0e82ab",
+      "sha256": "432e6829783d1861b1909959f1708c84eaae20a17f46386488eafb73edcfb5bc",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 55636,
+      "bytes": 62126,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-4.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-4.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "0acf3b1caca6b87e28a1c91a71822a5e645d843451dae9d2314d8b568f60c905",
         "width": 2667,
         "height": 4000,
@@ -1937,8 +1882,7 @@
         "bytes": 396152,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-4.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-5",
@@ -1968,7 +1912,7 @@
       "sha256": "f847788a61716661f92a354d09f540698bce060beee6932972ccbddc3db55604",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 33496,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-5.jpg",
@@ -1980,8 +1924,7 @@
         "bytes": 257484,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-5.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-5.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-7",
@@ -2008,14 +1951,14 @@
       "width": 1067,
       "height": 1600,
       "format": "webp",
-      "sha256": "4b68243981c6a8f43ff0b164c82a9d0de2cc81478b9c34d60c85f9777554f809",
+      "sha256": "bd5ff2757a7dde7033bb34747e6a9106ad656d3704f7cb7e8f6ed7476f6dd6d6",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 35568,
+      "bytes": 39596,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-7.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-7.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "1ba7c05c43c75e5865c38447cca312cdda11e1dfcb1f16e917db95c4bffb23b4",
         "width": 2667,
         "height": 4000,
@@ -2023,8 +1966,7 @@
         "bytes": 302790,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-7.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-6",
@@ -2054,7 +1996,7 @@
       "sha256": "7ab52d8cddcb776fa536beaff0c2554a5ff9306820374ea7d7afb1197713db36",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 26922,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-6.jpg",
@@ -2066,8 +2008,7 @@
         "bytes": 328187,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-6.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-6.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-interior-image-saffier-yachts-2",
@@ -2094,14 +2035,14 @@
       "width": 1600,
       "height": 1067,
       "format": "webp",
-      "sha256": "dc172c016c29d307c5dcce036166e6932f7f958b5aae30f0ccb5c185c703cb26",
+      "sha256": "21bfc68c1aa302b8bd56de937638348ec15c1ba1c99a3e8392e0dbebabe04ea2",
       "collected_at": "2026-10-01",
-      "downloaded_at": "2026-10-01",
+      "downloaded_at": "2026-11-20",
       "download_status": "WEB_COPY",
-      "bytes": 44576,
+      "bytes": 47772,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-2.jpg",
-        "fetched_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-2.jpg",
+        "fetched_from": "descarga manual en navegador",
         "sha256": "dcb2ff0a2afda4fbedaf3a2f049dc36189f9324bb101bcc166bc756908b7442e",
         "width": 4000,
         "height": 2667,
@@ -2109,8 +2050,7 @@
         "bytes": 370778,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-interior-image-Saffier-Yachts-2.jpg",
-      "web_quality": 75
+      "downloaded_from": "descarga manual en navegador"
     },
     {
       "id": "191-test-3boten-2",
@@ -2140,7 +2080,7 @@
       "sha256": "d2274f1cd6a5182266672a35bd01801ed625d8811a4170788a31ab9a7e41076e",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 44352,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/191_TEST_3BOTEN-2.png",
@@ -2152,8 +2092,7 @@
         "bytes": 2306133,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/191_TEST_3BOTEN-2.png",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/191_TEST_3BOTEN-2.png"
     },
     {
       "id": "saffier-se28-leopard-leisure-81",
@@ -2183,7 +2122,7 @@
       "sha256": "e22336f37fc98000be7ac00f7fb87c049ea9a64da5a4428c1991251d6145c536",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 26594,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-81.jpg",
@@ -2195,8 +2134,7 @@
         "bytes": 191169,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-81.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-81.jpg"
     },
     {
       "id": "saffier-se-28-leopard-sailing-yacht-daysailer-exterior-image-saffier-yachts-16",
@@ -2226,7 +2164,7 @@
       "sha256": "a2c533202adb0e1a6204f5807f404934f985b706fe6e20b2c2b8da479915193f",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 36324,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-16.jpg",
@@ -2238,8 +2176,7 @@
         "bytes": 264348,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-16.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-yacht-daysailer-exterior-image-Saffier-Yachts-16.jpg"
     },
     {
       "id": "saffier-se28-leopard-leisure-17",
@@ -2269,7 +2206,7 @@
       "sha256": "de482a6707d8f0da77fd7d93fe9284875ebb52cc0a21a62675ba79791d2af8c6",
       "collected_at": "2026-10-01",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY",
+      "download_status": "FAILED (no está en la carpeta de descargas manuales)",
       "bytes": 58870,
       "original": {
         "url": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-17.jpg",
@@ -2281,8 +2218,95 @@
         "bytes": 355994,
         "full_resolution": true
       },
-      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-17.jpg",
-      "web_quality": 75
+      "downloaded_from": "https://saffieryachts.com/wp-content/uploads/2025/09/SAFFIER_SE28_LEOPARD_LEISURE-17.jpg"
+    },
+    {
+      "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-4",
+      "title": "Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-4.jpg",
+      "category": "UNDERWAY",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+      "source_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-4.jpg",
+      "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-4.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+      "source_context": {
+        "section": "galería oficial (confirmada por Oceanic)",
+        "section_title": "https://saffieryachts.com/models/saffier-se-28-leopard/"
+      },
+      "declared_width": 4897,
+      "declared_height": 3269,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-4.webp",
+      "width": 2560,
+      "height": 1709,
+      "format": "webp",
+      "sha256": "0f460749b1951f71421cc0ebba6f59bc7e82e506a58227be83cdfe5d9d4a2b7a",
+      "collected_at": "2026-11-20",
+      "downloaded_at": "2026-11-20",
+      "download_status": "WEB_COPY",
+      "hero_rank": 3,
+      "original": {
+        "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-4.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "7ceee1a3ddf1ae025a6587bb6e85e2a2f43682a53fd5151384a985b270c8e3be",
+        "width": 4897,
+        "height": 3269,
+        "format": "jpeg",
+        "bytes": 1146770,
+        "full_resolution": true
+      },
+      "bytes": 336902,
+      "web_quality": 75,
+      "downloaded_from": "descarga manual en navegador"
+    },
+    {
+      "id": "saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-10",
+      "title": "Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-10.jpg",
+      "category": "UNDERWAY",
+      "scope": "THIS_MODEL",
+      "scope_evidence": "Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+      "category_confidence": "revisión visual",
+      "hero_candidate": true,
+      "hero_reason": "Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual.",
+      "source_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-10.jpg",
+      "cdn_url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-10.jpg",
+      "source_page": "https://saffieryachts.com/models/saffier-se-28-leopard/",
+      "source_context": {
+        "section": "galería oficial (confirmada por Oceanic)",
+        "section_title": "https://saffieryachts.com/models/saffier-se-28-leopard/"
+      },
+      "declared_width": 5390,
+      "declared_height": 3586,
+      "declared_format": "jpg",
+      "dam_tags": [],
+      "model_year_tag": null,
+      "file": "05_MULTIMEDIA/IMAGENES/UNDERWAY/saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-10.webp",
+      "width": 2560,
+      "height": 1703,
+      "format": "webp",
+      "sha256": "4022e7fc2f0015c83cdd041788a3085aa69f220caac5a248e3ac8bf0db01571f",
+      "collected_at": "2026-11-20",
+      "downloaded_at": "2026-11-20",
+      "download_status": "WEB_COPY",
+      "hero_rank": 2,
+      "original": {
+        "url": "https://saffieryachts.com/wp-content/uploads/2025/09/Saffier-SE-28-Leopard-sailing-images-daysailing-Saffier-Yachts-10.jpg",
+        "fetched_from": "descarga manual en navegador",
+        "sha256": "1cc9b5d048d91b782175a4799f8337a00761071eeb5bb48c198f926e5c0885cb",
+        "width": 5390,
+        "height": 3586,
+        "format": "jpeg",
+        "bytes": 1256888,
+        "full_resolution": true
+      },
+      "bytes": 289530,
+      "web_quality": 75,
+      "downloaded_from": "descarga manual en navegador"
     }
   ]
 }

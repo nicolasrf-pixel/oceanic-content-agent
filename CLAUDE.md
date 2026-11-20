@@ -151,7 +151,12 @@ Accomodations). "L.O.A. (with bowsprit)" → Eslora Total y "Length (without bow
 quilla estándar (las otras quillas en notas); "Air draft" → Altura sobre flotación. La web no publica superficie vélica
 total (mayor y foque por separado): queda `-`, no se suman. Potencia en HP o kW (kW → hp solo para el máximo). Videos de
 canales de terceros se marcan; reseñas de revistas (PDF) a `excluded_sources`. SL 46 MED | NORTH son dos cubiertas del
-mismo modelo (un paquete).
+mismo modelo (un paquete). Desde 2026-11 saffieryachts.com bloquea las descargas automáticas (Cloudflare 403; no se elude). Decisión Oceanic
+2026-11-19: se usan las copias que oceanic.cl publica con el **mismo nombre de archivo** que una imagen oficial, revisadas a la vista
+(misma mecánica que Solaris: `media --from-dir` + `mirror.json`; categoría visual en `drafts/saffier/<slug>.json › image_overrides`).
+El distribuidor Bluenose Yachts (EE. UU.) se comparó y casi no comparte archivos con la galería oficial: no se usa. Fotos bajadas a mano
+por Oceanic en el navegador (SE 28 Leopard y SC 8m Cabin, 2026-11-20): `media --from-dir` en la biblioteca y copias web versionadas en
+`sitio/assets/img/modelos/saffier-*` (el build no puede bajarlas); `tools/sitio_fotos.py` saca de las galerías las fotos sin fuente.
 
 **VX One:** un solo modelo (sportboat one-design) en vxone.com (Wix). `adapters/vxone.py`: `extract()` por página y
 `merge(home, specs)` arma el extract del modelo (S1 = página Specifications, S3 = portada con el mismo bloque "THE BOAT" y el
