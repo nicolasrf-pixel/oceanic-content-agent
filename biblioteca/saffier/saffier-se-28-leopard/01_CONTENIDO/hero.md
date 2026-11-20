@@ -30,5 +30,5 @@
 | Rank | id | Motivo |
 | --- | --- | --- |
 | 1 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-9` | Imagen de cabecera oficial de la página del modelo; Solo en la página del modelo (sección 'hero'). |
-| 2 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-12` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
-| 3 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-16` | Exterior horizontal del modelo; Solo en la página del modelo (sección 'Exterior'). Categoría UNDERWAY por revisión visual (2026-10-01). |
+| 2 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-10` | Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual. |
+| 3 | `saffier-se-28-leopard-sailing-images-daysailing-saffier-yachts-4` | Exterior horizontal del modelo; Foto de la galería oficial del modelo que Oceanic guardó desde la página en el navegador (2026-11-20); el adaptador no la capturó y saffieryachts.com bloquea la descarga automática. Oceanic confirma que es oficial. Categoría UNDERWAY por revisión visual. |
