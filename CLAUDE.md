@@ -208,6 +208,13 @@ página por línea (`marcas-info.js › lineas`, `/marca/?m=<marca>&u=vela|motor
 portadas inservibles (verticales, interiores): `python3 tools/sitio_tarjetas.py` + revisión visual en `tools/tarjetas-revision.json`.
 Videos y premios oficiales (decisión Oceanic 2026-11-05): `python3 tools/sitio_medios.py` publica en `sitio/assets/data/medios/` los videos de la página oficial que corresponden al barco (modelo, variante hermana, gama, tecnología del casco y terceros incrustados, con etiqueta en español) y los premios (`awards` del extract + `tools/premios-extra.json` con cita o imagen verificada; nombre propio + detalle traducido), cada premio con su logo oficial (`tools/sitio_premios_logos.py`, copias en `sitio/assets/img/premios/`). Los videos no se descargan: se llaman desde YouTube (modo sin cookies), Vimeo o el CDN del fabricante solo al apretar reproducir. Detalle en `docs/FICHAS.md`.
 
+**Líneas de producto (decisión Oceanic 2026-11-22, pedido del cliente):** la página de cada marca agrupa sus modelos por línea (Aquila: Molokai,
+Sport, Coupe, Yacht, Luxury, Sail; Beneteau: Oceanis, First, Antares, Gran Turismo…; Axopar, XO, Saffier, Solaris, Lagoon y Oceanic Power también).
+Las reglas viven en `tools/series.json` (patrón sobre el slug, en el orden en que se muestran; salen de las carpetas y nombres de la web oficial) y
+`tools/series.py` pone `serie` en cada modelo y `series` en cada marca de `catalogo-data.js` (`python3 tools/series.py`). `tools/sitio_catalogo.py` lo
+aplica solo a cada modelo nuevo y avisa si uno no calza: agregarlo a `series.json`. La vista (`marca-tpl.js`) muestra una barra de líneas y un encabezado
+por línea dentro de cada familia (vela / motor) cuando la marca tiene 2 o más; Excess, VX One y Switch no se agrupan. Prueba: `tools/tests/test_series.py`.
+
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
 `oceanic-imagenes` (archivos subidos, servidos en `/media/`). Acceso cerrado por defecto: contraseña `ADMIN_PASSWORD`

@@ -14,4 +14,4 @@
 
 > Candidato. Estado: **BORRADOR, requiere revisión editorial**.
 
-> El Aquila 46 Yacht adopta la estética Explorer con la manga de un yate mayor.
+El Aquila 46 Yacht comparte la estética «Explorer» de nuestro llamativo 50 Yacht, diseñada para quienes buscan la innovación de un yate más grande en un formato más íntimo. La impresionante manga de 23 pies 3 pulgadas (7,1 m) crea un volumen interior que se siente notablemente espacioso, mientras que un diseño cuidadoso aprovecha cada centímetro para la privacidad y la convivencia. La certificación CE de categoría A para mar abierto significa explorar aguas abiertas con confianza y con una seria capacidad para navegar lejos de la costa.

@@ -1,0 +1,55 @@
+{
+  "_nota": "Líneas de producto (series) de cada marca, según las carpetas y nombres de la web oficial. Se evalúan en orden; el primer patrón (sobre el slug) que coincide asigna la serie; ese orden es también el orden en que se muestran. Marcas sin lista (Excess, VX One, Switch) no se agrupan. Decisión Oceanic 2026-11-22.",
+  "aquila": [
+    {"id": "molokai", "nombre": "Molokai", "patron": "-molokai"},
+    {"id": "sport", "nombre": "Aquila Sport", "patron": "-sport$"},
+    {"id": "coupe", "nombre": "Aquila Coupe", "patron": "-coupe$"},
+    {"id": "yacht", "nombre": "Aquila Yacht", "patron": "-yacht$"},
+    {"id": "luxury", "nombre": "Aquila Luxury", "patron": "-luxury$"},
+    {"id": "sail", "nombre": "Aquila Sail", "patron": "-sail$"}
+  ],
+  "beneteau": [
+    {"id": "oceanis", "nombre": "Oceanis", "patron": "^oceanis-(?!yacht)"},
+    {"id": "oceanis-yacht", "nombre": "Oceanis Yacht", "patron": "^oceanis-yacht"},
+    {"id": "first", "nombre": "First", "patron": "^first-(?!.*-se$)"},
+    {"id": "first-se", "nombre": "First SE", "patron": "^first-.*-se$"},
+    {"id": "figaro", "nombre": "Figaro", "patron": "^figaro"},
+    {"id": "antares", "nombre": "Antares", "patron": "^antares"},
+    {"id": "gran-turismo", "nombre": "Gran Turismo", "patron": "^gran-turismo"},
+    {"id": "flyer", "nombre": "Flyer", "patron": "^flyer"},
+    {"id": "swift-trawler", "nombre": "Swift Trawler", "patron": "^swift-trawler"},
+    {"id": "grand-trawler", "nombre": "Grand Trawler", "patron": "^grand-trawler"}
+  ],
+  "lagoon": [
+    {"id": "lagoon", "nombre": "Lagoon", "patron": "^lagoon-"},
+    {"id": "insignia", "nombre": "Insignia: Sixty y Eighty", "patron": "^(sixty|eighty)-"}
+  ],
+  "solaris": [
+    {"id": "solaris", "nombre": "Solaris", "patron": "^solaris-\\d+$"},
+    {"id": "st", "nombre": "Solaris ST", "patron": "-st$"},
+    {"id": "rs", "nombre": "Solaris RS", "patron": "-rs$"}
+  ],
+  "xo": [
+    {"id": "dfndr", "nombre": "DFNDR", "patron": "^xo-dfndr"},
+    {"id": "dscvr", "nombre": "DSCVR", "patron": "^xo-dscvr"},
+    {"id": "explr", "nombre": "EXPLR", "patron": "^xo-explr"}
+  ],
+  "saffier": [
+    {"id": "sc", "nombre": "Saffier SC", "patron": "^saffier-sc-"},
+    {"id": "se", "nombre": "Saffier SE", "patron": "^saffier-se-"},
+    {"id": "sl", "nombre": "Saffier SL", "patron": "^saffier-sl-"}
+  ],
+  "axopar": [
+    {"id": "xc", "nombre": "XC Cross Cabin", "patron": "-xc-cross-cabin$"},
+    {"id": "sun-top", "nombre": "Sun-Top", "patron": "-sun-top$"},
+    {"id": "cross-top", "nombre": "Cross-Top y Cross Bow", "patron": "-(cross-top|cross-bow)$"},
+    {"id": "spyder", "nombre": "Spyder", "patron": "-spyder$"},
+    {"id": "t-top", "nombre": "T-Top", "patron": "-t-top$"},
+    {"id": "ccx", "nombre": "CCX", "patron": "-ccx$"},
+    {"id": "ax-e", "nombre": "AX-E (eléctricos)", "patron": "^ax-e-"}
+  ],
+  "oceanic-power": [
+    {"id": "lux", "nombre": "RIB LUX", "patron": "-lux$"},
+    {"id": "alum", "nombre": "RIB ALUM", "patron": "-alum-"}
+  ]
+}

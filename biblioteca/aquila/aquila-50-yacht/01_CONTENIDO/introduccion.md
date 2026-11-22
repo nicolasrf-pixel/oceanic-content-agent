@@ -13,4 +13,4 @@
 
 > Candidato. Estado: **BORRADOR, requiere revisión editorial**.
 
-> El Aquila 50 Yacht redefine la exploración con su nueva estética "Explorer" y un francobordo alto. Sucede al Aquila 48 y se sitúa entre el 44 Yacht y el 54 Yacht.
+Con la certificación de categoría A para mar abierto, puedes navegar aguas abiertas con confianza y disfrutar de la seguridad de una embarcación diseñada con una seria capacidad para navegar lejos de la costa. Las opciones de configuración adicionales te permiten personalizar tu yate según tu estilo de crucero, mientras inicias una nueva era de sofisticación.

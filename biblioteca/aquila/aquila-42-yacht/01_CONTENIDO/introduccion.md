@@ -14,4 +14,8 @@
 
 > Candidato. Estado: **BORRADOR, requiere revisión editorial**.
 
-> El Aquila 42 Yacht ofrece espacio de yate en 42 pies gracias a sus 21 pies de manga.
+Lo que impresiona de inmediato es su sensación de espacio: la manga de 21 pies (6,4 m) crea una plataforma que se siente mucho más espaciosa que la de embarcaciones de eslora similar. El flybridge ofrece vistas elevadas para reunirse bajo el cielo abierto, mientras que los generosos asientos de proa crean un refugio perfecto para relajarse.
+
+El luminoso salón con cocina completa fluye sin interrupciones hacia la cabina de popa y forma un espacio natural de encuentro. Estas tres áreas de entretención al aire libre son el escenario ideal para todo, desde momentos íntimos hasta reuniones más grandes.
+
+Las múltiples configuraciones interiores y un puesto de gobierno interior opcional para el mal tiempo complementan la certificación de categoría A para mar abierto, y te dan todo lo necesario para explorar nuevos horizontes con confianza.

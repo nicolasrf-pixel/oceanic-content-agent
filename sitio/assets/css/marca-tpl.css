@@ -101,6 +101,21 @@
 .mk-fam-n{font-family:var(--dato);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
   color:var(--niebla);flex:0 0 auto}
 
+/* ---- Líneas de producto dentro de la gama (Molokai, Sport, Coupe, Yacht…) ---- */
+.mk-series-nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 clamp(8px,1.4vw,18px)}
+.mk-series-nav a{display:inline-flex;align-items:center;gap:9px;min-height:40px;padding:0 16px;border:1px solid var(--linea-med,rgba(20,33,43,.25));border-radius:999px;
+  font-family:var(--display);font-weight:500;font-size:15px;color:var(--tinta);text-decoration:none;transition:background .2s,border-color .2s,color .2s}
+.mk-series-nav a span{font-family:var(--dato);font-size:11px;letter-spacing:.06em;color:var(--tenue,#566570);transition:color .2s}
+.mk-series-nav a:hover,.mk-series-nav a:focus-visible{background:var(--tinta);border-color:var(--tinta);color:var(--papel);outline:0}
+.mk-series-nav a:hover span,.mk-series-nav a:focus-visible span{color:var(--papel);opacity:.8}
+.mk-serie{margin-top:clamp(30px,3.6vw,52px);scroll-margin-top:150px}
+.mk-serie:first-of-type{margin-top:0}
+.mk-serie-head{display:flex;align-items:baseline;gap:14px;margin:0 0 clamp(16px,1.8vw,24px)}
+.mk-serie-head::before{content:"";flex:0 0 auto;align-self:center;width:22px;height:3px;border-radius:2px;background:var(--boya)}
+.mk-serie-h{margin:0;font-family:var(--display);font-weight:600;letter-spacing:-.015em;font-size:clamp(20px,1vw+14px,28px);color:var(--tinta)}
+.mk-serie-n{font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tenue,#566570)}
+.mk-serie-head::after{content:"";flex:1 1 auto;align-self:center;height:1px;background:var(--linea)}
+
 /* ===== Ficha de modelo: secciones de contenido estilo fabricante ===== */
 .md2-secs{padding:clamp(48px,6vw,96px) 0 0;background:var(--papel)}
 .md2-sec{display:grid;gap:clamp(24px,4vw,64px);align-items:center;

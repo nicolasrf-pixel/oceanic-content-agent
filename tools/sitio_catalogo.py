@@ -15,6 +15,8 @@ import re
 import sys
 from pathlib import Path
 
+import series
+
 RAIZ = Path(__file__).resolve().parent.parent
 JS = RAIZ / 'sitio' / 'assets' / 'js'
 TSV = RAIZ / 'sitio' / 'scripts' / 'fotos.tsv'
@@ -136,6 +138,9 @@ def main(marca, slugs):
         con[f'{marca}/{slug}'] = {**{k: v for k, v in con.get(f'{marca}/{slug}', {}).items() if k != 'galeria'}, 'galeria': galeria}
         filas = [f for f in filas if not propia(f[0], slug)] + [list(f) for f in fotos]
         print(f'{marca}/{slug}: {entrada["tipo"]}, {len(entrada["specs"])} datos, {len(fotos)} fotos')
+    sin_serie = series.aplicar(cat)  # línea de producto de cada modelo (tools/series.json)
+    for x in sin_serie:
+        print(f'AVISO: {x} no tiene serie; agrégala a tools/series.json')
     escribir('catalogo-data.js', cab, 'OCEANIC_CATALOGO', cat)
     escribir('catalogo-contenido.js', cabc, 'OCEANIC_CONTENIDO', con)
     TSV.write_text('\n'.join('\t'.join(f) for f in filas) + '\n')

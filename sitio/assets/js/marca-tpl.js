@@ -11,7 +11,7 @@
   var linea=new URLSearchParams(location.search).get('u');
   if(info&&cat&&info.lineas&&info.lineas[linea]){
     info=Object.assign({},info,info.lineas[linea]);
-    cat={nombre:cat.nombre,modelos:cat.modelos.filter(function(m){return familia(m.tipo)===linea;})};
+    cat={nombre:cat.nombre,series:cat.series,modelos:cat.modelos.filter(function(m){return familia(m.tipo)===linea;})};
   }
   if(!info||!cat){ cont.innerHTML='<section class="cat-hero"><div class="wrap-wide"><h1 class="cat-h1">Marca no encontrada</h1><p class="cat-sub"><a href="../index.html" style="color:var(--boya)">Volver al inicio</a></p></div></section>'; return; }
   document.title=info.nombre+' en Chile | Oceanic';
@@ -82,12 +82,42 @@
   var orden=['vela','motor','electrico'].filter(function(f){return grupos[f]&&grupos[f].length;});
   var variasFamilias=orden.length>1;
 
+  // Líneas de producto (series) de la marca: Molokai, Sport, Coupe, Yacht… (tools/series.json). Solo se agrupa si hay 2 o más.
+  var SER=(cat.series||[]).filter(function(x){return cat.modelos.some(function(m){return m.serie===x.id;});});
+  var variasSeries=SER.length>1;
+  function escS(t){return String(t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function eslora(m){var n=parseFloat(String(m.eslora||'').replace(',','.'));return isNaN(n)?1e9:n;}
+  function porTamano(a,b){return eslora(a)-eslora(b)||String(a.slug).localeCompare(String(b.slug));}
+  function serieBloque(id,nombre,ms){
+    return '<div class="mk-serie" id="serie-'+id+'"><div class="mk-serie-head"><h4 class="mk-serie-h">'+escS(nombre)+'</h4>'+
+      '<span class="mk-serie-n">'+ms.length+(ms.length===1?' modelo':' modelos')+'</span></div>'+
+      '<div class="mk-grid">'+ms.map(tarjeta).join('')+'</div></div>';
+  }
+  function modelosDe(lista){
+    if(!variasSeries) return '<div class="mk-grid">'+lista.map(tarjeta).join('')+'</div>';
+    var salida=SER.map(function(x){
+      var ms=lista.filter(function(m){return m.serie===x.id;}).sort(porTamano);
+      return ms.length?serieBloque(x.id,x.nombre,ms):'';
+    }).join('');
+    var sueltos=lista.filter(function(m){return !SER.some(function(x){return x.id===m.serie;});}).sort(porTamano);
+    return salida+(sueltos.length?serieBloque('otros','Otros modelos',sueltos):'');
+  }
+  // la barra de líneas sigue el mismo orden de la página: primero las de cada familia (vela, motor…), luego las series
+  var enc=[]; orden.forEach(function(f){SER.forEach(function(x){
+    var n=grupos[f].filter(function(m){return m.serie===x.id;}).length; if(n&&!enc.some(function(e){return e.id===x.id;})) enc.push({id:x.id,nombre:x.nombre,n:n});
+  });});
+  var navSeries=variasSeries
+    ? '<nav class="mk-series-nav" aria-label="Líneas de producto">'+enc.map(function(x){
+        return '<a href="#serie-'+x.id+'">'+escS(x.nombre)+'<span>'+x.n+'</span></a>';
+      }).join('')+'</nav>'
+    : '';
+
   var bloques=orden.map(function(f){
     var lista=grupos[f];
     var titulo=variasFamilias
       ? '<div class="mk-fam-head"><h3 class="mk-fam-h">'+FAM[f].t+'</h3><span class="mk-fam-sub">'+sub(f,lista)+'</span><span class="mk-fam-n">'+lista.length+(lista.length===1?' modelo':' modelos')+'</span></div>'
       : '';
-    return '<div class="mk-fam" id="gama-'+f+'">'+titulo+'<div class="mk-grid">'+lista.map(tarjeta).join('')+'</div></div>';
+    return '<div class="mk-fam" id="gama-'+f+'">'+titulo+modelosDe(lista)+'</div>';
   }).join('');
 
   var introGama=variasFamilias
@@ -103,7 +133,7 @@
     '<div class="sec-head"><span class="eyebrow">La gama</span><span class="rule"></span></div>'+
     '<h2 class="mk-gama-h2">Modelos '+info.nombre+'</h2>'+
     '<p class="lede mk-gama-lede">'+introGama+'</p>'+
-    bloques+'</div></section>';
+    navSeries+bloques+'</div></section>';
 
   // cierre
   var cierre='<section class="talk"><img class="talk-bg" src="'+AB+'talk.webp" alt="" loading="lazy" onerror="this.style.display=\'none\'">'+

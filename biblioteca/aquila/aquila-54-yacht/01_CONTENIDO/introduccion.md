@@ -14,4 +14,8 @@
 
 > Candidato. Estado: **BORRADOR, requiere revisión editorial**.
 
-> El Aquila 54 Yacht ofrece gran volumen interior y certificación de categoría A.
+Disponible en opciones de 3, 4 y 5 camarotes, además de alojamiento para el patrón y distribuciones con la cocina en la cubierta inferior («galley-down»), para ajustarse a tu estilo de crucero. El camarote principal de manga completa ofrece privacidad, y los detalles cuidados en todo el barco crean una verdadera sensación de hogar.
+
+Con sistemas de navegación inteligentes y certificación de categoría A para mar abierto, el Aquila 54 te da todo lo necesario para llegar más lejos y sentirte completamente en casa en el camino.
+
+Porque allá afuera, el asombro espera.
