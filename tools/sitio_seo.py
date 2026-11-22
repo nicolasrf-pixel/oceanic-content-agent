@@ -155,7 +155,10 @@ def sitemap():
             continue
         urls.append((f'{SITIO}/marca/?m={marca}', '0.8', d_cat))
         for linea in (info.get(marca, {}).get('lineas') or {}):
-            urls.append((f'{SITIO}/marca/?m={marca}&u={linea}', '0.7', d_cat))
+            visibles = [mo for mo in d['modelos'] if f'{marca}/{mo["slug"]}' not in ocultos
+                        and (('vela' in (mo.get('tipo') or '')) == (linea == 'vela'))]
+            if visibles:  # una línea apagada (por ejemplo Aquila Sail) no se publica
+                urls.append((f'{SITIO}/marca/?m={marca}&u={linea}', '0.7', d_cat))
         for mo in d['modelos']:
             if f'{marca}/{mo["slug"]}' not in ocultos:
                 urls.append((f'{SITIO}/marca/?m={marca}&modelo={mo["slug"]}', '0.7', d_cat))

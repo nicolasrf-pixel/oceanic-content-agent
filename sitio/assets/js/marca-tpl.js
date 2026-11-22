@@ -13,6 +13,8 @@
     info=Object.assign({},info,info.lineas[linea]);
     cat={nombre:cat.nombre,series:cat.series,modelos:cat.modelos.filter(function(m){return familia(m.tipo)===linea;})};
   }
+  // línea apagada (todos sus modelos ocultos, por ejemplo Aquila Sail): no tiene página; se vuelve a la marca
+  if(info&&cat&&linea&&info.lineas&&info.lineas[linea]&&!cat.modelos.length&&C[slug]&&C[slug].modelos.length){ location.replace(location.pathname+'?m='+encodeURIComponent(slug)); return; }
   if(!info||!cat){ cont.innerHTML='<section class="cat-hero"><div class="wrap-wide"><h1 class="cat-h1">Marca no encontrada</h1><p class="cat-sub"><a href="../index.html" style="color:var(--boya)">Volver al inicio</a></p></div></section>'; return; }
   document.title=info.nombre+' en Chile | Oceanic';
 

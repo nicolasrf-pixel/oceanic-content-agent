@@ -17,7 +17,11 @@ window.OCEANIC_PUBLICACION = /*DATOS*/{
     "beneteau/oceanis-34-1",
     "lagoon/lagoon-42-millenium"
   ],
-  "ocultos": {}
+  "ocultos": {
+    "beneteau/first-27-se": "Pasó a una gama anterior en la web oficial (revisión 2026-11-22)",
+    "aquila/aquila-45-sail": "Pedido del cliente: se retira la línea Aquila Sail (2026-11-22); se reactiva borrando esta línea",
+    "aquila/aquila-50-sail": "Pedido del cliente: se retira la línea Aquila Sail (2026-11-22); se reactiva borrando esta línea"
+  }
 }/*FIN*/;
 
 (function () {

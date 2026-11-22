@@ -80,7 +80,7 @@ export async function metadatos(env, url) {
     if (!mi) return null;
     const linea = q.get('u');
     let lista = visibles;
-    if (mi.lineas && mi.lineas[linea]) { mi = { ...mi, ...mi.lineas[linea] }; lista = visibles.filter((x) => familiaDe(x.tipo) === linea); }
+    if (mi.lineas && mi.lineas[linea]) { mi = { ...mi, ...mi.lineas[linea] }; lista = visibles.filter((x) => familiaDe(x.tipo) === linea); if (!lista.length && visibles.length) return null; }  // línea apagada: sin vista previa
     const img = /\./.test(mi.hero || '') ? mi.hero : (mi.hero || '') + '.webp';
     return {
       titulo: mi.nombre + ' en Chile | Oceanic',
