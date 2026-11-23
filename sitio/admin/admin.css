@@ -238,3 +238,27 @@ img[src=""],img:not([src]){visibility:hidden}
 
 .crm-ficha{width:min(480px,100vw);z-index:35}
 .crm-ficha .tabla th{width:38%}
+
+/* ---------- Textos del sitio ---------- */
+.tx-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.tx-tab{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--linea);border-radius:99px;background:#fff;color:var(--noche);text-decoration:none;font-size:13.5px;font-weight:500;transition:border-color .2s,background .2s}
+.tx-tab:hover{border-color:var(--boya)}
+.tx-tab.on{background:var(--noche);border-color:var(--noche);color:#fff}
+.tx-tab .chip{padding:1px 7px;font-size:10px}
+.tx-barra{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0 0 16px}
+.tx-barra input[type=search]{max-width:340px}
+.tx-cuenta{font-family:var(--dato);font-size:11.5px;color:var(--trabajo);letter-spacing:.04em}
+.tx-nota{font-size:13.5px;line-height:1.7}
+.tx-nota code,.tx-cab code{font-family:var(--dato);font-size:12px;background:var(--natural);padding:1px 6px;border-radius:5px}
+.tx-grupo{margin:0 0 22px}
+.tx-grupo>h3{font-family:var(--dato);font-size:11.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--trabajo);margin:0 0 10px;padding-bottom:6px;border-bottom:1px solid var(--linea)}
+.tx-item{background:#fff;border:1px solid var(--linea);border-radius:12px;padding:10px 14px 12px;margin:0 0 10px;box-shadow:var(--sombra-1)}
+.tx-item.seo{border-left:3px solid var(--boya)}
+.tx-cab{display:flex;align-items:center;gap:10px;margin:0 0 6px}
+.tx-marca{font-family:var(--dato);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ok);font-weight:600}
+.tx-marca.on::before{content:"● "}
+.tx-item textarea{min-height:42px;resize:vertical}
+.tx-cta{display:block;margin-top:4px;font-family:var(--dato);font-size:11px;color:var(--trabajo)}
+.tx-cta.pasa{color:var(--err);font-weight:600}
+.tx-ori{margin-top:8px;font-size:12.5px;color:var(--trabajo);background:var(--fondo);border-radius:8px;padding:8px 10px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.tx-ori:empty{display:none}

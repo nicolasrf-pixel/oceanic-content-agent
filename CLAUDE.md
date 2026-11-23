@@ -215,6 +215,13 @@ Las reglas viven en `tools/series.json` (patrón sobre el slug, en el orden en q
 aplica solo a cada modelo nuevo y avisa si uno no calza: agregarlo a `series.json`. La vista (`marca-tpl.js`) muestra una barra de líneas y un encabezado
 por línea dentro de cada familia (vela / motor) cuando la marca tiene 2 o más; Excess, VX One y Switch no se agrupan. Prueba: `tools/tests/test_series.py`.
 
+**Textos del sitio (decisión Oceanic 2026-11-23, pedido del cliente: «poder editar todos los textos de todas las secciones de todas las páginas»):** cada texto fijo
+de las páginas HTML lleva `data-t="<página>.<número>"` (`python3 tools/sitio_textos.py` etiqueta lo nuevo sin cambiar lo que se ve y escribe
+`sitio/assets/data/textos-base.json`, la lista que usa el administrador; no tocar los ids ya publicados). El administrador (`/admin/#textos`) guarda solo lo que se
+cambió en el documento `textos` (`assets/js/textos-data.js`, D1) y `assets/js/textos.js` lo aplica al cargar, con solo negrita, cursiva, `<br>` y enlaces seguros;
+también edita el título y la descripción de cada página (`<página>.titulo` / `.desc`). Quedan fuera lo que arma JavaScript con su propio documento (portada,
+tarjetas de marcas y categorías, usados, Puerto, fichas de modelos, formularios, menú y pie). Pruebas: `tools/tests/test_textos.py`, `sitio/tests/textos.test.mjs`.
+
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
 `oceanic-imagenes` (archivos subidos, servidos en `/media/`). Acceso cerrado por defecto: contraseña `ADMIN_PASSWORD`

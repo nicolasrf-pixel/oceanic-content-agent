@@ -45,10 +45,10 @@
 <header class="phero phero-mar">
 <div class="phero-fondo" aria-hidden="true"><video id="pheroVideo" muted loop playsinline preload="none" poster="../assets/img/puerto/hero-mar.webp" data-src="../assets/video/puerto-mar.mp4"></video></div>
 <div class="wrap-wide phero-in">
-<nav aria-label="Ruta" class="crumb"><a href="../index.html">Oceanic</a><span>·</span><span>Puerto</span></nav>
-<h1 class="phero-h1">Puerto</h1>
-<p class="puerto-ok" id="puertoOk" hidden role="status"><b>¡Listo, ya eres parte de Puerto!</b> Confirmaste tu suscripción: te escribiremos cuando haya algo que contar.</p>
-<p class="phero-sub">Siempre volvemos a Puerto. Aquí el mar se vuelve relato: las entregas que ya navegan, la agenda que asoma con viento nuevo, los premios y la técnica que un barco bien equipado necesita.</p>
+<nav aria-label="Ruta" class="crumb"><a href="../index.html" data-t="puerto.001">Oceanic</a><span>·</span><span data-t="puerto.002">Puerto</span></nav>
+<h1 class="phero-h1" data-t="puerto.003">Puerto</h1>
+<p class="puerto-ok" id="puertoOk" hidden role="status" data-t="puerto.004"><b>¡Listo, ya eres parte de Puerto!</b> Confirmaste tu suscripción: te escribiremos cuando haya algo que contar.</p>
+<p class="phero-sub" data-t="puerto.005">Siempre volvemos a Puerto. Aquí el mar se vuelve relato: las entregas que ya navegan, la agenda que asoma con viento nuevo, los premios y la técnica que un barco bien equipado necesita.</p>
 </div>
 </header>
 <!-- PUERTO: ediciones (render desde puerto-data.js) -->
@@ -57,21 +57,23 @@
 <section class="psub" id="suscribir">
 <div class="wrap-wide psub-in">
 <div class="psub-txt">
-<span class="eyebrow" style="color:var(--boya)">No te pierdas ninguna</span>
-<h2>Recibe Puerto<br/>en tu correo</h2>
-<p>Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta.</p>
+<span class="eyebrow" style="color:var(--boya)" data-t="puerto.006">No te pierdas ninguna</span>
+<h2 data-t="puerto.007">Recibe Puerto<br/>en tu correo</h2>
+<p data-t="puerto.008">Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta.</p>
 </div>
 <form class="psub-form" data-puerto data-ok-class="psub-ok" novalidate>
 <input aria-hidden="true" autocomplete="off" name="web" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" tabindex="-1"/>
 <input aria-label="Correo" name="email" placeholder="tu@correo.cl" required="" type="email"/>
-<button class="btn" type="submit">Suscribirme</button>
+<button class="btn" type="submit" data-t="puerto.009">Suscribirme</button>
 </form>
 </div>
 </section>
 </main>
 <div id="foot"></div>
 <div class="drawer" hidden="" id="drawer"></div>
-<div class="mob"><a class="btn" href="#suscribir">Suscribirme a Puerto</a></div>
+<div class="mob"><a class="btn" href="#suscribir" data-t="puerto.010">Suscribirme a Puerto</a></div>
+<script src="../assets/js/textos-data.js"></script>
+<script src="../assets/js/textos.js"></script>
 <script src="../assets/js/formularios.js"></script>
 <script src="../assets/js/portafolio-data.js"></script>
 <script src="../assets/js/nav-tpl.js"></script>

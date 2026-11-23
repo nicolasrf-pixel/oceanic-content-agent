@@ -19,6 +19,7 @@ export const DOCS = {
   equipamiento:       js('/assets/js/equipamiento-data.js', 'OCEANIC_EQUIPAMIENTO', { titulo: 'Equipamiento' }),
   portafolio:         js('/assets/js/portafolio-data.js', 'OCEANIC_PORTAFOLIO', { titulo: 'Portafolio: orden, categorías y marcas' }),
   eventos:            js('/assets/js/eventos-data.js', 'OCEANIC_EVENTOS', { titulo: 'Eventos: pop-ups y landings' }),
+  textos:             js('/assets/js/textos-data.js', 'OCEANIC_TEXTOS', { titulo: 'Textos del sitio' }),
   // Solo en el CMS (no hay archivo en el sitio): patrones prohibidos del Brand OS, se validan al guardar texto.
   patrones:           { titulo: 'Patrones prohibidos', soloCms: true, base: [] },
 };
@@ -87,11 +88,42 @@ export function validar(clave, d, patrones = []) {
   else if (clave === 'inicio') inicio(d, err);
   else if (clave === 'eventos') eventos(d, err, aviso);
   else if (clave === 'portafolio') portafolio(d, err, aviso);
+  else if (clave === 'textos') textos(d, err, aviso);
   else if (clave === 'catalogo' || clave === 'contenido') ficha(d, err, aviso);
   else if (clave === 'patrones') listaPatrones(d, err);
   else if (FICHA.test(clave)) ficha(d, err, aviso);
   if (clave !== 'patrones') prohibidos(d, normalizarPatrones(patrones), err);
   return { errores: E, avisos: A };
+}
+
+/* Textos del sitio: { "<página>.<número>": "texto con marcas simples", "<página>.titulo": "…", "<página>.desc": "…" }.
+   El texto admite solo negrita, cursiva, salto de línea y enlaces seguros (assets/js/textos.js descarta el resto al mostrarlo). */
+const MARCAS_TEXTO = new Set(['b', 'strong', 'i', 'em', 'br', 'a', 'small', 'sup', 'sub', 'u', 'mark']);
+const PRECIO = /(US\$|USD|\bCLP\b|\$\s?\d)/i;
+function textos(d, err, aviso) {
+  if (Array.isArray(d)) return err('', 'Textos: un objeto { id: texto }');
+  const claves = Object.keys(d);
+  if (claves.length > 1500) err('', 'Demasiados textos (máximo 1500)');
+  for (const k of claves) {
+    const v = d[k];
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:\d{3,5}|titulo|desc)$/.test(k)) { err(k, 'Identificador inválido: debe ser <página>.<número>, <página>.titulo o <página>.desc'); continue; }
+    if (typeof v !== 'string') { err(k, 'El texto debe ser un texto'); continue; }
+    const simple = /\.(titulo|desc)$/.test(k);
+    if (v.length > (k.endsWith('.titulo') ? 200 : k.endsWith('.desc') ? 400 : 6000)) err(k, 'Texto demasiado largo');
+    if (/<(?![\/a-zA-Z!])/.test(v)) err(k, 'Para escribir el símbolo < usa &lt;');
+    for (const m of v.matchAll(/<\/?([a-zA-Z][a-zA-Z0-9]*)([^>]*)>/g)) {
+      const tag = m[1].toLowerCase();
+      if (simple) { err(k, 'El título y la descripción van sin formato'); break; }
+      if (!MARCAS_TEXTO.has(tag)) { err(k, `No se permite <${tag}>: solo negrita, cursiva, salto de línea y enlaces`); break; }
+      if (tag === 'a' && !m[0].startsWith('</')) {
+        const href = /\bhref\s*=\s*(?:"([^"]*)"|'([^']*)')/i.exec(m[2]);
+        const h = href ? (href[1] ?? href[2]) : '';
+        if (!h || !(enlaceSeguro(h) || /^(mailto:|tel:)[^\s]+$/i.test(h))) { err(k, 'Enlace inválido o inseguro (http/https, mailto, tel o ruta del sitio)'); break; }
+        if (/\son\w+\s*=/i.test(m[2])) { err(k, 'Los enlaces no admiten atributos de eventos'); break; }
+      } else if (tag !== 'a' && m[2].trim() && tag !== 'br') { err(k, `<${tag}> no admite atributos`); break; }
+    }
+    if (!/^(?:usados|terminos|privacidad)/.test(k) && PRECIO.test(v)) aviso(k, 'Parece incluir un precio: los barcos nuevos no publican precio (solo los usados)');
+  }
 }
 
 function usados(L, err, aviso) {

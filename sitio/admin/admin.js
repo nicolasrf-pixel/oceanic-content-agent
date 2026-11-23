@@ -924,6 +924,110 @@
     });
   };
 
+
+  /* --- Textos del sitio: todos los textos fijos de todas las páginas (textos-data.js + textos-base.json) --- */
+  var NOMBRES_PAG = { inicio: 'Inicio', nosotros: 'Nosotros', charter: 'Charter', usados: 'Usados', equipamiento: 'Equipamiento', puerto: 'Puerto',
+    contacto: 'Contacto', 'arriendo-boyas': 'Arriendo de boyas', privacidad: 'Política de privacidad', terminos: 'Términos de uso',
+    gracias: 'Gracias (tras cotizar)', '404': 'Página no encontrada', evento: 'Evento', marca: 'Marca', universo: 'Categoría',
+    'usados-barco': 'Ficha de usado', 'puerto-edicion': 'Edición de Puerto' };
+  function etiquetaSec(sec) {
+    if (sec === 'SEO') return 'Título y descripción para buscadores (SEO)';
+    if (sec === 'pagina') return 'Página';
+    var m = /^([a-z]+)([#.])(.+)$/.exec(sec);
+    return m ? (m[2] === '#' ? 'Sección «' + m[3] + '»' : 'Bloque «' + m[3] + '»') : sec;
+  }
+  S.textos = function (arg) {
+    return Promise.all([cargar('textos'), fetch('/assets/data/textos-base.json', { credentials: 'same-origin' }).then(function (r) { return r.json(); })]).then(function (res) {
+      var doc = res[0], base = res[1], T = doc.contenido;
+      if (Array.isArray(T) || T == null || typeof T !== 'object') T = doc.contenido = {};
+      var orden = Object.keys(NOMBRES_PAG);
+      var paginas = base.paginas.filter(function (p) { return p.items.length; }).sort(function (a, b) {
+        var i = orden.indexOf(a.pagina), j = orden.indexOf(b.pagina); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j);
+      });
+      var actual = paginas.filter(function (p) { return p.pagina === arg; })[0] || paginas[0];
+      var cont = h('div');
+
+      function editados(p) { return p.items.filter(function (i) { return Object.prototype.hasOwnProperty.call(T, i.id); }).length; }
+      var tabs = h('div', { class: 'tx-tabs', role: 'tablist' });
+      function pintarTabs() {
+        vaciar(tabs);
+        paginas.forEach(function (p) {
+          var n = editados(p);
+          tabs.appendChild(h('a', { class: 'tx-tab' + (p === actual ? ' on' : ''), href: '#textos/' + p.pagina, role: 'tab', 'aria-selected': p === actual ? 'true' : 'false' },
+            NOMBRES_PAG[p.pagina] || p.pagina, n ? h('span', { class: 'chip ok', text: n + ' editado' + (n > 1 ? 's' : '') }) : null));
+        });
+      }
+
+      var buscar = h('input', { type: 'search', placeholder: 'Buscar un texto…', 'aria-label': 'Buscar un texto en esta página', oninput: function () { pintarLista(); } });
+      var contador = h('span', { class: 'tx-cuenta' });
+      var lista = h('div', { class: 'tx-lista' });
+
+      function item(it) {
+        var edit = Object.prototype.hasOwnProperty.call(T, it.id);
+        var valor = edit ? T[it.id] : it.html;
+        var largo = it.id.indexOf('.titulo') > 0 || it.id.indexOf('.desc') > 0;
+        var ta = h('textarea', { rows: Math.min(8, Math.max(1, Math.ceil(valor.length / 90))), spellcheck: 'true', 'aria-label': 'Texto ' + it.id });
+        ta.value = valor;
+        var marca = h('span', { class: 'tx-marca' });
+        var ori = h('div', { class: 'tx-ori' });
+        var cta = h('small', { class: 'tx-cta' });
+        var restaurar = h('button', { class: 'btn-sm', type: 'button', text: 'Restaurar el original', onclick: function () { ta.value = it.html; cambio(); } });
+        function contar() {
+          var n = ta.value.length;
+          if (it.id.slice(-7) === '.titulo') { cta.textContent = n + ' caracteres · ideal hasta 60'; cta.className = 'tx-cta' + (n > 60 ? ' pasa' : ''); }
+          else if (it.id.slice(-5) === '.desc') { cta.textContent = n + ' caracteres · ideal hasta 160'; cta.className = 'tx-cta' + (n > 160 ? ' pasa' : ''); }
+        }
+        function pintar() {
+          var ed = Object.prototype.hasOwnProperty.call(T, it.id);
+          marca.textContent = ed ? 'Editado' : ''; marca.className = 'tx-marca' + (ed ? ' on' : '');
+          vaciar(ori);
+          if (ed) { ori.appendChild(h('b', { text: 'Original: ' })); ori.appendChild(document.createTextNode(it.html)); ori.appendChild(restaurar); }
+          contar();
+        }
+        function cambio() {
+          var v = ta.value;
+          if (v.trim() === '' || v === it.html) delete T[it.id]; else T[it.id] = v;   // vacío = vuelve al original
+          marcar(doc); pintar(); pintarTabs();
+        }
+        ta.addEventListener('input', cambio);
+        pintar();
+        return h('div', { class: 'tx-item' + (largo ? ' seo' : '') }, h('div', { class: 'tx-cab' }, h('code', { text: it.id }), marca), ta, cta, ori);
+      }
+
+      function pintarLista() {
+        var q = buscar.value.trim().toLowerCase();
+        vaciar(lista);
+        var visibles = actual.items.filter(function (i) { return !q || i.html.toLowerCase().indexOf(q) >= 0 || (T[i.id] || '').toLowerCase().indexOf(q) >= 0 || i.id.indexOf(q) >= 0; });
+        contador.textContent = visibles.length + ' de ' + actual.items.length + ' textos';
+        var grupos = [], ult = null;
+        visibles.forEach(function (i) { if (!ult || ult.sec !== i.sec) { ult = { sec: i.sec, items: [] }; grupos.push(ult); } ult.items.push(i); });
+        grupos.sort(function (a, b) { return (a.sec === 'SEO' ? 0 : 1) - (b.sec === 'SEO' ? 0 : 1); });
+        grupos.forEach(function (g) {
+          lista.appendChild(h('section', { class: 'tx-grupo' }, h('h3', { text: etiquetaSec(g.sec) }), g.items.map(item)));
+        });
+        if (!visibles.length) lista.appendChild(h('p', { class: 'vacio', text: 'No hay textos que coincidan con la búsqueda.' }));
+      }
+
+      var url = '/' + actual.archivo.replace(/index\.html$/, '');
+      pintarTabs(); pintarLista();
+      cont.appendChild(h('h1', { text: 'Textos del sitio' }));
+      cont.appendChild(h('p', { class: 'lede', text: 'Cambia cualquier texto fijo de cualquier página: títulos, párrafos, botones, cifras y el título y la descripción que ve Google. Escribe sobre el texto y pulsa Guardar borrador y luego Publicar. Para volver a un texto original, usa «Restaurar el original» o borra todo el contenido.' }));
+      cont.appendChild(barra(doc));
+      cont.appendChild(h('div', { class: 'panel tx-nota' },
+        h('b', { text: 'Formato permitido: ' }), 'negrita ', h('code', { text: '<b>texto</b>' }), ', cursiva ', h('code', { text: '<i>texto</i>' }), ', salto de línea ', h('code', { text: '<br>' }),
+        ' y enlaces ', h('code', { text: '<a href="/contacto/">texto</a>' }), '. Cualquier otra marca se descarta. El título y la descripción van sin formato.',
+        h('br'), h('b', { text: 'Estas secciones tienen su propio lugar: ' }),
+        h('a', { href: '#portada', text: 'Portada del inicio' }), ' · ', h('a', { href: '#portafolio', text: 'Orden, categorías y marcas' }), ' · ',
+        h('a', { href: '#catalogo', text: 'Modelos' }), ' · ', h('a', { href: '#contenido/marcas', text: 'Marcas' }), ' · ', h('a', { href: '#usados', text: 'Usados' }), ' · ',
+        h('a', { href: '#puerto', text: 'Puerto' }), ' · ', h('a', { href: '#contenido/charter', text: 'Charter' }), ' · ', h('a', { href: '#contenido/equipamiento', text: 'Equipamiento' }),
+        '. Los formularios, el menú y el pie se arman con código y se cambian pidiéndolo.'));
+      cont.appendChild(tabs);
+      cont.appendChild(h('div', { class: 'tx-barra' }, buscar, contador, h('a', { class: 'btn-sm', href: url, target: '_blank', rel: 'noopener', text: 'Ver esta página ↗' })));
+      cont.appendChild(lista);
+      return cont;
+    });
+  };
+
   /* --- Eventos: pop-ups de invitación y landings de eventos (eventos-data.js) --- */
   function slugDe(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); }
   function interruptor(obj, k, etq, alCambiar) {

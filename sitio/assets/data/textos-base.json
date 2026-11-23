@@ -1,0 +1,2956 @@
+{
+ "paginas": [
+  {
+   "pagina": "404",
+   "archivo": "404.html",
+   "items": [
+    {
+     "id": "404.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Página no encontrada | Oceanic"
+    },
+    {
+     "id": "404.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "La página que buscas no existe o cambió de lugar."
+    },
+    {
+     "id": "404.001",
+     "sec": "div.nf",
+     "tag": "span",
+     "html": "ERROR 404"
+    },
+    {
+     "id": "404.002",
+     "sec": "div.nf",
+     "tag": "h1",
+     "html": "Mar abierto,<br>sin rumbo fijo"
+    },
+    {
+     "id": "404.003",
+     "sec": "div.nf",
+     "tag": "p",
+     "html": "La página que buscas no existe o cambió de lugar. Volvamos a aguas conocidas."
+    },
+    {
+     "id": "404.004",
+     "sec": "div.nf-cta",
+     "tag": "a",
+     "html": "Ir al inicio"
+    },
+    {
+     "id": "404.005",
+     "sec": "div.nf-cta",
+     "tag": "a",
+     "html": "Ver el catálogo"
+    }
+   ]
+  },
+  {
+   "pagina": "arriendo-boyas",
+   "archivo": "arriendo-boyas/index.html",
+   "items": [
+    {
+     "id": "arriendo-boyas.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Arriendo de boyas robóticas MarkSetBot · Oceanic"
+    },
+    {
+     "id": "arriendo-boyas.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Arriendo de boyas robóticas MarkSetBot para regatas en Chile: boyas autopropulsadas con GPS que se mantienen en posición sin anclas. Cotiza el arriendo para tu evento."
+    },
+    {
+     "id": "arriendo-boyas.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "arriendo-boyas.002",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Equipamiento"
+    },
+    {
+     "id": "arriendo-boyas.003",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Arriendo de boyas"
+    },
+    {
+     "id": "arriendo-boyas.004",
+     "sec": "div.bhero-txt",
+     "tag": "p",
+     "html": "Arriendo de boyas para regatas"
+    },
+    {
+     "id": "arriendo-boyas.005",
+     "sec": "div.bhero-txt",
+     "tag": "h1",
+     "html": "Boyas robóticas<br/>MarkSetBot"
+    },
+    {
+     "id": "arriendo-boyas.006",
+     "sec": "div.bhero-txt",
+     "tag": "p",
+     "html": "Boyas autopropulsadas con GPS que se mantienen en su posición sin anclas. Arrienda la flota para tu regata y arma la cancha desde el celular."
+    },
+    {
+     "id": "arriendo-boyas.007",
+     "sec": "div.bhero-cta",
+     "tag": "a",
+     "html": "Cotizar arriendo"
+    },
+    {
+     "id": "arriendo-boyas.008",
+     "sec": "div.bhero-cta",
+     "tag": "button",
+     "html": "<span aria-hidden=\"true\">▶</span> Ver video"
+    },
+    {
+     "id": "arriendo-boyas.009",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Qué es"
+    },
+    {
+     "id": "arriendo-boyas.010",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "La regata se arma<br/>sin lanzar un ancla"
+    },
+    {
+     "id": "arriendo-boyas.011",
+     "sec": "div.bque-txt",
+     "tag": "p",
+     "html": "MarkSetBot es el primer sistema robótico de marcas de regata del mundo. Sus boyas patentadas son autopropulsadas y usan GPS para mantener su posición sin anclas."
+    },
+    {
+     "id": "arriendo-boyas.012",
+     "sec": "div.bque-txt",
+     "tag": "p",
+     "html": "Con una aplicación móvil fácil de usar, se arman rápido y se mueven o reposicionan sin esfuerzo: la gestión de la regata queda simple, precisa y sostenible. Ideal para clubes, comités de regata y organizadores de campeonatos."
+    },
+    {
+     "id": "arriendo-boyas.013",
+     "sec": "div.bque-txt",
+     "tag": "b",
+     "html": "2014"
+    },
+    {
+     "id": "arriendo-boyas.014",
+     "sec": "div.bque-txt",
+     "tag": "span",
+     "html": "perfeccionando hardware y software"
+    },
+    {
+     "id": "arriendo-boyas.015",
+     "sec": "div.bque-txt",
+     "tag": "b",
+     "html": "+80.000"
+    },
+    {
+     "id": "arriendo-boyas.016",
+     "sec": "div.bque-txt",
+     "tag": "span",
+     "html": "días en el agua"
+    },
+    {
+     "id": "arriendo-boyas.017",
+     "sec": "div.bque-txt",
+     "tag": "b",
+     "html": "45"
+    },
+    {
+     "id": "arriendo-boyas.018",
+     "sec": "div.bque-txt",
+     "tag": "span",
+     "html": "países usan su app"
+    },
+    {
+     "id": "arriendo-boyas.019",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Por qué MarkSetBot"
+    },
+    {
+     "id": "arriendo-boyas.020",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Más regatas, en menos tiempo"
+    },
+    {
+     "id": "arriendo-boyas.021",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Cancha lista en minutos"
+    },
+    {
+     "id": "arriendo-boyas.022",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Diseñas el recorrido en un mapa simple y las boyas navegan solas hasta su posición."
+    },
+    {
+     "id": "arriendo-boyas.023",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Precisión y reposicionamiento rápido"
+    },
+    {
+     "id": "arriendo-boyas.024",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Si rola el viento, mueves las marcas con un toque y la regata sigue sin esperas."
+    },
+    {
+     "id": "arriendo-boyas.025",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "App fácil de usar"
+    },
+    {
+     "id": "arriendo-boyas.026",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Control remoto desde el celular, incluso fuera de la red."
+    },
+    {
+     "id": "arriendo-boyas.027",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Sin anclas"
+    },
+    {
+     "id": "arriendo-boyas.028",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Funcionan en aguas profundas y con viento fuerte, sin fondear."
+    },
+    {
+     "id": "arriendo-boyas.029",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Menos impacto ambiental"
+    },
+    {
+     "id": "arriendo-boyas.030",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Sin anclas ni cadenas que dañen el fondo marino."
+    },
+    {
+     "id": "arriendo-boyas.031",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Totalmente inflables"
+    },
+    {
+     "id": "arriendo-boyas.032",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Fáciles de transportar y de armar en cualquier club."
+    },
+    {
+     "id": "arriendo-boyas.033",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Más de 35 canchas"
+    },
+    {
+     "id": "arriendo-boyas.034",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Plantillas automáticas de recorrido para más de 35 tipos de cancha."
+    },
+    {
+     "id": "arriendo-boyas.035",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Tecnología completa"
+    },
+    {
+     "id": "arriendo-boyas.036",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Un conjunto de herramientas de apoyo para el comité de regata."
+    },
+    {
+     "id": "arriendo-boyas.037",
+     "sec": "div.wrap-wide",
+     "tag": "h3",
+     "html": "Respaldo del fabricante"
+    },
+    {
+     "id": "arriendo-boyas.038",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Un equipo dedicado detrás de cada boya y de cada mejora."
+    },
+    {
+     "id": "arriendo-boyas.039",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "«Menos gente. Menos líneas de fondeo. Se necesitan menos botes. Menos combustible.»"
+    },
+    {
+     "id": "arriendo-boyas.040",
+     "sec": "div.wrap-wide",
+     "tag": "cite",
+     "html": "Ken Read, presidente de North Sails"
+    },
+    {
+     "id": "arriendo-boyas.041",
+     "sec": "div.bconf-txt",
+     "tag": "span",
+     "html": "Con la confianza de"
+    },
+    {
+     "id": "arriendo-boyas.042",
+     "sec": "div.bconf-txt",
+     "tag": "p",
+     "html": "Clubes de todo el mundo y eventos de todos los niveles, desde regatas de club entre semana hasta campeonatos mundiales: SailGP, Juegos Panamericanos, 52 Super Series y 44Cup, entre otros."
+    },
+    {
+     "id": "arriendo-boyas.043",
+     "sec": "div.bconf-txt",
+     "tag": "p",
+     "html": "Datos y testimonio publicados en la web oficial de MarkSetBot (marksetbot.com)."
+    },
+    {
+     "id": "arriendo-boyas.044",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Cotizar arriendo"
+    },
+    {
+     "id": "arriendo-boyas.045",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Cuéntanos de tu regata"
+    },
+    {
+     "id": "arriendo-boyas.046",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Fecha, lugar y cuántas marcas necesitas. Te escribimos con disponibilidad y una propuesta. Sin costo ni compromiso."
+    },
+    {
+     "id": "arriendo-boyas.047",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Cómo funciona"
+    },
+    {
+     "id": "arriendo-boyas.048",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Del formulario<br/>a la cancha"
+    },
+    {
+     "id": "arriendo-boyas.049",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "01"
+    },
+    {
+     "id": "arriendo-boyas.050",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Nos cuentas"
+    },
+    {
+     "id": "arriendo-boyas.051",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "La regata, las fechas, el lugar y cuántas marcas necesitas."
+    },
+    {
+     "id": "arriendo-boyas.052",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "02"
+    },
+    {
+     "id": "arriendo-boyas.053",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Te proponemos"
+    },
+    {
+     "id": "arriendo-boyas.054",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Revisamos disponibilidad y te enviamos una propuesta de arriendo."
+    },
+    {
+     "id": "arriendo-boyas.055",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "03"
+    },
+    {
+     "id": "arriendo-boyas.056",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Coordinamos"
+    },
+    {
+     "id": "arriendo-boyas.057",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Afinamos contigo los detalles para que el día de la regata todo esté listo."
+    },
+    {
+     "id": "arriendo-boyas.058",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Conversemos"
+    },
+    {
+     "id": "arriendo-boyas.059",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "¿Prefieres<br/>hablarlo directo?"
+    },
+    {
+     "id": "arriendo-boyas.060",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Escríbenos por WhatsApp y te contamos cómo funciona el arriendo."
+    },
+    {
+     "id": "arriendo-boyas.061",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Escribir por WhatsApp"
+    },
+    {
+     "id": "arriendo-boyas.062",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Usar el formulario"
+    },
+    {
+     "id": "arriendo-boyas.063",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Cotizar arriendo"
+    }
+   ]
+  },
+  {
+   "pagina": "charter",
+   "archivo": "charter/index.html",
+   "items": [
+    {
+     "id": "charter.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Charter de embarcaciones: navega el mundo con Oceanic"
+    },
+    {
+     "id": "charter.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Arriendo de embarcaciones con o sin tripulación en el Mediterráneo, el Caribe, el Pacífico Sur y más. Cuéntanos destino, fechas y grupo, y armamos tu travesía."
+    },
+    {
+     "id": "charter.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "charter.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Charter"
+    },
+    {
+     "id": "charter.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "El mundo se<br/>navega mejor"
+    },
+    {
+     "id": "charter.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Arrienda una embarcación con o sin tripulación en los mejores destinos del planeta. Tú eliges dónde y cuándo; nosotros armamos la travesía completa."
+    },
+    {
+     "id": "charter.005",
+     "sec": "div.wrap-wide",
+     "tag": "a",
+     "html": "Cotizar mi travesía"
+    },
+    {
+     "id": "charter.006",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Arma tu travesía"
+    },
+    {
+     "id": "charter.007",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Cuéntanos qué imaginas"
+    },
+    {
+     "id": "charter.008",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Completa este formulario y te preparamos una propuesta a medida. Sin costo, sin compromiso."
+    },
+    {
+     "id": "charter.009",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Cómo funciona"
+    },
+    {
+     "id": "charter.010",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "De la idea<br/>al zarpe"
+    },
+    {
+     "id": "charter.011",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "01"
+    },
+    {
+     "id": "charter.012",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Nos cuentas"
+    },
+    {
+     "id": "charter.013",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Destino, fechas, cuántos son y cómo les gusta navegar. El cotizador de arriba es el punto de partida."
+    },
+    {
+     "id": "charter.014",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "02"
+    },
+    {
+     "id": "charter.015",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Armamos la propuesta"
+    },
+    {
+     "id": "charter.016",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Seleccionamos la embarcación, la tripulación si la quieres y la ruta. Con precio claro y sin sorpresas."
+    },
+    {
+     "id": "charter.017",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "03"
+    },
+    {
+     "id": "charter.018",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Ajustamos contigo"
+    },
+    {
+     "id": "charter.019",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Cambiamos lo que haga falta hasta que la travesía sea exactamente lo que buscas."
+    },
+    {
+     "id": "charter.020",
+     "sec": "div.chs",
+     "tag": "span",
+     "html": "04"
+    },
+    {
+     "id": "charter.021",
+     "sec": "div.chs",
+     "tag": "h3",
+     "html": "Zarpas"
+    },
+    {
+     "id": "charter.022",
+     "sec": "div.chs",
+     "tag": "p",
+     "html": "Coordinamos la entrega, el briefing y el aprovisionamiento. Tú solo llegas y navegas."
+    },
+    {
+     "id": "charter.023",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Dónde navegar"
+    },
+    {
+     "id": "charter.024",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Destinos"
+    },
+    {
+     "id": "charter.025",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Conversemos"
+    },
+    {
+     "id": "charter.026",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "¿Prefieres<br/>hablarlo directo?"
+    },
+    {
+     "id": "charter.027",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Cuéntanos por WhatsApp qué tienes en mente y te armamos la propuesta."
+    },
+    {
+     "id": "charter.028",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Cotizar por WhatsApp"
+    },
+    {
+     "id": "charter.029",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Usar el cotizador"
+    },
+    {
+     "id": "charter.030",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Cotizar mi travesía"
+    }
+   ]
+  },
+  {
+   "pagina": "contacto",
+   "archivo": "contacto/index.html",
+   "items": [
+    {
+     "id": "contacto.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Contacto y cotizaciones de barcos nuevos y usados | Oceanic"
+    },
+    {
+     "id": "contacto.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Habla con un especialista de Oceanic. Cuéntanos cómo navegas y te ayudamos a encontrar la embarcación que corresponde."
+    },
+    {
+     "id": "contacto.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "contacto.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Conversemos"
+    },
+    {
+     "id": "contacto.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "Cuéntanos<br/>cómo navegas"
+    },
+    {
+     "id": "contacto.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Te respondemos con información concreta: qué marca corresponde, plazos reales y precio según lo que necesitas. Sin secuencias automáticas ni presión de venta."
+    },
+    {
+     "id": "contacto.005",
+     "sec": "div.cfield",
+     "tag": "label",
+     "html": "Nombre"
+    },
+    {
+     "id": "contacto.006",
+     "sec": "div.cfield",
+     "tag": "label",
+     "html": "Correo"
+    },
+    {
+     "id": "contacto.007",
+     "sec": "div.cfield",
+     "tag": "label",
+     "html": "Teléfono <span class=\"opt\">(opcional)</span>"
+    },
+    {
+     "id": "contacto.008",
+     "sec": "div.cfield",
+     "tag": "label",
+     "html": "Motivo"
+    },
+    {
+     "id": "contacto.009",
+     "sec": "div.cfield",
+     "tag": "label",
+     "html": "Tu mensaje"
+    },
+    {
+     "id": "contacto.010",
+     "sec": "form.cform",
+     "tag": "span",
+     "html": "Quiero recibir <b>Puerto</b>, el newsletter de Oceanic, lanzamientos, premios, eventos y técnica útil. Cuando hay algo que contar, no por calendario."
+    },
+    {
+     "id": "contacto.011",
+     "sec": "div.cfoot",
+     "tag": "button",
+     "html": "Enviar"
+    },
+    {
+     "id": "contacto.012",
+     "sec": "div.cfoot",
+     "tag": "span",
+     "html": "Te respondemos dentro de un día hábil."
+    },
+    {
+     "id": "contacto.013",
+     "sec": "div#cok",
+     "tag": "h3",
+     "html": "Gracias. Recibimos tu mensaje."
+    },
+    {
+     "id": "contacto.014",
+     "sec": "div#cok",
+     "tag": "p",
+     "html": "Te escribimos dentro de un día hábil con información concreta. <span data-via></span> Mientras tanto, puedes explorar las marcas o revisar los usados disponibles."
+    },
+    {
+     "id": "contacto.015",
+     "sec": "div.cok-links",
+     "tag": "a",
+     "html": "Ver marcas →"
+    },
+    {
+     "id": "contacto.016",
+     "sec": "div.cok-links",
+     "tag": "a",
+     "html": "Ver usados →"
+    },
+    {
+     "id": "contacto.017",
+     "sec": "div.cblock",
+     "tag": "span",
+     "html": "Oficina"
+    },
+    {
+     "id": "contacto.018",
+     "sec": "div.cblock",
+     "tag": "p",
+     "html": "Alonso de Córdova 2653<br/>of. 302, Vitacura"
+    },
+    {
+     "id": "contacto.019",
+     "sec": "div.cblock",
+     "tag": "p",
+     "html": "Santiago · Chile"
+    },
+    {
+     "id": "contacto.020",
+     "sec": "div.cblock",
+     "tag": "span",
+     "html": "Directo"
+    },
+    {
+     "id": "contacto.021",
+     "sec": "div.cblock",
+     "tag": "a",
+     "html": "+56 2 2953 7321"
+    },
+    {
+     "id": "contacto.022",
+     "sec": "div.cblock",
+     "tag": "a",
+     "html": "ventas@oceanic.cl"
+    },
+    {
+     "id": "contacto.023",
+     "sec": "div.cblock",
+     "tag": "span",
+     "html": "Horario"
+    },
+    {
+     "id": "contacto.024",
+     "sec": "div.cblock",
+     "tag": "p",
+     "html": "Lunes a viernes<br/>9:00 – 18:00"
+    },
+    {
+     "id": "contacto.025",
+     "sec": "div.cblock",
+     "tag": "span",
+     "html": "Síguenos"
+    },
+    {
+     "id": "contacto.026",
+     "sec": "div.cblock",
+     "tag": "a",
+     "html": "Instagram"
+    },
+    {
+     "id": "contacto.027",
+     "sec": "div.cblock",
+     "tag": "a",
+     "html": "YouTube"
+    },
+    {
+     "id": "contacto.028",
+     "sec": "div.cblock",
+     "tag": "a",
+     "html": "LinkedIn"
+    },
+    {
+     "id": "contacto.029",
+     "sec": "div.cnews-txt",
+     "tag": "span",
+     "html": "Puerto"
+    },
+    {
+     "id": "contacto.030",
+     "sec": "div.cnews-txt",
+     "tag": "h2",
+     "html": "Suscríbete al<br/>newsletter"
+    },
+    {
+     "id": "contacto.031",
+     "sec": "div.cnews-txt",
+     "tag": "p",
+     "html": "Cada edición: premios de las marcas, entregas que ya navegan, la agenda náutica del mes y técnica útil. Cuando hay algo que contar."
+    },
+    {
+     "id": "contacto.032",
+     "sec": "form.cnews-form",
+     "tag": "button",
+     "html": "Suscribirme"
+    },
+    {
+     "id": "contacto.033",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Escríbenos"
+    }
+   ]
+  },
+  {
+   "pagina": "equipamiento",
+   "archivo": "equipamiento/index.html",
+   "items": [
+    {
+     "id": "equipamiento.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Equipamiento · Todo lo que el barco necesita | Oceanic"
+    },
+    {
+     "id": "equipamiento.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Electrónica, jarcia, velas, hélices, pintura y remolques. Las marcas de equipamiento náutico que Oceanic representa en Chile, seleccionadas por el mismo equipo que representa los astilleros."
+    },
+    {
+     "id": "equipamiento.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "equipamiento.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Equipamiento"
+    },
+    {
+     "id": "equipamiento.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "Todo lo que<br/>el barco necesita"
+    },
+    {
+     "id": "equipamiento.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Electrónica, jarcia, velas, hélices, pintura y transporte. Seleccionado por el mismo equipo que representa los astilleros, te decimos qué necesitas, no te vendemos catálogo."
+    },
+    {
+     "id": "equipamiento.005",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Solicitar información"
+    },
+    {
+     "id": "equipamiento.006",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Marca lo que te interesa"
+    },
+    {
+     "id": "equipamiento.007",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Selecciona una o varias categorías y déjanos tus datos. Te enviamos la información y los precios por correo. Si prefieres, escríbenos directo por WhatsApp."
+    },
+    {
+     "id": "equipamiento.008",
+     "sec": "div.eform-box",
+     "tag": "legend",
+     "html": "¿Qué estás buscando?"
+    },
+    {
+     "id": "equipamiento.009",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Navegación y electrónica"
+    },
+    {
+     "id": "equipamiento.010",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Jarcia y cubierta"
+    },
+    {
+     "id": "equipamiento.011",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Velas"
+    },
+    {
+     "id": "equipamiento.012",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Propulsión"
+    },
+    {
+     "id": "equipamiento.013",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Pintura y protección"
+    },
+    {
+     "id": "equipamiento.014",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Remolques y transporte"
+    },
+    {
+     "id": "equipamiento.015",
+     "sec": "div.eform-box",
+     "tag": "span",
+     "html": "Gestión de regatas"
+    },
+    {
+     "id": "equipamiento.016",
+     "sec": "div.eform-cta",
+     "tag": "button",
+     "html": "Enviar solicitud"
+    },
+    {
+     "id": "equipamiento.017",
+     "sec": "div.eform-cta",
+     "tag": "a",
+     "html": "o por WhatsApp →"
+    },
+    {
+     "id": "equipamiento.018",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Cuéntanos qué necesitas"
+    }
+   ]
+  },
+  {
+   "pagina": "evento",
+   "archivo": "evento/index.html",
+   "items": [
+    {
+     "id": "evento.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Eventos · Oceanic"
+    },
+    {
+     "id": "evento.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Invitación a un evento de Oceanic."
+    }
+   ]
+  },
+  {
+   "pagina": "gracias",
+   "archivo": "gracias/index.html",
+   "items": [
+    {
+     "id": "gracias.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Gracias por cotizar | Oceanic"
+    },
+    {
+     "id": "gracias.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Recibimos tu cotización. Un especialista de Oceanic te escribirá pronto."
+    },
+    {
+     "id": "gracias.001",
+     "sec": "div.gr-txt",
+     "tag": "p",
+     "html": "Cotización recibida"
+    },
+    {
+     "id": "gracias.002",
+     "sec": "div.gr-txt",
+     "tag": "h1",
+     "html": "¡Gracias por cotizar!"
+    },
+    {
+     "id": "gracias.003",
+     "sec": "div.gr-txt",
+     "tag": "p",
+     "html": "Recibimos tu cotización. Te enviamos una copia a tu correo y un especialista de Oceanic te escribirá lo antes posible con precio, configuración y plazos."
+    },
+    {
+     "id": "gracias.004",
+     "sec": "div.gr-txt",
+     "tag": "b",
+     "html": "Revisamos tu solicitud"
+    },
+    {
+     "id": "gracias.005",
+     "sec": "div.gr-txt",
+     "tag": "span",
+     "html": "Un especialista mira el barco y lo que nos contaste."
+    },
+    {
+     "id": "gracias.006",
+     "sec": "div.gr-txt",
+     "tag": "b",
+     "html": "Te escribimos"
+    },
+    {
+     "id": "gracias.007",
+     "sec": "div.gr-txt",
+     "tag": "span",
+     "html": "Con precio, configuración y plazos de entrega en Chile."
+    },
+    {
+     "id": "gracias.008",
+     "sec": "div.gr-txt",
+     "tag": "b",
+     "html": "Lo conversamos"
+    },
+    {
+     "id": "gracias.009",
+     "sec": "div.gr-txt",
+     "tag": "span",
+     "html": "Por correo, teléfono o WhatsApp, como prefieras."
+    },
+    {
+     "id": "gracias.010",
+     "sec": "div.gr-cta",
+     "tag": "a",
+     "html": "Volver al home"
+    },
+    {
+     "id": "gracias.011",
+     "sec": "div.gr-cta",
+     "tag": "a",
+     "html": "Seguir viendo barcos"
+    }
+   ]
+  },
+  {
+   "pagina": "inicio",
+   "archivo": "index.html",
+   "items": [
+    {
+     "id": "inicio.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Oceanic · Marcas náuticas de referencia mundial en Chile"
+    },
+    {
+     "id": "inicio.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Representamos a Beneteau, Lagoon, Axopar, Solaris y otras marcas de referencia mundial en Chile. Venta de embarcaciones nuevas, usados y equipamiento náutico."
+    },
+    {
+     "id": "inicio.001",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Representación marina premium · Chile"
+    },
+    {
+     "id": "inicio.002",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "La confianza<br/>empieza antes<br/>de zarpar."
+    },
+    {
+     "id": "inicio.003",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Representamos y vendemos algunas de las mejores marcas náuticas del mundo. Acompañamos cada decisión con criterio técnico."
+    },
+    {
+     "id": "inicio.004",
+     "sec": "div.hhero-cta",
+     "tag": "a",
+     "html": "Explorar las marcas"
+    },
+    {
+     "id": "inicio.005",
+     "sec": "div.hhero-cta",
+     "tag": "a",
+     "html": "Habla con un especialista"
+    },
+    {
+     "id": "inicio.006",
+     "sec": "div.wrap",
+     "tag": "p",
+     "html": "Cada marca del portafolio<br/>resuelve una forma distinta de navegar."
+    },
+    {
+     "id": "inicio.007",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Por dónde empezar"
+    },
+    {
+     "id": "inicio.008",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "¿Dónde estás<br/>en tu decisión?"
+    },
+    {
+     "id": "inicio.009",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Cada quien llega en un momento distinto. Elige el que más se parece al tuyo y te llevamos directo a lo que necesitas."
+    },
+    {
+     "id": "inicio.010",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "01"
+    },
+    {
+     "id": "inicio.011",
+     "sec": "div.doors-grid",
+     "tag": "h3",
+     "html": "Estoy explorando"
+    },
+    {
+     "id": "inicio.012",
+     "sec": "div.doors-grid",
+     "tag": "p",
+     "html": "Todavía no sé qué barco quiero. Muéstrame las marcas y ayúdame a entender qué se ajusta a cómo navego."
+    },
+    {
+     "id": "inicio.013",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "Ver las marcas"
+    },
+    {
+     "id": "inicio.014",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "02"
+    },
+    {
+     "id": "inicio.015",
+     "sec": "div.doors-grid",
+     "tag": "h3",
+     "html": "Ya sé qué quiero"
+    },
+    {
+     "id": "inicio.016",
+     "sec": "div.doors-grid",
+     "tag": "p",
+     "html": "Tengo un modelo en mente. Quiero una propuesta a medida: precio, plazos y opciones."
+    },
+    {
+     "id": "inicio.017",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "Hablar con un especialista"
+    },
+    {
+     "id": "inicio.018",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "03"
+    },
+    {
+     "id": "inicio.019",
+     "sec": "div.doors-grid",
+     "tag": "h3",
+     "html": "Busco una oportunidad"
+    },
+    {
+     "id": "inicio.020",
+     "sec": "div.doors-grid",
+     "tag": "p",
+     "html": "Me interesa un usado con historia conocida, revisado y documentado."
+    },
+    {
+     "id": "inicio.021",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "Ver usados"
+    },
+    {
+     "id": "inicio.022",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "04"
+    },
+    {
+     "id": "inicio.023",
+     "sec": "div.doors-grid",
+     "tag": "h3",
+     "html": "Quiero navegar, no comprar"
+    },
+    {
+     "id": "inicio.024",
+     "sec": "div.doors-grid",
+     "tag": "p",
+     "html": "Busco vivir la experiencia. Arrendar en algún destino, con o sin tripulación."
+    },
+    {
+     "id": "inicio.025",
+     "sec": "div.doors-grid",
+     "tag": "span",
+     "html": "Explorar Charter"
+    },
+    {
+     "id": "inicio.026",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "El portafolio"
+    },
+    {
+     "id": "inicio.027",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Las mejores marcas<br/>del mundo. Un solo<br/>representante en Chile."
+    },
+    {
+     "id": "inicio.028",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Modelos"
+    },
+    {
+     "id": "inicio.029",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Modelos destacados"
+    },
+    {
+     "id": "inicio.030",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Explorar por tipo"
+    },
+    {
+     "id": "inicio.031",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Tres universos"
+    },
+    {
+     "id": "inicio.032",
+     "sec": "div.wrap-wide",
+     "tag": "a",
+     "html": "Ver todas las marcas →"
+    },
+    {
+     "id": "inicio.033",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Oceanic"
+    },
+    {
+     "id": "inicio.034",
+     "sec": "div.why-txt",
+     "tag": "h2",
+     "html": "Elegimos<br/>cada astillero<br/>por una razón"
+    },
+    {
+     "id": "inicio.035",
+     "sec": "div.why-txt",
+     "tag": "p",
+     "html": "Un barco se compra una vez y se usa quince años. Nadie que trabaje con esa escala de tiempo puede permitirse representar cualquier cosa."
+    },
+    {
+     "id": "inicio.036",
+     "sec": "div.why-txt",
+     "tag": "p",
+     "html": "Cada astillero resuelve bien una forma de navegar que existe en Chile. Ninguno está en el portafolio por volumen."
+    },
+    {
+     "id": "inicio.037",
+     "sec": "div.why-txt",
+     "tag": "p",
+     "html": "Son pocos. Por eso los conocemos a fondo."
+    },
+    {
+     "id": "inicio.038",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Usados"
+    },
+    {
+     "id": "inicio.039",
+     "sec": "div.used-txt",
+     "tag": "h2",
+     "html": "Barcos con<br/>historia conocida"
+    },
+    {
+     "id": "inicio.040",
+     "sec": "div.used-txt",
+     "tag": "p",
+     "html": "Revisamos cada embarcación antes de listarla. Horas de motor, mantenciones, reparaciones y estado de obra viva."
+    },
+    {
+     "id": "inicio.041",
+     "sec": "div.used-cta",
+     "tag": "a",
+     "html": "Ver disponibles"
+    },
+    {
+     "id": "inicio.042",
+     "sec": "div.used-cta",
+     "tag": "a",
+     "html": "Vende tu embarcación →"
+    },
+    {
+     "id": "inicio.043",
+     "sec": "div.hboyas-txt",
+     "tag": "span",
+     "html": "Arriendo de boyas para regatas"
+    },
+    {
+     "id": "inicio.044",
+     "sec": "div.hboyas-txt",
+     "tag": "h2",
+     "html": "Regatas sin anclas,<br/>con boyas robóticas"
+    },
+    {
+     "id": "inicio.045",
+     "sec": "div.hboyas-txt",
+     "tag": "p",
+     "html": "Oceanic arrienda la flota MarkSetBot para regatas en Chile: boyas autopropulsadas con GPS que se mantienen en su posición sin fondear. La cancha se arma y se mueve desde el celular."
+    },
+    {
+     "id": "inicio.046",
+     "sec": "div.hboyas-txt",
+     "tag": "b",
+     "html": "0"
+    },
+    {
+     "id": "inicio.047",
+     "sec": "div.hboyas-txt",
+     "tag": "span",
+     "html": "anclas"
+    },
+    {
+     "id": "inicio.048",
+     "sec": "div.hboyas-txt",
+     "tag": "b",
+     "html": "+80.000"
+    },
+    {
+     "id": "inicio.049",
+     "sec": "div.hboyas-txt",
+     "tag": "span",
+     "html": "días en el agua"
+    },
+    {
+     "id": "inicio.050",
+     "sec": "div.hboyas-txt",
+     "tag": "b",
+     "html": "45"
+    },
+    {
+     "id": "inicio.051",
+     "sec": "div.hboyas-txt",
+     "tag": "span",
+     "html": "países"
+    },
+    {
+     "id": "inicio.052",
+     "sec": "div.hboyas-cta",
+     "tag": "a",
+     "html": "Cotizar arriendo"
+    },
+    {
+     "id": "inicio.053",
+     "sec": "div.hboyas-cta",
+     "tag": "a",
+     "html": "Cómo funcionan"
+    },
+    {
+     "id": "inicio.054",
+     "sec": "div.wrap-wide",
+     "tag": "figcaption",
+     "html": "Cancha completa en minutos, sin botes de fondeo"
+    },
+    {
+     "id": "inicio.055",
+     "sec": "div.equip-txt",
+     "tag": "span",
+     "html": "Equipamiento"
+    },
+    {
+     "id": "inicio.056",
+     "sec": "div.equip-txt",
+     "tag": "h2",
+     "html": "Lo que el barco necesita,<br/>de las marcas que lo hacen mejor"
+    },
+    {
+     "id": "inicio.057",
+     "sec": "div.equip-txt",
+     "tag": "p",
+     "html": "Velas, jarcia, cabos, electrónica y propulsión, elegidos por el mismo equipo que representa las marcas."
+    },
+    {
+     "id": "inicio.058",
+     "sec": "div.equip-txt",
+     "tag": "a",
+     "html": "Ver equipamiento"
+    },
+    {
+     "id": "inicio.059",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "<span>Charter</span> Arriendo de embarcaciones"
+    },
+    {
+     "id": "inicio.060",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "Navega el mundo,<br/>sin comprarlo"
+    },
+    {
+     "id": "inicio.061",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Arrienda un velero, catamarán o yate, con o sin tripulación. Nos cuentas destino, fechas y grupo, y armamos la travesía."
+    },
+    {
+     "id": "inicio.062",
+     "sec": "div.wrap-wide",
+     "tag": "li",
+     "html": "Mediterráneo"
+    },
+    {
+     "id": "inicio.063",
+     "sec": "div.wrap-wide",
+     "tag": "li",
+     "html": "Caribe"
+    },
+    {
+     "id": "inicio.064",
+     "sec": "div.wrap-wide",
+     "tag": "li",
+     "html": "Patagonia"
+    },
+    {
+     "id": "inicio.065",
+     "sec": "div.chome-cta",
+     "tag": "a",
+     "html": "Cotizar mi travesía"
+    },
+    {
+     "id": "inicio.066",
+     "sec": "div.chome-cta",
+     "tag": "a",
+     "html": "Ver destinos"
+    },
+    {
+     "id": "inicio.067",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Puerto"
+    },
+    {
+     "id": "inicio.068",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "El newsletter"
+    },
+    {
+     "id": "inicio.069",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Premios, lanzamientos, entregas, agenda náutica y técnica útil. Una edición cuando hay algo que contar."
+    },
+    {
+     "id": "inicio.070",
+     "sec": "div.wrap-wide",
+     "tag": "a",
+     "html": "Ver todas las ediciones →"
+    },
+    {
+     "id": "inicio.071",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Conversemos"
+    },
+    {
+     "id": "inicio.072",
+     "sec": "div.cierre-txt",
+     "tag": "h2",
+     "html": "Cuéntanos<br/>dónde navegas"
+    },
+    {
+     "id": "inicio.073",
+     "sec": "div.cierre-txt",
+     "tag": "p",
+     "html": "En veinte minutos sabemos qué barcos te corresponden: marca, tamaño, plazos y precio en Chile."
+    },
+    {
+     "id": "inicio.074",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "01"
+    },
+    {
+     "id": "inicio.075",
+     "sec": "div.cierre-txt",
+     "tag": "b",
+     "html": "WhatsApp"
+    },
+    {
+     "id": "inicio.076",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "Respuesta el mismo día hábil"
+    },
+    {
+     "id": "inicio.077",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "02"
+    },
+    {
+     "id": "inicio.078",
+     "sec": "div.cierre-txt",
+     "tag": "b",
+     "html": "+56 2 2953 7321"
+    },
+    {
+     "id": "inicio.079",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "Lunes a viernes, 9:00 a 18:00"
+    },
+    {
+     "id": "inicio.080",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "03"
+    },
+    {
+     "id": "inicio.081",
+     "sec": "div.cierre-txt",
+     "tag": "b",
+     "html": "Escríbenos"
+    },
+    {
+     "id": "inicio.082",
+     "sec": "div.cierre-txt",
+     "tag": "span",
+     "html": "Formulario de contacto"
+    },
+    {
+     "id": "inicio.083",
+     "sec": "div.cierre-cta",
+     "tag": "a",
+     "html": "Habla con un especialista"
+    },
+    {
+     "id": "inicio.084",
+     "sec": "div.cierre-cta",
+     "tag": "a",
+     "html": "Suscribirme a Puerto"
+    },
+    {
+     "id": "inicio.085",
+     "sec": "div.wrap-wide",
+     "tag": "figcaption",
+     "html": "Alonso de Córdova 2653, of. 302 · Vitacura, Santiago"
+    },
+    {
+     "id": "inicio.086",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Habla con un especialista"
+    }
+   ]
+  },
+  {
+   "pagina": "marca",
+   "archivo": "marca/index.html",
+   "items": [
+    {
+     "id": "marca.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Marca | Oceanic"
+    },
+    {
+     "id": "marca.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Marcas náuticas representadas oficialmente por Oceanic en Chile: gama completa, fichas técnicas y cotización."
+    }
+   ]
+  },
+  {
+   "pagina": "nosotros",
+   "archivo": "nosotros/index.html",
+   "items": [
+    {
+     "id": "nosotros.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Oceanic · Representación marina premium en Chile desde 1994"
+    },
+    {
+     "id": "nosotros.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Oceanic fue fundada en 1994 con la representación de Beneteau. Hoy representamos las mejores marcas náuticas del mundo en Chile, con criterio técnico y acompañamiento real."
+    },
+    {
+     "id": "nosotros.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "nosotros.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "La empresa"
+    },
+    {
+     "id": "nosotros.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "Más de 30 años<br/>mirando al mar"
+    },
+    {
+     "id": "nosotros.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Fundada en 1994 con la representación de Beneteau. Hoy, un referente de la náutica premium en Chile."
+    },
+    {
+     "id": "nosotros.005",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Quiénes somos"
+    },
+    {
+     "id": "nosotros.006",
+     "sec": "div.nintro-body",
+     "tag": "p",
+     "html": "Oceanic Chile nació en 1994 con la representación territorial de Beneteau. En poco tiempo se convirtió en líder del yachting nacional, ampliando la oferta a más marcas, servicios y una gama que hoy va del semirrígido al yate."
+    },
+    {
+     "id": "nosotros.007",
+     "sec": "div.nintro-body",
+     "tag": "p",
+     "html": "No representamos cualquier astillero. Cada marca del portafolio entró por una razón concreta: resuelve bien una forma de navegar que existe en Chile. Vela y motor, monocascos y multicascos, de la escuela al podio."
+    },
+    {
+     "id": "nosotros.008",
+     "sec": "div.nintro-body",
+     "tag": "p",
+     "html": "Hoy representamos y vendemos once marcas internacionales, además de Oceanic Power, nuestra propia línea de semirrígidos. Vela y motor, monocascos y multicascos, del semirrígido al yate."
+    },
+    {
+     "id": "nosotros.009",
+     "sec": "div.nfig",
+     "tag": "b",
+     "html": "1994"
+    },
+    {
+     "id": "nosotros.010",
+     "sec": "div.nfig",
+     "tag": "span",
+     "html": "Año de fundación"
+    },
+    {
+     "id": "nosotros.011",
+     "sec": "div.nfig",
+     "tag": "b",
+     "html": "11"
+    },
+    {
+     "id": "nosotros.012",
+     "sec": "div.nfig",
+     "tag": "span",
+     "html": "Marcas representadas"
+    },
+    {
+     "id": "nosotros.013",
+     "sec": "div.nfig",
+     "tag": "b",
+     "html": "1"
+    },
+    {
+     "id": "nosotros.014",
+     "sec": "div.nfig",
+     "tag": "span",
+     "html": "Marca propia · Oceanic Power"
+    },
+    {
+     "id": "nosotros.015",
+     "sec": "div.nfig",
+     "tag": "b",
+     "html": "30+"
+    },
+    {
+     "id": "nosotros.016",
+     "sec": "div.nfig",
+     "tag": "span",
+     "html": "Años en el agua"
+    },
+    {
+     "id": "nosotros.017",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "¿Conversamos?"
+    },
+    {
+     "id": "nosotros.018",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Cuéntanos cómo navegas y te ayudamos a encontrar el barco que corresponde."
+    },
+    {
+     "id": "nosotros.019",
+     "sec": "div.ncta-btns",
+     "tag": "a",
+     "html": "Habla con un especialista"
+    },
+    {
+     "id": "nosotros.020",
+     "sec": "div.ncta-btns",
+     "tag": "a",
+     "html": "Ver las marcas"
+    },
+    {
+     "id": "nosotros.021",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Conversemos"
+    }
+   ]
+  },
+  {
+   "pagina": "privacidad",
+   "archivo": "privacidad/index.html",
+   "items": [
+    {
+     "id": "privacidad.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Política de privacidad · Oceanic"
+    },
+    {
+     "id": "privacidad.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Cómo Oceanic trata tus datos personales y cómo ejercer tus derechos según la Ley 21.719 de Protección de Datos Personales."
+    },
+    {
+     "id": "privacidad.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "privacidad.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Privacidad"
+    },
+    {
+     "id": "privacidad.003",
+     "sec": "div.wrap",
+     "tag": "h1",
+     "html": "Política de privacidad"
+    },
+    {
+     "id": "privacidad.004",
+     "sec": "div.wrap",
+     "tag": "p",
+     "html": "Versión <b id=\"priv-version\">2026-11</b> · Vigente desde [FECHA DE PUBLICACIÓN] · Ley N° 21.719 de Protección de Datos Personales"
+    },
+    {
+     "id": "privacidad.005",
+     "sec": "div.wrap",
+     "tag": "p",
+     "html": "<b>Borrador para revisión legal.</b> Los textos entre corchetes los completa Oceanic. Esta política debe revisarla un abogado antes de publicarse."
+    },
+    {
+     "id": "privacidad.006",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "1. Responsable"
+    },
+    {
+     "id": "privacidad.007",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "2. Qué datos tratamos"
+    },
+    {
+     "id": "privacidad.008",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "3. Para qué y con qué base"
+    },
+    {
+     "id": "privacidad.009",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "4. Con quién los compartimos"
+    },
+    {
+     "id": "privacidad.010",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "5. Transferencias internacionales"
+    },
+    {
+     "id": "privacidad.011",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "6. Cuánto tiempo los guardamos"
+    },
+    {
+     "id": "privacidad.012",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "7. Tus derechos"
+    },
+    {
+     "id": "privacidad.013",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "8. Cómo ejercerlos"
+    },
+    {
+     "id": "privacidad.014",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "9. Cookies y almacenamiento"
+    },
+    {
+     "id": "privacidad.015",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "10. Seguridad"
+    },
+    {
+     "id": "privacidad.016",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "11. Menores de edad"
+    },
+    {
+     "id": "privacidad.017",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "12. Cambios a esta política"
+    },
+    {
+     "id": "privacidad.018",
+     "sec": "section#responsable",
+     "tag": "h2",
+     "html": "1. Responsable del tratamiento"
+    },
+    {
+     "id": "privacidad.019",
+     "sec": "section#responsable",
+     "tag": "p",
+     "html": "El responsable de tus datos personales es <b>[RAZÓN SOCIAL]</b>, RUT <b>[RUT]</b>, con domicilio en <b>[DOMICILIO]</b>, Chile («Oceanic»)."
+    },
+    {
+     "id": "privacidad.020",
+     "sec": "section#responsable",
+     "tag": "p",
+     "html": "Para cualquier consulta sobre privacidad, escríbenos a <b>[CORREO DE PRIVACIDAD]</b>. [Si Oceanic designa un delegado de protección de datos, indicar aquí su nombre o cargo y contacto.]"
+    },
+    {
+     "id": "privacidad.021",
+     "sec": "section#datos",
+     "tag": "h2",
+     "html": "2. Qué datos tratamos"
+    },
+    {
+     "id": "privacidad.022",
+     "sec": "section#datos",
+     "tag": "p",
+     "html": "Solo los que nos entregas al usar los formularios del sitio:"
+    },
+    {
+     "id": "privacidad.023",
+     "sec": "section#datos",
+     "tag": "li",
+     "html": "<b>Datos de contacto:</b> nombre, correo electrónico y, si quieres, teléfono."
+    },
+    {
+     "id": "privacidad.024",
+     "sec": "section#datos",
+     "tag": "li",
+     "html": "<b>Tu solicitud:</b> el barco, usado, charter o equipamiento que te interesa y lo que nos escribas en el mensaje."
+    },
+    {
+     "id": "privacidad.025",
+     "sec": "section#datos",
+     "tag": "li",
+     "html": "<b>Registro del consentimiento:</b> fecha y hora, versión de esta política y página desde donde enviaste la solicitud."
+    },
+    {
+     "id": "privacidad.026",
+     "sec": "section#datos",
+     "tag": "p",
+     "html": "No pedimos datos sensibles. No usamos herramientas de analítica ni publicidad que te sigan entre sitios, y no elaboramos perfiles ni tomamos decisiones automatizadas sobre ti."
+    },
+    {
+     "id": "privacidad.027",
+     "sec": "section#finalidades",
+     "tag": "h2",
+     "html": "3. Para qué los usamos y con qué base legal"
+    },
+    {
+     "id": "privacidad.028",
+     "sec": "div.priv-tabla",
+     "tag": "th",
+     "html": "Finalidad"
+    },
+    {
+     "id": "privacidad.029",
+     "sec": "div.priv-tabla",
+     "tag": "th",
+     "html": "Base legal"
+    },
+    {
+     "id": "privacidad.030",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Responder tu cotización o consulta y enviarte una copia de tu solicitud."
+    },
+    {
+     "id": "privacidad.031",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Tu consentimiento, y las gestiones previas a un contrato que tú solicitas."
+    },
+    {
+     "id": "privacidad.032",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Hacer seguimiento comercial de esa misma solicitud."
+    },
+    {
+     "id": "privacidad.033",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Las gestiones previas a un contrato que tú solicitas."
+    },
+    {
+     "id": "privacidad.034",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Enviarte <b>Puerto</b>, nuestro newsletter, solo si marcas la casilla correspondiente."
+    },
+    {
+     "id": "privacidad.035",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Tu consentimiento, separado y opcional. Puedes retirarlo en cualquier momento."
+    },
+    {
+     "id": "privacidad.036",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Cumplir obligaciones legales y defender a Oceanic ante reclamos."
+    },
+    {
+     "id": "privacidad.037",
+     "sec": "div.priv-tabla",
+     "tag": "td",
+     "html": "Obligación legal e interés legítimo."
+    },
+    {
+     "id": "privacidad.038",
+     "sec": "section#destinatarios",
+     "tag": "h2",
+     "html": "4. Con quién los compartimos"
+    },
+    {
+     "id": "privacidad.039",
+     "sec": "section#destinatarios",
+     "tag": "p",
+     "html": "No vendemos ni arrendamos tus datos. Los comparten solo los proveedores que nos prestan servicios, como encargados del tratamiento y bajo contrato:"
+    },
+    {
+     "id": "privacidad.040",
+     "sec": "section#destinatarios",
+     "tag": "li",
+     "html": "<b>Brevo</b> (Sendinblue SAS, Francia): envío de correos, gestión de contactos y del newsletter."
+    },
+    {
+     "id": "privacidad.041",
+     "sec": "section#destinatarios",
+     "tag": "li",
+     "html": "<b>Cloudflare</b> (Cloudflare, Inc., EE. UU.): alojamiento del sitio y procesamiento de los formularios."
+    },
+    {
+     "id": "privacidad.042",
+     "sec": "section#destinatarios",
+     "tag": "li",
+     "html": "<b>Google Fonts</b> (Google LLC, EE. UU.): tipografías del sitio; tu navegador se conecta a sus servidores al cargar la página."
+    },
+    {
+     "id": "privacidad.043",
+     "sec": "section#destinatarios",
+     "tag": "li",
+     "html": "<b>Videos de los fabricantes</b> (YouTube de Google LLC y Vimeo, EE. UU., o el servidor del propio astillero): solo si aprietas reproducir un video en la ficha de un barco. Antes de eso el sitio no se conecta con esas plataformas; al reproducir, ellas reciben tu dirección IP y pueden aplicar sus propias políticas (YouTube se carga en su modo de privacidad mejorada)."
+    },
+    {
+     "id": "privacidad.044",
+     "sec": "section#destinatarios",
+     "tag": "li",
+     "html": "[Si corresponde: el astillero o la marca del barco que cotizas, cuando sea necesario para preparar tu propuesta. Indicar.]"
+    },
+    {
+     "id": "privacidad.045",
+     "sec": "section#transferencias",
+     "tag": "h2",
+     "html": "5. Transferencias internacionales"
+    },
+    {
+     "id": "privacidad.046",
+     "sec": "section#transferencias",
+     "tag": "p",
+     "html": "Algunos de estos proveedores tratan datos fuera de Chile (Unión Europea y Estados Unidos). Lo hacemos con proveedores que ofrecen garantías adecuadas de protección, conforme a la Ley 21.719. [Revisar con el abogado las garantías específicas de cada proveedor.]"
+    },
+    {
+     "id": "privacidad.047",
+     "sec": "section#plazos",
+     "tag": "h2",
+     "html": "6. Cuánto tiempo los guardamos"
+    },
+    {
+     "id": "privacidad.048",
+     "sec": "section#plazos",
+     "tag": "li",
+     "html": "<b>Solicitudes de cotización o consulta:</b> [PLAZO, por ejemplo 24 meses] desde el último contacto, salvo que se convierta en una compra."
+    },
+    {
+     "id": "privacidad.049",
+     "sec": "section#plazos",
+     "tag": "li",
+     "html": "<b>Clientes:</b> el tiempo que exijan las obligaciones legales y tributarias."
+    },
+    {
+     "id": "privacidad.050",
+     "sec": "section#plazos",
+     "tag": "li",
+     "html": "<b>Newsletter Puerto:</b> hasta que te des de baja."
+    },
+    {
+     "id": "privacidad.051",
+     "sec": "section#plazos",
+     "tag": "p",
+     "html": "Cumplido el plazo, los eliminamos o los anonimizamos."
+    },
+    {
+     "id": "privacidad.052",
+     "sec": "section#derechos",
+     "tag": "h2",
+     "html": "7. Tus derechos"
+    },
+    {
+     "id": "privacidad.053",
+     "sec": "section#derechos",
+     "tag": "p",
+     "html": "Según la Ley 21.719, puedes ejercer en cualquier momento y sin costo los siguientes derechos:"
+    },
+    {
+     "id": "privacidad.054",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Acceso"
+    },
+    {
+     "id": "privacidad.055",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Saber qué datos tuyos tenemos y cómo los usamos."
+    },
+    {
+     "id": "privacidad.056",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Rectificación"
+    },
+    {
+     "id": "privacidad.057",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Corregir datos inexactos o incompletos."
+    },
+    {
+     "id": "privacidad.058",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Supresión"
+    },
+    {
+     "id": "privacidad.059",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Pedir que eliminemos tus datos."
+    },
+    {
+     "id": "privacidad.060",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Oposición"
+    },
+    {
+     "id": "privacidad.061",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Oponerte a un tratamiento, por ejemplo a recibir comunicaciones comerciales."
+    },
+    {
+     "id": "privacidad.062",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Portabilidad"
+    },
+    {
+     "id": "privacidad.063",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Recibir tus datos en un formato estructurado y de uso común."
+    },
+    {
+     "id": "privacidad.064",
+     "sec": "section#derechos",
+     "tag": "dt",
+     "html": "Bloqueo"
+    },
+    {
+     "id": "privacidad.065",
+     "sec": "section#derechos",
+     "tag": "dd",
+     "html": "Pedir que suspendamos temporalmente el tratamiento mientras se resuelve una solicitud."
+    },
+    {
+     "id": "privacidad.066",
+     "sec": "section#derechos",
+     "tag": "p",
+     "html": "También puedes retirar tu consentimiento cuando quieras, sin que eso afecte lo hecho antes de retirarlo."
+    },
+    {
+     "id": "privacidad.067",
+     "sec": "section#ejercer",
+     "tag": "h2",
+     "html": "8. Cómo ejercer tus derechos"
+    },
+    {
+     "id": "privacidad.068",
+     "sec": "section#ejercer",
+     "tag": "p",
+     "html": "Escríbenos a <b>[CORREO DE PRIVACIDAD]</b> o usa este formulario. Te responderemos dentro del plazo legal de 30 días corridos, prorrogable una vez por igual período si es necesario, avisándote el motivo."
+    },
+    {
+     "id": "privacidad.069",
+     "sec": "div.priv-fila",
+     "tag": "label",
+     "html": "Nombre"
+    },
+    {
+     "id": "privacidad.070",
+     "sec": "div.priv-fila",
+     "tag": "label",
+     "html": "Correo"
+    },
+    {
+     "id": "privacidad.071",
+     "sec": "form.priv-form",
+     "tag": "label",
+     "html": "Derecho que quieres ejercer"
+    },
+    {
+     "id": "privacidad.072",
+     "sec": "form.priv-form",
+     "tag": "label",
+     "html": "Detalle"
+    },
+    {
+     "id": "privacidad.073",
+     "sec": "div.form-foot",
+     "tag": "button",
+     "html": "Enviar solicitud"
+    },
+    {
+     "id": "privacidad.074",
+     "sec": "div#privOk",
+     "tag": "h3",
+     "html": "Recibimos tu solicitud"
+    },
+    {
+     "id": "privacidad.075",
+     "sec": "div#privOk",
+     "tag": "p",
+     "html": "Te responderemos a tu correo dentro del plazo legal. <span data-via=\"\"></span>"
+    },
+    {
+     "id": "privacidad.076",
+     "sec": "section#ejercer",
+     "tag": "p",
+     "html": "Si no estás conforme con nuestra respuesta, puedes reclamar ante la <b>Agencia de Protección de Datos Personales</b>."
+    },
+    {
+     "id": "privacidad.077",
+     "sec": "section#almacenamiento",
+     "tag": "h2",
+     "html": "9. Cookies y almacenamiento en tu navegador"
+    },
+    {
+     "id": "privacidad.078",
+     "sec": "section#almacenamiento",
+     "tag": "p",
+     "html": "No usamos cookies de publicidad. Guardamos en tu navegador solo lo necesario para que el sitio funcione como elegiste: el modo claro u oscuro y tu respuesta al aviso de cookies. No sirve para identificarte y puedes borrarlo desde tu navegador."
+    },
+    {
+     "id": "privacidad.079",
+     "sec": "section#almacenamiento",
+     "tag": "p",
+     "html": "<b>Analítica (solo si la aceptas).</b> Si Oceanic activa Google Analytics (Google LLC, EE. UU.), el sitio te pedirá permiso antes de usarlo. Solo si aceptas se instalan sus cookies (<code>_ga</code>), que miden de forma agregada qué páginas se visitan, desde qué tipo de dispositivo y cómo llegaste al sitio, con la dirección IP anonimizada y sin fines publicitarios. Si rechazas o no respondes, no se carga. Puedes cambiar tu elección cuando quieras en «Preferencias de cookies», al pie de cada página; al retirarla, borramos esas cookies."
+    },
+    {
+     "id": "privacidad.080",
+     "sec": "section#seguridad",
+     "tag": "h2",
+     "html": "10. Seguridad"
+    },
+    {
+     "id": "privacidad.081",
+     "sec": "section#seguridad",
+     "tag": "p",
+     "html": "Usamos conexión cifrada (HTTPS), acceso restringido a los datos y proveedores con medidas de seguridad reconocidas. Si ocurre un incidente que afecte tus datos, lo informaremos a la autoridad y a ti cuando la ley lo exija."
+    },
+    {
+     "id": "privacidad.082",
+     "sec": "section#menores",
+     "tag": "h2",
+     "html": "11. Menores de edad"
+    },
+    {
+     "id": "privacidad.083",
+     "sec": "section#menores",
+     "tag": "p",
+     "html": "El sitio está dirigido a mayores de 18 años. No recopilamos a sabiendas datos de menores de edad."
+    },
+    {
+     "id": "privacidad.084",
+     "sec": "section#cambios",
+     "tag": "h2",
+     "html": "12. Cambios a esta política"
+    },
+    {
+     "id": "privacidad.085",
+     "sec": "section#cambios",
+     "tag": "p",
+     "html": "Si cambiamos esta política, publicaremos la nueva versión aquí con su fecha. Cada solicitud queda registrada con la versión vigente al momento de enviarla."
+    }
+   ]
+  },
+  {
+   "pagina": "puerto-edicion",
+   "archivo": "puerto/edicion/index.html",
+   "items": [
+    {
+     "id": "puerto-edicion.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Puerto · Edición | Oceanic"
+    },
+    {
+     "id": "puerto-edicion.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Puerto es el newsletter de Oceanic: premios de las marcas, entregas que ya navegan, agenda náutica y técnica útil. Todas las ediciones, en un solo lugar."
+    },
+    {
+     "id": "puerto-edicion.001",
+     "sec": "div.psub-txt",
+     "tag": "span",
+     "html": "No te pierdas ninguna"
+    },
+    {
+     "id": "puerto-edicion.002",
+     "sec": "div.psub-txt",
+     "tag": "h2",
+     "html": "Recibe Puerto<br/>en tu correo"
+    },
+    {
+     "id": "puerto-edicion.003",
+     "sec": "div.psub-txt",
+     "tag": "p",
+     "html": "Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta."
+    },
+    {
+     "id": "puerto-edicion.004",
+     "sec": "form.psub-form",
+     "tag": "button",
+     "html": "Suscribirme"
+    },
+    {
+     "id": "puerto-edicion.005",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Suscribirme a Puerto"
+    }
+   ]
+  },
+  {
+   "pagina": "puerto",
+   "archivo": "puerto/index.html",
+   "items": [
+    {
+     "id": "puerto.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Puerto · El newsletter de Oceanic | Archivo"
+    },
+    {
+     "id": "puerto.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Puerto es el newsletter de Oceanic: premios de las marcas, entregas que ya navegan, agenda náutica y técnica útil. Todas las ediciones, en un solo lugar."
+    },
+    {
+     "id": "puerto.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "puerto.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Puerto"
+    },
+    {
+     "id": "puerto.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "Puerto"
+    },
+    {
+     "id": "puerto.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "<b>¡Listo, ya eres parte de Puerto!</b> Confirmaste tu suscripción: te escribiremos cuando haya algo que contar."
+    },
+    {
+     "id": "puerto.005",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Siempre volvemos a Puerto. Aquí el mar se vuelve relato: las entregas que ya navegan, la agenda que asoma con viento nuevo, los premios y la técnica que un barco bien equipado necesita."
+    },
+    {
+     "id": "puerto.006",
+     "sec": "div.psub-txt",
+     "tag": "span",
+     "html": "No te pierdas ninguna"
+    },
+    {
+     "id": "puerto.007",
+     "sec": "div.psub-txt",
+     "tag": "h2",
+     "html": "Recibe Puerto<br/>en tu correo"
+    },
+    {
+     "id": "puerto.008",
+     "sec": "div.psub-txt",
+     "tag": "p",
+     "html": "Una edición cuando hay algo que contar. Sin spam, sin calendario. Te guardamos un lugar en cubierta."
+    },
+    {
+     "id": "puerto.009",
+     "sec": "form.psub-form",
+     "tag": "button",
+     "html": "Suscribirme"
+    },
+    {
+     "id": "puerto.010",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Suscribirme a Puerto"
+    }
+   ]
+  },
+  {
+   "pagina": "terminos",
+   "archivo": "terminos/index.html",
+   "items": [
+    {
+     "id": "terminos.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Términos y condiciones · Oceanic"
+    },
+    {
+     "id": "terminos.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Términos y condiciones de uso del sitio de Oceanic: información de productos, cotizaciones, usados, charter, propiedad intelectual y ley aplicable."
+    },
+    {
+     "id": "terminos.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "terminos.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Términos y condiciones"
+    },
+    {
+     "id": "terminos.003",
+     "sec": "div.wrap",
+     "tag": "h1",
+     "html": "Términos y condiciones"
+    },
+    {
+     "id": "terminos.004",
+     "sec": "div.wrap",
+     "tag": "p",
+     "html": "Versión <b>2026-11</b> · Vigente desde [FECHA DE PUBLICACIÓN]"
+    },
+    {
+     "id": "terminos.005",
+     "sec": "div.wrap",
+     "tag": "p",
+     "html": "<b>Borrador para revisión legal.</b> Los textos entre corchetes los completa Oceanic. Estos términos debe revisarlos un abogado antes de publicarse."
+    },
+    {
+     "id": "terminos.006",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "1. Quiénes somos"
+    },
+    {
+     "id": "terminos.007",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "2. Uso del sitio"
+    },
+    {
+     "id": "terminos.008",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "3. Información de los productos"
+    },
+    {
+     "id": "terminos.009",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "4. Cotizaciones y precios"
+    },
+    {
+     "id": "terminos.010",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "5. Embarcaciones usadas"
+    },
+    {
+     "id": "terminos.011",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "6. Charter"
+    },
+    {
+     "id": "terminos.012",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "7. Marcas y propiedad intelectual"
+    },
+    {
+     "id": "terminos.013",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "8. Contenido y enlaces de terceros"
+    },
+    {
+     "id": "terminos.014",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "9. Responsabilidad"
+    },
+    {
+     "id": "terminos.015",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "10. Datos personales"
+    },
+    {
+     "id": "terminos.016",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "11. Cambios"
+    },
+    {
+     "id": "terminos.017",
+     "sec": "nav.priv-indice",
+     "tag": "a",
+     "html": "12. Ley aplicable y contacto"
+    },
+    {
+     "id": "terminos.018",
+     "sec": "section#quienes",
+     "tag": "h2",
+     "html": "1. Quiénes somos"
+    },
+    {
+     "id": "terminos.019",
+     "sec": "section#quienes",
+     "tag": "p",
+     "html": "Este sitio pertenece a <b>[RAZÓN SOCIAL]</b>, RUT <b>[RUT]</b>, con domicilio en <b>[DOMICILIO]</b>, Chile («Oceanic»), representante en Chile de las marcas náuticas que se muestran en él. Al usar el sitio aceptas estos términos."
+    },
+    {
+     "id": "terminos.020",
+     "sec": "section#uso",
+     "tag": "h2",
+     "html": "2. Uso del sitio"
+    },
+    {
+     "id": "terminos.021",
+     "sec": "section#uso",
+     "tag": "p",
+     "html": "El sitio es informativo: muestra las embarcaciones que representamos, embarcaciones usadas, servicios de charter y equipamiento, y te permite pedirnos información o una cotización. Puedes usarlo libremente para fines personales y no comerciales. No está permitido usarlo para enviar información falsa, intentar acceder a zonas restringidas, interferir con su funcionamiento ni copiar su contenido de forma masiva o automatizada."
+    },
+    {
+     "id": "terminos.022",
+     "sec": "section#informacion",
+     "tag": "h2",
+     "html": "3. Información de los productos"
+    },
+    {
+     "id": "terminos.023",
+     "sec": "section#informacion",
+     "tag": "p",
+     "html": "Las especificaciones, textos, fotos y videos de las embarcaciones nuevas provienen de la información oficial publicada por cada fabricante. Son referenciales: el fabricante puede modificar sus modelos, equipamiento y especificaciones sin aviso, y algunas fotos pueden mostrar equipamiento opcional o versiones distintas a la que se ofrece en Chile. La configuración, el equipamiento y las especificaciones definitivas son las que constan en la cotización y en el contrato de compra."
+    },
+    {
+     "id": "terminos.024",
+     "sec": "section#cotizaciones",
+     "tag": "h2",
+     "html": "4. Cotizaciones y precios"
+    },
+    {
+     "id": "terminos.025",
+     "sec": "section#cotizaciones",
+     "tag": "p",
+     "html": "Los precios de las embarcaciones nuevas no se publican en el sitio: se entregan en una cotización personalizada según la configuración elegida. Enviar una solicitud de cotización no constituye una oferta ni una reserva, y no obliga a ninguna de las partes. Una cotización tiene la vigencia, las condiciones y los plazos de entrega que se indiquen en ella. [Indicar aquí condiciones generales de pago, reserva o abono, si corresponde.]"
+    },
+    {
+     "id": "terminos.026",
+     "sec": "section#usados",
+     "tag": "h2",
+     "html": "5. Embarcaciones usadas"
+    },
+    {
+     "id": "terminos.027",
+     "sec": "section#usados",
+     "tag": "p",
+     "html": "Los precios, años, horas de motor y descripciones de las embarcaciones usadas son los informados para cada aviso y pueden cambiar sin aviso. La disponibilidad de cada embarcación se confirma al momento de la consulta. Recomendamos revisar la embarcación y su documentación antes de cualquier compra. [Indicar si Oceanic vende por cuenta propia o en consignación, y qué revisión entrega.]"
+    },
+    {
+     "id": "terminos.028",
+     "sec": "section#charter",
+     "tag": "h2",
+     "html": "6. Charter"
+    },
+    {
+     "id": "terminos.029",
+     "sec": "section#charter",
+     "tag": "p",
+     "html": "Las solicitudes de charter permiten preparar una propuesta a medida. Los destinos, embarcaciones, fechas y precios se confirman en esa propuesta, sujetos a disponibilidad del operador local. Las condiciones de reserva, pago, cancelación y los requisitos para navegar sin tripulación se informan en la propuesta y en el contrato correspondiente. [Completar con las condiciones generales de charter.]"
+    },
+    {
+     "id": "terminos.030",
+     "sec": "section#propiedad",
+     "tag": "h2",
+     "html": "7. Marcas y propiedad intelectual"
+    },
+    {
+     "id": "terminos.031",
+     "sec": "section#propiedad",
+     "tag": "p",
+     "html": "Los nombres, logos, fotos, videos y textos de cada fabricante son de su propiedad y se usan en el sitio en el marco de su representación. La marca Oceanic, su logo y el diseño y contenido propio del sitio son de Oceanic. No se pueden reproducir ni usar con fines comerciales sin autorización."
+    },
+    {
+     "id": "terminos.032",
+     "sec": "section#terceros",
+     "tag": "h2",
+     "html": "8. Contenido y enlaces de terceros"
+    },
+    {
+     "id": "terminos.033",
+     "sec": "section#terceros",
+     "tag": "p",
+     "html": "El sitio incluye enlaces y videos alojados en plataformas de terceros (por ejemplo YouTube, Vimeo, WhatsApp o los sitios de los fabricantes). Esos servicios tienen sus propias condiciones y políticas de privacidad, que Oceanic no controla. Los videos solo se cargan cuando aprietas reproducir."
+    },
+    {
+     "id": "terminos.034",
+     "sec": "section#responsabilidad",
+     "tag": "h2",
+     "html": "9. Responsabilidad"
+    },
+    {
+     "id": "terminos.035",
+     "sec": "section#responsabilidad",
+     "tag": "p",
+     "html": "Cuidamos que la información del sitio sea correcta y esté al día, pero puede contener errores u omisiones, o no reflejar cambios recientes de los fabricantes. Oceanic no responde por decisiones tomadas solo con la información del sitio sin confirmarla en una cotización, ni por interrupciones o fallas técnicas del sitio. Nada de esto limita los derechos que te otorga la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores."
+    },
+    {
+     "id": "terminos.036",
+     "sec": "section#datos",
+     "tag": "h2",
+     "html": "10. Datos personales"
+    },
+    {
+     "id": "terminos.037",
+     "sec": "section#datos",
+     "tag": "p",
+     "html": "Los datos que nos entregas en los formularios se tratan según nuestra <a href=\"../privacidad/index.html\">política de privacidad</a>, conforme a la Ley N° 21.719 de Protección de Datos Personales."
+    },
+    {
+     "id": "terminos.038",
+     "sec": "section#cambios",
+     "tag": "h2",
+     "html": "11. Cambios"
+    },
+    {
+     "id": "terminos.039",
+     "sec": "section#cambios",
+     "tag": "p",
+     "html": "Podemos actualizar estos términos. La versión vigente es la publicada en esta página, con su fecha."
+    },
+    {
+     "id": "terminos.040",
+     "sec": "section#ley",
+     "tag": "h2",
+     "html": "12. Ley aplicable y contacto"
+    },
+    {
+     "id": "terminos.041",
+     "sec": "section#ley",
+     "tag": "p",
+     "html": "Estos términos se rigen por las leyes de Chile. Cualquier consulta, escríbenos a <b>[CORREO DE CONTACTO]</b> o llámanos al +56 2 2953 7321."
+    }
+   ]
+  },
+  {
+   "pagina": "universo",
+   "archivo": "universo/index.html",
+   "items": [
+    {
+     "id": "universo.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Universo — Oceanic"
+    },
+    {
+     "id": "universo.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Las marcas náuticas que Oceanic representa en Chile, organizadas por tipo de navegación: vela, motor y vela deportiva."
+    }
+   ]
+  },
+  {
+   "pagina": "usados-barco",
+   "archivo": "usados/barco/index.html",
+   "items": [
+    {
+     "id": "usados-barco.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Embarcación usada · Oceanic"
+    },
+    {
+     "id": "usados-barco.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Ficha completa de embarcación usada: estado real, horas de motor, historia y equipamiento incluido."
+    },
+    {
+     "id": "usados-barco.001",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Consultar por este barco"
+    }
+   ]
+  },
+  {
+   "pagina": "usados",
+   "archivo": "usados/index.html",
+   "items": [
+    {
+     "id": "usados.titulo",
+     "sec": "SEO",
+     "tag": "title",
+     "html": "Usados · Embarcaciones con historia conocida | Oceanic"
+    },
+    {
+     "id": "usados.desc",
+     "sec": "SEO",
+     "tag": "meta",
+     "html": "Embarcaciones usadas revisadas por Oceanic: horas de motor, mantenciones y estado real de cada barco. Y si quieres vender la tuya, la recibimos en consignación."
+    },
+    {
+     "id": "usados.001",
+     "sec": "nav.crumb",
+     "tag": "a",
+     "html": "Oceanic"
+    },
+    {
+     "id": "usados.002",
+     "sec": "nav.crumb",
+     "tag": "span",
+     "html": "Usados"
+    },
+    {
+     "id": "usados.003",
+     "sec": "div.wrap-wide",
+     "tag": "h1",
+     "html": "Barcos con<br/>historia conocida"
+    },
+    {
+     "id": "usados.004",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Cada embarcación revisada antes de listarla: horas de motor, mantenciones, reparaciones y estado de obra viva. La ficha dice lo que encontramos, no lo que conviene."
+    },
+    {
+     "id": "usados.005",
+     "sec": "div.fgroup",
+     "tag": "button",
+     "html": "Todas"
+    },
+    {
+     "id": "usados.006",
+     "sec": "div.fgroup",
+     "tag": "button",
+     "html": "Motor"
+    },
+    {
+     "id": "usados.007",
+     "sec": "div.fgroup",
+     "tag": "button",
+     "html": "Vela"
+    },
+    {
+     "id": "usados.008",
+     "sec": "div.fgroup",
+     "tag": "button",
+     "html": "Catamaranes"
+    },
+    {
+     "id": "usados.009",
+     "sec": "div.wrap-wide",
+     "tag": "button",
+     "html": "Ver todas"
+    },
+    {
+     "id": "usados.010",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Vende tu embarcación"
+    },
+    {
+     "id": "usados.011",
+     "sec": "div.sell-txt",
+     "tag": "h2",
+     "html": "¿Vendes<br/>tu barco?"
+    },
+    {
+     "id": "usados.012",
+     "sec": "div.sell-txt",
+     "tag": "p",
+     "html": "Lo recibimos en consignación. Lo revisamos, lo documentamos con honestidad y lo mostramos a la base de compradores que ya confía en Oceanic."
+    },
+    {
+     "id": "usados.013",
+     "sec": "div.sell-txt",
+     "tag": "p",
+     "html": "No inflamos fichas ni escondemos horas. Un barco bien documentado se vende igual, y el comprador vuelve. Esa reputación es la que te ayuda a vender el tuyo."
+    },
+    {
+     "id": "usados.014",
+     "sec": "div.sell-txt",
+     "tag": "a",
+     "html": "Cuéntanos qué tienes"
+    },
+    {
+     "id": "usados.015",
+     "sec": "div.sstep",
+     "tag": "span",
+     "html": "01"
+    },
+    {
+     "id": "usados.016",
+     "sec": "div.sstep",
+     "tag": "h3",
+     "html": "Nos cuentas"
+    },
+    {
+     "id": "usados.017",
+     "sec": "div.sstep",
+     "tag": "p",
+     "html": "Marca, modelo, año y estado general. Nos mandas fotos."
+    },
+    {
+     "id": "usados.018",
+     "sec": "div.sstep",
+     "tag": "span",
+     "html": "02"
+    },
+    {
+     "id": "usados.019",
+     "sec": "div.sstep",
+     "tag": "h3",
+     "html": "Revisamos juntos"
+    },
+    {
+     "id": "usados.020",
+     "sec": "div.sstep",
+     "tag": "p",
+     "html": "Vemos el barco, documentamos su estado real y acordamos un precio de mercado."
+    },
+    {
+     "id": "usados.021",
+     "sec": "div.sstep",
+     "tag": "span",
+     "html": "03"
+    },
+    {
+     "id": "usados.022",
+     "sec": "div.sstep",
+     "tag": "h3",
+     "html": "Lo publicamos"
+    },
+    {
+     "id": "usados.023",
+     "sec": "div.sstep",
+     "tag": "p",
+     "html": "Entra al repositorio y a nuestra red de compradores."
+    },
+    {
+     "id": "usados.024",
+     "sec": "div.sstep",
+     "tag": "span",
+     "html": "04"
+    },
+    {
+     "id": "usados.025",
+     "sec": "div.sstep",
+     "tag": "h3",
+     "html": "Cerramos la venta"
+    },
+    {
+     "id": "usados.026",
+     "sec": "div.sstep",
+     "tag": "p",
+     "html": "Acompañamos la operación, la transferencia y la entrega."
+    },
+    {
+     "id": "usados.027",
+     "sec": "div.sec-head",
+     "tag": "span",
+     "html": "Conversemos"
+    },
+    {
+     "id": "usados.028",
+     "sec": "div.wrap-wide",
+     "tag": "h2",
+     "html": "¿Viste algo<br/>que te interesa?"
+    },
+    {
+     "id": "usados.029",
+     "sec": "div.wrap-wide",
+     "tag": "p",
+     "html": "Coordinamos una visita, resolvemos dudas y, si hace falta, buscamos lo que aún no está listado."
+    },
+    {
+     "id": "usados.030",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Habla con un especialista"
+    },
+    {
+     "id": "usados.031",
+     "sec": "div.talk-cta",
+     "tag": "a",
+     "html": "Suscribirme a Puerto"
+    },
+    {
+     "id": "usados.032",
+     "sec": "div.mob",
+     "tag": "a",
+     "html": "Vende tu embarcación"
+    }
+   ]
+  }
+ ]
+}
