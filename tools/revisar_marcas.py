@@ -111,8 +111,10 @@ def _directo(url: str, espera=25) -> Respuesta:
 
 
 def _firecrawl(url: str, clave: str) -> Respuesta:
-    cuerpo = json.dumps({"url": url, "formats": ["rawHtml"], "timeout": 45000}).encode()
-    req = urllib.request.Request("https://api.firecrawl.dev/v1/scrape", data=cuerpo, method="POST",
+    # API v2 (la v1 deja de responder el 2026-12-10). maxAge 0: lectura en vivo; v2 puede servir una copia en caché
+    # y la revisión necesita el estado actual de la web.
+    cuerpo = json.dumps({"url": url, "formats": ["rawHtml"], "timeout": 45000, "maxAge": 0}).encode()
+    req = urllib.request.Request("https://api.firecrawl.dev/v2/scrape", data=cuerpo, method="POST",
                                  headers={"Authorization": f"Bearer {clave}", "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=70) as r:

@@ -120,6 +120,36 @@ class DatosReales(unittest.TestCase):
             self.assertTrue(m in rm.EXTRA or any(x["indices"] for x in rm.conocidos()[m]), m)
 
 
+
+class FirecrawlV2(unittest.TestCase):
+    """La lectura de respaldo usa la API v2 (la v1 responde 410 desde el 2026-12-10) y pide la página en vivo."""
+
+    def test_llamada_y_respuesta(self):
+        import io
+        import json
+        from unittest import mock
+        visto = {}
+
+        def falso(req, timeout=None):
+            visto["url"], visto["cuerpo"] = req.full_url, json.loads(req.data)
+            visto["auth"] = req.get_header("Authorization")
+            r = io.BytesIO(json.dumps({"success": True, "data": {
+                "rawHtml": "<html>ok</html>",
+                "metadata": {"statusCode": 200, "sourceURL": "https://ejemplo.com/modelos/"}}}).encode())
+            r.__enter__ = lambda s=r: s
+            r.__exit__ = lambda *a: None
+            return r
+
+        with mock.patch.object(rm.urllib.request, "urlopen", falso):
+            res = rm._firecrawl("https://ejemplo.com/modelos/", "clave-falsa")
+        self.assertEqual(visto["url"], "https://api.firecrawl.dev/v2/scrape")
+        self.assertEqual(visto["cuerpo"]["formats"], ["rawHtml"])
+        self.assertEqual(visto["cuerpo"]["maxAge"], 0)
+        self.assertEqual(visto["auth"], "Bearer clave-falsa")
+        self.assertTrue(res.ok)
+        self.assertEqual(res.estado, 200)
+        self.assertEqual(res.texto, "<html>ok</html>")
+
 if __name__ == "__main__":
     unittest.main()
 
