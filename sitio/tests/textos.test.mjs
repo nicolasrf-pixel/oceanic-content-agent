@@ -83,3 +83,20 @@ test('textos.js: solo deja pasar marcas simples y enlaces seguros, y nunca inyec
   assert.deepEqual(usos, ['origen']);
   assert.match(codigo, /document\.createElement\('template'\)/);
 });
+
+// ----- Seguimiento y medición -----
+test('seguimiento: acepta IDs válidos o vacíos y rechaza lo demás', () => {
+  const ok = (d) => validar('seguimiento', d).errores.length === 0;
+  assert.ok(ok({ ga4: '', gtm: '', meta_pixel: '' }));
+  assert.ok(ok({ ga4: 'G-AB12CD34EF', gtm: 'GTM-ABC1234', meta_pixel: '123456789012345' }));
+  assert.ok(!ok({ ga4: 'UA-123456-1' }));
+  assert.ok(!ok({ ga4: 'G-<script>' }));
+  assert.ok(!ok({ gtm: 'gtm-abc' }));
+  assert.ok(!ok({ meta_pixel: '12ab' }));
+  assert.ok(!ok({ meta_pixel: 123456789012345 }));
+  assert.ok(!ok({ otro: 'x' }));
+  assert.ok(!ok([]));
+  assert.equal(claveDeRuta('/assets/js/seguimiento-data.js'), 'seguimiento');
+  assert.equal(validar('seguimiento', { ga4: 'G-AB12CD34EF', gtm: 'GTM-ABC1234' }).avisos.length, 1);
+  assert.deepEqual(DOCS.seguimiento.leer(readFileSync(RAIZ + 'assets/js/seguimiento-data.js', 'utf8')), { ga4: '', gtm: '', meta_pixel: '' });
+});

@@ -222,6 +222,8 @@ cambió en el documento `textos` (`assets/js/textos-data.js`, D1) y `assets/js/t
 también edita el título y la descripción de cada página (`<página>.titulo` / `.desc`). Quedan fuera lo que arma JavaScript con su propio documento (portada,
 tarjetas de marcas y categorías, usados, Puerto, fichas de modelos, formularios, menú y pie). Pruebas: `tools/tests/test_textos.py`, `sitio/tests/textos.test.mjs`.
 
+**Seguimiento y medición (decisión Oceanic 2026-11-23):** `/admin/#seguimiento` (documento `seguimiento` = `assets/js/seguimiento-data.js`) guarda los IDs de Google Analytics 4 (`ga4`), Tag Manager (`gtm`) y Meta Pixel (`meta_pixel`); vacío = apagado. `nav-tpl.js` solo carga esos scripts si la persona acepta el aviso de cookies (Consent Mode de Google; el banner cambia de texto según lo activo y pide de nuevo permiso si cambian las herramientas); eventos: PageView, `view_item`/ViewContent en fichas de modelo y `generate_lead`/Lead en `/gracias/`. Política de privacidad (secciones 4 y 9) lo nombra; BORRADOR hasta revisión legal.
+
 **Respaldos (decisión Oceanic 2026-11-23):** copia diaria (cron 06:00 UTC), al abrir el administrador si pasaron 24 h, o con «Respaldar ahora» (`/admin/#respaldos`) de la base D1 y de los
 archivos subidos (KV) al bucket privado R2 `oceanic-respaldos` (binding `RESPALDOS`; 30 días + el día 1 de cada mes por 12 meses). `sitio/worker/respaldo.js`; cómo restaurar
 (`tools/respaldo_a_sql.py`, Time Travel de D1) en `docs/RESPALDOS.md`. El código y los textos del repositorio se respaldan en GitHub.

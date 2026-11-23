@@ -120,32 +120,62 @@
   }
   setTimeout(barraSegunPortada,0); setTimeout(barraSegunPortada,900); addEventListener('load',barraSegunPortada);
 
-  // ---------- cookies y analítica (Ley 21.719) ----------
-  // Sin GA4 configurado: aviso informativo (el sitio no usa cookies de seguimiento).
-  // Con GA4 (OCEANIC_GA4 abajo): banner de consentimiento. Analytics solo se carga si la persona acepta; sin respuesta
-  // o con rechazo no se carga nada (Google Consent Mode v2 en «denegado» por defecto). La elección se puede cambiar
-  // desde «Preferencias de cookies» en el pie.
-  var GA4 = (window.OCEANIC_GA4 || 'G-XXXXXXXXXX').trim();  // ID de medición de Google Analytics 4 (lo entrega Oceanic)
-  if (!/^G-[A-Z0-9]{6,}$/.test(GA4) || GA4 === 'G-XXXXXXXXXX') GA4 = '';
-  var CLAVE_C = 'oceanic-consentimiento', VERSION_C = '2026-11';
-  function leerC(){ try{ var v=JSON.parse(localStorage.getItem(CLAVE_C)||'null'); return v&&v.v===VERSION_C?v:null; }catch(e){ return null; } }
-  function guardarC(ok){ try{ localStorage.setItem(CLAVE_C, JSON.stringify({v:VERSION_C, analitica:!!ok, fecha:new Date().toISOString().slice(0,10)})); }catch(e){} }
-  function cargarGA(){
-    if (!GA4 || window.__gaCargado) return; window.__gaCargado = true;
-    window.dataLayer = window.dataLayer || []; window.gtag = function(){ dataLayer.push(arguments); };
-    gtag('consent', 'default', { ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'granted' });
-    gtag('js', new Date()); gtag('config', GA4, { anonymize_ip: true });
-    var sc=document.createElement('script'); sc.async=true; sc.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(GA4); document.head.appendChild(sc);
+  // ---------- cookies y medición (Ley 21.719) ----------
+  // Google Analytics 4, Google Tag Manager y Meta Pixel se configuran en el administrador (Seguimiento → assets/js/seguimiento-data.js).
+  // Sin ninguno: aviso informativo (el sitio no usa cookies de seguimiento). Con alguno: banner de consentimiento; no se carga nada
+  // hasta que la persona acepta, y rechazar o no responder deja todo apagado. La elección se puede cambiar desde «Preferencias de
+  // cookies» en el pie. Si cambia lo que se mide, se vuelve a preguntar.
+  var SEG = { ga4: '', gtm: '', pixel: '' }, FIRMA = '';
+  function configurar(c){
+    c = c || {};
+    var g = String(c.ga4 || '').trim(), t = String(c.gtm || '').trim(), p = String(c.meta_pixel || '').trim();
+    SEG = { ga4: /^G-[A-Z0-9]{6,14}$/.test(g) ? g : '', gtm: /^GTM-[A-Z0-9]{4,12}$/.test(t) ? t : '', pixel: /^\d{10,20}$/.test(p) ? p : '' };
+    FIRMA = [SEG.ga4 && 'ga', SEG.gtm && 'gtm', SEG.pixel && 'fb'].filter(Boolean).join('+');
   }
-  function borrarGA(){  // al retirar el consentimiento: borra las cookies de Analytics de este dominio
-    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim(); if(/^_ga/.test(n)){
+  function hayMedicion(){ return !!FIRMA; }
+  var CLAVE_C = 'oceanic-consentimiento', VERSION_C = '2026-11';
+  function leerC(){ try{ var v=JSON.parse(localStorage.getItem(CLAVE_C)||'null'); return v&&v.v===VERSION_C&&(v.f||'')===FIRMA?v:null; }catch(e){ return null; } }
+  function guardarC(ok){ try{ localStorage.setItem(CLAVE_C, JSON.stringify({v:VERSION_C, f:FIRMA, analitica:!!ok, fecha:new Date().toISOString().slice(0,10)})); }catch(e){} }
+  function script(src){ var sc=document.createElement('script'); sc.async=true; sc.src=src; document.head.appendChild(sc); }
+  function cargarMedicion(){
+    if (!hayMedicion() || window.__medicion) return; window.__medicion = true;
+    window.dataLayer = window.dataLayer || []; window.gtag = function(){ dataLayer.push(arguments); };
+    // la persona ya aceptó la medición: analítica sí; publicidad de Google (ad_*) sigue denegada
+    gtag('consent', 'default', { ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'granted' });
+    if (SEG.ga4) { gtag('js', new Date()); gtag('config', SEG.ga4, { anonymize_ip: true }); script('https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(SEG.ga4)); }
+    if (SEG.gtm) { dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' }); script('https://www.googletagmanager.com/gtm.js?id='+encodeURIComponent(SEG.gtm)); }
+    if (SEG.pixel) {
+      var f = window.fbq = function(){ f.callMethod ? f.callMethod.apply(f, arguments) : f.queue.push(arguments); };
+      if (!window._fbq) window._fbq = f; f.push = f; f.loaded = true; f.version = '2.0'; f.queue = [];
+      script('https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', SEG.pixel); fbq('track', 'PageView');
+    }
+    eventos();
+  }
+  // eventos de conversión: cotización enviada (página de gracias) y ficha de un modelo
+  function eventos(){
+    var ruta = location.pathname, q = new URLSearchParams(location.search);
+    if (/\/gracias\//.test(ruta)) {
+      if (SEG.ga4 || SEG.gtm) gtag('event', 'generate_lead');
+      if (SEG.pixel) fbq('track', 'Lead');
+    } else if (/\/marca\//.test(ruta) && q.get('modelo')) {
+      setTimeout(function(){
+        var h = document.querySelector('h1'), n = (h && h.textContent || document.title).replace(/\s+/g,' ').trim();
+        if (SEG.ga4 || SEG.gtm) gtag('event', 'view_item', { items: [{ item_id: q.get('modelo'), item_name: n }] });
+        if (SEG.pixel) fbq('track', 'ViewContent', { content_name: n, content_ids: [q.get('modelo')], content_type: 'product' });
+      }, 1500);
+    }
+  }
+  function borrarMedicion(){  // al retirar el consentimiento: borra las cookies de medición de este dominio
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim(); if(/^(_ga|_gid|_gat|_gcl|_fbp|_fbc)/.test(n)){
       var d=location.hostname.split('.'); for(var k=0;k<d.length;k++){ document.cookie=n+'=; Max-Age=0; path=/; domain=.'+d.slice(k).join('.'); } document.cookie=n+'=; Max-Age=0; path=/'; } });
   }
   function banner(){
     var prev=document.querySelector('.aviso-priv'); if(prev) prev.remove();
     var a=document.createElement('div'); a.className='aviso-priv'; a.setAttribute('role','region'); a.setAttribute('aria-label','Cookies y privacidad');
-    if (GA4) {
-      a.innerHTML='<p>Usamos cookies de analítica (Google Analytics) para saber cómo se usa el sitio y mejorarlo. Solo se activan si las aceptas. '+
+    if (hayMedicion()) {
+      var quienes = [(SEG.ga4 || SEG.gtm) ? 'Google Analytics' : '', SEG.pixel ? 'Meta, para Facebook e Instagram' : ''].filter(Boolean).join(' y ');
+      a.innerHTML='<p>Usamos cookies de medición ('+quienes+') para saber cómo se usa el sitio, mejorarlo y medir nuestras campañas. Solo se activan si las aceptas. '+
         'Más detalle en la <a href="'+pre+'privacidad/index.html#almacenamiento">política de privacidad</a>.</p>'+
         '<div class="aviso-bt"><button type="button" class="btn" data-c="si">Aceptar</button><button type="button" class="btn btn-line aviso-no" data-c="no">Rechazar</button></div>';
     } else {
@@ -156,17 +186,26 @@
     a.addEventListener('click',function(e){ var b=e.target.closest('[data-c]'); if(!b) return;
       var c=b.getAttribute('data-c');
       if (c==='ok' || c==='rechazo') { try{ localStorage.setItem('oceanic-aviso','2026-11'); }catch(e2){} guardarC(c==='ok'); }
-      else { guardarC(c==='si'); if(c==='si') cargarGA(); else borrarGA(); }
+      else { guardarC(c==='si'); if(c==='si') cargarMedicion(); else borrarMedicion(); }
       a.remove(); });
     document.body.appendChild(a);
   }
   window.OCEANIC_COOKIES = banner;  // «Preferencias de cookies» del pie
-  setTimeout(function(){
-    if (/privacidad\/|terminos\//.test(location.pathname)) return;
-    if (GA4) { var c=leerC(); if(c){ if(c.analitica) cargarGA(); } else banner(); return; }
-    var visto=false; try{ visto=localStorage.getItem('oceanic-aviso')==='2026-11'; }catch(e){}
-    if(!visto) banner();
-  },400);
+  function arrancarCookies(){
+    setTimeout(function(){
+      if (/privacidad\/|terminos\//.test(location.pathname)) return;
+      if (hayMedicion()) { var c=leerC(); if(c){ if(c.analitica) cargarMedicion(); } else banner(); return; }
+      var visto=false; try{ visto=localStorage.getItem('oceanic-aviso')==='2026-11'; }catch(e){}
+      if(!visto) banner();
+    },400);
+  }
+  // la configuración la publica el administrador (assets/js/seguimiento-data.js); si no carga, el sitio sigue sin medición
+  (function(){
+    if (window.OCEANIC_SEGUIMIENTO) { configurar(window.OCEANIC_SEGUIMIENTO); return arrancarCookies(); }
+    var hecho=false; function listo(){ if(hecho) return; hecho=true; configurar(window.OCEANIC_SEGUIMIENTO); arrancarCookies(); }
+    var sc=document.createElement('script'); sc.src=pre+'assets/js/seguimiento-data.js'; sc.onload=listo; sc.onerror=listo; document.head.appendChild(sc);
+    setTimeout(listo,2500);
+  })();
   document.addEventListener('click',function(e){ var l=e.target.closest&&e.target.closest('[data-cookies]'); if(l){ e.preventDefault(); banner(); } });
 
   // menú móvil: un solo control para todo el sitio (los scripts de cada página ya no agregan el suyo)

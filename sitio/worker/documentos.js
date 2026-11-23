@@ -20,6 +20,7 @@ export const DOCS = {
   portafolio:         js('/assets/js/portafolio-data.js', 'OCEANIC_PORTAFOLIO', { titulo: 'Portafolio: orden, categorías y marcas' }),
   eventos:            js('/assets/js/eventos-data.js', 'OCEANIC_EVENTOS', { titulo: 'Eventos: pop-ups y landings' }),
   textos:             js('/assets/js/textos-data.js', 'OCEANIC_TEXTOS', { titulo: 'Textos del sitio' }),
+  seguimiento:        js('/assets/js/seguimiento-data.js', 'OCEANIC_SEGUIMIENTO', { titulo: 'Seguimiento y medición' }),
   // Solo en el CMS (no hay archivo en el sitio): patrones prohibidos del Brand OS, se validan al guardar texto.
   patrones:           { titulo: 'Patrones prohibidos', soloCms: true, base: [] },
 };
@@ -89,11 +90,27 @@ export function validar(clave, d, patrones = []) {
   else if (clave === 'eventos') eventos(d, err, aviso);
   else if (clave === 'portafolio') portafolio(d, err, aviso);
   else if (clave === 'textos') textos(d, err, aviso);
+  else if (clave === 'seguimiento') seguimiento(d, err, aviso);
   else if (clave === 'catalogo' || clave === 'contenido') ficha(d, err, aviso);
   else if (clave === 'patrones') listaPatrones(d, err);
   else if (FICHA.test(clave)) ficha(d, err, aviso);
   if (clave !== 'patrones') prohibidos(d, normalizarPatrones(patrones), err);
   return { errores: E, avisos: A };
+}
+
+/* Seguimiento y medición: { ga4, gtm, meta_pixel }. Cada uno vacío (apagado) o con el formato que entrega la plataforma. */
+function seguimiento(d, err, aviso) {
+  if (Array.isArray(d)) return err('', 'Seguimiento: un objeto { ga4, gtm, meta_pixel }');
+  const FORMATOS = { ga4: [/^G-[A-Z0-9]{6,14}$/, 'ID de medición de Google Analytics 4: G- seguido de letras y números (ej. G-AB12CD34EF)'],
+    gtm: [/^GTM-[A-Z0-9]{4,12}$/, 'Contenedor de Google Tag Manager: GTM- seguido de letras y números (ej. GTM-ABC1234)'],
+    meta_pixel: [/^\d{10,20}$/, 'ID del píxel de Meta: solo cifras, 15 o 16 normalmente (ej. 123456789012345)'] };
+  for (const k of Object.keys(d)) if (!FORMATOS[k]) err(k, 'Campo desconocido: ' + k);
+  for (const [k, [re, ayuda]] of Object.entries(FORMATOS)) {
+    const v = d[k];
+    if (v == null || v === '') continue;
+    if (typeof v !== 'string' || !re.test(v.trim())) err(k, ayuda);
+  }
+  if (d.gtm && d.ga4) aviso('gtm', 'Con Tag Manager y Analytics a la vez la medición puede contarse doble: si Analytics ya está dentro del contenedor de Tag Manager, deja vacío el ID de Analytics');
 }
 
 /* Textos del sitio: { "<página>.<número>": "texto con marcas simples", "<página>.titulo": "…", "<página>.desc": "…" }.

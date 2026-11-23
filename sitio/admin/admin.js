@@ -1085,6 +1085,50 @@
     });
   };
 
+
+  /* --- Seguimiento y medición: Google Analytics, Tag Manager y Meta Pixel (seguimiento-data.js) --- */
+  S.seguimiento = function () {
+    return cargar('seguimiento').then(function (doc) {
+      var D = doc.contenido;
+      if (Array.isArray(D) || D == null || typeof D !== 'object') D = doc.contenido = { ga4: '', gtm: '', meta_pixel: '' };
+      var estado = h('div', { class: 'panel' });
+      function pintar() {
+        vaciar(estado);
+        var activos = [];
+        if ((D.ga4 || '').trim()) activos.push('Google Analytics (' + D.ga4.trim() + ')');
+        if ((D.gtm || '').trim()) activos.push('Google Tag Manager (' + D.gtm.trim() + ')');
+        if ((D.meta_pixel || '').trim()) activos.push('Meta Pixel (' + D.meta_pixel.trim() + ')');
+        estado.appendChild(h('h3', { style: 'margin-top:0', text: activos.length ? 'Medición activa' : 'Medición apagada' }));
+        estado.appendChild(h('p', { style: 'margin:4px 0' }, activos.length
+          ? ['Se mide con: ', h('b', { text: activos.join(' · ') }), '. El aviso de cookies pasa a pedir permiso para medir y solo se activa si la persona acepta.']
+          : 'Hoy el sitio no mide nada y el aviso de cookies solo informa que no usa cookies de seguimiento.'));
+      }
+      function entrada(clave, etq, ph, ayuda) {
+        var el = h('input', { type: 'text', value: D[clave] || '', placeholder: ph, autocomplete: 'off', spellcheck: 'false', oninput: function () { D[clave] = el.value.trim(); marcar(doc); pintar(); } });
+        return h('div', { class: 'campo' }, h('label', { text: etq }), el, h('small', { text: ayuda }));
+      }
+      pintar();
+      return h('div', null, h('h1', { text: 'Seguimiento y medición' }),
+        h('p', { class: 'lede', text: 'Conecta el sitio a Google (Analytics y Tag Manager) y a Meta (Pixel de Facebook e Instagram) pegando sus identificadores. No hay que tocar código: Guardar borrador y Publicar. Todo es opcional; un campo vacío deja esa herramienta apagada.' }),
+        barra(doc), estado,
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Google' }),
+          entrada('ga4', 'ID de medición de Google Analytics 4', 'G-AB12CD34EF', 'En analytics.google.com › Administrar › Flujos de datos › tu sitio web › «ID de medición». Empieza con G-.'),
+          entrada('gtm', 'Contenedor de Google Tag Manager (opcional)', 'GTM-ABC1234', 'En tagmanager.google.com, arriba a la derecha. Úsalo solo si prefieres manejar las etiquetas desde Tag Manager; si Analytics ya está dentro del contenedor, deja vacío el ID de Analytics para no contar doble.')),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Meta (Facebook e Instagram)' }),
+          entrada('meta_pixel', 'ID del Pixel de Meta', '123456789012345', 'En business.facebook.com › Administrador de eventos › Orígenes de datos › tu píxel › «ID del conjunto de datos». Son solo cifras (15 o 16).')),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Qué se mide y cómo' }),
+          h('ul', { style: 'margin:0;padding-left:20px;line-height:1.7' },
+            h('li', null, h('b', { text: 'Con permiso: ' }), 'nada se carga hasta que la persona acepta el aviso de cookies; si rechaza o no responde, no se mide. Puede cambiarlo desde «Preferencias de cookies» en el pie.'),
+            h('li', null, h('b', { text: 'Visitas: ' }), 'cada página vista, en Google y en Meta.'),
+            h('li', null, h('b', { text: 'Fichas de modelos: ' }), 'cuando alguien abre un modelo (view_item en Google, ViewContent en Meta).'),
+            h('li', null, h('b', { text: 'Cotizaciones: ' }), 'cuando se envía una solicitud y se abre la página de gracias (generate_lead en Google, Lead en Meta). Márcalo como conversión en Analytics y úsalo para tus campañas de Meta.'),
+            h('li', null, h('b', { text: 'Política de privacidad: ' }), 'al activar la medición, la política (sección 9) debe nombrar a Google y Meta; el texto ya los menciona. Pide a tu abogado que lo revise.'),
+            h('li', null, h('b', { text: 'Verificar el dominio: ' }), 'para Search Console y para Meta usa la verificación por DNS (registro TXT en el dominio oceanic.cl), que no requiere cambiar el sitio.'))),
+        h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Cómo comprobar que funciona' }),
+          h('p', { style: 'margin:4px 0' }, 'Publica, abre el sitio en una ventana privada y acepta el aviso de cookies. En Analytics: Informes › Tiempo real. En Meta: instala la extensión «Meta Pixel Helper» de Chrome y revisa que aparezca PageView. Envía una cotización de prueba y verifica Lead / generate_lead.')));
+    });
+  };
+
   /* --- Eventos: pop-ups de invitación y landings de eventos (eventos-data.js) --- */
   function slugDe(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); }
   function interruptor(obj, k, etq, alCambiar) {
