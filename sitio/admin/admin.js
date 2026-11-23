@@ -1028,6 +1028,63 @@
     });
   };
 
+
+  /* --- Respaldos: copias diarias de la base D1 y de los archivos subidos, guardadas en R2 (worker/respaldo.js) --- */
+  function tamano(b) { return b > 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB'; }
+  S.respaldos = function () {
+    return api('respaldo').then(function (r) {
+      if (!r.ok) throw new Error(r.error || 'No se pudo leer el estado de los respaldos');
+      var cont = h('div');
+      cont.appendChild(h('h1', { text: 'Respaldos' }));
+      cont.appendChild(h('p', { class: 'lede', text: 'Cada día a las 3:00 (hora de Chile) el sitio copia a un almacenamiento privado de Cloudflare R2 toda la base del administrador (textos publicados con su historial, leads, notas y etapas del CRM) y los archivos que subiste. Se guardan los últimos 30 días y la copia del día 1 de cada mes durante un año. El código y los textos del repositorio ya están respaldados en GitHub.' }));
+      if (!r.configurado) { cont.appendChild(h('div', { class: 'errores', text: 'Falta conectar el almacenamiento R2 (binding RESPALDOS). Revisa docs/RESPALDOS.md.' })); return cont; }
+      var est = h('div'), tabla = h('div');
+      var boton = h('button', { class: 'btn boya', text: 'Respaldar ahora', 'data-tip': 'Hace una copia completa ahora mismo, además de la diaria.', onclick: function () {
+        boton.disabled = true; boton.textContent = 'Respaldando…';
+        var antes = r.ultimo && r.ultimo.fecha;
+        api('respaldo/ahora', { method: 'POST' }).then(function (x) {
+          if (!x.ok) { boton.disabled = false; boton.textContent = 'Respaldar ahora'; return avisar(x.error, true); }
+          var intentos = 0;
+          (function esperar() {
+            api('respaldo').then(function (n) {
+              intentos++;
+              var listo = n.ok && n.ultimo && n.ultimo.fecha !== antes && !(n.estado && n.estado.enCurso);
+              if (listo || (n.estado && n.estado.ok === false && !n.estado.enCurso) || intentos > 40) { r = n; pintar(); boton.disabled = false; boton.textContent = 'Respaldar ahora';
+                avisar(listo ? 'Respaldo listo' : (n.estado && n.estado.error) || 'El respaldo tarda más de lo normal: revisa de nuevo en un minuto', !listo); }
+              else setTimeout(esperar, 3000);
+            });
+          })();
+        });
+      } });
+      function pintar() {
+        vaciar(est); vaciar(tabla);
+        var u = r.ultimo;
+        if (r.estado && r.estado.ok === false && r.estado.error) est.appendChild(h('div', { class: 'errores', text: 'El último intento falló: ' + r.estado.error }));
+        if (!u) est.appendChild(h('div', { class: 'panel' }, h('b', { text: 'Todavía no hay respaldos. ' }), 'Pulsa «Respaldar ahora» o se hace solo esta madrugada.'));
+        else {
+          var f = u.d1 || {}, m = u.medios || {};
+          est.appendChild(h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Último respaldo: ' + fecha(u.fecha) }),
+            h('p', { style: 'margin:4px 0' }, 'Motivo: ' + (u.motivo || '') + ' · duró ' + (u.segundos != null ? u.segundos + ' s' : '—')),
+            h('p', { style: 'margin:4px 0' }, 'Base de datos: ', h('b', { text: (f.filas || 0) + ' filas' }), ' en ' + Object.keys(f.tablas || {}).length + ' tablas · ' + tamano(f.bytes || 0)),
+            h('p', { style: 'margin:4px 0' }, 'Archivos subidos: ', h('b', { text: (m.copiados || 0) + ' copiados nuevos' }), ' · ' + (m.omitidos || 0) + ' ya estaban respaldados')));
+        }
+        var ul = h('div', { class: 'panel' }, h('h3', { style: 'margin-top:0', text: 'Copias de la base de datos' }));
+        if (!r.copias || !r.copias.length) ul.appendChild(h('p', { class: 'vacio', text: 'Aún no hay copias.' }));
+        (r.copias || []).forEach(function (c) {
+          ul.appendChild(h('div', { class: 'fila-copia', style: 'display:flex;gap:12px;align-items:center;padding:6px 0;border-bottom:1px solid var(--linea)' },
+            h('code', { text: c.clave.slice(3, 13) }), h('span', { class: 'chip', text: tamano(c.bytes) }),
+            h('a', { class: 'btn-sm', href: '/api/admin/respaldo/descargar?clave=' + encodeURIComponent(c.clave), text: 'Descargar' })));
+        });
+        tabla.appendChild(ul);
+      }
+      pintar();
+      cont.appendChild(h('div', { style: 'margin:0 0 14px' }, boton));
+      cont.appendChild(est); cont.appendChild(tabla);
+      cont.appendChild(h('div', { class: 'panel' }, h('b', { text: 'Para restaurar: ' }), 'descarga la copia del día que necesitas y pídeme restaurarla (o sigue docs/RESPALDOS.md). Las copias tienen datos personales de los leads: no las compartas ni las subas a ningún otro lugar.'));
+      return cont;
+    });
+  };
+
   /* --- Eventos: pop-ups de invitación y landings de eventos (eventos-data.js) --- */
   function slugDe(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); }
   function interruptor(obj, k, etq, alCambiar) {

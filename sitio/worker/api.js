@@ -4,13 +4,14 @@
 import { DOCS, definicion, validar } from './documentos.js';
 import { estadoRevision, iniciarRevision, aprobarRevision } from './revision.js';
 import { crm } from './crm.js';
+import { estadoRespaldo, hacerRespaldo, haceFalta } from './respaldo.js';
 
 const MAX_DOC = 1_800_000;          // D1: 2 MB por fila
 const MAX_MEDIO = 20 * 1024 * 1024; // KV: 25 MB por valor
 const TIPOS_MEDIO = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/avif': 'avif', 'image/gif': 'gif', 'application/pdf': 'pdf', 'video/mp4': 'mp4', 'video/webm': 'webm' };
 const CARPETAS = ['videos', 'portada', 'eventos', 'usados', 'puerto', 'modelos', 'marcas', 'documentos', 'otros'];
 
-export async function api(request, env, url, email) {
+export async function api(request, env, url, email, ctx) {
   const ruta = url.pathname.slice('/api/admin/'.length).replace(/\/$/, '');
   const m = request.method;
   if (m !== 'GET' && m !== 'HEAD') {
@@ -23,7 +24,25 @@ export async function api(request, env, url, email) {
   const ahora = new Date().toISOString();
 
   try {
+    // Respaldos en R2 (worker/respaldo.js)
+    if (ruta === 'respaldo' && m === 'GET') return json(await estadoRespaldo(env));
+    if (ruta === 'respaldo/ahora' && m === 'POST') {
+      if (!env.RESPALDOS) return json({ ok: false, error: 'Falta el almacenamiento R2 (binding RESPALDOS)' }, 503);
+      const tarea = hacerRespaldo(env, 'manual · ' + email);
+      if (ctx && ctx.waitUntil) ctx.waitUntil(tarea); else await tarea;
+      return json({ ok: true, iniciado: true });
+    }
+    if (ruta === 'respaldo/descargar' && m === 'GET') {
+      const clave = url.searchParams.get('clave') || '';
+      if (!env.RESPALDOS || !/^d1\/\d{4}-\d{2}-\d{2}\.json\.gz$/.test(clave)) return json({ ok: false, error: 'Copia no válida' }, 400);
+      const o = await env.RESPALDOS.get(clave);
+      if (!o) return json({ ok: false, error: 'No existe esa copia' }, 404);
+      return new Response(o.body, { headers: { 'Content-Type': 'application/gzip', 'Content-Disposition': `attachment; filename="oceanic-${clave.slice(3)}"`, 'Cache-Control': 'no-store' } });
+    }
+
     if (ruta === 'estado' && m === 'GET') {
+      // al abrir el administrador: si el último respaldo tiene más de 24 horas, se hace uno
+      if (ctx && ctx.waitUntil) ctx.waitUntil(haceFalta(env).then((f) => (f ? hacerRespaldo(env, 'al abrir el administrador') : null)).catch(() => null));
       const { results } = await env.DB.prepare(
         'SELECT clave, version, pub_version, actualizado, autor, publicado_en, publicado_por, publicado IS NULL AS sin_publicar FROM documentos ORDER BY actualizado DESC').all();
       return json({ ok: true, email, docs: results.map((r) => ({ ...r, pendiente: r.sin_publicar === 1 || r.version !== r.pub_version })),

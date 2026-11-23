@@ -16,6 +16,7 @@ import { DOCS, definicion, renderArchivo, claveDeRuta } from './documentos.js';
 import { api } from './api.js';
 import { paginaCompartible } from './compartir.js';
 import { avisoSemanal } from './aviso.js';
+import { hacerRespaldo, CRON_RESPALDO } from './respaldo.js';
 
 const SEGURIDAD = {
   'Strict-Transport-Security': 'max-age=31536000',
@@ -28,6 +29,10 @@ const SEGURIDAD = {
 export default {
   // Aviso semanal de «Revisar marcas» (cron en wrangler.jsonc): lanza la revisión y avisa por correo solo si hay novedades.
   async scheduled(event, env, ctx) {
+    if (event.cron === CRON_RESPALDO) {  // respaldo diario a R2 (03:00 en Chile)
+      ctx.waitUntil(hacerRespaldo(env, 'cron').then((r) => console.log('respaldo', r.ok ? 'ok' : 'error', JSON.stringify(r.d1 ? { filas: r.d1.filas, medios: r.medios } : r.error)), (e) => console.log('respaldo: error', String(e && e.message || e).slice(0, 160))));
+      return;
+    }
     ctx.waitUntil(avisoSemanal(env, event.cron).then((r) => console.log('aviso-revision', JSON.stringify(r)), (e) => console.log('aviso-revision: error', String(e && e.message || e).slice(0, 160))));
   },
 
@@ -82,7 +87,7 @@ async function admin(request, env, url, ctx) {
     return texto(msg, 403);
   }
   if (url.pathname.startsWith('/api/admin/')) {
-    const r = await api(request, env, url, email);
+    const r = await api(request, env, url, email, ctx);
     r.headers.set('Cache-Control', 'no-store');
     return r;
   }

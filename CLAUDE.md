@@ -222,6 +222,10 @@ cambió en el documento `textos` (`assets/js/textos-data.js`, D1) y `assets/js/t
 también edita el título y la descripción de cada página (`<página>.titulo` / `.desc`). Quedan fuera lo que arma JavaScript con su propio documento (portada,
 tarjetas de marcas y categorías, usados, Puerto, fichas de modelos, formularios, menú y pie). Pruebas: `tools/tests/test_textos.py`, `sitio/tests/textos.test.mjs`.
 
+**Respaldos (decisión Oceanic 2026-11-23):** copia diaria (cron 06:00 UTC), al abrir el administrador si pasaron 24 h, o con «Respaldar ahora» (`/admin/#respaldos`) de la base D1 y de los
+archivos subidos (KV) al bucket privado R2 `oceanic-respaldos` (binding `RESPALDOS`; 30 días + el día 1 de cada mes por 12 meses). `sitio/worker/respaldo.js`; cómo restaurar
+(`tools/respaldo_a_sql.py`, Time Travel de D1) en `docs/RESPALDOS.md`. El código y los textos del repositorio se respaldan en GitHub.
+
 **Administrador del sitio (decisión Oceanic 2026-11-04):** CMS propio y autónomo sobre el Worker `oceanic`
 (`sitio/worker/`, `sitio/admin/`): D1 `oceanic-cms` (documentos con borrador → publicado + historial) y KV
 `oceanic-imagenes` (archivos subidos, servidos en `/media/`). Acceso cerrado por defecto: contraseña `ADMIN_PASSWORD`
