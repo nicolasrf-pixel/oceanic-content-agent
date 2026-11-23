@@ -6,7 +6,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Axopar",
   "pais": "Finlandia",
   "universo": "Motor",
-  "hero": "modelos/axopar-38-xc-cross-cabin-hero.webp",
+  "hero": "modelos/axopar-38-sun-top-hero.webp",
   "claim": "Diseñados donde el mar no perdona.",
   "intro": "Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año.",
   "logo": "marcas-logo/axopar.svg"
@@ -40,14 +40,14 @@ window.OCEANIC_MARCAS={
   "nombre": "Lagoon",
   "pais": "Francia",
   "universo": "Vela y Motor",
-  "hero": "modelos/lagoon-46-iconic-hero.webp",
+  "hero": "modelos/lagoon-47-hero.webp",
   "claim": "El catamarán de crucero, perfeccionado.",
   "intro": "El referente mundial del catamarán de crucero. Espacio, estabilidad y vida a bordo sin escora, del 38 a los grandes multicascos.",
   "lineas": {
    "vela": {
     "nombre": "Lagoon",
     "universo": "Vela",
-    "hero": "modelos/lagoon-46-iconic-hero.webp"
+    "hero": "modelos/lagoon-47-hero.webp"
    },
    "motor": {
     "nombre": "Lagoon Motor",
@@ -63,7 +63,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Solaris",
   "pais": "Italia",
   "universo": "Vela",
-  "hero": "modelos/solaris-55-hero.webp",
+  "hero": "modelos/solaris-44-hero.webp",
   "claim": "Carpintería italiana, líneas rápidas.",
   "intro": "Veleros italianos de alto rendimiento y acabado artesanal. Cruceros rápidos diseñados por Javier Soto Acebal, con teca y carbono.",
   "logo": "marcas-logo/solaris.png"
@@ -95,7 +95,7 @@ window.OCEANIC_MARCAS={
   "nombre": "XO Boats",
   "pais": "Finlandia",
   "universo": "Motor",
-  "hero": "modelos/xo-explr-44-hero.webp",
+  "hero": "modelos/xo-dscvr-9-t-top-hero.webp",
   "claim": "Aluminio para el agua fría.",
   "intro": "Lanchas de aluminio finlandesas para costa expuesta y aguas frías. Casco robusto, sin concesiones, para navegar donde otros no.",
   "logo": "marcas-logo/xo.png"
@@ -113,7 +113,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Excess",
   "pais": "Francia",
   "universo": "Vela",
-  "hero": "modelos/excess-11-hero.webp",
+  "hero": "modelos/excess-14-hero.webp",
   "claim": "El catamarán que rompe los códigos.",
   "intro": "Catamaranes de crucero de estilo refinado y diseño ingenioso, pensados para los navegantes que buscan emoción y sensaciones de vela sin renunciar al confort a bordo.",
   "logo": "marcas-logo/excess.svg"

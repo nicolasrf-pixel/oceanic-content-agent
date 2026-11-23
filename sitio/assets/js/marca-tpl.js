@@ -36,6 +36,25 @@
     '<a href="#gama" class="btn btn-line">Ver la gama</a></div>'+
     '</div></header>';
 
+  // El barco siempre a la derecha (el texto va a la izquierda): al cargar la foto se mide dónde está el motivo
+  // (energía de bordes por columna, sin cielo ni agua lisa) y se corre el encuadre para dejarlo en ~72 % del ancho.
+  function centrarHero(){
+    var el=cont.querySelector('.mk-hero'); if(!el) return;
+    var im=new Image(); im.onload=function(){ try{
+      var iw=im.naturalWidth, ih=im.naturalHeight, bw=el.clientWidth, bh=el.clientHeight;
+      var esc=Math.max(bw/iw,bh/ih), sw=iw*esc, ov=sw-bw; if(ov<8||bw<=820) return;
+      var W=240, H=Math.max(1,Math.round(W*ih/iw)), c=document.createElement('canvas'); c.width=W; c.height=H;
+      var x=c.getContext('2d'); x.drawImage(im,0,0,W,H); var d=x.getImageData(0,0,W,H).data, col=new Array(W).fill(0);
+      var y0=Math.round(H*.12), y1=Math.round(H*.88);
+      function L(i,j){var k=(j*W+i)*4;return d[k]*.3+d[k+1]*.59+d[k+2]*.11;}
+      for(var j=y0;j<y1;j++)for(var i=1;i<W-1;i++){var gx=L(i+1,j)-L(i-1,j),gy=L(i,j+1)-L(i,j-1);col[i]+=Math.sqrt(gx*gx+gy*gy);}
+      var tot=col.reduce(function(a,b){return a+b;},0); if(!tot) return;
+      var acc=0,m=0; for(var i=0;i<W;i++){acc+=col[i]; if(acc>=tot/2){m=i;break;}}
+      var pos=(m/W*sw-.72*bw)/ov; pos=Math.max(0,Math.min(1,pos));
+      el.style.setProperty('--mk-x',Math.round(pos*100)+'%');
+    }catch(e){} };
+    im.src=heroImg;
+  }
   // Todas las portadas de marca usan el mismo diseño (foto a la derecha, a todo el alto); las fotos se eligen grandes
   // (marcas-info.js · hero) para que no se vean pixeladas.
 
@@ -145,7 +164,7 @@
     '<div class="talk-cta"><a href="'+mailto+'" class="btn">Solicitar información</a>'+
     '<a href="'+wa+'" target="_blank" rel="noopener" class="btn btn-line">Escribir por WhatsApp</a></div></div></section>';
 
-  cont.innerHTML=hero+relato+gama+cierre;
+  cont.innerHTML=hero+relato+gama+cierre; centrarHero();
 
 })();
 
