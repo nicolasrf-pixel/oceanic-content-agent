@@ -4,10 +4,10 @@
   padding-top:clamp(12px,1.4vw,20px)}
 .b-h1{font-family:var(--display);font-weight:700;letter-spacing:-.025em;line-height:1;
   font-size:clamp(34px,4vw,72px);margin:0}
-.b-sub{font-family:var(--dato);font-size:clamp(13px,.3vw + 11px,15px);letter-spacing:.04em;
+.b-sub{font-family:var(--dato);font-size:clamp(14px,.3vw + 11px,15px);letter-spacing:.04em;
   color:var(--trabajo);margin:clamp(12px,1.2vw,18px) 0 0}
 .b-price{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
-.b-tag{font-family:var(--dato);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;padding:5px 11px;color:#fff}
+.b-tag{font-family:var(--dato);font-size:14px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;padding:5px 11px;color:#fff}
 .b-res{background:var(--boya)}.b-vend{background:var(--trabajo)}
 .b-price-n{font-family:var(--display);font-weight:700;font-size:clamp(26px,2vw,40px);color:var(--tinta);letter-spacing:-.02em}
 
@@ -42,7 +42,7 @@
 .b-spec-grid>div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;
   border-bottom:1px solid rgba(20,33,43,.1)}
 .b-spec-grid>div:last-child{border-bottom:0}
-.b-spec-grid dt{font-family:var(--dato);font-size:12px;letter-spacing:.04em;color:var(--trabajo);margin:0}
+.b-spec-grid dt{font-family:var(--dato);font-size:14px;letter-spacing:.04em;color:var(--trabajo);margin:0}
 .b-spec-grid dd{font-family:var(--display);font-weight:500;font-size:14px;color:var(--tinta);margin:0;text-align:right}
 
 /* galería: placeholder sin foto */

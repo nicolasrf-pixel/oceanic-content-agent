@@ -144,9 +144,9 @@ label.consent a{color:var(--tinta)}
 .spec2-largas{border-top:0}
 .sp2{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:clamp(13px,1.1vw,17px) 2px;
   border-bottom:1px solid rgba(203,92,60,.3)}
-.sp2-l{font-family:var(--dato);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--trabajo);flex:0 0 auto;max-width:55%}
+.sp2-l{font-family:var(--dato);font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--trabajo);flex:0 0 auto;max-width:55%}
 .sp2-v{font-family:var(--display);font-weight:600;font-size:clamp(15px,.3vw + 13px,17px);color:var(--tinta);text-align:right}
-.sp2-v i{display:block;font-style:normal;font-family:var(--texto);font-weight:400;font-size:12.5px;color:var(--trabajo);margin-top:2px}
+.sp2-v i{display:block;font-style:normal;font-family:var(--texto);font-weight:400;font-size:14px;color:var(--trabajo);margin-top:2px}
 .spec2-largas .sp2{display:grid;grid-template-columns:minmax(150px,220px) 1fr;align-items:start}
 .spec2-largas .sp2-v{text-align:left;font-weight:500;line-height:1.5}
 .spec2 .spec-fuente{text-align:center;margin-left:auto;margin-right:auto}
@@ -212,3 +212,4 @@ label.consent a{color:var(--tinta)}
 #nav{min-height:109px}
 @media(min-width:821px){#nav{min-height:144px}}
 @media(min-width:1200px){#nav{min-height:clamp(116px,calc(70px + 3.9vw),147px)}}
+html,body{overflow-x:clip}

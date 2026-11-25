@@ -1,6 +1,6 @@
 /* Oceanic — Contacto */
 .chero{background:var(--noche);color:#fff;padding:clamp(90px,11vw,150px) 0 clamp(50px,6vw,90px)}
-.chero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+.chero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:14px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--niebla);margin-bottom:clamp(16px,1.6vw,26px)}
 .chero .crumb a{color:var(--niebla);text-decoration:none}.chero .crumb a:hover{color:#fff}
 .chero-h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:.98;
@@ -16,7 +16,7 @@
 .crow{display:grid;gap:clamp(18px,2vw,28px);margin-bottom:clamp(18px,2vw,28px)}
 @media(min-width:600px){.crow{grid-template-columns:1fr 1fr}}
 .cfield{display:flex;flex-direction:column}
-.cfield label{font-family:var(--dato);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+.cfield label{font-family:var(--dato);font-size:14px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--trabajo);margin-bottom:8px}
 .cfield .opt{text-transform:none;letter-spacing:0;color:var(--niebla)}
 .cfield input,.cfield select,.cform textarea{font-family:var(--texto);font-size:17px;color:var(--tinta);
@@ -30,7 +30,7 @@
 .ccheck input{margin-top:4px;accent-color:var(--boya);width:16px;height:16px;flex:0 0 auto}
 .ccheck span{font-family:var(--texto);font-size:15px;line-height:1.5;color:var(--trabajo);font-weight:300}
 .cfoot{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px}
-.cnote{font-family:var(--dato);font-size:12px;color:var(--niebla)}
+.cnote{font-family:var(--dato);font-size:14px;color:var(--niebla)}
 
 .cok{padding:clamp(30px,4vw,50px);background:var(--arena);text-align:left}
 .cok-mark{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;

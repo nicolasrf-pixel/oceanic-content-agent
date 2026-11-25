@@ -113,6 +113,10 @@ def modelo(marca, slug, previas=None):
     return entrada, galeria, fotos
 
 
+_REP = Path(__file__).resolve().parent / 'fotos-repetidas.json'
+REPETIDAS = json.loads(_REP.read_text(encoding='utf8')) if _REP.exists() else {}
+
+
 def propia(destino, slug):
     """Foto de este modelo y no de otro cuyo slug empieza igual (first-14 / first-14-se)."""
     return re.fullmatch(rf'modelos/{re.escape(slug)}-(hero|g\d+)\.webp', destino) is not None
@@ -129,6 +133,11 @@ def main(marca, slugs):
                 previas.setdefault(f[1].split('?')[0], f)
                 previas.setdefault(f[2].split('?')[0], f)
         entrada, galeria, fotos = modelo(marca, slug, previas)
+        # fotos repetidas dentro del modelo (tools/sitio_dedup.py): no vuelven a la galería al regenerar
+        rep = set(REPETIDAS.get(f'{marca}/{slug}', []))
+        if rep:
+            galeria = {c: [f for f in l if f not in rep] for c, l in galeria.items()}
+            galeria = {c: l for c, l in galeria.items() if l}
         L = cat[marca]['modelos']
         i = next((k for k, x in enumerate(L) if x['slug'] == slug), None)
         if i is None:

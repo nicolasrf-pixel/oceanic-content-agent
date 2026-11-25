@@ -1,6 +1,6 @@
 /* Oceanic — Puerto (archivo del newsletter) */
 .phero{background:var(--noche);color:#fff;padding:clamp(90px,11vw,150px) 0 clamp(44px,5vw,80px)}
-.phero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+.phero .crumb{display:flex;gap:10px;font-family:var(--dato);font-size:14px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--niebla);margin-bottom:clamp(16px,1.6vw,26px)}
 .phero .crumb a{color:var(--niebla);text-decoration:none}.phero .crumb a:hover{color:#fff}
 .phero-h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:.95;
@@ -17,7 +17,7 @@
 .pfeat-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.5s cubic-bezier(.16,.84,.34,1)}
 .pfeat-card:hover .pfeat-img img{transform:scale(1.03)}
 .pfeat-body{padding-top:clamp(22px,2.4vw,36px);max-width:70ch}
-.pfeat-tag{display:inline-block;font-family:var(--dato);font-size:11px;letter-spacing:.16em;
+.pfeat-tag{display:inline-block;font-family:var(--dato);font-size:14px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--boya);margin-bottom:14px}
 .pfeat-body h2{color:#fff;font-family:var(--display);font-weight:700;letter-spacing:-.02em;
   font-size:clamp(28px,3vw,56px);line-height:1.02;margin:0 0 .35em}
@@ -38,7 +38,7 @@
 .ped-img{overflow:hidden;aspect-ratio:4/3;margin-bottom:16px;background:var(--trabajo)}
 .ped-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.3s cubic-bezier(.16,.84,.34,1)}
 .ped:hover .ped-img img{transform:scale(1.04)}
-.ped-date{display:block;font-family:var(--dato);font-size:11px;letter-spacing:.14em;
+.ped-date{display:block;font-family:var(--dato);font-size:14px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--boya);margin-bottom:9px}
 .ped h3{font-family:var(--display);font-weight:600;letter-spacing:-.012em;
   font-size:clamp(20px,.8vw+15px,27px);line-height:1.1;margin:0 0 .4em;transition:color .3s}
@@ -60,7 +60,7 @@
 .psub-ok{font-family:var(--texto);font-size:18px;color:var(--tinta);margin:0}
 
 .parch-lede{max-width:56ch;margin:12px 0 0}
-.parch-more{font-family:var(--dato);font-size:12px;letter-spacing:.04em;color:var(--niebla);
+.parch-more{font-family:var(--dato);font-size:14px;letter-spacing:.04em;color:var(--niebla);
   margin:clamp(30px,4vw,56px) 0 0;text-align:center}
 
 /* ===== Puerto v2 (ediciones desde data) ===== */
@@ -94,7 +94,7 @@
 .ped-portada img{width:100%;aspect-ratio:16/8;object-fit:cover;display:block}
 .pbloques{background:var(--papel);padding:clamp(40px,5vw,80px) 0 var(--rhythm)}
 .pnot{max-width:760px;margin:0 auto clamp(56px,6vw,96px);padding-bottom:clamp(40px,4vw,64px);border-bottom:1px solid rgba(20,33,43,.12)}
-.pnot-tag{display:block;font-family:var(--dato);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--boya);margin-bottom:12px}
+.pnot-tag{display:block;font-family:var(--dato);font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--boya);margin-bottom:12px}
 .pnot-h{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(28px,2.6vw,48px);line-height:1.04;margin:0 0 .4em;color:var(--tinta)}
 .pnot-baj{font-family:var(--texto);font-style:italic;font-weight:300;font-size:clamp(18px,.5vw+15px,22px);line-height:1.5;color:var(--trabajo);margin:0 0 1em}
 .pnot-p{font-family:var(--texto);font-weight:300;font-size:clamp(16px,.3vw+14px,18px);line-height:1.65;color:var(--tinta);margin:0 0 1em}
@@ -103,10 +103,10 @@
 .pnot-gal img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
 .pnot-specs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1px;background:rgba(20,33,43,.12);margin:24px 0}
 .pnot-specs div{background:var(--papel);padding:14px 16px}
-.pnot-specs dt{font-family:var(--dato);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--niebla)}
+.pnot-specs dt{font-family:var(--dato);font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--niebla)}
 .pnot-specs dd{margin:4px 0 0;font-family:var(--display);font-weight:600;font-size:20px;color:var(--tinta)}
 .pnot-ev{border-left:3px solid var(--boya);padding:6px 0 6px 18px;margin:24px 0;display:flex;flex-wrap:wrap;gap:4px 16px}
-.pnot-ev b{font-family:var(--display);color:var(--tinta)}.pnot-ev span{font-family:var(--dato);font-size:13px;color:var(--trabajo)}
+.pnot-ev b{font-family:var(--display);color:var(--tinta)}.pnot-ev span{font-family:var(--dato);font-size:14px;color:var(--trabajo)}
 .pnot-ev p{flex-basis:100%;margin:6px 0 0;font-weight:300;color:var(--trabajo)}
 .pnot-cta{margin-top:12px;display:inline-block}
 .pguia-pasos{list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:22px}
@@ -119,7 +119,7 @@
 
 /* Ediciones completas: foto principal, logo, índice y guía con subtítulos */
 .ped-indice{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:clamp(28px,3vw,44px);margin-bottom:clamp(8px,1vw,16px)}
-.ped-indice span{font-family:var(--dato);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-right:6px}
+.ped-indice span{font-family:var(--dato);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-right:6px}
 .ped-indice a{font-family:var(--display);font-weight:500;font-size:14px;color:var(--tinta);text-decoration:none;padding:8px 14px;border:1px solid var(--linea);background:var(--papel);transition:border-color .2s,color .2s}
 .ped-indice a:hover{border-color:var(--boya);color:var(--boya)}
 .pnot{scroll-margin-top:96px}
@@ -132,7 +132,7 @@
 .pnot-foto-lado img{aspect-ratio:auto;max-height:620px;object-fit:contain;background:var(--arena)}
 .pnot-logo{display:block;height:auto;width:auto;max-height:30px;max-width:180px;margin-bottom:16px}
 .pguia-t{display:block}
-.pguia-sub{display:block;font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--niebla);margin-top:4px}
+.pguia-sub{display:block;font-family:var(--dato);font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--niebla);margin-top:4px}
 .pguia-pasos ul li{margin:6px 0}
 .pguia-pasos ul b{color:var(--tinta);font-weight:600}
 .pnot-specs dd{font-size:16px;line-height:1.4}
@@ -160,16 +160,16 @@
 .ped2-img.ped2-tapa img{object-fit:cover!important;padding:0;max-width:340px;margin:0 auto}
 .ped2-body{padding:16px 18px 20px!important}
 .ped2-res{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:14px!important}
-.ped2-n{display:block;margin-top:10px;font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--boya)}
+.ped2-n{display:block;margin-top:10px;font-family:var(--dato);font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--boya)}
 .pnot-vids{display:grid;gap:10px;margin:22px 0}
 .pnot-vid,.pnot-vid-on{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;background:#0b141a;cursor:pointer;overflow:hidden}
 .pnot-vid img{width:100%;height:100%;object-fit:cover;opacity:.75;display:block}
 .pnot-play{position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:rgba(203,92,60,.95)}
 .pnot-play::after{content:"";position:absolute;left:26px;top:20px;border-style:solid;border-width:12px 0 12px 18px;border-color:transparent transparent transparent #fff}
-.pnot-vid-et{position:absolute;left:14px;bottom:12px;font-family:var(--dato);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#fff}
+.pnot-vid-et{position:absolute;left:14px;bottom:12px;font-family:var(--dato);font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:#fff}
 .pnot-vid-on{border:0}
 .pnot-fichas{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:18px 0 6px}
-.pnot-fichas span{font-family:var(--dato);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--niebla)}
+.pnot-fichas span{font-family:var(--dato);font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--niebla)}
 .pnot-fichas a{font-family:var(--display);font-weight:600;font-size:15px;color:var(--boya);text-decoration:none;border-bottom:1px solid rgba(203,92,60,.35)}
 .pnot-fichas a:hover{border-bottom-color:var(--boya)}
 .pfeat2-img.pfeat2-tapa{aspect-ratio:auto;overflow:visible;box-shadow:none}

@@ -29,7 +29,7 @@ window.OCEANIC_MARCAS={
    "motor": {
     "nombre": "Beneteau Motor",
     "universo": "Motor",
-    "hero": "modelos/gran-turismo-35-g8.webp",
+    "hero": "modelos/antares-11-coupe-g7.webp",
     "claim": "Lanchas y cruceros a motor con el sello Beneteau.",
     "intro": "Antares, Flyer, Gran Turismo, Swift Trawler y Grand Trawler: del day boat al trawler de travesía."
    }

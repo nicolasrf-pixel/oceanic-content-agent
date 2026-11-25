@@ -13,7 +13,7 @@
    - Cualquier modelo que el cliente no quiera publicar se agrega aquí con su motivo. */
 window.OCEANIC_PUBLICACION = /*DATOS*/{
   "destacados": [
-    "axopar/axopar-37-xc-cross-cabin",
+    "axopar/axopar-38-xc-cross-cabin",
     "beneteau/oceanis-34-1",
     "lagoon/lagoon-42-millenium"
   ],
