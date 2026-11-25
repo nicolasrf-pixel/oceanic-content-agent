@@ -486,7 +486,7 @@ textarea{resize:vertical;min-height:88px;line-height:1.55}
    Al encender (noche) el canal se llena de naranja; las etiquetas Día y Noche se iluminan según el modo activo. */
 .tema-btn{display:inline-flex;align-items:center;gap:10px;position:relative;margin:0;padding:2px 0;border:0;background:none;color:var(--natural);cursor:pointer;flex:0 0 auto;-webkit-tap-highlight-color:transparent}
 .tema-btn:focus-visible{outline:2px solid var(--boya);outline-offset:4px;border-radius:999px}
-.tsw-eti{display:none;font-family:var(--dato);font-size:14px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(232,235,237,.4);transition:color .3s}
+.tsw-eti{display:none;font-family:var(--dato);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(232,235,237,.4);transition:color .3s}
 @media (min-width:1500px){.tsw-eti{display:inline}}
 .tema-btn:not(.es-oscuro) .tsw-dia,.tema-btn.es-oscuro .tsw-noche{color:#fff}
 .tsw-pista{position:relative;display:block;width:68px;height:34px;border-radius:999px;background:linear-gradient(#222f39,#161f27);border:1px solid rgba(255,255,255,.2);
@@ -602,7 +602,7 @@ section.o-banda{background-color:var(--banda)!important}
 .drawer .drawer-redes a{padding:0;border:1px solid var(--linea-osc);font-size:0}
 
 /* Barra superior naranja (dirección, teléfono, redes) y menú azul sólido */
-.topbar{background:#B8502F;color:#fff;font-family:var(--dato);font-size:14px;letter-spacing:.06em;position:relative;z-index:61}
+.topbar{background:#B8502F;color:#fff;font-family:var(--dato);font-size:12px;letter-spacing:.06em;position:relative;z-index:61}
 .topbar-in{max-width:var(--max-wide);margin:0 auto;padding:0 var(--gut);height:36px;display:flex;align-items:center;gap:22px}
 .topbar a{color:#fff;text-decoration:none}
 .topbar a:hover{text-decoration:underline}
