@@ -6,7 +6,7 @@ window.OCEANIC_MARCAS={
   "nombre": "Axopar",
   "pais": "Finlandia",
   "universo": "Motor",
-  "hero": "modelos/axopar-38-xc-cross-cabin-g4.webp",
+  "hero": "modelos/axopar-38-xc-cross-cabin-g28.webp",
   "claim": "Diseñados donde el mar no perdona.",
   "intro": "Un astillero finlandés que rediseñó el barco a motor. Casco de doble step, cabina cerrada y la eficiencia para usarlo todo el año.",
   "logo": "marcas-logo/axopar.svg"
